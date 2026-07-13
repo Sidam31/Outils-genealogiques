@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisuGedcom Ultimate - Zoom & Layout Fix</title>
     <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
     <style>
         :root { --bg: #ffffff; --text: #333; --border: #ddd; --accent: #2c3e50; }
         body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); color: var(--text); height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
@@ -59,27 +61,51 @@
         text.gen-4, text.gen-5 { font-size: 7px; }
         text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 
-        /* QUALITY PANEL */
-        #qualityPanel { flex: 1; overflow-y: auto; padding: 20px 30px; background: #f4f4f9; }
-        #qualityPanel.hidden { display: none; }
+        /* SHARED TAB PANEL (Quality + Maps) */
+        .tab-panel { flex: 1; overflow-y: auto; padding: 20px 30px; background: #f4f4f9; }
         .quality-container { max-width: 950px; margin: 0 auto; }
         .quality-intro { text-align: center; color: #555; }
-        #qualityPanel .options-panel { background: #ecf0f1; padding: 20px; border-radius: 5px; margin-bottom: 20px; border: 1px solid #bdc3c7; }
-        #qualityPanel .checkbox-group { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 15px; }
-        #qualityPanel .checkbox-group label { cursor: pointer; font-weight: 500; display: flex; align-items: center; gap: 6px; }
-        #qualityPanel .age-filter-container { background: #dfe6e9; padding: 10px; border-radius: 4px; text-align: center; margin-top: 10px; font-size: 0.95em; }
-        #qualityPanel .age-filter-container input { padding: 5px; border: 1px solid #bdc3c7; border-radius: 4px; width: 60px; text-align: center; }
-        #qualityPanel .hint { font-size: 0.85em; color: #7f8c8d; font-style: italic; margin-top: 5px; }
-        #qualityPanel .controls { display: flex; gap: 15px; margin: 20px 0; align-items: center; justify-content: center; flex-wrap: wrap; }
-        #qualityPanel button { background-color: #3498db; color: #fff; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 15px; font-weight: normal; transition: background 0.3s; }
-        #qualityPanel button:hover { background-color: #2980b9; }
-        #qualityPanel button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
-        #qualityPanel button.secondary { background-color: #27ae60; }
-        #qualityPanel button.secondary:hover { background-color: #219150; }
+        .tab-panel .options-panel { background: #ecf0f1; padding: 20px; border-radius: 5px; margin-bottom: 20px; border: 1px solid #bdc3c7; }
+        .tab-panel .checkbox-group { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 15px; }
+        .tab-panel .checkbox-group label { cursor: pointer; font-weight: 500; display: flex; align-items: center; gap: 6px; }
+        .tab-panel .age-filter-container { background: #dfe6e9; padding: 10px; border-radius: 4px; text-align: center; margin-top: 10px; font-size: 0.95em; }
+        .tab-panel .age-filter-container input { padding: 5px; border: 1px solid #bdc3c7; border-radius: 4px; width: 60px; text-align: center; }
+        .tab-panel .hint { font-size: 0.85em; color: #7f8c8d; font-style: italic; margin-top: 5px; }
+        .tab-panel .controls { display: flex; gap: 15px; margin: 20px 0; align-items: center; justify-content: center; flex-wrap: wrap; }
+        .tab-panel button { background-color: #3498db; color: #fff; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 15px; font-weight: normal; transition: background 0.3s; }
+        .tab-panel button:hover { background-color: #2980b9; }
+        .tab-panel button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
+        .tab-panel button.secondary { background-color: #27ae60; }
+        .tab-panel button.secondary:hover { background-color: #219150; }
         #qualityStatus { margin: 15px 0; font-weight: bold; text-align: center; min-height: 20px; }
-        #qualityPanel table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 14px; background: #fff; }
-        #qualityPanel th, #qualityPanel td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
-        #qualityPanel th { background-color: #f8f9fa; border-top: 2px solid #ddd; }
+        .tab-panel table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 14px; background: #fff; }
+        .tab-panel th, .tab-panel td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
+        .tab-panel th { background-color: #f8f9fa; border-top: 2px solid #ddd; }
+
+        /* MAPS PANEL FILTERS */
+        .map-scope-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; justify-content: center; margin-top: 10px; padding-top: 12px; border-top: 1px solid #bdc3c7; }
+        .map-scope-row label { font-weight: 500; cursor: pointer; }
+        .map-scope-row .ctrl { position: relative; }
+        .map-scope-row input[type="text"] { min-width: 220px; }
+        #mapPersonResults { position: absolute; top: 100%; left: 0; width: 260px; background: white; border: 1px solid #ccc; max-height: 260px; overflow-y: auto; list-style: none; padding: 0; margin: 0; z-index: 100; display: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        #mapPersonResults li { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 0.85rem; }
+        #mapPersonResults li:hover { background: #eef; }
+        .map-person-selected { font-weight: 600; color: var(--accent); font-size: 0.85rem; }
+
+        /* WORLD MAP (MapLibre GL) */
+        #worldMapChart { height: 340px; position: relative; }
+        .maplibregl-popup-content { font-size: 0.8rem; padding: 8px 10px; }
+
+        /* CHART BOX ACTIONS + ZOOM RESET */
+        .chart-box-actions { position: absolute; right: 0; top: 50%; transform: translateY(-50%); display: flex; gap: 6px; }
+        .chart-box-actions .chart-copy-btn { position: static; transform: none; }
+        .chart-zoom-reset-btn { background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 3px 7px; cursor: pointer; font-size: 0.85rem; line-height: 1; }
+        .chart-zoom-reset-btn:hover { background: #eef; }
+
+        /* DECADE SLIDER */
+        .decade-slider-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; padding: 0 10px; }
+        .decade-slider-row input[type="range"] { flex: 1; }
+        .decade-slider-row span { font-weight: 600; color: var(--accent); font-size: 0.85rem; min-width: 110px; text-align: right; }
         .tag-missing { color: #e74c3c; font-weight: bold; }
         .date-empty { color: #f39c12; font-weight: bold; }
         .hidden { display: none; }
@@ -91,7 +117,13 @@
         .evt-BAPM { background-color: #16a085; }
         .quality-charts { display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0; }
         .quality-chart-box { flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 12px; }
-        .quality-chart-box h3 { margin: 0 0 8px; font-size: 0.95rem; color: var(--accent); text-align: center; }
+        .quality-chart-box h3 { margin: 0; font-size: 0.95rem; color: var(--accent); text-align: center; }
+
+        /* CHART HEADERS + COPY-TO-CLIPBOARD */
+        .chart-box-header { display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 8px; }
+        .chart-copy-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 3px 7px; cursor: pointer; font-size: 0.85rem; line-height: 1; }
+        .chart-copy-btn:hover { background: #eef; }
+        .map-placeholder { color: #999; text-align: center; padding: 40px 10px; font-size: 0.9em; }
     </style>
 </head>
 <body>
@@ -99,7 +131,8 @@
 <header>
     <h1>🔎 VisuGedcom</h1>
     <div class="ctrl">
-        <button id="tabVizBtn" class="tab-btn active">📊 Visualisation</button>
+        <button id="tabTreeBtn" class="tab-btn active">🌳 Arbre éventail</button>
+        <button id="tabMapsBtn" class="tab-btn">📊 Visualisation</button>
         <button id="tabQualityBtn" class="tab-btn">🔍 Analyse Qualité</button>
     </div>
     <input type="file" id="fileInput" accept=".ged">
@@ -152,7 +185,83 @@
     </div>
 </div>
 
-<div id="qualityPanel" class="hidden">
+<div id="mapsPanel" class="tab-panel hidden">
+    <div class="quality-container">
+        <p class="quality-intro">Répartition géographique et démographie des individus du fichier chargé.</p>
+
+        <div class="options-panel">
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
+                <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
+                <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
+            </div>
+            <div class="hint" style="text-align:center;">S'applique aux deux cartes ci-dessous.</div>
+            <div class="map-scope-row">
+                <label for="mapAncestorOnly"><input type="checkbox" id="mapAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="mapPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="mapPersonResults"></ul>
+                </div>
+                <span id="mapPersonSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Carte du monde</h3>
+                    <div class="chart-box-actions">
+                        <button class="chart-zoom-reset-btn" id="worldMapResetBtn" title="Réinitialiser le zoom">🏠</button>
+                        <button class="chart-copy-btn" data-target="worldMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                </div>
+                <div id="worldMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Carte de France (départements)</h3>
+                    <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+            </div>
+        </div>
+
+        <p class="quality-intro" style="margin-top:32px;">Démographie sur l'ensemble du fichier chargé (indépendant des filtres ci-dessus).</p>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box" style="flex-basis: 100%;">
+                <div class="chart-box-header">
+                    <h3>Pyramide des âges au décès</h3>
+                    <button class="chart-copy-btn" data-target="ageChartPyramid" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div class="decade-slider-row">
+                    <input type="range" id="pyramidDecadeSlider" min="0" max="0" value="0" disabled>
+                    <span id="pyramidDecadeLabel">Toutes périodes</span>
+                </div>
+                <div id="ageChartPyramid"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+        </div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Âge moyen au décès par décennie</h3>
+                    <button class="chart-copy-btn" data-target="ageChartDeathTrend" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="ageChartDeathTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Âge moyen au 1er enfant par décennie (H/F)</h3>
+                    <button class="chart-copy-btn" data-target="ageChartFirstChildTrend" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="ageChartFirstChildTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="qualityPanel" class="tab-panel hidden">
     <div class="quality-container">
         <p class="quality-intro">Détectez les événements manquants ou sans date dans votre généalogie (utilisez le même fichier chargé en haut de page).</p>
 
@@ -186,11 +295,17 @@
 
         <div class="quality-charts">
             <div class="quality-chart-box">
-                <h3>Problèmes par type d'événement</h3>
+                <div class="chart-box-header">
+                    <h3>Problèmes par type d'événement</h3>
+                    <button class="chart-copy-btn" data-target="qualityBarChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
                 <div id="qualityBarChart"></div>
             </div>
             <div class="quality-chart-box">
-                <h3>Problèmes par décennie de naissance</h3>
+                <div class="chart-box-header">
+                    <h3>Problèmes par décennie de naissance</h3>
+                    <button class="chart-copy-btn" data-target="qualityTimelineChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
                 <div id="qualityTimelineChart"></div>
             </div>
         </div>
@@ -225,6 +340,46 @@ const GEO = {
     countryMap: {"france":"France","belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","suisse":"Suisse","switzerland":"Suisse","allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne","italie":"Italie","italy":"Italie","italia":"Italie","espagne":"Espagne","spain":"Espagne","espana":"Espagne","usa":"USA","états-unis":"USA","united states":"USA","uk":"Royaume-Uni","united kingdom":"Royaume-Uni","angleterre":"Royaume-Uni","england":"Royaume-Uni","canada":"Canada","québec":"Canada","algérie":"Algérie","maroc":"Maroc","tunisie":"Tunisie","andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg"}
 };
 for(let [k,v] of Object.entries(GEO.deptNames)) GEO.deptLabels[v] = k.charAt(0).toUpperCase() + k.slice(1);
+
+// Correspondance libellé pays (tel que produit par GEO.countryMap) -> centroïde approximatif [lng, lat],
+// utilisé pour positionner les points de la heatmap MapLibre de la carte du monde.
+GEO.countryCentroids = {
+    "France": [2.5, 46.6], "Belgique": [4.5, 50.6], "Suisse": [8.2, 46.8], "Allemagne": [10.4, 51.2],
+    "Italie": [12.6, 41.9], "Espagne": [-3.7, 40.3], "USA": [-98.6, 39.8], "Royaume-Uni": [-1.5, 52.9],
+    "Canada": [-106.3, 56.1], "Algérie": [2.6, 28.2], "Maroc": [-7.1, 31.8], "Tunisie": [9.5, 33.9],
+    "Andorre": [1.6, 42.5], "Luxembourg": [6.1, 49.6]
+};
+
+// Coordonnées [lng, lat] de la préfecture de chaque département français, utilisées pour positionner
+// les points de la heatmap du monde avec une résolution plus fine que le simple centroïde du pays.
+GEO.deptCentroids = {
+    "01":[5.2265,46.2058], "02":[3.6229,49.5642], "03":[3.3327,46.5606], "04":[6.2356,44.0919],
+    "05":[6.0679,44.5594], "06":[7.2620,43.7102], "07":[4.5975,44.7355], "08":[4.7167,49.7739],
+    "09":[1.6052,42.9647], "10":[4.0744,48.2973], "11":[2.3499,43.2130], "12":[2.5744,44.3506],
+    "13":[5.3698,43.2965], "14":[-0.3707,49.1829], "15":[2.4453,44.9282], "16":[0.1558,45.6486],
+    "17":[-1.1511,46.1603], "18":[2.3966,47.0810], "19":[1.7716,45.2652], "2A":[8.7369,41.9192],
+    "2B":[9.4500,42.6976], "21":[5.0415,47.3220], "22":[-2.7639,48.5142], "23":[1.8686,46.1667],
+    "24":[0.7211,45.1848], "25":[6.0241,47.2378], "26":[4.8912,44.9334], "27":[1.1510,49.0245],
+    "28":[1.4900,48.4469], "29":[-4.0972,47.9960], "30":[4.3600,43.8367], "31":[1.4442,43.6047],
+    "32":[0.5847,43.6455], "33":[-0.5792,44.8378], "34":[3.8767,43.6108], "35":[-1.6778,48.1173],
+    "36":[1.6961,46.8106], "37":[0.6848,47.3941], "38":[5.7245,45.1885], "39":[5.5510,46.6739],
+    "40":[-0.4986,43.8905], "41":[1.3359,47.5861], "42":[4.3872,45.4397], "43":[3.8850,45.0430],
+    "44":[-1.5534,47.2184], "45":[1.9039,47.9029], "46":[1.4442,44.4479], "47":[0.6218,44.2019],
+    "48":[3.5000,44.5183], "49":[-0.5632,47.4784], "50":[-1.0899,49.1146], "51":[4.3656,48.9558],
+    "52":[5.1391,48.1113], "53":[-0.7708,48.0698], "54":[6.1844,48.6921], "55":[5.1608,48.7706],
+    "56":[-2.7600,47.6582], "57":[6.1757,49.1193], "58":[3.1573,46.9896], "59":[3.0573,50.6292],
+    "60":[2.0844,49.4295], "61":[0.0916,48.4304], "62":[2.7772,50.2910], "63":[3.0870,45.7772],
+    "64":[-0.3697,43.2951], "65":[0.0781,43.2327], "66":[2.8954,42.6886], "67":[7.7521,48.5734],
+    "68":[7.3581,48.0794], "69":[4.8357,45.7640], "70":[6.1541,47.6236], "71":[4.8300,46.3069],
+    "72":[0.1996,48.0061], "73":[5.9178,45.5646], "74":[6.1294,45.8992], "75":[2.3522,48.8566],
+    "76":[1.0993,49.4431], "77":[2.6597,48.5388], "78":[2.1301,48.8014], "79":[-0.4634,46.3231],
+    "80":[2.2957,49.8942], "81":[2.1480,43.9298], "82":[1.3510,44.0181], "83":[5.9280,43.1242],
+    "84":[4.8059,43.9493], "85":[-1.4267,46.6705], "86":[0.3404,46.5802], "87":[1.2611,45.8336],
+    "88":[6.4483,48.1735], "89":[3.5730,47.7982], "90":[6.8637,47.6389], "91":[2.4297,48.6280],
+    "92":[2.2069,48.8924], "93":[2.4392,48.9083], "94":[2.4614,48.7904], "95":[2.0761,49.0362],
+    "971":[-61.7333,16.0000], "972":[-61.0667,14.6000], "973":[-52.3333,4.9333],
+    "974":[55.4500,-20.8789], "976":[45.1662,-12.7806]
+};
 
 // --- PARSER ---
 class GedcomParser {
@@ -265,6 +420,7 @@ class GedcomParser {
             if(t==='NAME') i.name=v.replace(/\//g,'');
             if(t==='FAMC') i.famc=this.clean(v);
             if(t==='FAMS') i.fams.push(this.clean(v));
+            if(t==='SEX') i.sex=v.trim().toUpperCase().charAt(0); // 'M' ou 'F' (ou 'U'/'X' selon la source)
             if(['BIRT','DEAT','BURI','BAPM','CHR'].includes(t)) {
                 const key = t==='CHR' ? 'BAPM' : t;
                 i.events[key].hasTag = true;
@@ -1140,17 +1296,608 @@ function drawIssuesTimeline(issues) {
         .attr('fill', '#e67e22');
 }
 
+// --- COPIE D'IMAGE DANS LE PRESSE-PAPIER ---
+// Copie un Blob PNG dans le presse-papier. Le Clipboard API n'est disponible qu'en contexte
+// sécurisé (https/localhost) : en local (file://) il bascule automatiquement sur un téléchargement.
+async function copyBlobOrDownload(blob, filename) {
+    if(!blob) throw new Error('Génération de l\'image échouée');
+    if(navigator.clipboard && window.ClipboardItem) {
+        try {
+            await navigator.clipboard.write([new ClipboardItem({ 'image/png': blob })]);
+            return 'copied';
+        } catch(err) {
+            // Permission refusée ou contexte non sécurisé : on bascule sur le téléchargement.
+        }
+    }
+    const dlUrl = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = dlUrl;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(dlUrl);
+    return 'downloaded';
+}
+
+// Sérialise un <svg> (graphiques D3) en PNG.
+async function copySvgAsPng(svgEl, filename) {
+    const width = svgEl.clientWidth || parseInt(svgEl.getAttribute('width')) || 500;
+    const height = svgEl.clientHeight || parseInt(svgEl.getAttribute('height')) || 300;
+    const clone = svgEl.cloneNode(true);
+    clone.setAttribute('xmlns', 'http://www.w3.org/2000/svg');
+    clone.setAttribute('width', width);
+    clone.setAttribute('height', height);
+    const svgString = new XMLSerializer().serializeToString(clone);
+    const svgBlob = new Blob([svgString], { type: 'image/svg+xml;charset=utf-8' });
+    const url = URL.createObjectURL(svgBlob);
+
+    const scale = 2;
+    const img = new Image();
+    try {
+        await new Promise((resolve, reject) => { img.onload = resolve; img.onerror = reject; img.src = url; });
+    } finally {
+        URL.revokeObjectURL(url);
+    }
+
+    const canvas = document.createElement('canvas');
+    canvas.width = width * scale;
+    canvas.height = height * scale;
+    const ctx = canvas.getContext('2d');
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+    const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+    return copyBlobOrDownload(blob, filename);
+}
+
+// Capture un <canvas> existant (ex: la carte MapLibre) en PNG.
+// Nécessite que le canvas ait été créé avec preserveDrawingBuffer:true (cas de la carte du monde).
+async function copyCanvasAsPng(canvasEl, filename) {
+    const blob = await new Promise(resolve => canvasEl.toBlob(resolve, 'image/png'));
+    return copyBlobOrDownload(blob, filename);
+}
+
+// Câble tous les boutons .chart-copy-btn présents sur la page (appelé une fois au chargement).
+// Détecte automatiquement si la cible est un graphique D3 (<svg>) ou une carte MapLibre (<canvas>).
+function wireCopyButtons() {
+    document.querySelectorAll('.chart-copy-btn').forEach(btn => {
+        btn.addEventListener('click', async () => {
+            const targetId = btn.dataset.target;
+            const target = document.getElementById(targetId);
+            const svg = target?.querySelector('svg');
+            const canvas = target?.querySelector('canvas');
+            if(!svg && !canvas) return;
+            const original = btn.textContent;
+            btn.disabled = true;
+            try {
+                const result = svg ? await copySvgAsPng(svg, `${targetId}.png`) : await copyCanvasAsPng(canvas, `${targetId}.png`);
+                btn.textContent = result === 'copied' ? '✅' : '⬇️';
+            } catch(err) {
+                console.error('Copie image échouée:', err);
+                btn.textContent = '⚠️';
+            }
+            setTimeout(() => { btn.textContent = original; btn.disabled = false; }, 1500);
+        });
+    });
+}
+
+// --- CARTES ---
+let franceGeoCache = null;
+
+async function ensureFranceGeo() {
+    if(!franceGeoCache) {
+        const res = await fetch('https://raw.githubusercontent.com/Sidam31/ICA-APHP/refs/heads/main/Data/data_carte.geojson');
+        franceGeoCache = await res.json();
+    }
+    return franceGeoCache;
+}
+
+// Remonte la lignée directe (père/mère) depuis rootId et renvoie la liste des identifiants (racine incluse).
+function getAncestorIds(individuals, rootId) {
+    const ids = [];
+    const seen = new Set();
+    function scan(id, depth) {
+        if(!id || depth > 15 || seen.has(id)) return;
+        seen.add(id);
+        ids.push(id);
+        const i = individuals.get(id);
+        if(!i) return;
+        scan(i.fatherId, depth + 1);
+        scan(i.motherId, depth + 1);
+    }
+    scan(rootId, 0);
+    return ids;
+}
+
+// Compte les lieux (pays / département) par type d'événement activé, pour un ensemble d'individus donné.
+function computeGeoCounts(scopeIds, individuals, eventFlags) {
+    const byCountry = {}, byDept = {};
+    // Points pour la heatmap du monde : résolution département (préfecture) pour la France
+    // quand on la connaît, sinon centroïde du pays. Clé -> { label, coords, count }.
+    const byWorldPoint = {};
+    const addPoint = (key, label, coords) => {
+        if(!coords) return;
+        if(!byWorldPoint[key]) byWorldPoint[key] = { label, coords, count: 0 };
+        byWorldPoint[key].count++;
+    };
+    const add = geo => {
+        if(!geo) return;
+        if(geo.country && geo.country !== 'Inconnu') byCountry[geo.country] = (byCountry[geo.country] || 0) + 1;
+        if(geo.dept) {
+            const code = geo.dept.split(' - ')[0];
+            byDept[code] = (byDept[code] || 0) + 1;
+            if(GEO.deptCentroids[code]) { addPoint('dept:' + code, geo.dept, GEO.deptCentroids[code]); return; }
+        }
+        if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country]);
+    };
+    scopeIds.forEach(id => {
+        const i = individuals.get(id);
+        if(!i) return;
+        if(eventFlags.BIRT) add(i.birth?.geo);
+        if(eventFlags.DEAT) add(i.death?.geo);
+        if(eventFlags.MARR) add(i.marrGeo);
+    });
+    return { byCountry, byDept, byWorldPoint };
+}
+
+// --- STATISTIQUES (pyramide des âges, tendances par décennie) ---
+function computeStats(values) {
+    const n = values.length;
+    if(n === 0) return { mean: null, std: null, n: 0 };
+    const mean = values.reduce((a, b) => a + b, 0) / n;
+    const variance = n > 1 ? values.reduce((a, b) => a + (b - mean) * (b - mean), 0) / (n - 1) : 0;
+    return { mean, std: Math.sqrt(variance), n };
+}
+function decadeOf(year) { return Math.floor(year / 10) * 10; }
+
+function showMapMessage(containerId, text, isError) {
+    d3.select(`#${containerId}`).html(`<div class="map-placeholder"${isError ? ' style="color:#c0392b"' : ''}>${text}</div>`);
+}
+
+// --- Carte du monde : heatmap MapLibre GL (WebGL), cf. exemple officiel MapLibre "heatmap-layer".
+// La carte elle-même n'est créée qu'une fois (coûteux : contexte WebGL) ; les appels suivants
+// se contentent de mettre à jour la source de données et l'échelle de poids/rayon.
+const WORLD_MAP_CENTER = [10, 40], WORLD_MAP_ZOOM = 1.2;
+let worldMap = null, worldMapLoadPromise = null, worldMapPopup = null;
+
+function ensureWorldMap() {
+    if(worldMapLoadPromise) return worldMapLoadPromise;
+    worldMapLoadPromise = new Promise((resolve, reject) => {
+        if(typeof maplibregl === 'undefined') { reject(new Error('maplibre-gl indisponible')); return; }
+        document.getElementById('worldMapChart').innerHTML = '';
+        try {
+            worldMap = new maplibregl.Map({
+                container: 'worldMapChart',
+                style: 'https://demotiles.maplibre.org/style.json',
+                center: WORLD_MAP_CENTER,
+                zoom: WORLD_MAP_ZOOM,
+                preserveDrawingBuffer: true // requis pour la copie d'image (canvas.toBlob)
+            });
+        } catch(err) { reject(err); return; }
+        worldMap.addControl(new maplibregl.NavigationControl(), 'top-right');
+        worldMap.on('load', () => {
+            worldMap.addSource('ancestors', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+            worldMap.addLayer({
+                id: 'ancestors-heat',
+                type: 'heatmap',
+                source: 'ancestors',
+                maxzoom: 9,
+                paint: {
+                    'heatmap-weight': ['interpolate', ['linear'], ['get', 'count'], 0, 0, 1, 1],
+                    'heatmap-intensity': ['interpolate', ['linear'], ['zoom'], 0, 1, 9, 3],
+                    'heatmap-color': [
+                        'interpolate', ['linear'], ['heatmap-density'],
+                        0, 'rgba(33,102,172,0)', 0.2, 'rgb(103,169,207)', 0.4, 'rgb(209,229,240)',
+                        0.6, 'rgb(253,219,199)', 0.8, 'rgb(239,138,98)', 1, 'rgb(178,24,43)'
+                    ],
+                    'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 0, 14, 9, 45],
+                    'heatmap-opacity': ['interpolate', ['linear'], ['zoom'], 7, 1, 9, 0]
+                }
+            });
+            worldMap.addLayer({
+                id: 'ancestors-point',
+                type: 'circle',
+                source: 'ancestors',
+                minzoom: 6,
+                paint: {
+                    'circle-radius': ['interpolate', ['linear'], ['get', 'count'], 1, 5, 50, 30],
+                    'circle-color': '#b2182b',
+                    'circle-stroke-color': 'white',
+                    'circle-stroke-width': 1,
+                    'circle-opacity': ['interpolate', ['linear'], ['zoom'], 6, 0, 7, 0.85]
+                }
+            });
+            worldMap.on('mouseenter', 'ancestors-point', e => {
+                worldMap.getCanvas().style.cursor = 'pointer';
+                const f = e.features[0];
+                worldMapPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false })
+                    .setLngLat(f.geometry.coordinates)
+                    .setHTML(`<strong>${f.properties.label}</strong><br>Occurrences&nbsp;: ${f.properties.count}`)
+                    .addTo(worldMap);
+            });
+            worldMap.on('mouseleave', 'ancestors-point', () => {
+                worldMap.getCanvas().style.cursor = '';
+                if(worldMapPopup) { worldMapPopup.remove(); worldMapPopup = null; }
+            });
+            const resetBtn = document.getElementById('worldMapResetBtn');
+            if(resetBtn) resetBtn.onclick = () => worldMap.flyTo({ center: WORLD_MAP_CENTER, zoom: WORLD_MAP_ZOOM });
+            resolve(worldMap);
+        });
+        worldMap.on('error', e => console.warn('MapLibre:', e?.error || e));
+    });
+    return worldMapLoadPromise;
+}
+
+async function drawWorldMap(byWorldPoint) {
+    const features = Object.values(byWorldPoint).map(p => ({
+        type: 'Feature',
+        properties: { label: p.label, count: p.count },
+        geometry: { type: 'Point', coordinates: p.coords }
+    }));
+    const maxCount = Math.max(1, ...features.map(f => f.properties.count));
+
+    let m;
+    try {
+        m = await ensureWorldMap();
+    } catch(err) {
+        showMapMessage('worldMapChart', 'Impossible de charger la carte du monde (connexion internet requise).', true);
+        return;
+    }
+    m.getSource('ancestors').setData({ type: 'FeatureCollection', features });
+    // Bornes en 0 (et non 1) pour garantir des paliers strictement croissants même quand
+    // maxCount === 1 (sinon "interpolate" reçoit deux paliers à la même valeur et lève une erreur).
+    m.setPaintProperty('ancestors-heat', 'heatmap-weight', ['interpolate', ['linear'], ['get', 'count'], 0, 0, maxCount, 1]);
+    m.setPaintProperty('ancestors-point', 'circle-radius', ['interpolate', ['linear'], ['get', 'count'], 0, 5, maxCount, 30]);
+}
+
+// Codes de département français valides (issus de GEO.deptNames) : sert à ignorer les entrées
+// hors France présentes dans le geojson (ex: départements historiques belges "B01"-"B11").
+const FRENCH_DEPT_CODES = new Set(Object.values(GEO.deptNames));
+
+async function drawFranceMap(byDept) {
+    const container = d3.select('#franceMapChart');
+    showMapMessage('franceMapChart', 'Chargement de la carte de France…');
+
+    let geojsonRaw;
+    try {
+        geojsonRaw = await ensureFranceGeo();
+    } catch(err) {
+        showMapMessage('franceMapChart', 'Impossible de charger la carte de France (connexion internet requise).', true);
+        return;
+    }
+    if(!document.getElementById('franceMapChart')) return;
+    const features = geojsonRaw.features.filter(f => FRENCH_DEPT_CODES.has(f.properties.code));
+
+    container.selectAll('*').remove();
+    const width = container.node().clientWidth || 500, height = 420;
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    const projection = d3.geoConicConformal()
+        .center([2.454071, 46.279229])
+        .scale(height * 4.6)
+        .translate([width / 2, height / 2]);
+    const path = d3.geoPath().projection(projection);
+    const maxCount = d3.max(Object.values(byDept)) || 1;
+    // Échelle en racine carrée (et non linéaire) : avec une échelle linéaire, un département à
+    // 1000+ occurrences écrase visuellement tous les autres (qui deviennent quasi invisibles,
+    // tous très proches de la couleur "0"). La racine carrée donne plus de contraste aux petites
+    // valeurs tout en gardant les grandes valeurs distinctes.
+    const colorScale = d3.scaleSequentialSqrt(d3.interpolateBlues).domain([0, maxCount]);
+
+    const tooltip = document.getElementById('tooltip');
+    svg.selectAll('path')
+        .data(features)
+        .join('path')
+        .attr('d', path)
+        .attr('fill', d => { const c = byDept[d.properties.code] || 0; return c > 0 ? colorScale(c) : '#f0f0f0'; })
+        .attr('stroke', '#555')
+        .attr('stroke-width', 0.8)
+        .style('cursor', 'default')
+        .on('mouseover', function(e, d) {
+            const count = byDept[d.properties.code] || 0;
+            d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${d.properties.nom || d.properties.code}</strong><div class="tt-row"><span>Occurrences</span><span>${count}</span></div>`;
+        })
+        .on('mousemove', e => {
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#555').attr('stroke-width', 0.8);
+            tooltip.style.opacity = 0;
+        });
+
+    // Légende : dégradé linéaire en valeur (0 -> maxCount), coloré via la même échelle sqrt que la
+    // carte, avec un axe pour donner un ordre de grandeur des occurrences.
+    const legendWidth = 180, legendHeight = 12;
+    const legendX = width - legendWidth - 20, legendY = height - 34;
+    const gradientId = 'franceMapGradient';
+    const gradient = svg.append('defs').append('linearGradient')
+        .attr('id', gradientId).attr('x1', '0%').attr('x2', '100%').attr('y1', '0%').attr('y2', '0%');
+    const stopCount = 10;
+    for(let i = 0; i <= stopCount; i++) {
+        const t = i / stopCount;
+        gradient.append('stop').attr('offset', `${t * 100}%`).attr('stop-color', colorScale(t * maxCount));
+    }
+    const legend = svg.append('g').attr('transform', `translate(${legendX},${legendY})`);
+    legend.append('text').attr('x', 0).attr('y', -6).style('font-size', '10px').style('font-weight', 'bold').style('fill', '#333')
+        .text('Occurrences par département');
+    legend.append('rect').attr('width', legendWidth).attr('height', legendHeight)
+        .style('fill', `url(#${gradientId})`).attr('stroke', '#999').attr('stroke-width', 0.5);
+    const legendScale = d3.scaleLinear().domain([0, maxCount]).range([0, legendWidth]);
+    legend.append('g').attr('transform', `translate(0,${legendHeight})`)
+        .call(d3.axisBottom(legendScale).ticks(4).tickFormat(d3.format('d')))
+        .selectAll('text').style('font-size', '9px');
+}
+
+// --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---
+// Ces graphiques portent toujours sur l'ensemble du fichier chargé, indépendamment
+// des filtres (lieux/ascendants) qui ne s'appliquent qu'aux deux cartes ci-dessus.
+
+// Liste des décennies (de décès) disponibles pour la pyramide des âges, triée croissante.
+function getPyramidDecades(list) {
+    const years = list
+        .filter(i => i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F'))
+        .map(i => i.death.year);
+    if(!years.length) return [];
+    const minD = decadeOf(d3.min(years)), maxD = decadeOf(d3.max(years));
+    const decades = [];
+    for(let d = minD; d <= maxD; d += 10) decades.push(d);
+    return decades;
+}
+
+function drawAgePyramid(data) {
+    const container = d3.select('#ageChartPyramid');
+    container.selectAll('*').remove();
+
+    if(!data.length) {
+        container.append('div').attr('class', 'map-placeholder').text('Aucune donnée pour cette période (âge au décès et sexe requis).');
+        return;
+    }
+
+    const binSize = 5, maxAge = 100;
+    const bins = [];
+    for(let a = 0; a < maxAge; a += binSize) bins.push({ label: `${a}-${a + binSize - 1}`, from: a, to: a + binSize - 1, M: 0, F: 0 });
+    bins.push({ label: '100+', from: 100, to: Infinity, M: 0, F: 0 });
+
+    data.forEach(i => {
+        const age = Math.max(0, i.ageDeath);
+        const bin = bins.find(b => age >= b.from && age <= b.to) || bins[bins.length - 1];
+        bin[i.sex]++;
+    });
+    const usedBins = bins.filter(b => b.M > 0 || b.F > 0);
+
+    const width = container.node().clientWidth || 800, height = 360;
+    const margin = { top: 30, right: 50, bottom: 35, left: 55 };
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    const maxCount = d3.max(usedBins, b => Math.max(b.M, b.F)) || 1;
+    const x = d3.scaleLinear().domain([-maxCount, maxCount]).nice().range([margin.left, width - margin.right]);
+    const y = d3.scaleBand().domain(usedBins.map(b => b.label)).range([margin.top, height - margin.bottom]).padding(0.15);
+
+    svg.append('g').attr('transform', `translate(0,${height - margin.bottom})`)
+        .call(d3.axisBottom(x).ticks(6).tickFormat(v => Math.abs(v)));
+    svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y));
+
+    svg.selectAll('rect.male').data(usedBins).join('rect').attr('class', 'male')
+        .attr('x', b => x(-b.M)).attr('y', b => y(b.label))
+        .attr('width', b => x(0) - x(-b.M)).attr('height', y.bandwidth())
+        .attr('fill', '#3498db');
+    svg.selectAll('rect.female').data(usedBins).join('rect').attr('class', 'female')
+        .attr('x', x(0)).attr('y', b => y(b.label))
+        .attr('width', b => x(b.F) - x(0)).attr('height', y.bandwidth())
+        .attr('fill', '#e91e8c');
+
+    const legend = svg.append('g').attr('transform', `translate(${width / 2 - 60}, 8)`);
+    legend.append('rect').attr('width', 12).attr('height', 12).attr('fill', '#3498db');
+    legend.append('text').attr('x', 16).attr('y', 10).style('font-size', '11px').text('Hommes');
+    legend.append('rect').attr('x', 85).attr('width', 12).attr('height', 12).attr('fill', '#e91e8c');
+    legend.append('text').attr('x', 101).attr('y', 10).style('font-size', '11px').text('Femmes');
+}
+
+// Trace un graphique ligne + bande (moyenne ± écart type) par décennie, une ou plusieurs séries.
+function drawMeanStdChart(container, series, opts) {
+    opts = opts || {};
+    container.selectAll('*').remove();
+    const allDecades = Array.from(new Set(series.flatMap(s => s.points.filter(p => p.mean != null).map(p => p.decade)))).sort((a, b) => a - b);
+    if(!allDecades.length) {
+        container.append('div').attr('class', 'map-placeholder').text(opts.emptyText || 'Pas assez de données.');
+        return;
+    }
+
+    const width = container.node().clientWidth || 500, height = 280;
+    const margin = { top: 24, right: 20, bottom: 35, left: 45 };
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    let yMin = Infinity, yMax = -Infinity;
+    series.forEach(s => s.points.forEach(p => {
+        if(p.mean == null) return;
+        yMin = Math.min(yMin, p.mean - (p.std || 0));
+        yMax = Math.max(yMax, p.mean + (p.std || 0));
+    }));
+    yMin = Math.max(0, yMin - 2); yMax = yMax + 2;
+
+    const x = d3.scalePoint().domain(allDecades).range([margin.left, width - margin.right]).padding(0.5);
+    const y = d3.scaleLinear().domain([yMin, yMax]).nice().range([height - margin.bottom, margin.top]);
+
+    svg.append('g').attr('transform', `translate(0,${height - margin.bottom})`)
+        .call(d3.axisBottom(x).tickFormat(d => `${d}s`)).selectAll('text').style('font-size', '10px');
+    svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6));
+
+    const area = d3.area().x(p => x(p.decade)).y0(p => y(p.mean - (p.std || 0))).y1(p => y(p.mean + (p.std || 0)));
+    const line = d3.line().x(p => x(p.decade)).y(p => y(p.mean));
+
+    series.forEach(s => {
+        const pts = s.points.filter(p => p.mean != null);
+        if(!pts.length) return;
+        const bandColor = d3.color(s.color);
+        bandColor.opacity = 0.18;
+        if(pts.length > 1) svg.append('path').datum(pts).attr('d', area).attr('fill', bandColor.toString()).attr('stroke', 'none');
+        svg.append('path').datum(pts).attr('d', line).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2);
+        svg.selectAll('circle').data(pts).join('circle')
+            .attr('cx', p => x(p.decade)).attr('cy', p => y(p.mean)).attr('r', 3).attr('fill', s.color)
+            .append('title').text(p => `${p.decade}s : ${p.mean.toFixed(1)} ± ${(p.std || 0).toFixed(1)} ans (n=${p.n})`);
+    });
+
+    if(series.length > 1) {
+        const legend = svg.append('g').attr('transform', `translate(${margin.left}, 4)`);
+        series.forEach((s, i) => {
+            const gx = i * 90;
+            legend.append('rect').attr('x', gx).attr('width', 10).attr('height', 10).attr('fill', s.color);
+            legend.append('text').attr('x', gx + 14).attr('y', 9).style('font-size', '10px').text(s.name);
+        });
+    }
+}
+
+function drawAgeDeathTrend(list) {
+    const container = d3.select('#ageChartDeathTrend');
+    const byDecade = new Map();
+    list.forEach(i => {
+        if(i.death?.year && i.ageDeath != null) {
+            const dec = decadeOf(i.death.year);
+            if(!byDecade.has(dec)) byDecade.set(dec, []);
+            byDecade.get(dec).push(i.ageDeath);
+        }
+    });
+    const points = Array.from(byDecade.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(byDecade.get(dec)) }));
+    drawMeanStdChart(container, [{ name: 'Âge au décès', color: '#2980b9', points }], { emptyText: 'Pas assez de données (naissance et décès requis).' });
+}
+
+function drawFirstChildTrend(list) {
+    const container = d3.select('#ageChartFirstChildTrend');
+    const byDecadeM = new Map(), byDecadeF = new Map();
+    list.forEach(i => {
+        if(i.birth?.year && i.ageFirstChild != null && (i.sex === 'M' || i.sex === 'F')) {
+            const dec = decadeOf(i.birth.year);
+            const target = i.sex === 'M' ? byDecadeM : byDecadeF;
+            if(!target.has(dec)) target.set(dec, []);
+            target.get(dec).push(i.ageFirstChild);
+        }
+    });
+    const pointsM = Array.from(byDecadeM.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(byDecadeM.get(dec)) }));
+    const pointsF = Array.from(byDecadeF.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(byDecadeF.get(dec)) }));
+    drawMeanStdChart(container, [
+        { name: 'Hommes', color: '#3498db', points: pointsM },
+        { name: 'Femmes', color: '#e91e8c', points: pointsF }
+    ], { emptyText: 'Pas assez de données (sexe et âge au 1er enfant requis).' });
+}
+
 // --- APP ---
 document.addEventListener('DOMContentLoaded', () => {
     const parser = new GedcomParser();
     const chart = new FanChart('chart');
-    let map=null, fams=null, list=[], qualityIssues=[];
+    let map=null, fams=null, list=[], qualityIssues=[], currentTab='tree';
     const els = { file: document.getElementById('fileInput'), search: document.getElementById('searchInput'), res: document.getElementById('searchResults'), depth: document.getElementById('depthSelect'), mode: document.getElementById('colorMode') };
     const chartMessage = document.getElementById('chartMessage');
     const analyzeBtn = document.getElementById('analyzeBtn');
     const qualityStatus = document.getElementById('qualityStatus');
     const qualityDownloadBtn = document.getElementById('qualityDownloadBtn');
     const qualityPreview = document.getElementById('qualityPreview');
+
+    // --- Onglet Cartes (indépendant de la personne racine de l'Arbre éventail) ---
+    let mapPersonId = null, pyramidDecadesCache = null;
+    const mapPersonSearchEl = document.getElementById('mapPersonSearch');
+    const mapPersonResultsEl = document.getElementById('mapPersonResults');
+    const mapPersonSelectedEl = document.getElementById('mapPersonSelected');
+    const mapAncestorOnlyEl = document.getElementById('mapAncestorOnly');
+    const mapFilterEls = [document.getElementById('mapFilterBirt'), document.getElementById('mapFilterDeat'), document.getElementById('mapFilterMarr')];
+    const pyramidSliderEl = document.getElementById('pyramidDecadeSlider');
+    const pyramidLabelEl = document.getElementById('pyramidDecadeLabel');
+
+    function renderFilteredMaps() {
+        if(!map || !list.length) {
+            showMapMessage('worldMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
+            showMapMessage('franceMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
+            return;
+        }
+        const eventFlags = { BIRT: mapFilterEls[0].checked, DEAT: mapFilterEls[1].checked, MARR: mapFilterEls[2].checked };
+        const scopeIds = (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
+        const { byDept, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags);
+        drawWorldMap(byWorldPoint);
+        drawFranceMap(byDept);
+    }
+
+    function updatePyramidLabel() {
+        const idx = parseInt(pyramidSliderEl.value, 10);
+        pyramidLabelEl.textContent = (!pyramidDecadesCache || idx >= pyramidDecadesCache.length) ? 'Toutes périodes' : `Décennie ${pyramidDecadesCache[idx]}s`;
+    }
+
+    function drawAgePyramidForSelectedDecade() {
+        const idx = parseInt(pyramidSliderEl.value, 10);
+        const selectedDecade = (pyramidDecadesCache && idx < pyramidDecadesCache.length) ? pyramidDecadesCache[idx] : null;
+        const filtered = list.filter(i => i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F') &&
+            (selectedDecade === null || decadeOf(i.death.year) === selectedDecade));
+        drawAgePyramid(filtered);
+    }
+
+    function renderDemographicCharts() {
+        if(!list.length) {
+            showMapMessage('ageChartPyramid', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+            showMapMessage('ageChartDeathTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+            showMapMessage('ageChartFirstChildTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+            pyramidSliderEl.disabled = true;
+            pyramidLabelEl.textContent = 'Toutes périodes';
+            return;
+        }
+        pyramidDecadesCache = getPyramidDecades(list);
+        if(pyramidDecadesCache.length) {
+            pyramidSliderEl.disabled = false;
+            pyramidSliderEl.min = 0;
+            pyramidSliderEl.max = pyramidDecadesCache.length; // dernier cran = "Toutes périodes"
+            pyramidSliderEl.value = pyramidDecadesCache.length;
+        } else {
+            pyramidSliderEl.disabled = true;
+            pyramidSliderEl.max = 0;
+            pyramidSliderEl.value = 0;
+        }
+        updatePyramidLabel();
+        drawAgePyramidForSelectedDecade();
+        drawAgeDeathTrend(list);
+        drawFirstChildTrend(list);
+    }
+
+    function renderMapsTab() {
+        if(currentTab !== 'maps') return;
+        renderFilteredMaps();
+        renderDemographicCharts();
+    }
+
+    function resetMapPersonSelection() {
+        mapPersonId = null;
+        mapPersonSelectedEl.textContent = '';
+        mapPersonSearchEl.value = '';
+        mapPersonSearchEl.disabled = !mapAncestorOnlyEl.checked;
+        mapPersonResultsEl.style.display = 'none';
+    }
+
+    mapFilterEls.forEach(el => el.addEventListener('change', renderFilteredMaps));
+    mapAncestorOnlyEl.addEventListener('change', e => {
+        mapPersonSearchEl.disabled = !e.target.checked;
+        renderFilteredMaps();
+    });
+    mapPersonSearchEl.addEventListener('input', e => {
+        const v = e.target.value.toLowerCase(); mapPersonResultsEl.innerHTML = '';
+        if(v.length < 2) { mapPersonResultsEl.style.display = 'none'; return; }
+        const m = list.filter(i => i.name.toLowerCase().includes(v)).slice(0, 10);
+        if(m.length) {
+            mapPersonResultsEl.style.display = 'block';
+            m.forEach(p => {
+                const li = document.createElement('li'); li.innerText = `${p.name} (${p.birth.year || '?'})`;
+                li.onclick = () => {
+                    mapPersonId = p.id;
+                    mapPersonSelectedEl.textContent = `→ ${p.name}`;
+                    mapPersonResultsEl.style.display = 'none';
+                    mapPersonSearchEl.value = '';
+                    renderFilteredMaps();
+                };
+                mapPersonResultsEl.appendChild(li);
+            });
+        }
+    });
+    pyramidSliderEl.addEventListener('input', () => { updatePyramidLabel(); drawAgePyramidForSelectedDecade(); });
 
     els.file.addEventListener('change', e => {
         const f = e.target.files[0]; if(!f) return;
@@ -1169,6 +1916,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 qualityPreview.classList.add('hidden');
                 d3.select('#qualityBarChart').selectAll('*').remove();
                 d3.select('#qualityTimelineChart').selectAll('*').remove();
+                resetMapPersonSelection();
+                renderMapsTab();
             } else {
                 chartMessage.className = 'msg-error';
                 chartMessage.innerHTML = '<h2>Aucun individu trouvé</h2><p>Vérifiez qu\'il s\'agit bien d\'un fichier GEDCOM valide (.ged).</p>';
@@ -1193,23 +1942,34 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
     document.addEventListener('changeroot', e => chart.setData(e.detail, map, fams));
-    document.addEventListener('click', e => { if(!e.target.closest('.ctrl')) els.res.style.display='none'; });
+    document.addEventListener('click', e => {
+        if(!e.target.closest('.ctrl')) { els.res.style.display='none'; mapPersonResultsEl.style.display='none'; }
+    });
 
     // --- Tabs ---
-    const tabVizBtn = document.getElementById('tabVizBtn');
+    const tabTreeBtn = document.getElementById('tabTreeBtn');
+    const tabMapsBtn = document.getElementById('tabMapsBtn');
     const tabQualityBtn = document.getElementById('tabQualityBtn');
     const vizArea = document.getElementById('vizArea');
+    const mapsPanel = document.getElementById('mapsPanel');
     const qualityPanel = document.getElementById('qualityPanel');
+    const vizOnlyEls = document.querySelectorAll('.viz-only');
     function showTab(tab) {
-        const isViz = tab === 'viz';
-        tabVizBtn.classList.toggle('active', isViz);
-        tabQualityBtn.classList.toggle('active', !isViz);
-        vizArea.style.display = isViz ? 'flex' : 'none';
-        qualityPanel.classList.toggle('hidden', isViz);
-        if(isViz && chart.rootId) chart.render();
+        currentTab = tab;
+        tabTreeBtn.classList.toggle('active', tab === 'tree');
+        tabMapsBtn.classList.toggle('active', tab === 'maps');
+        tabQualityBtn.classList.toggle('active', tab === 'quality');
+        vizArea.style.display = tab === 'tree' ? 'flex' : 'none';
+        mapsPanel.classList.toggle('hidden', tab !== 'maps');
+        qualityPanel.classList.toggle('hidden', tab !== 'quality');
+        vizOnlyEls.forEach(el => el.style.display = tab === 'tree' ? 'flex' : 'none');
+        if(tab === 'tree' && chart.rootId) chart.render();
+        if(tab === 'maps') renderMapsTab();
     }
-    tabVizBtn.addEventListener('click', () => showTab('viz'));
+    tabTreeBtn.addEventListener('click', () => showTab('tree'));
+    tabMapsBtn.addEventListener('click', () => showTab('maps'));
     tabQualityBtn.addEventListener('click', () => showTab('quality'));
+    wireCopyButtons();
 
     // --- Quality analysis ---
     document.getElementById('checkDeat').addEventListener('change', e => {
