@@ -16,14 +16,15 @@
         h1 { margin: 0; font-size: 1.1rem; color: var(--accent); margin-right: auto; }
 
         .ctrl { display: flex; align-items: center; gap: 5px; }
-        select, input, button { padding: 5px 8px; border: 1px solid #ccc; border-radius: 4px; font-size: 0.85rem; background: white; }
-        header button { cursor: pointer; background: #eef; font-weight: bold; }
-        header button:hover { background: #dde; }
+        select, input, button { padding: 5px 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.85rem; background: white; }
+        header button { cursor: pointer; background: #fff; font-weight: 600; color: var(--accent); border-color: #dcdfe4; transition: background 0.15s, box-shadow 0.15s, transform 0.1s; }
+        header button:hover { background: #f0f4fb; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transform: translateY(-1px); }
+        header button:active { transform: translateY(0); }
 
         /* TABS */
-        .tab-btn { padding: 6px 12px; border: 1px solid #ccc; border-radius: 4px; background: #fff; cursor: pointer; font-weight: bold; font-size: 0.85rem; color: #555; }
-        .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-        .tab-btn:hover:not(.active) { background: #eef; }
+        .tab-btn { padding: 7px 14px; border: 1px solid #dcdfe4; border-radius: 6px; background: #fff; cursor: pointer; font-weight: 600; font-size: 0.85rem; color: #555; transition: background 0.15s, box-shadow 0.15s, transform 0.1s; }
+        .tab-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); box-shadow: 0 1px 3px rgba(0,0,0,0.15); }
+        .tab-btn:hover:not(.active) { background: #f0f4fb; transform: translateY(-1px); }
 
         /* MAIN CHART */
         #vizArea { flex: 1; position: relative; overflow: hidden; display: flex; flex-direction: column; }
@@ -72,11 +73,17 @@
         .tab-panel .age-filter-container input { padding: 5px; border: 1px solid #bdc3c7; border-radius: 4px; width: 60px; text-align: center; }
         .tab-panel .hint { font-size: 0.85em; color: #7f8c8d; font-style: italic; margin-top: 5px; }
         .tab-panel .controls { display: flex; gap: 15px; margin: 20px 0; align-items: center; justify-content: center; flex-wrap: wrap; }
-        .tab-panel button { background-color: #3498db; color: #fff; border: none; padding: 12px 24px; border-radius: 4px; cursor: pointer; font-size: 15px; font-weight: normal; transition: background 0.3s; }
-        .tab-panel button:hover { background-color: #2980b9; }
-        .tab-panel button:disabled { background-color: #bdc3c7; cursor: not-allowed; }
-        .tab-panel button.secondary { background-color: #27ae60; }
-        .tab-panel button.secondary:hover { background-color: #219150; }
+        .tab-panel button {
+            background: #3b82f6; color: #fff; border: none; padding: 10px 22px;
+            border-radius: 7px; cursor: pointer; font-size: 14px; font-weight: 600;
+            letter-spacing: 0.2px; box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+            transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+        }
+        .tab-panel button:hover { background: #2563eb; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transform: translateY(-1px); }
+        .tab-panel button:active { transform: translateY(0); box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+        .tab-panel button:disabled { background-color: #c8cdd3; cursor: not-allowed; box-shadow: none; transform: none; }
+        .tab-panel button.secondary { background: #22a35e; }
+        .tab-panel button.secondary:hover { background: #1c8a4f; }
         #qualityStatus { margin: 15px 0; font-weight: bold; text-align: center; min-height: 20px; }
         .tab-panel table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 14px; background: #fff; }
         .tab-panel th, .tab-panel td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
@@ -95,12 +102,25 @@
         /* WORLD MAP (MapLibre GL) */
         #worldMapChart { height: 340px; position: relative; }
         .maplibregl-popup-content { font-size: 0.8rem; padding: 8px 10px; }
+        /* Reset our generic select/input/button rule (below) for MapLibre's own controls,
+           whose padding/border/background it was otherwise clobbering and making the
+           zoom +/- icons invisible/squished. */
+        .maplibregl-ctrl button { padding: 0; border: none; border-radius: 0; font-size: inherit; background: transparent; }
+        .maplibregl-ctrl-group { border-radius: 8px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.25); }
 
-        /* CHART BOX ACTIONS + ZOOM RESET */
+        /* CHART BOX ACTIONS + ZOOM RESET (modern icon buttons) */
         .chart-box-actions { position: absolute; right: 0; top: 50%; transform: translateY(-50%); display: flex; gap: 6px; }
         .chart-box-actions .chart-copy-btn { position: static; transform: none; }
-        .chart-zoom-reset-btn { background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 3px 7px; cursor: pointer; font-size: 0.85rem; line-height: 1; }
-        .chart-zoom-reset-btn:hover { background: #eef; }
+        .chart-zoom-reset-btn, .chart-copy-btn {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 30px; height: 30px; padding: 0;
+            background: #fff; border: 1px solid #e0e0e6; border-radius: 50%;
+            cursor: pointer; font-size: 0.95rem; line-height: 1;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+            transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+        }
+        .chart-zoom-reset-btn:hover, .chart-copy-btn:hover { background: #f0f4fb; box-shadow: 0 2px 6px rgba(0,0,0,0.14); transform: translateY(-1px); }
+        .chart-zoom-reset-btn:active, .chart-copy-btn:active { transform: translateY(0); box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
 
         /* DECADE SLIDER */
         .decade-slider-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; padding: 0 10px; }
@@ -121,8 +141,7 @@
 
         /* CHART HEADERS + COPY-TO-CLIPBOARD */
         .chart-box-header { display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 8px; }
-        .chart-copy-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 3px 7px; cursor: pointer; font-size: 0.85rem; line-height: 1; }
-        .chart-copy-btn:hover { background: #eef; }
+        .chart-copy-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
         .map-placeholder { color: #999; text-align: center; padding: 40px 10px; font-size: 0.9em; }
     </style>
 </head>
@@ -245,7 +264,7 @@
         <div class="quality-charts">
             <div class="quality-chart-box">
                 <div class="chart-box-header">
-                    <h3>Âge moyen au décès par décennie</h3>
+                    <h3>Âge moyen au décès par décennie (H/F)</h3>
                     <button class="chart-copy-btn" data-target="ageChartDeathTrend" title="Copier l'image dans le presse-papier">📋</button>
                 </div>
                 <div id="ageChartDeathTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
@@ -1709,7 +1728,7 @@ function drawMeanStdChart(container, series, opts) {
     }
 
     const width = container.node().clientWidth || 500, height = 280;
-    const margin = { top: 24, right: 20, bottom: 35, left: 45 };
+    const margin = { top: 24, right: 20, bottom: 58, left: 48 };
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
     let yMin = Infinity, yMax = -Infinity;
@@ -1723,8 +1742,19 @@ function drawMeanStdChart(container, series, opts) {
     const x = d3.scalePoint().domain(allDecades).range([margin.left, width - margin.right]).padding(0.5);
     const y = d3.scaleLinear().domain([yMin, yMax]).nice().range([height - margin.bottom, margin.top]);
 
+    // Thin out tick labels when there are many decades so they don't overlap; always rotate for legibility.
+    const maxLabels = Math.max(4, Math.floor((width - margin.left - margin.right) / 45));
+    const labelStep = Math.max(1, Math.ceil(allDecades.length / maxLabels));
+    const tickValues = allDecades.filter((d, i) => i % labelStep === 0);
+
     svg.append('g').attr('transform', `translate(0,${height - margin.bottom})`)
-        .call(d3.axisBottom(x).tickFormat(d => `${d}s`)).selectAll('text').style('font-size', '10px');
+        .call(d3.axisBottom(x).tickValues(tickValues).tickFormat(d => `${d}s`))
+        .selectAll('text')
+        .style('font-size', '10px')
+        .attr('transform', 'rotate(-40)')
+        .attr('text-anchor', 'end')
+        .attr('dx', '-0.6em')
+        .attr('dy', '0.15em');
     svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6));
 
     const area = d3.area().x(p => x(p.decade)).y0(p => y(p.mean - (p.std || 0))).y1(p => y(p.mean + (p.std || 0)));
@@ -1754,16 +1784,21 @@ function drawMeanStdChart(container, series, opts) {
 
 function drawAgeDeathTrend(list) {
     const container = d3.select('#ageChartDeathTrend');
-    const byDecade = new Map();
+    const byDecadeM = new Map(), byDecadeF = new Map();
     list.forEach(i => {
-        if(i.death?.year && i.ageDeath != null) {
+        if(i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F')) {
             const dec = decadeOf(i.death.year);
-            if(!byDecade.has(dec)) byDecade.set(dec, []);
-            byDecade.get(dec).push(i.ageDeath);
+            const target = i.sex === 'M' ? byDecadeM : byDecadeF;
+            if(!target.has(dec)) target.set(dec, []);
+            target.get(dec).push(i.ageDeath);
         }
     });
-    const points = Array.from(byDecade.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(byDecade.get(dec)) }));
-    drawMeanStdChart(container, [{ name: 'Âge au décès', color: '#2980b9', points }], { emptyText: 'Pas assez de données (naissance et décès requis).' });
+    const pointsM = Array.from(byDecadeM.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(byDecadeM.get(dec)) }));
+    const pointsF = Array.from(byDecadeF.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(byDecadeF.get(dec)) }));
+    drawMeanStdChart(container, [
+        { name: 'Hommes', color: '#3498db', points: pointsM },
+        { name: 'Femmes', color: '#e91e8c', points: pointsF }
+    ], { emptyText: 'Pas assez de données (naissance, décès et sexe requis).' });
 }
 
 function drawFirstChildTrend(list) {
