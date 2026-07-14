@@ -356,7 +356,7 @@ const GEO = {
     deptNames: {"ain":"01","aisne":"02","allier":"03","alpes-de-haute-provence":"04","hautes-alpes":"05","alpes-maritimes":"06","ardèche":"07","ardennes":"08","ariège":"09","aube":"10","aude":"11","aveyron":"12","bouches-du-rhône":"13","calvados":"14","cantal":"15","charente":"16","charente-maritime":"17","cher":"18","corrèze":"19","corse-du-sud":"2A","haute-corse":"2B","côte-d'or":"21","côtes-d'armor":"22","creuse":"23","dordogne":"24","doubs":"25","drôme":"26","eure":"27","eure-et-loir":"28","finistère":"29","gard":"30","haute-garonne":"31","gers":"32","gironde":"33","hérault":"34","ille-et-vilaine":"35","indre":"36","indre-et-loire":"37","isère":"38","jura":"39","landes":"40","loir-et-cher":"41","loire":"42","haute-loire":"43","loire-atlantique":"44","loiret":"45","lot":"46","lot-et-garonne":"47","lozère":"48","maine-et-loire":"49","manche":"50","marne":"51","haute-marne":"52","mayenne":"53","meurthe-et-moselle":"54","meuse":"55","morbihan":"56","moselle":"57","nièvre":"58","nord":"59","oise":"60","orne":"61","pas-de-calais":"62","puy-de-dôme":"63","pyrénées-atlantiques":"64","hautes-pyrénées":"65","pyrénées-orientales":"66","bas-rhin":"67","haut-rhin":"68","rhône":"69","haute-saône":"70","saône-et-loire":"71","sarthe":"72","savoie":"73","haute-savoie":"74","paris":"75","seine-maritime":"76","seine-et-marne":"77","yvelines":"78","deux-sèvres":"79","somme":"80","tarn":"81","tarn-et-garonne":"82","var":"83","vaucluse":"84","vendée":"85","vienne":"86","haute-vienne":"87","vosges":"88","yonne":"89","territoire de belfort":"90","essonne":"91","hauts-de-seine":"92","seine-saint-denis":"93","val-de-marne":"94","val-d'oise":"95","guadeloupe":"971","martinique":"972","guyane":"973","la réunion":"974","mayotte":"976"},
     deptLabels: {},
     regions: ["Hauts-de-France","Auvergne-Rhône-Alpes","Bourgogne-Franche-Comté","Bretagne","Centre-Val de Loire","Corse","Grand Est","Île-de-France","Normandie","Nouvelle-Aquitaine","Occitanie","Pays de la Loire","Provence-Alpes-Côte d'Azur","Alsace","Aquitaine","Auvergne","Basse-Normandie","Bourgogne","Centre","Champagne-Ardenne","Franche-Comté","Haute-Normandie","Languedoc-Roussillon","Limousin","Lorraine","Midi-Pyrénées","Nord-Pas-de-Calais","Picardie","Poitou-Charentes","Rhône-Alpes","Wallonie","Walloon","Flandre","Flanders","Vlaanderen","Bruxelles","Brussels"],
-    countryMap: {"france":"France","belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","suisse":"Suisse","switzerland":"Suisse","allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne","italie":"Italie","italy":"Italie","italia":"Italie","espagne":"Espagne","spain":"Espagne","espana":"Espagne","usa":"USA","états-unis":"USA","united states":"USA","uk":"Royaume-Uni","united kingdom":"Royaume-Uni","angleterre":"Royaume-Uni","england":"Royaume-Uni","canada":"Canada","québec":"Canada","algérie":"Algérie","maroc":"Maroc","tunisie":"Tunisie","andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg"}
+    countryMap: {"france":"France","belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","suisse":"Suisse","switzerland":"Suisse","allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne","italie":"Italie","italy":"Italie","italia":"Italie","espagne":"Espagne","spain":"Espagne","espana":"Espagne","usa":"USA","états-unis":"USA","united states":"USA","uk":"Royaume-Uni","united kingdom":"Royaume-Uni","angleterre":"Royaume-Uni","england":"Royaume-Uni","canada":"Canada","québec":"Canada","algérie":"Algérie","maroc":"Maroc","tunisie":"Tunisie","andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg","pays-bas":"Pays-Bas","netherlands":"Pays-Bas","hollande":"Pays-Bas","holland":"Pays-Bas","autriche":"Autriche","austria":"Autriche","portugal":"Portugal","monaco":"Monaco"}
 };
 for(let [k,v] of Object.entries(GEO.deptNames)) GEO.deptLabels[v] = k.charAt(0).toUpperCase() + k.slice(1);
 
@@ -366,7 +366,8 @@ GEO.countryCentroids = {
     "France": [2.5, 46.6], "Belgique": [4.5, 50.6], "Suisse": [8.2, 46.8], "Allemagne": [10.4, 51.2],
     "Italie": [12.6, 41.9], "Espagne": [-3.7, 40.3], "USA": [-98.6, 39.8], "Royaume-Uni": [-1.5, 52.9],
     "Canada": [-106.3, 56.1], "Algérie": [2.6, 28.2], "Maroc": [-7.1, 31.8], "Tunisie": [9.5, 33.9],
-    "Andorre": [1.6, 42.5], "Luxembourg": [6.1, 49.6]
+    "Andorre": [1.6, 42.5], "Luxembourg": [6.1, 49.6],
+    "Pays-Bas": [5.3, 52.1], "Autriche": [14.6, 47.6], "Portugal": [-8.2, 39.6], "Monaco": [7.4, 43.7]
 };
 
 // Coordonnées [lng, lat] de la préfecture de chaque département français, utilisées pour positionner
@@ -407,6 +408,14 @@ GEO.deptHistoricalAliases = {
     "côtes-du-nord": "22", "loire-inférieure": "44", "seine-inférieure": "76",
     "charente-inférieure": "17", "basses-alpes": "04", "basses-pyrénées": "64"
 };
+
+// Traductions anglaises ponctuelles de noms de départements, rencontrées dans des GEDCOM
+// renseignés en anglais (ex. "North" pour "Nord"). Volontairement PAS fusionnées dans la table
+// de recherche floue globale (GEO.deptEntriesNorm) : un mot aussi générique que "north"
+// apparaîtrait dans une multitude de lieux hors de France (North Yorkshire, North Carolina…) et
+// produirait de faux positifs. Elle n'est donc utilisée que là où un "PLAC.FORM" nous dit déjà
+// avec certitude qu'un segment donné EST le champ Département (voir analyzePlace ci-dessous).
+GEO.deptEnglishAliases = { "north": "59" };
 
 // Normalisation de lieu partagée (minuscules, sans accents/tirets/ponctuation) et tables de
 // recherche précalculées une seule fois au chargement, plutôt que reconstruites à chaque appel
@@ -582,14 +591,15 @@ class GedcomParser {
                 const idxOf = re => formParts.findIndex(f => re.test(normalizePlace(f)));
                 const countryIdx = idxOf(/pays|country/);
                 const regionIdx = idxOf(/region|province|state|etat/);
-                const deptIdx = idxOf(/departement|county|comte/);
+                const deptIdx = idxOf(/departement|department|county|comte/);
                 if(countryIdx >= 0 && rawParts[countryIdx]) {
                     const segNorm = normalizePlace(rawParts[countryIdx]);
                     const hit = GEO.countryEntriesNorm.find(([nk]) => segNorm.includes(nk));
                     country = hit ? hit[1] : rawParts[countryIdx];
                 }
                 if(deptIdx >= 0 && rawParts[deptIdx]) {
-                    dept = findDept(normalizePlace(rawParts[deptIdx]));
+                    const segNorm = normalizePlace(rawParts[deptIdx]);
+                    dept = findDept(segNorm) || GEO.deptEnglishAliases[segNorm] || null;
                     if(dept) country = country || "France";
                 }
                 if(regionIdx >= 0 && rawParts[regionIdx]) {
@@ -600,7 +610,32 @@ class GedcomParser {
             }
         }
 
-        // 2) Recherche floue de secours sur la chaîne complète (comble ce que (1) n'a pas trouvé).
+        // 2) Sans FORM exploitable (absent, ou décompte de champs différent), la plupart des
+        // hiérarchies de lieux françaises suivent quand même une convention fixe : du plus précis au
+        // plus général, avec le pays en dernier et la région juste avant ("...,Département,Région,
+        // Pays"). On ne fait confiance à cette position que si elle est CONFIRMÉE pour cette valeur
+        // précise (le dernier segment est bien un pays connu ET l'avant-dernier une région connue) :
+        // ça évite de se tromper sur des valeurs à 3 champs qui omettent la région (ex. "Commune,
+        // Département, Pays"). Une fois confirmé, le segment "Département" est sûr à son tour, donc
+        // on peut y appliquer sans risque la table de traduction anglaise (ex. "North" -> "Nord") :
+        // contrairement à la recherche floue globale (3), on sait déjà PRÉCISÉMENT où regarder.
+        if(!dept) {
+            const posParts = str.split(',').map(s => s.trim());
+            if(posParts.length >= 3) {
+                const lastNorm = normalizePlace(posParts[posParts.length - 1]);
+                const beforeLastNorm = normalizePlace(posParts[posParts.length - 2]);
+                const countryHit = GEO.countryEntriesNorm.find(([nk]) => lastNorm.includes(nk));
+                const regionHit = GEO.regionEntriesNorm.find(([nr]) => beforeLastNorm === nr);
+                if(countryHit && regionHit) {
+                    if(!country) country = countryHit[1];
+                    if(!region) region = regionHit[1];
+                    const deptSegNorm = normalizePlace(posParts[posParts.length - 3]);
+                    dept = findDept(deptSegNorm) || GEO.deptEnglishAliases[deptSegNorm] || null;
+                }
+            }
+        }
+
+        // 3) Recherche floue de secours sur la chaîne complète (comble ce que (1) et (2) n'ont pas trouvé).
         if(!country) {
             const hit = GEO.countryEntriesNorm.find(([nk]) => norm.includes(nk));
             if(hit) country = hit[1];
@@ -1508,6 +1543,31 @@ async function ensureFranceGeo() {
     return franceGeoCache;
 }
 
+// Pays limitrophes/proches affichés en gris clair autour de la France sur la carte des
+// départements, pour donner un contexte géographique (pas de coloration par données).
+let europeGeoCache = null;
+async function ensureEuropeGeo() {
+    if(!europeGeoCache) {
+        // Natural Earth admin-0 (résolution 110m) : fichier léger, suffisant pour de simples
+        // contours de pays voisins (on n'a pas besoin du détail utilisé pour les départements).
+        const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson');
+        europeGeoCache = await res.json();
+    }
+    return europeGeoCache;
+}
+// Nom (Natural Earth, en anglais) -> libellé canonique utilisé dans byCountry (valeurs de
+// GEO.countryMap), pour pouvoir retrouver le nombre d'occurrences de chaque pays voisin.
+const NEIGHBOR_COUNTRY_LABELS = new Map([
+    ['Belgium', 'Belgique'], ['Luxembourg', 'Luxembourg'], ['Germany', 'Allemagne'],
+    ['Switzerland', 'Suisse'], ['Italy', 'Italie'], ['Spain', 'Espagne'],
+    ['Andorra', 'Andorre'], ['Monaco', 'Monaco'], ['United Kingdom', 'Royaume-Uni'],
+    ['Netherlands', 'Pays-Bas'], ['Austria', 'Autriche'], ['Portugal', 'Portugal']
+]);
+function neighborCountryLabel(f) {
+    const name = f.properties?.ADMIN || f.properties?.NAME || f.properties?.name || f.properties?.NAME_EN || '';
+    return NEIGHBOR_COUNTRY_LABELS.get(name) || null;
+}
+
 // Remonte la lignée directe (père/mère) depuis rootId et renvoie la liste des identifiants (racine incluse).
 function getAncestorIds(individuals, rootId) {
     const ids = [];
@@ -1676,7 +1736,8 @@ async function drawWorldMap(byWorldPoint) {
 // hors France présentes dans le geojson (ex: départements historiques belges "B01"-"B11").
 const FRENCH_DEPT_CODES = new Set(Object.values(GEO.deptNames));
 
-async function drawFranceMap(byDept) {
+async function drawFranceMap(byDept, byCountry) {
+    byCountry = byCountry || {};
     const container = d3.select('#franceMapChart');
     showMapMessage('franceMapChart', 'Chargement de la carte de France…');
 
@@ -1690,13 +1751,25 @@ async function drawFranceMap(byDept) {
     if(!document.getElementById('franceMapChart')) return;
     const features = geojsonRaw.features.filter(f => FRENCH_DEPT_CODES.has(f.properties.code));
 
+    // Contours des pays voisins : gris clair mais avec un compteur d'occurrences au survol (comme
+    // les départements), donc on ne bloque pas l'affichage de la France si cette requête échoue.
+    let neighborFeatures = [];
+    try {
+        const europeGeo = await ensureEuropeGeo();
+        neighborFeatures = europeGeo.features.filter(f => neighborCountryLabel(f) !== null);
+    } catch(err) { /* pas de contours voisins, la carte de France seule reste fonctionnelle */ }
+    if(!document.getElementById('franceMapChart')) return;
+
     container.selectAll('*').remove();
     const width = container.node().clientWidth || 500, height = 420;
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
+    // Zoom légèrement moins serré que pour la France seule, pour laisser de la place aux pays
+    // voisins autour (ceux qui débordent du cadre, ex. le nord du Royaume-Uni, sont simplement
+    // coupés au bord : la France reste le sujet principal de la carte).
     const projection = d3.geoConicConformal()
         .center([2.454071, 46.279229])
-        .scale(height * 4.6)
+        .scale(height * 3.1)
         .translate([width / 2, height / 2]);
     const path = d3.geoPath().projection(projection);
     const maxCount = d3.max(Object.values(byDept)) || 1;
@@ -1705,11 +1778,48 @@ async function drawFranceMap(byDept) {
     // tous très proches de la couleur "0"). La racine carrée donne plus de contraste aux petites
     // valeurs tout en gardant les grandes valeurs distinctes.
     const colorScale = d3.scaleSequentialSqrt(d3.interpolateBlues).domain([0, maxCount]);
+    // Échelle séparée pour les pays voisins : leurs comptages (par pays entier) sont d'un ordre de
+    // grandeur très différent de ceux des départements français, donc on ne peut pas partager le
+    // même domaine [0, maxCount] sans que les voisins n'apparaissent presque tous blancs.
+    const neighborCounts = neighborFeatures.map(f => byCountry[neighborCountryLabel(f)] || 0);
+    const maxNeighborCount = Math.max(1, ...neighborCounts);
+    const neighborColorScale = d3.scaleSequentialSqrt(d3.interpolateBlues).domain([0, maxNeighborCount]);
 
     const tooltip = document.getElementById('tooltip');
-    svg.selectAll('path')
+
+    // Pays voisins en arrière-plan, dessinés avant (donc sous) les départements français, colorés
+    // par nombre d'occurrences comme les départements (mais avec leur propre échelle, voir plus haut).
+    if(neighborFeatures.length) {
+        svg.selectAll('path.neighbor')
+            .data(neighborFeatures)
+            .join('path')
+            .attr('class', 'neighbor')
+            .attr('d', path)
+            .attr('fill', d => { const c = byCountry[neighborCountryLabel(d)] || 0; return c > 0 ? neighborColorScale(c) : '#f0f0f0'; })
+            .attr('stroke', '#888')
+            .attr('stroke-width', 0.6)
+            .style('cursor', 'default')
+            .on('mouseover', function(e, d) {
+                const label = neighborCountryLabel(d);
+                const count = byCountry[label] || 0;
+                d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+                tooltip.style.opacity = 1;
+                tooltip.innerHTML = `<strong>${label}</strong><div class="tt-row"><span>Occurrences</span><span>${count}</span></div>`;
+            })
+            .on('mousemove', e => {
+                tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+                tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+            })
+            .on('mouseout', function() {
+                d3.select(this).attr('stroke', '#888').attr('stroke-width', 0.6);
+                tooltip.style.opacity = 0;
+            });
+    }
+
+    svg.selectAll('path.dept')
         .data(features)
         .join('path')
+        .attr('class', 'dept')
         .attr('d', path)
         .attr('fill', d => { const c = byDept[d.properties.code] || 0; return c > 0 ? colorScale(c) : '#f0f0f0'; })
         .attr('stroke', '#555')
@@ -1751,6 +1861,28 @@ async function drawFranceMap(byDept) {
     legend.append('g').attr('transform', `translate(0,${legendHeight})`)
         .call(d3.axisBottom(legendScale).ticks(4).tickFormat(d3.format('d')))
         .selectAll('text').style('font-size', '9px');
+
+    // Seconde légende, plus compacte, pour l'échelle (distincte) des pays voisins.
+    if(neighborFeatures.length) {
+        const nLegendWidth = 130, nLegendHeight = 10;
+        const nLegendX = 16, nLegendY = 26;
+        const nGradientId = 'franceMapNeighborGradient';
+        const nGradient = svg.append('defs').append('linearGradient')
+            .attr('id', nGradientId).attr('x1', '0%').attr('x2', '100%').attr('y1', '0%').attr('y2', '0%');
+        for(let i = 0; i <= stopCount; i++) {
+            const t = i / stopCount;
+            nGradient.append('stop').attr('offset', `${t * 100}%`).attr('stop-color', neighborColorScale(t * maxNeighborCount));
+        }
+        const nLegend = svg.append('g').attr('transform', `translate(${nLegendX},${nLegendY})`);
+        nLegend.append('text').attr('x', 0).attr('y', -6).style('font-size', '10px').style('font-weight', 'bold').style('fill', '#333')
+            .text('Occurrences par pays voisin');
+        nLegend.append('rect').attr('width', nLegendWidth).attr('height', nLegendHeight)
+            .style('fill', `url(#${nGradientId})`).attr('stroke', '#999').attr('stroke-width', 0.5);
+        const nLegendScale = d3.scaleLinear().domain([0, maxNeighborCount]).range([0, nLegendWidth]);
+        nLegend.append('g').attr('transform', `translate(0,${nLegendHeight})`)
+            .call(d3.axisBottom(nLegendScale).ticks(4).tickFormat(d3.format('d')))
+            .selectAll('text').style('font-size', '9px');
+    }
 }
 
 // --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---
@@ -1951,9 +2083,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         const eventFlags = { BIRT: mapFilterEls[0].checked, DEAT: mapFilterEls[1].checked, MARR: mapFilterEls[2].checked };
         const scopeIds = (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
-        const { byDept, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags);
+        const { byDept, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags);
         drawWorldMap(byWorldPoint);
-        drawFranceMap(byDept);
+        drawFranceMap(byDept, byCountry);
     }
 
     function updatePyramidLabel() {
