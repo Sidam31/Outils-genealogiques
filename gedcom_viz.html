@@ -400,22 +400,68 @@ GEO.deptCentroids = {
     "974":[55.4500,-20.8789], "976":[45.1662,-12.7806]
 };
 
+// Alias de noms de départements historiques (avant les renommages du XXe siècle), encore
+// courants dans les actes anciens : ex. "Côtes-du-Nord" (Côtes-d'Armor depuis 1990),
+// "Loire-Inférieure" (Loire-Atlantique depuis 1957), "Seine-Inférieure" (Seine-Maritime, 1955).
+GEO.deptHistoricalAliases = {
+    "côtes-du-nord": "22", "loire-inférieure": "44", "seine-inférieure": "76",
+    "charente-inférieure": "17", "basses-alpes": "04", "basses-pyrénées": "64"
+};
+
+// Normalisation de lieu partagée (minuscules, sans accents/tirets/ponctuation) et tables de
+// recherche précalculées une seule fois au chargement, plutôt que reconstruites à chaque appel
+// à analyzePlace : avec des GEDCOM de plusieurs milliers d'événements, refaire ~150 normalisations
+// (une par pays/région/département candidat, chacune recréant son propre regex diacritique) pour
+// CHAQUE lieu rendait le parsing nettement plus lent que nécessaire.
+const DIACRITICS_RE = new RegExp('[' + String.fromCharCode(0x0300) + '-' + String.fromCharCode(0x036f) + ']', 'g');
+function normalizePlace(s) {
+    return s.toLowerCase().normalize('NFD').replace(DIACRITICS_RE, '')
+        .replace(/[-''`]/g, ' ').replace(/[.,;:]/g, ' ');
+}
+const BELGIAN_REGIONS = new Set(["Wallonie","Flandre","Bruxelles","Brussels","Walloon","Flanders","Vlaanderen"]);
+GEO.countryEntriesNorm = Object.entries(GEO.countryMap).map(([k, v]) => [normalizePlace(k), v]);
+GEO.regionEntriesNorm = GEO.regions.map(r => [normalizePlace(r), r]);
+// Trié du nom le plus long au plus court : évite qu'un département dont le nom est un sous-mot
+// d'un autre (ex. "Loire" dans "Loire-Atlantique", "Cher" dans "Loir-et-Cher", "Nord" dans
+// l'ancien nom "Côtes-du-Nord") ne soit détecté à la place du bon département.
+GEO.deptEntriesNorm = Object.entries({ ...GEO.deptNames, ...GEO.deptHistoricalAliases })
+    .map(([name, code]) => {
+        const n = normalizePlace(name);
+        return { code, len: n.length, regex: new RegExp(`(^|\\s|,)${n.replace(/\s+/g, '\\s*')}(\\s|,|$)`) };
+    })
+    .sort((a, b) => b.len - a.len);
+function findDept(normText) {
+    for(const e of GEO.deptEntriesNorm) if(e.regex.test(normText)) return e.code;
+    return null;
+}
+
 // --- PARSER ---
 class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
     newEventFlags() { return { hasTag:false, hasDate:false }; }
-    diacriticsRegex() { return new RegExp('[' + String.fromCharCode(0x0300) + '-' + String.fromCharCode(0x036f) + ']', 'g'); }
+    newPlaceStub(raw) { return { raw, form:null, lat:null, lon:null, dept:null, region:null, country:null }; }
+    // Parse une coordonnée GEDCOM LATI/LONG du type "N47.314010" ou "W2.311220" en degrés décimaux signés.
+    parseCoord(v) {
+        if(!v) return null;
+        const m = v.trim().match(/^([NSEW])?(-?\d+(?:\.\d+)?)/i);
+        if(!m) return null;
+        const val = parseFloat(m[2]);
+        if(isNaN(val)) return null;
+        const dir = (m[1] || '').toUpperCase();
+        return (dir === 'S' || dir === 'W') ? -Math.abs(val) : Math.abs(val);
+    }
     parse(txt) {
         if(txt.charCodeAt(0)===0xFEFF) txt=txt.slice(1);
         const lines = txt.split(/\r?\n/);
-        let cur=null, type=null;
+        let cur=null, type=null, headPlacCtx=false;
         const re = /^\s*(\d+)\s+(@[^@]+@|[A-Za-z0-9_]+)(?:\s+(.*))?$/;
         for(const line of lines) {
             const m = line.match(re); if(!m) continue;
             const lvl=parseInt(m[1]), tag=m[2], val=m[3]||"";
             if(lvl===0) {
+                this._curPlaceStub = null;
                 if(val==='INDI') {
                     type='INDI';
                     cur={
@@ -425,16 +471,25 @@ class GedcomParser {
                     this.indis.set(cur.id, cur);
                 }
                 else if(val==='FAM') { type='FAM'; cur={id:this.clean(tag), children:[], marr:{hasTag:false, hasDate:false}}; this.fams.set(cur.id, cur); }
-                else cur=null;
+                else if(val==='HEAD') { type='HEAD'; cur=null; headPlacCtx=false; }
+                else { type=null; cur=null; }
+            } else if(type==='HEAD') {
+                // En-tête GEDCOM : "1 PLAC" / "2 FORM ..." déclare le format par défaut des lieux
+                // pour tout le fichier (ex. "Commune,Département,Région,Pays"), utilisé en secours
+                // par analyzePlace quand un lieu donné n'a pas son propre "3 FORM".
+                if(lvl===1) headPlacCtx = (tag==='PLAC');
+                else if(lvl===2 && tag==='FORM' && headPlacCtx) this.globalPlacForm = val.trim();
             } else if(cur) {
                 if(type==='INDI') this.parseIndi(cur, lvl, tag, val);
                 if(type==='FAM') this.parseFam(cur, lvl, tag, val);
             }
         }
+        this.finalizeAllGeo();
         this.postProcess(); return Array.from(this.indis.values());
     }
     parseIndi(i, lvl, t, v) {
         if(lvl===1) {
+            this._curPlaceStub = null;
             i._ctx=t;
             if(t==='NAME') i.name=v.replace(/\//g,'');
             if(t==='FAMC') i.famc=this.clean(v);
@@ -446,6 +501,7 @@ class GedcomParser {
             }
         }
         else if(lvl===2) {
+            if(t!=='PLAC') this._curPlaceStub = null; // DATE/ADDR/SOUR... referment le contexte du lieu précédent
             if(t==='DATE') {
                 const y=this.getYear(v);
                 if(i._ctx==='BIRT') i.birth.year=y;
@@ -455,11 +511,26 @@ class GedcomParser {
                     if(v && v.trim().length) i.events[key].hasDate = true;
                 }
             }
-            if(t==='PLAC') { const geo=this.analyzePlace(v); if(i._ctx==='BIRT') i.birth.geo=geo; if(i._ctx==='DEAT') i.death.geo=geo; }
+            if(t==='PLAC') {
+                const stub = this.newPlaceStub(v);
+                this._curPlaceStub = stub;
+                if(i._ctx==='BIRT') i.birth.geo=stub;
+                if(i._ctx==='DEAT') i.death.geo=stub;
+            }
+        }
+        // "3 FORM" (hiérarchie propre à ce lieu) et "3 MAP / 4 LATI / 4 LONG" (coordonnées GPS),
+        // rattachés au lieu (PLAC) qui vient d'être ouvert plus haut.
+        else if(lvl===3 && this._curPlaceStub) {
+            if(t==='FORM') this._curPlaceStub.form = v.trim();
+        }
+        else if(lvl===4 && this._curPlaceStub) {
+            if(t==='LATI') this._curPlaceStub.lat = this.parseCoord(v);
+            if(t==='LONG') this._curPlaceStub.lon = this.parseCoord(v);
         }
     }
     parseFam(f, lvl, t, v) {
         if(lvl===1) {
+            this._curPlaceStub = null;
             f._ctx=t;
             if(t==='HUSB') f.husb=this.clean(v);
             if(t==='WIFE') f.wife=this.clean(v);
@@ -467,59 +538,83 @@ class GedcomParser {
             if(t==='MARR') f.marr.hasTag = true;
         }
         else if(lvl===2 && f._ctx==='MARR') {
+            if(t!=='PLAC') this._curPlaceStub = null;
             if(t==='DATE') { f.marr.year=this.getYear(v); if(v && v.trim().length) f.marr.hasDate = true; }
-            if(t==='PLAC') f.marr.geo=this.analyzePlace(v);
+            if(t==='PLAC') {
+                const stub = this.newPlaceStub(v);
+                this._curPlaceStub = stub;
+                f.marr.geo = stub;
+            }
+        }
+        else if(lvl===3 && this._curPlaceStub) {
+            if(t==='FORM') this._curPlaceStub.form = v.trim();
+        }
+        else if(lvl===4 && this._curPlaceStub) {
+            if(t==='LATI') this._curPlaceStub.lat = this.parseCoord(v);
+            if(t==='LONG') this._curPlaceStub.lon = this.parseCoord(v);
         }
     }
-    analyzePlace(str) {
-        if(!str) return { dept:null, region:null, country:null, raw:"" };
-        // Normalisation : minuscules, suppression accents, tirets, caractères spéciaux
-        const normalize = s => s.toLowerCase()
-            .normalize('NFD').replace(this.diacriticsRegex(), '')
-            .replace(/[-''`]/g, ' ').replace(/[.,;:]/g, ' ');
-        const norm = normalize(str);
+    // Calcule dept/region/country pour chaque lieu rencontré, une fois le fichier entièrement lu
+    // (nécessaire car le "3 FORM" propre à un lieu, quand il existe, arrive APRÈS la ligne PLAC).
+    finalizeAllGeo() {
+        const finalize = geo => {
+            if(!geo) return;
+            const r = this.analyzePlace(geo.raw, geo.form || this.globalPlacForm);
+            geo.dept = r.dept; geo.region = r.region; geo.country = r.country;
+        };
+        this.indis.forEach(i => { finalize(i.birth.geo); finalize(i.death.geo); });
+        this.fams.forEach(f => finalize(f.marr.geo));
+    }
+    analyzePlace(str, formStr) {
+        if(!str) return { dept:null, region:null, country:null };
+        const norm = normalizePlace(str);
         let country=null, dept=null, region=null;
 
-        // Détection pays
-        for(const [k,v] of Object.entries(GEO.countryMap)) {
-            if(norm.includes(normalize(k))) { country=v; break; }
-        }
-
-        // Détection région
-        if(!country || country==="France" || country==="Belgique") {
-            for(const r of GEO.regions) {
-                if(norm.includes(normalize(r))) {
-                    region=r;
-                    country = ["Wallonie","Flandre","Bruxelles","Brussels","Walloon","Flanders","Vlaanderen"].includes(r) ? "Belgique" : "France";
-                    break;
+        // 1) Alignement positionnel via le "PLAC.FORM" (propre au lieu, sinon celui de l'en-tête du
+        // fichier) quand son nombre de champs déclarés correspond exactement au nombre de segments
+        // séparés par des virgules de CE lieu : c'est fiable et évite toute ambiguïté de nom.
+        // Si les décomptes diffèrent (ex. FORM à 7 niveaux mais valeur n'en renseignant que 3), on ne
+        // peut pas savoir quels niveaux ont été omis : on se rabat alors sur la recherche floue (2).
+        if(formStr) {
+            const rawParts = str.split(',').map(s => s.trim());
+            const formParts = formStr.split(',').map(s => s.trim());
+            if(rawParts.length === formParts.length) {
+                const idxOf = re => formParts.findIndex(f => re.test(normalizePlace(f)));
+                const countryIdx = idxOf(/pays|country/);
+                const regionIdx = idxOf(/region|province|state|etat/);
+                const deptIdx = idxOf(/departement|county|comte/);
+                if(countryIdx >= 0 && rawParts[countryIdx]) {
+                    const segNorm = normalizePlace(rawParts[countryIdx]);
+                    const hit = GEO.countryEntriesNorm.find(([nk]) => segNorm.includes(nk));
+                    country = hit ? hit[1] : rawParts[countryIdx];
+                }
+                if(deptIdx >= 0 && rawParts[deptIdx]) {
+                    dept = findDept(normalizePlace(rawParts[deptIdx]));
+                    if(dept) country = country || "France";
+                }
+                if(regionIdx >= 0 && rawParts[regionIdx]) {
+                    const segNorm = normalizePlace(rawParts[regionIdx]);
+                    const hit = GEO.regionEntriesNorm.find(([nr]) => segNorm===nr || segNorm.includes(nr));
+                    if(hit) region = hit[1];
                 }
             }
         }
 
-        // Détection département français - UNIQUEMENT via code INSEE (5 chiffres) ou nom complet
-        if(!country || country==="France") {
-            // 1. Chercher un code INSEE complet (5 chiffres : 2 dept + 3 commune, ou 97xxx pour DOM)
+        // 2) Recherche floue de secours sur la chaîne complète (comble ce que (1) n'a pas trouvé).
+        if(!country) {
+            const hit = GEO.countryEntriesNorm.find(([nk]) => norm.includes(nk));
+            if(hit) country = hit[1];
+        }
+        if(!region && (!country || country==="France" || country==="Belgique")) {
+            const hit = GEO.regionEntriesNorm.find(([nr]) => norm.includes(nr));
+            if(hit) { region = hit[1]; country = BELGIAN_REGIONS.has(hit[1]) ? "Belgique" : "France"; }
+        }
+        if(!dept && (!country || country==="France")) {
+            // Code INSEE complet (5 chiffres : 2 dept + 3 commune, ou 97xxx pour DOM)
             const codeInsee = str.match(/\b(97[1-6]|2[AB]|0[1-9]|[1-8]\d|9[0-5])\d{3}\b/);
-            if(codeInsee) {
-                let c = codeInsee[1];
-                // Normaliser : 01-09 sans le 0 initial dans certains cas
-                if(c.length === 2 && c.startsWith('0')) c = c; // Garder le format 01-09
-                if(GEO.deptLabels[c]) { dept=c; country="France"; }
-            }
-
-            // 2. Si pas de code INSEE, chercher le nom complet du département
-            if(!dept) {
-                for(const [deptName, deptCode] of Object.entries(GEO.deptNames)) {
-                    const normDeptName = normalize(deptName);
-                    // Chercher le mot complet (avec word boundaries adaptés aux espaces)
-                    const regex = new RegExp(`(^|\\s|,)${normDeptName.replace(/\s+/g, '\\s*')}(\\s|,|$)`);
-                    if(regex.test(norm)) {
-                        dept = deptCode;
-                        country = "France";
-                        break;
-                    }
-                }
-            }
+            if(codeInsee && GEO.deptLabels[codeInsee[1]]) { dept = codeInsee[1]; country = "France"; }
+            if(!dept) dept = findDept(norm);
+            if(dept) country = "France";
         }
 
         let deptDisp = null;
@@ -529,7 +624,7 @@ class GedcomParser {
         }
         if(!country && dept) country = "France";
         if(!country && !dept && !region) country = "Inconnu";
-        return { dept:deptDisp, region, country, raw:str };
+        return { dept:deptDisp, region, country };
     }
     postProcess() {
         this.indis.forEach(i => {
@@ -1444,9 +1539,15 @@ function computeGeoCounts(scopeIds, individuals, eventFlags) {
     const add = geo => {
         if(!geo) return;
         if(geo.country && geo.country !== 'Inconnu') byCountry[geo.country] = (byCountry[geo.country] || 0) + 1;
+        if(geo.dept) byDept[geo.dept.split(' - ')[0]] = (byDept[geo.dept.split(' - ')[0]] || 0) + 1;
+        // Priorité aux coordonnées GPS exactes du GEDCOM (LATI/LONG), sinon préfecture du
+        // département, sinon centroïde du pays.
+        if(geo.lat != null && geo.lon != null) {
+            addPoint('gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), geo.dept || geo.raw || geo.country, [geo.lon, geo.lat]);
+            return;
+        }
         if(geo.dept) {
             const code = geo.dept.split(' - ')[0];
-            byDept[code] = (byDept[code] || 0) + 1;
             if(GEO.deptCentroids[code]) { addPoint('dept:' + code, geo.dept, GEO.deptCentroids[code]); return; }
         }
         if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country]);
