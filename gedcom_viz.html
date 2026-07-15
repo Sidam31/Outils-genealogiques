@@ -264,17 +264,27 @@
         <div class="quality-charts">
             <div class="quality-chart-box">
                 <div class="chart-box-header">
-                    <h3>Âge moyen au décès par décennie (H/F)</h3>
+                    <h3>Âge médian au décès par décennie (H/F)</h3>
                     <button class="chart-copy-btn" data-target="ageChartDeathTrend" title="Copier l'image dans le presse-papier">📋</button>
                 </div>
                 <div id="ageChartDeathTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
             </div>
             <div class="quality-chart-box">
                 <div class="chart-box-header">
-                    <h3>Âge moyen au 1er enfant par décennie (H/F)</h3>
+                    <h3>Âge médian au 1er enfant par décennie (H/F)</h3>
                     <button class="chart-copy-btn" data-target="ageChartFirstChildTrend" title="Copier l'image dans le presse-papier">📋</button>
                 </div>
                 <div id="ageChartFirstChildTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+        </div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box" style="flex-basis: 100%;">
+                <div class="chart-box-header">
+                    <h3>Professions les plus fréquentes (tag OCCU + FACT)</h3>
+                    <button class="chart-copy-btn" data-target="occupationsChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="occupationsChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
             </div>
         </div>
     </div>
@@ -303,6 +313,42 @@
                     (Basé sur l'année de naissance. Si pas de naissance, la personne sera listée par défaut.)
                 </div>
             </div>
+
+            <div class="age-filter-container" id="marrFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="minAgeMarr">
+                    <strong>Filtre Mariage :</strong> Ignorer le mariage manquant si la personne a moins de
+                    <input type="number" id="minAgeMarr" value="18" min="0"> ans.
+                </label>
+                <div class="hint">
+                    (Basé sur l'année de naissance. Si pas de naissance, la personne sera listée par défaut.)
+                </div>
+            </div>
+
+            <div class="age-filter-container" id="bapmFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="maxYearBapm">
+                    <strong>Filtre Baptême :</strong> Ignorer le baptême manquant si la personne est née après l'année
+                    <input type="number" id="maxYearBapm" value=1900 style="width:80px;">.
+                </label>
+                <div class="hint">(Laisser vide pour ne pas filtrer.)</div>
+            </div>
+
+            <div class="age-filter-container" id="buriFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="maxYearBuri">
+                    <strong>Filtre Inhumation :</strong> Ignorer l'inhumation manquante si la personne est née après l'année
+                    <input type="number" id="maxYearBuri" value=1900 style="width:80px;">.
+                </label>
+                <div class="hint">(Laisser vide pour ne pas filtrer.)</div>
+            </div>
+
+            <div class="map-scope-row">
+                <label for="qualityAncestorOnly"><input type="checkbox" id="qualityAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="qualityPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="qualityPersonResults"></ul>
+                </div>
+                <span id="qualityPersonSelected" class="map-person-selected"></span>
+            </div>
+            <div class="hint" style="text-align:center;">Si activé, un numéro Sosa (1 = la personne choisie) est calculé et les résultats sont triés par Sosa.</div>
         </div>
 
         <div class="controls">
@@ -334,6 +380,7 @@
             <table id="qualityTable">
                 <thead>
                     <tr>
+                        <th>Sosa</th>
                         <th>ID</th>
                         <th>Nom</th>
                         <th>Naissance (Calc)</th>
@@ -446,9 +493,12 @@ function findDept(normText) {
 
 // --- PARSER ---
 class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
+    // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
+    // valeur DATE, indiquant que l'année n'est pas connue avec certitude (ex. "ABT 1750").
+    isApproxDate(s) { return !!s && /\b(ABT|CAL|EST)\b/i.test(s); }
     newEventFlags() { return { hasTag:false, hasDate:false }; }
     newPlaceStub(raw) { return { raw, form:null, lat:null, lon:null, dept:null, region:null, country:null }; }
     // Parse une coordonnée GEDCOM LATI/LONG du type "N47.314010" ou "W2.311220" en degrés décimaux signés.
@@ -474,7 +524,7 @@ class GedcomParser {
                 if(val==='INDI') {
                     type='INDI';
                     cur={
-                        id:this.clean(tag), name:'Inconnu', birth:{}, death:{}, fams:[], childrenCount:0,
+                        id:this.clean(tag), name:'Inconnu', birth:{}, death:{}, fams:[], childrenCount:0, occupations:[],
                         events: { BIRT:this.newEventFlags(), DEAT:this.newEventFlags(), BURI:this.newEventFlags(), BAPM:this.newEventFlags() }
                     };
                     this.indis.set(cur.id, cur);
@@ -500,10 +550,21 @@ class GedcomParser {
         if(lvl===1) {
             this._curPlaceStub = null;
             i._ctx=t;
-            if(t==='NAME') i.name=v.replace(/\//g,'');
+            // "/Surname/" est parfois collé au prénom sans espace dans le fichier source
+            // (ex. "Jean/Dupont/") : on force un espace autour du nom entre slashes plutôt que de
+            // simplement retirer les "/", puis on nettoie les espaces multiples qui en résultent.
+            if(t==='NAME') i.name=v.replace(/\/([^\/]*)\//g, ' $1 ').replace(/\s+/g, ' ').trim();
             if(t==='FAMC') i.famc=this.clean(v);
             if(t==='FAMS') i.fams.push(this.clean(v));
             if(t==='SEX') i.sex=v.trim().toUpperCase().charAt(0); // 'M' ou 'F' (ou 'U'/'X' selon la source)
+            // Une personne peut avoir plusieurs "1 OCCU" (métiers successifs au fil des actes) :
+            // on les garde tous plutôt que d'écraser avec le dernier rencontré.
+            if(t==='OCCU' && v && v.trim()) i.occupations.push(v.trim());
+            // Certains logiciels (Ancestris, Gramps...) encodent le métier comme un fait générique
+            // "1 FACT <valeur>" / "2 TYPE Occupation" plutôt que le tag standard OCCU. On mémorise la
+            // valeur du FACT en attendant de voir si son TYPE le confirme comme une occupation
+            // (traité au niveau 2 ci-dessous) : sans TYPE, ou avec un autre TYPE, elle est ignorée.
+            this._curFactValue = (t==='FACT' && v && v.trim()) ? v.trim() : null;
             if(['BIRT','DEAT','BURI','BAPM','CHR'].includes(t)) {
                 const key = t==='CHR' ? 'BAPM' : t;
                 i.events[key].hasTag = true;
@@ -513,8 +574,9 @@ class GedcomParser {
             if(t!=='PLAC') this._curPlaceStub = null; // DATE/ADDR/SOUR... referment le contexte du lieu précédent
             if(t==='DATE') {
                 const y=this.getYear(v);
-                if(i._ctx==='BIRT') i.birth.year=y;
-                if(i._ctx==='DEAT') i.death.year=y;
+                const approx=this.isApproxDate(v);
+                if(i._ctx==='BIRT') { i.birth.year=y; i.birth.approx=approx; }
+                if(i._ctx==='DEAT') { i.death.year=y; i.death.approx=approx; }
                 if(['BIRT','DEAT','BURI','BAPM','CHR'].includes(i._ctx)) {
                     const key = i._ctx==='CHR' ? 'BAPM' : i._ctx;
                     if(v && v.trim().length) i.events[key].hasDate = true;
@@ -525,6 +587,10 @@ class GedcomParser {
                 this._curPlaceStub = stub;
                 if(i._ctx==='BIRT') i.birth.geo=stub;
                 if(i._ctx==='DEAT') i.death.geo=stub;
+            }
+            if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
+                i.occupations.push(this._curFactValue);
+                this._curFactValue = null;
             }
         }
         // "3 FORM" (hiérarchie propre à ce lieu) et "3 MAP / 4 LATI / 4 LONG" (coordonnées GPS),
@@ -1329,7 +1395,10 @@ function escapeHtml(text) {
     if (!text) return "";
     return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
-function computeQualityIssues(list, fams) {
+// scopeSet : Set d'IDs à analyser (null = tout le fichier). sosaMap : Map id -> numéro Sosa
+// (null si pas de racine choisie) ; quand fourni, chaque problème porte son numéro Sosa et la
+// liste est triée par Sosa croissant plutôt que par ordre de rencontre dans le fichier.
+function computeQualityIssues(list, fams, scopeSet, sosaMap) {
     const issues = [];
     const opts = {
         BIRT: document.getElementById('checkBirt').checked,
@@ -1339,9 +1408,17 @@ function computeQualityIssues(list, fams) {
         BURI: document.getElementById('checkBuri').checked
     };
     const minAgeDeat = parseInt(document.getElementById('minAgeDeat').value) || 0;
+    const minAgeMarr = parseInt(document.getElementById('minAgeMarr').value) || 0;
+    const maxYearBapmRaw = document.getElementById('maxYearBapm').value;
+    const maxYearBuriRaw = document.getElementById('maxYearBuri').value;
+    const maxYearBapm = maxYearBapmRaw ? parseInt(maxYearBapmRaw) : null;
+    const maxYearBuri = maxYearBuriRaw ? parseInt(maxYearBuriRaw) : null;
     const currentYear = new Date().getFullYear();
 
     list.forEach(p => {
+        if (scopeSet && !scopeSet.has(p.id)) return;
+        const sosa = sosaMap ? (sosaMap.get(p.id) ?? null) : null;
+
         ['BIRT', 'DEAT', 'BURI', 'BAPM'].forEach(evtType => {
             if (!opts[evtType]) return;
             const evtData = p.events[evtType];
@@ -1354,24 +1431,34 @@ function computeQualityIssues(list, fams) {
                 const age = currentYear - p.birth.year;
                 if (age < minAgeDeat) shouldReport = false;
             }
+            if (evtType === 'BAPM' && maxYearBapm != null && p.birth.year != null && p.birth.year > maxYearBapm) shouldReport = false;
+            if (evtType === 'BURI' && maxYearBuri != null && p.birth.year != null && p.birth.year > maxYearBuri) shouldReport = false;
             if (shouldReport) {
-                issues.push({ id: p.id, name: p.name, birthYear: p.birth.year, type: evtType, issue: isMissing ? "Événement manquant" : "Date manquante" });
+                issues.push({ id: p.id, name: p.name, birthYear: p.birth.year, birthApprox: p.birth.approx, type: evtType, issue: isMissing ? "Événement manquant" : "Date manquante", sosa });
             }
         });
 
         if (opts.MARR && p.fams.length > 0) {
-            let hasMissingMarr = false, hasEmptyDateMarr = false;
-            p.fams.forEach(famId => {
-                const fam = fams.get(famId);
-                if (fam) {
-                    if (!fam.marr.hasTag) hasMissingMarr = true;
-                    else if (!fam.marr.hasDate) hasEmptyDateMarr = true;
-                }
-            });
-            if (hasMissingMarr) issues.push({ id: p.id, name: p.name, birthYear: p.birth.year, type: 'MARR', issue: "Événement manquant (Famille)" });
-            else if (hasEmptyDateMarr) issues.push({ id: p.id, name: p.name, birthYear: p.birth.year, type: 'MARR', issue: "Date manquante (Famille)" });
+            let shouldReportMarr = true;
+            if (p.birth.year != null) {
+                const age = currentYear - p.birth.year;
+                if (age < minAgeMarr) shouldReportMarr = false;
+            }
+            if (shouldReportMarr) {
+                let hasMissingMarr = false, hasEmptyDateMarr = false;
+                p.fams.forEach(famId => {
+                    const fam = fams.get(famId);
+                    if (fam) {
+                        if (!fam.marr.hasTag) hasMissingMarr = true;
+                        else if (!fam.marr.hasDate) hasEmptyDateMarr = true;
+                    }
+                });
+                if (hasMissingMarr) issues.push({ id: p.id, name: p.name, birthYear: p.birth.year, birthApprox: p.birth.approx, type: 'MARR', issue: "Événement manquant (Famille)", sosa });
+                else if (hasEmptyDateMarr) issues.push({ id: p.id, name: p.name, birthYear: p.birth.year, birthApprox: p.birth.approx, type: 'MARR', issue: "Date manquante (Famille)", sosa });
+            }
         }
     });
+    if (sosaMap) issues.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
     return issues;
 }
 
@@ -1585,6 +1672,23 @@ function getAncestorIds(individuals, rootId) {
     return ids;
 }
 
+// Numérotation Sosa-Stradonitz depuis rootId (Sosa 1) : père de n -> 2n, mère de n -> 2n+1.
+// N'a de sens que par rapport à une personne racine donnée (contrairement à "ID"), d'où le retour
+// sous forme de Map plutôt qu'un champ permanent sur les individus.
+function getSosaMap(individuals, rootId) {
+    const sosa = new Map();
+    function assign(id, n, depth) {
+        if(!id || depth > 20 || sosa.has(id)) return;
+        sosa.set(id, n);
+        const i = individuals.get(id);
+        if(!i) return;
+        assign(i.fatherId, n * 2, depth + 1);
+        assign(i.motherId, n * 2 + 1, depth + 1);
+    }
+    assign(rootId, 1, 0);
+    return sosa;
+}
+
 // Compte les lieux (pays / département) par type d'événement activé, pour un ensemble d'individus donné.
 function computeGeoCounts(scopeIds, individuals, eventFlags) {
     const byCountry = {}, byDept = {};
@@ -1623,12 +1727,21 @@ function computeGeoCounts(scopeIds, individuals, eventFlags) {
 }
 
 // --- STATISTIQUES (pyramide des âges, tendances par décennie) ---
+// Moyenne ET médiane : la médiane + son intervalle interquartile (25e-75e percentile) donnent une
+// lecture robuste aux valeurs extrêmes ; la moyenne reste affichée à côté car un écart entre les
+// deux est lui-même un signal utile (distribution asymétrique, quelques âges aberrants, etc.).
 function computeStats(values) {
     const n = values.length;
-    if(n === 0) return { mean: null, std: null, n: 0 };
+    if(n === 0) return { mean: null, median: null, p25: null, p75: null, n: 0 };
     const mean = values.reduce((a, b) => a + b, 0) / n;
-    const variance = n > 1 ? values.reduce((a, b) => a + (b - mean) * (b - mean), 0) / (n - 1) : 0;
-    return { mean, std: Math.sqrt(variance), n };
+    const sorted = [...values].sort((a, b) => a - b);
+    const quantile = q => {
+        const pos = (sorted.length - 1) * q;
+        const base = Math.floor(pos);
+        const rest = pos - base;
+        return sorted[base + 1] !== undefined ? sorted[base] + rest * (sorted[base + 1] - sorted[base]) : sorted[base];
+    };
+    return { mean, median: quantile(0.5), p25: quantile(0.25), p75: quantile(0.75), n };
 }
 function decadeOf(year) { return Math.floor(year / 10) * 10; }
 
@@ -1736,6 +1849,16 @@ async function drawWorldMap(byWorldPoint) {
 // hors France présentes dans le geojson (ex: départements historiques belges "B01"-"B11").
 const FRENCH_DEPT_CODES = new Set(Object.values(GEO.deptNames));
 
+// Ticks entiers, sans doublons, pour les légendes de carte : d3's .ticks(n) génère parfois des
+// valeurs décimales qui, une fois arrondies à l'entier pour l'affichage ("0 occurrence" n'a pas de
+// sens en 0.3), se répètent (ex. 0, 0, 0, 1, 1, 1 quand le maximum ne vaut que 1). En dessous de
+// maxTicks, on affiche directement chaque entier de 0 au maximum plutôt que de laisser d3 deviner.
+function niceIntegerTicks(maxVal, maxTicks) {
+    maxVal = Math.max(0, Math.round(maxVal));
+    if(maxVal <= maxTicks) return Array.from({ length: maxVal + 1 }, (_, i) => i);
+    return Array.from(new Set(d3.scaleLinear().domain([0, maxVal]).ticks(maxTicks).map(Math.round)));
+}
+
 async function drawFranceMap(byDept, byCountry) {
     byCountry = byCountry || {};
     const container = d3.select('#franceMapChart');
@@ -1783,7 +1906,7 @@ async function drawFranceMap(byDept, byCountry) {
     // même domaine [0, maxCount] sans que les voisins n'apparaissent presque tous blancs.
     const neighborCounts = neighborFeatures.map(f => byCountry[neighborCountryLabel(f)] || 0);
     const maxNeighborCount = Math.max(1, ...neighborCounts);
-    const neighborColorScale = d3.scaleSequentialSqrt(d3.interpolateBlues).domain([0, maxNeighborCount]);
+    const neighborColorScale = d3.scaleSequentialSqrt(d3.interpolateOranges).domain([0, maxNeighborCount]);
 
     const tooltip = document.getElementById('tooltip');
 
@@ -1859,13 +1982,14 @@ async function drawFranceMap(byDept, byCountry) {
         .style('fill', `url(#${gradientId})`).attr('stroke', '#999').attr('stroke-width', 0.5);
     const legendScale = d3.scaleLinear().domain([0, maxCount]).range([0, legendWidth]);
     legend.append('g').attr('transform', `translate(0,${legendHeight})`)
-        .call(d3.axisBottom(legendScale).ticks(4).tickFormat(d3.format('d')))
+        .call(d3.axisBottom(legendScale).tickValues(niceIntegerTicks(maxCount, 4)).tickFormat(d3.format('d')))
         .selectAll('text').style('font-size', '9px');
 
-    // Seconde légende, plus compacte, pour l'échelle (distincte) des pays voisins.
+    // Seconde légende, pour l'échelle (distincte) des pays voisins : empilée au même endroit que
+    // celle des départements (même coin, même largeur), juste au-dessus.
     if(neighborFeatures.length) {
-        const nLegendWidth = 130, nLegendHeight = 10;
-        const nLegendX = 16, nLegendY = 26;
+        const nLegendWidth = legendWidth, nLegendHeight = legendHeight;
+        const nLegendX = legendX, nLegendY = legendY - 48;
         const nGradientId = 'franceMapNeighborGradient';
         const nGradient = svg.append('defs').append('linearGradient')
             .attr('id', nGradientId).attr('x1', '0%').attr('x2', '100%').attr('y1', '0%').attr('y2', '0%');
@@ -1880,7 +2004,7 @@ async function drawFranceMap(byDept, byCountry) {
             .style('fill', `url(#${nGradientId})`).attr('stroke', '#999').attr('stroke-width', 0.5);
         const nLegendScale = d3.scaleLinear().domain([0, maxNeighborCount]).range([0, nLegendWidth]);
         nLegend.append('g').attr('transform', `translate(0,${nLegendHeight})`)
-            .call(d3.axisBottom(nLegendScale).ticks(4).tickFormat(d3.format('d')))
+            .call(d3.axisBottom(nLegendScale).tickValues(niceIntegerTicks(maxNeighborCount, 4)).tickFormat(d3.format('d')))
             .selectAll('text').style('font-size', '9px');
     }
 }
@@ -1950,25 +2074,28 @@ function drawAgePyramid(data) {
     legend.append('text').attr('x', 101).attr('y', 10).style('font-size', '11px').text('Femmes');
 }
 
-// Trace un graphique ligne + bande (moyenne ± écart type) par décennie, une ou plusieurs séries.
+// Trace un graphique par décennie, une ou plusieurs séries : ligne pleine = médiane, ligne
+// pointillée = moyenne, bande ombrée = 25e-75e percentile.
 function drawMeanStdChart(container, series, opts) {
     opts = opts || {};
     container.selectAll('*').remove();
-    const allDecades = Array.from(new Set(series.flatMap(s => s.points.filter(p => p.mean != null).map(p => p.decade)))).sort((a, b) => a - b);
+    const allDecades = Array.from(new Set(series.flatMap(s => s.points.filter(p => p.median != null).map(p => p.decade)))).sort((a, b) => a - b);
     if(!allDecades.length) {
         container.append('div').attr('class', 'map-placeholder').text(opts.emptyText || 'Pas assez de données.');
         return;
     }
 
     const width = container.node().clientWidth || 500, height = 280;
-    const margin = { top: 24, right: 20, bottom: 58, left: 48 };
+    // Marge du haut agrandie pour laisser la place à la légende sur deux lignes (séries, puis
+    // explication médiane/moyenne/corridor).
+    const margin = { top: 52, right: 20, bottom: 58, left: 48 };
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
     let yMin = Infinity, yMax = -Infinity;
     series.forEach(s => s.points.forEach(p => {
-        if(p.mean == null) return;
-        yMin = Math.min(yMin, p.mean - (p.std || 0));
-        yMax = Math.max(yMax, p.mean + (p.std || 0));
+        if(p.median == null) return;
+        yMin = Math.min(yMin, p.p25, p.mean);
+        yMax = Math.max(yMax, p.p75, p.mean);
     }));
     yMin = Math.max(0, yMin - 2); yMax = yMax + 2;
 
@@ -1990,29 +2117,48 @@ function drawMeanStdChart(container, series, opts) {
         .attr('dy', '0.15em');
     svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6));
 
-    const area = d3.area().x(p => x(p.decade)).y0(p => y(p.mean - (p.std || 0))).y1(p => y(p.mean + (p.std || 0)));
-    const line = d3.line().x(p => x(p.decade)).y(p => y(p.mean));
+    const area = d3.area().x(p => x(p.decade)).y0(p => y(p.p25)).y1(p => y(p.p75));
+    const medianLine = d3.line().x(p => x(p.decade)).y(p => y(p.median));
+    const meanLine = d3.line().x(p => x(p.decade)).y(p => y(p.mean));
 
-    series.forEach(s => {
-        const pts = s.points.filter(p => p.mean != null);
+    series.forEach((s, si) => {
+        const pts = s.points.filter(p => p.median != null);
         if(!pts.length) return;
         const bandColor = d3.color(s.color);
         bandColor.opacity = 0.18;
         if(pts.length > 1) svg.append('path').datum(pts).attr('d', area).attr('fill', bandColor.toString()).attr('stroke', 'none');
-        svg.append('path').datum(pts).attr('d', line).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2);
-        svg.selectAll('circle').data(pts).join('circle')
-            .attr('cx', p => x(p.decade)).attr('cy', p => y(p.mean)).attr('r', 3).attr('fill', s.color)
-            .append('title').text(p => `${p.decade}s : ${p.mean.toFixed(1)} ± ${(p.std || 0).toFixed(1)} ans (n=${p.n})`);
+        svg.append('path').datum(pts).attr('d', meanLine).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 1.5).attr('stroke-dasharray', '4,3');
+        svg.append('path').datum(pts).attr('d', medianLine).attr('fill', 'none').attr('stroke', s.color).attr('stroke-width', 2);
+        // Classe par série : sans ça, le sélecteur générique 'circle' ré-utiliserait les cercles
+        // d'une série précédente pour la suivante au lieu d'en créer de nouveaux (un seul jeu de
+        // cercles aurait fini par s'afficher, écrasé série après série).
+        svg.selectAll(`circle.pt-${si}`).data(pts).join('circle').attr('class', `pt-${si}`)
+            .attr('cx', p => x(p.decade)).attr('cy', p => y(p.median)).attr('r', 3).attr('fill', s.color)
+            .append('title').text(p => `${p.decade}s : médiane ${p.median.toFixed(1)} ans, moyenne ${p.mean.toFixed(1)} ans, 25e-75e percentile [${p.p25.toFixed(1)}–${p.p75.toFixed(1)}] (n=${p.n})`);
     });
 
-    if(series.length > 1) {
-        const legend = svg.append('g').attr('transform', `translate(${margin.left}, 4)`);
-        series.forEach((s, i) => {
-            const gx = i * 90;
-            legend.append('rect').attr('x', gx).attr('width', 10).attr('height', 10).attr('fill', s.color);
-            legend.append('text').attr('x', gx + 14).attr('y', 9).style('font-size', '10px').text(s.name);
-        });
-    }
+    // Légende sur deux lignes : (1) une entrée par série (couleur = identité de la série),
+    // (2) la signification des styles de trait (plein = médiane, pointillé = moyenne) et du
+    // corridor ombré — communs à toutes les séries, donc en gris neutre, affichés une seule fois.
+    const legendRow1 = svg.append('g').attr('transform', `translate(${margin.left}, 2)`);
+    let gx1 = 0;
+    series.forEach(s => {
+        if(!s.points.some(p => p.median != null)) return;
+        legendRow1.append('rect').attr('x', gx1).attr('y', 0).attr('width', 10).attr('height', 10).attr('fill', s.color);
+        legendRow1.append('text').attr('x', gx1 + 14).attr('y', 9).style('font-size', '10px').text(s.name);
+        gx1 += 14 + s.name.length * 5.5 + 16;
+    });
+
+    const legendRow2 = svg.append('g').attr('transform', `translate(${margin.left}, 18)`);
+    let gx2 = 0;
+    const addStyleEntry = (label, draw) => {
+        draw(legendRow2, gx2);
+        legendRow2.append('text').attr('x', gx2 + 20).attr('y', 9).style('font-size', '10px').text(label);
+        gx2 += 20 + label.length * 5.5 + 12;
+    };
+    addStyleEntry('Médiane', (g, x0) => g.append('line').attr('x1', x0).attr('x2', x0 + 16).attr('y1', 5).attr('y2', 5).attr('stroke', '#555').attr('stroke-width', 2));
+    addStyleEntry('Moyenne', (g, x0) => g.append('line').attr('x1', x0).attr('x2', x0 + 16).attr('y1', 5).attr('y2', 5).attr('stroke', '#555').attr('stroke-width', 1.5).attr('stroke-dasharray', '4,3'));
+    addStyleEntry('Corridor = 25e–75e percentile', (g, x0) => g.append('rect').attr('x', x0).attr('y', 0).attr('width', 14).attr('height', 10).attr('fill', '#888').attr('fill-opacity', 0.3));
 }
 
 function drawAgeDeathTrend(list) {
@@ -2053,6 +2199,110 @@ function drawFirstChildTrend(list) {
     ], { emptyText: 'Pas assez de données (sexe et âge au 1er enfant requis).' });
 }
 
+// Regroupe les "1 OCCU" (métier/profession) sur l'ensemble des individus, en normalisant la casse
+// et les espaces pour le regroupement (ex. "Cultivateur" et "cultivateur" comptent ensemble) tout
+// en affichant un libellé propre. Une personne avec plusieurs métiers compte dans chacun d'eux.
+function computeOccupationCounts(list, limit) {
+    const counts = new Map();
+    list.forEach(p => {
+        (p.occupations || []).forEach(raw => {
+            const key = raw.trim().toLowerCase().replace(/\s+/g, ' ');
+            if(!key) return;
+            counts.set(key, (counts.get(key) || 0) + 1);
+        });
+    });
+    const arr = Array.from(counts.entries())
+        .map(([key, count]) => ({ label: key.charAt(0).toUpperCase() + key.slice(1), count }))
+        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
+    return limit ? arr.slice(0, limit) : arr;
+}
+
+// Diagramme en barres horizontales des professions (tag GEDCOM OCCU) les plus fréquentes.
+// Horizontal plutôt que vertical : les libellés de métier sont du texte libre, souvent trop long
+// pour tenir sous des barres verticales sans se chevaucher.
+function drawOccupationsChart(list) {
+    const container = d3.select('#occupationsChart');
+    container.selectAll('*').remove();
+    const data = computeOccupationCounts(list, 15);
+    if(!data.length) {
+        container.append('div').attr('class', 'map-placeholder').text('Aucune profession (tag OCCU) trouvée dans ce fichier.');
+        return;
+    }
+
+    const width = container.node().clientWidth || 500;
+    const barHeight = 22;
+    const margin = { top: 10, right: 44, bottom: 10, left: 150 };
+    const height = margin.top + margin.bottom + data.length * barHeight;
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    const maxCount = d3.max(data, d => d.count) || 1;
+    const x = d3.scaleLinear().domain([0, maxCount]).nice().range([margin.left, width - margin.right]);
+    const y = d3.scaleBand().domain(data.map(d => d.label)).range([margin.top, height - margin.bottom]).padding(0.22);
+
+    const tooltip = document.getElementById('tooltip');
+    svg.selectAll('rect.bar').data(data).join('rect')
+        .attr('class', 'bar')
+        .attr('x', x(0)).attr('y', d => y(d.label)).attr('width', d => x(d.count) - x(0)).attr('height', y.bandwidth())
+        .attr('fill', '#3498db')
+        .on('mouseover', function(e, d) {
+            d3.select(this).attr('fill', '#2980b9');
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${escapeHtml(d.label)}</strong><div class="tt-row"><span>Occurrences</span><span>${d.count}</span></div>`;
+        })
+        .on('mousemove', e => {
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('fill', '#3498db');
+            tooltip.style.opacity = 0;
+        });
+
+    svg.selectAll('text.bar-label').data(data).join('text')
+        .attr('class', 'bar-label')
+        .attr('x', margin.left - 8).attr('y', d => y(d.label) + y.bandwidth() / 2).attr('dy', '0.35em')
+        .attr('text-anchor', 'end').style('font-size', '11px')
+        .text(d => d.label.length > 22 ? d.label.slice(0, 20) + '…' : d.label)
+        .append('title').text(d => d.label);
+
+    svg.selectAll('text.bar-count').data(data).join('text')
+        .attr('class', 'bar-count')
+        .attr('x', d => x(d.count) + 5).attr('y', d => y(d.label) + y.bandwidth() / 2).attr('dy', '0.35em')
+        .style('font-size', '10px').style('fill', '#555')
+        .text(d => d.count);
+}
+
+// --- LECTURE FICHIER (détection d'encodage) ---
+// FileReader.readAsText() décode toujours en UTF-8 (ou l'encodage de la page), quel que soit
+// l'encodage réel du fichier : un GEDCOM déclarant "1 CHAR ANSI" (courant pour les exports plus
+// anciens, ex. Windows-1252) ou "1 CHAR MACINTOSH" ressortait donc avec des caractères accentués
+// corrompus. On lit les octets bruts et on choisit le bon décodeur nous-mêmes.
+function detectGedcomEncoding(bytes) {
+    if(bytes[0] === 0xEF && bytes[1] === 0xBB && bytes[2] === 0xBF) return 'utf-8';
+    if(bytes[0] === 0xFF && bytes[1] === 0xFE) return 'utf-16le';
+    if(bytes[0] === 0xFE && bytes[1] === 0xFF) return 'utf-16be';
+    // Pas de BOM : on sonde la ligne d'en-tête "1 CHAR ..." pour connaître l'encodage déclaré. Les
+    // mots-clés GEDCOM sont en ASCII (donc lisibles quel que soit l'encodage réel du fichier), d'où
+    // le décodage "windows-1252" ici qui ne sert qu'à repérer ce mot-clé, jamais à décoder le texte final.
+    const probe = new TextDecoder('windows-1252').decode(bytes.slice(0, 4000));
+    const m = probe.match(/\r?\n1\s+CHAR\s+([A-Za-z0-9_-]+)/i);
+    const declared = (m ? m[1] : '').toUpperCase();
+    if(declared === 'UNICODE' || declared === 'UTF-16' || declared === 'UTF16') return 'utf-16le'; // "UNICODE" (GEDCOM 5.5) signifiait UTF-16
+    if(declared === 'MACINTOSH' || declared === 'MAC') return 'macintosh';
+    if(declared === 'UTF-8' || declared === 'UTF8') return 'utf-8';
+    // ANSI / ASCII / IBMPC / OEM / valeur absente : pas d'indication Unicode fiable. On vérifie si
+    // le contenu est un UTF-8 valide (la plupart des exports récents le sont même sans le déclarer) ;
+    // sinon on suppose Windows-1252 ("ANSI"), de loin le plus courant pour les exports occidentaux.
+    try { new TextDecoder('utf-8', { fatal: true }).decode(bytes); return 'utf-8'; }
+    catch(e) { return 'windows-1252'; }
+}
+async function readGedcomFile(file) {
+    const buf = await file.arrayBuffer();
+    const bytes = new Uint8Array(buf);
+    const encoding = detectGedcomEncoding(bytes);
+    return new TextDecoder(encoding, { fatal: false }).decode(bytes);
+}
+
 // --- APP ---
 document.addEventListener('DOMContentLoaded', () => {
     const parser = new GedcomParser();
@@ -2064,6 +2314,43 @@ document.addEventListener('DOMContentLoaded', () => {
     const qualityStatus = document.getElementById('qualityStatus');
     const qualityDownloadBtn = document.getElementById('qualityDownloadBtn');
     const qualityPreview = document.getElementById('qualityPreview');
+
+    // --- Onglet Analyse Qualité : filtre "ascendants uniquement" (même principe que l'onglet Cartes) ---
+    let qualityPersonId = null;
+    const qualityPersonSearchEl = document.getElementById('qualityPersonSearch');
+    const qualityPersonResultsEl = document.getElementById('qualityPersonResults');
+    const qualityPersonSelectedEl = document.getElementById('qualityPersonSelected');
+    const qualityAncestorOnlyEl = document.getElementById('qualityAncestorOnly');
+
+    function resetQualityPersonSelection() {
+        qualityPersonId = null;
+        qualityPersonSelectedEl.textContent = '';
+        qualityPersonSearchEl.value = '';
+        qualityPersonSearchEl.disabled = !qualityAncestorOnlyEl.checked;
+        qualityPersonResultsEl.style.display = 'none';
+    }
+
+    qualityAncestorOnlyEl.addEventListener('change', e => {
+        qualityPersonSearchEl.disabled = !e.target.checked;
+    });
+    qualityPersonSearchEl.addEventListener('input', e => {
+        const v = e.target.value.toLowerCase(); qualityPersonResultsEl.innerHTML = '';
+        if(v.length < 2) { qualityPersonResultsEl.style.display = 'none'; return; }
+        const m = list.filter(i => i.name.toLowerCase().includes(v)).slice(0, 10);
+        if(m.length) {
+            qualityPersonResultsEl.style.display = 'block';
+            m.forEach(p => {
+                const li = document.createElement('li'); li.innerText = `${p.name} (${p.birth.year || '?'})`;
+                li.onclick = () => {
+                    qualityPersonId = p.id;
+                    qualityPersonSelectedEl.textContent = `→ ${p.name}`;
+                    qualityPersonResultsEl.style.display = 'none';
+                    qualityPersonSearchEl.value = '';
+                };
+                qualityPersonResultsEl.appendChild(li);
+            });
+        }
+    });
 
     // --- Onglet Cartes (indépendant de la personne racine de l'Arbre éventail) ---
     let mapPersonId = null, pyramidDecadesCache = null;
@@ -2106,6 +2393,7 @@ document.addEventListener('DOMContentLoaded', () => {
             showMapMessage('ageChartPyramid', 'Chargez un fichier GEDCOM pour voir ce graphique.');
             showMapMessage('ageChartDeathTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
             showMapMessage('ageChartFirstChildTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+            showMapMessage('occupationsChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
             pyramidSliderEl.disabled = true;
             pyramidLabelEl.textContent = 'Toutes périodes';
             return;
@@ -2125,6 +2413,7 @@ document.addEventListener('DOMContentLoaded', () => {
         drawAgePyramidForSelectedDecade();
         drawAgeDeathTrend(list);
         drawFirstChildTrend(list);
+        drawOccupationsChart(list);
     }
 
     function renderMapsTab() {
@@ -2169,9 +2458,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     els.file.addEventListener('change', e => {
         const f = e.target.files[0]; if(!f) return;
-        const r = new FileReader();
-        r.onload = evt => {
-            list = parser.parse(evt.target.result); map = new Map(list.map(i=>[i.id, i])); fams = parser.fams;
+        readGedcomFile(f).then(text => {
+            list = parser.parse(text); map = new Map(list.map(i=>[i.id, i])); fams = parser.fams;
             if(list.length) {
                 els.search.disabled=false; els.depth.disabled=false; els.mode.disabled=false;
                 chartMessage.classList.add('hidden');
@@ -2185,6 +2473,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 d3.select('#qualityBarChart').selectAll('*').remove();
                 d3.select('#qualityTimelineChart').selectAll('*').remove();
                 resetMapPersonSelection();
+                resetQualityPersonSelection();
                 renderMapsTab();
             } else {
                 chartMessage.className = 'msg-error';
@@ -2192,8 +2481,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 analyzeBtn.disabled = true;
                 qualityStatus.textContent = "Aucun individu trouvé — fichier invalide.";
             }
-        };
-        r.readAsText(f);
+        }).catch(err => {
+            chartMessage.className = 'msg-error';
+            chartMessage.innerHTML = '<h2>Erreur de lecture</h2><p>Le fichier n\'a pas pu être lu.</p>';
+            analyzeBtn.disabled = true;
+            qualityStatus.textContent = "Erreur de lecture du fichier.";
+        });
     });
     [els.depth, els.mode].forEach(el => el.addEventListener('change', () => chart.render()));
     els.search.addEventListener('input', e => {
@@ -2211,7 +2504,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.addEventListener('changeroot', e => chart.setData(e.detail, map, fams));
     document.addEventListener('click', e => {
-        if(!e.target.closest('.ctrl')) { els.res.style.display='none'; mapPersonResultsEl.style.display='none'; }
+        if(!e.target.closest('.ctrl')) { els.res.style.display='none'; mapPersonResultsEl.style.display='none'; qualityPersonResultsEl.style.display='none'; }
     });
 
     // --- Tabs ---
@@ -2240,10 +2533,12 @@ document.addEventListener('DOMContentLoaded', () => {
     wireCopyButtons();
 
     // --- Quality analysis ---
-    document.getElementById('checkDeat').addEventListener('change', e => {
-        const div = document.getElementById('deathFilterConfig');
-        div.style.opacity = e.target.checked ? "1" : "0.4";
-        div.style.pointerEvents = e.target.checked ? "auto" : "none";
+    [['checkDeat', 'deathFilterConfig'], ['checkMarr', 'marrFilterConfig'], ['checkBapm', 'bapmFilterConfig'], ['checkBuri', 'buriFilterConfig']].forEach(([checkboxId, configId]) => {
+        document.getElementById(checkboxId).addEventListener('change', e => {
+            const div = document.getElementById(configId);
+            div.style.opacity = e.target.checked ? "1" : "0.4";
+            div.style.pointerEvents = e.target.checked ? "auto" : "none";
+        });
     });
 
     analyzeBtn.addEventListener('click', () => {
@@ -2253,7 +2548,10 @@ document.addEventListener('DOMContentLoaded', () => {
         qualityDownloadBtn.classList.add('hidden');
 
         setTimeout(() => {
-            qualityIssues = computeQualityIssues(list, fams);
+            const useAncestorScope = qualityAncestorOnlyEl.checked && qualityPersonId;
+            const sosaMap = useAncestorScope ? getSosaMap(map, qualityPersonId) : null;
+            const scopeSet = useAncestorScope ? new Set(sosaMap.keys()) : null;
+            qualityIssues = computeQualityIssues(list, fams, scopeSet, sosaMap);
             qualityStatus.textContent = `Terminé. ${qualityIssues.length} problème(s) trouvé(s).`;
 
             if(qualityIssues.length > 0) {
@@ -2267,8 +2565,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     const tr = document.createElement('tr');
                     const classIssue = item.issue.includes('manquant') ? 'tag-missing' : 'date-empty';
                     const tagLabel = getEventLabel(item.type);
-                    const birthDisplay = item.birthYear ? item.birthYear : '-';
+                    const birthDisplay = item.birthYear ? (item.birthApprox ? `ca ${item.birthYear}` : item.birthYear) : '-';
+                    const sosaDisplay = item.sosa != null ? item.sosa : '-';
                     tr.innerHTML = `
+                        <td>${sosaDisplay}</td>
                         <td>${item.id}</td>
                         <td>${escapeHtml(item.name)}</td>
                         <td>${birthDisplay}</td>
@@ -2292,12 +2592,13 @@ document.addEventListener('DOMContentLoaded', () => {
     qualityDownloadBtn.addEventListener('click', () => {
         if(qualityIssues.length === 0) return;
         const BOM = "﻿";
-        const headers = ["ID", "Nom", "Annee Naissance", "Evenement", "Probleme"];
+        const headers = ["Sosa", "ID", "Nom", "Annee Naissance", "Evenement", "Probleme"];
         const csvRows = qualityIssues.map(item => {
             const safeName = `"${item.name.replace(/"/g, '""')}"`;
             const label = getEventLabel(item.type);
-            const bYear = item.birthYear || "";
-            return `${item.id},${safeName},${bYear},${label},${item.issue}`;
+            const bYear = item.birthYear ? (item.birthApprox ? `ca ${item.birthYear}` : item.birthYear) : "";
+            const sosa = item.sosa != null ? item.sosa : "";
+            return `${sosa},${item.id},${safeName},${bYear},${label},${item.issue}`;
         });
         const csvContent = BOM + [headers.join(',')].concat(csvRows).join('\n');
         const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
