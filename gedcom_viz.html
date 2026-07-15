@@ -53,9 +53,12 @@
         .tt-row { display: flex; justify-content: space-between; gap: 15px; margin-bottom: 2px; }
         .tt-raw { color: #bbb; font-style: italic; font-size: 0.7rem; margin-top: 2px; }
 
-        /* SVG */
-        path { stroke: #fff; stroke-width: 0.5px; transition: fill-opacity 0.2s; }
-        path:hover { fill-opacity: 0.7; stroke: #333; stroke-width: 1.5px; }
+        /* SVG (arcs de l'arbre éventail uniquement : un sélecteur "path" non scopé écraserait, via
+           la cascade CSS qui gagne toujours sur les attributs de présentation SVG comme .attr('stroke',...),
+           la couleur de tous les autres graphiques D3 de l'appli — lignes médiane/moyenne, contours
+           des cartes, etc. — en blanc, quoi que leur code JS demande.) */
+        #chart path { stroke: #fff; stroke-width: 0.5px; transition: fill-opacity 0.2s; }
+        #chart path:hover { fill-opacity: 0.7; stroke: #333; stroke-width: 1.5px; }
         text { font-family: sans-serif; font-size: 7px; fill: #222; pointer-events: none; font-weight: 600; text-shadow: 0 0 2px #fff, 0 0 4px #fff; }
         text.gen-0, text.gen-1 { font-size: 9px; }
         text.gen-2, text.gen-3 { font-size: 8px; }
