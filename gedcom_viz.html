@@ -8,7 +8,12 @@
     <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
     <style>
-        :root { --bg: #ffffff; --text: #333; --border: #ddd; --accent: #2c3e50; }
+        :root {
+            --bg: #ffffff; --text: #333; --border: #ddd; --accent: #2c3e50;
+            /* Couleurs sémantiques de l'onglet "Parentés hypothétiques" */
+            --hyp-paternel: #4f8fe0; --hyp-maternel: #e05f8f; --hyp-confirme: #27ae60;
+            --hyp-rejete: #95a5a6; --hyp-ghost: #c9a24f; --hyp-alliance: #9b59b6;
+        }
         body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); color: var(--text); height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
 
         /* HEADER */
@@ -146,6 +151,42 @@
         .chart-box-header { display: flex; align-items: center; justify-content: center; position: relative; margin-bottom: 8px; }
         .chart-copy-btn { position: absolute; right: 0; top: 50%; transform: translateY(-50%); }
         .map-placeholder { color: #999; text-align: center; padding: 40px 10px; font-size: 0.9em; }
+
+        /* ONGLET "PARENTÉS HYPOTHÉTIQUES" (reconstitution de filiations non actées, ex. tutelles) */
+        #hypPanel { flex: 1; overflow: hidden; }
+        #hypSidebar { width: 380px; min-width: 380px; overflow-y: auto; background: #f9f9f9; border-right: 1px solid var(--border); padding: 16px; display: flex; flex-direction: column; gap: 16px; }
+        #hypSidebar h3 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #7f8c8d; margin: 0 0 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+        #hypSidebar section { display: flex; flex-direction: column; gap: 6px; }
+        #hypSidebar label { font-size: 0.8rem; color: #555; margin-top: 4px; }
+        #hypPanel .hyp-row { display: flex; gap: 6px; }
+        #hypPanel .hyp-row > * { flex: 1; }
+        #hypPanel .hyp-col { display: flex; flex-direction: column; gap: 6px; }
+        #hypStatus { font-size: 0.8rem; color: #7f8c8d; }
+        #hypPanel .hint { font-size: 0.78rem; color: #7f8c8d; font-style: italic; }
+        #hypPanel button.primary { background: #3b82f6; color: #fff; border: none; padding: 8px 16px; border-radius: 7px; cursor: pointer; font-size: 0.85rem; font-weight: 600; box-shadow: 0 1px 2px rgba(0,0,0,0.1); transition: background 0.15s, box-shadow 0.15s, transform 0.1s; }
+        #hypPanel button.primary:hover { background: #2563eb; box-shadow: 0 2px 6px rgba(0,0,0,0.15); transform: translateY(-1px); }
+        #hypPanel button.small { padding: 2px 6px; font-size: 0.7rem; border-radius: 4px; }
+        #hypPanel .hyp-subsection { border-left: 2px solid var(--border); padding-left: 8px; margin: 2px 0; display: flex; flex-direction: column; gap: 6px; }
+        #hypPanel .hyp-checkbox-label { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text); font-weight: 400; margin-top: 0; }
+
+        .hyp-card { background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; }
+        .hyp-card .hyp-subject { font-weight: 600; color: var(--accent); }
+        .hyp-card .hyp-meta { font-size: 0.75rem; color: #7f8c8d; }
+        .hyp-candidates { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+        .hyp-cand-chip { display: flex; align-items: center; gap: 4px; border: 1px solid var(--border); border-radius: 12px; padding: 2px 6px; font-size: 0.72rem; background: #f4f4f9; }
+        .hyp-cand-chip.confirme { border-color: var(--hyp-confirme); color: var(--hyp-confirme); }
+        .hyp-cand-chip.rejete { text-decoration: line-through; opacity: 0.4; }
+        #hypCardList { display: flex; flex-direction: column; gap: 8px; max-height: 320px; overflow-y: auto; }
+
+        #hypMain { flex: 1; position: relative; overflow: hidden; background: #fff; }
+        #hypCanvas { width: 100%; height: 100%; display: block; }
+        #hypToolbar { position: absolute; top: 10px; left: 10px; display: flex; gap: 6px; z-index: 2; }
+        #hypLegend { position: absolute; bottom: 15px; left: 15px; background: rgba(255,255,255,0.95); border: 1px solid #ccc; border-radius: 6px; padding: 10px; font-size: 0.75rem; color: #555; line-height: 1.6; box-shadow: 0 2px 8px rgba(0,0,0,0.1); max-width: 300px; pointer-events: none; }
+        #hypLegend .hyp-swatch { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 5px; vertical-align: middle; }
+
+        #hypPivotResults { position: absolute; top: 100%; left: 0; width: 260px; background: white; border: 1px solid #ccc; max-height: 260px; overflow-y: auto; list-style: none; padding: 0; margin: 0; z-index: 100; display: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+        #hypPivotResults li { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 0.85rem; }
+        #hypPivotResults li:hover { background: #eef; }
     </style>
 </head>
 <body>
@@ -156,6 +197,7 @@
         <button id="tabTreeBtn" class="tab-btn active">🌳 Arbre éventail</button>
         <button id="tabMapsBtn" class="tab-btn">📊 Visualisation</button>
         <button id="tabQualityBtn" class="tab-btn">🔍 Analyse Qualité</button>
+        <button id="tabHypBtn" class="tab-btn">🧬 Parentés hyp.</button>
     </div>
     <input type="file" id="fileInput" accept=".ged">
 
@@ -289,6 +331,157 @@
                 </div>
                 <div id="occupationsChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div id="hypPanel" style="display:none; flex-direction: row;">
+    <div id="hypSidebar">
+        <div>
+            <div class="hint">Reconstitution visuelle de filiations non actées (ex. tutelles), à partir du fichier chargé en haut de page.</div>
+        </div>
+
+        <section>
+            <h3>1. Pivot &amp; profondeur</h3>
+            <label for="hypPivotSearch">Individu pivot (le mineur)</label>
+            <div class="ctrl" style="position:relative">
+                <input type="text" id="hypPivotSearch" placeholder="Rechercher une personne..." disabled>
+                <ul id="hypPivotResults"></ul>
+            </div>
+            <span id="hypPivotSelected" class="map-person-selected"></span>
+            <div id="hypStatus" class="hint">Chargez un fichier GEDCOM depuis le bouton en haut de page.</div>
+
+            <label for="hypMaxGen">Générations affichées : <span id="hypMaxGenVal">4</span></label>
+            <input type="range" id="hypMaxGen" min="1" max="6" value="4">
+
+            <div class="hyp-subsection">
+                <div class="hint">Pas de fichier sous la main ? Générer un mini-scénario à 3 personnes :</div>
+                <div class="hyp-col">
+                    <input type="text" id="hypQsChild" placeholder="Enfant" value="Jean X">
+                    <input type="text" id="hypQsFather" placeholder="Père" value="Paul X">
+                    <input type="text" id="hypQsMother" placeholder="Mère" value="Marie Durand">
+                </div>
+                <button id="hypBtnQuickStart">Créer ce scénario</button>
+            </div>
+        </section>
+
+        <section>
+            <h3>2. Nouvelle hypothèse de parenté</h3>
+            <label for="hypSubject">Personne citée dans l'acte</label>
+            <input type="text" id="hypSubject" placeholder="ex: Louis Feur">
+
+            <label for="hypTerme">Lien de parenté (du parent par le sang)</label>
+            <select id="hypTerme">
+                <option value="pere">Père</option>
+                <option value="mere">Mère</option>
+                <option value="ayeul">Ayeul (ascendant, génération indéterminée)</option>
+                <option value="frere">Frère</option>
+                <option value="soeur">Sœur</option>
+                <option value="oncle">Oncle</option>
+                <option value="tante">Tante</option>
+                <option value="neveu_niece">Neveu / Nièce</option>
+                <option value="cousin_germain">Cousin germain</option>
+                <option value="cousin_issu_germain">Cousin issu de germain</option>
+                <option value="cousin_remue_germain">Cousin remué / remis de germain</option>
+                <option value="cousin_breton">Cousin à la mode de Bretagne</option>
+                <option value="canonique_compose">Degré canonique composé (ex: deux au tiers)</option>
+                <option value="numerique_libre">Degré numérique (libre)</option>
+            </select>
+
+            <div class="hyp-subsection" id="hypFratrieBlock" style="display:none">
+                <label for="hypFratrieQualif">Lignage</label>
+                <select id="hypFratrieQualif">
+                    <option value="germain">Germain (mêmes père et mère)</option>
+                    <option value="paternel">Paternel / consanguin (même père)</option>
+                    <option value="maternel">Maternel / utérin (même mère)</option>
+                </select>
+            </div>
+
+            <div class="hyp-subsection" id="hypCanoniqueComposeBlock" style="display:none">
+                <label for="hypCanoniqueCompose">Degré composé (ex: "deux au tiers", "tiers au quart")</label>
+                <input type="text" id="hypCanoniqueCompose" placeholder="ex: deux au tiers">
+            </div>
+
+            <div class="hyp-subsection" id="hypDegreLibreBlock" style="display:none">
+                <label for="hypDegreeWord">Degré (mot ou chiffre — ex: "quart", "tiers", "4")</label>
+                <input type="text" id="hypDegreeWord" placeholder="ex: quart">
+                <label for="hypDegreeMode">Mode de calcul du degré</label>
+                <select id="hypDegreeMode">
+                    <option value="civil">Civil (degré = somme des générations)</option>
+                    <option value="canonique">Canonique (degré = branche la plus longue)</option>
+                </select>
+            </div>
+
+            <label for="hypRef">Relation énoncée par rapport à</label>
+            <select id="hypRef"></select>
+
+            <div class="hyp-row">
+                <div>
+                    <label for="hypBranche">Branche</label>
+                    <select id="hypBranche">
+                        <option value="paternel">Paternelle</option>
+                        <option value="maternel">Maternelle</option>
+                        <option value="germain">Germain (bilatéral)</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="hypMode">Mode</label>
+                    <select id="hypMode">
+                        <option value="estoc">Estoc</option>
+                        <option value="ligne">Ligne directe</option>
+                    </select>
+                </div>
+            </div>
+
+            <label>Statut</label>
+            <div class="hyp-subsection">
+                <label class="hyp-checkbox-label"><input type="checkbox" id="hypParAlliance"> Par alliance (conjoint d'un parent par le sang)</label>
+                <div id="hypConjointBlock" style="display:none">
+                    <label for="hypConjointDe">Conjoint(e) du parent par le sang nommé</label>
+                    <input type="text" id="hypConjointDe" placeholder="ex: Françoise Dupond">
+                </div>
+                <label for="hypVeuf">Veuvage</label>
+                <select id="hypVeuf">
+                    <option value="">—</option>
+                    <option value="veuf">Veuf</option>
+                    <option value="veuve">Veuve</option>
+                </select>
+                <label class="hyp-checkbox-label"><input type="checkbox" id="hypDefunt"> Défunt au moment de l'acte</label>
+            </div>
+
+            <label for="hypActe">Source / acte (citation, optionnel)</label>
+            <input type="text" id="hypActe" placeholder="ex: tutelle 1730, conseil de famille X">
+            <button class="primary" id="hypBtnAddHyp">Ajouter l'hypothèse</button>
+            <div class="hint" id="hypParsePreview"></div>
+        </section>
+
+        <section>
+            <h3>3. Hypothèses en cours</h3>
+            <div id="hypCardList"></div>
+            <div class="hyp-row">
+                <button id="hypBtnExport">Exporter JSON</button>
+                <button id="hypBtnImport">Importer JSON</button>
+                <input type="file" id="hypImportInput" accept=".json" style="display:none">
+            </div>
+        </section>
+    </div>
+
+    <div id="hypMain">
+        <div id="hypToolbar">
+            <button id="hypBtnFitView">Tout afficher</button>
+            <button id="hypBtnResetView">Réinitialiser la vue</button>
+            <button id="hypBtnResetLayout">Réinitialiser la disposition</button>
+        </div>
+        <svg id="hypCanvas" viewBox="-900 -480 1800 930"></svg>
+        <div id="hypLegend">
+            <div><span class="hyp-swatch" style="background:var(--hyp-paternel)"></span>Branche paternelle</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-maternel)"></span>Branche maternelle</div>
+            <div><span class="hyp-swatch" style="background:#3b82f6"></span>Pivot</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-ghost)"></span>Hypothèse ouverte (pointillé)</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-confirme)"></span>Hypothèse confirmée</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-alliance)"></span>Lien par alliance</div>
+            <div style="margin-top:4px">Glisser le fond : déplacer la vue. Glisser un individu : le repositionner (horizontal uniquement).</div>
+            <div>Ctrl+clic sur un individu : espacer son niveau et les niveaux plus lointains (Ctrl+Maj+clic : resserrer).</div>
         </div>
     </div>
 </div>
@@ -2478,6 +2671,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 resetMapPersonSelection();
                 resetQualityPersonSelection();
                 renderMapsTab();
+                hypApplyGedData(buildHypGedDataFromApp(map, fams));
             } else {
                 chartMessage.className = 'msg-error';
                 chartMessage.innerHTML = '<h2>Aucun individu trouvé</h2><p>Vérifiez qu\'il s\'agit bien d\'un fichier GEDCOM valide (.ged).</p>';
@@ -2507,32 +2701,38 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.addEventListener('changeroot', e => chart.setData(e.detail, map, fams));
     document.addEventListener('click', e => {
-        if(!e.target.closest('.ctrl')) { els.res.style.display='none'; mapPersonResultsEl.style.display='none'; qualityPersonResultsEl.style.display='none'; }
+        if(!e.target.closest('.ctrl')) { els.res.style.display='none'; mapPersonResultsEl.style.display='none'; qualityPersonResultsEl.style.display='none'; hypPivotResultsEl.style.display='none'; }
     });
 
     // --- Tabs ---
     const tabTreeBtn = document.getElementById('tabTreeBtn');
     const tabMapsBtn = document.getElementById('tabMapsBtn');
     const tabQualityBtn = document.getElementById('tabQualityBtn');
+    const tabHypBtn = document.getElementById('tabHypBtn');
     const vizArea = document.getElementById('vizArea');
     const mapsPanel = document.getElementById('mapsPanel');
     const qualityPanel = document.getElementById('qualityPanel');
+    const hypPanelEl = document.getElementById('hypPanel');
     const vizOnlyEls = document.querySelectorAll('.viz-only');
     function showTab(tab) {
         currentTab = tab;
         tabTreeBtn.classList.toggle('active', tab === 'tree');
         tabMapsBtn.classList.toggle('active', tab === 'maps');
         tabQualityBtn.classList.toggle('active', tab === 'quality');
+        tabHypBtn.classList.toggle('active', tab === 'hyp');
         vizArea.style.display = tab === 'tree' ? 'flex' : 'none';
         mapsPanel.classList.toggle('hidden', tab !== 'maps');
         qualityPanel.classList.toggle('hidden', tab !== 'quality');
+        hypPanelEl.style.display = tab === 'hyp' ? 'flex' : 'none';
         vizOnlyEls.forEach(el => el.style.display = tab === 'tree' ? 'flex' : 'none');
         if(tab === 'tree' && chart.rootId) chart.render();
         if(tab === 'maps') renderMapsTab();
+        if(tab === 'hyp') hypRender();
     }
     tabTreeBtn.addEventListener('click', () => showTab('tree'));
     tabMapsBtn.addEventListener('click', () => showTab('maps'));
     tabQualityBtn.addEventListener('click', () => showTab('quality'));
+    tabHypBtn.addEventListener('click', () => showTab('hyp'));
     wireCopyButtons();
 
     // --- Quality analysis ---
@@ -2613,6 +2813,722 @@ document.addEventListener('DOMContentLoaded', () => {
         link.click();
         document.body.removeChild(link);
     });
+
+    // ============================================================
+    // --- Onglet "Parentés hypothétiques" (reconstitution de filiations non actées, ex. tutelles) ---
+    // Réutilise le fichier GEDCOM déjà chargé en haut de page (comme les autres onglets) plutôt que
+    // d'avoir son propre chargeur de fichier ; un petit générateur "scénario rapide" à 3 personnes
+    // reste disponible pour prototyper une hypothèse sans avoir de fichier sous la main.
+    // ============================================================
+    let hypGedData = { individuals: {}, families: {} };
+    let hypPivotId = null;
+    let hypotheses = [];
+    let hypCounter = 0;
+    let hypManualPos = {}; // nodeKey -> {x,y}, positions déplacées à la souris
+    let hypLevelMult = {}; // génération -> multiplicateur d'espacement horizontal (Ctrl+clic)
+
+    function buildGedDataFromNames(childName, fatherName, motherName) {
+        const individuals = {
+            I1: { id: "I1", name: childName, sex: "", famc: "F1", fams: [] },
+            I2: { id: "I2", name: fatherName, sex: "M", famc: null, fams: ["F1"] },
+            I3: { id: "I3", name: motherName, sex: "F", famc: null, fams: ["F1"] }
+        };
+        const families = { F1: { id: "F1", husb: "I2", wife: "I3", chil: ["I1"] } };
+        return { individuals, families };
+    }
+    // Adapte le Map/Map produit par GedcomParser (partagé avec les autres onglets) vers la forme
+    // {individuals, families} attendue par les algorithmes de parenté ci-dessous.
+    function buildHypGedDataFromApp(mapData, famsData) {
+        const individuals = {};
+        mapData.forEach((i, id) => { individuals[id] = { id, name: i.name, sex: i.sex || '', famc: i.famc || null, fams: i.fams || [] }; });
+        const families = {};
+        famsData.forEach((f, id) => { families[id] = { id, husb: f.husb || null, wife: f.wife || null, chil: f.children || [] }; });
+        return { individuals, families };
+    }
+
+    function hypStepsFor(side, g, index) {
+        const steps = [side === "paternel" ? "F" : "M"];
+        for (let b = g - 2; b >= 0; b--) steps.push(((index >> b) & 1) === 0 ? "F" : "M");
+        return steps;
+    }
+    function hypAncestorAt(data, indiId, steps) {
+        let cur = indiId;
+        for (const s of steps) {
+            const indi = data.individuals[cur];
+            if (!indi || !indi.famc) return null;
+            const fam = data.families[indi.famc];
+            if (!fam) return null;
+            cur = s === "F" ? fam.husb : fam.wife;
+            if (!cur) return null;
+        }
+        return data.individuals[cur] || null;
+    }
+    function hypScanAscendants(pivot, gens) {
+        const found = [];
+        for (let g = 1; g <= gens; g++) {
+            const slots = Math.pow(2, g - 1);
+            for (const side of ["paternel", "maternel"]) {
+                for (let index = 0; index < slots; index++) {
+                    const steps = hypStepsFor(side, g, index);
+                    const indi = hypAncestorAt(hypGedData, pivot, steps);
+                    if (indi) found.push({ side, g, index, indi });
+                }
+            }
+        }
+        return found;
+    }
+
+    // Degré = up (générations jusqu'à l'ancêtre commun) + down (générations jusqu'à la personne citée).
+    // "cousin breton" (cousin à la mode de Bretagne) traité comme synonyme régional de
+    // "cousin issu de germain". "cousin germain" et "cousin remué de germain" traités comme
+    // synonymes, tous deux à montée 3 / descente 3 (arrière-grand-parent commun).
+    const HYP_TERM_DICT = {
+        oncle: { up: 1, down: 2 }, tante: { up: 1, down: 2 }, neveu_niece: { up: 2, down: 1 },
+        cousin_germain: { up: 3, down: 3 }, cousin_issu_germain: { up: 2, down: 3 },
+        cousin_remue_germain: { up: 3, down: 3 }, cousin_breton: { up: 2, down: 3 }
+    };
+    const HYP_TERM_LABELS = {
+        pere: "Père", mere: "Mère", ayeul: "Ayeul", frere: "Frère", soeur: "Sœur",
+        oncle: "Oncle", tante: "Tante", neveu_niece: "Neveu/Nièce",
+        cousin_germain: "Cousin germain", cousin_issu_germain: "Cousin issu de germain",
+        cousin_remue_germain: "Cousin remué/remis de germain", cousin_breton: "Cousin à la mode de Bretagne",
+        canonique_compose: "Degré canonique composé", numerique_libre: "Degré numérique"
+    };
+    const HYP_DEGREE_WORDS = {
+        un: 1, premier: 1, premiere: 1, "première": 1,
+        deux: 2, second: 2, seconde: 2, deuxieme: 2, "deuxième": 2,
+        tiers: 3, troisieme: 3, "troisième": 3,
+        quart: 4, quatrieme: 4, "quatrième": 4, quartrieme: 4, "quartrième": 4,
+        cinquieme: 5, "cinquième": 5, quint: 5, sixieme: 6, "sixième": 6,
+        septieme: 7, "septième": 7, huitieme: 8, "huitième": 8,
+        neuvieme: 9, "neuvième": 9, neufieme: 9, "neufième": 9, dixieme: 10, "dixième": 10
+    };
+    function hypParseDegreeNumber(text) {
+        if (!text) return null;
+        const numMatch = text.match(/(\d+)/);
+        if (numMatch) return parseInt(numMatch[1], 10);
+        const lower = text.toLowerCase();
+        for (const word in HYP_DEGREE_WORDS) {
+            if (new RegExp("\\b" + word + "\\b", "i").test(lower)) return HYP_DEGREE_WORDS[word];
+        }
+        return null;
+    }
+    // Civil : degré = up + down (ex. cousin germain = 4e degré). Canonique : degré = max(up, down)
+    // (ex. cousin germain = 2e degré), calcul traditionnellement utilisé en droit canon.
+    function hypGenerateCandidatesForDegree(n, mode) {
+        const list = [];
+        if (mode === "canonique") {
+            for (let k = 1; k <= n; k++) { list.push({ up: n, down: k }); if (k !== n) list.push({ up: k, down: n }); }
+        } else {
+            for (let up = 1; up < n; up++) list.push({ up, down: n - up });
+        }
+        return list;
+    }
+    function hypBuildCandidatesFromForm() {
+        const terme = document.getElementById("hypTerme").value;
+        if (terme === "numerique_libre") {
+            const word = document.getElementById("hypDegreeWord").value.trim();
+            const mode = document.getElementById("hypDegreeMode").value;
+            const n = hypParseDegreeNumber(word);
+            if (!n) return null;
+            return { candidates: hypGenerateCandidatesForDegree(n, mode), degreeWord: word, degreeMode: mode };
+        }
+        if (terme === "canonique_compose") {
+            const raw = document.getElementById("hypCanoniqueCompose").value.trim();
+            const parts = raw.split(/\bau\b/i);
+            if (parts.length !== 2) return null;
+            const a = hypParseDegreeNumber(parts[0].trim());
+            const b = hypParseDegreeNumber(parts[1].trim());
+            if (!a || !b) return null;
+            const candidates = a === b ? [{ up: a, down: b }] : [{ up: a, down: b }, { up: b, down: a }];
+            return { candidates, degreeWord: raw, degreeMode: "canonique" };
+        }
+        if (terme === "ayeul") {
+            const candidates = [];
+            for (let up = 1; up <= parseInt(hypMaxGenEl.value, 10); up++) candidates.push({ up, down: 0 });
+            return { candidates };
+        }
+        if (terme === "pere" || terme === "mere") return { candidates: [{ up: 1, down: 0 }] };
+        if (terme === "frere" || terme === "soeur") return { candidates: [{ up: 1, down: 1 }] };
+        const entry = HYP_TERM_DICT[terme];
+        if (!entry) return null;
+        return { candidates: [{ up: entry.up, down: entry.down }] };
+    }
+    function hypDescribeHyp(hyp) {
+        let s = HYP_TERM_LABELS[hyp.terme] || hyp.terme;
+        if ((hyp.terme === "frere" || hyp.terme === "soeur") && hyp.fratrieQualif) s += ` (${hyp.fratrieQualif})`;
+        if (hyp.terme === "numerique_libre") s += ` : ${hyp.degreeWord} (${hyp.degreeMode})`;
+        if (hyp.terme === "canonique_compose") s += ` : ${hyp.degreeWord}`;
+        s += ` — ${hyp.branche}, ${hyp.mode}`;
+        if (hyp.parAlliance) s = "Par alliance — " + s + (hyp.conjointDe ? ` (conjoint de ${hyp.conjointDe})` : "");
+        return s;
+    }
+    function hypSubjectLabel(hyp) {
+        const tags = [];
+        if (hyp.veuf) tags.push(hyp.veuf);
+        if (hyp.defunt) tags.push("défunt");
+        return hyp.subject + (tags.length ? ` (${tags.join(", ")})` : "");
+    }
+
+    // --- DOM refs ---
+    const hypStatusEl = document.getElementById("hypStatus");
+    const hypPivotSearchEl = document.getElementById("hypPivotSearch");
+    const hypPivotResultsEl = document.getElementById("hypPivotResults");
+    const hypPivotSelectedEl = document.getElementById("hypPivotSelected");
+    const hypRefSelect = document.getElementById("hypRef");
+    const hypMaxGenEl = document.getElementById("hypMaxGen");
+    const hypMaxGenValEl = document.getElementById("hypMaxGenVal");
+
+    function hypApplyGedData(data) {
+        hypGedData = data;
+        const ids = Object.keys(hypGedData.individuals);
+        hypStatusEl.textContent = ids.length
+            ? `${ids.length} individu(s), ${Object.keys(hypGedData.families).length} famille(s) disponible(s).`
+            : "Chargez un fichier GEDCOM depuis le bouton en haut de page (ou générez un scénario rapide).";
+        hypPivotSearchEl.disabled = !ids.length;
+        hypPivotId = ids.length ? (ids.includes('I1') ? 'I1' : ids[0]) : null;
+        hypPivotSelectedEl.textContent = hypPivotId ? `→ ${hypGedData.individuals[hypPivotId].name}` : '';
+        hypotheses = []; hypCounter = 0; hypManualPos = {}; hypLevelMult = {};
+        hypRefreshRefOptions();
+        hypRenderList();
+        hypResetViewBox();
+        hypRender();
+    }
+
+    document.getElementById("hypBtnQuickStart").addEventListener("click", () => {
+        const child = document.getElementById("hypQsChild").value.trim();
+        const father = document.getElementById("hypQsFather").value.trim();
+        const mother = document.getElementById("hypQsMother").value.trim();
+        if (!child || !father || !mother) { alert("Merci de renseigner les 3 noms (enfant, père, mère)."); return; }
+        hypApplyGedData(buildGedDataFromNames(child, father, mother));
+    });
+
+    hypPivotSearchEl.addEventListener("input", e => {
+        const v = e.target.value.toLowerCase(); hypPivotResultsEl.innerHTML = '';
+        if (v.length < 2) { hypPivotResultsEl.style.display = 'none'; return; }
+        const matches = Object.values(hypGedData.individuals).filter(i => i.name.toLowerCase().includes(v)).slice(0, 10);
+        if (matches.length) {
+            hypPivotResultsEl.style.display = 'block';
+            matches.forEach(p => {
+                const li = document.createElement('li'); li.innerText = p.name;
+                li.onclick = () => {
+                    hypPivotId = p.id;
+                    hypPivotSelectedEl.textContent = `→ ${p.name}`;
+                    hypPivotResultsEl.style.display = 'none';
+                    hypPivotSearchEl.value = '';
+                    hypRefreshRefOptions();
+                    hypRender();
+                };
+                hypPivotResultsEl.appendChild(li);
+            });
+        }
+    });
+
+    hypMaxGenEl.addEventListener("input", () => {
+        hypMaxGenValEl.textContent = hypMaxGenEl.value;
+        hypRefreshRefOptions();
+        hypResetViewBox();
+        hypRender();
+    });
+
+    function hypRefreshRefOptions() {
+        hypRefSelect.innerHTML = "";
+        const optPivot = document.createElement("option");
+        optPivot.value = "PIVOT"; optPivot.textContent = "Le pivot (mineur)";
+        hypRefSelect.appendChild(optPivot);
+        if (!hypPivotId) return;
+        const found = hypScanAscendants(hypPivotId, parseInt(hypMaxGenEl.value, 10));
+        for (const f of found) {
+            const opt = document.createElement("option");
+            opt.value = JSON.stringify({ side: f.side, g: f.g, index: f.index });
+            const label = f.g === 1 ? (f.side === "paternel" ? "père" : "mère") : `gén. ${f.g}, ${f.side}`;
+            opt.textContent = `${f.indi.name} (${label})`;
+            hypRefSelect.appendChild(opt);
+        }
+    }
+
+    // --- Formulaire d'hypothèse : affichage conditionnel ---
+    const hypParAllianceEl = document.getElementById("hypParAlliance");
+    const hypConjointBlockEl = document.getElementById("hypConjointBlock");
+    const hypTermeEl = document.getElementById("hypTerme");
+    const hypFratrieBlockEl = document.getElementById("hypFratrieBlock");
+    const hypCanoniqueComposeBlockEl = document.getElementById("hypCanoniqueComposeBlock");
+    const hypDegreLibreBlockEl = document.getElementById("hypDegreLibreBlock");
+    const hypFratrieQualifEl = document.getElementById("hypFratrieQualif");
+    const hypBrancheSelect = document.getElementById("hypBranche");
+    const hypParsePreviewEl = document.getElementById("hypParsePreview");
+
+    function hypUpdateFormVisibility() {
+        const terme = hypTermeEl.value;
+        hypConjointBlockEl.style.display = hypParAllianceEl.checked ? "flex" : "none";
+        hypFratrieBlockEl.style.display = (terme === "frere" || terme === "soeur") ? "flex" : "none";
+        hypCanoniqueComposeBlockEl.style.display = terme === "canonique_compose" ? "flex" : "none";
+        hypDegreLibreBlockEl.style.display = terme === "numerique_libre" ? "flex" : "none";
+    }
+    hypParAllianceEl.addEventListener("change", hypUpdateFormVisibility);
+    hypTermeEl.addEventListener("change", () => {
+        hypUpdateFormVisibility();
+        if (hypTermeEl.value === "pere") hypBrancheSelect.value = "paternel";
+        if (hypTermeEl.value === "mere") hypBrancheSelect.value = "maternel";
+        hypUpdatePreview();
+    });
+    hypFratrieQualifEl.addEventListener("change", () => {
+        if (hypFratrieQualifEl.value === "germain") hypBrancheSelect.value = "germain";
+        else if (hypFratrieQualifEl.value === "paternel") hypBrancheSelect.value = "paternel";
+        else if (hypFratrieQualifEl.value === "maternel") hypBrancheSelect.value = "maternel";
+        hypUpdatePreview();
+    });
+    document.getElementById("hypDegreeWord").addEventListener("input", hypUpdatePreview);
+    document.getElementById("hypDegreeMode").addEventListener("change", hypUpdatePreview);
+    document.getElementById("hypCanoniqueCompose").addEventListener("input", hypUpdatePreview);
+
+    function hypUpdatePreview() {
+        const built = hypBuildCandidatesFromForm();
+        if (!built || !built.candidates.length) { hypParsePreviewEl.textContent = "Aucun candidat : vérifiez le degré saisi."; return; }
+        const desc = built.candidates.map(c => `(montée ${c.up} / descente ${c.down})`).join(", ");
+        hypParsePreviewEl.textContent = `${built.candidates.length} candidat(s) : ${desc}`;
+    }
+    hypUpdateFormVisibility();
+    hypUpdatePreview();
+
+    document.getElementById("hypBtnAddHyp").addEventListener("click", () => {
+        const subject = document.getElementById("hypSubject").value.trim();
+        if (!subject) { alert("Merci d'indiquer le nom de la personne citée."); return; }
+        const built = hypBuildCandidatesFromForm();
+        if (!built || !built.candidates.length) { alert("Impossible de déterminer un degré valide pour cette hypothèse."); return; }
+
+        const terme = hypTermeEl.value;
+        const parAlliance = hypParAllianceEl.checked;
+        const conjointDe = parAlliance ? document.getElementById("hypConjointDe").value.trim() : "";
+        const veuf = document.getElementById("hypVeuf").value;
+        const defunt = document.getElementById("hypDefunt").checked;
+        const fratrieQualif = (terme === "frere" || terme === "soeur") ? hypFratrieQualifEl.value : "";
+        const branche = hypBrancheSelect.value;
+        const mode = document.getElementById("hypMode").value;
+        const acte = document.getElementById("hypActe").value.trim();
+        const refValue = hypRefSelect.value;
+
+        hypotheses.push({
+            id: "h" + (++hypCounter),
+            subject, parAlliance, conjointDe, veuf, defunt, terme, fratrieQualif,
+            degreeWord: built.degreeWord || "", degreeMode: built.degreeMode || "",
+            acte, referenceKey: refValue, branche, mode,
+            candidates: built.candidates.map(c => ({ up: c.up, down: c.down, statut: "ouvert" }))
+        });
+
+        document.getElementById("hypSubject").value = "";
+        document.getElementById("hypConjointDe").value = "";
+        document.getElementById("hypDegreeWord").value = "";
+        document.getElementById("hypCanoniqueCompose").value = "";
+        document.getElementById("hypActe").value = "";
+        document.getElementById("hypDefunt").checked = false;
+        hypRenderList();
+        hypRender();
+    });
+
+    // --- Liste des hypothèses (panneau) ---
+    const hypCardListEl = document.getElementById("hypCardList");
+    function hypRenderList() {
+        hypCardListEl.innerHTML = "";
+        for (const hyp of hypotheses) {
+            const card = document.createElement("div");
+            card.className = "hyp-card";
+
+            const subjectEl = document.createElement("div");
+            subjectEl.className = "hyp-subject";
+            subjectEl.textContent = hypSubjectLabel(hyp);
+            card.appendChild(subjectEl);
+
+            const metaEl = document.createElement("div");
+            metaEl.className = "hyp-meta";
+            metaEl.textContent = hypDescribeHyp(hyp) + (hyp.acte ? ` — ${hyp.acte}` : "");
+            card.appendChild(metaEl);
+
+            const candsEl = document.createElement("div");
+            candsEl.className = "hyp-candidates";
+            hyp.candidates.forEach((c, idx) => {
+                const chip = document.createElement("span");
+                chip.className = "hyp-cand-chip " + (c.statut === "confirme" ? "confirme" : c.statut === "rejete" ? "rejete" : "");
+                const lbl = document.createElement("span");
+                lbl.textContent = `↑${c.up}/↓${c.down}`;
+                chip.appendChild(lbl);
+                if (c.statut === "ouvert") {
+                    const btnOk = document.createElement("button");
+                    btnOk.className = "small"; btnOk.textContent = "✓";
+                    btnOk.title = "Confirmer cette hypothèse";
+                    btnOk.addEventListener("click", () => {
+                        hyp.candidates.forEach((cc, i) => { cc.statut = i === idx ? "confirme" : "rejete"; });
+                        hypRenderList(); hypRender();
+                    });
+                    const btnNo = document.createElement("button");
+                    btnNo.className = "small"; btnNo.textContent = "✕";
+                    btnNo.title = "Rejeter cette hypothèse";
+                    btnNo.addEventListener("click", () => { c.statut = "rejete"; hypRenderList(); hypRender(); });
+                    chip.appendChild(btnOk); chip.appendChild(btnNo);
+                }
+                candsEl.appendChild(chip);
+            });
+            card.appendChild(candsEl);
+
+            const btnDel = document.createElement("button");
+            btnDel.className = "small"; btnDel.textContent = "Supprimer l'hypothèse";
+            btnDel.addEventListener("click", () => {
+                hypotheses = hypotheses.filter(h => h.id !== hyp.id);
+                hypRenderList(); hypRender();
+            });
+            card.appendChild(btnDel);
+
+            hypCardListEl.appendChild(card);
+        }
+    }
+
+    // --- Export / import des hypothèses ---
+    document.getElementById("hypBtnExport").addEventListener("click", () => {
+        const blob = new Blob([JSON.stringify(hypotheses, null, 2)], { type: "application/json" });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement("a");
+        a.href = url; a.download = "hypotheses.json";
+        a.click();
+        URL.revokeObjectURL(url);
+    });
+    document.getElementById("hypBtnImport").addEventListener("click", () => document.getElementById("hypImportInput").click());
+    document.getElementById("hypImportInput").addEventListener("change", (e) => {
+        const file = e.target.files[0];
+        if (!file) return;
+        const reader = new FileReader();
+        reader.onload = () => {
+            try {
+                const data = JSON.parse(reader.result);
+                if (!Array.isArray(data)) throw new Error("format invalide");
+                hypotheses = data;
+                hypCounter = hypotheses.length;
+                hypRenderList(); hypRender();
+            } catch (err) { alert("Fichier JSON invalide : " + err.message); }
+        };
+        reader.readAsText(file);
+    });
+
+    // --- Rendu SVG ---
+    const hypSvg = document.getElementById("hypCanvas");
+    const HYP_V_SPACING = 95;
+    const HYP_PIVOT_Y = 40;
+    let hypVb = { x: -900, y: -480, w: 1800, h: 930 };
+    let hypRenderBounds = null; // étendue de tous les nœuds dessinés lors du dernier rendu
+
+    function hypResetViewBox() {
+        const maxGenNow = parseInt(hypMaxGenEl.value, 10);
+        const viewH = maxGenNow * HYP_V_SPACING + 550;
+        hypVb = { x: -900, y: -(maxGenNow * HYP_V_SPACING + 100), w: 1800, h: viewH };
+    }
+    function hypUpdateBounds(x, y, r) {
+        const mx = r + 50, my = r + 30; // marge pour le label sous le nœud
+        if (x - mx < hypRenderBounds.minX) hypRenderBounds.minX = x - mx;
+        if (x + mx > hypRenderBounds.maxX) hypRenderBounds.maxX = x + mx;
+        if (y - my < hypRenderBounds.minY) hypRenderBounds.minY = y - my;
+        if (y + my > hypRenderBounds.maxY) hypRenderBounds.maxY = y + my;
+    }
+    function hypSideSign(side) {
+        if (side === "paternel") return -1;
+        if (side === "maternel") return 1;
+        return 0; // "germain" : bilatéral, centré
+    }
+    function hypClamp(v, min, max) { return Math.max(min, Math.min(max, v)); }
+
+    // Multiplicateur cumulatif d'espacement horizontal : Ctrl+clic sur un nœud de génération L
+    // modifie hypLevelMult[L], ce qui élargit/resserre automatiquement ce niveau et tous les
+    // niveaux plus éloignés (le facteur de L reste dans le produit pour tout g >= L).
+    function hypEffectiveSpacingScale(g) {
+        if (g < 1) return 1;
+        let s = 1;
+        for (let k = 1; k <= g; k++) s *= (hypLevelMult[k] || 1);
+        return s;
+    }
+    function hypRealSlotX(side, g, index) {
+        const scale = hypEffectiveSpacingScale(g);
+        return hypSideSign(side) * (90 + index * 30) * scale;
+    }
+    function hypGhostX(side, g, lane) {
+        const scale = hypEffectiveSpacingScale(g);
+        if (side === "germain") {
+            const dir = (lane % 2 === 0) ? -1 : 1;
+            return dir * (20 + Math.floor(lane / 2) * 40) * scale;
+        }
+        return hypSideSign(side) * (260 + lane * 46) * scale;
+    }
+    function hypGenY(g) { return HYP_PIVOT_Y - g * HYP_V_SPACING; }
+
+    function hypSvgEl(tag, attrs) {
+        const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+        for (const k in attrs) el.setAttribute(k, attrs[k]);
+        return el;
+    }
+
+    // --- Pan (fond) et drag (nœuds) ---
+    let hypIsPanning = false;
+    let hypPanStart = null;
+    let hypDragNodeKey = null;
+    let hypDragOffset = { x: 0, y: 0 };
+    let hypDragFixedY = 0; // le glissement d'un nœud est contraint à l'horizontale
+
+    function hypToSvgPoint(evt) {
+        const pt = hypSvg.createSVGPoint();
+        pt.x = evt.clientX; pt.y = evt.clientY;
+        const ctm = hypSvg.getScreenCTM();
+        if (!ctm) return { x: 0, y: 0 };
+        const p = pt.matrixTransform(ctm.inverse());
+        return { x: p.x, y: p.y };
+    }
+
+    hypSvg.addEventListener("mousedown", (e) => {
+        if (e.target !== hypSvg) return;
+        hypIsPanning = true;
+        hypPanStart = { clientX: e.clientX, clientY: e.clientY, vbX: hypVb.x, vbY: hypVb.y };
+    });
+    window.addEventListener("mousemove", (e) => {
+        if (hypIsPanning) {
+            const rect = hypSvg.getBoundingClientRect();
+            const scaleX = hypVb.w / rect.width, scaleY = hypVb.h / rect.height;
+            hypVb.x = hypPanStart.vbX - (e.clientX - hypPanStart.clientX) * scaleX;
+            hypVb.y = hypPanStart.vbY - (e.clientY - hypPanStart.clientY) * scaleY;
+            hypSvg.setAttribute("viewBox", `${hypVb.x} ${hypVb.y} ${hypVb.w} ${hypVb.h}`);
+        } else if (hypDragNodeKey) {
+            const pt = hypToSvgPoint(e);
+            hypManualPos[hypDragNodeKey] = { x: pt.x - hypDragOffset.x, y: hypDragFixedY };
+            hypRender();
+        }
+    });
+    window.addEventListener("mouseup", () => { hypIsPanning = false; hypDragNodeKey = null; });
+
+    document.getElementById("hypBtnFitView").addEventListener("click", () => {
+        if (!hypRenderBounds || hypRenderBounds.minX === Infinity) return;
+        const w = Math.max(200, hypRenderBounds.maxX - hypRenderBounds.minX);
+        const h = Math.max(200, hypRenderBounds.maxY - hypRenderBounds.minY);
+        hypVb = { x: hypRenderBounds.minX, y: hypRenderBounds.minY, w, h };
+        hypRender();
+    });
+    document.getElementById("hypBtnResetView").addEventListener("click", () => { hypResetViewBox(); hypRender(); });
+    document.getElementById("hypBtnResetLayout").addEventListener("click", () => { hypManualPos = {}; hypLevelMult = {}; hypRender(); });
+
+    function hypDrawNode(parent, x, y, label, opts) {
+        opts = opts || {};
+        if (hypRenderBounds) hypUpdateBounds(x, y, opts.r || 20);
+        const g = hypSvgEl("g", { transform: `translate(${x},${y})` });
+        const circle = hypSvgEl("circle", {
+            r: opts.r || 20,
+            fill: opts.fill || "#2c3140",
+            stroke: opts.stroke || "#5a6070",
+            "stroke-width": opts.strokeWidth || 1.5,
+            "stroke-dasharray": opts.dashed ? "4,3" : "none",
+            opacity: opts.opacity != null ? opts.opacity : 1
+        });
+        g.appendChild(circle);
+        if (label) {
+            const text = hypSvgEl("text", { y: (opts.r || 20) + 14, "text-anchor": "middle" });
+            // Un style CSS global non scopé (prévu pour l'arbre éventail : "text { font-size:7px;
+            // fill:#222; text-shadow:... }") gagne toujours sur les attributs de présentation SVG
+            // comme ceux ci-dessus : on force donc taille/couleur via le style inline (qui gagne sur
+            // n'importe quelle règle de feuille de style), sans quoi tous les libellés de cet onglet
+            // s'afficheraient minuscules (7px) quelle que soit la taille demandée ici.
+            text.style.fill = opts.textColor || "#222";
+            text.style.fontSize = (opts.fontSize || 11) + "px";
+            text.style.textShadow = "none";
+            text.textContent = label;
+            g.appendChild(text);
+        }
+        if (opts.title) {
+            const title = hypSvgEl("title");
+            title.textContent = opts.title;
+            g.appendChild(title);
+        }
+        if (opts.nodeKey) {
+            g.style.cursor = "grab";
+            g.addEventListener("mousedown", (e) => {
+                if (e.ctrlKey) return; // Ctrl+clic sert à l'espacement, pas au déplacement
+                e.stopPropagation();
+                const pt = hypToSvgPoint(e);
+                hypDragNodeKey = opts.nodeKey;
+                hypDragOffset = { x: pt.x - x, y: pt.y - y };
+                hypDragFixedY = y;
+            });
+            g.addEventListener("click", (e) => {
+                if (!e.ctrlKey || opts.gen == null || opts.gen < 1) return;
+                e.stopPropagation();
+                const factor = e.shiftKey ? 1 / 1.3 : 1.3;
+                hypLevelMult[opts.gen] = hypClamp((hypLevelMult[opts.gen] || 1) * factor, 0.3, 4);
+                hypRender();
+            });
+        }
+        parent.appendChild(g);
+        return g;
+    }
+    function hypDrawLine(parent, x1, y1, x2, y2, opts) {
+        opts = opts || {};
+        const line = hypSvgEl("line", {
+            x1, y1, x2, y2,
+            stroke: opts.stroke || "#5a6070",
+            "stroke-width": opts.strokeWidth || 1.5,
+            "stroke-dasharray": opts.dashed ? "5,4" : "none",
+            opacity: opts.opacity != null ? opts.opacity : 1
+        });
+        parent.appendChild(line);
+    }
+    function hypResolveReference(referenceKey) {
+        if (referenceKey === "PIVOT" || !referenceKey) return { offset: 0, side: null };
+        try { const ref = JSON.parse(referenceKey); return { offset: ref.g, side: ref.side }; }
+        catch (e) { return { offset: 0, side: null }; }
+    }
+    // Position réelle (génération + coordonnées) de la personne de référence de l'hypothèse, pour
+    // pouvoir relier le pivot à l'ancêtre commun hypothétique par une lignée théorique.
+    function hypResolveReferencePos(referenceKey, knownPos, pivotPos) {
+        if (referenceKey === "PIVOT" || !referenceKey) return { x: pivotPos.x, y: pivotPos.y, gen: 0 };
+        try {
+            const ref = JSON.parse(referenceKey);
+            const key = "K|" + ref.side + "|" + ref.g + "|" + ref.index;
+            if (knownPos[key]) return { x: knownPos[key].x, y: knownPos[key].y, gen: ref.g };
+        } catch (e) { /* ignore */ }
+        return { x: pivotPos.x, y: pivotPos.y, gen: 0 };
+    }
+
+    function hypRender() {
+        hypSvg.innerHTML = "";
+        hypSvg.setAttribute("viewBox", `${hypVb.x} ${hypVb.y} ${hypVb.w} ${hypVb.h}`);
+        hypRenderBounds = { minX: Infinity, maxX: -Infinity, minY: Infinity, maxY: -Infinity };
+        if (!hypPivotId) return;
+
+        const linesLayer = hypSvgEl("g"); const nodesLayer = hypSvgEl("g");
+        hypSvg.appendChild(linesLayer); hypSvg.appendChild(nodesLayer);
+
+        const maxGenNow = parseInt(hypMaxGenEl.value, 10);
+        const known = hypScanAscendants(hypPivotId, maxGenNow);
+        const knownPos = {};
+        for (const f of known) {
+            const key = "K|" + f.side + "|" + f.g + "|" + f.index;
+            let x = hypRealSlotX(f.side, f.g, f.index), y = hypGenY(f.g);
+            if (hypManualPos[key]) { x = hypManualPos[key].x; y = hypManualPos[key].y; }
+            knownPos[key] = { x, y, f };
+        }
+
+        let pivotPos = { x: 0, y: HYP_PIVOT_Y };
+        if (hypManualPos.PIVOT) pivotPos = hypManualPos.PIVOT;
+
+        for (const key in knownPos) {
+            const { x, y, f } = knownPos[key];
+            const parentKey = f.g === 1 ? null : "K|" + f.side + "|" + (f.g - 1) + "|" + (f.index >> 1);
+            const parentPos = f.g === 1 ? pivotPos : (knownPos[parentKey] || null);
+            if (parentPos) {
+                hypDrawLine(linesLayer, x, y, parentPos.x, parentPos.y, { stroke: f.side === "paternel" ? "#4f8fe0" : "#e05f8f" });
+            }
+            hypDrawNode(nodesLayer, x, y, f.indi.name, {
+                fill: f.side === "paternel" ? "#dbe8fb" : "#fbdbe8",
+                stroke: f.side === "paternel" ? "#4f8fe0" : "#e05f8f",
+                title: `${f.indi.name} — génération ${f.g}, branche ${f.side}`,
+                nodeKey: key, gen: f.g
+            });
+        }
+
+        const pivotIndi = hypGedData.individuals[hypPivotId];
+        hypDrawNode(nodesLayer, pivotPos.x, pivotPos.y, pivotIndi ? pivotIndi.name : "?", {
+            r: 24, fill: "#3b82f6", stroke: "#1d4ed8", strokeWidth: 2, textColor: "#fff",
+            title: "Pivot (mineur)", nodeKey: "PIVOT", gen: 0
+        });
+
+        hypotheses.forEach((hyp, hIdx) => {
+            const ref = hypResolveReference(hyp.referenceKey);
+            const side = ref.side || hyp.branche;
+            hyp.candidates.forEach((cand, cIdx) => {
+                if (cand.statut === "rejete") return;
+                const totalUp = ref.offset + cand.up;
+                const confirmed = cand.statut === "confirme";
+                const lane = hIdx * 3 + cIdx;
+                const isAlliance = hyp.parAlliance;
+
+                const ghostKey = "HG|" + hyp.id + "|" + cIdx;
+                let gx = hypGhostX(side, totalUp, lane), gy = hypGenY(totalUp);
+                if (hypManualPos[ghostKey]) { gx = hypManualPos[ghostKey].x; gy = hypManualPos[ghostKey].y; }
+
+                const refPos = hypResolveReferencePos(hyp.referenceKey, knownPos, pivotPos);
+                let prevPoint = { x: refPos.x, y: refPos.y };
+                for (let g = refPos.gen + 1; g <= totalUp; g++) {
+                    const isLast = g === totalUp;
+                    let cx, cy;
+                    if (isLast) { cx = gx; cy = gy; }
+                    else {
+                        const t = (g - refPos.gen) / (totalUp - refPos.gen);
+                        cy = hypGenY(g);
+                        cx = refPos.x + (gx - refPos.x) * t;
+                        const chainKey = "HC|" + hyp.id + "|" + cIdx + "|" + g;
+                        if (hypManualPos[chainKey]) cx = hypManualPos[chainKey].x;
+                        hypDrawLine(linesLayer, prevPoint.x, prevPoint.y, cx, cy, {
+                            stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.7 : 0.5
+                        });
+                        hypDrawNode(nodesLayer, cx, cy, "", {
+                            r: 7, fill: "none", stroke: confirmed ? "#27ae60" : "#c9a24f",
+                            dashed: !confirmed, opacity: confirmed ? 0.7 : 0.5,
+                            title: `Ancêtre théorique — génération ${g}, ${hyp.branche}`,
+                            nodeKey: chainKey, gen: g
+                        });
+                        prevPoint = { x: cx, y: cy };
+                        continue;
+                    }
+                    hypDrawLine(linesLayer, prevPoint.x, prevPoint.y, cx, cy, {
+                        stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.7 : 0.5
+                    });
+                }
+
+                const bloodKey = "HB|" + hyp.id + "|" + cIdx;
+                let bx = gx + (hypSideSign(side) || 1) * 18, by = hypGenY(totalUp - cand.down);
+                if (hypManualPos[bloodKey]) { bx = hypManualPos[bloodKey].x; by = hypManualPos[bloodKey].y; }
+
+                hypDrawNode(nodesLayer, gx, gy, `ancêtre commun (gén. ${totalUp})`, {
+                    r: 12, fill: "none", stroke: confirmed ? "#27ae60" : "#c9a24f",
+                    dashed: !confirmed, fontSize: 9, opacity: confirmed ? 0.9 : 0.7,
+                    title: `Position candidate : montée ${cand.up}, descente ${cand.down}, ${hyp.branche}/${hyp.mode}`,
+                    nodeKey: ghostKey, gen: totalUp
+                });
+
+                if (isAlliance && hyp.conjointDe) {
+                    hypDrawLine(linesLayer, gx, gy, bx, by, {
+                        stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.9 : 0.7
+                    });
+                    hypDrawNode(nodesLayer, bx, by, hyp.conjointDe, {
+                        r: 16, fill: confirmed ? "#dcf5e3" : "#faf1dc",
+                        stroke: confirmed ? "#27ae60" : "#c9a24f",
+                        dashed: !confirmed, opacity: confirmed ? 1 : 0.85,
+                        title: `${hyp.conjointDe} — parent par le sang`,
+                        nodeKey: bloodKey, gen: totalUp - cand.down
+                    });
+
+                    const spouseKey = "HS|" + hyp.id + "|" + cIdx;
+                    let sx = bx + (hypSideSign(side) || 1) * 34, sy = by;
+                    if (hypManualPos[spouseKey]) { sx = hypManualPos[spouseKey].x; sy = hypManualPos[spouseKey].y; }
+                    hypDrawLine(linesLayer, bx, by, sx, sy, { stroke: "#9b59b6", strokeWidth: 2, opacity: 0.9 });
+                    hypDrawNode(nodesLayer, sx, sy, hypSubjectLabel(hyp), {
+                        r: 14, fill: "#f1e6fa", stroke: "#9b59b6",
+                        title: `${hyp.subject} — par alliance (conjoint de ${hyp.conjointDe})`,
+                        nodeKey: spouseKey, gen: totalUp - cand.down
+                    });
+                } else {
+                    const subjKey = "HS|" + hyp.id + "|" + cIdx;
+                    let sx = bx, sy = by;
+                    if (hypManualPos[subjKey]) { sx = hypManualPos[subjKey].x; sy = hypManualPos[subjKey].y; }
+                    hypDrawLine(linesLayer, gx, gy, sx, sy, {
+                        stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.9 : 0.7
+                    });
+                    hypDrawNode(nodesLayer, sx, sy, hypSubjectLabel(hyp), {
+                        r: 16,
+                        fill: confirmed ? "#dcf5e3" : (isAlliance ? "#f1e6fa" : "#faf1dc"),
+                        stroke: confirmed ? "#27ae60" : (isAlliance ? "#9b59b6" : "#c9a24f"),
+                        dashed: !confirmed, opacity: confirmed ? 1 : 0.85,
+                        title: `${hyp.subject} — ${hypDescribeHyp(hyp)}` + (hyp.acte ? ` (${hyp.acte})` : ""),
+                        nodeKey: subjKey, gen: totalUp - cand.down
+                    });
+                }
+            });
+        });
+    }
+
+    // État initial (aucun fichier chargé pour l'instant)
+    hypApplyGedData({ individuals: {}, families: {} });
 });
 </script>
 </body>
