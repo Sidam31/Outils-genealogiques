@@ -168,6 +168,10 @@
         #hypPanel button.small { padding: 2px 6px; font-size: 0.7rem; border-radius: 4px; }
         #hypPanel .hyp-subsection { border-left: 2px solid var(--border); padding-left: 8px; margin: 2px 0; display: flex; flex-direction: column; gap: 6px; }
         #hypPanel .hyp-checkbox-label { display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text); font-weight: 400; margin-top: 0; }
+        #hypPanel textarea { padding: 5px 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 0.85rem; background: white; font-family: inherit; resize: vertical; }
+        #hypPanel details.hyp-subsection { padding-left: 0; border-left: none; }
+        #hypPanel details.hyp-subsection > summary { cursor: pointer; font-size: 0.8rem; color: #555; font-weight: 600; padding: 2px 0; }
+        #hypPanel details.hyp-subsection[open] > summary { margin-bottom: 4px; }
 
         .hyp-card { background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; display: flex; flex-direction: column; gap: 4px; }
         .hyp-card .hyp-subject { font-weight: 600; color: var(--accent); }
@@ -338,12 +342,12 @@
 <div id="hypPanel" style="display:none; flex-direction: row;">
     <div id="hypSidebar">
         <div>
-            <div class="hint">Reconstitution visuelle de filiations non actées (ex. tutelles), à partir du fichier chargé en haut de page.</div>
+            <div class="hint">Reconstitution visuelle de parentés non actées à partir d'un document qui cite un lien de parenté (tutelle, conseil de famille, acte notarié...), en partant du fichier chargé en haut de page.</div>
         </div>
 
         <section>
-            <h3>1. Pivot &amp; profondeur</h3>
-            <label for="hypPivotSearch">Individu pivot (le mineur)</label>
+            <h3>1. Individu de référence &amp; profondeur</h3>
+            <label for="hypPivotSearch">Individu de référence</label>
             <div class="ctrl" style="position:relative">
                 <input type="text" id="hypPivotSearch" placeholder="Rechercher une personne..." disabled>
                 <ul id="hypPivotResults"></ul>
@@ -355,12 +359,14 @@
             <input type="range" id="hypMaxGen" min="1" max="6" value="4">
 
             <div class="hyp-subsection">
-                <div class="hint">Pas de fichier sous la main ? Générer un mini-scénario à 3 personnes :</div>
+                <div class="hint">Pas de fichier sous la main ? Générer un mini-scénario :</div>
                 <div class="hyp-col">
-                    <input type="text" id="hypQsChild" placeholder="Enfant" value="Jean X">
-                    <input type="text" id="hypQsFather" placeholder="Père" value="Paul X">
-                    <input type="text" id="hypQsMother" placeholder="Mère" value="Marie Durand">
+                    <input type="text" id="hypQsChild" placeholder="Individu de référence (obligatoire)" value="Jean X">
+                    <input type="text" id="hypQsFather" placeholder="Père (optionnel)" value="Paul X">
+                    <input type="text" id="hypQsMother" placeholder="Mère (optionnel)" value="Marie Durand">
+                    <textarea id="hypQsSiblings" placeholder="Frères et sœurs (un nom par ligne, optionnel)" rows="2"></textarea>
                 </div>
+                <div class="hint">Si des frères/sœurs sont indiqués sans père ni mère nommés, des parents anonymes sont créés automatiquement pour les rattacher.</div>
                 <button id="hypBtnQuickStart">Créer ce scénario</button>
             </div>
         </section>
@@ -394,6 +400,7 @@
                     <option value="germain">Germain (mêmes père et mère)</option>
                     <option value="paternel">Paternel / consanguin (même père)</option>
                     <option value="maternel">Maternel / utérin (même mère)</option>
+                    <option value="indetermine">Non précisé (paternel + maternel)</option>
                 </select>
             </div>
 
@@ -415,31 +422,37 @@
             <label for="hypRef">Relation énoncée par rapport à</label>
             <select id="hypRef"></select>
 
-            <div class="hyp-row">
-                <div>
-                    <label for="hypBranche">Branche</label>
-                    <select id="hypBranche">
-                        <option value="paternel">Paternelle</option>
-                        <option value="maternel">Maternelle</option>
-                        <option value="germain">Germain (bilatéral)</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="hypMode">Mode</label>
-                    <select id="hypMode">
-                        <option value="estoc">Estoc</option>
-                        <option value="ligne">Ligne directe</option>
-                    </select>
-                </div>
+            <div id="hypBrancheBlock">
+                <label for="hypBranche">Branche</label>
+                <select id="hypBranche">
+                    <option value="paternel">Paternelle (consanguine)</option>
+                    <option value="maternel">Maternelle (utérine)</option>
+                    <option value="indetermine">Non précisée (paternelle + maternelle)</option>
+                </select>
             </div>
 
-            <label>Statut</label>
+            <label for="hypLienNature">Nature du lien</label>
+            <select id="hypLienNature">
+                <option value="sang">Par le sang</option>
+                <option value="alliance">Par alliance</option>
+                <option value="indetermine">Non précisée (sang + alliance)</option>
+            </select>
+            <div id="hypConjointBlock" style="display:none">
+                <label for="hypConjointDe">Conjoint(e) du parent par le sang nommé (si connu)</label>
+                <input type="text" id="hypConjointDe" placeholder="ex: Françoise Dupond">
+            </div>
+
+            <details class="hyp-subsection">
+                <summary>Options avancées</summary>
+                <label for="hypMode">Mode</label>
+                <select id="hypMode">
+                    <option value="estoc">Estoc</option>
+                    <option value="ligne">Ligne directe</option>
+                </select>
+            </details>
+
+            <label>Situation au moment de l'acte</label>
             <div class="hyp-subsection">
-                <label class="hyp-checkbox-label"><input type="checkbox" id="hypParAlliance"> Par alliance (conjoint d'un parent par le sang)</label>
-                <div id="hypConjointBlock" style="display:none">
-                    <label for="hypConjointDe">Conjoint(e) du parent par le sang nommé</label>
-                    <input type="text" id="hypConjointDe" placeholder="ex: Françoise Dupond">
-                </div>
                 <label for="hypVeuf">Veuvage</label>
                 <select id="hypVeuf">
                     <option value="">—</option>
@@ -448,6 +461,9 @@
                 </select>
                 <label class="hyp-checkbox-label"><input type="checkbox" id="hypDefunt"> Défunt au moment de l'acte</label>
             </div>
+
+            <label for="hypActeYear">Année de l'acte (optionnel)</label>
+            <input type="number" id="hypActeYear" placeholder="ex: 1730">
 
             <label for="hypActe">Source / acte (citation, optionnel)</label>
             <input type="text" id="hypActe" placeholder="ex: tutelle 1730, conseil de famille X">
@@ -476,7 +492,8 @@
         <div id="hypLegend">
             <div><span class="hyp-swatch" style="background:var(--hyp-paternel)"></span>Branche paternelle</div>
             <div><span class="hyp-swatch" style="background:var(--hyp-maternel)"></span>Branche maternelle</div>
-            <div><span class="hyp-swatch" style="background:#3b82f6"></span>Pivot</div>
+            <div><span class="hyp-swatch" style="background:#3b82f6"></span>Individu de référence</div>
+            <div><span class="hyp-swatch" style="background:#eef2f8;border:1px solid #8898b0"></span>Frère/sœur de l'individu de référence</div>
             <div><span class="hyp-swatch" style="background:var(--hyp-ghost)"></span>Hypothèse ouverte (pointillé)</div>
             <div><span class="hyp-swatch" style="background:var(--hyp-confirme)"></span>Hypothèse confirmée</div>
             <div><span class="hyp-swatch" style="background:var(--hyp-alliance)"></span>Lien par alliance</div>
@@ -2827,13 +2844,33 @@ document.addEventListener('DOMContentLoaded', () => {
     let hypManualPos = {}; // nodeKey -> {x,y}, positions déplacées à la souris
     let hypLevelMult = {}; // génération -> multiplicateur d'espacement horizontal (Ctrl+clic)
 
-    function buildGedDataFromNames(childName, fatherName, motherName) {
-        const individuals = {
-            I1: { id: "I1", name: childName, sex: "", famc: "F1", fams: [] },
-            I2: { id: "I2", name: fatherName, sex: "M", famc: null, fams: ["F1"] },
-            I3: { id: "I3", name: motherName, sex: "F", famc: null, fams: ["F1"] }
-        };
-        const families = { F1: { id: "F1", husb: "I2", wife: "I3", chil: ["I1"] } };
+    // Individu de référence obligatoire ; père/mère optionnels ; fratrie optionnelle. Si des
+    // frères/sœurs sont fournis sans père ni mère nommés, des parents anonymes sont créés pour les
+    // rattacher (permet de prototyper une fratrie dont on ne connaît pas encore les parents).
+    function buildQuickScenario(refName, fatherName, motherName, siblingNames) {
+        const individuals = {};
+        const families = {};
+        let nextId = 1;
+        const newId = () => "Q" + (nextId++);
+
+        const refId = newId();
+        individuals[refId] = { id: refId, name: refName, sex: "", famc: null, fams: [] };
+
+        const hasParents = !!(fatherName || motherName);
+        const hasSiblings = siblingNames.length > 0;
+        if (hasParents || hasSiblings) {
+            const fatherId = newId(), motherId = newId(), famId = newId();
+            individuals[fatherId] = { id: fatherId, name: fatherName || "(père inconnu)", sex: "M", famc: null, fams: [famId] };
+            individuals[motherId] = { id: motherId, name: motherName || "(mère inconnu)", sex: "F", famc: null, fams: [famId] };
+            const chil = [refId];
+            individuals[refId].famc = famId;
+            siblingNames.forEach(name => {
+                const sid = newId();
+                individuals[sid] = { id: sid, name, sex: "", famc: famId, fams: [] };
+                chil.push(sid);
+            });
+            families[famId] = { id: famId, husb: fatherId, wife: motherId, chil };
+        }
         return { individuals, families };
     }
     // Adapte le Map/Map produit par GedcomParser (partagé avec les autres onglets) vers la forme
@@ -2846,6 +2883,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return { individuals, families };
     }
 
+    // Chaque "slot" (side,g,index) est traité comme un individu potentiellement distinct des
+    // autres, mais rien n'empêche une consanguinité réelle dans le couple pivot (deux slots pointant
+    // en fait vers la même personne, ex. cousins germains mariés). L'algorithme de parenté ne s'en
+    // soucie pas ici (il ne fait que décrire des POSITIONS), mais un futur calcul de plausibilité ne
+    // doit pas supposer que tous les ascendants énumérés par hypScanAscendants sont des personnes
+    // distinctes.
     function hypStepsFor(side, g, index) {
         const steps = [side === "paternel" ? "F" : "M"];
         for (let b = g - 2; b >= 0; b--) steps.push(((index >> b) & 1) === 0 ? "F" : "M");
@@ -2876,6 +2919,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
         return found;
+    }
+    // Frères et sœurs (germains, consanguins ou utérins confondus : quiconque partage la même
+    // fiche famille "famc") de la personne donnée, hors elle-même.
+    function hypGetSiblings(indiId) {
+        const indi = hypGedData.individuals[indiId];
+        if (!indi || !indi.famc) return [];
+        const fam = hypGedData.families[indi.famc];
+        if (!fam) return [];
+        return (fam.chil || []).filter(id => id !== indiId).map(id => hypGedData.individuals[id]).filter(Boolean);
     }
 
     // Degré = up (générations jusqu'à l'ancêtre commun) + down (générations jusqu'à la personne citée).
@@ -2954,13 +3006,33 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!entry) return null;
         return { candidates: [{ up: entry.up, down: entry.down }] };
     }
+    // Chaque candidat {up,down} de base est décliné selon la branche et la nature du lien : quand
+    // l'une (ou les deux) est "indéterminée", on crée une variante indépendante par combinaison
+    // possible (ex. cousin germain, branche ET nature non précisées -> 4 variantes), chacune
+    // confirmable/rejetable séparément — ça réutilise directement le mécanisme déjà en place pour
+    // l'ambiguïté de degré, plutôt que d'inventer un système parallèle.
+    const HYP_BRANCHE_LABELS = { paternel: "paternelle", maternel: "maternelle", germain: "germaine", indetermine: "non précisée" };
+    const HYP_NATURE_LABELS = { sang: "par le sang", alliance: "par alliance", indetermine: "non précisée" };
+    function hypExpandVariants(baseCandidates, brancheChoice, natureChoice) {
+        const branches = brancheChoice === "indetermine" ? ["paternel", "maternel"] : [brancheChoice];
+        const natures = natureChoice === "indetermine" ? ["sang", "alliance"] : [natureChoice];
+        const out = [];
+        baseCandidates.forEach(c => {
+            branches.forEach(branche => {
+                natures.forEach(lienNature => out.push({ up: c.up, down: c.down, branche, lienNature, statut: "ouvert" }));
+            });
+        });
+        return out;
+    }
+    function hypCandidateDesc(cand) {
+        return `${HYP_BRANCHE_LABELS[cand.branche] || cand.branche}, ${HYP_NATURE_LABELS[cand.lienNature] || cand.lienNature}`;
+    }
     function hypDescribeHyp(hyp) {
         let s = HYP_TERM_LABELS[hyp.terme] || hyp.terme;
-        if ((hyp.terme === "frere" || hyp.terme === "soeur") && hyp.fratrieQualif) s += ` (${hyp.fratrieQualif})`;
+        if ((hyp.terme === "frere" || hyp.terme === "soeur") && hyp.fratrieQualif) s += ` (${HYP_BRANCHE_LABELS[hyp.fratrieQualif] || hyp.fratrieQualif})`;
         if (hyp.terme === "numerique_libre") s += ` : ${hyp.degreeWord} (${hyp.degreeMode})`;
         if (hyp.terme === "canonique_compose") s += ` : ${hyp.degreeWord}`;
-        s += ` — ${hyp.branche}, ${hyp.mode}`;
-        if (hyp.parAlliance) s = "Par alliance — " + s + (hyp.conjointDe ? ` (conjoint de ${hyp.conjointDe})` : "");
+        s += ` — ${hyp.mode}`;
         return s;
     }
     function hypSubjectLabel(hyp) {
@@ -2996,11 +3068,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.getElementById("hypBtnQuickStart").addEventListener("click", () => {
-        const child = document.getElementById("hypQsChild").value.trim();
+        const ref = document.getElementById("hypQsChild").value.trim();
         const father = document.getElementById("hypQsFather").value.trim();
         const mother = document.getElementById("hypQsMother").value.trim();
-        if (!child || !father || !mother) { alert("Merci de renseigner les 3 noms (enfant, père, mère)."); return; }
-        hypApplyGedData(buildGedDataFromNames(child, father, mother));
+        const siblings = document.getElementById("hypQsSiblings").value.split(/\r?\n/).map(s => s.trim()).filter(Boolean);
+        if (!ref) { alert("Merci de renseigner au moins le nom de l'individu de référence."); return; }
+        hypApplyGedData(buildQuickScenario(ref, father, mother, siblings));
     });
 
     hypPivotSearchEl.addEventListener("input", e => {
@@ -3031,53 +3104,83 @@ document.addEventListener('DOMContentLoaded', () => {
         hypRender();
     });
 
+    // Chaque option pointe vers l'ID GEDCOM stable de la personne (pas vers une position relative
+    // au pivot actuel) : une hypothèse déclarée "par rapport au père" reste attachée à CETTE
+    // personne précise même si l'utilisateur change ensuite l'individu de référence affiché dans la
+    // barre latérale — elle ne se "rattache" pas silencieusement à un autre père si le pivot change.
     function hypRefreshRefOptions() {
         hypRefSelect.innerHTML = "";
-        const optPivot = document.createElement("option");
-        optPivot.value = "PIVOT"; optPivot.textContent = "Le pivot (mineur)";
-        hypRefSelect.appendChild(optPivot);
         if (!hypPivotId) return;
+        const optPivot = document.createElement("option");
+        optPivot.value = JSON.stringify({ indiId: hypPivotId });
+        optPivot.textContent = `${hypGedData.individuals[hypPivotId].name} (individu de référence)`;
+        hypRefSelect.appendChild(optPivot);
         const found = hypScanAscendants(hypPivotId, parseInt(hypMaxGenEl.value, 10));
         for (const f of found) {
             const opt = document.createElement("option");
-            opt.value = JSON.stringify({ side: f.side, g: f.g, index: f.index });
+            opt.value = JSON.stringify({ indiId: f.indi.id });
             const label = f.g === 1 ? (f.side === "paternel" ? "père" : "mère") : `gén. ${f.g}, ${f.side}`;
             opt.textContent = `${f.indi.name} (${label})`;
             hypRefSelect.appendChild(opt);
         }
+        hypGetSiblings(hypPivotId).forEach(sib => {
+            const opt = document.createElement("option");
+            opt.value = JSON.stringify({ indiId: sib.id });
+            opt.textContent = `${sib.name} (frère/sœur)`;
+            hypRefSelect.appendChild(opt);
+        });
+        // On peut aussi énoncer une nouvelle hypothèse par rapport à une personne hypothétique déjà
+        // CONFIRMÉE (pas un candidat encore ouvert : chaîner une supposition sur une autre
+        // supposition non tranchée serait difficile à lire). Permet de construire une hypothèse pas
+        // à pas (ex. confirmer un oncle, puis situer un cousin par rapport à cet oncle).
+        hypotheses.forEach(hyp => {
+            hyp.candidates.forEach((cand, cIdx) => {
+                if (cand.statut !== "confirme") return;
+                const opt = document.createElement("option");
+                opt.value = JSON.stringify({ hypSubject: hyp.id, cIdx });
+                opt.textContent = `${hypSubjectLabel(hyp)} (hypothèse confirmée)`;
+                hypRefSelect.appendChild(opt);
+            });
+        });
     }
 
     // --- Formulaire d'hypothèse : affichage conditionnel ---
-    const hypParAllianceEl = document.getElementById("hypParAlliance");
     const hypConjointBlockEl = document.getElementById("hypConjointBlock");
     const hypTermeEl = document.getElementById("hypTerme");
     const hypFratrieBlockEl = document.getElementById("hypFratrieBlock");
     const hypCanoniqueComposeBlockEl = document.getElementById("hypCanoniqueComposeBlock");
     const hypDegreLibreBlockEl = document.getElementById("hypDegreLibreBlock");
     const hypFratrieQualifEl = document.getElementById("hypFratrieQualif");
+    const hypBrancheBlockEl = document.getElementById("hypBrancheBlock");
     const hypBrancheSelect = document.getElementById("hypBranche");
+    const hypLienNatureEl = document.getElementById("hypLienNature");
     const hypParsePreviewEl = document.getElementById("hypParsePreview");
 
+    // Pour frère/sœur, le champ "Lignage" (germain/paternel/maternel/indéterminé) remplace la
+    // "Branche" générique (qui n'a pas d'option "germain" — bilatéral n'a de sens que pour une
+    // fratrie) : on masque l'une pendant que l'autre pilote la branche effective de l'hypothèse.
+    function hypBrancheChoice() {
+        const terme = hypTermeEl.value;
+        return (terme === "frere" || terme === "soeur") ? hypFratrieQualifEl.value : hypBrancheSelect.value;
+    }
     function hypUpdateFormVisibility() {
         const terme = hypTermeEl.value;
-        hypConjointBlockEl.style.display = hypParAllianceEl.checked ? "flex" : "none";
-        hypFratrieBlockEl.style.display = (terme === "frere" || terme === "soeur") ? "flex" : "none";
+        const isFratrie = (terme === "frere" || terme === "soeur");
+        hypConjointBlockEl.style.display = (hypLienNatureEl.value === "alliance" || hypLienNatureEl.value === "indetermine") ? "flex" : "none";
+        hypFratrieBlockEl.style.display = isFratrie ? "flex" : "none";
+        hypBrancheBlockEl.style.display = isFratrie ? "none" : "block";
         hypCanoniqueComposeBlockEl.style.display = terme === "canonique_compose" ? "flex" : "none";
         hypDegreLibreBlockEl.style.display = terme === "numerique_libre" ? "flex" : "none";
     }
-    hypParAllianceEl.addEventListener("change", hypUpdateFormVisibility);
+    hypLienNatureEl.addEventListener("change", hypUpdateFormVisibility);
     hypTermeEl.addEventListener("change", () => {
         hypUpdateFormVisibility();
         if (hypTermeEl.value === "pere") hypBrancheSelect.value = "paternel";
         if (hypTermeEl.value === "mere") hypBrancheSelect.value = "maternel";
         hypUpdatePreview();
     });
-    hypFratrieQualifEl.addEventListener("change", () => {
-        if (hypFratrieQualifEl.value === "germain") hypBrancheSelect.value = "germain";
-        else if (hypFratrieQualifEl.value === "paternel") hypBrancheSelect.value = "paternel";
-        else if (hypFratrieQualifEl.value === "maternel") hypBrancheSelect.value = "maternel";
-        hypUpdatePreview();
-    });
+    hypFratrieQualifEl.addEventListener("change", hypUpdatePreview);
+    hypBrancheSelect.addEventListener("change", hypUpdatePreview);
     document.getElementById("hypDegreeWord").addEventListener("input", hypUpdatePreview);
     document.getElementById("hypDegreeMode").addEventListener("change", hypUpdatePreview);
     document.getElementById("hypCanoniqueCompose").addEventListener("input", hypUpdatePreview);
@@ -3085,8 +3188,9 @@ document.addEventListener('DOMContentLoaded', () => {
     function hypUpdatePreview() {
         const built = hypBuildCandidatesFromForm();
         if (!built || !built.candidates.length) { hypParsePreviewEl.textContent = "Aucun candidat : vérifiez le degré saisi."; return; }
-        const desc = built.candidates.map(c => `(montée ${c.up} / descente ${c.down})`).join(", ");
-        hypParsePreviewEl.textContent = `${built.candidates.length} candidat(s) : ${desc}`;
+        const expanded = hypExpandVariants(built.candidates, hypBrancheChoice(), hypLienNatureEl.value);
+        const desc = expanded.map(c => `(montée ${c.up}/descente ${c.down}, ${hypCandidateDesc(c)})`).join(", ");
+        hypParsePreviewEl.textContent = `${expanded.length} candidat(s) : ${desc}`;
     }
     hypUpdateFormVisibility();
     hypUpdatePreview();
@@ -3098,22 +3202,22 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!built || !built.candidates.length) { alert("Impossible de déterminer un degré valide pour cette hypothèse."); return; }
 
         const terme = hypTermeEl.value;
-        const parAlliance = hypParAllianceEl.checked;
-        const conjointDe = parAlliance ? document.getElementById("hypConjointDe").value.trim() : "";
+        const lienNature = hypLienNatureEl.value;
+        const conjointDe = (lienNature === "alliance" || lienNature === "indetermine") ? document.getElementById("hypConjointDe").value.trim() : "";
         const veuf = document.getElementById("hypVeuf").value;
         const defunt = document.getElementById("hypDefunt").checked;
         const fratrieQualif = (terme === "frere" || terme === "soeur") ? hypFratrieQualifEl.value : "";
-        const branche = hypBrancheSelect.value;
         const mode = document.getElementById("hypMode").value;
         const acte = document.getElementById("hypActe").value.trim();
+        const acteYear = document.getElementById("hypActeYear").value.trim();
         const refValue = hypRefSelect.value;
 
         hypotheses.push({
             id: "h" + (++hypCounter),
-            subject, parAlliance, conjointDe, veuf, defunt, terme, fratrieQualif,
+            subject, conjointDe, veuf, defunt, terme, fratrieQualif,
             degreeWord: built.degreeWord || "", degreeMode: built.degreeMode || "",
-            acte, referenceKey: refValue, branche, mode,
-            candidates: built.candidates.map(c => ({ up: c.up, down: c.down, statut: "ouvert" }))
+            acte, acteYear: acteYear ? parseInt(acteYear, 10) : null, referenceKey: refValue, mode,
+            candidates: hypExpandVariants(built.candidates, hypBrancheChoice(), lienNature)
         });
 
         document.getElementById("hypSubject").value = "";
@@ -3121,8 +3225,10 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById("hypDegreeWord").value = "";
         document.getElementById("hypCanoniqueCompose").value = "";
         document.getElementById("hypActe").value = "";
+        document.getElementById("hypActeYear").value = "";
         document.getElementById("hypDefunt").checked = false;
         hypRenderList();
+        hypRefreshRefOptions();
         hypRender();
     });
 
@@ -3141,7 +3247,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const metaEl = document.createElement("div");
             metaEl.className = "hyp-meta";
-            metaEl.textContent = hypDescribeHyp(hyp) + (hyp.acte ? ` — ${hyp.acte}` : "");
+            // Quand la référence est un ascendant connu d'un côté donné (ou une hypothèse confirmée
+            // sur une branche donnée), ce côté prime sur la branche déclarée des candidats (voir
+            // hypRender) : le rendre visible ici évite toute surprise ("j'ai dit maternelle mais ça
+            // s'affiche du côté paternel"), et c'est aussi l'un des indices qu'un futur calcul de
+            // plausibilité pourrait exploiter (l'acte source concerne souvent un parent précis).
+            const refSide = hypResolveReference(hyp.referenceKey).side;
+            const refSideNote = refSide ? ` [branche déduite de la référence : ${HYP_BRANCHE_LABELS[refSide] || refSide}]` : '';
+            metaEl.textContent = hypDescribeHyp(hyp) + refSideNote + (hyp.acteYear ? ` — vers ${hyp.acteYear}` : "") + (hyp.acte ? ` — ${hyp.acte}` : "");
             card.appendChild(metaEl);
 
             const candsEl = document.createElement("div");
@@ -3150,7 +3263,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 const chip = document.createElement("span");
                 chip.className = "hyp-cand-chip " + (c.statut === "confirme" ? "confirme" : c.statut === "rejete" ? "rejete" : "");
                 const lbl = document.createElement("span");
-                lbl.textContent = `↑${c.up}/↓${c.down}`;
+                lbl.textContent = `↑${c.up}/↓${c.down} — ${hypCandidateDesc(c)}`;
+                lbl.title = `montée ${c.up} / descente ${c.down}, ${hypCandidateDesc(c)}`;
                 chip.appendChild(lbl);
                 if (c.statut === "ouvert") {
                     const btnOk = document.createElement("button");
@@ -3158,12 +3272,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     btnOk.title = "Confirmer cette hypothèse";
                     btnOk.addEventListener("click", () => {
                         hyp.candidates.forEach((cc, i) => { cc.statut = i === idx ? "confirme" : "rejete"; });
-                        hypRenderList(); hypRender();
+                        hypRenderList(); hypRefreshRefOptions(); hypRender();
                     });
                     const btnNo = document.createElement("button");
                     btnNo.className = "small"; btnNo.textContent = "✕";
                     btnNo.title = "Rejeter cette hypothèse";
-                    btnNo.addEventListener("click", () => { c.statut = "rejete"; hypRenderList(); hypRender(); });
+                    btnNo.addEventListener("click", () => { c.statut = "rejete"; hypRenderList(); hypRefreshRefOptions(); hypRender(); });
                     chip.appendChild(btnOk); chip.appendChild(btnNo);
                 }
                 candsEl.appendChild(chip);
@@ -3174,7 +3288,7 @@ document.addEventListener('DOMContentLoaded', () => {
             btnDel.className = "small"; btnDel.textContent = "Supprimer l'hypothèse";
             btnDel.addEventListener("click", () => {
                 hypotheses = hypotheses.filter(h => h.id !== hyp.id);
-                hypRenderList(); hypRender();
+                hypRenderList(); hypRefreshRefOptions(); hypRender();
             });
             card.appendChild(btnDel);
 
@@ -3372,19 +3486,61 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         parent.appendChild(line);
     }
-    function hypResolveReference(referenceKey) {
-        if (referenceKey === "PIVOT" || !referenceKey) return { offset: 0, side: null };
-        try { const ref = JSON.parse(referenceKey); return { offset: ref.g, side: ref.side }; }
-        catch (e) { return { offset: 0, side: null }; }
+    // referenceKey pointe vers l'ID GEDCOM stable d'une personne connue {indiId} (pivot, ascendant
+    // ou frère/sœur), ou vers le candidat CONFIRMÉ d'une autre hypothèse {hypSubject,cIdx} — permet
+    // de bâtir une hypothèse en plusieurs étapes (confirmer un oncle, puis situer un cousin par
+    // rapport à lui). L'ancien format ("PIVOT" ou {side,g,index}, position relative au pivot plutôt
+    // qu'ID de personne) reste lu en secours pour les hypothèses déjà exportées en JSON avant ce
+    // changement, mais n'est plus produit par le formulaire.
+    // knownPosById (rempli pendant hypRender) donne {x,y,gen,side} de chaque personne connue,
+    // indexée par son ID plutôt que par sa position dans l'arbre du pivot ACTUEL : une référence par
+    // ID reste donc attachée à la même personne même si l'utilisateur change ensuite l'individu de
+    // référence affiché — au prix de ne plus être positionnable si cette personne n'est plus
+    // atteignable depuis le nouveau pivot (repli sur le pivot, comme pour une référence introuvable).
+    function hypResolveReference(referenceKey, knownPosById) {
+        if (!referenceKey) return { offset: 0, side: null };
+        if (referenceKey === "PIVOT") return { offset: 0, side: null }; // ancien format
+        try {
+            const ref = JSON.parse(referenceKey);
+            if (ref.hypSubject) {
+                const refHyp = hypotheses.find(h => h.id === ref.hypSubject);
+                const cand = refHyp && refHyp.candidates[ref.cIdx];
+                if (!refHyp || !cand) return { offset: 0, side: null };
+                const refOfRef = hypResolveReference(refHyp.referenceKey, knownPosById);
+                return { offset: refOfRef.offset + cand.up - cand.down, side: cand.branche === "germain" ? null : cand.branche };
+            }
+            if (ref.indiId) {
+                if (knownPosById) {
+                    const pos = knownPosById[ref.indiId];
+                    return pos ? { offset: pos.gen, side: pos.side } : { offset: 0, side: null };
+                }
+                // Pas de knownPosById fourni (ex. appelé depuis la liste des hypothèses, hors rendu
+                // du canevas) : un scan léger suffit, pas besoin de calculer de positions x/y.
+                if (!hypPivotId || ref.indiId === hypPivotId) return { offset: 0, side: null };
+                const found = hypScanAscendants(hypPivotId, parseInt(hypMaxGenEl.value, 10)).find(f => f.indi.id === ref.indiId);
+                return found ? { offset: found.g, side: found.side } : { offset: 0, side: null };
+            }
+            return { offset: ref.g, side: ref.side }; // ancien format {side,g,index}
+        } catch (e) { return { offset: 0, side: null }; }
     }
     // Position réelle (génération + coordonnées) de la personne de référence de l'hypothèse, pour
     // pouvoir relier le pivot à l'ancêtre commun hypothétique par une lignée théorique.
-    function hypResolveReferencePos(referenceKey, knownPos, pivotPos) {
-        if (referenceKey === "PIVOT" || !referenceKey) return { x: pivotPos.x, y: pivotPos.y, gen: 0 };
+    // hypSubjectPositions (rempli pendant hypRender) donne la position déjà calculée du candidat
+    // confirmé d'une autre hypothèse quand la référence en pointe une.
+    function hypResolveReferencePos(referenceKey, knownPosById, pivotPos, hypSubjectPositions) {
+        if (!referenceKey || referenceKey === "PIVOT") return { x: pivotPos.x, y: pivotPos.y, gen: 0 };
         try {
             const ref = JSON.parse(referenceKey);
-            const key = "K|" + ref.side + "|" + ref.g + "|" + ref.index;
-            if (knownPos[key]) return { x: knownPos[key].x, y: knownPos[key].y, gen: ref.g };
+            if (ref.hypSubject) {
+                const nodeKey = "HS|" + ref.hypSubject + "|" + ref.cIdx;
+                const pos = hypSubjectPositions[nodeKey];
+                if (pos) return { x: pos.x, y: pos.y, gen: hypResolveReference(referenceKey, knownPosById).offset };
+                return { x: pivotPos.x, y: pivotPos.y, gen: 0 };
+            }
+            if (ref.indiId) {
+                const pos = knownPosById && knownPosById[ref.indiId];
+                if (pos) return { x: pos.x, y: pos.y, gen: pos.gen };
+            }
         } catch (e) { /* ignore */ }
         return { x: pivotPos.x, y: pivotPos.y, gen: 0 };
     }
@@ -3397,6 +3553,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const linesLayer = hypSvgEl("g"); const nodesLayer = hypSvgEl("g");
         hypSvg.appendChild(linesLayer); hypSvg.appendChild(nodesLayer);
+        // Position (x,y) du nœud "sujet" de chaque candidat, remplie au fil du rendu : permet à une
+        // hypothèse de se référencer au candidat confirmé d'une autre (voir hypResolveReferencePos).
+        // Ne fonctionne que si l'hypothèse référencée est traitée avant celle qui la référence
+        // (ordre d'ajout normal en pratique : on confirme, puis on ajoute la suivante par rapport à elle).
+        const hypSubjectPositions = {};
 
         const maxGenNow = parseInt(hypMaxGenEl.value, 10);
         const known = hypScanAscendants(hypPivotId, maxGenNow);
@@ -3411,6 +3572,10 @@ document.addEventListener('DOMContentLoaded', () => {
         let pivotPos = { x: 0, y: HYP_PIVOT_Y };
         if (hypManualPos.PIVOT) pivotPos = hypManualPos.PIVOT;
 
+        // Position par ID GEDCOM stable (voir hypResolveReference/hypResolveReferencePos) : construite
+        // à partir des mêmes ascendants connus, plus le pivot et ses frères/sœurs.
+        const knownPosById = { [hypPivotId]: { x: pivotPos.x, y: pivotPos.y, gen: 0, side: null } };
+
         for (const key in knownPos) {
             const { x, y, f } = knownPos[key];
             const parentKey = f.g === 1 ? null : "K|" + f.side + "|" + (f.g - 1) + "|" + (f.index >> 1);
@@ -3424,29 +3589,54 @@ document.addEventListener('DOMContentLoaded', () => {
                 title: `${f.indi.name} — génération ${f.g}, branche ${f.side}`,
                 nodeKey: key, gen: f.g
             });
+            knownPosById[f.indi.id] = { x, y, gen: f.g, side: f.side };
         }
 
         const pivotIndi = hypGedData.individuals[hypPivotId];
         hypDrawNode(nodesLayer, pivotPos.x, pivotPos.y, pivotIndi ? pivotIndi.name : "?", {
             r: 24, fill: "#3b82f6", stroke: "#1d4ed8", strokeWidth: 2, textColor: "#fff",
-            title: "Pivot (mineur)", nodeKey: "PIVOT", gen: 0
+            title: `${pivotIndi ? pivotIndi.name : '?'} — individu de référence`, nodeKey: "PIVOT", gen: 0
+        });
+
+        // Frères et sœurs de l'individu de référence, affichés à côté de lui et reliés au(x)
+        // parent(s) connu(s) (gén. 1) exactement comme il l'est lui-même.
+        const fatherPos = knownPos["K|paternel|1|0"];
+        const motherPos = knownPos["K|maternel|1|0"];
+        hypGetSiblings(hypPivotId).forEach((sib, i) => {
+            const sibKey = "SIB|" + sib.id;
+            const sign = (i % 2 === 0) ? 1 : -1;
+            const rank = Math.floor(i / 2) + 1;
+            let sx = pivotPos.x + sign * rank * 70, sy = pivotPos.y;
+            if (hypManualPos[sibKey]) { sx = hypManualPos[sibKey].x; sy = hypManualPos[sibKey].y; }
+            if (fatherPos) hypDrawLine(linesLayer, sx, sy, fatherPos.x, fatherPos.y, { stroke: "#4f8fe0", opacity: 0.6 });
+            if (motherPos) hypDrawLine(linesLayer, sx, sy, motherPos.x, motherPos.y, { stroke: "#e05f8f", opacity: 0.6 });
+            hypDrawNode(nodesLayer, sx, sy, sib.name, {
+                r: 18, fill: "#eef2f8", stroke: "#8898b0", strokeWidth: 1.5,
+                title: `${sib.name} — frère/sœur de l'individu de référence`,
+                nodeKey: sibKey, gen: 0
+            });
+            knownPosById[sib.id] = { x: sx, y: sy, gen: 0, side: null };
         });
 
         hypotheses.forEach((hyp, hIdx) => {
-            const ref = hypResolveReference(hyp.referenceKey);
-            const side = ref.side || hyp.branche;
+            const ref = hypResolveReference(hyp.referenceKey, knownPosById);
             hyp.candidates.forEach((cand, cIdx) => {
                 if (cand.statut === "rejete") return;
+                // Branche/nature vivent maintenant sur le candidat (pas l'hypothèse) : chaque
+                // variante "non précisée" (paternel+maternel, sang+alliance...) se dessine et se
+                // confirme/rejette indépendamment des autres. La référence, quand elle pointe vers
+                // un ascendant connu d'un côté donné, prime sur la branche déclarée du candidat.
+                const side = ref.side || cand.branche;
                 const totalUp = ref.offset + cand.up;
                 const confirmed = cand.statut === "confirme";
                 const lane = hIdx * 3 + cIdx;
-                const isAlliance = hyp.parAlliance;
+                const isAlliance = cand.lienNature === "alliance";
 
                 const ghostKey = "HG|" + hyp.id + "|" + cIdx;
                 let gx = hypGhostX(side, totalUp, lane), gy = hypGenY(totalUp);
                 if (hypManualPos[ghostKey]) { gx = hypManualPos[ghostKey].x; gy = hypManualPos[ghostKey].y; }
 
-                const refPos = hypResolveReferencePos(hyp.referenceKey, knownPos, pivotPos);
+                const refPos = hypResolveReferencePos(hyp.referenceKey, knownPosById, pivotPos, hypSubjectPositions);
                 let prevPoint = { x: refPos.x, y: refPos.y };
                 for (let g = refPos.gen + 1; g <= totalUp; g++) {
                     const isLast = g === totalUp;
@@ -3464,7 +3654,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         hypDrawNode(nodesLayer, cx, cy, "", {
                             r: 7, fill: "none", stroke: confirmed ? "#27ae60" : "#c9a24f",
                             dashed: !confirmed, opacity: confirmed ? 0.7 : 0.5,
-                            title: `Ancêtre théorique — génération ${g}, ${hyp.branche}`,
+                            title: `Ancêtre théorique — génération ${g}, ${hypCandidateDesc(cand)}`,
                             nodeKey: chainKey, gen: g
                         });
                         prevPoint = { x: cx, y: cy };
@@ -3482,12 +3672,34 @@ document.addEventListener('DOMContentLoaded', () => {
                 hypDrawNode(nodesLayer, gx, gy, `ancêtre commun (gén. ${totalUp})`, {
                     r: 12, fill: "none", stroke: confirmed ? "#27ae60" : "#c9a24f",
                     dashed: !confirmed, fontSize: 9, opacity: confirmed ? 0.9 : 0.7,
-                    title: `Position candidate : montée ${cand.up}, descente ${cand.down}, ${hyp.branche}/${hyp.mode}`,
+                    title: `Position candidate : montée ${cand.up}, descente ${cand.down}, ${hypCandidateDesc(cand)}, ${hyp.mode}`,
                     nodeKey: ghostKey, gen: totalUp
                 });
 
+                // Descente théorique (ancêtre commun -> personne citée), symétrique de la montée
+                // ci-dessus : un nœud par génération intermédiaire quand cand.down >= 2, au lieu
+                // d'un unique trait direct qui sautait ces étapes.
+                let descentOrigin = { x: gx, y: gy };
+                for (let g = totalUp - 1; g > totalUp - cand.down; g--) {
+                    const t = (totalUp - g) / cand.down;
+                    const dy = hypGenY(g);
+                    let dx = gx + (bx - gx) * t;
+                    const descKey = "HD|" + hyp.id + "|" + cIdx + "|" + g;
+                    if (hypManualPos[descKey]) dx = hypManualPos[descKey].x;
+                    hypDrawLine(linesLayer, descentOrigin.x, descentOrigin.y, dx, dy, {
+                        stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.7 : 0.5
+                    });
+                    hypDrawNode(nodesLayer, dx, dy, "", {
+                        r: 7, fill: "none", stroke: confirmed ? "#27ae60" : "#c9a24f",
+                        dashed: !confirmed, opacity: confirmed ? 0.7 : 0.5,
+                        title: `Descendant théorique — génération ${g}, ${hypCandidateDesc(cand)}`,
+                        nodeKey: descKey, gen: g
+                    });
+                    descentOrigin = { x: dx, y: dy };
+                }
+
                 if (isAlliance && hyp.conjointDe) {
-                    hypDrawLine(linesLayer, gx, gy, bx, by, {
+                    hypDrawLine(linesLayer, descentOrigin.x, descentOrigin.y, bx, by, {
                         stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.9 : 0.7
                     });
                     hypDrawNode(nodesLayer, bx, by, hyp.conjointDe, {
@@ -3501,6 +3713,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const spouseKey = "HS|" + hyp.id + "|" + cIdx;
                     let sx = bx + (hypSideSign(side) || 1) * 34, sy = by;
                     if (hypManualPos[spouseKey]) { sx = hypManualPos[spouseKey].x; sy = hypManualPos[spouseKey].y; }
+                    hypSubjectPositions[spouseKey] = { x: sx, y: sy };
                     hypDrawLine(linesLayer, bx, by, sx, sy, { stroke: "#9b59b6", strokeWidth: 2, opacity: 0.9 });
                     hypDrawNode(nodesLayer, sx, sy, hypSubjectLabel(hyp), {
                         r: 14, fill: "#f1e6fa", stroke: "#9b59b6",
@@ -3508,10 +3721,15 @@ document.addEventListener('DOMContentLoaded', () => {
                         nodeKey: spouseKey, gen: totalUp - cand.down
                     });
                 } else {
+                    // Variante "par alliance" sans conjoint(e) nommé(e) (issue d'une nature "non
+                    // précisée" où l'on ne sait pas qui serait le parent par le sang) : on ne peut
+                    // pas dessiner la chaîne ancêtre->conjoint nommé->sujet, donc rattachement
+                    // direct comme pour une variante "par le sang", avec juste une note dans l'infobulle.
                     const subjKey = "HS|" + hyp.id + "|" + cIdx;
                     let sx = bx, sy = by;
                     if (hypManualPos[subjKey]) { sx = hypManualPos[subjKey].x; sy = hypManualPos[subjKey].y; }
-                    hypDrawLine(linesLayer, gx, gy, sx, sy, {
+                    hypSubjectPositions[subjKey] = { x: sx, y: sy };
+                    hypDrawLine(linesLayer, descentOrigin.x, descentOrigin.y, sx, sy, {
                         stroke: confirmed ? "#27ae60" : "#c9a24f", dashed: !confirmed, opacity: confirmed ? 0.9 : 0.7
                     });
                     hypDrawNode(nodesLayer, sx, sy, hypSubjectLabel(hyp), {
@@ -3519,7 +3737,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         fill: confirmed ? "#dcf5e3" : (isAlliance ? "#f1e6fa" : "#faf1dc"),
                         stroke: confirmed ? "#27ae60" : (isAlliance ? "#9b59b6" : "#c9a24f"),
                         dashed: !confirmed, opacity: confirmed ? 1 : 0.85,
-                        title: `${hyp.subject} — ${hypDescribeHyp(hyp)}` + (hyp.acte ? ` (${hyp.acte})` : ""),
+                        title: `${hyp.subject} — ${hypDescribeHyp(hyp)}, ${hypCandidateDesc(cand)}`
+                            + (isAlliance ? ' (alliance non exclue, conjoint non nommé)' : '')
+                            + (hyp.acte ? ` (${hyp.acte})` : ""),
                         nodeKey: subjKey, gen: totalUp - cand.down
                     });
                 }
