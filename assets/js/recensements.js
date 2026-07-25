@@ -58,6 +58,26 @@ export function computeMissingRecensements(list, map, fams, opts) {
 
 export function hitLabel(type) { return HIT_LABELS[type] || type; }
 
+// Les recensements FranceArchives sont indexés par OCR sur des registres manuscrits : les
+// transcriptions automatiques comportent fréquemment des erreurs, en particulier en fin de mot
+// (finales avalées, accents mal reconnus...). On tronque donc chaque mot du nom/prénom et on le
+// termine par "*" (troncature multi-caractères, syntaxe documentée par FranceArchives) plutôt que
+// de chercher l'orthographe exacte telle qu'actée dans le GEDCOM — au prix de plus de résultats à
+// trier soi-même, mais sans risquer de rater la bonne personne à cause d'une seule lettre mal OCRisée.
+function fuzzyToken(word) {
+    const w = word.trim();
+    if (w.length <= 3) return w + '*';
+    const keepLen = Math.max(3, Math.min(Math.ceil(w.length * 0.7), w.length - 1));
+    return w.slice(0, keepLen) + '*';
+}
+// Un champ peut contenir plusieurs mots (prénoms composés, patronymes à particule...) : chacun est
+// tronqué séparément puis rejoint par un espace — dans la syntaxe FranceArchives, l'opérateur entre
+// plusieurs mots d'un même champ Nom/Prénoms est "OU", ce qui convient bien à plusieurs prénoms.
+function fuzzyField(text) {
+    if (!text) return '';
+    return text.trim().split(/\s+/).map(fuzzyToken).join(' ');
+}
+
 // Bornes [min,max] plausibles pour l'année du recensement où rechercher cette personne : de sa
 // naissance (connue ou estimée) à son décès (connu, sinon fin de période), le tout recadré sur la
 // période couverte par les recensements nominatifs.
@@ -72,8 +92,8 @@ function searchDateRange(p, birthEst) {
 // genre et fenêtre de dates (naissance-décès estimées) pour affiner la recherche.
 export function buildFranceArchivesUrl(p, city, birthEst) {
     const params = new URLSearchParams();
-    if (p.surname) params.set('es_names', p.surname);
-    if (p.given) params.set('es_forenames', p.given);
+    if (p.surname) params.set('es_names', fuzzyField(p.surname));
+    if (p.given) params.set('es_forenames', fuzzyField(p.given));
     if (city) params.set('es_locations', city);
     if (p.sex === 'M' || p.sex === 'F') params.set('es_gender', p.sex === 'M' ? 'h' : 'f');
     if (birthEst) {

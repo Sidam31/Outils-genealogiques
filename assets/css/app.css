@@ -213,4 +213,13 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .btn-link:hover { background: #2563eb; }
 .btn-link.secondary { background: #7f8c8d; }
 .btn-link.secondary:hover { background: #6b7a7d; }
+/* Lien déjà ouvert (matchID / FranceArchives) : s'appuie sur l'historique natif du navigateur
+   (:visited), pas sur un stockage applicatif — persiste donc automatiquement d'une session à
+   l'autre, tant que l'URL générée pour cette personne ne change pas (elle est déterministe,
+   dérivée des données GEDCOM, pas des filtres affichés à l'écran). Seules color/background-color
+   sont autorisées par les navigateurs sur :visited (restriction de confidentialité), ce qui suffit
+   ici. ":visited:hover" a une spécificité plus élevée que ":hover" seul : un lien visité survolé
+   reste donc lisible quel que soit l'ordre des règles ci-dessous. */
+.btn-link:visited { background: #7f8c8d; color: #fff; }
+.btn-link:visited:hover { background: #6b7a7d; }
 .city-buttons { display: flex; flex-wrap: wrap; gap: 4px; }
