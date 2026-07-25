@@ -25,6 +25,10 @@
                 <label>Âge estimé aujourd'hui ≥ <input type="number" id="optAgeThreshold" value="100" min="0" style="width:60px;"> ans → confiance élevée</label>
             </div>
             <div class="age-filter-container">
+                <label>Âge estimé aujourd'hui &gt; <input type="number" id="optMaxAge" value="110" min="0" style="width:60px;"> ans → exclu</label>
+                <div class="hint">Au-delà de cet âge, l'estimation de naissance est plus probablement erronée qu'une réelle longévité.</div>
+            </div>
+            <div class="age-filter-container">
                 <label>Fenêtre de naissance plausible : <input type="number" id="optWindowStart" value="1890" style="width:70px;"> – <input type="number" id="optWindowEnd" value="1930" style="width:70px;"></label>
                 <div class="hint">Les personnes nées après cette fenêtre ne sont pas listées (trop jeunes pour être une piste plausible).</div>
             </div>
@@ -95,6 +99,7 @@ function readOpts() {
         excludeEstimatedBirth: document.getElementById('optExcludeEstimated').checked,
         includeUnknownBirth: document.getElementById('optIncludeUnknownBirth').checked,
         ageThreshold: parseInt(document.getElementById('optAgeThreshold').value) || 100,
+        maxAge: parseInt(document.getElementById('optMaxAge').value) || 110,
         windowStart: parseInt(document.getElementById('optWindowStart').value) || 1890,
         windowEnd: parseInt(document.getElementById('optWindowEnd').value) || 1930,
         ancestorScopeSet: (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null

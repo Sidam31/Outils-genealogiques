@@ -47,7 +47,7 @@ function computeConfidence(birthEst, lastAlive, opts, currentYear) {
     return { level, reasons };
 }
 
-// opts: { ageThreshold, windowStart, windowEnd, includeEmptyDeat, excludeEstimatedBirth, includeUnknownBirth, ancestorScopeSet }
+// opts: { ageThreshold, maxAge, windowStart, windowEnd, includeEmptyDeat, excludeEstimatedBirth, includeUnknownBirth, ancestorScopeSet }
 export function computeMissingDeaths(list, map, fams, opts) {
     const currentYear = new Date().getFullYear();
     const results = [];
@@ -65,6 +65,11 @@ export function computeMissingDeaths(list, map, fams, opts) {
         if (birthEst && birthEst.estimated && opts.excludeEstimatedBirth) return;
         if (!birthEst && !opts.includeUnknownBirth) return;
         if (birthEst && birthEst.year > opts.windowEnd) return; // né trop récemment pour être une piste plausible
+        // Au-delà d'une longévité humaine plausible, l'estimation de naissance est plus probablement
+        // erronée (mauvaise source retenue par estimateBirthYear, ex. un ancêtre du XVIe siècle) que
+        // la personne réellement centenaire ET absente du fichier des décès : on l'exclut plutôt que
+        // d'afficher une fausse piste à confiance "élevée".
+        if (birthEst && (currentYear - birthEst.year) > opts.maxAge) return;
 
         const lastAlive = lastKnownAliveYear(p, fams);
         const confidence = computeConfidence(birthEst, lastAlive, opts, currentYear);
