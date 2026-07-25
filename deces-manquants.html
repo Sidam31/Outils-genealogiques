@@ -45,8 +45,10 @@
         <div class="controls">
             <button id="analyzeBtn" disabled>Analyser le fichier</button>
             <button id="csvMatchIdBtn" class="secondary hidden">⬇ Export CSV matchID (appariement de masse)</button>
+            <a id="matchIdUploadLink" class="btn-link hidden" href="https://deces.matchid.io/link" target="_blank" rel="noopener">↗ Déposer le CSV sur deces.matchid.io/link</a>
             <button id="csvSimpleBtn" class="ghost hidden">⬇ Export CSV simple</button>
         </div>
+        <p class="hint" style="text-align:center;">Le CSV matchID se dépose sur <a href="https://deces.matchid.io/link" target="_blank" rel="noopener">deces.matchid.io/link</a> (appariement de masse) pour matcher toute la liste en une fois.</p>
 
         <div id="status">Chargez un fichier GEDCOM depuis l'accueil.</div>
 
@@ -79,6 +81,7 @@ const statusEl = document.getElementById('status');
 const resultsWrap = document.getElementById('resultsWrap');
 const resultsBody = document.getElementById('resultsBody');
 const csvMatchIdBtn = document.getElementById('csvMatchIdBtn');
+const matchIdUploadLink = document.getElementById('matchIdUploadLink');
 const csvSimpleBtn = document.getElementById('csvSimpleBtn');
 const ancestorOnlyEl = document.getElementById('optAncestorOnly');
 const personSearchEl = document.getElementById('personSearch');
@@ -125,11 +128,13 @@ analyzeBtn.addEventListener('click', () => {
     if (!lastResults.length) {
         resultsWrap.classList.add('hidden');
         csvMatchIdBtn.classList.add('hidden');
+        matchIdUploadLink.classList.add('hidden');
         csvSimpleBtn.classList.add('hidden');
         return;
     }
     resultsWrap.classList.remove('hidden');
     csvMatchIdBtn.classList.remove('hidden');
+    matchIdUploadLink.classList.remove('hidden');
     csvSimpleBtn.classList.remove('hidden');
 
     resultsBody.innerHTML = '';
