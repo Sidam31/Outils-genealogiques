@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Accueil</title>
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+<body style="overflow-y:auto;">
+
+<header id="appHeader"></header>
+
+<main class="home-container">
+    <p style="color:#555">Chargez un fichier GEDCOM (.ged) pour l'analyser avec les différents outils du site. Le fichier reste disponible sur toutes les pages tant que vous ne le remplacez pas.</p>
+
+    <div class="home-drop" id="dropZone">
+        <p style="margin:0 0 12px; font-weight:600; color:var(--accent)">Glissez-déposez un fichier .ged ici</p>
+        <p style="margin:0 0 12px; color:#999">ou</p>
+        <input type="file" id="fileInput" accept=".ged">
+    </div>
+
+    <div id="loadStatus" style="text-align:center; margin-top:12px; font-weight:bold;"></div>
+
+    <div class="home-summary hidden" id="summaryBox">
+        <dl id="summaryList"></dl>
+        <div style="margin-top:14px;">
+            <button class="ghost" id="clearBtn" style="background:#fff;border:1px solid #dcdfe4;color:var(--accent);padding:7px 14px;border-radius:6px;cursor:pointer;font-weight:600;">Retirer ce fichier</button>
+        </div>
+    </div>
+
+    <div class="home-tools" id="toolsGrid"></div>
+</main>
+
+<script type="module">
+import { readGedcomFile, GedcomParser } from './assets/js/gedcom.js';
+import { saveGedcom, loadGedcom, clearGedcom } from './assets/js/store.js';
+import { renderHeader } from './assets/js/nav.js';
+
+renderHeader('home');
+
+const TOOLS = [
+    { href: 'arbre.html', icon: '🌳', title: 'Arbre éventail', desc: "Visualisation en éventail des ascendants et descendants d'une personne." },
+    { href: 'visualisation.html', icon: '📊', title: 'Visualisation', desc: "Cartes de répartition géographique et graphiques démographiques." },
+    { href: 'qualite.html', icon: '🔍', title: 'Analyse Qualité', desc: "Détecte les événements manquants ou sans date dans votre généalogie." },
+    { href: 'deces-manquants.html', icon: '⚰️', title: 'Décès manquants', desc: "Personnes probablement décédées après 1970, avec recherche matchID (fichier INSEE)." },
+    { href: 'recensements.html', icon: '📋', title: 'Recensements manquants', desc: "Personnes sans recensement dans un département couvert par FranceArchives." },
+    { href: 'parentes.html', icon: '🧬', title: 'Parentés hypothétiques', desc: "Reconstitution visuelle de filiations non actées (tutelles, actes notariés...)." },
+];
+document.getElementById('toolsGrid').innerHTML = TOOLS.map(t => `
+    <a class="home-tool-card" href="${t.href}">
+        <span class="icon">${t.icon}</span>
+        <h3>${t.title}</h3>
+        <p>${t.desc}</p>
+    </a>
+`).join('');
+
+const dropZone = document.getElementById('dropZone');
+const fileInput = document.getElementById('fileInput');
+const loadStatus = document.getElementById('loadStatus');
+const summaryBox = document.getElementById('summaryBox');
+const summaryList = document.getElementById('summaryList');
+const clearBtn = document.getElementById('clearBtn');
+
+function showSummary(list, fams, filename) {
+    const years = list.map(i => i.birth?.year).filter(Boolean);
+    const minY = years.length ? Math.min(...years) : null;
+    const maxY = years.length ? Math.max(...years) : null;
+    summaryList.innerHTML = `
+        <dt>Fichier</dt><dd>${filename || '(sans nom)'}</dd>
+        <dt>Individus</dt><dd>${list.length}</dd>
+        <dt>Familles</dt><dd>${fams ? fams.size : 0}</dd>
+        <dt>Naissances</dt><dd>${minY && maxY ? `${minY} – ${maxY}` : 'inconnues'}</dd>
+    `;
+    summaryBox.classList.remove('hidden');
+    loadStatus.textContent = '';
+}
+
+async function handleFile(file) {
+    if(!file) return;
+    loadStatus.style.color = '#333';
+    loadStatus.textContent = 'Lecture du fichier…';
+    summaryBox.classList.add('hidden');
+    try {
+        const text = await readGedcomFile(file);
+        const parser = new GedcomParser();
+        const list = parser.parse(text);
+        if(!list.length) {
+            loadStatus.style.color = '#c0392b';
+            loadStatus.textContent = "Aucun individu trouvé — vérifiez qu'il s'agit bien d'un fichier GEDCOM valide (.ged).";
+            return;
+        }
+        await saveGedcom(text, file.name);
+        showSummary(list, parser.fams, file.name);
+    } catch(err) {
+        console.error(err);
+        loadStatus.style.color = '#c0392b';
+        loadStatus.textContent = "Erreur de lecture du fichier.";
+    }
+}
+
+fileInput.addEventListener('change', e => handleFile(e.target.files[0]));
+['dragover','dragenter'].forEach(ev => dropZone.addEventListener(ev, e => { e.preventDefault(); dropZone.classList.add('drag-over'); }));
+['dragleave','drop'].forEach(ev => dropZone.addEventListener(ev, e => { e.preventDefault(); dropZone.classList.remove('drag-over'); }));
+dropZone.addEventListener('drop', e => { const f = e.dataTransfer.files[0]; if(f) handleFile(f); });
+
+clearBtn.addEventListener('click', async () => {
+    await clearGedcom();
+    summaryBox.classList.add('hidden');
+    fileInput.value = '';
+    loadStatus.style.color = '#333';
+    loadStatus.textContent = 'Fichier retiré.';
+});
+
+// Fichier déjà chargé (visite précédente) : afficher directement le résumé.
+(async () => {
+    const stored = await loadGedcom();
+    if(stored && stored.text) {
+        try {
+            const parser = new GedcomParser();
+            const list = parser.parse(stored.text);
+            if(list.length) showSummary(list, parser.fams, stored.filename);
+        } catch(err) { console.error(err); }
+    }
+})();
+</script>
+</body>
+</html>

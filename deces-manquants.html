@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Décès manquants</title>
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }</style>
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div class="tab-panel">
+    <div class="quality-container" style="max-width:none;">
+        <p class="quality-intro">Personnes sans décès acté, avec une probabilité estimée d'être décédées après 1970 — période couverte par le fichier des décès de l'INSEE (matchID). Chaque piste peut être vérifiée d'un clic.</p>
+
+        <div class="options-panel">
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="optIncludeEmptyDeat" checked> Inclure les décès sans date (tag présent mais vide)</label>
+                <label><input type="checkbox" id="optExcludeEstimated"> Exclure les naissances estimées (non actées)</label>
+                <label><input type="checkbox" id="optIncludeUnknownBirth" checked> Inclure les personnes sans naissance connue ni déductible</label>
+            </div>
+            <div class="age-filter-container">
+                <label>Âge estimé aujourd'hui ≥ <input type="number" id="optAgeThreshold" value="100" min="0" style="width:60px;"> ans → confiance élevée</label>
+            </div>
+            <div class="age-filter-container">
+                <label>Fenêtre de naissance plausible : <input type="number" id="optWindowStart" value="1890" style="width:70px;"> – <input type="number" id="optWindowEnd" value="1930" style="width:70px;"></label>
+                <div class="hint">Les personnes nées après cette fenêtre ne sont pas listées (trop jeunes pour être une piste plausible).</div>
+            </div>
+            <div class="map-scope-row">
+                <label for="optAncestorOnly"><input type="checkbox" id="optAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="personSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="personResults" class="person-picker-results"></ul>
+                </div>
+                <span id="personSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="analyzeBtn" disabled>Analyser le fichier</button>
+            <button id="csvMatchIdBtn" class="secondary hidden">⬇ Export CSV matchID (appariement de masse)</button>
+            <button id="csvSimpleBtn" class="ghost hidden">⬇ Export CSV simple</button>
+        </div>
+
+        <div id="status">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="resultsWrap" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Naissance</th><th>Commune naissance</th>
+                        <th>Dernier signe de vie</th><th>Confiance</th><th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
+import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows } from './assets/js/deces-manquants.js';
+
+let list = [], map = new Map(), fams = new Map();
+let ancestorPersonId = null;
+let lastResults = [];
+
+const analyzeBtn = document.getElementById('analyzeBtn');
+const statusEl = document.getElementById('status');
+const resultsWrap = document.getElementById('resultsWrap');
+const resultsBody = document.getElementById('resultsBody');
+const csvMatchIdBtn = document.getElementById('csvMatchIdBtn');
+const csvSimpleBtn = document.getElementById('csvSimpleBtn');
+const ancestorOnlyEl = document.getElementById('optAncestorOnly');
+const personSearchEl = document.getElementById('personSearch');
+const personResultsEl = document.getElementById('personResults');
+const personSelectedEl = document.getElementById('personSelected');
+
+ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
+createPersonPicker({
+    searchEl: personSearchEl, resultsEl: personResultsEl, selectedEl: personSelectedEl,
+    getList: () => list,
+    onSelect: p => { ancestorPersonId = p.id; }
+});
+wireClickAway(personResultsEl);
+
+function readOpts() {
+    return {
+        includeEmptyDeat: document.getElementById('optIncludeEmptyDeat').checked,
+        excludeEstimatedBirth: document.getElementById('optExcludeEstimated').checked,
+        includeUnknownBirth: document.getElementById('optIncludeUnknownBirth').checked,
+        ageThreshold: parseInt(document.getElementById('optAgeThreshold').value) || 100,
+        windowStart: parseInt(document.getElementById('optWindowStart').value) || 1890,
+        windowEnd: parseInt(document.getElementById('optWindowEnd').value) || 1930,
+        ancestorScopeSet: (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null
+    };
+}
+
+const CONF_LABEL = { high: 'Élevée', medium: 'Moyenne', low: 'Faible' };
+
+analyzeBtn.addEventListener('click', () => {
+    if (!list.length) return;
+    statusEl.textContent = 'Analyse en cours…';
+    const opts = readOpts();
+    const sosaMap = opts.ancestorScopeSet ? getSosaMap(map, ancestorPersonId) : null;
+    lastResults = computeMissingDeaths(list, map, fams, opts);
+    if (sosaMap) {
+        lastResults.forEach(r => { r.sosa = sosaMap.get(r.person.id) ?? null; });
+        lastResults.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
+    } else {
+        lastResults.forEach(r => { r.sosa = null; });
+    }
+
+    statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
+    if (!lastResults.length) {
+        resultsWrap.classList.add('hidden');
+        csvMatchIdBtn.classList.add('hidden');
+        csvSimpleBtn.classList.add('hidden');
+        return;
+    }
+    resultsWrap.classList.remove('hidden');
+    csvMatchIdBtn.classList.remove('hidden');
+    csvSimpleBtn.classList.remove('hidden');
+
+    resultsBody.innerHTML = '';
+    lastResults.forEach(r => {
+        const p = r.person;
+        const tr = document.createElement('tr');
+        const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}<div class="reason-list" style="padding-left:0;list-style:none;">${escapeHtml(r.birthEst.source)}</div>` : '<em>inconnue</em>';
+        const url = buildMatchIdUrl(p, r.birthEst);
+        tr.innerHTML = `
+            <td>${r.sosa != null ? r.sosa : '-'}</td>
+            <td>${escapeHtml(p.surname || '')}</td>
+            <td>${escapeHtml(p.given || '')}</td>
+            <td>${birthDisplay}</td>
+            <td>${escapeHtml(p.birth?.geo?.city || '')}</td>
+            <td>${r.lastAlive != null ? r.lastAlive : '-'}</td>
+            <td>
+                <span class="confidence-badge confidence-${r.confidence.level}">${CONF_LABEL[r.confidence.level]}</span>
+                <ul class="reason-list">${r.confidence.reasons.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </td>
+            <td><a class="btn-link" href="${url}" target="_blank" rel="noopener">🔍 matchID</a></td>
+        `;
+        resultsBody.appendChild(tr);
+    });
+});
+
+csvMatchIdBtn.addEventListener('click', () => {
+    if (!lastResults.length) return;
+    const { headers, rows } = buildMatchIdCsvRows(lastResults);
+    downloadCsv('deces_manquants_matchid.csv', headers, rows);
+});
+csvSimpleBtn.addEventListener('click', () => {
+    if (!lastResults.length) return;
+    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
+    const rows = lastResults.map(r => [
+        r.sosa != null ? r.sosa : '',
+        r.person.id,
+        r.person.surname || '',
+        r.person.given || '',
+        r.birthEst ? r.birthEst.year : '',
+        r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+        r.person.birth?.geo?.city || '',
+        r.lastAlive != null ? r.lastAlive : '',
+        CONF_LABEL[r.confidence.level]
+    ]);
+    downloadCsv('deces_manquants.csv', headers, rows);
+});
+
+bootstrap({
+    page: 'deces',
+    onData: data => {
+        list = data.list; map = data.map; fams = data.fams;
+        analyzeBtn.disabled = !list.length;
+        statusEl.textContent = list.length
+            ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+            : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+    }
+});
+</script>
+</body>
+</html>

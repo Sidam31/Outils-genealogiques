@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Recensements manquants</title>
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }</style>
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div class="tab-panel">
+    <div class="quality-container" style="max-width:none;">
+        <p class="quality-intro">Personnes sans événement de recensement (CENS), ayant une naissance, un mariage ou un décès dans un département dont les tables de recensement nominatif sont indexées par FranceArchives.</p>
+        <p class="hint" style="text-align:center;">Filtre obligatoire : seules les personnes ayant pu être vivantes entre 1836 et 1936 (période des recensements nominatifs) sont listées.</p>
+
+        <div class="options-panel">
+            <div class="map-scope-row" style="border-top:none; padding-top:0; margin-top:0;">
+                <label for="optAncestorOnly"><input type="checkbox" id="optAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="personSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="personResults" class="person-picker-results"></ul>
+                </div>
+                <span id="personSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="analyzeBtn" disabled>Analyser le fichier</button>
+            <button id="csvBtn" class="secondary hidden">⬇ Export CSV</button>
+        </div>
+
+        <div id="status">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="resultsWrap" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Naissance</th><th>Événement(s) dans le périmètre</th><th>Rechercher</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
+import { computeMissingRecensements, hitLabel, buildFranceArchivesUrl } from './assets/js/recensements.js';
+
+let list = [], map = new Map(), fams = new Map();
+let ancestorPersonId = null;
+let lastResults = [];
+
+const analyzeBtn = document.getElementById('analyzeBtn');
+const statusEl = document.getElementById('status');
+const resultsWrap = document.getElementById('resultsWrap');
+const resultsBody = document.getElementById('resultsBody');
+const csvBtn = document.getElementById('csvBtn');
+const ancestorOnlyEl = document.getElementById('optAncestorOnly');
+const personSearchEl = document.getElementById('personSearch');
+const personResultsEl = document.getElementById('personResults');
+const personSelectedEl = document.getElementById('personSelected');
+
+ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
+createPersonPicker({
+    searchEl: personSearchEl, resultsEl: personResultsEl, selectedEl: personSelectedEl,
+    getList: () => list,
+    onSelect: p => { ancestorPersonId = p.id; }
+});
+wireClickAway(personResultsEl);
+
+analyzeBtn.addEventListener('click', () => {
+    if (!list.length) return;
+    statusEl.textContent = 'Analyse en cours…';
+    const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
+    const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
+    lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet });
+    lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+    if (sosaMap) lastResults.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
+
+    statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
+    if (!lastResults.length) {
+        resultsWrap.classList.add('hidden');
+        csvBtn.classList.add('hidden');
+        return;
+    }
+    resultsWrap.classList.remove('hidden');
+    csvBtn.classList.remove('hidden');
+
+    resultsBody.innerHTML = '';
+    lastResults.forEach(r => {
+        const p = r.person;
+        const tr = document.createElement('tr');
+        const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
+        const hitsDisplay = r.hits.map(h => `<div>${hitLabel(h.type)} — ${escapeHtml(h.city)} (${escapeHtml(h.dept)})</div>`).join('');
+        const buttons = r.hits.map(h => `<a class="btn-link" href="${buildFranceArchivesUrl(p, h.city, r.birthEst)}" target="_blank" rel="noopener">📋 ${escapeHtml(h.city)}</a>`).join('');
+        tr.innerHTML = `
+            <td>${r.sosa != null ? r.sosa : '-'}</td>
+            <td>${escapeHtml(p.surname || '')}</td>
+            <td>${escapeHtml(p.given || '')}</td>
+            <td>${birthDisplay}</td>
+            <td>${hitsDisplay}</td>
+            <td><div class="city-buttons">${buttons}</div></td>
+        `;
+        resultsBody.appendChild(tr);
+    });
+});
+
+csvBtn.addEventListener('click', () => {
+    if (!lastResults.length) return;
+    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Evenements dans le perimetre'];
+    const rows = lastResults.map(r => [
+        r.sosa != null ? r.sosa : '',
+        r.person.id,
+        r.person.surname || '',
+        r.person.given || '',
+        r.birthEst.year,
+        r.birthEst.estimated ? 'oui' : 'non',
+        r.hits.map(h => `${hitLabel(h.type)}: ${h.city} (${h.dept})`).join(' | ')
+    ]);
+    downloadCsv('recensements_manquants.csv', headers, rows);
+});
+
+bootstrap({
+    page: 'recensements',
+    onData: data => {
+        list = data.list; map = data.map; fams = data.fams;
+        analyzeBtn.disabled = !list.length;
+        statusEl.textContent = list.length
+            ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+            : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+    }
+});
+</script>
+</body>
+</html>

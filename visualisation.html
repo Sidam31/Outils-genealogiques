@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Visualisation</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>body { overflow-y: auto; }</style>
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="mapsPanel" class="tab-panel">
+    <div class="quality-container">
+        <p class="quality-intro">Répartition géographique et démographie des individus du fichier chargé.</p>
+
+        <div class="options-panel">
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
+                <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
+                <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
+            </div>
+            <div class="hint" style="text-align:center;">S'applique aux deux cartes ci-dessous.</div>
+            <div class="map-scope-row">
+                <label for="mapAncestorOnly"><input type="checkbox" id="mapAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="mapPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="mapPersonResults"></ul>
+                </div>
+                <span id="mapPersonSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Carte du monde</h3>
+                    <div class="chart-box-actions">
+                        <button class="chart-zoom-reset-btn" id="worldMapResetBtn" title="Réinitialiser le zoom">🏠</button>
+                        <button class="chart-copy-btn" data-target="worldMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                </div>
+                <div id="worldMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Carte de France (départements)</h3>
+                    <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+            </div>
+        </div>
+
+        <p class="quality-intro" style="margin-top:32px;">Démographie sur l'ensemble du fichier chargé (indépendant des filtres ci-dessus).</p>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box" style="flex-basis: 100%;">
+                <div class="chart-box-header">
+                    <h3>Pyramide des âges au décès</h3>
+                    <button class="chart-copy-btn" data-target="ageChartPyramid" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div class="decade-slider-row">
+                    <input type="range" id="pyramidDecadeSlider" min="0" max="0" value="0" disabled>
+                    <span id="pyramidDecadeLabel">Toutes périodes</span>
+                </div>
+                <div id="ageChartPyramid"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+        </div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Âge médian au décès par décennie (H/F)</h3>
+                    <button class="chart-copy-btn" data-target="ageChartDeathTrend" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="ageChartDeathTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Âge médian au 1er enfant par décennie (H/F)</h3>
+                    <button class="chart-copy-btn" data-target="ageChartFirstChildTrend" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="ageChartFirstChildTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+        </div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box" style="flex-basis: 100%;">
+                <div class="chart-box-header">
+                    <h3>Professions les plus fréquentes (tag OCCU + FACT)</h3>
+                    <button class="chart-copy-btn" data-target="occupationsChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="occupationsChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+import { getAncestorIds, decadeOf } from './assets/js/utils.js';
+import {
+    showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap,
+    getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawFirstChildTrend, drawOccupationsChart
+} from './assets/js/maps.js';
+
+let list = [], map = new Map(), fams = new Map();
+let mapPersonId = null, pyramidDecadesCache = null;
+
+const mapPersonSearchEl = document.getElementById('mapPersonSearch');
+const mapPersonResultsEl = document.getElementById('mapPersonResults');
+const mapPersonSelectedEl = document.getElementById('mapPersonSelected');
+const mapAncestorOnlyEl = document.getElementById('mapAncestorOnly');
+const mapFilterEls = [document.getElementById('mapFilterBirt'), document.getElementById('mapFilterDeat'), document.getElementById('mapFilterMarr')];
+const pyramidSliderEl = document.getElementById('pyramidDecadeSlider');
+const pyramidLabelEl = document.getElementById('pyramidDecadeLabel');
+
+function renderFilteredMaps() {
+    if(!map.size || !list.length) {
+        showMapMessage('worldMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
+        showMapMessage('franceMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
+        return;
+    }
+    const eventFlags = { BIRT: mapFilterEls[0].checked, DEAT: mapFilterEls[1].checked, MARR: mapFilterEls[2].checked };
+    const scopeIds = (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
+    const { byDept, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags);
+    drawWorldMap(byWorldPoint);
+    drawFranceMap(byDept, byCountry);
+}
+
+function updatePyramidLabel() {
+    const idx = parseInt(pyramidSliderEl.value, 10);
+    pyramidLabelEl.textContent = (!pyramidDecadesCache || idx >= pyramidDecadesCache.length) ? 'Toutes périodes' : `Décennie ${pyramidDecadesCache[idx]}s`;
+}
+
+function drawAgePyramidForSelectedDecade() {
+    const idx = parseInt(pyramidSliderEl.value, 10);
+    const selectedDecade = (pyramidDecadesCache && idx < pyramidDecadesCache.length) ? pyramidDecadesCache[idx] : null;
+    const filtered = list.filter(i => i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F') &&
+        (selectedDecade === null || decadeOf(i.death.year) === selectedDecade));
+    drawAgePyramid(filtered);
+}
+
+function renderDemographicCharts() {
+    if(!list.length) {
+        showMapMessage('ageChartPyramid', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('ageChartDeathTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('ageChartFirstChildTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('occupationsChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        pyramidSliderEl.disabled = true;
+        pyramidLabelEl.textContent = 'Toutes périodes';
+        return;
+    }
+    pyramidDecadesCache = getPyramidDecades(list);
+    if(pyramidDecadesCache.length) {
+        pyramidSliderEl.disabled = false;
+        pyramidSliderEl.min = 0;
+        pyramidSliderEl.max = pyramidDecadesCache.length; // dernier cran = "Toutes périodes"
+        pyramidSliderEl.value = pyramidDecadesCache.length;
+    } else {
+        pyramidSliderEl.disabled = true;
+        pyramidSliderEl.max = 0;
+        pyramidSliderEl.value = 0;
+    }
+    updatePyramidLabel();
+    drawAgePyramidForSelectedDecade();
+    drawAgeDeathTrend(list);
+    drawFirstChildTrend(list);
+    drawOccupationsChart(list);
+}
+
+function renderMapsTab() {
+    renderFilteredMaps();
+    renderDemographicCharts();
+}
+
+mapFilterEls.forEach(el => el.addEventListener('change', renderFilteredMaps));
+mapAncestorOnlyEl.addEventListener('change', e => {
+    mapPersonSearchEl.disabled = !e.target.checked;
+    renderFilteredMaps();
+});
+createPersonPicker({
+    searchEl: mapPersonSearchEl, resultsEl: mapPersonResultsEl, selectedEl: mapPersonSelectedEl,
+    getList: () => list,
+    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); }
+});
+wireClickAway(mapPersonResultsEl);
+pyramidSliderEl.addEventListener('input', () => { updatePyramidLabel(); drawAgePyramidForSelectedDecade(); });
+
+bootstrap({
+    page: 'visualisation',
+    onData: data => {
+        list = data.list; map = data.map; fams = data.fams;
+        renderMapsTab();
+    }
+});
+</script>
+</body>
+</html>

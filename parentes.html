@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Parentés hypothétiques</title>
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="hypPanel" style="display:flex; flex-direction: row;">
+    <div id="hypSidebar">
+        <div>
+            <div class="hint">Reconstitution visuelle de parentés non actées à partir d'un document qui cite un lien de parenté (tutelle, conseil de famille, acte notarié...), en partant du fichier chargé depuis l'accueil.</div>
+        </div>
+
+        <section>
+            <h3>1. Individu de référence &amp; profondeur</h3>
+            <label for="hypPivotSearch">Individu de référence</label>
+            <div class="ctrl" style="position:relative">
+                <input type="text" id="hypPivotSearch" placeholder="Rechercher une personne..." disabled>
+                <ul id="hypPivotResults"></ul>
+            </div>
+            <span id="hypPivotSelected" class="map-person-selected"></span>
+            <div id="hypStatus" class="hint">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+            <label for="hypMaxGen">Générations affichées : <span id="hypMaxGenVal">4</span></label>
+            <input type="range" id="hypMaxGen" min="1" max="6" value="4">
+
+            <div class="hyp-subsection">
+                <div class="hint">Pas de fichier sous la main ? Générer un mini-scénario :</div>
+                <div class="hyp-col">
+                    <input type="text" id="hypQsChild" placeholder="Individu de référence (obligatoire)" value="Jean X">
+                    <input type="text" id="hypQsFather" placeholder="Père (optionnel)" value="Paul X">
+                    <input type="text" id="hypQsMother" placeholder="Mère (optionnel)" value="Marie Durand">
+                    <textarea id="hypQsSiblings" placeholder="Frères et sœurs (un nom par ligne, optionnel)" rows="2"></textarea>
+                </div>
+                <div class="hint">Si des frères/sœurs sont indiqués sans père ni mère nommés, des parents anonymes sont créés automatiquement pour les rattacher.</div>
+                <button id="hypBtnQuickStart">Créer ce scénario</button>
+            </div>
+        </section>
+
+        <section>
+            <h3>2. Nouvelle hypothèse de parenté</h3>
+            <label for="hypSubject">Personne citée dans l'acte</label>
+            <input type="text" id="hypSubject" placeholder="ex: Louis Feur">
+
+            <label for="hypTerme">Lien de parenté (du parent par le sang)</label>
+            <select id="hypTerme">
+                <option value="pere">Père</option>
+                <option value="mere">Mère</option>
+                <option value="ayeul">Ayeul (ascendant, génération indéterminée)</option>
+                <option value="frere">Frère</option>
+                <option value="soeur">Sœur</option>
+                <option value="oncle">Oncle</option>
+                <option value="tante">Tante</option>
+                <option value="neveu_niece">Neveu / Nièce</option>
+                <option value="cousin_germain">Cousin germain</option>
+                <option value="cousin_issu_germain">Cousin issu de germain</option>
+                <option value="cousin_remue_germain">Cousin remué / remis de germain</option>
+                <option value="cousin_breton">Cousin à la mode de Bretagne</option>
+                <option value="canonique_compose">Degré canonique composé (ex: deux au tiers)</option>
+                <option value="numerique_libre">Degré numérique (libre)</option>
+            </select>
+
+            <div class="hyp-subsection" id="hypFratrieBlock" style="display:none">
+                <label for="hypFratrieQualif">Lignage</label>
+                <select id="hypFratrieQualif">
+                    <option value="germain">Germain (mêmes père et mère)</option>
+                    <option value="paternel">Paternel / consanguin (même père)</option>
+                    <option value="maternel">Maternel / utérin (même mère)</option>
+                    <option value="indetermine">Non précisé (paternel + maternel)</option>
+                </select>
+            </div>
+
+            <div class="hyp-subsection" id="hypCanoniqueComposeBlock" style="display:none">
+                <label for="hypCanoniqueCompose">Degré composé (ex: "deux au tiers", "tiers au quart")</label>
+                <input type="text" id="hypCanoniqueCompose" placeholder="ex: deux au tiers">
+            </div>
+
+            <div class="hyp-subsection" id="hypDegreLibreBlock" style="display:none">
+                <label for="hypDegreeWord">Degré (mot ou chiffre — ex: "quart", "tiers", "4")</label>
+                <input type="text" id="hypDegreeWord" placeholder="ex: quart">
+                <label for="hypDegreeMode">Mode de calcul du degré</label>
+                <select id="hypDegreeMode">
+                    <option value="civil">Civil (degré = somme des générations)</option>
+                    <option value="canonique">Canonique (degré = branche la plus longue)</option>
+                </select>
+            </div>
+
+            <label for="hypRef">Relation énoncée par rapport à</label>
+            <select id="hypRef"></select>
+
+            <div id="hypBrancheBlock">
+                <label for="hypBranche">Branche</label>
+                <select id="hypBranche">
+                    <option value="paternel">Paternelle (consanguine)</option>
+                    <option value="maternel">Maternelle (utérine)</option>
+                    <option value="indetermine">Non précisée (paternelle + maternelle)</option>
+                </select>
+            </div>
+
+            <label for="hypLienNature">Nature du lien</label>
+            <select id="hypLienNature">
+                <option value="sang">Par le sang</option>
+                <option value="alliance">Par alliance</option>
+                <option value="indetermine">Non précisée (sang + alliance)</option>
+            </select>
+            <div id="hypConjointBlock" style="display:none">
+                <label for="hypConjointDe">Conjoint(e) du parent par le sang nommé (si connu)</label>
+                <input type="text" id="hypConjointDe" placeholder="ex: Françoise Dupond">
+            </div>
+
+            <details class="hyp-subsection">
+                <summary>Options avancées</summary>
+                <label for="hypMode">Mode</label>
+                <select id="hypMode">
+                    <option value="estoc">Estoc</option>
+                    <option value="ligne">Ligne directe</option>
+                </select>
+            </details>
+
+            <label>Situation au moment de l'acte</label>
+            <div class="hyp-subsection">
+                <label for="hypVeuf">Veuvage</label>
+                <select id="hypVeuf">
+                    <option value="">—</option>
+                    <option value="veuf">Veuf</option>
+                    <option value="veuve">Veuve</option>
+                </select>
+                <label class="hyp-checkbox-label"><input type="checkbox" id="hypDefunt"> Défunt au moment de l'acte</label>
+            </div>
+
+            <label for="hypActeYear">Année de l'acte (optionnel)</label>
+            <input type="number" id="hypActeYear" placeholder="ex: 1730">
+
+            <label for="hypActe">Source / acte (citation, optionnel)</label>
+            <input type="text" id="hypActe" placeholder="ex: tutelle 1730, conseil de famille X">
+            <button class="primary" id="hypBtnAddHyp">Ajouter l'hypothèse</button>
+            <div class="hint" id="hypParsePreview"></div>
+        </section>
+
+        <section>
+            <h3>3. Hypothèses en cours</h3>
+            <div id="hypCardList"></div>
+            <div class="hyp-row">
+                <button id="hypBtnExport">Exporter JSON</button>
+                <button id="hypBtnImport">Importer JSON</button>
+                <input type="file" id="hypImportInput" accept=".json" style="display:none">
+            </div>
+        </section>
+    </div>
+
+    <div id="hypMain">
+        <div id="hypToolbar">
+            <button id="hypBtnFitView">Tout afficher</button>
+            <button id="hypBtnResetView">Réinitialiser la vue</button>
+            <button id="hypBtnResetLayout">Réinitialiser la disposition</button>
+        </div>
+        <svg id="hypCanvas" viewBox="-900 -480 1800 930"></svg>
+        <div id="hypLegend">
+            <div><span class="hyp-swatch" style="background:var(--hyp-paternel)"></span>Branche paternelle</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-maternel)"></span>Branche maternelle</div>
+            <div><span class="hyp-swatch" style="background:#3b82f6"></span>Individu de référence</div>
+            <div><span class="hyp-swatch" style="background:#eef2f8;border:1px solid #8898b0"></span>Frère/sœur de l'individu de référence</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-ghost)"></span>Hypothèse ouverte (pointillé)</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-confirme)"></span>Hypothèse confirmée</div>
+            <div><span class="hyp-swatch" style="background:var(--hyp-alliance)"></span>Lien par alliance</div>
+            <div style="margin-top:4px">Glisser le fond : déplacer la vue. Glisser un individu : le repositionner (horizontal uniquement).</div>
+            <div>Ctrl+clic sur un individu : espacer son niveau et les niveaux plus lointains (Ctrl+Maj+clic : resserrer).</div>
+        </div>
+    </div>
+</div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { initHypotheses } from './assets/js/hypotheses.js';
+
+const hyp = initHypotheses();
+
+bootstrap({
+    page: 'parentes',
+    onData: data => hyp.applyGedData(data.map, data.fams)
+});
+</script>
+</body>
+</html>

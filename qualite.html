@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Analyse Qualité</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>body { overflow-y: auto; }</style>
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="qualityPanel" class="tab-panel">
+    <div class="quality-container">
+        <p class="quality-intro">Détectez les événements manquants ou sans date dans votre généalogie (utilisez le fichier chargé depuis l'accueil).</p>
+
+        <div class="options-panel">
+            <div style="text-align:center; font-weight:bold; margin-bottom:10px;">Événements à vérifier :</div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="checkBirt"> Naissance (BIRT)</label>
+                <label><input type="checkbox" id="checkBapm"> Baptême (BAPM)</label>
+                <label><input type="checkbox" id="checkMarr"> Mariage (MARR)</label>
+                <label><input type="checkbox" id="checkDeat" checked> Décès (DEAT)</label>
+                <label><input type="checkbox" id="checkBuri"> Inhumation (BURI)</label>
+            </div>
+
+            <div class="age-filter-container" id="deathFilterConfig">
+                <label for="minAgeDeat">
+                    <strong>Filtre Décès :</strong> Ignorer le décès manquant si la personne a moins de
+                    <input type="number" id="minAgeDeat" value="100" min="0"> ans.
+                </label>
+                <div class="hint">
+                    (Basé sur l'année de naissance. Si pas de naissance, la personne sera listée par défaut.)
+                </div>
+            </div>
+
+            <div class="age-filter-container" id="marrFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="minAgeMarr">
+                    <strong>Filtre Mariage :</strong> Ignorer le mariage manquant si la personne a moins de
+                    <input type="number" id="minAgeMarr" value="18" min="0"> ans.
+                </label>
+                <div class="hint">
+                    (Basé sur l'année de naissance. Si pas de naissance, la personne sera listée par défaut.)
+                </div>
+            </div>
+
+            <div class="age-filter-container" id="bapmFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="maxYearBapm">
+                    <strong>Filtre Baptême :</strong> Ignorer le baptême manquant si la personne est née après l'année
+                    <input type="number" id="maxYearBapm" value=1900 style="width:80px;">.
+                </label>
+                <div class="hint">(Laisser vide pour ne pas filtrer.)</div>
+            </div>
+
+            <div class="age-filter-container" id="buriFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="maxYearBuri">
+                    <strong>Filtre Inhumation :</strong> Ignorer l'inhumation manquante si la personne est née après l'année
+                    <input type="number" id="maxYearBuri" value=1900 style="width:80px;">.
+                </label>
+                <div class="hint">(Laisser vide pour ne pas filtrer.)</div>
+            </div>
+
+            <div class="map-scope-row">
+                <label for="qualityAncestorOnly"><input type="checkbox" id="qualityAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="qualityPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="qualityPersonResults"></ul>
+                </div>
+                <span id="qualityPersonSelected" class="map-person-selected"></span>
+            </div>
+            <div class="hint" style="text-align:center;">Si activé, un numéro Sosa (1 = la personne choisie) est calculé et les résultats sont triés par Sosa.</div>
+        </div>
+
+        <div class="controls">
+            <button id="analyzeBtn" disabled>Analyser le fichier</button>
+            <button id="qualityDownloadBtn" class="secondary hidden">Télécharger CSV</button>
+        </div>
+
+        <div id="qualityStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div class="quality-charts">
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Problèmes par type d'événement</h3>
+                    <button class="chart-copy-btn" data-target="qualityBarChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="qualityBarChart"></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Problèmes par décennie de naissance</h3>
+                    <button class="chart-copy-btn" data-target="qualityTimelineChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="qualityTimelineChart"></div>
+            </div>
+        </div>
+
+        <div id="qualityPreview" class="hidden">
+            <h3>Aperçu (20 premiers résultats)</h3>
+            <table id="qualityTable">
+                <thead>
+                    <tr>
+                        <th>Sosa</th>
+                        <th>ID</th>
+                        <th>Nom</th>
+                        <th>Naissance (Calc)</th>
+                        <th>Événement</th>
+                        <th>Problème</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+            <p><em>...téléchargez le fichier CSV pour voir tous les résultats.</em></p>
+        </div>
+    </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+import { getSosaMap, escapeHtml, getEventLabel, downloadCsv } from './assets/js/utils.js';
+import { computeQualityIssues, drawIssuesBarChart, drawIssuesTimeline } from './assets/js/quality.js';
+
+let list = [], map = new Map(), fams = new Map(), qualityIssues = [];
+let qualityPersonId = null;
+
+const analyzeBtn = document.getElementById('analyzeBtn');
+const qualityStatus = document.getElementById('qualityStatus');
+const qualityDownloadBtn = document.getElementById('qualityDownloadBtn');
+const qualityPreview = document.getElementById('qualityPreview');
+const qualityPersonSearchEl = document.getElementById('qualityPersonSearch');
+const qualityPersonResultsEl = document.getElementById('qualityPersonResults');
+const qualityPersonSelectedEl = document.getElementById('qualityPersonSelected');
+const qualityAncestorOnlyEl = document.getElementById('qualityAncestorOnly');
+
+qualityAncestorOnlyEl.addEventListener('change', e => { qualityPersonSearchEl.disabled = !e.target.checked; });
+createPersonPicker({
+    searchEl: qualityPersonSearchEl, resultsEl: qualityPersonResultsEl, selectedEl: qualityPersonSelectedEl,
+    getList: () => list,
+    onSelect: p => { qualityPersonId = p.id; }
+});
+wireClickAway(qualityPersonResultsEl);
+
+[['checkDeat', 'deathFilterConfig'], ['checkMarr', 'marrFilterConfig'], ['checkBapm', 'bapmFilterConfig'], ['checkBuri', 'buriFilterConfig']].forEach(([checkboxId, configId]) => {
+    document.getElementById(checkboxId).addEventListener('change', e => {
+        const div = document.getElementById(configId);
+        div.style.opacity = e.target.checked ? "1" : "0.4";
+        div.style.pointerEvents = e.target.checked ? "auto" : "none";
+    });
+});
+
+analyzeBtn.addEventListener('click', () => {
+    if(!list.length) return;
+    qualityStatus.textContent = "Analyse en cours...";
+    qualityPreview.classList.add('hidden');
+    qualityDownloadBtn.classList.add('hidden');
+
+    setTimeout(() => {
+        const useAncestorScope = qualityAncestorOnlyEl.checked && qualityPersonId;
+        const sosaMap = useAncestorScope ? getSosaMap(map, qualityPersonId) : null;
+        const scopeSet = useAncestorScope ? new Set(sosaMap.keys()) : null;
+        const opts = {
+            BIRT: document.getElementById('checkBirt').checked,
+            BAPM: document.getElementById('checkBapm').checked,
+            MARR: document.getElementById('checkMarr').checked,
+            DEAT: document.getElementById('checkDeat').checked,
+            BURI: document.getElementById('checkBuri').checked
+        };
+        const minAgeDeat = parseInt(document.getElementById('minAgeDeat').value) || 0;
+        const minAgeMarr = parseInt(document.getElementById('minAgeMarr').value) || 0;
+        const maxYearBapmRaw = document.getElementById('maxYearBapm').value;
+        const maxYearBuriRaw = document.getElementById('maxYearBuri').value;
+        const maxYearBapm = maxYearBapmRaw ? parseInt(maxYearBapmRaw) : null;
+        const maxYearBuri = maxYearBuriRaw ? parseInt(maxYearBuriRaw) : null;
+
+        qualityIssues = computeQualityIssues(list, fams, scopeSet, sosaMap, opts, minAgeDeat, minAgeMarr, maxYearBapm, maxYearBuri);
+        qualityStatus.textContent = `Terminé. ${qualityIssues.length} problème(s) trouvé(s).`;
+
+        if(qualityIssues.length > 0) {
+            qualityDownloadBtn.classList.remove('hidden');
+            qualityPreview.classList.remove('hidden');
+            const tbody = document.querySelector('#qualityTable tbody');
+            tbody.innerHTML = '';
+            const previewLimit = Math.min(qualityIssues.length, 20);
+            for(let i=0; i<previewLimit; i++) {
+                const item = qualityIssues[i];
+                const tr = document.createElement('tr');
+                const classIssue = item.issue.includes('manquant') ? 'tag-missing' : 'date-empty';
+                const tagLabel = getEventLabel(item.type);
+                const birthDisplay = item.birthYear ? (item.birthApprox ? `ca ${item.birthYear}` : item.birthYear) : '-';
+                const sosaDisplay = item.sosa != null ? item.sosa : '-';
+                tr.innerHTML = `
+                    <td>${sosaDisplay}</td>
+                    <td>${item.id}</td>
+                    <td>${escapeHtml(item.name)}</td>
+                    <td>${birthDisplay}</td>
+                    <td><span class="event-tag evt-${item.type}">${tagLabel}</span></td>
+                    <td class="${classIssue}">${item.issue}</td>
+                `;
+                tbody.appendChild(tr);
+            }
+            drawIssuesBarChart(qualityIssues);
+            drawIssuesTimeline(qualityIssues);
+        } else {
+            qualityDownloadBtn.classList.add('hidden');
+            qualityPreview.classList.add('hidden');
+            d3.select('#qualityBarChart').selectAll('*').remove();
+            d3.select('#qualityTimelineChart').selectAll('*').remove();
+            qualityStatus.textContent = "Aucun problème trouvé selon vos critères.";
+        }
+    }, 30);
+});
+
+qualityDownloadBtn.addEventListener('click', () => {
+    if(qualityIssues.length === 0) return;
+    const headers = ["Sosa", "ID", "Nom", "Annee Naissance", "Evenement", "Probleme"];
+    const rows = qualityIssues.map(item => [
+        item.sosa != null ? item.sosa : "",
+        item.id,
+        item.name,
+        item.birthYear ? (item.birthApprox ? `ca ${item.birthYear}` : item.birthYear) : "",
+        getEventLabel(item.type),
+        item.issue
+    ]);
+    downloadCsv('analyse_gedcom_filtree.csv', headers, rows);
+});
+
+bootstrap({
+    page: 'qualite',
+    onData: data => {
+        list = data.list; map = data.map; fams = data.fams;
+        analyzeBtn.disabled = !list.length;
+        qualityStatus.textContent = list.length
+            ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+            : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+    }
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Arbre éventail</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="vizArea">
+    <div id="chart"></div>
+    <div id="legend" style="display:none"></div>
+    <div id="chartMessage" class="msg-info">
+        <h2>Chargez un fichier GEDCOM</h2>
+        <p>Retournez à l'<a href="index.html">accueil</a> pour charger un fichier.</p>
+    </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { FanChart } from './assets/js/fanchart.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+
+let list = [], map = new Map(), fams = new Map();
+const chartMessage = document.getElementById('chartMessage');
+let chart = null;
+let els = null;
+
+function setupControls(controlsSlot) {
+    controlsSlot.innerHTML = `
+        <div class="ctrl" style="position:relative">
+            <input type="text" id="searchInput" placeholder="Rechercher...">
+            <ul id="searchResults"></ul>
+        </div>
+        <div class="ctrl">
+            <select id="depthSelect">
+                <option value="5">5 Gén.</option>
+                <option value="6">6 Gén.</option>
+                <option value="7" selected>7 Gén.</option>
+                <option value="8">8 Gén.</option>
+            </select>
+            <select id="colorMode">
+                <option value="branch">Branches (P/M)</option>
+                <optgroup label="Données">
+                    <option value="age_death">Âge au Décès</option>
+                    <option value="age_marr">Âge au Mariage</option>
+                    <option value="age_first_child">Âge au 1er Enfant</option>
+                    <option value="child_count">Nombre d'enfants</option>
+                </optgroup>
+                <optgroup label="Lieux Naissance">
+                    <option value="b_dept">Dépt. Naissance</option>
+                    <option value="b_reg">Région Naissance</option>
+                    <option value="b_country">Pays Naissance</option>
+                </optgroup>
+                <optgroup label="Lieux Décès">
+                    <option value="d_dept">Dépt. Décès</option>
+                    <option value="d_reg">Région Décès</option>
+                    <option value="d_country">Pays Décès</option>
+                </optgroup>
+                <optgroup label="Lieux Mariage">
+                    <option value="m_dept">Dépt. Mariage</option>
+                    <option value="m_reg">Région Mariage</option>
+                    <option value="m_country">Pays Mariage</option>
+                </optgroup>
+            </select>
+            <button id="resetBtn" title="Réinitialiser Zoom">🏠 Home</button>
+        </div>
+    `;
+    els = {
+        search: document.getElementById('searchInput'),
+        res: document.getElementById('searchResults'),
+        depth: document.getElementById('depthSelect'),
+        mode: document.getElementById('colorMode')
+    };
+    chart = new FanChart('chart');
+
+    [els.depth, els.mode].forEach(el => el.addEventListener('change', () => chart.render()));
+    createPersonPicker({
+        searchEl: els.search, resultsEl: els.res, selectedEl: null,
+        getList: () => list,
+        onSelect: p => chart.setData(p.id, map, fams)
+    });
+    wireClickAway(els.res);
+    document.addEventListener('changeroot', e => chart.setData(e.detail, map, fams));
+}
+
+bootstrap({
+    page: 'arbre',
+    onReady: setupControls,
+    onData: data => {
+        list = data.list; map = data.map; fams = data.fams;
+        if(list.length) {
+            chartMessage.classList.add('hidden');
+            const root = map.get('I1') || map.get('I0000') || list.find(i => (i.fatherId || i.motherId)) || list[0];
+            if(root) chart.setData(root.id, map, fams);
+        } else {
+            chartMessage.classList.remove('hidden');
+            chartMessage.className = 'msg-info';
+            chartMessage.innerHTML = '<h2>Chargez un fichier GEDCOM</h2><p>Retournez à l\'<a href="index.html">accueil</a> pour charger un fichier.</p>';
+        }
+    }
+});
+</script>
+</body>
+</html>
