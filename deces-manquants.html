@@ -13,11 +13,11 @@
 
 <div class="tab-panel">
     <div class="quality-container" style="max-width:none;">
-        <p class="quality-intro">Personnes sans décès acté, avec une probabilité estimée d'être décédées après 1970 — période couverte par le fichier des décès de l'INSEE (matchID). Chaque piste peut être vérifiée d'un clic.</p>
+        <p class="quality-intro">Personnes dont le décès manque ou est incomplet (probabilité estimée d'être décédées après 1970, période couverte par le fichier des décès de l'INSEE), ainsi que les personnes dont le décès est connu mais la naissance incomplète. Chaque piste peut être vérifiée d'un clic sur matchID.</p>
 
         <div class="options-panel">
             <div class="checkbox-group">
-                <label><input type="checkbox" id="optIncludeEmptyDeat" checked> Inclure les décès sans date (tag présent mais vide)</label>
+                <label><input type="checkbox" id="optIncludeIncompleteDeath" checked> Inclure les décès incomplets (date et/ou lieu manquant), pas seulement les décès absents</label>
                 <label><input type="checkbox" id="optExcludeEstimated"> Exclure les naissances estimées (non actées)</label>
                 <label><input type="checkbox" id="optIncludeUnknownBirth" checked> Inclure les personnes sans naissance connue ni déductible</label>
             </div>
@@ -56,7 +56,7 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Naissance</th><th>Commune naissance</th>
+                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Motif</th><th>Naissance</th><th>Commune naissance</th>
                         <th>Dernier signe de vie</th><th>Confiance</th><th>Action</th>
                     </tr>
                 </thead>
@@ -70,7 +70,7 @@
 import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
-import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows } from './assets/js/deces-manquants.js';
+import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LABELS } from './assets/js/deces-manquants.js';
 
 let list = [], map = new Map(), fams = new Map();
 let ancestorPersonId = null;
@@ -98,7 +98,7 @@ wireClickAway(personResultsEl);
 
 function readOpts() {
     return {
-        includeEmptyDeat: document.getElementById('optIncludeEmptyDeat').checked,
+        includeIncompleteDeath: document.getElementById('optIncludeIncompleteDeath').checked,
         excludeEstimatedBirth: document.getElementById('optExcludeEstimated').checked,
         includeUnknownBirth: document.getElementById('optIncludeUnknownBirth').checked,
         ageThreshold: parseInt(document.getElementById('optAgeThreshold').value) || 100,
@@ -147,6 +147,7 @@ analyzeBtn.addEventListener('click', () => {
             <td>${r.sosa != null ? r.sosa : '-'}</td>
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
+            <td>${escapeHtml(CATEGORY_LABELS[r.category] || r.category)}</td>
             <td>${birthDisplay}</td>
             <td>${escapeHtml(p.birth?.geo?.city || '')}</td>
             <td>${r.lastAlive != null ? r.lastAlive : '-'}</td>
@@ -167,12 +168,13 @@ csvMatchIdBtn.addEventListener('click', () => {
 });
 csvSimpleBtn.addEventListener('click', () => {
     if (!lastResults.length) return;
-    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
+    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Motif', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
     const rows = lastResults.map(r => [
         r.sosa != null ? r.sosa : '',
         r.person.id,
         r.person.surname || '',
         r.person.given || '',
+        CATEGORY_LABELS[r.category] || r.category,
         r.birthEst ? r.birthEst.year : '',
         r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
         r.person.birth?.geo?.city || '',

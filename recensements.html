@@ -13,12 +13,23 @@
 
 <div class="tab-panel">
     <div class="quality-container" style="max-width:none;">
-        <p class="quality-intro">Personnes sans événement de recensement (CENS), ayant une naissance, un mariage ou un décès dans un département dont les tables de recensement nominatif sont indexées par FranceArchives (Projet SOCFACE).</p>
-        <p class="hint" style="text-align:center;">Filtre obligatoire : seules les personnes ayant pu être vivantes entre 1836 et 1936 (période des recensements nominatifs) sont listées.</p>
+        <p class="quality-intro">Pour chaque personne, un lien de recherche par date de recensement non déjà actée dans le GEDCOM, quand son département de résidence estimé à cette date fait partie des bases indexées par FranceArchives (Projet SOCFACE).</p>
+        <p class="hint" style="text-align:center;">Filtre obligatoire : seules les personnes ayant pu être vivantes pendant la période de recensement retenue sont listées.</p>
+        <p class="hint" style="text-align:center;">Hypothèse de résidence par date : avant le mariage (ou en l'absence de mariage connu), la commune de naissance ; après, la commune de décès (à défaut, celle du mariage).</p>
         <p class="hint" style="text-align:center;">Les liens de recherche utilisent une troncature ("*") sur le nom et le prénom pour compenser les erreurs de transcription OCR fréquentes sur ces registres — élargissez ou affinez la recherche directement sur FranceArchives si besoin.</p>
 
         <div class="options-panel">
-            <div class="map-scope-row" style="border-top:none; padding-top:0; margin-top:0;">
+            <label for="deptCodesInput"><strong>Départements à vérifier</strong> (codes INSEE séparés par des virgules)</label>
+            <textarea id="deptCodesInput" rows="3" style="width:100%; box-sizing:border-box; font-family:inherit; font-size:0.85rem; padding:8px; border:1px solid #bdc3c7; border-radius:4px;"></textarea>
+            <div class="hint">Modifiez librement cette liste ; elle est réinitialisable au besoin.</div>
+            <button type="button" id="resetDeptsBtn" class="ghost" style="margin-top:6px;">Réinitialiser les départements</button>
+
+            <label for="censusDatesInput" style="margin-top:16px; display:block;"><strong>Dates de recensement</strong> (années séparées par des virgules)</label>
+            <textarea id="censusDatesInput" rows="2" style="width:100%; box-sizing:border-box; font-family:inherit; font-size:0.85rem; padding:8px; border:1px solid #bdc3c7; border-radius:4px;"></textarea>
+            <div class="hint">Un recensement déjà acté dans le GEDCOM (à ±1 an) pour l'une de ces dates n'est pas proposé à nouveau.</div>
+            <button type="button" id="resetDatesBtn" class="ghost" style="margin-top:6px;">Réinitialiser les dates</button>
+
+            <div class="map-scope-row">
                 <label for="optAncestorOnly"><input type="checkbox" id="optAncestorOnly"> Uniquement les ascendants de :</label>
                 <div class="ctrl">
                     <input type="text" id="personSearch" placeholder="Rechercher une personne..." disabled>
@@ -39,7 +50,8 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Naissance</th><th>Événement(s) dans le périmètre</th><th>Rechercher</th>
+                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Naissance</th><th>Recensements à rechercher</th>
+                        <th>Éléments de validation</th>
                     </tr>
                 </thead>
                 <tbody id="resultsBody"></tbody>
@@ -52,7 +64,11 @@
 import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
-import { computeMissingRecensements, hitLabel, buildFranceArchivesUrl } from './assets/js/recensements.js';
+import {
+    computeMissingRecensements, buildFranceArchivesUrl, givenNameOptions,
+    RECENSEMENT_DEPT_CODES_DEFAULT, RECENSEMENT_DATES_DEFAULT,
+    parseDeptCodesInput, parseCensusDatesInput
+} from './assets/js/recensements.js';
 
 let list = [], map = new Map(), fams = new Map();
 let ancestorPersonId = null;
@@ -67,6 +83,13 @@ const ancestorOnlyEl = document.getElementById('optAncestorOnly');
 const personSearchEl = document.getElementById('personSearch');
 const personResultsEl = document.getElementById('personResults');
 const personSelectedEl = document.getElementById('personSelected');
+const deptCodesInput = document.getElementById('deptCodesInput');
+const censusDatesInput = document.getElementById('censusDatesInput');
+
+deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', ');
+censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', ');
+document.getElementById('resetDeptsBtn').addEventListener('click', () => { deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', '); });
+document.getElementById('resetDatesBtn').addEventListener('click', () => { censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', '); });
 
 ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
 createPersonPicker({
@@ -81,7 +104,9 @@ analyzeBtn.addEventListener('click', () => {
     statusEl.textContent = 'Analyse en cours…';
     const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
     const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
-    lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet });
+    const deptCodes = parseDeptCodesInput(deptCodesInput.value);
+    const censusDates = parseCensusDatesInput(censusDatesInput.value);
+    lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet, deptCodes, censusDates });
     lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
     if (sosaMap) lastResults.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
 
@@ -99,15 +124,38 @@ analyzeBtn.addEventListener('click', () => {
         const p = r.person;
         const tr = document.createElement('tr');
         const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
-        const hitsDisplay = r.hits.map(h => `<div>${hitLabel(h.type)} — ${escapeHtml(h.city)} (${escapeHtml(h.dept)})</div>`).join('');
-        const buttons = r.hits.map(h => `<a class="btn-link" href="${buildFranceArchivesUrl(p, h.city, r.birthEst)}" target="_blank" rel="noopener">📋 ${escapeHtml(h.city)}</a>`).join('');
+
+        // Un lien par prénom (si plusieurs sont actés) x par date de recensement : la personne peut
+        // être enregistrée au recensement sous un seul de ses prénoms, et chaque date est un
+        // registre distinct à interroger séparément.
+        const prenoms = givenNameOptions(p);
+        const hitsDisplay = r.hits.map(h => {
+            const buttons = prenoms.map(fn => {
+                const label = fn ? `${fn} — ${h.year}` : `${h.year}`;
+                return `<a class="btn-link" href="${buildFranceArchivesUrl(p, h.city, h.year, fn)}" target="_blank" rel="noopener">📋 ${escapeHtml(label)}</a>`;
+            }).join('');
+            return `<div style="margin-bottom:6px;">
+                <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city)} (${escapeHtml(h.dept)})</div>
+                <div class="city-buttons">${buttons}</div>
+            </div>`;
+        }).join('');
+
+        const v = r.validation;
+        const validationParts = [];
+        if (v.father || v.mother) validationParts.push(`Parents : ${[v.father, v.mother].filter(Boolean).join(' & ')}`);
+        if (v.spouses.length) validationParts.push(`Conjoint(e)${v.spouses.length > 1 ? 's' : ''} : ${v.spouses.join(', ')}`);
+        if (v.children.length) validationParts.push(`Enfant(s) : ${v.children.slice(0, 6).join(', ')}${v.children.length > 6 ? '…' : ''}`);
+        const validationDisplay = validationParts.length
+            ? `<ul class="reason-list">${validationParts.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`
+            : '<em>aucune info</em>';
+
         tr.innerHTML = `
             <td>${r.sosa != null ? r.sosa : '-'}</td>
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
             <td>${birthDisplay}</td>
             <td>${hitsDisplay}</td>
-            <td><div class="city-buttons">${buttons}</div></td>
+            <td>${validationDisplay}</td>
         `;
         resultsBody.appendChild(tr);
     });
@@ -115,7 +163,7 @@ analyzeBtn.addEventListener('click', () => {
 
 csvBtn.addEventListener('click', () => {
     if (!lastResults.length) return;
-    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Evenements dans le perimetre'];
+    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Dates de recensement a rechercher', 'Parents', 'Conjoint(e)s', 'Enfants'];
     const rows = lastResults.map(r => [
         r.sosa != null ? r.sosa : '',
         r.person.id,
@@ -123,7 +171,10 @@ csvBtn.addEventListener('click', () => {
         r.person.given || '',
         r.birthEst.year,
         r.birthEst.estimated ? 'oui' : 'non',
-        r.hits.map(h => `${hitLabel(h.type)}: ${h.city} (${h.dept})`).join(' | ')
+        r.hits.map(h => `${h.year} (${h.source}): ${h.city} (${h.dept})`).join(' | '),
+        [r.validation.father, r.validation.mother].filter(Boolean).join(' & '),
+        r.validation.spouses.join(', '),
+        r.validation.children.join(', ')
     ]);
     downloadCsv('recensements_manquants.csv', headers, rows);
 });

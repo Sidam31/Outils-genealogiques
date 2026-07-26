@@ -2,13 +2,14 @@ import { GEO, normalizePlace, findDept, BELGIAN_REGIONS } from './geo.js';
 
 // --- PARSER ---
 export class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
     // valeur DATE, indiquant que l'année n'est pas connue avec certitude (ex. "ABT 1750").
     isApproxDate(s) { return !!s && /\b(ABT|CAL|EST)\b/i.test(s); }
     newEventFlags() { return { hasTag:false, hasDate:false, year:null, approx:false, geo:null }; }
+    newCensusEntry() { return { year:null, approx:false, geo:null }; }
     newPlaceStub(raw) { return { raw, form:null, lat:null, lon:null, dept:null, region:null, country:null, city:null }; }
     // Parse une coordonnée GEDCOM LATI/LONG du type "N47.314010" ou "W2.311220" en degrés décimaux signés.
     parseCoord(v) {
@@ -34,7 +35,14 @@ export class GedcomParser {
                     type='INDI';
                     cur={
                         id:this.clean(tag), name:'Inconnu', given:null, surname:null, birth:{}, death:{}, fams:[], childrenCount:0, occupations:[],
-                        events: { BIRT:this.newEventFlags(), DEAT:this.newEventFlags(), BURI:this.newEventFlags(), BAPM:this.newEventFlags(), CENS:this.newEventFlags(), RESI:this.newEventFlags() }
+                        events: { BIRT:this.newEventFlags(), DEAT:this.newEventFlags(), BURI:this.newEventFlags(), BAPM:this.newEventFlags(), CENS:this.newEventFlags(), RESI:this.newEventFlags() },
+                        // Une personne peut apparaître dans PLUSIEURS recensements ("1 CENS" répété,
+                        // un par passage) : events.CENS (ci-dessus) ne garde que le dernier rencontré
+                        // (une seule "case" par type d'événement, comme BIRT/DEAT qui n'arrivent
+                        // qu'une fois) ; censusEvents accumule chaque occurrence pour permettre à
+                        // l'outil "Recensements manquants" de savoir PRÉCISÉMENT quelles années sont
+                        // déjà actées et lesquelles restent à rechercher.
+                        censusEvents: []
                     };
                     this.indis.set(cur.id, cur);
                 }
@@ -79,7 +87,15 @@ export class GedcomParser {
                 const key = t==='CHR' ? 'BAPM' : t;
                 i.events[key].hasTag = true;
             }
-            if(t==='CENS') i.events.CENS.hasTag = true;
+            if(t==='CENS') {
+                i.events.CENS.hasTag = true;
+                // Nouvelle occurrence à chaque "1 CENS" : poussée immédiatement dans le tableau (pas
+                // besoin de "flush" au tag suivant), _curCensusEntry garde juste la référence pour
+                // que les DATE/PLAC de niveau 2 qui suivent la mutent en place.
+                const entry = this.newCensusEntry();
+                i.censusEvents.push(entry);
+                this._curCensusEntry = entry;
+            }
             if(t==='RESI') i.events.RESI.hasTag = true;
             // Certains logiciels (Ancestris, Gramps...) encodent le métier — ou un recensement —
             // comme un fait générique "1 FACT <valeur>" / "1 EVEN <valeur>" avec "2 TYPE <...>"
@@ -104,6 +120,7 @@ export class GedcomParser {
                 }
                 if((i._ctx==='CENS' || i._ctx==='RESI') && v && v.trim().length) {
                     i.events[i._ctx].hasDate = true; i.events[i._ctx].year = y; i.events[i._ctx].approx = approx;
+                    if(i._ctx==='CENS' && this._curCensusEntry) { this._curCensusEntry.year = y; this._curCensusEntry.approx = approx; }
                 }
                 if((i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven && v && v.trim().length) {
                     this._pendingEven.hasDate = true; this._pendingEven.year = y; this._pendingEven.approx = approx;
@@ -111,7 +128,10 @@ export class GedcomParser {
                     // déjà confirmé ce EVEN/FACT comme recensement, on écrit directement dans le
                     // recensement plutôt que de compter uniquement sur le repli "TYPE arrive après"
                     // géré par le bloc TYPE ci-dessous.
-                    if(this._pendingEven.isCens) { i.events.CENS.hasDate = true; i.events.CENS.year = y; i.events.CENS.approx = approx; }
+                    if(this._pendingEven.isCens) {
+                        i.events.CENS.hasDate = true; i.events.CENS.year = y; i.events.CENS.approx = approx;
+                        if(this._pendingEven.censusEntry) { this._pendingEven.censusEntry.year = y; this._pendingEven.censusEntry.approx = approx; }
+                    }
                 }
             }
             if(t==='PLAC') {
@@ -123,10 +143,16 @@ export class GedcomParser {
                     const key = i._ctx==='CHR' ? 'BAPM' : i._ctx;
                     i.events[key].geo = stub;
                 }
-                if(i._ctx==='CENS' || i._ctx==='RESI') i.events[i._ctx].geo = stub;
+                if(i._ctx==='CENS' || i._ctx==='RESI') {
+                    i.events[i._ctx].geo = stub;
+                    if(i._ctx==='CENS' && this._curCensusEntry) this._curCensusEntry.geo = stub;
+                }
                 if((i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven) {
                     this._pendingEven.geo = stub;
-                    if(this._pendingEven.isCens) i.events.CENS.geo = stub;
+                    if(this._pendingEven.isCens) {
+                        i.events.CENS.geo = stub;
+                        if(this._pendingEven.censusEntry) this._pendingEven.censusEntry.geo = stub;
+                    }
                 }
             }
             if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
@@ -143,6 +169,15 @@ export class GedcomParser {
                 i.events.CENS.hasTag = true;
                 if(p.hasDate) { i.events.CENS.hasDate = true; i.events.CENS.year = p.year; i.events.CENS.approx = p.approx; }
                 if(p.geo) i.events.CENS.geo = p.geo;
+                // Occurrence ajoutée au tableau MAINTENANT (avec ce qui est déjà connu de ce
+                // EVEN/FACT) ; p.censusEntry garde la référence pour que les DATE/PLAC arrivant
+                // APRÈS ce TYPE (ordre GEDCOM habituel) la mutent en place (voir DATE/PLAC ci-dessus).
+                const entry = this.newCensusEntry();
+                entry.year = p.hasDate ? p.year : null;
+                entry.approx = p.approx;
+                entry.geo = p.geo;
+                i.censusEvents.push(entry);
+                p.censusEntry = entry;
             }
         }
         // "3 FORM" (hiérarchie propre à ce lieu) et "3 MAP / 4 LATI / 4 LONG" (coordonnées GPS),
@@ -192,6 +227,9 @@ export class GedcomParser {
         this.indis.forEach(i => {
             finalize(i.birth.geo); finalize(i.death.geo);
             ['BIRT','DEAT','BURI','BAPM','CENS','RESI'].forEach(k => finalize(i.events[k].geo));
+            // Chaque occurrence de recensement a son propre lieu (pas seulement le dernier, gardé
+            // dans events.CENS.geo) : toutes doivent être finalisées individuellement.
+            i.censusEvents.forEach(entry => finalize(entry.geo));
         });
         this.fams.forEach(f => finalize(f.marr.geo));
     }
