@@ -33,6 +33,13 @@
                 </div>
                 <span id="mapPersonSelected" class="map-person-selected"></span>
             </div>
+            <div class="map-scope-row">
+                <label for="mapTimeEnabled"><input type="checkbox" id="mapTimeEnabled"> Voir l'évolution dans le temps</label>
+            </div>
+            <div class="decade-slider-row hidden" id="mapTimeSliderRow">
+                <input type="range" id="mapTimeSlider" min="0" max="0" value="0">
+                <span id="mapTimeLabel">Toutes périodes</span>
+            </div>
         </div>
 
         <div class="quality-charts">
@@ -110,7 +117,9 @@ import {
     showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap,
     getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawFirstChildTrend, drawOccupationsChart
 } from './assets/js/maps.js';
+import { setupExportButton } from './assets/js/export-html.js';
 
+let exportCtl = null;
 let list = [], map = new Map(), fams = new Map();
 let mapPersonId = null, pyramidDecadesCache = null;
 
@@ -121,16 +130,64 @@ const mapAncestorOnlyEl = document.getElementById('mapAncestorOnly');
 const mapFilterEls = [document.getElementById('mapFilterBirt'), document.getElementById('mapFilterDeat'), document.getElementById('mapFilterMarr')];
 const pyramidSliderEl = document.getElementById('pyramidDecadeSlider');
 const pyramidLabelEl = document.getElementById('pyramidDecadeLabel');
+const mapTimeEnabledEl = document.getElementById('mapTimeEnabled');
+const mapTimeSliderRowEl = document.getElementById('mapTimeSliderRow');
+const mapTimeSliderEl = document.getElementById('mapTimeSlider');
+const mapTimeLabelEl = document.getElementById('mapTimeLabel');
+let mapTimeBoundsCache = null;
+
+// Bornes (années) des événements activés dans le périmètre courant (ascendants ou tout le monde) :
+// sert à calibrer le curseur temporel qui rejoue l'apparition des lieux au fil du temps.
+function computeYearBounds(scopeIds, individuals, eventFlags) {
+    let min = Infinity, max = -Infinity;
+    scopeIds.forEach(id => {
+        const i = individuals.get(id);
+        if(!i) return;
+        if(eventFlags.BIRT && i.birth?.year) { min = Math.min(min, i.birth.year); max = Math.max(max, i.birth.year); }
+        if(eventFlags.DEAT && i.death?.year) { min = Math.min(min, i.death.year); max = Math.max(max, i.death.year); }
+        if(eventFlags.MARR && i.marrYear) { min = Math.min(min, i.marrYear); max = Math.max(max, i.marrYear); }
+    });
+    return isFinite(min) ? { min, max } : null;
+}
+
+function updateTimeLabel() {
+    mapTimeLabelEl.textContent = mapTimeSliderEl.disabled ? 'Aucune donnée datée' : `Jusqu'en ${mapTimeSliderEl.value}`;
+}
+
+// Recalibre le curseur sur les nouvelles bornes ; ne réinitialise la position (sur le maximum,
+// donc "tout afficher") que si les bornes ont réellement changé, pour ne pas faire sauter le
+// curseur pendant qu'on le fait glisser.
+function updateTimeSliderBounds(bounds) {
+    if(!bounds) {
+        mapTimeSliderEl.min = 0; mapTimeSliderEl.max = 0; mapTimeSliderEl.value = 0;
+        mapTimeSliderEl.disabled = true;
+        mapTimeBoundsCache = null;
+        updateTimeLabel();
+        return;
+    }
+    const changed = !mapTimeBoundsCache || mapTimeBoundsCache.min !== bounds.min || mapTimeBoundsCache.max !== bounds.max;
+    mapTimeSliderEl.disabled = false;
+    mapTimeSliderEl.min = bounds.min;
+    mapTimeSliderEl.max = bounds.max;
+    if(changed) mapTimeSliderEl.value = bounds.max;
+    else if(parseInt(mapTimeSliderEl.value, 10) > bounds.max) mapTimeSliderEl.value = bounds.max;
+    mapTimeBoundsCache = bounds;
+    updateTimeLabel();
+}
 
 function renderFilteredMaps() {
     if(!map.size || !list.length) {
         showMapMessage('worldMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
         showMapMessage('franceMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
+        updateTimeSliderBounds(null);
         return;
     }
     const eventFlags = { BIRT: mapFilterEls[0].checked, DEAT: mapFilterEls[1].checked, MARR: mapFilterEls[2].checked };
     const scopeIds = (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
-    const { byDept, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags);
+    const bounds = computeYearBounds(scopeIds, map, eventFlags);
+    updateTimeSliderBounds(bounds);
+    const yearMax = (mapTimeEnabledEl.checked && bounds) ? parseInt(mapTimeSliderEl.value, 10) : null;
+    const { byDept, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMax });
     drawWorldMap(byWorldPoint);
     drawFranceMap(byDept, byCountry);
 }
@@ -193,11 +250,18 @@ createPersonPicker({
 });
 wireClickAway(mapPersonResultsEl);
 pyramidSliderEl.addEventListener('input', () => { updatePyramidLabel(); drawAgePyramidForSelectedDecade(); });
+mapTimeEnabledEl.addEventListener('change', () => {
+    mapTimeSliderRowEl.classList.toggle('hidden', !mapTimeEnabledEl.checked);
+    renderFilteredMaps();
+});
+mapTimeSliderEl.addEventListener('input', () => { updateTimeLabel(); renderFilteredMaps(); });
 
 bootstrap({
     page: 'visualisation',
+    onReady: controlsSlot => { exportCtl = setupExportButton(controlsSlot); },
     onData: data => {
         list = data.list; map = data.map; fams = data.fams;
+        if(exportCtl) exportCtl.setData(data.text, data.filename);
         renderMapsTab();
     }
 });

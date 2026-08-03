@@ -40,39 +40,52 @@ export function neighborCountryLabel(f) {
     return NEIGHBOR_COUNTRY_LABELS.get(name) || null;
 }
 
-// Compte les lieux (pays / département) par type d'événement activé, pour un ensemble d'individus donné.
-export function computeGeoCounts(scopeIds, individuals, eventFlags) {
+const GEO_EVENT_LABELS = { BIRT: 'Naissance', DEAT: 'Décès', MARR: 'Mariage' };
+
+// Compte les lieux (pays / département) par type d'événement activé, pour un ensemble d'individus
+// donné. opts.yearMax, si fourni, restreint aux événements datés et survenus au plus tard cette
+// année-là (permet de rejouer l'évolution des lieux au fil du temps) ; sans cutoff, les événements
+// sans date connue restent inclus comme avant.
+export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
+    const yearMax = opts && opts.yearMax != null ? opts.yearMax : null;
     const byCountry = {}, byDept = {};
     // Points pour la heatmap du monde : résolution département (préfecture) pour la France
-    // quand on la connaît, sinon centroïde du pays. Clé -> { label, coords, count }.
+    // quand on la connaît, sinon centroïde du pays. Clé -> { label, coords, count, items }.
+    // items liste, pour l'infobulle, chaque événement/personne ayant contribué à ce point.
     const byWorldPoint = {};
-    const addPoint = (key, label, coords) => {
+    const addPoint = (key, label, coords, item) => {
         if(!coords) return;
-        if(!byWorldPoint[key]) byWorldPoint[key] = { label, coords, count: 0 };
+        if(!byWorldPoint[key]) byWorldPoint[key] = { label, coords, count: 0, items: [] };
         byWorldPoint[key].count++;
+        if(item) byWorldPoint[key].items.push(item);
     };
-    const add = geo => {
+    const add = (geo, item) => {
         if(!geo) return;
         if(geo.country && geo.country !== 'Inconnu') byCountry[geo.country] = (byCountry[geo.country] || 0) + 1;
         if(geo.dept) byDept[geo.dept.split(' - ')[0]] = (byDept[geo.dept.split(' - ')[0]] || 0) + 1;
         // Priorité aux coordonnées GPS exactes du GEDCOM (LATI/LONG), sinon préfecture du
         // département, sinon centroïde du pays.
         if(geo.lat != null && geo.lon != null) {
-            addPoint('gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), geo.dept || geo.raw || geo.country, [geo.lon, geo.lat]);
+            addPoint('gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), geo.dept || geo.raw || geo.country, [geo.lon, geo.lat], item);
             return;
         }
         if(geo.dept) {
             const code = geo.dept.split(' - ')[0];
-            if(GEO.deptCentroids[code]) { addPoint('dept:' + code, geo.dept, GEO.deptCentroids[code]); return; }
+            if(GEO.deptCentroids[code]) { addPoint('dept:' + code, geo.dept, GEO.deptCentroids[code], item); return; }
         }
-        if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country]);
+        if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country], item);
     };
+    // Avec un cutoff temporel actif, seuls les événements datés (et antérieurs ou égaux au cutoff)
+    // comptent — un événement sans date ne peut pas être situé dans le temps, donc il n'apparaît
+    // que lorsque le filtre temporel est désactivé (comportement identique au slider par décennie
+    // de la pyramide des âges, cf. drawAgePyramidForSelectedDecade).
+    const passesTime = year => yearMax == null || (year != null && year <= yearMax);
     scopeIds.forEach(id => {
         const i = individuals.get(id);
         if(!i) return;
-        if(eventFlags.BIRT) add(i.birth?.geo);
-        if(eventFlags.DEAT) add(i.death?.geo);
-        if(eventFlags.MARR) add(i.marrGeo);
+        if(eventFlags.BIRT && passesTime(i.birth?.year)) add(i.birth?.geo, { name: i.name, type: 'BIRT', typeLabel: GEO_EVENT_LABELS.BIRT, year: i.birth?.year || null });
+        if(eventFlags.DEAT && passesTime(i.death?.year)) add(i.death?.geo, { name: i.name, type: 'DEAT', typeLabel: GEO_EVENT_LABELS.DEAT, year: i.death?.year || null });
+        if(eventFlags.MARR && passesTime(i.marrYear)) add(i.marrGeo, { name: i.name, type: 'MARR', typeLabel: GEO_EVENT_LABELS.MARR, year: i.marrYear || null });
     });
     return { byCountry, byDept, byWorldPoint };
 }
@@ -133,9 +146,9 @@ export function ensureWorldMap() {
             worldMap.on('mouseenter', 'ancestors-point', e => {
                 worldMap.getCanvas().style.cursor = 'pointer';
                 const f = e.features[0];
-                worldMapPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false })
+                worldMapPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, maxWidth: '300px' })
                     .setLngLat(f.geometry.coordinates)
-                    .setHTML(`<strong>${f.properties.label}</strong><br>Occurrences&nbsp;: ${f.properties.count}`)
+                    .setHTML(worldPointPopupHtml(f.properties))
                     .addTo(worldMap);
             });
             worldMap.on('mouseleave', 'ancestors-point', () => {
@@ -151,10 +164,28 @@ export function ensureWorldMap() {
     return worldMapLoadPromise;
 }
 
+const WORLD_POINT_EVENT_ICONS = { BIRT: '👶', DEAT: '⚰️', MARR: '💍' };
+const WORLD_POINT_POPUP_MAX_ITEMS = 25;
+
+// Contenu de l'infobulle d'un point de la heatmap monde : liste les événements et les personnes
+// à l'origine de ce point (et non plus seulement leur nombre), pour pouvoir identifier qui a
+// vécu/est né/mort à cet endroit sans quitter la carte.
+function worldPointPopupHtml(properties) {
+    let items = [];
+    try { items = JSON.parse(properties.items || '[]'); } catch(err) { /* ignore */ }
+    const rows = items.slice(0, WORLD_POINT_POPUP_MAX_ITEMS).map(it =>
+        `<div class="tt-row"><span>${WORLD_POINT_EVENT_ICONS[it.type] || '•'} ${escapeHtml(it.name || 'Inconnu')}</span><span>${it.year ? escapeHtml(String(it.year)) : ''}</span></div>`
+    ).join('');
+    const more = items.length > WORLD_POINT_POPUP_MAX_ITEMS
+        ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${items.length - WORLD_POINT_POPUP_MAX_ITEMS} autre(s)</div>` : '';
+    return `<strong>${escapeHtml(properties.label)}</strong><br>Occurrences&nbsp;: ${properties.count}` +
+        (items.length ? `<div style="margin-top:6px;max-height:220px;overflow-y:auto">${rows}${more}</div>` : '');
+}
+
 export async function drawWorldMap(byWorldPoint) {
     const features = Object.values(byWorldPoint).map(p => ({
         type: 'Feature',
-        properties: { label: p.label, count: p.count },
+        properties: { label: p.label, count: p.count, items: JSON.stringify(p.items || []) },
         geometry: { type: 'Point', coordinates: p.coords }
     }));
     const maxCount = Math.max(1, ...features.map(f => f.properties.count));

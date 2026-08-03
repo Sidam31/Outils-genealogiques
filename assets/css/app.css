@@ -16,6 +16,10 @@ header button { cursor: pointer; background: #fff; font-weight: 600; color: var(
 header button:hover { background: #f0f4fb; box-shadow: 0 1px 3px rgba(0,0,0,0.1); transform: translateY(-1px); }
 header button:active { transform: translateY(0); }
 
+.app-credit { font-size: 0.78rem; color: #999; }
+.app-credit a { color: #999; text-decoration: none; }
+.app-credit a:hover { color: var(--accent); text-decoration: underline; }
+
 /* NAV (liens entre pages, remplace les anciens onglets) */
 nav.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
 nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: center; }

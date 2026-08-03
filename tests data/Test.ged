@@ -1,0 +1,3288 @@
+0 HEAD
+1 SOUR SyniumFamilyTree
+2 NAME MacFamilyTree
+2 VERS 11.2.3
+2 CORP Synium Software GmbH Germany (syniumsoftware.com)
+1 CHAR UTF-8
+1 GEDC
+2 VERS 7.0.3
+2 FORM LINEAGE-LINKED
+1 SUBM @SUBM1@
+0 @79266@ INDI
+1 NAME René /MORIO/
+2 GIVN René
+2 SURN MORIO
+1 SEX M
+1 BIRT
+2 DATE 12/03/1714
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @90632148@
+3 PAGE 3/11
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:18:21
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:17:08
+1 DEAT
+2 DATE 22/04/1801
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 ADDR La Lande d'Ust
+3 MAP
+4 LONG W2.274394944444444
+4 LATI N47.322774552777780
+2 SOUR @59370829@
+3 PAGE 5/9
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:16:22
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:14:09
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:18:21
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:09:54
+1 FAMS @44199488@
+1 FAMC @64367690@
+0 @69205420@ INDI
+1 NAME Jan /MORIO/
+2 GIVN Jan
+2 SURN MORIO
+1 SEX M
+1 BIRT
+2 DATE 21/10/1742
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @53694529@
+3 PAGE 8/10
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:08:55
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:08:42
+1 OCCU Cottonier
+2 DATE 1801
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:15:30
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:15:28
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:15:30
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 16:26:40
+1 FAMC @44199488@
+0 @978353@ INDI
+1 NAME René /MORIO/
+2 GIVN René
+2 SURN MORIO
+1 SEX M
+1 BIRT
+2 DATE 01/02/1687
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @81166136@
+3 PAGE 15/17
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:30:40
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:29:02
+1 DEAT
+2 DATE 12/04/1725
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @73444066@
+3 PAGE 24/53
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:28:16
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:28:03
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:30:40
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:14:56
+1 FAMS @64367690@
+1 FAMC @81528540@
+0 @70519698@ INDI
+1 NAME René /MORIO/
+2 GIVN René
+2 SURN MORIO
+1 SEX M
+1 BIRT
+2 DATE 1648
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:40:40
+1 OCCU Laboureur
+2 DATE 1702
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 ADDR Ust
+3 MAP
+4 LONG W2.265629544444444
+4 LATI N47.318546252777779
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 18:13:13
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 18:12:52
+1 OCCU Metayer
+2 DATE 1703
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 ADDR La Métairie d'Ust
+3 MAP
+4 LONG W2.270858744444444
+4 LATI N47.318644352777781
+2 CHAN
+3 DATE 05 MAY 2026
+4 TIME 23:26:30
+2 CREA
+3 DATE 05 MAY 2026
+4 TIME 23:25:37
+1 DEAT
+2 DATE 25/03/1712
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @54157650@
+3 PAGE 4/10
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:39:31
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:39:24
+1 CHAN
+2 DATE 05 MAY 2026
+3 TIME 23:26:30
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:31:14
+1 FAMS @81528540@
+1 FAMS @77258354@
+1 FAMC @39400584@
+0 @99887552@ INDI
+1 NAME Guillemette /PERRIGAUD/
+2 GIVN Guillemette
+2 SURN PERRIGAUD
+1 NAME /MORIO/
+2 TYPE married
+2 SURN MORIO
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:09:58
+1 SEX F
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:12:27
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:09:58
+1 FAMS @44199488@
+0 @24818452@ INDI
+1 NAME /MORIO/
+2 SURN MORIO
+1 SEX M
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 18:18:44
+1 FAMS @39400584@
+0 @11645496@ INDI
+1 NAME Guillemette /ROÜAUD/
+2 GIVN Guillemette
+2 SURN ROÜAUD
+1 NAME /MORIO/
+2 TYPE married
+2 SURN MORIO
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:31:29
+1 SEX F
+1 DEAT
+2 DATE 01/02/1703
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @15219202@
+3 PAGE 3/11
+2 CHAN
+3 DATE 05 MAY 2026
+4 TIME 23:27:54
+2 CREA
+3 DATE 05 MAY 2026
+4 TIME 23:27:41
+1 CHAN
+2 DATE 05 MAY 2026
+3 TIME 23:27:54
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:31:29
+1 FAMS @81528540@
+0 @72485324@ INDI
+1 NAME Jaquette /HASCOUËT/
+2 GIVN Jaquette
+2 SURN HASCOUËT
+1 NAME /MORIO/
+2 TYPE married
+2 SURN MORIO
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:15:01
+1 SEX F
+1 DEAT
+2 DATE 04/03/1778
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @86089398@
+3 PAGE 3/15
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:45:35
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:45:30
+1 NOTE @93656552@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 18:00:10
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:15:01
+1 FAMS @64367690@
+1 FAMS @43744848@
+0 @44199488@ FAM
+1 MARR
+2 DATE 24/11/1739
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @3459628@
+3 PAGE 8/9
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:11:39
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:11:32
+1 HUSB @79266@
+1 WIFE @99887552@
+1 CHIL @69205420@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:15:43
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:09:54
+0 @64367690@ FAM
+1 MARR
+2 DATE 27/02/1713
+2 PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+3 FORM Place,Département,Région,Country
+3 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+3 MAP
+4 LONG W2.311220052777778
+4 LATI N47.314010052777775
+2 SOUR @78733213@
+3 PAGE 3/9
+2 CHAN
+3 DATE 05 MAY 2025
+4 TIME 17:23:57
+2 CREA
+3 DATE 05 MAY 2025
+4 TIME 17:23:48
+1 HUSB @978353@
+1 WIFE @72485324@
+1 CHIL @79266@
+1 CHAN
+2 DATE 06 MAY 2025
+3 TIME 17:45:00
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:14:56
+0 @81528540@ FAM
+1 HUSB @70519698@
+1 WIFE @11645496@
+1 CHIL @978353@
+1 CHAN
+2 DATE 06 MAY 2025
+3 TIME 17:40:16
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:31:14
+0 @39400584@ FAM
+1 HUSB @24818452@
+1 CHIL @70519698@
+1 CHAN
+2 DATE 05 MAY 2026
+3 TIME 23:43:43
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 18:18:44
+0 @TF0@ _PTF
+1 _LNA Arrondissement
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG Arrondissement
+0 @TF1@ _PTF
+1 _LNA Bezirk
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG Bezirk
+0 @TF2@ _PTF
+1 _LNA Borough
+1 _NKY PlaceTemplate_KeyName_Borough
+1 _TAG Borough
+0 @TF3@ _PTF
+1 _LNA Bundesland
+1 _NKY PlaceTemplate_KeyName_State
+1 _TAG Bundesland
+0 @TF4@ _PTF
+1 _LNA Canton
+1 _NKY PlaceTemplate_KeyName_Canton
+1 _TAG Canton
+0 @TF5@ _PTF
+1 _LNA Commune
+1 _NKY PlaceTemplate_KeyName_Commune
+1 _TAG Commune
+0 @TF6@ _PTF
+1 _LNA Comune
+1 _NKY PlaceTemplate_KeyName_Commune
+1 _TAG Comune
+0 @TF7@ _PTF
+1 _NKY PlaceTemplate_KeyName_Country
+1 _TAG Country
+0 @TF8@ _PTF
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG County
+0 @TF9@ _PTF
+1 _LNA District
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG District
+0 @TF10@ _PTF
+1 _LNA Distrito
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG Distrito
+0 @TF11@ _PTF
+1 _LNA Distrito Federal
+1 _NKY PlaceTemplate_KeyName_Federal District
+1 _TAG Distrito Federal
+0 @TF12@ _PTF
+1 _LNA Département
+1 _NKY PlaceTemplate_KeyName_Department
+1 _TAG Département
+0 @TF13@ _PTF
+1 _LNA Estado
+1 _NKY PlaceTemplate_KeyName_State
+1 _TAG Estado
+0 @TF14@ _PTF
+1 _LNA Fylke
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Fylke
+0 @TF15@ _PTF
+1 _LNA Gemeente
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Gemeente
+0 @TF16@ _PTF
+1 _LNA Gemeinde
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Gemeinde
+0 @TF17@ _PTF
+1 _LNA Gmina
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Gmina
+0 @TF18@ _PTF
+1 _LNA Judetul
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Judetul
+0 @TF19@ _PTF
+1 _LNA Járás
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG Járás
+0 @TF20@ _PTF
+1 _LNA Kanton
+1 _NKY PlaceTemplate_KeyName_Canton
+1 _TAG Kanton
+0 @TF21@ _PTF
+1 _LNA Kommuner
+1 _NKY PlaceTemplate_KeyName_Commune
+1 _TAG Kommuner
+0 @TF22@ _PTF
+1 _LNA Kraj
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Kraj
+0 @TF23@ _PTF
+1 _LNA Kunta
+1 _NKY PlaceTemplate_KeyName_Commune
+1 _TAG Kunta
+0 @TF24@ _PTF
+1 _LNA Landkreis
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Landkreis
+0 @TF25@ _PTF
+1 _LNA Län
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Län
+0 @TF26@ _PTF
+1 _LNA Maakunta
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Maakunta
+0 @TF27@ _PTF
+1 _LNA Municipality
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Municipality
+0 @TF28@ _PTF
+1 _LNA Municipio
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Municipio
+0 @TF29@ _PTF
+1 _LNA Municipiul
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Municipiul
+0 @TF30@ _PTF
+1 _LNA Município
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Município
+0 @TF31@ _PTF
+1 _INA Niveau 1
+1 _TAG Niveau 1
+0 @TF32@ _PTF
+1 _INA Niveau 2
+1 _TAG Niveau 2
+0 @TF33@ _PTF
+1 _INA Niveau 3
+1 _TAG Niveau 3
+0 @TF34@ _PTF
+1 _INA Niveau 4
+1 _TAG Niveau 4
+0 @TF35@ _PTF
+1 _INA Niveau 5
+1 _TAG Niveau 5
+0 @TF36@ _PTF
+1 _LNA Obec
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Obec
+0 @TF37@ _PTF
+1 _LNA Oblast
+1 _NKY PlaceTemplate_KeyName_Province
+1 _TAG Oblast
+0 @TF38@ _PTF
+1 _LNA Obshtina
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Obshtina
+0 @TF39@ _PTF
+1 _LNA Okres
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG Okres
+0 @TF40@ _PTF
+1 _LNA Okrug
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Okrug
+0 @TF41@ _PTF
+1 _LNA Okruz
+1 _NKY PlaceTemplate_KeyName_District
+1 _TAG Okruz
+0 @TF42@ _PTF
+1 _LNA Općina
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Općina
+0 @TF43@ _PTF
+1 _LNA Opštine
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Opštine
+0 @TF44@ _PTF
+1 _LNA Parish
+1 _NKY PlaceTemplate_KeyName_Parish
+1 _TAG Parish
+0 @TF45@ _PTF
+1 _NKY PlaceTemplate_KeyName_Place
+1 _TAG Place
+0 @TF46@ _PTF
+1 _LNA Powiat
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Powiat
+0 @TF47@ _PTF
+1 _LNA Province
+1 _NKY PlaceTemplate_KeyName_Province
+1 _TAG Province
+0 @TF48@ _PTF
+1 _LNA Provincia
+1 _NKY PlaceTemplate_KeyName_Province
+1 _TAG Provincia
+0 @TF49@ _PTF
+1 _LNA Provincie
+1 _NKY PlaceTemplate_KeyName_State
+1 _TAG Provincie
+0 @TF50@ _PTF
+1 _LNA Regierungsbezirk
+1 _NKY PlaceTemplate_KeyName_Administrative Divison
+1 _TAG Regierungsbezirk
+0 @TF51@ _PTF
+1 _LNA Regija
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Regija
+0 @TF52@ _PTF
+1 _LNA Region
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Region
+0 @TF53@ _PTF
+1 _LNA Regione
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Regione
+0 @TF54@ _PTF
+1 _LNA Regioner
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Regioner
+0 @TF55@ _PTF
+1 _LNA Região
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Região
+0 @TF56@ _PTF
+1 _LNA Región
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Región
+0 @TF57@ _PTF
+1 _LNA Région
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Région
+0 @TF58@ _PTF
+1 _NKY PlaceTemplate_KeyName_State
+1 _TAG State
+0 @TF59@ _PTF
+1 _LNA Territory
+1 _NKY PlaceTemplate_KeyName_Territory
+1 _TAG Territory
+0 @TF60@ _PTF
+1 _LNA Upravna Enota
+1 _NKY PlaceTemplate_KeyName_Administrative Unit
+1 _TAG Upravna Enota
+0 @TF61@ _PTF
+1 _LNA Vidék
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Vidék
+0 @TF62@ _PTF
+1 _LNA Voivodeship
+1 _NKY PlaceTemplate_KeyName_State
+1 _TAG Voivodeship
+0 @TF63@ _PTF
+1 _LNA Vármegye
+1 _NKY PlaceTemplate_KeyName_County
+1 _TAG Vármegye
+0 @TF64@ _PTF
+1 _LNA Αποκεντρωμένη Διοίκηση
+1 _NKY PlaceTemplate_KeyName_Decentralized Administration
+1 _TAG Αποκεντρωμένη Διοίκηση
+0 @TF65@ _PTF
+1 _LNA Δήμος
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG Δήμος
+0 @TF66@ _PTF
+1 _LNA Περιοχή
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG Περιοχή
+0 @TF67@ _PTF
+1 _LNA Крэй
+1 _NKY PlaceTemplate_KeyName_Kray
+1 _TAG Крэй
+0 @TF68@ _PTF
+1 _LNA Область
+1 _NKY PlaceTemplate_KeyName_Oblast
+1 _TAG Область
+0 @TF69@ _PTF
+1 _LNA Республика
+1 _NKY PlaceTemplate_KeyName_Republic
+1 _TAG Республика
+0 @TF70@ _PTF
+1 _LNA Федеральный округ
+1 _NKY PlaceTemplate_KeyName_Federal District
+1 _TAG Федеральный округ
+0 @TF71@ _PTF
+1 _LNA субъект федерации
+1 _NKY PlaceTemplate_KeyName_Federal Subject
+1 _TAG субъект федерации
+0 @TF72@ _PTF
+1 _LNA 直辖市
+1 _NKY PlaceTemplate_KeyName_Municipality
+1 _TAG 直辖市
+0 @TF73@ _PTF
+1 _LNA 省
+1 _NKY PlaceTemplate_KeyName_Province
+1 _TAG 省
+0 @TF74@ _PTF
+1 _LNA 自治区
+1 _NKY PlaceTemplate_KeyName_Region
+1 _TAG 自治区
+0 @T0@ _PTE
+1 NAME Générique (6 niveaux)
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 52
+3 _ACT YES
+2 _SCS
+3 _ORD 79
+3 _ACT YES
+2 _NCS
+3 _ORD 99
+3 _ACT YES
+1 _PTF @TF34@
+2 _USA Administrative Division 4
+2 _VCS
+3 _ORD 110
+3 _ACT NO
+2 _SCS
+3 _ORD 131
+3 _ACT NO
+2 _NCS
+3 _ORD 177
+3 _ACT YES
+1 _PTF @TF33@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 174
+3 _ACT NO
+2 _SCS
+3 _ORD 228
+3 _ACT NO
+2 _NCS
+3 _ORD 229
+3 _ACT YES
+1 _PTF @TF32@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 232
+3 _ACT NO
+2 _SCS
+3 _ORD 295
+3 _ACT NO
+2 _NCS
+3 _ORD 284
+3 _ACT YES
+1 _PTF @TF31@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 329
+3 _ACT NO
+2 _SCS
+3 _ORD 347
+3 _ACT NO
+2 _NCS
+3 _ORD 356
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 435
+3 _ACT YES
+2 _NCS
+3 _ORD 428
+3 _ACT YES
+0 @T1@ _PTE
+1 _NKY PlaceTemplate_Australia
+1 _FAV
+1 CTRY AU
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF59@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF58@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T2@ _PTE
+1 _NKY PlaceTemplate_Austria
+1 CTRY AT
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF16@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF1@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF3@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T3@ _PTE
+1 _NKY PlaceTemplate_Belgium
+1 CTRY BE
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF27@
+2 _USA Administrative Division 4
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF9@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF47@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF52@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 500
+3 _ACT NO
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 500
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 500
+3 _ACT YES
+0 @T4@ _PTE
+1 _NKY PlaceTemplate_Bosnia and Herzegovina
+1 CTRY BA
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF42@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF20@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T5@ _PTE
+1 _NKY PlaceTemplate_Brazil
+1 CTRY BR
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF11@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF13@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF55@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T6@ _PTE
+1 _NKY PlaceTemplate_Bulgaria
+1 CTRY BG
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF38@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF37@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T7@ _PTE
+1 _NKY PlaceTemplate_Canada (Province)
+1 _FAV
+1 CTRY CA
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF27@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF47@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T8@ _PTE
+1 _NKY PlaceTemplate_Canada (Territory)
+1 _FAV
+1 CTRY CA
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF27@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF59@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T9@ _PTE
+1 _NKY PlaceTemplate_China
+1 CTRY CN
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF72@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF74@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF73@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T10@ _PTE
+1 _NKY PlaceTemplate_Croatia
+1 CTRY HR
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF40@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF51@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T11@ _PTE
+1 _NKY PlaceTemplate_Czechia
+1 CTRY CZ
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF36@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF39@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF52@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T12@ _PTE
+1 _NKY PlaceTemplate_Denmark
+1 CTRY DK
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF21@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF54@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T13@ _PTE
+1 _NKY PlaceTemplate_England (Borough)
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF2@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF8@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF52@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T14@ _PTE
+1 _NKY PlaceTemplate_England (Parish)
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF44@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF8@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF52@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T15@ _PTE
+1 _NKY PlaceTemplate_Finland
+1 CTRY FI
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF23@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF26@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T16@ _PTE
+1 _NKY PlaceTemplate_France
+1 _DEF
+1 _FAV
+1 CTRY FR
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF12@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF57@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 500
+3 _ACT NO
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 500
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 500
+3 _ACT YES
+0 @T17@ _PTE
+1 _NKY PlaceTemplate_Generic
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF8@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF58@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T18@ _PTE
+1 _NKY PlaceTemplate_Generic_OneComponent
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+0 @T19@ _PTE
+1 _NKY PlaceTemplate_Generic_ThreeComponents
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF58@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+0 @T20@ _PTE
+1 _NKY PlaceTemplate_Generic_TwoComponents
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+0 @T21@ _PTE
+1 _NKY PlaceTemplate_Germany
+1 _FAV
+1 CTRY DE
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF16@
+2 _USA Administrative Division 4
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF24@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF50@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF3@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 500
+3 _ACT NO
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 500
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 500
+3 _ACT YES
+0 @T22@ _PTE
+1 _NKY PlaceTemplate_Greece
+1 CTRY GR
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF65@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF66@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF64@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T23@ _PTE
+1 _NKY PlaceTemplate_Hungary
+1 CTRY HU
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF19@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT NO
+1 _PTF @TF61@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT NO
+1 _PTF @TF63@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 400
+3 _ACT NO
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+0 @T24@ _PTE
+1 _NKY PlaceTemplate_Ireland
+1 CTRY IE
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF9@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF8@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T25@ _PTE
+1 _NKY PlaceTemplate_Italy
+1 CTRY IT
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF6@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF48@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF53@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T26@ _PTE
+1 _NKY PlaceTemplate_Mexico
+1 CTRY MX
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF11@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF13@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T27@ _PTE
+1 _NKY PlaceTemplate_Netherlands
+1 CTRY NL
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF15@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF49@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T28@ _PTE
+1 _NKY PlaceTemplate_Norway
+1 CTRY NO
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF21@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF14@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T29@ _PTE
+1 _NKY PlaceTemplate_Poland
+1 CTRY PL
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF17@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF46@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF62@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T30@ _PTE
+1 _NKY PlaceTemplate_Portugal
+1 CTRY PT
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF30@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF10@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF55@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T31@ _PTE
+1 _NKY PlaceTemplate_Romania
+1 CTRY RO
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF29@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF18@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T32@ _PTE
+1 _NKY PlaceTemplate_Russia
+1 CTRY RU
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF70@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF68@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T33@ _PTE
+1 _NKY PlaceTemplate_Serbia
+1 CTRY RS
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF43@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF41@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T34@ _PTE
+1 _NKY PlaceTemplate_Slovakia
+1 CTRY SK
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF36@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF39@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF22@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T35@ _PTE
+1 _NKY PlaceTemplate_Slovenia
+1 CTRY SI
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF60@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+0 @T36@ _PTE
+1 _NKY PlaceTemplate_Spain
+1 CTRY ES
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF28@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF48@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF56@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T37@ _PTE
+1 _NKY PlaceTemplate_Sweden
+1 CTRY SE
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF21@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF54@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+0 @T38@ _PTE
+1 _NKY PlaceTemplate_Switzerland
+1 CTRY CH
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF16@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF1@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF20@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T39@ _PTE
+1 _NKY PlaceTemplate_United Kingdom
+1 _FAV
+1 CTRY GB
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF9@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF8@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF52@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 @T40@ _PTE
+1 _NKY PlaceTemplate_United States of America
+1 _FAV
+1 CTRY US
+1 _PTF @TF45@
+2 _USA Place Name
+2 _VCS
+3 _ORD 0
+3 _ACT YES
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+2 _NCS
+3 _ORD 0
+3 _ACT YES
+1 _PTF @TF27@
+2 _USA Administrative Division 3
+2 _VCS
+3 _ORD 100
+3 _ACT NO
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+2 _NCS
+3 _ORD 100
+3 _ACT YES
+1 _PTF @TF8@
+2 _USA Administrative Division 2
+2 _VCS
+3 _ORD 200
+3 _ACT NO
+2 _SCS
+3 _ORD 300
+3 _ACT NO
+2 _NCS
+3 _ORD 200
+3 _ACT YES
+1 _PTF @TF58@
+2 _USA Administrative Division 1
+2 _VCS
+3 _ORD 300
+3 _ACT NO
+2 _SCS
+3 _ORD 400
+3 _ACT NO
+2 _NCS
+3 _ORD 300
+3 _ACT YES
+1 _PTF @TF7@
+2 _USA Country Name
+2 _VCS
+3 _ORD 400
+3 _ACT NO
+2 _SCS
+3 _ORD 100
+3 _ACT YES
+2 _NCS
+3 _ORD 400
+3 _ACT YES
+0 _PLAC Saint-André-des-Eaux,Loire-Atlantique,Pays de la Loire,France
+1 _PTE @T16@
+1 TRAN Saint-Andre, Saint-Andre-des-Eaux, Saint-André, Saint-André-des-Eaux, Sant-Andrev-an-Dour
+1 _GEO 2981745
+1 MAP
+2 LONG W2.311220052777778
+2 LATI N47.314010052777775
+0 @TF0@ _STF
+1 _NKY SourceTemplate_KeyName_FileNumber
+1 _TAG FILN
+1 _TYP Text
+0 @TF1@ _STF
+1 _NKY SourceTemplate_KeyName_StateTerritory
+1 _TAG TERR
+1 _TYP Text
+0 @TF2@ _STF
+1 NAME Cote
+1 _TAG CALN
+1 _TYP Text
+0 @TF3@ _STF
+1 _NKY SourceTemplate_KeyName_Date
+1 _TAG DATE
+1 _TYP Date
+0 @TF4@ _STF
+1 _NKY SourceTemplate_KeyName_Place
+1 _TAG PLAC
+1 _TYP Text
+0 @TF5@ _STF
+1 _NKY SourceTemplate_KeyName_County
+1 _TAG COUN
+1 _TYP Text
+0 @TF6@ _STF
+1 _NKY SourceTemplate_KeyName_Title
+1 _TAG TITL
+1 _TYP Text
+0 @T0@ _STE
+1 _NKY SourceTemplate_LocalAndStateRecord_Digital
+1 _DEF
+1 _FAV
+1 _STF @TF6@
+2 _TTL
+2 _SCS
+3 _ORD 0
+3 _ACT YES
+3 _FOM Bold
+2 _LCS
+3 _ORD 0
+3 _ACT YES
+3 _FOM Bold
+1 _STF @TF4@
+2 _SCS
+3 _ORD -28.1089
+3 _ACT NO
+2 _LCS
+3 _ORD -18.4053375
+3 _ACT NO
+1 _STF @TF1@
+2 _SCS
+3 _ORD -71
+3 _ACT NO
+2 _LCS
+3 _ORD -79.4825
+3 _ACT NO
+1 _STF @TF5@
+2 _SCS
+3 _ORD -37.985
+3 _ACT NO
+2 _LCS
+3 _ORD -26.4825
+3 _ACT NO
+1 _STF @TF3@
+2 _DAT
+2 _SCS
+3 _ORD 200
+3 _ACT NO
+3 _BRM Brackets
+2 _LCS
+3 _ORD 400
+3 _ACT NO
+3 _BRM Brackets
+1 _STF @TF2@
+2 _SCS
+3 _ORD 500
+3 _ACT YES
+2 _LCS
+3 _ORD 500
+3 _ACT YES
+1 _STF @TF0@
+2 _SCS
+3 _ORD 800
+3 _ACT NO
+2 _LCS
+3 _ORD 800
+3 _ACT NO
+0 @90632148@ SOUR
+1 _STE @T0@
+1 DATE 1714
+1 CALN 3E 151/2
+1 TITL Saint-André-des-Eaux - BMS - 1714
+1 COUN Loire-Atlantique
+1 PLAC Saint-André-des-Eaux
+1 TERR Pays de la Loire
+1 OBJE @83144894@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:18:57
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:18:27
+0 @59370829@ SOUR
+1 _STE @T0@
+1 TITL Saint-André-des-Eaux - Décès - an IX
+1 CALN 3E 151/17
+1 PLAC Saint-André-des-Eaux
+1 COUN Loire-Atlantique
+1 TERR Pays de la Loire
+1 OBJE @5570618@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:16:35
+1 CREA
+2 DATE 31 JAN 2025
+3 TIME 14:10:56
+0 @53694529@ SOUR
+1 _STE @T0@
+1 COUN Loire-Atlantique
+1 DATE 1742
+1 TERR Pays de la Loire
+1 TITL Saint-André-des-Eaux - BMS - 1742
+1 PLAC Saint-André-des-Eaux
+1 CALN 3E 151/2
+1 OBJE @56775982@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:09:36
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:09:02
+0 @81166136@ SOUR
+1 _STE @T0@
+1 DATE 1686
+1 CALN 3E 151/1
+1 TITL Saint-André-des-Eaux - BMS - 1686
+1 COUN Loire-Atlantique
+1 PLAC Saint-André-des-Eaux
+1 TERR Pays de la Loire
+1 OBJE @34989133@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 18:20:55
+1 CREA
+2 DATE 17 FEB 2025
+3 TIME 15:31:46
+0 @73444066@ SOUR
+1 _STE @T0@
+1 PLAC Saint-André-des-Eaux
+1 TITL Saint-André-des-Eaux - BMS - 1723(avril)-1729(août)
+1 COUN Loire-Atlantique
+1 TERR Pays de la Loire
+1 OBJE @82647370@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:28:37
+1 CREA
+2 DATE 31 JAN 2025
+3 TIME 14:13:26
+0 @54157650@ SOUR
+1 _STE @T0@
+1 TITL Saint-André-des-Eaux - BMS - 1712
+1 DATE 1712
+1 CALN 3E 151/1
+1 COUN Loire-Atlantique
+1 PLAC Saint-André-des-Eaux
+1 TERR Pays de la Loire
+1 OBJE @35003024@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 22:46:20
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:39:37
+0 @15219202@ SOUR
+1 _STE @T0@
+1 TERR Pays de la Loire
+1 DATE 1703
+1 CALN 3E 151/1
+1 COUN Loire-Atlantique
+1 TITL Saint-André-des-Eaux - BMS - 1703
+1 PLAC Saint-André-des-Eaux
+1 OBJE @48363597@
+1 REPO @475513@
+1 CHAN
+2 DATE 06 MAY 2026
+3 TIME 11:54:20
+1 CREA
+2 DATE 28 APR 2025
+3 TIME 15:13:40
+0 @86089398@ SOUR
+1 _STE @T0@
+1 PLAC Saint-André-des-Eaux
+1 TERR Pays de la Loire
+1 DATE 1778
+1 CALN 3E 151/3
+1 TITL Saint-André-des-Eaux - BMS - 1778
+1 COUN Loire-Atlantique
+1 OBJE @60764600@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:45:41
+1 CREA
+2 DATE 31 JAN 2025
+3 TIME 17:42:08
+0 @3459628@ SOUR
+1 _STE @T0@
+1 PLAC Saint-André-des-Eaux
+1 TITL Saint-André-des-Eaux - BMS - 1739
+1 DATE 1739
+1 CALN 3E 151/2
+1 TERR Pays de la Loire
+1 COUN Loire-Atlantique
+1 OBJE @50982944@
+1 REPO @475513@
+1 CHAN
+2 DATE 06 MAY 2026
+3 TIME 11:15:22
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:11:44
+0 @78733213@ SOUR
+1 _STE @T0@
+1 CALN 3E 151/2
+1 TITL Saint-André-des-Eaux - BMS - 1713
+1 PLAC Saint-André-des-Eaux
+1 TERR Pays de la Loire
+1 DATE 1713
+1 COUN Loire-Atlantique
+1 OBJE @83526664@
+1 REPO @475513@
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 17:24:40
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:24:00
+0 @90448478@ REPO
+1 NAME AD58 - Archives départementales de la Nièvre
+1 CHAN
+2 DATE 26 JAN 2025
+3 TIME 10:28:32
+1 CREA
+2 DATE 26 JAN 2025
+3 TIME 10:28:18
+0 @88027222@ REPO
+1 NAME Archives du Voïvodine
+1 ADDR
+2 CTRY Serbie
+1 CHAN
+2 DATE 24 APR 2025
+3 TIME 15:28:51
+1 CREA
+2 DATE 24 APR 2025
+3 TIME 15:28:27
+0 @67302602@ REPO
+1 NAME AD17 - Archives départementales de la Charente-Maritime
+1 ADDR
+2 CITY La Rochelle
+2 STAE Nouvelle Aquitaine
+2 CTRY France
+1 CHAN
+2 DATE 12 JUL 2025
+3 TIME 23:57:03
+1 CREA
+2 DATE 12 JUL 2025
+3 TIME 23:56:29
+0 @78866566@ REPO
+1 NAME AD91 - Archives départementales de l'Essonne
+1 CHAN
+2 DATE 20 FEB 2025
+3 TIME 09:35:25
+1 CREA
+2 DATE 20 FEB 2025
+3 TIME 09:34:57
+0 @81584810@ REPO
+1 NAME AM Nantes - Archives municipales de Nantes
+1 CHAN
+2 DATE 21 MAY 2025
+3 TIME 19:40:09
+1 CREA
+2 DATE 21 MAY 2025
+3 TIME 19:39:54
+0 @52538100@ REPO
+1 NAME AD75 - Archives départementales de Paris
+1 CHAN
+2 DATE 26 JAN 2025
+3 TIME 18:21:52
+1 CREA
+2 DATE 26 JAN 2025
+3 TIME 18:20:04
+0 @92958468@ REPO
+1 NAME AD74 - Archives départementales de Haute-Savoie
+1 CHAN
+2 DATE 05 FEB 2025
+3 TIME 10:14:34
+1 CREA
+2 DATE 05 FEB 2025
+3 TIME 10:14:08
+0 @64943938@ REPO
+1 NAME AN - Archives nationales du Luxembourg
+1 CHAN
+2 DATE 27 JAN 2025
+3 TIME 15:39:45
+1 CREA
+2 DATE 26 JAN 2025
+3 TIME 18:26:34
+0 @62075428@ REPO
+1 NAME Family Search
+1 CHAN
+2 DATE 24 APR 2025
+3 TIME 19:21:28
+1 CREA
+2 DATE 24 APR 2025
+3 TIME 19:21:18
+0 @12456656@ REPO
+1 NAME AD53 - Archives départementales de la Mayenne
+1 CHAN
+2 DATE 30 JAN 2025
+3 TIME 19:46:18
+1 CREA
+2 DATE 30 JAN 2025
+3 TIME 19:46:07
+0 @10725346@ REPO
+1 NAME AD54 - Archives départementales de la Meurthe-et-Moselle
+1 CHAN
+2 DATE 26 JAN 2025
+3 TIME 18:22:42
+1 CREA
+2 DATE 26 JAN 2025
+3 TIME 18:22:28
+0 @62158493@ REPO
+1 NAME AD15 - Archives départementales du Cantal
+1 ADDR
+2 CTRY France
+1 CHAN
+2 DATE 12 APR 2025
+3 TIME 17:40:10
+1 CREA
+2 DATE 12 APR 2025
+3 TIME 17:39:53
+0 @64901071@ REPO
+1 NAME Gallica
+1 CHAN
+2 DATE 08 MAR 2025
+3 TIME 10:34:19
+1 CREA
+2 DATE 08 MAR 2025
+3 TIME 10:34:15
+0 @38770424@ REPO
+1 NAME AD56 - Archives départementales du Morbihan
+1 CHAN
+2 DATE 26 JAN 2025
+3 TIME 17:55:21
+1 CREA
+2 DATE 26 JAN 2025
+3 TIME 17:55:02
+0 @55742833@ REPO
+1 NAME AD94 - Archives départementales du Val-de-Marne
+1 CHAN
+2 DATE 12 FEB 2025
+3 TIME 21:36:51
+1 CREA
+2 DATE 12 FEB 2025
+3 TIME 21:36:31
+0 @41364548@ REPO
+1 NAME AD57 - Archives départementales de la Moselle
+1 CHAN
+2 DATE 31 JUL 2025
+3 TIME 15:17:05
+1 CREA
+2 DATE 31 JUL 2025
+3 TIME 15:16:51
+0 @5899186@ REPO
+1 NAME AD22 - Archives départementales des Côtes d'Armor
+1 CHAN
+2 DATE 07 FEB 2025
+3 TIME 18:50:40
+1 CREA
+2 DATE 07 FEB 2025
+3 TIME 18:50:12
+0 @9756836@ REPO
+1 NAME Archives d'État de Genève
+1 CHAN
+2 DATE 02 MAY 2025
+3 TIME 13:23:00
+1 CREA
+2 DATE 02 MAY 2025
+3 TIME 13:22:44
+0 @475513@ REPO
+1 NAME AD44 - Archives départementales de Loire-Atlantique
+1 ADDR
+2 CITY Nantes
+2 STAE Pays de la Loire
+2 CTRY France
+1 CHAN
+2 DATE 27 JAN 2025
+3 TIME 15:39:47
+1 CREA
+2 DATE 26 JAN 2025
+3 TIME 10:27:50
+0 @28560226@ REPO
+1 NAME AD55 - Archives départementales de la Meuse
+1 CHAN
+2 DATE 30 JAN 2025
+3 TIME 16:20:25
+1 CREA
+2 DATE 30 JAN 2025
+3 TIME 16:20:09
+0 @92264972@ REPO
+1 NAME AD59 - Archives départementales du Nord
+1 CHAN
+2 DATE 03 MAY 2026
+3 TIME 09:24:26
+1 CREA
+2 DATE 03 MAY 2026
+3 TIME 09:24:15
+0 @83144894@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196284
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:18:57
+1 _SIF 0
+1 _SMC 0
+0 @5570618@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440131482
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 31 JAN 2025
+3 TIME 14:11:06
+1 _SIF 0
+1 _SMC 0
+0 @56775982@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196293
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:09:36
+1 _SIF 0
+1 _SMC 0
+0 @34989133@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196262
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 17 FEB 2025
+3 TIME 15:34:38
+1 _SIF 0
+1 _SMC 0
+0 @82647370@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440404932
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 31 JAN 2025
+3 TIME 14:14:29
+1 _SIF 0
+1 _SMC 0
+0 @35003024@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196282
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:40:12
+1 _SIF 0
+1 _SMC 0
+0 @48363597@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196277
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 28 APR 2025
+3 TIME 15:14:25
+1 _SIF 0
+1 _SMC 0
+0 @60764600@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196325
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 31 JAN 2025
+3 TIME 17:42:20
+1 _SIF 0
+1 _SMC 0
+0 @50982944@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196290
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:12:19
+1 _SIF 0
+1 _SMC 0
+0 @83526664@ OBJE
+1 FILE https://archives-numerisees.loire-atlantique.fr/v2/ad44/visualiseur/registre.html?id=440196283
+2 TITL Registres d'état civil - Visualiseur
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:24:40
+1 _SIF 0
+1 _SMC 0
+0 @93656552@ NOTE
+1 CONT Beau frère René MORIO à son deuxième mariage, qui est-il ?
+1 CHAN
+2 DATE 05 MAY 2025
+3 TIME 18:00:10
+1 CREA
+2 DATE 05 MAY 2025
+3 TIME 17:59:53
+0 @L0@ _LABL
+1 TITL Acte demandé
+1 COLR 0.978233;0.473131;0.210315
+0 @L1@ _LABL
+1 TITL Descendance complète
+1 COLR 1.000000;0.102707;0.865336
+0 TRLR

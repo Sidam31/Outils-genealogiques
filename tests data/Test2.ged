@@ -1,0 +1,34 @@
+﻿0 HEAD
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SOUR ANCESTRIS
+2 VERS 14.0.14220
+2 NAME Ancestris
+2 CORP Ancestris Team
+3 ADDR https://www.ancestris.org
+1 DEST ANY
+1 DATE 13 JUL 2026
+2 TIME 18:33:39
+1 SUBM @B00001@
+1 FILE Test.ged
+1 CHAR UTF-8
+1 PLAC
+2 FORM Lieudit, Commune, Code_INSEE, Code_Postal, Département, Région, Pays
+1 NOTE Cette généalogie a été créée avec Ancestris le 13/07/2026 18:30.
+0 @B00001@ SUBM
+0 @I00001@ INDI
+1 NAME Test /Test/
+2 GIVN Test
+2 SURN Test
+1 SEX M
+1 BIRT
+2 DATE 15 JUL 1856
+2 PLAC Guingamp, Côtes-du-Nord, France
+1 DEAT
+2 DATE 7 AUG 1869
+2 PLAC Romorantin, Loir-et-Cher, France
+1 CHAN
+2 DATE 13 JUL 2026
+3 TIME 18:33:37
+0 TRLR

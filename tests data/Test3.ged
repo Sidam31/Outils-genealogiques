@@ -1,0 +1,33 @@
+0 HEAD
+1 SOUR Gramps
+2 VERS AIO64-6.0.6--1
+2 NAME Gramps
+1 DATE 18 MAR 2026
+2 TIME 22:26:51
+1 SUBM @SUBM@
+1 COPR Copyright (c) 2026 .
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG French
+0 @SUBM@ SUBM
+1 NAME
+0 @1089I@ INDI
+1 NAME Florence /de Lartigue/
+2 TYPE birth
+2 GIVN Florence
+2 SURN de Lartigue
+1 SEX F
+1 BIRT
+2 DATE 29 MAY 1966
+2 PLAC Toulouse, Toulouse, Arrondissement de Toulouse, Haute-Garonne, Occitanie, France
+3 MAP
+4 LATI N43.60426
+4 LONG E1.44367
+1 FAMC @36132U@
+2 PEDI birth
+1 NOTE @N0576@
+1 CHAN
+2 DATE 19 AUG 2025
+3 TIME 14:13:04

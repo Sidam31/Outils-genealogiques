@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisuGedcom — Recensements manquants</title>
     <link href="assets/css/app.css" rel="stylesheet">
-    <style>body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }</style>
+    <style>
+        body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }
+        th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+        th.sortable:hover { color: #2980b9; }
+        th.sortable .sort-arrow { display: inline-block; width: 0.9em; opacity: 0.4; }
+        th.sortable.sort-active .sort-arrow { opacity: 1; }
+    </style>
 </head>
 <body>
 
@@ -50,7 +56,11 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Naissance</th><th>Recensements à rechercher</th>
+                        <th class="sortable" data-sort="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Recensements à rechercher</th>
                         <th>Éléments de validation</th>
                     </tr>
                 </thead>
@@ -73,6 +83,38 @@ import {
 let list = [], map = new Map(), fams = new Map();
 let ancestorPersonId = null;
 let lastResults = [];
+let sortKey = 'sosa', sortDir = 1;
+
+const SORT_COMPARATORS = {
+    sosa: r => r.sosa ?? Infinity,
+    name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
+    birth: r => r.birthEst.year
+};
+
+function sortedResults() {
+    const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+    return [...lastResults].sort((a, b) => {
+        const ka = getKey(a), kb = getKey(b);
+        const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+        return cmp * sortDir;
+    });
+}
+
+document.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+        updateSortIndicators();
+        renderResults();
+    });
+});
+function updateSortIndicators() {
+    document.querySelectorAll('th.sortable').forEach(th => {
+        const active = th.dataset.sort === sortKey;
+        th.classList.toggle('sort-active', active);
+        th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+    });
+}
 
 const analyzeBtn = document.getElementById('analyzeBtn');
 const statusEl = document.getElementById('status');
@@ -108,7 +150,6 @@ analyzeBtn.addEventListener('click', () => {
     const censusDates = parseCensusDatesInput(censusDatesInput.value);
     lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet, deptCodes, censusDates });
     lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
-    if (sosaMap) lastResults.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
 
     statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
     if (!lastResults.length) {
@@ -119,8 +160,15 @@ analyzeBtn.addEventListener('click', () => {
     resultsWrap.classList.remove('hidden');
     csvBtn.classList.remove('hidden');
 
+    sortKey = sosaMap ? 'sosa' : 'name';
+    sortDir = 1;
+    updateSortIndicators();
+    renderResults();
+});
+
+function renderResults() {
     resultsBody.innerHTML = '';
-    lastResults.forEach(r => {
+    sortedResults().forEach(r => {
         const p = r.person;
         const tr = document.createElement('tr');
         const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
@@ -159,12 +207,12 @@ analyzeBtn.addEventListener('click', () => {
         `;
         resultsBody.appendChild(tr);
     });
-});
+}
 
 csvBtn.addEventListener('click', () => {
     if (!lastResults.length) return;
     const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Dates de recensement a rechercher', 'Parents', 'Conjoint(e)s', 'Enfants'];
-    const rows = lastResults.map(r => [
+    const rows = sortedResults().map(r => [
         r.sosa != null ? r.sosa : '',
         r.person.id,
         r.person.surname || '',

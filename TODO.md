@@ -1,0 +1,2 @@
+- Ajouter suggestion de recherche tutelles si enfant de moins de 25 ans quand pere meurt
+  -> placement décidé : qualite.html (nouveau type d'anomalie/suggestion détectée)
