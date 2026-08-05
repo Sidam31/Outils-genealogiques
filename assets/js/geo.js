@@ -97,3 +97,11 @@ export function deptCode(deptDisplay) {
     if(!deptDisplay) return null;
     return deptDisplay.split(' - ')[0];
 }
+
+// Extrait le nom ("Gironde") du même libellé, pour les outils qui affichent ou recherchent sur le
+// nom plutôt que le code.
+export function deptName(deptDisplay) {
+    if(!deptDisplay) return null;
+    const i = deptDisplay.indexOf(' - ');
+    return i === -1 ? deptDisplay : deptDisplay.slice(i + 3);
+}

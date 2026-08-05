@@ -180,7 +180,7 @@ function renderResults() {
         const hitsDisplay = r.hits.map(h => {
             const buttons = prenoms.map(fn => {
                 const label = fn ? `${fn} — ${h.year}` : `${h.year}`;
-                return `<a class="btn-link" href="${buildFranceArchivesUrl(p, h.city, h.year, fn)}" target="_blank" rel="noopener">📋 ${escapeHtml(label)}</a>`;
+                return `<a class="btn-link" href="${buildFranceArchivesUrl(p, h.city, h.year, fn, h.dept)}" target="_blank" rel="noopener">📋 ${escapeHtml(label)}</a>`;
             }).join('');
             return `<div style="margin-bottom:6px;">
                 <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city)} (${escapeHtml(h.dept)})</div>

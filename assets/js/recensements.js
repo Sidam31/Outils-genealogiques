@@ -1,4 +1,4 @@
-import { deptCode } from './geo.js';
+import { deptCode, deptName } from './geo.js';
 import { estimateBirthYear } from './inference.js';
 
 // Départements dont les tables de recensement nominatif sont indexées par la base de noms
@@ -125,13 +125,16 @@ export function computeMissingRecensements(list, map, fams, opts) {
 
 // Les recensements FranceArchives sont indexés par OCR sur des registres manuscrits : les
 // transcriptions automatiques comportent fréquemment des erreurs, en particulier en fin de mot
-// (finales avalées, accents mal reconnus...). On tronque donc chaque mot du nom/prénom et on le
-// termine par "*" (troncature multi-caractères, syntaxe documentée par FranceArchives) plutôt que
-// de chercher l'orthographe exacte telle qu'actée dans le GEDCOM — au prix de plus de résultats à
-// trier soi-même, mais sans risquer de rater la bonne personne à cause d'une seule lettre mal OCRisée.
+// (finales avalées, accents mal reconnus...). On tronque donc chaque mot et on le termine par "*"
+// (troncature multi-caractères, syntaxe documentée par FranceArchives) plutôt que de chercher
+// l'orthographe exacte telle qu'actée dans le GEDCOM — au prix de plus de résultats à trier
+// soi-même, mais sans risquer de rater la bonne personne à cause d'une seule lettre mal OCRisée.
+// En dessous de 3 lettres il n'y a plus rien à gagner à tronquer davantage : testé manuellement sur
+// FranceArchives, "~" (mot entier, sans troncature) y élargit mieux la recherche que "*" sur un
+// radical aussi court.
 function fuzzyToken(word) {
     const w = word.trim();
-    if (w.length <= 3) return w + '*';
+    if (w.length <= 3) return w + '~';
     const keepLen = Math.max(3, Math.min(Math.ceil(w.length * 0.7), w.length - 1));
     return w.slice(0, keepLen) + '*';
 }
@@ -141,6 +144,11 @@ function fuzzyToken(word) {
 function fuzzyField(text) {
     if (!text) return '';
     return text.trim().split(/\s+/).map(fuzzyToken).join(' ');
+}
+// Sur le champ Prénoms, "~" (mot entier, sans troncature) s'est montré plus efficace que "*" lors
+// des tests manuels sur FranceArchives, quelle que soit la longueur du prénom.
+function fuzzyForename(word) {
+    return (word || '').trim() + '~';
 }
 
 // Quand plusieurs prénoms sont actés (ex. "Marie Louise"), la personne peut être enregistrée au
@@ -156,13 +164,19 @@ export function givenNameOptions(p) {
 
 // Lien pré-rempli vers la base de noms "recensement" de FranceArchives, ciblé sur UNE année de
 // recensement précise (es_date_min = es_date_max = cette année, puisqu'on sait déjà exactement
-// quel recensement chercher) et UN prénom (`forename`, choisi parmi givenNameOptions(p), ou null
-// pour ne pas filtrer par prénom).
-export function buildFranceArchivesUrl(p, city, censusYear, forename) {
+// quel recensement chercher), UN prénom (`forename`, choisi parmi givenNameOptions(p), ou null
+// pour ne pas filtrer par prénom) et le département (`dept`, au format "XX - Nom" tel que stocké
+// par analyzePlace) utilisé en secours quand la commune (`city`) n'est pas reconnue par l'index.
+export function buildFranceArchivesUrl(p, city, censusYear, forename, dept) {
     const params = new URLSearchParams();
     if (p.surname) params.set('es_names', fuzzyField(p.surname));
-    if (forename) params.set('es_forenames', fuzzyToken(forename));
-    if (city) params.set('es_locations', city);
+    if (forename) params.set('es_forenames', fuzzyForename(forename));
+    // Le nom de commune n'est pas toujours reconnu par l'index (graphie ancienne, fusion de
+    // communes...) : on l'OU, en phrase exacte, avec le nom du département en secours.
+    const dn = deptName(dept);
+    if (city && dn) params.set('es_locations', `"${city}"~"${dn}"`);
+    else if (city) params.set('es_locations', `"${city}"`);
+    else if (dn) params.set('es_locations', `"${dn}"`);
     if (p.sex === 'M' || p.sex === 'F') params.set('es_gender', p.sex === 'M' ? 'h' : 'f');
     if (censusYear != null) {
         params.set('es_date_min', censusYear);
