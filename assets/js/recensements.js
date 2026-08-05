@@ -145,38 +145,31 @@ function fuzzyField(text) {
     if (!text) return '';
     return text.trim().split(/\s+/).map(fuzzyToken).join(' ');
 }
-// Sur le champ Prénoms, "~" (mot entier, sans troncature) s'est montré plus efficace que "*" lors
-// des tests manuels sur FranceArchives, quelle que soit la longueur du prénom.
-function fuzzyForename(word) {
-    return (word || '').trim() + '~';
-}
-
+// Sur le champ Prénoms, l'opérateur "~" entre prénoms entiers (sans troncature "*") s'est montré
+// plus efficace que la troncature, vérifié manuellement sur FranceArchives ("Fernand~Paul~Georges").
 // Quand plusieurs prénoms sont actés (ex. "Marie Louise"), la personne peut être enregistrée au
-// recensement sous un seul d'entre eux : on propose donc un lien de recherche PAR prénom plutôt
-// qu'un unique lien combinant tous les prénoms (qui, faute d'opérateur "ET" entre eux dans ce
-// champ, ne cible pas mieux la bonne personne et dilue la troncature floue). Renvoie [null] quand
-// il n'y a aucun prénom connu (un seul lien, sans filtre prénom).
-export function givenNameOptions(p) {
-    if (!p.given) return [null];
-    const words = p.given.trim().split(/\s+/).filter(Boolean);
-    return words.length ? words : [null];
+// recensement sous un seul d'entre eux : on les OU donc tous ensemble en un seul groupe plutôt que
+// d'ouvrir un lien de recherche par prénom.
+function fuzzyForenameField(text) {
+    if (!text) return '';
+    return text.trim().split(/\s+/).filter(Boolean).join('~');
 }
 
 // Lien pré-rempli vers la base de noms "recensement" de FranceArchives, ciblé sur UNE année de
 // recensement précise (es_date_min = es_date_max = cette année, puisqu'on sait déjà exactement
-// quel recensement chercher), UN prénom (`forename`, choisi parmi givenNameOptions(p), ou null
-// pour ne pas filtrer par prénom) et le département (`dept`, au format "XX - Nom" tel que stocké
-// par analyzePlace) utilisé en secours quand la commune (`city`) n'est pas reconnue par l'index.
-export function buildFranceArchivesUrl(p, city, censusYear, forename, dept) {
+// quel recensement chercher) et le département (`dept`, au format "XX - Nom" tel que stocké par
+// analyzePlace) utilisé en secours quand la commune (`city`) n'est pas reconnue par l'index.
+export function buildFranceArchivesUrl(p, city, censusYear, dept) {
     const params = new URLSearchParams();
     if (p.surname) params.set('es_names', fuzzyField(p.surname));
-    if (forename) params.set('es_forenames', fuzzyForename(forename));
+    if (p.given) params.set('es_forenames', fuzzyForenameField(p.given));
     // Le nom de commune n'est pas toujours reconnu par l'index (graphie ancienne, fusion de
-    // communes...) : on l'OU, en phrase exacte, avec le nom du département en secours.
+    // communes...) : on l'OU avec le nom du département en secours, vérifié manuellement sur
+    // FranceArchives ("Belleville~Rhône", sans guillemets).
     const dn = deptName(dept);
-    if (city && dn) params.set('es_locations', `"${city}"~"${dn}"`);
-    else if (city) params.set('es_locations', `"${city}"`);
-    else if (dn) params.set('es_locations', `"${dn}"`);
+    if (city && dn) params.set('es_locations', `${city}~${dn}`);
+    else if (city) params.set('es_locations', city);
+    else if (dn) params.set('es_locations', dn);
     if (p.sex === 'M' || p.sex === 'F') params.set('es_gender', p.sex === 'M' ? 'h' : 'f');
     if (censusYear != null) {
         params.set('es_date_min', censusYear);
