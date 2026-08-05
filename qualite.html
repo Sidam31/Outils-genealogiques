@@ -24,6 +24,7 @@
                 <label><input type="checkbox" id="checkMarr"> Mariage (MARR)</label>
                 <label><input type="checkbox" id="checkDeat" checked> Décès (DEAT)</label>
                 <label><input type="checkbox" id="checkBuri"> Inhumation (BURI)</label>
+                <label><input type="checkbox" id="checkTutelle"> Tutelle probable (père)</label>
             </div>
 
             <div class="age-filter-container" id="deathFilterConfig">
@@ -60,6 +61,14 @@
                     <input type="number" id="maxYearBuri" value=1900 style="width:80px;">.
                 </label>
                 <div class="hint">(Laisser vide pour ne pas filtrer.)</div>
+            </div>
+
+            <div class="age-filter-container" id="tutelleFilterConfig" style="opacity:0.4; pointer-events:none;">
+                <label for="maxAgeTutelle">
+                    <strong>Filtre Tutelle :</strong> Suggérer une tutelle si l'enfant a moins de
+                    <input type="number" id="maxAgeTutelle" value="25" min="0" style="width:60px;"> ans à la mort de son père.
+                </label>
+                <div class="hint">Coutume fréquente en Bretagne (et ailleurs) : trace probable d'un acte de tutelle/curatelle à rechercher (le père doit avoir une date de décès actée).</div>
             </div>
 
             <div class="map-scope-row">
@@ -102,11 +111,11 @@
             <table id="qualityTable">
                 <thead>
                     <tr>
-                        <th>Sosa</th>
+                        <th class="sortable" data-sort="sosa">Sosa <span class="sort-arrow"></span></th>
                         <th>ID</th>
-                        <th>Nom</th>
-                        <th>Naissance (Calc)</th>
-                        <th>Événement</th>
+                        <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="birth">Naissance (Calc) <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="type">Événement <span class="sort-arrow"></span></th>
                         <th>Problème</th>
                     </tr>
                 </thead>
@@ -127,6 +136,39 @@ import { computeQualityIssues, drawIssuesBarChart, drawIssuesTimeline } from './
 
 let list = [], map = new Map(), fams = new Map(), qualityIssues = [];
 let qualityPersonId = null;
+let sortKey = 'sosa', sortDir = 1;
+
+const SORT_COMPARATORS = {
+    sosa: i => i.sosa ?? Infinity,
+    name: i => (i.name || '').toLocaleUpperCase('fr'),
+    birth: i => i.birthYear ?? -Infinity,
+    type: i => getEventLabel(i.type)
+};
+
+function sortedIssues() {
+    const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+    return [...qualityIssues].sort((a, b) => {
+        const ka = getKey(a), kb = getKey(b);
+        const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+        return cmp * sortDir;
+    });
+}
+
+document.querySelectorAll('#qualityTable th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+        updateSortIndicators();
+        renderPreview();
+    });
+});
+function updateSortIndicators() {
+    document.querySelectorAll('#qualityTable th.sortable').forEach(th => {
+        const active = th.dataset.sort === sortKey;
+        th.classList.toggle('sort-active', active);
+        th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+    });
+}
 
 const analyzeBtn = document.getElementById('analyzeBtn');
 const qualityStatus = document.getElementById('qualityStatus');
@@ -145,7 +187,7 @@ createPersonPicker({
 });
 wireClickAway(qualityPersonResultsEl);
 
-[['checkDeat', 'deathFilterConfig'], ['checkMarr', 'marrFilterConfig'], ['checkBapm', 'bapmFilterConfig'], ['checkBuri', 'buriFilterConfig']].forEach(([checkboxId, configId]) => {
+[['checkDeat', 'deathFilterConfig'], ['checkMarr', 'marrFilterConfig'], ['checkBapm', 'bapmFilterConfig'], ['checkBuri', 'buriFilterConfig'], ['checkTutelle', 'tutelleFilterConfig']].forEach(([checkboxId, configId]) => {
     document.getElementById(checkboxId).addEventListener('change', e => {
         const div = document.getElementById(configId);
         div.style.opacity = e.target.checked ? "1" : "0.4";
@@ -168,7 +210,8 @@ analyzeBtn.addEventListener('click', () => {
             BAPM: document.getElementById('checkBapm').checked,
             MARR: document.getElementById('checkMarr').checked,
             DEAT: document.getElementById('checkDeat').checked,
-            BURI: document.getElementById('checkBuri').checked
+            BURI: document.getElementById('checkBuri').checked,
+            TUTELLE: document.getElementById('checkTutelle').checked
         };
         const minAgeDeat = parseInt(document.getElementById('minAgeDeat').value) || 0;
         const minAgeMarr = parseInt(document.getElementById('minAgeMarr').value) || 0;
@@ -176,33 +219,18 @@ analyzeBtn.addEventListener('click', () => {
         const maxYearBuriRaw = document.getElementById('maxYearBuri').value;
         const maxYearBapm = maxYearBapmRaw ? parseInt(maxYearBapmRaw) : null;
         const maxYearBuri = maxYearBuriRaw ? parseInt(maxYearBuriRaw) : null;
+        const maxAgeTutelle = parseInt(document.getElementById('maxAgeTutelle').value) || 25;
 
-        qualityIssues = computeQualityIssues(list, fams, scopeSet, sosaMap, opts, minAgeDeat, minAgeMarr, maxYearBapm, maxYearBuri);
+        qualityIssues = computeQualityIssues(list, fams, scopeSet, sosaMap, opts, minAgeDeat, minAgeMarr, maxYearBapm, maxYearBuri, maxAgeTutelle);
         qualityStatus.textContent = `Terminé. ${qualityIssues.length} problème(s) trouvé(s).`;
 
         if(qualityIssues.length > 0) {
             qualityDownloadBtn.classList.remove('hidden');
             qualityPreview.classList.remove('hidden');
-            const tbody = document.querySelector('#qualityTable tbody');
-            tbody.innerHTML = '';
-            const previewLimit = Math.min(qualityIssues.length, 20);
-            for(let i=0; i<previewLimit; i++) {
-                const item = qualityIssues[i];
-                const tr = document.createElement('tr');
-                const classIssue = item.issue.includes('manquant') ? 'tag-missing' : 'date-empty';
-                const tagLabel = getEventLabel(item.type);
-                const birthDisplay = item.birthYear ? (item.birthApprox ? `ca ${item.birthYear}` : item.birthYear) : '-';
-                const sosaDisplay = item.sosa != null ? item.sosa : '-';
-                tr.innerHTML = `
-                    <td>${sosaDisplay}</td>
-                    <td>${item.id}</td>
-                    <td>${escapeHtml(item.name)}</td>
-                    <td>${birthDisplay}</td>
-                    <td><span class="event-tag evt-${item.type}">${tagLabel}</span></td>
-                    <td class="${classIssue}">${item.issue}</td>
-                `;
-                tbody.appendChild(tr);
-            }
+            sortKey = sosaMap ? 'sosa' : 'name';
+            sortDir = 1;
+            updateSortIndicators();
+            renderPreview();
             drawIssuesBarChart(qualityIssues);
             drawIssuesTimeline(qualityIssues);
         } else {
@@ -215,10 +243,34 @@ analyzeBtn.addEventListener('click', () => {
     }, 30);
 });
 
+function renderPreview() {
+    const tbody = document.querySelector('#qualityTable tbody');
+    tbody.innerHTML = '';
+    const sorted = sortedIssues();
+    const previewLimit = Math.min(sorted.length, 20);
+    for(let i=0; i<previewLimit; i++) {
+        const item = sorted[i];
+        const tr = document.createElement('tr');
+        const classIssue = item.issue.includes('manquant') ? 'tag-missing' : 'date-empty';
+        const tagLabel = getEventLabel(item.type);
+        const birthDisplay = item.birthYear ? (item.birthApprox ? `ca ${item.birthYear}` : item.birthYear) : '-';
+        const sosaDisplay = item.sosa != null ? item.sosa : '-';
+        tr.innerHTML = `
+            <td>${sosaDisplay}</td>
+            <td>${item.id}</td>
+            <td>${escapeHtml(item.name)}</td>
+            <td>${birthDisplay}</td>
+            <td><span class="event-tag evt-${item.type}">${tagLabel}</span></td>
+            <td class="${classIssue}">${item.issue}</td>
+        `;
+        tbody.appendChild(tr);
+    }
+}
+
 qualityDownloadBtn.addEventListener('click', () => {
     if(qualityIssues.length === 0) return;
     const headers = ["Sosa", "ID", "Nom", "Annee Naissance", "Evenement", "Probleme"];
-    const rows = qualityIssues.map(item => [
+    const rows = sortedIssues().map(item => [
         item.sosa != null ? item.sosa : "",
         item.id,
         item.name,

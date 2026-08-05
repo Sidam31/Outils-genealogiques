@@ -67,12 +67,16 @@ function getValidationInfo(p, map, fams) {
     };
 }
 
-// opts: { ancestorScopeSet, deptCodes: string[], censusDates: number[] }
+// opts: { ancestorScopeSet, deptCodes: string[], censusDates: number[], maxAge: number }
 export function computeMissingRecensements(list, map, fams, opts) {
     opts = opts || {};
     const deptCodes = new Set((opts.deptCodes && opts.deptCodes.length) ? opts.deptCodes : RECENSEMENT_DEPT_CODES_DEFAULT);
     const censusDates = ((opts.censusDates && opts.censusDates.length) ? opts.censusDates : RECENSEMENT_DATES_DEFAULT).slice().sort((a, b) => a - b);
     if (!censusDates.length) return [];
+    // Au-delà de cet âge à la date du recensement, l'estimation de naissance est plus probablement
+    // erronée qu'une réelle longévité (défaut 100 ans) : on écarte la piste plutôt que de proposer
+    // une recherche pour quelqu'un qui, en réalité, était déjà décédé ou jamais né à cette date.
+    const maxAge = opts.maxAge != null ? opts.maxAge : 100;
     const periodStart = censusDates[0], periodEnd = censusDates[censusDates.length - 1];
 
     const results = [];
@@ -96,6 +100,7 @@ export function computeMissingRecensements(list, map, fams, opts) {
         censusDates.forEach(year => {
             if (year < birthEst.year) return; // pas encore né(e) à cette date
             if (p.death.year != null && year > p.death.year) return; // déjà décédé(e) à cette date
+            if (year - birthEst.year > maxAge) return; // âge estimé au-delà du maximum plausible
 
             const already = p.censusEvents.some(e => e.year != null && Math.abs(e.year - year) <= CENS_YEAR_TOLERANCE);
             if (already) return; // déjà acté dans le GEDCOM pour cette date : rien à chercher

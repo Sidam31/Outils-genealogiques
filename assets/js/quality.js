@@ -1,12 +1,14 @@
 import { getEventLabel } from './utils.js';
+import { estimateBirthYear } from './inference.js';
 
 // --- QUALITY ANALYSIS (charts + report, ported from seraphin_studio.html) ---
 // scopeSet : Set d'IDs à analyser (null = tout le fichier). sosaMap : Map id -> numéro Sosa
 // (null si pas de racine choisie) ; quand fourni, chaque problème porte son numéro Sosa et la
 // liste est triée par Sosa croissant plutôt que par ordre de rencontre dans le fichier.
-export function computeQualityIssues(list, fams, scopeSet, sosaMap, opts, minAgeDeat, minAgeMarr, maxYearBapm, maxYearBuri) {
+export function computeQualityIssues(list, fams, scopeSet, sosaMap, opts, minAgeDeat, minAgeMarr, maxYearBapm, maxYearBuri, maxAgeTutelle) {
     const issues = [];
     const currentYear = new Date().getFullYear();
+    const byId = new Map(list.map(p => [p.id, p]));
 
     list.forEach(p => {
         if (scopeSet && !scopeSet.has(p.id)) return;
@@ -51,6 +53,42 @@ export function computeQualityIssues(list, fams, scopeSet, sosaMap, opts, minAge
             }
         }
     });
+
+    // --- Tutelle probable : enfant de moins de maxAgeTutelle ans à la mort de son père ---
+    // Coutume très répandue en Bretagne (et ailleurs sous l'Ancien Régime) : la mort du père d'un
+    // enfant encore mineur ouvrait une tutelle (acte notarié ou de juridiction, conseil de famille),
+    // souvent la seule trace documentaire d'un lien de filiation ou d'un remariage de la mère.
+    if (opts.TUTELLE) {
+        const maxAge = maxAgeTutelle != null ? maxAgeTutelle : 25;
+        list.forEach(father => {
+            if (father.death?.year == null) return; // il faut un décès acté pour dater l'ouverture d'une tutelle
+            (father.fams || []).forEach(famId => {
+                const fam = fams.get(famId);
+                if (!fam || fam.husb !== father.id) return;
+                (fam.children || []).forEach(childId => {
+                    if (childId === father.id) return;
+                    const child = byId.get(childId);
+                    if (!child) return;
+                    if (scopeSet && !scopeSet.has(child.id)) return;
+                    // enfant déjà décédé avant son père : pas de tutelle à envisager
+                    if (child.death?.year != null && child.death.year < father.death.year) return;
+                    const birthEst = estimateBirthYear(child, byId, fams);
+                    if (!birthEst) return;
+                    const age = father.death.year - birthEst.year;
+                    if (age < 0 || age >= maxAge) return;
+                    const sosa = sosaMap ? (sosaMap.get(child.id) ?? null) : null;
+                    issues.push({
+                        id: child.id, name: child.name, birthYear: birthEst.year,
+                        birthApprox: birthEst.estimated || !!child.birth?.approx,
+                        type: 'TUTELLE',
+                        issue: `Tutelle probable : ${age} an(s) à la mort du père (${father.name}, † ${father.death.year})`,
+                        sosa
+                    });
+                });
+            });
+        });
+    }
+
     if (sosaMap) issues.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
     return issues;
 }

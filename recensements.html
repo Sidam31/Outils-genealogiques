@@ -5,13 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisuGedcom — Recensements manquants</title>
     <link href="assets/css/app.css" rel="stylesheet">
-    <style>
-        body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }
-        th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
-        th.sortable:hover { color: #2980b9; }
-        th.sortable .sort-arrow { display: inline-block; width: 0.9em; opacity: 0.4; }
-        th.sortable.sort-active .sort-arrow { opacity: 1; }
-    </style>
+    <style>body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }</style>
 </head>
 <body>
 
@@ -34,6 +28,11 @@
             <textarea id="censusDatesInput" rows="2" style="width:100%; box-sizing:border-box; font-family:inherit; font-size:0.85rem; padding:8px; border:1px solid #bdc3c7; border-radius:4px;"></textarea>
             <div class="hint">Un recensement déjà acté dans le GEDCOM (à ±1 an) pour l'une de ces dates n'est pas proposé à nouveau.</div>
             <button type="button" id="resetDatesBtn" class="ghost" style="margin-top:6px;">Réinitialiser les dates</button>
+
+            <div class="age-filter-container">
+                <label>Âge maximal plausible à la date du recensement : <input type="number" id="optMaxAge" value="100" min="0" style="width:60px;"> ans</label>
+                <div class="hint">Au-delà de cet âge, l'estimation de naissance est plus probablement erronée qu'une réelle longévité : la piste n'est pas proposée.</div>
+            </div>
 
             <div class="map-scope-row">
                 <label for="optAncestorOnly"><input type="checkbox" id="optAncestorOnly"> Uniquement les ascendants de :</label>
@@ -148,7 +147,8 @@ analyzeBtn.addEventListener('click', () => {
     const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
     const deptCodes = parseDeptCodesInput(deptCodesInput.value);
     const censusDates = parseCensusDatesInput(censusDatesInput.value);
-    lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet, deptCodes, censusDates });
+    const maxAge = parseInt(document.getElementById('optMaxAge').value) || 100;
+    lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet, deptCodes, censusDates, maxAge });
     lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
 
     statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;

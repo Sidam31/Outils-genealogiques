@@ -56,8 +56,15 @@
             <table>
                 <thead>
                     <tr>
-                        <th>Sosa</th><th>Nom</th><th>Prénom</th><th>Motif</th><th>Naissance</th><th>Commune naissance</th>
-                        <th>Dernier signe de vie</th><th>Confiance</th><th>Action</th>
+                        <th class="sortable" data-sort="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort="category">Motif <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Commune naissance</th>
+                        <th class="sortable" data-sort="lastAlive">Dernier signe de vie <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="confidence">Confiance <span class="sort-arrow"></span></th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody id="resultsBody"></tbody>
@@ -75,6 +82,42 @@ import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LA
 let list = [], map = new Map(), fams = new Map();
 let ancestorPersonId = null;
 let lastResults = [];
+let sortKey = 'sosa', sortDir = 1;
+
+const CONFIDENCE_RANK = { high: 2, medium: 1, low: 0 };
+const SORT_COMPARATORS = {
+    sosa: r => r.sosa ?? Infinity,
+    name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
+    category: r => CATEGORY_LABELS[r.category] || r.category,
+    birth: r => r.birthEst ? r.birthEst.year : -Infinity,
+    lastAlive: r => r.lastAlive != null ? r.lastAlive : -Infinity,
+    confidence: r => CONFIDENCE_RANK[r.confidence.level] ?? -1
+};
+
+function sortedResults() {
+    const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+    return [...lastResults].sort((a, b) => {
+        const ka = getKey(a), kb = getKey(b);
+        const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+        return cmp * sortDir;
+    });
+}
+
+document.querySelectorAll('th.sortable').forEach(th => {
+    th.addEventListener('click', () => {
+        const key = th.dataset.sort;
+        if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+        updateSortIndicators();
+        renderResults();
+    });
+});
+function updateSortIndicators() {
+    document.querySelectorAll('th.sortable').forEach(th => {
+        const active = th.dataset.sort === sortKey;
+        th.classList.toggle('sort-active', active);
+        th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+    });
+}
 
 const analyzeBtn = document.getElementById('analyzeBtn');
 const statusEl = document.getElementById('status');
@@ -117,12 +160,7 @@ analyzeBtn.addEventListener('click', () => {
     const opts = readOpts();
     const sosaMap = opts.ancestorScopeSet ? getSosaMap(map, ancestorPersonId) : null;
     lastResults = computeMissingDeaths(list, map, fams, opts);
-    if (sosaMap) {
-        lastResults.forEach(r => { r.sosa = sosaMap.get(r.person.id) ?? null; });
-        lastResults.sort((a, b) => (a.sosa ?? Infinity) - (b.sosa ?? Infinity));
-    } else {
-        lastResults.forEach(r => { r.sosa = null; });
-    }
+    lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
 
     statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
     if (!lastResults.length) {
@@ -137,8 +175,15 @@ analyzeBtn.addEventListener('click', () => {
     matchIdUploadLink.classList.remove('hidden');
     csvSimpleBtn.classList.remove('hidden');
 
+    sortKey = sosaMap ? 'sosa' : 'name';
+    sortDir = 1;
+    updateSortIndicators();
+    renderResults();
+});
+
+function renderResults() {
     resultsBody.innerHTML = '';
-    lastResults.forEach(r => {
+    sortedResults().forEach(r => {
         const p = r.person;
         const tr = document.createElement('tr');
         const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}<div class="reason-list" style="padding-left:0;list-style:none;">${escapeHtml(r.birthEst.source)}</div>` : '<em>inconnue</em>';
@@ -159,17 +204,17 @@ analyzeBtn.addEventListener('click', () => {
         `;
         resultsBody.appendChild(tr);
     });
-});
+}
 
 csvMatchIdBtn.addEventListener('click', () => {
     if (!lastResults.length) return;
-    const { headers, rows } = buildMatchIdCsvRows(lastResults);
+    const { headers, rows } = buildMatchIdCsvRows(sortedResults());
     downloadCsv('deces_manquants_matchid.csv', headers, rows);
 });
 csvSimpleBtn.addEventListener('click', () => {
     if (!lastResults.length) return;
     const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Motif', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
-    const rows = lastResults.map(r => [
+    const rows = sortedResults().map(r => [
         r.sosa != null ? r.sosa : '',
         r.person.id,
         r.person.surname || '',

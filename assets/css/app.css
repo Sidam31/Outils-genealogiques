@@ -96,6 +96,10 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .tab-panel table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 14px; background: #fff; }
 .tab-panel th, .tab-panel td { text-align: left; padding: 12px; border-bottom: 1px solid #ddd; }
 .tab-panel th { background-color: #f8f9fa; border-top: 2px solid #ddd; }
+.tab-panel th.sortable { cursor: pointer; user-select: none; white-space: nowrap; }
+.tab-panel th.sortable:hover { color: #2980b9; }
+.tab-panel th.sortable .sort-arrow { display: inline-block; width: 0.9em; opacity: 0.4; }
+.tab-panel th.sortable.sort-active .sort-arrow { opacity: 1; }
 
 /* MAPS PANEL FILTERS */
 .map-scope-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; justify-content: center; margin-top: 10px; padding-top: 12px; border-top: 1px solid #bdc3c7; }
@@ -143,6 +147,7 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .evt-MARR { background-color: #9b59b6; }
 .evt-BURI { background-color: #7f8c8d; }
 .evt-BAPM { background-color: #16a085; }
+.evt-TUTELLE { background-color: #d35400; }
 .quality-charts { display: flex; gap: 20px; flex-wrap: wrap; margin: 20px 0; }
 .quality-chart-box { flex: 1; min-width: 280px; background: #fff; border: 1px solid #ddd; border-radius: 6px; padding: 12px; }
 .quality-chart-box h3 { margin: 0; font-size: 0.95rem; color: var(--accent); text-align: center; }

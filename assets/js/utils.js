@@ -1,6 +1,6 @@
 // --- UTILITAIRES PARTAGÉS ---
 export function getEventLabel(code) {
-    const labels = { 'BIRT':'Naissance', 'DEAT':'Décès', 'MARR':'Mariage', 'BURI':'Inhumation', 'BAPM':'Baptême', 'CENS':'Recensement', 'RESI':'Résidence' };
+    const labels = { 'BIRT':'Naissance', 'DEAT':'Décès', 'MARR':'Mariage', 'BURI':'Inhumation', 'BAPM':'Baptême', 'CENS':'Recensement', 'RESI':'Résidence', 'TUTELLE':'Tutelle' };
     return labels[code] || code;
 }
 export function escapeHtml(text) {
