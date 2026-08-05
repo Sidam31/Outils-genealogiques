@@ -1,0 +1,88 @@
+source: Paul Lacombe : Les Noms des rues de Paris sous la Révolution
+Nom initial	Nom révolutionnaire	Nom actuel ou dernier nom
+Quai d'Alençon	Quai de l'Union	Quai d'Anjou
+Rue d'Angoulême-Saint-Honoré	Rue de l'Union	Rue La Boétie
+Quai d'Anjou	Quai de l'Union	Quai d'Anjou
+Rue d'Artois	Rue Cerruti	Rue Laffitte
+Quai des Balcons	Quai de la Liberté	Quai de Béthune
+Quai de Bourbon	Quai de la République	Quai de Bourbon
+Rue de Bourbon	Rue de Lille	Rue de Lille
+Rue de Bourbon-le-Château	Rue de la Chaumière	Rue de Bourbon-le-Château
+Rue de Bourbon-le-Château	Rue Lucrèce-Vengée	Rue de Bourbon-le-Château
+Rue de Bourbon-Villeneuve	Rue Neuve-de-l'Égalité	Rue d'Aboukir
+Rue de Calonne	Rue du Contrat-Social	Rue du Contrat-Social (disparue)
+Rue de Calonne	Rue de La Fayette	Rue du Contrat-Social (disparue)
+Place du Carrousel	Place de la Réunion	Place du Carrousel
+Rue de la Chaussée-d'Antin	Rue Mirabeau
+Rue Mirabeau-le-Patriote	Rue de la Chaussée-d'Antin
+Rue de la Chaussée-d'Antin	Rue du Mont-Blanc	Rue de la Chaussée-d'Antin
+Rue Chantereine	Rue de la Victoire	Rue de la Victoire
+Place du Cimetière-Saint-Jean	Place des Droits-de-l'Homme	Rue du Bourg-Tibourg
+Rue de la Comtesse-d'Artois	Rue Mont-Orgueil	Rue de la Comtesse-d'Artois
+Rue de Condé	Rue de l'Égalité	Rue de Condé
+Rue des Cordeliers	Rue Marat	Rue de l'École-de-Médecine
+Rue des Cordeliers	Rue de l'École-de-Santé	Rue de l'École-de-Médecine
+Carrefour de la Croix-Rouge	Carrefour du Bonnet-Rouge	Place Michel-Debré
+Quai du Dauphin	Quai de la Liberté	Quai de Béthune
+Rue du Dauphin	Rue de la Convention	Rue Saint-Roch
+Place Dauphine	Place de Thionville	Place Dauphine
+Rue Dauphine	Rue de Thionville	Rue Dauphine
+Rue du Faubourg-Saint-Denis	Rue du Faubourg-Franciade	Rue du Faubourg-Saint-Denis
+Rue du Faubourg-Saint-Jacques	Rue de l'Observatoire	Rue du Faubourg-Saint-Jacques
+Rue du Faubourg-Saint-Laurent	Rue du Faubourg-du-Nord	Rue du Faubourg-Saint-Martin (en partie)
+Rue du Faubourg-Saint-Martin	Rue du Faubourg-du-Nord	Rue du Faubourg-Saint-Martin (en partie)
+Rue du Faubourg-Montmartre	Rue du Faubourg-Mont-Marat	Rue du Faubourg-Montmartre
+Rue de la Fontaine-au-Roi	Rue de la Fontaine	Rue de la Fontaine-au-Roi
+Rue des Fossés-Montmartre	Rue des Fossés-Mont-Marat	Rue d'Aboukir
+Rue des Fossés-Monsieur-le-Prince	Rue de la Liberté	Rue Monsieur-le-Prince
+Rue des Fossés-Saint-Victor	Rue de Loustalot	Rue du Cardinal-Lemoine
+Rue des Francs-Bourgeois	Rue des Francs-Citoyens	Rue des Francs-Bourgeois
+Place de Grève	Place de la Maison-Commune	Place de l'Hôtel-de-Ville - Esplanade de la Libération
+Rue du Gros-Caillou	Rue de l'Université	Rue Duméril
+Rue Guisarde	Rue des Sans-Culottes	Rue Guisarde
+Place Henri-IV	Place du Parc-d'Artillerie	Place du Pont-Neuf
+Rue Honoré-Chevalier	Rue Honoré-Liberté	Rue Honoré-Chevalier
+Rue de l'Hôpital-Saint-Louis	Rue de l'Hospice-du-Nord	Rue de l'Hôpital-Saint-Louis
+Quai de l'Horloge-du-Palais	Quai du Nord	Quai de l'Horloge
+Rue du Jardin-du-Roi	Rue du Jardin-des-Plantes	Rue Geoffroy-Saint-Hilaire
+Rue Louis-le-Grand	Rue des Piques	Rue Louis-le-Grand
+Place Louis-XV	Place de la Révolution	Place de la Concorde
+Rue Michel-le-Comte	Rue Michel-Le-Pelletier	Rue Michel-le-Comte
+Rue de La Michodière	Rue d'Hauteville	Rue d'Hauteville
+Rue Montmartre	Rue Mont-Marat	Rue Montmartre
+Rue de Montmorency	Rue de la Réunion	Rue de Montmorency
+Rue Neuve-Notre-Dame	Rue de la Raison	Supprimée en 1874
+Neuve-de-Richelieu	Petite rue Chalier	Rue de la Sorbonne
+Rue Neuve-Saint-Roch	Rue de la Montagne	Rue Saint-Roch
+Parvis Notre-Dame	Place de la Raison	Parvis Notre-Dame - place Jean-Paul-II
+Rue de l'Observance	Rue de l'Ami-du-Peuple	Rue Antoine-Dubois
+Rue de l'Observance	Rue de Marseille	Rue Antoine-Dubois
+Rue de l'Observance	Rue de Marseille	Rue Antoine-Dubois
+Quai des Orfèvres	Quai du Midi	Quai des Orfèvres
+Quai d'Orléans	Quai de l'Égalité	Quai d'Orléans
+Place du Palais-Royal	Place de la Maison-Égalité	Place du Palais-Royal
+Rue du Parc-Royal	Rue du Parc-National	Rue du Parc-Royal
+Rue du Petit-Bourbon-Saint-Sulpice	Rue du 31-Mai	Rue Saint-Sulpice
+Rue du Petit-Bourbon-Louvre	Rue du Petit-Muséum	Disparue, absorbée par la rue de l'Amiral-de-Coligny et la place du Louvre
+Rue Plâtrière	Rue Jean-Jacques-Rousseau	Rue Jean-Jacques-Rousseau
+Rue Princesse	Rue Révolutionnaire	Rue Princesse
+Rue de Richelieu	Rue de la Loi	Rue de Richelieu
+Rue du Roi-Doré	Rue du Dorée	Rue du Roi-Doré
+Rue du Roi-de-Sicile	Rue des Droits-de-l'Homme	Rue du Roi-de-Sicile
+Quai des Théatins	Quai Voltaire	Quai Voltaire
+Place Royale	Place des Fédérés	Place des Vosges
+Place Royale	Place du Parc-d'Artillerie	Place des Vosges
+Rue Royale	Rue Nationale	Rue Birague
+Rue Royale	Rue du Parc-d'Artillerie	Rue Birague
+Rue Royale	Rue de la Révolution	Rue Royale
+Rue Royale	Rue de la République	Rue Jean-Baptiste-Pigalle
+Rue Royale	Rue des Moulins	Rue des Moulins
+Rue Saint-Denis	Rue Franciade	Rue Saint-Denis
+Rue Saint-Louis-du-Palais
+Rue Saint-Louis-du-Palais-des-Marchands	Rue Révolutionnaire	Quai des Orfèvres
+Rue Saint-Louis-en-l'Île	Rue de la Fraternité	Rue Saint-Louis-en-l'Île
+Rue Sainte-Anne	Rue Helvétius	Rue Sainte-Anne
+Place de la Sorbonne	Place Chalier	Place de la Sorbonne
+Place Vendôme	Place des Piques	Place Vendôme
+Place des Victoires	Place de la Victoire-Nationale	Place des Victoires
+Cour au Vilain	Rue de la Réunion	Rue de Montmorency

@@ -179,7 +179,7 @@ function renderResults() {
         const hitsDisplay = r.hits.map(h => {
             const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept);
             return `<div style="margin-bottom:6px;">
-                <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city)} (${escapeHtml(h.dept)})</div>
+                <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city || 'commune inconnue')} (${escapeHtml(h.dept)})</div>
                 <div class="city-buttons"><a class="btn-link" href="${url}" target="_blank" rel="noopener">📋 ${h.year}</a></div>
             </div>`;
         }).join('');
@@ -215,7 +215,7 @@ csvBtn.addEventListener('click', () => {
         r.person.given || '',
         r.birthEst.year,
         r.birthEst.estimated ? 'oui' : 'non',
-        r.hits.map(h => `${h.year} (${h.source}): ${h.city} (${h.dept})`).join(' | '),
+        r.hits.map(h => `${h.year} (${h.source}): ${h.city || 'commune inconnue'} (${h.dept})`).join(' | '),
         [r.validation.father, r.validation.mother].filter(Boolean).join(' & '),
         r.validation.spouses.join(', '),
         r.validation.children.join(', ')

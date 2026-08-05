@@ -114,7 +114,7 @@ export function computeMissingRecensements(list, map, fams, opts) {
             if (!geo || !geo.dept) return;
             if (!deptCodes.has(deptCode(geo.dept))) return;
 
-            hits.push({ year, city: geo.city || geo.dept, dept: geo.dept, source });
+            hits.push({ year, city: geo.city, dept: geo.dept, source });
         });
         if (!hits.length) return;
 
