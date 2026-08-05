@@ -44,6 +44,9 @@
   .chip[aria-pressed="true"]{background:var(--seal);border-color:var(--seal);color:#fff}
   .chip:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 
+  #quartierFilter{font-size:.78rem;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:.35rem .6rem;font-weight:600;font-family:inherit}
+  #quartierFilter:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
   .count{font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);margin:1.8rem 0 1rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;font-weight:600}
 
   .map-toggle-row{margin:.9rem 0 0}
@@ -63,9 +66,13 @@
   .card .name{font-size:1.05rem;font-weight:700;margin:0;color:var(--ink)}
   .card .meta{font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--seal);margin:.25rem 0 0;font-weight:600}
   .card .variants{font-size:.82rem;color:var(--ink-soft);margin:.4rem 0 0}
+  .card .geo{font-size:.78rem;color:var(--ink-soft);margin:.4rem 0 0}
+  .card .geo a{color:var(--focus);text-decoration:none}
+  .card .geo a:hover{text-decoration:underline}
   .card .src{font-size:.68rem;letter-spacing:.03em;text-transform:uppercase;color:#9aa5ab;margin:.35rem 0 0}
   .card .anc{font-size:.86rem;color:var(--seal);margin:.4rem 0 0;font-style:italic}
   .card .anc-label{font-style:normal;font-size:.65rem;letter-spacing:.05em;text-transform:uppercase;color:#9aa5ab;margin-right:.3rem;font-weight:600}
+  .card .anc-year{font-style:normal;font-size:.78rem;color:#9aa5ab;cursor:help}
   .card-gone{border-left-color:#95a5a6;background:#f7f8f9;opacity:.92}
   .card-gone .name{color:#7f8c8d}
   .badge-gone{font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#95a5a6;padding:.15rem .45rem;border-radius:3px;vertical-align:middle;margin-left:.4rem;font-weight:600}
@@ -126,6 +133,10 @@ renderHeader('rues-paris');
 
   <div class="filters" id="filters" role="group" aria-label="Filtrer par type"></div>
   <div class="filters" id="arrfilters" role="group" aria-label="Filtrer par arrondissement"></div>
+  <div class="filters">
+    <label for="quartierFilter" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Filtrer par quartier</label>
+    <select id="quartierFilter" aria-label="Filtrer par quartier"></select>
+  </div>
 
   <div class="map-toggle-row">
     <button type="button" id="mapToggle" aria-pressed="false">📍 Voir sur la carte</button>
@@ -177,7 +188,7 @@ function init(DB) {
     '</ul></div>';
 
   const fuse = new Fuse(streets, {
-    keys: [{ name:'name', weight:0.7 }, { name:'variants', weight:0.6 }, { name:'ancien_noms', weight:0.55 }, { name:'devenu.nom_actuel', weight:0.5 }, { name:'quartier', weight:0.25 }, { name:'note', weight:0.15 }],
+    keys: [{ name:'name', weight:0.7 }, { name:'variants', weight:0.6 }, { name:'ancien_noms.nom', weight:0.55 }, { name:'devenu.nom_actuel', weight:0.5 }, { name:'quartier', weight:0.25 }, { name:'note', weight:0.15 }],
     includeScore:true, includeMatches:true,
     threshold:0.42, ignoreLocation:true, minMatchCharLength:2
   });
@@ -238,6 +249,36 @@ function init(DB) {
   arrFiltersEl.appendChild(makeArrChip('tous arr.', null));
   for(let a=1;a<=12;a++){ if(arrCounts[a]) arrFiltersEl.appendChild(makeArrChip(a+'ᵉ', a)); }
 
+  // Quartier filter (48 quartiers de 1811-1849, cf. GEO note en tête de fichier) : cardinalité trop
+  // élevée pour des chips (contrairement au type ou à l'arrondissement), d'où un <select>. Une voie
+  // peut traverser plusieurs quartiers (item.quartiers) ; on retombe sur item.quartier si absent.
+  const quartierFilterEl = document.getElementById('quartierFilter');
+  let activeQuartier = null;
+  const quartierInfo = new Map(); // nom -> { num, count }
+  streets.forEach(s => {
+    if(s.supprimee || s.hors_1844) return;
+    const list = (s.quartiers && s.quartiers.length) ? s.quartiers : (s.quartier ? [{ nom: s.quartier, num: s.quart }] : []);
+    list.forEach(q => {
+      if(!q.nom) return;
+      const info = quartierInfo.get(q.nom) || { num: q.num, count: 0 };
+      info.count++;
+      quartierInfo.set(q.nom, info);
+    });
+  });
+  const quartierNames = [...quartierInfo.keys()].sort((a,b) => (quartierInfo.get(a).num||99) - (quartierInfo.get(b).num||99));
+  quartierFilterEl.innerHTML = '<option value="">tous quartiers</option>' +
+    quartierNames.map(nom => `<option value="${esc(nom)}">${esc(nom)} · ${quartierInfo.get(nom).count}</option>`).join('');
+  quartierFilterEl.addEventListener('change', () => {
+    activeQuartier = quartierFilterEl.value || null;
+    render();
+  });
+
+  function matchesQuartier(s){
+    if(activeQuartier==null) return true;
+    if(s.quartiers && s.quartiers.length) return s.quartiers.some(q => q.nom===activeQuartier);
+    return s.quartier === activeQuartier;
+  }
+
   function esc(s){return s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
   function highlight(text, indices){
     if(!indices||!indices.length) return esc(text);
@@ -265,17 +306,42 @@ function init(DB) {
         : `${item.cat} · ${item.arr}ᵉ arr. · ${item.quartier ? item.quartier : 'quartier '+item.quart}`;
     }
     const src = (item.sources||[]).join(' · ');
+    // ancien_noms : string[] (anciennes voies supprimées, pas encore datées) ou
+    // {nom, annee, periode, confidence}[] (cf. scripts/enrich-ancien-noms-dates.mjs et
+    // enrich-revolutionary-names.mjs — periode plutôt qu'annee quand seule une période est connue,
+    // ex. "Révolution", sans année précise rue par rue).
+    const ANC_TITLES = {
+      wikipedia: "Date d'après Wikipédia (Liste des anciens noms de voies de Paris)",
+      scraped: "Date extraite automatiquement du Dictionnaire Lazare 1844 — non vérifiée, indicative",
+      lacombe: "D'après Paul Lacombe, Les Noms des rues de Paris sous la Révolution — pas d'année précise par rue"
+    };
     const anc = (item.ancien_noms||[]);
+    const ancHtml = anc.map(a => {
+      if(typeof a === 'string') return esc(a);
+      const label = a.annee || a.periode;
+      if(!label) return esc(a.nom);
+      const title = ANC_TITLES[a.confidence] || '';
+      return `${esc(a.nom)} <span class="anc-year" title="${esc(title)}">→ ${esc(String(label))}${a.confidence==='scraped'?' ?':''}</span>`;
+    }).join(' · ');
     const dev = (item.devenu||[]).filter(d=>d.nom_actuel);
     const devHtml = dev.map(d=>esc(d.nom_actuel)+(d.annee?` <span class="dev-year">(${d.annee})</span>`:'')).join(' · ');
     const cls = item.supprimee ? ' card-gone' : (item.hors_1844 ? ' card-modern' : '');
+    const hasGeo = item.lat!=null && item.lon!=null;
+    const geoParts = [];
+    if(hasGeo){
+      if(item.geoSource==='quartier') geoParts.push(`📍 dans le quartier ${esc(item.geoQuartier||item.quartier||'')}`);
+      else geoParts.push(`📍 ${item.lat.toFixed(5)}, ${item.lon.toFixed(5)}${item.geoSource==='osm'?' (approx.)':''}`);
+      geoParts.push(`<a href="#" class="geo-zoom" data-lat="${item.lat}" data-lon="${item.lon}" data-name="${esc(item.name)}" data-approx="${item.geoSource==='quartier'?'quartier':''}">Voir sur la carte ↗</a>`);
+    }
+    if(item.wikipedia) geoParts.push(`<a href="${item.wikipedia}" target="_blank" rel="noopener">Wikipédia ↗</a>`);
     return `<li class="card${cls}">
       <p class="name">${nameHtml}${item.supprimee?' <span class="badge-gone">supprimée</span>':''}${item.hors_1844?' <span class="badge-modern">hors 1844</span>':''}</p>
       <p class="meta">${esc(loc)}</p>
       ${dev.length?`<p class="dev"><span class="dev-label">devenu</span> ${devHtml}</p>`:''}
       ${item.supprimee&&item.note?`<p class="gone-note">${esc(item.note)}</p>`:''}
-      ${anc.length?`<p class="anc"><span class="anc-label">anc.</span> ${esc(anc.join(' · '))}</p>`:''}
+      ${anc.length?`<p class="anc"><span class="anc-label">anc.</span> ${ancHtml}</p>`:''}
       ${vars.length?`<p class="variants">${varsHtml}</p>`:''}
+      ${geoParts.length?`<p class="geo">${geoParts.join(' · ')}</p>`:''}
       <p class="src">${esc(src)}</p>
     </li>`;
   }
@@ -291,14 +357,50 @@ function init(DB) {
   let mapInstance = null;
   let mapDataCache = [];
 
-  mapToggleBtn.addEventListener('click', () => {
-    const open = mapWrapEl.classList.toggle('open');
-    mapToggleBtn.setAttribute('aria-pressed', String(open));
-    mapToggleBtn.textContent = open ? '📍 Masquer la carte' : '📍 Voir sur la carte';
-    if(open){
-      if(!mapInstance) initMap();
-      else mapInstance.resize(); // le conteneur était display:none pendant l'init précédente
+  function openMap(){
+    if(!mapWrapEl.classList.contains('open')){
+      mapWrapEl.classList.add('open');
+      mapToggleBtn.setAttribute('aria-pressed', 'true');
+      mapToggleBtn.textContent = '📍 Masquer la carte';
     }
+    if(!mapInstance) initMap();
+    else mapInstance.resize(); // le conteneur était display:none pendant l'init précédente
+  }
+
+  mapToggleBtn.addEventListener('click', () => {
+    if(mapWrapEl.classList.contains('open')){
+      mapWrapEl.classList.remove('open');
+      mapToggleBtn.setAttribute('aria-pressed', 'false');
+      mapToggleBtn.textContent = '📍 Voir sur la carte';
+    } else {
+      openMap();
+    }
+  });
+
+  // Lien "Voir sur la carte" d'une fiche : ouvre la carte (si besoin) et zoome sur ce point précis.
+  // Délégation sur #results plutôt qu'un listener par carte : les cartes sont recréées à chaque
+  // render() (innerHTML), un addEventListener direct sur chaque <a> serait perdu à chaque frappe.
+  function openMapAt(lat, lon, name, zoom){
+    openMap();
+    const fly = () => {
+      mapInstance.flyTo({ center:[lon,lat], zoom: zoom||16 });
+      new maplibregl.Popup({ closeOnClick:true, maxWidth:'260px' })
+        .setLngLat([lon,lat])
+        .setHTML(`<strong>${esc(name)}</strong>`)
+        .addTo(mapInstance);
+    };
+    if(mapInstance.loaded()) fly();
+    else mapInstance.once('load', fly);
+    mapWrapEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+  results.addEventListener('click', e => {
+    const link = e.target.closest('.geo-zoom');
+    if(!link) return;
+    e.preventDefault();
+    // Le repli "centre du quartier" n'a qu'une précision de quartier : zoom moins serré pour ne
+    // pas laisser croire qu'on pointe la voie elle-même.
+    const zoom = link.dataset.approx === 'quartier' ? 14 : 16;
+    openMapAt(parseFloat(link.dataset.lat), parseFloat(link.dataset.lon), link.dataset.name, zoom);
   });
 
   function initMap(){
@@ -327,8 +429,9 @@ function init(DB) {
         type: 'circle',
         source: 'streets',
         paint: {
-          'circle-radius': 6,
-          'circle-color': ['case', ['get', 'hasWiki'], '#3b82f6', '#95a5a6'],
+          'circle-radius': ['match', ['get','geoSource'], 'quartier', 5, 6],
+          'circle-color': ['match', ['get','geoSource'], 'wikidata','#3b82f6', 'osm','#95a5a6', 'quartier','#e67e22', '#999999'],
+          'circle-opacity': ['match', ['get','geoSource'], 'quartier', 0.55, 1],
           'circle-stroke-color': '#fff',
           'circle-stroke-width': 1.5
         }
@@ -337,9 +440,12 @@ function init(DB) {
       mapInstance.on('mouseenter', 'streets-point', e => {
         mapInstance.getCanvas().style.cursor = 'pointer';
         const p = e.features[0].properties;
+        const precisionNote = p.geoSource==='quartier'
+          ? `<br><em>position approximative — centre du quartier ${esc(p.geoQuartier||'')}</em>`
+          : (p.geoSource==='osm' ? `<br><em>position approximative (OpenStreetMap)</em>` : '');
         popup = new maplibregl.Popup({ closeButton:false, closeOnClick:false, maxWidth:'260px' })
           .setLngLat(e.features[0].geometry.coordinates)
-          .setHTML(`<strong>${esc(p.name)}</strong>${esc(p.meta||'')}${p.wikipedia?`<br><a href="${p.wikipedia}" target="_blank" rel="noopener">Wikipédia ↗</a>`:''}`)
+          .setHTML(`<strong>${esc(p.name)}</strong>${esc(p.meta||'')}${precisionNote}${p.wikipedia?`<br><a href="${p.wikipedia}" target="_blank" rel="noopener">Wikipédia ↗</a>`:''}`)
           .addTo(mapInstance);
       });
       mapInstance.on('mouseleave', 'streets-point', () => {
@@ -359,7 +465,8 @@ function init(DB) {
         name: s.name,
         meta: s.arr!=null ? ` · ${s.arr}ᵉ arr.` : '',
         wikipedia: s.wikipedia || null,
-        hasWiki: !!s.wikipedia
+        geoSource: s.geoSource || null,
+        geoQuartier: s.geoQuartier || null
       }
     }));
     mapInstance.getSource('streets').setData({ type:'FeatureCollection', features });
@@ -370,7 +477,7 @@ function init(DB) {
     if(mapInstance) renderMapMarkers();
     mapNoteEl.textContent = items.length
       ? (mapDataCache.length
-          ? `${mapDataCache.length} voie(s) localisée(s) sur ${items.length} affichée(s). Bleu = article Wikipédia disponible, gris = position approximative (OpenStreetMap).`
+          ? `${mapDataCache.length} voie(s) localisée(s) sur ${items.length} affichée(s). Bleu = article Wikipédia disponible · gris = position approximative (OpenStreetMap) · orange = centre du quartier seulement (voie non localisée précisément).`
           : `Aucune des ${items.length} voie(s) affichée(s) n'a de coordonnées connues.`)
       : '';
   }
@@ -381,7 +488,8 @@ function init(DB) {
     return streets.filter(s =>
       !s.supprimee && !s.hors_1844 &&
       (!activeCat || s.cat===activeCat) &&
-      (activeArr==null || (s.quartiers||[]).some(q=>q.arr===activeArr) || s.arr===activeArr));
+      (activeArr==null || (s.quartiers||[]).some(q=>q.arr===activeArr) || s.arr===activeArr) &&
+      matchesQuartier(s));
   }
 
   function render(){
@@ -390,7 +498,7 @@ function init(DB) {
     if(!term){
       list = [...pool()].sort((a,b)=>a.name.localeCompare(b.name,'fr'));
       count.textContent = list.length + (activeCat?` ${activeCat}s`:' voies')
-        + (activeArr!=null?` · ${activeArr}ᵉ arr.`:'') + ' — saisissez pour filtrer';
+        + (activeArr!=null?` · ${activeArr}ᵉ arr.`:'') + (activeQuartier?` · ${activeQuartier}`:'') + ' — saisissez pour filtrer';
       results.innerHTML = list.slice(0,300).map(s=>card(s,null)).join('');
       if(list.length>300){
         results.innerHTML += `<li class="empty">…et ${list.length-300} autres. Saisissez pour affiner la liste.</li>`;
@@ -403,6 +511,7 @@ function init(DB) {
     else if(activeCat==='__modern__') hits = hits.filter(h=>h.item.hors_1844);
     else if(activeCat) hits = hits.filter(h=>h.item.cat===activeCat);
     if(activeArr!=null) hits = hits.filter(h=>(h.item.quartiers||[]).some(q=>q.arr===activeArr) || h.item.arr===activeArr);
+    hits = hits.filter(h=>matchesQuartier(h.item));
     hits = hits.slice(0,60);
     if(!hits.length){
       count.textContent = 'aucune correspondance';
