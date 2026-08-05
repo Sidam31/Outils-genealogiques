@@ -74,7 +74,7 @@ import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
 import {
-    computeMissingRecensements, buildFranceArchivesUrl, givenNameOptions,
+    computeMissingRecensements, buildFranceArchivesUrl,
     RECENSEMENT_DEPT_CODES_DEFAULT, RECENSEMENT_DATES_DEFAULT,
     parseDeptCodesInput, parseCensusDatesInput
 } from './assets/js/recensements.js';
@@ -173,18 +173,14 @@ function renderResults() {
         const tr = document.createElement('tr');
         const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
 
-        // Un lien par prénom (si plusieurs sont actés) x par date de recensement : la personne peut
-        // être enregistrée au recensement sous un seul de ses prénoms, et chaque date est un
-        // registre distinct à interroger séparément.
-        const prenoms = givenNameOptions(p);
+        // Un lien par date de recensement (chaque date est un registre distinct à interroger
+        // séparément) ; tous les prénoms actés sont OU-és dans ce lien unique, puisque la
+        // personne peut être enregistrée sous n'importe lequel d'entre eux.
         const hitsDisplay = r.hits.map(h => {
-            const buttons = prenoms.map(fn => {
-                const label = fn ? `${fn} — ${h.year}` : `${h.year}`;
-                return `<a class="btn-link" href="${buildFranceArchivesUrl(p, h.city, h.year, fn, h.dept)}" target="_blank" rel="noopener">📋 ${escapeHtml(label)}</a>`;
-            }).join('');
+            const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept);
             return `<div style="margin-bottom:6px;">
                 <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city)} (${escapeHtml(h.dept)})</div>
-                <div class="city-buttons">${buttons}</div>
+                <div class="city-buttons"><a class="btn-link" href="${url}" target="_blank" rel="noopener">📋 ${h.year}</a></div>
             </div>`;
         }).join('');
 
