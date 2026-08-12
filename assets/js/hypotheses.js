@@ -108,7 +108,7 @@ export function initHypotheses() {
         cousin_remue_germain: { up: 3, down: 3 }, cousin_breton: { up: 2, down: 3 }
     };
     const HYP_TERM_LABELS = {
-        pere: "Père", mere: "Mère", ayeul: "Ayeul", frere: "Frère", soeur: "Sœur",
+        pere: "Père", mere: "Mère", beau_pere: "Beau-père", belle_mere: "Belle-mère", ayeul: "Ayeul", frere: "Frère", soeur: "Sœur",
         oncle: "Oncle", tante: "Tante", neveu_niece: "Neveu/Nièce",
         cousin_germain: "Cousin germain", cousin_issu_germain: "Cousin issu de germain",
         cousin_remue_germain: "Cousin remué/remis de germain", cousin_breton: "Cousin à la mode de Bretagne",
@@ -168,7 +168,7 @@ export function initHypotheses() {
             for (let up = 1; up <= parseInt(hypMaxGenEl.value, 10); up++) candidates.push({ up, down: 0 });
             return { candidates };
         }
-        if (terme === "pere" || terme === "mere") return { candidates: [{ up: 1, down: 0 }] };
+        if (terme === "pere" || terme === "mere" || terme === "beau_pere" || terme === "belle_mere") return { candidates: [{ up: 1, down: 0 }] };
         if (terme === "frere" || terme === "soeur") return { candidates: [{ up: 1, down: 1 }] };
         const entry = HYP_TERM_DICT[terme];
         if (!entry) return null;
@@ -349,6 +349,11 @@ export function initHypotheses() {
         hypUpdateFormVisibility();
         if (hypTermeEl.value === "pere") hypBrancheSelect.value = "paternel";
         if (hypTermeEl.value === "mere") hypBrancheSelect.value = "maternel";
+        // Beau-père/belle-mère occupent la place du père/de la mère dans l'arbre (même branche),
+        // mais ne sont jamais un lien par le sang : la nature "alliance" est donc forcée plutôt que
+        // laissée au choix par défaut ("par le sang"), qui serait faux dans tous les cas.
+        if (hypTermeEl.value === "beau_pere") { hypBrancheSelect.value = "paternel"; hypLienNatureEl.value = "alliance"; hypUpdateFormVisibility(); }
+        if (hypTermeEl.value === "belle_mere") { hypBrancheSelect.value = "maternel"; hypLienNatureEl.value = "alliance"; hypUpdateFormVisibility(); }
         hypUpdatePreview();
     });
     hypFratrieQualifEl.addEventListener("change", hypUpdatePreview);
