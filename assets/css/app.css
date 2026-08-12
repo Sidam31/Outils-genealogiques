@@ -3,6 +3,10 @@
     /* Couleurs sémantiques de l'onglet "Parentés hypothétiques" */
     --hyp-paternel: #4f8fe0; --hyp-maternel: #e05f8f; --hyp-confirme: #27ae60;
     --hyp-rejete: #95a5a6; --hyp-ghost: #c9a24f; --hyp-alliance: #9b59b6;
+    /* Couleurs sémantiques de l'onglet "Frise de vie" */
+    --frise-axis: #2c3e50; --frise-stem: #b8c4d9; --frise-marker: #3b82f6;
+    --frise-lane-monarque: #8e6b46; --frise-lane-regime: #c0392b;
+    --frise-lane-president: #2c7fb8; --frise-lane-evenement: #7f8c8d;
 }
 body { font-family: 'Segoe UI', sans-serif; margin: 0; background: var(--bg); color: var(--text); height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
 
@@ -23,6 +27,27 @@ header button:active { transform: translateY(0); }
 /* NAV (liens entre pages, remplace les anciens onglets) */
 nav.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
 nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: center; }
+
+/* MENU BURGER (mobile uniquement — au-dessus du seuil, le nav reste la barre d'onglets habituelle) */
+.nav-burger { display: none; }
+@media (max-width: 720px) {
+    header { position: relative; }
+    h1 { font-size: 1rem; }
+    .nav-burger {
+        display: inline-flex; align-items: center; justify-content: center;
+        width: 36px; height: 36px; border: 1px solid #dcdfe4; border-radius: 6px;
+        background: #fff; font-size: 1.1rem; line-height: 1; cursor: pointer; order: 1;
+    }
+    nav.tabs {
+        display: none; order: 3; flex-basis: 100%; flex-direction: column; gap: 4px;
+        position: absolute; top: 100%; left: 0; right: 0; z-index: 50;
+        background: #fff; border: 1px solid var(--border); border-radius: 8px;
+        padding: 8px; margin-top: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    }
+    nav.tabs.open { display: flex; }
+    nav.tabs a.tab-btn { width: 100%; box-sizing: border-box; }
+    #pageControls, .app-credit { order: 4; flex-basis: 100%; }
+}
 
 /* TABS */
 .tab-btn { padding: 7px 14px; border: 1px solid #dcdfe4; border-radius: 6px; background: #fff; cursor: pointer; font-weight: 600; font-size: 0.85rem; color: #555; transition: background 0.15s, box-shadow 0.15s, transform 0.1s; }
@@ -232,3 +257,9 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .btn-link:visited { background: #7f8c8d; color: #fff; }
 .btn-link:visited:hover { background: #6b7a7d; }
 .city-buttons { display: flex; flex-wrap: wrap; gap: 4px; }
+
+/* ONGLET "FRISE DE VIE" */
+#chart.frise-scroll { overflow: auto; cursor: default; }
+#chart.frise-scroll:active { cursor: default; }
+.frise-undated { padding: 8px 15px; font-size: 0.8rem; color: #555; border-top: 1px solid var(--border); background: #f9f9f9; flex-shrink: 0; }
+.frise-chip { display: inline-block; padding: 2px 8px; margin: 2px 2px; border-radius: 10px; background: #eef1f5; border: 1px solid var(--border); font-size: 0.75rem; }

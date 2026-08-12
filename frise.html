@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Frise de vie</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="vizArea">
+    <div class="chart-box-actions" style="position:absolute; right:15px; top:12px; z-index:5;">
+        <button class="chart-copy-btn" data-target="chart" title="Copier l'image dans le presse-papier">📋</button>
+    </div>
+    <div id="chart" class="frise-scroll"></div>
+    <div id="friseUndated" class="frise-undated hidden"></div>
+    <div id="legend" style="display:none">
+        <div id="legendPlaces"></div>
+        <div id="legendHistory">
+            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-monarque)"></span>Monarque</div>
+            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-regime)"></span>Régime</div>
+            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-president)"></span>Président</div>
+            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-evenement)"></span>Événement historique</div>
+        </div>
+    </div>
+    <div id="chartMessage" class="msg-info">
+        <h2>Chargez un fichier GEDCOM</h2>
+        <p>Retournez à l'<a href="index.html">accueil</a> pour charger un fichier.</p>
+    </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { FriseChart } from './assets/js/frise.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+import { escapeHtml } from './assets/js/utils.js';
+
+let list = [], map = new Map(), fams = new Map();
+const chartMessage = document.getElementById('chartMessage');
+const legend = document.getElementById('legend');
+const legendPlaces = document.getElementById('legendPlaces');
+const legendHistory = document.getElementById('legendHistory');
+const undatedBox = document.getElementById('friseUndated');
+let chart = null;
+
+function showMessage(cls, html) {
+    chartMessage.className = cls;
+    chartMessage.innerHTML = html;
+    chartMessage.classList.remove('hidden');
+    legend.style.display = 'none';
+    undatedBox.classList.add('hidden');
+}
+
+function renderUndated(life) {
+    if (!life.undated.length) { undatedBox.classList.add('hidden'); undatedBox.innerHTML = ''; return; }
+    undatedBox.classList.remove('hidden');
+    undatedBox.innerHTML = `<strong>Événements sans date :</strong> ` +
+        life.undated.map(u => `<span class="frise-chip">${escapeHtml(u.label)}</span>`).join(' ');
+}
+
+// Un swatch par lieu (département, à défaut pays) effectivement présent sur CETTE frise, dans
+// l'ordre de première apparition — la couleur est calculée par frise.js (angle d'or), on ne fait
+// ici que refléter ce qu'il a assigné.
+function renderPlaceLegend(placeLegend) {
+    const items = [`<div class="leg-item"><span class="dot" style="background:var(--frise-marker)"></span>Lieu inconnu</div>`]
+        .concat((placeLegend || []).map(p => `<div class="leg-item"><span class="dot" style="background:${p.color}"></span>${escapeHtml(p.label)}</div>`));
+    legendPlaces.innerHTML = items.join('');
+}
+
+function setupControls(controlsSlot) {
+    controlsSlot.innerHTML = `
+        <div class="ctrl" style="position:relative">
+            <input type="text" id="searchInput" placeholder="Rechercher une personne...">
+            <ul id="searchResults"></ul>
+        </div>
+        <span id="personSelected" class="map-person-selected"></span>
+        <div class="ctrl">
+            <label style="font-size:0.8rem; display:flex; align-items:center; gap:4px; cursor:pointer;">
+                <input type="checkbox" id="showHistoryToggle" checked> Contexte historique
+            </label>
+        </div>
+    `;
+    const searchEl = document.getElementById('searchInput');
+    const resultsEl = document.getElementById('searchResults');
+    const selectedEl = document.getElementById('personSelected');
+    const historyToggle = document.getElementById('showHistoryToggle');
+
+    chart = new FriseChart('chart', {
+        onEmpty: person => showMessage('msg-error', `<h2>Aucun événement daté</h2><p>${escapeHtml(person?.name || 'Cette personne')} n'a aucun événement avec une année connue.</p>`),
+        onReady: (person, life, placeLegend) => {
+            chartMessage.classList.add('hidden');
+            legend.style.display = 'block';
+            legendHistory.style.display = historyToggle.checked ? 'block' : 'none';
+            renderPlaceLegend(placeLegend);
+            renderUndated(life);
+        }
+    });
+
+    historyToggle.addEventListener('change', () => chart.setShowHistory(historyToggle.checked));
+    createPersonPicker({
+        searchEl, resultsEl, selectedEl,
+        getList: () => list,
+        onSelect: p => chart.setData(p, map, fams)
+    });
+    wireClickAway(resultsEl);
+}
+
+bootstrap({
+    page: 'frise',
+    onReady: setupControls,
+    onData: data => {
+        list = data.list; map = data.map; fams = data.fams;
+        if (list.length) {
+            const first = map.get('I1') || map.get('I0000') || list.find(i => i.birth?.year || i.death?.year) || list[0];
+            if (first) chart.setData(first, map, fams);
+        } else {
+            showMessage('msg-info', '<h2>Chargez un fichier GEDCOM</h2><p>Retournez à l\'<a href="index.html">accueil</a> pour charger un fichier.</p>');
+        }
+    }
+});
+</script>
+</body>
+</html>

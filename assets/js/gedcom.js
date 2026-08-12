@@ -2,7 +2,7 @@ import { GEO, normalizePlace, findDept, BELGIAN_REGIONS } from './geo.js';
 
 // --- PARSER ---
 export class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
@@ -10,6 +10,7 @@ export class GedcomParser {
     isApproxDate(s) { return !!s && /\b(ABT|CAL|EST)\b/i.test(s); }
     newEventFlags() { return { hasTag:false, hasDate:false, year:null, approx:false, geo:null }; }
     newCensusEntry() { return { year:null, approx:false, geo:null }; }
+    newResiEntry() { return { year:null, approx:false, geo:null }; }
     newPlaceStub(raw) { return { raw, form:null, lat:null, lon:null, dept:null, region:null, country:null, city:null }; }
     // Parse une coordonnée GEDCOM LATI/LONG du type "N47.314010" ou "W2.311220" en degrés décimaux signés.
     parseCoord(v) {
@@ -42,7 +43,17 @@ export class GedcomParser {
                         // qu'une fois) ; censusEvents accumule chaque occurrence pour permettre à
                         // l'outil "Recensements manquants" de savoir PRÉCISÉMENT quelles années sont
                         // déjà actées et lesquelles restent à rechercher.
-                        censusEvents: []
+                        censusEvents: [],
+                        // Même logique que censusEvents ci-dessus, appliquée à "1 RESI" (events.RESI ne
+                        // garde que la dernière occurrence) : utilisé par la frise de vie pour afficher
+                        // tous les domiciles successifs plutôt que le seul dernier connu.
+                        resiEvents: [],
+                        // Capture générique de TOUTES les occurrences de "1 EVEN"/"1 FACT", quel que soit
+                        // leur TYPE (contrairement à occupations/censusEvents ci-dessus, qui ne retiennent
+                        // que les faits reconnus comme métier ou recensement) : sert de matière première à
+                        // la frise de vie pour afficher les faits personnalisés (ex. "Domicile",
+                        // "Condamnation", "Service militaire"...) que le fichier GEDCOM peut contenir.
+                        otherEvents: []
                     };
                     this.indis.set(cur.id, cur);
                 }
@@ -96,13 +107,32 @@ export class GedcomParser {
                 i.censusEvents.push(entry);
                 this._curCensusEntry = entry;
             }
-            if(t==='RESI') i.events.RESI.hasTag = true;
+            if(t==='RESI') {
+                i.events.RESI.hasTag = true;
+                // Comme pour CENS ci-dessus : nouvelle occurrence à chaque "1 RESI", poussée immédiatement
+                // dans resiEvents ; _curResiEntry garde la référence pour que DATE/PLAC (niveau 2) la mutent.
+                const resiEntry = this.newResiEntry();
+                i.resiEvents.push(resiEntry);
+                this._curResiEntry = resiEntry;
+            }
             // Certains logiciels (Ancestris, Gramps...) encodent le métier — ou un recensement —
             // comme un fait générique "1 FACT <valeur>" / "1 EVEN <valeur>" avec "2 TYPE <...>"
             // plutôt qu'un tag standard (OCCU / CENS). On mémorise la valeur en attendant de voir
             // si son TYPE la confirme (traité au niveau 2 ci-dessous) : sans TYPE reconnu, elle est ignorée.
             this._curFactValue = (t==='FACT' && v && v.trim()) ? v.trim() : null;
-            this._pendingEven = (t==='EVEN' || t==='FACT') ? { hasDate:false, year:null, approx:false, geo:null, isCens:false } : null;
+            if(t==='EVEN' || t==='FACT') {
+                // Entrée générique poussée immédiatement dans otherEvents (comme pour CENS/RESI ci-dessus),
+                // avec la valeur brute de la ligne "1 EVEN"/"1 FACT" elle-même (indépendamment de
+                // _curFactValue, qui ne capture que FACT) : TYPE/DATE/PLAC (niveau 2) la mutent ensuite en
+                // place. _pendingEven reste l'objet historique utilisé par la logique occupation/recensement
+                // ci-dessous ; "entry" y est ajouté comme simple référence croisée, sans rien changer aux
+                // champs existants (hasDate/year/approx/geo/isCens/censusEntry).
+                const otherEntry = { tag:t, typeLabel:null, value:(v && v.trim()) ? v.trim() : null, year:null, approx:false, geo:null, isCens:false, isOccupation:false };
+                i.otherEvents.push(otherEntry);
+                this._pendingEven = { hasDate:false, year:null, approx:false, geo:null, isCens:false, entry:otherEntry };
+            } else {
+                this._pendingEven = null;
+            }
         }
         else if(lvl===2) {
             if(t!=='PLAC') this._curPlaceStub = null; // DATE/ADDR/SOUR... referment le contexte du lieu précédent
@@ -121,9 +151,11 @@ export class GedcomParser {
                 if((i._ctx==='CENS' || i._ctx==='RESI') && v && v.trim().length) {
                     i.events[i._ctx].hasDate = true; i.events[i._ctx].year = y; i.events[i._ctx].approx = approx;
                     if(i._ctx==='CENS' && this._curCensusEntry) { this._curCensusEntry.year = y; this._curCensusEntry.approx = approx; }
+                    if(i._ctx==='RESI' && this._curResiEntry) { this._curResiEntry.year = y; this._curResiEntry.approx = approx; }
                 }
                 if((i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven && v && v.trim().length) {
                     this._pendingEven.hasDate = true; this._pendingEven.year = y; this._pendingEven.approx = approx;
+                    if(this._pendingEven.entry) { this._pendingEven.entry.year = y; this._pendingEven.entry.approx = approx; }
                     // Ordre GEDCOM habituel : TYPE précède DATE/PLAC (pas l'inverse). Si le TYPE a
                     // déjà confirmé ce EVEN/FACT comme recensement, on écrit directement dans le
                     // recensement plutôt que de compter uniquement sur le repli "TYPE arrive après"
@@ -146,18 +178,28 @@ export class GedcomParser {
                 if(i._ctx==='CENS' || i._ctx==='RESI') {
                     i.events[i._ctx].geo = stub;
                     if(i._ctx==='CENS' && this._curCensusEntry) this._curCensusEntry.geo = stub;
+                    if(i._ctx==='RESI' && this._curResiEntry) this._curResiEntry.geo = stub;
                 }
                 if((i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven) {
                     this._pendingEven.geo = stub;
+                    if(this._pendingEven.entry) this._pendingEven.entry.geo = stub;
                     if(this._pendingEven.isCens) {
                         i.events.CENS.geo = stub;
                         if(this._pendingEven.censusEntry) this._pendingEven.censusEntry.geo = stub;
                     }
                 }
             }
+            // Capture générique et inconditionnelle du TYPE de tout "1 EVEN"/"1 FACT" dans otherEvents,
+            // indépendamment de sa reconnaissance (ou non) comme métier/recensement ci-dessous : c'est
+            // ce TYPE qui sert de libellé à la frise de vie pour les faits personnalisés (ex. "Domicile",
+            // "Condamnation", "Service militaire").
+            if(t==='TYPE' && (i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven?.entry) {
+                this._pendingEven.entry.typeLabel = v.trim();
+            }
             if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
                 i.occupations.push(this._curFactValue);
                 this._curFactValue = null;
+                if(this._pendingEven?.entry) this._pendingEven.entry.isOccupation = true;
             }
             // "1 EVEN"/"1 FACT" confirmé comme recensement par son TYPE : on rattache au recensement
             // ce qui avait déjà été mis en attente (date/lieu, si TYPE arrive après eux) ET on marque
@@ -166,6 +208,7 @@ export class GedcomParser {
             if(t==='TYPE' && (i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven && /recens|census|d[ée]nombrement/i.test(v)) {
                 const p = this._pendingEven;
                 p.isCens = true;
+                if(p.entry) p.entry.isCens = true;
                 i.events.CENS.hasTag = true;
                 if(p.hasDate) { i.events.CENS.hasDate = true; i.events.CENS.year = p.year; i.events.CENS.approx = p.approx; }
                 if(p.geo) i.events.CENS.geo = p.geo;
@@ -230,6 +273,8 @@ export class GedcomParser {
             // Chaque occurrence de recensement a son propre lieu (pas seulement le dernier, gardé
             // dans events.CENS.geo) : toutes doivent être finalisées individuellement.
             i.censusEvents.forEach(entry => finalize(entry.geo));
+            i.resiEvents.forEach(entry => finalize(entry.geo));
+            i.otherEvents.forEach(entry => finalize(entry.geo));
         });
         this.fams.forEach(f => finalize(f.marr.geo));
     }

@@ -155,6 +155,121 @@ function fuzzyForenameField(text) {
     return text.trim().split(/\s+/).filter(Boolean).join('~');
 }
 
+// --- Recherche via l'outil Sparnatural (archives notariales, FranceArchives) ---
+// L'outil Sparnatural (https://francearchives.gouv.fr/fr/requeteurnaturel) interroge par SPARQL
+// un réservoir RiC-O distinct de la base de noms utilisée ci-dessus pour les recensements : il n'y
+// a pas de recherche nominative directe dans les actes notariés (les minutes ne sont pas indexées
+// personne par personne), mais on peut chercher les DOCUMENTS PRODUITS PAR une Personne dont
+// l'activité est "notaire", ce qui permet de repérer si un ascendant a lui-même exercé cette
+// charge. Les prédicats ci-dessous ont été vérifiés en capturant l'URL réellement générée par
+// l'outil après une recherche manuelle (le bouton de partage encode la requête SPARQL en clair
+// dans le fragment #query=, sans compression) :
+//   hasProvenance            Archives -> Personne (producteur)
+//   performsOrPerformed/hasActivityType   Personne -> activité (ici : notaire)
+//   beginningDate             Archives -> date
+//   isOrWasIncludedIn         Archives -> Inventaire parent (toujours présent dans les requêtes
+//                             capturées, y compris sans contrainte dessus ; reproduit tel quel)
+// Une première version tentait aussi de filtrer par commune (Lieu -> rdfs:label -> bif:contains,
+// en texte libre) : ce triplet n'a jamais été observé dans une requête réelle, contrairement au
+// filtre par Personne/Nom ci-dessous — seule la résolution vers l'URI exacte de l'autorité lieu
+// FranceArchives (vue dans un exemple sous la forme https://francearchives.gouv.fr/location/<id>,
+// résolue par l'autocomplete du portail lors de la saisie manuelle) l'a été. Cette résolution n'est
+// pas reproductible côté client (le portail bloque les requêtes automatisées), et le filtre en
+// texte libre inventé pour la remplacer s'est avéré renvoyer une recherche vide une fois testé :
+// la commune n'est donc plus incluse dans la requête, seulement indiquée en clair à côté du lien
+// (voir computeNotarialLeads), à ajouter à la main dans l'outil au besoin.
+const RIC = 'https://www.ica.org/standards/RiC/ontology#';
+const RDFS_LABEL = 'http://www.w3.org/2000/01/rdf-schema#label';
+const BIF_CONTAINS = 'http://www.openlinksw.com/schemas/bif#contains';
+// URI FranceArchives (thésaurus interne) du concept "notaire", capturée dans une requête réelle
+// filtrant sur l'activité d'une Personne. Opaque mais stable (identifiant d'autorité).
+const NOTAIRE_ACTIVITY_URI = 'https://francearchives.gouv.fr/externaluri/d3nyu9x713-9kcjiv44l4wh';
+
+// Échappe et entoure une valeur pour l'opérateur plein texte Virtuoso bif:contains utilisé par
+// Sparnatural pour filtrer le rdfs:label d'une Personne : la valeur doit être entre guillemets
+// simples (syntaxe Virtuoso), eux-mêmes insérés dans un littéral SPARQL entre guillemets doubles.
+// Un seul mot (le nom de famille), sans troncature ni combinaison "AND" : c'est exactement la forme
+// vue dans les deux requêtes réelles ayant servi de modèle, gage de fiabilité maximale.
+function bifContainsLiteral(text) {
+    const escaped = text.replace(/\\/g, '\\\\').replace(/'/g, "\\'").replace(/"/g, '\\"');
+    return `"'${escaped}'"`;
+}
+function sparqlBoundIso(year, isUpperBound) {
+    return `${year}-${isUpperBound ? '12-31T23:59:59' : '01-01T00:00:00'}Z`;
+}
+
+// Requête SPARQL "Document d'archives produit par une Personne dont l'activité est notaire et
+// dont le nom contient nameTerm, daté entre yearFrom et yearTo" — reproduit fidèlement la
+// structure d'une requête réellement générée par l'outil (voir commentaire ci-dessus).
+export function buildSparnaturalNotaireQuery(nameTerm, yearFrom, yearTo) {
+    const name = (nameTerm || '').trim();
+    if (!name || yearFrom == null || yearTo == null) return null;
+    return `PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT DISTINCT ?Archives_1 ?Archives_1_label WHERE {
+  ?Archives_1 rdf:type <${RIC}RecordResource>;
+    <${RIC}isOrWasIncludedIn> _:g1.
+  OPTIONAL { ?Archives_1 <${RIC}title> ?Archives_1_label. }
+  ?Archives_1 <${RIC}hasProvenance> ?Personne_2.
+  ?Personne_2 rdf:type <${RIC}Person>;
+    (<${RIC}performsOrPerformed>/<${RIC}hasActivityType>) <${NOTAIRE_ACTIVITY_URI}>;
+    <${RDFS_LABEL}> ?Nom_7.
+  ?Nom_7 <${BIF_CONTAINS}> ${bifContainsLiteral(name)}.
+  ?Archives_1 <${RIC}beginningDate> ?Date_10.
+  FILTER(((xsd:dateTime(?Date_10)) >= "${sparqlBoundIso(yearFrom, false)}"^^xsd:dateTime) && ((xsd:dateTime(?Date_10)) <= "${sparqlBoundIso(yearTo, true)}"^^xsd:dateTime))
+}
+LIMIT 1000`;
+}
+export function buildSparnaturalNotaireUrl(nameTerm, yearFrom, yearTo) {
+    const query = buildSparnaturalNotaireQuery(nameTerm, yearFrom, yearTo);
+    return query ? `https://francearchives.gouv.fr/fr/requeteurnaturel#query=${encodeURIComponent(query)}` : null;
+}
+
+// Pour chaque personne, un lien Sparnatural cherchant si CETTE personne a pu exercer comme notaire
+// (nom de famille + activité), sur toute sa période d'activité adulte plausible (15 ans après sa
+// naissance estimée, jusqu'à son décès ou, à défaut, jusqu'à maxAge ans). Les communes connues
+// (naissance, mariage, décès — dédupliquées par nom) sont fournies à titre indicatif à côté du
+// lien : la requête ne peut pas les y intégrer directement (voir commentaire plus haut), mais elles
+// aident à choisir rapidement, une fois l'outil ouvert, le lieu à ajouter à la main si besoin.
+// Contrairement aux recensements, il n'y a pas d'état "déjà documenté" à exclure : les registres
+// notariés ne sont pas des événements actés dans le GEDCOM, donc un lien est proposé dès qu'un nom
+// de famille et une naissance (actée ou estimée) sont disponibles.
+// opts: { ancestorScopeSet, maxAge }
+export function computeNotarialLeads(list, map, fams, opts) {
+    opts = opts || {};
+    const maxAge = opts.maxAge != null ? opts.maxAge : 100;
+    const results = [];
+    list.forEach(p => {
+        if (opts.ancestorScopeSet && !opts.ancestorScopeSet.has(p.id)) return;
+        if (!p.surname) return; // la recherche porte sur le nom du producteur : indispensable
+
+        const birthEst = estimateBirthYear(p, map, fams);
+        if (!birthEst) return;
+        const yearFrom = birthEst.year + 15;
+        const yearTo = p.death.year != null ? p.death.year : birthEst.year + maxAge;
+        if (yearFrom > yearTo) return;
+
+        const url = buildSparnaturalNotaireUrl(p.surname, yearFrom, yearTo);
+        if (!url) return;
+
+        const places = [];
+        const seenCities = new Set();
+        const addPlace = (geo, source) => {
+            if (!geo || !geo.city) return;
+            const key = geo.city.toLowerCase();
+            if (seenCities.has(key)) return;
+            seenCities.add(key);
+            places.push({ city: geo.city, dept: geo.dept, source });
+        };
+        addPlace(p.birth.geo, 'naissance');
+        addPlace(p.marrGeo, 'mariage');
+        addPlace(p.death.geo, 'décès');
+
+        results.push({ person: p, birthEst, yearFrom, yearTo, url, places });
+    });
+    return results;
+}
+
 // Lien pré-rempli vers la base de noms "recensement" de FranceArchives, ciblé sur UNE année de
 // recensement précise (es_date_min = es_date_max = cette année, puisqu'on sait déjà exactement
 // quel recensement chercher) et le département (`dept`, au format "XX - Nom" tel que stocké par
