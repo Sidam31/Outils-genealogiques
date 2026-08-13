@@ -246,7 +246,11 @@ export class FriseChart {
                     .attr('x', fitsInBar ? item.x1 + barW / 2 : item.x1 + barW + 4)
                     .attr('y', y + 9.5)
                     .attr('text-anchor', fitsInBar ? 'middle' : 'start')
-                    .style('font-size', '10px').style('fill', '#555')
+                    // Libellé posé SUR le bandeau coloré (fond souvent sombre : rouge/bleu/brun) : texte
+                    // blanc plutôt que le gris foncé utilisé quand il déborde sur le fond blanc du
+                    // graphique — sinon illisible aussi bien à l'écran que sur l'image copiée.
+                    .style('font-size', '10px').style('font-weight', fitsInBar ? '600' : 'normal')
+                    .style('fill', fitsInBar ? '#fff' : '#555')
                     .text(item.label);
             });
         }
