@@ -16,7 +16,8 @@
 
         <div class="controls" style="justify-content:center; margin-bottom:18px;">
             <button type="button" class="tab-btn active" id="modeRecensementBtn">📋 Recensement</button>
-            <button type="button" class="tab-btn" id="modeNotariatBtn">⚖ Notariat (WIP)</button>
+            <button type="button" class="tab-btn" id="modeNotariatBtn">⚖ Notariat</button>
+            <button type="button" class="tab-btn" id="modeSuccessionsBtn">⚰ Successions (Nord)</button>
         </div>
 
         <div id="introRecensement">
@@ -26,9 +27,15 @@
             <p class="hint" style="text-align:center;">Les liens de recherche utilisent une troncature ("*") sur le nom et le prénom pour compenser les erreurs de transcription OCR fréquentes sur ces registres — élargissez ou affinez la recherche directement sur FranceArchives si besoin.</p>
         </div>
         <div id="introNotariat" class="hidden">
-            <p class="quality-intro">Pour chaque personne, un lien vers l'outil de recherche guidée Sparnatural de FranceArchives, cherchant si elle a pu elle-même exercer comme notaire (nom de famille + activité "notaire").</p>
-            <p class="hint" style="text-align:center;">Les actes notariés eux-mêmes ne sont pas indexés nominativement (aucune recherche possible "cette personne citée dans un acte") : seuls les documents dont le NOTAIRE PRODUCTEUR porte ce nom peuvent être retrouvés ainsi.</p>
-            <p class="hint" style="text-align:center;">Les communes connues (naissance, mariage, décès) sont indiquées à titre indicatif à côté du lien : la requête ne peut pas les y intégrer automatiquement (l'outil résout les lieux via son propre autocomplete, inaccessible depuis ce site) — ajoutez-en une à la main dans Sparnatural si besoin de restreindre la recherche.</p>
+            <p class="quality-intro">Pour chaque personne mariée ou décédée à une date et un lieu connus (actés, pas estimés), les notaires ayant exercé dans la même commune sur une période couvrant cette date, d'après la base <a href="https://www.francegenweb.eu/notaires/" target="_blank" rel="noopener">Notaires de FranceGenWeb</a> (~40&nbsp;000 fiches, France métropolitaine et DOM-TOM) — piste la plus probable pour retrouver un contrat de mariage ou un inventaire après décès, avec un lien direct vers chaque fiche.</p>
+            <p class="hint" style="text-align:center;">La correspondance se fait par nom de commune (exact, après normalisation) : une commune connue du GEDCOM sous un nom différent de celui utilisé par FranceGenWeb (fusion, ancien nom, hameau plutôt que commune de rattachement...) ne remontera aucune piste ici — vérifiez alors directement sur le site si besoin.</p>
+            <p class="hint" style="text-align:center;">Base tenue par des bénévoles à partir d'actes dépouillés au fil du temps : l'absence de piste pour une commune/période donnée ne signifie pas qu'aucun notaire n'y exerçait, seulement qu'aucune fiche n'a encore été saisie.</p>
+        </div>
+        <div id="introSuccessions" class="hidden">
+            <p class="quality-intro">Pour chaque personne décédée dans le département du Nord à une date et une commune connues, un lien vers le registre du portail des <a href="https://archivesdepartementales.lenord.fr/" target="_blank" rel="noopener">Archives départementales du Nord</a> couvrant cette période, dans la série des tables des successions et absences (cote 3Q).</p>
+            <p class="hint" style="text-align:center;">Contrairement au mode Notariat, ce portail n'a pas d'index nominatif sur cette série : le lien pointe vers le registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement.</p>
+            <p class="hint" style="text-align:center;">Le filtre "Lieux" du portail est un vocabulaire contrôlé, pas une recherche floue : une commune non indexée sous son propre nom dans cette série (souvent le cas des petites communes, rattachées au nom du bureau d'enregistrement dont elles dépendaient) donnera 0 résultat même si des registres existent — vérifiez alors directement sur le portail, sans le filtre de lieu.</p>
+            <p class="hint" style="text-align:center;">Limité au Nord pour l'instant : chaque département a son propre portail d'archives, avec sa propre technique de recherche.</p>
         </div>
 
         <div class="options-panel">
@@ -44,9 +51,14 @@
                 <button type="button" id="resetDatesBtn" class="ghost" style="margin-top:6px;">Réinitialiser les dates</button>
             </div>
 
-            <div class="age-filter-container">
-                <label>Âge maximal plausible à la date du recensement / de fin d'activité : <input type="number" id="optMaxAge" value="100" min="0" style="width:60px;"> ans</label>
+            <div class="age-filter-container" id="recensementAgeOptions">
+                <label>Âge maximal plausible à la date du recensement : <input type="number" id="optMaxAge" value="100" min="0" style="width:60px;"> ans</label>
                 <div class="hint">Au-delà de cet âge, l'estimation de naissance est plus probablement erronée qu'une réelle longévité : la piste n'est pas proposée.</div>
+            </div>
+
+            <div class="age-filter-container hidden" id="notariatOptions">
+                <label>Tolérance sur la période d'exercice du notaire : <input type="number" id="optNotaireTolerance" value="0" min="0" style="width:60px;"> ans</label>
+                <div class="hint">Élargit de part et d'autre les dates de début/fin connues d'un notaire (souvent celles des actes retrouvés, pas forcément toute sa carrière) : augmentez si aucune piste ne ressort pour une commune où vous savez qu'un notaire exerçait.</div>
             </div>
 
             <div class="map-scope-row">
@@ -90,11 +102,26 @@
                         <th class="sortable" data-sort-nota="name">Nom <span class="sort-arrow"></span></th>
                         <th>Prénom</th>
                         <th class="sortable" data-sort-nota="birth">Naissance <span class="sort-arrow"></span></th>
-                        <th>Recherche Sparnatural</th>
-                        <th>Communes connues</th>
+                        <th>Notaire(s) candidat(s)</th>
                     </tr>
                 </thead>
                 <tbody id="resultsBodyNotariat"></tbody>
+            </table>
+        </div>
+
+        <div id="resultsWrapSuccessions" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort-succ="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-succ="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort-succ="death">Décès <span class="sort-arrow"></span></th>
+                        <th>Commune</th>
+                        <th>Registre</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsBodySuccessions"></tbody>
             </table>
         </div>
     </div>
@@ -105,23 +132,34 @@ import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
 import {
-    computeMissingRecensements, buildFranceArchivesUrl, computeNotarialLeads,
+    computeMissingRecensements, buildFranceArchivesUrl,
     RECENSEMENT_DEPT_CODES_DEFAULT, RECENSEMENT_DATES_DEFAULT,
     parseDeptCodesInput, parseCensusDatesInput
 } from './assets/js/recensements.js';
+import { computeNotarialActLeads, loadNotairesIndex, notaireDetailUrl } from './assets/js/notaires.js';
+import { computeSuccessionLeads } from './assets/js/successions-nord.js';
+import { estimateBirthYear } from './assets/js/inference.js';
+
+// Lancé dès le chargement de la page (avant même qu'un GEDCOM soit importé) : le fichier pèse
+// quelques Mo, autant paralléliser sa récupération avec le temps que prend la personne à choisir
+// et charger son fichier plutôt que d'attendre le clic "Analyser".
+loadNotairesIndex();
 
 let list = [], map = new Map(), fams = new Map();
 let ancestorPersonId = null;
 let lastResults = [];
 let notarialResults = [];
-let mode = 'recensement'; // 'recensement' | 'notariat'
+let successionResults = [];
+let mode = 'recensement'; // 'recensement' | 'notariat' | 'successions'
 let sortKey = 'sosa', sortDir = 1;
 let sortKeyNota = 'sosa', sortDirNota = 1;
+let sortKeySucc = 'sosa', sortDirSucc = 1;
 
 const SORT_COMPARATORS = {
     sosa: r => r.sosa ?? Infinity,
     name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
-    birth: r => r.birthEst.year
+    birth: r => r.birthEst ? r.birthEst.year : Infinity,
+    death: r => r.year ?? Infinity
 };
 
 function sortedResults() {
@@ -138,6 +176,14 @@ function sortedNotarialResults() {
         const ka = getKey(a), kb = getKey(b);
         const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
         return cmp * sortDirNota;
+    });
+}
+function sortedSuccessionResults() {
+    const getKey = SORT_COMPARATORS[sortKeySucc] || SORT_COMPARATORS.sosa;
+    return [...successionResults].sort((a, b) => {
+        const ka = getKey(a), kb = getKey(b);
+        const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+        return cmp * sortDirSucc;
     });
 }
 
@@ -157,6 +203,14 @@ document.querySelectorAll('th.sortable[data-sort-nota]').forEach(th => {
         renderNotarialResults();
     });
 });
+document.querySelectorAll('th.sortable[data-sort-succ]').forEach(th => {
+    th.addEventListener('click', () => {
+        const key = th.dataset.sortSucc;
+        if (sortKeySucc === key) { sortDirSucc *= -1; } else { sortKeySucc = key; sortDirSucc = 1; }
+        updateSortIndicators();
+        renderSuccessionResults();
+    });
+});
 function updateSortIndicators() {
     document.querySelectorAll('#resultsWrapRecensement th.sortable').forEach(th => {
         const active = th.dataset.sort === sortKey;
@@ -168,14 +222,21 @@ function updateSortIndicators() {
         th.classList.toggle('sort-active', active);
         th.querySelector('.sort-arrow').textContent = active ? (sortDirNota === 1 ? '▲' : '▼') : '';
     });
+    document.querySelectorAll('#resultsWrapSuccessions th.sortable').forEach(th => {
+        const active = th.dataset.sortSucc === sortKeySucc;
+        th.classList.toggle('sort-active', active);
+        th.querySelector('.sort-arrow').textContent = active ? (sortDirSucc === 1 ? '▲' : '▼') : '';
+    });
 }
 
 const analyzeBtn = document.getElementById('analyzeBtn');
 const statusEl = document.getElementById('status');
 const resultsWrapRecensement = document.getElementById('resultsWrapRecensement');
 const resultsWrapNotariat = document.getElementById('resultsWrapNotariat');
+const resultsWrapSuccessions = document.getElementById('resultsWrapSuccessions');
 const resultsBodyRecensement = document.getElementById('resultsBodyRecensement');
 const resultsBodyNotariat = document.getElementById('resultsBodyNotariat');
+const resultsBodySuccessions = document.getElementById('resultsBodySuccessions');
 const csvBtn = document.getElementById('csvBtn');
 const ancestorOnlyEl = document.getElementById('optAncestorOnly');
 const personSearchEl = document.getElementById('personSearch');
@@ -186,8 +247,10 @@ const censusDatesInput = document.getElementById('censusDatesInput');
 const recensementOptionsEl = document.getElementById('recensementOptions');
 const introRecensementEl = document.getElementById('introRecensement');
 const introNotariatEl = document.getElementById('introNotariat');
+const introSuccessionsEl = document.getElementById('introSuccessions');
 const modeRecensementBtn = document.getElementById('modeRecensementBtn');
 const modeNotariatBtn = document.getElementById('modeNotariatBtn');
+const modeSuccessionsBtn = document.getElementById('modeSuccessionsBtn');
 
 deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', ');
 censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', ');
@@ -202,30 +265,38 @@ createPersonPicker({
 });
 wireClickAway(personResultsEl);
 
-// Les deux modes partagent le même fichier chargé et le même bouton "Analyser" : changer de mode
-// ne relance pas l'analyse, il ne fait que basculer l'affichage entre les deux jeux de résultats
-// déjà calculés (ou les options/intro tant que rien n'a encore été analysé).
+// Les trois modes partagent le même fichier chargé et le même bouton "Analyser" : changer de mode
+// ne relance pas l'analyse, il ne fait que basculer l'affichage entre les jeux de résultats déjà
+// calculés (ou les options/intro tant que rien n'a encore été analysé).
 function setMode(newMode) {
     mode = newMode;
     modeRecensementBtn.classList.toggle('active', mode === 'recensement');
     modeNotariatBtn.classList.toggle('active', mode === 'notariat');
+    modeSuccessionsBtn.classList.toggle('active', mode === 'successions');
     introRecensementEl.classList.toggle('hidden', mode !== 'recensement');
     introNotariatEl.classList.toggle('hidden', mode !== 'notariat');
+    introSuccessionsEl.classList.toggle('hidden', mode !== 'successions');
     recensementOptionsEl.classList.toggle('hidden', mode !== 'recensement');
+    document.getElementById('recensementAgeOptions').classList.toggle('hidden', mode !== 'recensement');
+    document.getElementById('notariatOptions').classList.toggle('hidden', mode !== 'notariat');
     updateResultsVisibility();
 }
 modeRecensementBtn.addEventListener('click', () => setMode('recensement'));
 modeNotariatBtn.addEventListener('click', () => setMode('notariat'));
+modeSuccessionsBtn.addEventListener('click', () => setMode('successions'));
 
 function updateResultsVisibility() {
     const hasRecensement = lastResults.length > 0;
     const hasNotariat = notarialResults.length > 0;
+    const hasSuccessions = successionResults.length > 0;
     resultsWrapRecensement.classList.toggle('hidden', !(mode === 'recensement' && hasRecensement));
     resultsWrapNotariat.classList.toggle('hidden', !(mode === 'notariat' && hasNotariat));
-    csvBtn.classList.toggle('hidden', mode === 'recensement' ? !hasRecensement : !hasNotariat);
+    resultsWrapSuccessions.classList.toggle('hidden', !(mode === 'successions' && hasSuccessions));
+    const hasCurrent = mode === 'recensement' ? hasRecensement : (mode === 'notariat' ? hasNotariat : hasSuccessions);
+    csvBtn.classList.toggle('hidden', !hasCurrent);
 }
 
-analyzeBtn.addEventListener('click', () => {
+analyzeBtn.addEventListener('click', async () => {
     if (!list.length) return;
     statusEl.textContent = 'Analyse en cours…';
     const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
@@ -233,20 +304,34 @@ analyzeBtn.addEventListener('click', () => {
     const deptCodes = parseDeptCodesInput(deptCodesInput.value);
     const censusDates = parseCensusDatesInput(censusDatesInput.value);
     const maxAge = parseInt(document.getElementById('optMaxAge').value) || 100;
+    const tolerance = parseInt(document.getElementById('optNotaireTolerance').value) || 0;
 
     lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet, deptCodes, censusDates, maxAge });
     lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
 
-    notarialResults = computeNotarialLeads(list, map, fams, { ancestorScopeSet: scopeSet, maxAge });
-    notarialResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+    // La base Notaires (chargée en tâche de fond dès l'ouverture de la page, voir loadNotairesIndex()
+    // plus haut) est normalement déjà prête ici ; l'attente ne se voit que si le fichier est encore
+    // en cours de récupération (connexion lente, premier chargement de la page juste avant le clic).
+    statusEl.textContent = 'Analyse en cours… (chargement de la base Notaires si besoin)';
+    const notairesIndex = await loadNotairesIndex();
+    notarialResults = computeNotarialActLeads(list, notairesIndex, { ancestorScopeSet: scopeSet, tolerance });
+    notarialResults.forEach(r => {
+        r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
+        r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
+    });
 
-    statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat.`;
+    successionResults = computeSuccessionLeads(list, { ancestorScopeSet: scopeSet });
+    successionResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+
+    statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat, ${successionResults.length} pour les successions.`;
 
     sortKey = sosaMap ? 'sosa' : 'name'; sortDir = 1;
     sortKeyNota = sosaMap ? 'sosa' : 'name'; sortDirNota = 1;
+    sortKeySucc = sosaMap ? 'sosa' : 'name'; sortDirSucc = 1;
     updateSortIndicators();
     renderResults();
     renderNotarialResults();
+    renderSuccessionResults();
     updateResultsVisibility();
 });
 
@@ -294,24 +379,41 @@ function renderNotarialResults() {
     sortedNotarialResults().forEach(r => {
         const p = r.person;
         const tr = document.createElement('tr');
-        const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
+        const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
 
-        const searchDisplay = `<div style="font-size:0.8rem; color:#555;">${r.yearFrom} – ${r.yearTo}</div>
-            <div class="city-buttons"><a class="btn-link" href="${r.url}" target="_blank" rel="noopener">⚖ Chercher sur Sparnatural</a></div>`;
-
-        const placesDisplay = r.places.length
-            ? `<ul class="reason-list">${r.places.map(pl => `<li>${escapeHtml(pl.city)}${pl.dept ? ` (${escapeHtml(pl.dept)})` : ''} — ${escapeHtml(pl.source)}</li>`).join('')}</ul>`
-            : '<em>aucune commune connue</em>';
+        // Un bloc par événement (mariage/décès) : le contexte (année, commune) d'abord, puis un
+        // bouton par notaire candidat trouvé pour cette commune et cette période — plusieurs notaires
+        // ont pu se succéder ou coexister, mieux vaut lister toutes les fiches que d'en choisir une.
+        const eventsDisplay = r.events.map(ev => `<div style="margin-bottom:8px;">
+            <div style="font-size:0.8rem; color:#555;">${escapeHtml(ev.type)} ${ev.year} — ${escapeHtml(ev.city)} (${escapeHtml(ev.dept)})</div>
+            <div class="city-buttons">${ev.matches.map(m => `<a class="btn-link" href="${notaireDetailUrl(m.id)}" target="_blank" rel="noopener">⚖ ${escapeHtml(m.nom || 'notaire non nommé')} (${escapeHtml(m.date_debut || '?')}–${escapeHtml(m.date_fin || '?')})</a>`).join('')}</div>
+        </div>`).join('');
 
         tr.innerHTML = `
             <td>${r.sosa != null ? r.sosa : '-'}</td>
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
             <td>${birthDisplay}</td>
-            <td>${searchDisplay}</td>
-            <td>${placesDisplay}</td>
+            <td>${eventsDisplay}</td>
         `;
         resultsBodyNotariat.appendChild(tr);
+    });
+}
+
+function renderSuccessionResults() {
+    resultsBodySuccessions.innerHTML = '';
+    sortedSuccessionResults().forEach(r => {
+        const p = r.person;
+        const tr = document.createElement('tr');
+        tr.innerHTML = `
+            <td>${r.sosa != null ? r.sosa : '-'}</td>
+            <td>${escapeHtml(p.surname || '')}</td>
+            <td>${escapeHtml(p.given || '')}</td>
+            <td>${r.year}</td>
+            <td>${escapeHtml(r.city)}</td>
+            <td><div class="city-buttons"><a class="btn-link" href="${r.url}" target="_blank" rel="noopener">⚰ Voir le registre</a></div></td>
+        `;
+        resultsBodySuccessions.appendChild(tr);
     });
 }
 
@@ -332,21 +434,46 @@ csvBtn.addEventListener('click', () => {
             r.validation.children.join(', ')
         ]);
         downloadCsv('recensements_manquants.csv', headers, rows);
-    } else {
+    } else if (mode === 'notariat') {
         if (!notarialResults.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Periode recherchee', 'URL Sparnatural', 'Communes connues'];
-        const rows = sortedNotarialResults().map(r => [
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Evenement', 'Annee', 'Commune', 'Departement', 'Notaire', 'Debut exercice', 'Fin exercice', 'URL fiche'];
+        const rows = [];
+        sortedNotarialResults().forEach(r => {
+            r.events.forEach(ev => {
+                ev.matches.forEach(m => {
+                    rows.push([
+                        r.sosa != null ? r.sosa : '',
+                        r.person.id,
+                        r.person.surname || '',
+                        r.person.given || '',
+                        r.birthEst ? r.birthEst.year : '',
+                        r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                        ev.type,
+                        ev.year,
+                        ev.city,
+                        ev.dept,
+                        m.nom || '',
+                        m.date_debut || '',
+                        m.date_fin || '',
+                        notaireDetailUrl(m.id)
+                    ]);
+                });
+            });
+        });
+        downloadCsv('notariat_pistes.csv', headers, rows);
+    } else {
+        if (!successionResults.length) return;
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Annee deces', 'Commune', 'URL registre'];
+        const rows = sortedSuccessionResults().map(r => [
             r.sosa != null ? r.sosa : '',
             r.person.id,
             r.person.surname || '',
             r.person.given || '',
-            r.birthEst.year,
-            r.birthEst.estimated ? 'oui' : 'non',
-            `${r.yearFrom}-${r.yearTo}`,
-            r.url,
-            r.places.map(pl => `${pl.city} (${pl.source})`).join(' | ')
+            r.year,
+            r.city,
+            r.url
         ]);
-        downloadCsv('notariat_pistes.csv', headers, rows);
+        downloadCsv('successions_nord_pistes.csv', headers, rows);
     }
 });
 
