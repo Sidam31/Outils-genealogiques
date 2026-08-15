@@ -72,13 +72,28 @@ export function loadNotairesIndex() {
     return indexPromise;
 }
 
-// Un notaire "sans date" (date_debut/date_fin vides, "?", ou illisible côté source — voir
-// enrich_notaires_dates.py) a ses bornes à null : plutôt que d'exclure la fiche faute de pouvoir
-// vérifier la période, elle est traitée comme non contraignante de ce côté-là (mieux vaut une
-// piste à vérifier soi-même qu'une fiche jamais proposée pour cette seule raison).
-function periodMatches(rec, year, tolerance) {
-    const lo = rec.year_debut != null ? rec.year_debut - tolerance : -Infinity;
-    const hi = rec.year_fin != null ? rec.year_fin + tolerance : Infinity;
+// Durée de carrière maximale plausible pour un notaire, utilisée pour borner le côté inconnu
+// d'une fiche partiellement datée ("1620 -> ?") : sans ça, un notaire ayant démarré en 1620 et
+// sans date de fin ressortirait comme piste pour un décès en 1980. Vérifié sur la base : parmi
+// les ~44 700 fiches où date_debut ET date_fin sont connues, 95,6% ont un écart inférieur à 50 ans
+// (90% < 40 ans, 97,7% < 60 ans) — 50 ans est donc une borne large mais réaliste.
+const DEFAULT_MAX_CAREER_SPAN = 50;
+
+// Un notaire "sans date du tout" (date_debut ET date_fin vides, "?", ou illisibles côté source —
+// voir enrich_notaires_dates.py) a ses deux bornes à null : plutôt que d'exclure la fiche faute de
+// pouvoir vérifier la période, elle est traitée comme non contraignante (mieux vaut une piste à
+// vérifier soi-même qu'une fiche jamais proposée pour cette seule raison). En revanche, dès qu'une
+// des deux dates est connue, elle sert d'ancrage pour borner l'autre à maxSpan années au plus.
+function periodMatches(rec, year, tolerance, maxSpan) {
+    maxSpan = maxSpan != null ? maxSpan : DEFAULT_MAX_CAREER_SPAN;
+    const hasDebut = rec.year_debut != null;
+    const hasFin = rec.year_fin != null;
+    const lo = hasDebut ? rec.year_debut - tolerance
+        : hasFin ? rec.year_fin - maxSpan - tolerance
+        : -Infinity;
+    const hi = hasFin ? rec.year_fin + tolerance
+        : hasDebut ? rec.year_debut + maxSpan + tolerance
+        : Infinity;
     return year >= lo && year <= hi;
 }
 
@@ -91,10 +106,11 @@ export function notaireDetailUrl(id) {
 // inventaire après décès) : il faut une commune ET une année connues (actées, pas estimées : une
 // naissance estimée à ±quelques années serait trop imprécise pour restreindre utilement la
 // période notariale, contrairement au recensement où l'estimation ne sert qu'à un filtre large).
-// opts: { ancestorScopeSet, tolerance }
+// opts: { ancestorScopeSet, tolerance, maxCareerSpan }
 export function computeNotarialActLeads(list, index, opts) {
     opts = opts || {};
     const tolerance = opts.tolerance != null ? opts.tolerance : 0;
+    const maxCareerSpan = opts.maxCareerSpan != null ? opts.maxCareerSpan : DEFAULT_MAX_CAREER_SPAN;
     const results = [];
 
     list.forEach(p => {
@@ -106,7 +122,7 @@ export function computeNotarialActLeads(list, index, opts) {
             const dc = deptCode(geo.dept);
             const key = dc + '|' + normalizePlace(geo.city);
             const candidates = index.get(key) || [];
-            const matches = candidates.filter(r => periodMatches(r, year, tolerance));
+            const matches = candidates.filter(r => periodMatches(r, year, tolerance, maxCareerSpan));
             if (!matches.length) return;
             events.push({ type, year, city: geo.city, dept: dc, matches });
         };

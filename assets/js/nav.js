@@ -8,6 +8,7 @@ const TOOLS = [
     { href: 'recensements.html', icon: '📋', label: 'FranceArchives', page: 'recensements' },
     { href: 'parentes.html', icon: '🧬', label: 'Parentés hyp.', page: 'parentes' },
     { href: 'rues-paris.html', icon: '📜', label: 'Rues de Paris', page: 'rues-paris' },
+    { href: 'societe.html', icon: '🏛️', label: 'Société', page: 'societe' },
 ];
 
 // Monte le <header> commun dans #appHeader et renvoie un slot #pageControls que chaque page

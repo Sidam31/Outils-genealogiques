@@ -8,6 +8,29 @@ export class GedcomParser {
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
     // valeur DATE, indiquant que l'année n'est pas connue avec certitude (ex. "ABT 1750").
     isApproxDate(s) { return !!s && /\b(ABT|CAL|EST)\b/i.test(s); }
+    // Extrait jour/mois/année d'une date GEDCOM complète au format "DD MMM YYYY" (ex. "12 MAY 1900") :
+    // le seul format qui permette de calculer un jour de la semaine. Une année seule, "MMM YYYY", ou
+    // une date approximative/composite (ABT, BET...AND...) n'y suffit pas et renvoie null.
+    parseFullDate(s) {
+        if(!s) return null;
+        const m = s.trim().match(/\b(\d{1,2})\s+(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)\s+(\d{3,4})\b/i);
+        if(!m) return null;
+        const months = { JAN:0, FEB:1, MAR:2, APR:3, MAY:4, JUN:5, JUL:6, AUG:7, SEP:8, OCT:9, NOV:10, DEC:11 };
+        const day = parseInt(m[1]), month = months[m[2].toUpperCase()], year = parseInt(m[3]);
+        if(day < 1 || day > 31) return null;
+        return { day, month, year };
+    }
+    // Jour de la semaine (0=dimanche...6=samedi, convention JS) d'une date GEDCOM complète, ou null si
+    // le jour/mois est inconnu OU si la date est approximative/composite (ABT, EST, BEF, AFT,
+    // BET...AND...) : un jour de la semaine n'a de sens que pour une date certaine. Calendrier
+    // grégorien proleptique (Date.UTC) : norme usuelle pour ce calcul en généalogie, y compris sur des
+    // dates antérieures à l'adoption du calendrier.
+    getWeekday(s) {
+        if(!s || /\b(ABT|CAL|EST|CIRCA|ABOUT|BEF|BEFORE|AFT|AFTER|BET|BETWEEN|FROM|TO)\b/i.test(s)) return null;
+        const d = this.parseFullDate(s);
+        if(!d) return null;
+        return new Date(Date.UTC(d.year, d.month, d.day)).getUTCDay();
+    }
     newEventFlags() { return { hasTag:false, hasDate:false, year:null, approx:false, geo:null }; }
     newCensusEntry() { return { year:null, approx:false, geo:null }; }
     newResiEntry() { return { year:null, approx:false, geo:null }; }
@@ -36,7 +59,10 @@ export class GedcomParser {
                     type='INDI';
                     cur={
                         id:this.clean(tag), name:'Inconnu', given:null, surname:null, birth:{}, death:{}, fams:[], childrenCount:0, occupations:[],
-                        events: { BIRT:this.newEventFlags(), DEAT:this.newEventFlags(), BURI:this.newEventFlags(), BAPM:this.newEventFlags(), CENS:this.newEventFlags(), RESI:this.newEventFlags() },
+                        // EMIG/IMMI suivent le même schéma simple (une seule "case") que BIRT/DEAT/BURI/BAPM :
+                        // contrairement à CENS/RESI ci-dessous, une personne n'émigre/n'immigre en général
+                        // qu'une fois dans un fichier GEDCOM donné, donc pas d'accumulation en tableau ici.
+                        events: { BIRT:this.newEventFlags(), DEAT:this.newEventFlags(), BURI:this.newEventFlags(), BAPM:this.newEventFlags(), CENS:this.newEventFlags(), RESI:this.newEventFlags(), EMIG:this.newEventFlags(), IMMI:this.newEventFlags() },
                         // Une personne peut apparaître dans PLUSIEURS recensements ("1 CENS" répété,
                         // un par passage) : events.CENS (ci-dessus) ne garde que le dernier rencontré
                         // (une seule "case" par type d'événement, comme BIRT/DEAT qui n'arrivent
@@ -57,7 +83,7 @@ export class GedcomParser {
                     };
                     this.indis.set(cur.id, cur);
                 }
-                else if(val==='FAM') { type='FAM'; cur={id:this.clean(tag), children:[], marr:{hasTag:false, hasDate:false}}; this.fams.set(cur.id, cur); }
+                else if(val==='FAM') { type='FAM'; cur={id:this.clean(tag), children:[], marr:{hasTag:false, hasDate:false}, div:{hasTag:false, hasDate:false}}; this.fams.set(cur.id, cur); }
                 else if(val==='HEAD') { type='HEAD'; cur=null; headPlacCtx=false; }
                 else { type=null; cur=null; }
             } else if(type==='HEAD') {
@@ -94,7 +120,7 @@ export class GedcomParser {
             // Une personne peut avoir plusieurs "1 OCCU" (métiers successifs au fil des actes) :
             // on les garde tous plutôt que d'écraser avec le dernier rencontré.
             if(t==='OCCU' && v && v.trim()) i.occupations.push(v.trim());
-            if(['BIRT','DEAT','BURI','BAPM','CHR'].includes(t)) {
+            if(['BIRT','DEAT','BURI','BAPM','CHR','EMIG','IMMI'].includes(t)) {
                 const key = t==='CHR' ? 'BAPM' : t;
                 i.events[key].hasTag = true;
             }
@@ -144,7 +170,7 @@ export class GedcomParser {
                 const approx=this.isApproxDate(v);
                 if(i._ctx==='BIRT') { i.birth.year=y; i.birth.approx=approx; }
                 if(i._ctx==='DEAT') { i.death.year=y; i.death.approx=approx; }
-                if(['BIRT','DEAT','BURI','BAPM','CHR'].includes(i._ctx)) {
+                if(['BIRT','DEAT','BURI','BAPM','CHR','EMIG','IMMI'].includes(i._ctx)) {
                     const key = i._ctx==='CHR' ? 'BAPM' : i._ctx;
                     if(v && v.trim().length) { i.events[key].hasDate = true; i.events[key].year = y; i.events[key].approx = approx; }
                 }
@@ -171,7 +197,7 @@ export class GedcomParser {
                 this._curPlaceStub = stub;
                 if(i._ctx==='BIRT') i.birth.geo=stub;
                 if(i._ctx==='DEAT') i.death.geo=stub;
-                if(['BIRT','DEAT','BURI','BAPM','CHR'].includes(i._ctx)) {
+                if(['BIRT','DEAT','BURI','BAPM','CHR','EMIG','IMMI'].includes(i._ctx)) {
                     const key = i._ctx==='CHR' ? 'BAPM' : i._ctx;
                     i.events[key].geo = stub;
                 }
@@ -241,14 +267,22 @@ export class GedcomParser {
             if(t==='WIFE') f.wife=this.clean(v);
             if(t==='CHIL') f.children.push(this.clean(v));
             if(t==='MARR') f.marr.hasTag = true;
+            if(t==='DIV') f.div.hasTag = true;
         }
-        else if(lvl===2 && f._ctx==='MARR') {
+        // MARR et DIV partagent la même mécanique (DATE/PLAC de niveau 2) : "target" pointe vers le
+        // sous-objet (f.marr ou f.div) correspondant au contexte courant.
+        else if(lvl===2 && (f._ctx==='MARR' || f._ctx==='DIV')) {
             if(t!=='PLAC') this._curPlaceStub = null;
-            if(t==='DATE') { f.marr.year=this.getYear(v); if(v && v.trim().length) f.marr.hasDate = true; }
+            const target = f._ctx==='MARR' ? f.marr : f.div;
+            if(t==='DATE') {
+                target.year=this.getYear(v);
+                if(v && v.trim().length) target.hasDate = true;
+                target.weekday = this.getWeekday(v); // null si la date n'a pas de jour/mois exploitable
+            }
             if(t==='PLAC') {
                 const stub = this.newPlaceStub(v);
                 this._curPlaceStub = stub;
-                f.marr.geo = stub;
+                target.geo = stub;
             }
         }
         else if(lvl===3 && this._curPlaceStub) {
@@ -269,14 +303,14 @@ export class GedcomParser {
         };
         this.indis.forEach(i => {
             finalize(i.birth.geo); finalize(i.death.geo);
-            ['BIRT','DEAT','BURI','BAPM','CENS','RESI'].forEach(k => finalize(i.events[k].geo));
+            ['BIRT','DEAT','BURI','BAPM','CENS','RESI','EMIG','IMMI'].forEach(k => finalize(i.events[k].geo));
             // Chaque occurrence de recensement a son propre lieu (pas seulement le dernier, gardé
             // dans events.CENS.geo) : toutes doivent être finalisées individuellement.
             i.censusEvents.forEach(entry => finalize(entry.geo));
             i.resiEvents.forEach(entry => finalize(entry.geo));
             i.otherEvents.forEach(entry => finalize(entry.geo));
         });
-        this.fams.forEach(f => finalize(f.marr.geo));
+        this.fams.forEach(f => { finalize(f.marr.geo); finalize(f.div.geo); });
     }
     analyzePlace(str, formStr) {
         if(!str) return { dept:null, region:null, country:null, city:null };

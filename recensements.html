@@ -86,6 +86,8 @@
                         <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
                         <th>Prénom</th>
                         <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Mariage</th>
+                        <th>Décès</th>
                         <th>Recensements à rechercher</th>
                         <th>Éléments de validation</th>
                     </tr>
@@ -102,6 +104,8 @@
                         <th class="sortable" data-sort-nota="name">Nom <span class="sort-arrow"></span></th>
                         <th>Prénom</th>
                         <th class="sortable" data-sort-nota="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Mariage</th>
+                        <th>Décès</th>
                         <th>Notaire(s) candidat(s)</th>
                     </tr>
                 </thead>
@@ -116,6 +120,8 @@
                         <th class="sortable" data-sort-succ="sosa">Sosa <span class="sort-arrow"></span></th>
                         <th class="sortable" data-sort-succ="name">Nom <span class="sort-arrow"></span></th>
                         <th>Prénom</th>
+                        <th>Naissance</th>
+                        <th>Mariage</th>
                         <th class="sortable" data-sort-succ="death">Décès <span class="sort-arrow"></span></th>
                         <th>Commune</th>
                         <th>Registre</th>
@@ -321,7 +327,10 @@ analyzeBtn.addEventListener('click', async () => {
     });
 
     successionResults = computeSuccessionLeads(list, { ancestorScopeSet: scopeSet });
-    successionResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+    successionResults.forEach(r => {
+        r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
+        r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
+    });
 
     statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat, ${successionResults.length} pour les successions.`;
 
@@ -341,14 +350,20 @@ function renderResults() {
         const p = r.person;
         const tr = document.createElement('tr');
         const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
+        const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
+        const deathDisplay = p.death.year != null ? `${p.death.year}${p.death.approx ? ' (env.)' : ''}` : '-';
 
         // Un lien par date de recensement (chaque date est un registre distinct à interroger
         // séparément) ; tous les prénoms actés sont OU-és dans ce lien unique, puisque la
-        // personne peut être enregistrée sous n'importe lequel d'entre eux.
+        // personne peut être enregistrée sous n'importe lequel d'entre eux. L'âge (déduit de la
+        // naissance actée ou estimée) aide à repérer d'un coup d'œil un lien peu plausible avant
+        // même d'ouvrir le registre.
         const hitsDisplay = r.hits.map(h => {
             const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept);
+            const age = h.year - r.birthEst.year;
+            const ageDisplay = `${age} an${age > 1 ? 's' : ''}${r.birthEst.estimated ? ' (est.)' : ''}`;
             return `<div style="margin-bottom:6px;">
-                <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city || 'commune inconnue')} (${escapeHtml(h.dept)})</div>
+                <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city || 'commune inconnue')} (${escapeHtml(h.dept)}) — ${ageDisplay}</div>
                 <div class="city-buttons"><a class="btn-link" href="${url}" target="_blank" rel="noopener">📋 ${h.year}</a></div>
             </div>`;
         }).join('');
@@ -367,6 +382,8 @@ function renderResults() {
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
             <td>${birthDisplay}</td>
+            <td>${marriageDisplay}</td>
+            <td>${deathDisplay}</td>
             <td>${hitsDisplay}</td>
             <td>${validationDisplay}</td>
         `;
@@ -380,6 +397,8 @@ function renderNotarialResults() {
         const p = r.person;
         const tr = document.createElement('tr');
         const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
+        const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
+        const deathDisplay = p.death.year != null ? `${p.death.year}${p.death.approx ? ' (env.)' : ''}` : '-';
 
         // Un bloc par événement (mariage/décès) : le contexte (année, commune) d'abord, puis un
         // bouton par notaire candidat trouvé pour cette commune et cette période — plusieurs notaires
@@ -394,6 +413,8 @@ function renderNotarialResults() {
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
             <td>${birthDisplay}</td>
+            <td>${marriageDisplay}</td>
+            <td>${deathDisplay}</td>
             <td>${eventsDisplay}</td>
         `;
         resultsBodyNotariat.appendChild(tr);
@@ -405,10 +426,14 @@ function renderSuccessionResults() {
     sortedSuccessionResults().forEach(r => {
         const p = r.person;
         const tr = document.createElement('tr');
+        const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
+        const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
         tr.innerHTML = `
             <td>${r.sosa != null ? r.sosa : '-'}</td>
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
+            <td>${birthDisplay}</td>
+            <td>${marriageDisplay}</td>
             <td>${r.year}</td>
             <td>${escapeHtml(r.city)}</td>
             <td><div class="city-buttons"><a class="btn-link" href="${r.url}" target="_blank" rel="noopener">⚰ Voir le registre</a></div></td>
@@ -420,7 +445,7 @@ function renderSuccessionResults() {
 csvBtn.addEventListener('click', () => {
     if (mode === 'recensement') {
         if (!lastResults.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Dates de recensement a rechercher', 'Parents', 'Conjoint(e)s', 'Enfants'];
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Deces', 'Dates de recensement a rechercher (avec age)', 'Parents', 'Conjoint(e)s', 'Enfants'];
         const rows = sortedResults().map(r => [
             r.sosa != null ? r.sosa : '',
             r.person.id,
@@ -428,7 +453,9 @@ csvBtn.addEventListener('click', () => {
             r.person.given || '',
             r.birthEst.year,
             r.birthEst.estimated ? 'oui' : 'non',
-            r.hits.map(h => `${h.year} (${h.source}): ${h.city || 'commune inconnue'} (${h.dept})`).join(' | '),
+            r.person.marrYear != null ? r.person.marrYear : '',
+            r.person.death.year != null ? `${r.person.death.year}${r.person.death.approx ? ' (env.)' : ''}` : '',
+            r.hits.map(h => `${h.year} (${h.source}): ${h.city || 'commune inconnue'} (${h.dept}) - ${h.year - r.birthEst.year} ans`).join(' | '),
             [r.validation.father, r.validation.mother].filter(Boolean).join(' & '),
             r.validation.spouses.join(', '),
             r.validation.children.join(', ')
@@ -436,7 +463,7 @@ csvBtn.addEventListener('click', () => {
         downloadCsv('recensements_manquants.csv', headers, rows);
     } else if (mode === 'notariat') {
         if (!notarialResults.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Evenement', 'Annee', 'Commune', 'Departement', 'Notaire', 'Debut exercice', 'Fin exercice', 'URL fiche'];
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Deces', 'Evenement', 'Annee', 'Commune', 'Departement', 'Notaire', 'Debut exercice', 'Fin exercice', 'URL fiche'];
         const rows = [];
         sortedNotarialResults().forEach(r => {
             r.events.forEach(ev => {
@@ -448,6 +475,8 @@ csvBtn.addEventListener('click', () => {
                         r.person.given || '',
                         r.birthEst ? r.birthEst.year : '',
                         r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                        r.person.marrYear != null ? r.person.marrYear : '',
+                        r.person.death.year != null ? `${r.person.death.year}${r.person.death.approx ? ' (env.)' : ''}` : '',
                         ev.type,
                         ev.year,
                         ev.city,
@@ -463,12 +492,15 @@ csvBtn.addEventListener('click', () => {
         downloadCsv('notariat_pistes.csv', headers, rows);
     } else {
         if (!successionResults.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Annee deces', 'Commune', 'URL registre'];
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Annee deces', 'Commune', 'URL registre'];
         const rows = sortedSuccessionResults().map(r => [
             r.sosa != null ? r.sosa : '',
             r.person.id,
             r.person.surname || '',
             r.person.given || '',
+            r.birthEst ? r.birthEst.year : '',
+            r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+            r.person.marrYear != null ? r.person.marrYear : '',
             r.year,
             r.city,
             r.url

@@ -6,10 +6,31 @@ import { estimateBirthYear } from './inference.js';
 // problème d'apostrophe typographique ou d'alias historique). Valeurs par défaut, modifiables
 // depuis l'interface (voir parseDeptCodesInput).
 export const RECENSEMENT_DEPT_CODES_DEFAULT = [
-    '02','03','11','16','21','23','24','27','29','30','32','33','34','35','36','42','43','45','46','47',
-    '51','52','54','55','56','57','58','60','62','63','66','69','70','71','73','74','77','78','82','83',
-    '84','85','86','87','88','90','93','94','95'
+    '02','03','04','05','06','11','16','18','21','22','23','24','27','28','29','30','32','33','34','35',
+    '36','40','42','43','45','46','47','51','52','54','55','56','57','58','60','62','63','66','69','70',
+    '71','73','74','77','78','81','82','83','84','85','86','87','88','90','93','94','95'
 ];
+
+// Correspondance code INSEE -> identifiant "es_service" (service producteur/détenteur) de
+// FranceArchives : un identifiant interne à leur CMS, propre à chaque service d'archives
+// départementales, sans rapport avec le code INSEE et non dérivable par formule. Recueilli à la
+// main depuis la facette "Service" affichée sur la base de noms "recensement"
+// (https://francearchives.gouv.fr/fr/basedenoms_recensement), état du 2026-08. Quand ce filtre est
+// disponible pour un département, il cible directement le bon fonds sans dépendre de la
+// reconnaissance du nom de département par l'index texte (voir buildFranceArchivesUrl) ; pour un
+// département absent d'ici, on retombe sur le filtre texte es_locations existant.
+const ES_SERVICE_BY_DEPT = {
+    '02': '33366', '03': '33374', '04': '33381', '05': '33390', '06': '33398', '11': '33445',
+    '16': '33511', '18': '33528', '21': '33541', '22': '33555', '23': '33560', '24': '33565',
+    '27': '33592', '28': '33606', '29': '33616', '30': '33629', '32': '33656', '33': '33661',
+    '34': '33680', '35': '33695', '36': '33704', '40': '33752', '42': '33766', '43': '33779',
+    '45': '33801', '46': '33815', '47': '33820', '51': '33850', '52': '33857', '54': '33867',
+    '55': '33877', '56': '33887', '57': '33901', '58': '33915', '60': '33951', '62': '33969',
+    '63': '33985', '66': '34005', '69': '34051', '70': '34079', '71': '34085', '73': '34097',
+    '74': '34110', '77': '34157', '78': '34189', '81': '34235', '82': '34241', '83': '34245',
+    '84': '34265', '85': '34282', '86': '34295', '87': '34302', '88': '34309', '90': '34324',
+    '93': '34393', '94': '34430', '95': '34471'
+};
 
 // Dates des recensements nominatifs français couverts par FranceArchives : quinquennaux, avec les
 // décalages historiques réels (1871 reporté à 1872 après la guerre franco-prussienne, pas de
@@ -169,13 +190,23 @@ export function buildFranceArchivesUrl(p, city, censusYear, dept) {
     const params = new URLSearchParams();
     if (p.surname) params.set('es_names', fuzzyField(p.surname));
     if (p.given) params.set('es_forenames', fuzzyForenameField(p.given));
-    // Le nom de commune n'est pas toujours reconnu par l'index (graphie ancienne, fusion de
-    // communes...) : on l'OU avec le nom du département en secours, vérifié manuellement sur
-    // FranceArchives ("Belleville~Rhône", sans guillemets).
-    const dn = deptName(dept);
-    if (city && dn) params.set('es_locations', `${city}~${dn}`);
-    else if (city) params.set('es_locations', city);
-    else if (dn) params.set('es_locations', dn);
+    const serviceId = ES_SERVICE_BY_DEPT[deptCode(dept)];
+    if (serviceId) {
+        // Le service producteur cible directement le bon fonds départemental : plus besoin d'OU-er
+        // le nom du département dans es_locations en secours, il ne reste qu'à préciser la commune
+        // si elle est connue.
+        params.set('es_service', serviceId);
+        if (city) params.set('es_locations', city);
+    } else {
+        // Pas d'identifiant de service connu pour ce département : on retombe sur le texte, en OU-ant
+        // le nom de la commune (pas toujours reconnu par l'index : graphie ancienne, fusion de
+        // communes...) avec celui du département en secours, vérifié manuellement sur FranceArchives
+        // ("Belleville~Rhône", sans guillemets).
+        const dn = deptName(dept);
+        if (city && dn) params.set('es_locations', `${city}~${dn}`);
+        else if (city) params.set('es_locations', city);
+        else if (dn) params.set('es_locations', dn);
+    }
     if (p.sex === 'M' || p.sex === 'F') params.set('es_gender', p.sex === 'M' ? 'h' : 'f');
     if (censusYear != null) {
         params.set('es_date_min', censusYear);

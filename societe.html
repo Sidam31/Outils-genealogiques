@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Société</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>body { overflow-y: auto; }</style>
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="societePanel" class="tab-panel">
+    <div class="quality-container">
+        <p class="quality-intro">Professions, complétude documentaire, mobilité et traditions familiales — un complément aux outils Qualité et Visualisation (utilisez le fichier chargé depuis l'accueil).</p>
+
+        <div id="societyStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="societyContent" class="hidden">
+
+            <div class="society-section">
+                <h3>💼 Professions</h3>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socProfTotal">–</div><div class="lbl">professions différentes</div></div>
+                    <div class="society-stat-card"><div class="num" id="socProfTransRate">–</div><div class="lbl" id="socProfTransLabel">transmission père → fils</div></div>
+                </div>
+                <table id="socProfTable">
+                    <thead><tr><th>#</th><th>Profession</th><th>Personnes</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+
+            <div class="society-section">
+                <h3>📄 Complétude documentaire</h3>
+                <p class="hint">Ce fichier ne code pas de sources (tag SOUR) : la complétude est estimée sur 4 critères — naissance datée, décès daté, lieu renseigné, détail biographique (profession, recensement, résidence...). Un vivant peut légitimement n'avoir aucune date de décès : ne pas sur-interpréter un score bas pour les générations récentes.</p>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socDocAvg">–</div><div class="lbl">complétude moyenne des fiches</div></div>
+                    <div class="society-stat-card"><div class="num" id="socDocSparse">–</div><div class="lbl">fiches très peu renseignées (≤ 1 critère / 4)</div></div>
+                </div>
+                <table id="socDocTable" class="hidden">
+                    <thead><tr><th>ID</th><th>Nom</th><th>Manque</th></tr></thead>
+                    <tbody></tbody>
+                </table>
+                <div class="controls">
+                    <button id="socDocDownloadBtn" class="secondary hidden">Télécharger la liste complète (CSV)</button>
+                </div>
+            </div>
+
+            <div class="society-section">
+                <h3>💔 Divorces & remariages</h3>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socDivRate">–</div><div class="lbl" id="socDivRateLabel">des mariages datés se terminent par un divorce</div></div>
+                    <div class="society-stat-card"><div class="num" id="socDivDuration">–</div><div class="lbl">années en moyenne avant un divorce</div></div>
+                    <div class="society-stat-card"><div class="num" id="socRemarRate">–</div><div class="lbl">des personnes mariées se sont remariées</div></div>
+                    <div class="society-stat-card"><div class="num" id="socRemarCount">–</div><div class="lbl">remariés sur personnes mariées</div></div>
+                </div>
+            </div>
+
+            <div class="society-section">
+                <h3>🚢 Migrations</h3>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socEmigCount">–</div><div class="lbl">émigrations enregistrées (tag EMIG)</div></div>
+                    <div class="society-stat-card"><div class="num" id="socImmiCount">–</div><div class="lbl">immigrations enregistrées (tag IMMI)</div></div>
+                </div>
+                <div class="quality-charts">
+                    <div class="quality-chart-box">
+                        <h4 style="margin:0 0 8px; text-align:center; color:var(--accent);">Principaux lieux de départ</h4>
+                        <div id="socEmigList" class="society-list"></div>
+                    </div>
+                    <div class="quality-chart-box">
+                        <h4 style="margin:0 0 8px; text-align:center; color:var(--accent);">Principaux lieux d'arrivée</h4>
+                        <div id="socImmiList" class="society-list"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="quality-charts">
+                <div class="quality-chart-box">
+                    <div class="chart-box-header">
+                        <h3>🏠 Résidences les plus fréquentes (tag RESI)</h3>
+                        <button class="chart-copy-btn" data-target="societyResidenceChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                    <div class="society-stat-grid" style="margin-bottom:14px;">
+                        <div class="society-stat-card"><div class="num" id="socResiAvg">–</div><div class="lbl">résidences distinctes / personne (moy.)</div></div>
+                    </div>
+                    <div id="societyResidenceChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                </div>
+                <div class="quality-chart-box">
+                    <div class="chart-box-header">
+                        <h3>🧭 Mobilité géographique parent → enfant</h3>
+                        <button class="chart-copy-btn" data-target="societyMobilityChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                    <p class="hint">Compare le lieu de naissance d'un individu avec celui de son premier parent connu.</p>
+                    <div id="societyMobilityChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                </div>
+            </div>
+
+            <div class="society-section">
+                <h3>💞 Endogamie géographique</h3>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socEndoRate">–</div><div class="lbl" id="socEndoLabel">couples nés dans la même ville</div></div>
+                </div>
+            </div>
+
+            <div class="society-section">
+                <h3>👶👶 Naissances la même année dans une fratrie</h3>
+                <p class="hint">Ce parser ne connaît les dates qu'à l'année près : il s'agit d'un indice de naissance multiple possible (jumeaux...), pas d'une confirmation jour/mois.</p>
+                <div id="socSiblingsList" class="society-list"></div>
+            </div>
+
+            <div class="society-section">
+                <h3>🔁 Traditions de transmission des prénoms</h3>
+                <p class="hint">Fréquence à laquelle un enfant reçoit le prénom d'un grand-parent de même sexe.</p>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socNamePgf">–</div><div class="lbl" id="socNamePgfLabel">fils nommés d'après le grand-père paternel</div></div>
+                    <div class="society-stat-card"><div class="num" id="socNameMgm">–</div><div class="lbl" id="socNameMgmLabel">filles nommées d'après la grand-mère maternelle</div></div>
+                    <div class="society-stat-card"><div class="num" id="socNameAny">–</div><div class="lbl" id="socNameAnyLabel">nommés d'après un grand-parent de même sexe, toutes branches confondues</div></div>
+                </div>
+            </div>
+
+            <div class="society-section">
+                <h3>🍂 Lignées masculines potentiellement éteintes</h3>
+                <p class="hint">Noms de famille pour lesquels aucun homme recensé n'a de fils connu, alors que la lignée a eu des enfants. Basé uniquement sur les données saisies : une lignée peut se poursuivre par une branche non renseignée dans ce fichier.</p>
+                <div id="socSurnameList" class="society-list"></div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="tooltip"></div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { downloadCsv, escapeHtml } from './assets/js/utils.js';
+import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart } from './assets/js/society.js';
+
+const societyStatus = document.getElementById('societyStatus');
+const societyContent = document.getElementById('societyContent');
+const socDocDownloadBtn = document.getElementById('socDocDownloadBtn');
+
+let fullSparseList = [];
+
+function setStat(id, value) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
+}
+
+function renderRankedTable(tableId, rows, formatRow) {
+    const tbody = document.querySelector(`#${tableId} tbody`);
+    tbody.innerHTML = rows.map(formatRow).join('');
+}
+
+function renderList(containerId, items) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = items.length ? items.join('') : '<p class="hint">Aucune donnée disponible.</p>';
+}
+
+function render(stats) {
+    // Professions
+    setStat('socProfTotal', stats.professions.total);
+    const trans = stats.professions.fatherSonTransmission;
+    setStat('socProfTransRate', trans.rate != null ? `${trans.rate}%` : '–');
+    document.getElementById('socProfTransLabel').textContent = trans.eligible > 0
+        ? `transmission père → fils (${trans.matches}/${trans.eligible})`
+        : 'transmission père → fils (données insuffisantes)';
+    renderRankedTable('socProfTable', stats.professions.top10, ([name, count], i) => `
+        <tr><td>${i + 1}</td><td>${escapeHtml(name)}</td><td>${count}</td></tr>
+    `);
+
+    // Documentation
+    setStat('socDocAvg', `${stats.documentation.averageCompleteness}%`);
+    setStat('socDocSparse', stats.documentation.sparseCount);
+    fullSparseList = stats.documentation.sparsest;
+    const docTable = document.getElementById('socDocTable');
+    if (stats.documentation.sparseCount > 0) {
+        docTable.classList.remove('hidden');
+        socDocDownloadBtn.classList.remove('hidden');
+        renderRankedTable('socDocTable', stats.documentation.sparsest, row => `
+            <tr><td>${row.id}</td><td>${escapeHtml(row.name)}</td><td>${escapeHtml(row.missing)}</td></tr>
+        `);
+    } else {
+        docTable.classList.add('hidden');
+        socDocDownloadBtn.classList.add('hidden');
+    }
+
+    // Divorces & remariages
+    const ms = stats.maritalStability;
+    setStat('socDivRate', ms.totalMarriages > 0 ? `${ms.divorceRate}%` : '–');
+    document.getElementById('socDivRateLabel').textContent = ms.totalMarriages > 0
+        ? `des mariages datés se terminent par un divorce (${ms.divorced}/${ms.totalMarriages})`
+        : 'des mariages datés se terminent par un divorce (données insuffisantes)';
+    setStat('socDivDuration', ms.averageDurationBeforeDivorce != null ? ms.averageDurationBeforeDivorce : '–');
+    setStat('socRemarRate', `${ms.remarriage.rate}%`);
+    setStat('socRemarCount', `${ms.remarriage.remarriedCount} / ${ms.remarriage.everMarriedCount}`);
+
+    // Migrations
+    setStat('socEmigCount', stats.migration.emigrationCount);
+    setStat('socImmiCount', stats.migration.immigrationCount);
+    renderList('socEmigList', stats.migration.topEmigrationPlaces.map(([place, count], i) => `
+        <div class="society-list-item">
+            <div class="rank">${i + 1}</div>
+            <div class="main"><div class="title">${escapeHtml(place)}</div></div>
+            <div class="badge">${count}</div>
+        </div>
+    `));
+    renderList('socImmiList', stats.migration.topImmigrationPlaces.map(([place, count], i) => `
+        <div class="society-list-item">
+            <div class="rank">${i + 1}</div>
+            <div class="main"><div class="title">${escapeHtml(place)}</div></div>
+            <div class="badge">${count}</div>
+        </div>
+    `));
+
+    // Mobilité résidentielle
+    setStat('socResiAvg', stats.residenceMobility.averageResidencesPerPerson);
+    drawRankedBarChart('societyResidenceChart',
+        stats.residenceMobility.topPlaces.map(([label, count]) => ({ label, count })),
+        { emptyMessage: 'Aucune résidence (tag RESI) trouvée dans ce fichier.', countLabel: 'Mentions' });
+
+    // Mobilité géographique parent → enfant
+    const buckets = stats.geographicMobility.parentChildMobility.buckets;
+    const bucketLabels = { sameTown: 'Même ville', sameDept: 'Même département', sameRegion: 'Même région', sameCountry: 'Même pays', different: 'Différent' };
+    drawCategoryBarChart('societyMobilityChart',
+        Object.entries(bucketLabels).map(([key, label]) => ({ label, count: buckets[key] })));
+
+    // Endogamie
+    const endo = stats.geographicMobility.endogamy;
+    setStat('socEndoRate', endo.sampleSize > 0 ? `${endo.rate}%` : '–');
+    document.getElementById('socEndoLabel').textContent = endo.sampleSize > 0
+        ? `couples nés dans la même ville (${endo.sameTownMarriages}/${endo.sampleSize})`
+        : 'couples nés dans la même ville (données insuffisantes)';
+
+    // Naissances la même année
+    renderList('socSiblingsList', stats.sameYearSiblings.sets.map((s, i) => `
+        <div class="society-list-item">
+            <div class="rank">${i + 1}</div>
+            <div class="main">
+                <div class="title">${s.names.map(escapeHtml).join(' & ')}</div>
+                <div class="meta">${s.year} • enfants de ${escapeHtml(s.father)} & ${escapeHtml(s.mother)}</div>
+            </div>
+            <div class="badge">${s.count} naissances</div>
+        </div>
+    `));
+
+    // Traditions de prénoms
+    const np = stats.namingPatterns;
+    setStat('socNamePgf', np.paternalGrandfather.rate != null ? `${np.paternalGrandfather.rate}%` : '–');
+    document.getElementById('socNamePgfLabel').textContent = np.paternalGrandfather.eligible > 0
+        ? `fils nommés d'après le grand-père paternel (${np.paternalGrandfather.matches}/${np.paternalGrandfather.eligible})`
+        : "fils nommés d'après le grand-père paternel (données insuffisantes)";
+    setStat('socNameMgm', np.maternalGrandmother.rate != null ? `${np.maternalGrandmother.rate}%` : '–');
+    document.getElementById('socNameMgmLabel').textContent = np.maternalGrandmother.eligible > 0
+        ? `filles nommées d'après la grand-mère maternelle (${np.maternalGrandmother.matches}/${np.maternalGrandmother.eligible})`
+        : "filles nommées d'après la grand-mère maternelle (données insuffisantes)";
+    setStat('socNameAny', np.anySameGenderGrandparent.rate != null ? `${np.anySameGenderGrandparent.rate}%` : '–');
+    document.getElementById('socNameAnyLabel').textContent = np.anySameGenderGrandparent.eligible > 0
+        ? `nommés d'après un grand-parent de même sexe (${np.anySameGenderGrandparent.matches}/${np.anySameGenderGrandparent.eligible})`
+        : 'nommés d\'après un grand-parent de même sexe (données insuffisantes)';
+
+    // Extinction des lignées
+    renderList('socSurnameList', stats.surnameExtinction.atRiskSurnames.map((s, i) => `
+        <div class="society-list-item">
+            <div class="rank">${i + 1}</div>
+            <div class="main">
+                <div class="title">${escapeHtml(s.surname)}</div>
+                <div class="meta">${s.menWithChildren} homme(s) avec enfants • ${s.menDeceasedWithoutSon} décédé(s) sans fils connu</div>
+            </div>
+            <div class="badge">${s.menRecorded} porteur${s.menRecorded > 1 ? 's' : ''}</div>
+        </div>
+    `));
+}
+
+socDocDownloadBtn.addEventListener('click', () => {
+    if (!fullSparseList.length) return;
+    downloadCsv('societe_fiches_peu_renseignees.csv',
+        ['ID', 'Nom', 'Score sur 4', 'Manque'],
+        fullSparseList.map(r => [r.id, r.name, r.score, r.missing]));
+});
+
+bootstrap({
+    page: 'societe',
+    onData: data => {
+        if (!data.list.length) {
+            societyStatus.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
+            societyContent.classList.add('hidden');
+            return;
+        }
+        societyStatus.textContent = `Fichier chargé (${data.list.length} individus).`;
+        societyContent.classList.remove('hidden');
+        const stats = computeSocietyStats(data.list, data.map, data.fams);
+        render(stats);
+    }
+});
+</script>
+</body>
+</html>

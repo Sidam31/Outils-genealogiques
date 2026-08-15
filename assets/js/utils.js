@@ -45,10 +45,13 @@ export function getSosaMap(individuals, rootId) {
 // Moyenne ET médiane : la médiane + son intervalle interquartile (25e-75e percentile) donnent une
 // lecture robuste aux valeurs extrêmes ; la moyenne reste affichée à côté car un écart entre les
 // deux est lui-même un signal utile (distribution asymétrique, quelques âges aberrants, etc.).
+// std (écart-type) est fourni pour les graphiques qui préfèrent un corridor moyenne±écart-type
+// classique plutôt que le corridor interquartile (ex. jour de la semaine du mariage).
 export function computeStats(values) {
     const n = values.length;
-    if(n === 0) return { mean: null, median: null, p25: null, p75: null, n: 0 };
+    if(n === 0) return { mean: null, median: null, p25: null, p75: null, std: null, n: 0 };
     const mean = values.reduce((a, b) => a + b, 0) / n;
+    const variance = values.reduce((acc, v) => acc + (v - mean) ** 2, 0) / n;
     const sorted = [...values].sort((a, b) => a - b);
     const quantile = q => {
         const pos = (sorted.length - 1) * q;
@@ -56,9 +59,25 @@ export function computeStats(values) {
         const rest = pos - base;
         return sorted[base + 1] !== undefined ? sorted[base] + rest * (sorted[base + 1] - sorted[base]) : sorted[base];
     };
-    return { mean, median: quantile(0.5), p25: quantile(0.25), p75: quantile(0.75), n };
+    return { mean, median: quantile(0.5), p25: quantile(0.25), p75: quantile(0.75), std: Math.sqrt(variance), n };
 }
 export function decadeOf(year) { return Math.floor(year / 10) * 10; }
+export function centuryOf(year) { return Math.ceil(year / 100); }
+
+// Libellé français usuel d'un siècle ("XIXe siècle"), cohérent avec les commentaires déjà présents
+// ailleurs dans le code (ex. geo.js, deces-manquants.js) plutôt qu'un simple "19e siècle".
+const ROMAN_DIGITS = [[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];
+export function toRoman(n) {
+    let result = '';
+    ROMAN_DIGITS.forEach(([val, sym]) => { while(n >= val) { result += sym; n -= val; } });
+    return result;
+}
+export function centuryLabel(century) { return `${toRoman(century)}${century === 1 ? 'er' : 'e'} siècle`; }
+
+// Jours de la semaine, convention française (1=lundi...7=dimanche) — index 0 du tableau = lundi.
+// À utiliser avec GedcomParser.getWeekday(), qui renvoie 0=dimanche...6=samedi (convention JS) :
+// convertir via `weekday === 0 ? 7 : weekday` avant de piocher dans ce tableau (WEEKDAY_LABELS[iso-1]).
+export const WEEKDAY_LABELS = ['Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi', 'Dimanche'];
 
 // --- COPIE D'IMAGE DANS LE PRESSE-PAPIER ---
 // Copie un Blob PNG dans le presse-papier. Le Clipboard API n'est disponible qu'en contexte

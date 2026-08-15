@@ -263,3 +263,18 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 #chart.frise-scroll:active { cursor: default; }
 .frise-undated { padding: 8px 15px; font-size: 0.8rem; color: #555; border-top: 1px solid var(--border); background: #f9f9f9; flex-shrink: 0; }
 .frise-chip { display: inline-block; padding: 2px 8px; margin: 2px 2px; border-radius: 10px; background: #eef1f5; border: 1px solid var(--border); font-size: 0.75rem; }
+
+/* ONGLET "SOCIÉTÉ" (professions, documentation, mobilité, prénoms, lignées) */
+.society-section { margin: 28px 0; }
+.society-section h3 { color: var(--accent); margin-bottom: 10px; }
+.society-stat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 12px; margin: 12px 0; }
+.society-stat-card { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 14px; text-align: center; }
+.society-stat-card .num { font-size: 1.6rem; font-weight: 700; color: var(--accent); }
+.society-stat-card .lbl { font-size: 0.78rem; color: #666; margin-top: 4px; }
+.society-list { display: flex; flex-direction: column; gap: 6px; }
+.society-list-item { display: flex; align-items: center; gap: 10px; background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 8px 12px; }
+.society-list-item .rank { font-weight: 700; color: #999; min-width: 22px; }
+.society-list-item .main { flex: 1; }
+.society-list-item .main .title { font-weight: 600; }
+.society-list-item .main .meta { font-size: 0.78rem; color: #7f8c8d; }
+.society-list-item .badge { background: #ecf0f1; border-radius: 12px; padding: 2px 10px; font-size: 0.78rem; font-weight: 600; color: var(--accent); white-space: nowrap; }
