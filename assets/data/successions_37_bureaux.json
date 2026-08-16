@@ -1,0 +1,1118 @@
+{
+  "ABILLY": {
+    "bureau": "Le Grand-Pressigny",
+    "distanceKm": 6.0
+  },
+  "AMBILLOU": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 12.9
+  },
+  "ANCHE": {
+    "bureau": "Chinon",
+    "distanceKm": 6.6
+  },
+  "ANTOGNY LE TILLAC": {
+    "bureau": "Descartes",
+    "distanceKm": 10.5
+  },
+  "ANTOGNY": {
+    "bureau": "Descartes",
+    "distanceKm": 10.5
+  },
+  "ARTANNES SUR INDRE": {
+    "bureau": "Montbazon",
+    "distanceKm": 8.6
+  },
+  "ASSAY": {
+    "bureau": "Richelieu",
+    "distanceKm": 6.4
+  },
+  "ATHEE SUR CHER": {
+    "bureau": "Bléré",
+    "distanceKm": 6.9
+  },
+  "AUTRECHE": {
+    "bureau": "Château-Renault",
+    "distanceKm": 10.7
+  },
+  "AUZOUER EN TOURAINE": {
+    "bureau": "Château-Renault",
+    "distanceKm": 4.7
+  },
+  "AUZOUER": {
+    "bureau": "Château-Renault",
+    "distanceKm": 4.7
+  },
+  "AVOINE": {
+    "bureau": "Chinon",
+    "distanceKm": 7.0
+  },
+  "AVON LES ROCHES": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 7.2
+  },
+  "AVRILLE LES PONCEAUX": {
+    "bureau": "Langeais",
+    "distanceKm": 6.1
+  },
+  "AZAY SUR CHER": {
+    "bureau": "Vouvray",
+    "distanceKm": 10.9
+  },
+  "AZAY SUR INDRE": {
+    "bureau": "Loches",
+    "distanceKm": 9.5
+  },
+  "BALESMES": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "BALLAN MIRE": {
+    "bureau": "Tours",
+    "distanceKm": 9.4
+  },
+  "BARROU": {
+    "bureau": "Le Grand-Pressigny",
+    "distanceKm": 5.0
+  },
+  "BEAULIEU LES LOCHES": {
+    "bureau": "Loches",
+    "distanceKm": 4.0
+  },
+  "BEAULIEU": {
+    "bureau": "Loches",
+    "distanceKm": 4.0
+  },
+  "BEAUMONT LOUESTAULT": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 7.1
+  },
+  "BEAUMONT LA RONCE": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 7.1
+  },
+  "BEAUMONT VILLAGE": {
+    "bureau": "Montrésor",
+    "distanceKm": 3.3
+  },
+  "BEAUMONT EN VERON": {
+    "bureau": "Chinon",
+    "distanceKm": 5.6
+  },
+  "BENAIS": {
+    "bureau": "Bourgueil",
+    "distanceKm": 4.0
+  },
+  "BERTHENAY": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 10.6
+  },
+  "BETZ LE CHATEAU": {
+    "bureau": "Ligueil",
+    "distanceKm": 12.0
+  },
+  "BOSSAY SUR CLAISE": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 4.8
+  },
+  "BOSSEE": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 6.4
+  },
+  "BOURNAN": {
+    "bureau": "Ligueil",
+    "distanceKm": 7.0
+  },
+  "BOUSSAY": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 3.4
+  },
+  "BRASLOU": {
+    "bureau": "Richelieu",
+    "distanceKm": 7.5
+  },
+  "BRAYE SOUS FAYE": {
+    "bureau": "Richelieu",
+    "distanceKm": 4.0
+  },
+  "BRAYE SUR MAULNE": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 5.7
+  },
+  "BRIDORE": {
+    "bureau": "Loches",
+    "distanceKm": 12.2
+  },
+  "BRIZAY": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 4.1
+  },
+  "BRECHES": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 7.4
+  },
+  "BREHEMONT": {
+    "bureau": "Langeais",
+    "distanceKm": 6.6
+  },
+  "BUEIL EN TOURAINE": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 3.1
+  },
+  "CANDES SAINT MARTIN": {
+    "bureau": "Chinon",
+    "distanceKm": 13.3
+  },
+  "CANDES": {
+    "bureau": "Chinon",
+    "distanceKm": 13.3
+  },
+  "CANGEY": {
+    "bureau": "Amboise",
+    "distanceKm": 11.5
+  },
+  "CERELLES": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 11.1
+  },
+  "CHAMBON": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 8.2
+  },
+  "CHAMBOURG SUR INDRE": {
+    "bureau": "Loches",
+    "distanceKm": 5.7
+  },
+  "CHAMBRAY LES TOURS": {
+    "bureau": "Montbazon",
+    "distanceKm": 5.5
+  },
+  "CHAMPIGNY SUR VEUDE": {
+    "bureau": "Richelieu",
+    "distanceKm": 4.6
+  },
+  "CHANCEAUX PRES LOCHES": {
+    "bureau": "Loches",
+    "distanceKm": 2.8
+  },
+  "CHANCEAUX SUR CHOISILLE": {
+    "bureau": "Vouvray",
+    "distanceKm": 9.0
+  },
+  "CHANNAY SUR LATHAN": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 7.9
+  },
+  "CHANCAY": {
+    "bureau": "Vouvray",
+    "distanceKm": 6.2
+  },
+  "CHARENTILLY": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 9.1
+  },
+  "CHARGE": {
+    "bureau": "Amboise",
+    "distanceKm": 5.1
+  },
+  "CHARNIZAY": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 9.0
+  },
+  "CHAUMUSSAY": {
+    "bureau": "Le Grand-Pressigny",
+    "distanceKm": 5.6
+  },
+  "CHAVEIGNES": {
+    "bureau": "Richelieu",
+    "distanceKm": 3.3
+  },
+  "CHEILLE": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 4.4
+  },
+  "CHEMILLE SUR DEME": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 8.9
+  },
+  "CHEMILLE SUR INDROIS": {
+    "bureau": "Montrésor",
+    "distanceKm": 3.5
+  },
+  "CHENONCEAUX": {
+    "bureau": "Amboise",
+    "distanceKm": 8.0
+  },
+  "CHEZELLES": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 6.6
+  },
+  "CHISSEAUX": {
+    "bureau": "Amboise",
+    "distanceKm": 9.2
+  },
+  "CHOUZE SUR LOIRE": {
+    "bureau": "Bourgueil",
+    "distanceKm": 8.3
+  },
+  "CHEDIGNY": {
+    "bureau": "Bléré",
+    "distanceKm": 9.3
+  },
+  "CIGOGNE": {
+    "bureau": "Bléré",
+    "distanceKm": 4.9
+  },
+  "CINAIS": {
+    "bureau": "Chinon",
+    "distanceKm": 5.3
+  },
+  "CINQ MARS LA PILE": {
+    "bureau": "Langeais",
+    "distanceKm": 6.9
+  },
+  "CIRAN": {
+    "bureau": "Ligueil",
+    "distanceKm": 5.3
+  },
+  "CIVRAY DE TOURAINE": {
+    "bureau": "Bléré",
+    "distanceKm": 5.5
+  },
+  "CIVRAY SUR CHER": {
+    "bureau": "Bléré",
+    "distanceKm": 5.5
+  },
+  "CIVRAY SUR ESVES": {
+    "bureau": "Descartes",
+    "distanceKm": 4.7
+  },
+  "CLERE LES PINS": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 9.8
+  },
+  "CONTINVOIR": {
+    "bureau": "Bourgueil",
+    "distanceKm": 9.1
+  },
+  "CORMERY": {
+    "bureau": "Montbazon",
+    "distanceKm": 10.8
+  },
+  "COTEAUX SUR LOIRE": {
+    "bureau": "Langeais",
+    "distanceKm": 6.3
+  },
+  "SAINT PATRICE": {
+    "bureau": "Langeais",
+    "distanceKm": 6.3
+  },
+  "COUESMES": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 3.9
+  },
+  "COURCELLES DE TOURAINE": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 4.6
+  },
+  "COURCOUE": {
+    "bureau": "Richelieu",
+    "distanceKm": 6.7
+  },
+  "COURCAY": {
+    "bureau": "Bléré",
+    "distanceKm": 9.4
+  },
+  "COUZIERS": {
+    "bureau": "Chinon",
+    "distanceKm": 12.5
+  },
+  "CRAVANT LES COTEAUX": {
+    "bureau": "Chinon",
+    "distanceKm": 7.2
+  },
+  "CRISSAY SUR MANSE": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 7.5
+  },
+  "CRISSAY": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 7.5
+  },
+  "CROTELLES": {
+    "bureau": "Château-Renault",
+    "distanceKm": 8.7
+  },
+  "CROUZILLES": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 3.5
+  },
+  "CUSSAY": {
+    "bureau": "Ligueil",
+    "distanceKm": 3.6
+  },
+  "CERE LA RONDE": {
+    "bureau": "Montrésor",
+    "distanceKm": 11.5
+  },
+  "DAME MARIE LES BOIS": {
+    "bureau": "Château-Renault",
+    "distanceKm": 11.7
+  },
+  "HAYE DESCARTES": {
+    "bureau": "Descartes",
+    "distanceKm": 0.0
+  },
+  "DIERRE": {
+    "bureau": "Amboise",
+    "distanceKm": 5.7
+  },
+  "DOLUS LE SEC": {
+    "bureau": "Manthelan",
+    "distanceKm": 6.1
+  },
+  "DRACHE": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 4.7
+  },
+  "DRUYE": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 6.2
+  },
+  "ESVES LE MOUTIER": {
+    "bureau": "Ligueil",
+    "distanceKm": 7.4
+  },
+  "ESVRES": {
+    "bureau": "Montbazon",
+    "distanceKm": 6.5
+  },
+  "FAYE LA VINEUSE": {
+    "bureau": "Richelieu",
+    "distanceKm": 7.1
+  },
+  "FERRIERE LARCON": {
+    "bureau": "Ligueil",
+    "distanceKm": 7.0
+  },
+  "FERRIERE SUR BEAULIEU": {
+    "bureau": "Loches",
+    "distanceKm": 6.7
+  },
+  "FONDETTES": {
+    "bureau": "Tours",
+    "distanceKm": 7.2
+  },
+  "FRANCUEIL": {
+    "bureau": "Bléré",
+    "distanceKm": 7.0
+  },
+  "GENILLE": {
+    "bureau": "Montrésor",
+    "distanceKm": 7.4
+  },
+  "GIZEUX": {
+    "bureau": "Bourgueil",
+    "distanceKm": 8.8
+  },
+  "HOMMES": {
+    "bureau": "Langeais",
+    "distanceKm": 10.7
+  },
+  "HUISMES": {
+    "bureau": "Chinon",
+    "distanceKm": 6.9
+  },
+  "INGRANDES DE TOURAINE": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "JAULNAY": {
+    "bureau": "Richelieu",
+    "distanceKm": 10.2
+  },
+  "JOUE LES TOURS": {
+    "bureau": "Montbazon",
+    "distanceKm": 7.0
+  },
+  "LA CELLE GUENAND": {
+    "bureau": "Le Grand-Pressigny",
+    "distanceKm": 7.9
+  },
+  "LA CELLE SAINT AVANT": {
+    "bureau": "Descartes",
+    "distanceKm": 6.1
+  },
+  "LA CHAPELLE BLANCHE SAINT MARTIN": {
+    "bureau": "Ligueil",
+    "distanceKm": 5.3
+  },
+  "LA CHAPELLE AUX NAUX": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 5.4
+  },
+  "LA CHAPELLE SUR LOIRE": {
+    "bureau": "Bourgueil",
+    "distanceKm": 7.5
+  },
+  "LA CROIX EN TOURAINE": {
+    "bureau": "Amboise",
+    "distanceKm": 5.2
+  },
+  "LA FERRIERE": {
+    "bureau": "Château-Renault",
+    "distanceKm": 11.9
+  },
+  "LA GUERCHE": {
+    "bureau": "Le Grand-Pressigny",
+    "distanceKm": 7.2
+  },
+  "LA MEMBROLLE SUR CHOISILLE": {
+    "bureau": "Tours",
+    "distanceKm": 7.6
+  },
+  "LA RICHE": {
+    "bureau": "Tours",
+    "distanceKm": 4.6
+  },
+  "LA ROCHE CLERMAULT": {
+    "bureau": "Chinon",
+    "distanceKm": 4.5
+  },
+  "LA TOUR SAINT GELIN": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 7.0
+  },
+  "LA VILLE AUX DAMES": {
+    "bureau": "Vouvray",
+    "distanceKm": 5.2
+  },
+  "LARCAY": {
+    "bureau": "Tours",
+    "distanceKm": 7.8
+  },
+  "LE BOULAY": {
+    "bureau": "Château-Renault",
+    "distanceKm": 4.1
+  },
+  "LE LIEGE": {
+    "bureau": "Montrésor",
+    "distanceKm": 11.3
+  },
+  "LE LOUROUX": {
+    "bureau": "Manthelan",
+    "distanceKm": 4.5
+  },
+  "LE PETIT PRESSIGNY": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 7.0
+  },
+  "LERNE": {
+    "bureau": "Chinon",
+    "distanceKm": 10.6
+  },
+  "LES ESSARDS": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "LES HERMITES": {
+    "bureau": "Château-Renault",
+    "distanceKm": 13.4
+  },
+  "LIGNIERES DE TOURAINE": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 4.3
+  },
+  "LIGRE": {
+    "bureau": "Chinon",
+    "distanceKm": 6.8
+  },
+  "LIMERAY": {
+    "bureau": "Amboise",
+    "distanceKm": 7.5
+  },
+  "LOCHE SUR INDROIS": {
+    "bureau": "Montrésor",
+    "distanceKm": 8.1
+  },
+  "LOUANS": {
+    "bureau": "Manthelan",
+    "distanceKm": 7.8
+  },
+  "LOUESTAULT": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "LUBLE": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 4.6
+  },
+  "LUSSAULT SUR LOIRE": {
+    "bureau": "Amboise",
+    "distanceKm": 5.9
+  },
+  "LUYNES": {
+    "bureau": "Tours",
+    "distanceKm": 12.1
+  },
+  "LUZILLE": {
+    "bureau": "Bléré",
+    "distanceKm": 7.0
+  },
+  "LUZE": {
+    "bureau": "Richelieu",
+    "distanceKm": 12.0
+  },
+  "LEMERE": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 7.1
+  },
+  "MAILLE": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 7.9
+  },
+  "MARCILLY SUR MAULNE": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 7.6
+  },
+  "MARCILLY SUR VIENNE": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 11.5
+  },
+  "MARCE SUR ESVES": {
+    "bureau": "Descartes",
+    "distanceKm": 4.3
+  },
+  "MARIGNY MARMANDE": {
+    "bureau": "Richelieu",
+    "distanceKm": 13.3
+  },
+  "MARRAY": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 9.2
+  },
+  "MARCAY": {
+    "bureau": "Chinon",
+    "distanceKm": 9.7
+  },
+  "MAZIERES DE TOURAINE": {
+    "bureau": "Langeais",
+    "distanceKm": 7.0
+  },
+  "METTRAY": {
+    "bureau": "Tours",
+    "distanceKm": 7.7
+  },
+  "MONNAIE": {
+    "bureau": "Vouvray",
+    "distanceKm": 8.2
+  },
+  "MONTHODON": {
+    "bureau": "Château-Renault",
+    "distanceKm": 9.1
+  },
+  "MONTLOUIS SUR LOIRE": {
+    "bureau": "Vouvray",
+    "distanceKm": 6.1
+  },
+  "MONTREUIL EN TOURAINE": {
+    "bureau": "Amboise",
+    "distanceKm": 10.3
+  },
+  "MONTREUIL": {
+    "bureau": "Amboise",
+    "distanceKm": 10.3
+  },
+  "MONTS": {
+    "bureau": "Montbazon",
+    "distanceKm": 4.9
+  },
+  "MORAND": {
+    "bureau": "Château-Renault",
+    "distanceKm": 8.4
+  },
+  "MOSNES": {
+    "bureau": "Amboise",
+    "distanceKm": 9.4
+  },
+  "MOUZAY": {
+    "bureau": "Loches",
+    "distanceKm": 5.7
+  },
+  "NAZELLES NEGRON": {
+    "bureau": "Amboise",
+    "distanceKm": 5.5
+  },
+  "NAZELLES": {
+    "bureau": "Amboise",
+    "distanceKm": 5.5
+  },
+  "NEUIL": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 10.6
+  },
+  "NEUILLY LE BRIGNON": {
+    "bureau": "Le Grand-Pressigny",
+    "distanceKm": 6.3
+  },
+  "NEUILLE LE LIERRE": {
+    "bureau": "Château-Renault",
+    "distanceKm": 9.4
+  },
+  "NEUVILLE SUR BRENNE": {
+    "bureau": "Château-Renault",
+    "distanceKm": 2.4
+  },
+  "NEUVILLE": {
+    "bureau": "Château-Renault",
+    "distanceKm": 2.4
+  },
+  "NOIZAY": {
+    "bureau": "Vouvray",
+    "distanceKm": 7.2
+  },
+  "NOTRE DAME D OE": {
+    "bureau": "Tours",
+    "distanceKm": 6.8
+  },
+  "NOUANS LES FONTAINES": {
+    "bureau": "Montrésor",
+    "distanceKm": 8.9
+  },
+  "NOUANS": {
+    "bureau": "Montrésor",
+    "distanceKm": 8.9
+  },
+  "NOUZILLY": {
+    "bureau": "Vouvray",
+    "distanceKm": 12.6
+  },
+  "NOUATRE": {
+    "bureau": "Descartes",
+    "distanceKm": 10.2
+  },
+  "NOYANT DE TOURAINE": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 6.3
+  },
+  "NEGRON": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "ORBIGNY": {
+    "bureau": "Montrésor",
+    "distanceKm": 8.4
+  },
+  "PANZOULT": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 5.3
+  },
+  "PARCAY MESLAY": {
+    "bureau": "Vouvray",
+    "distanceKm": 5.5
+  },
+  "PARCAY SUR VIENNE": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 5.8
+  },
+  "PAULMY": {
+    "bureau": "Ligueil",
+    "distanceKm": 6.4
+  },
+  "PERNAY": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 10.8
+  },
+  "PERRUSSON": {
+    "bureau": "Loches",
+    "distanceKm": 4.9
+  },
+  "POCE SUR CISSE": {
+    "bureau": "Amboise",
+    "distanceKm": 5.2
+  },
+  "PONT DE RUAN": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 7.9
+  },
+  "PORTS SUR VIENNE": {
+    "bureau": "Descartes",
+    "distanceKm": 11.9
+  },
+  "PORTS": {
+    "bureau": "Descartes",
+    "distanceKm": 11.9
+  },
+  "POUZAY": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 7.8
+  },
+  "PUSSIGNY": {
+    "bureau": "Descartes",
+    "distanceKm": 10.8
+  },
+  "RAZINES": {
+    "bureau": "Richelieu",
+    "distanceKm": 7.8
+  },
+  "REIGNAC SUR INDRE": {
+    "bureau": "Bléré",
+    "distanceKm": 10.2
+  },
+  "RESTIGNE": {
+    "bureau": "Bourgueil",
+    "distanceKm": 5.3
+  },
+  "REUGNY": {
+    "bureau": "Vouvray",
+    "distanceKm": 8.0
+  },
+  "RIGNY USSE": {
+    "bureau": "Chinon",
+    "distanceKm": 10.2
+  },
+  "RILLY SUR VIENNE": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 10.0
+  },
+  "RILLE": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 11.4
+  },
+  "RIVARENNES": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 8.2
+  },
+  "RIVIERE": {
+    "bureau": "Chinon",
+    "distanceKm": 3.4
+  },
+  "ROCHECORBON": {
+    "bureau": "Vouvray",
+    "distanceKm": 3.3
+  },
+  "ROUZIERS DE TOURAINE": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 7.1
+  },
+  "SACHE": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 6.6
+  },
+  "SAINT ANTOINE DU ROCHER": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 7.8
+  },
+  "SAINT AUBIN LE DEPEINT": {
+    "bureau": "Saint-Chrisrophe-sur-le-Nais",
+    "distanceKm": 5.0
+  },
+  "SAINT AUBIN": {
+    "bureau": "Saint-Chrisrophe-sur-le-Nais",
+    "distanceKm": 5.0
+  },
+  "SAINT AVERTIN": {
+    "bureau": "Tours",
+    "distanceKm": 5.3
+  },
+  "SAINT BAULD": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "SAINT BENOIT LA FORET": {
+    "bureau": "Chinon",
+    "distanceKm": 7.4
+  },
+  "SAINT BRANCHS": {
+    "bureau": "Montbazon",
+    "distanceKm": 8.6
+  },
+  "SAINT CHRISTOPHE SUR LE NAIS": {
+    "bureau": "Saint-Chrisrophe-sur-le-Nais",
+    "distanceKm": 0.0
+  },
+  "SAINT CYR SUR LOIRE": {
+    "bureau": "Tours",
+    "distanceKm": 4.0
+  },
+  "SAINT DENIS HORS": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "SAINT FLOVIER": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 14.7
+  },
+  "SAINT GENOUPH": {
+    "bureau": "Tours",
+    "distanceKm": 8.5
+  },
+  "SAINT GERMAIN SUR VIENNE": {
+    "bureau": "Chinon",
+    "distanceKm": 9.5
+  },
+  "SAINT HIPPOLYTE": {
+    "bureau": "Montrésor",
+    "distanceKm": 12.2
+  },
+  "SAINT JEAN SAINT GERMAIN": {
+    "bureau": "Loches",
+    "distanceKm": 7.7
+  },
+  "SAINT LAURENT DE LIN": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 4.4
+  },
+  "SAINT LAURENT EN GATINES": {
+    "bureau": "Château-Renault",
+    "distanceKm": 10.5
+  },
+  "SAINT MARTIN LE BEAU": {
+    "bureau": "Amboise",
+    "distanceKm": 8.1
+  },
+  "SAINT MICHEL SUR LOIRE": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DE BOURGUEIL": {
+    "bureau": "Bourgueil",
+    "distanceKm": 3.9
+  },
+  "SAINT NICOLAS DES MOTETS": {
+    "bureau": "Château-Renault",
+    "distanceKm": 9.6
+  },
+  "SAINT OUEN LES VIGNES": {
+    "bureau": "Amboise",
+    "distanceKm": 9.5
+  },
+  "SAINT PATERNE RACAN": {
+    "bureau": "Saint-Chrisrophe-sur-le-Nais",
+    "distanceKm": 5.0
+  },
+  "SAINT PIERRE DES CORPS": {
+    "bureau": "Tours",
+    "distanceKm": 3.0
+  },
+  "SAINT QUENTIN SUR INDROIS": {
+    "bureau": "Bléré",
+    "distanceKm": 10.9
+  },
+  "SAINT QUENTIN": {
+    "bureau": "Bléré",
+    "distanceKm": 10.9
+  },
+  "SAINT ROCH": {
+    "bureau": "Tours",
+    "distanceKm": 10.8
+  },
+  "SAINT REGLE": {
+    "bureau": "Amboise",
+    "distanceKm": 2.9
+  },
+  "SAINT SENOCH": {
+    "bureau": "Loches",
+    "distanceKm": 7.2
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "SAINT EPAIN": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 7.0
+  },
+  "SAINT ETIENNE DE CHIGNY": {
+    "bureau": "Langeais",
+    "distanceKm": 11.5
+  },
+  "SAINTE CATHERINE DE FIERBOIS": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 5.9
+  },
+  "SAINTE MAURE": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 0.0
+  },
+  "SAINTE RADEGONDE EN TOURAINE": {
+    "bureau": "Tours",
+    "distanceKm": 0.0
+  },
+  "SAUNAY": {
+    "bureau": "Château-Renault",
+    "distanceKm": 4.0
+  },
+  "SAVIGNY EN VERON": {
+    "bureau": "Chinon",
+    "distanceKm": 10.4
+  },
+  "SAVIGNY": {
+    "bureau": "Chinon",
+    "distanceKm": 10.4
+  },
+  "SAVIGNE SUR LATHAN": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 9.4
+  },
+  "SAVONNIERES": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 10.7
+  },
+  "SAZILLY": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 5.3
+  },
+  "SEMBLANCAY": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 5.1
+  },
+  "SENNEVIERES": {
+    "bureau": "Montrésor",
+    "distanceKm": 8.5
+  },
+  "SEPMES": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 3.9
+  },
+  "SEUILLY": {
+    "bureau": "Chinon",
+    "distanceKm": 7.6
+  },
+  "SONZAY": {
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 6.9
+  },
+  "SORIGNY": {
+    "bureau": "Montbazon",
+    "distanceKm": 6.4
+  },
+  "SOUVIGNY DE TOURAINE": {
+    "bureau": "Amboise",
+    "distanceKm": 6.3
+  },
+  "SOUVIGNE": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 6.0
+  },
+  "SUBLAINES": {
+    "bureau": "Bléré",
+    "distanceKm": 3.3
+  },
+  "TAUXIGNY SAINT BAULD": {
+    "bureau": "Manthelan",
+    "distanceKm": 8.4
+  },
+  "TAUXIGNY": {
+    "bureau": "Manthelan",
+    "distanceKm": 8.4
+  },
+  "TAVANT": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 2.7
+  },
+  "THENEUIL": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 2.8
+  },
+  "THILOUZE": {
+    "bureau": "Montbazon",
+    "distanceKm": 10.4
+  },
+  "THIZAY": {
+    "bureau": "Chinon",
+    "distanceKm": 7.8
+  },
+  "TOURNON SAINT PIERRE": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 9.7
+  },
+  "TROGUES": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 7.1
+  },
+  "TRUYES": {
+    "bureau": "Bléré",
+    "distanceKm": 10.0
+  },
+  "VALLERES": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 3.8
+  },
+  "VARENNES": {
+    "bureau": "Loches",
+    "distanceKm": 7.0
+  },
+  "VEIGNE": {
+    "bureau": "Montbazon",
+    "distanceKm": 1.5
+  },
+  "VERNEUIL LE CHATEAU": {
+    "bureau": "L'Ile-Bouchard",
+    "distanceKm": 9.4
+  },
+  "VERNEUIL SUR INDRE": {
+    "bureau": "Loches",
+    "distanceKm": 10.2
+  },
+  "VERNOU SUR BRENNE": {
+    "bureau": "Vouvray",
+    "distanceKm": 2.9
+  },
+  "VERNOU": {
+    "bureau": "Vouvray",
+    "distanceKm": 2.9
+  },
+  "VILLAINES LES ROCHERS": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 6.3
+  },
+  "VILLANDRY": {
+    "bureau": "Azay-le-Rideau",
+    "distanceKm": 6.8
+  },
+  "VILLEBOURG": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 4.6
+  },
+  "VILLEDOMAIN": {
+    "bureau": "Montrésor",
+    "distanceKm": 12.5
+  },
+  "VILLEDOMER": {
+    "bureau": "Château-Renault",
+    "distanceKm": 5.6
+  },
+  "VILLELOIN COULANGE": {
+    "bureau": "Montrésor",
+    "distanceKm": 3.0
+  },
+  "VILLEPERDUE": {
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 10.3
+  },
+  "VILLIERS AU BOUIN": {
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 6.3
+  },
+  "VOU": {
+    "bureau": "Manthelan",
+    "distanceKm": 5.4
+  },
+  "VERETZ": {
+    "bureau": "Vouvray",
+    "distanceKm": 9.1
+  },
+  "YZEURES SUR CREUSE": {
+    "bureau": "Preuilly-sur-Claise",
+    "distanceKm": 8.1
+  },
+  "EPEIGNE LES BOIS": {
+    "bureau": "Bléré",
+    "distanceKm": 11.2
+  },
+  "EPEIGNE SUR DEME": {
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 8.0
+  }
+}

@@ -90,6 +90,28 @@ export const SUCCESSION_DEPTS = {
         // repli sur la liste des bureaux à parcourir soi-même.
         catalogUrl: 'https://www.archivesdepartementales76.net/n/enregistrement/n:275',
     },
+    '37': {
+        label: 'Indre-et-Loire',
+        kind: 'facet',
+        // Bornes réelles de la série (4554 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1788,
+        maxYear: 1969,
+        portalBase: 'https://archives.touraine.fr/search/results',
+        formUuid: 'f311e3b2-110c-43a5-a051-4585d7499fb9',
+        registersUrl: './assets/data/successions_37.json',
+        bureauxUrl: './assets/data/successions_37_bureaux.json',
+    },
+    '80': {
+        label: 'Somme',
+        kind: 'facet',
+        // Bornes réelles de la série (434 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1849,
+        maxYear: 1968,
+        portalBase: 'https://archives.somme.fr/search/results',
+        formUuid: '93527461-9c14-4642-9a84-e3207e365911',
+        registersUrl: './assets/data/successions_80.json',
+        bureauxUrl: './assets/data/successions_80_bureaux.json',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
