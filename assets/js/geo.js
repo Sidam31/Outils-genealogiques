@@ -72,7 +72,7 @@ GEO.deptEnglishAliases = { "north": "59" };
 const DIACRITICS_RE = new RegExp('[' + String.fromCharCode(0x0300) + '-' + String.fromCharCode(0x036f) + ']', 'g');
 export function normalizePlace(s) {
     return s.toLowerCase().normalize('NFD').replace(DIACRITICS_RE, '')
-        .replace(/[-''`]/g, ' ').replace(/[.,;:]/g, ' ');
+        .replace(/[-'’`]/g, ' ').replace(/[.,;:]/g, ' ');
 }
 export const BELGIAN_REGIONS = new Set(["Wallonie","Flandre","Bruxelles","Brussels","Walloon","Flanders","Vlaanderen"]);
 GEO.countryEntriesNorm = Object.entries(GEO.countryMap).map(([k, v]) => [normalizePlace(k), v]);

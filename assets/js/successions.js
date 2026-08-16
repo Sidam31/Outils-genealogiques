@@ -134,6 +134,30 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_25.json',
         bureauxUrl: './assets/data/successions_25_bureaux.json',
     },
+    '30': {
+        label: 'Gard',
+        kind: 'facet',
+        // Bornes réelles de la série (491 registres scrapés, voir scrape_successions_gard.py).
+        minYear: 1821,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_30.json',
+        bureauxUrl: './assets/data/successions_30_bureaux.json',
+        // Quatrième département sur le logiciel Anaphore (Tarn, Tarn-et-Garonne, Gard) : arbre de
+        // classement, pas de recherche à facettes façon Nord — repli sur le fonds "Enregistrement".
+        catalogUrl: 'https://earchives.gard.fr/document/FRAD030_ENREGISTREMENT',
+    },
+    '60': {
+        label: 'Oise',
+        kind: 'facet',
+        // Bornes réelles de la série (599 registres scrapés, voir scrape_successions_archinoe.py).
+        minYear: 1740,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_60.json',
+        bureauxUrl: './assets/data/successions_60_bureaux.json',
+        // Portail "Archinoë" (v2/adXX), un quatrième logiciel : simple formulaire bureau + type de
+        // registre, une seule requête pour tout le département (pas de facette/arbre à parcourir).
+        catalogUrl: 'https://ressources.archives.oise.fr/v2/ad60/tsa.html',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
