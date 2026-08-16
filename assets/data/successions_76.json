@@ -1,0 +1,324 @@
+[
+  {
+    "place": "Argueil",
+    "cote": "003Q001",
+    "yearStart": 1839,
+    "yearEnd": 1928,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/b59dd8eebefc0422a9dc91c7525b7b06/archref/0"
+  },
+  {
+    "place": "Auffay",
+    "cote": "003Q002",
+    "yearStart": 1792,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/a74eb00e55296bdabacfeb55db048bac/archref/0"
+  },
+  {
+    "place": "Aumale",
+    "cote": "003Q003",
+    "yearStart": 1792,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/f747b68637b485ae2a8c694e4392f3b3/archref/0"
+  },
+  {
+    "place": "Bacqueville",
+    "cote": "003Q004",
+    "yearStart": 1791,
+    "yearEnd": 1954,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/9ac79d4a784accbcdad3a7eba193370d/archref/0"
+  },
+  {
+    "place": "Bellencombre",
+    "cote": "003Q005",
+    "yearStart": 1791,
+    "yearEnd": 1934,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/833ccafb9c0dd16ec1a3b416828372a0/archref/0"
+  },
+  {
+    "place": "Blangy",
+    "cote": "003Q006",
+    "yearStart": 1793,
+    "yearEnd": 1968,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/c53473d47a3aad111af2fa42650fa7fc/archref/0"
+  },
+  {
+    "place": "Buchy",
+    "cote": "003Q008",
+    "yearStart": 1792,
+    "yearEnd": 1961,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/7d6dacdd4aa14679d24e714e1ace98db/archref/0"
+  },
+  {
+    "place": "Cailly",
+    "cote": "003Q009",
+    "yearStart": 1792,
+    "yearEnd": 1881,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/1c7b5dfecdb63b03157ee03530ebe08d/archref/0"
+  },
+  {
+    "place": "Cany",
+    "cote": "003Q010",
+    "yearStart": 1791,
+    "yearEnd": 1949,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/012889468c1dd9d8c790ba7575e7d6b3/archref/0"
+  },
+  {
+    "place": "Caudebec-en-Caux",
+    "cote": "003Q011",
+    "yearStart": 1791,
+    "yearEnd": 1963,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/c6337ea0cab014e06086f47e10228e37/archref/0"
+  },
+  {
+    "place": "Clères",
+    "cote": "003Q012",
+    "yearStart": 1835,
+    "yearEnd": 1965,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/a041ccbedbbe0c635d7907bcc3f943f9/archref/0"
+  },
+  {
+    "place": "Criquetot-l'Esneval",
+    "cote": "003Q013",
+    "yearStart": 1835,
+    "yearEnd": 1965,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/62133aaa2bda3649905ac9d9ad4dbf00/archref/0"
+  },
+  {
+    "place": "Darnétal",
+    "cote": "003Q014",
+    "yearStart": 1802,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/dfd4e892350d6cb74e2c0f9ead1002bf/archref/0"
+  },
+  {
+    "place": "Dieppe",
+    "cote": "003Q015",
+    "yearStart": 1791,
+    "yearEnd": 1970,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/7918e168764aa1c3d53087bbdace1371/archref/0"
+  },
+  {
+    "place": "Doudeville",
+    "cote": "003Q016",
+    "yearStart": 1791,
+    "yearEnd": 1942,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/be9e196c1846a07e0bf38397f18d7510/archref/0"
+  },
+  {
+    "place": "Duclair",
+    "cote": "003Q017",
+    "yearStart": 1809,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/3084e24aefcedbb61b988c6c2567e664/archref/0"
+  },
+  {
+    "place": "Elbeuf",
+    "cote": "003Q018",
+    "yearStart": 1791,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/04d7c525f7687f9a83e3892744f63fae/archref/0"
+  },
+  {
+    "place": "Envermeu",
+    "cote": "003Q019",
+    "yearStart": 1794,
+    "yearEnd": 1954,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/ff59d59ee122845da0c0163e76abac52/archref/0"
+  },
+  {
+    "place": "Eu",
+    "cote": "003Q020",
+    "yearStart": 1792,
+    "yearEnd": 1966,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/5588ccfa59a63e6b017e7402678b7f6f/archref/0"
+  },
+  {
+    "place": "Fauville",
+    "cote": "003Q021",
+    "yearStart": 1835,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/417dcf9e1828aa1da6eb658ec19c6b13/archref/0"
+  },
+  {
+    "place": "Fecamp",
+    "cote": "003Q022",
+    "yearStart": 1791,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/4dd6924cee8f0ad039e2d85c9ac88cb3/archref/0"
+  },
+  {
+    "place": "Forges-les-Eaux",
+    "cote": "003Q023",
+    "yearStart": 1805,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/ed02ba63f7537f6b6795ba23cc7eb4e0/archref/0"
+  },
+  {
+    "place": "Gaillefontaine",
+    "cote": "003Q024",
+    "yearStart": 1791,
+    "yearEnd": 1824,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/31d8a5eebc0d89cb3a7408595f037d68/archref/0"
+  },
+  {
+    "place": "Goderville",
+    "cote": "003Q025",
+    "yearStart": 1836,
+    "yearEnd": 1947,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/6b3577eeaf58178f367bacc6f2af65ba/archref/0"
+  },
+  {
+    "place": "Gournay-en-Bray",
+    "cote": "003Q026",
+    "yearStart": 1767,
+    "yearEnd": 1968,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/dd1b9da28dce721553612c13b145f9c7/archref/0"
+  },
+  {
+    "place": "Grandes-Ventes",
+    "cote": "003Q027",
+    "yearStart": 1813,
+    "yearEnd": 1830,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/df65a699c392ca2bb90d7b7d685d3d7b/archref/0"
+  },
+  {
+    "place": "Le Havre",
+    "cote": "003Q028",
+    "yearStart": 1791,
+    "yearEnd": 1969,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/879d7b89aeef260046d0e49ac25cdab7/archref/0"
+  },
+  {
+    "place": "Lillebonne",
+    "cote": "003Q029",
+    "yearStart": 1803,
+    "yearEnd": 1961,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/514db6d61d2e4d9539c6849463a58c39/archref/0"
+  },
+  {
+    "place": "Longueville",
+    "cote": "003Q030",
+    "yearStart": 1792,
+    "yearEnd": 1961,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/01127a1a154a86316ef792c1b2a9abd5/archref/0"
+  },
+  {
+    "place": "Maromme",
+    "cote": "003Q031",
+    "yearStart": 1847,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/a5bae949bd94911763551aa99de4bdbe/archref/0"
+  },
+  {
+    "place": "Mesnil-Esnard",
+    "cote": "003Q032",
+    "yearStart": 1833,
+    "yearEnd": 1954,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/4da8b49052433f8287c98ca1e5be2986/archref/0"
+  },
+  {
+    "place": "Montivilliers",
+    "cote": "003Q033",
+    "yearStart": 1791,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/90f47a77ca9bb2cfa624fd0840833e22/archref/0"
+  },
+  {
+    "place": "Neufchâtel",
+    "cote": "003Q034",
+    "yearStart": 1792,
+    "yearEnd": 1968,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/cb0e181f51214093604b806b57da27af/archref/0"
+  },
+  {
+    "place": "Offranville",
+    "cote": "003Q035",
+    "yearStart": 1873,
+    "yearEnd": 1967,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/ca486cc3d88f807b617f3202d0993f0f/archref/0"
+  },
+  {
+    "place": "Ourville",
+    "cote": "003Q036",
+    "yearStart": 1837,
+    "yearEnd": 1944,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/9baba83396f1a9edc4b522fbcc05c0c7/archref/0"
+  },
+  {
+    "place": "Pavilly",
+    "cote": "003Q037",
+    "yearStart": 1792,
+    "yearEnd": 1963,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/5dce9cfd46b00ca743e99869e154dfda/archref/0"
+  },
+  {
+    "place": "Rouen",
+    "cote": "003Q038",
+    "yearStart": 1792,
+    "yearEnd": 1961,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/53ab762dd922f14cbb91307da3d9e99f/archref/0"
+  },
+  {
+    "place": "Ry",
+    "cote": "003Q039",
+    "yearStart": 1793,
+    "yearEnd": 1810,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/d4f65a2a2de9747cb7093976aa97778d/archref/0"
+  },
+  {
+    "place": "Saint-Romain-de-Colbosc",
+    "cote": "003Q040",
+    "yearStart": 1791,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/6c299c71eb7cb65291dcca37b6e98f23/archref/0"
+  },
+  {
+    "place": "Saint-Saëns",
+    "cote": "003Q041",
+    "yearStart": 1793,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/01b5e3a970614a7c048c88aaf9953934/archref/0"
+  },
+  {
+    "place": "Saint-Valery-en-Caux",
+    "cote": "003Q042",
+    "yearStart": 1793,
+    "yearEnd": 1966,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/4a903e3f5a7f18b1b70864714ec63957/archref/0"
+  },
+  {
+    "place": "Sotteville-les-Rouen",
+    "cote": "003Q043",
+    "yearStart": 1842,
+    "yearEnd": 1968,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/a8049b6b09d6392f4f2c1c2e6f414eb3/archref/0"
+  },
+  {
+    "place": "Tôtes",
+    "cote": "003Q044",
+    "yearStart": 1817,
+    "yearEnd": 1962,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/7aad0f7f293e70b6f72db009549ac47f/archref/0"
+  },
+  {
+    "place": "Valmont",
+    "cote": "003Q045",
+    "yearStart": 1809,
+    "yearEnd": 1949,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/ba9b56e52adf1f9cde8615d3e59ca94d/archref/0"
+  },
+  {
+    "place": "Yerville",
+    "cote": "003Q046",
+    "yearStart": 1825,
+    "yearEnd": 1942,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/0d5344c947ad3ff168cce844844880f7/archref/0"
+  },
+  {
+    "place": "Yvetot",
+    "cote": "003Q047",
+    "yearStart": 1792,
+    "yearEnd": 1969,
+    "url": "https://www.archivesdepartementales76.net/ark:/50278/769d629a371fed57c3e739a8b4790db6/archref/0"
+  }
+]

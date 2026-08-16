@@ -1,0 +1,3074 @@
+{
+  "ALLOUVILLE BELLEFOSSE": {
+    "bureau": "Fauville",
+    "distanceKm": 7.6
+  },
+  "ALVIMARE": {
+    "bureau": "Fauville",
+    "distanceKm": 5.4
+  },
+  "AMBOURVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "AMBRUMESNIL": {
+    "bureau": "Offranville",
+    "distanceKm": 3.8
+  },
+  "AMFREVILLE LA MI VOIE": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 1.6
+  },
+  "AMFREVILLE LES CHAMPS": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.5
+  },
+  "ANCEAUMEVILLE": {
+    "bureau": "Clères",
+    "distanceKm": 3.6
+  },
+  "ANCOURT": {
+    "bureau": "Envermeu",
+    "distanceKm": 5.9
+  },
+  "ANCOURTEVILLE SUR HERICOURT": {
+    "bureau": "Fauville",
+    "distanceKm": 6.0
+  },
+  "ANCRETIEVILLE SAINT VICTOR": {
+    "bureau": "Yerville",
+    "distanceKm": 6.0
+  },
+  "ANCRETTEVILLE SUR MER": {
+    "bureau": "Valmont",
+    "distanceKm": 5.7
+  },
+  "ANGERVILLE BAILLEUL": {
+    "bureau": "Goderville",
+    "distanceKm": 7.4
+  },
+  "ANGERVILLE L ORCHER": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 5.8
+  },
+  "ANGERVILLE LA MARTEL": {
+    "bureau": "Valmont",
+    "distanceKm": 3.3
+  },
+  "ANGIENS": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 7.2
+  },
+  "ANGLESQUEVILLE L ESNEVAL": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 2.5
+  },
+  "ANGLESQUEVILLE LA BRAS LONG": {
+    "bureau": "Doudeville",
+    "distanceKm": 5.8
+  },
+  "ANNEVILLE AMBOURVILLE": {
+    "bureau": "Duclair",
+    "distanceKm": 4.2
+  },
+  "ANNEVILLE SUR SEINE": {
+    "bureau": "Duclair",
+    "distanceKm": 4.2
+  },
+  "ANNEVILLE SUR SCIE": {
+    "bureau": "Longueville",
+    "distanceKm": 5.1
+  },
+  "ANNEVILLE": {
+    "bureau": "Longueville",
+    "distanceKm": 5.1
+  },
+  "ANNOUVILLE VILMESNIL": {
+    "bureau": "Goderville",
+    "distanceKm": 6.6
+  },
+  "ANQUETIERVILLE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 6.1
+  },
+  "ANVEVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 3.8
+  },
+  "ARDOUVAL": {
+    "bureau": "Bellencombre",
+    "distanceKm": 3.6
+  },
+  "ARELAUNE EN SEINE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 7.2
+  },
+  "LA MAILLERAYE SUR SEINE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 7.2
+  },
+  "ARGUEIL FRY": {
+    "bureau": "Argueil",
+    "distanceKm": 0.0
+  },
+  "ARQUES LA BATAILLE": {
+    "bureau": "Dieppe",
+    "distanceKm": 6.8
+  },
+  "ASSIGNY": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "AUBERMESNIL BEAUMAIS": {
+    "bureau": "Longueville",
+    "distanceKm": 6.1
+  },
+  "AUBERMESNIL AUX ERABLES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 11.5
+  },
+  "AUBERMESNIL": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 11.5
+  },
+  "AUBERVILLE LA CAMPAGNE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "AUBERVILLE LA MANUEL": {
+    "bureau": "Cany",
+    "distanceKm": 6.4
+  },
+  "AUBERVILLE LA RENAULT": {
+    "bureau": "Goderville",
+    "distanceKm": 4.8
+  },
+  "AUBEGUIMONT": {
+    "bureau": "Aumale",
+    "distanceKm": 6.7
+  },
+  "AUPPEGARD": {
+    "bureau": "Offranville",
+    "distanceKm": 4.3
+  },
+  "AUQUEMESNIL": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "AUTHIEUX RATIEVILLE": {
+    "bureau": "Clères",
+    "distanceKm": 3.4
+  },
+  "AUTIGNY": {
+    "bureau": "Doudeville",
+    "distanceKm": 9.2
+  },
+  "AUVILLIERS": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 9.1
+  },
+  "AUZEBOSC": {
+    "bureau": "Yvetot",
+    "distanceKm": 3.2
+  },
+  "AUZOUVILLE AUBERBOSC": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "AUZOUVILLE L ESNEVAL": {
+    "bureau": "Yerville",
+    "distanceKm": 4.9
+  },
+  "AUZOUVILLE SUR RY": {
+    "bureau": "Ry",
+    "distanceKm": 4.4
+  },
+  "AUZOUVILLE SUR SAANE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 7.8
+  },
+  "AVESNES EN BRAY": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 3.0
+  },
+  "AVESNES": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 3.0
+  },
+  "AVESNES EN VAL": {
+    "bureau": "Envermeu",
+    "distanceKm": 10.3
+  },
+  "AVREMESNIL": {
+    "bureau": "Offranville",
+    "distanceKm": 7.5
+  },
+  "BACQUEVILLE EN CAUX": {
+    "bureau": "Bacqueville",
+    "distanceKm": 0.0
+  },
+  "BAILLEUL NEUVILLE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.5
+  },
+  "BAILLOLET": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 5.5
+  },
+  "BAILLY EN RIVIERE": {
+    "bureau": "Envermeu",
+    "distanceKm": 6.5
+  },
+  "BAONS LE COMTE": {
+    "bureau": "Yvetot",
+    "distanceKm": 2.5
+  },
+  "BARDOUVILLE": {
+    "bureau": "Duclair",
+    "distanceKm": 7.3
+  },
+  "BARENTIN": {
+    "bureau": "Pavilly",
+    "distanceKm": 3.9
+  },
+  "BAROMESNIL": {
+    "bureau": "Eu",
+    "distanceKm": 6.5
+  },
+  "BAZINVAL": {
+    "bureau": "Blangy",
+    "distanceKm": 7.1
+  },
+  "BEAUBEC LA ROSIERE": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 5.7
+  },
+  "BEAUFRESNE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BEAUMONT LE HARENG": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 4.4
+  },
+  "BEAUREPAIRE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 4.9
+  },
+  "BEAUSSAULT": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 5.4
+  },
+  "BEAUTOT": {
+    "bureau": "Tôtes",
+    "distanceKm": 5.8
+  },
+  "BEAUVAL EN CAUX": {
+    "bureau": "Tôtes",
+    "distanceKm": 5.7
+  },
+  "BEAUNAY": {
+    "bureau": "Tôtes",
+    "distanceKm": 5.7
+  },
+  "BEAUVOIR EN LYONS": {
+    "bureau": "Argueil",
+    "distanceKm": 7.8
+  },
+  "BEC DE MORTAGNE": {
+    "bureau": "Valmont",
+    "distanceKm": 5.8
+  },
+  "BELBEUF": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 3.4
+  },
+  "BELLENGREVILLE": {
+    "bureau": "Envermeu",
+    "distanceKm": 2.7
+  },
+  "BELLEVILLE EN CAUX": {
+    "bureau": "Tôtes",
+    "distanceKm": 4.4
+  },
+  "BELLEVILLE SUR MER": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BELMESNIL": {
+    "bureau": "Bacqueville",
+    "distanceKm": 4.2
+  },
+  "BENNETOT": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BERMONVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BERNEVAL LE GRAND": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BERNIERES": {
+    "bureau": "Goderville",
+    "distanceKm": 9.0
+  },
+  "BERTHEAUVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 2.6
+  },
+  "BERTREVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 4.1
+  },
+  "BERTREVILLE SAINT OUEN": {
+    "bureau": "Bacqueville",
+    "distanceKm": 3.4
+  },
+  "BERTRIMONT": {
+    "bureau": "Tôtes",
+    "distanceKm": 3.6
+  },
+  "BERVILLE EN CAUX": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.2
+  },
+  "BERVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.2
+  },
+  "BERVILLE SUR SEINE": {
+    "bureau": "Duclair",
+    "distanceKm": 2.3
+  },
+  "BETTEVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BEUZEVILLE LA GRENIER": {
+    "bureau": "Goderville",
+    "distanceKm": 7.5
+  },
+  "BEUZEVILLE LA GUERARD": {
+    "bureau": "Ourville",
+    "distanceKm": 2.8
+  },
+  "BEUZEVILLETTE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 7.6
+  },
+  "BIERVILLE": {
+    "bureau": "Cailly",
+    "distanceKm": 6.4
+  },
+  "BIHOREL": {
+    "bureau": "Darnétal",
+    "distanceKm": 2.6
+  },
+  "BIVILLE LA BAIGNARDE": {
+    "bureau": "Tôtes",
+    "distanceKm": 4.0
+  },
+  "BIVILLE LA RIVIERE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 6.6
+  },
+  "BIVILLE SUR MER": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BLACQUEVILLE": {
+    "bureau": "Pavilly",
+    "distanceKm": 7.7
+  },
+  "BLAINVILLE CREVON": {
+    "bureau": "Ry",
+    "distanceKm": 4.8
+  },
+  "BLANGY SUR BRESLE": {
+    "bureau": "Blangy",
+    "distanceKm": 0.0
+  },
+  "BLOSSEVILLE": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 6.9
+  },
+  "BLEVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BOIS GUILBERT": {
+    "bureau": "Buchy",
+    "distanceKm": 7.6
+  },
+  "BOIS GUILLAUME": {
+    "bureau": "Darnétal",
+    "distanceKm": 3.8
+  },
+  "BOIS GUILLAUME BIHOREL": {
+    "bureau": "Darnétal",
+    "distanceKm": 3.8
+  },
+  "BOIS HIMONT": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 6.4
+  },
+  "BOIS HEROULT": {
+    "bureau": "Buchy",
+    "distanceKm": 5.2
+  },
+  "BOIS D ENNEBOURG": {
+    "bureau": "Ry",
+    "distanceKm": 7.8
+  },
+  "BOIS L EVEQUE": {
+    "bureau": "Ry",
+    "distanceKm": 6.4
+  },
+  "BOISSAY": {
+    "bureau": "Ry",
+    "distanceKm": 5.4
+  },
+  "BOLBEC": {
+    "bureau": "Lillebonne",
+    "distanceKm": 8.8
+  },
+  "BOLLEVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 5.7
+  },
+  "BONSECOURS": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 1.6
+  },
+  "BLOSSEVILLE BONSECOURS": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 1.6
+  },
+  "BOOS": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 5.8
+  },
+  "BORDEAUX SAINT CLAIR": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 7.0
+  },
+  "BORNAMBUSC": {
+    "bureau": "Goderville",
+    "distanceKm": 2.4
+  },
+  "BOSC BORDEL": {
+    "bureau": "Buchy",
+    "distanceKm": 5.8
+  },
+  "BOSC BERENGER": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 4.5
+  },
+  "BOSC GUERARD SAINT ADRIEN": {
+    "bureau": "Clères",
+    "distanceKm": 5.7
+  },
+  "BOSC HYONS": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 5.6
+  },
+  "BOSCHYONS": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 5.6
+  },
+  "BOSC MESNIL": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 4.8
+  },
+  "BOSC ROGER SUR BUCHY": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BOSC LE HARD": {
+    "bureau": "Cailly",
+    "distanceKm": 5.0
+  },
+  "BOSC EDELINE": {
+    "bureau": "Buchy",
+    "distanceKm": 6.6
+  },
+  "BOSVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 4.2
+  },
+  "BOUDEVILLE": {
+    "bureau": "Yerville",
+    "distanceKm": 5.2
+  },
+  "BOUELLES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 4.1
+  },
+  "BOURDAINVILLE": {
+    "bureau": "Yerville",
+    "distanceKm": 3.5
+  },
+  "BOURVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 8.1
+  },
+  "BOUVILLE": {
+    "bureau": "Pavilly",
+    "distanceKm": 4.5
+  },
+  "BRACHY": {
+    "bureau": "Bacqueville",
+    "distanceKm": 4.8
+  },
+  "BRACQUEMONT": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BRACQUETUIT": {
+    "bureau": "Auffay",
+    "distanceKm": 6.1
+  },
+  "BRADIANCOURT": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 7.8
+  },
+  "BRAMETOT": {
+    "bureau": "Doudeville",
+    "distanceKm": 8.7
+  },
+  "BRETTEVILLE SAINT LAURENT": {
+    "bureau": "Doudeville",
+    "distanceKm": 7.5
+  },
+  "BRETTEVILLE DU GRAND CAUX": {
+    "bureau": "Goderville",
+    "distanceKm": 3.0
+  },
+  "BRETTEVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 3.0
+  },
+  "BRUNVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BREAUTE": {
+    "bureau": "Goderville",
+    "distanceKm": 4.1
+  },
+  "BREMONTIER MERVAL": {
+    "bureau": "Argueil",
+    "distanceKm": 7.3
+  },
+  "BULLY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.0
+  },
+  "BURES EN BRAY": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 7.4
+  },
+  "BURES": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 7.4
+  },
+  "BUTOT": {
+    "bureau": "Clères",
+    "distanceKm": 6.0
+  },
+  "BUTOT VENESVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 5.0
+  },
+  "VENESVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 5.0
+  },
+  "BUTOT EN CAUX": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "BENARVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 7.5
+  },
+  "BENESVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.3
+  },
+  "BENOUVILLE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 9.6
+  },
+  "BEZANCOURT": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 8.9
+  },
+  "CAILLEVILLE": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 3.0
+  },
+  "CALLENGEVILLE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 10.9
+  },
+  "BOSC GEFFROY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 10.9
+  },
+  "CALLEVILLE LES DEUX EGLISES": {
+    "bureau": "Tôtes",
+    "distanceKm": 2.3
+  },
+  "CAMPNEUSEVILLE": {
+    "bureau": "Blangy",
+    "distanceKm": 6.3
+  },
+  "CANEHAN": {
+    "bureau": "Eu",
+    "distanceKm": 9.4
+  },
+  "CANOUVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 4.1
+  },
+  "CANTELEU": {
+    "bureau": "Maromme",
+    "distanceKm": 5.1
+  },
+  "CANVILLE LES DEUX EGLISES": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.3
+  },
+  "CANY BARVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 0.0
+  },
+  "CARVILLE POT DE FER": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.5
+  },
+  "CARVILLE LA FOLLETIERE": {
+    "bureau": "Yvetot",
+    "distanceKm": 7.4
+  },
+  "CATENAY": {
+    "bureau": "Ry",
+    "distanceKm": 4.1
+  },
+  "CAUDEBEC LES ELBEUF": {
+    "bureau": "Elbeuf",
+    "distanceKm": 1.9
+  },
+  "CAUVILLE SUR MER": {
+    "bureau": "Montivilliers",
+    "distanceKm": 6.8
+  },
+  "CAUVILLE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 6.8
+  },
+  "CIDEVILLE": {
+    "bureau": "Pavilly",
+    "distanceKm": 5.9
+  },
+  "CLAIS": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 8.1
+  },
+  "CLASVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 1.7
+  },
+  "CLAVILLE MOTTEVILLE": {
+    "bureau": "Cailly",
+    "distanceKm": 3.3
+  },
+  "CLEUVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 4.9
+  },
+  "CLIPONVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 4.6
+  },
+  "CLEON": {
+    "bureau": "Elbeuf",
+    "distanceKm": 5.2
+  },
+  "CLEVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 3.7
+  },
+  "COLLEVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 4.2
+  },
+  "COLMESNIL MANNEVILLE": {
+    "bureau": "Offranville",
+    "distanceKm": 2.7
+  },
+  "COMPAINVILLE": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 4.3
+  },
+  "CONTEVILLE": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 5.0
+  },
+  "CONTREMOULINS": {
+    "bureau": "Fecamp",
+    "distanceKm": 3.6
+  },
+  "COTTEVRARD": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 5.5
+  },
+  "CRASVILLE LA MALLET": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 6.0
+  },
+  "CRASVILLE LA ROCQUEFORT": {
+    "bureau": "Bacqueville",
+    "distanceKm": 9.4
+  },
+  "CRESSY": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "CRIEL SUR MER": {
+    "bureau": "Eu",
+    "distanceKm": 8.1
+  },
+  "CRIQUEBEUF EN CAUX": {
+    "bureau": "Fecamp",
+    "distanceKm": 5.0
+  },
+  "CRIQUETOT LE MAUCONDUIT": {
+    "bureau": "Cany",
+    "distanceKm": 5.1
+  },
+  "CRIQUETOT SUR LONGUEVILLE": {
+    "bureau": "Longueville",
+    "distanceKm": 2.8
+  },
+  "CRIQUETOT SUR OUVILLE": {
+    "bureau": "Yerville",
+    "distanceKm": 3.0
+  },
+  "CRIQUIERS": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 6.5
+  },
+  "CRITOT": {
+    "bureau": "Cailly",
+    "distanceKm": 3.1
+  },
+  "CROISY SUR ANDELLE": {
+    "bureau": "Ry",
+    "distanceKm": 5.5
+  },
+  "CROIX MARE": {
+    "bureau": "Yvetot",
+    "distanceKm": 5.2
+  },
+  "CROIXDALLE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 8.6
+  },
+  "CROPUS": {
+    "bureau": "Auffay",
+    "distanceKm": 2.3
+  },
+  "CROSVILLE SUR SCIE": {
+    "bureau": "Longueville",
+    "distanceKm": 3.4
+  },
+  "CUVERVILLE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 3.6
+  },
+  "CUVERVILLE SUR YERES": {
+    "bureau": "Eu",
+    "distanceKm": 10.5
+  },
+  "CUY SAINT FIACRE": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 4.5
+  },
+  "DAMPIERRE SAINT NICOLAS": {
+    "bureau": "Envermeu",
+    "distanceKm": 6.3
+  },
+  "DAMPIERRE EN BRAY": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 7.6
+  },
+  "DAMPIERRE": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 7.6
+  },
+  "DANCOURT": {
+    "bureau": "Blangy",
+    "distanceKm": 6.6
+  },
+  "DAUBEUF SERVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 5.2
+  },
+  "DERCHIGNY": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "DOUDEAUVILLE": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 10.2
+  },
+  "DOUVREND": {
+    "bureau": "Envermeu",
+    "distanceKm": 4.9
+  },
+  "DROSAY": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 7.3
+  },
+  "DENESTANVILLE": {
+    "bureau": "Longueville",
+    "distanceKm": 1.9
+  },
+  "DEVILLE LES ROUEN": {
+    "bureau": "Maromme",
+    "distanceKm": 1.6
+  },
+  "ECTOT L AUBER": {
+    "bureau": "Yerville",
+    "distanceKm": 3.7
+  },
+  "ECTOT LES BAONS": {
+    "bureau": "Yvetot",
+    "distanceKm": 4.0
+  },
+  "ELBEUF EN BRAY": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 4.7
+  },
+  "ELBEUF SUR ANDELLE": {
+    "bureau": "Ry",
+    "distanceKm": 3.4
+  },
+  "ELLECOURT": {
+    "bureau": "Aumale",
+    "distanceKm": 3.8
+  },
+  "ENVRONVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 4.8
+  },
+  "ERMENOUVILLE": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 8.1
+  },
+  "ERNEMONT LA VILLETTE": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 2.5
+  },
+  "ERNEMONT SUR BUCHY": {
+    "bureau": "Buchy",
+    "distanceKm": 5.1
+  },
+  "ESCLAVELLES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 6.1
+  },
+  "ESLETTES": {
+    "bureau": "Clères",
+    "distanceKm": 6.2
+  },
+  "ESTEVILLE": {
+    "bureau": "Cailly",
+    "distanceKm": 2.6
+  },
+  "ESTOUTEVILLE ECALLES": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "EURVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "FALLENCOURT": {
+    "bureau": "Blangy",
+    "distanceKm": 7.2
+  },
+  "FERRIERES EN BRAY": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 3.2
+  },
+  "FESQUES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 6.1
+  },
+  "FLAMANVILLE": {
+    "bureau": "Yvetot",
+    "distanceKm": 4.7
+  },
+  "FLAMETS FRETILS": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 9.0
+  },
+  "FLOCQUES": {
+    "bureau": "Eu",
+    "distanceKm": 5.2
+  },
+  "FONGUEUSEMARE": {
+    "bureau": "Goderville",
+    "distanceKm": 4.5
+  },
+  "FONTAINE EN BRAY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.4
+  },
+  "FONTAINE LA MALLET": {
+    "bureau": "Montivilliers",
+    "distanceKm": 3.8
+  },
+  "FONTAINE LE BOURG": {
+    "bureau": "Clères",
+    "distanceKm": 4.0
+  },
+  "FONTAINE LE DUN": {
+    "bureau": "Doudeville",
+    "distanceKm": 10.5
+  },
+  "FONTAINE SOUS PREAUX": {
+    "bureau": "Darnétal",
+    "distanceKm": 4.6
+  },
+  "FONTENAY": {
+    "bureau": "Montivilliers",
+    "distanceKm": 3.3
+  },
+  "FOUCARMONT": {
+    "bureau": "Blangy",
+    "distanceKm": 9.2
+  },
+  "FOUCART": {
+    "bureau": "Fauville",
+    "distanceKm": 3.9
+  },
+  "FRANQUEVILLE SAINT PIERRE": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 3.0
+  },
+  "NOTRE DAME DE FRANQUEVILLE": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 3.0
+  },
+  "FRENEUSE": {
+    "bureau": "Elbeuf",
+    "distanceKm": 6.2
+  },
+  "FRESLES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.5
+  },
+  "FRESNAY LE LONG": {
+    "bureau": "Tôtes",
+    "distanceKm": 5.4
+  },
+  "FRESNE LE PLAN": {
+    "bureau": "Ry",
+    "distanceKm": 7.6
+  },
+  "FRESNOY FOLNY": {
+    "bureau": "Envermeu",
+    "distanceKm": 12.3
+  },
+  "FRESQUIENNES": {
+    "bureau": "Pavilly",
+    "distanceKm": 5.0
+  },
+  "FRESQUIENNE": {
+    "bureau": "Pavilly",
+    "distanceKm": 5.0
+  },
+  "FREULLEVILLE": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 5.2
+  },
+  "FRICHEMESNIL": {
+    "bureau": "Clères",
+    "distanceKm": 4.1
+  },
+  "FROBERVILLE": {
+    "bureau": "Fecamp",
+    "distanceKm": 5.8
+  },
+  "FRY": {
+    "bureau": "Argueil",
+    "distanceKm": 2.7
+  },
+  "FREAUVILLE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 9.7
+  },
+  "FULTOT": {
+    "bureau": "Doudeville",
+    "distanceKm": 3.6
+  },
+  "GAINNEVILLE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 5.4
+  },
+  "GANCOURT SAINT ETIENNE": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 7.8
+  },
+  "GANZEVILLE": {
+    "bureau": "Fecamp",
+    "distanceKm": 1.8
+  },
+  "GERPONVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 3.1
+  },
+  "GERVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 6.1
+  },
+  "GLICOURT": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "GOMMERVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 2.7
+  },
+  "GONFREVILLE CAILLOT": {
+    "bureau": "Goderville",
+    "distanceKm": 6.2
+  },
+  "GONFREVILLE L ORCHER": {
+    "bureau": "Montivilliers",
+    "distanceKm": 6.4
+  },
+  "GONNETOT": {
+    "bureau": "Bacqueville",
+    "distanceKm": 8.6
+  },
+  "GONNEVILLE LA MALLET": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 4.0
+  },
+  "GONNEVILLE SUR SCIE": {
+    "bureau": "Longueville",
+    "distanceKm": 4.3
+  },
+  "GONZEVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 3.8
+  },
+  "GOUCHAUPRE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "GOUPILLIERES": {
+    "bureau": "Pavilly",
+    "distanceKm": 2.6
+  },
+  "GOURNAY": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 0.0
+  },
+  "GOUY": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 6.1
+  },
+  "GRAIMBOUVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.3
+  },
+  "GRAINVILLE YMAUVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 3.9
+  },
+  "GRAINVILLE LA TEINTURIERE": {
+    "bureau": "Ourville",
+    "distanceKm": 3.5
+  },
+  "GRAINVILLE SUR RY": {
+    "bureau": "Ry",
+    "distanceKm": 2.6
+  },
+  "GRAND CAMP": {
+    "bureau": "Lillebonne",
+    "distanceKm": 6.5
+  },
+  "GRAND COURONNE": {
+    "bureau": "Elbeuf",
+    "distanceKm": 8.2
+  },
+  "GRANDCOURT": {
+    "bureau": "Blangy",
+    "distanceKm": 10.4
+  },
+  "GRAVAL": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.6
+  },
+  "GRENY": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "GREUVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 7.1
+  },
+  "GRIGNEUSEVILLE": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 6.6
+  },
+  "GRUCHET SAINT SIMEON": {
+    "bureau": "Bacqueville",
+    "distanceKm": 8.8
+  },
+  "GRUCHET LE VALASSE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 5.0
+  },
+  "GRUGNY": {
+    "bureau": "Clères",
+    "distanceKm": 3.2
+  },
+  "GRUMESNIL": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 6.0
+  },
+  "GREGES": {
+    "bureau": "Dieppe",
+    "distanceKm": 4.7
+  },
+  "GREMONVILLE": {
+    "bureau": "Yerville",
+    "distanceKm": 4.5
+  },
+  "GUERVILLE": {
+    "bureau": "Blangy",
+    "distanceKm": 8.5
+  },
+  "GUEURES": {
+    "bureau": "Bacqueville",
+    "distanceKm": 6.8
+  },
+  "GUEUTTEVILLE": {
+    "bureau": "Tôtes",
+    "distanceKm": 4.8
+  },
+  "GUEUTTEVILLE LES GRES": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 4.5
+  },
+  "GUILMECOURT": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "HARCANVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 2.6
+  },
+  "HARFLEUR": {
+    "bureau": "Montivilliers",
+    "distanceKm": 3.2
+  },
+  "HATTENVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 4.9
+  },
+  "HAUCOURT": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 3.8
+  },
+  "HAUDRICOURT": {
+    "bureau": "Aumale",
+    "distanceKm": 6.2
+  },
+  "HAUSSEZ": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 8.5
+  },
+  "HAUTOT SAINT SULPICE": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.5
+  },
+  "HAUTOT L AUVRAY": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.8
+  },
+  "HAUTOT LE VATOIS": {
+    "bureau": "Yvetot",
+    "distanceKm": 6.0
+  },
+  "HAUTOT SUR MER": {
+    "bureau": "Dieppe",
+    "distanceKm": 3.6
+  },
+  "HAUTOT SUR SEINE": {
+    "bureau": "Elbeuf",
+    "distanceKm": 9.6
+  },
+  "HERMANVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 3.3
+  },
+  "HERMEVILLE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 4.0
+  },
+  "HEUGLEVILLE SUR SCIE": {
+    "bureau": "Auffay",
+    "distanceKm": 3.5
+  },
+  "HEUQUEVILLE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 8.5
+  },
+  "HEURTEAUVILLE": {
+    "bureau": "Duclair",
+    "distanceKm": 6.3
+  },
+  "HODENG HODENGER": {
+    "bureau": "Argueil",
+    "distanceKm": 4.3
+  },
+  "HODENG AU BOSC": {
+    "bureau": "Blangy",
+    "distanceKm": 6.9
+  },
+  "HOUDETOT": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 8.4
+  },
+  "HOUPPEVILLE": {
+    "bureau": "Maromme",
+    "distanceKm": 5.2
+  },
+  "HOUQUETOT": {
+    "bureau": "Goderville",
+    "distanceKm": 5.1
+  },
+  "HUGLEVILLE EN CAUX": {
+    "bureau": "Pavilly",
+    "distanceKm": 5.6
+  },
+  "HEBERVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.5
+  },
+  "HENOUVILLE": {
+    "bureau": "Maromme",
+    "distanceKm": 5.9
+  },
+  "HERICOURT EN CAUX": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.9
+  },
+  "ROCQUEFORT SUR HERICOURT": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.9
+  },
+  "HERONCHELLES": {
+    "bureau": "Buchy",
+    "distanceKm": 6.1
+  },
+  "ILLOIS": {
+    "bureau": "Aumale",
+    "distanceKm": 8.0
+  },
+  "IMBLEVILLE": {
+    "bureau": "Yerville",
+    "distanceKm": 5.8
+  },
+  "INCHEVILLE": {
+    "bureau": "Eu",
+    "distanceKm": 6.5
+  },
+  "INGOUVILLE": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 2.5
+  },
+  "INTRAVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "ISNEAUVILLE": {
+    "bureau": "Darnétal",
+    "distanceKm": 6.3
+  },
+  "JUMIEGES": {
+    "bureau": "Duclair",
+    "distanceKm": 7.0
+  },
+  "LA BELLIERE": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 2.7
+  },
+  "LA BOUILLE": {
+    "bureau": "Elbeuf",
+    "distanceKm": 9.4
+  },
+  "LA CERLANGUE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.3
+  },
+  "LA CHAPELLE SAINT OUEN": {
+    "bureau": "Argueil",
+    "distanceKm": 8.1
+  },
+  "LA CHAPELLE DU BOURGAY": {
+    "bureau": "Longueville",
+    "distanceKm": 4.3
+  },
+  "LA CHAPELLE SUR DUN": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 9.7
+  },
+  "LA CHAUSSEE": {
+    "bureau": "Longueville",
+    "distanceKm": 2.9
+  },
+  "LA CRIQUE": {
+    "bureau": "Bellencombre",
+    "distanceKm": 3.6
+  },
+  "LA FERTE SAINT SAMSON": {
+    "bureau": "Argueil",
+    "distanceKm": 3.2
+  },
+  "LA FEUILLIE": {
+    "bureau": "Argueil",
+    "distanceKm": 8.9
+  },
+  "LA FOLLETIERE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "LA FONTELAYE": {
+    "bureau": "Yerville",
+    "distanceKm": 4.3
+  },
+  "LA FRENAYE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 3.1
+  },
+  "LA GAILLARDE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 11.0
+  },
+  "LA HALLOTIERE": {
+    "bureau": "Argueil",
+    "distanceKm": 5.1
+  },
+  "LA HAYE": {
+    "bureau": "Ry",
+    "distanceKm": 7.9
+  },
+  "LA HOUSSAYE BERANGER": {
+    "bureau": "Clères",
+    "distanceKm": 4.4
+  },
+  "LA LONDE": {
+    "bureau": "Elbeuf",
+    "distanceKm": 7.7
+  },
+  "LA NEUVILLE CHANT D OISEL": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 8.6
+  },
+  "LA POTERIE CAP D ANTIFER": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 8.2
+  },
+  "LA REMUEE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 3.2
+  },
+  "LA RUE SAINT PIERRE": {
+    "bureau": "Cailly",
+    "distanceKm": 2.9
+  },
+  "LA TRINITE DU MONT": {
+    "bureau": "Lillebonne",
+    "distanceKm": 4.7
+  },
+  "LA VAUPALIERE": {
+    "bureau": "Maromme",
+    "distanceKm": 3.0
+  },
+  "LA VIEUX RUE": {
+    "bureau": "Ry",
+    "distanceKm": 7.1
+  },
+  "LAMBERVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 2.4
+  },
+  "LAMMERVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 2.7
+  },
+  "LANDES VIEILLES ET NEUVES": {
+    "bureau": "Aumale",
+    "distanceKm": 8.9
+  },
+  "LANQUETOT": {
+    "bureau": "Lillebonne",
+    "distanceKm": 8.5
+  },
+  "LE BOCASSE": {
+    "bureau": "Clères",
+    "distanceKm": 3.0
+  },
+  "BOCASSE": {
+    "bureau": "Clères",
+    "distanceKm": 3.0
+  },
+  "LE BOIS ROBERT": {
+    "bureau": "Longueville",
+    "distanceKm": 5.7
+  },
+  "LE BOURG DUN": {
+    "bureau": "Offranville",
+    "distanceKm": 10.5
+  },
+  "BOURG DUN": {
+    "bureau": "Offranville",
+    "distanceKm": 10.5
+  },
+  "LE CATELIER": {
+    "bureau": "Auffay",
+    "distanceKm": 5.1
+  },
+  "LE CAULE SAINTE BEUVE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 10.6
+  },
+  "LE FOSSE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "LE GRAND QUEVILLY": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 3.8
+  },
+  "LE HANOUARD": {
+    "bureau": "Ourville",
+    "distanceKm": 4.2
+  },
+  "LE HOULME": {
+    "bureau": "Maromme",
+    "distanceKm": 3.8
+  },
+  "LE HERON": {
+    "bureau": "Ry",
+    "distanceKm": 5.3
+  },
+  "HERON": {
+    "bureau": "Ry",
+    "distanceKm": 5.3
+  },
+  "LE MESNIL DURDENT": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 6.3
+  },
+  "LE MESNIL ESNARD": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL LIEUBRAY": {
+    "bureau": "Argueil",
+    "distanceKm": 3.9
+  },
+  "LE MESNIL REAUME": {
+    "bureau": "Eu",
+    "distanceKm": 7.9
+  },
+  "LE MESNIL SOUS JUMIEGES": {
+    "bureau": "Duclair",
+    "distanceKm": 6.4
+  },
+  "LE PETIT QUEVILLY": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 3.0
+  },
+  "LE THIL RIBERPRE": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 3.0
+  },
+  "LE TILLEUL": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 7.4
+  },
+  "LE TORP MESNIL": {
+    "bureau": "Yerville",
+    "distanceKm": 5.7
+  },
+  "LE TRAIT": {
+    "bureau": "Duclair",
+    "distanceKm": 3.6
+  },
+  "LE TREPORT": {
+    "bureau": "Eu",
+    "distanceKm": 4.0
+  },
+  "LES AUTHIEUX SUR LE PORT SAINT OUEN": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 8.1
+  },
+  "LES CENT ACRES": {
+    "bureau": "Longueville",
+    "distanceKm": 3.7
+  },
+  "LES ESSARTS VARIMPRE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "LES GRANDES VENTES": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 0.0
+  },
+  "LES HAUTS DE CAUX": {
+    "bureau": "Yvetot",
+    "distanceKm": 4.3
+  },
+  "AUTRETOT": {
+    "bureau": "Yvetot",
+    "distanceKm": 4.3
+  },
+  "LES IFS": {
+    "bureau": "Envermeu",
+    "distanceKm": 9.7
+  },
+  "LES LOGES": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 7.8
+  },
+  "LES TROIS PIERRES": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 3.8
+  },
+  "LESTANVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 5.9
+  },
+  "LIMPIVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 5.8
+  },
+  "LIMESY": {
+    "bureau": "Pavilly",
+    "distanceKm": 3.4
+  },
+  "LINDEBEUF": {
+    "bureau": "Yerville",
+    "distanceKm": 4.1
+  },
+  "LINTOT": {
+    "bureau": "Lillebonne",
+    "distanceKm": 6.2
+  },
+  "LINTOT LES BOIS": {
+    "bureau": "Longueville",
+    "distanceKm": 2.8
+  },
+  "LONDINIERES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 11.5
+  },
+  "LONGMESNIL": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 3.5
+  },
+  "LONGROY": {
+    "bureau": "Blangy",
+    "distanceKm": 9.8
+  },
+  "LONGUEIL": {
+    "bureau": "Offranville",
+    "distanceKm": 5.9
+  },
+  "LONGUERUE": {
+    "bureau": "Buchy",
+    "distanceKm": 6.0
+  },
+  "LONGUEVILLE SUR SCIE": {
+    "bureau": "Longueville",
+    "distanceKm": 0.0
+  },
+  "LOUVETOT": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 5.4
+  },
+  "LUCY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 3.2
+  },
+  "LUNERAY": {
+    "bureau": "Bacqueville",
+    "distanceKm": 7.1
+  },
+  "MALAUNAY": {
+    "bureau": "Maromme",
+    "distanceKm": 5.5
+  },
+  "MALLEVILLE LES GRES": {
+    "bureau": "Cany",
+    "distanceKm": 5.9
+  },
+  "MANIQUERVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 5.4
+  },
+  "MANNEVILLE LA GOUPIL": {
+    "bureau": "Goderville",
+    "distanceKm": 3.8
+  },
+  "MANNEVILLE ES PLAINS": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 2.9
+  },
+  "MANNEVILLETTE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 6.1
+  },
+  "MANEGLISE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 5.3
+  },
+  "MANEHOUVILLE": {
+    "bureau": "Longueville",
+    "distanceKm": 5.0
+  },
+  "MARQUES": {
+    "bureau": "Aumale",
+    "distanceKm": 5.3
+  },
+  "MARTAINVILLE EPREVILLE": {
+    "bureau": "Ry",
+    "distanceKm": 3.7
+  },
+  "MARTIGNY": {
+    "bureau": "Longueville",
+    "distanceKm": 7.8
+  },
+  "MARTIN EGLISE": {
+    "bureau": "Dieppe",
+    "distanceKm": 3.3
+  },
+  "MASSY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.2
+  },
+  "MATHONVILLE": {
+    "bureau": "Buchy",
+    "distanceKm": 5.2
+  },
+  "MAUCOMBLE": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 4.3
+  },
+  "MAULEVRIER SAINTE GERTRUDE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 3.3
+  },
+  "MAULEVRIER": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 3.3
+  },
+  "MAUNY": {
+    "bureau": "Duclair",
+    "distanceKm": 10.0
+  },
+  "MAUQUENCHY": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 7.6
+  },
+  "MELLEVILLE": {
+    "bureau": "Eu",
+    "distanceKm": 9.5
+  },
+  "MENTHEVILLE": {
+    "bureau": "Fecamp",
+    "distanceKm": 6.2
+  },
+  "MESNIL FOLLEMPRISE": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 5.1
+  },
+  "MESNIL MAUGER": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 7.3
+  },
+  "MESNIL PANNEVILLE": {
+    "bureau": "Pavilly",
+    "distanceKm": 4.9
+  },
+  "MESNIL RAOUL": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 9.4
+  },
+  "MESNIERES EN BRAY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 5.0
+  },
+  "MEULERS": {
+    "bureau": "Envermeu",
+    "distanceKm": 6.9
+  },
+  "MILLEBOSC": {
+    "bureau": "Eu",
+    "distanceKm": 8.5
+  },
+  "MIRVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 7.7
+  },
+  "MOLAGNIES": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 5.3
+  },
+  "MONCHAUX SORENG": {
+    "bureau": "Blangy",
+    "distanceKm": 5.0
+  },
+  "MONCHY SUR EU": {
+    "bureau": "Eu",
+    "distanceKm": 5.7
+  },
+  "MONT CAUVAIRE": {
+    "bureau": "Clères",
+    "distanceKm": 2.4
+  },
+  "MONT SAINT AIGNAN": {
+    "bureau": "Rouen",
+    "distanceKm": 3.0
+  },
+  "MONT DE L IF": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "MONTIGNY": {
+    "bureau": "Maromme",
+    "distanceKm": 3.2
+  },
+  "MONTMAIN": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 7.1
+  },
+  "MONTREUIL EN CAUX": {
+    "bureau": "Auffay",
+    "distanceKm": 3.6
+  },
+  "MONTROTY": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 6.3
+  },
+  "MONTVILLE": {
+    "bureau": "Clères",
+    "distanceKm": 5.0
+  },
+  "MONTEROLIER": {
+    "bureau": "Buchy",
+    "distanceKm": 4.2
+  },
+  "MORGNY LA POMMERAYE": {
+    "bureau": "Cailly",
+    "distanceKm": 7.8
+  },
+  "MORIENNE": {
+    "bureau": "Aumale",
+    "distanceKm": 2.8
+  },
+  "SAINTE MARGUERITE LES AUMALE": {
+    "bureau": "Aumale",
+    "distanceKm": 2.8
+  },
+  "MORTEMER": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 6.8
+  },
+  "MORVILLE LE HERON": {
+    "bureau": "Ry",
+    "distanceKm": 7.0
+  },
+  "MORVILLE SUR ANDELLE": {
+    "bureau": "Ry",
+    "distanceKm": 7.0
+  },
+  "MOTTEVILLE": {
+    "bureau": "Yerville",
+    "distanceKm": 5.8
+  },
+  "MOULINEAUX": {
+    "bureau": "Elbeuf",
+    "distanceKm": 7.8
+  },
+  "MUCHEDENT": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 3.3
+  },
+  "MELAMARE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 5.6
+  },
+  "MENERVAL": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 8.0
+  },
+  "MENONVAL": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 3.1
+  },
+  "MESANGUEVILLE": {
+    "bureau": "Argueil",
+    "distanceKm": 2.7
+  },
+  "NESLE HODENG": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 6.6
+  },
+  "NESLE NORMANDEUSE": {
+    "bureau": "Blangy",
+    "distanceKm": 2.9
+  },
+  "NEUF MARCHE": {
+    "bureau": "Gournay-en-Bray",
+    "distanceKm": 6.3
+  },
+  "NEUFBOSC": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 6.5
+  },
+  "NEUFCHATEL EN BRAY": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 0.0
+  },
+  "NEUVILLE FERRIERES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 3.2
+  },
+  "NEUVILLE LES DIEPPE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "NOINTOT": {
+    "bureau": "Goderville",
+    "distanceKm": 10.3
+  },
+  "NOLLEVAL": {
+    "bureau": "Argueil",
+    "distanceKm": 7.5
+  },
+  "NORMANVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 4.3
+  },
+  "NORVILLE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 7.7
+  },
+  "NOTRE DAME D ALIERMONT": {
+    "bureau": "Envermeu",
+    "distanceKm": 6.3
+  },
+  "NOTRE DAME DE BLIQUETUIT": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 4.1
+  },
+  "NOTRE DAME DE BONDEVILLE": {
+    "bureau": "Maromme",
+    "distanceKm": 2.5
+  },
+  "NOTRE DAME DU BEC": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 5.5
+  },
+  "NOTRE DAME DU PARC": {
+    "bureau": "Auffay",
+    "distanceKm": 4.0
+  },
+  "NULLEMONT": {
+    "bureau": "Aumale",
+    "distanceKm": 7.7
+  },
+  "NEVILLE": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 3.4
+  },
+  "OCQUEVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 4.5
+  },
+  "OCTEVILLE SUR MER": {
+    "bureau": "Montivilliers",
+    "distanceKm": 5.4
+  },
+  "OHERVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.7
+  },
+  "OISSEL": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 7.5
+  },
+  "OMONVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 3.1
+  },
+  "ORIVAL": {
+    "bureau": "Elbeuf",
+    "distanceKm": 4.2
+  },
+  "OSMOY SAINT VALERY": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 5.6
+  },
+  "OUAINVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 3.5
+  },
+  "OUDALLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 7.6
+  },
+  "OURVILLE EN CAUX": {
+    "bureau": "Ourville",
+    "distanceKm": 0.0
+  },
+  "OUVILLE L ABBAYE": {
+    "bureau": "Yerville",
+    "distanceKm": 2.4
+  },
+  "OUVILLE LA RIVIERE": {
+    "bureau": "Offranville",
+    "distanceKm": 3.7
+  },
+  "PALUEL": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 5.9
+  },
+  "PARC D ANXTOT": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.3
+  },
+  "PENLY": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "PETIT CAUX": {
+    "bureau": "Envermeu",
+    "distanceKm": 7.3
+  },
+  "SAINT MARTIN EN CAMPAGNE": {
+    "bureau": "Envermeu",
+    "distanceKm": 7.3
+  },
+  "PETIT COURONNE": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 5.5
+  },
+  "LE PETIT COURONNE": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 5.5
+  },
+  "PETIVILLE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 6.3
+  },
+  "PIERRECOURT": {
+    "bureau": "Blangy",
+    "distanceKm": 3.4
+  },
+  "PIERREFIQUES": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 5.4
+  },
+  "PIERREVAL": {
+    "bureau": "Cailly",
+    "distanceKm": 5.5
+  },
+  "PISSY POVILLE": {
+    "bureau": "Pavilly",
+    "distanceKm": 6.4
+  },
+  "PLEINE SEVE": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 5.4
+  },
+  "POMMEREUX": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 4.6
+  },
+  "POMMEREVAL": {
+    "bureau": "Bellencombre",
+    "distanceKm": 5.2
+  },
+  "PONTS ET MARAIS": {
+    "bureau": "Eu",
+    "distanceKm": 1.8
+  },
+  "PORT JEROME SUR SEINE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 3.2
+  },
+  "NOTRE DAME DE GRAVENCHON": {
+    "bureau": "Lillebonne",
+    "distanceKm": 3.2
+  },
+  "PREUSEVILLE": {
+    "bureau": "Blangy",
+    "distanceKm": 9.9
+  },
+  "PREAUX": {
+    "bureau": "Darnétal",
+    "distanceKm": 6.4
+  },
+  "PRETOT VICQUEMARE": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.6
+  },
+  "PUISENVAL": {
+    "bureau": "Blangy",
+    "distanceKm": 12.8
+  },
+  "QUEVILLON": {
+    "bureau": "Maromme",
+    "distanceKm": 9.1
+  },
+  "QUIBERVILLE SUR MER": {
+    "bureau": "Offranville",
+    "distanceKm": 8.7
+  },
+  "QUIBERVILLE": {
+    "bureau": "Offranville",
+    "distanceKm": 8.7
+  },
+  "QUINCAMPOIX": {
+    "bureau": "Darnétal",
+    "distanceKm": 8.0
+  },
+  "QUIEVRECOURT": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 2.9
+  },
+  "QUEVREVILLE LA POTERIE": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 7.2
+  },
+  "RAFFETOT": {
+    "bureau": "Fauville",
+    "distanceKm": 8.0
+  },
+  "RAINFREVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 5.9
+  },
+  "REBETS": {
+    "bureau": "Ry",
+    "distanceKm": 6.1
+  },
+  "REUVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.0
+  },
+  "RICARVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "RICARVILLE DU VAL": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 3.9
+  },
+  "RICHEMONT": {
+    "bureau": "Aumale",
+    "distanceKm": 9.2
+  },
+  "RIEUX": {
+    "bureau": "Blangy",
+    "distanceKm": 3.7
+  },
+  "RIVES EN SEINE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 0.0
+  },
+  "RIVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 2.5
+  },
+  "ROBERTOT": {
+    "bureau": "Doudeville",
+    "distanceKm": 6.5
+  },
+  "ROCQUEFORT": {
+    "bureau": "Yvetot",
+    "distanceKm": 7.2
+  },
+  "ROCQUEMONT": {
+    "bureau": "Buchy",
+    "distanceKm": 4.0
+  },
+  "ROGERVILLE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 8.2
+  },
+  "ROLLEVILLE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 4.2
+  },
+  "RONCHEROLLES EN BRAY": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 6.1
+  },
+  "RONCHEROLLES SUR LE VIVIER": {
+    "bureau": "Darnétal",
+    "distanceKm": 2.8
+  },
+  "RONCHEROLLES": {
+    "bureau": "Darnétal",
+    "distanceKm": 2.8
+  },
+  "RONCHOIS": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 7.9
+  },
+  "ROSAY": {
+    "bureau": "Bellencombre",
+    "distanceKm": 2.7
+  },
+  "ROUELLES": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "ROUMARE": {
+    "bureau": "Maromme",
+    "distanceKm": 6.2
+  },
+  "ROUTES": {
+    "bureau": "Doudeville",
+    "distanceKm": 2.4
+  },
+  "ROUVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 8.0
+  },
+  "ROUVRAY CATILLON": {
+    "bureau": "Argueil",
+    "distanceKm": 5.2
+  },
+  "ROUVRAY": {
+    "bureau": "Argueil",
+    "distanceKm": 5.2
+  },
+  "ROUXMESNIL BOUTEILLES": {
+    "bureau": "Dieppe",
+    "distanceKm": 2.7
+  },
+  "ROYVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 4.1
+  },
+  "REALCAMP": {
+    "bureau": "Blangy",
+    "distanceKm": 5.9
+  },
+  "RETONVAL": {
+    "bureau": "Blangy",
+    "distanceKm": 11.9
+  },
+  "SAHURS": {
+    "bureau": "Elbeuf",
+    "distanceKm": 10.9
+  },
+  "SAINNEVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 5.6
+  },
+  "SAINT AIGNAN SUR RY": {
+    "bureau": "Ry",
+    "distanceKm": 2.8
+  },
+  "SAINT ANDRE SUR CAILLY": {
+    "bureau": "Cailly",
+    "distanceKm": 4.0
+  },
+  "SAINT ANTOINE LA FORET": {
+    "bureau": "Lillebonne",
+    "distanceKm": 5.3
+  },
+  "SAINT ARNOULT": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 3.9
+  },
+  "SAINT AUBIN CELLOVILLE": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 4.5
+  },
+  "SAINT AUBIN ROUTOT": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 3.7
+  },
+  "SAINT AUBIN DE CRETOT": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 7.8
+  },
+  "SAINT AUBIN LE CAUF": {
+    "bureau": "Envermeu",
+    "distanceKm": 7.4
+  },
+  "SAINT AUBIN LES ELBEUF": {
+    "bureau": "Elbeuf",
+    "distanceKm": 3.6
+  },
+  "SAINT AUBIN SUR MER": {
+    "bureau": "Offranville",
+    "distanceKm": 11.4
+  },
+  "SAINT AUBIN SUR SCIE": {
+    "bureau": "Offranville",
+    "distanceKm": 3.7
+  },
+  "SAINT AUBIN EPINAY": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 3.9
+  },
+  "SAINT CLAIR SUR LES MONTS": {
+    "bureau": "Yvetot",
+    "distanceKm": 2.0
+  },
+  "SAINT CRESPIN": {
+    "bureau": "Longueville",
+    "distanceKm": 2.4
+  },
+  "SAINT DENIS D ACLON": {
+    "bureau": "Offranville",
+    "distanceKm": 6.6
+  },
+  "SAINT DENIS LE THIBOULT": {
+    "bureau": "Ry",
+    "distanceKm": 2.0
+  },
+  "SAINT DENIS SUR SCIE": {
+    "bureau": "Auffay",
+    "distanceKm": 3.5
+  },
+  "SAINT EUSTACHE LA FORET": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.7
+  },
+  "SAINT GEORGES SUR FONTAINE": {
+    "bureau": "Cailly",
+    "distanceKm": 5.9
+  },
+  "SAINT GERMAIN D ETABLES": {
+    "bureau": "Longueville",
+    "distanceKm": 7.3
+  },
+  "SAINT GERMAIN DES ESSOURTS": {
+    "bureau": "Buchy",
+    "distanceKm": 5.7
+  },
+  "SAINT GERMAIN SOUS CAILLY": {
+    "bureau": "Cailly",
+    "distanceKm": 1.5
+  },
+  "SAINT GERMAIN SUR EAULNE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 5.3
+  },
+  "SAINT GILLES DE CRETOT": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 6.0
+  },
+  "SAINT GILLES DE LA NEUVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 4.9
+  },
+  "SAINT HELLIER": {
+    "bureau": "Bellencombre",
+    "distanceKm": 3.3
+  },
+  "SAINT HONORE": {
+    "bureau": "Longueville",
+    "distanceKm": 3.6
+  },
+  "SAINT JACQUES D ALIERMONT": {
+    "bureau": "Envermeu",
+    "distanceKm": 5.7
+  },
+  "SAINT JACQUES SUR DARNETAL": {
+    "bureau": "Darnétal",
+    "distanceKm": 3.9
+  },
+  "SAINT JEAN DE FOLLEVILLE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 2.9
+  },
+  "SAINT JEAN DE LA NEUVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.9
+  },
+  "SAINT JEAN DU CARDONNAY": {
+    "bureau": "Maromme",
+    "distanceKm": 3.1
+  },
+  "SAINT JOUIN BRUNEVAL": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 7.2
+  },
+  "SAINT JOUIN SUR MER": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 7.2
+  },
+  "SAINT LAURENT DE BREVEDENT": {
+    "bureau": "Montivilliers",
+    "distanceKm": 5.6
+  },
+  "SAINT LAURENT EN CAUX": {
+    "bureau": "Doudeville",
+    "distanceKm": 7.4
+  },
+  "SAINT LUCIEN": {
+    "bureau": "Argueil",
+    "distanceKm": 7.6
+  },
+  "SAINT LEGER AUX BOIS": {
+    "bureau": "Blangy",
+    "distanceKm": 10.4
+  },
+  "SAINT LEGER DU BOURG DENIS": {
+    "bureau": "Darnétal",
+    "distanceKm": 2.1
+  },
+  "SAINT LEONARD": {
+    "bureau": "Fecamp",
+    "distanceKm": 5.0
+  },
+  "SAINT MACLOU DE FOLLEVILLE": {
+    "bureau": "Tôtes",
+    "distanceKm": 3.6
+  },
+  "SAINT MACLOU LA BRIERE": {
+    "bureau": "Goderville",
+    "distanceKm": 8.2
+  },
+  "SAINT MARDS": {
+    "bureau": "Bacqueville",
+    "distanceKm": 3.7
+  },
+  "SAINT MARTIN OSMONVILLE": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 3.7
+  },
+  "SAINT MARTIN AU BOSC": {
+    "bureau": "Aumale",
+    "distanceKm": 9.1
+  },
+  "SAINT MARTIN AUX ARBRES": {
+    "bureau": "Yerville",
+    "distanceKm": 2.8
+  },
+  "SAINT MARTIN AUX BUNEAUX": {
+    "bureau": "Cany",
+    "distanceKm": 7.9
+  },
+  "SAINT MARTIN DE BOSCHERVILLE": {
+    "bureau": "Maromme",
+    "distanceKm": 6.0
+  },
+  "SAINT MARTIN DE L IF": {
+    "bureau": "Yvetot",
+    "distanceKm": 6.6
+  },
+  "FREVILLE": {
+    "bureau": "Yvetot",
+    "distanceKm": 6.6
+  },
+  "SAINT MARTIN DU BEC": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 6.0
+  },
+  "SAINT MARTIN DU MANOIR": {
+    "bureau": "Montivilliers",
+    "distanceKm": 2.9
+  },
+  "SAINT MARTIN DU VIVIER": {
+    "bureau": "Darnétal",
+    "distanceKm": 2.8
+  },
+  "SAINT MARTIN L HORTIER": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 3.5
+  },
+  "SAINT MARTIN LE GAILLARD": {
+    "bureau": "Eu",
+    "distanceKm": 9.0
+  },
+  "SAINT MAURICE D ETELAN": {
+    "bureau": "Lillebonne",
+    "distanceKm": 8.3
+  },
+  "SAINT MICHEL D HALESCOURT": {
+    "bureau": "Gaillefontaine",
+    "distanceKm": 5.3
+  },
+  "SAINT NICOLAS D ALIERMONT": {
+    "bureau": "Envermeu",
+    "distanceKm": 3.0
+  },
+  "SAINT NICOLAS DE BLIQUETUIT": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DE LA HAIE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 8.2
+  },
+  "SAINT NICOLAS DE LA TAILLE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 4.7
+  },
+  "SAINT OUEN DU BREUIL": {
+    "bureau": "Tôtes",
+    "distanceKm": 6.3
+  },
+  "SAINT OUEN LE MAUGER": {
+    "bureau": "Bacqueville",
+    "distanceKm": 4.8
+  },
+  "SAINT OUEN SOUS BAILLY": {
+    "bureau": "Envermeu",
+    "distanceKm": 2.7
+  },
+  "SAINT PAER": {
+    "bureau": "Duclair",
+    "distanceKm": 4.2
+  },
+  "SAINT PIERRE BENOUVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 6.4
+  },
+  "SAINT PIERRE LAVIS": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE DE FRANQUEVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE DE MANNEVILLE": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 10.9
+  },
+  "SAINT PIERRE DE VARENGEVILLE": {
+    "bureau": "Duclair",
+    "distanceKm": 4.1
+  },
+  "SAINT PIERRE DES JONQUIERES": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 11.9
+  },
+  "SAINT PIERRE EN PORT": {
+    "bureau": "Valmont",
+    "distanceKm": 7.8
+  },
+  "SAINT PIERRE EN VAL": {
+    "bureau": "Eu",
+    "distanceKm": 3.6
+  },
+  "SAINT PIERRE LE VIEUX": {
+    "bureau": "Bacqueville",
+    "distanceKm": 10.6
+  },
+  "SAINT PIERRE LE VIGER": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 11.0
+  },
+  "SAINT PIERRE LES ELBEUF": {
+    "bureau": "Elbeuf",
+    "distanceKm": 3.8
+  },
+  "SAINT QUENTIN AU BOSC": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINT RIQUIER EN RIVIERE": {
+    "bureau": "Blangy",
+    "distanceKm": 5.9
+  },
+  "SAINT RIQUIER ES PLAINS": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 5.2
+  },
+  "SAINT REMY BOSCROCOURT": {
+    "bureau": "Eu",
+    "distanceKm": 4.8
+  },
+  "SAINT SAIRE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 6.9
+  },
+  "SAINT SAUVEUR D EMALLEVILLE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 3.6
+  },
+  "SAINT SYLVAIN": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 3.6
+  },
+  "SAINT VAAST DIEPPEDALLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 5.5
+  },
+  "SAINT VAAST D EQUIQUEVILLE": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 5.0
+  },
+  "SAINT VAAST DU VAL": {
+    "bureau": "Tôtes",
+    "distanceKm": 2.3
+  },
+  "SAINT VICTOR L ABBAYE": {
+    "bureau": "Auffay",
+    "distanceKm": 5.5
+  },
+  "SAINT VIGOR D YMONVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.0
+  },
+  "SAINT VINCENT CRAMESNIL": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 2.3
+  },
+  "SAINT WANDRILLE RANCON": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINT ETIENNE DU ROUVRAY": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 3.2
+  },
+  "SAINTE ADRESSE": {
+    "bureau": "Le Havre",
+    "distanceKm": 4.1
+  },
+  "SAINTE AGATHE D ALIERMONT": {
+    "bureau": "Envermeu",
+    "distanceKm": 9.4
+  },
+  "SAINTE AUSTREBERTHE": {
+    "bureau": "Pavilly",
+    "distanceKm": 3.3
+  },
+  "SAINTE BEUVE EN RIVIERE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 5.9
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Doudeville",
+    "distanceKm": 7.8
+  },
+  "SAINTE CROIX SUR BUCHY": {
+    "bureau": "Buchy",
+    "distanceKm": 2.6
+  },
+  "SAINTE FOY": {
+    "bureau": "Longueville",
+    "distanceKm": 2.4
+  },
+  "SAINTE GENEVIEVE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINTE GENEVIEVE EN CAUX": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINTE HELENE BONDEVILLE": {
+    "bureau": "Fecamp",
+    "distanceKm": 4.8
+  },
+  "SAINTE MARGUERITE SUR DUCLAIR": {
+    "bureau": "Duclair",
+    "distanceKm": 4.8
+  },
+  "SAINTE MARGUERITE SUR FAUVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SAINTE MARGUERITE SUR MER": {
+    "bureau": "Offranville",
+    "distanceKm": 7.1
+  },
+  "SAINTE MARGUERITE": {
+    "bureau": "Offranville",
+    "distanceKm": 7.1
+  },
+  "SAINTE MARIE AU BOSC": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 5.7
+  },
+  "SAINTE MARIE DES CHAMPS": {
+    "bureau": "Yvetot",
+    "distanceKm": 1.0
+  },
+  "SANDOUVILLE": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 7.4
+  },
+  "SANVIC": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "SASSETOT LE MALGARDE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 8.0
+  },
+  "SASSETOT LE MAUCONDUIT": {
+    "bureau": "Valmont",
+    "distanceKm": 7.3
+  },
+  "SASSEVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 4.2
+  },
+  "SAUCHAY": {
+    "bureau": "Envermeu",
+    "distanceKm": 4.6
+  },
+  "SAUMONT LA POTERIE": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 5.5
+  },
+  "SAUQUEVILLE": {
+    "bureau": "Offranville",
+    "distanceKm": 3.3
+  },
+  "SAUSSAY": {
+    "bureau": "Yerville",
+    "distanceKm": 4.9
+  },
+  "SAUSSEUZEMARE EN CAUX": {
+    "bureau": "Goderville",
+    "distanceKm": 2.9
+  },
+  "SAANE SAINT JUST": {
+    "bureau": "Bacqueville",
+    "distanceKm": 7.2
+  },
+  "SENNEVILLE SUR FECAMP": {
+    "bureau": "Fecamp",
+    "distanceKm": 2.9
+  },
+  "SEPT MEULES": {
+    "bureau": "Eu",
+    "distanceKm": 10.7
+  },
+  "SERQUEUX": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 2.6
+  },
+  "SERVAVILLE SALMONVILLE": {
+    "bureau": "Ry",
+    "distanceKm": 4.5
+  },
+  "SIERVILLE": {
+    "bureau": "Clères",
+    "distanceKm": 4.8
+  },
+  "SIGY EN BRAY": {
+    "bureau": "Argueil",
+    "distanceKm": 4.5
+  },
+  "SIGY": {
+    "bureau": "Argueil",
+    "distanceKm": 4.5
+  },
+  "SMERMESNIL": {
+    "bureau": "Blangy",
+    "distanceKm": 12.1
+  },
+  "SOMMERY": {
+    "bureau": "Forges-les-Eaux",
+    "distanceKm": 9.3
+  },
+  "SOMMESNIL": {
+    "bureau": "Ourville",
+    "distanceKm": 5.6
+  },
+  "SORQUAINVILLE": {
+    "bureau": "Ourville",
+    "distanceKm": 4.4
+  },
+  "SOTTEVILLE SOUS LE VAL": {
+    "bureau": "Elbeuf",
+    "distanceKm": 9.7
+  },
+  "SOTTEVILLE SUR MER": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 8.6
+  },
+  "SEVIS": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "TANCARVILLE": {
+    "bureau": "Lillebonne",
+    "distanceKm": 6.4
+  },
+  "TERRES DE CAUX": {
+    "bureau": "Fauville",
+    "distanceKm": 0.0
+  },
+  "FAUVILLE EN CAUX": {
+    "bureau": "Fauville",
+    "distanceKm": 0.0
+  },
+  "THEUVILLE AUX MAILLOTS": {
+    "bureau": "Valmont",
+    "distanceKm": 3.4
+  },
+  "THIERGEVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 2.2
+  },
+  "THIL MANNEVILLE": {
+    "bureau": "Offranville",
+    "distanceKm": 4.4
+  },
+  "THIOUVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 4.5
+  },
+  "THIEDEVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "THIETREVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 2.1
+  },
+  "THEROULDEVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 2.3
+  },
+  "TOCQUEVILLE EN CAUX": {
+    "bureau": "Bacqueville",
+    "distanceKm": 6.9
+  },
+  "TOCQUEVILLE LES MURS": {
+    "bureau": "Fauville",
+    "distanceKm": 7.7
+  },
+  "TOCQUEVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 7.7
+  },
+  "TOCQUEVILLE SUR EU": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "TORCY LE GRAND": {
+    "bureau": "Grandes-Ventes",
+    "distanceKm": 4.4
+  },
+  "TORCY LE PETIT": {
+    "bureau": "Longueville",
+    "distanceKm": 5.7
+  },
+  "TOUFFREVILLE LA CABLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "TOUFFREVILLE LA CORBELINE": {
+    "bureau": "Yvetot",
+    "distanceKm": 3.9
+  },
+  "TOUFFREVILLE SUR EU": {
+    "bureau": "Eu",
+    "distanceKm": 9.7
+  },
+  "TOURVILLE LA CHAPELLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "TOURVILLE LA RIVIERE": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 8.4
+  },
+  "TOURVILLE LES IFS": {
+    "bureau": "Fecamp",
+    "distanceKm": 4.1
+  },
+  "TOURVILLE SUR ARQUES": {
+    "bureau": "Offranville",
+    "distanceKm": 4.4
+  },
+  "TOUSSAINT": {
+    "bureau": "Fecamp",
+    "distanceKm": 3.0
+  },
+  "TRIQUERVILLE": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "TROUVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 7.5
+  },
+  "TREMAUVILLE": {
+    "bureau": "Fauville",
+    "distanceKm": 6.1
+  },
+  "TURRETOT": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 3.4
+  },
+  "VAL DE SAANE": {
+    "bureau": "Tôtes",
+    "distanceKm": 6.1
+  },
+  "ANGLESQUEVILLE SUR SAANE": {
+    "bureau": "Tôtes",
+    "distanceKm": 6.1
+  },
+  "VAL DE SCIE": {
+    "bureau": "Auffay",
+    "distanceKm": 0.0
+  },
+  "VAL DE LA HAYE": {
+    "bureau": "Sotteville-les-Rouen",
+    "distanceKm": 7.9
+  },
+  "VALLIQUERVILLE": {
+    "bureau": "Yvetot",
+    "distanceKm": 4.6
+  },
+  "VARENGEVILLE SUR MER": {
+    "bureau": "Offranville",
+    "distanceKm": 4.1
+  },
+  "VARNEVILLE BRETTEVILLE": {
+    "bureau": "Tôtes",
+    "distanceKm": 3.5
+  },
+  "VARVANNES": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "VASSONVILLE": {
+    "bureau": "Tôtes",
+    "distanceKm": 2.6
+  },
+  "VATIERVILLE": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 7.3
+  },
+  "VATTETOT SOUS BEAUMONT": {
+    "bureau": "Goderville",
+    "distanceKm": 7.1
+  },
+  "VATTETOT SUR MER": {
+    "bureau": "Fecamp",
+    "distanceKm": 8.6
+  },
+  "VATTEVILLE LA RUE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 8.1
+  },
+  "VATTEVILLE": {
+    "bureau": "Caudebec-en-Caux",
+    "distanceKm": 8.1
+  },
+  "VEAUVILLE LES BAONS": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "VEAUVILLE LES QUELLES": {
+    "bureau": "Doudeville",
+    "distanceKm": 5.4
+  },
+  "VENTES SAINT REMY": {
+    "bureau": "Saint-Saëns",
+    "distanceKm": 4.3
+  },
+  "VERGETOT": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 2.9
+  },
+  "VEULES LES ROSES": {
+    "bureau": "Saint-Valery-en-Caux",
+    "distanceKm": 5.6
+  },
+  "VEULETTES SUR MER": {
+    "bureau": "Cany",
+    "distanceKm": 7.9
+  },
+  "VIBEUF": {
+    "bureau": "Yerville",
+    "distanceKm": 2.2
+  },
+  "VIEUX MANOIR": {
+    "bureau": "Buchy",
+    "distanceKm": 3.8
+  },
+  "VIEUX ROUEN SUR BRESLE": {
+    "bureau": "Aumale",
+    "distanceKm": 7.8
+  },
+  "VILLAINVILLE": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 3.8
+  },
+  "VILLEQUIER": {
+    "bureau": "Rouen",
+    "distanceKm": 0.0
+  },
+  "VILLERS SOUS FOUCARMONT": {
+    "bureau": "Neufchâtel",
+    "distanceKm": 11.3
+  },
+  "VILLERS ECALLES": {
+    "bureau": "Pavilly",
+    "distanceKm": 5.2
+  },
+  "VILLY SUR YERES": {
+    "bureau": "Eu",
+    "distanceKm": 11.3
+  },
+  "VILLY LE BAS": {
+    "bureau": "Eu",
+    "distanceKm": 11.3
+  },
+  "VINNEMERVILLE": {
+    "bureau": "Cany",
+    "distanceKm": 6.3
+  },
+  "VIRVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 6.1
+  },
+  "VITTEFLEUR": {
+    "bureau": "Cany",
+    "distanceKm": 4.0
+  },
+  "VENESTANVILLE": {
+    "bureau": "Bacqueville",
+    "distanceKm": 7.6
+  },
+  "WANCHY CAPVAL": {
+    "bureau": "Envermeu",
+    "distanceKm": 8.9
+  },
+  "YAINVILLE": {
+    "bureau": "Duclair",
+    "distanceKm": 4.2
+  },
+  "YMARE": {
+    "bureau": "Mesnil-Esnard",
+    "distanceKm": 7.1
+  },
+  "YPORT": {
+    "bureau": "Fecamp",
+    "distanceKm": 6.3
+  },
+  "YPREVILLE BIVILLE": {
+    "bureau": "Valmont",
+    "distanceKm": 4.7
+  },
+  "SAINT MICHEL EN CAUX": {
+    "bureau": "Valmont",
+    "distanceKm": 4.7
+  },
+  "YQUEBEUF": {
+    "bureau": "Cailly",
+    "distanceKm": 2.3
+  },
+  "YVECRIQUE": {
+    "bureau": "Doudeville",
+    "distanceKm": 4.7
+  },
+  "YVILLE SUR SEINE": {
+    "bureau": "Duclair",
+    "distanceKm": 8.5
+  },
+  "YEBLERON": {
+    "bureau": "Fauville",
+    "distanceKm": 5.4
+  },
+  "ECALLES ALIX": {
+    "bureau": "Yvetot",
+    "distanceKm": 3.0
+  },
+  "ECRAINVILLE": {
+    "bureau": "Goderville",
+    "distanceKm": 3.2
+  },
+  "ECRETTEVILLE LES BAONS": {
+    "bureau": "Fauville",
+    "distanceKm": 5.4
+  },
+  "ECRETTEVILLE SUR MER": {
+    "bureau": "Valmont",
+    "distanceKm": 6.3
+  },
+  "ELETOT": {
+    "bureau": "Fecamp",
+    "distanceKm": 6.3
+  },
+  "EMANVILLE": {
+    "bureau": "Pavilly",
+    "distanceKm": 4.9
+  },
+  "EPINAY SUR DUCLAIR": {
+    "bureau": "Duclair",
+    "distanceKm": 5.2
+  },
+  "EPOUVILLE": {
+    "bureau": "Montivilliers",
+    "distanceKm": 3.6
+  },
+  "EPRETOT": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 3.8
+  },
+  "EPREVILLE": {
+    "bureau": "Fecamp",
+    "distanceKm": 5.4
+  },
+  "ETAIMPUIS": {
+    "bureau": "Clères",
+    "distanceKm": 6.1
+  },
+  "ETAINHUS": {
+    "bureau": "Saint-Romain-de-Colbosc",
+    "distanceKm": 6.0
+  },
+  "ETALLEVILLE": {
+    "bureau": "Doudeville",
+    "distanceKm": 3.0
+  },
+  "ETALONDES": {
+    "bureau": "Eu",
+    "distanceKm": 3.1
+  },
+  "ETOUTTEVILLE": {
+    "bureau": "Yvetot",
+    "distanceKm": 5.9
+  },
+  "ETRETAT": {
+    "bureau": "Criquetot-l'Esneval",
+    "distanceKm": 9.1
+  }
+}
