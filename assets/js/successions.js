@@ -112,6 +112,28 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_80.json',
         bureauxUrl: './assets/data/successions_80_bureaux.json',
     },
+    '58': {
+        label: 'Nièvre',
+        kind: 'facet',
+        // Bornes réelles de la série (413 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1790,
+        maxYear: 1969,
+        portalBase: 'https://archives.nievre.fr/search/results',
+        formUuid: 'e3e37b84-2953-47f1-a6af-d590b7c568e3',
+        registersUrl: './assets/data/successions_58.json',
+        bureauxUrl: './assets/data/successions_58_bureaux.json',
+    },
+    '25': {
+        label: 'Doubs',
+        kind: 'facet',
+        // Bornes réelles de la série (295 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1776,
+        maxYear: 1969,
+        portalBase: 'https://portail-archives.doubs.fr/search/results',
+        formUuid: '34159447-4567-4f9b-a44b-4dc5894ad2f4',
+        registersUrl: './assets/data/successions_25.json',
+        bureauxUrl: './assets/data/successions_25_bureaux.json',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

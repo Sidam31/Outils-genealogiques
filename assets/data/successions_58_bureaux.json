@@ -1,0 +1,1234 @@
+{
+  "ACHUN": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 8.5
+  },
+  "ALLIGNY COSNE": {
+    "bureau": "Donzy",
+    "distanceKm": 8.1
+  },
+  "ALLIGNY EN MORVAN": {
+    "bureau": "Montsauche",
+    "distanceKm": 9.7
+  },
+  "ALLUY": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 2.4
+  },
+  "AMAZY": {
+    "bureau": "Tannay",
+    "distanceKm": 2.5
+  },
+  "ANLEZY": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 7.1
+  },
+  "ANNAY": {
+    "bureau": "Saint-Amand-en-Puisaye",
+    "distanceKm": 10.4
+  },
+  "ANTHIEN": {
+    "bureau": "Corbigny",
+    "distanceKm": 6.4
+  },
+  "ARBOURSE": {
+    "bureau": "Prémery",
+    "distanceKm": 11.3
+  },
+  "ARLEUF": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 7.6
+  },
+  "ARMES": {
+    "bureau": "Clamecy",
+    "distanceKm": 3.1
+  },
+  "ARQUIAN": {
+    "bureau": "Saint-Amand-en-Puisaye",
+    "distanceKm": 6.0
+  },
+  "ARTHEL": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 7.6
+  },
+  "ARZEMBOUY": {
+    "bureau": "Prémery",
+    "distanceKm": 9.1
+  },
+  "ASNAN": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 5.4
+  },
+  "ASNOIS": {
+    "bureau": "Tannay",
+    "distanceKm": 4.4
+  },
+  "AUNAY EN BAZOIS": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 9.5
+  },
+  "AUNAY": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 9.5
+  },
+  "AUTHIOU": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 6.1
+  },
+  "AVRIL SUR LOIRE": {
+    "bureau": "Decize",
+    "distanceKm": 7.9
+  },
+  "AVREE": {
+    "bureau": "Luzy",
+    "distanceKm": 9.1
+  },
+  "AZY LE VIF": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 6.8
+  },
+  "BALLERAY": {
+    "bureau": "Nevers",
+    "distanceKm": 0.0
+  },
+  "BAZOCHES": {
+    "bureau": "Lormes",
+    "distanceKm": 8.7
+  },
+  "BAZOLLES": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 8.8
+  },
+  "BEAULIEU": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 4.4
+  },
+  "BEAUMONT SARDOLLES": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 6.4
+  },
+  "BEAUMONT LA FERRIERE": {
+    "bureau": "Prémery",
+    "distanceKm": 6.6
+  },
+  "BEUVRON": {
+    "bureau": "Tannay",
+    "distanceKm": 6.1
+  },
+  "BICHES": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 6.9
+  },
+  "BILLY CHEVANNES": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 5.0
+  },
+  "BILLY SUR OISY": {
+    "bureau": "Entrains-sur-Nohain",
+    "distanceKm": 9.5
+  },
+  "BITRY": {
+    "bureau": "Saint-Amand-en-Puisaye",
+    "distanceKm": 6.4
+  },
+  "BLISMES": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 10.5
+  },
+  "BONA": {
+    "bureau": "Saint-Sulpice",
+    "distanceKm": 5.0
+  },
+  "BOUHY": {
+    "bureau": "Entrains-sur-Nohain",
+    "distanceKm": 7.9
+  },
+  "BRASSY": {
+    "bureau": "Montsauche",
+    "distanceKm": 8.9
+  },
+  "BREUGNON": {
+    "bureau": "Clamecy",
+    "distanceKm": 5.7
+  },
+  "BRINAY": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 6.3
+  },
+  "BREVES": {
+    "bureau": "Tannay",
+    "distanceKm": 8.2
+  },
+  "BULCY": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 5.8
+  },
+  "BUSSY LA PESLE": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 3.5
+  },
+  "BEARD": {
+    "bureau": "Decize",
+    "distanceKm": 12.9
+  },
+  "CERCY LA TOUR": {
+    "bureau": "Fours",
+    "distanceKm": 7.2
+  },
+  "CERVON": {
+    "bureau": "Corbigny",
+    "distanceKm": 4.0
+  },
+  "CESSY LES BOIS": {
+    "bureau": "Donzy",
+    "distanceKm": 9.3
+  },
+  "CHALAUX": {
+    "bureau": "Lormes",
+    "distanceKm": 7.9
+  },
+  "CHALLEMENT": {
+    "bureau": "Tannay",
+    "distanceKm": 5.7
+  },
+  "CHALLUY": {
+    "bureau": "Nevers",
+    "distanceKm": 4.8
+  },
+  "CHAMPALLEMENT": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 6.1
+  },
+  "CHAMPLEMY": {
+    "bureau": "Varzy",
+    "distanceKm": 8.6
+  },
+  "CHAMPLIN": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 5.4
+  },
+  "CHAMPVERT": {
+    "bureau": "Decize",
+    "distanceKm": 6.8
+  },
+  "CHAMPVOUX": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 5.2
+  },
+  "CHANTENAY SAINT IMBERT": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 6.3
+  },
+  "CHARRIN": {
+    "bureau": "Fours",
+    "distanceKm": 9.5
+  },
+  "CHASNAY": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 12.4
+  },
+  "CHAULGNES": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 5.5
+  },
+  "CHAUMARD": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 8.8
+  },
+  "CHAUMOT": {
+    "bureau": "Corbigny",
+    "distanceKm": 4.0
+  },
+  "CHAZEUIL": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 6.7
+  },
+  "CHEVANNES CHANGY": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 2.8
+  },
+  "CHEVENON": {
+    "bureau": "Nevers",
+    "distanceKm": 9.6
+  },
+  "CHEVROCHES": {
+    "bureau": "Clamecy",
+    "distanceKm": 2.4
+  },
+  "CHIDDES": {
+    "bureau": "Luzy",
+    "distanceKm": 8.5
+  },
+  "CHITRY LES MINES": {
+    "bureau": "Corbigny",
+    "distanceKm": 3.3
+  },
+  "CHOUGNY": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 8.7
+  },
+  "CHATEAU CHINON (CAMPAGNE)": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 1.6
+  },
+  "CHATEAU CHINON (VILLE)": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 0.0
+  },
+  "CHATEAUNEUF VAL DE BARGIS": {
+    "bureau": "Donzy",
+    "distanceKm": 13.2
+  },
+  "CHATEAUNEUF": {
+    "bureau": "Donzy",
+    "distanceKm": 13.2
+  },
+  "CHATIN": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 5.3
+  },
+  "CIEZ": {
+    "bureau": "Donzy",
+    "distanceKm": 7.9
+  },
+  "CIZELY": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 4.6
+  },
+  "COLMERY": {
+    "bureau": "Donzy",
+    "distanceKm": 10.3
+  },
+  "CORANCY": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 5.6
+  },
+  "CORVOL D EMBERNARD": {
+    "bureau": "Varzy",
+    "distanceKm": 6.7
+  },
+  "CORVOL L ORGUEILLEUX": {
+    "bureau": "Entrains-sur-Nohain",
+    "distanceKm": 7.6
+  },
+  "COSNE COURS SUR LOIRE": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 0.0
+  },
+  "COSNE": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 0.0
+  },
+  "COSSAYE": {
+    "bureau": "Decize",
+    "distanceKm": 6.7
+  },
+  "COULANGES LES NEVERS": {
+    "bureau": "Nevers",
+    "distanceKm": 4.6
+  },
+  "COULOUTRE": {
+    "bureau": "Entrains-sur-Nohain",
+    "distanceKm": 7.5
+  },
+  "COURCELLES": {
+    "bureau": "Varzy",
+    "distanceKm": 5.2
+  },
+  "COURS": {
+    "bureau": "Nevers",
+    "distanceKm": 0.0
+  },
+  "CRUX LA VILLE": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 6.6
+  },
+  "CUNCY LES VARZY": {
+    "bureau": "Varzy",
+    "distanceKm": 5.3
+  },
+  "DAMPIERRE SOUS BOUHY": {
+    "bureau": "Saint-Amand-en-Puisaye",
+    "distanceKm": 6.2
+  },
+  "DEVAY": {
+    "bureau": "Decize",
+    "distanceKm": 5.2
+  },
+  "DIENNES AUBIGNY": {
+    "bureau": "Decize",
+    "distanceKm": 14.6
+  },
+  "DIROL": {
+    "bureau": "Tannay",
+    "distanceKm": 6.5
+  },
+  "DOMMARTIN": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 5.9
+  },
+  "DOMPIERRE SUR HERY": {
+    "bureau": "Nevers",
+    "distanceKm": 0.0
+  },
+  "DOMPIERRE SUR NIEVRE": {
+    "bureau": "Prémery",
+    "distanceKm": 8.7
+  },
+  "DORNECY": {
+    "bureau": "Clamecy",
+    "distanceKm": 5.6
+  },
+  "DRUY PARIGNY": {
+    "bureau": "Decize",
+    "distanceKm": 10.4
+  },
+  "DUN LES PLACES": {
+    "bureau": "Montsauche",
+    "distanceKm": 7.8
+  },
+  "DUN SUR GRANDRY": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 9.9
+  },
+  "EMPURY": {
+    "bureau": "Lormes",
+    "distanceKm": 6.1
+  },
+  "EPIRY": {
+    "bureau": "Corbigny",
+    "distanceKm": 9.7
+  },
+  "FERTREVE": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 11.6
+  },
+  "FLEURY SUR LOIRE": {
+    "bureau": "Decize",
+    "distanceKm": 11.8
+  },
+  "FLEZ CUZY": {
+    "bureau": "Tannay",
+    "distanceKm": 4.0
+  },
+  "FLETY": {
+    "bureau": "Luzy",
+    "distanceKm": 6.4
+  },
+  "FOURCHAMBAULT": {
+    "bureau": "Nevers",
+    "distanceKm": 6.1
+  },
+  "FRASNAY REUGNY": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 8.9
+  },
+  "FACHIN": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 7.8
+  },
+  "GARCHIZY": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 3.5
+  },
+  "GARCHY": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 5.1
+  },
+  "GERMENAY": {
+    "bureau": "Corbigny",
+    "distanceKm": 8.1
+  },
+  "GERMIGNY SUR LOIRE": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 3.5
+  },
+  "GERMIGNY": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 3.5
+  },
+  "GIEN SUR CURE": {
+    "bureau": "Montsauche",
+    "distanceKm": 9.2
+  },
+  "GIMOUILLE": {
+    "bureau": "Nevers",
+    "distanceKm": 7.1
+  },
+  "GIRY": {
+    "bureau": "Prémery",
+    "distanceKm": 5.3
+  },
+  "GLUX EN GLENNE": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 14.3
+  },
+  "GLUX": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 14.3
+  },
+  "GOULOUX": {
+    "bureau": "Montsauche",
+    "distanceKm": 3.7
+  },
+  "GRENOIS": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 4.4
+  },
+  "GUIPY": {
+    "bureau": "Corbigny",
+    "distanceKm": 9.0
+  },
+  "GUERIGNY": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 9.6
+  },
+  "GACOGNE": {
+    "bureau": "Lormes",
+    "distanceKm": 7.9
+  },
+  "HERY": {
+    "bureau": "Corbigny",
+    "distanceKm": 7.7
+  },
+  "IMPHY": {
+    "bureau": "Nevers",
+    "distanceKm": 10.7
+  },
+  "ISENAY": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 10.9
+  },
+  "JAILLY": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 3.7
+  },
+  "LA CELLE SUR LOIRE": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 7.7
+  },
+  "LA CELLE SUR NIEVRE": {
+    "bureau": "Prémery",
+    "distanceKm": 10.6
+  },
+  "LA CHAPELLE SAINT ANDRE": {
+    "bureau": "Varzy",
+    "distanceKm": 7.0
+  },
+  "LA CHARITE": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 0.0
+  },
+  "LA COLLANCELLE": {
+    "bureau": "Corbigny",
+    "distanceKm": 9.4
+  },
+  "LA FERMETE": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 6.9
+  },
+  "LA MACHINE": {
+    "bureau": "Decize",
+    "distanceKm": 8.7
+  },
+  "LA MAISON DIEU": {
+    "bureau": "Tannay",
+    "distanceKm": 9.9
+  },
+  "LA MARCHE": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 4.1
+  },
+  "LA NOCLE MAULAIX": {
+    "bureau": "Fours",
+    "distanceKm": 5.8
+  },
+  "LAMENAY SUR LOIRE": {
+    "bureau": "Decize",
+    "distanceKm": 10.9
+  },
+  "LANGERON": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 5.1
+  },
+  "LANTY": {
+    "bureau": "Fours",
+    "distanceKm": 8.2
+  },
+  "LAROCHEMILLAY": {
+    "bureau": "Luzy",
+    "distanceKm": 9.7
+  },
+  "LAVAULT DE FRETOY": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 7.9
+  },
+  "LIMANTON": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 6.7
+  },
+  "LIMON": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 3.2
+  },
+  "LIVRY": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 5.5
+  },
+  "LUCENAY LES AIX": {
+    "bureau": "Dornes",
+    "distanceKm": 12.3
+  },
+  "LURCY LE BOURG": {
+    "bureau": "Prémery",
+    "distanceKm": 5.7
+  },
+  "LUTHENAY UXELOUP": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 12.4
+  },
+  "LYS": {
+    "bureau": "Tannay",
+    "distanceKm": 3.3
+  },
+  "MAGNY COURS": {
+    "bureau": "Nevers",
+    "distanceKm": 10.5
+  },
+  "MAGNY LORMES": {
+    "bureau": "Corbigny",
+    "distanceKm": 5.6
+  },
+  "MARCY": {
+    "bureau": "Varzy",
+    "distanceKm": 3.9
+  },
+  "MARIGNY L EGLISE": {
+    "bureau": "Lormes",
+    "distanceKm": 9.9
+  },
+  "MARIGNY SUR YONNE": {
+    "bureau": "Corbigny",
+    "distanceKm": 5.3
+  },
+  "MARS SUR ALLIER": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 8.5
+  },
+  "MARZY": {
+    "bureau": "Nevers",
+    "distanceKm": 5.0
+  },
+  "MAUX": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 8.1
+  },
+  "MENESTREAU": {
+    "bureau": "Entrains-sur-Nohain",
+    "distanceKm": 5.0
+  },
+  "MENOU": {
+    "bureau": "Varzy",
+    "distanceKm": 8.2
+  },
+  "MESVES SUR LOIRE": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 5.8
+  },
+  "METZ LE COMTE": {
+    "bureau": "Tannay",
+    "distanceKm": 5.7
+  },
+  "MHERE": {
+    "bureau": "Lormes",
+    "distanceKm": 11.4
+  },
+  "MICHAUGUES": {
+    "bureau": "Nevers",
+    "distanceKm": 0.0
+  },
+  "MILLAY": {
+    "bureau": "Luzy",
+    "distanceKm": 4.3
+  },
+  "MOISSY MOULINOT": {
+    "bureau": "Corbigny",
+    "distanceKm": 8.1
+  },
+  "MONCEAUX LE COMTE": {
+    "bureau": "Tannay",
+    "distanceKm": 7.3
+  },
+  "MONT ET MARRE": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 4.0
+  },
+  "MONTAMBERT": {
+    "bureau": "Fours",
+    "distanceKm": 4.9
+  },
+  "MONTAMBERT TANNAY": {
+    "bureau": "Fours",
+    "distanceKm": 4.9
+  },
+  "MONTAPAS": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 5.7
+  },
+  "MONTARON": {
+    "bureau": "Fours",
+    "distanceKm": 7.9
+  },
+  "MONTENOISON": {
+    "bureau": "Prémery",
+    "distanceKm": 9.0
+  },
+  "MONTIGNY AUX AMOGNES": {
+    "bureau": "Saint-Sulpice",
+    "distanceKm": 7.3
+  },
+  "MONTIGNY EN MORVAN": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 9.8
+  },
+  "MONTIGNY SUR CANNE": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 12.2
+  },
+  "MONTREUILLON": {
+    "bureau": "Corbigny",
+    "distanceKm": 12.2
+  },
+  "MONTSAUCHE LES SETTONS": {
+    "bureau": "Montsauche",
+    "distanceKm": 0.0
+  },
+  "MORACHES": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 4.0
+  },
+  "MOURON SUR YONNE": {
+    "bureau": "Corbigny",
+    "distanceKm": 7.3
+  },
+  "MOURON": {
+    "bureau": "Corbigny",
+    "distanceKm": 7.3
+  },
+  "MOUSSY": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 10.0
+  },
+  "MOUX EN MORVAN": {
+    "bureau": "Montsauche",
+    "distanceKm": 8.3
+  },
+  "MOUX": {
+    "bureau": "Montsauche",
+    "distanceKm": 8.3
+  },
+  "MURLIN": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 11.0
+  },
+  "MYENNES": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 4.6
+  },
+  "NANNAY": {
+    "bureau": "Donzy",
+    "distanceKm": 13.8
+  },
+  "NARCY": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 7.5
+  },
+  "NEUFFONTAINES": {
+    "bureau": "Lormes",
+    "distanceKm": 9.7
+  },
+  "NEUILLY": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 5.0
+  },
+  "NEUVILLE LES DECIZE": {
+    "bureau": "Dornes",
+    "distanceKm": 6.9
+  },
+  "NEUVY SUR LOIRE": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 13.5
+  },
+  "NOLAY": {
+    "bureau": "Prémery",
+    "distanceKm": 5.6
+  },
+  "NUARS": {
+    "bureau": "Tannay",
+    "distanceKm": 10.6
+  },
+  "OISY": {
+    "bureau": "Clamecy",
+    "distanceKm": 5.7
+  },
+  "ONLAY": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 5.8
+  },
+  "OUAGNE": {
+    "bureau": "Clamecy",
+    "distanceKm": 6.4
+  },
+  "OUDAN": {
+    "bureau": "Varzy",
+    "distanceKm": 4.7
+  },
+  "OUGNY": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 4.8
+  },
+  "OULON": {
+    "bureau": "Prémery",
+    "distanceKm": 7.0
+  },
+  "OUROUX EN MORVAN": {
+    "bureau": "Montsauche",
+    "distanceKm": 7.5
+  },
+  "OUROUX": {
+    "bureau": "Montsauche",
+    "distanceKm": 7.5
+  },
+  "PARIGNY LA ROSE": {
+    "bureau": "Varzy",
+    "distanceKm": 5.7
+  },
+  "PARIGNY LES VAUX": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 4.5
+  },
+  "PAZY": {
+    "bureau": "Corbigny",
+    "distanceKm": 5.1
+  },
+  "PERROY": {
+    "bureau": "Donzy",
+    "distanceKm": 4.0
+  },
+  "PLANCHEZ": {
+    "bureau": "Montsauche",
+    "distanceKm": 7.8
+  },
+  "POIL": {
+    "bureau": "Luzy",
+    "distanceKm": 9.3
+  },
+  "POISEUX": {
+    "bureau": "Prémery",
+    "distanceKm": 7.7
+  },
+  "POUGNY": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 6.6
+  },
+  "POUILLY": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 0.0
+  },
+  "POUQUES LORMES": {
+    "bureau": "Lormes",
+    "distanceKm": 5.3
+  },
+  "POUSSEAUX": {
+    "bureau": "Clamecy",
+    "distanceKm": 4.7
+  },
+  "PREPORCHE": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 4.9
+  },
+  "RAVEAU": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 6.6
+  },
+  "RIX": {
+    "bureau": "Clamecy",
+    "distanceKm": 4.0
+  },
+  "ROUY": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 6.7
+  },
+  "RUAGES": {
+    "bureau": "Corbigny",
+    "distanceKm": 6.1
+  },
+  "REMILLY": {
+    "bureau": "Fours",
+    "distanceKm": 5.8
+  },
+  "SAINCAIZE MEAUCE": {
+    "bureau": "Nevers",
+    "distanceKm": 10.1
+  },
+  "SAINT AGNAN": {
+    "bureau": "Montsauche",
+    "distanceKm": 12.6
+  },
+  "SAINT ANDELAIN": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 3.2
+  },
+  "SAINT ANDRE EN MORVAN": {
+    "bureau": "Lormes",
+    "distanceKm": 11.8
+  },
+  "SAINT AUBIN DES CHAUMES": {
+    "bureau": "Lormes",
+    "distanceKm": 12.2
+  },
+  "SAINT AUBIN LES FORGES": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 10.0
+  },
+  "SAINT BENIN DES BOIS": {
+    "bureau": "Saint-Sulpice",
+    "distanceKm": 7.5
+  },
+  "SAINT BONNOT": {
+    "bureau": "Prémery",
+    "distanceKm": 9.1
+  },
+  "SAINT BRISSON": {
+    "bureau": "Montsauche",
+    "distanceKm": 6.1
+  },
+  "SAINT DIDIER": {
+    "bureau": "Tannay",
+    "distanceKm": 3.5
+  },
+  "SAINT FIRMIN": {
+    "bureau": "Saint-Sulpice",
+    "distanceKm": 3.3
+  },
+  "SAINT FRANCHY": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 7.3
+  },
+  "SAINT GERMAIN CHASSENAY": {
+    "bureau": "Decize",
+    "distanceKm": 6.3
+  },
+  "SAINT GERMAIN DES BOIS": {
+    "bureau": "Tannay",
+    "distanceKm": 4.9
+  },
+  "SAINT GRATIEN SAVIGNY": {
+    "bureau": "Fours",
+    "distanceKm": 11.0
+  },
+  "SAINT HILAIRE FONTAINE": {
+    "bureau": "Fours",
+    "distanceKm": 7.7
+  },
+  "SAINT HILAIRE EN MORVAN": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 2.9
+  },
+  "SAINT HONORE LES BAINS": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 8.9
+  },
+  "SAINT HONORE": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 8.9
+  },
+  "SAINT JEAN AUX AMOGNES": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 5.4
+  },
+  "SAINT LAURENT L ABBAYE": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 6.2
+  },
+  "SAINT LAURENT": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 6.2
+  },
+  "SAINT LOUP DES BOIS": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 6.5
+  },
+  "SAINT LOUP": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 6.5
+  },
+  "SAINT LEGER DE FOUGERET": {
+    "bureau": "Château-Chinon",
+    "distanceKm": 6.6
+  },
+  "SAINT LEGER DES VIGNES": {
+    "bureau": "Decize",
+    "distanceKm": 4.9
+  },
+  "SAINT MALO EN DONZIOIS": {
+    "bureau": "Varzy",
+    "distanceKm": 9.7
+  },
+  "SAINT MARTIN D HEUILLE": {
+    "bureau": "Nevers",
+    "distanceKm": 9.0
+  },
+  "SAINT MARTIN DU PUY": {
+    "bureau": "Lormes",
+    "distanceKm": 5.5
+  },
+  "SAINT MARTIN SUR NOHAIN": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 7.2
+  },
+  "SAINT MAURICE": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 4.7
+  },
+  "SAINT OUEN SUR LOIRE": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 12.4
+  },
+  "SAINT OUEN": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 12.4
+  },
+  "SAINT PARIZE EN VIRY": {
+    "bureau": "Dornes",
+    "distanceKm": 4.0
+  },
+  "SAINT PARIZE LE CHATEL": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 7.6
+  },
+  "SAINT PIERRE DU MONT": {
+    "bureau": "Varzy",
+    "distanceKm": 6.6
+  },
+  "SAINT PERE": {
+    "bureau": "Cosne-sur-Loire",
+    "distanceKm": 3.1
+  },
+  "SAINT PEREUSE": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 9.0
+  },
+  "SAINT QUENTIN SUR NOHAIN": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 5.5
+  },
+  "SAINT REVERIEN": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 9.2
+  },
+  "SAINT SEINE": {
+    "bureau": "Fours",
+    "distanceKm": 11.9
+  },
+  "SAINT VERAIN": {
+    "bureau": "Saint-Amand-en-Puisaye",
+    "distanceKm": 7.6
+  },
+  "SAINT ELOI": {
+    "bureau": "Nevers",
+    "distanceKm": 5.1
+  },
+  "SAINTE COLOMBE DES BOIS": {
+    "bureau": "Donzy",
+    "distanceKm": 7.1
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Donzy",
+    "distanceKm": 7.1
+  },
+  "SAINTE MARIE": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 5.2
+  },
+  "SAIZY": {
+    "bureau": "Tannay",
+    "distanceKm": 9.0
+  },
+  "SARDY LES EPIRY": {
+    "bureau": "Corbigny",
+    "distanceKm": 6.8
+  },
+  "SAUVIGNY LES BOIS": {
+    "bureau": "Nevers",
+    "distanceKm": 8.2
+  },
+  "SAVIGNY POIL FOL": {
+    "bureau": "Fours",
+    "distanceKm": 8.0
+  },
+  "SAXI BOURDON": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 4.7
+  },
+  "SERMAGES": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 4.7
+  },
+  "SERMOISE SUR LOIRE": {
+    "bureau": "Nevers",
+    "distanceKm": 5.0
+  },
+  "SERMOISE": {
+    "bureau": "Nevers",
+    "distanceKm": 5.0
+  },
+  "SICHAMPS": {
+    "bureau": "Prémery",
+    "distanceKm": 3.5
+  },
+  "SOUGY SUR LOIRE": {
+    "bureau": "Decize",
+    "distanceKm": 8.2
+  },
+  "SUILLY LA TOUR": {
+    "bureau": "Donzy",
+    "distanceKm": 6.0
+  },
+  "SURGY": {
+    "bureau": "Clamecy",
+    "distanceKm": 6.5
+  },
+  "SEMELAY": {
+    "bureau": "Fours",
+    "distanceKm": 11.9
+  },
+  "TACONNAY": {
+    "bureau": "Brinon-sur-Beuvron",
+    "distanceKm": 3.4
+  },
+  "TALON": {
+    "bureau": "Tannay",
+    "distanceKm": 3.8
+  },
+  "TAMNAY EN BAZOIS": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 5.3
+  },
+  "TAZILLY": {
+    "bureau": "Luzy",
+    "distanceKm": 7.4
+  },
+  "TEIGNY": {
+    "bureau": "Tannay",
+    "distanceKm": 7.4
+  },
+  "TERNANT": {
+    "bureau": "Fours",
+    "distanceKm": 11.8
+  },
+  "THAIX": {
+    "bureau": "Fours",
+    "distanceKm": 4.5
+  },
+  "THIANGES": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 10.7
+  },
+  "TINTURY": {
+    "bureau": "Châtillon-en-Bazois",
+    "distanceKm": 7.8
+  },
+  "TOURY LURCY": {
+    "bureau": "Dornes",
+    "distanceKm": 6.9
+  },
+  "TOURY SUR JOUR": {
+    "bureau": "Dornes",
+    "distanceKm": 6.2
+  },
+  "TRACY SUR LOIRE": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 7.6
+  },
+  "TRESNAY": {
+    "bureau": "Saint-Pierre-le-Moûtier",
+    "distanceKm": 11.0
+  },
+  "TROIS VEVRES": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 9.3
+  },
+  "TRONSANGES": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 5.4
+  },
+  "TRUCY L ORGUEILLEUX": {
+    "bureau": "Clamecy",
+    "distanceKm": 9.0
+  },
+  "URZY": {
+    "bureau": "Nevers",
+    "distanceKm": 8.5
+  },
+  "VANDENESSE": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 7.9
+  },
+  "VARENNES VAUZELLES": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 5.7
+  },
+  "VARENNES LES NEVERS": {
+    "bureau": "Pougues-les-Eaux",
+    "distanceKm": 5.7
+  },
+  "VARENNES LES NARCY": {
+    "bureau": "La Charité-sur-Loire",
+    "distanceKm": 4.8
+  },
+  "VAUCLAIX": {
+    "bureau": "Lormes",
+    "distanceKm": 7.3
+  },
+  "VAUX D AMOGNES": {
+    "bureau": "Saint-Sulpice",
+    "distanceKm": 5.5
+  },
+  "OUROUER": {
+    "bureau": "Saint-Sulpice",
+    "distanceKm": 5.5
+  },
+  "VERNEUIL": {
+    "bureau": "Decize",
+    "distanceKm": 10.0
+  },
+  "VIELMANAY": {
+    "bureau": "Pouilly-sur-Loire",
+    "distanceKm": 10.1
+  },
+  "VIGNOL": {
+    "bureau": "Tannay",
+    "distanceKm": 6.4
+  },
+  "VILLAPOURCON": {
+    "bureau": "Moulins-Engilbert",
+    "distanceKm": 11.1
+  },
+  "VILLE LANGY": {
+    "bureau": "Saint-Benin-d'Azy",
+    "distanceKm": 9.7
+  },
+  "VILLIERS LE SEC": {
+    "bureau": "Varzy",
+    "distanceKm": 4.4
+  },
+  "VILLIERS SUR YONNE": {
+    "bureau": "Clamecy",
+    "distanceKm": 5.7
+  },
+  "VITRY LACHE": {
+    "bureau": "Saint-Saulge",
+    "distanceKm": 11.2
+  }
+}
