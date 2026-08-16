@@ -10,13 +10,14 @@
 // jeu de données précalculé par scripts_py/scrape_successions_<dept>.py. Deux mécaniques de
 // correspondance commune -> registre coexistent, selon ce que le département publie
 // (config.kind) :
-// - 'facet' (Nord 59, Tarn-et-Garonne 82) : le portail liste les registres par ville-siège de
-//   "bureau d'enregistrement" (ancien régime), sans table officielle commune -> bureau ; l'app
-//   calcule un repli par proximité géographique (scripts_py/build_successions_*_bureaux.py),
-//   approximatif et présenté comme tel. Le nom "facet" vient du Nord (recherche à facettes) même
-//   si Tarn-et-Garonne est en réalité un arbre de classement : ce qui définit le kind, c'est la
-//   mécanique de correspondance (bureau seul, sans initiale de patronyme), pas la forme du portail
-//   — voir fallbackUrl plus bas, qui lui dépend du portail (config.formUuid).
+// - 'facet' (Nord 59, Tarn-et-Garonne 82, Seine-Maritime 76) : le portail liste les registres par
+//   ville-siège de "bureau d'enregistrement" (ancien régime), sans table officielle commune ->
+//   bureau ; l'app calcule un repli par proximité géographique
+//   (scripts_py/build_successions_*_bureaux.py), approximatif et présenté comme tel. Le nom
+//   "facet" vient du Nord (recherche à facettes) même si Tarn-et-Garonne et Seine-Maritime sont en
+//   réalité des arbres de classement (deux logiciels différents en plus) : ce qui définit le kind,
+//   c'est la mécanique de correspondance (bureau seul, sans initiale de patronyme), pas la forme
+//   du portail — voir fallbackUrl plus bas, qui lui dépend du portail (config.formUuid).
 // - 'bureau-letter' (Tarn, 81) : le département publie lui-même la vraie table historique commune
 //   -> bureau (avec ses dates de changement, scripts_py/build_successions_tarn_communes.py) ET ses
 //   registres sont eux-mêmes classés par bureau PUIS par initiale de patronyme (répertoires
@@ -72,6 +73,22 @@ export const SUCCESSION_DEPTS = {
         // recherche à facettes façon Nord : pas de "browse par année seule", repli sur la page de
         // la série entière.
         catalogUrl: 'https://recherche.archives82.fr/document/FRAD082_IR_00383',
+    },
+    '76': {
+        label: 'Seine-Maritime',
+        kind: 'facet',
+        // Bornes réelles de la série (46 bureaux scrapés sur 47, voir
+        // scrape_successions_seine_maritime.py) : structure la plus simple des quatre départements
+        // couverts — un seul item numérisé par bureau (pas de subdivision par volume ni par
+        // patronyme), directement le lien "bon registre" recherché.
+        minYear: 1767,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_76.json',
+        bureauxUrl: './assets/data/successions_76_bureaux.json',
+        // Portail "Ligeo Archives" (Boscop), un troisième logiciel différent de Nord et
+        // Tarn/Tarn-et-Garonne (Anaphore) : arbre de classement plutôt que recherche à facettes,
+        // repli sur la liste des bureaux à parcourir soi-même.
+        catalogUrl: 'https://www.archivesdepartementales76.net/n/enregistrement/n:275',
     },
 };
 
