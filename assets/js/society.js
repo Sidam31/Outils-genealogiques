@@ -3,7 +3,8 @@
 // transmission des professions, complétude documentaire, remariages, mobilité résidentielle et
 // géographique, endogamie, naissances rapprochées dans une fratrie, traditions de prénoms et
 // extinction potentielle des lignées masculines. Toutes les fonctions sont pures (list/map/fams en
-// entrée, objets de résultats en sortie) : le rendu HTML/D3 reste dans societe.html.
+// entrée, objets de résultats en sortie) : le rendu HTML/D3 reste dans visualisation.html (volet
+// "Société" de la page "Vue d'ensemble").
 //
 // Limites liées au parser (assets/js/gedcom.js), assumées plutôt que masquées :
 // - Pas de tag SOUR : "complétude documentaire" s'appuie donc sur les événements/faits renseignés,
@@ -293,7 +294,7 @@ export function computeNamingPatterns(map) {
 }
 
 // --- 8. Extinction potentielle des lignées masculines : hommes décédés, sans fils connu, alors que
-//    la lignée a eu des enfants. Basé uniquement sur les données saisies (voir note dans societe.html).
+//    la lignée a eu des enfants. Basé uniquement sur les données saisies (voir note dans visualisation.html).
 export function computeSurnameExtinction(map, fams) {
     const bySurname = new Map();
     map.forEach(p => {

@@ -1,0 +1,2666 @@
+{
+  "ABANCOURT": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 7.5
+  },
+  "ABSCON": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 5.8
+  },
+  "AIBES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 7.0
+  },
+  "AIX EN PEVELE": {
+    "bureau": "ORCHIES",
+    "distanceKm": 5.7
+  },
+  "AIX": {
+    "bureau": "ORCHIES",
+    "distanceKm": 5.7
+  },
+  "ALLENNES LES MARAIS": {
+    "bureau": "SECLIN",
+    "distanceKm": 5.7
+  },
+  "ANHIERS": {
+    "bureau": "DOUAI",
+    "distanceKm": 4.8
+  },
+  "ANICHE": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 7.1
+  },
+  "ANNEUX": {
+    "bureau": "MARCOING",
+    "distanceKm": 6.1
+  },
+  "ANNŒULLIN": {
+    "bureau": "SECLIN",
+    "distanceKm": 7.5
+  },
+  "ANOR": {
+    "bureau": "TRELON",
+    "distanceKm": 8.0
+  },
+  "ANSTAING": {
+    "bureau": "CYSOING",
+    "distanceKm": 4.6
+  },
+  "ANZIN": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 1.6
+  },
+  "ARMBOUTS CAPPEL": {
+    "bureau": "DUNKERQUE",
+    "distanceKm": 3.9
+  },
+  "ARNEKE": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 5.8
+  },
+  "ARTRES": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 7.5
+  },
+  "ASCQ": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "ASSEVENT": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 4.2
+  },
+  "ATTICHES": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 4.1
+  },
+  "AUBENCHEUL AU BAC": {
+    "bureau": "ARLEUX",
+    "distanceKm": 5.5
+  },
+  "AUBERCHICOURT": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 8.6
+  },
+  "AUBERS": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 6.7
+  },
+  "AUBIGNY AU BAC": {
+    "bureau": "ARLEUX",
+    "distanceKm": 4.8
+  },
+  "AUBRY DU HAINAUT": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.7
+  },
+  "AUBRY": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.7
+  },
+  "AUBY": {
+    "bureau": "DOUAI",
+    "distanceKm": 4.9
+  },
+  "AUCHY LEZ ORCHIES": {
+    "bureau": "ORCHIES",
+    "distanceKm": 3.2
+  },
+  "AUCHY": {
+    "bureau": "ORCHIES",
+    "distanceKm": 3.2
+  },
+  "AUDENCOURT": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "AUDIGNIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 2.1
+  },
+  "AULNOY LEZ VALENCIENNES": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.4
+  },
+  "AULNOY": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.4
+  },
+  "AULNOYE AYMERIES": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 2.7
+  },
+  "AULNOYE": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 2.7
+  },
+  "AVELIN": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 2.9
+  },
+  "AVESNELLES": {
+    "bureau": "AVESNES",
+    "distanceKm": 2.6
+  },
+  "AVESNES LE SEC": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 5.4
+  },
+  "AVESNES LES AUBERT": {
+    "bureau": "CARNIERES",
+    "distanceKm": 3.9
+  },
+  "AVESNES SUR HELPE": {
+    "bureau": "AVESNES",
+    "distanceKm": 0.0
+  },
+  "AWOINGT": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.8
+  },
+  "AYMERIES": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "BACHANT": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 5.8
+  },
+  "BACHY": {
+    "bureau": "CYSOING",
+    "distanceKm": 4.8
+  },
+  "BAISIEUX": {
+    "bureau": "CYSOING",
+    "distanceKm": 5.6
+  },
+  "BAIVES": {
+    "bureau": "TRELON",
+    "distanceKm": 5.4
+  },
+  "BAMBECQUE": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 6.8
+  },
+  "BANTEUX": {
+    "bureau": "MARCOING",
+    "distanceKm": 5.4
+  },
+  "BANTIGNY": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 6.8
+  },
+  "BANTOUZELLE": {
+    "bureau": "MARCOING",
+    "distanceKm": 6.9
+  },
+  "BAS LIEU": {
+    "bureau": "AVESNES",
+    "distanceKm": 3.0
+  },
+  "BAUVIN": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 6.4
+  },
+  "BAVINCHOVE": {
+    "bureau": "CASSEL",
+    "distanceKm": 4.3
+  },
+  "BAZUEL": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.4
+  },
+  "BEAUCAMPS LIGNY": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 5.2
+  },
+  "BEAUDIGNIES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 3.5
+  },
+  "BEAUFORT": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 7.2
+  },
+  "BEAUMONT EN CAMBRESIS": {
+    "bureau": "SOLESMES",
+    "distanceKm": 6.8
+  },
+  "BEAURAIN": {
+    "bureau": "SOLESMES",
+    "distanceKm": 2.7
+  },
+  "BEAUREPAIRE SUR SAMBRE": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 10.3
+  },
+  "BEAURIEUX": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 2.5
+  },
+  "BEAUVOIS EN CAMBRESIS": {
+    "bureau": "CARNIERES",
+    "distanceKm": 3.9
+  },
+  "BEAUVOIS": {
+    "bureau": "CARNIERES",
+    "distanceKm": 3.9
+  },
+  "BELLAING": {
+    "bureau": "DENAIN",
+    "distanceKm": 4.7
+  },
+  "BELLIGNIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.5
+  },
+  "BERMERAIN": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.1
+  },
+  "BERMERIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.0
+  },
+  "BERSILLIES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 5.0
+  },
+  "BERSEE": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 5.1
+  },
+  "BERTHEN": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 6.2
+  },
+  "BERTRY": {
+    "bureau": "CLARY",
+    "distanceKm": 3.7
+  },
+  "BETTIGNIES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 5.5
+  },
+  "BETTRECHIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 5.6
+  },
+  "BEUGNIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 7.2
+  },
+  "BEUVRAGES": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 3.1
+  },
+  "BEUVRY LA FORET": {
+    "bureau": "ORCHIES",
+    "distanceKm": 3.6
+  },
+  "BEUVRY NORD": {
+    "bureau": "ORCHIES",
+    "distanceKm": 3.6
+  },
+  "BIERNE": {
+    "bureau": "BERGUES",
+    "distanceKm": 2.2
+  },
+  "BISSEZEELE": {
+    "bureau": "BERGUES",
+    "distanceKm": 6.6
+  },
+  "BLARINGHEM": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 9.4
+  },
+  "BLECOURT": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.4
+  },
+  "BOESCHEPE": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 8.1
+  },
+  "BOIS GRENIER": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 4.9
+  },
+  "BOLLEZEELE": {
+    "bureau": "WATTEN",
+    "distanceKm": 8.7
+  },
+  "BONDUES": {
+    "bureau": "TOURCOING",
+    "distanceKm": 4.4
+  },
+  "BORRE": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 3.2
+  },
+  "BOULOGNE SUR HELPE": {
+    "bureau": "AVESNES",
+    "distanceKm": 5.8
+  },
+  "BOURBOURG VILLE": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 0.0
+  },
+  "BOURBOURG CAMPAGNE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "BOURGHELLES": {
+    "bureau": "CYSOING",
+    "distanceKm": 2.8
+  },
+  "BOURSIES": {
+    "bureau": "MARCOING",
+    "distanceKm": 9.9
+  },
+  "BOUSBECQUE": {
+    "bureau": "TOURCOING",
+    "distanceKm": 7.4
+  },
+  "BOUSIES": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 6.3
+  },
+  "BOUSIGNIES": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 6.3
+  },
+  "BOUSIGNIES SUR ROC": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 12.1
+  },
+  "BOUSSIERES EN CAMBRESIS": {
+    "bureau": "CARNIERES",
+    "distanceKm": 2.3
+  },
+  "BOUSSIERES SUR SAMBRE": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 7.2
+  },
+  "BOUSSOIS": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 6.3
+  },
+  "BOUVIGNIES": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 2.4
+  },
+  "BOUVINES": {
+    "bureau": "CYSOING",
+    "distanceKm": 2.4
+  },
+  "BOESEGHEM": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 9.2
+  },
+  "BRAY DUNES": {
+    "bureau": "HONDSCHOOTE",
+    "distanceKm": 12.1
+  },
+  "BRIASTRE": {
+    "bureau": "SOLESMES",
+    "distanceKm": 3.0
+  },
+  "BRILLON": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 6.8
+  },
+  "BROUCKERQUE": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 6.1
+  },
+  "BROXEELE": {
+    "bureau": "WATTEN",
+    "distanceKm": 6.3
+  },
+  "BRUAY SUR L ESCAUT": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.2
+  },
+  "BRUILLE SAINT AMAND": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 5.2
+  },
+  "BRUILLE LEZ MARCHIENNES": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 6.5
+  },
+  "BRUNEMONT": {
+    "bureau": "ARLEUX",
+    "distanceKm": 3.0
+  },
+  "BRY": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 8.7
+  },
+  "BUGNICOURT": {
+    "bureau": "ARLEUX",
+    "distanceKm": 3.7
+  },
+  "BUSIGNY": {
+    "bureau": "CLARY",
+    "distanceKm": 5.9
+  },
+  "BUYSSCHEURE": {
+    "bureau": "WATTEN",
+    "distanceKm": 8.0
+  },
+  "BERELLES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 4.4
+  },
+  "BETHENCOURT": {
+    "bureau": "CARNIERES",
+    "distanceKm": 6.1
+  },
+  "BEVILLERS": {
+    "bureau": "CARNIERES",
+    "distanceKm": 3.4
+  },
+  "CAGNONCLES": {
+    "bureau": "CARNIERES",
+    "distanceKm": 2.8
+  },
+  "CAMPHIN EN CAREMBAULT": {
+    "bureau": "SECLIN",
+    "distanceKm": 4.8
+  },
+  "CAMPHIN EN PEVELE": {
+    "bureau": "CYSOING",
+    "distanceKm": 4.7
+  },
+  "CANTAING SUR ESCAUT": {
+    "bureau": "MARCOING",
+    "distanceKm": 3.6
+  },
+  "CANTIN": {
+    "bureau": "ARLEUX",
+    "distanceKm": 3.2
+  },
+  "CAPELLE": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 4.9
+  },
+  "CAPINGHEM": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 5.6
+  },
+  "CAPPELLE BROUCK": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 6.0
+  },
+  "CAPPELLE EN PEVELE": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 4.5
+  },
+  "CAPPELLE LA GRANDE": {
+    "bureau": "DUNKERQUE",
+    "distanceKm": 3.1
+  },
+  "CARNIN": {
+    "bureau": "SECLIN",
+    "distanceKm": 5.5
+  },
+  "CARTIGNIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 8.0
+  },
+  "CATILLON SUR SAMBRE": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 5.6
+  },
+  "CATTENIERES": {
+    "bureau": "CARNIERES",
+    "distanceKm": 3.6
+  },
+  "CAUDRY": {
+    "bureau": "CLARY",
+    "distanceKm": 5.8
+  },
+  "CAULLERY": {
+    "bureau": "CLARY",
+    "distanceKm": 2.2
+  },
+  "CAUROIR": {
+    "bureau": "CARNIERES",
+    "distanceKm": 3.2
+  },
+  "CAESTRE": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 5.8
+  },
+  "CERFONTAINE": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 5.3
+  },
+  "CHEMY": {
+    "bureau": "SECLIN",
+    "distanceKm": 2.7
+  },
+  "CHOISIES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 6.2
+  },
+  "CHATEAU L ABBAYE": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 5.6
+  },
+  "CHERENG": {
+    "bureau": "CYSOING",
+    "distanceKm": 5.3
+  },
+  "CLAIRFAYTS": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 2.7
+  },
+  "COBRIEUX": {
+    "bureau": "CYSOING",
+    "distanceKm": 3.5
+  },
+  "COLLERET": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 9.3
+  },
+  "COMINES": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 4.1
+  },
+  "CONDE SUR L ESCAUT": {
+    "bureau": "CONDE",
+    "distanceKm": 0.0
+  },
+  "COUDEKERQUE BRANCHE": {
+    "bureau": "DUNKERQUE",
+    "distanceKm": 3.9
+  },
+  "COUDEKERQUE VILLAGE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "COUDEKERQUE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "COURCHELETTES": {
+    "bureau": "DOUAI",
+    "distanceKm": 5.0
+  },
+  "COUSOLRE": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 8.4
+  },
+  "COUTICHES": {
+    "bureau": "ORCHIES",
+    "distanceKm": 4.1
+  },
+  "CRAYWICK": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 3.4
+  },
+  "CRESPIN": {
+    "bureau": "CONDE",
+    "distanceKm": 5.7
+  },
+  "CROCHTE": {
+    "bureau": "BERGUES",
+    "distanceKm": 6.2
+  },
+  "CROIX": {
+    "bureau": "ROUBAIX",
+    "distanceKm": 2.5
+  },
+  "CROIX CALUYAU": {
+    "bureau": "SOLESMES",
+    "distanceKm": 5.6
+  },
+  "CREVECŒUR SUR L ESCAUT": {
+    "bureau": "MARCOING",
+    "distanceKm": 7.4
+  },
+  "CUINCY": {
+    "bureau": "DOUAI",
+    "distanceKm": 4.9
+  },
+  "CURGIES": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 7.8
+  },
+  "CUVILLERS": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.5
+  },
+  "DAMOUSIES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 8.0
+  },
+  "DECHY": {
+    "bureau": "DOUAI",
+    "distanceKm": 3.5
+  },
+  "DEHERIES": {
+    "bureau": "CLARY",
+    "distanceKm": 4.4
+  },
+  "DEULEMONT": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 2.9
+  },
+  "DIMECHAUX": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 4.9
+  },
+  "DIMONT": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 6.0
+  },
+  "DOIGNIES": {
+    "bureau": "MARCOING",
+    "distanceKm": 11.6
+  },
+  "DOMPIERRE SUR HELPE": {
+    "bureau": "AVESNES",
+    "distanceKm": 5.6
+  },
+  "DON": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 7.5
+  },
+  "DOUCHY LES MINES": {
+    "bureau": "DENAIN",
+    "distanceKm": 3.2
+  },
+  "DOURLERS": {
+    "bureau": "AVESNES",
+    "distanceKm": 5.9
+  },
+  "DRINCHAM": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 8.9
+  },
+  "EBBLINGHEM": {
+    "bureau": "CASSEL",
+    "distanceKm": 8.2
+  },
+  "ECCLES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 3.2
+  },
+  "EECKE": {
+    "bureau": "STEENVOORDE",
+    "distanceKm": 4.7
+  },
+  "EMMERIN": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 1.6
+  },
+  "ENGLEFONTAINE": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.3
+  },
+  "ENGLOS": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 3.7
+  },
+  "ENNETIERES EN WEPPES": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 6.2
+  },
+  "ENNEVELIN": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 2.0
+  },
+  "EPPE SAUVAGE": {
+    "bureau": "TRELON",
+    "distanceKm": 5.7
+  },
+  "ERCHIN": {
+    "bureau": "ARLEUX",
+    "distanceKm": 5.9
+  },
+  "ERINGHEM": {
+    "bureau": "WATTEN",
+    "distanceKm": 8.5
+  },
+  "ERQUINGHEM LYS": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 3.8
+  },
+  "ERQUINGHEM LE SEC": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 4.1
+  },
+  "ERRE": {
+    "bureau": "DENAIN",
+    "distanceKm": 6.7
+  },
+  "ESCARMAIN": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 5.9
+  },
+  "ESCAUDAIN": {
+    "bureau": "DENAIN",
+    "distanceKm": 3.8
+  },
+  "ESCAUDŒUVRES": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.2
+  },
+  "ESCAUTPONT": {
+    "bureau": "CONDE",
+    "distanceKm": 6.3
+  },
+  "ESCOBECQUES": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 4.7
+  },
+  "ESNES": {
+    "bureau": "CLARY",
+    "distanceKm": 6.4
+  },
+  "ESQUELBECQ": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 4.1
+  },
+  "ESQUERCHIN": {
+    "bureau": "DOUAI",
+    "distanceKm": 6.8
+  },
+  "ESTAIRES": {
+    "bureau": "MERVILLE",
+    "distanceKm": 6.1
+  },
+  "ESTOURMEL": {
+    "bureau": "CARNIERES",
+    "distanceKm": 2.0
+  },
+  "ESTREUX": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 6.1
+  },
+  "ESTRUN": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 4.1
+  },
+  "ETRUN": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 4.1
+  },
+  "ESTREES": {
+    "bureau": "ARLEUX",
+    "distanceKm": 2.8
+  },
+  "ESWARS": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.1
+  },
+  "ETH": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 8.9
+  },
+  "FACHES THUMESNIL": {
+    "bureau": "LILLE",
+    "distanceKm": 4.3
+  },
+  "FAMARS": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 6.0
+  },
+  "FAUMONT": {
+    "bureau": "ORCHIES",
+    "distanceKm": 7.8
+  },
+  "FEIGNIES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 3.6
+  },
+  "FELLERIES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 4.4
+  },
+  "FENAIN": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 6.4
+  },
+  "FERRIERE LA GRANDE": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 4.8
+  },
+  "FERRIERE LA PETITE": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 6.7
+  },
+  "FLAUMONT WAUDRECHIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 3.1
+  },
+  "FLERS EN ESCREBIEUX": {
+    "bureau": "DOUAI",
+    "distanceKm": 4.5
+  },
+  "FLERS LEZ LILLE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "FLESQUIERES": {
+    "bureau": "MARCOING",
+    "distanceKm": 4.2
+  },
+  "FLINES LEZ RACHES": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 4.6
+  },
+  "FLINES LES MORTAGNE": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 8.4
+  },
+  "FLOURSIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 7.7
+  },
+  "FLOYON": {
+    "bureau": "AVESNES",
+    "distanceKm": 10.0
+  },
+  "FLETRE": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 7.5
+  },
+  "FONTAINE NOTRE DAME": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 4.9
+  },
+  "FONTAINE AU BOIS": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 3.8
+  },
+  "FONTAINE AU PIRE": {
+    "bureau": "CARNIERES",
+    "distanceKm": 4.1
+  },
+  "FORENVILLE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "FOREST EN CAMBRESIS": {
+    "bureau": "SOLESMES",
+    "distanceKm": 5.5
+  },
+  "FOREST SUR MARQUE": {
+    "bureau": "LANNOY",
+    "distanceKm": 4.1
+  },
+  "FORT MARDYCK": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "FOURMIES": {
+    "bureau": "TRELON",
+    "distanceKm": 8.4
+  },
+  "FOURNES EN WEPPES": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 6.6
+  },
+  "FOURNES": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 6.6
+  },
+  "FRASNOY": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 4.4
+  },
+  "FRELINGHIEN": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 3.9
+  },
+  "FRESNES SUR ESCAUT": {
+    "bureau": "CONDE",
+    "distanceKm": 4.4
+  },
+  "FRESSAIN": {
+    "bureau": "ARLEUX",
+    "distanceKm": 6.2
+  },
+  "FRESSIES": {
+    "bureau": "ARLEUX",
+    "distanceKm": 7.4
+  },
+  "FRETIN": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 5.2
+  },
+  "FROMELLES": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 8.6
+  },
+  "FECHAIN": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 7.4
+  },
+  "FERIN": {
+    "bureau": "ARLEUX",
+    "distanceKm": 5.4
+  },
+  "FERON": {
+    "bureau": "TRELON",
+    "distanceKm": 8.1
+  },
+  "GENECH": {
+    "bureau": "CYSOING",
+    "distanceKm": 4.0
+  },
+  "GHISSIGNIES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 2.6
+  },
+  "GHYVELDE": {
+    "bureau": "HONDSCHOOTE",
+    "distanceKm": 8.1
+  },
+  "GLAGEON": {
+    "bureau": "TRELON",
+    "distanceKm": 5.0
+  },
+  "GODEWAERSVELDE": {
+    "bureau": "STEENVOORDE",
+    "distanceKm": 5.4
+  },
+  "GOGNIES CHAUSSEE": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 4.7
+  },
+  "GOMMEGNIES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.3
+  },
+  "GONDECOURT": {
+    "bureau": "SECLIN",
+    "distanceKm": 3.2
+  },
+  "GONNELIEU": {
+    "bureau": "MARCOING",
+    "distanceKm": 5.9
+  },
+  "GOUZEAUCOURT": {
+    "bureau": "MARCOING",
+    "distanceKm": 7.7
+  },
+  "GRAND FAYT": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 8.1
+  },
+  "GRAND FORT PHILIPPE": {
+    "bureau": "GRAVELINES",
+    "distanceKm": 2.4
+  },
+  "GRANDE SYNTHE": {
+    "bureau": "DUNKERQUE",
+    "distanceKm": 3.5
+  },
+  "GRUSON": {
+    "bureau": "CYSOING",
+    "distanceKm": 3.3
+  },
+  "GUESNAIN": {
+    "bureau": "DOUAI",
+    "distanceKm": 4.7
+  },
+  "GUSSIGNIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 6.8
+  },
+  "GŒULZIN": {
+    "bureau": "ARLEUX",
+    "distanceKm": 3.6
+  },
+  "HALLENNES LEZ HAUBOURDIN": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 2.8
+  },
+  "HALLUIN": {
+    "bureau": "TOURCOING",
+    "distanceKm": 6.5
+  },
+  "HAMEL": {
+    "bureau": "ARLEUX",
+    "distanceKm": 2.5
+  },
+  "HANTAY": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 4.1
+  },
+  "HARDIFORT": {
+    "bureau": "CASSEL",
+    "distanceKm": 3.3
+  },
+  "HARGNIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.9
+  },
+  "HASNON": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 5.0
+  },
+  "HASPRES": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 7.0
+  },
+  "HAUCOURT EN CAMBRESIS": {
+    "bureau": "CLARY",
+    "distanceKm": 5.4
+  },
+  "HAUCOURT": {
+    "bureau": "CLARY",
+    "distanceKm": 5.4
+  },
+  "HAULCHIN": {
+    "bureau": "DENAIN",
+    "distanceKm": 2.9
+  },
+  "HAUSSY": {
+    "bureau": "SOLESMES",
+    "distanceKm": 6.3
+  },
+  "HAUT LIEU": {
+    "bureau": "AVESNES",
+    "distanceKm": 2.6
+  },
+  "HAUTMONT": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 4.9
+  },
+  "HAVELUY": {
+    "bureau": "DENAIN",
+    "distanceKm": 3.1
+  },
+  "HAVERSKERQUE": {
+    "bureau": "MERVILLE",
+    "distanceKm": 6.6
+  },
+  "HAYNECOURT": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 7.2
+  },
+  "HECQ": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 7.3
+  },
+  "HELLEMMES LILLE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "HEM": {
+    "bureau": "LANNOY",
+    "distanceKm": 2.0
+  },
+  "HEM LENGLET": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 7.0
+  },
+  "HERGNIES": {
+    "bureau": "CONDE",
+    "distanceKm": 6.1
+  },
+  "HERLIES": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 5.5
+  },
+  "HERRIN": {
+    "bureau": "SECLIN",
+    "distanceKm": 4.6
+  },
+  "HERZEELE": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 3.5
+  },
+  "HESTRUD": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 4.6
+  },
+  "HOLQUE": {
+    "bureau": "WATTEN",
+    "distanceKm": 3.1
+  },
+  "HON HERGIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.7
+  },
+  "HONDEGHEM": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 3.2
+  },
+  "HONNECHY": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.5
+  },
+  "HONNECOURT SUR ESCAUT": {
+    "bureau": "MARCOING",
+    "distanceKm": 8.9
+  },
+  "HONNECOURT SUR L ESCAUT": {
+    "bureau": "MARCOING",
+    "distanceKm": 8.9
+  },
+  "HORDAIN": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 2.2
+  },
+  "HORNAING": {
+    "bureau": "DENAIN",
+    "distanceKm": 5.9
+  },
+  "HOUDAIN LEZ BAVAY": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.2
+  },
+  "HOUPLIN ANCOISNE": {
+    "bureau": "SECLIN",
+    "distanceKm": 3.5
+  },
+  "HOUPLIN": {
+    "bureau": "SECLIN",
+    "distanceKm": 3.5
+  },
+  "HOUPLINES": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 3.6
+  },
+  "HOUTKERQUE": {
+    "bureau": "STEENVOORDE",
+    "distanceKm": 6.7
+  },
+  "HOYMILLE": {
+    "bureau": "BERGUES",
+    "distanceKm": 1.5
+  },
+  "HELESMES": {
+    "bureau": "DENAIN",
+    "distanceKm": 5.6
+  },
+  "HERIN": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.6
+  },
+  "ILLIES": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 3.2
+  },
+  "INCHY": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 6.0
+  },
+  "IWUY": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 5.2
+  },
+  "JENLAIN": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.4
+  },
+  "JEUMONT": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 10.1
+  },
+  "JOLIMETZ": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 4.6
+  },
+  "KILLEM": {
+    "bureau": "HONDSCHOOTE",
+    "distanceKm": 2.3
+  },
+  "L OREE DE MORMAL": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.8
+  },
+  "AMFROIPRET": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.8
+  },
+  "LA CHAPELLE D ARMENTIERES": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 3.3
+  },
+  "LA FLAMENGRIE": {
+    "bureau": "BAVAY",
+    "distanceKm": 6.0
+  },
+  "LA GORGUE": {
+    "bureau": "MERVILLE",
+    "distanceKm": 7.3
+  },
+  "LA GROISE": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 4.3
+  },
+  "LA LONGUEVILLE": {
+    "bureau": "BAVAY",
+    "distanceKm": 5.3
+  },
+  "LA MADELEINE": {
+    "bureau": "LILLE",
+    "distanceKm": 3.0
+  },
+  "LA NEUVILLE": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 5.1
+  },
+  "LA SENTINELLE": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 3.0
+  },
+  "LALLAING": {
+    "bureau": "DOUAI",
+    "distanceKm": 5.2
+  },
+  "LAMBERSART": {
+    "bureau": "LILLE",
+    "distanceKm": 3.0
+  },
+  "LAMBRES LEZ DOUAI": {
+    "bureau": "DOUAI",
+    "distanceKm": 4.2
+  },
+  "LANDAS": {
+    "bureau": "ORCHIES",
+    "distanceKm": 3.9
+  },
+  "LAROUILLIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 9.4
+  },
+  "LAUWIN PLANQUE": {
+    "bureau": "DOUAI",
+    "distanceKm": 5.2
+  },
+  "LE CATEAU CAMBRESIS": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 0.0
+  },
+  "LE DOULIEU": {
+    "bureau": "MERVILLE",
+    "distanceKm": 5.9
+  },
+  "LE FAVRIL": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 3.6
+  },
+  "FAVRIL": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 3.6
+  },
+  "LE MAISNIL": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 8.1
+  },
+  "LECELLES": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 5.5
+  },
+  "LEDERZEELE": {
+    "bureau": "WATTEN",
+    "distanceKm": 4.5
+  },
+  "LEDRINGHEM": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 2.9
+  },
+  "LEERS": {
+    "bureau": "LANNOY",
+    "distanceKm": 2.6
+  },
+  "LEFFRINCKOUCKE": {
+    "bureau": "DUNKERQUE",
+    "distanceKm": 8.2
+  },
+  "LES MOERES": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "LES RUES DES VIGNES": {
+    "bureau": "MARCOING",
+    "distanceKm": 6.2
+  },
+  "LESDAIN": {
+    "bureau": "MARCOING",
+    "distanceKm": 7.6
+  },
+  "LESQUIN": {
+    "bureau": "LILLE",
+    "distanceKm": 6.5
+  },
+  "LEVAL": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 4.0
+  },
+  "LEWARDE": {
+    "bureau": "DOUAI",
+    "distanceKm": 6.7
+  },
+  "LEZ FONTAINE": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 3.0
+  },
+  "LES FONTAINE": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 3.0
+  },
+  "LEZENNES": {
+    "bureau": "LILLE",
+    "distanceKm": 5.5
+  },
+  "LIESSIES": {
+    "bureau": "TRELON",
+    "distanceKm": 5.5
+  },
+  "LIEU SAINT AMAND": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 2.3
+  },
+  "LIGNY EN CAMBRESIS": {
+    "bureau": "CLARY",
+    "distanceKm": 3.8
+  },
+  "LIGNY HAUCOURT": {
+    "bureau": "CLARY",
+    "distanceKm": 3.8
+  },
+  "LIMONT FONTAINE": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 8.3
+  },
+  "LINSELLES": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 5.3
+  },
+  "LOCQUIGNOL": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 3.6
+  },
+  "LOFFRE": {
+    "bureau": "DOUAI",
+    "distanceKm": 5.8
+  },
+  "LOMME": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "LOMPRET": {
+    "bureau": "LILLE",
+    "distanceKm": 5.2
+  },
+  "LOOBERGHE": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 6.0
+  },
+  "LOON PLAGE": {
+    "bureau": "GRAVELINES",
+    "distanceKm": 5.6
+  },
+  "LOOS": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 2.4
+  },
+  "LOURCHES": {
+    "bureau": "DENAIN",
+    "distanceKm": 3.2
+  },
+  "LOUVIGNIES BAVAY": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "LOUVIGNIES QUESNOY": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 3.9
+  },
+  "LOUVIL": {
+    "bureau": "CYSOING",
+    "distanceKm": 1.6
+  },
+  "LOUVROIL": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 2.7
+  },
+  "LYNDE": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 7.2
+  },
+  "LYS LEZ LANNOY": {
+    "bureau": "LANNOY",
+    "distanceKm": 1.0
+  },
+  "LECLUSE": {
+    "bureau": "ARLEUX",
+    "distanceKm": 5.1
+  },
+  "MAING": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 6.7
+  },
+  "MAIRIEUX": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 3.4
+  },
+  "MALINCOURT": {
+    "bureau": "CLARY",
+    "distanceKm": 6.2
+  },
+  "MALO LES BAINS": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "MARBAIX": {
+    "bureau": "AVESNES",
+    "distanceKm": 6.5
+  },
+  "MARCHIENNES CAMPAGNE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "MARCQ EN BARŒUL": {
+    "bureau": "ROUBAIX",
+    "distanceKm": 6.0
+  },
+  "MARCQ EN OSTREVENT": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 6.0
+  },
+  "MARDYCK": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "MARESCHES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.0
+  },
+  "MARETZ": {
+    "bureau": "CLARY",
+    "distanceKm": 3.2
+  },
+  "MARLY": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 2.9
+  },
+  "MAROILLES": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 6.0
+  },
+  "MARPENT": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 8.1
+  },
+  "MARQUETTE EN OSTREVANT": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 3.4
+  },
+  "MARQUETTE LEZ LILLE": {
+    "bureau": "LILLE",
+    "distanceKm": 4.9
+  },
+  "MARQUETTE": {
+    "bureau": "LILLE",
+    "distanceKm": 4.9
+  },
+  "MARQUILLIES": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 4.3
+  },
+  "MASNIERES": {
+    "bureau": "MARCOING",
+    "distanceKm": 2.0
+  },
+  "MASNY": {
+    "bureau": "DOUAI",
+    "distanceKm": 7.7
+  },
+  "MASTAING": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 3.4
+  },
+  "MAULDE": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 6.7
+  },
+  "MAUROIS": {
+    "bureau": "CLARY",
+    "distanceKm": 4.5
+  },
+  "MAZINGHIEN": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 6.2
+  },
+  "MECQUIGNIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 2.4
+  },
+  "MERCKEGHEM": {
+    "bureau": "WATTEN",
+    "distanceKm": 5.4
+  },
+  "MERRIS": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 6.2
+  },
+  "MILLAM": {
+    "bureau": "WATTEN",
+    "distanceKm": 3.1
+  },
+  "MILLONFOSSE": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 4.9
+  },
+  "MONCEAU SAINT WAAST": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 5.6
+  },
+  "MONCHAUX SUR ECAILLON": {
+    "bureau": "DENAIN",
+    "distanceKm": 6.8
+  },
+  "MONCHAUX": {
+    "bureau": "DENAIN",
+    "distanceKm": 6.8
+  },
+  "MONCHEAUX": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 7.4
+  },
+  "MONCHECOURT": {
+    "bureau": "ARLEUX",
+    "distanceKm": 8.1
+  },
+  "MONS EN BARŒUL": {
+    "bureau": "LILLE",
+    "distanceKm": 4.6
+  },
+  "MONS EN PEVELE": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 4.4
+  },
+  "MONTAY": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.1
+  },
+  "MONTIGNY EN CAMBRESIS": {
+    "bureau": "CLARY",
+    "distanceKm": 2.5
+  },
+  "MONTIGNY EN OSTREVENT": {
+    "bureau": "DOUAI",
+    "distanceKm": 6.0
+  },
+  "MONTRECOURT": {
+    "bureau": "SOLESMES",
+    "distanceKm": 7.6
+  },
+  "MORBECQUE": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 5.0
+  },
+  "MORENCHIES": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "MORTAGNE DU NORD": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 6.8
+  },
+  "MOUCHIN": {
+    "bureau": "ORCHIES",
+    "distanceKm": 6.5
+  },
+  "MOUSTIER EN FAGNE": {
+    "bureau": "TRELON",
+    "distanceKm": 6.0
+  },
+  "MOUVAUX": {
+    "bureau": "TOURCOING",
+    "distanceKm": 2.4
+  },
+  "MERIGNIES": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 1.9
+  },
+  "METEREN": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 5.5
+  },
+  "MŒUVRES": {
+    "bureau": "MARCOING",
+    "distanceKm": 9.2
+  },
+  "NAVES": {
+    "bureau": "CARNIERES",
+    "distanceKm": 4.9
+  },
+  "NEUF BERQUIN": {
+    "bureau": "MERVILLE",
+    "distanceKm": 2.8
+  },
+  "NEUF MESNIL": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 4.1
+  },
+  "NEUVILLE SAINT REMY": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 2.2
+  },
+  "NEUVILLE EN AVESNOIS": {
+    "bureau": "SOLESMES",
+    "distanceKm": 5.5
+  },
+  "NEUVILLE EN FERRAIN": {
+    "bureau": "TOURCOING",
+    "distanceKm": 3.9
+  },
+  "NEUVILLE SUR ESCAUT": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 2.8
+  },
+  "NEUVILLY": {
+    "bureau": "SOLESMES",
+    "distanceKm": 4.4
+  },
+  "NIEPPE": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 3.3
+  },
+  "NIERGNIES": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.6
+  },
+  "NIEURLET": {
+    "bureau": "WATTEN",
+    "distanceKm": 5.3
+  },
+  "NIVELLE": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 3.6
+  },
+  "NOMAIN": {
+    "bureau": "ORCHIES",
+    "distanceKm": 4.0
+  },
+  "NOORDPEENE": {
+    "bureau": "CASSEL",
+    "distanceKm": 9.3
+  },
+  "NOYELLES LES SECLIN": {
+    "bureau": "SECLIN",
+    "distanceKm": 3.1
+  },
+  "NOYELLES SUR ESCAUT": {
+    "bureau": "MARCOING",
+    "distanceKm": 2.9
+  },
+  "NOYELLES SUR L ESCAUT": {
+    "bureau": "MARCOING",
+    "distanceKm": 2.9
+  },
+  "NOYELLES SUR SAMBRE": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 5.2
+  },
+  "NOYELLES": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 5.2
+  },
+  "NOYELLES SUR SELLE": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 4.7
+  },
+  "OBIES": {
+    "bureau": "BAVAY",
+    "distanceKm": 3.1
+  },
+  "OBRECHIES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 7.0
+  },
+  "OCHTEZEELE": {
+    "bureau": "CASSEL",
+    "distanceKm": 7.6
+  },
+  "ODOMEZ": {
+    "bureau": "CONDE",
+    "distanceKm": 5.7
+  },
+  "OHAIN": {
+    "bureau": "TRELON",
+    "distanceKm": 3.6
+  },
+  "OISY": {
+    "bureau": "DENAIN",
+    "distanceKm": 3.9
+  },
+  "ONNAING": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 6.4
+  },
+  "OOST CAPPEL": {
+    "bureau": "HONDSCHOOTE",
+    "distanceKm": 4.9
+  },
+  "ORS": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 3.8
+  },
+  "ORSINVAL": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 2.6
+  },
+  "OSTRICOURT": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 9.3
+  },
+  "OUDEZEELE": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 4.1
+  },
+  "OXELAERE": {
+    "bureau": "CASSEL",
+    "distanceKm": 2.4
+  },
+  "PAILLENCOURT": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 4.9
+  },
+  "PECQUENCOURT": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 4.6
+  },
+  "PETIT FAYT": {
+    "bureau": "AVESNES",
+    "distanceKm": 7.1
+  },
+  "PETITE FORET": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 3.1
+  },
+  "PETITE SYNTHE": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "PHALEMPIN": {
+    "bureau": "SECLIN",
+    "distanceKm": 3.8
+  },
+  "PITGAM": {
+    "bureau": "BERGUES",
+    "distanceKm": 8.0
+  },
+  "POIX DU NORD": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.9
+  },
+  "POMMEREUIL": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.8
+  },
+  "PONT SUR SAMBRE": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 4.7
+  },
+  "POTELLE": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 3.8
+  },
+  "PRADELLES": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 5.1
+  },
+  "PREUX AU BOIS": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 5.6
+  },
+  "PREUX AU SART": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 6.9
+  },
+  "PRISCHES": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 6.9
+  },
+  "PROUVY": {
+    "bureau": "DENAIN",
+    "distanceKm": 4.5
+  },
+  "PROVILLE": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.2
+  },
+  "PROVIN": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 7.6
+  },
+  "PREMESQUES": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 6.0
+  },
+  "PRESEAU": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 7.1
+  },
+  "PERENCHIES": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 5.4
+  },
+  "PERONNE EN MELANTOIS": {
+    "bureau": "CYSOING",
+    "distanceKm": 2.7
+  },
+  "QUAROUBLE": {
+    "bureau": "CONDE",
+    "distanceKm": 6.8
+  },
+  "QUAEDYPRE": {
+    "bureau": "BERGUES",
+    "distanceKm": 4.0
+  },
+  "QUIEVELON": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 7.5
+  },
+  "QUIEVRECHAIN": {
+    "bureau": "CONDE",
+    "distanceKm": 8.6
+  },
+  "QUIEVY": {
+    "bureau": "CARNIERES",
+    "distanceKm": 5.7
+  },
+  "QUERENAING": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 8.4
+  },
+  "RADINGHEM EN WEPPES": {
+    "bureau": "ARMENTIERES",
+    "distanceKm": 7.1
+  },
+  "RAILLENCOURT SAINTE OLLE": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.2
+  },
+  "RAILLENCOURT": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.2
+  },
+  "RAIMBEAUCOURT": {
+    "bureau": "DOUAI",
+    "distanceKm": 6.5
+  },
+  "RAINSARS": {
+    "bureau": "AVESNES",
+    "distanceKm": 7.8
+  },
+  "RAISMES": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 4.3
+  },
+  "RAMILLIES": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.9
+  },
+  "RAMOUSIES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 7.6
+  },
+  "RAUCOURT AU BOIS": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 5.3
+  },
+  "RECQUIGNIES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 6.3
+  },
+  "REJET DE BEAULIEU": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 8.6
+  },
+  "RENESCURE": {
+    "bureau": "CASSEL",
+    "distanceKm": 10.3
+  },
+  "REUMONT": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.3
+  },
+  "REXPOEDE": {
+    "bureau": "HONDSCHOOTE",
+    "distanceKm": 4.8
+  },
+  "RIBECOURT LA TOUR": {
+    "bureau": "MARCOING",
+    "distanceKm": 3.3
+  },
+  "RIEULAY": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 3.2
+  },
+  "RIEUX EN CAMBRESIS": {
+    "bureau": "CARNIERES",
+    "distanceKm": 4.4
+  },
+  "RIEUX": {
+    "bureau": "CARNIERES",
+    "distanceKm": 4.4
+  },
+  "ROBERSART": {
+    "bureau": "LANDRECIES",
+    "distanceKm": 5.2
+  },
+  "ROMBIES ET MARCHIPONT": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 9.0
+  },
+  "ROMERIES": {
+    "bureau": "SOLESMES",
+    "distanceKm": 3.2
+  },
+  "RONCHIN": {
+    "bureau": "LILLE",
+    "distanceKm": 4.5
+  },
+  "RONCQ": {
+    "bureau": "TOURCOING",
+    "distanceKm": 4.0
+  },
+  "ROOST WARENDIN": {
+    "bureau": "DOUAI",
+    "distanceKm": 3.8
+  },
+  "ROSENDAEL": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "ROSULT": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 6.2
+  },
+  "ROUCOURT": {
+    "bureau": "ARLEUX",
+    "distanceKm": 5.7
+  },
+  "ROUSIES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 3.0
+  },
+  "ROUVIGNIES": {
+    "bureau": "DENAIN",
+    "distanceKm": 3.5
+  },
+  "RUBROUCK": {
+    "bureau": "WATTEN",
+    "distanceKm": 9.2
+  },
+  "RUESNES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 3.3
+  },
+  "RUMEGIES": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 8.6
+  },
+  "RUMILLY EN CAMBRESIS": {
+    "bureau": "MARCOING",
+    "distanceKm": 4.3
+  },
+  "RACHES": {
+    "bureau": "DOUAI",
+    "distanceKm": 5.3
+  },
+  "RŒULX": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 4.0
+  },
+  "SAILLY LEZ CAMBRAI": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.3
+  },
+  "SAILLY": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.3
+  },
+  "SAILLY LEZ LANNOY": {
+    "bureau": "LANNOY",
+    "distanceKm": 2.5
+  },
+  "SAINGHIN EN MELANTOIS": {
+    "bureau": "CYSOING",
+    "distanceKm": 4.0
+  },
+  "SAINGHIN EN WEPPES": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 6.4
+  },
+  "SAINS DU NORD": {
+    "bureau": "TRELON",
+    "distanceKm": 6.7
+  },
+  "SAINT AMAND": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 0.0
+  },
+  "SAINT ANDRE LEZ LILLE": {
+    "bureau": "LILLE",
+    "distanceKm": 3.2
+  },
+  "SAINT ANDRE": {
+    "bureau": "LILLE",
+    "distanceKm": 3.2
+  },
+  "SAINT AUBERT": {
+    "bureau": "CARNIERES",
+    "distanceKm": 7.4
+  },
+  "SAINT AUBIN": {
+    "bureau": "AVESNES",
+    "distanceKm": 5.8
+  },
+  "SAINT AYBERT": {
+    "bureau": "CONDE",
+    "distanceKm": 3.2
+  },
+  "SAINT BENIN": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 1.3
+  },
+  "SAINT GEORGES SUR L AA": {
+    "bureau": "GRAVELINES",
+    "distanceKm": 4.2
+  },
+  "SAINT HILAIRE LEZ CAMBRAI": {
+    "bureau": "CARNIERES",
+    "distanceKm": 5.8
+  },
+  "SAINT HILAIRE SUR HELPE": {
+    "bureau": "AVESNES",
+    "distanceKm": 2.3
+  },
+  "SAINT JANS CAPPEL": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 4.0
+  },
+  "SAINT MARTIN SUR ECAILLON": {
+    "bureau": "SOLESMES",
+    "distanceKm": 7.4
+  },
+  "SAINT MOMELIN": {
+    "bureau": "WATTEN",
+    "distanceKm": 2.9
+  },
+  "SAINT PIERRE BROUCK": {
+    "bureau": "BOURBOURG",
+    "distanceKm": 5.5
+  },
+  "SAINT POL SUR MER": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "SAINT PYTHON": {
+    "bureau": "SOLESMES",
+    "distanceKm": 3.3
+  },
+  "SAINT REMY CHAUSSEE": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 6.8
+  },
+  "SAINT REMY DU NORD": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 7.4
+  },
+  "SAINT SAULVE": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.3
+  },
+  "SAINT SOUPLET": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.0
+  },
+  "SAINT SYLVESTRE CAPPEL": {
+    "bureau": "CASSEL",
+    "distanceKm": 4.1
+  },
+  "SAINT VAAST EN CAMBRESIS": {
+    "bureau": "SOLESMES",
+    "distanceKm": 6.6
+  },
+  "SAINT VAAST": {
+    "bureau": "SOLESMES",
+    "distanceKm": 6.6
+  },
+  "SAINT WAAST": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.2
+  },
+  "SAINTE MARIE CAPPEL": {
+    "bureau": "CASSEL",
+    "distanceKm": 2.0
+  },
+  "SALESCHES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 5.0
+  },
+  "SALOME": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 1.8
+  },
+  "SAMEON": {
+    "bureau": "ORCHIES",
+    "distanceKm": 6.6
+  },
+  "SANCOURT": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.8
+  },
+  "SANTES": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 2.7
+  },
+  "SARS POTERIES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 3.9
+  },
+  "SARS ET ROSIERES": {
+    "bureau": "ORCHIES",
+    "distanceKm": 6.8
+  },
+  "SASSEGNIES": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 3.4
+  },
+  "SAULTAIN": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 5.7
+  },
+  "SAULZOIR": {
+    "bureau": "SOLESMES",
+    "distanceKm": 9.1
+  },
+  "SEBOURG": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 9.5
+  },
+  "SELVIGNY": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "SEMOUSIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 5.5
+  },
+  "SEPMERIES": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 5.5
+  },
+  "SEQUEDIN": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 2.8
+  },
+  "SERCUS": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 6.4
+  },
+  "SIN LE NOBLE": {
+    "bureau": "DOUAI",
+    "distanceKm": 1.9
+  },
+  "SOCX": {
+    "bureau": "BERGUES",
+    "distanceKm": 3.6
+  },
+  "SOLRINNES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 4.3
+  },
+  "SOMAIN": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 6.2
+  },
+  "SOMMAING": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 9.2
+  },
+  "SPYCKER": {
+    "bureau": "DUNKERQUE",
+    "distanceKm": 5.1
+  },
+  "STAPLE": {
+    "bureau": "CASSEL",
+    "distanceKm": 5.7
+  },
+  "STEENBECQUE": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 6.0
+  },
+  "STEENE": {
+    "bureau": "BERGUES",
+    "distanceKm": 4.9
+  },
+  "STEENWERCK": {
+    "bureau": "BAILLEUL",
+    "distanceKm": 5.8
+  },
+  "STRAZEELE": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 5.9
+  },
+  "SEMERIES": {
+    "bureau": "AVESNES",
+    "distanceKm": 4.6
+  },
+  "SERANVILLERS FORENVILLE": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.4
+  },
+  "SERANVILLERS": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 5.4
+  },
+  "TAISNIERES EN THIERACHE": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 6.9
+  },
+  "TAISNIERES SUR HON": {
+    "bureau": "BAVAY",
+    "distanceKm": 4.8
+  },
+  "TEMPLEMARS": {
+    "bureau": "SECLIN",
+    "distanceKm": 3.6
+  },
+  "TEMPLEUVE EN PEVELE": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 4.1
+  },
+  "TEMPLEUVE": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 4.1
+  },
+  "TERDEGHEM": {
+    "bureau": "STEENVOORDE",
+    "distanceKm": 3.5
+  },
+  "THIANT": {
+    "bureau": "DENAIN",
+    "distanceKm": 5.0
+  },
+  "THIENNES": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 9.2
+  },
+  "THIVENCELLE": {
+    "bureau": "CONDE",
+    "distanceKm": 2.5
+  },
+  "THUMERIES": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 6.5
+  },
+  "THUN SAINT AMAND": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 5.3
+  },
+  "THUN": {
+    "bureau": "SAINT-AMAND-LES-EAUX",
+    "distanceKm": 5.3
+  },
+  "THUN SAINT MARTIN": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 6.7
+  },
+  "THUN L EVEQUE": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 6.2
+  },
+  "TILLOY LEZ CAMBRAI": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.8
+  },
+  "TILLOY": {
+    "bureau": "CAMBRAI",
+    "distanceKm": 3.8
+  },
+  "TILLOY LEZ MARCHIENNES": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 5.8
+  },
+  "TOUFFLERS": {
+    "bureau": "LANNOY",
+    "distanceKm": 1.7
+  },
+  "TOURMIGNIES": {
+    "bureau": "PONT-A-MARCQ",
+    "distanceKm": 2.8
+  },
+  "TRESSIN": {
+    "bureau": "LANNOY",
+    "distanceKm": 5.4
+  },
+  "TRITH SAINT LEGER": {
+    "bureau": "VALENCIENNES",
+    "distanceKm": 4.1
+  },
+  "TROISVILLES": {
+    "bureau": "LE CATEAU",
+    "distanceKm": 4.7
+  },
+  "TETEGHEM COUDEKERQUE VILLAGE": {
+    "bureau": "BERGUES",
+    "distanceKm": 4.5
+  },
+  "TETEGHEM": {
+    "bureau": "BERGUES",
+    "distanceKm": 4.5
+  },
+  "UXEM": {
+    "bureau": "BERGUES",
+    "distanceKm": 7.9
+  },
+  "VENDEGIES AU BOIS": {
+    "bureau": "SOLESMES",
+    "distanceKm": 4.9
+  },
+  "VENDEGIES SUR ECAILLON": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 8.5
+  },
+  "VENDEVILLE": {
+    "bureau": "SECLIN",
+    "distanceKm": 4.9
+  },
+  "VERCHAIN MAUGRE": {
+    "bureau": "DENAIN",
+    "distanceKm": 8.6
+  },
+  "VERLINGHEM": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 3.5
+  },
+  "VERTAIN": {
+    "bureau": "SOLESMES",
+    "distanceKm": 4.4
+  },
+  "VICQ": {
+    "bureau": "CONDE",
+    "distanceKm": 5.7
+  },
+  "VIESLY": {
+    "bureau": "SOLESMES",
+    "distanceKm": 4.4
+  },
+  "VIEUX BERQUIN": {
+    "bureau": "MERVILLE",
+    "distanceKm": 5.4
+  },
+  "VIEUX CONDE": {
+    "bureau": "CONDE",
+    "distanceKm": 3.6
+  },
+  "VIEUX MESNIL": {
+    "bureau": "BAVAY",
+    "distanceKm": 5.8
+  },
+  "VIEUX RENG": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 7.4
+  },
+  "VILLENEUVE D ASCQ": {
+    "bureau": "LANNOY",
+    "distanceKm": 4.8
+  },
+  "ANNAPPES": {
+    "bureau": "LANNOY",
+    "distanceKm": 4.8
+  },
+  "VILLEREAU": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 3.8
+  },
+  "VILLERS CAMPEAU": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "VILLERS GUISLAIN": {
+    "bureau": "MARCOING",
+    "distanceKm": 8.8
+  },
+  "VILLERS OUTREAUX": {
+    "bureau": "CLARY",
+    "distanceKm": 8.6
+  },
+  "VILLERS PLOUICH": {
+    "bureau": "MARCOING",
+    "distanceKm": 4.5
+  },
+  "VILLERS POL": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 4.5
+  },
+  "VILLERS SIRE NICOLE": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 7.3
+  },
+  "VILLERS AU TERTRE": {
+    "bureau": "ARLEUX",
+    "distanceKm": 5.2
+  },
+  "VILLERS EN CAUCHIES": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 7.8
+  },
+  "VOLCKERINCKHOVE": {
+    "bureau": "WATTEN",
+    "distanceKm": 4.7
+  },
+  "VRED": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 2.4
+  },
+  "WAHAGNIES": {
+    "bureau": "SECLIN",
+    "distanceKm": 6.7
+  },
+  "WALINCOURT SELVIGNY": {
+    "bureau": "CLARY",
+    "distanceKm": 4.2
+  },
+  "WALINCOURT": {
+    "bureau": "CLARY",
+    "distanceKm": 4.2
+  },
+  "WALLERS": {
+    "bureau": "DENAIN",
+    "distanceKm": 5.1
+  },
+  "WALLERS EN FAGNE": {
+    "bureau": "TRELON",
+    "distanceKm": 2.9
+  },
+  "WALLERS TRELON": {
+    "bureau": "TRELON",
+    "distanceKm": 2.9
+  },
+  "WALLON CAPPEL": {
+    "bureau": "HAZEBROUCK",
+    "distanceKm": 3.8
+  },
+  "WAMBAIX": {
+    "bureau": "CARNIERES",
+    "distanceKm": 4.4
+  },
+  "WAMBRECHIES": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 3.2
+  },
+  "WANDIGNIES HAMAGE": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 5.5
+  },
+  "WANNEHAIN": {
+    "bureau": "CYSOING",
+    "distanceKm": 4.5
+  },
+  "WARGNIES LE GRAND": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 7.1
+  },
+  "WARGNIES LE PETIT": {
+    "bureau": "LE QUESNOY",
+    "distanceKm": 7.0
+  },
+  "WARHEM": {
+    "bureau": "BERGUES",
+    "distanceKm": 5.0
+  },
+  "WARLAING": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 5.4
+  },
+  "WARNETON": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 4.7
+  },
+  "WARNETON BAS": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 4.7
+  },
+  "WARNETON SUD": {
+    "bureau": "LILLE",
+    "distanceKm": 0.0
+  },
+  "WASNES AU BAC": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 4.6
+  },
+  "WASQUEHAL": {
+    "bureau": "ROUBAIX",
+    "distanceKm": 4.2
+  },
+  "WATTIGNIES": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 3.8
+  },
+  "WATTIGNIES LA VICTOIRE": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 7.7
+  },
+  "WATTRELOS": {
+    "bureau": "ROUBAIX",
+    "distanceKm": 3.5
+  },
+  "WAVRECHAIN SOUS DENAIN": {
+    "bureau": "DENAIN",
+    "distanceKm": 2.2
+  },
+  "WAVRECHAIN SOUS FAULX": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 2.5
+  },
+  "WAVRIN": {
+    "bureau": "HAUBOURDIN",
+    "distanceKm": 4.8
+  },
+  "WAZIERS": {
+    "bureau": "DOUAI",
+    "distanceKm": 1.0
+  },
+  "WEMAERS CAPPEL": {
+    "bureau": "CASSEL",
+    "distanceKm": 4.8
+  },
+  "WERVICQ SUD": {
+    "bureau": "QUESNOY-SUR-DEULE",
+    "distanceKm": 6.1
+  },
+  "WEST CAPPEL": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 6.2
+  },
+  "WICRES": {
+    "bureau": "LA BASSEE",
+    "distanceKm": 5.2
+  },
+  "WIGNEHIES": {
+    "bureau": "TRELON",
+    "distanceKm": 10.6
+  },
+  "WILLEMS": {
+    "bureau": "LANNOY",
+    "distanceKm": 4.0
+  },
+  "WILLIES": {
+    "bureau": "SOLRE-LE-CHATEAU",
+    "distanceKm": 5.5
+  },
+  "WINNEZEELE": {
+    "bureau": "STEENVOORDE",
+    "distanceKm": 3.1
+  },
+  "WORMHOUDT": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 0.0
+  },
+  "WULVERDINGHE": {
+    "bureau": "WATTEN",
+    "distanceKm": 1.3
+  },
+  "WYLDER": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 4.0
+  },
+  "ZEGERSCAPPEL": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 6.8
+  },
+  "ZEGGERS CAPPEL": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 6.8
+  },
+  "ZERMEZEELE": {
+    "bureau": "WORMHOUT",
+    "distanceKm": 4.9
+  },
+  "ZUYDCOOTE": {
+    "bureau": "BERGUES",
+    "distanceKm": 11.1
+  },
+  "ZUYTPEENE": {
+    "bureau": "CASSEL",
+    "distanceKm": 5.2
+  },
+  "ECAILLON": {
+    "bureau": "MARCHIENNES",
+    "distanceKm": 7.6
+  },
+  "ECLAIBES": {
+    "bureau": "AVESNES",
+    "distanceKm": 8.9
+  },
+  "ECUELIN": {
+    "bureau": "BERLAIMONT",
+    "distanceKm": 7.3
+  },
+  "ELESMES": {
+    "bureau": "MAUBEUGE",
+    "distanceKm": 4.5
+  },
+  "ELINCOURT": {
+    "bureau": "CLARY",
+    "distanceKm": 3.0
+  },
+  "EMERCHICOURT": {
+    "bureau": "BOUCHAIN",
+    "distanceKm": 5.8
+  },
+  "ETRŒUNGT": {
+    "bureau": "AVESNES",
+    "distanceKm": 7.2
+  }
+}

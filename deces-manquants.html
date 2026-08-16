@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VisuGedcom — Décès manquants</title>
+    <title>VisuGedcom — Aide à la recherche</title>
+    <link rel="icon" href="favicon.ico">
     <link href="assets/css/app.css" rel="stylesheet">
     <style>body { overflow-y: auto; } .tab-panel { max-width: 1100px; margin: 0 auto; }</style>
 </head>
@@ -11,48 +12,53 @@
 
 <header id="appHeader"></header>
 
-<div class="tab-panel">
+<div class="subnav-bar">
+    <button type="button" class="tab-btn active" id="topModeDecesBtn">⚰️ Décès manquants</button>
+    <button type="button" class="tab-btn" id="topModeFaBtn">📋 FranceArchives</button>
+</div>
+
+<div id="dmPanel" class="tab-panel">
     <div class="quality-container" style="max-width:none;">
         <p class="quality-intro">Personnes dont le décès manque ou est incomplet (probabilité estimée d'être décédées après 1970, période couverte par le fichier des décès de l'INSEE), ainsi que les personnes dont le décès est connu mais la naissance incomplète. Chaque piste peut être vérifiée d'un clic sur matchID.</p>
 
         <div class="options-panel">
             <div class="checkbox-group">
-                <label><input type="checkbox" id="optIncludeIncompleteDeath" checked> Inclure les décès incomplets (date et/ou lieu manquant), pas seulement les décès absents</label>
-                <label><input type="checkbox" id="optExcludeEstimated"> Exclure les naissances estimées (non actées)</label>
-                <label><input type="checkbox" id="optIncludeUnknownBirth" checked> Inclure les personnes sans naissance connue ni déductible</label>
+                <label><input type="checkbox" id="dmOptIncludeIncompleteDeath" checked> Inclure les décès incomplets (date et/ou lieu manquant), pas seulement les décès absents</label>
+                <label><input type="checkbox" id="dmOptExcludeEstimated"> Exclure les naissances estimées (non actées)</label>
+                <label><input type="checkbox" id="dmOptIncludeUnknownBirth" checked> Inclure les personnes sans naissance connue ni déductible</label>
             </div>
             <div class="age-filter-container">
-                <label>Âge estimé aujourd'hui ≥ <input type="number" id="optAgeThreshold" value="100" min="0" style="width:60px;"> ans → confiance élevée</label>
+                <label>Âge estimé aujourd'hui ≥ <input type="number" id="dmOptAgeThreshold" value="100" min="0" style="width:60px;"> ans → confiance élevée</label>
             </div>
             <div class="age-filter-container">
-                <label>Âge estimé aujourd'hui &gt; <input type="number" id="optMaxAge" value="110" min="0" style="width:60px;"> ans → exclu</label>
+                <label>Âge estimé aujourd'hui &gt; <input type="number" id="dmOptMaxAge" value="110" min="0" style="width:60px;"> ans → exclu</label>
                 <div class="hint">Au-delà de cet âge, l'estimation de naissance est plus probablement erronée qu'une réelle longévité.</div>
             </div>
             <div class="age-filter-container">
-                <label>Fenêtre de naissance plausible : <input type="number" id="optWindowStart" value="1890" style="width:70px;"> – <input type="number" id="optWindowEnd" value="1930" style="width:70px;"></label>
+                <label>Fenêtre de naissance plausible : <input type="number" id="dmOptWindowStart" value="1890" style="width:70px;"> – <input type="number" id="dmOptWindowEnd" value="1930" style="width:70px;"></label>
                 <div class="hint">Les personnes nées après cette fenêtre ne sont pas listées (trop jeunes pour être une piste plausible).</div>
             </div>
             <div class="map-scope-row">
-                <label for="optAncestorOnly"><input type="checkbox" id="optAncestorOnly"> Uniquement les ascendants de :</label>
+                <label for="dmOptAncestorOnly"><input type="checkbox" id="dmOptAncestorOnly"> Uniquement les ascendants de :</label>
                 <div class="ctrl">
-                    <input type="text" id="personSearch" placeholder="Rechercher une personne..." disabled>
-                    <ul id="personResults" class="person-picker-results"></ul>
+                    <input type="text" id="dmPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="dmPersonResults" class="person-picker-results"></ul>
                 </div>
-                <span id="personSelected" class="map-person-selected"></span>
+                <span id="dmPersonSelected" class="map-person-selected"></span>
             </div>
         </div>
 
         <div class="controls">
-            <button id="analyzeBtn" disabled>Analyser le fichier</button>
-            <button id="csvMatchIdBtn" class="secondary hidden">⬇ Export CSV matchID (appariement de masse)</button>
-            <a id="matchIdUploadLink" class="btn-link hidden" href="https://deces.matchid.io/link" target="_blank" rel="noopener">↗ Déposer le CSV sur deces.matchid.io/link</a>
-            <button id="csvSimpleBtn" class="ghost hidden">⬇ Export CSV simple</button>
+            <button id="dmAnalyzeBtn" disabled>Analyser le fichier</button>
+            <button id="dmCsvMatchIdBtn" class="secondary hidden">⬇ Export CSV matchID (appariement de masse)</button>
+            <a id="dmMatchIdUploadLink" class="btn-link hidden" href="https://deces.matchid.io/link" target="_blank" rel="noopener">↗ Déposer le CSV sur deces.matchid.io/link</a>
+            <button id="dmCsvSimpleBtn" class="ghost hidden">⬇ Export CSV simple</button>
         </div>
         <p class="hint" style="text-align:center;">Le CSV matchID se dépose sur <a href="https://deces.matchid.io/link" target="_blank" rel="noopener">deces.matchid.io/link</a> (appariement de masse) pour matcher toute la liste en une fois.</p>
 
-        <div id="status">Chargez un fichier GEDCOM depuis l'accueil.</div>
+        <div id="dmStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
 
-        <div id="resultsWrap" class="hidden">
+        <div id="dmResultsWrap" class="hidden">
             <table>
                 <thead>
                     <tr>
@@ -67,7 +73,129 @@
                         <th>Action</th>
                     </tr>
                 </thead>
-                <tbody id="resultsBody"></tbody>
+                <tbody id="dmResultsBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div id="faPanel" class="tab-panel hidden">
+    <div class="quality-container" style="max-width:none;">
+
+        <div class="controls" style="justify-content:center; margin-bottom:18px;">
+            <button type="button" class="tab-btn active" id="faModeRecensementBtn">📋 Recensement</button>
+            <button type="button" class="tab-btn" id="faModeNotariatBtn">⚖ Notariat</button>
+            <button type="button" class="tab-btn" id="faModeSuccessionsBtn">⚰ Successions (Nord)</button>
+        </div>
+
+        <div id="faIntroRecensement">
+            <p class="quality-intro">Pour chaque personne, un lien de recherche par date de recensement non déjà actée dans le GEDCOM, quand son département de résidence estimé à cette date fait partie des bases indexées par FranceArchives (Projet SOCFACE).</p>
+            <p class="hint" style="text-align:center;">Filtre obligatoire : seules les personnes ayant pu être vivantes pendant la période de recensement retenue sont listées.</p>
+            <p class="hint" style="text-align:center;">Hypothèse de résidence par date : avant le mariage (ou en l'absence de mariage connu), la commune de naissance ; après, la commune de décès (à défaut, celle du mariage).</p>
+            <p class="hint" style="text-align:center;">Les liens de recherche utilisent une troncature ("*") sur le nom et le prénom pour compenser les erreurs de transcription OCR fréquentes sur ces registres — élargissez ou affinez la recherche directement sur FranceArchives si besoin.</p>
+        </div>
+        <div id="faIntroNotariat" class="hidden">
+            <p class="quality-intro">Pour chaque personne mariée ou décédée à une date et un lieu connus (actés, pas estimés), les notaires ayant exercé dans la même commune sur une période couvrant cette date, d'après la base <a href="https://www.francegenweb.eu/notaires/" target="_blank" rel="noopener">Notaires de FranceGenWeb</a> (~40&nbsp;000 fiches, France métropolitaine et DOM-TOM) — piste la plus probable pour retrouver un contrat de mariage ou un inventaire après décès, avec un lien direct vers chaque fiche.</p>
+            <p class="hint" style="text-align:center;">La correspondance se fait par nom de commune (exact, après normalisation) : une commune connue du GEDCOM sous un nom différent de celui utilisé par FranceGenWeb (fusion, ancien nom, hameau plutôt que commune de rattachement...) ne remontera aucune piste ici — vérifiez alors directement sur le site si besoin.</p>
+            <p class="hint" style="text-align:center;">Base tenue par des bénévoles à partir d'actes dépouillés au fil du temps : l'absence de piste pour une commune/période donnée ne signifie pas qu'aucun notaire n'y exerçait, seulement qu'aucune fiche n'a encore été saisie.</p>
+        </div>
+        <div id="faIntroSuccessions" class="hidden">
+            <p class="quality-intro">Pour chaque personne décédée entre 1791 et 1970 dans le département du Nord, à une commune connue, un lien direct vers le(s) registre(s) du portail des <a href="https://archivesdepartementales.lenord.fr/" target="_blank" rel="noopener">Archives départementales du Nord</a> couvrant cette année, dans la série des tables des successions et absences (cote 3Q). En dehors de cette période, la série ne couvre rien : ces personnes ne remontent aucune piste.</p>
+            <p class="hint" style="text-align:center;">Contrairement au mode Notariat, ce portail n'a pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Les 1932 registres de la série ont été dépouillés à l'avance (voir scripts_py/scrape_successions_nord.py) pour cibler directement la bonne notice au lieu de passer par le filtre "Lieux" du portail, qui n'affiche de toute façon que ses 30 valeurs les plus fréquentes.</p>
+            <p class="hint" style="text-align:center;">Une commune n'ayant jamais son propre registre (rattachée au bureau d'enregistrement dont elle dépendait à l'époque) affiche une piste ⚠ vers le bureau le plus proche géographiquement, à vérifier soi-même — ce repli est une approximation par proximité, pas la vraie circonscription historique du bureau (non disponible dans cet outil).</p>
+            <p class="hint" style="text-align:center;">Limité au Nord pour l'instant : chaque département a son propre portail d'archives, avec sa propre technique de recherche ; l'ajout d'un département suivant reprend le même mécanisme (voir successions.js).</p>
+        </div>
+
+        <div class="options-panel">
+            <div id="faRecensementOptions">
+                <label for="faDeptCodesInput"><strong>Départements à vérifier</strong> (codes INSEE séparés par des virgules)</label>
+                <textarea id="faDeptCodesInput" rows="3" style="width:100%; box-sizing:border-box; font-family:inherit; font-size:0.85rem; padding:8px; border:1px solid #bdc3c7; border-radius:4px;"></textarea>
+                <div class="hint">Modifiez librement cette liste ; elle est réinitialisable au besoin.</div>
+                <button type="button" id="faResetDeptsBtn" class="ghost" style="margin-top:6px;">Réinitialiser les départements</button>
+
+                <label for="faCensusDatesInput" style="margin-top:16px; display:block;"><strong>Dates de recensement</strong> (années séparées par des virgules)</label>
+                <textarea id="faCensusDatesInput" rows="2" style="width:100%; box-sizing:border-box; font-family:inherit; font-size:0.85rem; padding:8px; border:1px solid #bdc3c7; border-radius:4px;"></textarea>
+                <div class="hint">Un recensement déjà acté dans le GEDCOM (à ±1 an) pour l'une de ces dates n'est pas proposé à nouveau.</div>
+                <button type="button" id="faResetDatesBtn" class="ghost" style="margin-top:6px;">Réinitialiser les dates</button>
+            </div>
+
+            <div class="age-filter-container" id="faRecensementAgeOptions">
+                <label>Âge maximal plausible à la date du recensement : <input type="number" id="faOptMaxAge" value="100" min="0" style="width:60px;"> ans</label>
+                <div class="hint">Au-delà de cet âge, l'estimation de naissance est plus probablement erronée qu'une réelle longévité : la piste n'est pas proposée.</div>
+            </div>
+
+            <div class="age-filter-container hidden" id="faNotariatOptions">
+                <label>Tolérance sur la période d'exercice du notaire : <input type="number" id="faOptNotaireTolerance" value="0" min="0" style="width:60px;"> ans</label>
+                <div class="hint">Élargit de part et d'autre les dates de début/fin connues d'un notaire (souvent celles des actes retrouvés, pas forcément toute sa carrière) : augmentez si aucune piste ne ressort pour une commune où vous savez qu'un notaire exerçait.</div>
+            </div>
+
+            <div class="map-scope-row">
+                <label for="faOptAncestorOnly"><input type="checkbox" id="faOptAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="faPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="faPersonResults" class="person-picker-results"></ul>
+                </div>
+                <span id="faPersonSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="faAnalyzeBtn" disabled>Analyser le fichier</button>
+            <button id="faCsvBtn" class="secondary hidden">⬇ Export CSV</button>
+        </div>
+
+        <div id="faStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="faResultsWrapRecensement" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Mariage</th>
+                        <th>Décès</th>
+                        <th>Recensements à rechercher</th>
+                        <th>Éléments de validation</th>
+                    </tr>
+                </thead>
+                <tbody id="faResultsBodyRecensement"></tbody>
+            </table>
+        </div>
+
+        <div id="faResultsWrapNotariat" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort-nota="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-nota="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort-nota="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Mariage</th>
+                        <th>Décès</th>
+                        <th>Notaire(s) candidat(s)</th>
+                    </tr>
+                </thead>
+                <tbody id="faResultsBodyNotariat"></tbody>
+            </table>
+        </div>
+
+        <div id="faResultsWrapSuccessions" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort-succ="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-succ="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th>Naissance</th>
+                        <th>Mariage</th>
+                        <th class="sortable" data-sort-succ="death">Décès <span class="sort-arrow"></span></th>
+                        <th>Commune</th>
+                        <th>Registre</th>
+                    </tr>
+                </thead>
+                <tbody id="faResultsBodySuccessions"></tbody>
             </table>
         </div>
     </div>
@@ -78,165 +206,612 @@ import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
 import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LABELS } from './assets/js/deces-manquants.js';
+import {
+    computeMissingRecensements, buildFranceArchivesUrl,
+    RECENSEMENT_DEPT_CODES_DEFAULT, RECENSEMENT_DATES_DEFAULT,
+    parseDeptCodesInput, parseCensusDatesInput
+} from './assets/js/recensements.js';
+import { computeNotarialActLeads, loadNotairesIndex, notaireDetailUrl } from './assets/js/notaires.js';
+import { computeSuccessionLeads, loadSuccessionIndexes } from './assets/js/successions.js';
+import { estimateBirthYear } from './assets/js/inference.js';
 
-let list = [], map = new Map(), fams = new Map();
-let ancestorPersonId = null;
-let lastResults = [];
-let sortKey = 'sosa', sortDir = 1;
-
-const CONFIDENCE_RANK = { high: 2, medium: 1, low: 0 };
-const SORT_COMPARATORS = {
-    sosa: r => r.sosa ?? Infinity,
-    name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
-    category: r => CATEGORY_LABELS[r.category] || r.category,
-    birth: r => r.birthEst ? r.birthEst.year : -Infinity,
-    lastAlive: r => r.lastAlive != null ? r.lastAlive : -Infinity,
-    confidence: r => CONFIDENCE_RANK[r.confidence.level] ?? -1
-};
-
-function sortedResults() {
-    const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
-    return [...lastResults].sort((a, b) => {
-        const ka = getKey(a), kb = getKey(b);
-        const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
-        return cmp * sortDir;
-    });
+// --- Sous-navigation : bascule entre les deux volets fusionnés sur cette page ---
+const topModeDecesBtn = document.getElementById('topModeDecesBtn');
+const topModeFaBtn = document.getElementById('topModeFaBtn');
+const dmPanelEl = document.getElementById('dmPanel');
+const faPanelEl = document.getElementById('faPanel');
+function setTopMode(m) {
+    topModeDecesBtn.classList.toggle('active', m === 'deces');
+    topModeFaBtn.classList.toggle('active', m === 'fa');
+    dmPanelEl.classList.toggle('hidden', m !== 'deces');
+    faPanelEl.classList.toggle('hidden', m !== 'fa');
 }
+topModeDecesBtn.addEventListener('click', () => setTopMode('deces'));
+topModeFaBtn.addEventListener('click', () => setTopMode('fa'));
 
-document.querySelectorAll('th.sortable').forEach(th => {
-    th.addEventListener('click', () => {
-        const key = th.dataset.sort;
-        if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+// --- Décès manquants ---
+// Enveloppé dans une IIFE : ce volet reprend tel quel le script de l'ancienne page
+// deces-manquants.html (mêmes noms de variables internes), seuls les id du DOM sont préfixés
+// "dm" pour cohabiter avec le volet FranceArchives sur la même page.
+const dm = (() => {
+    let list = [], map = new Map(), fams = new Map();
+    let ancestorPersonId = null;
+    let lastResults = [];
+    let sortKey = 'sosa', sortDir = 1;
+
+    const CONFIDENCE_RANK = { high: 2, medium: 1, low: 0 };
+    const SORT_COMPARATORS = {
+        sosa: r => r.sosa ?? Infinity,
+        name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
+        category: r => CATEGORY_LABELS[r.category] || r.category,
+        birth: r => r.birthEst ? r.birthEst.year : -Infinity,
+        lastAlive: r => r.lastAlive != null ? r.lastAlive : -Infinity,
+        confidence: r => CONFIDENCE_RANK[r.confidence.level] ?? -1
+    };
+
+    function sortedResults() {
+        const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+        return [...lastResults].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDir;
+        });
+    }
+
+    document.querySelectorAll('#dmPanel th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sort;
+            if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+            updateSortIndicators();
+            renderResults();
+        });
+    });
+    function updateSortIndicators() {
+        document.querySelectorAll('#dmPanel th.sortable').forEach(th => {
+            const active = th.dataset.sort === sortKey;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+        });
+    }
+
+    const analyzeBtn = document.getElementById('dmAnalyzeBtn');
+    const statusEl = document.getElementById('dmStatus');
+    const resultsWrap = document.getElementById('dmResultsWrap');
+    const resultsBody = document.getElementById('dmResultsBody');
+    const csvMatchIdBtn = document.getElementById('dmCsvMatchIdBtn');
+    const matchIdUploadLink = document.getElementById('dmMatchIdUploadLink');
+    const csvSimpleBtn = document.getElementById('dmCsvSimpleBtn');
+    const ancestorOnlyEl = document.getElementById('dmOptAncestorOnly');
+    const personSearchEl = document.getElementById('dmPersonSearch');
+    const personResultsEl = document.getElementById('dmPersonResults');
+    const personSelectedEl = document.getElementById('dmPersonSelected');
+
+    ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
+    createPersonPicker({
+        searchEl: personSearchEl, resultsEl: personResultsEl, selectedEl: personSelectedEl,
+        getList: () => list,
+        onSelect: p => { ancestorPersonId = p.id; }
+    });
+    wireClickAway(personResultsEl);
+
+    function readOpts() {
+        return {
+            includeIncompleteDeath: document.getElementById('dmOptIncludeIncompleteDeath').checked,
+            excludeEstimatedBirth: document.getElementById('dmOptExcludeEstimated').checked,
+            includeUnknownBirth: document.getElementById('dmOptIncludeUnknownBirth').checked,
+            ageThreshold: parseInt(document.getElementById('dmOptAgeThreshold').value) || 100,
+            maxAge: parseInt(document.getElementById('dmOptMaxAge').value) || 110,
+            windowStart: parseInt(document.getElementById('dmOptWindowStart').value) || 1890,
+            windowEnd: parseInt(document.getElementById('dmOptWindowEnd').value) || 1930,
+            ancestorScopeSet: (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null
+        };
+    }
+
+    const CONF_LABEL = { high: 'Élevée', medium: 'Moyenne', low: 'Faible' };
+
+    analyzeBtn.addEventListener('click', () => {
+        if (!list.length) return;
+        statusEl.textContent = 'Analyse en cours…';
+        const opts = readOpts();
+        const sosaMap = opts.ancestorScopeSet ? getSosaMap(map, ancestorPersonId) : null;
+        lastResults = computeMissingDeaths(list, map, fams, opts);
+        lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+
+        statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
+        if (!lastResults.length) {
+            resultsWrap.classList.add('hidden');
+            csvMatchIdBtn.classList.add('hidden');
+            matchIdUploadLink.classList.add('hidden');
+            csvSimpleBtn.classList.add('hidden');
+            return;
+        }
+        resultsWrap.classList.remove('hidden');
+        csvMatchIdBtn.classList.remove('hidden');
+        matchIdUploadLink.classList.remove('hidden');
+        csvSimpleBtn.classList.remove('hidden');
+
+        sortKey = sosaMap ? 'sosa' : 'name';
+        sortDir = 1;
         updateSortIndicators();
         renderResults();
     });
-});
-function updateSortIndicators() {
-    document.querySelectorAll('th.sortable').forEach(th => {
-        const active = th.dataset.sort === sortKey;
-        th.classList.toggle('sort-active', active);
-        th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
-    });
-}
 
-const analyzeBtn = document.getElementById('analyzeBtn');
-const statusEl = document.getElementById('status');
-const resultsWrap = document.getElementById('resultsWrap');
-const resultsBody = document.getElementById('resultsBody');
-const csvMatchIdBtn = document.getElementById('csvMatchIdBtn');
-const matchIdUploadLink = document.getElementById('matchIdUploadLink');
-const csvSimpleBtn = document.getElementById('csvSimpleBtn');
-const ancestorOnlyEl = document.getElementById('optAncestorOnly');
-const personSearchEl = document.getElementById('personSearch');
-const personResultsEl = document.getElementById('personResults');
-const personSelectedEl = document.getElementById('personSelected');
-
-ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
-createPersonPicker({
-    searchEl: personSearchEl, resultsEl: personResultsEl, selectedEl: personSelectedEl,
-    getList: () => list,
-    onSelect: p => { ancestorPersonId = p.id; }
-});
-wireClickAway(personResultsEl);
-
-function readOpts() {
-    return {
-        includeIncompleteDeath: document.getElementById('optIncludeIncompleteDeath').checked,
-        excludeEstimatedBirth: document.getElementById('optExcludeEstimated').checked,
-        includeUnknownBirth: document.getElementById('optIncludeUnknownBirth').checked,
-        ageThreshold: parseInt(document.getElementById('optAgeThreshold').value) || 100,
-        maxAge: parseInt(document.getElementById('optMaxAge').value) || 110,
-        windowStart: parseInt(document.getElementById('optWindowStart').value) || 1890,
-        windowEnd: parseInt(document.getElementById('optWindowEnd').value) || 1930,
-        ancestorScopeSet: (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null
-    };
-}
-
-const CONF_LABEL = { high: 'Élevée', medium: 'Moyenne', low: 'Faible' };
-
-analyzeBtn.addEventListener('click', () => {
-    if (!list.length) return;
-    statusEl.textContent = 'Analyse en cours…';
-    const opts = readOpts();
-    const sosaMap = opts.ancestorScopeSet ? getSosaMap(map, ancestorPersonId) : null;
-    lastResults = computeMissingDeaths(list, map, fams, opts);
-    lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
-
-    statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
-    if (!lastResults.length) {
-        resultsWrap.classList.add('hidden');
-        csvMatchIdBtn.classList.add('hidden');
-        matchIdUploadLink.classList.add('hidden');
-        csvSimpleBtn.classList.add('hidden');
-        return;
+    function renderResults() {
+        resultsBody.innerHTML = '';
+        sortedResults().forEach(r => {
+            const p = r.person;
+            const tr = document.createElement('tr');
+            const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}<div class="reason-list" style="padding-left:0;list-style:none;">${escapeHtml(r.birthEst.source)}</div>` : '<em>inconnue</em>';
+            const url = buildMatchIdUrl(p, r.birthEst);
+            tr.innerHTML = `
+                <td>${r.sosa != null ? r.sosa : '-'}</td>
+                <td>${escapeHtml(p.surname || '')}</td>
+                <td>${escapeHtml(p.given || '')}</td>
+                <td>${escapeHtml(CATEGORY_LABELS[r.category] || r.category)}</td>
+                <td>${birthDisplay}</td>
+                <td>${escapeHtml(p.birth?.geo?.city || '')}</td>
+                <td>${r.lastAlive != null ? r.lastAlive : '-'}</td>
+                <td>
+                    <span class="confidence-badge confidence-${r.confidence.level}">${CONF_LABEL[r.confidence.level]}</span>
+                    <ul class="reason-list">${r.confidence.reasons.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
+                </td>
+                <td><a class="btn-link" href="${url}" target="_blank" rel="noopener">🔍 matchID</a></td>
+            `;
+            resultsBody.appendChild(tr);
+        });
     }
-    resultsWrap.classList.remove('hidden');
-    csvMatchIdBtn.classList.remove('hidden');
-    matchIdUploadLink.classList.remove('hidden');
-    csvSimpleBtn.classList.remove('hidden');
 
-    sortKey = sosaMap ? 'sosa' : 'name';
-    sortDir = 1;
-    updateSortIndicators();
-    renderResults();
-});
-
-function renderResults() {
-    resultsBody.innerHTML = '';
-    sortedResults().forEach(r => {
-        const p = r.person;
-        const tr = document.createElement('tr');
-        const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}<div class="reason-list" style="padding-left:0;list-style:none;">${escapeHtml(r.birthEst.source)}</div>` : '<em>inconnue</em>';
-        const url = buildMatchIdUrl(p, r.birthEst);
-        tr.innerHTML = `
-            <td>${r.sosa != null ? r.sosa : '-'}</td>
-            <td>${escapeHtml(p.surname || '')}</td>
-            <td>${escapeHtml(p.given || '')}</td>
-            <td>${escapeHtml(CATEGORY_LABELS[r.category] || r.category)}</td>
-            <td>${birthDisplay}</td>
-            <td>${escapeHtml(p.birth?.geo?.city || '')}</td>
-            <td>${r.lastAlive != null ? r.lastAlive : '-'}</td>
-            <td>
-                <span class="confidence-badge confidence-${r.confidence.level}">${CONF_LABEL[r.confidence.level]}</span>
-                <ul class="reason-list">${r.confidence.reasons.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
-            </td>
-            <td><a class="btn-link" href="${url}" target="_blank" rel="noopener">🔍 matchID</a></td>
-        `;
-        resultsBody.appendChild(tr);
+    csvMatchIdBtn.addEventListener('click', () => {
+        if (!lastResults.length) return;
+        const { headers, rows } = buildMatchIdCsvRows(sortedResults());
+        downloadCsv('deces_manquants_matchid.csv', headers, rows);
     });
-}
+    csvSimpleBtn.addEventListener('click', () => {
+        if (!lastResults.length) return;
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Motif', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
+        const rows = sortedResults().map(r => [
+            r.sosa != null ? r.sosa : '',
+            r.person.id,
+            r.person.surname || '',
+            r.person.given || '',
+            CATEGORY_LABELS[r.category] || r.category,
+            r.birthEst ? r.birthEst.year : '',
+            r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+            r.person.birth?.geo?.city || '',
+            r.lastAlive != null ? r.lastAlive : '',
+            CONF_LABEL[r.confidence.level]
+        ]);
+        downloadCsv('deces_manquants.csv', headers, rows);
+    });
 
-csvMatchIdBtn.addEventListener('click', () => {
-    if (!lastResults.length) return;
-    const { headers, rows } = buildMatchIdCsvRows(sortedResults());
-    downloadCsv('deces_manquants_matchid.csv', headers, rows);
-});
-csvSimpleBtn.addEventListener('click', () => {
-    if (!lastResults.length) return;
-    const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Motif', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
-    const rows = sortedResults().map(r => [
-        r.sosa != null ? r.sosa : '',
-        r.person.id,
-        r.person.surname || '',
-        r.person.given || '',
-        CATEGORY_LABELS[r.category] || r.category,
-        r.birthEst ? r.birthEst.year : '',
-        r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
-        r.person.birth?.geo?.city || '',
-        r.lastAlive != null ? r.lastAlive : '',
-        CONF_LABEL[r.confidence.level]
-    ]);
-    downloadCsv('deces_manquants.csv', headers, rows);
-});
+    return {
+        applyData(data) {
+            list = data.list; map = data.map; fams = data.fams;
+            analyzeBtn.disabled = !list.length;
+            statusEl.textContent = list.length
+                ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+                : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+        }
+    };
+})();
+
+// --- FranceArchives (Recensement / Notariat / Successions) ---
+// Enveloppé dans une IIFE pour la même raison que le volet Décès manquants ci-dessus (isoler ses
+// noms de variables internes) ; reprend tel quel le script de l'ancienne page recensements.html,
+// avec les id du DOM préfixés "fa".
+const fa = (() => {
+    // Lancé dès le chargement de la page (avant même qu'un GEDCOM soit importé) : le fichier pèse
+    // quelques Mo, autant paralléliser sa récupération avec le temps que prend la personne à choisir
+    // et charger son fichier plutôt que d'attendre le clic "Analyser".
+    loadNotairesIndex();
+    loadSuccessionIndexes();
+
+    let list = [], map = new Map(), fams = new Map();
+    let ancestorPersonId = null;
+    let lastResults = [];
+    let notarialResults = [];
+    let successionResults = [];
+    let mode = 'recensement'; // 'recensement' | 'notariat' | 'successions'
+    let sortKey = 'sosa', sortDir = 1;
+    let sortKeyNota = 'sosa', sortDirNota = 1;
+    let sortKeySucc = 'sosa', sortDirSucc = 1;
+
+    const SORT_COMPARATORS = {
+        sosa: r => r.sosa ?? Infinity,
+        name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
+        birth: r => r.birthEst ? r.birthEst.year : Infinity,
+        death: r => r.year ?? Infinity
+    };
+
+    function sortedResults() {
+        const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+        return [...lastResults].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDir;
+        });
+    }
+    function sortedNotarialResults() {
+        const getKey = SORT_COMPARATORS[sortKeyNota] || SORT_COMPARATORS.sosa;
+        return [...notarialResults].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDirNota;
+        });
+    }
+    function sortedSuccessionResults() {
+        const getKey = SORT_COMPARATORS[sortKeySucc] || SORT_COMPARATORS.sosa;
+        return [...successionResults].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDirSucc;
+        });
+    }
+
+    document.querySelectorAll('#faPanel th.sortable[data-sort]').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sort;
+            if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+            updateSortIndicators();
+            renderResults();
+        });
+    });
+    document.querySelectorAll('#faPanel th.sortable[data-sort-nota]').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sortNota;
+            if (sortKeyNota === key) { sortDirNota *= -1; } else { sortKeyNota = key; sortDirNota = 1; }
+            updateSortIndicators();
+            renderNotarialResults();
+        });
+    });
+    document.querySelectorAll('#faPanel th.sortable[data-sort-succ]').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sortSucc;
+            if (sortKeySucc === key) { sortDirSucc *= -1; } else { sortKeySucc = key; sortDirSucc = 1; }
+            updateSortIndicators();
+            renderSuccessionResults();
+        });
+    });
+    function updateSortIndicators() {
+        document.querySelectorAll('#faResultsWrapRecensement th.sortable').forEach(th => {
+            const active = th.dataset.sort === sortKey;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+        });
+        document.querySelectorAll('#faResultsWrapNotariat th.sortable').forEach(th => {
+            const active = th.dataset.sortNota === sortKeyNota;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDirNota === 1 ? '▲' : '▼') : '';
+        });
+        document.querySelectorAll('#faResultsWrapSuccessions th.sortable').forEach(th => {
+            const active = th.dataset.sortSucc === sortKeySucc;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDirSucc === 1 ? '▲' : '▼') : '';
+        });
+    }
+
+    const analyzeBtn = document.getElementById('faAnalyzeBtn');
+    const statusEl = document.getElementById('faStatus');
+    const resultsWrapRecensement = document.getElementById('faResultsWrapRecensement');
+    const resultsWrapNotariat = document.getElementById('faResultsWrapNotariat');
+    const resultsWrapSuccessions = document.getElementById('faResultsWrapSuccessions');
+    const resultsBodyRecensement = document.getElementById('faResultsBodyRecensement');
+    const resultsBodyNotariat = document.getElementById('faResultsBodyNotariat');
+    const resultsBodySuccessions = document.getElementById('faResultsBodySuccessions');
+    const csvBtn = document.getElementById('faCsvBtn');
+    const ancestorOnlyEl = document.getElementById('faOptAncestorOnly');
+    const personSearchEl = document.getElementById('faPersonSearch');
+    const personResultsEl = document.getElementById('faPersonResults');
+    const personSelectedEl = document.getElementById('faPersonSelected');
+    const deptCodesInput = document.getElementById('faDeptCodesInput');
+    const censusDatesInput = document.getElementById('faCensusDatesInput');
+    const recensementOptionsEl = document.getElementById('faRecensementOptions');
+    const introRecensementEl = document.getElementById('faIntroRecensement');
+    const introNotariatEl = document.getElementById('faIntroNotariat');
+    const introSuccessionsEl = document.getElementById('faIntroSuccessions');
+    const modeRecensementBtn = document.getElementById('faModeRecensementBtn');
+    const modeNotariatBtn = document.getElementById('faModeNotariatBtn');
+    const modeSuccessionsBtn = document.getElementById('faModeSuccessionsBtn');
+
+    deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', ');
+    censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', ');
+    document.getElementById('faResetDeptsBtn').addEventListener('click', () => { deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', '); });
+    document.getElementById('faResetDatesBtn').addEventListener('click', () => { censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', '); });
+
+    ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
+    createPersonPicker({
+        searchEl: personSearchEl, resultsEl: personResultsEl, selectedEl: personSelectedEl,
+        getList: () => list,
+        onSelect: p => { ancestorPersonId = p.id; }
+    });
+    wireClickAway(personResultsEl);
+
+    // Les trois modes partagent le même fichier chargé et le même bouton "Analyser" : changer de mode
+    // ne relance pas l'analyse, il ne fait que basculer l'affichage entre les jeux de résultats déjà
+    // calculés (ou les options/intro tant que rien n'a encore été analysé).
+    function setMode(newMode) {
+        mode = newMode;
+        modeRecensementBtn.classList.toggle('active', mode === 'recensement');
+        modeNotariatBtn.classList.toggle('active', mode === 'notariat');
+        modeSuccessionsBtn.classList.toggle('active', mode === 'successions');
+        introRecensementEl.classList.toggle('hidden', mode !== 'recensement');
+        introNotariatEl.classList.toggle('hidden', mode !== 'notariat');
+        introSuccessionsEl.classList.toggle('hidden', mode !== 'successions');
+        recensementOptionsEl.classList.toggle('hidden', mode !== 'recensement');
+        document.getElementById('faRecensementAgeOptions').classList.toggle('hidden', mode !== 'recensement');
+        document.getElementById('faNotariatOptions').classList.toggle('hidden', mode !== 'notariat');
+        updateResultsVisibility();
+    }
+    modeRecensementBtn.addEventListener('click', () => setMode('recensement'));
+    modeNotariatBtn.addEventListener('click', () => setMode('notariat'));
+    modeSuccessionsBtn.addEventListener('click', () => setMode('successions'));
+
+    function updateResultsVisibility() {
+        const hasRecensement = lastResults.length > 0;
+        const hasNotariat = notarialResults.length > 0;
+        const hasSuccessions = successionResults.length > 0;
+        resultsWrapRecensement.classList.toggle('hidden', !(mode === 'recensement' && hasRecensement));
+        resultsWrapNotariat.classList.toggle('hidden', !(mode === 'notariat' && hasNotariat));
+        resultsWrapSuccessions.classList.toggle('hidden', !(mode === 'successions' && hasSuccessions));
+        const hasCurrent = mode === 'recensement' ? hasRecensement : (mode === 'notariat' ? hasNotariat : hasSuccessions);
+        csvBtn.classList.toggle('hidden', !hasCurrent);
+    }
+
+    analyzeBtn.addEventListener('click', async () => {
+        if (!list.length) return;
+        statusEl.textContent = 'Analyse en cours…';
+        const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
+        const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
+        const deptCodes = parseDeptCodesInput(deptCodesInput.value);
+        const censusDates = parseCensusDatesInput(censusDatesInput.value);
+        const maxAge = parseInt(document.getElementById('faOptMaxAge').value) || 100;
+        const tolerance = parseInt(document.getElementById('faOptNotaireTolerance').value) || 0;
+
+        lastResults = computeMissingRecensements(list, map, fams, { ancestorScopeSet: scopeSet, deptCodes, censusDates, maxAge });
+        lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+
+        // La base Notaires (chargée en tâche de fond dès l'ouverture de la page, voir loadNotairesIndex()
+        // plus haut) est normalement déjà prête ici ; l'attente ne se voit que si le fichier est encore
+        // en cours de récupération (connexion lente, premier chargement de la page juste avant le clic).
+        statusEl.textContent = 'Analyse en cours… (chargement de la base Notaires si besoin)';
+        const notairesIndex = await loadNotairesIndex();
+        notarialResults = computeNotarialActLeads(list, notairesIndex, { ancestorScopeSet: scopeSet, tolerance });
+        notarialResults.forEach(r => {
+            r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
+            r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
+        });
+
+        statusEl.textContent = 'Analyse en cours… (chargement des registres de successions si besoin)';
+        const successionIndexes = await loadSuccessionIndexes();
+        successionResults = computeSuccessionLeads(list, successionIndexes, { ancestorScopeSet: scopeSet });
+        successionResults.forEach(r => {
+            r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
+            r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
+        });
+
+        statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat, ${successionResults.length} pour les successions.`;
+
+        sortKey = sosaMap ? 'sosa' : 'name'; sortDir = 1;
+        sortKeyNota = sosaMap ? 'sosa' : 'name'; sortDirNota = 1;
+        sortKeySucc = sosaMap ? 'sosa' : 'name'; sortDirSucc = 1;
+        updateSortIndicators();
+        renderResults();
+        renderNotarialResults();
+        renderSuccessionResults();
+        updateResultsVisibility();
+    });
+
+    function renderResults() {
+        resultsBodyRecensement.innerHTML = '';
+        sortedResults().forEach(r => {
+            const p = r.person;
+            const tr = document.createElement('tr');
+            const birthDisplay = `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}`;
+            const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
+            const deathDisplay = p.death.year != null ? `${p.death.year}${p.death.approx ? ' (env.)' : ''}` : '-';
+
+            // Un lien par date de recensement (chaque date est un registre distinct à interroger
+            // séparément) ; tous les prénoms actés sont OU-és dans ce lien unique, puisque la
+            // personne peut être enregistrée sous n'importe lequel d'entre eux. L'âge (déduit de la
+            // naissance actée ou estimée) aide à repérer d'un coup d'œil un lien peu plausible avant
+            // même d'ouvrir le registre.
+            const hitsDisplay = r.hits.map(h => {
+                const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept);
+                const age = h.year - r.birthEst.year;
+                const ageDisplay = `${age} an${age > 1 ? 's' : ''}${r.birthEst.estimated ? ' (est.)' : ''}`;
+                return `<div style="margin-bottom:6px;">
+                    <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city || 'commune inconnue')} (${escapeHtml(h.dept)}) — ${ageDisplay}</div>
+                    <div class="city-buttons"><a class="btn-link" href="${url}" target="_blank" rel="noopener">📋 ${h.year}</a></div>
+                </div>`;
+            }).join('');
+
+            const v = r.validation;
+            const validationParts = [];
+            if (v.father || v.mother) validationParts.push(`Parents : ${[v.father, v.mother].filter(Boolean).join(' & ')}`);
+            if (v.spouses.length) validationParts.push(`Conjoint(e)${v.spouses.length > 1 ? 's' : ''} : ${v.spouses.join(', ')}`);
+            if (v.children.length) validationParts.push(`Enfant(s) : ${v.children.slice(0, 6).join(', ')}${v.children.length > 6 ? '…' : ''}`);
+            const validationDisplay = validationParts.length
+                ? `<ul class="reason-list">${validationParts.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`
+                : '<em>aucune info</em>';
+
+            tr.innerHTML = `
+                <td>${r.sosa != null ? r.sosa : '-'}</td>
+                <td>${escapeHtml(p.surname || '')}</td>
+                <td>${escapeHtml(p.given || '')}</td>
+                <td>${birthDisplay}</td>
+                <td>${marriageDisplay}</td>
+                <td>${deathDisplay}</td>
+                <td>${hitsDisplay}</td>
+                <td>${validationDisplay}</td>
+            `;
+            resultsBodyRecensement.appendChild(tr);
+        });
+    }
+
+    function renderNotarialResults() {
+        resultsBodyNotariat.innerHTML = '';
+        sortedNotarialResults().forEach(r => {
+            const p = r.person;
+            const tr = document.createElement('tr');
+            const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
+            const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
+            const deathDisplay = p.death.year != null ? `${p.death.year}${p.death.approx ? ' (env.)' : ''}` : '-';
+
+            // Un bloc par événement (mariage/décès) : le contexte (année, commune) d'abord, puis un
+            // bouton par notaire candidat trouvé pour cette commune et cette période — plusieurs notaires
+            // ont pu se succéder ou coexister, mieux vaut lister toutes les fiches que d'en choisir une.
+            const eventsDisplay = r.events.map(ev => `<div style="margin-bottom:8px;">
+                <div style="font-size:0.8rem; color:#555;">${escapeHtml(ev.type)} ${ev.year} — ${escapeHtml(ev.city)} (${escapeHtml(ev.dept)})</div>
+                <div class="city-buttons">${ev.matches.map(m => `<a class="btn-link" href="${notaireDetailUrl(m.id)}" target="_blank" rel="noopener">⚖ ${escapeHtml(m.nom || 'notaire non nommé')} (${escapeHtml(m.date_debut || '?')}–${escapeHtml(m.date_fin || '?')})</a>`).join('')}</div>
+            </div>`).join('');
+
+            tr.innerHTML = `
+                <td>${r.sosa != null ? r.sosa : '-'}</td>
+                <td>${escapeHtml(p.surname || '')}</td>
+                <td>${escapeHtml(p.given || '')}</td>
+                <td>${birthDisplay}</td>
+                <td>${marriageDisplay}</td>
+                <td>${deathDisplay}</td>
+                <td>${eventsDisplay}</td>
+            `;
+            resultsBodyNotariat.appendChild(tr);
+        });
+    }
+
+    // Le registre visé dépend du type de correspondance trouvée par computeSuccessionLeads :
+    // - 'exact' : la commune a son propre registre, lien(s) direct(s) vers la/les notice(s)
+    //   (plusieurs quand la ville a plusieurs bureaux d'enregistrement — LILLE, ROUBAIX...).
+    // - 'bureau' : commune absente du dépouillement, repli sur le bureau géographiquement le plus
+    //   proche (voir build_successions_59_bureaux.py) — piste à vérifier, pas une correspondance sûre.
+    // - 'none' : aucun repli possible, lien vers tous les registres de l'année sans filtre de lieu.
+    function successionRegistreCell(r) {
+        if (r.matchType === 'none') {
+            return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ Commune absente de cette série</div>
+                <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Registres de ${r.year} (sans filtre de lieu)</a></div>`;
+        }
+        const warn = r.matchType === 'bureau'
+            ? `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ "${escapeHtml(r.city)}" non répertoriée — bureau le plus proche : ${escapeHtml(r.bureauInfo.bureau)} (${r.bureauInfo.distanceKm} km, à vérifier)</div>`
+            : '';
+        const links = r.registers.map(reg =>
+            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">⚰ ${escapeHtml(reg.cote)} [${reg.yearStart}-${reg.yearEnd}]</a>`
+        ).join('');
+        return `${warn}<div class="city-buttons">${links}</div>`;
+    }
+
+    function renderSuccessionResults() {
+        resultsBodySuccessions.innerHTML = '';
+        sortedSuccessionResults().forEach(r => {
+            const p = r.person;
+            const tr = document.createElement('tr');
+            const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
+            const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
+            tr.innerHTML = `
+                <td>${r.sosa != null ? r.sosa : '-'}</td>
+                <td>${escapeHtml(p.surname || '')}</td>
+                <td>${escapeHtml(p.given || '')}</td>
+                <td>${birthDisplay}</td>
+                <td>${marriageDisplay}</td>
+                <td>${r.year}</td>
+                <td>${escapeHtml(r.city)}</td>
+                <td>${successionRegistreCell(r)}</td>
+            `;
+            resultsBodySuccessions.appendChild(tr);
+        });
+    }
+
+    csvBtn.addEventListener('click', () => {
+        if (mode === 'recensement') {
+            if (!lastResults.length) return;
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Deces', 'Dates de recensement a rechercher (avec age)', 'Parents', 'Conjoint(e)s', 'Enfants'];
+            const rows = sortedResults().map(r => [
+                r.sosa != null ? r.sosa : '',
+                r.person.id,
+                r.person.surname || '',
+                r.person.given || '',
+                r.birthEst.year,
+                r.birthEst.estimated ? 'oui' : 'non',
+                r.person.marrYear != null ? r.person.marrYear : '',
+                r.person.death.year != null ? `${r.person.death.year}${r.person.death.approx ? ' (env.)' : ''}` : '',
+                r.hits.map(h => `${h.year} (${h.source}): ${h.city || 'commune inconnue'} (${h.dept}) - ${h.year - r.birthEst.year} ans`).join(' | '),
+                [r.validation.father, r.validation.mother].filter(Boolean).join(' & '),
+                r.validation.spouses.join(', '),
+                r.validation.children.join(', ')
+            ]);
+            downloadCsv('recensements_manquants.csv', headers, rows);
+        } else if (mode === 'notariat') {
+            if (!notarialResults.length) return;
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Deces', 'Evenement', 'Annee', 'Commune', 'Departement', 'Notaire', 'Debut exercice', 'Fin exercice', 'URL fiche'];
+            const rows = [];
+            sortedNotarialResults().forEach(r => {
+                r.events.forEach(ev => {
+                    ev.matches.forEach(m => {
+                        rows.push([
+                            r.sosa != null ? r.sosa : '',
+                            r.person.id,
+                            r.person.surname || '',
+                            r.person.given || '',
+                            r.birthEst ? r.birthEst.year : '',
+                            r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                            r.person.marrYear != null ? r.person.marrYear : '',
+                            r.person.death.year != null ? `${r.person.death.year}${r.person.death.approx ? ' (env.)' : ''}` : '',
+                            ev.type,
+                            ev.year,
+                            ev.city,
+                            ev.dept,
+                            m.nom || '',
+                            m.date_debut || '',
+                            m.date_fin || '',
+                            notaireDetailUrl(m.id)
+                        ]);
+                    });
+                });
+            });
+            downloadCsv('notariat_pistes.csv', headers, rows);
+        } else {
+            if (!successionResults.length) return;
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Annee deces', 'Commune', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Cote', 'URL registre'];
+            const rows = [];
+            sortedSuccessionResults().forEach(r => {
+                const base = [
+                    r.sosa != null ? r.sosa : '',
+                    r.person.id,
+                    r.person.surname || '',
+                    r.person.given || '',
+                    r.birthEst ? r.birthEst.year : '',
+                    r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                    r.person.marrYear != null ? r.person.marrYear : '',
+                    r.year,
+                    r.city,
+                    r.matchType,
+                    r.bureauInfo ? r.bureauInfo.bureau : '',
+                    r.bureauInfo ? r.bureauInfo.distanceKm : ''
+                ];
+                if (r.registers.length) {
+                    r.registers.forEach(reg => rows.push([...base, reg.cote, reg.url]));
+                } else {
+                    rows.push([...base, '', r.fallbackUrl]);
+                }
+            });
+            downloadCsv('successions_pistes.csv', headers, rows);
+        }
+    });
+
+    return {
+        applyData(data) {
+            list = data.list; map = data.map; fams = data.fams;
+            analyzeBtn.disabled = !list.length;
+            statusEl.textContent = list.length
+                ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+                : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+        }
+    };
+})();
 
 bootstrap({
     page: 'deces',
     onData: data => {
-        list = data.list; map = data.map; fams = data.fams;
-        analyzeBtn.disabled = !list.length;
-        statusEl.textContent = list.length
-            ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
-            : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+        dm.applyData(data);
+        fa.applyData(data);
     }
 });
 </script>

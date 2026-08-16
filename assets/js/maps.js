@@ -1,5 +1,5 @@
-import { GEO } from './geo.js';
-import { escapeHtml, computeStats, decadeOf } from './utils.js';
+import { GEO, normalizePlace, deptCode } from './geo.js';
+import { escapeHtml, computeStats, decadeOf, centuryOf, periodOf, WEEKDAY_LABELS } from './utils.js';
 
 export function showMapMessage(containerId, text, isError) {
     d3.select(`#${containerId}`).html(`<div class="map-placeholder"${isError ? ' style="color:#c0392b"' : ''}>${text}</div>`);
@@ -38,6 +38,48 @@ const NEIGHBOR_COUNTRY_LABELS = new Map([
 export function neighborCountryLabel(f) {
     const name = f.properties?.ADMIN || f.properties?.NAME || f.properties?.name || f.properties?.NAME_EN || '';
     return NEIGHBOR_COUNTRY_LABELS.get(name) || null;
+}
+
+// --- Coordonnées GPS déduites par commune, en secours quand le GEDCOM n'a pas de LATI/LONG ---
+// Un fichier compact par département français (assets/data/communes_geo/{dept}.json, construit par
+// scripts_py/build_communes_geo.py à partir de la base "communes_evolution") : chaque entrée liste,
+// pour une commune, son nom actuel et ses noms historiques (fusions/renommages), avec ses
+// coordonnées — ce qui permet de retrouver un lieu cité sous un ancien nom dans un acte ancien. Un
+// fichier par département (~5-30 Ko chacun) plutôt qu'un seul fichier national (~1,3 Mo) : seuls les
+// départements réellement présents dans le GEDCOM chargé sont téléchargés.
+const communeGeoCache = new Map(); // code département -> Promise<Map<nom normalisé, [lat, lon]>>
+function ensureCommuneGeo(dept) {
+    if(!communeGeoCache.has(dept)) {
+        communeGeoCache.set(dept, fetch(`./assets/data/communes_geo/${dept}.json`)
+            .then(res => { if(!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+            .then(entries => new Map(entries.flatMap(([names, lat, lon]) => names.map(n => [normalizePlace(n), [lat, lon]]))))
+            .catch(() => new Map()));
+    }
+    return communeGeoCache.get(dept);
+}
+
+// Complète en place, pour chaque individu, les coordonnées GPS manquantes (naissance/décès/mariage)
+// à partir du nom de commune déjà extrait par analyzePlace (geo.city/geo.dept), quand la commune est
+// reconnue dans la base ci-dessus. N'écrase jamais des coordonnées déjà connues (LATI/LONG du
+// GEDCOM), qui restent prioritaires. À appeler une fois après le chargement d'un GEDCOM : les objets
+// geo sont mutés une seule fois puis réutilisés par tous les rendus (filtres, curseur temporel...).
+export async function enrichMissingCoords(list) {
+    const seen = new Set(), pending = [];
+    const collect = geo => {
+        if(!geo || geo.lat != null || !geo.city || !geo.dept || seen.has(geo)) return;
+        seen.add(geo);
+        pending.push(geo);
+    };
+    list.forEach(i => { collect(i.birth?.geo); collect(i.death?.geo); collect(i.marrGeo); });
+    if(!pending.length) return;
+
+    const depts = Array.from(new Set(pending.map(g => deptCode(g.dept))));
+    const nameMapsByDept = new Map(await Promise.all(depts.map(async d => [d, await ensureCommuneGeo(d)])));
+    pending.forEach(geo => {
+        const nameMap = nameMapsByDept.get(deptCode(geo.dept));
+        const hit = nameMap && nameMap.get(normalizePlace(geo.city));
+        if(hit) { geo.lat = hit[0]; geo.lon = hit[1]; }
+    });
 }
 
 const GEO_EVENT_LABELS = { BIRT: 'Naissance', DEAT: 'Décès', MARR: 'Mariage' };
@@ -558,75 +600,227 @@ export function drawFirstChildTrend(list) {
     ], { emptyText: 'Pas assez de données (sexe et âge au 1er enfant requis).' });
 }
 
-// Regroupe les "1 OCCU" (métier/profession) sur l'ensemble des individus, en normalisant la casse
-// et les espaces pour le regroupement (ex. "Cultivateur" et "cultivateur" comptent ensemble) tout
-// en affichant un libellé propre. Une personne avec plusieurs métiers compte dans chacun d'eux.
-export function computeOccupationCounts(list, limit) {
-    const counts = new Map();
+// --- ÂGE AU DÉCÈS PAR PROFESSION (violon) ---
+// Regroupe les "1 OCCU" par libellé normalisé (casse/espaces) et ne garde, pour chaque personne,
+// que celles dont l'âge au décès est connu et plausible. minSample écarte les métiers trop rares
+// pour qu'un violon soit lisible (Plotly affiche quand même les points bruts + une boîte à
+// moustaches par-dessus, donc un seuil bas reste informatif même avec peu de monde) ; maxGroups
+// limite l'encombrement visuel.
+export function computeProfessionAgeGroups(list, minSample = 3, maxGroups = 8) {
+    const byProfession = new Map();
     list.forEach(p => {
+        if(p.ageDeath == null || p.ageDeath < 0 || p.ageDeath > 110) return;
         (p.occupations || []).forEach(raw => {
             const key = raw.trim().toLowerCase().replace(/\s+/g, ' ');
             if(!key) return;
-            counts.set(key, (counts.get(key) || 0) + 1);
+            if(!byProfession.has(key)) byProfession.set(key, { label: key.charAt(0).toUpperCase() + key.slice(1), ages: [] });
+            byProfession.get(key).ages.push(p.ageDeath);
         });
     });
-    const arr = Array.from(counts.entries())
-        .map(([key, count]) => ({ label: key.charAt(0).toUpperCase() + key.slice(1), count }))
-        .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label));
-    return limit ? arr.slice(0, limit) : arr;
+    return Array.from(byProfession.values())
+        .filter(g => g.ages.length >= minSample)
+        .sort((a, b) => b.ages.length - a.ages.length)
+        .slice(0, maxGroups);
 }
 
-// Diagramme en barres horizontales des professions (tag GEDCOM OCCU) les plus fréquentes.
-// Horizontal plutôt que vertical : les libellés de métier sont du texte libre, souvent trop long
-// pour tenir sous des barres verticales sans se chevaucher.
-export function drawOccupationsChart(list) {
-    const container = d3.select('#occupationsChart');
-    container.selectAll('*').remove();
-    const data = computeOccupationCounts(list, 15);
-    if(!data.length) {
-        container.append('div').attr('class', 'map-placeholder').text('Aucune profession (tag OCCU) trouvée dans ce fichier.');
+// Violon (Plotly, pas D3 comme le reste du site) : une silhouette par profession montre d'un coup
+// d'œil si un métier concentre les décès (pic étroit) ou les étale (silhouette large), ce qu'une
+// simple moyenne masquerait. Plotly a été choisi ici — plutôt qu'un KDE D3 fait main — car son tracé
+// violin gère nativement les petits échantillons (points bruts + boîte à moustaches superposés
+// restent lisibles même quand la silhouette elle-même est peu significative).
+export function drawProfessionAgeViolin(list) {
+    const containerId = 'professionAgeViolinChart';
+    const container = document.getElementById(containerId);
+    if(!container) return;
+
+    const groups = computeProfessionAgeGroups(list);
+    if(!groups.length) {
+        container.innerHTML = '<div class="map-placeholder">Pas assez de données (profession + âge au décès, au moins 3 personnes par métier) pour ce graphique.</div>';
+        return;
+    }
+    if(typeof Plotly === 'undefined') {
+        container.innerHTML = '<div class="map-placeholder" style="color:#c0392b">Bibliothèque Plotly non chargée.</div>';
         return;
     }
 
-    const width = container.node().clientWidth || 500;
+    // Plotly.newPlot ne vide pas le conteneur avant de dessiner : sans ce reset, le placeholder
+    // statique ("Chargez un fichier GEDCOM...") de la page reste affiché sous le graphique.
+    container.innerHTML = '';
+
+    const x = [], y = [];
+    groups.forEach(g => g.ages.forEach(age => { x.push(g.label); y.push(age); }));
+
+    const trace = {
+        type: 'violin',
+        x, y,
+        points: 'all',
+        jitter: 0.35,
+        pointpos: 0,
+        marker: { size: 4, opacity: 0.5, color: '#2980b9' },
+        line: { color: '#2980b9' },
+        fillcolor: '#3498db',
+        opacity: 0.6,
+        box: { visible: true },
+        meanline: { visible: true },
+        hoveron: 'points+kde'
+    };
+
+    Plotly.newPlot(containerId, [trace], {
+        yaxis: { title: 'Âge au décès', zeroline: false },
+        xaxis: { categoryorder: 'array', categoryarray: groups.map(g => g.label) },
+        margin: { t: 20, r: 20, b: 90, l: 55 },
+        height: 400,
+        font: { size: 11 }
+    }, { displayModeBar: false, responsive: true });
+}
+
+// --- JOUR DE LA SEMAINE DU MARIAGE, PAR PÉRIODE DE 20 ANS ---
+// Nécessite une date de mariage complète et certaine (jour, mois, année) — voir
+// GedcomParser.getWeekday() — donc généralement une fraction seulement des mariages du fichier.
+// Une série par jour (lundi...dimanche), en nombre de mariages (pas une moyenne) par période de 20
+// ans : plus direct à lire qu'un unique indicateur moyenne±écart-type sur l'échelle 1-7.
+const WEEKDAY_COLORS = ['#3498db', '#e67e22', '#2ecc71', '#9b59b6', '#e74c3c', '#1abc9c', '#7f8c8d'];
+const MARRIAGE_WEEKDAY_PERIOD = 20;
+
+export function drawMarriageWeekdayTrend(fams) {
+    const container = d3.select('#marriageWeekdayChart');
+    container.selectAll('*').remove();
+
+    // counts[jour 0=lundi...6=dimanche] = Map(période -> nombre de mariages)
+    const counts = Array.from({ length: 7 }, () => new Map());
+    let any = false;
+
+    fams.forEach(f => {
+        if(f.marr?.year == null || f.marr?.weekday == null) return;
+        const iso = f.marr.weekday === 0 ? 7 : f.marr.weekday; // 0=dimanche (JS) -> 7 (convention FR)
+        const dayIndex = iso - 1;
+        const period = periodOf(f.marr.year, MARRIAGE_WEEKDAY_PERIOD);
+        counts[dayIndex].set(period, (counts[dayIndex].get(period) || 0) + 1);
+        any = true;
+    });
+
+    if(!any) {
+        container.append('div').attr('class', 'map-placeholder').text('Pas assez de données (date de mariage complète — jour, mois, année — requise).');
+        return;
+    }
+
+    const allPeriods = Array.from(new Set(counts.flatMap(m => Array.from(m.keys())))).sort((a, b) => a - b);
+
+    const width = container.node().clientWidth || 600, height = 320;
+    const margin = { top: 30, right: 20, bottom: 58, left: 45 };
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    const x = d3.scalePoint().domain(allPeriods).range([margin.left, width - margin.right]).padding(0.5);
+    const maxCount = d3.max(counts, m => d3.max(Array.from(m.values()))) || 1;
+    const y = d3.scaleLinear().domain([0, maxCount]).nice().range([height - margin.bottom, margin.top]);
+
+    const maxLabels = Math.max(4, Math.floor((width - margin.left - margin.right) / 45));
+    const labelStep = Math.max(1, Math.ceil(allPeriods.length / maxLabels));
+    const tickValues = allPeriods.filter((d, i) => i % labelStep === 0);
+
+    svg.append('g').attr('transform', `translate(0,${height - margin.bottom})`)
+        .call(d3.axisBottom(x).tickValues(tickValues).tickFormat(d => `${d}-${d + MARRIAGE_WEEKDAY_PERIOD - 1}`))
+        .selectAll('text').style('font-size', '9px').attr('transform', 'rotate(-40)').attr('text-anchor', 'end');
+    svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6).tickFormat(d3.format('d')));
+    svg.append('text').attr('x', margin.left).attr('y', margin.top - 14).style('font-size', '10px').style('fill', '#7f8c8d').text('Nombre de mariages');
+
+    const line = d3.line().x(d => x(d[0])).y(d => y(d[1]));
+    const tooltip = document.getElementById('tooltip');
+
+    WEEKDAY_LABELS.forEach((label, dayIndex) => {
+        const dayCounts = counts[dayIndex];
+        if(!dayCounts.size) return;
+        const points = allPeriods.filter(p => dayCounts.has(p)).map(p => [p, dayCounts.get(p)]);
+        const color = WEEKDAY_COLORS[dayIndex];
+
+        if(points.length > 1) {
+            svg.append('path').datum(points).attr('d', line).attr('fill', 'none').attr('stroke', color).attr('stroke-width', 2);
+        }
+        svg.selectAll(`circle.wd-${dayIndex}`).data(points).join('circle').attr('class', `wd-${dayIndex}`)
+            .attr('cx', d => x(d[0])).attr('cy', d => y(d[1])).attr('r', 3).attr('fill', color)
+            .on('mouseover', (e, d) => {
+                tooltip.style.opacity = 1;
+                tooltip.innerHTML = `<strong>${label}</strong><div class="tt-row"><span>${d[0]}-${d[0] + MARRIAGE_WEEKDAY_PERIOD - 1}</span><span>${d[1]} mariage${d[1] > 1 ? 's' : ''}</span></div>`;
+            })
+            .on('mousemove', e => {
+                tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+                tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+            })
+            .on('mouseout', () => { tooltip.style.opacity = 0; });
+    });
+
+    const legend = svg.append('g').attr('transform', `translate(${margin.left}, 4)`);
+    let gx = 0;
+    WEEKDAY_LABELS.forEach((label, i) => {
+        legend.append('rect').attr('x', gx).attr('y', 0).attr('width', 10).attr('height', 10).attr('fill', WEEKDAY_COLORS[i]);
+        legend.append('text').attr('x', gx + 14).attr('y', 9).style('font-size', '9px').text(label);
+        gx += 14 + label.length * 5 + 12;
+    });
+}
+
+// --- PRÉNOMS LES PLUS FRÉQUENTS PAR SIÈCLE (H/F) ---
+// Même convention que getPyramidDecades ci-dessus (liste des siècles couverts par des naissances
+// datées), utilisée pour calibrer le curseur "période" de visualisation.html.
+export function getNameCenturies(list) {
+    const years = list.map(i => i.birth?.year).filter(Boolean);
+    if(!years.length) return [];
+    const minC = centuryOf(d3.min(years)), maxC = centuryOf(d3.max(years));
+    const centuries = [];
+    for(let c = minC; c <= maxC; c++) centuries.push(c);
+    return centuries;
+}
+
+function firstGivenName(p) {
+    const g = p.given || (p.name || '').split(' ')[0];
+    return g ? g.trim().split(' ')[0] : null;
+}
+
+// century = null : toutes périodes confondues.
+export function computeTopNames(list, sex, century, limit = 10) {
+    const counts = new Map();
+    list.forEach(p => {
+        if(p.sex !== sex) return;
+        if(century != null && (p.birth?.year == null || centuryOf(p.birth.year) !== century)) return;
+        const raw = firstGivenName(p);
+        if(!raw) return;
+        const key = raw.toLowerCase();
+        if(!counts.has(key)) counts.set(key, { label: raw.charAt(0).toUpperCase() + raw.slice(1).toLowerCase(), count: 0 });
+        counts.get(key).count++;
+    });
+    return Array.from(counts.values()).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)).slice(0, limit);
+}
+
+function drawHorizontalBarChart(containerId, data, opts = {}) {
+    const container = d3.select(`#${containerId}`);
+    container.selectAll('*').remove();
+    if(!data.length) {
+        container.append('div').attr('class', 'map-placeholder').text(opts.emptyMessage || 'Aucune donnée disponible.');
+        return;
+    }
+
+    const width = container.node().clientWidth || 380;
     const barHeight = 22;
-    const margin = { top: 10, right: 44, bottom: 10, left: 150 };
+    const margin = { top: 8, right: 36, bottom: 8, left: 90 };
     const height = margin.top + margin.bottom + data.length * barHeight;
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
     const maxCount = d3.max(data, d => d.count) || 1;
     const x = d3.scaleLinear().domain([0, maxCount]).nice().range([margin.left, width - margin.right]);
     const y = d3.scaleBand().domain(data.map(d => d.label)).range([margin.top, height - margin.bottom]).padding(0.22);
+    const color = opts.color || '#3498db';
 
-    const tooltip = document.getElementById('tooltip');
-    svg.selectAll('rect.bar').data(data).join('rect')
-        .attr('class', 'bar')
+    svg.selectAll('rect.bar').data(data).join('rect').attr('class', 'bar')
         .attr('x', x(0)).attr('y', d => y(d.label)).attr('width', d => x(d.count) - x(0)).attr('height', y.bandwidth())
-        .attr('fill', '#3498db')
-        .on('mouseover', function(e, d) {
-            d3.select(this).attr('fill', '#2980b9');
-            tooltip.style.opacity = 1;
-            tooltip.innerHTML = `<strong>${escapeHtml(d.label)}</strong><div class="tt-row"><span>Occurrences</span><span>${d.count}</span></div>`;
-        })
-        .on('mousemove', e => {
-            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
-            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
-        })
-        .on('mouseout', function() {
-            d3.select(this).attr('fill', '#3498db');
-            tooltip.style.opacity = 0;
-        });
-
-    svg.selectAll('text.bar-label').data(data).join('text')
-        .attr('class', 'bar-label')
+        .attr('fill', color);
+    svg.selectAll('text.bar-label').data(data).join('text').attr('class', 'bar-label')
         .attr('x', margin.left - 8).attr('y', d => y(d.label) + y.bandwidth() / 2).attr('dy', '0.35em')
-        .attr('text-anchor', 'end').style('font-size', '11px')
-        .text(d => d.label.length > 22 ? d.label.slice(0, 20) + '…' : d.label)
-        .append('title').text(d => d.label);
-
-    svg.selectAll('text.bar-count').data(data).join('text')
-        .attr('class', 'bar-count')
+        .attr('text-anchor', 'end').style('font-size', '11px').text(d => d.label);
+    svg.selectAll('text.bar-count').data(data).join('text').attr('class', 'bar-count')
         .attr('x', d => x(d.count) + 5).attr('y', d => y(d.label) + y.bandwidth() / 2).attr('dy', '0.35em')
-        .style('font-size', '10px').style('fill', '#555')
-        .text(d => d.count);
+        .style('font-size', '10px').style('fill', '#555').text(d => d.count);
+}
+
+export function drawTopNamesForCentury(list, century) {
+    drawHorizontalBarChart('namesMaleChart', computeTopNames(list, 'M', century), { color: '#3498db', emptyMessage: 'Pas de prénom masculin daté pour cette période.' });
+    drawHorizontalBarChart('namesFemaleChart', computeTopNames(list, 'F', century), { color: '#e91e8c', emptyMessage: 'Pas de prénom féminin daté pour cette période.' });
 }
