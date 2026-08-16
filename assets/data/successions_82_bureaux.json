@@ -1,0 +1,730 @@
+{
+  "ALBEFEUILLE LAGARDE": {
+    "bureau": "Montauban",
+    "distanceKm": 8.0
+  },
+  "ALBIAS": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 7.3
+  },
+  "ANGEVILLE": {
+    "bureau": "Saint-Nicolas-de-la-Grave",
+    "distanceKm": 8.3
+  },
+  "ASQUES": {
+    "bureau": "Lavit",
+    "distanceKm": 6.3
+  },
+  "AUCAMVILLE": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 5.4
+  },
+  "AUTERIVE": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 4.9
+  },
+  "AUTY": {
+    "bureau": "Montpezat-de-Quercy",
+    "distanceKm": 5.5
+  },
+  "BALIGNAC": {
+    "bureau": "Lavit",
+    "distanceKm": 4.0
+  },
+  "BARDIGUES": {
+    "bureau": "Auvillar",
+    "distanceKm": 4.2
+  },
+  "BARRY D ISLEMADE": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 6.4
+  },
+  "BEAUPUY": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 8.6
+  },
+  "BELBEZE EN LOMAGNE": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 5.0
+  },
+  "BELBESE": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 5.0
+  },
+  "BELVEZE": {
+    "bureau": "Montaigu-de-Quercy",
+    "distanceKm": 4.3
+  },
+  "BESSENS": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 6.5
+  },
+  "BIOULE": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 4.1
+  },
+  "BOUDOU": {
+    "bureau": "Saint-Nicolas-de-la-Grave",
+    "distanceKm": 4.8
+  },
+  "BOUILLAC": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 8.5
+  },
+  "BOULOC EN QUERCY": {
+    "bureau": "Lauzerte",
+    "distanceKm": 3.8
+  },
+  "BOULOC": {
+    "bureau": "Lauzerte",
+    "distanceKm": 3.8
+  },
+  "BOURRET": {
+    "bureau": "Montech",
+    "distanceKm": 6.9
+  },
+  "BRASSAC": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 3.4
+  },
+  "BRESSOLS": {
+    "bureau": "Montech",
+    "distanceKm": 6.6
+  },
+  "BRUNIQUEL": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 9.6
+  },
+  "CAMPSAS": {
+    "bureau": "Grisolles",
+    "distanceKm": 7.8
+  },
+  "CANALS": {
+    "bureau": "Grisolles",
+    "distanceKm": 4.1
+  },
+  "CASTANET": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 19.4
+  },
+  "CASTELFERRUS": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 5.5
+  },
+  "CASTELMAYRAN": {
+    "bureau": "Saint-Nicolas-de-la-Grave",
+    "distanceKm": 4.3
+  },
+  "CASTELSAGRAT": {
+    "bureau": "Valence",
+    "distanceKm": 8.2
+  },
+  "CASTERA BOUZET": {
+    "bureau": "Lavit",
+    "distanceKm": 5.8
+  },
+  "CAUMONT": {
+    "bureau": "Saint-Nicolas-de-la-Grave",
+    "distanceKm": 5.0
+  },
+  "CAYLUS": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 11.1
+  },
+  "CAYRAC": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 6.5
+  },
+  "CAYRIECH": {
+    "bureau": "Caussade",
+    "distanceKm": 8.2
+  },
+  "CAZALS": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 4.8
+  },
+  "CAZES MONDENARD": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 9.0
+  },
+  "COMBEROUGER": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 6.6
+  },
+  "CORBARIEU": {
+    "bureau": "Montauban",
+    "distanceKm": 9.2
+  },
+  "CORDES TOLOSANNES": {
+    "bureau": "Montech",
+    "distanceKm": 8.1
+  },
+  "COUTURES": {
+    "bureau": "Lavit",
+    "distanceKm": 4.8
+  },
+  "CUMONT": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 8.9
+  },
+  "DIEUPENTALE": {
+    "bureau": "Grisolles",
+    "distanceKm": 5.0
+  },
+  "DONZAC": {
+    "bureau": "Auvillar",
+    "distanceKm": 6.7
+  },
+  "DUNES": {
+    "bureau": "Auvillar",
+    "distanceKm": 9.1
+  },
+  "DURFORT LACAPELETTE": {
+    "bureau": "Moissac",
+    "distanceKm": 7.5
+  },
+  "DURFORT": {
+    "bureau": "Moissac",
+    "distanceKm": 7.5
+  },
+  "ESCATALENS": {
+    "bureau": "Montech",
+    "distanceKm": 4.4
+  },
+  "ESCAZEAUX": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 5.2
+  },
+  "ESPALAIS": {
+    "bureau": "Auvillar",
+    "distanceKm": 2.8
+  },
+  "ESPARSAC": {
+    "bureau": "Lavit",
+    "distanceKm": 4.8
+  },
+  "ESPINAS": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 6.8
+  },
+  "FABAS": {
+    "bureau": "Grisolles",
+    "distanceKm": 5.8
+  },
+  "FAJOLLES": {
+    "bureau": "Lavit",
+    "distanceKm": 7.1
+  },
+  "FAUDOAS": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 6.5
+  },
+  "FAUROUX": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 4.2
+  },
+  "FINHAN": {
+    "bureau": "Montech",
+    "distanceKm": 5.6
+  },
+  "FENEYROLS": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 7.4
+  },
+  "GARGANVILLAR": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 9.9
+  },
+  "GARIES": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 8.3
+  },
+  "GASQUES": {
+    "bureau": "Valence",
+    "distanceKm": 4.9
+  },
+  "GENSAC": {
+    "bureau": "Lavit",
+    "distanceKm": 2.4
+  },
+  "GIMAT": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 6.3
+  },
+  "GINALS": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 14.3
+  },
+  "GLATENS": {
+    "bureau": "Lavit",
+    "distanceKm": 6.7
+  },
+  "GOAS": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 8.7
+  },
+  "GOLFECH": {
+    "bureau": "Valence",
+    "distanceKm": 3.8
+  },
+  "GOUDOURVILLE": {
+    "bureau": "Valence",
+    "distanceKm": 2.2
+  },
+  "GRAMONT": {
+    "bureau": "Lavit",
+    "distanceKm": 11.4
+  },
+  "GENEBRIERES": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 7.6
+  },
+  "L HONOR DE COS": {
+    "bureau": "Molières",
+    "distanceKm": 9.2
+  },
+  "LA SALVETAT BELMONTET": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 10.9
+  },
+  "LA VILLE DIEU DU TEMPLE": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 8.1
+  },
+  "LAVILLEDIEU": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 8.1
+  },
+  "LABARTHE": {
+    "bureau": "Molières",
+    "distanceKm": 6.4
+  },
+  "LABASTIDE SAINT PIERRE": {
+    "bureau": "Montech",
+    "distanceKm": 9.6
+  },
+  "LABASTIDE DE PENNE": {
+    "bureau": "Montpezat-de-Quercy",
+    "distanceKm": 10.3
+  },
+  "LABASTIDE DU TEMPLE": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 6.3
+  },
+  "LABOURGADE": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 9.9
+  },
+  "LACAPELLE LIVRON": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 14.3
+  },
+  "LACHAPELLE": {
+    "bureau": "Lavit",
+    "distanceKm": 7.7
+  },
+  "LACOUR": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 4.1
+  },
+  "LACOURT SAINT PIERRE": {
+    "bureau": "Montech",
+    "distanceKm": 4.0
+  },
+  "LAFITTE": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 8.8
+  },
+  "LAGUEPIE": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 18.1
+  },
+  "LAMAGISTERE": {
+    "bureau": "Valence",
+    "distanceKm": 7.0
+  },
+  "LAMOTHE CAPDEVILLE": {
+    "bureau": "Montauban",
+    "distanceKm": 8.5
+  },
+  "LAMOTHE CUMONT": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 8.0
+  },
+  "LAPENCHE": {
+    "bureau": "Montpezat-de-Quercy",
+    "distanceKm": 7.7
+  },
+  "LARRAZET": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 7.4
+  },
+  "LAVAURETTE": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 8.3
+  },
+  "LE CAUSE": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 9.8
+  },
+  "LE PIN": {
+    "bureau": "Saint-Nicolas-de-la-Grave",
+    "distanceKm": 4.9
+  },
+  "LES BARTHES": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 5.9
+  },
+  "LIZAC": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 4.5
+  },
+  "LOZE": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 15.5
+  },
+  "LEOJAC": {
+    "bureau": "Montauban",
+    "distanceKm": 7.0
+  },
+  "MALAUSE": {
+    "bureau": "Valence",
+    "distanceKm": 5.5
+  },
+  "MANSONVILLE": {
+    "bureau": "Auvillar",
+    "distanceKm": 6.2
+  },
+  "MARIGNAC": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 9.0
+  },
+  "MARSAC": {
+    "bureau": "Lavit",
+    "distanceKm": 8.1
+  },
+  "MAS GRENIER": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 6.9
+  },
+  "MAUBEC": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 10.9
+  },
+  "MAUMUSSON": {
+    "bureau": "Lavit",
+    "distanceKm": 5.0
+  },
+  "MEAUZAC": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 4.5
+  },
+  "MERLES": {
+    "bureau": "Saint-Nicolas-de-la-Grave",
+    "distanceKm": 5.0
+  },
+  "MIRABEL": {
+    "bureau": "Molières",
+    "distanceKm": 6.2
+  },
+  "MIRAMONT DE QUERCY": {
+    "bureau": "Lauzerte",
+    "distanceKm": 7.1
+  },
+  "MONBEQUI": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 5.7
+  },
+  "MONCLAR DE QUERCY": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 8.7
+  },
+  "MONTAGUDET": {
+    "bureau": "Lauzerte",
+    "distanceKm": 3.5
+  },
+  "MONTALZAT": {
+    "bureau": "Montpezat-de-Quercy",
+    "distanceKm": 5.3
+  },
+  "MONTASTRUC": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 5.2
+  },
+  "MONTAIN": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 10.0
+  },
+  "MONTBARLA": {
+    "bureau": "Lauzerte",
+    "distanceKm": 6.4
+  },
+  "MONTBARTIER": {
+    "bureau": "Montech",
+    "distanceKm": 6.5
+  },
+  "MONTBETON": {
+    "bureau": "Montech",
+    "distanceKm": 6.2
+  },
+  "MONTEILS": {
+    "bureau": "Caussade",
+    "distanceKm": 2.4
+  },
+  "MONTESQUIEU": {
+    "bureau": "Moissac",
+    "distanceKm": 7.2
+  },
+  "MONTFERMIER": {
+    "bureau": "Molières",
+    "distanceKm": 4.1
+  },
+  "MONTGAILLARD": {
+    "bureau": "Lavit",
+    "distanceKm": 4.7
+  },
+  "MONTJOI": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 5.3
+  },
+  "MONTRICOUX": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 8.3
+  },
+  "MOUILLAC": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 14.5
+  },
+  "NOHIC": {
+    "bureau": "Grisolles",
+    "distanceKm": 13.8
+  },
+  "ORGUEIL": {
+    "bureau": "Grisolles",
+    "distanceKm": 11.8
+  },
+  "PARISOT": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 16.3
+  },
+  "PERVILLE": {
+    "bureau": "Valence",
+    "distanceKm": 8.2
+  },
+  "PIQUECOS": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 7.3
+  },
+  "POMMEVIC": {
+    "bureau": "Valence",
+    "distanceKm": 2.8
+  },
+  "POMPIGNAN": {
+    "bureau": "Grisolles",
+    "distanceKm": 3.0
+  },
+  "POUPAS": {
+    "bureau": "Lavit",
+    "distanceKm": 7.7
+  },
+  "PUYCORNET": {
+    "bureau": "Molières",
+    "distanceKm": 7.2
+  },
+  "PUYGAILLARD DE LOMAGNE": {
+    "bureau": "Lavit",
+    "distanceKm": 4.0
+  },
+  "PUYGAILLARD": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 8.5
+  },
+  "PUYGAILLARD DE QUERCY": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 8.5
+  },
+  "PUYLAGARDE": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 19.8
+  },
+  "PUYLAROQUE": {
+    "bureau": "Montpezat-de-Quercy",
+    "distanceKm": 13.1
+  },
+  "REYNIES": {
+    "bureau": "Montauban",
+    "distanceKm": 11.4
+  },
+  "ROQUECOR": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 7.8
+  },
+  "REALVILLE": {
+    "bureau": "Caussade",
+    "distanceKm": 5.9
+  },
+  "SAINT AIGNAN": {
+    "bureau": "Castelsarrasin",
+    "distanceKm": 5.2
+  },
+  "SAINT AMANS DE PELLAGAL": {
+    "bureau": "Lauzerte",
+    "distanceKm": 4.6
+  },
+  "SAINT AMANS DU PECH": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 8.6
+  },
+  "SAINT ANTONIN": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 0.0
+  },
+  "SAINT ARROUMEX": {
+    "bureau": "Lavit",
+    "distanceKm": 6.4
+  },
+  "SAINT BEAUZEIL": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 10.1
+  },
+  "SAINT CIRICE": {
+    "bureau": "Auvillar",
+    "distanceKm": 3.9
+  },
+  "SAINT CIRQ": {
+    "bureau": "Caussade",
+    "distanceKm": 6.0
+  },
+  "SAINT CLAIR": {
+    "bureau": "Valence",
+    "distanceKm": 5.9
+  },
+  "SAINT GEORGES": {
+    "bureau": "Caussade",
+    "distanceKm": 9.9
+  },
+  "SAINT JEAN DU BOUZET": {
+    "bureau": "Lavit",
+    "distanceKm": 5.4
+  },
+  "SAINT LOUP": {
+    "bureau": "Auvillar",
+    "distanceKm": 3.0
+  },
+  "SAINT MICHEL": {
+    "bureau": "Auvillar",
+    "distanceKm": 4.6
+  },
+  "SAINT NAUPHARY": {
+    "bureau": "Montauban",
+    "distanceKm": 9.6
+  },
+  "SAINT NAZAIRE DE VALENTANE": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 7.0
+  },
+  "SAINT PAUL D ESPIS": {
+    "bureau": "Moissac",
+    "distanceKm": 8.2
+  },
+  "SAINT PORQUIER": {
+    "bureau": "Montech",
+    "distanceKm": 6.8
+  },
+  "SAINT PROJET": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 18.1
+  },
+  "SAINT SARDOS": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 8.9
+  },
+  "SAINT VINCENT LESPINASSE": {
+    "bureau": "Valence",
+    "distanceKm": 5.4
+  },
+  "SAINT VINCENT D AUTEJAC": {
+    "bureau": "Caussade",
+    "distanceKm": 6.2
+  },
+  "SAINT VINCENT": {
+    "bureau": "Caussade",
+    "distanceKm": 6.2
+  },
+  "SAINT ETIENNE DE TULMONT": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 6.6
+  },
+  "SAINTE JULIETTE": {
+    "bureau": "Lauzerte",
+    "distanceKm": 4.6
+  },
+  "SAUVETERRE": {
+    "bureau": "Lauzerte",
+    "distanceKm": 11.7
+  },
+  "SAVENES": {
+    "bureau": "Verdun-sur-Garonne",
+    "distanceKm": 2.8
+  },
+  "SEPTFONDS": {
+    "bureau": "Caussade",
+    "distanceKm": 6.7
+  },
+  "SISTELS": {
+    "bureau": "Auvillar",
+    "distanceKm": 8.4
+  },
+  "SERIGNAC": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 5.1
+  },
+  "TOUFFAILLES": {
+    "bureau": "Bourg-de-Visa",
+    "distanceKm": 6.9
+  },
+  "TREJOULS": {
+    "bureau": "Lauzerte",
+    "distanceKm": 6.3
+  },
+  "VALEILLES": {
+    "bureau": "Montaigu-de-Quercy",
+    "distanceKm": 10.3
+  },
+  "VAREN": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 12.2
+  },
+  "VARENNES": {
+    "bureau": "Montauban",
+    "distanceKm": 15.6
+  },
+  "VAZERAC": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 9.0
+  },
+  "VAISSAC": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 3.7
+  },
+  "VERFEIL": {
+    "bureau": "Saint-Antonin-Noble-Val",
+    "distanceKm": 11.9
+  },
+  "VERLHAC TESCOU": {
+    "bureau": "Nègrepelisse",
+    "distanceKm": 14.6
+  },
+  "VIGUERON": {
+    "bureau": "Beaumont-de-Lomagne",
+    "distanceKm": 3.4
+  },
+  "VILLEBRUMIER": {
+    "bureau": "Montauban",
+    "distanceKm": 13.3
+  },
+  "VILLEMADE": {
+    "bureau": "Lafrançaise",
+    "distanceKm": 7.3
+  }
+}

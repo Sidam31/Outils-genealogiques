@@ -14,7 +14,9 @@
 
 <div class="subnav-bar">
     <button type="button" class="tab-btn active" id="topModeDecesBtn">⚰️ Décès manquants</button>
-    <button type="button" class="tab-btn" id="topModeFaBtn">📋 FranceArchives</button>
+    <button type="button" class="tab-btn" id="topModeRecensementBtn">📋 Recensement</button>
+    <button type="button" class="tab-btn" id="topModeNotariatBtn">⚖ Notariat</button>
+    <button type="button" class="tab-btn" id="topModeSuccessionsBtn">⚰ Successions</button>
 </div>
 
 <div id="dmPanel" class="tab-panel">
@@ -82,12 +84,6 @@
 <div id="faPanel" class="tab-panel hidden">
     <div class="quality-container" style="max-width:none;">
 
-        <div class="controls" style="justify-content:center; margin-bottom:18px;">
-            <button type="button" class="tab-btn active" id="faModeRecensementBtn">📋 Recensement</button>
-            <button type="button" class="tab-btn" id="faModeNotariatBtn">⚖ Notariat</button>
-            <button type="button" class="tab-btn" id="faModeSuccessionsBtn">⚰ Successions (Nord)</button>
-        </div>
-
         <div id="faIntroRecensement">
             <p class="quality-intro">Pour chaque personne, un lien de recherche par date de recensement non déjà actée dans le GEDCOM, quand son département de résidence estimé à cette date fait partie des bases indexées par FranceArchives (Projet SOCFACE).</p>
             <p class="hint" style="text-align:center;">Filtre obligatoire : seules les personnes ayant pu être vivantes pendant la période de recensement retenue sont listées.</p>
@@ -100,10 +96,11 @@
             <p class="hint" style="text-align:center;">Base tenue par des bénévoles à partir d'actes dépouillés au fil du temps : l'absence de piste pour une commune/période donnée ne signifie pas qu'aucun notaire n'y exerçait, seulement qu'aucune fiche n'a encore été saisie.</p>
         </div>
         <div id="faIntroSuccessions" class="hidden">
-            <p class="quality-intro">Pour chaque personne décédée entre 1791 et 1970 dans le département du Nord, à une commune connue, un lien direct vers le(s) registre(s) du portail des <a href="https://archivesdepartementales.lenord.fr/" target="_blank" rel="noopener">Archives départementales du Nord</a> couvrant cette année, dans la série des tables des successions et absences (cote 3Q). En dehors de cette période, la série ne couvre rien : ces personnes ne remontent aucune piste.</p>
-            <p class="hint" style="text-align:center;">Contrairement au mode Notariat, ce portail n'a pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Les 1932 registres de la série ont été dépouillés à l'avance (voir scripts_py/scrape_successions_nord.py) pour cibler directement la bonne notice au lieu de passer par le filtre "Lieux" du portail, qui n'affiche de toute façon que ses 30 valeurs les plus fréquentes.</p>
-            <p class="hint" style="text-align:center;">Une commune n'ayant jamais son propre registre (rattachée au bureau d'enregistrement dont elle dépendait à l'époque) affiche une piste ⚠ vers le bureau le plus proche géographiquement, à vérifier soi-même — ce repli est une approximation par proximité, pas la vraie circonscription historique du bureau (non disponible dans cet outil).</p>
-            <p class="hint" style="text-align:center;">Limité au Nord pour l'instant : chaque département a son propre portail d'archives, avec sa propre technique de recherche ; l'ajout d'un département suivant reprend le même mécanisme (voir successions.js).</p>
+            <p class="quality-intro">Pour chaque personne décédée à une commune connue, dans un département couvert ci-dessous et pendant la période où sa série est numérisée, un lien direct vers le(s) registre(s) du portail des Archives départementales concerné, dans la série des tables des successions et absences (cote 3Q) : <strong>Nord</strong> (<a href="https://archivesdepartementales.lenord.fr/" target="_blank" rel="noopener">1791-1970</a>), <strong>Tarn</strong> (<a href="https://recherche-archives.tarn.fr/" target="_blank" rel="noopener">1790-1973</a>) et <strong>Tarn-et-Garonne</strong> (<a href="https://recherche.archives82.fr/" target="_blank" rel="noopener">1824-1969</a>). En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici.</p>
+            <p class="hint" style="text-align:center;">Contrairement au mode Notariat, ces portails n'ont pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Chaque département a son propre portail (structure différente), entièrement dépouillé à l'avance pour cibler directement la bonne notice plutôt que de passer par une recherche en ligne peu fiable pour cette série.</p>
+            <p class="hint" style="text-align:center;">Au <strong>Nord</strong> et en <strong>Tarn-et-Garonne</strong>, une commune n'ayant jamais son propre registre (rattachée à un bureau d'enregistrement d'ancien régime) affiche une piste ⚠ vers le bureau le plus proche géographiquement — approximation par proximité, pas la vraie circonscription historique (non disponible pour ces deux départements). En Tarn-et-Garonne, seule la table post-1825 ("successions et absences") est dépouillée : une antérieure ("successions acquittées") existe mais sous un autre nom, hors du périmètre actuel.</p>
+            <p class="hint" style="text-align:center;">Au <strong>Tarn</strong>, le département publie lui-même la vraie table historique commune → bureau (avec ses dates de changement) : la correspondance est donc exacte, pas une approximation, et les registres eux-mêmes sont classés par bureau puis par initiale de patronyme — la piste cible aussi la bonne tranche alphabétique.</p>
+            <p class="hint" style="text-align:center;">Trois départements pour l'instant : chaque département a son propre portail d'archives, avec sa propre technique de recherche ; l'ajout d'un département suivant reprend le même mécanisme.</p>
         </div>
 
         <div class="options-panel">
@@ -189,7 +186,6 @@
                         <th class="sortable" data-sort-succ="name">Nom <span class="sort-arrow"></span></th>
                         <th>Prénom</th>
                         <th>Naissance</th>
-                        <th>Mariage</th>
                         <th class="sortable" data-sort-succ="death">Décès <span class="sort-arrow"></span></th>
                         <th>Commune</th>
                         <th>Registre</th>
@@ -204,7 +200,7 @@
 <script type="module">
 import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
-import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv } from './assets/js/utils.js';
+import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv, formatFullDate } from './assets/js/utils.js';
 import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LABELS } from './assets/js/deces-manquants.js';
 import {
     computeMissingRecensements, buildFranceArchivesUrl,
@@ -215,19 +211,27 @@ import { computeNotarialActLeads, loadNotairesIndex, notaireDetailUrl } from './
 import { computeSuccessionLeads, loadSuccessionIndexes } from './assets/js/successions.js';
 import { estimateBirthYear } from './assets/js/inference.js';
 
-// --- Sous-navigation : bascule entre les deux volets fusionnés sur cette page ---
+// --- Sous-navigation : bascule entre les quatre volets fusionnés sur cette page ---
+// (Décès manquants, puis les trois modes du volet FranceArchives, tous à plat au même niveau).
 const topModeDecesBtn = document.getElementById('topModeDecesBtn');
-const topModeFaBtn = document.getElementById('topModeFaBtn');
+const topModeRecensementBtn = document.getElementById('topModeRecensementBtn');
+const topModeNotariatBtn = document.getElementById('topModeNotariatBtn');
+const topModeSuccessionsBtn = document.getElementById('topModeSuccessionsBtn');
 const dmPanelEl = document.getElementById('dmPanel');
 const faPanelEl = document.getElementById('faPanel');
 function setTopMode(m) {
     topModeDecesBtn.classList.toggle('active', m === 'deces');
-    topModeFaBtn.classList.toggle('active', m === 'fa');
+    topModeRecensementBtn.classList.toggle('active', m === 'recensement');
+    topModeNotariatBtn.classList.toggle('active', m === 'notariat');
+    topModeSuccessionsBtn.classList.toggle('active', m === 'successions');
     dmPanelEl.classList.toggle('hidden', m !== 'deces');
-    faPanelEl.classList.toggle('hidden', m !== 'fa');
+    faPanelEl.classList.toggle('hidden', m === 'deces');
+    if (m !== 'deces') fa.setMode(m);
 }
 topModeDecesBtn.addEventListener('click', () => setTopMode('deces'));
-topModeFaBtn.addEventListener('click', () => setTopMode('fa'));
+topModeRecensementBtn.addEventListener('click', () => setTopMode('recensement'));
+topModeNotariatBtn.addEventListener('click', () => setTopMode('notariat'));
+topModeSuccessionsBtn.addEventListener('click', () => setTopMode('successions'));
 
 // --- Décès manquants ---
 // Enveloppé dans une IIFE : ce volet reprend tel quel le script de l'ancienne page
@@ -509,9 +513,6 @@ const fa = (() => {
     const introRecensementEl = document.getElementById('faIntroRecensement');
     const introNotariatEl = document.getElementById('faIntroNotariat');
     const introSuccessionsEl = document.getElementById('faIntroSuccessions');
-    const modeRecensementBtn = document.getElementById('faModeRecensementBtn');
-    const modeNotariatBtn = document.getElementById('faModeNotariatBtn');
-    const modeSuccessionsBtn = document.getElementById('faModeSuccessionsBtn');
 
     deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', ');
     censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', ');
@@ -528,12 +529,11 @@ const fa = (() => {
 
     // Les trois modes partagent le même fichier chargé et le même bouton "Analyser" : changer de mode
     // ne relance pas l'analyse, il ne fait que basculer l'affichage entre les jeux de résultats déjà
-    // calculés (ou les options/intro tant que rien n'a encore été analysé).
+    // calculés (ou les options/intro tant que rien n'a encore été analysé). Le choix du mode est piloté
+    // depuis la sous-navigation commune (voir setTopMode() plus haut, hors de cette IIFE) : setMode() est
+    // exposée dans l'objet retourné par cette IIFE pour que ce code externe puisse l'appeler.
     function setMode(newMode) {
         mode = newMode;
-        modeRecensementBtn.classList.toggle('active', mode === 'recensement');
-        modeNotariatBtn.classList.toggle('active', mode === 'notariat');
-        modeSuccessionsBtn.classList.toggle('active', mode === 'successions');
         introRecensementEl.classList.toggle('hidden', mode !== 'recensement');
         introNotariatEl.classList.toggle('hidden', mode !== 'notariat');
         introSuccessionsEl.classList.toggle('hidden', mode !== 'successions');
@@ -542,9 +542,6 @@ const fa = (() => {
         document.getElementById('faNotariatOptions').classList.toggle('hidden', mode !== 'notariat');
         updateResultsVisibility();
     }
-    modeRecensementBtn.addEventListener('click', () => setMode('recensement'));
-    modeNotariatBtn.addEventListener('click', () => setMode('notariat'));
-    modeSuccessionsBtn.addEventListener('click', () => setMode('successions'));
 
     function updateResultsVisibility() {
         const hasRecensement = lastResults.length > 0;
@@ -678,20 +675,25 @@ const fa = (() => {
         });
     }
 
-    // Le registre visé dépend du type de correspondance trouvée par computeSuccessionLeads :
-    // - 'exact' : la commune a son propre registre, lien(s) direct(s) vers la/les notice(s)
-    //   (plusieurs quand la ville a plusieurs bureaux d'enregistrement — LILLE, ROUBAIX...).
-    // - 'bureau' : commune absente du dépouillement, repli sur le bureau géographiquement le plus
-    //   proche (voir build_successions_59_bureaux.py) — piste à vérifier, pas une correspondance sûre.
-    // - 'none' : aucun repli possible, lien vers tous les registres de l'année sans filtre de lieu.
+    // Le registre visé dépend du type de correspondance trouvée par computeSuccessionLeads, et de
+    // ce que le portail du département publie (voir successions.js, config.kind) :
+    // - 'exact' : la commune (ou son bureau, résolu avec certitude pour ce département et cette
+    //   année) a son propre registre, lien(s) direct(s) vers la/les notice(s) — plusieurs quand
+    //   plusieurs registres se chevauchent (bureaux multiples d'une même ville au Nord, tranches
+    //   redondantes au Tarn...).
+    // - 'bureau' (Nord uniquement) : commune absente du dépouillement, repli sur le bureau
+    //   géographiquement le plus proche (approximation, pas une correspondance sûre).
+    // - 'none' : aucune piste précise, lien de repli vers l'ensemble de la série à feuilleter
+    //   soi-même (sans filtre de lieu au Nord, catalogue entier au Tarn).
     function successionRegistreCell(r) {
-        if (r.matchType === 'none') {
-            return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ Commune absente de cette série</div>
-                <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Registres de ${r.year} (sans filtre de lieu)</a></div>`;
+        if (!r.registers.length) {
+            const reason = r.contextLabel || 'Commune absente de cette série';
+            return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ ${escapeHtml(reason)}</div>
+                <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Parcourir la série manuellement</a></div>`;
         }
         const warn = r.matchType === 'bureau'
             ? `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ "${escapeHtml(r.city)}" non répertoriée — bureau le plus proche : ${escapeHtml(r.bureauInfo.bureau)} (${r.bureauInfo.distanceKm} km, à vérifier)</div>`
-            : '';
+            : (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '');
         const links = r.registers.map(reg =>
             `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">⚰ ${escapeHtml(reg.cote)} [${reg.yearStart}-${reg.yearEnd}]</a>`
         ).join('');
@@ -704,14 +706,12 @@ const fa = (() => {
             const p = r.person;
             const tr = document.createElement('tr');
             const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
-            const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
             tr.innerHTML = `
                 <td>${r.sosa != null ? r.sosa : '-'}</td>
                 <td>${escapeHtml(p.surname || '')}</td>
                 <td>${escapeHtml(p.given || '')}</td>
                 <td>${birthDisplay}</td>
-                <td>${marriageDisplay}</td>
-                <td>${r.year}</td>
+                <td>${escapeHtml(formatFullDate(p.death))}</td>
                 <td>${escapeHtml(r.city)}</td>
                 <td>${successionRegistreCell(r)}</td>
             `;
@@ -769,7 +769,7 @@ const fa = (() => {
             downloadCsv('notariat_pistes.csv', headers, rows);
         } else {
             if (!successionResults.length) return;
-            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Mariage', 'Annee deces', 'Commune', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Cote', 'URL registre'];
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Date deces', 'Departement', 'Commune', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Contexte', 'Cote', 'URL registre'];
             const rows = [];
             sortedSuccessionResults().forEach(r => {
                 const base = [
@@ -779,12 +779,13 @@ const fa = (() => {
                     r.person.given || '',
                     r.birthEst ? r.birthEst.year : '',
                     r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
-                    r.person.marrYear != null ? r.person.marrYear : '',
-                    r.year,
+                    formatFullDate(r.person.death),
+                    r.deptLabel,
                     r.city,
                     r.matchType,
                     r.bureauInfo ? r.bureauInfo.bureau : '',
-                    r.bureauInfo ? r.bureauInfo.distanceKm : ''
+                    r.bureauInfo ? r.bureauInfo.distanceKm : '',
+                    r.contextLabel || ''
                 ];
                 if (r.registers.length) {
                     r.registers.forEach(reg => rows.push([...base, reg.cote, reg.url]));
@@ -803,7 +804,8 @@ const fa = (() => {
             statusEl.textContent = list.length
                 ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
                 : 'Chargez un fichier GEDCOM depuis l\'accueil.';
-        }
+        },
+        setMode
     };
 })();
 

@@ -169,7 +169,15 @@ export class GedcomParser {
                 const y=this.getYear(v);
                 const approx=this.isApproxDate(v);
                 if(i._ctx==='BIRT') { i.birth.year=y; i.birth.approx=approx; }
-                if(i._ctx==='DEAT') { i.death.year=y; i.death.approx=approx; }
+                if(i._ctx==='DEAT') {
+                    i.death.year=y; i.death.approx=approx;
+                    // Jour/mois (en plus de l'année déjà nécessaire ailleurs) : seulement dispo pour
+                    // une date complète non approximative (voir parseFullDate) — utilisé pour afficher
+                    // la date de décès complète dans le mode Successions plutôt que la seule année.
+                    const full = approx ? null : this.parseFullDate(v);
+                    i.death.day = full ? full.day : null;
+                    i.death.month = full ? full.month : null;
+                }
                 if(['BIRT','DEAT','BURI','BAPM','CHR','EMIG','IMMI'].includes(i._ctx)) {
                     const key = i._ctx==='CHR' ? 'BAPM' : i._ctx;
                     if(v && v.trim().length) { i.events[key].hasDate = true; i.events[key].year = y; i.events[key].approx = approx; }

@@ -1,4 +1,16 @@
 // --- UTILITAIRES PARTAGÉS ---
+const MONTH_LABELS_FR = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+
+// Date complète lisible ("12 mai 1900") quand le jour/mois est connu (voir GedcomParser, qui ne
+// les extrait que pour une date non approximative) ; repli sur la seule année ("1900", "1900
+// (env.)") sinon — même convention d'affichage "(env.)" que le reste de l'app pour une date
+// approximative (ABT/CAL/EST GEDCOM).
+export function formatFullDate(evt) {
+    if (!evt || evt.year == null) return '-';
+    if (evt.day != null && evt.month != null) return `${evt.day} ${MONTH_LABELS_FR[evt.month]} ${evt.year}`;
+    return `${evt.year}${evt.approx ? ' (env.)' : ''}`;
+}
+
 export function getEventLabel(code) {
     const labels = { 'BIRT':'Naissance', 'DEAT':'Décès', 'MARR':'Mariage', 'BURI':'Inhumation', 'BAPM':'Baptême', 'CENS':'Recensement', 'RESI':'Résidence', 'TUTELLE':'Tutelle' };
     return labels[code] || code;
