@@ -392,6 +392,18 @@ export const SUCCESSION_DEPTS = {
         // d'archives du Pas-de-Calais (même précédent que la Haute-Garonne).
         catalogUrl: 'https://archivesenligne.pasdecalais.fr/console/ir_seriel.php?id=56&p=formulaire_enregistrement_tsa',
     },
+    '91': {
+        label: 'Essonne',
+        kind: 'facet',
+        // Bornes réelles de la série (263 registres scrapés, voir scrape_successions_multi.py,
+        // DEPARTMENTS['91']) : seuls 12 des bureaux d'enregistrement du département ont un fonds
+        // "Tables des successions" numérisé sous ce formUuid - repli par proximité pour le reste.
+        minYear: 1780,
+        maxYear: 1977,
+        registersUrl: './assets/data/successions_91.json',
+        bureauxUrl: './assets/data/successions_91_bureaux.json',
+        catalogUrl: 'https://archives.essonne.fr/page/successions-1',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

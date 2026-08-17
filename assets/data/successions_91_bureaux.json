@@ -1,0 +1,806 @@
+{
+  "ABBEVILLE LA RIVIERE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 7.7
+  },
+  "ANGERVILLE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 6.8
+  },
+  "ANGERVILLIERS": {
+    "bureau": "DOURDAN",
+    "distanceKm": 8.3
+  },
+  "ARRANCOURT": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 4.0
+  },
+  "ATHIS MONS": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 2.2
+  },
+  "AUTHON LA PLAINE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 8.9
+  },
+  "AUVERNAUX": {
+    "bureau": "CORBEIL",
+    "distanceKm": 8.0
+  },
+  "AUVERS SAINT GEORGES": {
+    "bureau": "ETAMPES",
+    "distanceKm": 7.8
+  },
+  "AVRAINVILLE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 3.9
+  },
+  "BALLAINVILLIERS": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 2.5
+  },
+  "BALLANCOURT SUR ESSONNE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 5.0
+  },
+  "BALLANCOURT": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 5.0
+  },
+  "BAULNE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 1.7
+  },
+  "BIEVRES": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 4.8
+  },
+  "BLANDY": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 11.9
+  },
+  "BOIGNEVILLE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 11.2
+  },
+  "BOIS HERPIN": {
+    "bureau": "ETAMPES",
+    "distanceKm": 8.3
+  },
+  "BOISSY LA RIVIERE": {
+    "bureau": "ETAMPES",
+    "distanceKm": 4.9
+  },
+  "BOISSY LE CUTTE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 6.3
+  },
+  "BOISSY LE SEC": {
+    "bureau": "ETAMPES",
+    "distanceKm": 8.4
+  },
+  "BOISSY SOUS SAINT YON": {
+    "bureau": "ARPAJON",
+    "distanceKm": 4.8
+  },
+  "BONDOUFLE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 6.6
+  },
+  "BOULLAY LES TROUX": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 14.0
+  },
+  "BOURAY SUR JUINE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 6.2
+  },
+  "BOUSSY SAINT ANTOINE": {
+    "bureau": "YERRES",
+    "distanceKm": 4.1
+  },
+  "BOUTERVILLIERS": {
+    "bureau": "ETAMPES",
+    "distanceKm": 8.2
+  },
+  "BOUTIGNY SUR ESSONNE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 5.4
+  },
+  "BOUVILLE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 8.1
+  },
+  "BREUILLET": {
+    "bureau": "ARPAJON",
+    "distanceKm": 6.3
+  },
+  "BREUX JOUY": {
+    "bureau": "ARPAJON",
+    "distanceKm": 7.6
+  },
+  "BREUX": {
+    "bureau": "ARPAJON",
+    "distanceKm": 7.6
+  },
+  "BRIIS SOUS FORGES": {
+    "bureau": "ARPAJON",
+    "distanceKm": 9.6
+  },
+  "BRIERES LES SCELLES": {
+    "bureau": "ETAMPES",
+    "distanceKm": 4.7
+  },
+  "BROUY": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 14.5
+  },
+  "BRUNOY": {
+    "bureau": "YERRES",
+    "distanceKm": 2.2
+  },
+  "BRUYERES LE CHATEL": {
+    "bureau": "ARPAJON",
+    "distanceKm": 5.1
+  },
+  "BRETIGNY SUR ORGE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 4.1
+  },
+  "BUNO BONNEVAUX": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 6.2
+  },
+  "BURES SUR YVETTE": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 5.8
+  },
+  "CERNY": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 4.3
+  },
+  "CHALO SAINT MARS": {
+    "bureau": "ETAMPES",
+    "distanceKm": 7.1
+  },
+  "CHALOU MOULINEUX": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 8.6
+  },
+  "CHAMARANDE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 8.3
+  },
+  "CHAMPCUEIL": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 6.2
+  },
+  "CHAMPLAN": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 2.7
+  },
+  "CHAMPMOTTEUX": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 13.3
+  },
+  "CHATIGNONVILLE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 8.3
+  },
+  "CHAUFFOUR LES ETRECHY": {
+    "bureau": "ETAMPES",
+    "distanceKm": 9.6
+  },
+  "CHEPTAINVILLE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 5.2
+  },
+  "CHEVANNES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 7.3
+  },
+  "CHILLY MAZARIN": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 1.5
+  },
+  "CHATEAUFORT": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "CONGERVILLE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "CONGERVILLE THIONVILLE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 10.5
+  },
+  "THIONVILLE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 10.5
+  },
+  "CORBEIL ESSONNES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 0.0
+  },
+  "CORBREUSE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 4.1
+  },
+  "COURANCES": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 5.0
+  },
+  "COURCOURONNES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "COURDIMANCHE SUR ESSONNE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 6.9
+  },
+  "COURSON MONTELOUP": {
+    "bureau": "ARPAJON",
+    "distanceKm": 8.0
+  },
+  "CROSNE": {
+    "bureau": "YERRES",
+    "distanceKm": 2.4
+  },
+  "D HUISON LONGUEVILLE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 4.5
+  },
+  "DANNEMOIS": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 7.1
+  },
+  "DRAVEIL": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 4.2
+  },
+  "ESTOUCHES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "FLEURY MEROGIS": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 6.6
+  },
+  "FONTAINE LA RIVIERE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 6.8
+  },
+  "FONTENAY LE VICOMTE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 7.3
+  },
+  "FONTENAY LES BRIIS": {
+    "bureau": "ARPAJON",
+    "distanceKm": 6.0
+  },
+  "FORGES LES BAINS": {
+    "bureau": "DOURDAN",
+    "distanceKm": 11.6
+  },
+  "GIF SUR YVETTE": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 7.3
+  },
+  "GIRONVILLE SUR ESSONNE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 10.3
+  },
+  "GIRONVILLE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 10.3
+  },
+  "GOMETZ LA VILLE": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 9.9
+  },
+  "GOMETZ LE CHATEL": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 8.0
+  },
+  "GRIGNY": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 3.8
+  },
+  "GUIBEVILLE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 3.1
+  },
+  "GUIGNEVILLE SUR ESSONNE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 2.1
+  },
+  "GUIGNEVILLE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 2.1
+  },
+  "GUILLERVAL": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 5.3
+  },
+  "IGNY": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 2.5
+  },
+  "ITTEVILLE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 4.2
+  },
+  "JANVILLE SUR JUINE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 8.9
+  },
+  "JANVRY": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 8.1
+  },
+  "LA FORET SAINTE CROIX": {
+    "bureau": "ETAMPES",
+    "distanceKm": 7.3
+  },
+  "LA FORET LE ROI": {
+    "bureau": "DOURDAN",
+    "distanceKm": 7.2
+  },
+  "LA NORVILLE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 1.6
+  },
+  "LA VILLE DU BOIS": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 2.3
+  },
+  "LARDY": {
+    "bureau": "ARPAJON",
+    "distanceKm": 7.0
+  },
+  "LE COUDRAY MONTCEAUX": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.6
+  },
+  "LE MEREVILLOIS": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 0.0
+  },
+  "LE PLESSIS PATE": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 6.6
+  },
+  "LE VAL SAINT GERMAIN": {
+    "bureau": "DOURDAN",
+    "distanceKm": 7.8
+  },
+  "LES GRANGES LE ROI": {
+    "bureau": "DOURDAN",
+    "distanceKm": 3.9
+  },
+  "LES MOLIERES": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 12.7
+  },
+  "LES ULIS": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 4.9
+  },
+  "LEUDEVILLE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 6.4
+  },
+  "LEUVILLE SUR ORGE": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 2.9
+  },
+  "LIMOURS": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 13.3
+  },
+  "LINAS": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 1.8
+  },
+  "LISSES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 2.9
+  },
+  "LONGPONT SUR ORGE": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 1.5
+  },
+  "LONGPONT": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 1.5
+  },
+  "MAISSE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 7.6
+  },
+  "MARCOUSSIS": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 4.4
+  },
+  "MAROLLES EN BEAUCE": {
+    "bureau": "ETAMPES",
+    "distanceKm": 7.0
+  },
+  "MAROLLES EN HUREPOIX": {
+    "bureau": "ARPAJON",
+    "distanceKm": 4.8
+  },
+  "MASSY": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 3.2
+  },
+  "MAUCHAMPS": {
+    "bureau": "ARPAJON",
+    "distanceKm": 7.6
+  },
+  "MENNECY": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.7
+  },
+  "MESPUITS": {
+    "bureau": "ETAMPES",
+    "distanceKm": 11.9
+  },
+  "MILLY": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 0.0
+  },
+  "MOIGNY SUR ECOLE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 5.2
+  },
+  "MOIGNY": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 5.2
+  },
+  "MONDEVILLE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 4.2
+  },
+  "MONNERVILLE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 5.3
+  },
+  "MONTGERON": {
+    "bureau": "YERRES",
+    "distanceKm": 2.9
+  },
+  "MORANGIS": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 2.5
+  },
+  "MORIGNY CHAMPIGNY": {
+    "bureau": "ETAMPES",
+    "distanceKm": 4.1
+  },
+  "MORSANG SUR ORGE": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 4.2
+  },
+  "MORSANG SUR SEINE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 3.5
+  },
+  "MEROBERT": {
+    "bureau": "ETAMPES",
+    "distanceKm": 11.9
+  },
+  "NAINVILLE LES ROCHES": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 9.7
+  },
+  "NOZAY": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 3.1
+  },
+  "OLLAINVILLE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 2.7
+  },
+  "ONCY SUR ECOLE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 2.4
+  },
+  "ONCY": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 2.4
+  },
+  "ORMOY": {
+    "bureau": "CORBEIL",
+    "distanceKm": 2.9
+  },
+  "ORMOY LA RIVIERE": {
+    "bureau": "ETAMPES",
+    "distanceKm": 2.4
+  },
+  "ORSAY": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 3.6
+  },
+  "ORVEAU": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 6.4
+  },
+  "PARAY VIEILLE POSTE": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 3.7
+  },
+  "PECQUEUSE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 13.1
+  },
+  "PLESSIS SAINT BENOIST": {
+    "bureau": "DOURDAN",
+    "distanceKm": 9.7
+  },
+  "PRUNAY SUR ESSONNE": {
+    "bureau": "MILLY-LA-FORET",
+    "distanceKm": 10.2
+  },
+  "PUISELET LE MARAIS": {
+    "bureau": "ETAMPES",
+    "distanceKm": 8.8
+  },
+  "PUSSAY": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 8.0
+  },
+  "QUINCY SOUS SENART": {
+    "bureau": "YERRES",
+    "distanceKm": 5.1
+  },
+  "RICHARVILLE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 7.0
+  },
+  "RIS ORANGIS": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 5.8
+  },
+  "ROINVILLE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 4.7
+  },
+  "ROINVILLIERS": {
+    "bureau": "ETAMPES",
+    "distanceKm": 10.4
+  },
+  "SACLAS": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 4.3
+  },
+  "SACLAY": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 5.0
+  },
+  "SAINT AUBIN": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 6.7
+  },
+  "SAINT CHERON": {
+    "bureau": "ARPAJON",
+    "distanceKm": 9.9
+  },
+  "SAINT CYR LA RIVIERE": {
+    "bureau": "MEREVILLE",
+    "distanceKm": 4.6
+  },
+  "SAINT CYR SOUS DOURDAN": {
+    "bureau": "DOURDAN",
+    "distanceKm": 5.1
+  },
+  "SAINT ESCOBILLE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 12.4
+  },
+  "SAINT GERMAIN LES ARPAJON": {
+    "bureau": "ARPAJON",
+    "distanceKm": 1.7
+  },
+  "SAINT GERMAIN LES CORBEIL": {
+    "bureau": "CORBEIL",
+    "distanceKm": 3.9
+  },
+  "SAINT HILAIRE": {
+    "bureau": "ETAMPES",
+    "distanceKm": 5.3
+  },
+  "SAINT JEAN DE BEAUREGARD": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 6.9
+  },
+  "SAINT MAURICE MONTCOURONNE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 9.2
+  },
+  "SAINT MICHEL SUR ORGE": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 3.5
+  },
+  "SAINT PIERRE DU PERRAY": {
+    "bureau": "CORBEIL",
+    "distanceKm": 3.9
+  },
+  "SAINT SULPICE DE FAVIERES": {
+    "bureau": "ARPAJON",
+    "distanceKm": 8.0
+  },
+  "SAINT VRAIN": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 6.8
+  },
+  "SAINT YON": {
+    "bureau": "ARPAJON",
+    "distanceKm": 5.1
+  },
+  "SAINTE GENEVIEVE DES BOIS": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 4.5
+  },
+  "SAINTRY SUR SEINE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 2.3
+  },
+  "SAINTRY": {
+    "bureau": "CORBEIL",
+    "distanceKm": 2.3
+  },
+  "SAULX LES CHARTREUX": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 3.1
+  },
+  "SAVIGNY SUR ORGE": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 1.8
+  },
+  "SERMAISE": {
+    "bureau": "DOURDAN",
+    "distanceKm": 7.3
+  },
+  "SOISY SUR SEINE": {
+    "bureau": "YERRES",
+    "distanceKm": 6.3
+  },
+  "SOISY SUR ECOLE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 7.8
+  },
+  "SOUZY LA BRICHE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 10.1
+  },
+  "TIGERY": {
+    "bureau": "CORBEIL",
+    "distanceKm": 6.7
+  },
+  "TORFOU": {
+    "bureau": "ARPAJON",
+    "distanceKm": 6.5
+  },
+  "TOUSSUS LE NOBLE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "VALPUISEAUX": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 10.8
+  },
+  "VARENNES JARCY": {
+    "bureau": "YERRES",
+    "distanceKm": 6.3
+  },
+  "VAUGRIGNEUSE": {
+    "bureau": "ARPAJON",
+    "distanceKm": 10.5
+  },
+  "VAUHALLAN": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 2.7
+  },
+  "VAYRES SUR ESSONNE": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 5.7
+  },
+  "VERRIERES LE BUISSON": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 4.4
+  },
+  "VERT LE GRAND": {
+    "bureau": "CORBEIL",
+    "distanceKm": 7.1
+  },
+  "VERT LE PETIT": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 7.7
+  },
+  "VIDELLES": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 4.0
+  },
+  "VIGNEUX SUR SEINE": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 4.2
+  },
+  "VILLABE": {
+    "bureau": "CORBEIL",
+    "distanceKm": 1.5
+  },
+  "VILLEBON SUR YVETTE": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 2.2
+  },
+  "VILLECONIN": {
+    "bureau": "ETAMPES",
+    "distanceKm": 8.6
+  },
+  "VILLEJUST": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 4.1
+  },
+  "VILLEMOISSON SUR ORGE": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 4.0
+  },
+  "VILLENEUVE SUR AUVERS": {
+    "bureau": "LA FERTE-ALAIS",
+    "distanceKm": 8.7
+  },
+  "VILLIERS LE BACLE": {
+    "bureau": "PALAISEAU",
+    "distanceKm": 8.0
+  },
+  "VILLIERS SUR ORGE": {
+    "bureau": "MONTLHERY",
+    "distanceKm": 3.4
+  },
+  "VIRY CHATILLON": {
+    "bureau": "JUVISY-SUR-ORGE",
+    "distanceKm": 2.8
+  },
+  "WISSOUS": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 4.6
+  },
+  "ECHARCON": {
+    "bureau": "CORBEIL",
+    "distanceKm": 5.2
+  },
+  "EGLY": {
+    "bureau": "ARPAJON",
+    "distanceKm": 2.4
+  },
+  "EPINAY SOUS SENART": {
+    "bureau": "YERRES",
+    "distanceKm": 3.2
+  },
+  "EPINAY SUR ORGE": {
+    "bureau": "LONGJUMEAU",
+    "distanceKm": 2.5
+  },
+  "ETIOLLES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 5.9
+  },
+  "ETRECHY": {
+    "bureau": "ETAMPES",
+    "distanceKm": 8.3
+  },
+  "EVRY COURCOURONNES": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "EVRY": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  },
+  "EVRY PETIT BOURG": {
+    "bureau": "CORBEIL",
+    "distanceKm": 4.3
+  }
+}
