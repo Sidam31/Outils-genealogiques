@@ -1,0 +1,1838 @@
+{
+  "AIX LA FAYETTE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 5.2
+  },
+  "ANTOINGT": {
+    "bureau": "Issoire",
+    "distanceKm": 6.6
+  },
+  "ANZAT LE LUGUET": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 12.1
+  },
+  "APCHAT": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 2.7
+  },
+  "ARCONSAT": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 10.5
+  },
+  "ARDES": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 0.0
+  },
+  "ARS LES FAVETS": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 4.4
+  },
+  "ARTONNE": {
+    "bureau": "Aigueperse",
+    "distanceKm": 4.2
+  },
+  "AUBIAT": {
+    "bureau": "Aigueperse",
+    "distanceKm": 3.9
+  },
+  "AUBIERE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 4.1
+  },
+  "AUBUSSON D AUVERGNE": {
+    "bureau": "Courpière",
+    "distanceKm": 4.7
+  },
+  "AUGEROLLES": {
+    "bureau": "Olliergues",
+    "distanceKm": 5.2
+  },
+  "AUGNAT": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 4.4
+  },
+  "AULHAT FLAT": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 4.9
+  },
+  "FLAT": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 4.9
+  },
+  "AULHAT SAINT PRIVAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "AULHAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "AULNAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 4.7
+  },
+  "AURIERES": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 8.7
+  },
+  "AUTHEZAT": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 3.9
+  },
+  "AUZAT LA COMBELLE": {
+    "bureau": "Jumeaux",
+    "distanceKm": 2.4
+  },
+  "AUZAT SUR ALLIER": {
+    "bureau": "Jumeaux",
+    "distanceKm": 2.4
+  },
+  "AUZELLES": {
+    "bureau": "Cunlhat",
+    "distanceKm": 3.5
+  },
+  "AVEZE": {
+    "bureau": "Tauves",
+    "distanceKm": 4.3
+  },
+  "AYAT SUR SIOULE": {
+    "bureau": "Menat",
+    "distanceKm": 4.9
+  },
+  "AYDAT": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 9.4
+  },
+  "BAFFIE": {
+    "bureau": "Viverols",
+    "distanceKm": 6.6
+  },
+  "BAGNOLS": {
+    "bureau": "Tauves",
+    "distanceKm": 8.0
+  },
+  "BANSAT": {
+    "bureau": "Jumeaux",
+    "distanceKm": 5.8
+  },
+  "BAS ET LEZAT": {
+    "bureau": "Randan",
+    "distanceKm": 5.3
+  },
+  "BEAULIEU": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 3.6
+  },
+  "BEAUMONT": {
+    "bureau": "Randan",
+    "distanceKm": 2.2
+  },
+  "BEAUMONT LES RANDAN": {
+    "bureau": "Randan",
+    "distanceKm": 2.2
+  },
+  "BEAUREGARD VENDON": {
+    "bureau": "Combronde",
+    "distanceKm": 3.3
+  },
+  "BEAUREGARD L EVEQUE": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 5.2
+  },
+  "BERGONNE": {
+    "bureau": "Issoire",
+    "distanceKm": 4.3
+  },
+  "BERTIGNAT": {
+    "bureau": "Ambert",
+    "distanceKm": 8.9
+  },
+  "BESSE EN CHANDESSE": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 0.0
+  },
+  "BESSE": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 0.0
+  },
+  "BEURIERES": {
+    "bureau": "Arlanc",
+    "distanceKm": 3.5
+  },
+  "BIOLLET": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 10.9
+  },
+  "BLANZAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 5.3
+  },
+  "BLOT L EGLISE": {
+    "bureau": "Menat",
+    "distanceKm": 9.4
+  },
+  "BONGHEAT": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 7.4
+  },
+  "BORT L ETANG": {
+    "bureau": "Lezoux",
+    "distanceKm": 6.8
+  },
+  "BOUDES": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 4.4
+  },
+  "BOUZEL": {
+    "bureau": "Billom",
+    "distanceKm": 6.3
+  },
+  "BRASSAC LES MINES": {
+    "bureau": "Jumeaux",
+    "distanceKm": 3.1
+  },
+  "BRENAT": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 4.8
+  },
+  "BRIFFONS": {
+    "bureau": "Bourg-Lastic",
+    "distanceKm": 8.5
+  },
+  "BROMONT LAMOTHE": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 3.8
+  },
+  "BROUSSE": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 7.0
+  },
+  "BULHON": {
+    "bureau": "Maringues",
+    "distanceKm": 5.7
+  },
+  "BUSSIERES": {
+    "bureau": "Pionsat",
+    "distanceKm": 6.3
+  },
+  "BUSSIERES ET PRUNS": {
+    "bureau": "Aigueperse",
+    "distanceKm": 3.2
+  },
+  "BUSSEOL": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 5.4
+  },
+  "BUXIERES SOUS MONTAIGUT": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 3.9
+  },
+  "CEILLOUX": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 3.0
+  },
+  "CELLES SUR DUROLLE": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 5.2
+  },
+  "CELLULE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "CEYRAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 6.4
+  },
+  "CEYSSAT": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 7.9
+  },
+  "CHABRELOCHE": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 9.6
+  },
+  "CHADELEUF": {
+    "bureau": "Champeix",
+    "distanceKm": 4.1
+  },
+  "CHALUS": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 2.9
+  },
+  "CHAMALIERES": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 4.3
+  },
+  "CHAMBARON SUR MORGE": {
+    "bureau": "Combronde",
+    "distanceKm": 6.3
+  },
+  "LA MOUTADE": {
+    "bureau": "Combronde",
+    "distanceKm": 6.3
+  },
+  "CHAMBON SUR DOLORE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 7.9
+  },
+  "CHAMBON SUR LAC": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 5.4
+  },
+  "CHAMPAGNAT LE JEUNE": {
+    "bureau": "Jumeaux",
+    "distanceKm": 5.9
+  },
+  "CHAMPS": {
+    "bureau": "Combronde",
+    "distanceKm": 8.1
+  },
+  "CHAMPETIERES": {
+    "bureau": "Ambert",
+    "distanceKm": 6.6
+  },
+  "CHAMEANE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "CHANAT LA MOUTEYRE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 9.4
+  },
+  "CHANONAT": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 4.2
+  },
+  "CHAPDES BEAUFORT": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 7.1
+  },
+  "CHAPPES": {
+    "bureau": "Ennezat",
+    "distanceKm": 3.4
+  },
+  "CHAPTUZAT": {
+    "bureau": "Aigueperse",
+    "distanceKm": 3.0
+  },
+  "CHARBONNIER LES MINES": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 5.0
+  },
+  "CHARBONNIERES LES VARENNES": {
+    "bureau": "Manzat",
+    "distanceKm": 6.6
+  },
+  "CHARBONNIERES LES VIEILLES": {
+    "bureau": "Combronde",
+    "distanceKm": 5.3
+  },
+  "CHARENSAT": {
+    "bureau": "Pontaumur",
+    "distanceKm": 13.8
+  },
+  "CHARNAT": {
+    "bureau": "Maringues",
+    "distanceKm": 7.4
+  },
+  "CHAS": {
+    "bureau": "Billom",
+    "distanceKm": 2.7
+  },
+  "CHASSAGNE": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 11.5
+  },
+  "CHASTREIX": {
+    "bureau": "La Tour-d'Auvergne",
+    "distanceKm": 4.4
+  },
+  "CHAUMONT LE BOURG": {
+    "bureau": "Arlanc",
+    "distanceKm": 4.9
+  },
+  "CHAURIAT": {
+    "bureau": "Billom",
+    "distanceKm": 4.0
+  },
+  "CHAVAROUX": {
+    "bureau": "Ennezat",
+    "distanceKm": 5.7
+  },
+  "CHATEAU SUR CHER": {
+    "bureau": "Pionsat",
+    "distanceKm": 8.2
+  },
+  "CHATEAUGAY": {
+    "bureau": "Riom",
+    "distanceKm": 4.9
+  },
+  "CHATEAUNEUF LES BAINS": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 4.0
+  },
+  "CHATEAUNEUF": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 4.0
+  },
+  "CHATEL GUYON": {
+    "bureau": "Riom",
+    "distanceKm": 5.8
+  },
+  "CHATELGUYON": {
+    "bureau": "Riom",
+    "distanceKm": 5.8
+  },
+  "CISTERNES LA FORET": {
+    "bureau": "Pontaumur",
+    "distanceKm": 7.4
+  },
+  "CLERLANDE": {
+    "bureau": "Ennezat",
+    "distanceKm": 3.0
+  },
+  "CLEMENSAT": {
+    "bureau": "Champeix",
+    "distanceKm": 3.0
+  },
+  "COLLANGES": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 2.9
+  },
+  "COMBRAILLES": {
+    "bureau": "Pontaumur",
+    "distanceKm": 3.1
+  },
+  "COMPAINS": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 7.1
+  },
+  "CONDAT EN COMBRAILLE": {
+    "bureau": "Pontaumur",
+    "distanceKm": 8.8
+  },
+  "CONDAT": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 8.5
+  },
+  "CONDAT LES MONTBOISSIER": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 8.5
+  },
+  "CORENT": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 4.0
+  },
+  "COUDES": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 4.9
+  },
+  "COURGOUL": {
+    "bureau": "Champeix",
+    "distanceKm": 10.5
+  },
+  "COURNOLS": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 6.3
+  },
+  "COURNON D AUVERGNE": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 7.2
+  },
+  "CRESTE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "CREVANT LAVEINE": {
+    "bureau": "Maringues",
+    "distanceKm": 4.5
+  },
+  "CROS": {
+    "bureau": "Tauves",
+    "distanceKm": 10.7
+  },
+  "CULHAT": {
+    "bureau": "Lezoux",
+    "distanceKm": 4.9
+  },
+  "CEBAZAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 4.9
+  },
+  "DALLET": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "DAUZAT SUR VODABLE": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 9.3
+  },
+  "DAVAYAT": {
+    "bureau": "Combronde",
+    "distanceKm": 5.2
+  },
+  "DOMAIZE": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 4.6
+  },
+  "DORANGES": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 8.9
+  },
+  "DORAT": {
+    "bureau": "Thiers",
+    "distanceKm": 5.7
+  },
+  "DORE L EGLISE": {
+    "bureau": "Arlanc",
+    "distanceKm": 5.5
+  },
+  "DURMIGNAT": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 7.1
+  },
+  "DURTOL": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 4.5
+  },
+  "EFFIAT": {
+    "bureau": "Aigueperse",
+    "distanceKm": 6.4
+  },
+  "ENTRAIGUES": {
+    "bureau": "Ennezat",
+    "distanceKm": 3.9
+  },
+  "ENVAL": {
+    "bureau": "Riom",
+    "distanceKm": 5.9
+  },
+  "ESCOUTOUX": {
+    "bureau": "Thiers",
+    "distanceKm": 5.5
+  },
+  "ESPINASSE": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 8.9
+  },
+  "ESPINCHAL": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 11.8
+  },
+  "ESPIRAT": {
+    "bureau": "Billom",
+    "distanceKm": 3.1
+  },
+  "ESTANDEUIL": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 3.1
+  },
+  "ESTEIL": {
+    "bureau": "Jumeaux",
+    "distanceKm": 2.4
+  },
+  "FAYET RONAYE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 4.9
+  },
+  "FAYET LE CHATEAU": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 5.8
+  },
+  "FERNOEL": {
+    "bureau": "Herment",
+    "distanceKm": 13.2
+  },
+  "FOURNOLS": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 7.3
+  },
+  "GELLES": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 9.4
+  },
+  "GERZAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 5.8
+  },
+  "GIAT": {
+    "bureau": "Herment",
+    "distanceKm": 8.3
+  },
+  "GIGNAT": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 3.9
+  },
+  "GIMEAUX": {
+    "bureau": "Combronde",
+    "distanceKm": 4.6
+  },
+  "GLAINE MONTAIGUT": {
+    "bureau": "Billom",
+    "distanceKm": 5.5
+  },
+  "GOUTTIERES": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 6.4
+  },
+  "GRANDEYROLLES": {
+    "bureau": "Champeix",
+    "distanceKm": 6.1
+  },
+  "GRANDRIF": {
+    "bureau": "Ambert",
+    "distanceKm": 6.3
+  },
+  "GRANDVAL": {
+    "bureau": "Cunlhat",
+    "distanceKm": 7.8
+  },
+  "HEUME L EGLISE": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 9.0
+  },
+  "ISSERTEAUX": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 8.0
+  },
+  "JOB": {
+    "bureau": "Ambert",
+    "distanceKm": 8.7
+  },
+  "JOZE": {
+    "bureau": "Maringues",
+    "distanceKm": 6.6
+  },
+  "JOZERAND": {
+    "bureau": "Combronde",
+    "distanceKm": 4.1
+  },
+  "JOSERAND": {
+    "bureau": "Combronde",
+    "distanceKm": 4.1
+  },
+  "LA BOURBOULE": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 4.7
+  },
+  "LA CELLE": {
+    "bureau": "Herment",
+    "distanceKm": 12.3
+  },
+  "LA CELLETTE": {
+    "bureau": "Pionsat",
+    "distanceKm": 4.5
+  },
+  "LA CHAPELLE AGNON": {
+    "bureau": "Cunlhat",
+    "distanceKm": 5.1
+  },
+  "CHAPELLE AGNON": {
+    "bureau": "Cunlhat",
+    "distanceKm": 5.1
+  },
+  "LA CHAPELLE MARCOUSSE": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 5.9
+  },
+  "LA CHAPELLE SUR USSON": {
+    "bureau": "Jumeaux",
+    "distanceKm": 4.6
+  },
+  "LA CHAULME": {
+    "bureau": "Viverols",
+    "distanceKm": 7.5
+  },
+  "LA CROUZILLE": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 4.1
+  },
+  "LA FORIE": {
+    "bureau": "Ambert",
+    "distanceKm": 4.2
+  },
+  "LA GODIVELLE": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 11.8
+  },
+  "LA GOUTELLE": {
+    "bureau": "Pontaumur",
+    "distanceKm": 6.1
+  },
+  "LA MAYRAND": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "LA MONNERIE LE MONTEL": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 3.6
+  },
+  "LA RENAUDIE": {
+    "bureau": "Olliergues",
+    "distanceKm": 8.8
+  },
+  "LA ROCHE BLANCHE": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 5.5
+  },
+  "LA ROCHE NOIRE": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 7.7
+  },
+  "LA SAUVETAT": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 5.1
+  },
+  "LATOUR": {
+    "bureau": "La Tour-d'Auvergne",
+    "distanceKm": 0.0
+  },
+  "LABESSETTE": {
+    "bureau": "Tauves",
+    "distanceKm": 10.4
+  },
+  "LACHAUX": {
+    "bureau": "Châteldon",
+    "distanceKm": 3.8
+  },
+  "LAMONTGIE": {
+    "bureau": "Jumeaux",
+    "distanceKm": 4.8
+  },
+  "LANDOGNE": {
+    "bureau": "Pontaumur",
+    "distanceKm": 3.1
+  },
+  "LAPEYROUSE": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 8.3
+  },
+  "LAPS": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 3.3
+  },
+  "LAQUEUILLE": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 4.9
+  },
+  "LARODDE": {
+    "bureau": "Tauves",
+    "distanceKm": 7.5
+  },
+  "LASTIC": {
+    "bureau": "Bourg-Lastic",
+    "distanceKm": 5.2
+  },
+  "LE BREUIL SUR COUZE": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 2.8
+  },
+  "LE BROC": {
+    "bureau": "Issoire",
+    "distanceKm": 4.6
+  },
+  "LE BRUGERON": {
+    "bureau": "Olliergues",
+    "distanceKm": 8.7
+  },
+  "LE CENDRE": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 8.5
+  },
+  "LE CHEIX SUR MORGE": {
+    "bureau": "Aigueperse",
+    "distanceKm": 6.6
+  },
+  "LE CHEIX": {
+    "bureau": "Aigueperse",
+    "distanceKm": 6.6
+  },
+  "LE CREST": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 3.0
+  },
+  "LE MONESTIER": {
+    "bureau": "Ambert",
+    "distanceKm": 8.1
+  },
+  "LE QUARTIER": {
+    "bureau": "Pionsat",
+    "distanceKm": 6.4
+  },
+  "LE VERNET CHAMEANE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 7.5
+  },
+  "VERNET LA VARENNE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 7.5
+  },
+  "LE VERNET SAINTE MARGUERITE": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 10.4
+  },
+  "LEMPDES": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.4
+  },
+  "LEMPTY": {
+    "bureau": "Lezoux",
+    "distanceKm": 4.6
+  },
+  "LES ANCIZES COMPS": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 9.1
+  },
+  "LES DEUX RIVES": {
+    "bureau": "Champeix",
+    "distanceKm": 3.4
+  },
+  "CHIDRAC": {
+    "bureau": "Champeix",
+    "distanceKm": 3.4
+  },
+  "LES MARTRES D ARTIERE": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.2
+  },
+  "LES MARTRES D ARTIERES": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.2
+  },
+  "LES MARTRES DE VEYRE": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 5.8
+  },
+  "LES PRADEAUX": {
+    "bureau": "Issoire",
+    "distanceKm": 5.1
+  },
+  "LIMONS": {
+    "bureau": "Randan",
+    "distanceKm": 7.4
+  },
+  "LISSEUIL": {
+    "bureau": "Menat",
+    "distanceKm": 6.6
+  },
+  "LOUBEYRAT": {
+    "bureau": "Manzat",
+    "distanceKm": 4.6
+  },
+  "LUDESSE": {
+    "bureau": "Champeix",
+    "distanceKm": 3.8
+  },
+  "LUSSAT": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.3
+  },
+  "LUZILLAT": {
+    "bureau": "Maringues",
+    "distanceKm": 4.8
+  },
+  "MADRIAT": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 5.5
+  },
+  "MALAUZAT": {
+    "bureau": "Riom",
+    "distanceKm": 6.1
+  },
+  "MALINTRAT": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.2
+  },
+  "MANGLIEU": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 6.4
+  },
+  "MARAT": {
+    "bureau": "Olliergues",
+    "distanceKm": 4.3
+  },
+  "MARCILLAT": {
+    "bureau": "Combronde",
+    "distanceKm": 10.5
+  },
+  "MAREUGHEOL": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 6.2
+  },
+  "MARSAC EN LIVRADOIS": {
+    "bureau": "Arlanc",
+    "distanceKm": 6.2
+  },
+  "MARSAT": {
+    "bureau": "Riom",
+    "distanceKm": 4.2
+  },
+  "MARTRES SUR MORGE": {
+    "bureau": "Ennezat",
+    "distanceKm": 4.6
+  },
+  "MAUZUN": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 6.0
+  },
+  "MAYRES": {
+    "bureau": "Arlanc",
+    "distanceKm": 5.0
+  },
+  "MAZAYE": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 5.3
+  },
+  "MAZOIRES": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 6.1
+  },
+  "MEDEYROLLES": {
+    "bureau": "Viverols",
+    "distanceKm": 5.4
+  },
+  "MEILHAUD": {
+    "bureau": "Champeix",
+    "distanceKm": 5.5
+  },
+  "MESSEIX": {
+    "bureau": "Bourg-Lastic",
+    "distanceKm": 5.9
+  },
+  "MIREFLEURS": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 5.0
+  },
+  "MIREMONT": {
+    "bureau": "Pontaumur",
+    "distanceKm": 6.3
+  },
+  "MOISSAT": {
+    "bureau": "Billom",
+    "distanceKm": 6.1
+  },
+  "MONS": {
+    "bureau": "Randan",
+    "distanceKm": 5.7
+  },
+  "MONT DORE": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 0.0
+  },
+  "MONTAIGUT": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 0.0
+  },
+  "MONTAIGUT LE BLANC": {
+    "bureau": "Champeix",
+    "distanceKm": 3.9
+  },
+  "MONTCEL": {
+    "bureau": "Combronde",
+    "distanceKm": 3.4
+  },
+  "MONTEL DE GELAT": {
+    "bureau": "Pontaumur",
+    "distanceKm": 10.6
+  },
+  "MONTFERMY": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 6.1
+  },
+  "MONTMORIN": {
+    "bureau": "Billom",
+    "distanceKm": 4.8
+  },
+  "MONTPENSIER": {
+    "bureau": "Aigueperse",
+    "distanceKm": 3.1
+  },
+  "MONTPEYROUX": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 3.9
+  },
+  "MORIAT": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 5.4
+  },
+  "MAURIAT": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 5.4
+  },
+  "MOUREUILLE": {
+    "bureau": "Menat",
+    "distanceKm": 6.3
+  },
+  "MOZAC": {
+    "bureau": "Riom",
+    "distanceKm": 3.3
+  },
+  "MUR SUR ALLIER": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.1
+  },
+  "MEZEL": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.1
+  },
+  "MURAT LE QUAIRE": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 5.3
+  },
+  "MUROL": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 8.0
+  },
+  "MUROLS": {
+    "bureau": "Le Mont-Dore",
+    "distanceKm": 8.0
+  },
+  "MENETROL": {
+    "bureau": "Riom",
+    "distanceKm": 3.4
+  },
+  "NESCHERS": {
+    "bureau": "Champeix",
+    "distanceKm": 3.2
+  },
+  "NEUF EGLISE": {
+    "bureau": "Menat",
+    "distanceKm": 1.8
+  },
+  "NEUVILLE": {
+    "bureau": "Courpière",
+    "distanceKm": 7.7
+  },
+  "NOALHAT": {
+    "bureau": "Thiers",
+    "distanceKm": 8.2
+  },
+  "NOHANENT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 5.0
+  },
+  "NONETTE ORSONNETTE": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 4.9
+  },
+  "NONETTE": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 4.9
+  },
+  "NOVACELLES": {
+    "bureau": "Arlanc",
+    "distanceKm": 6.4
+  },
+  "NEBOUZAT": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 9.7
+  },
+  "NERONDE SUR DORE": {
+    "bureau": "Courpière",
+    "distanceKm": 5.4
+  },
+  "OLBY": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 8.6
+  },
+  "OLLOIX": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 6.9
+  },
+  "OLMET": {
+    "bureau": "Olliergues",
+    "distanceKm": 3.8
+  },
+  "ORBEIL": {
+    "bureau": "Issoire",
+    "distanceKm": 3.3
+  },
+  "ORCET": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 6.7
+  },
+  "ORCINES": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 8.8
+  },
+  "ORCIVAL": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 3.1
+  },
+  "ORLEAT": {
+    "bureau": "Lezoux",
+    "distanceKm": 4.9
+  },
+  "ORSONNETTE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "PALLADUC": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 5.8
+  },
+  "PARDINES": {
+    "bureau": "Issoire",
+    "distanceKm": 4.9
+  },
+  "PARENT": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 2.7
+  },
+  "PARENTIGNAT": {
+    "bureau": "Issoire",
+    "distanceKm": 3.7
+  },
+  "PASLIERES": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 6.2
+  },
+  "PERPEZAT": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 2.6
+  },
+  "PERRIER": {
+    "bureau": "Issoire",
+    "distanceKm": 3.6
+  },
+  "PESCHADOIRES": {
+    "bureau": "Thiers",
+    "distanceKm": 6.0
+  },
+  "PESLIERES": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 6.2
+  },
+  "PESSAT VILLENEUVE": {
+    "bureau": "Riom",
+    "distanceKm": 4.0
+  },
+  "PICHERANDE": {
+    "bureau": "La Tour-d'Auvergne",
+    "distanceKm": 9.5
+  },
+  "PIGNOLS": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 2.8
+  },
+  "PLAUZAT": {
+    "bureau": "Champeix",
+    "distanceKm": 4.2
+  },
+  "POUZOL": {
+    "bureau": "Menat",
+    "distanceKm": 6.7
+  },
+  "PROMPSAT": {
+    "bureau": "Combronde",
+    "distanceKm": 4.8
+  },
+  "PRONDINES": {
+    "bureau": "Herment",
+    "distanceKm": 8.7
+  },
+  "PULVERIERES": {
+    "bureau": "Manzat",
+    "distanceKm": 6.7
+  },
+  "PUY GUILLAUME": {
+    "bureau": "Châteldon",
+    "distanceKm": 3.7
+  },
+  "PUY SAINT GULMIER": {
+    "bureau": "Herment",
+    "distanceKm": 6.0
+  },
+  "PERIGNAT LES SARLIEVE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 6.6
+  },
+  "PERIGNAT SUR ALLIER": {
+    "bureau": "Billom",
+    "distanceKm": 7.0
+  },
+  "QUEUILLE": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 5.1
+  },
+  "RAVEL": {
+    "bureau": "Lezoux",
+    "distanceKm": 5.0
+  },
+  "REIGNAT": {
+    "bureau": "Billom",
+    "distanceKm": 3.6
+  },
+  "RENTIERES": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 3.5
+  },
+  "RIS": {
+    "bureau": "Châteldon",
+    "distanceKm": 4.6
+  },
+  "ROCHE CHARLES LA MAYRAND": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 10.0
+  },
+  "ROCHE CHARLES": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 10.0
+  },
+  "ROCHE D AGOUX": {
+    "bureau": "Pionsat",
+    "distanceKm": 8.6
+  },
+  "ROMAGNAT": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 6.4
+  },
+  "ROYAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 6.3
+  },
+  "SAILLANT": {
+    "bureau": "Viverols",
+    "distanceKm": 4.4
+  },
+  "SAINT AGOULIN": {
+    "bureau": "Aigueperse",
+    "distanceKm": 6.3
+  },
+  "SAINT ALYRE D ARLANC": {
+    "bureau": "Arlanc",
+    "distanceKm": 10.5
+  },
+  "SAINT ALYRE ES MONTAGNE": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 12.3
+  },
+  "SAINT AMANT ROCHE SAVINE": {
+    "bureau": "Cunlhat",
+    "distanceKm": 7.5
+  },
+  "SAINT ANASTAISE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "SAINT ANDRE LE COQ": {
+    "bureau": "Maringues",
+    "distanceKm": 5.1
+  },
+  "SAINT ANGEL": {
+    "bureau": "Manzat",
+    "distanceKm": 6.5
+  },
+  "SAINT AVIT": {
+    "bureau": "Pontaumur",
+    "distanceKm": 11.4
+  },
+  "SAINT BABEL": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 6.3
+  },
+  "SAINT BEAUZIRE": {
+    "bureau": "Ennezat",
+    "distanceKm": 5.5
+  },
+  "SAINT BONNET LE BOURG": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 5.0
+  },
+  "SAINT BONNET LE CHASTEL": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 7.7
+  },
+  "SAINT BONNET LES ALLIER": {
+    "bureau": "Billom",
+    "distanceKm": 5.5
+  },
+  "SAINT BONNET PRES ORCIVAL": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 6.1
+  },
+  "SAINT BONNET PRES RIOM": {
+    "bureau": "Riom",
+    "distanceKm": 4.0
+  },
+  "SAINT CIRGUES SUR COUZE": {
+    "bureau": "Champeix",
+    "distanceKm": 4.4
+  },
+  "SAINT CLEMENT DE REGNAT": {
+    "bureau": "Randan",
+    "distanceKm": 5.4
+  },
+  "SAINT CLEMENT DE VALORGUE": {
+    "bureau": "Saint-Anthème",
+    "distanceKm": 7.7
+  },
+  "SAINT CLEMENT": {
+    "bureau": "Saint-Anthème",
+    "distanceKm": 7.7
+  },
+  "SAINT DENIS COMBARNAZAT": {
+    "bureau": "Randan",
+    "distanceKm": 4.3
+  },
+  "SAINT DIER": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 0.0
+  },
+  "SAINT DIERY": {
+    "bureau": "Champeix",
+    "distanceKm": 9.6
+  },
+  "SAINT DONAT": {
+    "bureau": "La Tour-d'Auvergne",
+    "distanceKm": 8.4
+  },
+  "SAINT FERREOL DES COTES": {
+    "bureau": "Ambert",
+    "distanceKm": 5.1
+  },
+  "SAINT FLORET": {
+    "bureau": "Champeix",
+    "distanceKm": 6.0
+  },
+  "SAINT FLOUR L ETANG": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 5.2
+  },
+  "SAINT FLOUR": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 5.2
+  },
+  "SAINT GAL SUR SIOULE": {
+    "bureau": "Menat",
+    "distanceKm": 8.3
+  },
+  "SAINT GENES CHAMPANELLE": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 10.5
+  },
+  "SAINT GENES CHAMPESPE": {
+    "bureau": "La Tour-d'Auvergne",
+    "distanceKm": 14.2
+  },
+  "SAINT GENES DU RETZ": {
+    "bureau": "Aigueperse",
+    "distanceKm": 5.2
+  },
+  "SAINT GENES LA TOURETTE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 7.7
+  },
+  "SAINT GEORGES DE MONS": {
+    "bureau": "Manzat",
+    "distanceKm": 6.3
+  },
+  "SAINT GEORGES SUR ALLIER": {
+    "bureau": "Billom",
+    "distanceKm": 5.2
+  },
+  "SAINT GERMAIN PRES HERMENT": {
+    "bureau": "Herment",
+    "distanceKm": 4.8
+  },
+  "SAINT GERVAIS SOUS MEYMONT": {
+    "bureau": "Olliergues",
+    "distanceKm": 2.3
+  },
+  "SAINT GERVAZY": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 6.4
+  },
+  "SAINT HILAIRE": {
+    "bureau": "Pionsat",
+    "distanceKm": 4.7
+  },
+  "SAINT HILAIRE LA CROIX": {
+    "bureau": "Combronde",
+    "distanceKm": 6.8
+  },
+  "SAINT HILAIRE LES MONGES": {
+    "bureau": "Pontaumur",
+    "distanceKm": 6.1
+  },
+  "SAINT HIPPOLYTE": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 0.0
+  },
+  "SAINT HERENT": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 6.9
+  },
+  "SAINT IGNAT": {
+    "bureau": "Ennezat",
+    "distanceKm": 4.6
+  },
+  "SAINT JACQUES D AMBUR": {
+    "bureau": "Pontaumur",
+    "distanceKm": 8.3
+  },
+  "SAINT JEAN SAINT GERVAIS": {
+    "bureau": "Jumeaux",
+    "distanceKm": 3.3
+  },
+  "SAINT JEAN D HEURS": {
+    "bureau": "Lezoux",
+    "distanceKm": 4.8
+  },
+  "SAINT JEAN DES OLLIERES": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 4.3
+  },
+  "SAINT JEAN EN VAL": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 5.2
+  },
+  "SAINT JULIEN PUY LAVEZE": {
+    "bureau": "Bourg-Lastic",
+    "distanceKm": 8.2
+  },
+  "SAINT JULIEN DE COPPEL": {
+    "bureau": "Billom",
+    "distanceKm": 3.7
+  },
+  "SAINT JULIEN LA GENESTE": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 7.5
+  },
+  "SAINT JUST": {
+    "bureau": "Viverols",
+    "distanceKm": 6.3
+  },
+  "SAINT LAURE": {
+    "bureau": "Maringues",
+    "distanceKm": 4.8
+  },
+  "SAINT MAIGNER": {
+    "bureau": "Pionsat",
+    "distanceKm": 4.5
+  },
+  "SAINT MARTIN D OLLIERES": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 8.3
+  },
+  "SAINT MARTIN DES OLMES": {
+    "bureau": "Ambert",
+    "distanceKm": 5.1
+  },
+  "SAINT MARTIN DES PLAINS": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 7.2
+  },
+  "SAINT MAURICE": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 2.8
+  },
+  "SAINT MAURICE PRES PIONSAT": {
+    "bureau": "Pionsat",
+    "distanceKm": 8.3
+  },
+  "SAINT MYON": {
+    "bureau": "Combronde",
+    "distanceKm": 3.6
+  },
+  "SAINT NECTAIRE": {
+    "bureau": "Champeix",
+    "distanceKm": 10.3
+  },
+  "SAINT OURS": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 5.0
+  },
+  "SAINT PARDOUX": {
+    "bureau": "Combronde",
+    "distanceKm": 9.8
+  },
+  "SAINT PIERRE COLAMINE": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 5.3
+  },
+  "SAINT PIERRE ROCHE": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 6.8
+  },
+  "SAINT PIERRE LA BOURLHONNE": {
+    "bureau": "Olliergues",
+    "distanceKm": 10.0
+  },
+  "SAINT PIERRE LE CHASTEL": {
+    "bureau": "Pontgibaud",
+    "distanceKm": 3.8
+  },
+  "SAINT PRIEST BRAMEFANT": {
+    "bureau": "Randan",
+    "distanceKm": 5.9
+  },
+  "SAINT PRIEST DES CHAMPS": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 8.0
+  },
+  "SAINT QUENTIN SUR SAUXILLANGES": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 3.8
+  },
+  "SAINT QUINTIN SUR SIOULE": {
+    "bureau": "Combronde",
+    "distanceKm": 11.6
+  },
+  "SAINT ROMAIN": {
+    "bureau": "Viverols",
+    "distanceKm": 7.2
+  },
+  "SAINT REMY DE BLOT": {
+    "bureau": "Menat",
+    "distanceKm": 5.8
+  },
+  "SAINT REMY DE CHARGNAT": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 6.3
+  },
+  "SAINT SANDOUX": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 3.2
+  },
+  "SAINT SATURNIN": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 3.1
+  },
+  "SAINT SAUVES D AUVERGNE": {
+    "bureau": "Tauves",
+    "distanceKm": 7.4
+  },
+  "SAINT SAUVEUR LA SAGNE": {
+    "bureau": "Arlanc",
+    "distanceKm": 6.2
+  },
+  "SAINT SULPICE": {
+    "bureau": "Bourg-Lastic",
+    "distanceKm": 4.0
+  },
+  "SAINT SYLVESTRE PRAGOULIN": {
+    "bureau": "Randan",
+    "distanceKm": 5.0
+  },
+  "SAINT VICTOR MONTVIANEIX": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 5.3
+  },
+  "SAINT VICTOR LA RIVIERE": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 5.7
+  },
+  "SAINT VINCENT": {
+    "bureau": "Champeix",
+    "distanceKm": 4.5
+  },
+  "SAINT YVOINE": {
+    "bureau": "Issoire",
+    "distanceKm": 4.2
+  },
+  "SAINT ELOY LA GLACIERE": {
+    "bureau": "Cunlhat",
+    "distanceKm": 8.0
+  },
+  "SAINT ELOY": {
+    "bureau": "Cunlhat",
+    "distanceKm": 8.0
+  },
+  "SAINT ELOY LES MINES": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 3.8
+  },
+  "SAINT ETIENNE DES CHAMPS": {
+    "bureau": "Herment",
+    "distanceKm": 5.8
+  },
+  "SAINT ETIENNE SUR USSON": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 6.0
+  },
+  "SAINTE AGATHE": {
+    "bureau": "Thiers",
+    "distanceKm": 8.3
+  },
+  "SAINTE CATHERINE": {
+    "bureau": "Saint-Germain-l'Herm",
+    "distanceKm": 4.9
+  },
+  "SAINTE CHRISTINE": {
+    "bureau": "Menat",
+    "distanceKm": 5.6
+  },
+  "SALLEDES": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 6.5
+  },
+  "SARDON": {
+    "bureau": "Aigueperse",
+    "distanceKm": 5.8
+  },
+  "SAULZET LE FROID": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 7.8
+  },
+  "SAURET BESSERVE": {
+    "bureau": "Saint-Gervais-d'Auvergne",
+    "distanceKm": 3.7
+  },
+  "SAURIER": {
+    "bureau": "Champeix",
+    "distanceKm": 8.1
+  },
+  "SAUVAGNAT": {
+    "bureau": "Herment",
+    "distanceKm": 2.9
+  },
+  "SAUVAGNAT SAINTE MARTHE": {
+    "bureau": "Issoire",
+    "distanceKm": 5.5
+  },
+  "SAUVESSANGES": {
+    "bureau": "Viverols",
+    "distanceKm": 4.2
+  },
+  "SAUVIAT": {
+    "bureau": "Courpière",
+    "distanceKm": 4.4
+  },
+  "SAVENNES": {
+    "bureau": "Bourg-Lastic",
+    "distanceKm": 10.5
+  },
+  "SAYAT": {
+    "bureau": "Clermont-Ferrand",
+    "distanceKm": 8.1
+  },
+  "SERMENTIZON": {
+    "bureau": "Courpière",
+    "distanceKm": 4.2
+  },
+  "SERVANT": {
+    "bureau": "Menat",
+    "distanceKm": 4.9
+  },
+  "SEYCHALLES": {
+    "bureau": "Lezoux",
+    "distanceKm": 4.8
+  },
+  "SINGLES": {
+    "bureau": "Tauves",
+    "distanceKm": 6.0
+  },
+  "SOLIGNAT": {
+    "bureau": "Issoire",
+    "distanceKm": 4.7
+  },
+  "SUGERES": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 5.4
+  },
+  "SURAT": {
+    "bureau": "Ennezat",
+    "distanceKm": 5.8
+  },
+  "TALLENDE": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 1.9
+  },
+  "TEILHET": {
+    "bureau": "Menat",
+    "distanceKm": 5.0
+  },
+  "TEILHEDE": {
+    "bureau": "Combronde",
+    "distanceKm": 3.6
+  },
+  "TERNANT LES EAUX": {
+    "bureau": "Ardes-sur-Couze",
+    "distanceKm": 9.2
+  },
+  "THIOLIERES": {
+    "bureau": "Ambert",
+    "distanceKm": 5.7
+  },
+  "THURET": {
+    "bureau": "Aigueperse",
+    "distanceKm": 6.3
+  },
+  "TORTEBESSE": {
+    "bureau": "Herment",
+    "distanceKm": 7.8
+  },
+  "TOURS SUR MEYMONT": {
+    "bureau": "Olliergues",
+    "distanceKm": 4.5
+  },
+  "TOURZEL RONZIERES": {
+    "bureau": "Champeix",
+    "distanceKm": 7.6
+  },
+  "TRALAIGUES": {
+    "bureau": "Pontaumur",
+    "distanceKm": 7.4
+  },
+  "TREMOUILLE SAINT LOUP": {
+    "bureau": "Tauves",
+    "distanceKm": 10.1
+  },
+  "TREZIOUX": {
+    "bureau": "Saint-Dier-d'Auvergne",
+    "distanceKm": 5.8
+  },
+  "USSON": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 4.1
+  },
+  "VALBELEIX": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 6.6
+  },
+  "VALCIVIERES": {
+    "bureau": "Ambert",
+    "distanceKm": 6.6
+  },
+  "VALZ SOUS CHATEAUNEUF": {
+    "bureau": "Jumeaux",
+    "distanceKm": 5.5
+  },
+  "VARENNES SUR MORGE": {
+    "bureau": "Ennezat",
+    "distanceKm": 5.4
+  },
+  "VARENNES SUR USSON": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 4.6
+  },
+  "VASSEL": {
+    "bureau": "Billom",
+    "distanceKm": 4.0
+  },
+  "VENSAT": {
+    "bureau": "Aigueperse",
+    "distanceKm": 5.4
+  },
+  "VERGHEAS": {
+    "bureau": "Pionsat",
+    "distanceKm": 11.4
+  },
+  "VERNEUGHEOL": {
+    "bureau": "Herment",
+    "distanceKm": 4.8
+  },
+  "VERNINES": {
+    "bureau": "Rochefort-Montagne",
+    "distanceKm": 5.6
+  },
+  "VERRIERES": {
+    "bureau": "Champeix",
+    "distanceKm": 7.5
+  },
+  "VERTAIZON": {
+    "bureau": "Pont-du-Château",
+    "distanceKm": 4.5
+  },
+  "VERTOLAYE": {
+    "bureau": "Olliergues",
+    "distanceKm": 9.5
+  },
+  "VEYRE MONTON": {
+    "bureau": "Saint-Amant-Tallende",
+    "distanceKm": 4.3
+  },
+  "VICHEL": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 3.3
+  },
+  "VILLENEUVE": {
+    "bureau": "Saint-Germain-Lembron",
+    "distanceKm": 4.8
+  },
+  "VILLENEUVE LES CERFS": {
+    "bureau": "Randan",
+    "distanceKm": 2.9
+  },
+  "VILLOSSANGES": {
+    "bureau": "Pontaumur",
+    "distanceKm": 6.7
+  },
+  "VILLOSANGES": {
+    "bureau": "Pontaumur",
+    "distanceKm": 6.7
+  },
+  "VINZELLES": {
+    "bureau": "Maringues",
+    "distanceKm": 5.6
+  },
+  "VIRLET": {
+    "bureau": "Pionsat",
+    "distanceKm": 5.0
+  },
+  "VISCOMTAT": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 10.7
+  },
+  "VISCONTAT": {
+    "bureau": "Saint-Rémy-sur-Durolle",
+    "distanceKm": 10.7
+  },
+  "VITRAC": {
+    "bureau": "Manzat",
+    "distanceKm": 5.5
+  },
+  "VODABLE": {
+    "bureau": "Champeix",
+    "distanceKm": 8.7
+  },
+  "VOINGT": {
+    "bureau": "Herment",
+    "distanceKm": 5.2
+  },
+  "VOLLORE MONTAGNE": {
+    "bureau": "Olliergues",
+    "distanceKm": 11.9
+  },
+  "VOLLORE VILLE": {
+    "bureau": "Courpière",
+    "distanceKm": 6.1
+  },
+  "VOLVIC": {
+    "bureau": "Riom",
+    "distanceKm": 8.8
+  },
+  "YOUX": {
+    "bureau": "Montaigut-en-Combraille",
+    "distanceKm": 4.4
+  },
+  "YRONDE ET BURON": {
+    "bureau": "Vic-le-Comte",
+    "distanceKm": 4.3
+  },
+  "YSSAC LA TOURETTE": {
+    "bureau": "Riom",
+    "distanceKm": 5.1
+  },
+  "ECHANDELYS": {
+    "bureau": "Cunlhat",
+    "distanceKm": 9.4
+  },
+  "EGLISENEUVE D ENTRAIGUES": {
+    "bureau": "Besse-et-Saint-Anastaise",
+    "distanceKm": 10.7
+  },
+  "EGLISENEUVE DES LIARDS": {
+    "bureau": "Sauxillanges",
+    "distanceKm": 4.0
+  },
+  "EGLISENEUVE PRES BILLOM": {
+    "bureau": "Billom",
+    "distanceKm": 5.0
+  },
+  "EGLISOLLES": {
+    "bureau": "Viverols",
+    "distanceKm": 4.9
+  }
+}

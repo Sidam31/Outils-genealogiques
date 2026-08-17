@@ -1,0 +1,1486 @@
+{
+  "ADILLY": {
+    "bureau": "Parthenay",
+    "distanceKm": 8.9
+  },
+  "AIFFRES": {
+    "bureau": "Niort",
+    "distanceKm": 6.1
+  },
+  "AIGONDIGNE": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 5.9
+  },
+  "MOUGON THORIGNE": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 5.9
+  },
+  "MOUGON": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 5.9
+  },
+  "AIGONNAY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "ALLOINAY": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 5.8
+  },
+  "GOURNAY LOIZE": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 5.8
+  },
+  "GOURNAY": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 5.8
+  },
+  "ALLONNE": {
+    "bureau": "Secondigny",
+    "distanceKm": 5.9
+  },
+  "AMAILLOUX": {
+    "bureau": "Parthenay",
+    "distanceKm": 12.9
+  },
+  "AMURE": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 6.1
+  },
+  "ARDILLEUX": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "ARDIN": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 3.5
+  },
+  "ARGENTONNAY": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 0.0
+  },
+  "ARGENTON LES VALLEES": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 0.0
+  },
+  "ARCAIS": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 12.9
+  },
+  "ASNIERES EN POITOU": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 5.8
+  },
+  "ASSAIS LES JUMEAUX": {
+    "bureau": "Thénezay",
+    "distanceKm": 7.1
+  },
+  "ASSAIS": {
+    "bureau": "Thénezay",
+    "distanceKm": 7.1
+  },
+  "AUBIGNY": {
+    "bureau": "Thénezay",
+    "distanceKm": 4.9
+  },
+  "AUBIGNE": {
+    "bureau": "Couture-d'Argenson",
+    "distanceKm": 6.5
+  },
+  "AUGE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 7.1
+  },
+  "AVAILLES THOUARSAIS": {
+    "bureau": "Airvault",
+    "distanceKm": 2.9
+  },
+  "AVAILLES SUR CHIZE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "AVON": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 9.4
+  },
+  "AZAY LE BRULE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 4.2
+  },
+  "AZAY SUR THOUET": {
+    "bureau": "Secondigny",
+    "distanceKm": 5.6
+  },
+  "BAGNEUX": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BEAULIEU SOUS BRESSUIRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BEAULIEU SOUS PARTHENAY": {
+    "bureau": "Parthenay",
+    "distanceKm": 7.9
+  },
+  "BEAUSSAIS VITRE": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 6.4
+  },
+  "BEAUSSAIS": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 6.4
+  },
+  "BELLEVILLE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BESSINES": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 3.6
+  },
+  "BEUGNON THIREUIL": {
+    "bureau": "Secondigny",
+    "distanceKm": 8.4
+  },
+  "LA CHAPELLE THIREUIL": {
+    "bureau": "Secondigny",
+    "distanceKm": 8.4
+  },
+  "BILAZAIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BOISME": {
+    "bureau": "Bressuire",
+    "distanceKm": 10.1
+  },
+  "BOISSEROLLES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BORCQ SUR AIRVAULT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BOUGON": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 5.0
+  },
+  "BOUILLE LORETZ": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BOUILLE SAINT PAUL": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BOUIN": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BOUSSAIS": {
+    "bureau": "Airvault",
+    "distanceKm": 9.0
+  },
+  "BOESSE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BRETIGNOLLES": {
+    "bureau": "Bressuire",
+    "distanceKm": 9.1
+  },
+  "BREUIL CHAUSSEE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BRIE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "BRIEUIL SUR CHIZE": {
+    "bureau": "Chizé",
+    "distanceKm": 2.7
+  },
+  "BRION PRES THOUET": {
+    "bureau": "Thouars",
+    "distanceKm": 9.4
+  },
+  "BRULAIN": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 7.7
+  },
+  "BECELEUF": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 7.3
+  },
+  "CAUNAY": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 8.9
+  },
+  "CERIZAY": {
+    "bureau": "Moncoutant",
+    "distanceKm": 13.6
+  },
+  "CHAMBROUTET": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "CHAMPDENIERS SAINT DENIS": {
+    "bureau": "Champdeniers",
+    "distanceKm": 0.0
+  },
+  "CHAMPEAUX": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "CHANTECORPS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "CHANTELOUP": {
+    "bureau": "Moncoutant",
+    "distanceKm": 9.0
+  },
+  "CHAURAY": {
+    "bureau": "Niort",
+    "distanceKm": 6.5
+  },
+  "CHAVAGNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "CHENAY": {
+    "bureau": "Lezay",
+    "distanceKm": 6.9
+  },
+  "CHERVEUX": {
+    "bureau": "Champdeniers",
+    "distanceKm": 6.4
+  },
+  "CHEY": {
+    "bureau": "Lezay",
+    "distanceKm": 3.0
+  },
+  "CHICHE": {
+    "bureau": "Bressuire",
+    "distanceKm": 12.3
+  },
+  "CHATILLON SUR THOUET": {
+    "bureau": "Parthenay",
+    "distanceKm": 4.1
+  },
+  "CHERIGNE": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 4.5
+  },
+  "CIRIERES": {
+    "bureau": "Bressuire",
+    "distanceKm": 11.5
+  },
+  "CIRIERE": {
+    "bureau": "Bressuire",
+    "distanceKm": 11.5
+  },
+  "CLAVE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 9.4
+  },
+  "CLAZAY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "CLESSE": {
+    "bureau": "Secondigny",
+    "distanceKm": 12.6
+  },
+  "CLUSSAIS LA POMMERAIE": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 9.5
+  },
+  "CLUSSAIS": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 9.5
+  },
+  "COMBRAND": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 9.3
+  },
+  "COULON": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 9.4
+  },
+  "COULON SANSAIS": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 9.4
+  },
+  "COULONGES THOUARSAIS": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 8.6
+  },
+  "COURLAY": {
+    "bureau": "Moncoutant",
+    "distanceKm": 8.7
+  },
+  "COURS": {
+    "bureau": "Champdeniers",
+    "distanceKm": 3.3
+  },
+  "CREZIERES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "DOUX": {
+    "bureau": "Thénezay",
+    "distanceKm": 4.3
+  },
+  "ENSIGNE": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 7.5
+  },
+  "EXIREUIL": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 5.1
+  },
+  "EXOUDUN": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 4.5
+  },
+  "FAYE L ABBESSE": {
+    "bureau": "Bressuire",
+    "distanceKm": 11.2
+  },
+  "FAYE SUR ARDIN": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 8.1
+  },
+  "FENIOUX": {
+    "bureau": "Secondigny",
+    "distanceKm": 9.2
+  },
+  "FOMPERRON": {
+    "bureau": "Ménigoute",
+    "distanceKm": 4.6
+  },
+  "FONTENILLE SAINT MARTIN D ENTRAIGUES": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 2.6
+  },
+  "FONTENILLE": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 2.6
+  },
+  "FONTIVILLIE": {
+    "bureau": "Melle",
+    "distanceKm": 5.2
+  },
+  "CHAIL": {
+    "bureau": "Melle",
+    "distanceKm": 5.2
+  },
+  "FORS": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 8.0
+  },
+  "FRANCOIS": {
+    "bureau": "Niort",
+    "distanceKm": 10.6
+  },
+  "FRESSINES": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 11.0
+  },
+  "FENERY": {
+    "bureau": "Secondigny",
+    "distanceKm": 9.6
+  },
+  "GEAY": {
+    "bureau": "Bressuire",
+    "distanceKm": 9.2
+  },
+  "GENNETON": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 7.9
+  },
+  "GERMOND ROUVRE": {
+    "bureau": "Champdeniers",
+    "distanceKm": 3.7
+  },
+  "GERMOND": {
+    "bureau": "Champdeniers",
+    "distanceKm": 3.7
+  },
+  "GLENAY": {
+    "bureau": "Airvault",
+    "distanceKm": 7.5
+  },
+  "GOURGE": {
+    "bureau": "Parthenay",
+    "distanceKm": 9.8
+  },
+  "GRANZAY GRIPT": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 4.9
+  },
+  "GRANZAY": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 4.9
+  },
+  "GRIPT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "IRAIS": {
+    "bureau": "Airvault",
+    "distanceKm": 6.7
+  },
+  "JUILLE": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 3.4
+  },
+  "JUSCORPS": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 8.1
+  },
+  "L ABSIE": {
+    "bureau": "Moncoutant",
+    "distanceKm": 7.3
+  },
+  "L ENCLAVE DE LA MARTINIERE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA BATAILLE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA BOISSIERE EN GATINE": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 5.4
+  },
+  "LA CHAPELLE BERTRAND": {
+    "bureau": "Parthenay",
+    "distanceKm": 4.4
+  },
+  "LA CHAPELLE BATON": {
+    "bureau": "Champdeniers",
+    "distanceKm": 4.6
+  },
+  "LA CHAPELLE GAUDIN": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE LARGEAU": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE POUILLOUX": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 4.7
+  },
+  "LA CHAPELLE SAINT LAURENT": {
+    "bureau": "Moncoutant",
+    "distanceKm": 9.9
+  },
+  "LA CHAPELLE SAINT ETIENNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA COUARDE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA COUDRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA CRECHE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 8.7
+  },
+  "BRELOUX LA CRECHE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 8.7
+  },
+  "LA FERRIERE EN PARTHENAY": {
+    "bureau": "Vasles",
+    "distanceKm": 8.6
+  },
+  "LA FORET SUR SEVRE": {
+    "bureau": "Moncoutant",
+    "distanceKm": 7.2
+  },
+  "LA FOYE MONJAULT": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 4.5
+  },
+  "LA PETITE BOISSIERE": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 7.0
+  },
+  "LA PEYRATTE": {
+    "bureau": "Parthenay",
+    "distanceKm": 5.8
+  },
+  "LA REVETIZON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LA ROCHENARD": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 5.5
+  },
+  "LA RONDE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LAGEON": {
+    "bureau": "Parthenay",
+    "distanceKm": 9.5
+  },
+  "LAMAIRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LARGEASSE": {
+    "bureau": "Moncoutant",
+    "distanceKm": 6.8
+  },
+  "LE BEUGNON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LE BOURDET": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 5.4
+  },
+  "LE BREUIL BERNARD": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LE BREUIL SOUS ARGENTON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LE BUSSEAU": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 11.5
+  },
+  "LE CHILLOU": {
+    "bureau": "Airvault",
+    "distanceKm": 7.5
+  },
+  "LE CORMENIER": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "CORMENIER": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LE PIN": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 11.1
+  },
+  "LE PUY SAINT BONNET": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LE RETAIL": {
+    "bureau": "Secondigny",
+    "distanceKm": 5.3
+  },
+  "LE TALLUD": {
+    "bureau": "Parthenay",
+    "distanceKm": 5.3
+  },
+  "LE TEMPLE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LE VANNEAU IRLEAU": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 9.7
+  },
+  "LE VANNEAU": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 9.7
+  },
+  "LE VERT": {
+    "bureau": "Chizé",
+    "distanceKm": 2.8
+  },
+  "LES ALLEUDS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LES AUBIERS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LES CHATELIERS": {
+    "bureau": "Ménigoute",
+    "distanceKm": 5.5
+  },
+  "COUTIERES": {
+    "bureau": "Ménigoute",
+    "distanceKm": 5.5
+  },
+  "LES FORGES": {
+    "bureau": "Vasles",
+    "distanceKm": 3.6
+  },
+  "LES FOSSES": {
+    "bureau": "Chizé",
+    "distanceKm": 6.5
+  },
+  "LES GROSEILLERS": {
+    "bureau": "Champdeniers",
+    "distanceKm": 6.4
+  },
+  "LES JUMEAUX": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LHOUMOIS": {
+    "bureau": "Thénezay",
+    "distanceKm": 6.8
+  },
+  "LIMALONGES": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 5.5
+  },
+  "LOIZE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LORETZ D ARGENTON": {
+    "bureau": "Thouars",
+    "distanceKm": 9.3
+  },
+  "ARGENTON L EGLISE": {
+    "bureau": "Thouars",
+    "distanceKm": 9.3
+  },
+  "LORIGNE": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 3.5
+  },
+  "LOUBIGNE": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 5.0
+  },
+  "LOUBILLE": {
+    "bureau": "Couture-d'Argenson",
+    "distanceKm": 5.5
+  },
+  "LOUBLANDE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "LOUIN": {
+    "bureau": "Airvault",
+    "distanceKm": 6.9
+  },
+  "LOUZY": {
+    "bureau": "Thouars",
+    "distanceKm": 6.5
+  },
+  "LUCHE THOUARSAIS": {
+    "bureau": "Thouars",
+    "distanceKm": 8.3
+  },
+  "LUCHE SUR BRIOUX": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 4.6
+  },
+  "LUSSERAY": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 3.8
+  },
+  "LUZAY": {
+    "bureau": "Thouars",
+    "distanceKm": 5.6
+  },
+  "MAGNE": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 5.8
+  },
+  "MAIRE LEVESCAULT": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 4.5
+  },
+  "MAISONNAY": {
+    "bureau": "Melle",
+    "distanceKm": 7.8
+  },
+  "MAISONTIERS": {
+    "bureau": "Airvault",
+    "distanceKm": 10.9
+  },
+  "MARCILLE": {
+    "bureau": "Melle",
+    "distanceKm": 2.2
+  },
+  "SAINT GENARD": {
+    "bureau": "Melle",
+    "distanceKm": 2.2
+  },
+  "MARIGNY": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 5.0
+  },
+  "MARNES": {
+    "bureau": "Airvault",
+    "distanceKm": 11.1
+  },
+  "MASSAIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MAULAIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MAULEON": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 0.0
+  },
+  "MAUZE THOUARSAIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MAZIERES SUR BERONNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MELLERAN": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 7.7
+  },
+  "MESSE": {
+    "bureau": "Lezay",
+    "distanceKm": 10.7
+  },
+  "MISSE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MONCOUTANT SUR SEVRE": {
+    "bureau": "Moncoutant",
+    "distanceKm": 0.0
+  },
+  "MONTALEMBERT": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 5.2
+  },
+  "MONTIGNY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MONTIGNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MONTRAVERS": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 11.6
+  },
+  "MOULINS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MOUTIERS SOUS ARGENTON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "MOUTIERS SOUS CHANTEMERLE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "NANTEUIL": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 4.2
+  },
+  "NEUVY BOUIN": {
+    "bureau": "Secondigny",
+    "distanceKm": 7.5
+  },
+  "NOIRLIEU": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "NOIRTERRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "NOIZE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "NUEIL LES AUBIERS": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 11.0
+  },
+  "NUEIL SUR ARGENT": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 11.0
+  },
+  "NUEIL SOUS LES AUBIERS": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 11.0
+  },
+  "OROUX": {
+    "bureau": "Thénezay",
+    "distanceKm": 5.7
+  },
+  "PAIZAY LE CHAPT": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 8.0
+  },
+  "PAIZAY LE TORT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "PAMPLIE": {
+    "bureau": "Champdeniers",
+    "distanceKm": 6.7
+  },
+  "PAMPROUX": {
+    "bureau": "Ménigoute",
+    "distanceKm": 8.5
+  },
+  "PAS DE JEU": {
+    "bureau": "Thouars",
+    "distanceKm": 13.9
+  },
+  "PERS": {
+    "bureau": "Lezay",
+    "distanceKm": 8.8
+  },
+  "PETIT BREUIL DEYRANCON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "PIERREFITTE": {
+    "bureau": "Airvault",
+    "distanceKm": 12.0
+  },
+  "PIOUSSAY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "PLAINE D ARGENSON": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 5.9
+  },
+  "PRISSE LA CHARRIERE": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 5.9
+  },
+  "CHARRIERE": {
+    "bureau": "Beauvoir-sur-Niort",
+    "distanceKm": 5.9
+  },
+  "PLAINE ET VALLEES": {
+    "bureau": "Airvault",
+    "distanceKm": 9.4
+  },
+  "OIRON": {
+    "bureau": "Airvault",
+    "distanceKm": 9.4
+  },
+  "PLIBOUX": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 4.7
+  },
+  "POMPAIRE": {
+    "bureau": "Parthenay",
+    "distanceKm": 3.6
+  },
+  "POUFFONDS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "POUGNE HERISSON": {
+    "bureau": "Secondigny",
+    "distanceKm": 5.6
+  },
+  "PRAHECQ": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 9.5
+  },
+  "PRAILLES LA COUARDE": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 5.6
+  },
+  "PRAILLES": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 5.6
+  },
+  "PRESSIGNY": {
+    "bureau": "Thénezay",
+    "distanceKm": 4.4
+  },
+  "PRIAIRES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "PRIN DEYRANCON": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 2.9
+  },
+  "PRISSE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "PUGNY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "PUIHARDY": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 7.2
+  },
+  "PERIGNE": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 5.4
+  },
+  "REFFANNES": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 10.4
+  },
+  "RIGNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "ROM": {
+    "bureau": "Lezay",
+    "distanceKm": 11.8
+  },
+  "ROMANS": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 6.6
+  },
+  "RORTHAIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "ROUVRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT AMAND SUR SEVRE": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 7.6
+  },
+  "SAINT ANDRE SUR SEVRE": {
+    "bureau": "Moncoutant",
+    "distanceKm": 10.9
+  },
+  "SAINT AUBIN DE BAUBIGNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT AUBIN DU PLAIN": {
+    "bureau": "Bressuire",
+    "distanceKm": 6.3
+  },
+  "SAINT AUBIN LE CLOUD": {
+    "bureau": "Secondigny",
+    "distanceKm": 8.3
+  },
+  "SAINT CHRISTOPHE SUR ROC": {
+    "bureau": "Champdeniers",
+    "distanceKm": 2.7
+  },
+  "SAINT COUTANT": {
+    "bureau": "Lezay",
+    "distanceKm": 6.0
+  },
+  "SAINT CYR LA LANDE": {
+    "bureau": "Thouars",
+    "distanceKm": 10.8
+  },
+  "SAINT DENIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT FLORENT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT GELAIS": {
+    "bureau": "Niort",
+    "distanceKm": 7.9
+  },
+  "SAINT GEORGES DE NOISNE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 7.6
+  },
+  "SAINT GEORGES DE REX": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 8.5
+  },
+  "SAINT GERMAIN DE LONGUE CHAUME": {
+    "bureau": "Parthenay",
+    "distanceKm": 11.6
+  },
+  "SAINT GERMIER": {
+    "bureau": "Ménigoute",
+    "distanceKm": 3.9
+  },
+  "SAINT GENEROUX": {
+    "bureau": "Airvault",
+    "distanceKm": 6.1
+  },
+  "SAINT HILAIRE LA PALUD": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 9.7
+  },
+  "SAINT JACQUES DE THOUARS": {
+    "bureau": "Thouars",
+    "distanceKm": 1.2
+  },
+  "SAINT JEAN DE THOUARS": {
+    "bureau": "Thouars",
+    "distanceKm": 3.0
+  },
+  "SAINT JOUIN DE MILLY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT JOUIN SOUS CHATILLON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT LAURS": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 5.7
+  },
+  "SAINT LIGUAIRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT LIN": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 7.3
+  },
+  "SAINT LOUP LAMAIRE": {
+    "bureau": "Airvault",
+    "distanceKm": 6.8
+  },
+  "SAINT LOUP SUR THOUET": {
+    "bureau": "Airvault",
+    "distanceKm": 6.8
+  },
+  "SAINT LEGER DE MONTBRUN": {
+    "bureau": "Thouars",
+    "distanceKm": 9.0
+  },
+  "SAINT LEGER DE LA MARTINIERE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT LEGER LES MELLE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT MAIXENT DE BEUGNE": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 4.4
+  },
+  "SAINT MARC LA LANDE": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 2.8
+  },
+  "SAINT MARSAULT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN D ENTRAIGUES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN DE BERNEGOUE": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 9.4
+  },
+  "SAINT MARTIN DE MACON": {
+    "bureau": "Thouars",
+    "distanceKm": 11.5
+  },
+  "SAINT MARTIN DE SAINT MAIXENT": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 3.0
+  },
+  "SAINT MARTIN DE SANZAY": {
+    "bureau": "Thouars",
+    "distanceKm": 11.1
+  },
+  "SAINT MARTIN DU FOUILLOUX": {
+    "bureau": "Vasles",
+    "distanceKm": 7.3
+  },
+  "SAINT MARTIN LES MELLE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT MAURICE ETUSSON": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 10.9
+  },
+  "SAINT MAURICE LA FOUGEREUSE": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 10.9
+  },
+  "SAINT MAXIRE": {
+    "bureau": "Niort",
+    "distanceKm": 7.9
+  },
+  "SAINT MEDARD": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT PARDOUX SOUTIERS": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 5.6
+  },
+  "SAINT PARDOUX": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 5.6
+  },
+  "SAINT PAUL EN GATINE": {
+    "bureau": "Moncoutant",
+    "distanceKm": 8.0
+  },
+  "SAINT PIERRE DES ECHAUBROGNES": {
+    "bureau": "Châtillon-sur-Sèvre",
+    "distanceKm": 4.1
+  },
+  "SAINT PIERRE A CHAMP": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT POMPAIN": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 6.0
+  },
+  "SAINT PORCHAIRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT ROMANS DES CHAMPS": {
+    "bureau": "Celles-sur-Belle",
+    "distanceKm": 10.0
+  },
+  "SAINT ROMANS LES MELLE": {
+    "bureau": "Melle",
+    "distanceKm": 4.1
+  },
+  "SAINT REMY": {
+    "bureau": "Niort",
+    "distanceKm": 6.7
+  },
+  "SAINT SAUVEUR": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 3.7
+  },
+  "SAINT VARENT": {
+    "bureau": "Airvault",
+    "distanceKm": 8.3
+  },
+  "SAINT VINCENT LA CHATRE": {
+    "bureau": "Lezay",
+    "distanceKm": 7.0
+  },
+  "SAINT ETIENNE LA CIGOGNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINTE BLANDINE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINTE EANNE": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 4.9
+  },
+  "SAINTE GEMME": {
+    "bureau": "Thouars",
+    "distanceKm": 9.0
+  },
+  "SAINTE NEOMAYE": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 7.0
+  },
+  "SAINTE OUENNE": {
+    "bureau": "Champdeniers",
+    "distanceKm": 7.1
+  },
+  "SAINTE PEZENNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINTE RADEGONDE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAINTE SOLINE": {
+    "bureau": "Lezay",
+    "distanceKm": 6.4
+  },
+  "SAINTE VERGE": {
+    "bureau": "Thouars",
+    "distanceKm": 4.4
+  },
+  "SAIVRES": {
+    "bureau": "Saint-Maixent-l'École",
+    "distanceKm": 3.4
+  },
+  "SALLES": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 4.3
+  },
+  "SANSAIS": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 6.0
+  },
+  "SANZAY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SAURAIS": {
+    "bureau": "Parthenay",
+    "distanceKm": 8.1
+  },
+  "SAUZE ENTRE BOIS": {
+    "bureau": "Sauzé-Vaussais",
+    "distanceKm": 0.0
+  },
+  "SCIECQ": {
+    "bureau": "Niort",
+    "distanceKm": 4.8
+  },
+  "SCILLE": {
+    "bureau": "Secondigny",
+    "distanceKm": 9.5
+  },
+  "SECONDIGNE SUR BELLE": {
+    "bureau": "Chizé",
+    "distanceKm": 6.8
+  },
+  "SEPVRET": {
+    "bureau": "Lezay",
+    "distanceKm": 5.7
+  },
+  "SOMPT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SOUCHE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SOUDAN": {
+    "bureau": "Ménigoute",
+    "distanceKm": 7.1
+  },
+  "SOULIEVRES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SOUTIERS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "SOUVIGNE": {
+    "bureau": "La Mothe-Saint-Héray",
+    "distanceKm": 4.2
+  },
+  "SURIN": {
+    "bureau": "Champdeniers",
+    "distanceKm": 6.3
+  },
+  "SELIGNE": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 4.0
+  },
+  "TAIZE MAULAIS": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "TAIZE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "TERVES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "TESSONNIERE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "THORIGNY SUR LE MIGNON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "THORIGNY": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "THORIGNE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "TILLOU": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "TOURTENAY": {
+    "bureau": "Thouars",
+    "distanceKm": 12.9
+  },
+  "TRAYES": {
+    "bureau": "Secondigny",
+    "distanceKm": 7.5
+  },
+  "ULCOT": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "VAL DU MIGNON": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 5.7
+  },
+  "USSEAU": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 5.7
+  },
+  "VAL EN VIGNES": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 8.9
+  },
+  "CERSAY": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 8.9
+  },
+  "VALDELAUME": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 8.3
+  },
+  "HANC": {
+    "bureau": "Chef-Boutonne",
+    "distanceKm": 8.3
+  },
+  "VALLANS": {
+    "bureau": "Frontenay-Rohan-Rohan",
+    "distanceKm": 4.8
+  },
+  "VANZAY": {
+    "bureau": "Lezay",
+    "distanceKm": 11.6
+  },
+  "VANCAIS": {
+    "bureau": "Lezay",
+    "distanceKm": 6.5
+  },
+  "VAUSSEROUX": {
+    "bureau": "Vasles",
+    "distanceKm": 7.9
+  },
+  "VAUTEBIS": {
+    "bureau": "Ménigoute",
+    "distanceKm": 8.1
+  },
+  "VERNOUX EN GATINE": {
+    "bureau": "Secondigny",
+    "distanceKm": 6.2
+  },
+  "VERNOUX SUR BOUTONNE": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 3.9
+  },
+  "VERRINES SOUS CELLES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "VERRINES": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "VERRUYES": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 3.4
+  },
+  "VIENNAY": {
+    "bureau": "Parthenay",
+    "distanceKm": 5.5
+  },
+  "VILLEFOLLET": {
+    "bureau": "Brioux-sur-Boutonne",
+    "distanceKm": 4.8
+  },
+  "VILLEMAIN": {
+    "bureau": "Couture-d'Argenson",
+    "distanceKm": 2.5
+  },
+  "VILLIERS EN BOIS": {
+    "bureau": "Chizé",
+    "distanceKm": 5.3
+  },
+  "VILLIERS EN PLAINE": {
+    "bureau": "Coulonges-sur-l'Autize",
+    "distanceKm": 8.4
+  },
+  "VILLIERS SUR CHIZE": {
+    "bureau": "Chizé",
+    "distanceKm": 5.0
+  },
+  "VITRE": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "VOUHE": {
+    "bureau": "Mazières-en-Gâtine",
+    "distanceKm": 6.4
+  },
+  "VOUILLE": {
+    "bureau": "Niort",
+    "distanceKm": 8.2
+  },
+  "VOULMENTIN": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 8.7
+  },
+  "SAINT CLEMENTIN": {
+    "bureau": "Argenton-Château",
+    "distanceKm": 8.7
+  },
+  "VOULTEGON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  },
+  "XAINTRAY": {
+    "bureau": "Champdeniers",
+    "distanceKm": 8.2
+  },
+  "ECHIRE": {
+    "bureau": "Niort",
+    "distanceKm": 7.4
+  },
+  "EPANNES": {
+    "bureau": "Mauzé-sur-le-Mignon",
+    "distanceKm": 5.5
+  },
+  "ETUSSON": {
+    "bureau": "Niort",
+    "distanceKm": 0.0
+  }
+}

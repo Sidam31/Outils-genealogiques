@@ -1,0 +1,98 @@
+{
+  "ANTONY": {
+    "bureau": "Sceaux",
+    "distanceKm": 2.8
+  },
+  "ASNIERES": {
+    "bureau": "Asnières-sur-seine",
+    "distanceKm": 0.0
+  },
+  "BAGNEUX": {
+    "bureau": "Montrouge",
+    "distanceKm": 2.1
+  },
+  "BOIS COLOMBES": {
+    "bureau": "Colombes",
+    "distanceKm": 1.8
+  },
+  "BOURG LA REINE": {
+    "bureau": "Sceaux",
+    "distanceKm": 1.6
+  },
+  "CHAVILLE": {
+    "bureau": "Sèvres",
+    "distanceKm": 1.8
+  },
+  "CHATENAY MALABRY": {
+    "bureau": "Sceaux",
+    "distanceKm": 2.7
+  },
+  "CHATILLON": {
+    "bureau": "Vanves",
+    "distanceKm": 2.0
+  },
+  "CLAMART": {
+    "bureau": "Vanves",
+    "distanceKm": 3.8
+  },
+  "FONTENAY AUX ROSES": {
+    "bureau": "Sceaux",
+    "distanceKm": 1.6
+  },
+  "GARCHES": {
+    "bureau": "Rueil-Malmaison",
+    "distanceKm": 2.8
+  },
+  "GENNEVILLIERS": {
+    "bureau": "Asnières-sur-seine",
+    "distanceKm": 1.6
+  },
+  "ISSY LES MOULINEAUX": {
+    "bureau": "Vanves",
+    "distanceKm": 1.8
+  },
+  "LA GARENNE COLOMBES": {
+    "bureau": "Courbevoie",
+    "distanceKm": 1.5
+  },
+  "LE PLESSIS ROBINSON": {
+    "bureau": "Sceaux",
+    "distanceKm": 2.8
+  },
+  "MALAKOFF": {
+    "bureau": "Vanves",
+    "distanceKm": 0.7
+  },
+  "MARNES LA COQUETTE": {
+    "bureau": "Sèvres",
+    "distanceKm": 2.8
+  },
+  "MEUDON": {
+    "bureau": "Sèvres",
+    "distanceKm": 2.8
+  },
+  "PUTEAUX": {
+    "bureau": "Neuilly-sur-Seine",
+    "distanceKm": 2.0
+  },
+  "SAINT CLOUD": {
+    "bureau": "Sèvres",
+    "distanceKm": 2.4
+  },
+  "SURESNES": {
+    "bureau": "Rueil-Malmaison",
+    "distanceKm": 2.8
+  },
+  "VAUCRESSON": {
+    "bureau": "Sèvres",
+    "distanceKm": 3.3
+  },
+  "VILLE D AVRAY": {
+    "bureau": "Sèvres",
+    "distanceKm": 2.2
+  },
+  "VILLENEUVE LA GARENNE": {
+    "bureau": "Asnières-sur-seine",
+    "distanceKm": 2.9
+  }
+}

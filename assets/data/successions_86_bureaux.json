@@ -1,0 +1,1154 @@
+{
+  "ADRIERS": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 7.1
+  },
+  "AMBERRE": {
+    "bureau": "Mirebeau",
+    "distanceKm": 4.6
+  },
+  "ANCHE": {
+    "bureau": "Champagné-Saint-Hilaire",
+    "distanceKm": 4.8
+  },
+  "ANGLIERS": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 7.7
+  },
+  "ANTIGNY": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 6.0
+  },
+  "ANTRAN": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 7.9
+  },
+  "ARCHIGNY": {
+    "bureau": "Pleumartin",
+    "distanceKm": 10.7
+  },
+  "ARCAY": {
+    "bureau": "Moncontour",
+    "distanceKm": 8.6
+  },
+  "ASLONNES": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 3.9
+  },
+  "ASNIERES SUR BLOUR": {
+    "bureau": "Availles-Limouzine",
+    "distanceKm": 10.1
+  },
+  "ASNOIS": {
+    "bureau": "Charroux",
+    "distanceKm": 4.4
+  },
+  "AULNAY": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 7.5
+  },
+  "AVAILLES EN CHATELLERAULT": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 4.8
+  },
+  "AVAILLES": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 4.8
+  },
+  "AVANTON": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 4.7
+  },
+  "AYRON": {
+    "bureau": "Latillé",
+    "distanceKm": 4.1
+  },
+  "BASSES": {
+    "bureau": "Loudun",
+    "distanceKm": 4.0
+  },
+  "BEAUMONT SAINT CYR": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 6.4
+  },
+  "BEAUMONT": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 6.4
+  },
+  "BELLEFONDS": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 9.2
+  },
+  "BENASSAY": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "BERRIE": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 5.8
+  },
+  "BERTHEGON": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 5.5
+  },
+  "BEUXES": {
+    "bureau": "Loudun",
+    "distanceKm": 10.0
+  },
+  "BIARD": {
+    "bureau": "Poitiers",
+    "distanceKm": 5.8
+  },
+  "BIGNOUX": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 6.1
+  },
+  "BLANZAY": {
+    "bureau": "Civray",
+    "distanceKm": 8.6
+  },
+  "BLASLAY": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "BOIVRE LA VALLEE": {
+    "bureau": "Latillé",
+    "distanceKm": 8.2
+  },
+  "LAVAUSSEAU": {
+    "bureau": "Latillé",
+    "distanceKm": 8.2
+  },
+  "BONNES": {
+    "bureau": "Chauvigny",
+    "distanceKm": 8.5
+  },
+  "BONNEUIL MATOURS": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 4.5
+  },
+  "BOURESSE": {
+    "bureau": "Verrières",
+    "distanceKm": 5.7
+  },
+  "BOURG ARCHAMBAULT": {
+    "bureau": "Montmorillon",
+    "distanceKm": 10.2
+  },
+  "BOURNAND": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 5.2
+  },
+  "BRIGUEIL LE CHANTRE": {
+    "bureau": "La Trimouille",
+    "distanceKm": 7.8
+  },
+  "BRION": {
+    "bureau": "Gençay",
+    "distanceKm": 5.0
+  },
+  "BRUX": {
+    "bureau": "Couhé",
+    "distanceKm": 7.8
+  },
+  "BUXEROLLES": {
+    "bureau": "Poitiers",
+    "distanceKm": 2.4
+  },
+  "BUXEUIL": {
+    "bureau": "Les Ormes",
+    "distanceKm": 3.1
+  },
+  "BERUGES": {
+    "bureau": "Vouillé",
+    "distanceKm": 8.4
+  },
+  "BETHINES": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 10.8
+  },
+  "CEAUX EN COUHE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "CEAUX": {
+    "bureau": "Loudun",
+    "distanceKm": 9.7
+  },
+  "CEAUX EN LOUDUN": {
+    "bureau": "Loudun",
+    "distanceKm": 9.7
+  },
+  "CELLE LEVESCAULT": {
+    "bureau": "Lusignan",
+    "distanceKm": 5.7
+  },
+  "CENON SUR VIENNE": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 4.7
+  },
+  "CERNAY": {
+    "bureau": "Lencloître",
+    "distanceKm": 3.2
+  },
+  "CHABOURNAY": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 4.1
+  },
+  "CHALAIS": {
+    "bureau": "Loudun",
+    "distanceKm": 4.4
+  },
+  "CHALANDRAY": {
+    "bureau": "Latillé",
+    "distanceKm": 7.2
+  },
+  "CHAMPAGNE LE SEC": {
+    "bureau": "Civray",
+    "distanceKm": 10.0
+  },
+  "CHAMPIGNY EN ROCHEREAU": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 8.0
+  },
+  "CHAMPIGNY LE SEC": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 8.0
+  },
+  "CHAMPNIERS": {
+    "bureau": "Civray",
+    "distanceKm": 8.4
+  },
+  "CHAPELLE MORTHEMER": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "CHAPELLE VIVIERS": {
+    "bureau": "Lussac-les-Châteaux",
+    "distanceKm": 6.7
+  },
+  "CHARRAIS": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "CHASSENEUIL DU POITOU": {
+    "bureau": "Saint-Georges-lès-Baillargeaux",
+    "distanceKm": 7.0
+  },
+  "CHATAIN": {
+    "bureau": "Charroux",
+    "distanceKm": 7.5
+  },
+  "CHAUNAY": {
+    "bureau": "Civray",
+    "distanceKm": 11.9
+  },
+  "CHENECHE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "CHENEVELLES": {
+    "bureau": "Pleumartin",
+    "distanceKm": 7.1
+  },
+  "CHERVES": {
+    "bureau": "Latillé",
+    "distanceKm": 10.2
+  },
+  "CHIRE EN MONTREUIL": {
+    "bureau": "Latillé",
+    "distanceKm": 3.6
+  },
+  "CHOUPPES": {
+    "bureau": "Mirebeau",
+    "distanceKm": 2.2
+  },
+  "CHATEAU GARNIER": {
+    "bureau": "Usson-du-Poitou",
+    "distanceKm": 8.0
+  },
+  "CHATEAU LARCHER": {
+    "bureau": "Vivonne",
+    "distanceKm": 4.1
+  },
+  "CHATILLON": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "CISSE": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 3.8
+  },
+  "CIVAUX": {
+    "bureau": "Lussac-les-Châteaux",
+    "distanceKm": 5.9
+  },
+  "CLOUE": {
+    "bureau": "Lusignan",
+    "distanceKm": 3.7
+  },
+  "COLOMBIERS": {
+    "bureau": "Jaunay-Clan",
+    "distanceKm": 7.9
+  },
+  "COULOMBIERS": {
+    "bureau": "Lusignan",
+    "distanceKm": 6.9
+  },
+  "COULONGES LES HEROLLES": {
+    "bureau": "La Trimouille",
+    "distanceKm": 9.4
+  },
+  "COULONGES": {
+    "bureau": "La Trimouille",
+    "distanceKm": 9.4
+  },
+  "COUSSAY": {
+    "bureau": "Mirebeau",
+    "distanceKm": 5.6
+  },
+  "COUSSAY LES BOIS": {
+    "bureau": "Lésigny",
+    "distanceKm": 4.2
+  },
+  "CRAON": {
+    "bureau": "Moncontour",
+    "distanceKm": 12.0
+  },
+  "CROUTELLE": {
+    "bureau": "Poitiers",
+    "distanceKm": 7.6
+  },
+  "CUHON": {
+    "bureau": "Mirebeau",
+    "distanceKm": 7.5
+  },
+  "CURZAY SUR VONNE": {
+    "bureau": "Lusignan",
+    "distanceKm": 8.0
+  },
+  "CURZAY": {
+    "bureau": "Lusignan",
+    "distanceKm": 8.0
+  },
+  "CURCAY SUR DIVE": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 7.2
+  },
+  "CURCAY": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 7.2
+  },
+  "DANGE SAINT ROMAIN": {
+    "bureau": "Dangé",
+    "distanceKm": 0.0
+  },
+  "DERCE": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 3.6
+  },
+  "DIENNE": {
+    "bureau": "Verrières",
+    "distanceKm": 6.5
+  },
+  "DISSAY": {
+    "bureau": "Saint-Georges-lès-Baillargeaux",
+    "distanceKm": 3.3
+  },
+  "DOUSSAY": {
+    "bureau": "Lencloître",
+    "distanceKm": 4.3
+  },
+  "FLEIX": {
+    "bureau": "Chauvigny",
+    "distanceKm": 5.8
+  },
+  "FLEURE": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 8.1
+  },
+  "FONTAINE LE COMTE": {
+    "bureau": "Poitiers",
+    "distanceKm": 11.2
+  },
+  "FRONTENAY SUR DIVE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "FRONTENAY": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "FROZES": {
+    "bureau": "Vouillé",
+    "distanceKm": 5.7
+  },
+  "GENOUILLE": {
+    "bureau": "Civray",
+    "distanceKm": 5.9
+  },
+  "GIZAY": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 3.7
+  },
+  "GLENOUZE": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 6.2
+  },
+  "GOUEX": {
+    "bureau": "Verrières",
+    "distanceKm": 6.0
+  },
+  "GUESNES": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 3.3
+  },
+  "HAIMS": {
+    "bureau": "Montmorillon",
+    "distanceKm": 10.0
+  },
+  "INGRANDES": {
+    "bureau": "Dangé",
+    "distanceKm": 6.2
+  },
+  "ITEUIL": {
+    "bureau": "Vivonne",
+    "distanceKm": 7.5
+  },
+  "JARDRES": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 6.5
+  },
+  "JAUNAY MARIGNY": {
+    "bureau": "Jaunay-Clan",
+    "distanceKm": 0.0
+  },
+  "JAZENEUIL": {
+    "bureau": "Lusignan",
+    "distanceKm": 5.2
+  },
+  "JOUHET": {
+    "bureau": "Montmorillon",
+    "distanceKm": 6.9
+  },
+  "JOURNET": {
+    "bureau": "Montmorillon",
+    "distanceKm": 7.6
+  },
+  "JOUSSE": {
+    "bureau": "Usson-du-Poitou",
+    "distanceKm": 9.0
+  },
+  "LA BUSSIERE": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 4.6
+  },
+  "LA CHAPELLE BATON": {
+    "bureau": "Charroux",
+    "distanceKm": 5.7
+  },
+  "LA CHAPELLE MONTREUIL": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE MOULIERE": {
+    "bureau": "Saint-Georges-lès-Baillargeaux",
+    "distanceKm": 7.9
+  },
+  "LA CHAUSSEE": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 7.1
+  },
+  "LA FERRIERE AIROUX": {
+    "bureau": "Gençay",
+    "distanceKm": 6.2
+  },
+  "LA GRIMAUDIERE": {
+    "bureau": "Moncontour",
+    "distanceKm": 8.4
+  },
+  "LA PUYE": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 9.7
+  },
+  "LA ROCHE POSAY": {
+    "bureau": "Pleumartin",
+    "distanceKm": 4.5
+  },
+  "LA ROCHE RIGAULT": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 6.5
+  },
+  "CLAUNAY EN LOUDUN": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 6.5
+  },
+  "CLAUNAY": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 6.5
+  },
+  "LA VILLEDIEU": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 0.0
+  },
+  "LATHUS SAINT REMY": {
+    "bureau": "Montmorillon",
+    "distanceKm": 12.3
+  },
+  "LATHUS": {
+    "bureau": "Montmorillon",
+    "distanceKm": 12.3
+  },
+  "LAUTHIERS": {
+    "bureau": "Chauvigny",
+    "distanceKm": 7.1
+  },
+  "LAVOUX": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 5.4
+  },
+  "LE BOUCHET": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "LE ROCHEREAU": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "LE VIGEANT": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 5.8
+  },
+  "LEIGNES SUR FONTAINE": {
+    "bureau": "Chauvigny",
+    "distanceKm": 9.3
+  },
+  "LEIGNE LES BOIS": {
+    "bureau": "Pleumartin",
+    "distanceKm": 5.1
+  },
+  "LEIGNE SUR USSEAU": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 5.3
+  },
+  "LEUGNY": {
+    "bureau": "Dangé",
+    "distanceKm": 7.4
+  },
+  "LHOMMAIZE": {
+    "bureau": "Verrières",
+    "distanceKm": 4.8
+  },
+  "LIGLET": {
+    "bureau": "La Trimouille",
+    "distanceKm": 5.8
+  },
+  "LIGUGE": {
+    "bureau": "Poitiers",
+    "distanceKm": 9.3
+  },
+  "LINAZAY": {
+    "bureau": "Civray",
+    "distanceKm": 8.6
+  },
+  "LINIERS": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 7.7
+  },
+  "LIZANT": {
+    "bureau": "Civray",
+    "distanceKm": 7.2
+  },
+  "LUCHAPT": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 8.2
+  },
+  "MAGNE": {
+    "bureau": "Gençay",
+    "distanceKm": 2.9
+  },
+  "MAILLE": {
+    "bureau": "Latillé",
+    "distanceKm": 7.5
+  },
+  "MAIRE": {
+    "bureau": "Lésigny",
+    "distanceKm": 4.8
+  },
+  "MAISONNEUVE": {
+    "bureau": "Latillé",
+    "distanceKm": 12.0
+  },
+  "MARIGNY BRIZAY": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "MARIGNY CHEMEREAU": {
+    "bureau": "Vivonne",
+    "distanceKm": 2.6
+  },
+  "MARNAY": {
+    "bureau": "Gençay",
+    "distanceKm": 5.8
+  },
+  "MARTAIZE": {
+    "bureau": "Moncontour",
+    "distanceKm": 6.1
+  },
+  "MARCAY": {
+    "bureau": "Vivonne",
+    "distanceKm": 6.0
+  },
+  "MASSOGNES": {
+    "bureau": "Mirebeau",
+    "distanceKm": 11.3
+  },
+  "MAULAY": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 6.3
+  },
+  "MAUPREVOIR": {
+    "bureau": "Charroux",
+    "distanceKm": 9.3
+  },
+  "MAZEROLLES": {
+    "bureau": "Verrières",
+    "distanceKm": 5.0
+  },
+  "MAZEUIL": {
+    "bureau": "Mirebeau",
+    "distanceKm": 8.1
+  },
+  "MESSAIS": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "MESSEME": {
+    "bureau": "Loudun",
+    "distanceKm": 4.5
+  },
+  "MIGNALOUX BEAUVOIR": {
+    "bureau": "Poitiers",
+    "distanceKm": 5.0
+  },
+  "MIGNE AUXANCES": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 6.8
+  },
+  "MIGNE": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 6.8
+  },
+  "MILLAC": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 5.4
+  },
+  "MONDION": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 6.4
+  },
+  "MONTAMISE": {
+    "bureau": "Saint-Georges-lès-Baillargeaux",
+    "distanceKm": 4.8
+  },
+  "MONTHOIRON": {
+    "bureau": "Vouneuil-sur-Vienne",
+    "distanceKm": 6.2
+  },
+  "MONTREUIL BONNIN": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "MORTHEMER": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "MORTON": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 4.8
+  },
+  "MOULISMES": {
+    "bureau": "Lussac-les-Châteaux",
+    "distanceKm": 10.9
+  },
+  "MOUSSAC": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 4.8
+  },
+  "MOUTERRE SILLY": {
+    "bureau": "Loudun",
+    "distanceKm": 6.1
+  },
+  "MOUTERRE SUR BLOURDE": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 5.4
+  },
+  "NAINTRE": {
+    "bureau": "Châtellerault",
+    "distanceKm": 6.6
+  },
+  "NALLIERS": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 4.1
+  },
+  "NEUVILLE": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 0.0
+  },
+  "NIEUIL L ESPOIR": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 6.3
+  },
+  "NOTRE DAME D OR": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "NOUAILLE MAUPERTUIS": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 5.4
+  },
+  "NUEIL SOUS FAYE": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 9.3
+  },
+  "NERIGNAC": {
+    "bureau": "L'Isle-Jourdain",
+    "distanceKm": 7.1
+  },
+  "ORCHES": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 7.0
+  },
+  "OUZILLY": {
+    "bureau": "Jaunay-Clan",
+    "distanceKm": 5.3
+  },
+  "OUZILLY VIGNOLLES": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "OYRE": {
+    "bureau": "Dangé",
+    "distanceKm": 7.9
+  },
+  "PAIZAY LE SEC": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 4.7
+  },
+  "PAYROUX": {
+    "bureau": "Usson-du-Poitou",
+    "distanceKm": 9.0
+  },
+  "PAYRE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "PERSAC": {
+    "bureau": "Lussac-les-Châteaux",
+    "distanceKm": 7.5
+  },
+  "PINDRAY": {
+    "bureau": "Montmorillon",
+    "distanceKm": 7.9
+  },
+  "PLAISANCE": {
+    "bureau": "Montmorillon",
+    "distanceKm": 13.4
+  },
+  "PORT DE PILES": {
+    "bureau": "Les Ormes",
+    "distanceKm": 4.2
+  },
+  "POUANT": {
+    "bureau": "Loudun",
+    "distanceKm": 12.9
+  },
+  "POUANCAY": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 7.4
+  },
+  "POUILLE": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 6.8
+  },
+  "POUZIOUX": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "PRESSAC": {
+    "bureau": "Availles-Limouzine",
+    "distanceKm": 7.4
+  },
+  "PRINCAY": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 5.0
+  },
+  "QUEAUX": {
+    "bureau": "Usson-du-Poitou",
+    "distanceKm": 7.9
+  },
+  "QUINCAY": {
+    "bureau": "Vouillé",
+    "distanceKm": 3.8
+  },
+  "RANTON": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 7.8
+  },
+  "RASLAY": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 5.6
+  },
+  "ROCHES PREMARIE ANDILLE": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 2.4
+  },
+  "ROIFFE": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 8.3
+  },
+  "ROMAGNE": {
+    "bureau": "Champagné-Saint-Hilaire",
+    "distanceKm": 6.9
+  },
+  "ROSSAY": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "ROUILLE": {
+    "bureau": "Lusignan",
+    "distanceKm": 7.2
+  },
+  "SAINT BENOIT": {
+    "bureau": "Poitiers",
+    "distanceKm": 4.2
+  },
+  "SAINT CASSIEN": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT CHARTRES": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT CHRISTOPHE": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 4.2
+  },
+  "SAINT CLAIR": {
+    "bureau": "Moncontour",
+    "distanceKm": 3.9
+  },
+  "SAINT CYR": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT GAUDENT": {
+    "bureau": "Civray",
+    "distanceKm": 3.5
+  },
+  "SAINT GENEST D AMBIERE": {
+    "bureau": "Lencloître",
+    "distanceKm": 4.9
+  },
+  "SAINT GENEST": {
+    "bureau": "Lencloître",
+    "distanceKm": 4.9
+  },
+  "SAINT GEORGES": {
+    "bureau": "Saint-Georges-lès-Baillargeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 5.1
+  },
+  "SAINT JEAN DE SAUVES": {
+    "bureau": "Moncontour",
+    "distanceKm": 7.5
+  },
+  "SAINT LAON": {
+    "bureau": "Moncontour",
+    "distanceKm": 10.0
+  },
+  "SAINT LAURENT DE JOURDES": {
+    "bureau": "Verrières",
+    "distanceKm": 4.7
+  },
+  "SAINT LEGER DE MONTBRILLAIS": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 3.8
+  },
+  "SAINT LEOMER": {
+    "bureau": "La Trimouille",
+    "distanceKm": 6.8
+  },
+  "SAINT MACOUX": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIAL": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN L ARS": {
+    "bureau": "Usson-du-Poitou",
+    "distanceKm": 8.1
+  },
+  "SAINT MARTIN LA PALLU": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 5.6
+  },
+  "VENDEUVRE DU POITOU": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 5.6
+  },
+  "SAINT MAURICE LA CLOUERE": {
+    "bureau": "Gençay",
+    "distanceKm": 3.0
+  },
+  "SAINT PIERRE D EXIDEUIL": {
+    "bureau": "Civray",
+    "distanceKm": 3.9
+  },
+  "SAINT PIERRE DE MAILLE": {
+    "bureau": "Angles-sur-l'Anglin",
+    "distanceKm": 6.0
+  },
+  "SAINT PIERRE LES EGLISES": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT ROMAIN": {
+    "bureau": "Charroux",
+    "distanceKm": 9.8
+  },
+  "SAINT ROMAIN SUR VIENNE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT REMY EN MONTMORILLON": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAINT REMY SUR CREUSE": {
+    "bureau": "Les Ormes",
+    "distanceKm": 5.8
+  },
+  "SAINT REMY": {
+    "bureau": "Les Ormes",
+    "distanceKm": 5.8
+  },
+  "SAINT SAUVANT": {
+    "bureau": "Lusignan",
+    "distanceKm": 10.3
+  },
+  "SAINT SECONDIN": {
+    "bureau": "Usson-du-Poitou",
+    "distanceKm": 5.7
+  },
+  "SAINTE RADEGONDE": {
+    "bureau": "Chauvigny",
+    "distanceKm": 7.6
+  },
+  "SAIRES": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 3.7
+  },
+  "SAIX": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 9.3
+  },
+  "SALLES EN TOULON": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SAMMARCOLLES": {
+    "bureau": "Loudun",
+    "distanceKm": 5.9
+  },
+  "SANXAY": {
+    "bureau": "Lusignan",
+    "distanceKm": 11.4
+  },
+  "SAULGE": {
+    "bureau": "Montmorillon",
+    "distanceKm": 8.1
+  },
+  "SAVIGNY LEVESCAULT": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 3.4
+  },
+  "SAVIGNY SOUS FAYE": {
+    "bureau": "Lencloître",
+    "distanceKm": 7.0
+  },
+  "SAVIGNY": {
+    "bureau": "Lencloître",
+    "distanceKm": 7.0
+  },
+  "SAVIGNE": {
+    "bureau": "Civray",
+    "distanceKm": 3.5
+  },
+  "SCORBE CLAIRVAUX": {
+    "bureau": "Lencloître",
+    "distanceKm": 8.1
+  },
+  "SENILLE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "SENILLE SAINT SAUVEUR": {
+    "bureau": "Châtellerault",
+    "distanceKm": 6.2
+  },
+  "SAINT SAUVEUR": {
+    "bureau": "Châtellerault",
+    "distanceKm": 6.2
+  },
+  "SILLARS": {
+    "bureau": "Lussac-les-Châteaux",
+    "distanceKm": 4.0
+  },
+  "SMARVES": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 6.2
+  },
+  "SOMMIERES DU CLAIN": {
+    "bureau": "Champagné-Saint-Hilaire",
+    "distanceKm": 6.6
+  },
+  "SOSSAIS": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 4.3
+  },
+  "SURIN": {
+    "bureau": "Charroux",
+    "distanceKm": 6.8
+  },
+  "SEVRES ANXAUMONT": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 3.3
+  },
+  "SERIGNY": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 8.2
+  },
+  "TARGE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "TERCE": {
+    "bureau": "Saint-Julien-l'Ars",
+    "distanceKm": 6.8
+  },
+  "TERNAY": {
+    "bureau": "Les Trois-Moutiers",
+    "distanceKm": 5.6
+  },
+  "THOLLET": {
+    "bureau": "La Trimouille",
+    "distanceKm": 4.3
+  },
+  "THURAGEAU": {
+    "bureau": "Lencloître",
+    "distanceKm": 3.5
+  },
+  "THURE": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 6.7
+  },
+  "USSEAU": {
+    "bureau": "Saint-Gervais-les-Trois-Clochers",
+    "distanceKm": 6.0
+  },
+  "VAL DE COMPORTE": {
+    "bureau": "Civray",
+    "distanceKm": 5.3
+  },
+  "SAINT SAVIOL": {
+    "bureau": "Civray",
+    "distanceKm": 5.3
+  },
+  "VALDIVIENNE": {
+    "bureau": "Chauvigny",
+    "distanceKm": 6.6
+  },
+  "SAINT MARTIN LA RIVIERE": {
+    "bureau": "Chauvigny",
+    "distanceKm": 6.6
+  },
+  "VALENCE EN POITOU": {
+    "bureau": "Couhé",
+    "distanceKm": 0.0
+  },
+  "VARENNES": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "VAUX": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "VAUX SUR VIENNE": {
+    "bureau": "Dangé",
+    "distanceKm": 3.8
+  },
+  "VELLECHES": {
+    "bureau": "Dangé",
+    "distanceKm": 6.2
+  },
+  "VERGER SUR DIVE": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "VERNON": {
+    "bureau": "La Villedieu-du-Clain",
+    "distanceKm": 7.5
+  },
+  "VERRUE": {
+    "bureau": "Monts-sur-Guesnes",
+    "distanceKm": 4.9
+  },
+  "VICQ SUR GARTEMPE": {
+    "bureau": "Angles-sur-l'Anglin",
+    "distanceKm": 5.1
+  },
+  "VILLEMORT": {
+    "bureau": "Saint-Savin",
+    "distanceKm": 7.9
+  },
+  "VILLIERS": {
+    "bureau": "Vouillé",
+    "distanceKm": 5.8
+  },
+  "VOULON": {
+    "bureau": "Couhé",
+    "distanceKm": 5.7
+  },
+  "VOULEME": {
+    "bureau": "Civray",
+    "distanceKm": 7.0
+  },
+  "VOUNEUIL SOUS BIARD": {
+    "bureau": "Poitiers",
+    "distanceKm": 7.8
+  },
+  "VOUZAILLES": {
+    "bureau": "Mirebeau",
+    "distanceKm": 11.4
+  },
+  "VENIERS": {
+    "bureau": "Poitiers",
+    "distanceKm": 0.0
+  },
+  "VEZIERES": {
+    "bureau": "Loudun",
+    "distanceKm": 9.1
+  },
+  "YVERSAY": {
+    "bureau": "Neuville-de-Poitou",
+    "distanceKm": 3.8
+  }
+}

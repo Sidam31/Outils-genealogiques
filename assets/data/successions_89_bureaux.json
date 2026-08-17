@@ -1,0 +1,1942 @@
+{
+  "ACCOLAY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "AIGREMONT": {
+    "bureau": "Noyers",
+    "distanceKm": 6.5
+  },
+  "AISY SUR ARMANCON": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 13.5
+  },
+  "ANCY LE LIBRE": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 3.7
+  },
+  "ANDRYES": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 5.3
+  },
+  "ANGELY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 3.0
+  },
+  "ANNAY LA COTE": {
+    "bureau": "Avallon",
+    "distanceKm": 8.7
+  },
+  "ANNAY SUR SEREIN": {
+    "bureau": "Noyers",
+    "distanceKm": 3.5
+  },
+  "ANNOUX": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 5.0
+  },
+  "ANNEOT": {
+    "bureau": "Avallon",
+    "distanceKm": 5.2
+  },
+  "APPOIGNY": {
+    "bureau": "Seignelay",
+    "distanceKm": 6.6
+  },
+  "ARCES DILO": {
+    "bureau": "Cerisiers",
+    "distanceKm": 6.0
+  },
+  "ARCES": {
+    "bureau": "Cerisiers",
+    "distanceKm": 6.0
+  },
+  "ARCY SUR CURE": {
+    "bureau": "Vermenton",
+    "distanceKm": 8.9
+  },
+  "ARGENTENAY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 6.5
+  },
+  "ARGENTEUIL SUR ARMANCON": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 6.2
+  },
+  "ARMEAU": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 4.2
+  },
+  "ARTHONNAY": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 7.1
+  },
+  "ASNIERES SOUS BOIS": {
+    "bureau": "Vézelay",
+    "distanceKm": 6.2
+  },
+  "ASQUINS": {
+    "bureau": "Vézelay",
+    "distanceKm": 5.0
+  },
+  "ATHIE": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 5.7
+  },
+  "AUGY": {
+    "bureau": "Auxerre",
+    "distanceKm": 3.9
+  },
+  "AVROLLES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "BAGNEAUX": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 2.9
+  },
+  "BAON": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 6.7
+  },
+  "BASSOU": {
+    "bureau": "Seignelay",
+    "distanceKm": 7.0
+  },
+  "BAZARNES": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 5.9
+  },
+  "BEAUMONT": {
+    "bureau": "Seignelay",
+    "distanceKm": 3.5
+  },
+  "BEAUVILLIERS": {
+    "bureau": "Quarré-les-Tombes",
+    "distanceKm": 6.1
+  },
+  "BEAUVOIR": {
+    "bureau": "Toucy",
+    "distanceKm": 9.5
+  },
+  "BEINE": {
+    "bureau": "Chablis",
+    "distanceKm": 5.2
+  },
+  "BELLECHAUME": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 6.5
+  },
+  "BERNOUIL": {
+    "bureau": "Flogny",
+    "distanceKm": 6.7
+  },
+  "BESSY SUR CURE": {
+    "bureau": "Vermenton",
+    "distanceKm": 7.1
+  },
+  "BESSY": {
+    "bureau": "Vermenton",
+    "distanceKm": 7.1
+  },
+  "BEUGNON": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 6.6
+  },
+  "BIERRY LES BELLES FONTAINES": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 12.2
+  },
+  "BLACY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 1.5
+  },
+  "BLANNAY": {
+    "bureau": "Vézelay",
+    "distanceKm": 9.9
+  },
+  "BLEIGNY LE CARREAU": {
+    "bureau": "Auxerre",
+    "distanceKm": 8.1
+  },
+  "BLIGNY EN OTHE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "BOIS D ARCY": {
+    "bureau": "Vézelay",
+    "distanceKm": 11.2
+  },
+  "BONNARD": {
+    "bureau": "Seignelay",
+    "distanceKm": 5.6
+  },
+  "BOUILLY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "BRANCHES": {
+    "bureau": "Seignelay",
+    "distanceKm": 8.7
+  },
+  "BRANNAY": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 7.2
+  },
+  "BRANNAY SAINT SEROTIN": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 7.2
+  },
+  "BRION": {
+    "bureau": "Joigny",
+    "distanceKm": 5.2
+  },
+  "BROSSES": {
+    "bureau": "Vézelay",
+    "distanceKm": 9.2
+  },
+  "BUSSIERES": {
+    "bureau": "Quarré-les-Tombes",
+    "distanceKm": 7.6
+  },
+  "BUSSY EN OTHE": {
+    "bureau": "Joigny",
+    "distanceKm": 8.5
+  },
+  "BUSSY LE REPOS": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 5.7
+  },
+  "BUTTEAUX": {
+    "bureau": "Flogny",
+    "distanceKm": 4.9
+  },
+  "BEON": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 5.2
+  },
+  "BERU": {
+    "bureau": "Chablis",
+    "distanceKm": 6.9
+  },
+  "BŒURS EN OTHE": {
+    "bureau": "Cerisiers",
+    "distanceKm": 14.3
+  },
+  "CARISEY": {
+    "bureau": "Flogny",
+    "distanceKm": 5.1
+  },
+  "CENSY": {
+    "bureau": "Noyers",
+    "distanceKm": 5.7
+  },
+  "CHAILLEY": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 11.0
+  },
+  "CHAILLEY TURNY": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 11.0
+  },
+  "CHAMBEUGLE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CHAMOUX": {
+    "bureau": "Vézelay",
+    "distanceKm": 4.3
+  },
+  "CHAMPCEVRAIS": {
+    "bureau": "Bléneau",
+    "distanceKm": 6.2
+  },
+  "CHAMPIGNELLES": {
+    "bureau": "Charny",
+    "distanceKm": 11.3
+  },
+  "CHAMPIGNY": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 4.8
+  },
+  "CHAMPLAY": {
+    "bureau": "Joigny",
+    "distanceKm": 7.1
+  },
+  "CHAMPLOST": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 5.5
+  },
+  "CHAMPS SUR YONNE": {
+    "bureau": "Auxerre",
+    "distanceKm": 5.2
+  },
+  "CHAMPS": {
+    "bureau": "Auxerre",
+    "distanceKm": 5.2
+  },
+  "CHAMPVALLON": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CHAMVRES": {
+    "bureau": "Joigny",
+    "distanceKm": 6.9
+  },
+  "CHARBUY": {
+    "bureau": "Auxerre",
+    "distanceKm": 9.8
+  },
+  "CHARENTENAY": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 6.5
+  },
+  "CHARMOY": {
+    "bureau": "Seignelay",
+    "distanceKm": 8.8
+  },
+  "CHARNY OREE DE PUISAYE": {
+    "bureau": "Charny",
+    "distanceKm": 0.0
+  },
+  "CHASSIGNELLES": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 2.5
+  },
+  "CHASSY": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 5.6
+  },
+  "CHASTELLUX SUR CURE": {
+    "bureau": "Quarré-les-Tombes",
+    "distanceKm": 10.5
+  },
+  "CHASTENAY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CHAUMONT": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 7.1
+  },
+  "CHAUMOT": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 7.8
+  },
+  "CHEMILLY SUR SEREIN": {
+    "bureau": "Chablis",
+    "distanceKm": 6.6
+  },
+  "CHEMILLY SUR YONNE": {
+    "bureau": "Seignelay",
+    "distanceKm": 3.0
+  },
+  "CHENEY": {
+    "bureau": "Flogny",
+    "distanceKm": 7.9
+  },
+  "CHENY": {
+    "bureau": "Seignelay",
+    "distanceKm": 6.7
+  },
+  "CHEVANNES": {
+    "bureau": "Auxerre",
+    "distanceKm": 8.6
+  },
+  "CHEVILLON": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CHICHERY": {
+    "bureau": "Seignelay",
+    "distanceKm": 6.3
+  },
+  "CHICHY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CHICHEE": {
+    "bureau": "Chablis",
+    "distanceKm": 4.4
+  },
+  "CHIGY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CHITRY": {
+    "bureau": "Chablis",
+    "distanceKm": 8.1
+  },
+  "CHATEL CENSOIR": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 8.4
+  },
+  "CHATEL GERARD": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 8.0
+  },
+  "CHEU": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 3.8
+  },
+  "CHENE ARNOULT": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CISERY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CIVRY SUR SEREIN": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "COLLAN": {
+    "bureau": "Chablis",
+    "distanceKm": 7.0
+  },
+  "COLLEMIERS": {
+    "bureau": "Sens",
+    "distanceKm": 7.9
+  },
+  "COMMISSEY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "COMPIGNY": {
+    "bureau": "Sergines",
+    "distanceKm": 3.3
+  },
+  "CORNANT": {
+    "bureau": "Sens",
+    "distanceKm": 10.9
+  },
+  "COULANGERON": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 8.8
+  },
+  "COULOURS": {
+    "bureau": "Cerisiers",
+    "distanceKm": 7.4
+  },
+  "COURCEAUX": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "COURGENAY": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 6.1
+  },
+  "COURGIS": {
+    "bureau": "Chablis",
+    "distanceKm": 4.8
+  },
+  "COURLON SUR YONNE": {
+    "bureau": "Sergines",
+    "distanceKm": 5.3
+  },
+  "COURTOIN": {
+    "bureau": "Chéroy",
+    "distanceKm": 12.1
+  },
+  "COURTOIS SUR YONNE": {
+    "bureau": "Sens",
+    "distanceKm": 5.6
+  },
+  "COUTARNOUX": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 6.0
+  },
+  "CRAIN": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 3.7
+  },
+  "CRY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 8.8
+  },
+  "CUDOT": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 9.2
+  },
+  "CUSSY LES FORGES": {
+    "bureau": "Guillon",
+    "distanceKm": 7.5
+  },
+  "CUSY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "CUY": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 6.4
+  },
+  "CERILLY": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 7.5
+  },
+  "CEZY": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 4.6
+  },
+  "DANNEMOINE": {
+    "bureau": "Tonnerre",
+    "distanceKm": 6.4
+  },
+  "DEUX RIVIERES": {
+    "bureau": "Vermenton",
+    "distanceKm": 5.1
+  },
+  "CRAVANT": {
+    "bureau": "Vermenton",
+    "distanceKm": 5.1
+  },
+  "DICY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "DIGES": {
+    "bureau": "Toucy",
+    "distanceKm": 7.7
+  },
+  "DILO": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "DISSANGIS": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 3.3
+  },
+  "DIXMONT": {
+    "bureau": "Joigny",
+    "distanceKm": 7.6
+  },
+  "DOLLOT": {
+    "bureau": "Chéroy",
+    "distanceKm": 4.5
+  },
+  "DOMATS": {
+    "bureau": "Chéroy",
+    "distanceKm": 10.6
+  },
+  "DOMECY SUR CURE": {
+    "bureau": "Vézelay",
+    "distanceKm": 8.8
+  },
+  "DOMECY SUR LE VAULT": {
+    "bureau": "Avallon",
+    "distanceKm": 8.3
+  },
+  "DRACY": {
+    "bureau": "Toucy",
+    "distanceKm": 4.4
+  },
+  "DRUYES LES BELLES FONTAINES": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 8.2
+  },
+  "DYE": {
+    "bureau": "Flogny",
+    "distanceKm": 8.2
+  },
+  "ESCAMPS": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 8.7
+  },
+  "ESCOLIVES SAINTE CAMILLE": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 2.7
+  },
+  "ESCOLIVES": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 2.7
+  },
+  "ESNON": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 3.9
+  },
+  "ESSERT": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "FESTIGNY": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 2.3
+  },
+  "FLACY": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 3.2
+  },
+  "FLEURIGNY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "FLEURY LA VALLEE": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 10.2
+  },
+  "FLEURY VALLEE D AILLANT": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 10.2
+  },
+  "FLEYS": {
+    "bureau": "Chablis",
+    "distanceKm": 5.4
+  },
+  "FLOGNY LA CHAPELLE": {
+    "bureau": "Flogny",
+    "distanceKm": 0.0
+  },
+  "FOISSY LES VEZELAY": {
+    "bureau": "Vézelay",
+    "distanceKm": 3.9
+  },
+  "FOISSY SUR VANNE": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 4.5
+  },
+  "FOISSY": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 4.5
+  },
+  "FONTAINE LA GAILLARDE": {
+    "bureau": "Sens",
+    "distanceKm": 7.9
+  },
+  "FONTAINES": {
+    "bureau": "Toucy",
+    "distanceKm": 4.9
+  },
+  "FONTENAILLES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "FONTENAY PRES CHABLIS": {
+    "bureau": "Chablis",
+    "distanceKm": 4.4
+  },
+  "FONTENAY PRES VEZELAY": {
+    "bureau": "Vézelay",
+    "distanceKm": 4.0
+  },
+  "FONTENAY SOUS FOURONNES": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 8.1
+  },
+  "FONTENOUILLES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "FONTENOY": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 7.5
+  },
+  "FOUCHERES": {
+    "bureau": "Chéroy",
+    "distanceKm": 10.9
+  },
+  "FOURNAUDIN": {
+    "bureau": "Cerisiers",
+    "distanceKm": 10.2
+  },
+  "FOURONNES": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 4.2
+  },
+  "FRESNES": {
+    "bureau": "Noyers",
+    "distanceKm": 6.9
+  },
+  "FULVY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 3.4
+  },
+  "FYE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "GERMIGNY": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 6.0
+  },
+  "GIGNY": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 7.5
+  },
+  "GIROLLES": {
+    "bureau": "Avallon",
+    "distanceKm": 9.6
+  },
+  "GISY LES NOBLES": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 4.9
+  },
+  "GIVRY": {
+    "bureau": "Vézelay",
+    "distanceKm": 9.2
+  },
+  "GLAND": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 6.2
+  },
+  "GRANDCHAMP": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "GRANGE LE BOCAGE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "GRIMAULT": {
+    "bureau": "Noyers",
+    "distanceKm": 4.7
+  },
+  "GRON": {
+    "bureau": "Sens",
+    "distanceKm": 5.7
+  },
+  "GUILLON TERRE PLAINE": {
+    "bureau": "Guillon",
+    "distanceKm": 0.0
+  },
+  "GURGY": {
+    "bureau": "Seignelay",
+    "distanceKm": 2.9
+  },
+  "GY L EVEQUE": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 4.4
+  },
+  "HAUTERIVE": {
+    "bureau": "Seignelay",
+    "distanceKm": 3.9
+  },
+  "HERY": {
+    "bureau": "Seignelay",
+    "distanceKm": 3.1
+  },
+  "IRANCY": {
+    "bureau": "Vermenton",
+    "distanceKm": 8.1
+  },
+  "ISLAND": {
+    "bureau": "Avallon",
+    "distanceKm": 5.7
+  },
+  "JAULGES": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 4.7
+  },
+  "JOUANCY": {
+    "bureau": "Noyers",
+    "distanceKm": 6.1
+  },
+  "JOUX LA VILLE": {
+    "bureau": "Vermenton",
+    "distanceKm": 7.7
+  },
+  "JOUY": {
+    "bureau": "Chéroy",
+    "distanceKm": 4.9
+  },
+  "JULLY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 10.1
+  },
+  "JUNAY": {
+    "bureau": "Tonnerre",
+    "distanceKm": 5.3
+  },
+  "JUSSY": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 1.9
+  },
+  "LA BELLIOLE": {
+    "bureau": "Chéroy",
+    "distanceKm": 8.9
+  },
+  "LA CELLE SAINT CYR": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 5.5
+  },
+  "LA CHAPELLE VAUPELTEIGNE": {
+    "bureau": "Chablis",
+    "distanceKm": 4.5
+  },
+  "LA CHAPELLE VIEILLE FORET": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE SUR OREUSE": {
+    "bureau": "Sergines",
+    "distanceKm": 6.8
+  },
+  "LA FERTE LOUPIERE": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 6.1
+  },
+  "LA MOTHE AUX AULNAIES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "LA POSTOLLE": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 10.2
+  },
+  "LA VILLOTTE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "LADUZ": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "LAILLY": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 5.6
+  },
+  "LAIN": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 11.3
+  },
+  "LAINSECQ": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 11.8
+  },
+  "LALANDE": {
+    "bureau": "Toucy",
+    "distanceKm": 6.0
+  },
+  "LAROCHE SAINT CYDROINE": {
+    "bureau": "Joigny",
+    "distanceKm": 5.9
+  },
+  "LASSON": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 10.6
+  },
+  "LAVAU": {
+    "bureau": "Saint-Fargeau",
+    "distanceKm": 7.9
+  },
+  "LE VAL D OCRE": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 8.7
+  },
+  "SAINT AUBIN CHATEAU NEUF": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 8.7
+  },
+  "LES BORDES": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 6.4
+  },
+  "LES CLERIMOIS": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 7.8
+  },
+  "LES HAUTS DE FORTERRE": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 5.5
+  },
+  "TAINGY": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 5.5
+  },
+  "LES ORMES": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 7.6
+  },
+  "LES SIEGES": {
+    "bureau": "Cerisiers",
+    "distanceKm": 5.6
+  },
+  "LES VALLEES DE LA VANNE": {
+    "bureau": "Cerisiers",
+    "distanceKm": 6.9
+  },
+  "THEIL SUR VANNE": {
+    "bureau": "Cerisiers",
+    "distanceKm": 6.9
+  },
+  "LEUGNY": {
+    "bureau": "Toucy",
+    "distanceKm": 8.4
+  },
+  "LEVIS": {
+    "bureau": "Toucy",
+    "distanceKm": 8.9
+  },
+  "LICHERES PRES AIGREMONT": {
+    "bureau": "Vermenton",
+    "distanceKm": 6.5
+  },
+  "LICHERES AIGREMONT": {
+    "bureau": "Vermenton",
+    "distanceKm": 6.5
+  },
+  "LICHERES SUR YONNE": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 7.9
+  },
+  "LIGNORELLES": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 7.1
+  },
+  "LINDRY": {
+    "bureau": "Auxerre",
+    "distanceKm": 11.8
+  },
+  "LIXY": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 6.8
+  },
+  "LOOZE": {
+    "bureau": "Joigny",
+    "distanceKm": 2.5
+  },
+  "LOUESME": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "LUCY LE BOIS": {
+    "bureau": "Avallon",
+    "distanceKm": 9.7
+  },
+  "LUCY SUR CURE": {
+    "bureau": "Vermenton",
+    "distanceKm": 3.9
+  },
+  "LUCY SUR YONNE": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 4.5
+  },
+  "LEZINNES": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.7
+  },
+  "MAGNY": {
+    "bureau": "Avallon",
+    "distanceKm": 4.4
+  },
+  "MAILLOT": {
+    "bureau": "Sens",
+    "distanceKm": 3.6
+  },
+  "MAILLY LA VILLE": {
+    "bureau": "Vermenton",
+    "distanceKm": 12.2
+  },
+  "MAILLY LE CHATEAU": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 6.9
+  },
+  "MALAY LE GRAND": {
+    "bureau": "Sens",
+    "distanceKm": 4.8
+  },
+  "MALAY LE PETIT": {
+    "bureau": "Sens",
+    "distanceKm": 5.6
+  },
+  "MALICORNE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "MALIGNY": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 6.8
+  },
+  "MARCHAIS BETON": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "MARMEAUX": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 6.5
+  },
+  "MARSANGY": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 6.2
+  },
+  "MASSANGIS": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 5.2
+  },
+  "MENADES": {
+    "bureau": "Avallon",
+    "distanceKm": 8.2
+  },
+  "MERCY": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 3.4
+  },
+  "MERRY SEC": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 7.3
+  },
+  "MERRY LA VALLEE": {
+    "bureau": "Toucy",
+    "distanceKm": 6.4
+  },
+  "MERRY SUR YONNE": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 9.1
+  },
+  "MICHERY": {
+    "bureau": "Sergines",
+    "distanceKm": 3.5
+  },
+  "MIGENNES": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 7.1
+  },
+  "MIGE": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 4.6
+  },
+  "MILLY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "MOLESMES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "MOLINONS": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 2.0
+  },
+  "MOLOSMES": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.9
+  },
+  "MONT SAINT SULPICE": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 5.5
+  },
+  "MONTACHER VILLEGARDIN": {
+    "bureau": "Chéroy",
+    "distanceKm": 4.8
+  },
+  "MONTACHER": {
+    "bureau": "Chéroy",
+    "distanceKm": 4.8
+  },
+  "MONTHOLON": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 0.0
+  },
+  "AILLANT": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 0.0
+  },
+  "MONTIGNY LA RESLE": {
+    "bureau": "Seignelay",
+    "distanceKm": 7.7
+  },
+  "MONTILLOT": {
+    "bureau": "Vézelay",
+    "distanceKm": 6.6
+  },
+  "MONTREAL": {
+    "bureau": "Guillon",
+    "distanceKm": 2.8
+  },
+  "MONETEAU": {
+    "bureau": "Seignelay",
+    "distanceKm": 5.7
+  },
+  "MOUFFY": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 5.5
+  },
+  "MOULINS EN TONNERROIS": {
+    "bureau": "Noyers",
+    "distanceKm": 6.2
+  },
+  "MOULINS SUR OUANNE": {
+    "bureau": "Toucy",
+    "distanceKm": 5.4
+  },
+  "MOUTIERS EN PUISAYE": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 3.2
+  },
+  "MOUTIERS": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 3.2
+  },
+  "MELISEY": {
+    "bureau": "Tonnerre",
+    "distanceKm": 11.6
+  },
+  "MERE": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 5.0
+  },
+  "MEZILLES": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 6.9
+  },
+  "MOLAY": {
+    "bureau": "Noyers",
+    "distanceKm": 4.5
+  },
+  "NAILLY": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 7.1
+  },
+  "NEUILLY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "NEUVY SAUTOUR": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 8.0
+  },
+  "NITRY": {
+    "bureau": "Vermenton",
+    "distanceKm": 6.2
+  },
+  "NOE": {
+    "bureau": "Sens",
+    "distanceKm": 8.3
+  },
+  "NUITS": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 5.8
+  },
+  "ORMOY": {
+    "bureau": "Seignelay",
+    "distanceKm": 6.0
+  },
+  "OUANNE": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 9.2
+  },
+  "PACY SUR ARMANCON": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 6.1
+  },
+  "PACY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 6.1
+  },
+  "PAILLY": {
+    "bureau": "Sergines",
+    "distanceKm": 6.5
+  },
+  "PARLY": {
+    "bureau": "Toucy",
+    "distanceKm": 4.8
+  },
+  "PARON": {
+    "bureau": "Sens",
+    "distanceKm": 5.2
+  },
+  "PAROY EN OTHE": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 4.7
+  },
+  "PAROY SUR THOLON": {
+    "bureau": "Joigny",
+    "distanceKm": 6.7
+  },
+  "PASILLY": {
+    "bureau": "Noyers",
+    "distanceKm": 8.4
+  },
+  "PASSY": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 3.5
+  },
+  "PERCENEIGE": {
+    "bureau": "Sergines",
+    "distanceKm": 11.5
+  },
+  "VILLIERS BONNEUX": {
+    "bureau": "Sergines",
+    "distanceKm": 11.5
+  },
+  "PERCEY": {
+    "bureau": "Flogny",
+    "distanceKm": 3.3
+  },
+  "PERREUSE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "PERREUX": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "PERRIGNY": {
+    "bureau": "Auxerre",
+    "distanceKm": 5.3
+  },
+  "PERRIGNY SUR ARMANCON": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 10.2
+  },
+  "PIERRE PERTHUIS": {
+    "bureau": "Vézelay",
+    "distanceKm": 6.0
+  },
+  "PIFFONDS": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 10.2
+  },
+  "PIMELLES": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 5.2
+  },
+  "PISY": {
+    "bureau": "Guillon",
+    "distanceKm": 7.9
+  },
+  "PLESSIS SAINT JEAN": {
+    "bureau": "Sergines",
+    "distanceKm": 4.0
+  },
+  "PLESSIS DU MEE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "POILLY SUR SEREIN": {
+    "bureau": "Chablis",
+    "distanceKm": 8.6
+  },
+  "POILLY SUR THOLON": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 8.1
+  },
+  "POINCHY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "PONT SUR VANNE": {
+    "bureau": "Cerisiers",
+    "distanceKm": 9.8
+  },
+  "PONTAUBERT": {
+    "bureau": "Avallon",
+    "distanceKm": 3.9
+  },
+  "PONTIGNY": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 4.1
+  },
+  "POURRAIN": {
+    "bureau": "Toucy",
+    "distanceKm": 10.4
+  },
+  "PROVENCY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 7.2
+  },
+  "PRUNOY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "PRECY LE SEC": {
+    "bureau": "Vermenton",
+    "distanceKm": 9.2
+  },
+  "PRECY SUR VRIN": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 7.0
+  },
+  "PRECY": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 7.0
+  },
+  "PREGILBERT": {
+    "bureau": "Vermenton",
+    "distanceKm": 8.7
+  },
+  "PREHY": {
+    "bureau": "Chablis",
+    "distanceKm": 5.9
+  },
+  "QUENNE": {
+    "bureau": "Auxerre",
+    "distanceKm": 5.8
+  },
+  "QUINCEROT": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 8.9
+  },
+  "RAVIERES": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 8.1
+  },
+  "REBOURSEAUX": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "ROFFEY": {
+    "bureau": "Flogny",
+    "distanceKm": 6.3
+  },
+  "ROGNY LES SEPT ECLUSES": {
+    "bureau": "Bléneau",
+    "distanceKm": 6.0
+  },
+  "ROGNY": {
+    "bureau": "Bléneau",
+    "distanceKm": 6.0
+  },
+  "RONCHERES": {
+    "bureau": "Saint-Fargeau",
+    "distanceKm": 3.3
+  },
+  "ROSOY": {
+    "bureau": "Sens",
+    "distanceKm": 5.2
+  },
+  "ROUSSON": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 3.9
+  },
+  "ROUVRAY": {
+    "bureau": "Seignelay",
+    "distanceKm": 5.5
+  },
+  "RUGNY": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 6.6
+  },
+  "SACY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINPUITS": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 14.3
+  },
+  "SAINT AGNAN": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 10.1
+  },
+  "SAINT ANDRE EN TERRE PLAINE": {
+    "bureau": "Guillon",
+    "distanceKm": 4.6
+  },
+  "SAINT ANDRE": {
+    "bureau": "Guillon",
+    "distanceKm": 4.6
+  },
+  "SAINT AUBIN SUR YONNE": {
+    "bureau": "Joigny",
+    "distanceKm": 3.8
+  },
+  "SAINT BRANCHER": {
+    "bureau": "Avallon",
+    "distanceKm": 7.6
+  },
+  "SAINT BRIS LE VINEUX": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 7.5
+  },
+  "SAINT CLEMENT": {
+    "bureau": "Sens",
+    "distanceKm": 3.2
+  },
+  "SAINT CYR LES COLONS": {
+    "bureau": "Vermenton",
+    "distanceKm": 6.9
+  },
+  "SAINT DENIS LES SENS": {
+    "bureau": "Sens",
+    "distanceKm": 5.1
+  },
+  "SAINT DENIS": {
+    "bureau": "Sens",
+    "distanceKm": 5.1
+  },
+  "SAINT DENIS SUR OUANNE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINT GEORGES SUR BAULCHE": {
+    "bureau": "Auxerre",
+    "distanceKm": 5.0
+  },
+  "SAINT GERMAIN DES CHAMPS": {
+    "bureau": "Avallon",
+    "distanceKm": 6.9
+  },
+  "SAINT LOUP D ORDON": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 10.2
+  },
+  "SAINT LEGER VAUBAN": {
+    "bureau": "Quarré-les-Tombes",
+    "distanceKm": 3.5
+  },
+  "SAINT MARTIN D ORDON": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 8.1
+  },
+  "SAINT MARTIN DES CHAMPS": {
+    "bureau": "Saint-Fargeau",
+    "distanceKm": 4.1
+  },
+  "SAINT MARTIN DU TERTRE": {
+    "bureau": "Sens",
+    "distanceKm": 5.2
+  },
+  "SAINT MARTIN SUR ARMANCON": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.8
+  },
+  "SAINT MARTIN": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.8
+  },
+  "SAINT MARTIN SUR OCRE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN SUR OREUSE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN SUR OUANNE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINT MAURICE THIZOUAILLE": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 8.1
+  },
+  "SAINT MAURICE AUX RICHES HOMMES": {
+    "bureau": "Villeneuve-l'Archevêque",
+    "distanceKm": 11.7
+  },
+  "SAINT MAURICE LE VIEIL": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 9.6
+  },
+  "SAINT MORE": {
+    "bureau": "Vermenton",
+    "distanceKm": 10.6
+  },
+  "SAINT PRIVE": {
+    "bureau": "Bléneau",
+    "distanceKm": 4.1
+  },
+  "SAINT PERE": {
+    "bureau": "Vézelay",
+    "distanceKm": 4.7
+  },
+  "SAINT ROMAIN LE PREUX": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINT SAUVEUR EN PUISAYE": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 0.0
+  },
+  "SAINT SEROTIN": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 4.1
+  },
+  "SAINT VALERIEN": {
+    "bureau": "Chéroy",
+    "distanceKm": 7.4
+  },
+  "SAINT VINNEMER": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINTE COLOMBE SUR LOING": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SAINTE MAGNANCE": {
+    "bureau": "Guillon",
+    "distanceKm": 7.8
+  },
+  "SAINTE PALLAYE": {
+    "bureau": "Vermenton",
+    "distanceKm": 8.4
+  },
+  "SAINTE VERTU": {
+    "bureau": "Noyers",
+    "distanceKm": 6.0
+  },
+  "SAINTS EN PUISAYE": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 5.9
+  },
+  "SAINTS": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 5.9
+  },
+  "SALIGNY": {
+    "bureau": "Sens",
+    "distanceKm": 4.3
+  },
+  "SAMBOURG": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.9
+  },
+  "SANTIGNY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 7.2
+  },
+  "SARRY": {
+    "bureau": "Noyers",
+    "distanceKm": 8.9
+  },
+  "SAUVIGNY LE BEUREAL": {
+    "bureau": "Guillon",
+    "distanceKm": 5.8
+  },
+  "SAUVIGNY LE BOIS": {
+    "bureau": "Avallon",
+    "distanceKm": 4.7
+  },
+  "SAVIGNY EN TERRE PLAINE": {
+    "bureau": "Guillon",
+    "distanceKm": 4.0
+  },
+  "SAVIGNY SUR CLAIRIS": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 15.2
+  },
+  "SCEAUX": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SEMENTRON": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 10.9
+  },
+  "SENAN": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 2.7
+  },
+  "SENNEVOY LE BAS": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 10.1
+  },
+  "SENNEVOY LE HAUT": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 7.1
+  },
+  "SEPTFONDS": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SERBONNES": {
+    "bureau": "Sergines",
+    "distanceKm": 3.7
+  },
+  "SERMIZELLES": {
+    "bureau": "Avallon",
+    "distanceKm": 11.3
+  },
+  "SERRIGNY": {
+    "bureau": "Tonnerre",
+    "distanceKm": 4.8
+  },
+  "SERY": {
+    "bureau": "Vermenton",
+    "distanceKm": 9.4
+  },
+  "SOGNES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SOMMECAISE": {
+    "bureau": "Charny",
+    "distanceKm": 9.6
+  },
+  "SORMERY": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 12.8
+  },
+  "SOUCY": {
+    "bureau": "Sens",
+    "distanceKm": 6.7
+  },
+  "SOUGERES EN PUISAYE": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 11.9
+  },
+  "SOUGERES": {
+    "bureau": "Courson-les-Carrières",
+    "distanceKm": 11.9
+  },
+  "SOUGERES SUR SINOTTE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "SOUMAINTRAIN": {
+    "bureau": "Flogny",
+    "distanceKm": 7.0
+  },
+  "STIGNY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 5.7
+  },
+  "SUBLIGNY": {
+    "bureau": "Sens",
+    "distanceKm": 8.6
+  },
+  "SEPEAUX SAINT ROMAIN": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 7.1
+  },
+  "SEPEAUX": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 7.1
+  },
+  "TALCY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 4.2
+  },
+  "TANLAY": {
+    "bureau": "Tonnerre",
+    "distanceKm": 8.0
+  },
+  "TANNERRE EN PUISAYE": {
+    "bureau": "Toucy",
+    "distanceKm": 10.6
+  },
+  "THAROISEAU": {
+    "bureau": "Vézelay",
+    "distanceKm": 7.9
+  },
+  "THAROT": {
+    "bureau": "Avallon",
+    "distanceKm": 7.3
+  },
+  "THIZY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 2.8
+  },
+  "THOREY": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 8.8
+  },
+  "THORIGNY SUR OREUSE": {
+    "bureau": "Sergines",
+    "distanceKm": 11.2
+  },
+  "THORY": {
+    "bureau": "l'Isle-sur-Serein",
+    "distanceKm": 8.1
+  },
+  "THURY": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 9.5
+  },
+  "TISSEY": {
+    "bureau": "Tonnerre",
+    "distanceKm": 6.4
+  },
+  "TREIGNY PERREUSE SAINTE COLOMBE": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 8.5
+  },
+  "TREIGNY": {
+    "bureau": "Saint-Sauveur",
+    "distanceKm": 8.5
+  },
+  "TRICHEY": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 8.5
+  },
+  "TRONCHOY": {
+    "bureau": "Flogny",
+    "distanceKm": 6.8
+  },
+  "TRUCY SUR YONNE": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 9.0
+  },
+  "TREVILLY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "TURNY": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 7.9
+  },
+  "VAL DE MERCY": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 3.3
+  },
+  "VALLAN": {
+    "bureau": "Auxerre",
+    "distanceKm": 6.1
+  },
+  "VALLERY": {
+    "bureau": "Chéroy",
+    "distanceKm": 4.5
+  },
+  "VALRAVILLON": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 8.4
+  },
+  "GUERCHY": {
+    "bureau": "Aillant-sur-Tholon",
+    "distanceKm": 8.4
+  },
+  "VAREILLES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VARENNES": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 2.1
+  },
+  "VASSY SOUS PISY": {
+    "bureau": "Guillon",
+    "distanceKm": 9.3
+  },
+  "VASSY": {
+    "bureau": "Guillon",
+    "distanceKm": 9.3
+  },
+  "VAUDEURS": {
+    "bureau": "Cerisiers",
+    "distanceKm": 2.6
+  },
+  "VAULT DE LUGNY": {
+    "bureau": "Avallon",
+    "distanceKm": 6.1
+  },
+  "VAUMORT": {
+    "bureau": "Cerisiers",
+    "distanceKm": 5.5
+  },
+  "VAUX": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VENIZY": {
+    "bureau": "Brienon-sur-Armançon",
+    "distanceKm": 8.7
+  },
+  "VENOUSE": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 5.6
+  },
+  "VENOY": {
+    "bureau": "Auxerre",
+    "distanceKm": 5.8
+  },
+  "VERGIGNY": {
+    "bureau": "Saint-Florentin",
+    "distanceKm": 4.9
+  },
+  "VERLIN": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 3.8
+  },
+  "VERNOY": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 13.3
+  },
+  "VERTILLY": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VIGNES": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VILLEBLEVIN": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 9.6
+  },
+  "VILLEBOUGIS": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 8.5
+  },
+  "VILLECHETIVE": {
+    "bureau": "Cerisiers",
+    "distanceKm": 3.4
+  },
+  "VILLECIEN": {
+    "bureau": "Saint-Julien-du-Sault",
+    "distanceKm": 5.0
+  },
+  "VILLEFARGEAU": {
+    "bureau": "Auxerre",
+    "distanceKm": 6.6
+  },
+  "VILLEFRANCHE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VILLEGARDIN": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VILLEMANOCHE": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 2.5
+  },
+  "VILLEMER": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VILLENAVOTTE": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 5.2
+  },
+  "VILLENEUVE SAINT SALVES": {
+    "bureau": "Seignelay",
+    "distanceKm": 6.6
+  },
+  "VILLENEUVE LA DONDAGRE": {
+    "bureau": "Chéroy",
+    "distanceKm": 12.6
+  },
+  "VILLENEUVE LA GUYARD": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 11.2
+  },
+  "VILLENEUVE LES GENETS": {
+    "bureau": "Bléneau",
+    "distanceKm": 9.8
+  },
+  "VILLEPERROT": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 2.8
+  },
+  "VILLEROY": {
+    "bureau": "Sens",
+    "distanceKm": 9.3
+  },
+  "VILLETHIERRY": {
+    "bureau": "Chéroy",
+    "distanceKm": 8.5
+  },
+  "VILLEVALLIER": {
+    "bureau": "Joigny",
+    "distanceKm": 5.1
+  },
+  "VILLIERS LOUIS": {
+    "bureau": "Sens",
+    "distanceKm": 6.7
+  },
+  "VILLIERS SAINT BENOIT": {
+    "bureau": "Toucy",
+    "distanceKm": 7.3
+  },
+  "VILLIERS VINEUX": {
+    "bureau": "Flogny",
+    "distanceKm": 4.6
+  },
+  "VILLIERS LES HAUTS": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 5.3
+  },
+  "VILLIERS SUR THOLON": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VILLON": {
+    "bureau": "Cruzy-le-Châtel",
+    "distanceKm": 4.0
+  },
+  "VILLY": {
+    "bureau": "Ligny-le-Châtel",
+    "distanceKm": 6.6
+  },
+  "VINCELLES": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 3.9
+  },
+  "VINCELOTTES": {
+    "bureau": "Coulanges-la-Vineuse",
+    "distanceKm": 4.4
+  },
+  "VINNEUF": {
+    "bureau": "Sergines",
+    "distanceKm": 7.9
+  },
+  "VIREAUX": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.5
+  },
+  "VIVIERS": {
+    "bureau": "Tonnerre",
+    "distanceKm": 5.7
+  },
+  "VOISINES": {
+    "bureau": "Sens",
+    "distanceKm": 10.7
+  },
+  "VOLGRE": {
+    "bureau": "Auxerre",
+    "distanceKm": 0.0
+  },
+  "VOUTENAY SUR CURE": {
+    "bureau": "Vermenton",
+    "distanceKm": 12.5
+  },
+  "VERON": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 5.2
+  },
+  "VEZANNES": {
+    "bureau": "Tonnerre",
+    "distanceKm": 7.7
+  },
+  "VEZINNES": {
+    "bureau": "Tonnerre",
+    "distanceKm": 6.8
+  },
+  "YROUERRE": {
+    "bureau": "Tonnerre",
+    "distanceKm": 6.0
+  },
+  "EGLENY": {
+    "bureau": "Toucy",
+    "distanceKm": 10.8
+  },
+  "EGRISELLES LE BOCAGE": {
+    "bureau": "Villeneuve-sur-Yonne",
+    "distanceKm": 10.3
+  },
+  "EPINEAU LES VOVES": {
+    "bureau": "Joigny",
+    "distanceKm": 8.6
+  },
+  "EPINEUIL": {
+    "bureau": "Tonnerre",
+    "distanceKm": 4.6
+  },
+  "ETAIS LA SAUVIN": {
+    "bureau": "Coulanges-sur-Yonne",
+    "distanceKm": 13.6
+  },
+  "ETAULE": {
+    "bureau": "Avallon",
+    "distanceKm": 5.5
+  },
+  "ETIGNY": {
+    "bureau": "Sens",
+    "distanceKm": 6.6
+  },
+  "ETIVEY": {
+    "bureau": "Ancy-le-Franc",
+    "distanceKm": 11.6
+  },
+  "EVRY": {
+    "bureau": "Pont-sur-Yonne",
+    "distanceKm": 5.6
+  }
+}

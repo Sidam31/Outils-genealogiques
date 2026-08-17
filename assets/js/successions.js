@@ -539,6 +539,72 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_74_bureaux.json',
         catalogUrl: 'https://archives.hautesavoie.fr/archive/recherche/enregistrement/n:154',
     },
+    '92': {
+        label: 'Hauts-de-Seine',
+        kind: 'facet',
+        // Bornes réelles de la série (559 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['92']) : facette REch_TYPE isolant
+        // "Tables des successions et absences" du fonds "Enregistrements" (qui mélange aussi des
+        // déclarations de successions individuelles, un fonds voisin mais distinct).
+        minYear: 1807,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_92.json',
+        bureauxUrl: './assets/data/successions_92_bureaux.json',
+        catalogUrl: 'https://archives.hauts-de-seine.fr/archive/recherche/enregistrements/n:96',
+    },
+    '86': {
+        label: 'Vienne',
+        kind: 'facet',
+        // Bornes réelles de la série (524 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['86']) : portail commun aux Deux-Sèvres/
+        // Vienne, séparés via un filtre RECH_dep en plus du type ("table de successions"). Certaines
+        // lignes insèrent une annotation optionnelle ("Paroisses de...") qui décale les colonnes -
+        // date lue à l'avant-avant-dernière cellule plutôt qu'à un indice fixe (voir columns dans
+        // le scraper).
+        minYear: 1719,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_86.json',
+        bureauxUrl: './assets/data/successions_86_bureaux.json',
+        catalogUrl: 'https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101',
+    },
+    '79': {
+        label: 'Deux-Sèvres',
+        kind: 'facet',
+        // Bornes réelles de la série (554 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['79']) : même portail commun que la
+        // Vienne (voir ce commentaire), filtré sur ce département via RECH_dep.
+        minYear: 1710,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_79.json',
+        bureauxUrl: './assets/data/successions_79_bureaux.json',
+        catalogUrl: 'https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101',
+    },
+    '89': {
+        label: 'Yonne',
+        kind: 'facet',
+        // Bornes réelles de la série (408 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['89']) : dixième mise en page rencontrée
+        // sur ce logiciel (un <h3> composite par registre, "cote * volume - dates - Bureau de
+        // l'enregistrement d'X / ..."), et seul département de cette famille où chaque bureau a son
+        // PROPRE segment d'URL (fonds_id) plutôt qu'un simple paramètre de requête partagé.
+        minYear: 1809,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_89.json',
+        bureauxUrl: './assets/data/successions_89_bureaux.json',
+        catalogUrl: 'https://archives.yonne.fr/archive/recherche/enregistrement/n:406',
+    },
+    '63': {
+        label: 'Puy-de-Dôme',
+        kind: 'facet',
+        // Bornes réelles de la série (598 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['63']) : case à cocher propre
+        // "successions et absences" couvrant tous les bureaux en une seule recherche.
+        minYear: 1807,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_63.json',
+        bureauxUrl: './assets/data/successions_63_bureaux.json',
+        catalogUrl: 'https://www.archivesdepartementales.puy-de-dome.fr/archive/recherche/enregistrement/',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
