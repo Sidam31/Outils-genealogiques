@@ -215,6 +215,19 @@ export const SUCCESSION_DEPTS = {
         // Pas de bureauxUrl/catalogUrl de repli au sens des autres kind : voir resolveCitywide.
         catalogUrl: 'https://archives.paris.fr/archives-numerisees/archives-fiscales/successions/consulter-les-tables-des-deces-et-des-successions-1791-vers-1953',
     },
+    '03': {
+        label: 'Allier',
+        kind: 'facet',
+        // Bornes réelles de la série (407 registres scrapés, voir
+        // scrape_successions_arkotheque.py).
+        minYear: 1782,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_03.json',
+        bureauxUrl: './assets/data/successions_03_bureaux.json',
+        // Portail "Arkothèque" (même logiciel que Paris), mais sans subdivision par patronyme -
+        // un registre par (bureau, tranche d'années), donc kind 'facet' ordinaire ici.
+        catalogUrl: 'https://archives.allier.fr/archives-en-ligne/tables-des-successions-et-absences',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
