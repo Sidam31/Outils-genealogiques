@@ -603,6 +603,29 @@ export function initHypotheses() {
     document.getElementById("hypBtnResetView").addEventListener("click", () => { hypResetViewBox(); hypRender(); });
     document.getElementById("hypBtnResetLayout").addEventListener("click", () => { hypManualPos = {}; hypLevelMult = {}; hypRender(); });
 
+    // Zoom : on redimensionne le viewBox autour de son propre centre (pas besoin de connaître le
+    // centre visuel courant en pixels écran, le viewBox le porte déjà en coordonnées SVG).
+    function hypZoom(factor) {
+        const cx = hypVb.x + hypVb.w / 2, cy = hypVb.y + hypVb.h / 2;
+        const w = hypClamp(hypVb.w * factor, 300, 12000);
+        const h = w * (hypVb.h / hypVb.w);
+        hypVb = { x: cx - w / 2, y: cy - h / 2, w, h };
+        hypSvg.setAttribute("viewBox", `${hypVb.x} ${hypVb.y} ${hypVb.w} ${hypVb.h}`);
+    }
+    document.getElementById("hypBtnZoomIn").addEventListener("click", () => hypZoom(1 / 1.25));
+    document.getElementById("hypBtnZoomOut").addEventListener("click", () => hypZoom(1.25));
+
+    // Écarter/resserrer tout : le multiplicateur du niveau 1 entre dans le produit cumulatif de
+    // hypEffectiveSpacingScale() pour TOUTE génération >= 1 (cf. boucle k=1..g), donc le modifier
+    // seul suffit à écarter/resserrer l'ensemble de l'arbre en une fois, en préservant les réglages
+    // par niveau déjà faits via Ctrl+clic (facteur commun appliqué par-dessus, pas un reset).
+    function hypSpreadAll(factor) {
+        hypLevelMult[1] = hypClamp((hypLevelMult[1] || 1) * factor, 0.3, 4);
+        hypRender();
+    }
+    document.getElementById("hypBtnSpreadAll").addEventListener("click", () => hypSpreadAll(1.3));
+    document.getElementById("hypBtnRegroupAll").addEventListener("click", () => hypSpreadAll(1 / 1.3));
+
     function hypDrawNode(parent, x, y, label, opts) {
         opts = opts || {};
         if (hypRenderBounds) hypUpdateBounds(x, y, opts.r || 20);
