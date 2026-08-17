@@ -1,0 +1,2958 @@
+{
+  "ACLOU": {
+    "bureau": "Brionne",
+    "distanceKm": 2.0
+  },
+  "ACON": {
+    "bureau": "Nonancourt",
+    "distanceKm": 6.4
+  },
+  "ACQUIGNY": {
+    "bureau": "Louviers",
+    "distanceKm": 6.8
+  },
+  "AIGLEVILLE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 3.8
+  },
+  "AILLY": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.0
+  },
+  "AIZIER": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 15.6
+  },
+  "AJOU": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "ALIZAY": {
+    "bureau": "Louviers",
+    "distanceKm": 11.5
+  },
+  "AMBENAY": {
+    "bureau": "Breteuil",
+    "distanceKm": 11.3
+  },
+  "AMFREVILLE SAINT AMAND": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 0.0
+  },
+  "AMFREVILLE LES CHAMPS": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 6.1
+  },
+  "AMFREVILLE SOUS LES MONTS": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 9.4
+  },
+  "AMFREVILLE SUR ITON": {
+    "bureau": "Louviers",
+    "distanceKm": 7.4
+  },
+  "AMECOURT": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 18.8
+  },
+  "ANDE": {
+    "bureau": "Louviers",
+    "distanceKm": 6.7
+  },
+  "ANGERVILLE LA CAMPAGNE": {
+    "bureau": "Évreux",
+    "distanceKm": 3.6
+  },
+  "APPEVILLE ANNEBAULT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 3.9
+  },
+  "ARMENTIERES SUR AVRE": {
+    "bureau": "Breteuil",
+    "distanceKm": 16.9
+  },
+  "ARNIERES SUR ITON": {
+    "bureau": "Évreux",
+    "distanceKm": 4.0
+  },
+  "ASNIERES": {
+    "bureau": "Lieurey",
+    "distanceKm": 8.0
+  },
+  "AULNAY SUR ITON": {
+    "bureau": "Évreux",
+    "distanceKm": 7.0
+  },
+  "AUTHEUIL AUTHOUILLET": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.3
+  },
+  "AUTHEUIL": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.3
+  },
+  "AUTHEVERNES": {
+    "bureau": "Écos",
+    "distanceKm": 6.5
+  },
+  "AUTHOU": {
+    "bureau": "Brionne",
+    "distanceKm": 5.0
+  },
+  "AUTHOUILLET": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "AUVERGNY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "AVIRON": {
+    "bureau": "Évreux",
+    "distanceKm": 4.5
+  },
+  "BACQUEPUIS": {
+    "bureau": "Évreux",
+    "distanceKm": 10.6
+  },
+  "BACQUEVILLE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 4.7
+  },
+  "BAILLEUL LA VALLEE": {
+    "bureau": "Lieurey",
+    "distanceKm": 6.2
+  },
+  "BARC": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 5.8
+  },
+  "BARNEVILLE SUR SEINE": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 5.1
+  },
+  "BARQUET": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 7.4
+  },
+  "BARVILLE": {
+    "bureau": "Lieurey",
+    "distanceKm": 8.5
+  },
+  "BAZINCOURT SUR EPTE": {
+    "bureau": "Écos",
+    "distanceKm": 21.5
+  },
+  "BAZINCOURT": {
+    "bureau": "Écos",
+    "distanceKm": 21.5
+  },
+  "BAZOQUES": {
+    "bureau": "Lieurey",
+    "distanceKm": 7.5
+  },
+  "BEAUBRAY": {
+    "bureau": "Conches",
+    "distanceKm": 4.8
+  },
+  "BEAUFICEL EN LYONS": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 3.2
+  },
+  "BEAUFICEL": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 3.2
+  },
+  "BEAUMONTEL": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 4.7
+  },
+  "BERNIENVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 9.9
+  },
+  "BERNOUVILLE": {
+    "bureau": "Écos",
+    "distanceKm": 14.6
+  },
+  "BERTHENONVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BERTHOUVILLE": {
+    "bureau": "Brionne",
+    "distanceKm": 6.3
+  },
+  "BERVILLE LA CAMPAGNE": {
+    "bureau": "Conches",
+    "distanceKm": 8.4
+  },
+  "BERVILLE SUR MER": {
+    "bureau": "Beuzeville",
+    "distanceKm": 10.0
+  },
+  "BOIS ANZERAY": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 6.8
+  },
+  "BOIS ARNAULT": {
+    "bureau": "Breteuil",
+    "distanceKm": 10.1
+  },
+  "BOIS JEROME SAINT OUEN": {
+    "bureau": "Écos",
+    "distanceKm": 8.1
+  },
+  "BOIS NORMAND PRES LYRE": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 9.9
+  },
+  "BOIS LE ROI": {
+    "bureau": "Nonancourt",
+    "distanceKm": 14.5
+  },
+  "BOISNEY": {
+    "bureau": "Brionne",
+    "distanceKm": 5.2
+  },
+  "BOISSET LES PREVANCHES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 6.6
+  },
+  "BOISSEY LE CHATEL": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 6.5
+  },
+  "BOISSY LAMBERVILLE": {
+    "bureau": "Bernay",
+    "distanceKm": 7.2
+  },
+  "BOISSY SUR DAMVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BONCOURT": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.6
+  },
+  "BONNEVILLE APTOT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 7.1
+  },
+  "BOSC BENARD COMMIN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BOSC RENOULT EN OUCHE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BOSCHERVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BOSGOUET": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 2.9
+  },
+  "BOSGUERARD DE MARCOUVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BOSNORMAND": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BOSQUENTIN": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 8.3
+  },
+  "BOSROBERT": {
+    "bureau": "Brionne",
+    "distanceKm": 6.0
+  },
+  "BOSROUMOIS": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 4.9
+  },
+  "LE BOSC ROGER EN ROUMOIS": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 4.9
+  },
+  "BOUAFLES": {
+    "bureau": "Gaillon",
+    "distanceKm": 5.9
+  },
+  "BOUCHEVILLIERS": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 17.3
+  },
+  "BOULLEVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 5.2
+  },
+  "BOUQUELON": {
+    "bureau": "Beuzeville",
+    "distanceKm": 12.6
+  },
+  "BOUQUETOT": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 3.4
+  },
+  "BOURG BEAUDOUIN": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 3.8
+  },
+  "BOURNAINVILLE FAVEROLLES": {
+    "bureau": "Bernay",
+    "distanceKm": 7.9
+  },
+  "BOURNAINVILLE": {
+    "bureau": "Bernay",
+    "distanceKm": 7.9
+  },
+  "BOURNEVILLE SAINTE CROIX": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 12.4
+  },
+  "BOURNEVILLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 12.4
+  },
+  "BOURTH": {
+    "bureau": "Breteuil",
+    "distanceKm": 8.8
+  },
+  "BRAY": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 8.0
+  },
+  "BRESTOT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 5.1
+  },
+  "BRETAGNOLLES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 8.4
+  },
+  "BREUILPONT": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 7.5
+  },
+  "BREUX SUR AVRE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 8.5
+  },
+  "BROSVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 10.5
+  },
+  "BRETIGNY": {
+    "bureau": "Brionne",
+    "distanceKm": 4.6
+  },
+  "BUEIL": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 10.7
+  },
+  "BUIS SUR DAMVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "MORAINVILLE SUR DAMVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BUREY": {
+    "bureau": "Conches",
+    "distanceKm": 4.5
+  },
+  "BUS SAINT REMY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BALINES": {
+    "bureau": "Breteuil",
+    "distanceKm": 10.5
+  },
+  "BEMECOURT": {
+    "bureau": "Breteuil",
+    "distanceKm": 4.0
+  },
+  "BERENGEVILLE LA CAMPAGNE": {
+    "bureau": "Évreux",
+    "distanceKm": 12.4
+  },
+  "BEZU SAINT ELOI": {
+    "bureau": "Écos",
+    "distanceKm": 16.4
+  },
+  "BEZU LA FORET": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 10.7
+  },
+  "CAHAIGNES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CAILLOUET ORGEVILLE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 4.7
+  },
+  "CAILLY SUR EURE": {
+    "bureau": "Gaillon",
+    "distanceKm": 9.9
+  },
+  "CALLEVILLE": {
+    "bureau": "Brionne",
+    "distanceKm": 3.7
+  },
+  "CAMPIGNY": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 8.2
+  },
+  "CANAPPEVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 8.6
+  },
+  "CANTIERS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CAORCHES SAINT NICOLAS": {
+    "bureau": "Bernay",
+    "distanceKm": 4.2
+  },
+  "CAORCHES": {
+    "bureau": "Bernay",
+    "distanceKm": 4.2
+  },
+  "CAPELLE LES GRANDS": {
+    "bureau": "Broglie",
+    "distanceKm": 6.6
+  },
+  "CARSIX": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CAUGE": {
+    "bureau": "Évreux",
+    "distanceKm": 7.0
+  },
+  "CAUMONT": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 7.7
+  },
+  "CAUVERVILLE EN ROUMOIS": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 7.0
+  },
+  "CESSEVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.5
+  },
+  "CHAIGNES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.6
+  },
+  "CHAISE DIEU DU THEIL": {
+    "bureau": "Breteuil",
+    "distanceKm": 11.8
+  },
+  "CHAMBLAC": {
+    "bureau": "Broglie",
+    "distanceKm": 3.1
+  },
+  "CHAMBOIS": {
+    "bureau": "Damville",
+    "distanceKm": 9.1
+  },
+  "AVRILLY": {
+    "bureau": "Damville",
+    "distanceKm": 9.1
+  },
+  "CHAMBORD": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 12.0
+  },
+  "CHAMBRAY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 7.9
+  },
+  "CHAMP DOLENT": {
+    "bureau": "Conches",
+    "distanceKm": 6.0
+  },
+  "CHAMPENARD": {
+    "bureau": "Gaillon",
+    "distanceKm": 6.0
+  },
+  "CHAMPIGNOLLES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CHAMPIGNY LA FUTELAYE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 13.1
+  },
+  "CHANTELOUP": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CHAUVINCOURT PROVEMONT": {
+    "bureau": "Écos",
+    "distanceKm": 12.9
+  },
+  "CHAUVINCOURT": {
+    "bureau": "Écos",
+    "distanceKm": 12.9
+  },
+  "CHAVIGNY BAILLEUL": {
+    "bureau": "Damville",
+    "distanceKm": 11.1
+  },
+  "CHENNEBRUN": {
+    "bureau": "Breteuil",
+    "distanceKm": 17.6
+  },
+  "CHATEAU SUR EPTE": {
+    "bureau": "Écos",
+    "distanceKm": 6.8
+  },
+  "CHERONVILLIERS": {
+    "bureau": "Breteuil",
+    "distanceKm": 10.5
+  },
+  "CIERREY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 8.3
+  },
+  "CINTRAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CIVIERES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CLAVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 9.2
+  },
+  "CLEF VALLEE D EURE": {
+    "bureau": "Gaillon",
+    "distanceKm": 8.3
+  },
+  "LA CROIX SAINT LEUFROY": {
+    "bureau": "Gaillon",
+    "distanceKm": 8.3
+  },
+  "COLLANDRES QUINCARNON": {
+    "bureau": "Conches",
+    "distanceKm": 6.7
+  },
+  "COLLETOT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 7.0
+  },
+  "COMBON": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 10.3
+  },
+  "CONCHES EN OUCHE": {
+    "bureau": "Conches",
+    "distanceKm": 0.0
+  },
+  "CONDE SUR ITON": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CONDE SUR RISLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 4.5
+  },
+  "CONNELLES": {
+    "bureau": "Louviers",
+    "distanceKm": 9.9
+  },
+  "CONTEVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 9.1
+  },
+  "CORMEILLES": {
+    "bureau": "Lieurey",
+    "distanceKm": 8.9
+  },
+  "CORNEUIL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CORNEVILLE LA FOUQUETIERE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 3.6
+  },
+  "CORNEVILLE SUR RISLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 7.3
+  },
+  "CORNY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "COUDRAY": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 5.7
+  },
+  "COUDRES": {
+    "bureau": "Nonancourt",
+    "distanceKm": 10.1
+  },
+  "COULONGES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "COURBEPINE": {
+    "bureau": "Bernay",
+    "distanceKm": 5.1
+  },
+  "COURCELLES SUR SEINE": {
+    "bureau": "Gaillon",
+    "distanceKm": 3.3
+  },
+  "COURDEMANCHE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 7.4
+  },
+  "COURTEILLES": {
+    "bureau": "Breteuil",
+    "distanceKm": 12.1
+  },
+  "CRASVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 6.4
+  },
+  "CRESTOT": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 3.7
+  },
+  "CRIQUEBEUF LA CAMPAGNE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.6
+  },
+  "CRIQUEBEUF SUR SEINE": {
+    "bureau": "Louviers",
+    "distanceKm": 8.3
+  },
+  "CROISY SUR EURE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 2.6
+  },
+  "CROSVILLE LA VIEILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 7.8
+  },
+  "CROTH": {
+    "bureau": "Nonancourt",
+    "distanceKm": 15.3
+  },
+  "CRETON": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "CUVERVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 5.3
+  },
+  "DAME MARIE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "DAMPSMESNIL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "DANGU": {
+    "bureau": "Écos",
+    "distanceKm": 12.5
+  },
+  "DARDEZ": {
+    "bureau": "Évreux",
+    "distanceKm": 8.7
+  },
+  "DAUBEUF LA CAMPAGNE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 8.4
+  },
+  "DAUBEUF PRES VATTEVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 10.3
+  },
+  "DOUAINS": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 4.8
+  },
+  "DOUDEAUVILLE EN VEXIN": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 11.3
+  },
+  "DOUDEAUVILLE": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 11.3
+  },
+  "DOUVILLE SUR ANDELLE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 4.5
+  },
+  "DROISY": {
+    "bureau": "Nonancourt",
+    "distanceKm": 5.9
+  },
+  "DRUCOURT": {
+    "bureau": "Bernay",
+    "distanceKm": 11.2
+  },
+  "DURANVILLE": {
+    "bureau": "Bernay",
+    "distanceKm": 9.2
+  },
+  "ECQUETOT": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 8.4
+  },
+  "FAINS": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 2.5
+  },
+  "FARCEAUX": {
+    "bureau": "Écouis",
+    "distanceKm": 7.2
+  },
+  "FATOUVILLE GRESTAIN": {
+    "bureau": "Beuzeville",
+    "distanceKm": 7.8
+  },
+  "FAUVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 4.4
+  },
+  "FAVEROLLES LA CAMPAGNE": {
+    "bureau": "Conches",
+    "distanceKm": 7.8
+  },
+  "FAVEROLLES LES MARES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FERRIERES HAUT CLOCHER": {
+    "bureau": "Conches",
+    "distanceKm": 8.9
+  },
+  "FERRIERES SAINT HILAIRE": {
+    "bureau": "Broglie",
+    "distanceKm": 4.3
+  },
+  "FEUGUEROLLES": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 12.4
+  },
+  "FIQUEFLEUR EQUAINVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 7.0
+  },
+  "FLANCOURT CATELON": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FLANCOURT CRESCY EN ROUMOIS": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 3.1
+  },
+  "BOSC BENARD CRESCY": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 3.1
+  },
+  "FLEURY LA FORET": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 6.8
+  },
+  "FLIPOU": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 7.8
+  },
+  "FOLLEVILLE": {
+    "bureau": "Lieurey",
+    "distanceKm": 8.3
+  },
+  "FONTAINE BELLENGER": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.1
+  },
+  "FONTAINE HEUDEBOURG": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FONTAINE L ABBE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 5.9
+  },
+  "FONTAINE LA LOUVET": {
+    "bureau": "Lieurey",
+    "distanceKm": 8.7
+  },
+  "FONTAINE LA SORET": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FONTAINE SOUS JOUY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 8.8
+  },
+  "FONTENAY EN VEXIN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FONTENAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FORT MOVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 4.4
+  },
+  "FORET LA FOLIE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FOUCRAINVILLE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 11.1
+  },
+  "FOULBEC": {
+    "bureau": "Beuzeville",
+    "distanceKm": 8.9
+  },
+  "FOUQUEVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 3.0
+  },
+  "FOURGES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FOURS EN VEXIN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FOURS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FRANCHEVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FRANQUEVILLE": {
+    "bureau": "Brionne",
+    "distanceKm": 2.0
+  },
+  "FRENELLES EN VEXIN": {
+    "bureau": "Écouis",
+    "distanceKm": 2.5
+  },
+  "BOISEMONT": {
+    "bureau": "Écouis",
+    "distanceKm": 2.5
+  },
+  "FRENEUSE SUR RISLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 5.2
+  },
+  "FRESNE CAUVERVILLE": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.4
+  },
+  "FRESNE L ARCHEVEQUE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "FRESNEY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 9.3
+  },
+  "GADENCOURT": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 4.2
+  },
+  "GAILLARDBOIS CRESSENVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GAMACHES EN VEXIN": {
+    "bureau": "Écos",
+    "distanceKm": 10.8
+  },
+  "GARENNES SUR EURE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 12.8
+  },
+  "GARENNES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 12.8
+  },
+  "GASNY": {
+    "bureau": "Écos",
+    "distanceKm": 8.5
+  },
+  "GAUCIEL": {
+    "bureau": "Évreux",
+    "distanceKm": 8.2
+  },
+  "GAUDREVILLE LA RIVIERE": {
+    "bureau": "Conches",
+    "distanceKm": 7.6
+  },
+  "GAUVILLE LA CAMPAGNE": {
+    "bureau": "Évreux",
+    "distanceKm": 5.4
+  },
+  "GISAY LA COUDRE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GISORS": {
+    "bureau": "Écos",
+    "distanceKm": 18.1
+  },
+  "GIVERNY": {
+    "bureau": "Écos",
+    "distanceKm": 10.7
+  },
+  "GIVERVILLE": {
+    "bureau": "Lieurey",
+    "distanceKm": 6.4
+  },
+  "GLISOLLES": {
+    "bureau": "Conches",
+    "distanceKm": 6.6
+  },
+  "GLOS SUR RISLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 2.7
+  },
+  "GOUPIL OTHON": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 7.2
+  },
+  "GOUPILLIERES": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 7.2
+  },
+  "GOURNAY LE GUERIN": {
+    "bureau": "Breteuil",
+    "distanceKm": 14.9
+  },
+  "GOUTTIERES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GOUVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GRANCHAIN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GRANDCHAIN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GRAND BOURGTHEROULDE": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 0.0
+  },
+  "BOURGTHEROULDE INFREVILLE": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 0.0
+  },
+  "GRAND CAMP": {
+    "bureau": "Broglie",
+    "distanceKm": 4.5
+  },
+  "GRANDVILLIERS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GRAVERON SEMERVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 13.9
+  },
+  "GRAVIGNY": {
+    "bureau": "Évreux",
+    "distanceKm": 4.8
+  },
+  "GROSLEY SUR RISLE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 4.7
+  },
+  "GROSSŒUVRE": {
+    "bureau": "Évreux",
+    "distanceKm": 9.5
+  },
+  "GUERNANVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "GUERNY": {
+    "bureau": "Écos",
+    "distanceKm": 9.6
+  },
+  "GUICHAINVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 4.9
+  },
+  "GUISENIERS": {
+    "bureau": "Écos",
+    "distanceKm": 8.1
+  },
+  "GUITRY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "HACQUEVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 9.5
+  },
+  "HARCOURT": {
+    "bureau": "Brionne",
+    "distanceKm": 5.2
+  },
+  "HARDENCOURT COCHEREL": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.5
+  },
+  "HARICOURT": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "HARQUENCY": {
+    "bureau": "Écouis",
+    "distanceKm": 8.1
+  },
+  "HAUVILLE": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 6.3
+  },
+  "HECMANVILLE": {
+    "bureau": "Brionne",
+    "distanceKm": 3.7
+  },
+  "HECTOMARE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 3.3
+  },
+  "HELLENVILLIERS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "HENNEZIS": {
+    "bureau": "Écos",
+    "distanceKm": 8.4
+  },
+  "HERQUEVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 8.9
+  },
+  "HEUBECOURT HARICOURT": {
+    "bureau": "Écos",
+    "distanceKm": 5.2
+  },
+  "HEUBECOURT": {
+    "bureau": "Écos",
+    "distanceKm": 5.2
+  },
+  "HEUDEBOUVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 6.8
+  },
+  "HEUDICOURT": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 15.1
+  },
+  "HEUDREVILLE EN LIEUVIN": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.2
+  },
+  "HEUDREVILLE SUR EURE": {
+    "bureau": "Louviers",
+    "distanceKm": 10.3
+  },
+  "HEUQUEVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 8.2
+  },
+  "HONDOUVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 9.1
+  },
+  "HONGUEMARE GUENOUVILLE": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 3.9
+  },
+  "HOUETTEVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 11.2
+  },
+  "HOULBEC COCHEREL": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.1
+  },
+  "HOULBEC PRES LE GROS THEIL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "HOUVILLE EN VEXIN": {
+    "bureau": "Écouis",
+    "distanceKm": 5.4
+  },
+  "HOUVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 5.4
+  },
+  "HUEST": {
+    "bureau": "Évreux",
+    "distanceKm": 5.2
+  },
+  "HEBECOURT": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 18.3
+  },
+  "HECOURT": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.0
+  },
+  "IGOVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 11.5
+  },
+  "ILLEVILLE SUR MONTFORT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 4.0
+  },
+  "ILLIERS L EVEQUE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 7.6
+  },
+  "INCARVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 2.9
+  },
+  "INFREVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "IRREVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 9.9
+  },
+  "IVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 4.8
+  },
+  "IVRY LA BATAILLE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 15.8
+  },
+  "JONQUERETS DE LIVET": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "JOUVEAUX": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "JOUY SUR EURE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 7.0
+  },
+  "JUIGNETTES": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 15.6
+  },
+  "JUMELLES": {
+    "bureau": "Évreux",
+    "distanceKm": 12.1
+  },
+  "L HABIT": {
+    "bureau": "Nonancourt",
+    "distanceKm": 15.9
+  },
+  "L HOSMES": {
+    "bureau": "Damville",
+    "distanceKm": 8.1
+  },
+  "LA BARONNIE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 11.7
+  },
+  "GARENCIERES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 11.7
+  },
+  "LA BARRE EN OUCHE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LA BOISSIERE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 7.5
+  },
+  "LA BONNEVILLE SUR ITON": {
+    "bureau": "Évreux",
+    "distanceKm": 7.9
+  },
+  "LA BONNEVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 7.9
+  },
+  "LA CHAPELLE BAYVEL": {
+    "bureau": "Beuzeville",
+    "distanceKm": 7.8
+  },
+  "LA CHAPELLE GAUTHIER": {
+    "bureau": "Broglie",
+    "distanceKm": 4.6
+  },
+  "LA CHAPELLE HARENG": {
+    "bureau": "Bernay",
+    "distanceKm": 12.8
+  },
+  "LA CHAPELLE LONGUEVILLE": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.7
+  },
+  "SAINT JUST": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.7
+  },
+  "LA CHAPELLE REANVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE DU BOIS DES FAULX": {
+    "bureau": "Évreux",
+    "distanceKm": 10.2
+  },
+  "LA COUTURE BOUSSEY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 13.0
+  },
+  "LA CROISILLE": {
+    "bureau": "Conches",
+    "distanceKm": 5.3
+  },
+  "LA FERRIERE SUR RISLE": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 8.6
+  },
+  "LA FORET DU PARC": {
+    "bureau": "Évreux",
+    "distanceKm": 12.5
+  },
+  "LA GOULAFRIERE": {
+    "bureau": "Broglie",
+    "distanceKm": 9.0
+  },
+  "LA GUEROULDE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LA HARENGERE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.9
+  },
+  "LA HAYE AUBREE": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 9.9
+  },
+  "LA HAYE MALHERBE": {
+    "bureau": "Louviers",
+    "distanceKm": 6.7
+  },
+  "LA HAYE SAINT SYLVESTRE": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 10.4
+  },
+  "LA HAYE DE CALLEVILLE": {
+    "bureau": "Brionne",
+    "distanceKm": 5.3
+  },
+  "LA HAYE DE ROUTOT": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 8.6
+  },
+  "LA HAYE DU THEIL": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 3.9
+  },
+  "LA HAYE LE COMTE": {
+    "bureau": "Louviers",
+    "distanceKm": 3.0
+  },
+  "LA HEUNIERE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.7
+  },
+  "LA HOUSSAYE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 7.8
+  },
+  "LA LANDE SAINT LEGER": {
+    "bureau": "Beuzeville",
+    "distanceKm": 5.1
+  },
+  "LA LANDE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 5.1
+  },
+  "LA MADELEINE DE NONANCOURT": {
+    "bureau": "Nonancourt",
+    "distanceKm": 2.6
+  },
+  "LA NEUVE GRANGE": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 7.3
+  },
+  "LA NEUVE LYRE": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 10.5
+  },
+  "LA NEUVILLE DU BOSC": {
+    "bureau": "Brionne",
+    "distanceKm": 7.9
+  },
+  "LA NOE POULAIN": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.4
+  },
+  "LA POTERIE MATHIEU": {
+    "bureau": "Lieurey",
+    "distanceKm": 2.5
+  },
+  "LA PYLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 3.1
+  },
+  "LA ROQUETTE": {
+    "bureau": "Écouis",
+    "distanceKm": 8.3
+  },
+  "LA ROUSSIERE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LA SAUSSAYE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 6.3
+  },
+  "LA TRINITE": {
+    "bureau": "Évreux",
+    "distanceKm": 7.8
+  },
+  "LA TRINITE DE REVILLE": {
+    "bureau": "Broglie",
+    "distanceKm": 4.0
+  },
+  "LA TRINITE DE THOUBERVILLE": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 5.6
+  },
+  "LA VACHERIE": {
+    "bureau": "Louviers",
+    "distanceKm": 11.1
+  },
+  "LA VIEILLE LYRE": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 8.4
+  },
+  "LANDEPEREUSE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LAUNAY": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 5.6
+  },
+  "LE BEC HELLOUIN": {
+    "bureau": "Brionne",
+    "distanceKm": 5.0
+  },
+  "LE BEC THOMAS": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 4.1
+  },
+  "LE BOIS HELLAIN": {
+    "bureau": "Beuzeville",
+    "distanceKm": 8.1
+  },
+  "LE BOSC MOREL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE BOSC DU THEIL": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.5
+  },
+  "LE GROS THEIL": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.5
+  },
+  "LE BOULAY MORIN": {
+    "bureau": "Évreux",
+    "distanceKm": 7.2
+  },
+  "LE CORMIER": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 6.8
+  },
+  "LE FAVRIL": {
+    "bureau": "Lieurey",
+    "distanceKm": 5.7
+  },
+  "LE FIDELAIRE": {
+    "bureau": "Conches",
+    "distanceKm": 8.9
+  },
+  "LE FRESNE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE LANDIN": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 7.2
+  },
+  "LE LESME": {
+    "bureau": "Conches",
+    "distanceKm": 8.1
+  },
+  "SAINTE MARGUERITE DE L AUTEL": {
+    "bureau": "Conches",
+    "distanceKm": 8.1
+  },
+  "LE MANOIR": {
+    "bureau": "Louviers",
+    "distanceKm": 11.4
+  },
+  "LE MESNIL FUGUET": {
+    "bureau": "Évreux",
+    "distanceKm": 6.4
+  },
+  "LE MESNIL HARDRAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL JOURDAIN": {
+    "bureau": "Louviers",
+    "distanceKm": 4.8
+  },
+  "LE MESNIL SAINT JEAN": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.4
+  },
+  "SAINT GEORGES DU MESNIL": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.4
+  },
+  "LE NEUBOURG": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 8.2
+  },
+  "LE NOYER EN OUCHE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 5.8
+  },
+  "LE PERREY": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 13.6
+  },
+  "FOURMETOT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 13.6
+  },
+  "LE PLANQUAY": {
+    "bureau": "Bernay",
+    "distanceKm": 12.6
+  },
+  "LE PLESSIS GROHAN": {
+    "bureau": "Évreux",
+    "distanceKm": 8.4
+  },
+  "LE PLESSIS HEBERT": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 4.2
+  },
+  "LE PLESSIS SAINTE OPPORTUNE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 7.5
+  },
+  "LE RONCENAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE RONCENAY AUTHENAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "AUTHENAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE SACQ": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE THEIL NOLENT": {
+    "bureau": "Bernay",
+    "distanceKm": 8.1
+  },
+  "LE THIL": {
+    "bureau": "Écouis",
+    "distanceKm": 8.8
+  },
+  "LE THUIT": {
+    "bureau": "Écouis",
+    "distanceKm": 6.8
+  },
+  "LE THUIT ANGER": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE THUIT SIMER": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE THUIT DE L OISON": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 4.5
+  },
+  "LE THUIT SIGNOL": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 4.5
+  },
+  "LE TILLEUL LAMBERT": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 13.3
+  },
+  "LE TILLEUL OTHON": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LE TORPT": {
+    "bureau": "Beuzeville",
+    "distanceKm": 3.4
+  },
+  "LE TREMBLAY OMONVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 11.1
+  },
+  "LE TREMBLAY": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 11.1
+  },
+  "LE TRONCQ": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 2.9
+  },
+  "LE TRONQUAY": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 4.6
+  },
+  "LE VAL DAVID": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 9.3
+  },
+  "LE VAL DORE": {
+    "bureau": "Conches",
+    "distanceKm": 5.5
+  },
+  "ORVAUX": {
+    "bureau": "Conches",
+    "distanceKm": 5.5
+  },
+  "LE VAL D HAZEY": {
+    "bureau": "Gaillon",
+    "distanceKm": 1.9
+  },
+  "AUBEVOYE": {
+    "bureau": "Gaillon",
+    "distanceKm": 1.9
+  },
+  "LE VAUDREUIL": {
+    "bureau": "Louviers",
+    "distanceKm": 5.4
+  },
+  "SAINT CYR DU VAUDREUIL": {
+    "bureau": "Louviers",
+    "distanceKm": 5.4
+  },
+  "LE VIEIL EVREUX": {
+    "bureau": "Évreux",
+    "distanceKm": 5.6
+  },
+  "LES ANDELYS": {
+    "bureau": "Écouis",
+    "distanceKm": 7.4
+  },
+  "LES AUTHIEUX": {
+    "bureau": "Nonancourt",
+    "distanceKm": 13.7
+  },
+  "LES BARILS": {
+    "bureau": "Breteuil",
+    "distanceKm": 12.2
+  },
+  "LES BAUX SAINTE CROIX": {
+    "bureau": "Évreux",
+    "distanceKm": 6.3
+  },
+  "LES BAUX DE BRETEUIL": {
+    "bureau": "Breteuil",
+    "distanceKm": 7.6
+  },
+  "LES BOTTEREAUX": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 13.1
+  },
+  "LES DAMPS": {
+    "bureau": "Louviers",
+    "distanceKm": 7.7
+  },
+  "LES ESSARTS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LES FRETILS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LES HOGUES": {
+    "bureau": "Charleval",
+    "distanceKm": 5.2
+  },
+  "LES MINIERES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LES MONTS DU ROUMOIS": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 4.0
+  },
+  "BERVILLE EN ROUMOIS": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 4.0
+  },
+  "LES PLACES": {
+    "bureau": "Lieurey",
+    "distanceKm": 10.6
+  },
+  "LES PLANCHES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LES PREAUX": {
+    "bureau": "Beuzeville",
+    "distanceKm": 10.2
+  },
+  "LES THILLIERS EN VEXIN": {
+    "bureau": "Écos",
+    "distanceKm": 7.2
+  },
+  "LES TROIS LACS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BERNIERES SUR SEINE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "BERNIERES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "VENABLES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "LES VENTES": {
+    "bureau": "Évreux",
+    "distanceKm": 8.9
+  },
+  "LETTEGUIVES": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 6.4
+  },
+  "LIGNEROLLES": {
+    "bureau": "Nonancourt",
+    "distanceKm": 9.8
+  },
+  "LILLY": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 6.7
+  },
+  "LISORS": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 4.4
+  },
+  "LIVET SUR AUTHOU": {
+    "bureau": "Brionne",
+    "distanceKm": 6.4
+  },
+  "LONGCHAMPS": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 11.5
+  },
+  "LORLEAU": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 3.3
+  },
+  "LOUVERSEY": {
+    "bureau": "Conches",
+    "distanceKm": 4.8
+  },
+  "LOUYE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 9.9
+  },
+  "LERY": {
+    "bureau": "Louviers",
+    "distanceKm": 7.9
+  },
+  "MAINNEVILLE": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 15.3
+  },
+  "MALLEVILLE SUR LE BEC": {
+    "bureau": "Brionne",
+    "distanceKm": 7.1
+  },
+  "MALOUY": {
+    "bureau": "Bernay",
+    "distanceKm": 6.3
+  },
+  "MANDEVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 6.4
+  },
+  "MANDRES": {
+    "bureau": "Breteuil",
+    "distanceKm": 8.2
+  },
+  "MANNEVILLE LA RAOULT": {
+    "bureau": "Beuzeville",
+    "distanceKm": 3.6
+  },
+  "MANNEVILLE SUR RISLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 11.8
+  },
+  "MANTHELON": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "MARAIS VERNIER": {
+    "bureau": "Beuzeville",
+    "distanceKm": 13.8
+  },
+  "MARBEUF": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 7.7
+  },
+  "MARBOIS": {
+    "bureau": "Damville",
+    "distanceKm": 6.9
+  },
+  "LE CHESNE": {
+    "bureau": "Damville",
+    "distanceKm": 6.9
+  },
+  "MARCILLY LA CAMPAGNE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 5.6
+  },
+  "MARCILLY SUR EURE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 11.5
+  },
+  "MARTAGNY": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 13.2
+  },
+  "MARTAINVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 5.5
+  },
+  "MARTOT": {
+    "bureau": "Louviers",
+    "distanceKm": 9.1
+  },
+  "MENNEVAL": {
+    "bureau": "Bernay",
+    "distanceKm": 2.3
+  },
+  "MERCEY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 7.2
+  },
+  "MEREY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 6.8
+  },
+  "MESNIL ROUSSET": {
+    "bureau": "Broglie",
+    "distanceKm": 12.1
+  },
+  "MESNIL VERCLIVES": {
+    "bureau": "Écouis",
+    "distanceKm": 3.3
+  },
+  "MESNIL EN OUCHE": {
+    "bureau": "Beaumesnil",
+    "distanceKm": 0.0
+  },
+  "MESNIL SOUS VIENNE": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 13.9
+  },
+  "MESNIL SUR L ESTREE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 7.4
+  },
+  "MESNILS SUR ITON": {
+    "bureau": "Damville",
+    "distanceKm": 0.0
+  },
+  "MISEREY": {
+    "bureau": "Évreux",
+    "distanceKm": 8.5
+  },
+  "MOISVILLE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 8.1
+  },
+  "MONTREUIL L ARGILLE": {
+    "bureau": "Broglie",
+    "distanceKm": 8.2
+  },
+  "MORAINVILLE JOUVEAUX": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.2
+  },
+  "MORAINVILLE PRES LIEUREY": {
+    "bureau": "Lieurey",
+    "distanceKm": 4.2
+  },
+  "MORGNY": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 8.0
+  },
+  "MORSAN": {
+    "bureau": "Brionne",
+    "distanceKm": 8.2
+  },
+  "MOUETTES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 14.7
+  },
+  "MOUFLAINES": {
+    "bureau": "Écos",
+    "distanceKm": 7.8
+  },
+  "MOUSSEAUX NEUVILLE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 13.3
+  },
+  "MUIDS": {
+    "bureau": "Gaillon",
+    "distanceKm": 8.2
+  },
+  "MUZY": {
+    "bureau": "Nonancourt",
+    "distanceKm": 9.8
+  },
+  "MELICOURT": {
+    "bureau": "Broglie",
+    "distanceKm": 9.9
+  },
+  "MENESQUEVILLE": {
+    "bureau": "Charleval",
+    "distanceKm": 2.6
+  },
+  "MENILLES": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 2.2
+  },
+  "MEZIERES EN VEXIN": {
+    "bureau": "Écos",
+    "distanceKm": 4.9
+  },
+  "NAGEL SEEZ MESNIL": {
+    "bureau": "Conches",
+    "distanceKm": 3.3
+  },
+  "NAGEL": {
+    "bureau": "Conches",
+    "distanceKm": 3.3
+  },
+  "NASSANDRES SUR RISLE": {
+    "bureau": "Brionne",
+    "distanceKm": 4.8
+  },
+  "NASSANDRES": {
+    "bureau": "Brionne",
+    "distanceKm": 4.8
+  },
+  "NEAUFLES AUVERGNY": {
+    "bureau": "Breteuil",
+    "distanceKm": 11.9
+  },
+  "NEAUFLES SUR RISLE": {
+    "bureau": "Breteuil",
+    "distanceKm": 11.9
+  },
+  "NEAUFLES SAINT MARTIN": {
+    "bureau": "Écos",
+    "distanceKm": 16.1
+  },
+  "NEUILLY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 10.2
+  },
+  "NEUVILLE SUR AUTHOU": {
+    "bureau": "Brionne",
+    "distanceKm": 6.4
+  },
+  "NOARDS": {
+    "bureau": "Lieurey",
+    "distanceKm": 2.3
+  },
+  "NOGENT LE SEC": {
+    "bureau": "Conches",
+    "distanceKm": 7.0
+  },
+  "NOJEON EN VEXIN": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 9.2
+  },
+  "NOJEON LE SEC": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 9.2
+  },
+  "NORMANVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 6.6
+  },
+  "NOTRE DAME D EPINE": {
+    "bureau": "Lieurey",
+    "distanceKm": 8.0
+  },
+  "NOTRE DAME DE L ISLE": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.8
+  },
+  "NOTRE DAME DU HAMEL": {
+    "bureau": "Broglie",
+    "distanceKm": 12.4
+  },
+  "NOTRE DAME DU VAUDREUIL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "NOYERS": {
+    "bureau": "Écos",
+    "distanceKm": 11.0
+  },
+  "ORMES": {
+    "bureau": "Conches",
+    "distanceKm": 11.7
+  },
+  "PANILLEUSE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "PANLATTE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "PARVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 3.7
+  },
+  "PERRIERS LA CAMPAGNE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "PERRIERS SUR ANDELLE": {
+    "bureau": "Charleval",
+    "distanceKm": 3.4
+  },
+  "PERRUEL": {
+    "bureau": "Charleval",
+    "distanceKm": 6.6
+  },
+  "PIENCOURT": {
+    "bureau": "Lieurey",
+    "distanceKm": 9.6
+  },
+  "PINTERVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 4.3
+  },
+  "PISEUX": {
+    "bureau": "Breteuil",
+    "distanceKm": 7.8
+  },
+  "PLAINVILLE": {
+    "bureau": "Bernay",
+    "distanceKm": 7.1
+  },
+  "PLASNES": {
+    "bureau": "Bernay",
+    "distanceKm": 5.4
+  },
+  "PONT AUDEMER": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 12.0
+  },
+  "PONT AUTHOU": {
+    "bureau": "Brionne",
+    "distanceKm": 6.2
+  },
+  "PONT SAINT PIERRE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 5.2
+  },
+  "PONT DE L ARCHE": {
+    "bureau": "Louviers",
+    "distanceKm": 7.8
+  },
+  "PORT MORT": {
+    "bureau": "Gaillon",
+    "distanceKm": 5.2
+  },
+  "PORTE DE SEINE": {
+    "bureau": "Louviers",
+    "distanceKm": 8.7
+  },
+  "PORTE JOIE": {
+    "bureau": "Louviers",
+    "distanceKm": 8.7
+  },
+  "PORTES": {
+    "bureau": "Conches",
+    "distanceKm": 8.1
+  },
+  "POSES": {
+    "bureau": "Louviers",
+    "distanceKm": 10.6
+  },
+  "PRESSAGNY L ORGUEILLEUX": {
+    "bureau": "Écos",
+    "distanceKm": 9.3
+  },
+  "PREY": {
+    "bureau": "Évreux",
+    "distanceKm": 8.9
+  },
+  "PROVEMONT": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "PUCHAY": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 6.0
+  },
+  "PULLAY": {
+    "bureau": "Breteuil",
+    "distanceKm": 11.0
+  },
+  "PITRES": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 10.5
+  },
+  "QUATREMARE": {
+    "bureau": "Louviers",
+    "distanceKm": 6.9
+  },
+  "QUESSIGNY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "QUILLEBEUF SUR SEINE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 18.6
+  },
+  "QUITTEBEUF": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 13.7
+  },
+  "RADEPONT": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 2.6
+  },
+  "RENNEVILLE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 3.6
+  },
+  "REUILLY": {
+    "bureau": "Évreux",
+    "distanceKm": 8.7
+  },
+  "RICHEVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 9.4
+  },
+  "ROMAN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "ROMILLY LA PUTHENAYE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 7.9
+  },
+  "ROMILLY SUR ANDELLE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 7.7
+  },
+  "ROSAY SUR LIEURE": {
+    "bureau": "Charleval",
+    "distanceKm": 2.5
+  },
+  "ROUGE PERRIERS": {
+    "bureau": "Brionne",
+    "distanceKm": 10.1
+  },
+  "ROUGEMONTIERS": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 5.8
+  },
+  "ROUTOT": {
+    "bureau": "Bourg-Achard",
+    "distanceKm": 7.5
+  },
+  "ROUVRAY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 5.8
+  },
+  "RUGLES": {
+    "bureau": "Breteuil",
+    "distanceKm": 14.7
+  },
+  "SACQUENVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 8.6
+  },
+  "SAINT AGNAN DE CERNIERES": {
+    "bureau": "Broglie",
+    "distanceKm": 6.0
+  },
+  "SAINT AMAND DES HAUTES TERRES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT ANDRE DE L EURE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 14.6
+  },
+  "SAINT ANTONIN DE SOMMAIRE": {
+    "bureau": "Breteuil",
+    "distanceKm": 16.6
+  },
+  "SAINT AQUILIN D AUGERONS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT AQUILIN DE PACY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT AUBIN D ECROSVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 9.4
+  },
+  "SAINT AUBIN DE SCELLON": {
+    "bureau": "Lieurey",
+    "distanceKm": 6.4
+  },
+  "SAINT AUBIN DES HAYES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT AUBIN DU THENNEY": {
+    "bureau": "Broglie",
+    "distanceKm": 3.0
+  },
+  "SAINT AUBIN LE GUICHARD": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT AUBIN SUR GAILLON": {
+    "bureau": "Gaillon",
+    "distanceKm": 3.6
+  },
+  "SAINT AUBIN SUR QUILLEBEUF": {
+    "bureau": "Beuzeville",
+    "distanceKm": 18.1
+  },
+  "SAINT BENOIT DES OMBRES": {
+    "bureau": "Brionne",
+    "distanceKm": 8.1
+  },
+  "SAINT CHRISTOPHE SUR AVRE": {
+    "bureau": "Breteuil",
+    "distanceKm": 15.4
+  },
+  "SAINT CHRISTOPHE SUR CONDE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 5.0
+  },
+  "SAINT CLAIR D ARCEY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT CYR DE SALERNE": {
+    "bureau": "Brionne",
+    "distanceKm": 4.1
+  },
+  "SAINT CYR LA CAMPAGNE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 7.7
+  },
+  "SAINT DENIS D AUGERONS": {
+    "bureau": "Broglie",
+    "distanceKm": 10.3
+  },
+  "SAINT DENIS DES MONTS": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 6.5
+  },
+  "SAINT DENIS DU BEHELAN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT DENIS LE FERMENT": {
+    "bureau": "Écos",
+    "distanceKm": 19.2
+  },
+  "SAINT DIDIER DES BOIS": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 8.4
+  },
+  "SAINT GEORGES MOTEL": {
+    "bureau": "Nonancourt",
+    "distanceKm": 12.2
+  },
+  "SAINT GEORGES DU VIEVRE": {
+    "bureau": "Lieurey",
+    "distanceKm": 5.4
+  },
+  "SAINT GERMAIN VILLAGE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN DE FRESNEY": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 9.5
+  },
+  "SAINT GERMAIN DE PASQUIER": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 6.0
+  },
+  "SAINT GERMAIN DES ANGLES": {
+    "bureau": "Évreux",
+    "distanceKm": 7.8
+  },
+  "SAINT GERMAIN LA CAMPAGNE": {
+    "bureau": "Broglie",
+    "distanceKm": 10.1
+  },
+  "SAINT GERMAIN SUR AVRE": {
+    "bureau": "Nonancourt",
+    "distanceKm": 5.1
+  },
+  "SAINT GREGOIRE DU VIEVRE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 6.4
+  },
+  "SAINT JEAN DE LA LEQUERAYE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT JEAN DU THENNEY": {
+    "bureau": "Broglie",
+    "distanceKm": 5.4
+  },
+  "SAINT JULIEN DE LA LIEGUE": {
+    "bureau": "Gaillon",
+    "distanceKm": 4.7
+  },
+  "SAINT LAURENT DES BOIS": {
+    "bureau": "Nonancourt",
+    "distanceKm": 12.2
+  },
+  "SAINT LAURENT DU TENCEMENT": {
+    "bureau": "Broglie",
+    "distanceKm": 13.0
+  },
+  "SAINT LUC": {
+    "bureau": "Évreux",
+    "distanceKm": 8.3
+  },
+  "SAINT LEGER DE ROTES": {
+    "bureau": "Bernay",
+    "distanceKm": 5.2
+  },
+  "SAINT LEGER DU GENNETEY": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 5.9
+  },
+  "SAINT LEGER SUR BONNEVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT MACLOU": {
+    "bureau": "Beuzeville",
+    "distanceKm": 5.9
+  },
+  "SAINT MARCEL": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 9.4
+  },
+  "SAINT MARDS DE BLACARVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 12.9
+  },
+  "SAINT MARDS DE FRESNE": {
+    "bureau": "Broglie",
+    "distanceKm": 10.4
+  },
+  "SAINT MARTIN SAINT FIRMIN": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 8.0
+  },
+  "SAINT MARTIN DU TILLEUL": {
+    "bureau": "Bernay",
+    "distanceKm": 5.3
+  },
+  "SAINT MARTIN LA CAMPAGNE": {
+    "bureau": "Évreux",
+    "distanceKm": 7.1
+  },
+  "SAINT MESLIN DU BOSC": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 3.5
+  },
+  "SAINT NICOLAS D ATTEZ": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DU BOSC": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DU BOSC L ABBE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT OUEN DE PONTCHEUIL": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 2.5
+  },
+  "SAINT OUEN DE THOUBERVILLE": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 5.8
+  },
+  "SAINT OUEN DES CHAMPS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT OUEN DU TILLEUL": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 6.8
+  },
+  "SAINT PAUL DE FOURQUES": {
+    "bureau": "Brionne",
+    "distanceKm": 7.4
+  },
+  "SAINT PAUL SUR RISLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT PAER": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT PHILBERT SUR BOISSEY": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 7.4
+  },
+  "SAINT PHILBERT SUR RISLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 2.2
+  },
+  "SAINT PIERRE D AUTILS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE DE BAILLEUL": {
+    "bureau": "Gaillon",
+    "distanceKm": 4.7
+  },
+  "SAINT PIERRE DE CERNIERES": {
+    "bureau": "Broglie",
+    "distanceKm": 7.7
+  },
+  "SAINT PIERRE DE CORMEILLES": {
+    "bureau": "Lieurey",
+    "distanceKm": 10.1
+  },
+  "SAINT PIERRE DE SALERNE": {
+    "bureau": "Brionne",
+    "distanceKm": 4.8
+  },
+  "SAINT PIERRE DES FLEURS": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 4.4
+  },
+  "SAINT PIERRE DES IFS": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 5.5
+  },
+  "SAINT PIERRE DU BOSGUERARD": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.2
+  },
+  "SAINT PIERRE DU MESNIL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE DU VAL": {
+    "bureau": "Beuzeville",
+    "distanceKm": 6.3
+  },
+  "SAINT PIERRE DU VAUVRAY": {
+    "bureau": "Louviers",
+    "distanceKm": 4.2
+  },
+  "SAINT PIERRE LA GARENNE": {
+    "bureau": "Gaillon",
+    "distanceKm": 3.9
+  },
+  "SAINT QUENTIN DES ISLES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT SAMSON DE LA ROQUE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 11.0
+  },
+  "SAINT SIMEON": {
+    "bureau": "Lieurey",
+    "distanceKm": 5.5
+  },
+  "SAINT SULPICE DE GRIMBOUVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 8.8
+  },
+  "SAINT SULPICE DE GRAIMBOUVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 8.8
+  },
+  "SAINT SYLVESTRE DE CORMEILLES": {
+    "bureau": "Lieurey",
+    "distanceKm": 6.2
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Beuzeville",
+    "distanceKm": 9.2
+  },
+  "SAINT SEBASTIEN DE MORSENT": {
+    "bureau": "Évreux",
+    "distanceKm": 4.9
+  },
+  "SAINT THURIEN": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINT VICTOR D EPINE": {
+    "bureau": "Lieurey",
+    "distanceKm": 7.4
+  },
+  "SAINT VICTOR DE CHRETIENVILLE": {
+    "bureau": "Bernay",
+    "distanceKm": 6.8
+  },
+  "SAINT VICTOR SUR AVRE": {
+    "bureau": "Breteuil",
+    "distanceKm": 14.3
+  },
+  "SAINT VIGOR": {
+    "bureau": "Évreux",
+    "distanceKm": 10.7
+  },
+  "SAINT VINCENT DES BOIS": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 4.8
+  },
+  "SAINT VINCENT DU BOULAY": {
+    "bureau": "Bernay",
+    "distanceKm": 8.3
+  },
+  "SAINT ELIER": {
+    "bureau": "Conches",
+    "distanceKm": 4.5
+  },
+  "SAINT ELOI DE FOURQUES": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 8.6
+  },
+  "SAINT ETIENNE DU VAUVRAY": {
+    "bureau": "Louviers",
+    "distanceKm": 5.0
+  },
+  "SAINT ETIENNE L ALLIER": {
+    "bureau": "Lieurey",
+    "distanceKm": 5.3
+  },
+  "SAINT ETIENNE SOUS BAILLEUL": {
+    "bureau": "Gaillon",
+    "distanceKm": 6.7
+  },
+  "SAINTE BARBE SUR GAILLON": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINTE COLOMBE LA COMMANDERIE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 12.1
+  },
+  "SAINTE COLOMBE LA CAMPAGNE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 12.1
+  },
+  "SAINTE COLOMBE PRES VERNON": {
+    "bureau": "Gaillon",
+    "distanceKm": 7.3
+  },
+  "SAINTE CROIX SUR AIZIER": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINTE GENEVIEVE LES GASNY": {
+    "bureau": "Écos",
+    "distanceKm": 10.5
+  },
+  "SAINTE MARGUERITE EN OUCHE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "SAINTE MARIE D ATTEZ": {
+    "bureau": "Breteuil",
+    "distanceKm": 6.6
+  },
+  "SAINT OUEN D ATTEZ": {
+    "bureau": "Breteuil",
+    "distanceKm": 6.6
+  },
+  "SAINTE MARIE DE VATIMESNIL": {
+    "bureau": "Écos",
+    "distanceKm": 10.8
+  },
+  "SAINTE MARTHE": {
+    "bureau": "Conches",
+    "distanceKm": 3.4
+  },
+  "SAINTE OPPORTUNE DU BOSC": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 8.2
+  },
+  "SAINTE OPPORTUNE LA MARE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 16.7
+  },
+  "SANCOURT": {
+    "bureau": "Lyons-la-Forêt",
+    "distanceKm": 15.2
+  },
+  "SASSEY": {
+    "bureau": "Évreux",
+    "distanceKm": 6.7
+  },
+  "SAUSSAY LA CAMPAGNE": {
+    "bureau": "Écouis",
+    "distanceKm": 5.6
+  },
+  "SELLES": {
+    "bureau": "Lieurey",
+    "distanceKm": 7.7
+  },
+  "SEREZ": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 9.3
+  },
+  "SERQUIGNY": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 6.9
+  },
+  "SURTAUVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 8.1
+  },
+  "SURVILLE": {
+    "bureau": "Louviers",
+    "distanceKm": 4.5
+  },
+  "SUZAY": {
+    "bureau": "Écouis",
+    "distanceKm": 7.2
+  },
+  "SYLVAINS LES MOULINS": {
+    "bureau": "Damville",
+    "distanceKm": 6.0
+  },
+  "VILLEZ CHAMP DOMINEL": {
+    "bureau": "Damville",
+    "distanceKm": 6.0
+  },
+  "SEBECOURT": {
+    "bureau": "Conches",
+    "distanceKm": 7.6
+  },
+  "SEEZ MESNIL": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "TERRES DE BORD": {
+    "bureau": "Louviers",
+    "distanceKm": 3.7
+  },
+  "MONTAURE": {
+    "bureau": "Louviers",
+    "distanceKm": 3.7
+  },
+  "THEILLEMENT": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "THEVRAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "THIBERVILLE": {
+    "bureau": "Lieurey",
+    "distanceKm": 11.9
+  },
+  "THIBOUVILLE": {
+    "bureau": "Brionne",
+    "distanceKm": 8.6
+  },
+  "THIERVILLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 4.9
+  },
+  "THOMER LA SOGNE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "THUIT HEBERT": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "THENOUVILLE": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 5.8
+  },
+  "BOSC RENOULT EN ROUMOIS": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 5.8
+  },
+  "TILLEUL DAME AGNES": {
+    "bureau": "Conches",
+    "distanceKm": 6.5
+  },
+  "TILLIERES SUR AVRE": {
+    "bureau": "Damville",
+    "distanceKm": 11.4
+  },
+  "TILLY": {
+    "bureau": "Écos",
+    "distanceKm": 4.8
+  },
+  "TOCQUEVILLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 13.4
+  },
+  "TOSNY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "TOSTES": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "TOUFFREVILLE": {
+    "bureau": "Écouis",
+    "distanceKm": 4.4
+  },
+  "TOURNEDOS BOIS HUBERT": {
+    "bureau": "Évreux",
+    "distanceKm": 12.7
+  },
+  "TOURNEDOS SUR SEINE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "TOURNEVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 8.9
+  },
+  "TOURNY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "TOURVILLE LA CAMPAGNE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 2.1
+  },
+  "TOURVILLE SUR PONT AUDEMER": {
+    "bureau": "Lieurey",
+    "distanceKm": 10.1
+  },
+  "TOUTAINVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 8.8
+  },
+  "TOUVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "TREIS SANTS EN OUCHE": {
+    "bureau": "Bernay",
+    "distanceKm": 4.2
+  },
+  "SAINT AUBIN LE VERTUEUX": {
+    "bureau": "Bernay",
+    "distanceKm": 4.2
+  },
+  "TRIQUEVILLE": {
+    "bureau": "Beuzeville",
+    "distanceKm": 7.5
+  },
+  "TROUVILLE LA HAULE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 15.5
+  },
+  "VAL D ORGER": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 3.8
+  },
+  "GRAINVILLE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 3.8
+  },
+  "VAL DE REUIL": {
+    "bureau": "Louviers",
+    "distanceKm": 6.3
+  },
+  "VAUDREUIL EX ENSEMBLE URBAIN": {
+    "bureau": "Louviers",
+    "distanceKm": 6.3
+  },
+  "VALAILLES": {
+    "bureau": "Bernay",
+    "distanceKm": 3.3
+  },
+  "VALLETOT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 9.0
+  },
+  "VANDRIMARE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 2.3
+  },
+  "VANNECROCQ": {
+    "bureau": "Beuzeville",
+    "distanceKm": 8.0
+  },
+  "VASCŒUIL": {
+    "bureau": "Charleval",
+    "distanceKm": 7.8
+  },
+  "VATTEVILLE": {
+    "bureau": "Fleury-sur-Andelle",
+    "distanceKm": 10.4
+  },
+  "VAUX SUR EURE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 3.5
+  },
+  "VAUX SUR RISLE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "VENON": {
+    "bureau": "Louviers",
+    "distanceKm": 9.3
+  },
+  "VERNEUIL D AVRE ET D ITON": {
+    "bureau": "Breteuil",
+    "distanceKm": 6.6
+  },
+  "VERNEUIL SUR AVRE": {
+    "bureau": "Breteuil",
+    "distanceKm": 6.6
+  },
+  "VERNEUSSES": {
+    "bureau": "Broglie",
+    "distanceKm": 12.8
+  },
+  "VERNON": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 11.2
+  },
+  "VESLY": {
+    "bureau": "Écos",
+    "distanceKm": 9.2
+  },
+  "VEXIN SUR EPTE": {
+    "bureau": "Écos",
+    "distanceKm": 0.0
+  },
+  "VIEUX PORT": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 15.4
+  },
+  "VIEUX VILLEZ": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "VILLALET": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "VILLEGATS": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 6.8
+  },
+  "VILLERS EN VEXIN": {
+    "bureau": "Écos",
+    "distanceKm": 8.5
+  },
+  "VILLERS SUR LE ROULE": {
+    "bureau": "Gaillon",
+    "distanceKm": 3.8
+  },
+  "VILLETTES": {
+    "bureau": "Louviers",
+    "distanceKm": 10.8
+  },
+  "VILLEZ SOUS BAILLEUL": {
+    "bureau": "Gaillon",
+    "distanceKm": 6.4
+  },
+  "VILLEZ SUR LE NEUBOURG": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 9.1
+  },
+  "VILLIERS EN DESŒUVRE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 10.0
+  },
+  "VIRONVAY": {
+    "bureau": "Louviers",
+    "distanceKm": 5.0
+  },
+  "VITOT": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 6.2
+  },
+  "VOISCREVILLE": {
+    "bureau": "Bourgtheroulde",
+    "distanceKm": 6.9
+  },
+  "VRAIVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 8.1
+  },
+  "VEZILLON": {
+    "bureau": "Gaillon",
+    "distanceKm": 8.1
+  },
+  "ECAQUELON": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 3.4
+  },
+  "ECARDENVILLE LA CAMPAGNE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 9.5
+  },
+  "ECARDENVILLE SUR EURE": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "ECAUVILLE": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 11.2
+  },
+  "EMALLEVILLE": {
+    "bureau": "Évreux",
+    "distanceKm": 9.4
+  },
+  "EMANVILLE": {
+    "bureau": "Beaumont-le-Roger",
+    "distanceKm": 11.5
+  },
+  "EPAIGNES": {
+    "bureau": "Lieurey",
+    "distanceKm": 5.9
+  },
+  "EPIEDS": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 9.5
+  },
+  "EPINAY": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "EPREVILLE EN LIEUVIN": {
+    "bureau": "Lieurey",
+    "distanceKm": 3.8
+  },
+  "EPREVILLE EN ROUMOIS": {
+    "bureau": "Évreux",
+    "distanceKm": 0.0
+  },
+  "EPREVILLE PRES LE NEUBOURG": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 10.4
+  },
+  "EPEGARD": {
+    "bureau": "Amfreville-la-campagne",
+    "distanceKm": 5.6
+  },
+  "ETREPAGNY": {
+    "bureau": "Écouis",
+    "distanceKm": 13.1
+  },
+  "ETREVILLE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 9.3
+  },
+  "ETURQUERAYE": {
+    "bureau": "Montfort-sur-Risle",
+    "distanceKm": 8.4
+  },
+  "EZY SUR EURE": {
+    "bureau": "Pacy-sur-Eure",
+    "distanceKm": 16.7
+  }
+}

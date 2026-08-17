@@ -304,6 +304,17 @@ export const SUCCESSION_DEPTS = {
         // DEPARTMENTS['69'] dans scrape_successions_multi.py) : repli sur cette même recherche.
         catalogUrl: 'https://archives.rhone.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=Table+des+successions+et+absences&mode=list&sort=referencecode_asc',
     },
+    '27': {
+        label: 'Eure',
+        kind: 'facet',
+        // Bornes réelles de la série (233 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1787,
+        maxYear: 1963,
+        portalBase: 'https://archives.eure.fr/search/results',
+        formUuid: '57bc0059-0ae5-407e-a513-87c35dfe5907',
+        registersUrl: './assets/data/successions_27.json',
+        bureauxUrl: './assets/data/successions_27_bureaux.json',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
