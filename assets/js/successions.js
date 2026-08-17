@@ -186,8 +186,11 @@ export const SUCCESSION_DEPTS = {
     '31': {
         label: 'Haute-Garonne',
         kind: 'facet',
-        // Bornes réelles de la série (587 registres scrapés, voir
-        // scrape_successions_haute_garonne.py).
+        // Bornes réelles de la série (664 registres scrapés, voir
+        // scrape_successions_haute_garonne.py) - corrigé le 2026-08-17 : les feuilles regroupées
+        // par ANNÉE puis par tranche de patronyme (ex. Toulouse : "1964" > "F-O (n°2)", aucune
+        // date dans ce dernier libellé) étaient silencieusement perdues faute d'héritage de
+        // l'année du dossier parent - repéré via deux pistes signalées comme manquantes/fausses.
         minYear: 1787,
         maxYear: 1968,
         registersUrl: './assets/data/successions_31.json',
