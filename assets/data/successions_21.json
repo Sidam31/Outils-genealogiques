@@ -1,0 +1,3341 @@
+[
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/53",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481544"
+  },
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/54",
+    "yearStart": 1836,
+    "yearEnd": 1849,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481557"
+  },
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/55",
+    "yearStart": 1849,
+    "yearEnd": 1872,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481570"
+  },
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/56",
+    "yearStart": 1872,
+    "yearEnd": 1892,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481583"
+  },
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/57",
+    "yearStart": 1893,
+    "yearEnd": 1922,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481596"
+  },
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/58",
+    "yearStart": 1923,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481609"
+  },
+  {
+    "place": "Aignay-le-Duc",
+    "cote": "3 Q 2/59",
+    "yearStart": 1953,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481622"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/61",
+    "yearStart": 1824,
+    "yearEnd": 1830,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481649"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/62",
+    "yearStart": 1831,
+    "yearEnd": 1836,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481662"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/63",
+    "yearStart": 1836,
+    "yearEnd": 1843,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481675"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/64",
+    "yearStart": 1843,
+    "yearEnd": 1850,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481688"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/65",
+    "yearStart": 1850,
+    "yearEnd": 1855,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481701"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/66",
+    "yearStart": 1855,
+    "yearEnd": 1864,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481714"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/67",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481727"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/68",
+    "yearStart": 1872,
+    "yearEnd": 1884,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481740"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/69",
+    "yearStart": 1885,
+    "yearEnd": 1899,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481753"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/70",
+    "yearStart": 1899,
+    "yearEnd": 1918,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481766"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/71",
+    "yearStart": 1919,
+    "yearEnd": 1933,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481779"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/72",
+    "yearStart": 1934,
+    "yearEnd": 1943,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481792"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/73",
+    "yearStart": 1944,
+    "yearEnd": 1953,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481805"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/74",
+    "yearStart": 1954,
+    "yearEnd": 1962,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481818"
+  },
+  {
+    "place": "Arnay-le-Duc",
+    "cote": "3 Q 3/75",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481831"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/69",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481856"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/70",
+    "yearStart": 1832,
+    "yearEnd": 1839,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481869"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/71",
+    "yearStart": 1840,
+    "yearEnd": 1848,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481882"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/72",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481895"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/73",
+    "yearStart": 1853,
+    "yearEnd": 1859,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481908"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/74",
+    "yearStart": 1859,
+    "yearEnd": 1868,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481921"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/75",
+    "yearStart": 1868,
+    "yearEnd": 1878,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481934"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/76",
+    "yearStart": 1879,
+    "yearEnd": 1892,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481947"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/77",
+    "yearStart": 1893,
+    "yearEnd": 1910,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481960"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/78",
+    "yearStart": 1910,
+    "yearEnd": 1924,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481973"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/79",
+    "yearStart": 1924,
+    "yearEnd": 1936,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481986"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/80",
+    "yearStart": 1937,
+    "yearEnd": 1951,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832481999"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/81",
+    "yearStart": 1951,
+    "yearEnd": 1957,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482012"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/82",
+    "yearStart": 1958,
+    "yearEnd": 1961,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482025"
+  },
+  {
+    "place": "Auxonne",
+    "cote": "3 Q 4/83",
+    "yearStart": 1962,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482038"
+  },
+  {
+    "place": "Baigneux-les-juifs",
+    "cote": "3 Q 5/40",
+    "yearStart": 1825,
+    "yearEnd": 1846,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482062"
+  },
+  {
+    "place": "Baigneux-les-juifs",
+    "cote": "3 Q 5/41",
+    "yearStart": 1849,
+    "yearEnd": 1865,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482075"
+  },
+  {
+    "place": "Baigneux-les-juifs",
+    "cote": "3 Q 5/42",
+    "yearStart": 1866,
+    "yearEnd": 1884,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482088"
+  },
+  {
+    "place": "Baigneux-les-juifs",
+    "cote": "3 Q 5/43",
+    "yearStart": 1884,
+    "yearEnd": 1911,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482101"
+  },
+  {
+    "place": "Baigneux-les-juifs",
+    "cote": "3 Q 5/44",
+    "yearStart": 1911,
+    "yearEnd": 1919,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482114"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/4",
+    "yearStart": 1821,
+    "yearEnd": 1828,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482143"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/5",
+    "yearStart": 1828,
+    "yearEnd": 1833,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482156"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/6",
+    "yearStart": 1833,
+    "yearEnd": 1838,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482169"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/7",
+    "yearStart": 1838,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482182"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/8",
+    "yearStart": 1843,
+    "yearEnd": 1846,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482195"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/9",
+    "yearStart": 1846,
+    "yearEnd": 1849,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482208"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/10",
+    "yearStart": 1850,
+    "yearEnd": 1851,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482221"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/11",
+    "yearStart": 1851,
+    "yearEnd": 1859,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482234"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/12",
+    "yearStart": 1859,
+    "yearEnd": 1863,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482247"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/13",
+    "yearStart": 1863,
+    "yearEnd": 1867,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482260"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/14",
+    "yearStart": 1868,
+    "yearEnd": 1872,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482273"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/15",
+    "yearStart": 1872,
+    "yearEnd": 1878,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482286"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/16",
+    "yearStart": 1878,
+    "yearEnd": 1885,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482299"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/17",
+    "yearStart": 1885,
+    "yearEnd": 1891,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482312"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/18",
+    "yearStart": 1891,
+    "yearEnd": 1897,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482325"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/19",
+    "yearStart": 1897,
+    "yearEnd": 1904,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482338"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/20",
+    "yearStart": 1904,
+    "yearEnd": 1908,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482351"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/21",
+    "yearStart": 1908,
+    "yearEnd": 1912,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482364"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/22",
+    "yearStart": 1912,
+    "yearEnd": 1916,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482377"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/23",
+    "yearStart": 1917,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482390"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/24",
+    "yearStart": 1920,
+    "yearEnd": 1926,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482403"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/25",
+    "yearStart": 1926,
+    "yearEnd": 1931,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482416"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/26",
+    "yearStart": 1931,
+    "yearEnd": 1936,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482429"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/27",
+    "yearStart": 1936,
+    "yearEnd": 1941,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482442"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/28",
+    "yearStart": 1942,
+    "yearEnd": 1946,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482455"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/29",
+    "yearStart": 1946,
+    "yearEnd": 1950,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482468"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/1255",
+    "yearStart": 1951,
+    "yearEnd": 1956,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482481"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/1256",
+    "yearStart": 1957,
+    "yearEnd": 1962,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482494"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/1257",
+    "yearStart": 1963,
+    "yearEnd": 1966,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482507"
+  },
+  {
+    "place": "Beaune",
+    "cote": "3 Q 6/1258",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482520"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/39",
+    "yearStart": 1824,
+    "yearEnd": 1837,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482545"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/40",
+    "yearStart": 1837,
+    "yearEnd": 1854,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482558"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/41",
+    "yearStart": 1854,
+    "yearEnd": 1868,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482571"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/42",
+    "yearStart": 1868,
+    "yearEnd": 1884,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482584"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/43",
+    "yearStart": 1885,
+    "yearEnd": 1910,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482597"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/44",
+    "yearStart": 1911,
+    "yearEnd": 1930,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482610"
+  },
+  {
+    "place": "Bligny-sur-Ouche",
+    "cote": "3 Q 7/45",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482623"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/107",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482655"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/108",
+    "yearStart": 1830,
+    "yearEnd": 1831,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482668"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/109",
+    "yearStart": 1832,
+    "yearEnd": 1833,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482681"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/110",
+    "yearStart": 1834,
+    "yearEnd": 1835,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482694"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/111",
+    "yearStart": 1855,
+    "yearEnd": 1863,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482707"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/112",
+    "yearStart": 1863,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482720"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/113",
+    "yearStart": 1873,
+    "yearEnd": 1879,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482733"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/114",
+    "yearStart": 1879,
+    "yearEnd": 1886,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482746"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/115",
+    "yearStart": 1883,
+    "yearEnd": 1895,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482759"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/116",
+    "yearStart": 1896,
+    "yearEnd": 1909,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482772"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/117",
+    "yearStart": 1905,
+    "yearEnd": 1918,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482785"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/118",
+    "yearStart": 1919,
+    "yearEnd": 1927,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482801"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/119",
+    "yearStart": 1927,
+    "yearEnd": 1936,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482814"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/120",
+    "yearStart": 1937,
+    "yearEnd": 1945,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482827"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/121",
+    "yearStart": 1945,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482840"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/122",
+    "yearStart": 1952,
+    "yearEnd": 1957,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482853"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/123",
+    "yearStart": 1958,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482866"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/124",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482879"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/125",
+    "yearStart": 1935,
+    "yearEnd": 1942,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482902"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/126",
+    "yearStart": 1942,
+    "yearEnd": 1949,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482915"
+  },
+  {
+    "place": "Châtillon-sur-Seine",
+    "cote": "3 Q 8/127",
+    "yearStart": 1959,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482928"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/274",
+    "yearStart": 1824,
+    "yearEnd": 1827,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482960"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/275",
+    "yearStart": 1828,
+    "yearEnd": 1831,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482973"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/276",
+    "yearStart": 1832,
+    "yearEnd": 1835,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482986"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/277",
+    "yearStart": 1836,
+    "yearEnd": 1838,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832482999"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/278",
+    "yearStart": 1839,
+    "yearEnd": 1841,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483012"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/279",
+    "yearStart": 1841,
+    "yearEnd": 1844,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483025"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/280",
+    "yearStart": 1844,
+    "yearEnd": 1847,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483038"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/281",
+    "yearStart": 1847,
+    "yearEnd": 1850,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483051"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/282",
+    "yearStart": 1850,
+    "yearEnd": 1852,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483064"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/283",
+    "yearStart": 1852,
+    "yearEnd": 1854,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483077"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/284",
+    "yearStart": 1854,
+    "yearEnd": 1856,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483090"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/285",
+    "yearStart": 1856,
+    "yearEnd": 1858,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483103"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/286",
+    "yearStart": 1858,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483116"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/287",
+    "yearStart": 1861,
+    "yearEnd": 1863,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483129"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/288",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483142"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/289",
+    "yearStart": 1865,
+    "yearEnd": 1868,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483155"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/290",
+    "yearStart": 1868,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483168"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/291",
+    "yearStart": 1871,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483181"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/292",
+    "yearStart": 1871,
+    "yearEnd": 1873,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483194"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/293",
+    "yearStart": 1874,
+    "yearEnd": 1876,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483207"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/294",
+    "yearStart": 1876,
+    "yearEnd": 1879,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483220"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/295",
+    "yearStart": 1879,
+    "yearEnd": 1881,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483233"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/296",
+    "yearStart": 1881,
+    "yearEnd": 1884,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483246"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/297",
+    "yearStart": 1884,
+    "yearEnd": 1887,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483259"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/298",
+    "yearStart": 1887,
+    "yearEnd": 1889,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483272"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/299",
+    "yearStart": 1889,
+    "yearEnd": 1891,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483285"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/300",
+    "yearStart": 1892,
+    "yearEnd": 1893,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483298"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/301",
+    "yearStart": 1893,
+    "yearEnd": 1895,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483311"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/302",
+    "yearStart": 1895,
+    "yearEnd": 1897,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483324"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/303",
+    "yearStart": 1898,
+    "yearEnd": 1899,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483337"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/304",
+    "yearStart": 1900,
+    "yearEnd": 1901,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483350"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/305",
+    "yearStart": 1902,
+    "yearEnd": 1903,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483363"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/306",
+    "yearStart": 1904,
+    "yearEnd": 1905,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483376"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/307",
+    "yearStart": 1906,
+    "yearEnd": 1906,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483389"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/308",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483402"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/309",
+    "yearStart": 1908,
+    "yearEnd": 1908,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483415"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/310",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483428"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/311",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483441"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/312",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483454"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/313",
+    "yearStart": 1912,
+    "yearEnd": 1912,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483467"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/314",
+    "yearStart": 1913,
+    "yearEnd": 1913,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483480"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/315",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483493"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/316",
+    "yearStart": 1915,
+    "yearEnd": 1915,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483506"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/317",
+    "yearStart": 1916,
+    "yearEnd": 1916,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483519"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/318",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483532"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/319",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483545"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/320",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483558"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/321",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483571"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/322",
+    "yearStart": 1921,
+    "yearEnd": 1921,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483584"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/323",
+    "yearStart": 1922,
+    "yearEnd": 1922,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483597"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/324",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483610"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/325",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483623"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/326",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483636"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/327",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483649"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/328",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483662"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/329",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483681"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/330",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483694"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/331",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483707"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/332",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483720"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/333",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483733"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/334",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483746"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/335",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483759"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/336",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483772"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/337",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483785"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/338",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483798"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/339",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483811"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/340",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483824"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/341",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483837"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/342",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483850"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/343",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483863"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/344",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483876"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/345",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483889"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/346",
+    "yearStart": 1945,
+    "yearEnd": 1945,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483902"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/347",
+    "yearStart": 1946,
+    "yearEnd": 1946,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483915"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/348",
+    "yearStart": 1947,
+    "yearEnd": 1947,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483928"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/349",
+    "yearStart": 1948,
+    "yearEnd": 1948,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483941"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/350",
+    "yearStart": 1949,
+    "yearEnd": 1949,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483954"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/351",
+    "yearStart": 1950,
+    "yearEnd": 1950,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483967"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/352",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483980"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/353",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832483993"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/354",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484006"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/355",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484019"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/356",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484032"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/357",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484045"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/358",
+    "yearStart": 1928,
+    "yearEnd": 1933,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484069"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/359",
+    "yearStart": 1933,
+    "yearEnd": 1937,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484082"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/360",
+    "yearStart": 1938,
+    "yearEnd": 1942,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484095"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/361",
+    "yearStart": 1943,
+    "yearEnd": 1947,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484108"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/362",
+    "yearStart": 1948,
+    "yearEnd": 1950,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484121"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/363",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484134"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/364",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484147"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/365",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484160"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/366",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484173"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/367",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484186"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/368",
+    "yearStart": 1938,
+    "yearEnd": 1948,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484205"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/369",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484224"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/370",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484237"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/371",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484250"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/372",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484263"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/373",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484276"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/374",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484289"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/375",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484302"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/376",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484315"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/377",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484328"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/378",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484341"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/379",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484354"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/380",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484367"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/381",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484380"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/382",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484393"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/383",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484406"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/384",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484419"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/385",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484432"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/386",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484445"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/387",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484458"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/388",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484471"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/389",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484484"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/390",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484497"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/391",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484510"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/392",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484523"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/393",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484536"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/394",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484549"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/395",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484562"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/396",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484575"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/397",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484588"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/398",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484601"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/399",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484614"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/400",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484627"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/401",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484640"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/402",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484653"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/403",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484666"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/404",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484679"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/405",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484692"
+  },
+  {
+    "place": "Dijon",
+    "cote": "3 Q 9/406",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484705"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/51",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484730"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/52",
+    "yearStart": 1833,
+    "yearEnd": 1841,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484743"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/53",
+    "yearStart": 1842,
+    "yearEnd": 1846,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484756"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/54",
+    "yearStart": 1853,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484769"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/55",
+    "yearStart": 1861,
+    "yearEnd": 1867,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484782"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/56",
+    "yearStart": 1868,
+    "yearEnd": 1881,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484795"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/57",
+    "yearStart": 1881,
+    "yearEnd": 1895,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484808"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/58",
+    "yearStart": 1896,
+    "yearEnd": 1911,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484821"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/59",
+    "yearStart": 1912,
+    "yearEnd": 1922,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484834"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/60",
+    "yearStart": 1923,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484847"
+  },
+  {
+    "place": "Flavigny-sur-Ozerain",
+    "cote": "3 Q 10/61",
+    "yearStart": 1934,
+    "yearEnd": 1943,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484860"
+  },
+  {
+    "place": "Fontaine-Française",
+    "cote": "3 Q 11/15",
+    "yearStart": 1824,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484885"
+  },
+  {
+    "place": "Fontaine-Française",
+    "cote": "3 Q 11/16",
+    "yearStart": 1842,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484898"
+  },
+  {
+    "place": "Fontaine-Française",
+    "cote": "3 Q 11/17",
+    "yearStart": 1861,
+    "yearEnd": 1873,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484911"
+  },
+  {
+    "place": "Fontaine-Française",
+    "cote": "3 Q 11/18",
+    "yearStart": 1873,
+    "yearEnd": 1892,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484924"
+  },
+  {
+    "place": "Fontaine-Française",
+    "cote": "3 Q 11/19",
+    "yearStart": 1893,
+    "yearEnd": 1924,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484937"
+  },
+  {
+    "place": "Fontaine-Française",
+    "cote": "3 Q 11/20",
+    "yearStart": 1924,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484950"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/43",
+    "yearStart": 1825,
+    "yearEnd": 1836,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484974"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/44",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832484987"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/45",
+    "yearStart": 1845,
+    "yearEnd": 1848,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485000"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/46",
+    "yearStart": 1849,
+    "yearEnd": 1854,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485013"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/47",
+    "yearStart": 1855,
+    "yearEnd": 1867,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485026"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/48",
+    "yearStart": 1868,
+    "yearEnd": 1880,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485039"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/49",
+    "yearStart": 1881,
+    "yearEnd": 1892,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485052"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/50",
+    "yearStart": 1892,
+    "yearEnd": 1910,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485065"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/51",
+    "yearStart": 1910,
+    "yearEnd": 1924,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485078"
+  },
+  {
+    "place": "Genlis",
+    "cote": "3 Q 12/52",
+    "yearStart": 1924,
+    "yearEnd": 1938,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485091"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/43",
+    "yearStart": 1824,
+    "yearEnd": 1837,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485114"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/44",
+    "yearStart": 1837,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485127"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/45",
+    "yearStart": 1843,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485140"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/46",
+    "yearStart": 1854,
+    "yearEnd": 1865,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485153"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/47",
+    "yearStart": 1865,
+    "yearEnd": 1877,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485166"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/48",
+    "yearStart": 1877,
+    "yearEnd": 1895,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485179"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/49",
+    "yearStart": 1895,
+    "yearEnd": 1910,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485192"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/50",
+    "yearStart": 1910,
+    "yearEnd": 1927,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485205"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/51",
+    "yearStart": 1928,
+    "yearEnd": 1946,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485218"
+  },
+  {
+    "place": "Gevrey-Chambertin",
+    "cote": "3 Q 13/52",
+    "yearStart": 1946,
+    "yearEnd": 1947,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485231"
+  },
+  {
+    "place": "Grancey-le-Château",
+    "cote": "3 Q 14/8",
+    "yearStart": 1843,
+    "yearEnd": 1872,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485253"
+  },
+  {
+    "place": "Grancey-le-Château",
+    "cote": "3 Q 14/9",
+    "yearStart": 1873,
+    "yearEnd": 1905,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485266"
+  },
+  {
+    "place": "Grancey-le-Château",
+    "cote": "3 Q 14/10",
+    "yearStart": 1905,
+    "yearEnd": 1908,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485279"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/82",
+    "yearStart": 1824,
+    "yearEnd": 1835,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485306"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/83",
+    "yearStart": 1836,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485319"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/84",
+    "yearStart": 1842,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485332"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/85",
+    "yearStart": 1854,
+    "yearEnd": 1867,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485345"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/86",
+    "yearStart": 1867,
+    "yearEnd": 1883,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485358"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/87",
+    "yearStart": 1883,
+    "yearEnd": 1902,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485371"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/88",
+    "yearStart": 1903,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485384"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/89",
+    "yearStart": 1920,
+    "yearEnd": 1929,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485397"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/90",
+    "yearStart": 1930,
+    "yearEnd": 1940,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485410"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/91",
+    "yearStart": 1941,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485423"
+  },
+  {
+    "place": "Is-sur-Tille",
+    "cote": "3 Q 15/92",
+    "yearStart": 1953,
+    "yearEnd": 1966,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485436"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/54",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485462"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/55",
+    "yearStart": 1836,
+    "yearEnd": 1850,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485475"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/56",
+    "yearStart": 1850,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485488"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/57",
+    "yearStart": 1861,
+    "yearEnd": 1874,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485501"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/58",
+    "yearStart": 1875,
+    "yearEnd": 1886,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485514"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/59",
+    "yearStart": 1887,
+    "yearEnd": 1909,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485527"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/60",
+    "yearStart": 1910,
+    "yearEnd": 1922,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485540"
+  },
+  {
+    "place": "Laignes",
+    "cote": "3 Q 16/61",
+    "yearStart": 1923,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485553"
+  },
+  {
+    "place": "Liernais",
+    "cote": "3 Q 17/12",
+    "yearStart": 1846,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485576"
+  },
+  {
+    "place": "Liernais",
+    "cote": "3 Q 17/13",
+    "yearStart": 1862,
+    "yearEnd": 1876,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485589"
+  },
+  {
+    "place": "Liernais",
+    "cote": "3 Q 17/14",
+    "yearStart": 1888,
+    "yearEnd": 1893,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485602"
+  },
+  {
+    "place": "Liernais",
+    "cote": "3 Q 17/15",
+    "yearStart": 1894,
+    "yearEnd": 1923,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485615"
+  },
+  {
+    "place": "Liernais",
+    "cote": "3 Q 17/16",
+    "yearStart": 1923,
+    "yearEnd": 1946,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485628"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/62",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485658"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/63",
+    "yearStart": 1835,
+    "yearEnd": 1843,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485671"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/64",
+    "yearStart": 1844,
+    "yearEnd": 1852,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485684"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/65",
+    "yearStart": 1852,
+    "yearEnd": 1863,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485697"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/66",
+    "yearStart": 1863,
+    "yearEnd": 1877,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485710"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/67",
+    "yearStart": 1877,
+    "yearEnd": 1898,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485723"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/68",
+    "yearStart": 1898,
+    "yearEnd": 1919,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485736"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/69",
+    "yearStart": 1920,
+    "yearEnd": 1936,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485749"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/70",
+    "yearStart": 1937,
+    "yearEnd": 1947,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485762"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/71",
+    "yearStart": 1947,
+    "yearEnd": 1955,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485775"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/72",
+    "yearStart": 1955,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485788"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/73",
+    "yearStart": 1964,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485801"
+  },
+  {
+    "place": "Mirebeau-sur-Bèze",
+    "cote": "3 Q 18/74",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485814"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/63",
+    "yearStart": 1830,
+    "yearEnd": 1837,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485838"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/64",
+    "yearStart": 1838,
+    "yearEnd": 1851,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485851"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/65",
+    "yearStart": 1852,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485864"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/66",
+    "yearStart": 1861,
+    "yearEnd": 1867,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485877"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/67",
+    "yearStart": 1867,
+    "yearEnd": 1882,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485890"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/68",
+    "yearStart": 1883,
+    "yearEnd": 1898,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485903"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/69",
+    "yearStart": 1898,
+    "yearEnd": 1903,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485916"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/70",
+    "yearStart": 1904,
+    "yearEnd": 1915,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485929"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/71",
+    "yearStart": 1916,
+    "yearEnd": 1927,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485942"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/72",
+    "yearStart": 1927,
+    "yearEnd": 1940,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485955"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/73",
+    "yearStart": 1940,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485968"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/74",
+    "yearStart": 1953,
+    "yearEnd": 1965,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485981"
+  },
+  {
+    "place": "Montbard",
+    "cote": "3 Q 19/75",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832485994"
+  },
+  {
+    "place": "Montigny-sur-Aube",
+    "cote": "3 Q 20/18",
+    "yearStart": 1846,
+    "yearEnd": 1865,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486018"
+  },
+  {
+    "place": "Montigny-sur-Aube",
+    "cote": "3 Q 20/19",
+    "yearStart": 1865,
+    "yearEnd": 1867,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486031"
+  },
+  {
+    "place": "Montigny-sur-Aube",
+    "cote": "3 Q 20/20",
+    "yearStart": 1867,
+    "yearEnd": 1886,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486044"
+  },
+  {
+    "place": "Montigny-sur-Aube",
+    "cote": "3 Q 20/21",
+    "yearStart": 1886,
+    "yearEnd": 1896,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486057"
+  },
+  {
+    "place": "Montigny-sur-Aube",
+    "cote": "3 Q 20/22",
+    "yearStart": 1896,
+    "yearEnd": 1917,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486070"
+  },
+  {
+    "place": "Montigny-sur-Aube",
+    "cote": "3 Q 20/23",
+    "yearStart": 1918,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486083"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/58",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486107"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/59",
+    "yearStart": 1830,
+    "yearEnd": 1840,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486120"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/60",
+    "yearStart": 1840,
+    "yearEnd": 1850,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486133"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/61",
+    "yearStart": 1850,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486146"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/62",
+    "yearStart": 1860,
+    "yearEnd": 1868,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486159"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/63",
+    "yearStart": 1868,
+    "yearEnd": 1876,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486172"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/64",
+    "yearStart": 1876,
+    "yearEnd": 1889,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486185"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/65",
+    "yearStart": 1889,
+    "yearEnd": 1903,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486198"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/66",
+    "yearStart": 1903,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486211"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/67",
+    "yearStart": 1920,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486224"
+  },
+  {
+    "place": "Nolay",
+    "cote": "3 Q 21/68",
+    "yearStart": 1934,
+    "yearEnd": 1942,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486237"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/84",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486265"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/85",
+    "yearStart": 1834,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486278"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/86",
+    "yearStart": 1842,
+    "yearEnd": 1848,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486291"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/87",
+    "yearStart": 1848,
+    "yearEnd": 1857,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486304"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/88",
+    "yearStart": 1857,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486317"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/89",
+    "yearStart": 1861,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486330"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/90",
+    "yearStart": 1871,
+    "yearEnd": 1881,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486343"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/91",
+    "yearStart": 1881,
+    "yearEnd": 1892,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486356"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/92",
+    "yearStart": 1893,
+    "yearEnd": 1903,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486369"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/93",
+    "yearStart": 1903,
+    "yearEnd": 1917,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486382"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/94",
+    "yearStart": 1918,
+    "yearEnd": 1929,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486395"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/95",
+    "yearStart": 1929,
+    "yearEnd": 1937,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486408"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/96",
+    "yearStart": 1938,
+    "yearEnd": 1947,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486421"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/97",
+    "yearStart": 1948,
+    "yearEnd": 1962,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486434"
+  },
+  {
+    "place": "Nuits-Saint-Georges",
+    "cote": "3 Q 22/98",
+    "yearStart": 1963,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486447"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/37",
+    "yearStart": 1824,
+    "yearEnd": 1832,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486472"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/38",
+    "yearStart": 1833,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486485"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/39",
+    "yearStart": 1843,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486498"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/40",
+    "yearStart": 1853,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486511"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/41",
+    "yearStart": 1862,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486524"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/42",
+    "yearStart": 1871,
+    "yearEnd": 1888,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486537"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/43",
+    "yearStart": 1888,
+    "yearEnd": 1900,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486550"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/44",
+    "yearStart": 1900,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486563"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/45",
+    "yearStart": 1920,
+    "yearEnd": 1937,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486576"
+  },
+  {
+    "place": "Pontailler-sur-Saône",
+    "cote": "3 Q 23/46",
+    "yearStart": 1937,
+    "yearEnd": 1954,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486589"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/51",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486614"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/52",
+    "yearStart": 1845,
+    "yearEnd": 1854,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486631"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/53",
+    "yearStart": 1854,
+    "yearEnd": 1863,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486644"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/54",
+    "yearStart": 1864,
+    "yearEnd": 1872,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486657"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/55",
+    "yearStart": 1872,
+    "yearEnd": 1886,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486670"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/56",
+    "yearStart": 1887,
+    "yearEnd": 1895,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486683"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/57",
+    "yearStart": 1895,
+    "yearEnd": 1905,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486696"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/58",
+    "yearStart": 1906,
+    "yearEnd": 1918,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486709"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/59",
+    "yearStart": 1919,
+    "yearEnd": 1935,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486722"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/60",
+    "yearStart": 1936,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486735"
+  },
+  {
+    "place": "Pouilly-en-Auxois",
+    "cote": "3 Q 24/61",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486748"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/36",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486771"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/37",
+    "yearStart": 1835,
+    "yearEnd": 1847,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486784"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/38",
+    "yearStart": 1848,
+    "yearEnd": 1862,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486797"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/39",
+    "yearStart": 1863,
+    "yearEnd": 1874,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486810"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/40",
+    "yearStart": 1874,
+    "yearEnd": 1887,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486823"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/41",
+    "yearStart": 1896,
+    "yearEnd": 1905,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486836"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/42",
+    "yearStart": 1905,
+    "yearEnd": 1921,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486849"
+  },
+  {
+    "place": "Précy-sous-Thil",
+    "cote": "3 Q 25/43",
+    "yearStart": 1922,
+    "yearEnd": 1932,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486862"
+  },
+  {
+    "place": "Recey-sur-Ource",
+    "cote": "3 Q 26/15",
+    "yearStart": 1838,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486887"
+  },
+  {
+    "place": "Recey-sur-Ource",
+    "cote": "3 Q 26/16",
+    "yearStart": 1854,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486900"
+  },
+  {
+    "place": "Recey-sur-Ource",
+    "cote": "3 Q 26/17",
+    "yearStart": 1896,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486913"
+  },
+  {
+    "place": "Recey-sur-Ource",
+    "cote": "3 Q 26/18",
+    "yearStart": 1921,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486926"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/52",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486953"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/53",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486966"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/54",
+    "yearStart": 1845,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486982"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/55",
+    "yearStart": 1853,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832486995"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/56",
+    "yearStart": 1861,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487008"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/57",
+    "yearStart": 1871,
+    "yearEnd": 1884,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487021"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/58",
+    "yearStart": 1884,
+    "yearEnd": 1897,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487034"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/59",
+    "yearStart": 1901,
+    "yearEnd": 1909,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487047"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/60",
+    "yearStart": 1910,
+    "yearEnd": 1920,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487060"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/61",
+    "yearStart": 1921,
+    "yearEnd": 1933,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487073"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/62",
+    "yearStart": 1934,
+    "yearEnd": 1945,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487086"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/63",
+    "yearStart": 1946,
+    "yearEnd": 1956,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487099"
+  },
+  {
+    "place": "Saint-Jean-de-Losne",
+    "cote": "3 Q 27/64",
+    "yearStart": 1957,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487112"
+  },
+  {
+    "place": "Saint-Seine-l'Abbaye",
+    "cote": "3 Q 28/35",
+    "yearStart": 1823,
+    "yearEnd": 1843,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487137"
+  },
+  {
+    "place": "Saint-Seine-l'Abbaye",
+    "cote": "3 Q 28/36",
+    "yearStart": 1844,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487150"
+  },
+  {
+    "place": "Saint-Seine-l'Abbaye",
+    "cote": "3 Q 28/37",
+    "yearStart": 1861,
+    "yearEnd": 1875,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487163"
+  },
+  {
+    "place": "Saint-Seine-l'Abbaye",
+    "cote": "3 Q 28/38",
+    "yearStart": 1875,
+    "yearEnd": 1903,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487176"
+  },
+  {
+    "place": "Saint-Seine-l'Abbaye",
+    "cote": "3 Q 28/39",
+    "yearStart": 1903,
+    "yearEnd": 1947,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487189"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/70",
+    "yearStart": 1824,
+    "yearEnd": 1831,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487216"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/71",
+    "yearStart": 1831,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487229"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/72",
+    "yearStart": 1842,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487242"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/73",
+    "yearStart": 1853,
+    "yearEnd": 1861,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487255"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/74",
+    "yearStart": 1861,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487268"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/75",
+    "yearStart": 1871,
+    "yearEnd": 1888,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487281"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/76",
+    "yearStart": 1888,
+    "yearEnd": 1906,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487294"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/77",
+    "yearStart": 1907,
+    "yearEnd": 1921,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487307"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/78",
+    "yearStart": 1922,
+    "yearEnd": 1934,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487320"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/79",
+    "yearStart": 1935,
+    "yearEnd": 1948,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487333"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/80",
+    "yearStart": 1949,
+    "yearEnd": 1951,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487346"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/81",
+    "yearStart": 1947,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487359"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/82",
+    "yearStart": 1952,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487376"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/83",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487389"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/84",
+    "yearStart": 1963,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487402"
+  },
+  {
+    "place": "Saulieu",
+    "cote": "3 Q 29/85",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487415"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/40",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487438"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/41",
+    "yearStart": 1810,
+    "yearEnd": 1816,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487451"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/42",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487464"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/43",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487477"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/44",
+    "yearStart": 1837,
+    "yearEnd": 1848,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487493"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/45",
+    "yearStart": 1848,
+    "yearEnd": 1863,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487509"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/46",
+    "yearStart": 1863,
+    "yearEnd": 1887,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487522"
+  },
+  {
+    "place": "Selongey",
+    "cote": "3 Q 30/47",
+    "yearStart": 1888,
+    "yearEnd": 1915,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487535"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/95",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487559"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/96",
+    "yearStart": 1835,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487572"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/97",
+    "yearStart": 1842,
+    "yearEnd": 1851,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487585"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/99",
+    "yearStart": 1851,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487598"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/100",
+    "yearStart": 1861,
+    "yearEnd": 1864,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487611"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/101",
+    "yearStart": 1865,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487624"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/102",
+    "yearStart": 1871,
+    "yearEnd": 1881,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487637"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/103",
+    "yearStart": 1882,
+    "yearEnd": 1892,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487650"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/104",
+    "yearStart": 1893,
+    "yearEnd": 1903,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487663"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/105",
+    "yearStart": 1904,
+    "yearEnd": 1912,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487676"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/106",
+    "yearStart": 1913,
+    "yearEnd": 1922,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487689"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/107",
+    "yearStart": 1922,
+    "yearEnd": 1932,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487702"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/108",
+    "yearStart": 1933,
+    "yearEnd": 1941,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487715"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/109",
+    "yearStart": 1942,
+    "yearEnd": 1946,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487728"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/110",
+    "yearStart": 1947,
+    "yearEnd": 1952,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487741"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/111",
+    "yearStart": 1953,
+    "yearEnd": 1958,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487754"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/112",
+    "yearStart": 1959,
+    "yearEnd": 1962,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487771"
+  },
+  {
+    "place": "Semur-en-Auxois",
+    "cote": "3 Q 31/98",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487788"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/72",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487819"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/73",
+    "yearStart": 1829,
+    "yearEnd": 1834,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487835"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/74",
+    "yearStart": 1834,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487848"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/75",
+    "yearStart": 1842,
+    "yearEnd": 1844,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487861"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/76",
+    "yearStart": 1845,
+    "yearEnd": 1852,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487874"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/77",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487887"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/78",
+    "yearStart": 1861,
+    "yearEnd": 1871,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487900"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/79",
+    "yearStart": 1871,
+    "yearEnd": 1883,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487913"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/80",
+    "yearStart": 1892,
+    "yearEnd": 1907,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487930"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/81",
+    "yearStart": 1908,
+    "yearEnd": 1918,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487943"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/82",
+    "yearStart": 1919,
+    "yearEnd": 1930,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487956"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/83",
+    "yearStart": 1931,
+    "yearEnd": 1943,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487969"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/84",
+    "yearStart": 1944,
+    "yearEnd": 1959,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487982"
+  },
+  {
+    "place": "Seurre",
+    "cote": "3 Q 32/85",
+    "yearStart": 1959,
+    "yearEnd": 1967,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832487995"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/40",
+    "yearStart": 1825,
+    "yearEnd": 1842,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488018"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/41",
+    "yearStart": 1842,
+    "yearEnd": 1853,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488031"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/42",
+    "yearStart": 1853,
+    "yearEnd": 1854,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488044"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/43",
+    "yearStart": 1864,
+    "yearEnd": 1878,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488057"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/44",
+    "yearStart": 1879,
+    "yearEnd": 1898,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488070"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/45",
+    "yearStart": 1898,
+    "yearEnd": 1912,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488083"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/46",
+    "yearStart": 1912,
+    "yearEnd": 1931,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488096"
+  },
+  {
+    "place": "Sombernon",
+    "cote": "3 Q 33/47",
+    "yearStart": 1931,
+    "yearEnd": 1944,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488109"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/43",
+    "yearStart": 1822,
+    "yearEnd": 1835,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488134"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/44",
+    "yearStart": 1836,
+    "yearEnd": 1848,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488147"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/45",
+    "yearStart": 1848,
+    "yearEnd": 1857,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488160"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/46",
+    "yearStart": 1857,
+    "yearEnd": 1870,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488173"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/47",
+    "yearStart": 1887,
+    "yearEnd": 1904,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488190"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/48",
+    "yearStart": 1905,
+    "yearEnd": 1928,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488203"
+  },
+  {
+    "place": "Vitteaux",
+    "cote": "3 Q 34/49",
+    "yearStart": 1929,
+    "yearEnd": 1941,
+    "url": "https://archives.cotedor.fr/v2/ad21/visualiseur/ir_ead_visu_lien.html?ir=23254&id=832488216"
+  }
+]

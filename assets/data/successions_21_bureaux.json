@@ -1,0 +1,2882 @@
+{
+  "AGENCOURT": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 4.6
+  },
+  "AGEY": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.7
+  },
+  "AHUY": {
+    "bureau": "Dijon",
+    "distanceKm": 4.3
+  },
+  "AISEREY": {
+    "bureau": "Genlis",
+    "distanceKm": 8.6
+  },
+  "AISEY SUR SEINE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 13.0
+  },
+  "AISY SOUS THIL": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 3.2
+  },
+  "ALISE SAINTE REINE": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 4.4
+  },
+  "ALLEREY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 8.9
+  },
+  "ALOXE CORTON": {
+    "bureau": "Beaune",
+    "distanceKm": 4.8
+  },
+  "AMPILLY LE SEC": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 7.6
+  },
+  "AMPILLY LES BORDES": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 4.7
+  },
+  "ANCEY": {
+    "bureau": "Sombernon",
+    "distanceKm": 9.4
+  },
+  "ANTHEUIL": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 8.1
+  },
+  "ANTIGNY LA VILLE": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 6.1
+  },
+  "ARC SUR TILLE": {
+    "bureau": "Genlis",
+    "distanceKm": 11.1
+  },
+  "ARCEAU": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 9.9
+  },
+  "ARCENANT": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 7.7
+  },
+  "ARCEY": {
+    "bureau": "Sombernon",
+    "distanceKm": 9.9
+  },
+  "ARCONCEY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 8.6
+  },
+  "ARGILLY": {
+    "bureau": "Seurre",
+    "distanceKm": 11.5
+  },
+  "ARNAY SOUS VITTEAUX": {
+    "bureau": "Vitteaux",
+    "distanceKm": 4.5
+  },
+  "ARRANS": {
+    "bureau": "Montbard",
+    "distanceKm": 3.7
+  },
+  "ARCON": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "ASNIERES EN MONTAGNE": {
+    "bureau": "Montbard",
+    "distanceKm": 6.9
+  },
+  "ASNIERES LES DIJON": {
+    "bureau": "Dijon",
+    "distanceKm": 6.2
+  },
+  "ATHIE": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 9.3
+  },
+  "ATHEE": {
+    "bureau": "Auxonne",
+    "distanceKm": 5.0
+  },
+  "AUBAINE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 3.9
+  },
+  "AUBIGNY EN PLAINE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 8.5
+  },
+  "AUBIGNY LA RONCE": {
+    "bureau": "Nolay",
+    "distanceKm": 3.7
+  },
+  "AUBIGNY LES SOMBERNON": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.8
+  },
+  "AUTRICOURT": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 10.1
+  },
+  "AUVILLARS SUR SAONE": {
+    "bureau": "Seurre",
+    "distanceKm": 6.7
+  },
+  "AUXANT": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 5.3
+  },
+  "AUXEY DURESSES": {
+    "bureau": "Nolay",
+    "distanceKm": 9.0
+  },
+  "AVELANGES": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 9.4
+  },
+  "AVOSNES": {
+    "bureau": "Vitteaux",
+    "distanceKm": 8.1
+  },
+  "AVOT": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 6.0
+  },
+  "BAGNOT": {
+    "bureau": "Seurre",
+    "distanceKm": 7.9
+  },
+  "BALOT": {
+    "bureau": "Laignes",
+    "distanceKm": 5.5
+  },
+  "BARBIREY SUR OUCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 6.5
+  },
+  "BARD LE REGULIER": {
+    "bureau": "Liernais",
+    "distanceKm": 8.3
+  },
+  "BARD LES EPOISSES": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 9.4
+  },
+  "BARGES": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 5.5
+  },
+  "BARJON": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 7.1
+  },
+  "BAUBIGNY": {
+    "bureau": "Nolay",
+    "distanceKm": 5.7
+  },
+  "BAULME LA ROCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 7.7
+  },
+  "BEAULIEU": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 5.7
+  },
+  "BEAUMONT SUR VINGEANNE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.8
+  },
+  "BEAUNOTTE": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 2.5
+  },
+  "BEIRE LE CHATEL": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 8.5
+  },
+  "BEIRE LE FORT": {
+    "bureau": "Genlis",
+    "distanceKm": 3.3
+  },
+  "BELAN SUR OURCE": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 8.4
+  },
+  "BELLEFOND": {
+    "bureau": "Dijon",
+    "distanceKm": 5.9
+  },
+  "BELLENEUVE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.3
+  },
+  "BELLENOD SUR SEINE": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 8.5
+  },
+  "BELLENOD SOUS ORIGNY": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 8.5
+  },
+  "BELLENOT SOUS POUILLY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 2.6
+  },
+  "BENEUVRE": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 6.4
+  },
+  "BENOISEY": {
+    "bureau": "Montbard",
+    "distanceKm": 9.6
+  },
+  "BESSEY EN CHAUME": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 5.1
+  },
+  "BESSEY LA COUR": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 6.3
+  },
+  "BESSEY LES CITEAUX": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 10.3
+  },
+  "BEUREY BAUGUAY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 10.3
+  },
+  "BEURIZOT": {
+    "bureau": "Vitteaux",
+    "distanceKm": 5.7
+  },
+  "BIERRE LES SEMUR": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "BILLEY": {
+    "bureau": "Auxonne",
+    "distanceKm": 5.3
+  },
+  "BILLY LES CHANCEAUX": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 8.4
+  },
+  "BINGES": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 9.9
+  },
+  "BISSEY LA COTE": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 5.1
+  },
+  "BISSEY LA PIERRE": {
+    "bureau": "Laignes",
+    "distanceKm": 4.5
+  },
+  "BLAGNY SUR VINGEANNE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 4.4
+  },
+  "BLAISY BAS": {
+    "bureau": "Sombernon",
+    "distanceKm": 7.1
+  },
+  "BLAISY HAUT": {
+    "bureau": "Sombernon",
+    "distanceKm": 7.6
+  },
+  "BLANCEY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 8.4
+  },
+  "BLANOT": {
+    "bureau": "Liernais",
+    "distanceKm": 6.1
+  },
+  "BLIGNY LE SEC": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 3.5
+  },
+  "BLIGNY LES BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 4.8
+  },
+  "BLIGNY SOUS BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 4.8
+  },
+  "BONCOURT LE BOIS": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 4.4
+  },
+  "BONNENCONTRE": {
+    "bureau": "Seurre",
+    "distanceKm": 8.7
+  },
+  "BOUDREVILLE": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 7.0
+  },
+  "BOUHEY": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 9.4
+  },
+  "BOUILLAND": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 6.8
+  },
+  "BOUIX": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 9.9
+  },
+  "BOURBERAIN": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 5.5
+  },
+  "BOUSSELANGE": {
+    "bureau": "Seurre",
+    "distanceKm": 7.4
+  },
+  "BOUSSENOIS": {
+    "bureau": "Selongey",
+    "distanceKm": 2.7
+  },
+  "BOUSSEY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 4.3
+  },
+  "BOUX SOUS SALMAISE": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 10.1
+  },
+  "BOUZE LES BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 6.2
+  },
+  "BRAIN": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 4.5
+  },
+  "BRAUX": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 7.5
+  },
+  "BRAZEY EN MORVAN": {
+    "bureau": "Liernais",
+    "distanceKm": 5.7
+  },
+  "BRAZEY EN PLAINE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 5.9
+  },
+  "BRESSEY SUR TILLE": {
+    "bureau": "Genlis",
+    "distanceKm": 8.0
+  },
+  "BRETENIERE": {
+    "bureau": "Genlis",
+    "distanceKm": 8.9
+  },
+  "BRETIGNY": {
+    "bureau": "Dijon",
+    "distanceKm": 8.7
+  },
+  "BRIANNY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 4.3
+  },
+  "BRION SUR OURCE": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 8.1
+  },
+  "BROCHON": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 2.4
+  },
+  "BROGNON": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 11.6
+  },
+  "BROIN": {
+    "bureau": "Seurre",
+    "distanceKm": 9.3
+  },
+  "BROINDON": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 4.9
+  },
+  "BREMUR ET VAUROIS": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 12.2
+  },
+  "BUFFON": {
+    "bureau": "Montbard",
+    "distanceKm": 5.3
+  },
+  "BUNCEY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 4.5
+  },
+  "BURE LES TEMPLIERS": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 7.2
+  },
+  "BUSSEAUT": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 10.4
+  },
+  "BUSSEROTTE ET MONTENAILLE": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 2.4
+  },
+  "BUSSIERES": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 3.8
+  },
+  "BUSSY LA PESLE": {
+    "bureau": "Sombernon",
+    "distanceKm": 5.7
+  },
+  "BUSSY LE GRAND": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 7.8
+  },
+  "BUXEROLLES": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 7.5
+  },
+  "BEZE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 7.1
+  },
+  "BEVY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 8.3
+  },
+  "BEZOUOTTE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 2.6
+  },
+  "CENSEREY": {
+    "bureau": "Liernais",
+    "distanceKm": 4.6
+  },
+  "CESSEY SUR TILLE": {
+    "bureau": "Genlis",
+    "distanceKm": 4.6
+  },
+  "CHAIGNAY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 7.0
+  },
+  "CHAILLY SUR ARMANCON": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 5.8
+  },
+  "CHAMBAIN": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 5.2
+  },
+  "CHAMBEIRE": {
+    "bureau": "Genlis",
+    "distanceKm": 7.0
+  },
+  "CHAMBLANC": {
+    "bureau": "Seurre",
+    "distanceKm": 1.9
+  },
+  "CHAMBOLLE MUSIGNY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 4.0
+  },
+  "CHAMBŒUF": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 6.4
+  },
+  "CHAMESSON": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 9.3
+  },
+  "CHAMP D OISEAU": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 6.7
+  },
+  "CHAMPAGNE SUR VINGEANNE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 7.5
+  },
+  "CHAMPAGNY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 2.8
+  },
+  "CHAMPDOTRE": {
+    "bureau": "Auxonne",
+    "distanceKm": 8.3
+  },
+  "CHAMPEAU EN MORVAN": {
+    "bureau": "Saulieu",
+    "distanceKm": 5.0
+  },
+  "CHAMPEAU": {
+    "bureau": "Saulieu",
+    "distanceKm": 5.0
+  },
+  "CHAMPIGNOLLES": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 10.0
+  },
+  "CHAMPRENAULT": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 9.1
+  },
+  "CHANCEAUX": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 10.0
+  },
+  "CHANNAY": {
+    "bureau": "Laignes",
+    "distanceKm": 8.0
+  },
+  "CHARENCEY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.9
+  },
+  "CHARIGNY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 8.8
+  },
+  "CHARMES": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 4.6
+  },
+  "CHARNY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 10.9
+  },
+  "CHARREY SUR SAONE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 8.8
+  },
+  "CHARREY SUR SEINE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 10.7
+  },
+  "CHARREY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 10.7
+  },
+  "CHASSAGNE MONTRACHET": {
+    "bureau": "Nolay",
+    "distanceKm": 8.8
+  },
+  "CHASSEY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 6.6
+  },
+  "CHAUDENAY LA VILLE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 6.0
+  },
+  "CHAUDENAY LE CHATEAU": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 7.8
+  },
+  "CHAUGEY": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 7.9
+  },
+  "CHAUME ET COURCHAMP": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 5.8
+  },
+  "CHAUME": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 5.8
+  },
+  "CHAUME LES BAIGNEUX": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 7.1
+  },
+  "CHAUMONT LE BOIS": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 8.8
+  },
+  "CHAUX": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 3.8
+  },
+  "CHAZEUIL": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 6.5
+  },
+  "CHAZILLY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 8.7
+  },
+  "CHEMIN D AISEY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 14.3
+  },
+  "CHENOVE": {
+    "bureau": "Dijon",
+    "distanceKm": 5.1
+  },
+  "CHEUGE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 4.7
+  },
+  "CHEVANNAY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 9.0
+  },
+  "CHEVANNES": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 8.2
+  },
+  "CHEVIGNY SAINT SAUVEUR": {
+    "bureau": "Dijon",
+    "distanceKm": 8.4
+  },
+  "CHEVIGNY EN VALIERE": {
+    "bureau": "Beaune",
+    "distanceKm": 12.1
+  },
+  "CHIVRES": {
+    "bureau": "Seurre",
+    "distanceKm": 7.0
+  },
+  "CHOREY LES BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 3.5
+  },
+  "CHOREY": {
+    "bureau": "Beaune",
+    "distanceKm": 3.5
+  },
+  "CHATEAUNEUF": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 8.8
+  },
+  "CHATELLENOT": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 6.2
+  },
+  "CIREY": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "CIREY LES PONTAILLER": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 7.7
+  },
+  "CIVRY EN MONTAGNE": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 4.7
+  },
+  "CLAMEREY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 7.5
+  },
+  "CLOMOT": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 7.9
+  },
+  "CLENAY": {
+    "bureau": "Dijon",
+    "distanceKm": 10.8
+  },
+  "CLERY": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 6.5
+  },
+  "COLLONGES ET PREMIERES": {
+    "bureau": "Genlis",
+    "distanceKm": 5.5
+  },
+  "COLLONGES LES PREMIERES": {
+    "bureau": "Genlis",
+    "distanceKm": 5.5
+  },
+  "COLLONGES LES BEVY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 8.1
+  },
+  "COLOMBIER": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 5.8
+  },
+  "COMBERTAULT": {
+    "bureau": "Beaune",
+    "distanceKm": 6.0
+  },
+  "COMBLANCHIEN": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 5.6
+  },
+  "COMMARIN": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 7.5
+  },
+  "CONCŒUR ET CORBOIN": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "CORBERON": {
+    "bureau": "Seurre",
+    "distanceKm": 10.8
+  },
+  "CORCELLES LES ARTS": {
+    "bureau": "Beaune",
+    "distanceKm": 9.6
+  },
+  "CORCELLES LES MONTS": {
+    "bureau": "Dijon",
+    "distanceKm": 7.3
+  },
+  "CORCELLES LES CITEAUX": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 9.1
+  },
+  "CORGENGOUX": {
+    "bureau": "Seurre",
+    "distanceKm": 11.1
+  },
+  "CORGOLOIN": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 7.9
+  },
+  "CORMOT VAUCHIGNON": {
+    "bureau": "Nolay",
+    "distanceKm": 2.8
+  },
+  "CORMOT LE GRAND": {
+    "bureau": "Nolay",
+    "distanceKm": 2.8
+  },
+  "CORPEAU": {
+    "bureau": "Nolay",
+    "distanceKm": 11.3
+  },
+  "CORPOYER LA CHAPELLE": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 6.3
+  },
+  "CORROMBLES": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 10.7
+  },
+  "CORSAINT": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 12.0
+  },
+  "COUCHEY": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 4.9
+  },
+  "COULMIER LE SEC": {
+    "bureau": "Laignes",
+    "distanceKm": 12.4
+  },
+  "COURBAN": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 4.7
+  },
+  "COURCELLES FREMOY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 11.2
+  },
+  "COURCELLES LES MONTBARD": {
+    "bureau": "Montbard",
+    "distanceKm": 8.3
+  },
+  "COURCELLES LES SEMUR": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 5.8
+  },
+  "COURCHAMP": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "COURLON": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 2.7
+  },
+  "COURTIVRON": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 12.3
+  },
+  "COUTERNON": {
+    "bureau": "Dijon",
+    "distanceKm": 8.9
+  },
+  "CRIMOLOIS": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "CRUGEY": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 7.1
+  },
+  "CREANCEY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 3.1
+  },
+  "CRECEY SUR TILLE": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 5.4
+  },
+  "CREPAND": {
+    "bureau": "Montbard",
+    "distanceKm": 6.5
+  },
+  "CUISEREY": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 3.8
+  },
+  "CULETRE": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 6.8
+  },
+  "CURLEY": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 6.0
+  },
+  "CURTIL SAINT SEINE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 10.9
+  },
+  "CURTIL VERGY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 4.3
+  },
+  "CUSSEY LES FORGES": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 6.4
+  },
+  "CUSSY LA COLONNE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 8.6
+  },
+  "CUSSY LE CHATEL": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 8.5
+  },
+  "CERILLY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 6.7
+  },
+  "DAIX": {
+    "bureau": "Dijon",
+    "distanceKm": 5.7
+  },
+  "DAMPIERRE EN MONTAGNE": {
+    "bureau": "Vitteaux",
+    "distanceKm": 5.1
+  },
+  "DAMPIERRE ET FLEE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 5.0
+  },
+  "DARCEY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 6.1
+  },
+  "DAROIS": {
+    "bureau": "Dijon",
+    "distanceKm": 10.2
+  },
+  "DIANCEY": {
+    "bureau": "Liernais",
+    "distanceKm": 7.8
+  },
+  "DIENAY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 4.3
+  },
+  "DOMPIERRE EN MORVAN": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 6.4
+  },
+  "DRAMBON": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 4.6
+  },
+  "DREE": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.0
+  },
+  "DUESME": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 5.3
+  },
+  "DETAIN ET BRUANT": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 10.1
+  },
+  "ESBARRES": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 5.2
+  },
+  "ESSAROIS": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 5.6
+  },
+  "ESSEY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 6.9
+  },
+  "FAIN LES MONTBARD": {
+    "bureau": "Montbard",
+    "distanceKm": 6.5
+  },
+  "FAIN LES MOUTIERS": {
+    "bureau": "Montbard",
+    "distanceKm": 12.6
+  },
+  "FAUVERNEY": {
+    "bureau": "Genlis",
+    "distanceKm": 5.8
+  },
+  "FAVEROLLES LES LUCEY": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 5.0
+  },
+  "FIXIN": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 3.7
+  },
+  "FLACEY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 10.1
+  },
+  "FLAGEY ECHEZEAUX": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 2.7
+  },
+  "FLAGEY LES AUXONNE": {
+    "bureau": "Auxonne",
+    "distanceKm": 6.5
+  },
+  "FLAMMERANS": {
+    "bureau": "Auxonne",
+    "distanceKm": 5.2
+  },
+  "FLAVIGNEROT": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 8.5
+  },
+  "FLEUREY SUR OUCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 11.7
+  },
+  "FOISSY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 5.2
+  },
+  "FONCEGRIVE": {
+    "bureau": "Selongey",
+    "distanceKm": 4.6
+  },
+  "FONTAINE LES DIJON": {
+    "bureau": "Dijon",
+    "distanceKm": 1.8
+  },
+  "FONTAINES EN DUESMOIS": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 10.6
+  },
+  "FONTAINES LES SECHES": {
+    "bureau": "Laignes",
+    "distanceKm": 4.8
+  },
+  "FONTANGY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 7.2
+  },
+  "FONTENELLE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 2.7
+  },
+  "FORLEANS": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 10.4
+  },
+  "FRAIGNOT ET VESVROTTE": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 6.2
+  },
+  "FRANCHEVILLE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 7.7
+  },
+  "FRANXAULT": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 6.1
+  },
+  "FRESNES": {
+    "bureau": "Montbard",
+    "distanceKm": 9.0
+  },
+  "FRENOIS": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 12.4
+  },
+  "FROLOIS": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 7.3
+  },
+  "FUSSEY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 9.5
+  },
+  "FENAY": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 5.9
+  },
+  "GEMEAUX": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 6.3
+  },
+  "GENAY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 5.0
+  },
+  "GERGUEIL": {
+    "bureau": "Sombernon",
+    "distanceKm": 11.2
+  },
+  "GERLAND": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 8.7
+  },
+  "GEVROLLES": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 3.9
+  },
+  "GILLY LES CITEAUX": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 4.8
+  },
+  "GISSEY LE VIEIL": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 8.4
+  },
+  "GISSEY SOUS FLAVIGNY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 5.1
+  },
+  "GISSEY SUR OUCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 7.6
+  },
+  "GLANON": {
+    "bureau": "Seurre",
+    "distanceKm": 4.9
+  },
+  "GOMMEVILLE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 12.6
+  },
+  "GRANCEY LE CHATEAU NEUVELLE": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 0.0
+  },
+  "GRANCEY SUR OURCE": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 13.8
+  },
+  "GRENANT LES SOMBERNON": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.4
+  },
+  "GRENAND LES SOMBERNON": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.4
+  },
+  "GRIGNON": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 8.2
+  },
+  "GRISELLES": {
+    "bureau": "Laignes",
+    "distanceKm": 5.4
+  },
+  "GROSBOIS EN MONTAGNE": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 7.1
+  },
+  "GROSBOIS LES TICHEY": {
+    "bureau": "Seurre",
+    "distanceKm": 6.2
+  },
+  "GRESIGNY SAINTE REINE": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 5.4
+  },
+  "GURGY LA VILLE": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 9.7
+  },
+  "GURGY LE CHATEAU": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 8.3
+  },
+  "HAUTEROCHE": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 4.6
+  },
+  "HAUTEVILLE LES DIJON": {
+    "bureau": "Dijon",
+    "distanceKm": 6.6
+  },
+  "HEUILLEY SUR SAONE": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 5.4
+  },
+  "IVRY EN MONTAGNE": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "IVRY": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "IZEURE": {
+    "bureau": "Genlis",
+    "distanceKm": 11.0
+  },
+  "IZIER": {
+    "bureau": "Genlis",
+    "distanceKm": 4.6
+  },
+  "JAILLY LES MOULINS": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 7.3
+  },
+  "JALLANGES": {
+    "bureau": "Seurre",
+    "distanceKm": 2.9
+  },
+  "JANCIGNY": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 8.1
+  },
+  "JEUX LES BARD": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 7.5
+  },
+  "JOUEY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 5.2
+  },
+  "JOURS LES BAIGNEUX": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 4.6
+  },
+  "JOURS": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 4.6
+  },
+  "JUILLENAY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 6.1
+  },
+  "JUILLY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 4.6
+  },
+  "L ETANG VERGY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 6.1
+  },
+  "LA BUSSIERE SUR OUCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 8.7
+  },
+  "LA CHAUME": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 9.5
+  },
+  "LA MOTTE TERNANT": {
+    "bureau": "Saulieu",
+    "distanceKm": 8.0
+  },
+  "LA ROCHE VANNEAU": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 4.1
+  },
+  "LA ROCHE EN BRENIL": {
+    "bureau": "Saulieu",
+    "distanceKm": 11.1
+  },
+  "LA ROCHEPOT": {
+    "bureau": "Nolay",
+    "distanceKm": 4.7
+  },
+  "LA VILLENEUVE LES CONVERS": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 5.0
+  },
+  "LA VILLENEUVE SUR VINGEANNE": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "LABERGEMENT FOIGNEY": {
+    "bureau": "Genlis",
+    "distanceKm": 2.7
+  },
+  "LABERGEMENT LES AUXONNE": {
+    "bureau": "Auxonne",
+    "distanceKm": 3.9
+  },
+  "LABERGEMENT LES AUXONNE BILLEY FLAGEY": {
+    "bureau": "Auxonne",
+    "distanceKm": 3.9
+  },
+  "LABERGEMENT LES SEURRE": {
+    "bureau": "Seurre",
+    "distanceKm": 5.3
+  },
+  "LABRUYERE": {
+    "bureau": "Seurre",
+    "distanceKm": 3.5
+  },
+  "LACANCHE": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 7.3
+  },
+  "LACOUR D ARCENAY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 8.1
+  },
+  "LADOIX SERRIGNY": {
+    "bureau": "Beaune",
+    "distanceKm": 7.1
+  },
+  "SERRIGNY": {
+    "bureau": "Beaune",
+    "distanceKm": 7.1
+  },
+  "LAMARCHE SUR SAONE": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 4.5
+  },
+  "LAMARGELLE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 9.3
+  },
+  "LANTENAY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 12.4
+  },
+  "LANTHES": {
+    "bureau": "Seurre",
+    "distanceKm": 3.8
+  },
+  "LANTILLY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 6.0
+  },
+  "LAPERRIERE SUR SAONE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 6.4
+  },
+  "LARREY": {
+    "bureau": "Laignes",
+    "distanceKm": 9.0
+  },
+  "LE FETE": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 6.8
+  },
+  "LE MEIX": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 10.3
+  },
+  "LEMEIX": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 10.3
+  },
+  "LE VAL LARREY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 3.9
+  },
+  "FLEE": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 3.9
+  },
+  "LECHATELET": {
+    "bureau": "Seurre",
+    "distanceKm": 5.1
+  },
+  "LES GOULLES": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 11.2
+  },
+  "LES MAILLYS": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 6.5
+  },
+  "LEUGLAY": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 4.6
+  },
+  "LEVERNOIS": {
+    "bureau": "Beaune",
+    "distanceKm": 4.4
+  },
+  "LICEY SUR VINGEANNE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 4.7
+  },
+  "LIGNEROLLES": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 11.7
+  },
+  "LONGCHAMP": {
+    "bureau": "Genlis",
+    "distanceKm": 6.0
+  },
+  "LONGEAULT PLUVAULT": {
+    "bureau": "Genlis",
+    "distanceKm": 3.9
+  },
+  "LONGEAULT": {
+    "bureau": "Genlis",
+    "distanceKm": 3.9
+  },
+  "LONGECOURT EN PLAINE": {
+    "bureau": "Genlis",
+    "distanceKm": 7.1
+  },
+  "LONGECOURT": {
+    "bureau": "Genlis",
+    "distanceKm": 7.1
+  },
+  "LONGECOURT LES CULETRE": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 6.7
+  },
+  "LONGVIC": {
+    "bureau": "Dijon",
+    "distanceKm": 5.5
+  },
+  "LOSNE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 2.8
+  },
+  "LOUESME": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 6.9
+  },
+  "LUCENAY LE DUC": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 11.2
+  },
+  "LUCEY": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 8.1
+  },
+  "LUSIGNY SUR OUCHE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 4.2
+  },
+  "LUX": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 9.1
+  },
+  "LERY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 13.8
+  },
+  "MACONGE": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 4.3
+  },
+  "MAGNIEN": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 4.2
+  },
+  "MAGNY LAMBERT": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 9.8
+  },
+  "MAGNY MONTARLOT": {
+    "bureau": "Auxonne",
+    "distanceKm": 7.9
+  },
+  "MAGNY SAINT MEDARD": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.0
+  },
+  "MAGNY LA VILLE": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 7.1
+  },
+  "MAGNY LES AUBIGNY": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 7.8
+  },
+  "MAGNY LES VILLERS": {
+    "bureau": "Beaune",
+    "distanceKm": 7.8
+  },
+  "MAGNY SUR TILLE": {
+    "bureau": "Genlis",
+    "distanceKm": 5.4
+  },
+  "MAISEY LE DUC": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 7.6
+  },
+  "MALIGNY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 4.7
+  },
+  "MANLAY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 11.6
+  },
+  "MARANDEUIL": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.8
+  },
+  "MARCELLOIS": {
+    "bureau": "Sombernon",
+    "distanceKm": 7.8
+  },
+  "MARCENAY": {
+    "bureau": "Laignes",
+    "distanceKm": 4.4
+  },
+  "MARCHESEUIL": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 8.8
+  },
+  "MARCIGNY SOUS THIL": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 5.0
+  },
+  "MARCILLY OGNY": {
+    "bureau": "Liernais",
+    "distanceKm": 9.5
+  },
+  "MARCILLY ET DRACY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 2.9
+  },
+  "MARCILLY LES VITTEAUX": {
+    "bureau": "Vitteaux",
+    "distanceKm": 2.9
+  },
+  "MARCILLY SUR TILLE": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 1.8
+  },
+  "MAREY LES FUSSEY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 6.8
+  },
+  "MAREY SUR TILLE": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 7.3
+  },
+  "MARIGNY LE CAHOUET": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 7.4
+  },
+  "MARIGNY LES REULLEE": {
+    "bureau": "Beaune",
+    "distanceKm": 8.8
+  },
+  "MARLIENS": {
+    "bureau": "Genlis",
+    "distanceKm": 4.1
+  },
+  "MARMAGNE": {
+    "bureau": "Montbard",
+    "distanceKm": 3.5
+  },
+  "MARSANNAY LA COTE": {
+    "bureau": "Dijon",
+    "distanceKm": 6.7
+  },
+  "MARSANNAY LE BOIS": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 9.5
+  },
+  "MARTROIS": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 5.1
+  },
+  "MASSINGY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 5.0
+  },
+  "MASSINGY LES SEMUR": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 5.7
+  },
+  "MASSINGY LES VITTEAUX": {
+    "bureau": "Vitteaux",
+    "distanceKm": 4.3
+  },
+  "MAUVILLY": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 4.8
+  },
+  "MAVILLY MANDELOT": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 7.1
+  },
+  "MAXILLY SUR SAONE": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 3.2
+  },
+  "MEILLY SUR ROUVRES": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 6.2
+  },
+  "MELOISEY": {
+    "bureau": "Beaune",
+    "distanceKm": 9.2
+  },
+  "MENESBLE": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 3.5
+  },
+  "MERCEUIL": {
+    "bureau": "Beaune",
+    "distanceKm": 8.1
+  },
+  "MESMONT": {
+    "bureau": "Sombernon",
+    "distanceKm": 2.9
+  },
+  "MESSANGES": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 5.7
+  },
+  "MESSIGNY ET VANTOUX": {
+    "bureau": "Dijon",
+    "distanceKm": 10.2
+  },
+  "MESSIGNY": {
+    "bureau": "Dijon",
+    "distanceKm": 10.2
+  },
+  "MEUILLEY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 4.9
+  },
+  "MEULSON": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 3.7
+  },
+  "MEURSANGES": {
+    "bureau": "Beaune",
+    "distanceKm": 9.4
+  },
+  "MEURSAULT": {
+    "bureau": "Beaune",
+    "distanceKm": 8.0
+  },
+  "MILLERY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 3.1
+  },
+  "MIMEURE": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 3.8
+  },
+  "MINOT": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 9.3
+  },
+  "MIREBEAU": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 0.0
+  },
+  "MISSERY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 11.0
+  },
+  "MOITRON": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 4.6
+  },
+  "MOLESME": {
+    "bureau": "Laignes",
+    "distanceKm": 13.1
+  },
+  "MOLESMES": {
+    "bureau": "Laignes",
+    "distanceKm": 13.1
+  },
+  "MOLINOT": {
+    "bureau": "Nolay",
+    "distanceKm": 6.5
+  },
+  "MOLOY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 14.5
+  },
+  "MOLPHEY": {
+    "bureau": "Saulieu",
+    "distanceKm": 5.8
+  },
+  "MONT SAINT JEAN": {
+    "bureau": "Liernais",
+    "distanceKm": 11.3
+  },
+  "MONTAGNY LES BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 4.8
+  },
+  "MONTAGNY LES SEURRE": {
+    "bureau": "Seurre",
+    "distanceKm": 7.1
+  },
+  "MONTBERTHAULT": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 13.6
+  },
+  "MONTCEAU ET ECHARNANT": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 6.3
+  },
+  "MONTHELIE": {
+    "bureau": "Beaune",
+    "distanceKm": 6.7
+  },
+  "MONTIGNY MONTFORT": {
+    "bureau": "Montbard",
+    "distanceKm": 8.2
+  },
+  "MONTIGNY MORNAY VILLENEUVE SUR VINGEANNE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 8.3
+  },
+  "MONTIGNY SUR VINGEANNE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 8.3
+  },
+  "MONTIGNY SAINT BARTHELEMY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 4.8
+  },
+  "MONTIGNY SUR ARMANCON": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 5.9
+  },
+  "MONTLAY EN AUXOIS": {
+    "bureau": "Saulieu",
+    "distanceKm": 6.4
+  },
+  "MONTLIOT ET COURCELLES": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 4.3
+  },
+  "MONTMAIN": {
+    "bureau": "Seurre",
+    "distanceKm": 7.8
+  },
+  "MONTMANCON": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 6.6
+  },
+  "MONTMOYEN": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 7.2
+  },
+  "MONTOILLOT": {
+    "bureau": "Sombernon",
+    "distanceKm": 5.2
+  },
+  "MONTOT": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 6.0
+  },
+  "MOREY SAINT DENIS": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 2.6
+  },
+  "MORNAY": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "MOSSON": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 7.6
+  },
+  "MOUTIERS SAINT JEAN": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 11.4
+  },
+  "MUSIGNY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 5.5
+  },
+  "MUSSY LA FOSSE": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 5.8
+  },
+  "MALAIN": {
+    "bureau": "Sombernon",
+    "distanceKm": 6.8
+  },
+  "MENESSAIRE": {
+    "bureau": "Liernais",
+    "distanceKm": 14.4
+  },
+  "MENETREUX LE PITOIS": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 7.9
+  },
+  "NAN SOUS THIL": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 3.6
+  },
+  "NANTOUX": {
+    "bureau": "Beaune",
+    "distanceKm": 6.5
+  },
+  "NESLE ET MASSOULT": {
+    "bureau": "Laignes",
+    "distanceKm": 7.0
+  },
+  "NEUILLY CRIMOLOIS": {
+    "bureau": "Genlis",
+    "distanceKm": 8.7
+  },
+  "NEUILLY LES DIJON": {
+    "bureau": "Genlis",
+    "distanceKm": 8.7
+  },
+  "NEUVELLE LES GRANCEY": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "NICEY": {
+    "bureau": "Laignes",
+    "distanceKm": 7.2
+  },
+  "NOD SUR SEINE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 10.1
+  },
+  "NOGENT LES MONTBARD": {
+    "bureau": "Montbard",
+    "distanceKm": 6.6
+  },
+  "NOIDAN": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 9.4
+  },
+  "NOIRON SOUS GEVREY": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 8.3
+  },
+  "NOIRON SUR BEZE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 4.4
+  },
+  "NOIRON SUR SEINE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 12.0
+  },
+  "NORGES LA VILLE": {
+    "bureau": "Dijon",
+    "distanceKm": 8.6
+  },
+  "NORMIER": {
+    "bureau": "Vitteaux",
+    "distanceKm": 8.4
+  },
+  "OBTREE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 8.3
+  },
+  "OIGNY": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 6.0
+  },
+  "OISILLY": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 3.4
+  },
+  "ORAIN": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 11.1
+  },
+  "ORGEUX": {
+    "bureau": "Dijon",
+    "distanceKm": 9.5
+  },
+  "ORIGNY": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 9.9
+  },
+  "ORRET": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 3.9
+  },
+  "ORVILLE": {
+    "bureau": "Selongey",
+    "distanceKm": 5.1
+  },
+  "OUGES": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 8.2
+  },
+  "PAGNY LA VILLE": {
+    "bureau": "Seurre",
+    "distanceKm": 5.2
+  },
+  "PAGNY LE CHATEAU": {
+    "bureau": "Seurre",
+    "distanceKm": 6.0
+  },
+  "PAINBLANC": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 5.5
+  },
+  "PANGES": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 7.6
+  },
+  "PASQUES": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.2
+  },
+  "PELLEREY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.1
+  },
+  "PERNAND VERGELESSES": {
+    "bureau": "Beaune",
+    "distanceKm": 5.7
+  },
+  "PERRIGNY LES DIJON": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 4.8
+  },
+  "PERRIGNY SUR L OGNON": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 3.9
+  },
+  "PICHANGES": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 8.6
+  },
+  "PLANAY": {
+    "bureau": "Montbard",
+    "distanceKm": 8.8
+  },
+  "PLOMBIERES LES DIJON": {
+    "bureau": "Dijon",
+    "distanceKm": 6.4
+  },
+  "PLUVAULT": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "PLUVET": {
+    "bureau": "Genlis",
+    "distanceKm": 5.8
+  },
+  "POINCON LES LARREY": {
+    "bureau": "Laignes",
+    "distanceKm": 8.4
+  },
+  "POISEUL LA GRANGE": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 11.4
+  },
+  "POISEUL LA VILLE ET LAPERRIERE": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 3.9
+  },
+  "POISEUL LES SAULX": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 10.4
+  },
+  "POMMARD": {
+    "bureau": "Beaune",
+    "distanceKm": 3.9
+  },
+  "PONCEY LES ATHEE": {
+    "bureau": "Auxonne",
+    "distanceKm": 5.4
+  },
+  "PONCEY SUR L IGNON": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 6.3
+  },
+  "PONT": {
+    "bureau": "Auxonne",
+    "distanceKm": 6.4
+  },
+  "PONT ET MASSENE": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 2.9
+  },
+  "POSANGES": {
+    "bureau": "Vitteaux",
+    "distanceKm": 2.7
+  },
+  "POTHIERES": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 9.7
+  },
+  "POUILLENAY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 4.8
+  },
+  "POUILLY SUR SAONE": {
+    "bureau": "Seurre",
+    "distanceKm": 2.4
+  },
+  "POUILLY SUR VINGEANNE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 7.1
+  },
+  "PREMEAUX PRISSEY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 5.5
+  },
+  "PREMEAUX": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 5.5
+  },
+  "PREMIERES": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "PRENOIS": {
+    "bureau": "Dijon",
+    "distanceKm": 10.7
+  },
+  "PRISSEY": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "PRUSLY SUR OURCE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 5.1
+  },
+  "PRALON": {
+    "bureau": "Sombernon",
+    "distanceKm": 5.5
+  },
+  "PUITS": {
+    "bureau": "Montbard",
+    "distanceKm": 12.2
+  },
+  "PULIGNY MONTRACHET": {
+    "bureau": "Nolay",
+    "distanceKm": 10.8
+  },
+  "QUEMIGNY POISOT": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "QUEMIGNY SUR SEINE": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 5.5
+  },
+  "QUETIGNY": {
+    "bureau": "Dijon",
+    "distanceKm": 6.2
+  },
+  "QUINCEROT": {
+    "bureau": "Montbard",
+    "distanceKm": 6.8
+  },
+  "QUINCEY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 5.5
+  },
+  "QUINCY LE VICOMTE": {
+    "bureau": "Montbard",
+    "distanceKm": 9.1
+  },
+  "REMILLY EN MONTAGNE": {
+    "bureau": "Sombernon",
+    "distanceKm": 2.7
+  },
+  "REMILLY SUR TILLE": {
+    "bureau": "Genlis",
+    "distanceKm": 7.7
+  },
+  "RENEVE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.3
+  },
+  "REULLE VERGY": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 5.4
+  },
+  "RIEL LES EAUX": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 6.7
+  },
+  "ROCHEFORT SUR BREVON": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 8.0
+  },
+  "ROCHEFORT": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 8.0
+  },
+  "ROILLY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 2.4
+  },
+  "ROUGEMONT": {
+    "bureau": "Montbard",
+    "distanceKm": 6.1
+  },
+  "ROUVRAY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 15.7
+  },
+  "ROUVRES EN PLAINE": {
+    "bureau": "Genlis",
+    "distanceKm": 6.2
+  },
+  "ROUVRES SOUS MEILLY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 6.9
+  },
+  "RUFFEY LES BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 6.3
+  },
+  "RUFFEY LES ECHIREY": {
+    "bureau": "Dijon",
+    "distanceKm": 5.5
+  },
+  "SACQUENAY": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 6.7
+  },
+  "SAFFRES": {
+    "bureau": "Vitteaux",
+    "distanceKm": 5.0
+  },
+  "SAINT ANDEUX": {
+    "bureau": "Saulieu",
+    "distanceKm": 16.1
+  },
+  "SAINT ANTHOT": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.9
+  },
+  "SAINT APOLLINAIRE": {
+    "bureau": "Dijon",
+    "distanceKm": 4.7
+  },
+  "SAINT AUBIN": {
+    "bureau": "Nolay",
+    "distanceKm": 6.8
+  },
+  "SAINT BERNARD": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 6.6
+  },
+  "SAINT BROING LES MOINES": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 6.8
+  },
+  "SAINT DIDIER": {
+    "bureau": "Saulieu",
+    "distanceKm": 5.6
+  },
+  "SAINT EUPHRONE": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 4.9
+  },
+  "SAINT GERMAIN SOURCE SEINE": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN DE MODEON": {
+    "bureau": "Saulieu",
+    "distanceKm": 12.4
+  },
+  "SAINT GERMAIN LE ROCHEUX": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 11.1
+  },
+  "SAINT GERMAIN LES SENAILLY": {
+    "bureau": "Montbard",
+    "distanceKm": 8.1
+  },
+  "SAINT HELIER": {
+    "bureau": "Sombernon",
+    "distanceKm": 9.0
+  },
+  "SAINT JEAN DE BŒUF": {
+    "bureau": "Sombernon",
+    "distanceKm": 11.7
+  },
+  "SAINT JULIEN": {
+    "bureau": "Dijon",
+    "distanceKm": 11.2
+  },
+  "SAINT LEGER TRIEY": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 5.1
+  },
+  "SAINT MARC SUR SEINE": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 11.7
+  },
+  "SAINT MARTIN DE LA MER": {
+    "bureau": "Liernais",
+    "distanceKm": 4.7
+  },
+  "SAINT MARTIN DU MONT": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 3.4
+  },
+  "SAINT MAURICE SUR VINGEANNE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 6.7
+  },
+  "SAINT MESMIN": {
+    "bureau": "Sombernon",
+    "distanceKm": 6.6
+  },
+  "SAINT NICOLAS LES CITEAUX": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 10.7
+  },
+  "SAINT PHILIBERT": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 2.5
+  },
+  "SAINT PIERRE EN VAUX": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 7.7
+  },
+  "SAINT PRIX LES ARNAY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 1.7
+  },
+  "SAINT ROMAIN": {
+    "bureau": "Nolay",
+    "distanceKm": 9.0
+  },
+  "SAINT REMY": {
+    "bureau": "Montbard",
+    "distanceKm": 3.9
+  },
+  "SAINT SAUVEUR": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 6.2
+  },
+  "SAINT SEINE EN BACHE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 8.3
+  },
+  "SAINT SEINE SUR VINGEANNE": {
+    "bureau": "Fontaine-Française",
+    "distanceKm": 5.9
+  },
+  "SAINT SYMPHORIEN SUR SAONE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 4.2
+  },
+  "SAINT THIBAULT": {
+    "bureau": "Vitteaux",
+    "distanceKm": 5.7
+  },
+  "SAINT USAGE": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 1.2
+  },
+  "SAINT VICTOR SUR OUCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 9.3
+  },
+  "SAINTE COLOMBE EN AUXOIS": {
+    "bureau": "Vitteaux",
+    "distanceKm": 6.4
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Vitteaux",
+    "distanceKm": 6.4
+  },
+  "SAINTE COLOMBE SUR SEINE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 4.0
+  },
+  "SAINTE MARIE LA BLANCHE": {
+    "bureau": "Beaune",
+    "distanceKm": 7.2
+  },
+  "SAINTE MARIE SUR OUCHE": {
+    "bureau": "Sombernon",
+    "distanceKm": 7.9
+  },
+  "SAINTE SABINE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 8.5
+  },
+  "SALIVES": {
+    "bureau": "Grancey-le-Château",
+    "distanceKm": 10.6
+  },
+  "SALMAISE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.3
+  },
+  "SAMEREY": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 7.4
+  },
+  "SANTENAY": {
+    "bureau": "Nolay",
+    "distanceKm": 7.2
+  },
+  "SANTOSSE": {
+    "bureau": "Nolay",
+    "distanceKm": 5.4
+  },
+  "SAULON LA CHAPELLE": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 8.0
+  },
+  "SAULON LA RUE": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 5.0
+  },
+  "SAULX LE DUC": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 7.2
+  },
+  "SAUSSEY": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 8.3
+  },
+  "SAUSSY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 12.3
+  },
+  "SAVIGNY LE SEC": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 11.4
+  },
+  "SAVIGNY LES BEAUNE": {
+    "bureau": "Beaune",
+    "distanceKm": 6.5
+  },
+  "SAVIGNY SOUS MALAIN": {
+    "bureau": "Sombernon",
+    "distanceKm": 4.5
+  },
+  "SAVILLY": {
+    "bureau": "Liernais",
+    "distanceKm": 10.9
+  },
+  "SAVOISY": {
+    "bureau": "Montbard",
+    "distanceKm": 9.5
+  },
+  "SAVOLLES": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 4.6
+  },
+  "SAVOUGES": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 7.0
+  },
+  "SEGROIS": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 3.8
+  },
+  "SEIGNY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 9.8
+  },
+  "SEMAREY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 5.2
+  },
+  "SEMEZANGES": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 9.9
+  },
+  "SEMOND": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 13.6
+  },
+  "SENAILLY": {
+    "bureau": "Montbard",
+    "distanceKm": 10.3
+  },
+  "SENNECEY LES DIJON": {
+    "bureau": "Dijon",
+    "distanceKm": 7.1
+  },
+  "SINCEY LES ROUVRAY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 14.8
+  },
+  "SOIRANS": {
+    "bureau": "Genlis",
+    "distanceKm": 6.7
+  },
+  "SOIRANS FOUFFRANS": {
+    "bureau": "Genlis",
+    "distanceKm": 6.7
+  },
+  "SOISSONS SUR NACEY": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 6.6
+  },
+  "SOUHEY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 6.2
+  },
+  "SOURCE SEINE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.8
+  },
+  "BLESSEY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.8
+  },
+  "SOUSSEY SUR BRIONNE": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 7.2
+  },
+  "SPOY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 10.2
+  },
+  "SUSSEY": {
+    "bureau": "Liernais",
+    "distanceKm": 6.7
+  },
+  "TAILLY": {
+    "bureau": "Beaune",
+    "distanceKm": 7.1
+  },
+  "TALANT": {
+    "bureau": "Dijon",
+    "distanceKm": 2.8
+  },
+  "TALMAY": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 8.0
+  },
+  "TANAY": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 3.0
+  },
+  "TARSUL": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 10.2
+  },
+  "TART": {
+    "bureau": "Genlis",
+    "distanceKm": 5.3
+  },
+  "TART LE HAUT": {
+    "bureau": "Genlis",
+    "distanceKm": 5.3
+  },
+  "TART L ABBAYE": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "TART LE BAS": {
+    "bureau": "Genlis",
+    "distanceKm": 3.8
+  },
+  "TELLECEY": {
+    "bureau": "Genlis",
+    "distanceKm": 8.3
+  },
+  "TERNANT": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 9.7
+  },
+  "TERREFONDREE": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 5.9
+  },
+  "THENISSEY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 7.7
+  },
+  "THOIRES": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 5.4
+  },
+  "THOISY LA BERCHERE": {
+    "bureau": "Liernais",
+    "distanceKm": 5.4
+  },
+  "THOISY LE DESERT": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 3.0
+  },
+  "THOMIREY": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 7.9
+  },
+  "THOREY EN PLAINE": {
+    "bureau": "Genlis",
+    "distanceKm": 6.5
+  },
+  "THOREY SOUS CHARNY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 9.9
+  },
+  "THOREY SUR OUCHE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 3.5
+  },
+  "THOSTE": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 8.0
+  },
+  "THURY": {
+    "bureau": "Nolay",
+    "distanceKm": 10.5
+  },
+  "TICHEY": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 10.1
+  },
+  "TIL CHATEL": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 4.8
+  },
+  "TILLENAY": {
+    "bureau": "Auxonne",
+    "distanceKm": 3.7
+  },
+  "TORCY ET POULIGNY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 7.6
+  },
+  "TOUILLON": {
+    "bureau": "Montbard",
+    "distanceKm": 6.9
+  },
+  "TOUTRY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 15.9
+  },
+  "TROCHERES": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.3
+  },
+  "TROUHANS": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 5.7
+  },
+  "TROUHAUT": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 5.9
+  },
+  "TRUGNY": {
+    "bureau": "Seurre",
+    "distanceKm": 4.0
+  },
+  "TRECLUN": {
+    "bureau": "Genlis",
+    "distanceKm": 7.6
+  },
+  "TURCEY": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 6.1
+  },
+  "UNCEY LE FRANC": {
+    "bureau": "Vitteaux",
+    "distanceKm": 6.8
+  },
+  "URCY": {
+    "bureau": "Sombernon",
+    "distanceKm": 11.7
+  },
+  "VAL MONT": {
+    "bureau": "Nolay",
+    "distanceKm": 8.1
+  },
+  "JOURS EN VAUX": {
+    "bureau": "Nolay",
+    "distanceKm": 8.1
+  },
+  "VAL SUZON": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 9.4
+  },
+  "VALFORET": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 9.6
+  },
+  "CLEMENCEY": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 9.6
+  },
+  "VANDENESSE EN AUXOIS": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 6.6
+  },
+  "VANNAIRE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 6.3
+  },
+  "VANTOUX LES DIJON": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "VANTOUX": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "VANVEY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 10.9
+  },
+  "VARANGES": {
+    "bureau": "Genlis",
+    "distanceKm": 2.1
+  },
+  "VAROIS ET CHAIGNOT": {
+    "bureau": "Dijon",
+    "distanceKm": 7.8
+  },
+  "VAUCHIGNON": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "VAUX SAULES": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 4.9
+  },
+  "VEILLY": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 6.8
+  },
+  "VELARS SUR OUCHE": {
+    "bureau": "Dijon",
+    "distanceKm": 9.3
+  },
+  "VELOGNY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 5.3
+  },
+  "VENAREY LES LAUMES": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 6.6
+  },
+  "VENAREY": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 6.6
+  },
+  "VERDONNET": {
+    "bureau": "Montbard",
+    "distanceKm": 9.3
+  },
+  "VERNOIS LES VESVRES": {
+    "bureau": "Selongey",
+    "distanceKm": 6.7
+  },
+  "VERNOT": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 12.0
+  },
+  "VERREY SOUS DREE": {
+    "bureau": "Sombernon",
+    "distanceKm": 6.7
+  },
+  "VERREY SOUS SALMAISE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 8.3
+  },
+  "VERTAULT": {
+    "bureau": "Laignes",
+    "distanceKm": 11.4
+  },
+  "VESVRES": {
+    "bureau": "Vitteaux",
+    "distanceKm": 2.5
+  },
+  "VEUVEY SUR OUCHE": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 7.6
+  },
+  "VEUXHAULLES SUR AUBE": {
+    "bureau": "Montigny-sur-Aube",
+    "distanceKm": 5.1
+  },
+  "VIANGES": {
+    "bureau": "Liernais",
+    "distanceKm": 6.6
+  },
+  "VIC DE CHASSENAY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 6.0
+  },
+  "VIC DES PRES": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 3.6
+  },
+  "VIC SOUS THIL": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 3.6
+  },
+  "VIEILMOULIN": {
+    "bureau": "Sombernon",
+    "distanceKm": 2.5
+  },
+  "VIELVERGE": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 5.2
+  },
+  "VIEUX CHATEAU": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 15.3
+  },
+  "VIGNOLES": {
+    "bureau": "Beaune",
+    "distanceKm": 3.0
+  },
+  "VILLAINES EN DUESMOIS": {
+    "bureau": "Montbard",
+    "distanceKm": 13.6
+  },
+  "VILLAINES LES PREVOTES": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 7.6
+  },
+  "VILLARGOIX": {
+    "bureau": "Saulieu",
+    "distanceKm": 5.0
+  },
+  "VILLARS FONTAINE": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 3.0
+  },
+  "VILLARS ET VILLENOTTE": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 3.5
+  },
+  "VILLEBERNY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 6.6
+  },
+  "VILLEBICHOT": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 7.7
+  },
+  "VILLECOMTE": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 7.7
+  },
+  "VILLEDIEU": {
+    "bureau": "Laignes",
+    "distanceKm": 8.6
+  },
+  "VILLEFERRY": {
+    "bureau": "Vitteaux",
+    "distanceKm": 5.6
+  },
+  "VILLENEUVE SOUS CHARIGNY": {
+    "bureau": "Précy-sous-Thil",
+    "distanceKm": 7.1
+  },
+  "VILLERS PATRAS": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 8.9
+  },
+  "VILLERS ROTIN": {
+    "bureau": "Auxonne",
+    "distanceKm": 3.5
+  },
+  "VILLERS LA FAYE": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 6.5
+  },
+  "VILLERS LES POTS": {
+    "bureau": "Auxonne",
+    "distanceKm": 5.1
+  },
+  "VILLEY SUR TILLE": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 5.1
+  },
+  "VILLIERS EN MORVAN": {
+    "bureau": "Liernais",
+    "distanceKm": 8.9
+  },
+  "VILLIERS LE DUC": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 11.6
+  },
+  "VILLOTTE SAINT SEINE": {
+    "bureau": "Saint-Seine-l'Abbaye",
+    "distanceKm": 5.6
+  },
+  "VILLOTTE SUR OURCE": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 8.2
+  },
+  "VILLY EN AUXOIS": {
+    "bureau": "Vitteaux",
+    "distanceKm": 7.5
+  },
+  "VILLY LE MOUTIER": {
+    "bureau": "Beaune",
+    "distanceKm": 11.6
+  },
+  "VISERNY": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 8.8
+  },
+  "VIX": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 6.4
+  },
+  "VIEVIGNE": {
+    "bureau": "Mirebeau-sur-Bèze",
+    "distanceKm": 6.8
+  },
+  "VIEVY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 7.4
+  },
+  "VOLNAY": {
+    "bureau": "Beaune",
+    "distanceKm": 5.8
+  },
+  "VONGES": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 2.2
+  },
+  "VOSNE ROMANEE": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 1.4
+  },
+  "VOUDENAY": {
+    "bureau": "Arnay-le-Duc",
+    "distanceKm": 8.4
+  },
+  "VOUGEOT": {
+    "bureau": "Nuits-Saint-Georges",
+    "distanceKm": 2.8
+  },
+  "VOULAINES LES TEMPLIERS": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 7.5
+  },
+  "VOULAINES": {
+    "bureau": "Recey-sur-Ource",
+    "distanceKm": 7.5
+  },
+  "VERONNES": {
+    "bureau": "Selongey",
+    "distanceKm": 8.3
+  },
+  "VERONNES LES GRANDES": {
+    "bureau": "Selongey",
+    "distanceKm": 8.3
+  },
+  "VERONNES LES PETITES": {
+    "bureau": "Dijon",
+    "distanceKm": 0.0
+  },
+  "EBATY": {
+    "bureau": "Beaune",
+    "distanceKm": 12.0
+  },
+  "ECHALOT": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 9.9
+  },
+  "ECHANNAY": {
+    "bureau": "Sombernon",
+    "distanceKm": 3.9
+  },
+  "ECHENON": {
+    "bureau": "Saint-Jean-de-Losne",
+    "distanceKm": 2.9
+  },
+  "ECHEVANNES": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 3.8
+  },
+  "ECHEVRONNE": {
+    "bureau": "Beaune",
+    "distanceKm": 9.0
+  },
+  "ECHIGEY": {
+    "bureau": "Genlis",
+    "distanceKm": 7.2
+  },
+  "ECUTIGNY": {
+    "bureau": "Bligny-sur-Ouche",
+    "distanceKm": 6.1
+  },
+  "EGUILLY": {
+    "bureau": "Pouilly-en-Auxois",
+    "distanceKm": 6.2
+  },
+  "EPAGNY": {
+    "bureau": "Is-sur-Tille",
+    "distanceKm": 9.7
+  },
+  "EPERNAY SOUS GEVREY": {
+    "bureau": "Gevrey-Chambertin",
+    "distanceKm": 6.4
+  },
+  "EPOISSES": {
+    "bureau": "Semur-en-Auxois",
+    "distanceKm": 12.3
+  },
+  "ERINGES": {
+    "bureau": "Flavigny-sur-Ozerain",
+    "distanceKm": 10.1
+  },
+  "ETAIS": {
+    "bureau": "Montbard",
+    "distanceKm": 9.0
+  },
+  "ETALANTE": {
+    "bureau": "Aignay-le-Duc",
+    "distanceKm": 5.2
+  },
+  "ETAULES": {
+    "bureau": "Dijon",
+    "distanceKm": 10.8
+  },
+  "ETEVAUX": {
+    "bureau": "Pontailler-sur-Saône",
+    "distanceKm": 7.5
+  },
+  "ETORMAY": {
+    "bureau": "Baigneux-les-juifs",
+    "distanceKm": 5.1
+  },
+  "ETROCHEY": {
+    "bureau": "Châtillon-sur-Seine",
+    "distanceKm": 5.8
+  }
+}

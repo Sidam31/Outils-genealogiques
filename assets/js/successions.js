@@ -346,6 +346,19 @@ export const SUCCESSION_DEPTS = {
         // Portail "Anaphore/Bach" (même logiciel que Tarn/Tarn-et-Garonne/Gard/Côtes-d'Armor).
         catalogUrl: 'https://earchives.vaucluse.fr/archives/search?filter_field=cSubject&filter_value=enregistrement',
     },
+    '21': {
+        label: "Côte-d'Or",
+        kind: 'facet',
+        // Bornes réelles de la série (477 registres scrapés, voir
+        // scrape_successions_cote_dor.py).
+        minYear: 1809,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_21.json',
+        bureauxUrl: './assets/data/successions_21_bureaux.json',
+        // Septième logiciel : ancien "console/ir_ead_*" (finding-aid Archinoë), avec des liens de
+        // visionneuse indépendants de toute session contrairement à son cousin (voir le scraper).
+        catalogUrl: 'https://archives.cotedor.fr/console/ir_ead_visu.php?eadid=FRAD021_000001842&ir=23254',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
