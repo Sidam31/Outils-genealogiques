@@ -458,6 +458,87 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_42_bureaux.json',
         catalogUrl: 'https://archives.loire.fr/archive/recherche/enregistrement/n:130',
     },
+    '93': {
+        label: 'Seine-Saint-Denis',
+        kind: 'facet',
+        // Bornes réelles de la série (719 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['93']) : 9 des 10 bureaux (Aulnay-sous-
+        // Bois sans résultat sur ce fonds) - recherche vide sans résultat, contrairement à l'Ain.
+        minYear: 1705,
+        maxYear: 1983,
+        registersUrl: './assets/data/successions_93.json',
+        bureauxUrl: './assets/data/successions_93_bureaux.json',
+        catalogUrl: 'https://archives.seinesaintdenis.fr/archive/recherche/sucession/n:219',
+    },
+    '07': {
+        label: 'Ardèche',
+        kind: 'facet',
+        // Bornes réelles de la série (9985 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['07']) : recherche vide déjà scopée aux
+        // successions (pas de filtrage nécessaire), mais chaque bureau y est subdivisé par lettre
+        // de patronyme (comme au Tarn/Paris), d'où un volume de registres bien plus élevé qu'aux
+        // autres départements de cette famille.
+        minYear: 1738,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_07.json',
+        bureauxUrl: './assets/data/successions_07_bureaux.json',
+        catalogUrl: 'https://archives.ardeche.fr/archive/recherche/enrmoderne/n:203',
+    },
+    '67': {
+        label: 'Bas-Rhin',
+        kind: 'facet',
+        // Bornes réelles de la série (627 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['67']) : fonds déjà scopé aux "Tables
+        // alphabétiques des successions et absences", recherche par bureau obligatoire (30 bureaux).
+        minYear: 1801,
+        maxYear: 1974,
+        registersUrl: './assets/data/successions_67.json',
+        bureauxUrl: './assets/data/successions_67_bureaux.json',
+        catalogUrl: 'https://archives67.alsace.eu/archive/recherche/enregistrement/n:146',
+    },
+    '70': {
+        label: 'Haute-Saône',
+        kind: 'facet',
+        // Bornes réelles de la série (363 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['70']) : pas de colonne de type, une
+        // seule cellule descriptive par ligne ("Bureau d'Amance.- Table des successions et
+        // absences : ...") sert de filtre ET de source lieu/date/cote-de-bureau (l'ID du fonds du
+        // candidat initial, n:123, était périmé - le bon (n:121) trouvé via le menu du site).
+        minYear: 1786,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_70.json',
+        bureauxUrl: './assets/data/successions_70_bureaux.json',
+        catalogUrl: 'https://archives.haute-saone.fr/archive/recherche/enregistrement/n:121',
+    },
+    '33': {
+        label: 'Gironde',
+        kind: 'facet',
+        // Bornes réelles de la série (582 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['33']) : recherche filtrée par facette
+        // REch_table (comme la Charente), mais nécessite un segment d'URL "/tableau/" avant
+        // "limit:50"/"page:N" propre à ce déploiement, et une détection de recyclage de page (le
+        // site renvoie le contenu de la page 1 au lieu d'une page vide passé la vraie dernière
+        // page - repéré après ~120 pages inutiles avant correction, voir scrape_department).
+        minYear: 1815,
+        maxYear: 1949,
+        registersUrl: './assets/data/successions_33.json',
+        bureauxUrl: './assets/data/successions_33_bureaux.json',
+        catalogUrl: 'https://archives.gironde.fr/archive/recherche/enregistrement2',
+    },
+    '74': {
+        label: 'Haute-Savoie',
+        kind: 'facet',
+        // Bornes réelles de la série (299 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['74']) : champ <select> propre "Table des
+        // successions et absences", pas de facette à découvrir. Un bureau (Carouge) est en réalité
+        // suisse (canton de Genève) - hors de communes_geo/74.json, sans repli par proximité pour
+        // les communes environnantes mais son propre registre reste trouvé normalement.
+        minYear: 1793,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_74.json',
+        bureauxUrl: './assets/data/successions_74_bureaux.json',
+        catalogUrl: 'https://archives.hautesavoie.fr/archive/recherche/enregistrement/n:154',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

@@ -1,0 +1,134 @@
+{
+  "AULNAY SOUS BOIS": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 4.4
+  },
+  "BAGNOLET": {
+    "bureau": "Montreuil",
+    "distanceKm": 1.8
+  },
+  "BOBIGNY": {
+    "bureau": "Noisy-le-Sec",
+    "distanceKm": 2.0
+  },
+  "BONDY": {
+    "bureau": "Noisy-le-Sec",
+    "distanceKm": 2.4
+  },
+  "CLICHY SOUS BOIS": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 1.3
+  },
+  "COUBRON": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 3.0
+  },
+  "DRANCY": {
+    "bureau": "Pantin",
+    "distanceKm": 3.8
+  },
+  "DUGNY": {
+    "bureau": "Aubervilliers",
+    "distanceKm": 4.9
+  },
+  "GAGNY": {
+    "bureau": "Neuilly-sur-Marne",
+    "distanceKm": 2.0
+  },
+  "GOURNAY SUR MARNE": {
+    "bureau": "Neuilly-sur-Marne",
+    "distanceKm": 2.5
+  },
+  "L ILE SAINT DENIS": {
+    "bureau": "Saint-Ouen",
+    "distanceKm": 1.9
+  },
+  "LA COURNEUVE": {
+    "bureau": "Aubervilliers",
+    "distanceKm": 2.5
+  },
+  "LE BLANC MESNIL": {
+    "bureau": "Noisy-le-Sec",
+    "distanceKm": 5.1
+  },
+  "LE BOURGET": {
+    "bureau": "Aubervilliers",
+    "distanceKm": 4.0
+  },
+  "LE PRE SAINT GERVAIS": {
+    "bureau": "Pantin",
+    "distanceKm": 1.9
+  },
+  "LES LILAS": {
+    "bureau": "Pantin",
+    "distanceKm": 2.2
+  },
+  "LES PAVILLONS SOUS BOIS": {
+    "bureau": "Le Raincy",
+    "distanceKm": 1.6
+  },
+  "MONTFERMEIL": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 3.3
+  },
+  "NEUILLY PLAISANCE": {
+    "bureau": "Neuilly-sur-Marne",
+    "distanceKm": 2.4
+  },
+  "NOISY LE GRAND": {
+    "bureau": "Neuilly-sur-Marne",
+    "distanceKm": 3.7
+  },
+  "PIERREFITTE SUR SEINE": {
+    "bureau": "Saint-Denis",
+    "distanceKm": 3.7
+  },
+  "ROMAINVILLE": {
+    "bureau": "Noisy-le-Sec",
+    "distanceKm": 1.6
+  },
+  "ROSNY SOUS BOIS": {
+    "bureau": "Noisy-le-Sec",
+    "distanceKm": 2.9
+  },
+  "SAINT OUEN SUR SEINE": {
+    "bureau": "Saint-Ouen",
+    "distanceKm": 0.0
+  },
+  "SEVRAN": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 2.2
+  },
+  "STAINS": {
+    "bureau": "Saint-Denis",
+    "distanceKm": 3.8
+  },
+  "TREMBLAY EN FRANCE": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 6.3
+  },
+  "TREMBLAY LES GONESSE": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 6.3
+  },
+  "VAUJOURS": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 3.7
+  },
+  "VILLEMOMBLE": {
+    "bureau": "Le Raincy",
+    "distanceKm": 1.3
+  },
+  "VILLEPINTE": {
+    "bureau": "Livry-Gargan",
+    "distanceKm": 4.2
+  },
+  "VILLETANEUSE": {
+    "bureau": "Saint-Denis",
+    "distanceKm": 3.8
+  },
+  "EPINAY SUR SEINE": {
+    "bureau": "Saint-Denis",
+    "distanceKm": 4.7
+  }
+}

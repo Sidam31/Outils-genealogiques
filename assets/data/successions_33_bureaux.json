@@ -1,0 +1,2290 @@
+{
+  "ABZAC": {
+    "bureau": "Coutras",
+    "distanceKm": 3.8
+  },
+  "AILLAS": {
+    "bureau": "La Réole",
+    "distanceKm": 11.5
+  },
+  "AMBARES ET LAGRAVE": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 5.5
+  },
+  "AMBES": {
+    "bureau": "Bourg",
+    "distanceKm": 3.0
+  },
+  "ANDERNOS LES BAINS": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 20.1
+  },
+  "ANGLADE": {
+    "bureau": "Pauillac",
+    "distanceKm": 9.0
+  },
+  "ARBANATS": {
+    "bureau": "Podensac",
+    "distanceKm": 4.2
+  },
+  "ARCACHON": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 7.3
+  },
+  "ARCINS": {
+    "bureau": "Blaye",
+    "distanceKm": 6.9
+  },
+  "ARSAC": {
+    "bureau": "Castelnau",
+    "distanceKm": 9.2
+  },
+  "ARTIGUES PRES BORDEAUX": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 4.9
+  },
+  "ARVEYRES": {
+    "bureau": "Libourne",
+    "distanceKm": 4.5
+  },
+  "ARES": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 25.0
+  },
+  "ASQUES": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 7.9
+  },
+  "AUBIAC": {
+    "bureau": "Bazas",
+    "distanceKm": 4.0
+  },
+  "AUDENGE": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 22.9
+  },
+  "AURIOLLES": {
+    "bureau": "Monségur",
+    "distanceKm": 10.1
+  },
+  "AUROS": {
+    "bureau": "Langon",
+    "distanceKm": 7.1
+  },
+  "AVENSAN": {
+    "bureau": "Castelnau",
+    "distanceKm": 4.6
+  },
+  "AYGUEMORTE LES GRAVES": {
+    "bureau": "La Brède",
+    "distanceKm": 5.1
+  },
+  "BAGAS": {
+    "bureau": "La Réole",
+    "distanceKm": 3.6
+  },
+  "BAIGNEAUX": {
+    "bureau": "Branne",
+    "distanceKm": 11.8
+  },
+  "BALIZAC": {
+    "bureau": "Langon",
+    "distanceKm": 17.3
+  },
+  "BARIE": {
+    "bureau": "La Réole",
+    "distanceKm": 5.7
+  },
+  "BARON": {
+    "bureau": "Créon",
+    "distanceKm": 6.3
+  },
+  "BARSAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 4.4
+  },
+  "BASSANNE": {
+    "bureau": "La Réole",
+    "distanceKm": 5.0
+  },
+  "BASSENS": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 2.1
+  },
+  "BAURECH": {
+    "bureau": "Créon",
+    "distanceKm": 8.4
+  },
+  "BAYAS": {
+    "bureau": "Guîtres",
+    "distanceKm": 3.6
+  },
+  "BAYON SUR GIRONDE": {
+    "bureau": "Bourg",
+    "distanceKm": 4.8
+  },
+  "BAYON": {
+    "bureau": "Bourg",
+    "distanceKm": 4.8
+  },
+  "BEAUTIRAN": {
+    "bureau": "La Brède",
+    "distanceKm": 6.9
+  },
+  "BELIN BELIET": {
+    "bureau": "La Brède",
+    "distanceKm": 28.8
+  },
+  "BELIN": {
+    "bureau": "La Brède",
+    "distanceKm": 28.8
+  },
+  "BELLEBAT": {
+    "bureau": "Créon",
+    "distanceKm": 10.3
+  },
+  "BELLEFOND": {
+    "bureau": "Branne",
+    "distanceKm": 6.9
+  },
+  "BELVES DE CASTILLON": {
+    "bureau": "Branne",
+    "distanceKm": 13.4
+  },
+  "BERNOS BEAULAC": {
+    "bureau": "Bazas",
+    "distanceKm": 9.1
+  },
+  "BERNOS": {
+    "bureau": "Bazas",
+    "distanceKm": 9.1
+  },
+  "BERSON": {
+    "bureau": "Blaye",
+    "distanceKm": 7.1
+  },
+  "BERTHEZ": {
+    "bureau": "Bazas",
+    "distanceKm": 8.4
+  },
+  "BEYCHAC ET CAILLAU": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 10.7
+  },
+  "BIEUJAC": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 6.9
+  },
+  "BIGANOS": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 19.4
+  },
+  "BIRAC": {
+    "bureau": "Bazas",
+    "distanceKm": 6.4
+  },
+  "BLAIGNAC": {
+    "bureau": "La Réole",
+    "distanceKm": 4.3
+  },
+  "BLAIGNAN PRIGNAC": {
+    "bureau": "Lesparre",
+    "distanceKm": 5.4
+  },
+  "BLAIGNAN": {
+    "bureau": "Lesparre",
+    "distanceKm": 5.4
+  },
+  "BLASIMON": {
+    "bureau": "Branne",
+    "distanceKm": 11.3
+  },
+  "BLAYE ET SAINTE LUCE": {
+    "bureau": "Blaye",
+    "distanceKm": 0.0
+  },
+  "BLESIGNAC": {
+    "bureau": "Créon",
+    "distanceKm": 7.2
+  },
+  "BOMMES": {
+    "bureau": "Langon",
+    "distanceKm": 8.4
+  },
+  "BONNETAN": {
+    "bureau": "Créon",
+    "distanceKm": 7.7
+  },
+  "BONZAC": {
+    "bureau": "Guîtres",
+    "distanceKm": 5.0
+  },
+  "BOSSUGAN": {
+    "bureau": "Branne",
+    "distanceKm": 11.1
+  },
+  "BOULIAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 8.2
+  },
+  "BOURDELLES": {
+    "bureau": "La Réole",
+    "distanceKm": 5.1
+  },
+  "BOURIDEYS": {
+    "bureau": "Bazas",
+    "distanceKm": 22.4
+  },
+  "BRACH": {
+    "bureau": "Castelnau",
+    "distanceKm": 11.1
+  },
+  "BRANNENS": {
+    "bureau": "Langon",
+    "distanceKm": 6.9
+  },
+  "BRAUD ET SAINT LOUIS": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 4.2
+  },
+  "BROUQUEYRAN": {
+    "bureau": "Bazas",
+    "distanceKm": 6.4
+  },
+  "BRUGES": {
+    "bureau": "Bordeaux",
+    "distanceKm": 3.3
+  },
+  "BUDOS": {
+    "bureau": "Podensac",
+    "distanceKm": 12.9
+  },
+  "BEGLES": {
+    "bureau": "Bordeaux",
+    "distanceKm": 7.2
+  },
+  "BEGADAN": {
+    "bureau": "Lesparre",
+    "distanceKm": 11.6
+  },
+  "BEGUEY": {
+    "bureau": "Cadillac",
+    "distanceKm": 1.7
+  },
+  "BELIET": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "CABANAC ET VILLAGRAINS": {
+    "bureau": "La Brède",
+    "distanceKm": 9.9
+  },
+  "CABARA": {
+    "bureau": "Branne",
+    "distanceKm": 1.6
+  },
+  "CADARSAC": {
+    "bureau": "Libourne",
+    "distanceKm": 6.8
+  },
+  "CADAUJAC": {
+    "bureau": "La Brède",
+    "distanceKm": 7.7
+  },
+  "CADILLAC EN FRONSADAIS": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 12.0
+  },
+  "CADILLAC SUR GARONNE": {
+    "bureau": "Cadillac",
+    "distanceKm": 0.0
+  },
+  "CAMARSAC": {
+    "bureau": "Créon",
+    "distanceKm": 6.6
+  },
+  "CAMBES": {
+    "bureau": "La Brède",
+    "distanceKm": 9.2
+  },
+  "CAMBLANES ET MEYNAC": {
+    "bureau": "Créon",
+    "distanceKm": 10.2
+  },
+  "CAMIAC ET SAINT DENIS": {
+    "bureau": "Créon",
+    "distanceKm": 5.1
+  },
+  "CAMIRAN": {
+    "bureau": "La Réole",
+    "distanceKm": 5.6
+  },
+  "CAMPS SUR L ISLE": {
+    "bureau": "Coutras",
+    "distanceKm": 5.8
+  },
+  "CAMPS": {
+    "bureau": "Coutras",
+    "distanceKm": 5.8
+  },
+  "CAMPUGNAN": {
+    "bureau": "Blaye",
+    "distanceKm": 10.2
+  },
+  "CANTENAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "CANTOIS": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "CANEJAN": {
+    "bureau": "La Brède",
+    "distanceKm": 12.9
+  },
+  "CANEJEAN": {
+    "bureau": "La Brède",
+    "distanceKm": 12.9
+  },
+  "CAPIAN": {
+    "bureau": "Créon",
+    "distanceKm": 5.8
+  },
+  "CAPLONG": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 9.7
+  },
+  "CAPTIEUX": {
+    "bureau": "Bazas",
+    "distanceKm": 20.9
+  },
+  "CARCANS": {
+    "bureau": "Castelnau",
+    "distanceKm": 19.5
+  },
+  "CARDAN": {
+    "bureau": "Podensac",
+    "distanceKm": 4.8
+  },
+  "CARIGNAN DE BORDEAUX": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 10.5
+  },
+  "CARIGNAN": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 10.5
+  },
+  "CARS": {
+    "bureau": "Blaye",
+    "distanceKm": 4.0
+  },
+  "CARTELEGUE": {
+    "bureau": "Blaye",
+    "distanceKm": 9.7
+  },
+  "CASSEUIL": {
+    "bureau": "La Réole",
+    "distanceKm": 5.6
+  },
+  "CASTELMORON D ALBRET": {
+    "bureau": "Monségur",
+    "distanceKm": 8.5
+  },
+  "CASTELMORON": {
+    "bureau": "Monségur",
+    "distanceKm": 8.5
+  },
+  "CASTELNAU DE MEDOC": {
+    "bureau": "Castelnau",
+    "distanceKm": 0.0
+  },
+  "CASTELVIEL": {
+    "bureau": "La Réole",
+    "distanceKm": 12.4
+  },
+  "CASTETS ET CASTILLON": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 7.8
+  },
+  "CASTETS EN DORTHE": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 7.8
+  },
+  "CASTETS": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 7.8
+  },
+  "CASTILLON DE CASTETS": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "CASTILLON LA BATAILLE": {
+    "bureau": "Branne",
+    "distanceKm": 12.9
+  },
+  "CASTILLON ET CAPITOURLAN": {
+    "bureau": "Branne",
+    "distanceKm": 12.9
+  },
+  "CASTRES GIRONDE": {
+    "bureau": "La Brède",
+    "distanceKm": 6.6
+  },
+  "CAUDROT": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 7.4
+  },
+  "CAUDERAN": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "CAUMONT": {
+    "bureau": "Monségur",
+    "distanceKm": 9.4
+  },
+  "CAUVIGNAC": {
+    "bureau": "Bazas",
+    "distanceKm": 12.1
+  },
+  "CAVIGNAC": {
+    "bureau": "Bourg",
+    "distanceKm": 14.9
+  },
+  "CAZALIS": {
+    "bureau": "Bazas",
+    "distanceKm": 18.2
+  },
+  "CAZATS": {
+    "bureau": "Bazas",
+    "distanceKm": 3.8
+  },
+  "CAZAUGITAT": {
+    "bureau": "Monségur",
+    "distanceKm": 9.4
+  },
+  "CENON": {
+    "bureau": "Bordeaux",
+    "distanceKm": 5.0
+  },
+  "CESSAC": {
+    "bureau": "Branne",
+    "distanceKm": 9.9
+  },
+  "CESTAS": {
+    "bureau": "La Brède",
+    "distanceKm": 16.4
+  },
+  "CHAMADELLE": {
+    "bureau": "Coutras",
+    "distanceKm": 6.4
+  },
+  "CISSAC MEDOC": {
+    "bureau": "Pauillac",
+    "distanceKm": 7.0
+  },
+  "CIVRAC DE BLAYE": {
+    "bureau": "Bourg",
+    "distanceKm": 10.8
+  },
+  "CIVRAC": {
+    "bureau": "Bourg",
+    "distanceKm": 10.8
+  },
+  "CIVRAC EN MEDOC": {
+    "bureau": "Lesparre",
+    "distanceKm": 7.0
+  },
+  "CIVRAC SUR DORDOGNE": {
+    "bureau": "Branne",
+    "distanceKm": 8.1
+  },
+  "CIVRAC DE DORDOGNE": {
+    "bureau": "Branne",
+    "distanceKm": 8.1
+  },
+  "CLEYRAC": {
+    "bureau": "Monségur",
+    "distanceKm": 12.7
+  },
+  "COIMERES": {
+    "bureau": "Langon",
+    "distanceKm": 4.5
+  },
+  "COIRAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 11.7
+  },
+  "COMPS": {
+    "bureau": "Bourg",
+    "distanceKm": 4.6
+  },
+  "COUBEYRAC": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 14.6
+  },
+  "COUQUEQUES": {
+    "bureau": "Lesparre",
+    "distanceKm": 9.6
+  },
+  "COURPIAC": {
+    "bureau": "Branne",
+    "distanceKm": 8.1
+  },
+  "COURS DE MONSEGUR": {
+    "bureau": "Monségur",
+    "distanceKm": 3.9
+  },
+  "COURS LES BAINS": {
+    "bureau": "Bazas",
+    "distanceKm": 18.2
+  },
+  "COUTURES": {
+    "bureau": "Monségur",
+    "distanceKm": 4.4
+  },
+  "CROIGNON": {
+    "bureau": "Créon",
+    "distanceKm": 5.8
+  },
+  "CUBNEZAIS": {
+    "bureau": "Bourg",
+    "distanceKm": 10.8
+  },
+  "CUBZAC LES PONTS": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 8.6
+  },
+  "CUDOS": {
+    "bureau": "Bazas",
+    "distanceKm": 7.4
+  },
+  "CURSAN": {
+    "bureau": "Créon",
+    "distanceKm": 3.2
+  },
+  "CUSSAC FORT MEDOC": {
+    "bureau": "Blaye",
+    "distanceKm": 4.8
+  },
+  "CUSSAC": {
+    "bureau": "Blaye",
+    "distanceKm": 4.8
+  },
+  "CENAC": {
+    "bureau": "Créon",
+    "distanceKm": 9.1
+  },
+  "CERONS": {
+    "bureau": "Podensac",
+    "distanceKm": 2.7
+  },
+  "CEZAC": {
+    "bureau": "Bourg",
+    "distanceKm": 11.8
+  },
+  "DAIGNAC": {
+    "bureau": "Branne",
+    "distanceKm": 5.4
+  },
+  "DARDENAC": {
+    "bureau": "Branne",
+    "distanceKm": 6.8
+  },
+  "DAUBEZE": {
+    "bureau": "Branne",
+    "distanceKm": 13.6
+  },
+  "DIEULIVOL": {
+    "bureau": "Monségur",
+    "distanceKm": 4.2
+  },
+  "DONNEZAC": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 18.1
+  },
+  "DONZAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 4.1
+  },
+  "DOULEZON": {
+    "bureau": "Branne",
+    "distanceKm": 14.8
+  },
+  "ESCAUDES": {
+    "bureau": "Bazas",
+    "distanceKm": 13.8
+  },
+  "ESCOUSSANS": {
+    "bureau": "Cadillac",
+    "distanceKm": 4.9
+  },
+  "ESPIET": {
+    "bureau": "Créon",
+    "distanceKm": 6.8
+  },
+  "EYNESSE": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 5.8
+  },
+  "EYRANS": {
+    "bureau": "Blaye",
+    "distanceKm": 8.5
+  },
+  "EYSINES": {
+    "bureau": "Bordeaux",
+    "distanceKm": 5.1
+  },
+  "FALEYRAS": {
+    "bureau": "Branne",
+    "distanceKm": 8.1
+  },
+  "FARGUES": {
+    "bureau": "Langon",
+    "distanceKm": 4.0
+  },
+  "FARGUES SAINT HILAIRE": {
+    "bureau": "Créon",
+    "distanceKm": 9.5
+  },
+  "FLAUJAGUES": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 15.1
+  },
+  "FLOIRAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 6.0
+  },
+  "FLOUDES": {
+    "bureau": "La Réole",
+    "distanceKm": 2.4
+  },
+  "FONTET": {
+    "bureau": "La Réole",
+    "distanceKm": 4.0
+  },
+  "FOSSES ET BALEYSSAC": {
+    "bureau": "Monségur",
+    "distanceKm": 6.0
+  },
+  "FOURS": {
+    "bureau": "Blaye",
+    "distanceKm": 5.3
+  },
+  "FRANCS": {
+    "bureau": "Coutras",
+    "distanceKm": 13.1
+  },
+  "FRONSAC": {
+    "bureau": "Libourne",
+    "distanceKm": 3.6
+  },
+  "FRONTENAC": {
+    "bureau": "Branne",
+    "distanceKm": 11.7
+  },
+  "GABARNAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 4.5
+  },
+  "GAILLAN EN MEDOC": {
+    "bureau": "Lesparre",
+    "distanceKm": 6.7
+  },
+  "GAJAC": {
+    "bureau": "Bazas",
+    "distanceKm": 6.6
+  },
+  "GALGON": {
+    "bureau": "Libourne",
+    "distanceKm": 9.4
+  },
+  "GANS": {
+    "bureau": "Bazas",
+    "distanceKm": 7.0
+  },
+  "GARDEGAN ET TOURTIRAC": {
+    "bureau": "Branne",
+    "distanceKm": 14.6
+  },
+  "GAURIAC": {
+    "bureau": "Bourg",
+    "distanceKm": 6.7
+  },
+  "GAURIAGUET": {
+    "bureau": "Bourg",
+    "distanceKm": 12.1
+  },
+  "GENSAC": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 11.4
+  },
+  "GIRONDE SUR DROPT": {
+    "bureau": "La Réole",
+    "distanceKm": 3.7
+  },
+  "GIRONDE": {
+    "bureau": "La Réole",
+    "distanceKm": 3.7
+  },
+  "GISCOS": {
+    "bureau": "Bazas",
+    "distanceKm": 20.1
+  },
+  "GORNAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 10.2
+  },
+  "GOUALADE": {
+    "bureau": "Bazas",
+    "distanceKm": 15.5
+  },
+  "GOURS": {
+    "bureau": "Coutras",
+    "distanceKm": 10.7
+  },
+  "GRADIGNAN": {
+    "bureau": "Bordeaux",
+    "distanceKm": 10.8
+  },
+  "GRAYAN ET L HOPITAL": {
+    "bureau": "Lesparre",
+    "distanceKm": 22.2
+  },
+  "GRIGNOLS": {
+    "bureau": "Bazas",
+    "distanceKm": 15.5
+  },
+  "GREZILLAC": {
+    "bureau": "Branne",
+    "distanceKm": 3.2
+  },
+  "GUILLAC": {
+    "bureau": "Branne",
+    "distanceKm": 3.8
+  },
+  "GUILLOS": {
+    "bureau": "La Brède",
+    "distanceKm": 14.2
+  },
+  "GUJAN MESTRAS": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 7.9
+  },
+  "GENISSAC": {
+    "bureau": "Libourne",
+    "distanceKm": 5.8
+  },
+  "GENERAC": {
+    "bureau": "Blaye",
+    "distanceKm": 10.6
+  },
+  "HAUX": {
+    "bureau": "Créon",
+    "distanceKm": 3.8
+  },
+  "HOSTENS": {
+    "bureau": "La Brède",
+    "distanceKm": 23.7
+  },
+  "HOURTIN": {
+    "bureau": "Lesparre",
+    "distanceKm": 14.8
+  },
+  "HURE": {
+    "bureau": "La Réole",
+    "distanceKm": 6.3
+  },
+  "ILLATS": {
+    "bureau": "Podensac",
+    "distanceKm": 4.7
+  },
+  "ISLE SAINT GEORGES": {
+    "bureau": "La Brède",
+    "distanceKm": 7.5
+  },
+  "IZON": {
+    "bureau": "Libourne",
+    "distanceKm": 9.7
+  },
+  "JAU DIGNAC ET LOIRAC": {
+    "bureau": "Lesparre",
+    "distanceKm": 17.1
+  },
+  "JUGAZAN": {
+    "bureau": "Branne",
+    "distanceKm": 6.1
+  },
+  "JUILLAC": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 13.3
+  },
+  "LABREDE": {
+    "bureau": "La Brède",
+    "distanceKm": 0.0
+  },
+  "LA LANDE DE FRONSAC": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 13.3
+  },
+  "LA RIVIERE": {
+    "bureau": "Libourne",
+    "distanceKm": 7.3
+  },
+  "LA ROQUILLE": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 6.2
+  },
+  "LA SAUVE": {
+    "bureau": "Créon",
+    "distanceKm": 2.3
+  },
+  "LA TESTE": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 0.0
+  },
+  "LABARDE": {
+    "bureau": "Bourg",
+    "distanceKm": 7.5
+  },
+  "LABESCAU": {
+    "bureau": "Bazas",
+    "distanceKm": 10.9
+  },
+  "LACANAU": {
+    "bureau": "Castelnau",
+    "distanceKm": 22.1
+  },
+  "LADAUX": {
+    "bureau": "Cadillac",
+    "distanceKm": 8.5
+  },
+  "LADOS": {
+    "bureau": "Bazas",
+    "distanceKm": 7.5
+  },
+  "LAFOSSE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "LAGORCE": {
+    "bureau": "Guîtres",
+    "distanceKm": 4.5
+  },
+  "LALANDE DE POMEROL": {
+    "bureau": "Libourne",
+    "distanceKm": 5.3
+  },
+  "LA LANDE DE LIBOURNE": {
+    "bureau": "Libourne",
+    "distanceKm": 5.3
+  },
+  "LAMARQUE": {
+    "bureau": "Blaye",
+    "distanceKm": 5.6
+  },
+  "LAMOTHE LANDERRON": {
+    "bureau": "La Réole",
+    "distanceKm": 8.6
+  },
+  "LANDERROUAT": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 11.8
+  },
+  "LANDERROUET SUR SEGUR": {
+    "bureau": "La Réole",
+    "distanceKm": 7.4
+  },
+  "LANDERROUET": {
+    "bureau": "La Réole",
+    "distanceKm": 7.4
+  },
+  "LANDIRAS": {
+    "bureau": "Podensac",
+    "distanceKm": 10.6
+  },
+  "LANGOIRAN": {
+    "bureau": "Podensac",
+    "distanceKm": 6.7
+  },
+  "LANSAC": {
+    "bureau": "Bourg",
+    "distanceKm": 3.0
+  },
+  "LANTON": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 26.1
+  },
+  "LAPOUYADE": {
+    "bureau": "Guîtres",
+    "distanceKm": 10.7
+  },
+  "LAROQUE": {
+    "bureau": "Cadillac",
+    "distanceKm": 2.1
+  },
+  "LARTIGUE": {
+    "bureau": "Bazas",
+    "distanceKm": 23.4
+  },
+  "LARUSCADE": {
+    "bureau": "Guîtres",
+    "distanceKm": 14.8
+  },
+  "LATRESNE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 10.6
+  },
+  "LAVAZAN": {
+    "bureau": "Bazas",
+    "distanceKm": 9.9
+  },
+  "LE BARP": {
+    "bureau": "La Brède",
+    "distanceKm": 17.0
+  },
+  "LE BOUSCAT": {
+    "bureau": "Bordeaux",
+    "distanceKm": 1.5
+  },
+  "LE FIEU": {
+    "bureau": "Coutras",
+    "distanceKm": 5.2
+  },
+  "LE HAILLAN": {
+    "bureau": "Bordeaux",
+    "distanceKm": 8.4
+  },
+  "LE NIZAN": {
+    "bureau": "Bazas",
+    "distanceKm": 6.1
+  },
+  "LE PIAN MEDOC": {
+    "bureau": "Blanquefort",
+    "distanceKm": 6.3
+  },
+  "LE PIAN": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 2.4
+  },
+  "LE PIAN SUR GARONNE": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 2.4
+  },
+  "LE PORGE": {
+    "bureau": "Castelnau",
+    "distanceKm": 29.4
+  },
+  "LE POUT": {
+    "bureau": "Créon",
+    "distanceKm": 4.1
+  },
+  "LE PUCH": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "LE PUY": {
+    "bureau": "Monségur",
+    "distanceKm": 2.3
+  },
+  "LE TAILLAN MEDOC": {
+    "bureau": "Blanquefort",
+    "distanceKm": 5.5
+  },
+  "LE TEICH": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 12.5
+  },
+  "LE TEMPLE": {
+    "bureau": "Castelnau",
+    "distanceKm": 19.0
+  },
+  "LE TOURNE": {
+    "bureau": "Créon",
+    "distanceKm": 7.0
+  },
+  "LE TUZAN": {
+    "bureau": "La Brède",
+    "distanceKm": 25.7
+  },
+  "LE VERDON SUR MER": {
+    "bureau": "Lesparre",
+    "distanceKm": 33.3
+  },
+  "LERM ET MUSSET": {
+    "bureau": "Bazas",
+    "distanceKm": 12.7
+  },
+  "LES ARTIGUES DE LUSSAC": {
+    "bureau": "Coutras",
+    "distanceKm": 8.2
+  },
+  "LES BILLAUX": {
+    "bureau": "Libourne",
+    "distanceKm": 5.5
+  },
+  "LES ESSEINTES": {
+    "bureau": "La Réole",
+    "distanceKm": 3.1
+  },
+  "LES LEVES ET THOUMEYRAGUES": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 7.4
+  },
+  "LES PEINTURES": {
+    "bureau": "Coutras",
+    "distanceKm": 2.6
+  },
+  "LES SALLES DE CASTILLON": {
+    "bureau": "Coutras",
+    "distanceKm": 16.6
+  },
+  "LES EGLISOTTES ET CHALAURES": {
+    "bureau": "Coutras",
+    "distanceKm": 7.7
+  },
+  "LESPARRE MEDOC": {
+    "bureau": "Lesparre",
+    "distanceKm": 0.0
+  },
+  "LESTIAC SUR GARONNE": {
+    "bureau": "Podensac",
+    "distanceKm": 5.4
+  },
+  "LIGNAN DE BAZAS": {
+    "bureau": "Bazas",
+    "distanceKm": 4.6
+  },
+  "LIGNAN DE BORDEAUX": {
+    "bureau": "Créon",
+    "distanceKm": 7.2
+  },
+  "LIGUEUX": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 6.4
+  },
+  "LISTRAC MEDOC": {
+    "bureau": "Castelnau",
+    "distanceKm": 7.5
+  },
+  "LISTRAC DE DUREZE": {
+    "bureau": "Monségur",
+    "distanceKm": 13.3
+  },
+  "LORMONT": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 3.3
+  },
+  "LOUBENS": {
+    "bureau": "La Réole",
+    "distanceKm": 4.7
+  },
+  "LOUCHATS": {
+    "bureau": "La Brède",
+    "distanceKm": 18.7
+  },
+  "LOUPES": {
+    "bureau": "Créon",
+    "distanceKm": 5.9
+  },
+  "LOUPIAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 2.4
+  },
+  "LOUPIAC DE LA REOLE": {
+    "bureau": "La Réole",
+    "distanceKm": 4.9
+  },
+  "LUCMAU": {
+    "bureau": "Bazas",
+    "distanceKm": 18.7
+  },
+  "LUDON MEDOC": {
+    "bureau": "Blanquefort",
+    "distanceKm": 6.8
+  },
+  "LUGAIGNAC": {
+    "bureau": "Branne",
+    "distanceKm": 2.2
+  },
+  "LUGASSON": {
+    "bureau": "Branne",
+    "distanceKm": 8.2
+  },
+  "LUGON ET L ILE DU CARNAY": {
+    "bureau": "Libourne",
+    "distanceKm": 11.0
+  },
+  "LUGOS": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 23.6
+  },
+  "LUSSAC": {
+    "bureau": "Coutras",
+    "distanceKm": 8.1
+  },
+  "LEGE CAP FERRET": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 17.7
+  },
+  "LEGE": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 17.7
+  },
+  "LEOGEATS": {
+    "bureau": "Langon",
+    "distanceKm": 10.3
+  },
+  "LEOGNAN": {
+    "bureau": "La Brède",
+    "distanceKm": 8.0
+  },
+  "MACAU": {
+    "bureau": "Bourg",
+    "distanceKm": 5.7
+  },
+  "MADIRAC": {
+    "bureau": "Créon",
+    "distanceKm": 4.3
+  },
+  "MARANSIN": {
+    "bureau": "Guîtres",
+    "distanceKm": 6.8
+  },
+  "MARCAMPS": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "MARCENAIS": {
+    "bureau": "Guîtres",
+    "distanceKm": 12.6
+  },
+  "MARCHEPRIME": {
+    "bureau": "La Brède",
+    "distanceKm": 25.1
+  },
+  "MARCILLAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "MARGAUX CANTENAC": {
+    "bureau": "Bourg",
+    "distanceKm": 10.2
+  },
+  "MARGAUX": {
+    "bureau": "Bourg",
+    "distanceKm": 10.2
+  },
+  "MARGUERON": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 8.7
+  },
+  "MARIMBAULT": {
+    "bureau": "Bazas",
+    "distanceKm": 4.5
+  },
+  "MARIONS": {
+    "bureau": "Bazas",
+    "distanceKm": 12.8
+  },
+  "MARSAS": {
+    "bureau": "Bourg",
+    "distanceKm": 13.7
+  },
+  "MARTIGNAS SUR JALLE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 17.1
+  },
+  "MARTILLAC": {
+    "bureau": "La Brède",
+    "distanceKm": 4.7
+  },
+  "MARTRES": {
+    "bureau": "Cadillac",
+    "distanceKm": 13.0
+  },
+  "MASSEILLES": {
+    "bureau": "Bazas",
+    "distanceKm": 13.4
+  },
+  "MASSUGAS": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 12.7
+  },
+  "MAURIAC": {
+    "bureau": "Monségur",
+    "distanceKm": 13.9
+  },
+  "MAZION": {
+    "bureau": "Blaye",
+    "distanceKm": 6.5
+  },
+  "MAZERES": {
+    "bureau": "Langon",
+    "distanceKm": 3.8
+  },
+  "MESTERRIEUX": {
+    "bureau": "La Réole",
+    "distanceKm": 6.9
+  },
+  "MIOS": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 23.1
+  },
+  "MOMBRIER": {
+    "bureau": "Bourg",
+    "distanceKm": 4.2
+  },
+  "MONBADON": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "MONGAUZY": {
+    "bureau": "La Réole",
+    "distanceKm": 5.6
+  },
+  "MONPRIMBLANC": {
+    "bureau": "Cadillac",
+    "distanceKm": 4.4
+  },
+  "MONTAGNE": {
+    "bureau": "Libourne",
+    "distanceKm": 8.4
+  },
+  "MONTAGOUDIN": {
+    "bureau": "La Réole",
+    "distanceKm": 4.0
+  },
+  "MONTIGNAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 11.1
+  },
+  "MONTUSSAN": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 6.0
+  },
+  "MORIZES": {
+    "bureau": "La Réole",
+    "distanceKm": 5.1
+  },
+  "MOUILLAC": {
+    "bureau": "Guîtres",
+    "distanceKm": 13.5
+  },
+  "MOULIETS ET VILLEMARTIN": {
+    "bureau": "Branne",
+    "distanceKm": 12.5
+  },
+  "MOULIS EN MEDOC": {
+    "bureau": "Castelnau",
+    "distanceKm": 5.7
+  },
+  "MOULON": {
+    "bureau": "Branne",
+    "distanceKm": 4.7
+  },
+  "MOURENS": {
+    "bureau": "Cadillac",
+    "distanceKm": 7.5
+  },
+  "MERIGNAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 8.4
+  },
+  "MERIGNAS": {
+    "bureau": "Branne",
+    "distanceKm": 9.0
+  },
+  "NAUJAC SUR MER": {
+    "bureau": "Lesparre",
+    "distanceKm": 11.2
+  },
+  "NAUJAN ET POSTIAC": {
+    "bureau": "Branne",
+    "distanceKm": 4.8
+  },
+  "NEUFFONS": {
+    "bureau": "Monségur",
+    "distanceKm": 5.8
+  },
+  "NOAILLAC": {
+    "bureau": "La Réole",
+    "distanceKm": 8.0
+  },
+  "NOAILLAN": {
+    "bureau": "Langon",
+    "distanceKm": 11.8
+  },
+  "NEAC": {
+    "bureau": "Libourne",
+    "distanceKm": 5.4
+  },
+  "NERIGEAN": {
+    "bureau": "Branne",
+    "distanceKm": 8.1
+  },
+  "OMET": {
+    "bureau": "Cadillac",
+    "distanceKm": 2.3
+  },
+  "ORDONNAC": {
+    "bureau": "Lesparre",
+    "distanceKm": 7.4
+  },
+  "ORIGNE": {
+    "bureau": "La Brède",
+    "distanceKm": 19.6
+  },
+  "PAILLET": {
+    "bureau": "Podensac",
+    "distanceKm": 4.3
+  },
+  "PAREMPUYRE": {
+    "bureau": "Blanquefort",
+    "distanceKm": 4.2
+  },
+  "PARSAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "PELLEGRUE": {
+    "bureau": "Monségur",
+    "distanceKm": 10.4
+  },
+  "PESSAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 11.4
+  },
+  "PESSAC SUR DORDOGNE": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 10.1
+  },
+  "PETIT PALAIS ET CORNEMPS": {
+    "bureau": "Coutras",
+    "distanceKm": 7.5
+  },
+  "PEUJARD": {
+    "bureau": "Bourg",
+    "distanceKm": 9.3
+  },
+  "PINEUILH": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 2.0
+  },
+  "PLASSAC": {
+    "bureau": "Blaye",
+    "distanceKm": 4.6
+  },
+  "PLEINE SELVE": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 7.4
+  },
+  "POMEROL": {
+    "bureau": "Libourne",
+    "distanceKm": 3.2
+  },
+  "POMPIGNAC": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 7.6
+  },
+  "POMPEJAC": {
+    "bureau": "Bazas",
+    "distanceKm": 8.0
+  },
+  "PONDAURAT": {
+    "bureau": "La Réole",
+    "distanceKm": 6.8
+  },
+  "PORCHERES": {
+    "bureau": "Coutras",
+    "distanceKm": 7.9
+  },
+  "PORTE DE BENAUGE": {
+    "bureau": "Cadillac",
+    "distanceKm": 7.1
+  },
+  "ARBIS": {
+    "bureau": "Cadillac",
+    "distanceKm": 7.1
+  },
+  "PORTETS": {
+    "bureau": "Podensac",
+    "distanceKm": 6.4
+  },
+  "PREIGNAC": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 6.2
+  },
+  "PRIGNAC EN MEDOC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "PRIGNAC ET MARCAMPS": {
+    "bureau": "Bourg",
+    "distanceKm": 4.1
+  },
+  "PRIGNAC ET CAZELLES": {
+    "bureau": "Bourg",
+    "distanceKm": 4.1
+  },
+  "PRECHAC": {
+    "bureau": "Bazas",
+    "distanceKm": 13.7
+  },
+  "PUGNAC": {
+    "bureau": "Bourg",
+    "distanceKm": 6.1
+  },
+  "PUISSEGUIN": {
+    "bureau": "Coutras",
+    "distanceKm": 12.6
+  },
+  "PUJOLS": {
+    "bureau": "Branne",
+    "distanceKm": 12.2
+  },
+  "PUJOLS SUR CIRON": {
+    "bureau": "Cadillac",
+    "distanceKm": 8.7
+  },
+  "PUYBARBAN": {
+    "bureau": "La Réole",
+    "distanceKm": 5.2
+  },
+  "PUYNORMAND": {
+    "bureau": "Coutras",
+    "distanceKm": 10.1
+  },
+  "PERISSAC": {
+    "bureau": "Guîtres",
+    "distanceKm": 10.3
+  },
+  "QUEYRAC": {
+    "bureau": "Lesparre",
+    "distanceKm": 10.2
+  },
+  "QUINSAC": {
+    "bureau": "La Brède",
+    "distanceKm": 9.1
+  },
+  "RAUZAN": {
+    "bureau": "Branne",
+    "distanceKm": 6.6
+  },
+  "REIGNAC": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 13.6
+  },
+  "RIMONS": {
+    "bureau": "Monségur",
+    "distanceKm": 6.5
+  },
+  "RIOCAUD": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 10.3
+  },
+  "RIONS": {
+    "bureau": "Podensac",
+    "distanceKm": 3.1
+  },
+  "ROAILLAN": {
+    "bureau": "Langon",
+    "distanceKm": 4.3
+  },
+  "ROMAGNE": {
+    "bureau": "Branne",
+    "distanceKm": 7.5
+  },
+  "ROQUEBRUNE": {
+    "bureau": "Monségur",
+    "distanceKm": 6.0
+  },
+  "RUCH": {
+    "bureau": "Branne",
+    "distanceKm": 13.1
+  },
+  "SABLONS": {
+    "bureau": "Guîtres",
+    "distanceKm": 2.3
+  },
+  "SADIRAC": {
+    "bureau": "Créon",
+    "distanceKm": 4.3
+  },
+  "SAILLANS": {
+    "bureau": "Libourne",
+    "distanceKm": 5.6
+  },
+  "SAINT AIGNAN": {
+    "bureau": "Libourne",
+    "distanceKm": 6.3
+  },
+  "SAINT ANDRONY": {
+    "bureau": "Pauillac",
+    "distanceKm": 5.8
+  },
+  "SAINT ANDRE DE CUBZAC": {
+    "bureau": "Bourg",
+    "distanceKm": 10.0
+  },
+  "SAINT ANDRE DU BOIS": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 6.0
+  },
+  "SAINT ANDRE DU GARN": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT ANDRE ET APPELLES": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 4.1
+  },
+  "SAINT ANTOINE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT ANTOINE DU QUEYRET": {
+    "bureau": "Monségur",
+    "distanceKm": 14.2
+  },
+  "SAINT ANTOINE SUR L ISLE": {
+    "bureau": "Coutras",
+    "distanceKm": 11.4
+  },
+  "SAINT AUBIN DE BLAYE": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 8.0
+  },
+  "SAINT AUBIN DE BRANNE": {
+    "bureau": "Branne",
+    "distanceKm": 2.3
+  },
+  "SAINT AUBIN DE MEDOC": {
+    "bureau": "Castelnau",
+    "distanceKm": 9.4
+  },
+  "SAINT AVIT SAINT NAZAIRE": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 4.7
+  },
+  "SAINT AVIT DU MOIRON": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 4.7
+  },
+  "SAINT AVIT DE SOULEGE": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 8.3
+  },
+  "SAINT BRICE": {
+    "bureau": "La Réole",
+    "distanceKm": 14.0
+  },
+  "SAINT CAPRAIS DE BORDEAUX": {
+    "bureau": "Créon",
+    "distanceKm": 6.7
+  },
+  "SAINT CHRISTOLY MEDOC": {
+    "bureau": "Lesparre",
+    "distanceKm": 13.0
+  },
+  "SAINT CHRISTOLY DE BLAYE": {
+    "bureau": "Bourg",
+    "distanceKm": 12.9
+  },
+  "SAINT CHRISTOLY": {
+    "bureau": "Bourg",
+    "distanceKm": 12.9
+  },
+  "SAINT CHRISTOPHE DE DOUBLE": {
+    "bureau": "Coutras",
+    "distanceKm": 10.8
+  },
+  "SAINT CHRISTOPHE DES BARDES": {
+    "bureau": "Branne",
+    "distanceKm": 8.9
+  },
+  "SAINT CIBARD": {
+    "bureau": "Coutras",
+    "distanceKm": 12.7
+  },
+  "SAINT CIERS D ABZAC": {
+    "bureau": "Guîtres",
+    "distanceKm": 8.4
+  },
+  "SAINT CIERS DE CANESSE": {
+    "bureau": "Bourg",
+    "distanceKm": 6.9
+  },
+  "SAINT COME": {
+    "bureau": "Bazas",
+    "distanceKm": 3.9
+  },
+  "SAINT DENIS DE PILE": {
+    "bureau": "Guîtres",
+    "distanceKm": 6.1
+  },
+  "SAINT ESTEPHE": {
+    "bureau": "Pauillac",
+    "distanceKm": 6.4
+  },
+  "SAINT EXUPERY": {
+    "bureau": "La Réole",
+    "distanceKm": 6.8
+  },
+  "SAINT FERME": {
+    "bureau": "Monségur",
+    "distanceKm": 5.8
+  },
+  "SAINT FELIX DE FONCAUDE": {
+    "bureau": "La Réole",
+    "distanceKm": 8.8
+  },
+  "SAINT GENIS DU BOIS": {
+    "bureau": "Cadillac",
+    "distanceKm": 11.8
+  },
+  "SAINT GENES DE BLAYE": {
+    "bureau": "Blaye",
+    "distanceKm": 3.7
+  },
+  "SAINT GENES DE CASTILLON": {
+    "bureau": "Branne",
+    "distanceKm": 12.2
+  },
+  "SAINT GENES": {
+    "bureau": "Branne",
+    "distanceKm": 12.2
+  },
+  "SAINT GENES DE FRONSAC": {
+    "bureau": "Guîtres",
+    "distanceKm": 12.9
+  },
+  "SAINT GENES DE LOMBAUD": {
+    "bureau": "Créon",
+    "distanceKm": 3.4
+  },
+  "SAINT GEORGES": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN D ESTEUIL": {
+    "bureau": "Lesparre",
+    "distanceKm": 4.0
+  },
+  "SAINT GERMAIN DE GRAVE": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 6.9
+  },
+  "SAINT GERMAIN DE LA RIVIERE": {
+    "bureau": "Libourne",
+    "distanceKm": 8.4
+  },
+  "SAINT GERMAIN DU PUCH": {
+    "bureau": "Créon",
+    "distanceKm": 9.4
+  },
+  "SAINT GERVAIS": {
+    "bureau": "Bourg",
+    "distanceKm": 6.9
+  },
+  "SAINT GIRONS D AIGUEVIVES": {
+    "bureau": "Blaye",
+    "distanceKm": 10.3
+  },
+  "SAINT GIRONS": {
+    "bureau": "Blaye",
+    "distanceKm": 10.3
+  },
+  "SAINT HILAIRE DE LA NOAILLE": {
+    "bureau": "La Réole",
+    "distanceKm": 4.5
+  },
+  "SAINT HILAIRE DU BOIS": {
+    "bureau": "La Réole",
+    "distanceKm": 8.7
+  },
+  "SAINT HIPPOLYTE": {
+    "bureau": "Branne",
+    "distanceKm": 6.9
+  },
+  "SAINT JEAN D ILLAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 19.6
+  },
+  "SAINT JEAN DE BLAIGNAC": {
+    "bureau": "Branne",
+    "distanceKm": 4.5
+  },
+  "SAINT JULIEN BEYCHEVELLE": {
+    "bureau": "Pauillac",
+    "distanceKm": 4.4
+  },
+  "SAINT LAURENT MEDOC": {
+    "bureau": "Pauillac",
+    "distanceKm": 10.2
+  },
+  "SAINT LAURENT ET BENON": {
+    "bureau": "Pauillac",
+    "distanceKm": 10.2
+  },
+  "SAINT LAURENT D ARCE": {
+    "bureau": "Bourg",
+    "distanceKm": 6.3
+  },
+  "SAINT LAURENT DES COMBES": {
+    "bureau": "Branne",
+    "distanceKm": 5.9
+  },
+  "SAINT LAURENT DU BOIS": {
+    "bureau": "La Réole",
+    "distanceKm": 9.7
+  },
+  "SAINT LAURENT DU PLAN": {
+    "bureau": "La Réole",
+    "distanceKm": 7.2
+  },
+  "SAINT LOUBERT": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 5.4
+  },
+  "SAINT LOUBES": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 6.3
+  },
+  "SAINT LOUIS DE MONTFERRAND": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 6.7
+  },
+  "SAINT LEGER DE BALSON": {
+    "bureau": "Bazas",
+    "distanceKm": 17.8
+  },
+  "SAINT LEGER DE VIGNAGUE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT LEON": {
+    "bureau": "Créon",
+    "distanceKm": 5.3
+  },
+  "SAINT MAGNE": {
+    "bureau": "La Brède",
+    "distanceKm": 16.4
+  },
+  "SAINT MAGNE DE CASTILLON": {
+    "bureau": "Branne",
+    "distanceKm": 9.0
+  },
+  "SAINT MAIXANT": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 2.3
+  },
+  "SAINT MARIENS": {
+    "bureau": "Bourg",
+    "distanceKm": 14.3
+  },
+  "SAINT MARTIAL": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 8.8
+  },
+  "SAINT MARTIN LACAUSSADE": {
+    "bureau": "Blaye",
+    "distanceKm": 2.2
+  },
+  "SAINT MARTIN": {
+    "bureau": "Blaye",
+    "distanceKm": 2.2
+  },
+  "SAINT MARTIN DE LAYE": {
+    "bureau": "Guîtres",
+    "distanceKm": 3.7
+  },
+  "SAINT MARTIN DE LERM": {
+    "bureau": "La Réole",
+    "distanceKm": 6.8
+  },
+  "SAINT MARTIN DE SESCAS": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 6.0
+  },
+  "SAINT MARTIN DU BOIS": {
+    "bureau": "Guîtres",
+    "distanceKm": 6.5
+  },
+  "SAINT MARTIN DU PUY": {
+    "bureau": "La Réole",
+    "distanceKm": 9.8
+  },
+  "SAINT MICHEL DE CASTELNAU": {
+    "bureau": "Bazas",
+    "distanceKm": 19.6
+  },
+  "SAINT MICHEL DE FRONSAC": {
+    "bureau": "Libourne",
+    "distanceKm": 5.5
+  },
+  "SAINT MICHEL DE LAPUJADE": {
+    "bureau": "Monségur",
+    "distanceKm": 6.8
+  },
+  "SAINT MICHEL": {
+    "bureau": "Monségur",
+    "distanceKm": 6.8
+  },
+  "SAINT MICHEL DE RIEUFRET": {
+    "bureau": "Podensac",
+    "distanceKm": 7.3
+  },
+  "SAINT MORILLON": {
+    "bureau": "La Brède",
+    "distanceKm": 4.5
+  },
+  "SAINT MEDARD D EYRANS": {
+    "bureau": "La Brède",
+    "distanceKm": 4.6
+  },
+  "SAINT MEDARD DE GUIZIERES": {
+    "bureau": "Coutras",
+    "distanceKm": 3.9
+  },
+  "SAINT MEDARD EN JALLES": {
+    "bureau": "Castelnau",
+    "distanceKm": 13.3
+  },
+  "SAINT NAZAIRE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT PALAIS": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 5.2
+  },
+  "SAINT PARDON DE CONQUES": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 3.8
+  },
+  "SAINT PAUL": {
+    "bureau": "Blaye",
+    "distanceKm": 6.3
+  },
+  "SAINT PEY D ARMENS": {
+    "bureau": "Branne",
+    "distanceKm": 5.7
+  },
+  "SAINT PEY DE CASTETS": {
+    "bureau": "Branne",
+    "distanceKm": 9.1
+  },
+  "SAINT PHILIPPE D AIGUILLE": {
+    "bureau": "Coutras",
+    "distanceKm": 14.6
+  },
+  "SAINT PHILIPPE DU SEIGNAL": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 3.2
+  },
+  "SAINT PHILIPPE DE SEIGNAC": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 3.2
+  },
+  "SAINT PIERRE D AURILLAC": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 3.8
+  },
+  "SAINT PIERRE DE BAT": {
+    "bureau": "Cadillac",
+    "distanceKm": 7.6
+  },
+  "SAINT PIERRE DE MONS": {
+    "bureau": "Langon",
+    "distanceKm": 2.2
+  },
+  "SAINT QUENTIN DE BARON": {
+    "bureau": "Créon",
+    "distanceKm": 7.4
+  },
+  "SAINT QUENTIN DE CAPLONG": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 8.1
+  },
+  "SAINT ROMAIN DE VIGNAGUE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SAINT ROMAIN LA VIRVEE": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 9.2
+  },
+  "SAINT SAUVEUR": {
+    "bureau": "Pauillac",
+    "distanceKm": 5.3
+  },
+  "SAINT SAUVEUR DE PUYNORMAND": {
+    "bureau": "Coutras",
+    "distanceKm": 7.4
+  },
+  "SAINT SAVIN": {
+    "bureau": "Bourg",
+    "distanceKm": 15.8
+  },
+  "SAINT SELVE": {
+    "bureau": "La Brède",
+    "distanceKm": 5.8
+  },
+  "SAINT SEURIN DE BOURG": {
+    "bureau": "Bourg",
+    "distanceKm": 3.0
+  },
+  "SAINT SEURIN": {
+    "bureau": "Bourg",
+    "distanceKm": 3.0
+  },
+  "SAINT SEURIN DE CADOURNE": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 9.6
+  },
+  "SAINT SEURIN DE CURSAC": {
+    "bureau": "Blaye",
+    "distanceKm": 4.4
+  },
+  "SAINT SEURIN SUR L ISLE": {
+    "bureau": "Coutras",
+    "distanceKm": 8.3
+  },
+  "SAINT SULPICE DE FALEYRENS": {
+    "bureau": "Branne",
+    "distanceKm": 3.6
+  },
+  "SAINT SULPICE DE GUILLERAGUES": {
+    "bureau": "Monségur",
+    "distanceKm": 3.7
+  },
+  "SAINT SULPICE DE POMMIERS": {
+    "bureau": "La Réole",
+    "distanceKm": 11.3
+  },
+  "SAINT SULPICE ET CAMEYRAC": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 9.5
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Bazas",
+    "distanceKm": 26.5
+  },
+  "SAINT SEVE": {
+    "bureau": "La Réole",
+    "distanceKm": 2.9
+  },
+  "SAINT TROJAN": {
+    "bureau": "Bourg",
+    "distanceKm": 6.0
+  },
+  "SAINT VINCENT DE PAUL": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 7.8
+  },
+  "SAINT VINCENT DE PERTIGNAS": {
+    "bureau": "Branne",
+    "distanceKm": 6.3
+  },
+  "SAINT VIVIEN DE BLAYE": {
+    "bureau": "Bourg",
+    "distanceKm": 8.0
+  },
+  "SAINT VIVIEN DE MONSEGUR": {
+    "bureau": "Monségur",
+    "distanceKm": 4.3
+  },
+  "SAINT VIVIEN DE MEDOC": {
+    "bureau": "Lesparre",
+    "distanceKm": 21.7
+  },
+  "SAINT YZAN DE SOUDIAC": {
+    "bureau": "Bourg",
+    "distanceKm": 17.1
+  },
+  "SAINT YZANS DE MEDOC": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 11.3
+  },
+  "SAINT EMILION": {
+    "bureau": "Libourne",
+    "distanceKm": 5.2
+  },
+  "SAINT ETIENNE DE LISSE": {
+    "bureau": "Branne",
+    "distanceKm": 9.1
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Branne",
+    "distanceKm": 10.7
+  },
+  "SAINTE CROIX DU MONT": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 4.8
+  },
+  "SAINTE EULALIE": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 1.7
+  },
+  "SAINTE FLORENCE": {
+    "bureau": "Branne",
+    "distanceKm": 7.0
+  },
+  "SAINTE FOY LA LONGUE": {
+    "bureau": "La Réole",
+    "distanceKm": 8.3
+  },
+  "SAINTE GEMME": {
+    "bureau": "Monségur",
+    "distanceKm": 3.3
+  },
+  "SAINTE HELENE": {
+    "bureau": "Castelnau",
+    "distanceKm": 8.3
+  },
+  "SAINTE RADEGONDE": {
+    "bureau": "Sainte-Foy-la-Grande",
+    "distanceKm": 15.5
+  },
+  "SAINTE TERRE": {
+    "bureau": "Branne",
+    "distanceKm": 4.8
+  },
+  "SALAUNES": {
+    "bureau": "Castelnau",
+    "distanceKm": 8.8
+  },
+  "SALIGNAC": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SALLEBRUNEAU": {
+    "bureau": "Bordeaux",
+    "distanceKm": 0.0
+  },
+  "SALLEBŒUF": {
+    "bureau": "Créon",
+    "distanceKm": 9.0
+  },
+  "SALLES": {
+    "bureau": "La Teste-de-Buch",
+    "distanceKm": 23.7
+  },
+  "SAMONAC": {
+    "bureau": "Bourg",
+    "distanceKm": 3.9
+  },
+  "SAUCATS": {
+    "bureau": "La Brède",
+    "distanceKm": 8.4
+  },
+  "SAUGON": {
+    "bureau": "Blaye",
+    "distanceKm": 14.4
+  },
+  "SAUMOS": {
+    "bureau": "Castelnau",
+    "distanceKm": 17.9
+  },
+  "SAUTERNES": {
+    "bureau": "Langon",
+    "distanceKm": 8.1
+  },
+  "SAUVETERRE DE GUYENNE": {
+    "bureau": "La Réole",
+    "distanceKm": 12.9
+  },
+  "SAUVIAC": {
+    "bureau": "Bazas",
+    "distanceKm": 5.3
+  },
+  "SAVIGNAC": {
+    "bureau": "La Réole",
+    "distanceKm": 9.4
+  },
+  "SAVIGNAC DE L ISLE": {
+    "bureau": "Guîtres",
+    "distanceKm": 7.7
+  },
+  "SEMENS": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 5.5
+  },
+  "SENDETS": {
+    "bureau": "Bazas",
+    "distanceKm": 10.0
+  },
+  "SIGALENS": {
+    "bureau": "La Réole",
+    "distanceKm": 14.5
+  },
+  "SILLAS": {
+    "bureau": "Bazas",
+    "distanceKm": 14.8
+  },
+  "SOULAC SUR MER": {
+    "bureau": "Lesparre",
+    "distanceKm": 27.6
+  },
+  "SOULIGNAC": {
+    "bureau": "Cadillac",
+    "distanceKm": 6.2
+  },
+  "SOUSSAC": {
+    "bureau": "Monségur",
+    "distanceKm": 11.6
+  },
+  "SOUSSANS": {
+    "bureau": "Blaye",
+    "distanceKm": 8.7
+  },
+  "TABANAC": {
+    "bureau": "Créon",
+    "distanceKm": 7.4
+  },
+  "TAILLECAVAT": {
+    "bureau": "Monségur",
+    "distanceKm": 5.6
+  },
+  "TALAIS": {
+    "bureau": "Lesparre",
+    "distanceKm": 25.9
+  },
+  "TALENCE": {
+    "bureau": "Bordeaux",
+    "distanceKm": 6.3
+  },
+  "TARGON": {
+    "bureau": "Créon",
+    "distanceKm": 6.9
+  },
+  "TARNES": {
+    "bureau": "Libourne",
+    "distanceKm": 11.8
+  },
+  "TAURIAC": {
+    "bureau": "Bourg",
+    "distanceKm": 3.6
+  },
+  "TAYAC": {
+    "bureau": "Coutras",
+    "distanceKm": 10.7
+  },
+  "TEUILLAC": {
+    "bureau": "Bourg",
+    "distanceKm": 6.8
+  },
+  "TIZAC DE CURTON": {
+    "bureau": "Branne",
+    "distanceKm": 4.9
+  },
+  "TIZAC DE LAPOUYADE": {
+    "bureau": "Guîtres",
+    "distanceKm": 10.3
+  },
+  "TOULENNE": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 3.2
+  },
+  "TRESSES": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 6.6
+  },
+  "UZESTE": {
+    "bureau": "Bazas",
+    "distanceKm": 8.7
+  },
+  "VAL DE LIVENNE": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 12.3
+  },
+  "SAINT CAPRAIS DE BLAYE": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 12.3
+  },
+  "SAINT CAPRAIS": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 12.3
+  },
+  "VAL DE VIRVEE": {
+    "bureau": "Bourg",
+    "distanceKm": 12.7
+  },
+  "AUBIE ET ESPESSAS": {
+    "bureau": "Bourg",
+    "distanceKm": 12.7
+  },
+  "VALEYRAC": {
+    "bureau": "Lesparre",
+    "distanceKm": 14.5
+  },
+  "VAYRES": {
+    "bureau": "Libourne",
+    "distanceKm": 7.7
+  },
+  "VENDAYS MONTALIVET": {
+    "bureau": "Lesparre",
+    "distanceKm": 14.9
+  },
+  "VENDAYS": {
+    "bureau": "Lesparre",
+    "distanceKm": 14.9
+  },
+  "VENSAC": {
+    "bureau": "Lesparre",
+    "distanceKm": 18.6
+  },
+  "VERDELAIS": {
+    "bureau": "Saint-Macaire",
+    "distanceKm": 3.5
+  },
+  "VERTHEUIL": {
+    "bureau": "Lesparre",
+    "distanceKm": 6.6
+  },
+  "VIGNONET": {
+    "bureau": "Branne",
+    "distanceKm": 3.3
+  },
+  "VILLANDRAUT": {
+    "bureau": "Bazas",
+    "distanceKm": 13.0
+  },
+  "VILLEGOUGE": {
+    "bureau": "Libourne",
+    "distanceKm": 9.4
+  },
+  "VILLENAVE D ORNON": {
+    "bureau": "Bordeaux",
+    "distanceKm": 10.2
+  },
+  "VILLENAVE DE RIONS": {
+    "bureau": "Podensac",
+    "distanceKm": 4.8
+  },
+  "VILLENEUVE": {
+    "bureau": "Blaye",
+    "distanceKm": 6.1
+  },
+  "VIRELADE": {
+    "bureau": "Podensac",
+    "distanceKm": 3.3
+  },
+  "VIRSAC": {
+    "bureau": "Bourg",
+    "distanceKm": 8.9
+  },
+  "VERAC": {
+    "bureau": "Libourne",
+    "distanceKm": 12.2
+  },
+  "YVRAC": {
+    "bureau": "Carbon-Blanc",
+    "distanceKm": 3.3
+  },
+  "ETAULIERS": {
+    "bureau": "Saint-Ciers-sur-Gironde",
+    "distanceKm": 10.2
+  }
+}

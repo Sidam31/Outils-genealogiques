@@ -1,0 +1,2418 @@
+{
+  "ABELCOURT": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 6.8
+  },
+  "ABONCOURT GESINCOURT": {
+    "bureau": "Amance",
+    "distanceKm": 6.2
+  },
+  "ABONCOURT": {
+    "bureau": "Amance",
+    "distanceKm": 6.2
+  },
+  "ACHEY": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 5.4
+  },
+  "ADELANS ET LE VAL DE BITHAINE": {
+    "bureau": "Lure",
+    "distanceKm": 7.6
+  },
+  "ADELANS": {
+    "bureau": "Lure",
+    "distanceKm": 7.6
+  },
+  "AILLEVANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 3.4
+  },
+  "AILLEVILLERS ET LYAUMONT": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 6.8
+  },
+  "AILLONCOURT": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 8.0
+  },
+  "AINVELLE": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 5.0
+  },
+  "AISEY ET RICHECOURT": {
+    "bureau": "Jussey",
+    "distanceKm": 8.6
+  },
+  "ALAINCOURT": {
+    "bureau": "Vauvillers",
+    "distanceKm": 1.8
+  },
+  "AMAGE": {
+    "bureau": "Faucogney",
+    "distanceKm": 6.7
+  },
+  "AMBIEVILLERS": {
+    "bureau": "Vauvillers",
+    "distanceKm": 7.2
+  },
+  "AMBLANS ET VELOTTE": {
+    "bureau": "Lure",
+    "distanceKm": 5.5
+  },
+  "AMONCOURT": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 5.6
+  },
+  "AMONT ET EFFRENEY": {
+    "bureau": "Faucogney",
+    "distanceKm": 4.6
+  },
+  "ANCHENONCOURT ET CHAZEL": {
+    "bureau": "Vauvillers",
+    "distanceKm": 7.3
+  },
+  "ANCIER": {
+    "bureau": "Gray",
+    "distanceKm": 2.2
+  },
+  "ANDELARRE": {
+    "bureau": "Vesoul",
+    "distanceKm": 6.6
+  },
+  "ANDELARROT": {
+    "bureau": "Vesoul",
+    "distanceKm": 7.2
+  },
+  "ANDORNAY": {
+    "bureau": "Champagney",
+    "distanceKm": 7.8
+  },
+  "ANGIREY": {
+    "bureau": "Gy",
+    "distanceKm": 6.4
+  },
+  "ANJEUX": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 4.2
+  },
+  "APREMONT": {
+    "bureau": "Gray",
+    "distanceKm": 7.5
+  },
+  "ARBECEY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 4.4
+  },
+  "ARC LES GRAY": {
+    "bureau": "Gray",
+    "distanceKm": 4.2
+  },
+  "ARC": {
+    "bureau": "Gray",
+    "distanceKm": 4.2
+  },
+  "ARGILLIERES": {
+    "bureau": "Champlitte",
+    "distanceKm": 10.1
+  },
+  "AROZ": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 7.7
+  },
+  "ARPENANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.0
+  },
+  "ARSANS": {
+    "bureau": "Gray",
+    "distanceKm": 7.2
+  },
+  "ATHESANS ETROITEFONTAINE": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.7
+  },
+  "ATHESANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.7
+  },
+  "ATTRICOURT": {
+    "bureau": "Gray",
+    "distanceKm": 16.6
+  },
+  "AUBERTANS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "AUBIGNEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "AUGICOURT": {
+    "bureau": "Jussey",
+    "distanceKm": 5.9
+  },
+  "AULX LES CROMARY": {
+    "bureau": "Rioz",
+    "distanceKm": 7.8
+  },
+  "AUTET": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 3.8
+  },
+  "AUTHOISON": {
+    "bureau": "Rioz",
+    "distanceKm": 7.1
+  },
+  "AUTOREILLE": {
+    "bureau": "Gy",
+    "distanceKm": 3.6
+  },
+  "AUTREY LE VAY": {
+    "bureau": "Villersexel",
+    "distanceKm": 3.4
+  },
+  "AUTREY LES CERRE": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 4.4
+  },
+  "AUTREY LES GRAY": {
+    "bureau": "Gray",
+    "distanceKm": 10.6
+  },
+  "AUVET ET LA CHAPELOTTE": {
+    "bureau": "Gray",
+    "distanceKm": 10.9
+  },
+  "AUXON": {
+    "bureau": "Vesoul",
+    "distanceKm": 7.2
+  },
+  "AVRIGNEY VIREY": {
+    "bureau": "Marnay",
+    "distanceKm": 4.9
+  },
+  "AVRIGNEY": {
+    "bureau": "Marnay",
+    "distanceKm": 4.9
+  },
+  "BAIGNES": {
+    "bureau": "Vesoul",
+    "distanceKm": 9.8
+  },
+  "BARD LES PESMES": {
+    "bureau": "Pesmes",
+    "distanceKm": 4.3
+  },
+  "BARGES": {
+    "bureau": "Jussey",
+    "distanceKm": 6.9
+  },
+  "BASSIGNEY": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 9.6
+  },
+  "BATTRANS": {
+    "bureau": "Gray",
+    "distanceKm": 2.0
+  },
+  "BAUDONCOURT": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 5.8
+  },
+  "BAULAY": {
+    "bureau": "Amance",
+    "distanceKm": 2.4
+  },
+  "BAY": {
+    "bureau": "Marnay",
+    "distanceKm": 4.3
+  },
+  "BEAUJEU SAINT VALLIER PIERREJUX ET QUITTEUR": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 8.9
+  },
+  "BEAUJEU SAINT VALLIER ET PIERREJUX": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 8.9
+  },
+  "BEAUMOTTE AUBERTANS": {
+    "bureau": "Rioz",
+    "distanceKm": 6.3
+  },
+  "BEAUMOTTE LES MONTBOZON ET AUBERTANS": {
+    "bureau": "Rioz",
+    "distanceKm": 6.3
+  },
+  "BEAUMOTTE LES MONTBOZON": {
+    "bureau": "Rioz",
+    "distanceKm": 6.3
+  },
+  "BEAUMOTTE LES PIN": {
+    "bureau": "Marnay",
+    "distanceKm": 5.0
+  },
+  "BELFAHY": {
+    "bureau": "Champagney",
+    "distanceKm": 10.3
+  },
+  "BELLES FONTAINES": {
+    "bureau": "Villersexel",
+    "distanceKm": 10.8
+  },
+  "COURCHATON": {
+    "bureau": "Villersexel",
+    "distanceKm": 10.8
+  },
+  "BELMONT": {
+    "bureau": "Melisey",
+    "distanceKm": 5.4
+  },
+  "BELONCHAMP": {
+    "bureau": "Melisey",
+    "distanceKm": 4.3
+  },
+  "BELVERNE": {
+    "bureau": "Champagney",
+    "distanceKm": 8.1
+  },
+  "BESNANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 1.4
+  },
+  "BETAUCOURT": {
+    "bureau": "Jussey",
+    "distanceKm": 5.1
+  },
+  "BETONCOURT SAINT PANCRAS": {
+    "bureau": "Vauvillers",
+    "distanceKm": 5.5
+  },
+  "BETONCOURT LES MENETRIERS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "BETONCOURT LES BROTTE": {
+    "bureau": "Saulx",
+    "distanceKm": 6.9
+  },
+  "BETONCOURT SUR MANCE": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 2.7
+  },
+  "BEULOTTE SAINT LAURENT": {
+    "bureau": "Faucogney",
+    "distanceKm": 7.3
+  },
+  "BEVEUGE": {
+    "bureau": "Villersexel",
+    "distanceKm": 4.8
+  },
+  "BITHAINE ET LE VAL": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "BLONDEFONTAINE": {
+    "bureau": "Jussey",
+    "distanceKm": 6.8
+  },
+  "BONBOILLON": {
+    "bureau": "Marnay",
+    "distanceKm": 7.8
+  },
+  "BONNEVENT VELLOREILLE": {
+    "bureau": "Gy",
+    "distanceKm": 8.3
+  },
+  "BONNEVENT ET VELLOREILLE LES BONNEVENT": {
+    "bureau": "Gy",
+    "distanceKm": 8.3
+  },
+  "BOREY": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 4.9
+  },
+  "BOUGEY": {
+    "bureau": "Jussey",
+    "distanceKm": 4.8
+  },
+  "BOUGNON": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 5.3
+  },
+  "BOUHANS ET FEURG": {
+    "bureau": "Gray",
+    "distanceKm": 9.1
+  },
+  "BOUHANS LES LURE": {
+    "bureau": "Lure",
+    "distanceKm": 5.0
+  },
+  "BOUHANS LES MONTBOZON": {
+    "bureau": "Montbozon",
+    "distanceKm": 3.3
+  },
+  "BOULIGNEY": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 2.2
+  },
+  "BOULOT": {
+    "bureau": "Gy",
+    "distanceKm": 11.8
+  },
+  "BOULT": {
+    "bureau": "Rioz",
+    "distanceKm": 9.1
+  },
+  "BOURBEVELLE": {
+    "bureau": "Jussey",
+    "distanceKm": 11.0
+  },
+  "BOURGUIGNON LES CONFLANS": {
+    "bureau": "Amance",
+    "distanceKm": 8.7
+  },
+  "BOURGUIGNON LES MOREY": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 12.7
+  },
+  "BOURGUIGNON LES LA CHARITE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 9.0
+  },
+  "BOURSIERES": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 8.1
+  },
+  "BOUSSERAUCOURT": {
+    "bureau": "Vauvillers",
+    "distanceKm": 13.2
+  },
+  "BRESILLEY": {
+    "bureau": "Pesmes",
+    "distanceKm": 5.6
+  },
+  "BREUCHES": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 3.2
+  },
+  "BREUCHOTTE": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 7.6
+  },
+  "BREUREY LES FAVERNEY": {
+    "bureau": "Amance",
+    "distanceKm": 8.9
+  },
+  "BREVILLIERS": {
+    "bureau": "Héricourt",
+    "distanceKm": 3.3
+  },
+  "BRIAUCOURT": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 8.0
+  },
+  "BROTTE LES LUXEUIL": {
+    "bureau": "Saulx",
+    "distanceKm": 7.3
+  },
+  "BROTTE LES RAY": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 5.4
+  },
+  "BROYE AUBIGNEY MONTSEUGNY": {
+    "bureau": "Pesmes",
+    "distanceKm": 6.2
+  },
+  "BROYE LES PESMES AUBIGNEY MONTSEUGNY": {
+    "bureau": "Pesmes",
+    "distanceKm": 6.2
+  },
+  "BROYE LES PESMES": {
+    "bureau": "Pesmes",
+    "distanceKm": 6.2
+  },
+  "BROYE LES LOUPS ET VERFONTAINE": {
+    "bureau": "Gray",
+    "distanceKm": 14.1
+  },
+  "BRUSSEY": {
+    "bureau": "Marnay",
+    "distanceKm": 3.4
+  },
+  "BUCEY LES GY": {
+    "bureau": "Gy",
+    "distanceKm": 3.2
+  },
+  "BUCEY LES TRAVES": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 5.7
+  },
+  "BUFFIGNECOURT": {
+    "bureau": "Amance",
+    "distanceKm": 3.2
+  },
+  "BUSSIERES": {
+    "bureau": "Rioz",
+    "distanceKm": 13.3
+  },
+  "BUSSUREL": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "BUTHIERS": {
+    "bureau": "Rioz",
+    "distanceKm": 10.5
+  },
+  "BYANS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "CALMOUTIER": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 5.2
+  },
+  "CEMBOING": {
+    "bureau": "Jussey",
+    "distanceKm": 3.6
+  },
+  "CENANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 6.1
+  },
+  "CENDRECOURT": {
+    "bureau": "Jussey",
+    "distanceKm": 4.1
+  },
+  "CERRE LES NOROY": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 2.4
+  },
+  "CHAGEY": {
+    "bureau": "Héricourt",
+    "distanceKm": 6.3
+  },
+  "CHAMBORNAY LES BELLEVAUX": {
+    "bureau": "Rioz",
+    "distanceKm": 5.6
+  },
+  "CHAMBORNAY LES PIN": {
+    "bureau": "Gy",
+    "distanceKm": 9.6
+  },
+  "CHAMPEY": {
+    "bureau": "Héricourt",
+    "distanceKm": 6.6
+  },
+  "CHAMPLITTE ET LE PRELOT": {
+    "bureau": "Champlitte",
+    "distanceKm": 0.0
+  },
+  "CHAMPLITTE LA VILLE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "CHAMPTONNAY": {
+    "bureau": "Gray",
+    "distanceKm": 6.9
+  },
+  "CHAMPVANS": {
+    "bureau": "Gray",
+    "distanceKm": 4.4
+  },
+  "CHANCEY": {
+    "bureau": "Marnay",
+    "distanceKm": 8.0
+  },
+  "CHANTES": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 6.6
+  },
+  "CHARCENNE": {
+    "bureau": "Gy",
+    "distanceKm": 5.0
+  },
+  "CHARENTENAY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "CHARGEY LES GRAY": {
+    "bureau": "Gray",
+    "distanceKm": 7.8
+  },
+  "CHARGEY LES PORT": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 4.9
+  },
+  "CHARIEZ": {
+    "bureau": "Vesoul",
+    "distanceKm": 5.8
+  },
+  "CHARMES SAINT VALBERT": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 9.8
+  },
+  "CHARMOILLE": {
+    "bureau": "Vesoul",
+    "distanceKm": 5.4
+  },
+  "CHASSEY LES MONTBOZON": {
+    "bureau": "Montbozon",
+    "distanceKm": 8.6
+  },
+  "CHASSEY LES SCEY": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 4.1
+  },
+  "CHAUMERCENNE": {
+    "bureau": "Pesmes",
+    "distanceKm": 4.2
+  },
+  "CHAUVIREY LE CHATEL": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 3.2
+  },
+  "CHAUVIREY LE VIEIL": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 3.5
+  },
+  "CHAUX LA LOTIERE": {
+    "bureau": "Rioz",
+    "distanceKm": 11.1
+  },
+  "CHAUX LES PORT": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 3.1
+  },
+  "CHAVANNE": {
+    "bureau": "Héricourt",
+    "distanceKm": 7.6
+  },
+  "CHEMILLY": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 5.5
+  },
+  "CHENEBIER": {
+    "bureau": "Champagney",
+    "distanceKm": 6.0
+  },
+  "CHENEVREY ET MOROGNE": {
+    "bureau": "Marnay",
+    "distanceKm": 3.2
+  },
+  "CHEVIGNEY": {
+    "bureau": "Pesmes",
+    "distanceKm": 4.5
+  },
+  "CHALONVILLARS": {
+    "bureau": "Héricourt",
+    "distanceKm": 8.0
+  },
+  "CHALONVILLARS MANDREVILLARS": {
+    "bureau": "Héricourt",
+    "distanceKm": 8.0
+  },
+  "CHATEAU LAMBERT": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "CHATENEY": {
+    "bureau": "Saulx",
+    "distanceKm": 3.3
+  },
+  "CHATENAY": {
+    "bureau": "Saulx",
+    "distanceKm": 3.3
+  },
+  "CHATENOIS": {
+    "bureau": "Saulx",
+    "distanceKm": 3.4
+  },
+  "CINTREY": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 6.7
+  },
+  "CIREY": {
+    "bureau": "Rioz",
+    "distanceKm": 4.7
+  },
+  "CITERS": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 9.2
+  },
+  "CITEY": {
+    "bureau": "Gy",
+    "distanceKm": 5.1
+  },
+  "CLAIREGOUTTE": {
+    "bureau": "Champagney",
+    "distanceKm": 5.8
+  },
+  "CLANS": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 10.0
+  },
+  "COGNIERES": {
+    "bureau": "Montbozon",
+    "distanceKm": 4.6
+  },
+  "COISEVAUX": {
+    "bureau": "Héricourt",
+    "distanceKm": 4.7
+  },
+  "COLOMBE LES BITHAINE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "COLOMBE LES VESOUL": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 5.5
+  },
+  "COLOMBIER": {
+    "bureau": "Saulx",
+    "distanceKm": 5.2
+  },
+  "COLOMBINE": {
+    "bureau": "Gy",
+    "distanceKm": 4.7
+  },
+  "CHOYE": {
+    "bureau": "Gy",
+    "distanceKm": 4.7
+  },
+  "COLOMBOTTE": {
+    "bureau": "Saulx",
+    "distanceKm": 3.6
+  },
+  "COMBERJON": {
+    "bureau": "Vesoul",
+    "distanceKm": 4.1
+  },
+  "CONFLANDEY": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 5.0
+  },
+  "CONFLANS SUR LANTERNE": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 9.6
+  },
+  "CONFLANS": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 9.6
+  },
+  "CONFRACOURT": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 3.8
+  },
+  "CONTREGLISE": {
+    "bureau": "Amance",
+    "distanceKm": 5.8
+  },
+  "CORBENAY": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 4.6
+  },
+  "CORCELLES": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "CORDONNET": {
+    "bureau": "Rioz",
+    "distanceKm": 9.6
+  },
+  "CORNOT": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 5.0
+  },
+  "CORRAVILLERS": {
+    "bureau": "Faucogney",
+    "distanceKm": 7.8
+  },
+  "PLAIN DE CORRAVILLERS": {
+    "bureau": "Faucogney",
+    "distanceKm": 7.8
+  },
+  "CORRE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 8.7
+  },
+  "COULEVON": {
+    "bureau": "Vesoul",
+    "distanceKm": 2.8
+  },
+  "COURCUIRE": {
+    "bureau": "Gy",
+    "distanceKm": 6.1
+  },
+  "COURMONT": {
+    "bureau": "Héricourt",
+    "distanceKm": 9.9
+  },
+  "COURTESOULT ET GATEY": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 6.3
+  },
+  "COUTHENANS": {
+    "bureau": "Héricourt",
+    "distanceKm": 3.7
+  },
+  "CRESANCEY": {
+    "bureau": "Gray",
+    "distanceKm": 4.3
+  },
+  "CREVANS ET LA CHAPELLE LES GRANGES": {
+    "bureau": "Villersexel",
+    "distanceKm": 12.6
+  },
+  "CREVENEY": {
+    "bureau": "Saulx",
+    "distanceKm": 1.8
+  },
+  "CROMARY": {
+    "bureau": "Rioz",
+    "distanceKm": 8.9
+  },
+  "CUBRY LES FAVERNEY": {
+    "bureau": "Amance",
+    "distanceKm": 6.7
+  },
+  "CUBRY LES SOING": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "CUGNEY": {
+    "bureau": "Gy",
+    "distanceKm": 8.4
+  },
+  "CULT": {
+    "bureau": "Marnay",
+    "distanceKm": 3.0
+  },
+  "CUVE": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 4.1
+  },
+  "DAMBENOIT LES COLOMBE": {
+    "bureau": "Saulx",
+    "distanceKm": 8.4
+  },
+  "DAMBENOIT": {
+    "bureau": "Saulx",
+    "distanceKm": 8.4
+  },
+  "DAMPIERRE LES CONFLANS": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 8.4
+  },
+  "DAMPIERRE SUR LINOTTE": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 8.1
+  },
+  "DAMPVALLEY SAINT PANCRAS": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 5.5
+  },
+  "DAMPVALLEY LES COLOMBE": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 4.5
+  },
+  "DELAIN": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 3.2
+  },
+  "DEMANGEVELLE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 5.1
+  },
+  "DENEVRE": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 3.2
+  },
+  "ERREVET": {
+    "bureau": "Champagney",
+    "distanceKm": 6.2
+  },
+  "ESBOZ BREST": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 6.3
+  },
+  "ESMOULINS": {
+    "bureau": "Gray",
+    "distanceKm": 4.9
+  },
+  "ESMOULIERES": {
+    "bureau": "Faucogney",
+    "distanceKm": 3.0
+  },
+  "ESPRELS": {
+    "bureau": "Villersexel",
+    "distanceKm": 5.3
+  },
+  "ESSERTENNE ET CECEY": {
+    "bureau": "Gray",
+    "distanceKm": 11.7
+  },
+  "FAHY LES AUTREY": {
+    "bureau": "Champlitte",
+    "distanceKm": 13.1
+  },
+  "FALLON": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.4
+  },
+  "FAUCOGNEY ET LA MER": {
+    "bureau": "Faucogney",
+    "distanceKm": 0.0
+  },
+  "FAVERNEY": {
+    "bureau": "Amance",
+    "distanceKm": 2.6
+  },
+  "FAYMONT": {
+    "bureau": "Lure",
+    "distanceKm": 11.5
+  },
+  "FERRIERES LES RAY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 6.1
+  },
+  "FERRIERES LES SCEY": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 3.4
+  },
+  "FILAIN": {
+    "bureau": "Montbozon",
+    "distanceKm": 9.1
+  },
+  "FLAGY": {
+    "bureau": "Saulx",
+    "distanceKm": 6.9
+  },
+  "FLEUREY LES FAVERNEY": {
+    "bureau": "Amance",
+    "distanceKm": 6.1
+  },
+  "FLEUREY LES LAVONCOURT": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 10.3
+  },
+  "FLEUREY LES SAINT LOUP": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 4.2
+  },
+  "FONDREMAND": {
+    "bureau": "Rioz",
+    "distanceKm": 4.8
+  },
+  "FONTAINE LES LUXEUIL": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 4.1
+  },
+  "FONTENOIS LA VILLE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 5.2
+  },
+  "FONTENOIS LES MONTBOZON": {
+    "bureau": "Montbozon",
+    "distanceKm": 3.2
+  },
+  "FOUCHECOURT": {
+    "bureau": "Amance",
+    "distanceKm": 4.6
+  },
+  "FOUGEROLLES SAINT VALBERT": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 8.8
+  },
+  "FOUGEROLLES": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 8.8
+  },
+  "FOUVENT SAINT ANDOCHE": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 8.3
+  },
+  "FOUVENT LE HAUT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 8.3
+  },
+  "FOUVENT LE BAS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "FRAHIER ET CHATEBIER": {
+    "bureau": "Champagney",
+    "distanceKm": 6.9
+  },
+  "FRAMONT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 7.6
+  },
+  "FRANOIS": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 7.6
+  },
+  "FRANCALMONT": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 6.4
+  },
+  "FRANCHEVELLE": {
+    "bureau": "Lure",
+    "distanceKm": 7.3
+  },
+  "FRANCOURT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 9.4
+  },
+  "FRASNE LE CHATEAU": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 9.2
+  },
+  "FRESSE": {
+    "bureau": "Champagney",
+    "distanceKm": 7.0
+  },
+  "FRETIGNEY ET VELLOREILLE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.8
+  },
+  "FROIDECONCHE": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 4.7
+  },
+  "FROIDETERRE": {
+    "bureau": "Lure",
+    "distanceKm": 2.9
+  },
+  "FROTEY LES LURE": {
+    "bureau": "Lure",
+    "distanceKm": 4.7
+  },
+  "FROTEY LES VESOUL": {
+    "bureau": "Vesoul",
+    "distanceKm": 3.4
+  },
+  "FREDERIC FONTAINE": {
+    "bureau": "Champagney",
+    "distanceKm": 6.7
+  },
+  "FEDRY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 6.7
+  },
+  "GENEVREUILLE": {
+    "bureau": "Saulx",
+    "distanceKm": 7.7
+  },
+  "GENEVREY": {
+    "bureau": "Saulx",
+    "distanceKm": 4.9
+  },
+  "GEORFANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.0
+  },
+  "GERMIGNEY": {
+    "bureau": "Gray",
+    "distanceKm": 9.2
+  },
+  "GESINCOURT": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "GEVIGNEY ET MERCEY": {
+    "bureau": "Jussey",
+    "distanceKm": 4.5
+  },
+  "GIREFONTAINE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 5.9
+  },
+  "GONVILLARS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "GOUHENANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.3
+  },
+  "GOURGEON": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 3.9
+  },
+  "GRAMMONT": {
+    "bureau": "Villersexel",
+    "distanceKm": 8.2
+  },
+  "GRANDECOURT": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 8.7
+  },
+  "GRANDVELLE ET LE PERRENOT": {
+    "bureau": "Rioz",
+    "distanceKm": 10.2
+  },
+  "GRANDVELLE ET PERRENOT": {
+    "bureau": "Rioz",
+    "distanceKm": 10.2
+  },
+  "GRANGES LA VILLE": {
+    "bureau": "Villersexel",
+    "distanceKm": 10.5
+  },
+  "GRANGES LE BOURG": {
+    "bureau": "Villersexel",
+    "distanceKm": 12.4
+  },
+  "GRATTERY": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 3.9
+  },
+  "GRAY LA VILLE": {
+    "bureau": "Gray",
+    "distanceKm": 3.5
+  },
+  "GREUCOURT": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "GEZIER ET FONTENELAY": {
+    "bureau": "Gy",
+    "distanceKm": 7.0
+  },
+  "GEZIER ET FONTELENAY": {
+    "bureau": "Gy",
+    "distanceKm": 7.0
+  },
+  "HAUT DU THEM CHATEAU LAMBERT": {
+    "bureau": "Faucogney",
+    "distanceKm": 11.6
+  },
+  "HAUT DU THEM": {
+    "bureau": "Faucogney",
+    "distanceKm": 11.6
+  },
+  "HAUTEVELLE": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 4.8
+  },
+  "HUGIER": {
+    "bureau": "Marnay",
+    "distanceKm": 5.2
+  },
+  "HURECOURT": {
+    "bureau": "Vauvillers",
+    "distanceKm": 4.5
+  },
+  "HYET": {
+    "bureau": "Rioz",
+    "distanceKm": 4.1
+  },
+  "IGNY": {
+    "bureau": "Gy",
+    "distanceKm": 10.1
+  },
+  "JASNEY": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 6.6
+  },
+  "JONVELLE": {
+    "bureau": "Jussey",
+    "distanceKm": 12.0
+  },
+  "LA BARRE": {
+    "bureau": "Rioz",
+    "distanceKm": 7.8
+  },
+  "LA BASSE VAIVRE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 4.9
+  },
+  "LA BRUYERE": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 8.6
+  },
+  "LA CHAPELLE SAINT QUILLAIN": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 7.5
+  },
+  "LA CHAPELLE LES LUXEUIL": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 6.6
+  },
+  "LA CORBIERE": {
+    "bureau": "Melisey",
+    "distanceKm": 6.8
+  },
+  "LA CREUSE": {
+    "bureau": "Saulx",
+    "distanceKm": 5.5
+  },
+  "LA COTE": {
+    "bureau": "Lure",
+    "distanceKm": 6.0
+  },
+  "LA DEMIE": {
+    "bureau": "Vesoul",
+    "distanceKm": 5.8
+  },
+  "LA GRANDE RESIE": {
+    "bureau": "Pesmes",
+    "distanceKm": 5.2
+  },
+  "LA LANTERNE ET LES ARMONTS": {
+    "bureau": "Melisey",
+    "distanceKm": 3.9
+  },
+  "LA LONGINE": {
+    "bureau": "Faucogney",
+    "distanceKm": 7.7
+  },
+  "LA MALACHERE": {
+    "bureau": "Rioz",
+    "distanceKm": 1.5
+  },
+  "LA MONTAGNE": {
+    "bureau": "Faucogney",
+    "distanceKm": 10.5
+  },
+  "LA NEUVELLE LES LURE": {
+    "bureau": "Melisey",
+    "distanceKm": 5.5
+  },
+  "LA NEUVELLE LES SCEY": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 2.7
+  },
+  "LA PISSEURE": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 4.2
+  },
+  "LA PROISELIERE ET LANGLE": {
+    "bureau": "Faucogney",
+    "distanceKm": 7.5
+  },
+  "LA QUARTE": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 6.3
+  },
+  "LA ROCHE MOREY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 10.9
+  },
+  "MOREY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 10.9
+  },
+  "LA ROCHELLE": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 7.3
+  },
+  "LA ROMAINE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 2.5
+  },
+  "LE PONT DE PLANCHES": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 2.5
+  },
+  "LA ROSIERE": {
+    "bureau": "Faucogney",
+    "distanceKm": 9.3
+  },
+  "LA RESIE SAINT MARTIN": {
+    "bureau": "Pesmes",
+    "distanceKm": 3.6
+  },
+  "LA VAIVRE": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 8.0
+  },
+  "LA VERGENNE": {
+    "bureau": "Lure",
+    "distanceKm": 7.6
+  },
+  "LA VERNOTTE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 4.5
+  },
+  "LA VILLEDIEU EN FONTENETTE": {
+    "bureau": "Saulx",
+    "distanceKm": 10.6
+  },
+  "LA VILLEDIEU LES QUENOCHE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "LA VILLENEUVE BELLENOYE ET LA MAIZE": {
+    "bureau": "Saulx",
+    "distanceKm": 3.6
+  },
+  "LA VOIVRE": {
+    "bureau": "Faucogney",
+    "distanceKm": 2.3
+  },
+  "LAMBREY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 6.5
+  },
+  "LANTENOT": {
+    "bureau": "Melisey",
+    "distanceKm": 4.4
+  },
+  "LARIANS ET MUNANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 4.8
+  },
+  "LARRET": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 6.4
+  },
+  "LAVIGNEY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 7.1
+  },
+  "LAVONCOURT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 9.0
+  },
+  "LE MAGNORAY": {
+    "bureau": "Rioz",
+    "distanceKm": 9.0
+  },
+  "LE TREMBLOIS": {
+    "bureau": "Gray",
+    "distanceKm": 6.2
+  },
+  "LE VAL SAINT ELOI": {
+    "bureau": "Saulx",
+    "distanceKm": 9.3
+  },
+  "LE VAL SAINT ELOY": {
+    "bureau": "Saulx",
+    "distanceKm": 9.3
+  },
+  "LE VAL DE GOUHENANS": {
+    "bureau": "Lure",
+    "distanceKm": 6.7
+  },
+  "LEFFOND": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "LES AYNANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 6.6
+  },
+  "LES BATIES": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 5.7
+  },
+  "LES FESSEY": {
+    "bureau": "Faucogney",
+    "distanceKm": 5.8
+  },
+  "FESSEY DESSOUS ET DESSUS": {
+    "bureau": "Faucogney",
+    "distanceKm": 5.8
+  },
+  "LES FONTENIS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "LES MAGNY": {
+    "bureau": "Villersexel",
+    "distanceKm": 3.9
+  },
+  "LIEFFRANS": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.4
+  },
+  "LIEUCOURT": {
+    "bureau": "Gray",
+    "distanceKm": 8.0
+  },
+  "LINEXERT": {
+    "bureau": "Melisey",
+    "distanceKm": 5.7
+  },
+  "LIEVANS": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 6.0
+  },
+  "LOMONT": {
+    "bureau": "Lure",
+    "distanceKm": 10.4
+  },
+  "LONGEVELLE": {
+    "bureau": "Villersexel",
+    "distanceKm": 4.0
+  },
+  "LOULANS VERCHAMP": {
+    "bureau": "Montbozon",
+    "distanceKm": 4.3
+  },
+  "LOULANS LES FORGES": {
+    "bureau": "Montbozon",
+    "distanceKm": 4.3
+  },
+  "LOULANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 4.3
+  },
+  "LUZE": {
+    "bureau": "Héricourt",
+    "distanceKm": 5.4
+  },
+  "LYOFFANS": {
+    "bureau": "Lure",
+    "distanceKm": 8.4
+  },
+  "LŒUILLEY": {
+    "bureau": "Gray",
+    "distanceKm": 16.8
+  },
+  "MAGNIVRAY": {
+    "bureau": "Melisey",
+    "distanceKm": 7.7
+  },
+  "MAGNONCOURT": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 2.7
+  },
+  "MAGNY DANIGON": {
+    "bureau": "Champagney",
+    "distanceKm": 5.7
+  },
+  "MAGNY JOBERT": {
+    "bureau": "Champagney",
+    "distanceKm": 8.1
+  },
+  "MAGNY VERNOIS": {
+    "bureau": "Lure",
+    "distanceKm": 2.4
+  },
+  "MAGNY LES JUSSEY": {
+    "bureau": "Jussey",
+    "distanceKm": 7.4
+  },
+  "MAILLERONCOURT CHARETTE": {
+    "bureau": "Saulx",
+    "distanceKm": 3.8
+  },
+  "MAILLERONCOURT SAINT PANCRAS": {
+    "bureau": "Vauvillers",
+    "distanceKm": 2.1
+  },
+  "MAILLEY ET CHAZELOT": {
+    "bureau": "Rioz",
+    "distanceKm": 10.4
+  },
+  "MAIZIERES": {
+    "bureau": "Rioz",
+    "distanceKm": 7.8
+  },
+  "MALANS": {
+    "bureau": "Pesmes",
+    "distanceKm": 3.1
+  },
+  "MALBOUHANS": {
+    "bureau": "Melisey",
+    "distanceKm": 5.6
+  },
+  "MALVILLERS": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 8.8
+  },
+  "MANDREVILLARS": {
+    "bureau": "Héricourt",
+    "distanceKm": 5.7
+  },
+  "MANTOCHE": {
+    "bureau": "Gray",
+    "distanceKm": 7.1
+  },
+  "MARAST": {
+    "bureau": "Villersexel",
+    "distanceKm": 3.3
+  },
+  "MARGILLEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MAUSSANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 2.8
+  },
+  "MELIN": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 6.7
+  },
+  "MELINCOURT": {
+    "bureau": "Vauvillers",
+    "distanceKm": 6.0
+  },
+  "MEMBREY": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 5.4
+  },
+  "MENOUX": {
+    "bureau": "Amance",
+    "distanceKm": 4.3
+  },
+  "MERCEY SUR SAONE": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 7.1
+  },
+  "MERSUAY": {
+    "bureau": "Amance",
+    "distanceKm": 7.0
+  },
+  "MEURCOURT": {
+    "bureau": "Saulx",
+    "distanceKm": 8.8
+  },
+  "MIELLIN": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MIGNAFANS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MIGNAVILLERS": {
+    "bureau": "Villersexel",
+    "distanceKm": 9.9
+  },
+  "MOFFANS ET VACHERESSE": {
+    "bureau": "Lure",
+    "distanceKm": 7.4
+  },
+  "MOIMAY": {
+    "bureau": "Villersexel",
+    "distanceKm": 2.1
+  },
+  "MOLAY": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 8.7
+  },
+  "MOLLANS": {
+    "bureau": "Lure",
+    "distanceKm": 8.7
+  },
+  "MONT SAINT LEGER": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 10.7
+  },
+  "MONT LE FRANOIS": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MONT LE VERNOIS": {
+    "bureau": "Vesoul",
+    "distanceKm": 7.5
+  },
+  "MONTAGNEY": {
+    "bureau": "Pesmes",
+    "distanceKm": 6.6
+  },
+  "MONTARLOT LES CHAMPLITTE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MONTARLOT LES RIOZ": {
+    "bureau": "Rioz",
+    "distanceKm": 6.8
+  },
+  "MONTBOILLON": {
+    "bureau": "Gy",
+    "distanceKm": 7.6
+  },
+  "MONTCEY": {
+    "bureau": "Saulx",
+    "distanceKm": 5.6
+  },
+  "MONTCOURT": {
+    "bureau": "Vauvillers",
+    "distanceKm": 11.1
+  },
+  "MONTDORE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 2.5
+  },
+  "MONTESSAUX": {
+    "bureau": "Melisey",
+    "distanceKm": 2.4
+  },
+  "MONTIGNY LES CHERLIEU": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 5.6
+  },
+  "MONTIGNY LES VESOUL": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 5.5
+  },
+  "MONTJUSTIN ET VELOTTE": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 6.6
+  },
+  "MONTJUSTIN": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 6.6
+  },
+  "MONTOT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 5.7
+  },
+  "MONTSEUGNY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MONTUREUX ET PRANTIGNY": {
+    "bureau": "Gray",
+    "distanceKm": 8.3
+  },
+  "MONTUREUX LES BAULAY": {
+    "bureau": "Amance",
+    "distanceKm": 6.2
+  },
+  "MOTEY BESUCHE": {
+    "bureau": "Pesmes",
+    "distanceKm": 7.2
+  },
+  "MOTEY SUR SAONE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "MELECEY": {
+    "bureau": "Villersexel",
+    "distanceKm": 6.2
+  },
+  "NANTILLY": {
+    "bureau": "Gray",
+    "distanceKm": 7.2
+  },
+  "NANTOUARD": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "NAVENNE": {
+    "bureau": "Vesoul",
+    "distanceKm": 3.3
+  },
+  "NERVEZAIN": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "NEUREY EN VAUX": {
+    "bureau": "Saulx",
+    "distanceKm": 7.2
+  },
+  "NEUREY LES LA DEMIE": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 7.5
+  },
+  "NEUVELLE LES CHAMPLITTE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "NEUVELLE LES CROMARY": {
+    "bureau": "Rioz",
+    "distanceKm": 4.4
+  },
+  "NEUVELLE LES LA CHARITE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 7.7
+  },
+  "NOIDANS LE FERROUX": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 6.9
+  },
+  "NOIDANS LES VESOUL": {
+    "bureau": "Vesoul",
+    "distanceKm": 3.5
+  },
+  "NOIRON": {
+    "bureau": "Gray",
+    "distanceKm": 5.2
+  },
+  "NOROY LES JUSSEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "OIGNEY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 6.3
+  },
+  "OISELAY ET GRACHAUX": {
+    "bureau": "Gy",
+    "distanceKm": 8.5
+  },
+  "ONAY": {
+    "bureau": "Gray",
+    "distanceKm": 7.0
+  },
+  "OPPENANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 4.3
+  },
+  "ORICOURT": {
+    "bureau": "Villersexel",
+    "distanceKm": 4.7
+  },
+  "ORMENANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 3.4
+  },
+  "ORMOICHE": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 4.3
+  },
+  "ORMOY": {
+    "bureau": "Jussey",
+    "distanceKm": 10.0
+  },
+  "OUGE": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 4.3
+  },
+  "OVANCHES": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 5.2
+  },
+  "OYRIERES": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 9.5
+  },
+  "PALANTE": {
+    "bureau": "Lure",
+    "distanceKm": 6.9
+  },
+  "PASSAVANT LA ROCHERE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 7.1
+  },
+  "PENNESIERES": {
+    "bureau": "Rioz",
+    "distanceKm": 5.8
+  },
+  "PERCEY LE GRAND": {
+    "bureau": "Champlitte",
+    "distanceKm": 7.6
+  },
+  "PERROUSE": {
+    "bureau": "Rioz",
+    "distanceKm": 9.0
+  },
+  "PIERRECOURT": {
+    "bureau": "Champlitte",
+    "distanceKm": 6.4
+  },
+  "PIN": {
+    "bureau": "Gy",
+    "distanceKm": 7.6
+  },
+  "PLAINEMONT": {
+    "bureau": "Saint-Loup-sur-Semouse",
+    "distanceKm": 6.0
+  },
+  "PLANCHER BAS": {
+    "bureau": "Champagney",
+    "distanceKm": 4.2
+  },
+  "PLANCHER LES MINES": {
+    "bureau": "Champagney",
+    "distanceKm": 12.0
+  },
+  "POLAINCOURT ET CLAIREFONTAINE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 7.4
+  },
+  "POMOY": {
+    "bureau": "Saulx",
+    "distanceKm": 6.6
+  },
+  "PONT DU BOIS": {
+    "bureau": "Vauvillers",
+    "distanceKm": 6.2
+  },
+  "PONT SUR L OGNON": {
+    "bureau": "Villersexel",
+    "distanceKm": 5.4
+  },
+  "PONTCEY": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 6.8
+  },
+  "POYANS": {
+    "bureau": "Gray",
+    "distanceKm": 10.9
+  },
+  "PREIGNEY": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 6.0
+  },
+  "PRESLE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "PROVENCHERE": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 7.7
+  },
+  "PURGEROT": {
+    "bureau": "Amance",
+    "distanceKm": 6.4
+  },
+  "PURGEROT ARBECEY": {
+    "bureau": "Amance",
+    "distanceKm": 6.4
+  },
+  "PUSEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 3.3
+  },
+  "PUSY ET EPENOUX": {
+    "bureau": "Vesoul",
+    "distanceKm": 4.0
+  },
+  "QUENOCHE": {
+    "bureau": "Rioz",
+    "distanceKm": 3.1
+  },
+  "QUERS": {
+    "bureau": "Lure",
+    "distanceKm": 6.3
+  },
+  "QUINCEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 5.9
+  },
+  "QUITTEUR": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "RADDON ET CHAPENDU": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 7.8
+  },
+  "RAINCOURT": {
+    "bureau": "Jussey",
+    "distanceKm": 4.1
+  },
+  "RANZEVELLE": {
+    "bureau": "Vauvillers",
+    "distanceKm": 9.6
+  },
+  "RAY SUR SAONE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 6.2
+  },
+  "RAZE": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 11.4
+  },
+  "RECOLOGNE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 7.4
+  },
+  "RECOLOGNE LES RIOZ": {
+    "bureau": "Rioz",
+    "distanceKm": 8.1
+  },
+  "RENAUCOURT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 9.6
+  },
+  "RIGNOVELLE": {
+    "bureau": "Melisey",
+    "distanceKm": 6.2
+  },
+  "RIGNY": {
+    "bureau": "Gray",
+    "distanceKm": 5.5
+  },
+  "ROCHE ET RAUCOURT": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 5.4
+  },
+  "ROCHE SUR LINOTTE ET SORANS LES CORDIERS": {
+    "bureau": "Montbozon",
+    "distanceKm": 4.6
+  },
+  "RONCHAMP": {
+    "bureau": "Champagney",
+    "distanceKm": 4.1
+  },
+  "ROSEY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 12.0
+  },
+  "ROSIERES SUR MANCE": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 4.4
+  },
+  "ROYE": {
+    "bureau": "Lure",
+    "distanceKm": 4.0
+  },
+  "RUHANS": {
+    "bureau": "Rioz",
+    "distanceKm": 4.5
+  },
+  "RUPT SUR SAONE": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 3.4
+  },
+  "SAINT ANDOCHE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "SAINT BARTHELEMY": {
+    "bureau": "Melisey",
+    "distanceKm": 4.0
+  },
+  "SAINT BRESSON": {
+    "bureau": "Faucogney",
+    "distanceKm": 8.6
+  },
+  "SAINT BROING": {
+    "bureau": "Gray",
+    "distanceKm": 5.6
+  },
+  "SAINT FERJEUX": {
+    "bureau": "Villersexel",
+    "distanceKm": 6.2
+  },
+  "SAINT GAND": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 5.6
+  },
+  "SAINT GERMAIN": {
+    "bureau": "Lure",
+    "distanceKm": 4.7
+  },
+  "SAINT JULIEN": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "SAINT LOUP NANTOUARD": {
+    "bureau": "Gy",
+    "distanceKm": 7.4
+  },
+  "SAINT LOUP LES GRAY": {
+    "bureau": "Gy",
+    "distanceKm": 7.4
+  },
+  "SAINT MARCEL": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 4.9
+  },
+  "SAINT REMY EN COMTE": {
+    "bureau": "Amance",
+    "distanceKm": 6.9
+  },
+  "SAINT REMY": {
+    "bureau": "Amance",
+    "distanceKm": 6.9
+  },
+  "SAINT SAUVEUR": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 4.3
+  },
+  "SAINT SULPICE": {
+    "bureau": "Villersexel",
+    "distanceKm": 2.1
+  },
+  "SAINT VALBERT": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "SAINTE MARIE EN CHANOIS": {
+    "bureau": "Faucogney",
+    "distanceKm": 5.4
+  },
+  "SAINTE MARIE EN CHAUX": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 5.2
+  },
+  "SAINTE REINE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.7
+  },
+  "SAPONCOURT": {
+    "bureau": "Amance",
+    "distanceKm": 9.0
+  },
+  "SAULNOT": {
+    "bureau": "Héricourt",
+    "distanceKm": 9.4
+  },
+  "SAUVIGNEY LES GRAY": {
+    "bureau": "Gy",
+    "distanceKm": 9.1
+  },
+  "SAUVIGNEY LES PESMES": {
+    "bureau": "Pesmes",
+    "distanceKm": 1.9
+  },
+  "SAVOYEUX": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 5.2
+  },
+  "SCEY SUR SAONE ET SAINT ALBIN": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 0.0
+  },
+  "SCYE": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 3.8
+  },
+  "SECENANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 10.6
+  },
+  "SELLES": {
+    "bureau": "Vauvillers",
+    "distanceKm": 5.5
+  },
+  "SEMMADON": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 3.8
+  },
+  "SENARGENT MIGNAFANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.8
+  },
+  "SENARGENT": {
+    "bureau": "Villersexel",
+    "distanceKm": 7.8
+  },
+  "SENONCOURT": {
+    "bureau": "Amance",
+    "distanceKm": 5.2
+  },
+  "SERVANCE MIELLIN": {
+    "bureau": "Faucogney",
+    "distanceKm": 9.1
+  },
+  "SERVANCE": {
+    "bureau": "Faucogney",
+    "distanceKm": 9.1
+  },
+  "SERVIGNEY": {
+    "bureau": "Saulx",
+    "distanceKm": 4.1
+  },
+  "SEVEUX MOTEY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 7.4
+  },
+  "SEVEUX": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 7.4
+  },
+  "SOING CUBRY CHARENTENAY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 4.4
+  },
+  "SOING": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 4.4
+  },
+  "SORANS LES BREUREY": {
+    "bureau": "Rioz",
+    "distanceKm": 5.6
+  },
+  "SORNAY": {
+    "bureau": "Marnay",
+    "distanceKm": 5.9
+  },
+  "SUAUCOURT ET PISSELOUP": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "TARTECOURT": {
+    "bureau": "Jussey",
+    "distanceKm": 6.6
+  },
+  "TAVEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "TERNUAY MELAY ET SAINT HILAIRE": {
+    "bureau": "Faucogney",
+    "distanceKm": 4.9
+  },
+  "THEULEY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.3
+  },
+  "THIEFFRANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 6.0
+  },
+  "THIENANS": {
+    "bureau": "Montbozon",
+    "distanceKm": 1.8
+  },
+  "TINCEY ET PONTREBEAU": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 7.9
+  },
+  "TRAITIEFONTAINE": {
+    "bureau": "Rioz",
+    "distanceKm": 2.7
+  },
+  "TRAVES": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 7.6
+  },
+  "TREVEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "TROMAREY": {
+    "bureau": "Marnay",
+    "distanceKm": 5.9
+  },
+  "TREMOINS": {
+    "bureau": "Héricourt",
+    "distanceKm": 4.2
+  },
+  "TRESILLEY": {
+    "bureau": "Rioz",
+    "distanceKm": 4.4
+  },
+  "VADANS": {
+    "bureau": "Pesmes",
+    "distanceKm": 6.6
+  },
+  "VAITE": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 2.5
+  },
+  "VAIVRE ET MONTOILLE": {
+    "bureau": "Vesoul",
+    "distanceKm": 3.3
+  },
+  "VALAY": {
+    "bureau": "Pesmes",
+    "distanceKm": 6.9
+  },
+  "VALLEROIS LORIOZ": {
+    "bureau": "Vesoul",
+    "distanceKm": 8.0
+  },
+  "VALLEROIS LE BOIS": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 5.3
+  },
+  "VANDELANS": {
+    "bureau": "Rioz",
+    "distanceKm": 7.6
+  },
+  "VANNE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 5.8
+  },
+  "VANTOUX ET LONGEVELLE": {
+    "bureau": "Gy",
+    "distanceKm": 5.4
+  },
+  "VAROGNE": {
+    "bureau": "Saulx",
+    "distanceKm": 5.7
+  },
+  "VARS": {
+    "bureau": "Champlitte",
+    "distanceKm": 10.5
+  },
+  "VAUCHOUX": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 3.8
+  },
+  "VAUCONCOURT NERVEZAIN": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 7.8
+  },
+  "VAUCONCOURT": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 7.8
+  },
+  "VAUX LE MONCELOT": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.4
+  },
+  "VELESMES ECHEVANNE": {
+    "bureau": "Gray",
+    "distanceKm": 5.7
+  },
+  "VELESMES": {
+    "bureau": "Gray",
+    "distanceKm": 5.7
+  },
+  "VELET": {
+    "bureau": "Gray",
+    "distanceKm": 3.7
+  },
+  "VELLE LE CHATEL": {
+    "bureau": "Vesoul",
+    "distanceKm": 8.3
+  },
+  "VELLECHEVREUX ET COURBENANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 9.3
+  },
+  "VELLECLAIRE": {
+    "bureau": "Gy",
+    "distanceKm": 4.7
+  },
+  "VELLEFAUX": {
+    "bureau": "Vesoul",
+    "distanceKm": 8.9
+  },
+  "VELLEFREY ET VELLEFRANGE": {
+    "bureau": "Gy",
+    "distanceKm": 4.5
+  },
+  "VELLEFRIE": {
+    "bureau": "Saulx",
+    "distanceKm": 4.2
+  },
+  "VELLEGUINDRY ET LEVRECEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 10.0
+  },
+  "VELLEMINFROY": {
+    "bureau": "Saulx",
+    "distanceKm": 4.7
+  },
+  "VELLEMOZ": {
+    "bureau": "Gy",
+    "distanceKm": 8.7
+  },
+  "VELLEXON QUEUTREY ET VAUDEY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 4.2
+  },
+  "VELLEXON QUEUTEY ET VAUDEY": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 4.2
+  },
+  "VELLOREILLE LES CHOYE": {
+    "bureau": "Gy",
+    "distanceKm": 7.3
+  },
+  "VELORCEY": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 9.0
+  },
+  "VENISEY": {
+    "bureau": "Amance",
+    "distanceKm": 6.4
+  },
+  "VENERE": {
+    "bureau": "Gray",
+    "distanceKm": 9.2
+  },
+  "VERCHAMP": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "VEREUX": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 6.8
+  },
+  "VERLANS": {
+    "bureau": "Héricourt",
+    "distanceKm": 3.1
+  },
+  "VERNOIS SUR MANCE": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 3.2
+  },
+  "VEZET": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "VILLAFANS": {
+    "bureau": "Villersexel",
+    "distanceKm": 4.5
+  },
+  "VILLARGENT": {
+    "bureau": "Villersexel",
+    "distanceKm": 5.0
+  },
+  "VILLARS LE PAUTEL": {
+    "bureau": "Jussey",
+    "distanceKm": 8.5
+  },
+  "VILLEFRANCON": {
+    "bureau": "Gy",
+    "distanceKm": 6.1
+  },
+  "VILLEPAROIS": {
+    "bureau": "Vesoul",
+    "distanceKm": 4.3
+  },
+  "VILLERS BOUTON": {
+    "bureau": "Rioz",
+    "distanceKm": 8.4
+  },
+  "VILLERS CHEMIN ET MONT LES ETRELLES": {
+    "bureau": "Gy",
+    "distanceKm": 5.7
+  },
+  "VILLERS PATER": {
+    "bureau": "Montbozon",
+    "distanceKm": 6.6
+  },
+  "VILLERS VAUDEY": {
+    "bureau": "Combeaufontaine",
+    "distanceKm": 11.4
+  },
+  "VILLERS LA VILLE": {
+    "bureau": "Villersexel",
+    "distanceKm": 3.2
+  },
+  "VILLERS LE SEC": {
+    "bureau": "Noroy-le-Bourg",
+    "distanceKm": 4.6
+  },
+  "VILLERS LES LUXEUIL": {
+    "bureau": "Saulx",
+    "distanceKm": 8.1
+  },
+  "VILLERS SUR PORT": {
+    "bureau": "Port-sur-Saône",
+    "distanceKm": 4.4
+  },
+  "VILLERS SUR SAULNOT": {
+    "bureau": "Héricourt",
+    "distanceKm": 8.6
+  },
+  "VILORY": {
+    "bureau": "Saulx",
+    "distanceKm": 5.9
+  },
+  "VIREY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "VISONCOURT": {
+    "bureau": "Saulx",
+    "distanceKm": 6.8
+  },
+  "VITREY": {
+    "bureau": "Vitrey-sur-Mance",
+    "distanceKm": 0.0
+  },
+  "VOLON": {
+    "bureau": "Dampierre-sur-Salon",
+    "distanceKm": 7.1
+  },
+  "VORAY SUR L OGNON": {
+    "bureau": "Rioz",
+    "distanceKm": 10.9
+  },
+  "VORAY": {
+    "bureau": "Rioz",
+    "distanceKm": 10.9
+  },
+  "VOUGECOURT": {
+    "bureau": "Vauvillers",
+    "distanceKm": 8.5
+  },
+  "VOUHENANS": {
+    "bureau": "Lure",
+    "distanceKm": 4.4
+  },
+  "VREGILLE": {
+    "bureau": "Gy",
+    "distanceKm": 9.5
+  },
+  "VY LE FERROUX": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.6
+  },
+  "VY LES FILAIN": {
+    "bureau": "Montbozon",
+    "distanceKm": 7.2
+  },
+  "VY LES LURE": {
+    "bureau": "Lure",
+    "distanceKm": 4.9
+  },
+  "VY LES RUPT": {
+    "bureau": "Scey-sur-Saône",
+    "distanceKm": 6.7
+  },
+  "VYANS LE VAL": {
+    "bureau": "Héricourt",
+    "distanceKm": 1.9
+  },
+  "VYANS": {
+    "bureau": "Héricourt",
+    "distanceKm": 1.9
+  },
+  "ECHAVANNE": {
+    "bureau": "Champagney",
+    "distanceKm": 5.5
+  },
+  "ECHENANS SOUS MONT VAUDOIS": {
+    "bureau": "Héricourt",
+    "distanceKm": 4.5
+  },
+  "ECHENANS": {
+    "bureau": "Héricourt",
+    "distanceKm": 4.5
+  },
+  "ECHENOZ LA MELINE": {
+    "bureau": "Vesoul",
+    "distanceKm": 4.3
+  },
+  "ECHENOZ LE SEC": {
+    "bureau": "Rioz",
+    "distanceKm": 9.9
+  },
+  "ECHEVANNE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "ECROMAGNY": {
+    "bureau": "Melisey",
+    "distanceKm": 3.7
+  },
+  "ECUELLE": {
+    "bureau": "Champlitte",
+    "distanceKm": 9.4
+  },
+  "EGUILLEY": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "EHUNS": {
+    "bureau": "Luxeuil-les-Bains",
+    "distanceKm": 8.0
+  },
+  "EQUEVILLEY": {
+    "bureau": "Amance",
+    "distanceKm": 9.9
+  },
+  "ETOBON": {
+    "bureau": "Champagney",
+    "distanceKm": 6.3
+  },
+  "ETRELLES ET LA MONTBLEUSE": {
+    "bureau": "Fresne-Saint-Mamès",
+    "distanceKm": 8.0
+  },
+  "ETROITEFONTAINE": {
+    "bureau": "Vesoul",
+    "distanceKm": 0.0
+  },
+  "ETUZ": {
+    "bureau": "Gy",
+    "distanceKm": 9.7
+  }
+}

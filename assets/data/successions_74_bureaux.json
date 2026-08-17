@@ -1,0 +1,1282 @@
+{
+  "ALBY": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 0.0
+  },
+  "ALEX": {
+    "bureau": "Thônes",
+    "distanceKm": 7.7
+  },
+  "ALLINGES": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 4.4
+  },
+  "ALLONZIER LA CAILLE": {
+    "bureau": "Cruseilles",
+    "distanceKm": 4.8
+  },
+  "ALLEVES": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 8.3
+  },
+  "AMANCY": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 3.6
+  },
+  "AMBILLY": {
+    "bureau": "Annemasse",
+    "distanceKm": 2.0
+  },
+  "ANDILLY": {
+    "bureau": "Cruseilles",
+    "distanceKm": 4.2
+  },
+  "ANNECY LE VIEUX": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "ANTHY SUR LEMAN": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 4.5
+  },
+  "ANTHY": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 4.5
+  },
+  "ARBUSIGNY": {
+    "bureau": "Reignier",
+    "distanceKm": 7.2
+  },
+  "ARCHAMPS": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 4.6
+  },
+  "ARCINE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "ARENTHON": {
+    "bureau": "Bonneville",
+    "distanceKm": 5.4
+  },
+  "ARGONAY": {
+    "bureau": "Annecy",
+    "distanceKm": 5.3
+  },
+  "ARGONNEX": {
+    "bureau": "Annecy",
+    "distanceKm": 5.3
+  },
+  "ARMOY": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 3.7
+  },
+  "ARTHAZ PONT NOTRE DAME": {
+    "bureau": "Reignier",
+    "distanceKm": 2.6
+  },
+  "ARACHES LA FRASSE": {
+    "bureau": "Cluses",
+    "distanceKm": 7.7
+  },
+  "ARACHES": {
+    "bureau": "Cluses",
+    "distanceKm": 7.7
+  },
+  "AVIERNOZ": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "AVREGNY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "AYSE": {
+    "bureau": "Bonneville",
+    "distanceKm": 3.1
+  },
+  "BALLAISON": {
+    "bureau": "Douvaine",
+    "distanceKm": 4.3
+  },
+  "BALMONT": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "BASSY": {
+    "bureau": "Frangy",
+    "distanceKm": 8.0
+  },
+  "BEAUMONT": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 5.1
+  },
+  "BELLEVAUX": {
+    "bureau": "Le Biot",
+    "distanceKm": 9.3
+  },
+  "BERNEX": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 8.6
+  },
+  "BLOYE": {
+    "bureau": "Rumilly",
+    "distanceKm": 3.9
+  },
+  "BLUFFY": {
+    "bureau": "Annecy",
+    "distanceKm": 8.5
+  },
+  "BOGEVE": {
+    "bureau": "Boëge",
+    "distanceKm": 4.8
+  },
+  "BONNE": {
+    "bureau": "Annemasse",
+    "distanceKm": 5.7
+  },
+  "BONNEGUETE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "BONNEVAUX": {
+    "bureau": "Le Biot",
+    "distanceKm": 2.8
+  },
+  "BONS EN CHABLAIS": {
+    "bureau": "Boëge",
+    "distanceKm": 5.6
+  },
+  "BONS": {
+    "bureau": "Boëge",
+    "distanceKm": 5.6
+  },
+  "BOSSEY": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 6.5
+  },
+  "BOUSSY": {
+    "bureau": "Rumilly",
+    "distanceKm": 3.3
+  },
+  "BRENS": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "BRENTHONNE": {
+    "bureau": "Boëge",
+    "distanceKm": 6.0
+  },
+  "BRIZON": {
+    "bureau": "Bonneville",
+    "distanceKm": 5.4
+  },
+  "BURDIGNIN": {
+    "bureau": "Boëge",
+    "distanceKm": 3.5
+  },
+  "CERCIER": {
+    "bureau": "Cruseilles",
+    "distanceKm": 5.5
+  },
+  "CERNEX": {
+    "bureau": "Cruseilles",
+    "distanceKm": 5.9
+  },
+  "CERVENS": {
+    "bureau": "Boëge",
+    "distanceKm": 8.0
+  },
+  "CHAINAZ LES FRASSES": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 4.5
+  },
+  "CHALLONGES": {
+    "bureau": "Frangy",
+    "distanceKm": 7.4
+  },
+  "CHAMONIX MONT BLANC": {
+    "bureau": "Sallanches",
+    "distanceKm": 25.1
+  },
+  "CHAMPANGES": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 3.7
+  },
+  "CHAPEIRY": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 3.1
+  },
+  "CHAPERY": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 3.1
+  },
+  "CHARVONNEX": {
+    "bureau": "Thorens-Glières",
+    "distanceKm": 6.0
+  },
+  "CHAUMONT": {
+    "bureau": "Frangy",
+    "distanceKm": 3.2
+  },
+  "CHAVANNAZ": {
+    "bureau": "Cruseilles",
+    "distanceKm": 7.4
+  },
+  "CHAVANOD": {
+    "bureau": "Annecy",
+    "distanceKm": 6.1
+  },
+  "CHENS SUR LEMAN": {
+    "bureau": "Douvaine",
+    "distanceKm": 2.6
+  },
+  "CHENS": {
+    "bureau": "Douvaine",
+    "distanceKm": 2.6
+  },
+  "CHESSENAZ": {
+    "bureau": "Frangy",
+    "distanceKm": 2.2
+  },
+  "CHEVALINE": {
+    "bureau": "Faverges",
+    "distanceKm": 6.4
+  },
+  "CHEVENOZ": {
+    "bureau": "Le Biot",
+    "distanceKm": 6.4
+  },
+  "CHEVRIER": {
+    "bureau": "Frangy",
+    "distanceKm": 9.6
+  },
+  "CHILLY": {
+    "bureau": "Frangy",
+    "distanceKm": 4.7
+  },
+  "CHOISY": {
+    "bureau": "Cruseilles",
+    "distanceKm": 6.7
+  },
+  "CHATEL": {
+    "bureau": "Abondance",
+    "distanceKm": 6.6
+  },
+  "CHATILLON SUR CLUSES": {
+    "bureau": "Cluses",
+    "distanceKm": 2.9
+  },
+  "CHENE EN SEMINE": {
+    "bureau": "Frangy",
+    "distanceKm": 5.9
+  },
+  "CHENEX": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 8.2
+  },
+  "CLARAFOND ARCINE": {
+    "bureau": "Frangy",
+    "distanceKm": 7.0
+  },
+  "CLARAFOND": {
+    "bureau": "Frangy",
+    "distanceKm": 7.0
+  },
+  "CLERMONT": {
+    "bureau": "Frangy",
+    "distanceKm": 5.7
+  },
+  "COLLONGES SOUS SALEVE": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 5.5
+  },
+  "COMBLOUX": {
+    "bureau": "Sallanches",
+    "distanceKm": 5.5
+  },
+  "CONS SAINTE COLOMBE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "CONTAMINE SARZIN": {
+    "bureau": "Frangy",
+    "distanceKm": 4.9
+  },
+  "CONTAMINE SUR ARVE": {
+    "bureau": "Reignier",
+    "distanceKm": 5.9
+  },
+  "COPPONEX": {
+    "bureau": "Cruseilles",
+    "distanceKm": 3.3
+  },
+  "CORDON": {
+    "bureau": "Sallanches",
+    "distanceKm": 3.9
+  },
+  "CORNIER": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 4.9
+  },
+  "CRAN GEVRIER": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "CRANVES SALES": {
+    "bureau": "Annemasse",
+    "distanceKm": 5.2
+  },
+  "CREMPIGNY BONNEGUETE": {
+    "bureau": "Frangy",
+    "distanceKm": 8.7
+  },
+  "CREMPIGNY": {
+    "bureau": "Frangy",
+    "distanceKm": 8.7
+  },
+  "CUSY": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 6.2
+  },
+  "CUVAT": {
+    "bureau": "Cruseilles",
+    "distanceKm": 7.4
+  },
+  "DEMI QUARTIER": {
+    "bureau": "Sallanches",
+    "distanceKm": 6.9
+  },
+  "DESINGY": {
+    "bureau": "Frangy",
+    "distanceKm": 3.6
+  },
+  "DINGY SAINT CLAIR": {
+    "bureau": "Thônes",
+    "distanceKm": 7.8
+  },
+  "DINGY EN VUACHE": {
+    "bureau": "Frangy",
+    "distanceKm": 7.4
+  },
+  "DOMANCY": {
+    "bureau": "Sallanches",
+    "distanceKm": 5.3
+  },
+  "DOUSSARD": {
+    "bureau": "Faverges",
+    "distanceKm": 6.2
+  },
+  "DRAILLANT": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 8.8
+  },
+  "DROISY": {
+    "bureau": "Frangy",
+    "distanceKm": 7.5
+  },
+  "DUINGT": {
+    "bureau": "Annecy",
+    "distanceKm": 10.8
+  },
+  "ENTREMONT": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "ENTREVERNES": {
+    "bureau": "Faverges",
+    "distanceKm": 9.6
+  },
+  "EPAGNY METZ TESSY": {
+    "bureau": "Annecy",
+    "distanceKm": 5.2
+  },
+  "EPAGNY": {
+    "bureau": "Annecy",
+    "distanceKm": 5.2
+  },
+  "ESSERT ROMAND": {
+    "bureau": "Abondance",
+    "distanceKm": 7.9
+  },
+  "ESSERTS SALEVE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "ETAUX": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 2.8
+  },
+  "EXCENEVEX": {
+    "bureau": "Douvaine",
+    "distanceKm": 5.6
+  },
+  "FAUCIGNY": {
+    "bureau": "Bonneville",
+    "distanceKm": 4.9
+  },
+  "FAVERGES SEYTHENEX": {
+    "bureau": "Faverges",
+    "distanceKm": 0.0
+  },
+  "FEIGERES": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 3.0
+  },
+  "FERRIERES": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "FESSY": {
+    "bureau": "Boëge",
+    "distanceKm": 6.7
+  },
+  "FILLINGES": {
+    "bureau": "Boëge",
+    "distanceKm": 6.2
+  },
+  "FILLIERE": {
+    "bureau": "Thorens-Glières",
+    "distanceKm": 0.0
+  },
+  "THORENS": {
+    "bureau": "Thorens-Glières",
+    "distanceKm": 0.0
+  },
+  "FRANCLENS": {
+    "bureau": "Frangy",
+    "distanceKm": 7.7
+  },
+  "FETERNES": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 5.5
+  },
+  "GAILLARD": {
+    "bureau": "Annemasse",
+    "distanceKm": 3.3
+  },
+  "GIEZ": {
+    "bureau": "Faverges",
+    "distanceKm": 3.4
+  },
+  "GLIERES VAL DE BORNE": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 9.9
+  },
+  "LE PETIT BORNAND LES GLIERES": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 9.9
+  },
+  "LE PETIT BORNAND": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 9.9
+  },
+  "GROISY": {
+    "bureau": "Thorens-Glières",
+    "distanceKm": 4.5
+  },
+  "GRUFFY": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 5.1
+  },
+  "HABERE LULLIN": {
+    "bureau": "Boëge",
+    "distanceKm": 6.1
+  },
+  "HABERE POCHE": {
+    "bureau": "Boëge",
+    "distanceKm": 7.6
+  },
+  "HAUTEVILLE SUR FIER": {
+    "bureau": "Rumilly",
+    "distanceKm": 6.5
+  },
+  "HERY SUR ALBY": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 2.9
+  },
+  "JONZIER EPAGNY": {
+    "bureau": "Frangy",
+    "distanceKm": 7.8
+  },
+  "JUVIGNY": {
+    "bureau": "Annemasse",
+    "distanceKm": 4.4
+  },
+  "LA BALME DE SILLINGY": {
+    "bureau": "Annecy",
+    "distanceKm": 9.5
+  },
+  "LA BALME DE THUY": {
+    "bureau": "Thônes",
+    "distanceKm": 4.0
+  },
+  "LA BAUME": {
+    "bureau": "Le Biot",
+    "distanceKm": 2.6
+  },
+  "LA CHAPELLE RAMBAUD": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 5.6
+  },
+  "LA CHAPELLE SAINT MAURICE": {
+    "bureau": "Faverges",
+    "distanceKm": 11.3
+  },
+  "LA CHAPELLE D ABONDANCE": {
+    "bureau": "Abondance",
+    "distanceKm": 7.8
+  },
+  "LA CHAPELLE": {
+    "bureau": "Abondance",
+    "distanceKm": 7.8
+  },
+  "LA CLUSAZ": {
+    "bureau": "Thônes",
+    "distanceKm": 10.4
+  },
+  "LA COTE D ARBROZ": {
+    "bureau": "Taninges",
+    "distanceKm": 5.2
+  },
+  "LA COTE D HYOT": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "LA FORCLAZ": {
+    "bureau": "Le Biot",
+    "distanceKm": 5.0
+  },
+  "LA FRASSE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "LA MURAZ": {
+    "bureau": "Reignier",
+    "distanceKm": 5.6
+  },
+  "LA RIVIERE ENVERSE": {
+    "bureau": "Cluses",
+    "distanceKm": 4.6
+  },
+  "LA ROCHE": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 0.0
+  },
+  "LA TOUR": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 3.6
+  },
+  "LA VERNAZ": {
+    "bureau": "Le Biot",
+    "distanceKm": 4.9
+  },
+  "LARRINGES": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 2.3
+  },
+  "LATHUILE": {
+    "bureau": "Faverges",
+    "distanceKm": 8.4
+  },
+  "LE BOUCHET MONT CHARVIN": {
+    "bureau": "Thônes",
+    "distanceKm": 9.7
+  },
+  "LE BOUCHET": {
+    "bureau": "Thônes",
+    "distanceKm": 9.7
+  },
+  "LE GRAND BORNAND": {
+    "bureau": "Sallanches",
+    "distanceKm": 10.1
+  },
+  "LE REPOSOIR": {
+    "bureau": "Cluses",
+    "distanceKm": 8.9
+  },
+  "LE SAPPEY": {
+    "bureau": "Cruseilles",
+    "distanceKm": 6.4
+  },
+  "LES CLEFS": {
+    "bureau": "Thônes",
+    "distanceKm": 3.9
+  },
+  "LES CONTAMINES MONTJOIE": {
+    "bureau": "Sallanches",
+    "distanceKm": 19.3
+  },
+  "LES CONTAMINES": {
+    "bureau": "Sallanches",
+    "distanceKm": 19.3
+  },
+  "LES GETS": {
+    "bureau": "Taninges",
+    "distanceKm": 4.1
+  },
+  "LES HOUCHES": {
+    "bureau": "Sallanches",
+    "distanceKm": 15.7
+  },
+  "LES OLLIERES": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "LES VILLARDS SUR THONES": {
+    "bureau": "Thônes",
+    "distanceKm": 4.7
+  },
+  "LESCHAUX": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 8.8
+  },
+  "LOISIN": {
+    "bureau": "Douvaine",
+    "distanceKm": 3.1
+  },
+  "LORNAY": {
+    "bureau": "Rumilly",
+    "distanceKm": 7.1
+  },
+  "LOVAGNY": {
+    "bureau": "Annecy",
+    "distanceKm": 7.0
+  },
+  "LOEX": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "LUCINGES": {
+    "bureau": "Boëge",
+    "distanceKm": 5.2
+  },
+  "LUGRIN": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 6.4
+  },
+  "LULLIN": {
+    "bureau": "Le Biot",
+    "distanceKm": 10.0
+  },
+  "LULLY": {
+    "bureau": "Douvaine",
+    "distanceKm": 8.4
+  },
+  "LYAUD": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 5.7
+  },
+  "MACHILLY": {
+    "bureau": "Boëge",
+    "distanceKm": 6.1
+  },
+  "MAGLAND": {
+    "bureau": "Cluses",
+    "distanceKm": 7.9
+  },
+  "MANIGOD": {
+    "bureau": "Thônes",
+    "distanceKm": 6.7
+  },
+  "MARCELLAZ": {
+    "bureau": "Reignier",
+    "distanceKm": 7.2
+  },
+  "MARCELLAZ ALBANAIS": {
+    "bureau": "Rumilly",
+    "distanceKm": 5.1
+  },
+  "MARGENCEL": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 6.6
+  },
+  "MARIGNIER": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 5.5
+  },
+  "MARIGNY SAINT MARCEL": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 3.1
+  },
+  "MARIN": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 3.7
+  },
+  "MARLIOZ": {
+    "bureau": "Frangy",
+    "distanceKm": 6.6
+  },
+  "MARNAZ": {
+    "bureau": "Cluses",
+    "distanceKm": 4.4
+  },
+  "MASSINGY": {
+    "bureau": "Rumilly",
+    "distanceKm": 4.1
+  },
+  "MASSONGY": {
+    "bureau": "Douvaine",
+    "distanceKm": 2.4
+  },
+  "MAXILLY SUR LEMAN": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 3.3
+  },
+  "MEGEVE": {
+    "bureau": "Sallanches",
+    "distanceKm": 10.4
+  },
+  "MEILLERIE": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 10.8
+  },
+  "MENTHON SAINT BERNARD": {
+    "bureau": "Annecy",
+    "distanceKm": 6.4
+  },
+  "MENTHONNEX EN BORNES": {
+    "bureau": "Cruseilles",
+    "distanceKm": 5.6
+  },
+  "MENTHONNEX SOUS CLERMONT": {
+    "bureau": "Frangy",
+    "distanceKm": 7.2
+  },
+  "MESSERY": {
+    "bureau": "Douvaine",
+    "distanceKm": 4.4
+  },
+  "METZ TESSY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "MEYTHET": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "MIEUSSY": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 5.3
+  },
+  "MINZIER": {
+    "bureau": "Frangy",
+    "distanceKm": 6.7
+  },
+  "MONNETIER MORNEX": {
+    "bureau": "Reignier",
+    "distanceKm": 4.3
+  },
+  "MONT SAXONNEX": {
+    "bureau": "Bonneville",
+    "distanceKm": 8.0
+  },
+  "MONTAGNY LES LANCHES": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 5.2
+  },
+  "MONTMIN": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "MONTRIOND": {
+    "bureau": "Abondance",
+    "distanceKm": 5.4
+  },
+  "MORILLON": {
+    "bureau": "Cluses",
+    "distanceKm": 7.3
+  },
+  "MORZINE": {
+    "bureau": "Abondance",
+    "distanceKm": 9.0
+  },
+  "MOYE": {
+    "bureau": "Rumilly",
+    "distanceKm": 3.7
+  },
+  "MUSIEGES": {
+    "bureau": "Frangy",
+    "distanceKm": 2.5
+  },
+  "MEGEVETTE": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 8.2
+  },
+  "MESIGNY": {
+    "bureau": "Frangy",
+    "distanceKm": 7.7
+  },
+  "MURES": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 1.7
+  },
+  "NANCY SUR CLUSES": {
+    "bureau": "Cluses",
+    "distanceKm": 4.4
+  },
+  "NANGY": {
+    "bureau": "Reignier",
+    "distanceKm": 3.3
+  },
+  "NERNIER": {
+    "bureau": "Douvaine",
+    "distanceKm": 5.9
+  },
+  "NEUVECELLE": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 1.4
+  },
+  "NEYDENS": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 2.7
+  },
+  "NONGLARD": {
+    "bureau": "Annecy",
+    "distanceKm": 7.9
+  },
+  "NOVEL": {
+    "bureau": "Abondance",
+    "distanceKm": 12.3
+  },
+  "NAVES PARMELAN": {
+    "bureau": "Annecy",
+    "distanceKm": 6.4
+  },
+  "ONNION": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 5.2
+  },
+  "ORCIER": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 7.2
+  },
+  "PASSEIRIER": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "PASSY": {
+    "bureau": "Sallanches",
+    "distanceKm": 11.7
+  },
+  "PEILLONNEX": {
+    "bureau": "Bonneville",
+    "distanceKm": 6.2
+  },
+  "PERRIGNIER": {
+    "bureau": "Thonon-les-Bains",
+    "distanceKm": 8.2
+  },
+  "PERS JUSSY": {
+    "bureau": "Reignier",
+    "distanceKm": 4.0
+  },
+  "POISY": {
+    "bureau": "Annecy",
+    "distanceKm": 5.3
+  },
+  "PONTCHY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "PRAZ SUR ARLY": {
+    "bureau": "Sallanches",
+    "distanceKm": 11.7
+  },
+  "PRINGY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "PRESILLY": {
+    "bureau": "Cruseilles",
+    "distanceKm": 5.0
+  },
+  "PUBLIER": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 3.7
+  },
+  "QUINTAL": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 5.9
+  },
+  "REIGNIER ESERY": {
+    "bureau": "Reignier",
+    "distanceKm": 0.0
+  },
+  "REYVROZ": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 7.9
+  },
+  "SAINT ANDRE VAL DE FIER": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT ANDRE DE BOEGE": {
+    "bureau": "Boëge",
+    "distanceKm": 2.6
+  },
+  "SAINT BLAISE": {
+    "bureau": "Cruseilles",
+    "distanceKm": 2.9
+  },
+  "SAINT CERGUES": {
+    "bureau": "Boëge",
+    "distanceKm": 5.1
+  },
+  "SAINT DIDIER EN CHABLAIS": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT EUSTACHE": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 9.9
+  },
+  "SAINT EUSEBE": {
+    "bureau": "Rumilly",
+    "distanceKm": 8.0
+  },
+  "SAINT FERREOL": {
+    "bureau": "Faverges",
+    "distanceKm": 5.7
+  },
+  "SAINT FELIX": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 3.4
+  },
+  "SAINT GERMAIN SUR RHONE": {
+    "bureau": "Frangy",
+    "distanceKm": 9.0
+  },
+  "SAINT GERVAIS LES BAINS": {
+    "bureau": "Sallanches",
+    "distanceKm": 15.0
+  },
+  "SAINT GINGOLPH": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 14.2
+  },
+  "SAINT JEAN D AULPS": {
+    "bureau": "Le Biot",
+    "distanceKm": 5.4
+  },
+  "SAINT JEAN D AULPH": {
+    "bureau": "Le Biot",
+    "distanceKm": 5.4
+  },
+  "SAINT JEAN DE SIXT": {
+    "bureau": "Thônes",
+    "distanceKm": 7.5
+  },
+  "SAINT JEAN DE THOLOME": {
+    "bureau": "Bonneville",
+    "distanceKm": 3.9
+  },
+  "SAINT JORIOZ": {
+    "bureau": "Annecy",
+    "distanceKm": 8.8
+  },
+  "SAINT LAURENT": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 4.6
+  },
+  "SAINT MARTIN BELLEVUE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN SUR ARVE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT MAURICE DE RUMILLY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DE VEROCE": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT PAUL EN CHABLAIS": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 4.5
+  },
+  "SAINT PIERRE EN FAUCIGNY": {
+    "bureau": "Bonneville",
+    "distanceKm": 3.2
+  },
+  "SAINT PIERRE DE RUMILLY": {
+    "bureau": "Bonneville",
+    "distanceKm": 3.2
+  },
+  "SAINT ROCH": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SAINT SIGISMOND": {
+    "bureau": "Cluses",
+    "distanceKm": 3.4
+  },
+  "SAINT SIXT": {
+    "bureau": "La Roche-sur-Foron",
+    "distanceKm": 1.8
+  },
+  "SAINT SYLVESTRE": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 3.1
+  },
+  "SALES": {
+    "bureau": "Rumilly",
+    "distanceKm": 3.2
+  },
+  "SALLENOVES": {
+    "bureau": "Frangy",
+    "distanceKm": 5.8
+  },
+  "SAMOENS": {
+    "bureau": "Taninges",
+    "distanceKm": 12.7
+  },
+  "SAVIGNY": {
+    "bureau": "Frangy",
+    "distanceKm": 5.4
+  },
+  "SAXEL": {
+    "bureau": "Boëge",
+    "distanceKm": 3.3
+  },
+  "SCIENTRIER": {
+    "bureau": "Reignier",
+    "distanceKm": 4.4
+  },
+  "SCIEZ": {
+    "bureau": "Douvaine",
+    "distanceKm": 6.0
+  },
+  "SCIONZIER": {
+    "bureau": "Cluses",
+    "distanceKm": 2.9
+  },
+  "SERRAVAL": {
+    "bureau": "Thônes",
+    "distanceKm": 8.6
+  },
+  "SERVOZ": {
+    "bureau": "Sallanches",
+    "distanceKm": 14.0
+  },
+  "SEVRIER": {
+    "bureau": "Annecy",
+    "distanceKm": 5.1
+  },
+  "SEYNOD": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SEYSSEL": {
+    "bureau": "Frangy",
+    "distanceKm": 8.6
+  },
+  "SEYTHENEX": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SEYTROUX": {
+    "bureau": "Le Biot",
+    "distanceKm": 4.7
+  },
+  "SILLINGY": {
+    "bureau": "Annecy",
+    "distanceKm": 8.9
+  },
+  "SIXT FER A CHEVAL": {
+    "bureau": "Taninges",
+    "distanceKm": 17.9
+  },
+  "SIXT": {
+    "bureau": "Taninges",
+    "distanceKm": 17.9
+  },
+  "TALLOIRES MONTMIN": {
+    "bureau": "Faverges",
+    "distanceKm": 10.2
+  },
+  "TALLOIRES": {
+    "bureau": "Faverges",
+    "distanceKm": 10.2
+  },
+  "THAIRY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "THOLLON LES MEMISES": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 11.2
+  },
+  "THOLLON": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 11.2
+  },
+  "THUSY": {
+    "bureau": "Frangy",
+    "distanceKm": 9.1
+  },
+  "THYEZ": {
+    "bureau": "Cluses",
+    "distanceKm": 4.4
+  },
+  "USINENS": {
+    "bureau": "Frangy",
+    "distanceKm": 5.7
+  },
+  "VACHERESSE": {
+    "bureau": "Le Biot",
+    "distanceKm": 7.3
+  },
+  "VAILLY": {
+    "bureau": "Le Biot",
+    "distanceKm": 7.5
+  },
+  "VAL DE CHAISE": {
+    "bureau": "Faverges",
+    "distanceKm": 5.7
+  },
+  "MARLENS": {
+    "bureau": "Faverges",
+    "distanceKm": 5.7
+  },
+  "VAL DE FIER": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "SION": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "VALLEIRY": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 9.4
+  },
+  "VALLIERES SUR FIER": {
+    "bureau": "Rumilly",
+    "distanceKm": 7.0
+  },
+  "VALLIERES": {
+    "bureau": "Rumilly",
+    "distanceKm": 7.0
+  },
+  "VALLORCINE": {
+    "bureau": "Taninges",
+    "distanceKm": 25.3
+  },
+  "VANZY": {
+    "bureau": "Frangy",
+    "distanceKm": 4.0
+  },
+  "VAULX": {
+    "bureau": "Rumilly",
+    "distanceKm": 9.0
+  },
+  "VEIGY FONCENEX": {
+    "bureau": "Douvaine",
+    "distanceKm": 4.8
+  },
+  "VERCHAIX": {
+    "bureau": "Taninges",
+    "distanceKm": 6.3
+  },
+  "VERS": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 7.0
+  },
+  "VERSONNEX": {
+    "bureau": "Rumilly",
+    "distanceKm": 7.8
+  },
+  "VEYRIER DU LAC": {
+    "bureau": "Annecy",
+    "distanceKm": 4.2
+  },
+  "VIEUGY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "VILLARD": {
+    "bureau": "Boëge",
+    "distanceKm": 4.8
+  },
+  "VILLAZ": {
+    "bureau": "Thorens-Glières",
+    "distanceKm": 6.2
+  },
+  "VILLE EN SALLAZ": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 4.0
+  },
+  "VILLE LA GRAND": {
+    "bureau": "Annemasse",
+    "distanceKm": 2.1
+  },
+  "VILLY LE BOUVERET": {
+    "bureau": "Cruseilles",
+    "distanceKm": 3.8
+  },
+  "VILLY LE PELLOUX": {
+    "bureau": "Cruseilles",
+    "distanceKm": 5.1
+  },
+  "VINZIER": {
+    "bureau": "Evian-les-Bains",
+    "distanceKm": 5.7
+  },
+  "VIRY": {
+    "bureau": "Saint-Julien-en-Genevois",
+    "distanceKm": 5.6
+  },
+  "VIUZ EN SALLAZ": {
+    "bureau": "Saint-Jeoire",
+    "distanceKm": 5.3
+  },
+  "VIUZ LA CHIESAZ": {
+    "bureau": "Alby-sur-Chéran",
+    "distanceKm": 4.5
+  },
+  "VOUGY": {
+    "bureau": "Bonneville",
+    "distanceKm": 6.7
+  },
+  "VOVRAY EN BORNES": {
+    "bureau": "Cruseilles",
+    "distanceKm": 3.1
+  },
+  "VULBENS": {
+    "bureau": "Frangy",
+    "distanceKm": 9.5
+  },
+  "VETRAZ MONTHOUX": {
+    "bureau": "Annemasse",
+    "distanceKm": 1.2
+  },
+  "YVOIRE": {
+    "bureau": "Douvaine",
+    "distanceKm": 6.5
+  },
+  "ELOISE": {
+    "bureau": "Frangy",
+    "distanceKm": 9.0
+  },
+  "ESERY": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  },
+  "ETERCY": {
+    "bureau": "Rumilly",
+    "distanceKm": 6.5
+  },
+  "ETREMBIERES": {
+    "bureau": "Annemasse",
+    "distanceKm": 3.6
+  },
+  "EVIRES": {
+    "bureau": "Annecy",
+    "distanceKm": 0.0
+  }
+}

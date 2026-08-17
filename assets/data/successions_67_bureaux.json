@@ -1,0 +1,2258 @@
+{
+  "ACHENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 8.5
+  },
+  "ADAMSWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 4.4
+  },
+  "ALBE": {
+    "bureau": "Villé",
+    "distanceKm": 3.5
+  },
+  "ALTECKENDORF": {
+    "bureau": "Hochfelden",
+    "distanceKm": 5.6
+  },
+  "ALTENHEIM": {
+    "bureau": "Marmoutier",
+    "distanceKm": 7.6
+  },
+  "ALTENSTADT": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "ALTORF": {
+    "bureau": "Molsheim",
+    "distanceKm": 3.9
+  },
+  "ALTWILLER": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 8.6
+  },
+  "ANDLAU": {
+    "bureau": "Barr",
+    "distanceKm": 2.4
+  },
+  "ARTOLSHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 7.3
+  },
+  "ASCHBACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 8.0
+  },
+  "ASSWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 2.7
+  },
+  "AUENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "AVENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "AVOLSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 1.8
+  },
+  "BAERENDORF": {
+    "bureau": "Drulingen",
+    "distanceKm": 8.6
+  },
+  "BALBRONN": {
+    "bureau": "Wasselonne",
+    "distanceKm": 6.7
+  },
+  "BALDENHEIM": {
+    "bureau": "Sélestat",
+    "distanceKm": 5.1
+  },
+  "BAREMBACH": {
+    "bureau": "Schirmeck",
+    "distanceKm": 4.2
+  },
+  "BASSEMBERG": {
+    "bureau": "Villé",
+    "distanceKm": 2.1
+  },
+  "BATZENDORF": {
+    "bureau": "Brumath",
+    "distanceKm": 7.3
+  },
+  "BEHLENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "BEINHEIM": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 14.4
+  },
+  "BELLEFOSSE": {
+    "bureau": "Villé",
+    "distanceKm": 7.6
+  },
+  "BELMONT": {
+    "bureau": "Villé",
+    "distanceKm": 8.0
+  },
+  "BERG": {
+    "bureau": "Drulingen",
+    "distanceKm": 4.7
+  },
+  "BERGBIETEN": {
+    "bureau": "Molsheim",
+    "distanceKm": 4.7
+  },
+  "BERNARDSWILLER": {
+    "bureau": "Obernai",
+    "distanceKm": 2.4
+  },
+  "BERNARDVILLE": {
+    "bureau": "Barr",
+    "distanceKm": 5.0
+  },
+  "BERNOLSHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 4.1
+  },
+  "BERSTETT": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 2.9
+  },
+  "BERSTHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 8.5
+  },
+  "BETSCHDORF": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 7.9
+  },
+  "OBERBETSCHDORF": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 7.9
+  },
+  "BETTWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 2.7
+  },
+  "BIBLISHEIM": {
+    "bureau": "Haguenau",
+    "distanceKm": 7.1
+  },
+  "BIETLENHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 4.9
+  },
+  "BILWISHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 3.8
+  },
+  "BINDERNHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 8.4
+  },
+  "BIRKENWALD": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "BIRLENBACH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "BISCHHEIM": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 1.3
+  },
+  "BISCHHOLTZ": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 9.9
+  },
+  "BISCHOFFSHEIM": {
+    "bureau": "Obernai",
+    "distanceKm": 5.0
+  },
+  "BISCHTROFF SUR SARRE": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "PISDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "BISSERT": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 5.1
+  },
+  "BITSCHHOFFEN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 10.1
+  },
+  "BLAESHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 9.3
+  },
+  "BLANCHERUPT": {
+    "bureau": "Saales",
+    "distanceKm": 8.6
+  },
+  "BLIENSCHWILLER": {
+    "bureau": "Barr",
+    "distanceKm": 7.7
+  },
+  "BOLSENHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 6.1
+  },
+  "BOOFZHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 6.6
+  },
+  "BOOTZHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 5.3
+  },
+  "BOSSELSHAUSEN": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 3.2
+  },
+  "BOSSENDORF": {
+    "bureau": "Hochfelden",
+    "distanceKm": 3.6
+  },
+  "BOURG BRUCHE": {
+    "bureau": "Saales",
+    "distanceKm": 2.0
+  },
+  "BOURGHEIM": {
+    "bureau": "Obernai",
+    "distanceKm": 4.2
+  },
+  "BREITENAU": {
+    "bureau": "Villé",
+    "distanceKm": 3.8
+  },
+  "BREITENBACH": {
+    "bureau": "Villé",
+    "distanceKm": 3.5
+  },
+  "BREMMELBACH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "BREUSCHWICKERSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 8.2
+  },
+  "BUHL": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 11.1
+  },
+  "BURBACH": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 5.5
+  },
+  "BUST": {
+    "bureau": "Drulingen",
+    "distanceKm": 4.8
+  },
+  "BUSWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 7.0
+  },
+  "BUESWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 7.0
+  },
+  "BUTTEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 12.0
+  },
+  "BŒRSCH": {
+    "bureau": "Rosheim",
+    "distanceKm": 4.0
+  },
+  "BŒSENBIESEN": {
+    "bureau": "Sélestat",
+    "distanceKm": 8.0
+  },
+  "CHATENOIS": {
+    "bureau": "Sélestat",
+    "distanceKm": 6.6
+  },
+  "CLEEBOURG": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 4.8
+  },
+  "CLIMBACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 7.1
+  },
+  "COLROY LA ROCHE": {
+    "bureau": "Saales",
+    "distanceKm": 6.4
+  },
+  "COSSWILLER": {
+    "bureau": "Wasselonne",
+    "distanceKm": 6.6
+  },
+  "CRASTATT": {
+    "bureau": "Wasselonne",
+    "distanceKm": 2.9
+  },
+  "CRŒTTWILLER": {
+    "bureau": "Wissembourg",
+    "distanceKm": 11.2
+  },
+  "DACHSTEIN": {
+    "bureau": "Molsheim",
+    "distanceKm": 3.3
+  },
+  "DAHLENHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 4.9
+  },
+  "DALHUNDEN": {
+    "bureau": "Bischwiller",
+    "distanceKm": 9.3
+  },
+  "DAMBACH": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 6.3
+  },
+  "DAMBACH LA VILLE": {
+    "bureau": "Sélestat",
+    "distanceKm": 8.5
+  },
+  "DANGOLSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 3.7
+  },
+  "DAUBENSAND": {
+    "bureau": "Erstein",
+    "distanceKm": 8.1
+  },
+  "DAUENDORF": {
+    "bureau": "Haguenau",
+    "distanceKm": 10.8
+  },
+  "DEHLINGEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 8.5
+  },
+  "DETTWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.1
+  },
+  "DIEBOLSHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 9.4
+  },
+  "DIEDENDORF": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 8.0
+  },
+  "DIEFFENBACH AU VAL": {
+    "bureau": "Villé",
+    "distanceKm": 3.8
+  },
+  "DIEFFENBACH LES WŒRTH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 5.8
+  },
+  "DIEFFENTHAL": {
+    "bureau": "Sélestat",
+    "distanceKm": 7.2
+  },
+  "DIEMERINGEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 8.5
+  },
+  "DIMBSTHAL": {
+    "bureau": "Marmoutier",
+    "distanceKm": 2.7
+  },
+  "DINGSHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.7
+  },
+  "DINSHEIM SUR BRUCHE": {
+    "bureau": "Molsheim",
+    "distanceKm": 5.8
+  },
+  "DINSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 5.8
+  },
+  "DOMFESSEL": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 4.2
+  },
+  "DONNENHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 3.7
+  },
+  "DORLISHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 3.3
+  },
+  "DOSSENHEIM KOCHERSBERG": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.2
+  },
+  "DOSSENHEIM SUR ZINSEL": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 6.6
+  },
+  "DRACHENBRONN BIRLENBACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 3.4
+  },
+  "DRACHENBRONN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 3.4
+  },
+  "DRUSENHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 5.9
+  },
+  "DUNTZENHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 4.2
+  },
+  "DUPPIGHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 7.2
+  },
+  "DURNINGEN": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 5.6
+  },
+  "DURRENBACH": {
+    "bureau": "Haguenau",
+    "distanceKm": 8.0
+  },
+  "DURSTEL": {
+    "bureau": "Drulingen",
+    "distanceKm": 2.8
+  },
+  "DUTTLENHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 5.8
+  },
+  "EBERBACH SELTZ": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 10.1
+  },
+  "EBERBACH WŒRTH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "EBERSHEIM": {
+    "bureau": "Sélestat",
+    "distanceKm": 6.4
+  },
+  "EBERSMUNSTER": {
+    "bureau": "Sélestat",
+    "distanceKm": 7.9
+  },
+  "ECKARTSWILLER": {
+    "bureau": "Saverne",
+    "distanceKm": 4.1
+  },
+  "ECKBOLSHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 6.0
+  },
+  "ECKWERSHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 4.0
+  },
+  "EICHHOFFEN": {
+    "bureau": "Barr",
+    "distanceKm": 5.0
+  },
+  "ELSENHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 5.2
+  },
+  "ENGWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 8.1
+  },
+  "ENTZHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 7.2
+  },
+  "EPFIG": {
+    "bureau": "Barr",
+    "distanceKm": 8.8
+  },
+  "ERCKARTSWILLER": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 2.7
+  },
+  "ERGERSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 4.1
+  },
+  "ERNOLSHEIM BRUCHE": {
+    "bureau": "Molsheim",
+    "distanceKm": 5.6
+  },
+  "ERNOLSHEIM LES SAVERNE": {
+    "bureau": "Saverne",
+    "distanceKm": 5.1
+  },
+  "ERNOLSHEIM SAVERNE": {
+    "bureau": "Saverne",
+    "distanceKm": 5.1
+  },
+  "ESCHAU": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 4.8
+  },
+  "ESCHBACH": {
+    "bureau": "Haguenau",
+    "distanceKm": 7.3
+  },
+  "ESCHBOURG": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 5.9
+  },
+  "ESCHWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 6.0
+  },
+  "ETTENDORF": {
+    "bureau": "Hochfelden",
+    "distanceKm": 7.7
+  },
+  "EYWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 5.0
+  },
+  "FEGERSHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 4.2
+  },
+  "FESSENHEIM LE BAS": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 6.7
+  },
+  "FLEXBOURG": {
+    "bureau": "Molsheim",
+    "distanceKm": 6.2
+  },
+  "FORSTFELD": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 15.2
+  },
+  "FORSTHEIM": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 8.3
+  },
+  "FORT LOUIS": {
+    "bureau": "Bischwiller",
+    "distanceKm": 14.3
+  },
+  "FOUCHY": {
+    "bureau": "Villé",
+    "distanceKm": 5.5
+  },
+  "FOUDAY": {
+    "bureau": "Schirmeck",
+    "distanceKm": 8.1
+  },
+  "FRIEDOLSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 7.3
+  },
+  "FRIESENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 7.5
+  },
+  "FROHMUHL": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 6.4
+  },
+  "FRŒSCHWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 6.0
+  },
+  "FURCHHAUSEN": {
+    "bureau": "Marmoutier",
+    "distanceKm": 5.4
+  },
+  "FURDENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 7.3
+  },
+  "GAMBSHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 7.7
+  },
+  "GEISPOLSHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 5.4
+  },
+  "GEISWILLER ZŒBERSDORF": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.3
+  },
+  "GEISWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.3
+  },
+  "GERSTHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 4.3
+  },
+  "GERTWILLER": {
+    "bureau": "Obernai",
+    "distanceKm": 4.9
+  },
+  "GEUDERTHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 4.0
+  },
+  "GIMBRETT": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "GINGSHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "GOTTENHOUSE": {
+    "bureau": "Marmoutier",
+    "distanceKm": 2.6
+  },
+  "GOTTENHAUSEN": {
+    "bureau": "Marmoutier",
+    "distanceKm": 2.6
+  },
+  "GOTTESHEIM": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.6
+  },
+  "GOUGENHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 4.9
+  },
+  "GOXWILLER": {
+    "bureau": "Obernai",
+    "distanceKm": 2.6
+  },
+  "GRANDFONTAINE": {
+    "bureau": "Schirmeck",
+    "distanceKm": 6.1
+  },
+  "GRASSENDORF": {
+    "bureau": "Hochfelden",
+    "distanceKm": 8.2
+  },
+  "GRENDELBRUCH": {
+    "bureau": "Schirmeck",
+    "distanceKm": 7.6
+  },
+  "GRESSWILLER": {
+    "bureau": "Rosheim",
+    "distanceKm": 3.7
+  },
+  "GRIES": {
+    "bureau": "Bischwiller",
+    "distanceKm": 2.8
+  },
+  "GRIESBACH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "GRIESBACH LE BASTBERG": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "GRIESHEIM PRES MOLSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 5.5
+  },
+  "GRIESHEIM SUR SOUFFEL": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.0
+  },
+  "GRIESHEIM SUR SOUFFLE": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.0
+  },
+  "GUMBRECHTSHOFFEN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 5.8
+  },
+  "GUMBRECHTSHOFFEN NIEDERBRONN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 5.8
+  },
+  "GUMBRECHTSHOFFEN OBERBRONN": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "GUNDERSHOFFEN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 5.7
+  },
+  "GUNGWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 3.3
+  },
+  "GUNSTETT": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 8.0
+  },
+  "GŒRLINGEN": {
+    "bureau": "Drulingen",
+    "distanceKm": 10.8
+  },
+  "GŒRSDORF": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 7.0
+  },
+  "HAEGEN": {
+    "bureau": "Marmoutier",
+    "distanceKm": 5.4
+  },
+  "HANDSCHUHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 7.5
+  },
+  "HANGENBIETEN": {
+    "bureau": "Molsheim",
+    "distanceKm": 8.4
+  },
+  "HARSKIRCHEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 5.0
+  },
+  "HATTEN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 11.8
+  },
+  "HATTMATT": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 3.7
+  },
+  "HEGENEY": {
+    "bureau": "Haguenau",
+    "distanceKm": 8.2
+  },
+  "HEIDOLSHEIM": {
+    "bureau": "Sélestat",
+    "distanceKm": 6.5
+  },
+  "HEILIGENBERG": {
+    "bureau": "Rosheim",
+    "distanceKm": 5.9
+  },
+  "HEILIGENSTEIN": {
+    "bureau": "Barr",
+    "distanceKm": 3.1
+  },
+  "HENGWILLER": {
+    "bureau": "Marmoutier",
+    "distanceKm": 4.3
+  },
+  "HERBITZHEIM": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 8.5
+  },
+  "HERBSHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 3.1
+  },
+  "HERMERSWILLER": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "HERRLISHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 4.5
+  },
+  "HESSENHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 6.3
+  },
+  "HILSENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 7.7
+  },
+  "HINDISHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 6.6
+  },
+  "HINSBOURG": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 4.8
+  },
+  "HINSINGEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 6.3
+  },
+  "HIPSHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 5.1
+  },
+  "HIRSCHLAND": {
+    "bureau": "Drulingen",
+    "distanceKm": 6.0
+  },
+  "HOCHSTETT": {
+    "bureau": "Brumath",
+    "distanceKm": 6.7
+  },
+  "HOFFEN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 4.8
+  },
+  "HOHATZENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "HOHENGŒFT": {
+    "bureau": "Wasselonne",
+    "distanceKm": 3.0
+  },
+  "HOHFRANKENHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 2.7
+  },
+  "HOHWILLER": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "HOLTZHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 7.3
+  },
+  "HUNSPACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 4.4
+  },
+  "HURTIGHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 5.0
+  },
+  "HUTTENDORF": {
+    "bureau": "Hochfelden",
+    "distanceKm": 8.0
+  },
+  "HUTTENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 2.6
+  },
+  "HŒNHEIM": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 1.7
+  },
+  "HŒRDT": {
+    "bureau": "Brumath",
+    "distanceKm": 6.1
+  },
+  "ICHTRATZHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 6.1
+  },
+  "IMBSHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "INGENHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 3.0
+  },
+  "INGOLSHEIM": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 4.9
+  },
+  "INGWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 7.6
+  },
+  "INNENHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 7.4
+  },
+  "IRMSTETT": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "ISSENHAUSEN": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.9
+  },
+  "ITTENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 6.5
+  },
+  "ITTERSWILLER": {
+    "bureau": "Barr",
+    "distanceKm": 5.6
+  },
+  "JETTERSWILLER": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.0
+  },
+  "KALTENHOUSE": {
+    "bureau": "Bischwiller",
+    "distanceKm": 4.3
+  },
+  "KAUFFENHEIM": {
+    "bureau": "Haguenau",
+    "distanceKm": 15.7
+  },
+  "KEFFENACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 2.0
+  },
+  "KERTZFELD": {
+    "bureau": "Benfeld",
+    "distanceKm": 4.3
+  },
+  "KESKASTEL": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 3.9
+  },
+  "KESSELDORF": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 13.0
+  },
+  "KIENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.6
+  },
+  "KILSTETT": {
+    "bureau": "Bischwiller",
+    "distanceKm": 8.6
+  },
+  "KINDWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 10.8
+  },
+  "KINTZHEIM": {
+    "bureau": "Sélestat",
+    "distanceKm": 6.3
+  },
+  "KIRCHHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.0
+  },
+  "KIRRBERG": {
+    "bureau": "Drulingen",
+    "distanceKm": 10.1
+  },
+  "KIRRWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.3
+  },
+  "KIRRWILLER BOSSELSHAUSEN": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.3
+  },
+  "KLEINFRANKENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "KLEINGŒFT": {
+    "bureau": "Marmoutier",
+    "distanceKm": 5.7
+  },
+  "KNŒRSHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.8
+  },
+  "KOGENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 6.1
+  },
+  "KOLBSHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 6.7
+  },
+  "KRAUTERGERSHEIM": {
+    "bureau": "Obernai",
+    "distanceKm": 6.6
+  },
+  "KRAUTWILLER": {
+    "bureau": "Brumath",
+    "distanceKm": 3.6
+  },
+  "KRIEGSHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 4.3
+  },
+  "KUHLENDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "KURTZENHOUSE": {
+    "bureau": "Bischwiller",
+    "distanceKm": 4.7
+  },
+  "KURTZENHAUSEN": {
+    "bureau": "Bischwiller",
+    "distanceKm": 4.7
+  },
+  "KUTTOLSHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.3
+  },
+  "KUTZENHAUSEN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 1.9
+  },
+  "LA BROQUE": {
+    "bureau": "Schirmeck",
+    "distanceKm": 4.8
+  },
+  "LA VANCELLE": {
+    "bureau": "Villé",
+    "distanceKm": 6.9
+  },
+  "LA WALCK": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "LA WANTZENAU": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 8.4
+  },
+  "LALAYE": {
+    "bureau": "Villé",
+    "distanceKm": 5.2
+  },
+  "LAMPERTHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.9
+  },
+  "LAMPERTSLOCH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 4.2
+  },
+  "LANDERSHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 7.4
+  },
+  "LANGENSOULTZBACH": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 7.2
+  },
+  "LAUBACH": {
+    "bureau": "Haguenau",
+    "distanceKm": 8.9
+  },
+  "LE HOHWALD": {
+    "bureau": "Villé",
+    "distanceKm": 6.3
+  },
+  "LEITERSWILLER": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "LEMBACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 10.4
+  },
+  "LEUTENHEIM": {
+    "bureau": "Haguenau",
+    "distanceKm": 13.2
+  },
+  "LICHTENBERG": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 12.2
+  },
+  "LIMERSHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 5.7
+  },
+  "LINGOLSHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 5.0
+  },
+  "LIPSHEIM": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 6.5
+  },
+  "LITTENHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 5.6
+  },
+  "LIXHAUSEN": {
+    "bureau": "Hochfelden",
+    "distanceKm": 5.0
+  },
+  "LOBSANN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 2.6
+  },
+  "LOCHWILLER": {
+    "bureau": "Marmoutier",
+    "distanceKm": 3.3
+  },
+  "LOHR": {
+    "bureau": "Drulingen",
+    "distanceKm": 5.5
+  },
+  "LORENTZEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 7.4
+  },
+  "LUPSTEIN": {
+    "bureau": "Hochfelden",
+    "distanceKm": 6.1
+  },
+  "LUTZELHOUSE": {
+    "bureau": "Schirmeck",
+    "distanceKm": 6.2
+  },
+  "MACKENHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 3.9
+  },
+  "MACKWILLER": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 6.3
+  },
+  "MAENNOLSHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 6.8
+  },
+  "MAISONSGOUTTE": {
+    "bureau": "Villé",
+    "distanceKm": 3.8
+  },
+  "MARLENHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.6
+  },
+  "MATTSTALL": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "MATZENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 3.9
+  },
+  "MEISTRATZHEIM": {
+    "bureau": "Obernai",
+    "distanceKm": 5.8
+  },
+  "MELSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 3.7
+  },
+  "MEMMELSHOFFEN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 0.9
+  },
+  "MENCHHOFFEN": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.1
+  },
+  "MERKWILLER PECHELBRONN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 3.9
+  },
+  "MERTZWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 9.9
+  },
+  "MIETESHEIM": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 8.5
+  },
+  "MINVERSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 6.2
+  },
+  "MITSCHDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "MITTELBERGHEIM": {
+    "bureau": "Barr",
+    "distanceKm": 3.9
+  },
+  "MITTELHAUSBERGEN": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 4.2
+  },
+  "MITTELHAUSEN": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "MITTELSCHAEFFOLSHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.6
+  },
+  "MOLLKIRCH": {
+    "bureau": "Rosheim",
+    "distanceKm": 4.5
+  },
+  "MOMMENHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 6.3
+  },
+  "MONSWILLER": {
+    "bureau": "Saverne",
+    "distanceKm": 2.5
+  },
+  "MORSBRONN LES BAINS": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 8.7
+  },
+  "MORSCHWILLER": {
+    "bureau": "Hochfelden",
+    "distanceKm": 9.4
+  },
+  "MOTHERN": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 4.0
+  },
+  "MUHLBACH SUR BRUCHE": {
+    "bureau": "Rosheim",
+    "distanceKm": 8.0
+  },
+  "MULHAUSEN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 9.6
+  },
+  "MUNCHHAUSEN": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 6.4
+  },
+  "MUNDOLSHEIM": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 4.2
+  },
+  "MUSSIG": {
+    "bureau": "Sélestat",
+    "distanceKm": 5.3
+  },
+  "MUTTERSHOLTZ": {
+    "bureau": "Sélestat",
+    "distanceKm": 5.8
+  },
+  "MUTZENHOUSE": {
+    "bureau": "Hochfelden",
+    "distanceKm": 2.2
+  },
+  "MUTZIG": {
+    "bureau": "Molsheim",
+    "distanceKm": 3.1
+  },
+  "NATZWILLER": {
+    "bureau": "Schirmeck",
+    "distanceKm": 6.3
+  },
+  "NEEWILLER PRES LAUTERBOURG": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 5.3
+  },
+  "NEHWILLER PRES WŒRTH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "NEUBOIS": {
+    "bureau": "Villé",
+    "distanceKm": 4.8
+  },
+  "NEUGARTHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "NEUGARTHEIM ITTLENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 6.5
+  },
+  "ITTLENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 6.5
+  },
+  "NEUHAEUSEL": {
+    "bureau": "Bischwiller",
+    "distanceKm": 17.8
+  },
+  "NEUVE EGLISE": {
+    "bureau": "Villé",
+    "distanceKm": 2.3
+  },
+  "NEUVILLER LA ROCHE": {
+    "bureau": "Schirmeck",
+    "distanceKm": 8.1
+  },
+  "NEUWILLER": {
+    "bureau": "Schirmeck",
+    "distanceKm": 8.1
+  },
+  "NEUWILLER LES SAVERNE": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 5.5
+  },
+  "NIEDERBETSCHDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "NIEDERHASLACH": {
+    "bureau": "Rosheim",
+    "distanceKm": 7.6
+  },
+  "NIEDERHAUSBERGEN": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 3.6
+  },
+  "NIEDERLAUTERBACH": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 6.4
+  },
+  "NIEDERMODERN": {
+    "bureau": "Hochfelden",
+    "distanceKm": 11.5
+  },
+  "NIEDERNAI": {
+    "bureau": "Obernai",
+    "distanceKm": 3.8
+  },
+  "NIEDERRŒDERN": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 11.6
+  },
+  "NIEDERSCHAEFFOLSHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 6.1
+  },
+  "NIEDERSEEBACH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "NIEDERSOULTZBACH": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.0
+  },
+  "NIEDERSTEINBACH": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 10.7
+  },
+  "NORDHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.2
+  },
+  "NORDHOUSE": {
+    "bureau": "Erstein",
+    "distanceKm": 3.1
+  },
+  "NOTHALTEN": {
+    "bureau": "Barr",
+    "distanceKm": 6.5
+  },
+  "OBENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 6.4
+  },
+  "OBERBRONN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 3.8
+  },
+  "OBERBRONN ZINSWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 3.8
+  },
+  "OBERDORF SPACHBACH": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 7.7
+  },
+  "OBERHASLACH": {
+    "bureau": "Schirmeck",
+    "distanceKm": 10.6
+  },
+  "OBERHAUSBERGEN": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 4.7
+  },
+  "OBERHOFFEN LES WISSEMBOURG": {
+    "bureau": "Wissembourg",
+    "distanceKm": 3.6
+  },
+  "OBERHOFFEN SUR MODER": {
+    "bureau": "Bischwiller",
+    "distanceKm": 2.7
+  },
+  "OBERLAUTERBACH": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 9.5
+  },
+  "OBERMODERN ZUTZENDORF": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.7
+  },
+  "MODERN": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.7
+  },
+  "OBERMODERN": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.7
+  },
+  "OBERRŒDERN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 7.7
+  },
+  "OBERSCHAEFFOLSHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 7.8
+  },
+  "OBERSOULTZBACH": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.3
+  },
+  "OBERSTEINBACH": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 9.6
+  },
+  "ODRATZHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.5
+  },
+  "OERMINGEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 6.8
+  },
+  "OFFENDORF": {
+    "bureau": "Bischwiller",
+    "distanceKm": 6.3
+  },
+  "OFFENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "OFFWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 8.3
+  },
+  "OHLUNGEN": {
+    "bureau": "Haguenau",
+    "distanceKm": 10.1
+  },
+  "OHNENHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 6.0
+  },
+  "OLWISHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 3.7
+  },
+  "ORSCHWILLER": {
+    "bureau": "Sélestat",
+    "distanceKm": 7.1
+  },
+  "OSTHOFFEN": {
+    "bureau": "Molsheim",
+    "distanceKm": 6.9
+  },
+  "OSTHOUSE": {
+    "bureau": "Erstein",
+    "distanceKm": 4.0
+  },
+  "OSTWALD": {
+    "bureau": "Illkirch-Graffenstaden",
+    "distanceKm": 3.2
+  },
+  "OTTERSTHAL": {
+    "bureau": "Saverne",
+    "distanceKm": 1.9
+  },
+  "OTTERSWILLER": {
+    "bureau": "Saverne",
+    "distanceKm": 3.0
+  },
+  "OTTROTT": {
+    "bureau": "Barr",
+    "distanceKm": 4.3
+  },
+  "OTTWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 2.8
+  },
+  "PETERSBACH": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 4.9
+  },
+  "PFALZWEYER": {
+    "bureau": "Drulingen",
+    "distanceKm": 8.2
+  },
+  "PFETTISHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "PFULGRIESHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 3.1
+  },
+  "PLAINE": {
+    "bureau": "Saales",
+    "distanceKm": 8.3
+  },
+  "PLOBSHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 5.6
+  },
+  "PREUSCHDORF": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 4.9
+  },
+  "PRINTZHEIM": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 2.3
+  },
+  "PUBERG": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 5.4
+  },
+  "QUATZENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 5.1
+  },
+  "RANGEN": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.6
+  },
+  "RANRUPT": {
+    "bureau": "Saales",
+    "distanceKm": 6.7
+  },
+  "RATZWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 10.5
+  },
+  "RAUWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 8.7
+  },
+  "REICHSFELD": {
+    "bureau": "Villé",
+    "distanceKm": 5.9
+  },
+  "REICHSHOFFEN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 3.1
+  },
+  "REICHSTETT": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 4.4
+  },
+  "REIMERSWILLER": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "REINHARDSMUNSTER": {
+    "bureau": "Marmoutier",
+    "distanceKm": 4.8
+  },
+  "REIPERTSWILLER": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 11.7
+  },
+  "REITWILLER": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "RETSCHWILLER": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 1.1
+  },
+  "REUTENBOURG": {
+    "bureau": "Marmoutier",
+    "distanceKm": 3.2
+  },
+  "REXINGEN": {
+    "bureau": "Drulingen",
+    "distanceKm": 4.3
+  },
+  "RHINAU": {
+    "bureau": "Benfeld",
+    "distanceKm": 9.7
+  },
+  "RICHTOLSHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 8.8
+  },
+  "RIEDHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "RIEDSELTZ": {
+    "bureau": "Wissembourg",
+    "distanceKm": 3.5
+  },
+  "RIMSDORF": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 2.6
+  },
+  "RINGELDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "RINGENDORF": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.7
+  },
+  "RITTERSHOFFEN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 10.5
+  },
+  "ROHR": {
+    "bureau": "Hochfelden",
+    "distanceKm": 6.3
+  },
+  "ROHRWILLER": {
+    "bureau": "Bischwiller",
+    "distanceKm": 3.1
+  },
+  "ROMANSWILLER": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.7
+  },
+  "ROPPENHEIM": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 16.5
+  },
+  "ROSENWILLER": {
+    "bureau": "Rosheim",
+    "distanceKm": 2.5
+  },
+  "ROSSFELD": {
+    "bureau": "Benfeld",
+    "distanceKm": 3.4
+  },
+  "ROSTEIG": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 7.4
+  },
+  "ROTHAU": {
+    "bureau": "Schirmeck",
+    "distanceKm": 4.5
+  },
+  "ROTHBACH": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 10.8
+  },
+  "ROTT": {
+    "bureau": "Wissembourg",
+    "distanceKm": 4.1
+  },
+  "ROTTELSHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 4.3
+  },
+  "ROUNTZENHEIM AUENHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 12.3
+  },
+  "ROUNTZENHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 12.3
+  },
+  "RUMERSHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "RUSS": {
+    "bureau": "Schirmeck",
+    "distanceKm": 4.9
+  },
+  "RŒSCHWOOG": {
+    "bureau": "Bischwiller",
+    "distanceKm": 14.8
+  },
+  "SAASENHEIM": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 11.3
+  },
+  "SAESSOLSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 5.6
+  },
+  "SAINT BLAISE LA ROCHE": {
+    "bureau": "Saales",
+    "distanceKm": 7.6
+  },
+  "SAINT JEAN SAVERNE": {
+    "bureau": "Saverne",
+    "distanceKm": 4.2
+  },
+  "SAINT MARTIN": {
+    "bureau": "Villé",
+    "distanceKm": 1.6
+  },
+  "SAINT MAURICE": {
+    "bureau": "Villé",
+    "distanceKm": 2.6
+  },
+  "SAINT NABOR": {
+    "bureau": "Barr",
+    "distanceKm": 3.3
+  },
+  "SAINT PIERRE": {
+    "bureau": "Barr",
+    "distanceKm": 5.9
+  },
+  "SAINT PIERRE BOIS": {
+    "bureau": "Villé",
+    "distanceKm": 4.9
+  },
+  "SALENTHAL": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "SALMBACH": {
+    "bureau": "Wissembourg",
+    "distanceKm": 9.0
+  },
+  "SAND": {
+    "bureau": "Benfeld",
+    "distanceKm": 2.5
+  },
+  "SARREWERDEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 4.0
+  },
+  "SAULXURES": {
+    "bureau": "Saales",
+    "distanceKm": 4.3
+  },
+  "SCHAEFFERSHEIM": {
+    "bureau": "Erstein",
+    "distanceKm": 5.9
+  },
+  "SCHAFFHOUSE PRES SELTZ": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 9.4
+  },
+  "SCHAFFHOUSE SUR ZORN": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "SCHAFFHAUSEN": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "SCHALKENDORF": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 7.8
+  },
+  "SCHARRACHBERGHEIM IRMSTETT": {
+    "bureau": "Molsheim",
+    "distanceKm": 4.9
+  },
+  "SCHARRACHBERGHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 4.9
+  },
+  "SCHEIBENHARD": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 3.6
+  },
+  "SCHERLENHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 2.8
+  },
+  "SCHERWILLER": {
+    "bureau": "Sélestat",
+    "distanceKm": 5.7
+  },
+  "SCHILLERSDORF": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 7.5
+  },
+  "SCHIRRHEIN": {
+    "bureau": "Bischwiller",
+    "distanceKm": 5.1
+  },
+  "SCHIRRHOFFEN": {
+    "bureau": "Bischwiller",
+    "distanceKm": 7.1
+  },
+  "SCHLEITHAL": {
+    "bureau": "Wissembourg",
+    "distanceKm": 6.2
+  },
+  "SCHNERSHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 4.3
+  },
+  "SCHOPPERTEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 2.6
+  },
+  "SCHWABWILLER": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "SCHWEIGHOUSE SUR MODER": {
+    "bureau": "Haguenau",
+    "distanceKm": 6.4
+  },
+  "SCHWEIGHAUSEN": {
+    "bureau": "Haguenau",
+    "distanceKm": 6.4
+  },
+  "SCHWENHEIM": {
+    "bureau": "Marmoutier",
+    "distanceKm": 3.8
+  },
+  "SCHWEINHEIM": {
+    "bureau": "Marmoutier",
+    "distanceKm": 3.8
+  },
+  "SCHWINDRATZHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 3.4
+  },
+  "SCHWOBSHEIM": {
+    "bureau": "Sélestat",
+    "distanceKm": 8.7
+  },
+  "SCHŒNAU": {
+    "bureau": "Marckolsheim",
+    "distanceKm": 11.0
+  },
+  "SCHŒNBOURG": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 6.3
+  },
+  "SCHŒNENBOURG": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 3.4
+  },
+  "SEEBACH": {
+    "bureau": "Wissembourg",
+    "distanceKm": 6.4
+  },
+  "OBERSEEBACH": {
+    "bureau": "Wissembourg",
+    "distanceKm": 6.4
+  },
+  "SELTZ": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 10.4
+  },
+  "SERMERSHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 4.2
+  },
+  "SESSENHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 9.6
+  },
+  "SIEGEN": {
+    "bureau": "Wissembourg",
+    "distanceKm": 9.2
+  },
+  "SIEWILLER": {
+    "bureau": "Drulingen",
+    "distanceKm": 3.4
+  },
+  "SILTZHEIM": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 13.0
+  },
+  "SINGRIST": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "SOLBACH": {
+    "bureau": "Schirmeck",
+    "distanceKm": 7.0
+  },
+  "SOMMERAU": {
+    "bureau": "Marmoutier",
+    "distanceKm": 4.0
+  },
+  "ALLENWILLER": {
+    "bureau": "Marmoutier",
+    "distanceKm": 4.0
+  },
+  "SOUFFELWEYERSHEIM": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 2.3
+  },
+  "SOUFFLENHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 9.0
+  },
+  "SOULTZ LES BAINS": {
+    "bureau": "Molsheim",
+    "distanceKm": 3.0
+  },
+  "SPARSBACH": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 5.6
+  },
+  "STATTMATTEN": {
+    "bureau": "Bischwiller",
+    "distanceKm": 12.1
+  },
+  "STEIGE": {
+    "bureau": "Villé",
+    "distanceKm": 6.2
+  },
+  "STEINBOURG": {
+    "bureau": "Saverne",
+    "distanceKm": 4.9
+  },
+  "STEINSELTZ": {
+    "bureau": "Wissembourg",
+    "distanceKm": 2.9
+  },
+  "STILL": {
+    "bureau": "Rosheim",
+    "distanceKm": 9.4
+  },
+  "STOTZHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 7.3
+  },
+  "STRUTH": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 5.8
+  },
+  "STUNDWILLER": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 9.8
+  },
+  "STUTZHEIM OFFENHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 3.7
+  },
+  "STUTZHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 3.7
+  },
+  "SUNDHOUSE": {
+    "bureau": "Benfeld",
+    "distanceKm": 12.2
+  },
+  "SURBOURG": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 5.2
+  },
+  "THAL DRULINGEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 5.3
+  },
+  "THAL MARMOUTIER": {
+    "bureau": "Marmoutier",
+    "distanceKm": 2.0
+  },
+  "THANVILLE": {
+    "bureau": "Villé",
+    "distanceKm": 4.0
+  },
+  "TIEFFENBACH": {
+    "bureau": "Drulingen",
+    "distanceKm": 5.4
+  },
+  "TRAENHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.1
+  },
+  "TRIEMBACH AU VAL": {
+    "bureau": "Villé",
+    "distanceKm": 2.4
+  },
+  "TRIEMBACH": {
+    "bureau": "Villé",
+    "distanceKm": 2.4
+  },
+  "TRIMBACH": {
+    "bureau": "Wissembourg",
+    "distanceKm": 9.4
+  },
+  "UBERACH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "UEBERACH": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "UHLWILLER": {
+    "bureau": "Haguenau",
+    "distanceKm": 10.5
+  },
+  "UHRWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 9.2
+  },
+  "URBEIS": {
+    "bureau": "Villé",
+    "distanceKm": 7.3
+  },
+  "URMATT": {
+    "bureau": "Schirmeck",
+    "distanceKm": 8.8
+  },
+  "UTTENHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 5.7
+  },
+  "UTTENHOFFEN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 6.8
+  },
+  "UTTWILLER": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 4.1
+  },
+  "VAL DE MODER": {
+    "bureau": "Hochfelden",
+    "distanceKm": 10.9
+  },
+  "PFAFFENHOFFEN": {
+    "bureau": "Hochfelden",
+    "distanceKm": 10.9
+  },
+  "VALFF": {
+    "bureau": "Obernai",
+    "distanceKm": 5.2
+  },
+  "VENDENHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 6.0
+  },
+  "VOLKSBERG": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 8.6
+  },
+  "VŒLLERDINGEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 4.6
+  },
+  "WAHLENHEIM": {
+    "bureau": "Brumath",
+    "distanceKm": 5.5
+  },
+  "WALBOURG": {
+    "bureau": "Haguenau",
+    "distanceKm": 5.9
+  },
+  "WALDERSBACH": {
+    "bureau": "Schirmeck",
+    "distanceKm": 8.7
+  },
+  "LE BAN DE LA ROCHE": {
+    "bureau": "Schirmeck",
+    "distanceKm": 8.7
+  },
+  "WALDHAMBACH": {
+    "bureau": "Drulingen",
+    "distanceKm": 7.4
+  },
+  "WALDOLWISHEIM": {
+    "bureau": "Saverne",
+    "distanceKm": 5.9
+  },
+  "WALTENHEIM SUR ZORN": {
+    "bureau": "Hochfelden",
+    "distanceKm": 4.5
+  },
+  "WANGEN": {
+    "bureau": "Wasselonne",
+    "distanceKm": 2.3
+  },
+  "WANGENBOURG": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "WANGENBOURG ENGENTHAL": {
+    "bureau": "Marmoutier",
+    "distanceKm": 9.1
+  },
+  "ENGENTHAL": {
+    "bureau": "Marmoutier",
+    "distanceKm": 9.1
+  },
+  "WEINBOURG": {
+    "bureau": "Bouxwiller",
+    "distanceKm": 6.8
+  },
+  "WEISLINGEN": {
+    "bureau": "Drulingen",
+    "distanceKm": 7.3
+  },
+  "WEITBRUCH": {
+    "bureau": "Bischwiller",
+    "distanceKm": 6.1
+  },
+  "WEITERSWILLER": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 5.4
+  },
+  "WESTHOFFEN": {
+    "bureau": "Wasselonne",
+    "distanceKm": 4.1
+  },
+  "WESTHOUSE": {
+    "bureau": "Benfeld",
+    "distanceKm": 5.4
+  },
+  "WESTHOUSE MARMOUTIER": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.4
+  },
+  "WEYER": {
+    "bureau": "Drulingen",
+    "distanceKm": 2.3
+  },
+  "WEYERSHEIM": {
+    "bureau": "Bischwiller",
+    "distanceKm": 5.1
+  },
+  "WICKERSHEIM WILSHAUSEN": {
+    "bureau": "Hochfelden",
+    "distanceKm": 4.0
+  },
+  "WICKERSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 4.0
+  },
+  "WILDERSBACH": {
+    "bureau": "Schirmeck",
+    "distanceKm": 6.5
+  },
+  "WILLGOTTHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 6.6
+  },
+  "WILSHAUSEN": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "WILWISHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 4.3
+  },
+  "WIMMENAU": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 8.9
+  },
+  "WINDSTEIN": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 5.6
+  },
+  "WINGEN": {
+    "bureau": "Soultz-sous-Forêts",
+    "distanceKm": 10.7
+  },
+  "WINGEN SUR MODER": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 7.4
+  },
+  "WINGERSHEIM LES QUATRE BANS": {
+    "bureau": "Hochfelden",
+    "distanceKm": 5.0
+  },
+  "WINGERSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 5.0
+  },
+  "WINTERSHOUSE": {
+    "bureau": "Brumath",
+    "distanceKm": 8.4
+  },
+  "WINTZENBACH": {
+    "bureau": "Lauterbourg",
+    "distanceKm": 6.8
+  },
+  "WINTZENHEIM KOCHERSBERG": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.0
+  },
+  "WISCHES": {
+    "bureau": "Schirmeck",
+    "distanceKm": 2.6
+  },
+  "WITTERNHEIM": {
+    "bureau": "Benfeld",
+    "distanceKm": 5.7
+  },
+  "WITTERSHEIM": {
+    "bureau": "Hochfelden",
+    "distanceKm": 7.7
+  },
+  "WITTISHEIM": {
+    "bureau": "Sélestat",
+    "distanceKm": 10.6
+  },
+  "WIWERSHEIM": {
+    "bureau": "Truchtersheim",
+    "distanceKm": 3.2
+  },
+  "WOLFISHEIM": {
+    "bureau": "Schiltigheim",
+    "distanceKm": 7.1
+  },
+  "WOLFSKIRCHEN": {
+    "bureau": "Sarre-Union",
+    "distanceKm": 7.6
+  },
+  "WOLSCHHEIM": {
+    "bureau": "Marmoutier",
+    "distanceKm": 6.3
+  },
+  "WOLXHEIM": {
+    "bureau": "Molsheim",
+    "distanceKm": 2.7
+  },
+  "WŒLLENHEIM": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "WŒRTH": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 7.8
+  },
+  "ZEHNACKER": {
+    "bureau": "Wasselonne",
+    "distanceKm": 3.6
+  },
+  "ZEINHEIM": {
+    "bureau": "Wasselonne",
+    "distanceKm": 5.5
+  },
+  "ZELLWILLER": {
+    "bureau": "Obernai",
+    "distanceKm": 6.4
+  },
+  "ZINSWILLER": {
+    "bureau": "Niederbronn-les-Bains",
+    "distanceKm": 5.8
+  },
+  "ZITTERSHEIM": {
+    "bureau": "La Petite-Pierre",
+    "distanceKm": 3.8
+  },
+  "ZOLLINGEN": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "ZUTZENDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  },
+  "ZŒBERSDORF": {
+    "bureau": "Strasbourg",
+    "distanceKm": 0.0
+  }
+}

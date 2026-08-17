@@ -1,0 +1,4076 @@
+[
+  {
+    "place": "Bordeaux",
+    "cote": "3Q287",
+    "yearStart": 1815,
+    "yearEnd": 1827,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483984?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10092",
+    "yearStart": 1918,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008863?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21559",
+    "yearStart": 1823,
+    "yearEnd": 1825,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270234?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q7",
+    "yearStart": 1823,
+    "yearEnd": 1826,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483174?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15689",
+    "yearStart": 1825,
+    "yearEnd": 1828,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97649?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8000",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:998978?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17824",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228375?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12613",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:62831?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13348",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81480?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15223",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93413?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16968",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105922?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9254",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004785?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10082",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008780?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12133",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:53766?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16478",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103424?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19646",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266922?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20049",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267863?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11527",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015697?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Sainte-Foy-la-Grande",
+    "cote": "3Q23123",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:275202?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8867",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003030?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13907",
+    "yearStart": 1825,
+    "yearEnd": 1836,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83319?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21560",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270235?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10599",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011710?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11016",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014397?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q8",
+    "yearStart": 1826,
+    "yearEnd": 1828,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483176?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q288",
+    "yearStart": 1827,
+    "yearEnd": 1834,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483987?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q9",
+    "yearStart": 1828,
+    "yearEnd": 1830,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483181?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15690",
+    "yearStart": 1828,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97651?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8001",
+    "yearStart": 1829,
+    "yearEnd": 1834,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:998982?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q10",
+    "yearStart": 1830,
+    "yearEnd": 1831,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483184?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q11",
+    "yearStart": 1831,
+    "yearEnd": 1832,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483187?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17825",
+    "yearStart": 1831,
+    "yearEnd": 1834,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228377?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12614",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:62858?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14643",
+    "yearStart": 1831,
+    "yearEnd": 1843,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88151?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22148",
+    "yearStart": 1831,
+    "yearEnd": 1845,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271059?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10083",
+    "yearStart": 1832,
+    "yearEnd": 1835,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008786?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16969",
+    "yearStart": 1832,
+    "yearEnd": 1837,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105924?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13349",
+    "yearStart": 1832,
+    "yearEnd": 1841,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81484?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q12",
+    "yearStart": 1833,
+    "yearEnd": 1834,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483190?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9255",
+    "yearStart": 1833,
+    "yearEnd": 1836,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004789?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15691",
+    "yearStart": 1833,
+    "yearEnd": 1838,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97653?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12134",
+    "yearStart": 1833,
+    "yearEnd": 1839,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:53779?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15224",
+    "yearStart": 1833,
+    "yearEnd": 1839,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93415?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20050",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267865?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q13",
+    "yearStart": 1834,
+    "yearEnd": 1835,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483192?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q289",
+    "yearStart": 1834,
+    "yearEnd": 1840,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483991?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19647",
+    "yearStart": 1834,
+    "yearEnd": 1841,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266926?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11528",
+    "yearStart": 1834,
+    "yearEnd": 1841,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015698?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16479",
+    "yearStart": 1834,
+    "yearEnd": 1842,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103432?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q14",
+    "yearStart": 1835,
+    "yearEnd": 1836,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483195?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17826",
+    "yearStart": 1835,
+    "yearEnd": 1840,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228378?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8002",
+    "yearStart": 1835,
+    "yearEnd": 1840,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:998988?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10084",
+    "yearStart": 1835,
+    "yearEnd": 1840,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008789?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8868",
+    "yearStart": 1835,
+    "yearEnd": 1844,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003036?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q15",
+    "yearStart": 1836,
+    "yearEnd": 1837,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483198?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13908",
+    "yearStart": 1836,
+    "yearEnd": 1843,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83322?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16970",
+    "yearStart": 1837,
+    "yearEnd": 1841,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105925?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12615",
+    "yearStart": 1837,
+    "yearEnd": 1843,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:62927?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9256",
+    "yearStart": 1837,
+    "yearEnd": 1843,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004795?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21561",
+    "yearStart": 1837,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270236?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q16",
+    "yearStart": 1838,
+    "yearEnd": 1839,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483201?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11017",
+    "yearStart": 1838,
+    "yearEnd": 1848,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014405?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10600",
+    "yearStart": 1838,
+    "yearEnd": 1849,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011715?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q17",
+    "yearStart": 1839,
+    "yearEnd": 1840,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483203?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15692",
+    "yearStart": 1839,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97659?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12135",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:53826?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q18",
+    "yearStart": 1840,
+    "yearEnd": 1841,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483207?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q290",
+    "yearStart": 1840,
+    "yearEnd": 1844,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483994?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15225",
+    "yearStart": 1840,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93418?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10085",
+    "yearStart": 1840,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008791?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q19",
+    "yearStart": 1841,
+    "yearEnd": 1842,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483210?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17827",
+    "yearStart": 1841,
+    "yearEnd": 1845,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228380?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8003",
+    "yearStart": 1841,
+    "yearEnd": 1845,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:998992?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20051",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267866?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q20",
+    "yearStart": 1842,
+    "yearEnd": 1843,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483213?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16971",
+    "yearStart": 1842,
+    "yearEnd": 1848,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105926?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11529",
+    "yearStart": 1842,
+    "yearEnd": 1848,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015699?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19648",
+    "yearStart": 1842,
+    "yearEnd": 1849,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266929?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13350",
+    "yearStart": 1842,
+    "yearEnd": 1851,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81489?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12616",
+    "yearStart": 1843,
+    "yearEnd": 1848,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:62948?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16480",
+    "yearStart": 1843,
+    "yearEnd": 1852,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103443?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q22",
+    "yearStart": 1844,
+    "yearEnd": 1845,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483218?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9257",
+    "yearStart": 1844,
+    "yearEnd": 1847,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004799?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q291",
+    "yearStart": 1844,
+    "yearEnd": 1849,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483996?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14644",
+    "yearStart": 1844,
+    "yearEnd": 1851,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88170?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13909",
+    "yearStart": 1844,
+    "yearEnd": 1853,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83326?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8869",
+    "yearStart": 1844,
+    "yearEnd": 1856,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003041?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17828",
+    "yearStart": 1845,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228397?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q23",
+    "yearStart": 1845,
+    "yearEnd": 1846,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483221?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q24",
+    "yearStart": 1846,
+    "yearEnd": 1847,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483224?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17829",
+    "yearStart": 1846,
+    "yearEnd": 1850,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228413?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8004",
+    "yearStart": 1846,
+    "yearEnd": 1850,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:998998?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20052",
+    "yearStart": 1846,
+    "yearEnd": 1853,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267867?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21562",
+    "yearStart": 1846,
+    "yearEnd": 1855,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270237?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22149",
+    "yearStart": 1846,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271060?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q25",
+    "yearStart": 1847,
+    "yearEnd": 1848,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483227?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9258",
+    "yearStart": 1847,
+    "yearEnd": 1853,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004803?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15226",
+    "yearStart": 1847,
+    "yearEnd": 1854,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93420?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10086",
+    "yearStart": 1847,
+    "yearEnd": 1854,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008796?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15693",
+    "yearStart": 1847,
+    "yearEnd": 1855,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97663?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q26",
+    "yearStart": 1848,
+    "yearEnd": 1849,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483230?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12617",
+    "yearStart": 1848,
+    "yearEnd": 1852,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:62962?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11018",
+    "yearStart": 1848,
+    "yearEnd": 1857,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014415?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q27",
+    "yearStart": 1849,
+    "yearEnd": 1850,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483232?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q292",
+    "yearStart": 1849,
+    "yearEnd": 1852,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483999?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11530",
+    "yearStart": 1849,
+    "yearEnd": 1854,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015700?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16972",
+    "yearStart": 1849,
+    "yearEnd": 1855,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105927?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q28",
+    "yearStart": 1850,
+    "yearEnd": 1851,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483236?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10601",
+    "yearStart": 1850,
+    "yearEnd": 1854,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011718?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12136",
+    "yearStart": 1850,
+    "yearEnd": 1858,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54230?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19649",
+    "yearStart": 1850,
+    "yearEnd": 1858,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266940?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q29",
+    "yearStart": 1851,
+    "yearEnd": 1852,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483239?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17830",
+    "yearStart": 1851,
+    "yearEnd": 1855,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228427?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8005",
+    "yearStart": 1851,
+    "yearEnd": 1857,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999004?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14645",
+    "yearStart": 1851,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88174?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q30",
+    "yearStart": 1852,
+    "yearEnd": 1853,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483241?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q293",
+    "yearStart": 1852,
+    "yearEnd": 1855,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484001?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12618",
+    "yearStart": 1852,
+    "yearEnd": 1856,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:62988?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13351",
+    "yearStart": 1852,
+    "yearEnd": 1863,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81491?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q31",
+    "yearStart": 1853,
+    "yearEnd": 1854,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483243?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9259",
+    "yearStart": 1853,
+    "yearEnd": 1859,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004807?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16481",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103455?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q32",
+    "yearStart": 1854,
+    "yearEnd": 1855,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483246?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13910",
+    "yearStart": 1854,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83330?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11531",
+    "yearStart": 1854,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015701?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20053",
+    "yearStart": 1854,
+    "yearEnd": 1862,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267868?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10087",
+    "yearStart": 1854,
+    "yearEnd": 1862,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008818?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q33",
+    "yearStart": 1855,
+    "yearEnd": 1856,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483249?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17831",
+    "yearStart": 1855,
+    "yearEnd": 1859,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228441?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15227",
+    "yearStart": 1855,
+    "yearEnd": 1861,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93425?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16973",
+    "yearStart": 1855,
+    "yearEnd": 1861,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105928?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15694",
+    "yearStart": 1855,
+    "yearEnd": 1862,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97665?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21563",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270240?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10602",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011723?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q34",
+    "yearStart": 1856,
+    "yearEnd": 1857,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483251?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q294",
+    "yearStart": 1856,
+    "yearEnd": 1859,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484004?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20580",
+    "yearStart": 1856,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268609?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8870",
+    "yearStart": 1856,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003043?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q35",
+    "yearStart": 1857,
+    "yearEnd": 1857,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483254?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12619",
+    "yearStart": 1857,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63012?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8006",
+    "yearStart": 1857,
+    "yearEnd": 1863,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999027?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q36",
+    "yearStart": 1858,
+    "yearEnd": 1858,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483257?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11019",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014423?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19650",
+    "yearStart": 1858,
+    "yearEnd": 1868,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266948?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q37",
+    "yearStart": 1859,
+    "yearEnd": 1860,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483262?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q295",
+    "yearStart": 1859,
+    "yearEnd": 1862,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484006?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17832",
+    "yearStart": 1859,
+    "yearEnd": 1864,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228444?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9260",
+    "yearStart": 1859,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004813?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q38",
+    "yearStart": 1860,
+    "yearEnd": 1861,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483265?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11532",
+    "yearStart": 1860,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015702?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16482",
+    "yearStart": 1860,
+    "yearEnd": 1868,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103467?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13911",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83334?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22150",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271062?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q39",
+    "yearStart": 1861,
+    "yearEnd": 1862,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483267?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12620",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63032?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14646",
+    "yearStart": 1861,
+    "yearEnd": 1868,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88179?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q40",
+    "yearStart": 1862,
+    "yearEnd": 1863,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483269?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q296",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484008?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16974",
+    "yearStart": 1862,
+    "yearEnd": 1866,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105929?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15228",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93432?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10088",
+    "yearStart": 1862,
+    "yearEnd": 1872,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008826?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q41",
+    "yearStart": 1863,
+    "yearEnd": 1864,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483273?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15695",
+    "yearStart": 1863,
+    "yearEnd": 1870,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97667?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q42",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483276?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17833",
+    "yearStart": 1864,
+    "yearEnd": 1868,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228446?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8007",
+    "yearStart": 1864,
+    "yearEnd": 1868,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999031?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13352",
+    "yearStart": 1864,
+    "yearEnd": 1874,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81497?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q43",
+    "yearStart": 1865,
+    "yearEnd": 1866,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483279?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q297",
+    "yearStart": 1865,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484011?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12621",
+    "yearStart": 1865,
+    "yearEnd": 1872,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63045?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11020",
+    "yearStart": 1865,
+    "yearEnd": 1873,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014433?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q44",
+    "yearStart": 1866,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483281?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16975",
+    "yearStart": 1866,
+    "yearEnd": 1874,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105930?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21564",
+    "yearStart": 1866,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270252?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10603",
+    "yearStart": 1866,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011739?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Brède",
+    "cote": "3Q15022",
+    "yearStart": 1866,
+    "yearEnd": 1881,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:92042?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q45",
+    "yearStart": 1867,
+    "yearEnd": 1867,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483285?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9261",
+    "yearStart": 1867,
+    "yearEnd": 1874,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004817?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q46",
+    "yearStart": 1868,
+    "yearEnd": 1868,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483289?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q47",
+    "yearStart": 1868,
+    "yearEnd": 1869,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483292?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q298",
+    "yearStart": 1868,
+    "yearEnd": 1870,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484015?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17834",
+    "yearStart": 1868,
+    "yearEnd": 1871,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228448?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11533",
+    "yearStart": 1868,
+    "yearEnd": 1874,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015703?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20581",
+    "yearStart": 1868,
+    "yearEnd": 1876,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268612?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19651",
+    "yearStart": 1868,
+    "yearEnd": 1877,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266956?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8871",
+    "yearStart": 1868,
+    "yearEnd": 1877,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003046?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q48",
+    "yearStart": 1869,
+    "yearEnd": 1870,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483296?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16483",
+    "yearStart": 1869,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103474?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14647",
+    "yearStart": 1869,
+    "yearEnd": 1878,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88182?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8008",
+    "yearStart": 1869,
+    "yearEnd": 1879,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999037?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q49",
+    "yearStart": 1870,
+    "yearEnd": 1871,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483299?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15229",
+    "yearStart": 1870,
+    "yearEnd": 1877,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93436?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13912",
+    "yearStart": 1870,
+    "yearEnd": 1878,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83339?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q50",
+    "yearStart": 1871,
+    "yearEnd": 1872,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483302?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q299",
+    "yearStart": 1871,
+    "yearEnd": 1873,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484017?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q150",
+    "yearStart": 1871,
+    "yearEnd": 1874,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483572?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17835",
+    "yearStart": 1871,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228450?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q209",
+    "yearStart": 1871,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483769?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15696",
+    "yearStart": 1871,
+    "yearEnd": 1879,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97671?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22151",
+    "yearStart": 1871,
+    "yearEnd": 1880,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271063?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q99",
+    "yearStart": 1872,
+    "yearEnd": 1872,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483432?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q51",
+    "yearStart": 1872,
+    "yearEnd": 1874,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483305?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q100",
+    "yearStart": 1872,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483435?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10089",
+    "yearStart": 1872,
+    "yearEnd": 1887,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008830?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11021",
+    "yearStart": 1873,
+    "yearEnd": 1880,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014440?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12622",
+    "yearStart": 1873,
+    "yearEnd": 1885,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63053?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q52",
+    "yearStart": 1874,
+    "yearEnd": 1877,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483308?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16976",
+    "yearStart": 1874,
+    "yearEnd": 1881,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105933?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q151",
+    "yearStart": 1875,
+    "yearEnd": 1875,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483576?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q101",
+    "yearStart": 1875,
+    "yearEnd": 1877,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483437?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17836",
+    "yearStart": 1875,
+    "yearEnd": 1879,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228452?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11534",
+    "yearStart": 1875,
+    "yearEnd": 1880,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015704?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13353",
+    "yearStart": 1875,
+    "yearEnd": 1883,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81501?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9262",
+    "yearStart": 1875,
+    "yearEnd": 1883,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004821?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21565",
+    "yearStart": 1875,
+    "yearEnd": 1888,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270253?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q152",
+    "yearStart": 1876,
+    "yearEnd": 1876,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483579?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q210",
+    "yearStart": 1876,
+    "yearEnd": 1878,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483774?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16484",
+    "yearStart": 1876,
+    "yearEnd": 1884,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103486?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20582",
+    "yearStart": 1876,
+    "yearEnd": 1885,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268616?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10604",
+    "yearStart": 1876,
+    "yearEnd": 1890,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011752?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q153",
+    "yearStart": 1877,
+    "yearEnd": 1877,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483582?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q53",
+    "yearStart": 1877,
+    "yearEnd": 1879,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483311?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12137",
+    "yearStart": 1877,
+    "yearEnd": 1886,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54376?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19652",
+    "yearStart": 1877,
+    "yearEnd": 1887,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266968?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15230",
+    "yearStart": 1877,
+    "yearEnd": 1892,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93442?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q154",
+    "yearStart": 1878,
+    "yearEnd": 1878,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483584?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q102",
+    "yearStart": 1878,
+    "yearEnd": 1880,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483438?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q155",
+    "yearStart": 1879,
+    "yearEnd": 1879,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483586?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q211",
+    "yearStart": 1879,
+    "yearEnd": 1880,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483777?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q54",
+    "yearStart": 1879,
+    "yearEnd": 1881,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483314?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13913",
+    "yearStart": 1879,
+    "yearEnd": 1890,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83343?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15697",
+    "yearStart": 1879,
+    "yearEnd": 1891,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97673?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14648",
+    "yearStart": 1879,
+    "yearEnd": 1892,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88190?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q156",
+    "yearStart": 1880,
+    "yearEnd": 1880,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483589?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17837",
+    "yearStart": 1880,
+    "yearEnd": 1885,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228461?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11535",
+    "yearStart": 1880,
+    "yearEnd": 1889,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015705?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8009",
+    "yearStart": 1880,
+    "yearEnd": 1893,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999041?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q157",
+    "yearStart": 1881,
+    "yearEnd": 1881,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483592?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q212",
+    "yearStart": 1881,
+    "yearEnd": 1882,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483780?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q55",
+    "yearStart": 1881,
+    "yearEnd": 1883,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483317?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q103",
+    "yearStart": 1881,
+    "yearEnd": 1883,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483441?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16977",
+    "yearStart": 1881,
+    "yearEnd": 1888,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105934?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11022",
+    "yearStart": 1881,
+    "yearEnd": 1889,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014450?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22152",
+    "yearStart": 1881,
+    "yearEnd": 1896,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271064?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q158",
+    "yearStart": 1882,
+    "yearEnd": 1882,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483595?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Brède",
+    "cote": "3Q15023",
+    "yearStart": 1882,
+    "yearEnd": 1895,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:92047?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q159",
+    "yearStart": 1883,
+    "yearEnd": 1883,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483598?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q56",
+    "yearStart": 1883,
+    "yearEnd": 1884,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483320?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q213",
+    "yearStart": 1883,
+    "yearEnd": 1884,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483782?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q104",
+    "yearStart": 1883,
+    "yearEnd": 1885,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483443?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13354",
+    "yearStart": 1883,
+    "yearEnd": 1889,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81505?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9263",
+    "yearStart": 1883,
+    "yearEnd": 1890,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004827?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q160",
+    "yearStart": 1884,
+    "yearEnd": 1884,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483602?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q57",
+    "yearStart": 1884,
+    "yearEnd": 1885,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483322?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q161",
+    "yearStart": 1885,
+    "yearEnd": 1885,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483605?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q214",
+    "yearStart": 1885,
+    "yearEnd": 1886,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483784?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16485",
+    "yearStart": 1885,
+    "yearEnd": 1894,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103490?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q162",
+    "yearStart": 1886,
+    "yearEnd": 1886,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483607?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q58",
+    "yearStart": 1886,
+    "yearEnd": 1887,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483326?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q105",
+    "yearStart": 1886,
+    "yearEnd": 1888,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483448?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17838",
+    "yearStart": 1886,
+    "yearEnd": 1891,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228463?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12138",
+    "yearStart": 1886,
+    "yearEnd": 1892,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54398?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20583",
+    "yearStart": 1886,
+    "yearEnd": 1893,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268619?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12623",
+    "yearStart": 1886,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63059?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q163",
+    "yearStart": 1887,
+    "yearEnd": 1887,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483609?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q59",
+    "yearStart": 1887,
+    "yearEnd": 1888,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483328?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q215",
+    "yearStart": 1887,
+    "yearEnd": 1888,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483787?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10090",
+    "yearStart": 1887,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008843?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19653",
+    "yearStart": 1887,
+    "yearEnd": 1906,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266975?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q164",
+    "yearStart": 1888,
+    "yearEnd": 1888,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483612?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q60",
+    "yearStart": 1888,
+    "yearEnd": 1889,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483330?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16978",
+    "yearStart": 1888,
+    "yearEnd": 1893,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105938?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21566",
+    "yearStart": 1888,
+    "yearEnd": 1909,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270262?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q165",
+    "yearStart": 1889,
+    "yearEnd": 1889,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483615?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q106",
+    "yearStart": 1889,
+    "yearEnd": 1890,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483451?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q216",
+    "yearStart": 1889,
+    "yearEnd": 1890,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483789?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13355",
+    "yearStart": 1889,
+    "yearEnd": 1899,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81509?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q166",
+    "yearStart": 1890,
+    "yearEnd": 1890,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483618?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q61",
+    "yearStart": 1890,
+    "yearEnd": 1891,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483337?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11536",
+    "yearStart": 1890,
+    "yearEnd": 1898,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015706?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11023",
+    "yearStart": 1890,
+    "yearEnd": 1899,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014455?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8873",
+    "yearStart": 1890,
+    "yearEnd": 1900,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003057?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9264",
+    "yearStart": 1890,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004831?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10605",
+    "yearStart": 1890,
+    "yearEnd": 1904,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011767?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q167",
+    "yearStart": 1891,
+    "yearEnd": 1891,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483620?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q107",
+    "yearStart": 1891,
+    "yearEnd": 1892,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483453?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q217",
+    "yearStart": 1891,
+    "yearEnd": 1892,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483792?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13914",
+    "yearStart": 1891,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83348?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15698",
+    "yearStart": 1891,
+    "yearEnd": 1904,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97684?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q168",
+    "yearStart": 1892,
+    "yearEnd": 1892,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483623?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q62",
+    "yearStart": 1892,
+    "yearEnd": 1893,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483340?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17839",
+    "yearStart": 1892,
+    "yearEnd": 1898,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228477?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14649",
+    "yearStart": 1892,
+    "yearEnd": 1901,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88205?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12139",
+    "yearStart": 1892,
+    "yearEnd": 1903,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54411?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q169",
+    "yearStart": 1893,
+    "yearEnd": 1893,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483626?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q63",
+    "yearStart": 1893,
+    "yearEnd": 1894,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483344?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q108",
+    "yearStart": 1893,
+    "yearEnd": 1894,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483457?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q218",
+    "yearStart": 1893,
+    "yearEnd": 1894,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483794?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15231",
+    "yearStart": 1893,
+    "yearEnd": 1908,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93448?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q170",
+    "yearStart": 1894,
+    "yearEnd": 1894,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483628?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16979",
+    "yearStart": 1894,
+    "yearEnd": 1899,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105945?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8010",
+    "yearStart": 1894,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999048?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q109",
+    "yearStart": 1895,
+    "yearEnd": 1895,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483460?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q171",
+    "yearStart": 1895,
+    "yearEnd": 1895,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483631?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q64",
+    "yearStart": 1895,
+    "yearEnd": 1896,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483349?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q219",
+    "yearStart": 1895,
+    "yearEnd": 1896,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483797?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16486",
+    "yearStart": 1895,
+    "yearEnd": 1904,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103538?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20057",
+    "yearStart": 1895,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267884?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q110",
+    "yearStart": 1896,
+    "yearEnd": 1896,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483462?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q172",
+    "yearStart": 1896,
+    "yearEnd": 1896,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483634?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q65",
+    "yearStart": 1896,
+    "yearEnd": 1897,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483364?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Brède",
+    "cote": "3Q15024",
+    "yearStart": 1896,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:92050?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22153",
+    "yearStart": 1896,
+    "yearEnd": 1914,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271066?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q111",
+    "yearStart": 1897,
+    "yearEnd": 1897,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483464?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q173",
+    "yearStart": 1897,
+    "yearEnd": 1897,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483637?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q220",
+    "yearStart": 1897,
+    "yearEnd": 1898,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483798?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q112",
+    "yearStart": 1898,
+    "yearEnd": 1898,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483467?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q174",
+    "yearStart": 1898,
+    "yearEnd": 1898,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483639?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q66",
+    "yearStart": 1898,
+    "yearEnd": 1899,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483369?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17840",
+    "yearStart": 1898,
+    "yearEnd": 1905,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228481?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11537",
+    "yearStart": 1898,
+    "yearEnd": 1907,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015707?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q113",
+    "yearStart": 1899,
+    "yearEnd": 1899,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483469?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q175",
+    "yearStart": 1899,
+    "yearEnd": 1899,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483641?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q67",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483372?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q221",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483800?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q114",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483471?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q176",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483644?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16980",
+    "yearStart": 1900,
+    "yearEnd": 1907,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105969?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13356",
+    "yearStart": 1900,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81512?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11024",
+    "yearStart": 1900,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014469?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q115",
+    "yearStart": 1901,
+    "yearEnd": 1901,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483474?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q177",
+    "yearStart": 1901,
+    "yearEnd": 1901,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483649?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q68",
+    "yearStart": 1901,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483375?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q222",
+    "yearStart": 1901,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483801?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8874",
+    "yearStart": 1901,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003061?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q116",
+    "yearStart": 1902,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483476?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q178",
+    "yearStart": 1902,
+    "yearEnd": 1902,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483652?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q69",
+    "yearStart": 1902,
+    "yearEnd": 1903,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483377?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9265",
+    "yearStart": 1902,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004835?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14650",
+    "yearStart": 1902,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88215?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10091",
+    "yearStart": 1902,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008860?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q117",
+    "yearStart": 1903,
+    "yearEnd": 1903,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483478?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q179",
+    "yearStart": 1903,
+    "yearEnd": 1903,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483655?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q223",
+    "yearStart": 1903,
+    "yearEnd": 1904,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483804?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13915",
+    "yearStart": 1903,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83352?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12140",
+    "yearStart": 1903,
+    "yearEnd": 1916,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54421?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q118",
+    "yearStart": 1904,
+    "yearEnd": 1904,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483481?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q180",
+    "yearStart": 1904,
+    "yearEnd": 1904,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483658?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q70",
+    "yearStart": 1904,
+    "yearEnd": 1905,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483380?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15699",
+    "yearStart": 1904,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97703?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10606",
+    "yearStart": 1904,
+    "yearEnd": 1920,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011775?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q119",
+    "yearStart": 1905,
+    "yearEnd": 1905,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483483?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q181",
+    "yearStart": 1905,
+    "yearEnd": 1905,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483661?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q71",
+    "yearStart": 1905,
+    "yearEnd": 1906,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483384?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q224",
+    "yearStart": 1905,
+    "yearEnd": 1906,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483805?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16487",
+    "yearStart": 1905,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103545?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17841",
+    "yearStart": 1905,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228486?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q120",
+    "yearStart": 1906,
+    "yearEnd": 1906,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483486?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q182",
+    "yearStart": 1906,
+    "yearEnd": 1906,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483666?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19654",
+    "yearStart": 1906,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:266982?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q72",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483386?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q121",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483489?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q183",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483669?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q225",
+    "yearStart": 1907,
+    "yearEnd": 1908,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483807?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11538",
+    "yearStart": 1907,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015708?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q73",
+    "yearStart": 1908,
+    "yearEnd": 1908,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483387?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q122",
+    "yearStart": 1908,
+    "yearEnd": 1908,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483492?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q184",
+    "yearStart": 1908,
+    "yearEnd": 1908,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483673?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q74",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483388?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q123",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483495?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q185",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483677?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q226",
+    "yearStart": 1909,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483809?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21567",
+    "yearStart": 1909,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270265?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15232",
+    "yearStart": 1909,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93456?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q75",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483390?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q124",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483498?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q186",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483681?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16488",
+    "yearStart": 1910,
+    "yearEnd": 1915,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103555?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Coutras",
+    "cote": "3Q13357",
+    "yearStart": 1910,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81518?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q76",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483391?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q125",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483501?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q187",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483687?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q227",
+    "yearStart": 1911,
+    "yearEnd": 1912,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483811?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17842",
+    "yearStart": 1911,
+    "yearEnd": 1916,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228493?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11025",
+    "yearStart": 1911,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014486?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20058",
+    "yearStart": 1911,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267887?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8011",
+    "yearStart": 1911,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999052?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q77",
+    "yearStart": 1912,
+    "yearEnd": 1912,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483392?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q126",
+    "yearStart": 1912,
+    "yearEnd": 1912,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483504?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q188",
+    "yearStart": 1912,
+    "yearEnd": 1912,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483690?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Brède",
+    "cote": "3Q15025",
+    "yearStart": 1912,
+    "yearEnd": 1922,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:92052?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q78",
+    "yearStart": 1913,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483393?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q127",
+    "yearStart": 1913,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483506?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q189",
+    "yearStart": 1913,
+    "yearEnd": 1913,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483694?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q228",
+    "yearStart": 1913,
+    "yearEnd": 1914,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483812?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11539",
+    "yearStart": 1913,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015709?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13916",
+    "yearStart": 1913,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83354?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q79",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483395?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q128",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483509?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q190",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483698?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q133",
+    "yearStart": 1914,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483522?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20586",
+    "yearStart": 1914,
+    "yearEnd": 1920,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268628?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9266",
+    "yearStart": 1914,
+    "yearEnd": 1920,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004839?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8875",
+    "yearStart": 1914,
+    "yearEnd": 1924,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003067?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q80",
+    "yearStart": 1915,
+    "yearEnd": 1915,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483396?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q129",
+    "yearStart": 1915,
+    "yearEnd": 1915,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483511?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q191",
+    "yearStart": 1915,
+    "yearEnd": 1915,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483701?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q229",
+    "yearStart": 1915,
+    "yearEnd": 1916,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483813?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "3Q22154",
+    "yearStart": 1915,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:271067?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q81",
+    "yearStart": 1916,
+    "yearEnd": 1916,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483399?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q130",
+    "yearStart": 1916,
+    "yearEnd": 1916,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483513?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q192",
+    "yearStart": 1916,
+    "yearEnd": 1916,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483704?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16489",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103560?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q230",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483815?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17843",
+    "yearStart": 1916,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228518?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16982",
+    "yearStart": 1916,
+    "yearEnd": 1920,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105974?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12141",
+    "yearStart": 1916,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54431?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q82",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483400?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q131",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483516?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q193",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483709?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15700",
+    "yearStart": 1917,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97708?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12625",
+    "yearStart": 1917,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63087?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q83",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483401?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q132",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483518?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q194",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483713?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q231",
+    "yearStart": 1918,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483816?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11026",
+    "yearStart": 1918,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014493?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16490",
+    "yearStart": 1918,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103567?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14651",
+    "yearStart": 1918,
+    "yearEnd": 1931,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88234?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q84",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483402?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q134",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483525?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q195",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483720?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q232",
+    "yearStart": 1919,
+    "yearEnd": 1921,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483817?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17844",
+    "yearStart": 1919,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228526?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11540",
+    "yearStart": 1919,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015711?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21568",
+    "yearStart": 1919,
+    "yearEnd": 1926,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270267?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q135",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483528?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9267",
+    "yearStart": 1920,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004845?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q85",
+    "yearStart": 1920,
+    "yearEnd": 1921,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483403?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q196",
+    "yearStart": 1920,
+    "yearEnd": 1921,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483722?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20059",
+    "yearStart": 1920,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267890?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13917",
+    "yearStart": 1920,
+    "yearEnd": 1929,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83358?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9268",
+    "yearStart": 1926,
+    "yearEnd": 1933,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004849?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q136",
+    "yearStart": 1921,
+    "yearEnd": 1921,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483530?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q233",
+    "yearStart": 1921,
+    "yearEnd": 1922,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483819?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16983",
+    "yearStart": 1921,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105997?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20587",
+    "yearStart": 1921,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268629?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10607",
+    "yearStart": 1921,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011783?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q86",
+    "yearStart": 1922,
+    "yearEnd": 1922,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483404?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q137",
+    "yearStart": 1922,
+    "yearEnd": 1922,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483533?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q197",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483727?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q234",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483821?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q87",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483405?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q138",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483535?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q235",
+    "yearStart": 1923,
+    "yearEnd": 1924,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483822?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17845",
+    "yearStart": 1923,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228530?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Brède",
+    "cote": "3Q15026",
+    "yearStart": 1923,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:92054?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q88",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483406?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q139",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483538?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q198",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483731?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q236",
+    "yearStart": 1924,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483823?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11027",
+    "yearStart": 1924,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014498?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11541",
+    "yearStart": 1924,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015713?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12142",
+    "yearStart": 1924,
+    "yearEnd": 1932,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54448?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15233",
+    "yearStart": 1924,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93461?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q89",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483407?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q140",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483540?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q199",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483733?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q237",
+    "yearStart": 1925,
+    "yearEnd": 1926,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483824?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8012",
+    "yearStart": 1925,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999056?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8876",
+    "yearStart": 1925,
+    "yearEnd": 1932,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003073?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16491",
+    "yearStart": 1925,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103576?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q90",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483408?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q141",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483543?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q200",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483736?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q238",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483827?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15701",
+    "yearStart": 1926,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97712?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21569",
+    "yearStart": 1926,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270268?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q91",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483410?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q142",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483546?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q201",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483738?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q239",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483829?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17846",
+    "yearStart": 1927,
+    "yearEnd": 1931,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228531?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q92",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483411?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q143",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483549?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q202",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483742?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q240",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483831?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11542",
+    "yearStart": 1928,
+    "yearEnd": 1933,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015714?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12626",
+    "yearStart": 1928,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63101?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Lesparre",
+    "cote": "3Q16984",
+    "yearStart": 1928,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:105998?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Monségur",
+    "cote": "3Q19655",
+    "yearStart": 1928,
+    "yearEnd": 1941,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267004?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bourg",
+    "cote": "3Q10093",
+    "yearStart": 1928,
+    "yearEnd": 1942,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008866?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q93",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483414?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q144",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483552?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q203",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483744?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q241",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483833?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11028",
+    "yearStart": 1929,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014505?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13918",
+    "yearStart": 1929,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83362?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20588",
+    "yearStart": 1929,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268630?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Pauillac",
+    "cote": "3Q20060",
+    "yearStart": 1929,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:267893?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bazas",
+    "cote": "3Q8013",
+    "yearStart": 1929,
+    "yearEnd": 1944,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999062?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q145",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483555?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q204",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483747?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q242",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483835?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q95",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483420?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q146",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483558?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q205",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483750?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q243",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483837?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Guîtres",
+    "cote": "3Q14652",
+    "yearStart": 1931,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88266?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17847",
+    "yearStart": 1931,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228532?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q96",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483423?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q147",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483560?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q206",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483753?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q244",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483841?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8877",
+    "yearStart": 1932,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003077?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q97",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483425?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q148",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483563?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q207",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483757?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q245",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483844?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11543",
+    "yearStart": 1933,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015715?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castelnau",
+    "cote": "3Q12143",
+    "yearStart": 1933,
+    "yearEnd": 1942,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54513?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q98",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483428?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q149",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483566?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux",
+    "cote": "3Q208",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483762?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- quatrième bureau",
+    "cote": "3Q246",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483846?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q247",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483851?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blaye",
+    "cote": "3Q9269",
+    "yearStart": 1934,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004853?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17848",
+    "yearStart": 1935,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228533?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Castillon",
+    "cote": "3Q12627",
+    "yearStart": 1935,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:63109?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Teste-de-Buch",
+    "cote": "3Q16492",
+    "yearStart": 1935,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:103583?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15234",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93519?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Cadillac",
+    "cote": "3Q11029",
+    "yearStart": 1936,
+    "yearEnd": 1942,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014509?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Brède",
+    "cote": "3Q15027",
+    "yearStart": 1936,
+    "yearEnd": 1944,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:92056?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "La Réole",
+    "cote": "3Q15702",
+    "yearStart": 1936,
+    "yearEnd": 1944,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97718?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11544",
+    "yearStart": 1937,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015716?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Libourne",
+    "cote": "3Q17849",
+    "yearStart": 1937,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:228534?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Langon",
+    "cote": "3Q15235",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93524?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Branne",
+    "cote": "3Q10608",
+    "yearStart": 1937,
+    "yearEnd": 1943,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011791?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Créon",
+    "cote": "3Q13919",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83367?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Podensac",
+    "cote": "3Q20589",
+    "yearStart": 1939,
+    "yearEnd": 1942,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:268631?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Saint-Ciers-sur-Gironde",
+    "cote": "3Q21570",
+    "yearStart": 1939,
+    "yearEnd": 1949,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_17799_24119/view:270269?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q261",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483889?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Carbon-Blanc",
+    "cote": "3Q11545",
+    "yearStart": 1940,
+    "yearEnd": 1943,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015717?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Blanquefort",
+    "cote": "3Q8878",
+    "yearStart": 1940,
+    "yearEnd": 1944,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003081?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q248",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483853?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q249",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483856?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q250",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483858?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q251",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483861?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q252",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483864?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q253",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483867?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q254",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483870?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q255",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483873?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q256",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483876?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q257",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483879?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q258",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483881?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q259",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483884?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- premier bureau",
+    "cote": "3Q260",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483887?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q262",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483894?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q263",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483897?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q264",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483900?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q265",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483904?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q266",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483906?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q267",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483908?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q268",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483911?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q269",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483914?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q270",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483917?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q271",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483919?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q272",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483923?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q273",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483926?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q274",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483933?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q275",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483937?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q276",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483942?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q277",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483947?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q278",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483950?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q279",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483954?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q280",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483959?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q281",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483961?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q282",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483964?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q283",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483967?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q284",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483971?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q285",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483973?RECH_table_Libel=Table des successions et absences|"
+  },
+  {
+    "place": "Bordeaux -- deuxième bureau",
+    "cote": "3Q286",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:483978?RECH_table_Libel=Table des successions et absences|"
+  }
+]
