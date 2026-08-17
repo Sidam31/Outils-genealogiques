@@ -13,6 +13,9 @@
 //   qu'un indice de naissance multiple possible, pas une confirmation jour/mois.
 // DIV (divorce) et EMIG/IMMI (migrations) sont parsés par gedcom.js (voir f.div et i.events.EMIG/IMMI).
 
+import { deptCode } from './geo.js';
+import { estimatePopulation } from './communes-population.js';
+
 function firstGivenName(p) {
     const g = p?.given || (p?.name || '').split(' ')[0];
     return g ? g.trim().split(' ')[0].toLowerCase() : '';
@@ -181,7 +184,16 @@ export function computeResidenceMobility(list) {
 }
 
 // --- 5. Endogamie géographique (couple né dans la même ville) + mobilité parent → enfant ---
-export function computeGeographicMobility(map, fams) {
+// communesPopIndex (optionnel, voir assets/js/communes-population.js) ajoute une comparaison de
+// taille de commune (enfant vs parent) par-dessus la comparaison même-ville/département/région/pays
+// déjà existante : utile pour repérer l'exode rural ou l'attraction des villes au fil des générations.
+// Seuils de classement : ×1.25 ou plus = "plus grande", ×0.8 ou moins = "plus petite", entre les deux
+// = taille comparable (évite de classer "plus grande/petite" un écart de quelques dizaines d'habitants
+// qui ne reflète qu'une imprécision de recensement plutôt qu'un vrai changement de milieu).
+const CITY_SIZE_BIGGER_RATIO = 1.25;
+const CITY_SIZE_SMALLER_RATIO = 0.8;
+
+export function computeGeographicMobility(map, fams, communesPopIndex) {
     let marriagesWithBothTowns = 0, sameTownMarriages = 0;
 
     fams.forEach(f => {
@@ -197,6 +209,9 @@ export function computeGeographicMobility(map, fams) {
     const buckets = { sameTown: 0, sameDept: 0, sameRegion: 0, sameCountry: 0, different: 0 };
     let mobilityTotal = 0;
 
+    const citySizeBuckets = { bigger: 0, smaller: 0, similar: 0 };
+    const citySizeMoves = [];
+
     map.forEach(p => {
         const childGeo = p.birth?.geo;
         if (!childGeo?.city) return;
@@ -205,12 +220,33 @@ export function computeGeographicMobility(map, fams) {
         if (!parentGeo?.city) return;
 
         mobilityTotal++;
-        if (childGeo.city.trim().toLowerCase() === parentGeo.city.trim().toLowerCase()) buckets.sameTown++;
+        const sameTown = childGeo.city.trim().toLowerCase() === parentGeo.city.trim().toLowerCase();
+        if (sameTown) buckets.sameTown++;
         else if (childGeo.dept && parentGeo.dept && childGeo.dept === parentGeo.dept) buckets.sameDept++;
         else if (childGeo.region && parentGeo.region && childGeo.region === parentGeo.region) buckets.sameRegion++;
         else if (childGeo.country && parentGeo.country && childGeo.country === parentGeo.country) buckets.sameCountry++;
         else buckets.different++;
+
+        if (!sameTown && communesPopIndex && p.birth.year != null && parent.birth?.year != null) {
+            const childPop = estimatePopulation(communesPopIndex, childGeo.city, deptCode(childGeo.dept), p.birth.year);
+            const parentPop = estimatePopulation(communesPopIndex, parentGeo.city, deptCode(parentGeo.dept), parent.birth.year);
+            if (childPop != null && parentPop != null && parentPop > 0) {
+                const ratio = childPop / parentPop;
+                const bucket = ratio >= CITY_SIZE_BIGGER_RATIO ? 'bigger' : (ratio <= CITY_SIZE_SMALLER_RATIO ? 'smaller' : 'similar');
+                citySizeBuckets[bucket]++;
+                citySizeMoves.push({
+                    name: p.name, childPlace: childGeo.city, childPop, childYear: p.birth.year,
+                    parentName: parent.name, parentPlace: parentGeo.city, parentPop, parentYear: parent.birth.year,
+                    ratio
+                });
+            }
+        }
     });
+
+    const citySizeTotal = citySizeBuckets.bigger + citySizeBuckets.smaller + citySizeBuckets.similar;
+    // Tri par écart le plus marquant, dans un sens comme dans l'autre (ratio ou son inverse, le plus
+    // grand des deux) : place aussi bien les plus fortes montées en ville que les plus forts exodes.
+    citySizeMoves.sort((a, b) => Math.max(b.ratio, 1 / b.ratio) - Math.max(a.ratio, 1 / a.ratio));
 
     return {
         endogamy: {
@@ -218,7 +254,17 @@ export function computeGeographicMobility(map, fams) {
             sameTownMarriages,
             rate: marriagesWithBothTowns > 0 ? ((sameTownMarriages / marriagesWithBothTowns) * 100).toFixed(1) : 0
         },
-        parentChildMobility: { total: mobilityTotal, buckets }
+        parentChildMobility: { total: mobilityTotal, buckets },
+        citySize: {
+            total: citySizeTotal,
+            buckets: citySizeBuckets,
+            percentages: {
+                bigger: citySizeTotal > 0 ? ((citySizeBuckets.bigger / citySizeTotal) * 100).toFixed(1) : 0,
+                smaller: citySizeTotal > 0 ? ((citySizeBuckets.smaller / citySizeTotal) * 100).toFixed(1) : 0,
+                similar: citySizeTotal > 0 ? ((citySizeBuckets.similar / citySizeTotal) * 100).toFixed(1) : 0
+            },
+            topMoves: citySizeMoves.slice(0, 10)
+        }
     };
 }
 
@@ -327,14 +373,14 @@ export function computeSurnameExtinction(map, fams) {
     return { totalMaleSurnames: bySurname.size, atRiskCount: atRisk.length, atRiskSurnames: atRisk.slice(0, 15) };
 }
 
-export function computeSocietyStats(list, map, fams) {
+export function computeSocietyStats(list, map, fams, communesPopIndex) {
     return {
         professions: computeProfessionsStats(list, map),
         documentation: computeDocumentationStats(list),
         maritalStability: computeMaritalStabilityStats(list, fams),
         migration: computeMigrationStats(list),
         residenceMobility: computeResidenceMobility(list),
-        geographicMobility: computeGeographicMobility(map, fams),
+        geographicMobility: computeGeographicMobility(map, fams, communesPopIndex),
         sameYearSiblings: computeSameYearSiblings(map, fams),
         namingPatterns: computeNamingPatterns(map),
         surnameExtinction: computeSurnameExtinction(map, fams)

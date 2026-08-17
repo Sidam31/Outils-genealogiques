@@ -99,14 +99,16 @@ export function initHypotheses() {
     }
 
     // Degré = up (générations jusqu'à l'ancêtre commun) + down (générations jusqu'à la personne citée).
-    // "cousin breton" (cousin à la mode de Bretagne) traité comme synonyme régional de
-    // "cousin issu de germain". "cousin germain" et "cousin remué de germain" traités comme
-    // synonymes, tous deux à montée 3 / descente 3 (arrière-grand-parent commun).
+    // "cousin germain" : grand-parent commun (montée 2 / descente 2). "cousin issu de germain" :
+    // arrière-grand-parent commun (montée 3 / descente 3). "cousin breton" (cousin à la mode de
+    // Bretagne) traité comme synonyme régional de "cousin issu de germain" (même valeurs).
+    // "cousin remué de germain" : enfant d'un cousin germain, montée/descente asymétriques
+    // (montée 2 / descente 3).
     const HYP_TERM_DICT = {
         oncle: { up: 2, down: 1 }, tante: { up: 2, down: 1 }, neveu_niece: { up: 1, down: 2 },
         grand_oncle: { up: 3, down: 1 },
-        cousin_germain: { up: 3, down: 3 }, cousin_issu_germain: { up: 2, down: 3 },
-        cousin_remue_germain: { up: 3, down: 3 }, cousin_breton: { up: 2, down: 3 }
+        cousin_germain: { up: 2, down: 2 }, cousin_issu_germain: { up: 3, down: 3 },
+        cousin_remue_germain: { up: 2, down: 3 }, cousin_breton: { up: 3, down: 3 }
     };
     const HYP_TERM_LABELS = {
         pere: "Père", mere: "Mère", grand_pere: "Grand-père", grand_mere: "Grand-mère",

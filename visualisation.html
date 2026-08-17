@@ -246,6 +246,19 @@
             </div>
 
             <div class="society-section">
+                <h3>🏙️ Taille de la commune de naissance : enfant vs parent</h3>
+                <p class="hint" id="socCitySizeHint">Chargement des données de population historique des communes (Cassini/EHESS)...</p>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socCitySizeBigger">–</div><div class="lbl">nés dans une commune plus grande que celle du parent</div></div>
+                    <div class="society-stat-card"><div class="num" id="socCitySizeSmaller">–</div><div class="lbl">nés dans une commune plus petite que celle du parent</div></div>
+                    <div class="society-stat-card"><div class="num" id="socCitySizeSimilar">–</div><div class="lbl">taille comparable</div></div>
+                </div>
+                <div id="socCitySizeChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                <h4 style="margin:16px 0 8px; color:var(--accent);">Changements de taille les plus marqués</h4>
+                <div id="socCitySizeList" class="society-list"></div>
+            </div>
+
+            <div class="society-section">
                 <h3>👶👶 Naissances la même année dans une fratrie</h3>
                 <p class="hint">Ce parser ne connaît les dates qu'à l'année près : il s'agit d'un indice de naissance multiple possible (jumeaux...), pas d'une confirmation jour/mois.</p>
                 <div id="socSiblingsList" class="society-list"></div>
@@ -284,6 +297,7 @@ import {
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
 import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart } from './assets/js/society.js';
+import { loadCommunesPopulation } from './assets/js/communes-population.js';
 
 // --- Sous-navigation : bascule entre les deux volets fusionnés sur cette page ---
 const topModeVisualisationBtn = document.getElementById('topModeVisualisationBtn');
@@ -493,6 +507,44 @@ function renderList(containerId, items) {
     container.innerHTML = items.length ? items.join('') : '<p class="hint">Aucune donnée disponible.</p>';
 }
 
+let communesPopLoaded = false;
+
+function renderCitySizeSection(citySize) {
+    const hint = document.getElementById('socCitySizeHint');
+    if (!communesPopLoaded) {
+        hint.textContent = 'Chargement des données de population historique des communes (Cassini/EHESS)...';
+    } else if (citySize.total === 0) {
+        hint.textContent = 'Aucune correspondance trouvée entre les lieux de naissance de ce fichier et la base de communes (environ 36 500 communes françaises avec historique de population).';
+    } else {
+        hint.textContent = `Basé sur ${citySize.total} changement(s) de commune avec population connue aux deux extrémités. Seuil : ×1.25 ou plus = « plus grande », ×0.8 ou moins = « plus petite », entre les deux = taille comparable.`;
+    }
+
+    setStat('socCitySizeBigger', citySize.total > 0 ? `${citySize.percentages.bigger}%` : '–');
+    setStat('socCitySizeSmaller', citySize.total > 0 ? `${citySize.percentages.smaller}%` : '–');
+    setStat('socCitySizeSimilar', citySize.total > 0 ? `${citySize.percentages.similar}%` : '–');
+
+    drawCategoryBarChart('socCitySizeChart', [
+        { label: 'Plus grande', count: citySize.buckets.bigger },
+        { label: 'Plus petite', count: citySize.buckets.smaller },
+        { label: 'Comparable', count: citySize.buckets.similar }
+    ]);
+
+    renderList('socCitySizeList', citySize.topMoves.map(m => {
+        const biggerMove = m.ratio >= 1;
+        const factor = biggerMove ? m.ratio : 1 / m.ratio;
+        return `
+        <div class="society-list-item">
+            <div class="rank">${biggerMove ? '↗️' : '↘️'}</div>
+            <div class="main">
+                <div class="title">${escapeHtml(m.name)}</div>
+                <div class="meta">né(e) à ${escapeHtml(m.childPlace)} (~${Math.round(m.childPop).toLocaleString('fr-FR')} hab. en ${m.childYear}) • parent ${escapeHtml(m.parentName)} né(e) à ${escapeHtml(m.parentPlace)} (~${Math.round(m.parentPop).toLocaleString('fr-FR')} hab. en ${m.parentYear})</div>
+            </div>
+            <div class="badge">${factor.toFixed(1)}× ${biggerMove ? 'plus grande' : 'plus petite'}</div>
+        </div>
+    `;
+    }));
+}
+
 function renderSociety(stats) {
     // Professions
     setStat('socProfTotal', stats.professions.total);
@@ -568,6 +620,9 @@ function renderSociety(stats) {
         ? `couples nés dans la même ville (${endo.sameTownMarriages}/${endo.sampleSize})`
         : 'couples nés dans la même ville (données insuffisantes)';
 
+    // Taille de la commune de naissance : enfant vs parent
+    renderCitySizeSection(stats.geographicMobility.citySize);
+
     // Naissances la même année
     renderList('socSiblingsList', stats.sameYearSiblings.sets.map((s, i) => `
         <div class="society-list-item">
@@ -636,6 +691,15 @@ bootstrap({
         societyContent.classList.remove('hidden');
         const stats = computeSocietyStats(data.list, data.map, data.fams);
         renderSociety(stats);
+
+        // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
+        // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même
+        // logique que enrichMissingCoords côté cartes.
+        loadCommunesPopulation().then(communesPop => {
+            communesPopLoaded = true;
+            const statsWithCitySize = computeSocietyStats(data.list, data.map, data.fams, communesPop);
+            renderSociety(statsWithCitySize);
+        });
     }
 });
 </script>
