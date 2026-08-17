@@ -23,6 +23,12 @@
 //   registres sont eux-mêmes classés par bureau PUIS par initiale de patronyme (répertoires
 //   alphabétiques) : la correspondance est donc exacte, pas une approximation, et plus précise
 //   qu'à Nord puisqu'elle peut aussi cibler la bonne tranche de patronymes.
+// - 'citywide' (Paris, 75) : cas particulier — le département ne compte qu'une seule commune, donc
+//   pas de correspondance commune -> bureau à faire ni de repli géographique ; les registres sont
+//   organisés par arrondissement (avec des découpages qui ont changé dans le temps, y compris des
+//   "arrondissements anciens" antérieurs à 1860), une information que le GEDCOM ne connaît
+//   généralement pas. On renvoie donc tous les registres de l'année recherchée, quel que soit
+//   l'arrondissement, à charge pour la personne de repérer le bon (voir resolveCitywide).
 //
 // Pour couvrir un nouveau département : écrire son propre scraper (le HTML/la structure varient
 // d'un portail à l'autre), générer ses JSON sous assets/data/, puis ajouter une entrée à
@@ -158,6 +164,57 @@ export const SUCCESSION_DEPTS = {
         // registre, une seule requête pour tout le département (pas de facette/arbre à parcourir).
         catalogUrl: 'https://ressources.archives.oise.fr/v2/ad60/tsa.html',
     },
+    '22': {
+        label: "Côtes-d'Armor",
+        kind: 'facet',
+        // Bornes réelles de la série (570 registres scrapés, voir
+        // scrape_successions_anaphore_per_bureau.py).
+        minYear: 1814,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_22.json',
+        bureauxUrl: './assets/data/successions_22_bureaux.json',
+        // Cinquième département sur le logiciel Anaphore, un document par bureau comme le Gard.
+        catalogUrl: 'https://recherche.archives.cotesdarmor.fr/archives/classification-scheme',
+    },
+    '31': {
+        label: 'Haute-Garonne',
+        kind: 'facet',
+        // Bornes réelles de la série (587 registres scrapés, voir
+        // scrape_successions_haute_garonne.py).
+        minYear: 1787,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_31.json',
+        bureauxUrl: './assets/data/successions_31_bureaux.json',
+        // Portail "Ligeo Archives" (même logiciel que la Seine-Maritime), protégé par Anubis
+        // (anti-bot) : le dépouillement n'a été fait qu'après autorisation explicite du service
+        // d'archives (voir scrape_successions_haute_garonne.py) — cas particulier, à ne pas
+        // reproduire pour un autre département sans la même autorisation.
+        catalogUrl: 'https://archives.haute-garonne.fr/n/enregistrement/n:352',
+    },
+    '44': {
+        label: 'Loire-Atlantique',
+        kind: 'facet',
+        // Bornes réelles de la série (886 registres scrapés, voir scrape_successions_archinoe.py).
+        minYear: 1786,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_44.json',
+        bureauxUrl: './assets/data/successions_44_bureaux.json',
+        // Même logiciel "Archinoë" que l'Oise, mais interrogé bureau par bureau (pas d'option
+        // "tous bureaux" exploitable sur ce formulaire) — voir DEPARTMENTS['44'] dans le scraper.
+        catalogUrl: 'https://archives-numerisees.loire-atlantique.fr/v2/ad44/table3q.html',
+    },
+    '75': {
+        label: 'Paris',
+        kind: 'citywide',
+        // Bornes réelles de la série (3909 registres scrapés, voir scrape_successions_paris.py) :
+        // la série s'intitule "1791-vers 1953" mais quelques registres tardifs dépassent 1953.
+        minYear: 1788,
+        maxYear: 1967,
+        registersUrl: './assets/data/successions_75.json',
+        // Portail "Arkothèque", un sixième logiciel différent des autres départements couverts ici.
+        // Pas de bureauxUrl/catalogUrl de repli au sens des autres kind : voir resolveCitywide.
+        catalogUrl: 'https://archives.paris.fr/archives-numerisees/archives-fiscales/successions/consulter-les-tables-des-deces-et-des-successions-1791-vers-1953',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
@@ -252,17 +309,25 @@ function loadBureauLetterIndex(config) {
     });
 }
 
+// kind 'citywide' (Paris) : pas de correspondance commune -> bureau (une seule commune dans tout
+// le département) - un seul tableau plat de tous les registres, filtré par année à la résolution.
+function loadCitywideIndex(config) {
+    return fetchJson(config.registersUrl).then(records => ({ records }));
+}
+
 // Charge et indexe, pour un département donné, les données précalculées par son scraper. Un échec
 // réseau n'est pas fatal : le département retombe simplement sur "aucune piste" plutôt que de
 // bloquer toute l'analyse.
 function loadDeptIndex(deptCodeKey) {
     const config = SUCCESSION_DEPTS[deptCodeKey];
-    const loader = config.kind === 'bureau-letter' ? loadBureauLetterIndex : loadFacetIndex;
+    const loader = config.kind === 'bureau-letter' ? loadBureauLetterIndex
+        : config.kind === 'citywide' ? loadCitywideIndex
+        : loadFacetIndex;
     return loader(config)
         .then(idx => ({ config, ...idx }))
         .catch(err => {
             console.error(`Chargement des successions (dept ${deptCodeKey}) échoué:`, err);
-            return { config, registerIndex: new Map(), bureauIndex: new Map(), communeHistory: new Map() };
+            return { config, registerIndex: new Map(), bureauIndex: new Map(), communeHistory: new Map(), records: [] };
         });
 }
 
@@ -332,6 +397,51 @@ function resolveBureauLetter(idx, geo, year, person) {
     };
 }
 
+// Préfixe normalisé (majuscules, sans accents) du patronyme, tronqué à la longueur voulue - même
+// normalisation que firstSurnameLetter, étendue aux tokens multi-caractères (subdivisions fines
+// par syllabe, ex. "Sav à Sig") que publie la table parisienne (voir parse_letter_filter côté
+// scraper, scrape_successions_paris.py).
+function surnamePrefix(surname, len) {
+    if (!surname) return '';
+    return normalizePlace(surname).toUpperCase().trim().slice(0, len);
+}
+
+// r.letterFilter (voir scrape_successions_paris.py/parse_letter_filter) : null si le registre
+// couvre tout l'alphabet ou si le texte source n'a pas pu être découpé de façon fiable - dans ce
+// cas on ne filtre PAS (mieux vaut montrer une piste en trop que masquer à tort une vraie
+// correspondance, cf. le commentaire du scraper).
+function matchesLetterFilter(filter, surname) {
+    if (!filter) return true;
+    if (filter.mode === 'set') {
+        return filter.tokens.some(t => surnamePrefix(surname, t.length) === t);
+    }
+    const len = Math.max(filter.from.length, filter.to.length);
+    const prefix = surnamePrefix(surname, len).padEnd(len, ' ');
+    return prefix >= filter.from.padEnd(len, ' ') && prefix <= filter.to.padEnd(len, ' ');
+}
+
+// kind 'citywide' (Paris) : aucune correspondance de lieu à faire (une seule commune dans tout le
+// département), mais chaque registre couvre une tranche de patronymes (comme au Tarn, voir kind
+// 'bureau-letter') ET un arrondissement/bureau particulier - sans le filtre par patronyme, une
+// recherche par année seule renvoie des dizaines de registres (tous les bureaux ET toutes les
+// tranches de lettres actifs cette année-là). Il reste malgré tout possible d'avoir plusieurs
+// candidats après filtrage : l'arrondissement du décès (que le GEDCOM ne connaît généralement pas)
+// départagerait, d'où le contextLabel qui prévient de vérifier soi-même dans ce cas.
+function resolveCitywide(idx, year, person) {
+    const bySurname = idx.records.filter(r => matchesLetterFilter(r.letterFilter, person.surname));
+    const registers = pickRegisters(bySurname, year);
+    if (!registers.length) {
+        return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
+    }
+    const places = new Set(registers.map(r => r.place));
+    return {
+        matchType: 'exact', registers, bureauInfo: null,
+        contextLabel: places.size > 1
+            ? `Paris est organisé par arrondissement : ${registers.length} registre(s) correspondent à cette année, à vérifier selon l'arrondissement du décès.`
+            : null,
+    };
+}
+
 // Seul le décès donne lieu à une déclaration de succession (contrairement au notariat, un mariage
 // n'en produit pas) : uniquement l'événement DEAT est considéré ici.
 // indexes: Map département -> {config, ...} (voir loadSuccessionIndexes)
@@ -351,8 +461,8 @@ export function computeSuccessionLeads(list, indexes, opts) {
         const { config } = idx;
         if (year < config.minYear || year > config.maxYear) return; // hors des bornes de la série
 
-        const resolved = config.kind === 'bureau-letter'
-            ? resolveBureauLetter(idx, geo, year, p)
+        const resolved = config.kind === 'bureau-letter' ? resolveBureauLetter(idx, geo, year, p)
+            : config.kind === 'citywide' ? resolveCitywide(idx, year, p)
             : resolveFacet(idx, geo, year);
 
         results.push({

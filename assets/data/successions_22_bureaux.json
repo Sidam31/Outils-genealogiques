@@ -1,0 +1,1550 @@
+{
+  "ALLINEUC": {
+    "bureau": "Uzel",
+    "distanceKm": 4.2
+  },
+  "ANDEL": {
+    "bureau": "Lamballe",
+    "distanceKm": 2.7
+  },
+  "AUCALEUC": {
+    "bureau": "Dinan",
+    "distanceKm": 5.2
+  },
+  "BEAUSSAIS SUR MER": {
+    "bureau": "Ploubalay",
+    "distanceKm": 0.0
+  },
+  "BERHET": {
+    "bureau": "La Roche-Derrien",
+    "distanceKm": 6.8
+  },
+  "BINIC ETABLES SUR MER": {
+    "bureau": "Plouha",
+    "distanceKm": 10.4
+  },
+  "ETABLES SUR MER": {
+    "bureau": "Plouha",
+    "distanceKm": 10.4
+  },
+  "ETABLES": {
+    "bureau": "Plouha",
+    "distanceKm": 10.4
+  },
+  "BOBITAL": {
+    "bureau": "Dinan",
+    "distanceKm": 5.0
+  },
+  "BON REPOS SUR BLAVET": {
+    "bureau": "Gouarec",
+    "distanceKm": 6.2
+  },
+  "LANISCAT": {
+    "bureau": "Gouarec",
+    "distanceKm": 6.2
+  },
+  "BONEN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "BOQUEHO": {
+    "bureau": "Quintin",
+    "distanceKm": 8.9
+  },
+  "BOURSEUL": {
+    "bureau": "Plancoët",
+    "distanceKm": 6.5
+  },
+  "BRINGOLO": {
+    "bureau": "Lanvollon",
+    "distanceKm": 6.1
+  },
+  "BRUSVILY": {
+    "bureau": "Dinan",
+    "distanceKm": 7.7
+  },
+  "BREHAND": {
+    "bureau": "Moncontour",
+    "distanceKm": 5.3
+  },
+  "BRELIDY": {
+    "bureau": "Bégard",
+    "distanceKm": 5.0
+  },
+  "BRELEVENEZ": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "BUHULIEN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "BULAT PESTIVIEN": {
+    "bureau": "Callac",
+    "distanceKm": 6.0
+  },
+  "CALANHEL": {
+    "bureau": "Callac",
+    "distanceKm": 4.5
+  },
+  "CALORGUEN": {
+    "bureau": "Évran",
+    "distanceKm": 4.8
+  },
+  "CAMLEZ": {
+    "bureau": "Tréguier",
+    "distanceKm": 6.2
+  },
+  "CANIHUEL": {
+    "bureau": "Corlay",
+    "distanceKm": 4.7
+  },
+  "CAOUENNEC LANVEZEAC": {
+    "bureau": "Lannion",
+    "distanceKm": 8.6
+  },
+  "CAOUENNEC": {
+    "bureau": "Lannion",
+    "distanceKm": 8.6
+  },
+  "CARNOET": {
+    "bureau": "Callac",
+    "distanceKm": 11.8
+  },
+  "CAUREL": {
+    "bureau": "Corlay",
+    "distanceKm": 9.7
+  },
+  "CAVAN": {
+    "bureau": "Bégard",
+    "distanceKm": 7.0
+  },
+  "CHATELAUDREN PLOUAGAT": {
+    "bureau": "Lanvollon",
+    "distanceKm": 11.5
+  },
+  "PLOUAGAT": {
+    "bureau": "Lanvollon",
+    "distanceKm": 11.5
+  },
+  "COADOUT": {
+    "bureau": "Guingamp",
+    "distanceKm": 5.2
+  },
+  "COATASCORN": {
+    "bureau": "Bégard",
+    "distanceKm": 4.3
+  },
+  "COATREVEN": {
+    "bureau": "Tréguier",
+    "distanceKm": 7.0
+  },
+  "COHINIAC": {
+    "bureau": "Quintin",
+    "distanceKm": 5.9
+  },
+  "CORSEUL": {
+    "bureau": "Plancoët",
+    "distanceKm": 5.2
+  },
+  "COETLOGON": {
+    "bureau": "Merdrignac",
+    "distanceKm": 12.5
+  },
+  "COETMIEUX": {
+    "bureau": "Lamballe",
+    "distanceKm": 5.2
+  },
+  "CREHEN": {
+    "bureau": "Plancoët",
+    "distanceKm": 3.8
+  },
+  "DOLO": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "DUAULT": {
+    "bureau": "Callac",
+    "distanceKm": 6.4
+  },
+  "ERQUY": {
+    "bureau": "Matignon",
+    "distanceKm": 12.3
+  },
+  "FREHEL": {
+    "bureau": "Matignon",
+    "distanceKm": 6.8
+  },
+  "PLEHEREL": {
+    "bureau": "Matignon",
+    "distanceKm": 6.8
+  },
+  "GAUSSON": {
+    "bureau": "Plouguenast",
+    "distanceKm": 5.2
+  },
+  "GLOMEL": {
+    "bureau": "Rostrenen",
+    "distanceKm": 5.5
+  },
+  "GOMENE": {
+    "bureau": "Merdrignac",
+    "distanceKm": 6.9
+  },
+  "GOMMENEC H": {
+    "bureau": "Lanvollon",
+    "distanceKm": 4.2
+  },
+  "GOUDELIN": {
+    "bureau": "Lanvollon",
+    "distanceKm": 4.0
+  },
+  "GRACE UZEL": {
+    "bureau": "Uzel",
+    "distanceKm": 5.0
+  },
+  "GRACES": {
+    "bureau": "Guingamp",
+    "distanceKm": 2.7
+  },
+  "GUENROC": {
+    "bureau": "Caulnes",
+    "distanceKm": 5.9
+  },
+  "GUERLEDAN": {
+    "bureau": "Uzel",
+    "distanceKm": 11.9
+  },
+  "MUR DE BRETAGNE": {
+    "bureau": "Uzel",
+    "distanceKm": 11.9
+  },
+  "MUR": {
+    "bureau": "Uzel",
+    "distanceKm": 11.9
+  },
+  "GUITTE": {
+    "bureau": "Caulnes",
+    "distanceKm": 4.5
+  },
+  "GURUNHUEL": {
+    "bureau": "Belle-Isle-en-Terre",
+    "distanceKm": 7.3
+  },
+  "HENGOAT": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "HILLION": {
+    "bureau": "Binic",
+    "distanceKm": 8.9
+  },
+  "HEMONSTOIR": {
+    "bureau": "Loudéac",
+    "distanceKm": 8.1
+  },
+  "HENANBIHEN": {
+    "bureau": "Matignon",
+    "distanceKm": 8.5
+  },
+  "HENANSAL": {
+    "bureau": "Lamballe",
+    "distanceKm": 7.7
+  },
+  "HENON": {
+    "bureau": "Moncontour",
+    "distanceKm": 5.2
+  },
+  "ILLIFAUT": {
+    "bureau": "Merdrignac",
+    "distanceKm": 7.2
+  },
+  "JUGON LES LACS COMMUNE NOUVELLE": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 0.0
+  },
+  "JUGON": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 0.0
+  },
+  "KERBORS": {
+    "bureau": "Tréguier",
+    "distanceKm": 5.8
+  },
+  "KERFOT": {
+    "bureau": "Paimpol",
+    "distanceKm": 4.9
+  },
+  "KERGRIST MOELOU": {
+    "bureau": "Rostrenen",
+    "distanceKm": 8.1
+  },
+  "KERIEN": {
+    "bureau": "Bourbriac",
+    "distanceKm": 6.5
+  },
+  "KERITY": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "KERMARIA SULARD": {
+    "bureau": "Lannion",
+    "distanceKm": 7.7
+  },
+  "KERMOROC H": {
+    "bureau": "Guingamp",
+    "distanceKm": 7.0
+  },
+  "KERPERT": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 7.3
+  },
+  "L HERMITAGE LORGE": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LA BOUILLIE": {
+    "bureau": "Matignon",
+    "distanceKm": 11.0
+  },
+  "LA CHAPELLE BLANCHE": {
+    "bureau": "Caulnes",
+    "distanceKm": 4.7
+  },
+  "LA CHAPELLE NEUVE": {
+    "bureau": "Callac",
+    "distanceKm": 5.5
+  },
+  "LA CHEZE": {
+    "bureau": "Loudéac",
+    "distanceKm": 7.7
+  },
+  "LA FERRIERE": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LA HARMOYE": {
+    "bureau": "Corlay",
+    "distanceKm": 6.7
+  },
+  "LA LANDEC": {
+    "bureau": "Dinan",
+    "distanceKm": 9.7
+  },
+  "LA MALHOURE": {
+    "bureau": "Lamballe",
+    "distanceKm": 10.2
+  },
+  "LA MOTTE": {
+    "bureau": "Plouguenast",
+    "distanceKm": 5.2
+  },
+  "LA MEAUGON": {
+    "bureau": "Binic",
+    "distanceKm": 6.1
+  },
+  "LA POTERIE": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LA PRENESSAYE": {
+    "bureau": "Loudéac",
+    "distanceKm": 7.3
+  },
+  "LA ROCHE JAUDY": {
+    "bureau": "La Roche-Derrien",
+    "distanceKm": 0.0
+  },
+  "LA VICOMTE SUR RANCE": {
+    "bureau": "Dinan",
+    "distanceKm": 6.9
+  },
+  "LAMBALLE ARMOR": {
+    "bureau": "Lamballe",
+    "distanceKm": 0.0
+  },
+  "LANCIEUX": {
+    "bureau": "Ploubalay",
+    "distanceKm": 4.6
+  },
+  "LANDEBAERON": {
+    "bureau": "Bégard",
+    "distanceKm": 6.3
+  },
+  "LANDEBIA": {
+    "bureau": "Plancoët",
+    "distanceKm": 8.6
+  },
+  "LANDEHEN": {
+    "bureau": "Lamballe",
+    "distanceKm": 7.7
+  },
+  "LANFAINS": {
+    "bureau": "Quintin",
+    "distanceKm": 3.7
+  },
+  "LANGAST": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LANGOAT": {
+    "bureau": "La Roche-Derrien",
+    "distanceKm": 5.1
+  },
+  "LANGOURLA": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LANGROLAY SUR RANCE": {
+    "bureau": "Ploubalay",
+    "distanceKm": 9.1
+  },
+  "LANGROLAY": {
+    "bureau": "Ploubalay",
+    "distanceKm": 9.1
+  },
+  "LANGUENAN": {
+    "bureau": "Ploubalay",
+    "distanceKm": 5.6
+  },
+  "LANGUEUX": {
+    "bureau": "Binic",
+    "distanceKm": 4.3
+  },
+  "LANGUEDIAS": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 8.6
+  },
+  "LANLEFF": {
+    "bureau": "Lanvollon",
+    "distanceKm": 7.6
+  },
+  "LANLOUP": {
+    "bureau": "Plouha",
+    "distanceKm": 3.8
+  },
+  "LANMODEZ": {
+    "bureau": "Lézardrieux",
+    "distanceKm": 5.3
+  },
+  "LANMERIN": {
+    "bureau": "Lannion",
+    "distanceKm": 8.5
+  },
+  "LANNEBERT": {
+    "bureau": "Lanvollon",
+    "distanceKm": 2.3
+  },
+  "LANRELAS": {
+    "bureau": "Broons",
+    "distanceKm": 7.9
+  },
+  "LANRIVAIN": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 4.2
+  },
+  "LANRODEC": {
+    "bureau": "Guingamp",
+    "distanceKm": 10.7
+  },
+  "LANTIC": {
+    "bureau": "Lanvollon",
+    "distanceKm": 7.6
+  },
+  "LANVALLAY": {
+    "bureau": "Dinan",
+    "distanceKm": 3.9
+  },
+  "LANVELLEC": {
+    "bureau": "Plouaret",
+    "distanceKm": 3.5
+  },
+  "LANVEZEAC": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LAURENAN": {
+    "bureau": "Collinée",
+    "distanceKm": 7.8
+  },
+  "LE BODEO": {
+    "bureau": "Uzel",
+    "distanceKm": 7.4
+  },
+  "LE CAMBOUT": {
+    "bureau": "Loudéac",
+    "distanceKm": 15.7
+  },
+  "LE FAOUET": {
+    "bureau": "Pontrieux",
+    "distanceKm": 6.8
+  },
+  "LE FŒIL": {
+    "bureau": "Quintin",
+    "distanceKm": 1.5
+  },
+  "LE GOURAY": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LE HAUT CORLAY": {
+    "bureau": "Corlay",
+    "distanceKm": 4.0
+  },
+  "LE HINGLE": {
+    "bureau": "Dinan",
+    "distanceKm": 5.7
+  },
+  "LE LESLAY": {
+    "bureau": "Quintin",
+    "distanceKm": 4.2
+  },
+  "LE MENE": {
+    "bureau": "Collinée",
+    "distanceKm": 0.0
+  },
+  "LE MERZER": {
+    "bureau": "Guingamp",
+    "distanceKm": 6.0
+  },
+  "LE MOUSTOIR": {
+    "bureau": "Rostrenen",
+    "distanceKm": 14.1
+  },
+  "LE QUILLIO": {
+    "bureau": "Uzel",
+    "distanceKm": 5.6
+  },
+  "LE QUIOU": {
+    "bureau": "Évran",
+    "distanceKm": 3.7
+  },
+  "LE VIEUX BOURG": {
+    "bureau": "Quintin",
+    "distanceKm": 6.3
+  },
+  "LE VIEUX MARCHE": {
+    "bureau": "Vieux-Marché",
+    "distanceKm": 0.0
+  },
+  "LES CHAMPS GERAUX": {
+    "bureau": "Évran",
+    "distanceKm": 5.6
+  },
+  "LESCOUET GOUAREC": {
+    "bureau": "Gouarec",
+    "distanceKm": 7.4
+  },
+  "LESCOUET JUGON": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LOC ENVEL": {
+    "bureau": "Belle-Isle-en-Terre",
+    "distanceKm": 3.9
+  },
+  "LOCARN": {
+    "bureau": "Callac",
+    "distanceKm": 9.7
+  },
+  "LOGUIVY PLOUGRAS": {
+    "bureau": "Belle-Isle-en-Terre",
+    "distanceKm": 8.2
+  },
+  "LOGUIVY LES LANNION": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "LOHUEC": {
+    "bureau": "Callac",
+    "distanceKm": 9.8
+  },
+  "LOSCOUET SUR MEU": {
+    "bureau": "Merdrignac",
+    "distanceKm": 10.7
+  },
+  "LOUANNEC": {
+    "bureau": "Lannion",
+    "distanceKm": 5.7
+  },
+  "LOUARGAT": {
+    "bureau": "Belle-Isle-en-Terre",
+    "distanceKm": 4.2
+  },
+  "LEHON": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "MAGOAR": {
+    "bureau": "Bourbriac",
+    "distanceKm": 7.2
+  },
+  "MANTALLOT": {
+    "bureau": "La Roche-Derrien",
+    "distanceKm": 5.1
+  },
+  "MAROUE": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "MAEL CARHAIX": {
+    "bureau": "Rostrenen",
+    "distanceKm": 10.9
+  },
+  "MAEL PESTIVIEN": {
+    "bureau": "Callac",
+    "distanceKm": 8.8
+  },
+  "MELLIONNEC": {
+    "bureau": "Rostrenen",
+    "distanceKm": 6.1
+  },
+  "MERLEAC": {
+    "bureau": "Uzel",
+    "distanceKm": 4.7
+  },
+  "MESLIN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "MINIHY TREGUIER": {
+    "bureau": "Tréguier",
+    "distanceKm": 2.5
+  },
+  "MORIEUX": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "MOUSTERU": {
+    "bureau": "Guingamp",
+    "distanceKm": 6.9
+  },
+  "MEGRIT": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 4.0
+  },
+  "MERILLAC": {
+    "bureau": "Merdrignac",
+    "distanceKm": 7.2
+  },
+  "NOTRE DAME DU GUILDO": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "NOYAL": {
+    "bureau": "Lamballe",
+    "distanceKm": 5.6
+  },
+  "PABU": {
+    "bureau": "Guingamp",
+    "distanceKm": 2.9
+  },
+  "PAULE": {
+    "bureau": "Rostrenen",
+    "distanceKm": 11.2
+  },
+  "PENGUILY": {
+    "bureau": "Collinée",
+    "distanceKm": 10.3
+  },
+  "PENVENAN": {
+    "bureau": "Tréguier",
+    "distanceKm": 6.5
+  },
+  "PERRET": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "PEUMERIT QUINTIN": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 10.4
+  },
+  "PLAINE HAUTE": {
+    "bureau": "Quintin",
+    "distanceKm": 6.1
+  },
+  "PLAINTEL": {
+    "bureau": "Quintin",
+    "distanceKm": 7.8
+  },
+  "PLANGUENOUAL": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "PLERNEUF": {
+    "bureau": "Binic",
+    "distanceKm": 8.6
+  },
+  "PLESLIN TRIGAVOU": {
+    "bureau": "Ploubalay",
+    "distanceKm": 6.3
+  },
+  "PLESLIN": {
+    "bureau": "Ploubalay",
+    "distanceKm": 6.3
+  },
+  "PLESSALA": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "PLESSIX BALISSON": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "PLESTAN": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 8.0
+  },
+  "PLESTIN LES GREVES": {
+    "bureau": "Plestin",
+    "distanceKm": 0.0
+  },
+  "PLEUBIAN": {
+    "bureau": "Lézardrieux",
+    "distanceKm": 5.5
+  },
+  "PLEUDANIEL": {
+    "bureau": "Lézardrieux",
+    "distanceKm": 6.0
+  },
+  "PLEUDIHEN SUR RANCE": {
+    "bureau": "Dinan",
+    "distanceKm": 10.9
+  },
+  "PLEUDIHEN": {
+    "bureau": "Dinan",
+    "distanceKm": 10.9
+  },
+  "PLEUMEUR BODOU": {
+    "bureau": "Perros-Guirec",
+    "distanceKm": 7.1
+  },
+  "PLEUMEUR GAUTIER": {
+    "bureau": "Lézardrieux",
+    "distanceKm": 3.2
+  },
+  "PLOREC SUR ARGUENON": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 7.3
+  },
+  "PLOREC": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 7.3
+  },
+  "PLOUASNE": {
+    "bureau": "Évran",
+    "distanceKm": 7.7
+  },
+  "PLOUBAZLANEC": {
+    "bureau": "Paimpol",
+    "distanceKm": 3.1
+  },
+  "PLOUBEZRE": {
+    "bureau": "Lannion",
+    "distanceKm": 6.6
+  },
+  "PLOUFRAGAN": {
+    "bureau": "Binic",
+    "distanceKm": 3.3
+  },
+  "PLOUGONVER": {
+    "bureau": "Belle-Isle-en-Terre",
+    "distanceKm": 5.9
+  },
+  "PLOUGRAS": {
+    "bureau": "Plouaret",
+    "distanceKm": 14.0
+  },
+  "PLOUGRESCANT": {
+    "bureau": "Tréguier",
+    "distanceKm": 6.4
+  },
+  "PLOUGUENAST LANGAST": {
+    "bureau": "Plouguenast",
+    "distanceKm": 0.0
+  },
+  "PLOUGUERNEVEL": {
+    "bureau": "Gouarec",
+    "distanceKm": 3.5
+  },
+  "PLOUGUIEL": {
+    "bureau": "Tréguier",
+    "distanceKm": 2.6
+  },
+  "PLOUISY": {
+    "bureau": "Guingamp",
+    "distanceKm": 3.2
+  },
+  "PLOULEC H": {
+    "bureau": "Lannion",
+    "distanceKm": 3.7
+  },
+  "PLOUMAGOAR": {
+    "bureau": "Guingamp",
+    "distanceKm": 4.7
+  },
+  "PLOUMILLIAU": {
+    "bureau": "Lannion",
+    "distanceKm": 7.2
+  },
+  "PLOUNEZ": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "PLOUNERIN": {
+    "bureau": "Plouaret",
+    "distanceKm": 7.2
+  },
+  "PLOUNEVEZ MOEDEC": {
+    "bureau": "Belle-Isle-en-Terre",
+    "distanceKm": 5.4
+  },
+  "PLOUNEVEZ QUINTIN": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 6.7
+  },
+  "PLOURAC H": {
+    "bureau": "Callac",
+    "distanceKm": 10.3
+  },
+  "PLOURHAN": {
+    "bureau": "Plouha",
+    "distanceKm": 7.1
+  },
+  "PLOURIVO": {
+    "bureau": "Paimpol",
+    "distanceKm": 5.7
+  },
+  "PLOUVARA": {
+    "bureau": "Quintin",
+    "distanceKm": 10.4
+  },
+  "PLOUZELAMBRE": {
+    "bureau": "Plouaret",
+    "distanceKm": 5.2
+  },
+  "PLOUEZEC": {
+    "bureau": "Paimpol",
+    "distanceKm": 6.4
+  },
+  "PLOUEC DU TRIEUX": {
+    "bureau": "Pontrieux",
+    "distanceKm": 3.8
+  },
+  "PLOUEC": {
+    "bureau": "Pontrieux",
+    "distanceKm": 3.8
+  },
+  "PLOUER SUR RANCE": {
+    "bureau": "Dinan",
+    "distanceKm": 9.4
+  },
+  "PLOUER LANGROLAY SUR RANCE": {
+    "bureau": "Dinan",
+    "distanceKm": 9.4
+  },
+  "PLOUER": {
+    "bureau": "Dinan",
+    "distanceKm": 9.4
+  },
+  "PLOEZAL": {
+    "bureau": "Pontrieux",
+    "distanceKm": 2.5
+  },
+  "PLOEZAL RUNAN": {
+    "bureau": "Pontrieux",
+    "distanceKm": 2.5
+  },
+  "PLUDUAL": {
+    "bureau": "Lanvollon",
+    "distanceKm": 3.5
+  },
+  "PLUFUR": {
+    "bureau": "Plestin",
+    "distanceKm": 5.2
+  },
+  "PLUMAUDAN": {
+    "bureau": "Caulnes",
+    "distanceKm": 6.5
+  },
+  "PLUMAUGAT": {
+    "bureau": "Broons",
+    "distanceKm": 7.6
+  },
+  "PLUMIEUX": {
+    "bureau": "Loudéac",
+    "distanceKm": 12.8
+  },
+  "PLURIEN": {
+    "bureau": "Matignon",
+    "distanceKm": 7.7
+  },
+  "PLUSQUELLEC": {
+    "bureau": "Callac",
+    "distanceKm": 5.6
+  },
+  "PLUSSULIEN": {
+    "bureau": "Corlay",
+    "distanceKm": 3.7
+  },
+  "PLUZUNET": {
+    "bureau": "Vieux-Marché",
+    "distanceKm": 5.3
+  },
+  "PLEBOULLE": {
+    "bureau": "Matignon",
+    "distanceKm": 2.9
+  },
+  "PLEDRAN": {
+    "bureau": "Binic",
+    "distanceKm": 7.9
+  },
+  "PLEDELIAC": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 7.8
+  },
+  "PLEGUIEN": {
+    "bureau": "Lanvollon",
+    "distanceKm": 2.8
+  },
+  "PLEHEDEL": {
+    "bureau": "Plouha",
+    "distanceKm": 5.5
+  },
+  "PLELAN LE PETIT": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 7.7
+  },
+  "PLELAUFF": {
+    "bureau": "Gouarec",
+    "distanceKm": 4.5
+  },
+  "PLELO": {
+    "bureau": "Lanvollon",
+    "distanceKm": 10.2
+  },
+  "PLEMET": {
+    "bureau": "Loudéac",
+    "distanceKm": 11.0
+  },
+  "LES MOULINS": {
+    "bureau": "Loudéac",
+    "distanceKm": 11.0
+  },
+  "PLEMY": {
+    "bureau": "Moncontour",
+    "distanceKm": 3.6
+  },
+  "PLENEUF VAL ANDRE": {
+    "bureau": "Lamballe",
+    "distanceKm": 11.1
+  },
+  "PLENEUF": {
+    "bureau": "Lamballe",
+    "distanceKm": 11.1
+  },
+  "PLENEE JUGON": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 8.5
+  },
+  "PLERIN": {
+    "bureau": "Binic",
+    "distanceKm": 4.2
+  },
+  "PLESIDY": {
+    "bureau": "Bourbriac",
+    "distanceKm": 5.5
+  },
+  "PLEVEN": {
+    "bureau": "Plancoët",
+    "distanceKm": 8.0
+  },
+  "PLEVENON": {
+    "bureau": "Matignon",
+    "distanceKm": 6.5
+  },
+  "PLEVIN": {
+    "bureau": "Rostrenen",
+    "distanceKm": 15.5
+  },
+  "PLŒUC L HERMITAGE": {
+    "bureau": "Uzel",
+    "distanceKm": 6.6
+  },
+  "PLŒUC SUR LIE": {
+    "bureau": "Uzel",
+    "distanceKm": 6.6
+  },
+  "PLŒUC": {
+    "bureau": "Uzel",
+    "distanceKm": 6.6
+  },
+  "POMMERET": {
+    "bureau": "Lamballe",
+    "distanceKm": 8.0
+  },
+  "POMMERIT JAUDY": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "POMMERIT LE VICOMTE": {
+    "bureau": "Guingamp",
+    "distanceKm": 7.7
+  },
+  "PONT MELVEZ": {
+    "bureau": "Bourbriac",
+    "distanceKm": 6.5
+  },
+  "PORDIC": {
+    "bureau": "Binic",
+    "distanceKm": 7.9
+  },
+  "POULDOURAN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "PRAT": {
+    "bureau": "Bégard",
+    "distanceKm": 4.9
+  },
+  "PEDERNEC": {
+    "bureau": "Bégard",
+    "distanceKm": 5.7
+  },
+  "QUEMPER GUEZENNEC": {
+    "bureau": "Pontrieux",
+    "distanceKm": 4.2
+  },
+  "QUEMPERVEN": {
+    "bureau": "La Roche-Derrien",
+    "distanceKm": 7.8
+  },
+  "QUESSOY": {
+    "bureau": "Moncontour",
+    "distanceKm": 7.8
+  },
+  "QUINTENIC": {
+    "bureau": "Lamballe",
+    "distanceKm": 7.5
+  },
+  "QUEVERT": {
+    "bureau": "Dinan",
+    "distanceKm": 3.2
+  },
+  "ROSPEZ": {
+    "bureau": "Lannion",
+    "distanceKm": 6.2
+  },
+  "ROUILLAC": {
+    "bureau": "Broons",
+    "distanceKm": 9.2
+  },
+  "RUCA": {
+    "bureau": "Matignon",
+    "distanceKm": 5.7
+  },
+  "RUNAN": {
+    "bureau": "La Roche-Derrien",
+    "distanceKm": 5.0
+  },
+  "SAINT AARON": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT ADRIEN": {
+    "bureau": "Bourbriac",
+    "distanceKm": 5.8
+  },
+  "SAINT AGATHON": {
+    "bureau": "Guingamp",
+    "distanceKm": 4.0
+  },
+  "SAINT ALBAN": {
+    "bureau": "Lamballe",
+    "distanceKm": 7.8
+  },
+  "SAINT ANDRE DES EAUX": {
+    "bureau": "Évran",
+    "distanceKm": 2.7
+  },
+  "SAINT BARNABE": {
+    "bureau": "Loudéac",
+    "distanceKm": 5.1
+  },
+  "SAINT BIHY": {
+    "bureau": "Quintin",
+    "distanceKm": 5.1
+  },
+  "SAINT BRANDAN": {
+    "bureau": "Quintin",
+    "distanceKm": 3.2
+  },
+  "SAINT CARADEC": {
+    "bureau": "Uzel",
+    "distanceKm": 9.0
+  },
+  "SAINT CARNE": {
+    "bureau": "Dinan",
+    "distanceKm": 3.1
+  },
+  "SAINT CARREUC": {
+    "bureau": "Moncontour",
+    "distanceKm": 9.6
+  },
+  "SAINT CAST LE GUILDO": {
+    "bureau": "Matignon",
+    "distanceKm": 3.1
+  },
+  "SAINT CAST": {
+    "bureau": "Matignon",
+    "distanceKm": 3.1
+  },
+  "SAINT CLET": {
+    "bureau": "Pontrieux",
+    "distanceKm": 3.9
+  },
+  "SAINT CONNAN": {
+    "bureau": "Bourbriac",
+    "distanceKm": 10.6
+  },
+  "SAINT CONNEC": {
+    "bureau": "Uzel",
+    "distanceKm": 12.2
+  },
+  "SAINT DENOUAL": {
+    "bureau": "Lamballe",
+    "distanceKm": 10.9
+  },
+  "SAINT DONAN": {
+    "bureau": "Quintin",
+    "distanceKm": 7.0
+  },
+  "SAINT FIACRE": {
+    "bureau": "Bourbriac",
+    "distanceKm": 10.6
+  },
+  "SAINT GELVEN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT GILDAS": {
+    "bureau": "Quintin",
+    "distanceKm": 7.0
+  },
+  "SAINT GILLES PLIGEAUX": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 8.3
+  },
+  "SAINT GILLES VIEUX MARCHE": {
+    "bureau": "Corlay",
+    "distanceKm": 8.3
+  },
+  "SAINT GILLES DU MENE": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT GILLES LES BOIS": {
+    "bureau": "Pontrieux",
+    "distanceKm": 7.1
+  },
+  "SAINT GLEN": {
+    "bureau": "Collinée",
+    "distanceKm": 7.1
+  },
+  "SAINT GLEN PENGUILY": {
+    "bureau": "Collinée",
+    "distanceKm": 7.1
+  },
+  "SAINT GOUENO": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT GUEN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT HERVE": {
+    "bureau": "Uzel",
+    "distanceKm": 2.7
+  },
+  "SAINT HELEN": {
+    "bureau": "Dinan",
+    "distanceKm": 6.9
+  },
+  "SAINT IGEAUX": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 6.5
+  },
+  "SAINT IGNEUC": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT JACUT DE LA MER": {
+    "bureau": "Ploubalay",
+    "distanceKm": 5.8
+  },
+  "SAINT JACUT DU MENE": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT JEAN KERDANIEL": {
+    "bureau": "Guingamp",
+    "distanceKm": 8.9
+  },
+  "SAINT JOUAN DE L ISLE": {
+    "bureau": "Caulnes",
+    "distanceKm": 4.5
+  },
+  "SAINT JUDOCE": {
+    "bureau": "Évran",
+    "distanceKm": 2.3
+  },
+  "SAINT JULIEN": {
+    "bureau": "Binic",
+    "distanceKm": 7.9
+  },
+  "SAINT JUVAT": {
+    "bureau": "Évran",
+    "distanceKm": 6.0
+  },
+  "SAINT LAUNEUC": {
+    "bureau": "Merdrignac",
+    "distanceKm": 5.7
+  },
+  "SAINT LAURENT": {
+    "bureau": "Bégard",
+    "distanceKm": 3.8
+  },
+  "SAINT LORMEL": {
+    "bureau": "Plancoët",
+    "distanceKm": 3.8
+  },
+  "SAINT MADEN": {
+    "bureau": "Caulnes",
+    "distanceKm": 7.9
+  },
+  "SAINT MARTIN DES PRES": {
+    "bureau": "Corlay",
+    "distanceKm": 5.5
+  },
+  "SAINT MAUDAN": {
+    "bureau": "Loudéac",
+    "distanceKm": 7.6
+  },
+  "SAINT MAUDEZ": {
+    "bureau": "Plancoët",
+    "distanceKm": 7.5
+  },
+  "SAINT MAYEUX": {
+    "bureau": "Corlay",
+    "distanceKm": 5.0
+  },
+  "SAINT MICHEL DE PLELAN": {
+    "bureau": "Plancoët",
+    "distanceKm": 6.2
+  },
+  "SAINT MICHEL EN GREVE": {
+    "bureau": "Plestin",
+    "distanceKm": 5.4
+  },
+  "SAINT MELOIR DES BOIS": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 6.3
+  },
+  "SAINT MELOIR": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 6.3
+  },
+  "SAINT NICODEME": {
+    "bureau": "Callac",
+    "distanceKm": 8.4
+  },
+  "SAINT PEVER": {
+    "bureau": "Bourbriac",
+    "distanceKm": 8.3
+  },
+  "SAINT POTAN": {
+    "bureau": "Matignon",
+    "distanceKm": 4.8
+  },
+  "SAINT QUAY PERROS": {
+    "bureau": "Lannion",
+    "distanceKm": 4.0
+  },
+  "SAINT QUAY PORTRIEUX": {
+    "bureau": "Plouha",
+    "distanceKm": 7.6
+  },
+  "SAINT RIEUL": {
+    "bureau": "Lamballe",
+    "distanceKm": 8.7
+  },
+  "SAINT SAMSON SUR RANCE": {
+    "bureau": "Dinan",
+    "distanceKm": 5.5
+  },
+  "SAINT SAMSON": {
+    "bureau": "Dinan",
+    "distanceKm": 5.5
+  },
+  "SAINT SERVAIS": {
+    "bureau": "Callac",
+    "distanceKm": 5.0
+  },
+  "SAINT SOLEN": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SAINT THELO": {
+    "bureau": "Uzel",
+    "distanceKm": 3.8
+  },
+  "SAINT TRIMOEL": {
+    "bureau": "Moncontour",
+    "distanceKm": 7.8
+  },
+  "SAINT VRAN": {
+    "bureau": "Collinée",
+    "distanceKm": 6.1
+  },
+  "SAINT ETIENNE DU GUE DE L ISLE": {
+    "bureau": "Loudéac",
+    "distanceKm": 12.0
+  },
+  "SAINTE TREPHINE": {
+    "bureau": "Gouarec",
+    "distanceKm": 3.6
+  },
+  "SENVEN LEHART": {
+    "bureau": "Bourbriac",
+    "distanceKm": 10.6
+  },
+  "SERVEL": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "SQUIFFIEC": {
+    "bureau": "Pontrieux",
+    "distanceKm": 6.9
+  },
+  "SEVIGNAC": {
+    "bureau": "Broons",
+    "distanceKm": 6.4
+  },
+  "TADEN": {
+    "bureau": "Dinan",
+    "distanceKm": 4.4
+  },
+  "TONQUEDEC": {
+    "bureau": "Vieux-Marché",
+    "distanceKm": 7.8
+  },
+  "TRAMAIN": {
+    "bureau": "Jugon-les-Lacs",
+    "distanceKm": 4.9
+  },
+  "TREFFRIN": {
+    "bureau": "Callac",
+    "distanceKm": 15.8
+  },
+  "TRESSAINT": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "TRESSIGNAUX": {
+    "bureau": "Lanvollon",
+    "distanceKm": 3.1
+  },
+  "TRIGAVOU": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "TROGUERY": {
+    "bureau": "Tréguier",
+    "distanceKm": 2.7
+  },
+  "TREBEURDEN": {
+    "bureau": "Lannion",
+    "distanceKm": 7.6
+  },
+  "TREBRIVAN": {
+    "bureau": "Callac",
+    "distanceKm": 12.9
+  },
+  "TREBRY": {
+    "bureau": "Moncontour",
+    "distanceKm": 5.9
+  },
+  "TREBEDAN": {
+    "bureau": "Dinan",
+    "distanceKm": 9.3
+  },
+  "TREDANIEL": {
+    "bureau": "Moncontour",
+    "distanceKm": 2.6
+  },
+  "TREDARZEC": {
+    "bureau": "Tréguier",
+    "distanceKm": 2.6
+  },
+  "TREDIAS": {
+    "bureau": "Broons",
+    "distanceKm": 6.1
+  },
+  "TREDREZ LOCQUEMEAU": {
+    "bureau": "Plestin",
+    "distanceKm": 7.8
+  },
+  "TREDREZ": {
+    "bureau": "Plestin",
+    "distanceKm": 7.8
+  },
+  "TREDUDER": {
+    "bureau": "Plestin",
+    "distanceKm": 4.0
+  },
+  "TREFUMEL": {
+    "bureau": "Évran",
+    "distanceKm": 5.4
+  },
+  "TREGASTEL": {
+    "bureau": "Perros-Guirec",
+    "distanceKm": 3.5
+  },
+  "TREGLAMUS": {
+    "bureau": "Guingamp",
+    "distanceKm": 7.3
+  },
+  "TREGOMAR": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "TREGOMEUR": {
+    "bureau": "Binic",
+    "distanceKm": 10.8
+  },
+  "TREGON": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "TREGONNEAU": {
+    "bureau": "Guingamp",
+    "distanceKm": 6.0
+  },
+  "TREGROM": {
+    "bureau": "Vieux-Marché",
+    "distanceKm": 3.4
+  },
+  "TREGUEUX": {
+    "bureau": "Binic",
+    "distanceKm": 4.1
+  },
+  "TREGUIDEL": {
+    "bureau": "Lanvollon",
+    "distanceKm": 5.2
+  },
+  "TRELIVAN": {
+    "bureau": "Dinan",
+    "distanceKm": 4.3
+  },
+  "TRELEVERN": {
+    "bureau": "Perros-Guirec",
+    "distanceKm": 8.8
+  },
+  "TREMARGAT": {
+    "bureau": "Saint-Nicolas-du-Pélem",
+    "distanceKm": 7.5
+  },
+  "TREMEL": {
+    "bureau": "Plestin",
+    "distanceKm": 5.1
+  },
+  "TREMEUR": {
+    "bureau": "Broons",
+    "distanceKm": 4.8
+  },
+  "TREMOREL": {
+    "bureau": "Merdrignac",
+    "distanceKm": 7.4
+  },
+  "TREMUSON": {
+    "bureau": "Binic",
+    "distanceKm": 6.2
+  },
+  "TREMELOIR": {
+    "bureau": "Binic",
+    "distanceKm": 0.0
+  },
+  "TREMEREUC": {
+    "bureau": "Ploubalay",
+    "distanceKm": 5.5
+  },
+  "TREMEVEN": {
+    "bureau": "Lanvollon",
+    "distanceKm": 5.1
+  },
+  "TREOGAN": {
+    "bureau": "Rostrenen",
+    "distanceKm": 16.8
+  },
+  "TREVENEUC": {
+    "bureau": "Plouha",
+    "distanceKm": 5.2
+  },
+  "TREVOU TREGUIGNEC": {
+    "bureau": "Tréguier",
+    "distanceKm": 8.7
+  },
+  "TREVRON": {
+    "bureau": "Dinan",
+    "distanceKm": 6.4
+  },
+  "TREVE": {
+    "bureau": "Loudéac",
+    "distanceKm": 6.5
+  },
+  "TREVEREC": {
+    "bureau": "Lanvollon",
+    "distanceKm": 5.7
+  },
+  "TREZENY": {
+    "bureau": "Lannion",
+    "distanceKm": 8.0
+  },
+  "VAL D ARGUENON": {
+    "bureau": "Plancoët",
+    "distanceKm": 5.1
+  },
+  "PLUDUNO": {
+    "bureau": "Plancoët",
+    "distanceKm": 5.1
+  },
+  "VILDE GUINGALAN": {
+    "bureau": "Dinan",
+    "distanceKm": 7.5
+  },
+  "YFFINIAC": {
+    "bureau": "Binic",
+    "distanceKm": 7.4
+  },
+  "YVIAS": {
+    "bureau": "Paimpol",
+    "distanceKm": 6.6
+  },
+  "YVIGNAC LA TOUR": {
+    "bureau": "Caulnes",
+    "distanceKm": 5.2
+  },
+  "YVIGNAC": {
+    "bureau": "Caulnes",
+    "distanceKm": 5.2
+  },
+  "EREAC": {
+    "bureau": "Broons",
+    "distanceKm": 8.8
+  },
+  "ILE DE BREHAT": {
+    "bureau": "Paimpol",
+    "distanceKm": 8.4
+  }
+}

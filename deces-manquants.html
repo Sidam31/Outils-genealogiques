@@ -107,11 +107,16 @@
                 <strong>Nièvre</strong> 1790-1969 ·
                 <strong>Doubs</strong> 1776-1969 ·
                 <strong>Gard</strong> 1821-1969 ·
-                <strong>Oise</strong> 1740-1970
+                <strong>Oise</strong> 1740-1970 ·
+                <strong>Côtes-d'Armor</strong> 1814-1968 ·
+                <strong>Haute-Garonne</strong> 1787-1968 ·
+                <strong>Loire-Atlantique</strong> 1786-1969 ·
+                <strong>Paris</strong> 1788-1967
             </p>
-            <p class="hint" style="text-align:center;">En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici. Contrairement au mode Notariat, ces portails n'ont pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Chaque département a son propre portail (structure et logiciel différents, au moins quatre familles de logiciels différentes selon les départements couverts), entièrement dépouillé à l'avance pour cibler directement la bonne notice plutôt que de passer par une recherche en ligne peu fiable pour cette série.</p>
+            <p class="hint" style="text-align:center;">En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici. Contrairement au mode Notariat, ces portails n'ont pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Chaque département a son propre portail (structure et logiciel différents, au moins six familles de logiciels différentes selon les départements couverts), entièrement dépouillé à l'avance pour cibler directement la bonne notice plutôt que de passer par une recherche en ligne peu fiable pour cette série.</p>
             <p class="hint" style="text-align:center;">Sauf pour le <strong>Tarn</strong> (voir ci-dessous), une commune n'ayant jamais son propre registre (rattachée à un bureau d'enregistrement d'ancien régime) affiche une piste ⚠ vers le bureau le plus proche géographiquement — approximation par proximité, pas la vraie circonscription historique (aucun département couvert, hormis le Tarn, ne publie cette information). En Tarn-et-Garonne, seule la table post-1825 ("successions et absences") est dépouillée : une antérieure ("successions acquittées") existe mais sous un autre nom, hors du périmètre actuel.</p>
             <p class="hint" style="text-align:center;">Au <strong>Tarn</strong>, le département publie lui-même la vraie table historique commune → bureau (avec ses dates de changement) : la correspondance est donc exacte, pas une approximation, et les registres eux-mêmes sont classés par bureau puis par initiale de patronyme — la piste cible aussi la bonne tranche alphabétique.</p>
+            <p class="hint" style="text-align:center;"><strong>Paris</strong> ne compte qu'une seule commune pour tout le département : les registres y sont organisés par arrondissement (avec des découpages ayant changé dans le temps), une information que le GEDCOM ne renseigne généralement pas. Toutes les pistes de l'année recherchée sont donc affichées, à charge de choisir celle du bon arrondissement.</p>
             <p class="hint" style="text-align:center;">Chaque département a son propre portail d'archives, avec sa propre technique de recherche ; l'ajout d'un département suivant reprend le même mécanisme.</p>
         </div>
 
@@ -706,8 +711,12 @@ const fa = (() => {
         const warn = r.matchType === 'bureau'
             ? `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ "${escapeHtml(r.city)}" non répertoriée — bureau le plus proche : ${escapeHtml(r.bureauInfo.bureau)} (${r.bureauInfo.distanceKm} km, à vérifier)</div>`
             : (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '');
+        // Plusieurs bureaux/arrondissements différents peuvent matcher à la fois (Paris) : afficher
+        // le lieu de chaque registre dans ce cas pour que la personne choisisse le bon - inutile
+        // (et redondant avec la colonne Décès) quand un seul lieu est en jeu, comme partout ailleurs.
+        const distinctPlaces = new Set(r.registers.map(reg => reg.place));
         const links = r.registers.map(reg =>
-            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">⚰ ${escapeHtml(reg.cote)} [${reg.yearStart}-${reg.yearEnd}]</a>`
+            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">⚰ ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>`
         ).join('');
         return `${warn}<div class="city-buttons">${links}</div>`;
     }

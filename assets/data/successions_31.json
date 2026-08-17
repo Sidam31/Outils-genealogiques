@@ -1,0 +1,4111 @@
+[
+  {
+    "place": "Aurignac",
+    "cote": "1816-1824",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127397"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1825-1839 (volume 3)",
+    "yearStart": 1825,
+    "yearEnd": 1839,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127416"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1840-1853 (volume 4)",
+    "yearStart": 1840,
+    "yearEnd": 1853,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127432"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1854-1862 (volume 5)",
+    "yearStart": 1854,
+    "yearEnd": 1862,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127447"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1862-1874 (volume 6)",
+    "yearStart": 1862,
+    "yearEnd": 1874,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127489"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1874-1891 (volume 7)",
+    "yearStart": 1874,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127498"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1891-1908 (volume 8)",
+    "yearStart": 1891,
+    "yearEnd": 1908,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127514"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1909-1929 (volume 9)",
+    "yearStart": 1909,
+    "yearEnd": 1929,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127542"
+  },
+  {
+    "place": "Aurignac",
+    "cote": "1930-1943 (volume 10)",
+    "yearStart": 1930,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q4/view:127564"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1790-an VIII (volume 1)",
+    "yearStart": 1790,
+    "yearEnd": 1790,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38928"
+  },
+  {
+    "place": "Auterive",
+    "cote": "an IX-1811 (volume 3)",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38931"
+  },
+  {
+    "place": "Auterive",
+    "cote": "an XII-1809 (volume 4)",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38935"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1807-1811 (volume 5)",
+    "yearStart": 1807,
+    "yearEnd": 1811,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38937"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1811-1815 (volume 6)",
+    "yearStart": 1811,
+    "yearEnd": 1815,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38940"
+  },
+  {
+    "place": "Auterive",
+    "cote": "Table des successions collatérales dont le centième denier   a été payé, 1789-1814 (volume 1)",
+    "yearStart": 1789,
+    "yearEnd": 1814,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38942"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1806-1815 (volume 2)",
+    "yearStart": 1806,
+    "yearEnd": 1815,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38946"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1806-1817 (volume 3)",
+    "yearStart": 1806,
+    "yearEnd": 1817,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38954"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1815-1824 (volume 4)",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38960"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1814-1822 (volume 5)",
+    "yearStart": 1814,
+    "yearEnd": 1822,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38969"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1822-1824 (volume 7)",
+    "yearStart": 1822,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38970"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1822-1832 (volume 8)",
+    "yearStart": 1822,
+    "yearEnd": 1832,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38972"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1833-1841 (volume 9)",
+    "yearStart": 1833,
+    "yearEnd": 1841,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38976"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1841-1848 (volume 10)",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38981"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1848 (octobre)-1856 (juin) (volume 11)",
+    "yearStart": 1848,
+    "yearEnd": 1856,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38982"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1856 (avril)-1862 (mars) (volume 12)",
+    "yearStart": 1856,
+    "yearEnd": 1862,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38984"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1862 (avril)-1867 (juin) (volume 13)",
+    "yearStart": 1862,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38988"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1867 (juillet)-1872 (volume 14)",
+    "yearStart": 1867,
+    "yearEnd": 1872,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38992"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1873-1879 (volume 15)",
+    "yearStart": 1873,
+    "yearEnd": 1879,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:38996"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1880-1889 (mars) (volume 16)",
+    "yearStart": 1880,
+    "yearEnd": 1889,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39000"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1889-1898 (volume 17)",
+    "yearStart": 1889,
+    "yearEnd": 1898,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39004"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1899-1910 (volume 18)",
+    "yearStart": 1899,
+    "yearEnd": 1910,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39006"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1910-1919 (volume 19)",
+    "yearStart": 1910,
+    "yearEnd": 1919,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39008"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1919-1930 (volume 20)",
+    "yearStart": 1919,
+    "yearEnd": 1930,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39011"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1930-1940 (volume 21)",
+    "yearStart": 1930,
+    "yearEnd": 1940,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39014"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1941-1950 (volume 22)",
+    "yearStart": 1941,
+    "yearEnd": 1950,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39021"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1951-1964 (volume 23)",
+    "yearStart": 1951,
+    "yearEnd": 1964,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39022"
+  },
+  {
+    "place": "Auterive",
+    "cote": "1964-1966 (volume 24)",
+    "yearStart": 1964,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q5/view:39023"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "an XIII (1er vendémiaire)-1815 (volume 1)",
+    "yearStart": 1815,
+    "yearEnd": 1815,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127246"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1816-1824 (volume 2)",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127277"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1809-1821 (14 juillet) (volume 1)",
+    "yearStart": 1809,
+    "yearEnd": 1821,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127292"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1821 (15 juillet)-1824 (volume 3)",
+    "yearStart": 1821,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127389"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1824-1836 (volume 4)",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127424"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1835-1850 (volume 5)",
+    "yearStart": 1835,
+    "yearEnd": 1850,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127455"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1851-1865 (volume 6)",
+    "yearStart": 1851,
+    "yearEnd": 1865,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127506"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1865-1879 (volume 7)",
+    "yearStart": 1865,
+    "yearEnd": 1879,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127576"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1880-1894 (volume 8)",
+    "yearStart": 1880,
+    "yearEnd": 1894,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127593"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1895-1907 (volume 9)",
+    "yearStart": 1895,
+    "yearEnd": 1907,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127612"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1908-1920 (volume 10)",
+    "yearStart": 1908,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127676"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1921-1935 (volume 11)",
+    "yearStart": 1921,
+    "yearEnd": 1935,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127726"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1935-1951 (février) (volume 12)",
+    "yearStart": 1935,
+    "yearEnd": 1951,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127782"
+  },
+  {
+    "place": "Bagnères-de-Luchon",
+    "cote": "1951 (mars)-1966 (volume 13)",
+    "yearStart": 1951,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q6/view:127793"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "an V-1812",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:292950"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1812-1819",
+    "yearStart": 1812,
+    "yearEnd": 1819,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:292966"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1819-1824",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293027"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1824-1837 (volume 7)",
+    "yearStart": 1824,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293125"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1838-1844 (volume 8)",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293164"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1844-1847 (volume 9)",
+    "yearStart": 1844,
+    "yearEnd": 1847,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293221"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1847-1855 (volume 10)",
+    "yearStart": 1847,
+    "yearEnd": 1855,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293234"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1855-1864 (volume 11)",
+    "yearStart": 1855,
+    "yearEnd": 1864,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293249"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1864-1873 (volume 12)",
+    "yearStart": 1864,
+    "yearEnd": 1873,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293268"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1874-1886 (volume 13)",
+    "yearStart": 1874,
+    "yearEnd": 1886,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293284"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1886 (octobre)-1903 (avril) (volume 14)",
+    "yearStart": 1886,
+    "yearEnd": 1903,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293303"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1903 (avril)-1923 (juin) (volume 15)",
+    "yearStart": 1903,
+    "yearEnd": 1923,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293327"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1923 (juillet)-1943 (février) (volume 16)",
+    "yearStart": 1923,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293391"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1943 (janvier)-1958 (volume 17)",
+    "yearStart": 1943,
+    "yearEnd": 1958,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293456"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1959-1963 (volume 18)",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293475"
+  },
+  {
+    "place": "Boulogne-sur-Gesse",
+    "cote": "1964-1966 (volume 19)",
+    "yearStart": 1964,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q7/view:293503"
+  },
+  {
+    "place": "Cadours",
+    "cote": "1862 (fin juillet)-1867 (avril)",
+    "yearStart": 1862,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q8/view:258266"
+  },
+  {
+    "place": "Cadours",
+    "cote": "1867 (avril)-1878",
+    "yearStart": 1867,
+    "yearEnd": 1878,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q8/view:258269"
+  },
+  {
+    "place": "Cadours",
+    "cote": "1893-1917",
+    "yearStart": 1893,
+    "yearEnd": 1917,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q8/view:258272"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1825-1834 (volume 1)",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123152"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1835-1841 (volume 2)",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123158"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1841-1848 (volume 3)",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123164"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1848-1853 (volume 4)",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123169"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1853-1858 (volume 5)",
+    "yearStart": 1853,
+    "yearEnd": 1858,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123173"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1858-1865 (volume 6)",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123179"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1866-1874 (volume 7)",
+    "yearStart": 1866,
+    "yearEnd": 1874,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123186"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1875-1887 (volume 8)",
+    "yearStart": 1875,
+    "yearEnd": 1887,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123192"
+  },
+  {
+    "place": "Caraman",
+    "cote": "1888-1900 (volume 9)",
+    "yearStart": 1888,
+    "yearEnd": 1900,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q9/view:123207"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1872 (novembre)-1888 (octobre) (volume 1)",
+    "yearStart": 1872,
+    "yearEnd": 1888,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:620"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1888 (novembre)-1907 (volume 2)",
+    "yearStart": 1888,
+    "yearEnd": 1907,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:623"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1908-1922 (volume 3)",
+    "yearStart": 1908,
+    "yearEnd": 1922,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:625"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1922-1933 (volume 4)",
+    "yearStart": 1922,
+    "yearEnd": 1933,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:626"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1933-1943 (volume 5)",
+    "yearStart": 1933,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:630"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1943-1952 (volume 6)",
+    "yearStart": 1943,
+    "yearEnd": 1952,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:634"
+  },
+  {
+    "place": "Carbonne",
+    "cote": "1952-1963 (volume 7)",
+    "yearStart": 1952,
+    "yearEnd": 1963,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q10/view:636"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1815 (juillet)-1824 (volume 9)",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:430"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1824 (volume 10)",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:443"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1814-1819 (volume 9)",
+    "yearStart": 1814,
+    "yearEnd": 1819,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:448"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1820-1824 (volume 10)",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:485"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1825-1831 (volume 11)",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:498"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1832-1837 (volume 12)",
+    "yearStart": 1832,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:513"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1838 (mars)-1845 (volume 13)",
+    "yearStart": 1838,
+    "yearEnd": 1845,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:518"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1846-1851 (volume 14)",
+    "yearStart": 1846,
+    "yearEnd": 1851,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:525"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1852-1858 (avril) (volume 15)",
+    "yearStart": 1852,
+    "yearEnd": 1858,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:538"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1858 (avril)-1862 (mars) (volume 16)",
+    "yearStart": 1858,
+    "yearEnd": 1862,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:563"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1862 (mars)-1867 (volume 17)",
+    "yearStart": 1862,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:569"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1868-1873 (volume 18)",
+    "yearStart": 1868,
+    "yearEnd": 1873,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:576"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1874-1887 (volume 19)",
+    "yearStart": 1874,
+    "yearEnd": 1887,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:582"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1888-1905 (mars) (volume 20)",
+    "yearStart": 1888,
+    "yearEnd": 1905,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:587"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1905-1921 (volume 21)",
+    "yearStart": 1905,
+    "yearEnd": 1921,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:593"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1922-1935 (volume 22)",
+    "yearStart": 1922,
+    "yearEnd": 1935,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:603"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1935-1943 (volume 23)",
+    "yearStart": 1935,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:611"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1944-1949 (volume 24)",
+    "yearStart": 1944,
+    "yearEnd": 1949,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:619"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1950-1955 (volume 25)",
+    "yearStart": 1950,
+    "yearEnd": 1955,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:622"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1956-1961 (1er octobre) (volume 26)",
+    "yearStart": 1956,
+    "yearEnd": 1961,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:624"
+  },
+  {
+    "place": "Cazères",
+    "cote": "1961 (4ème trimestre)-1966 (volume 27)",
+    "yearStart": 1961,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q11/view:627"
+  },
+  {
+    "place": "Fronton",
+    "cote": "an VIII (1er vendémiaire)-1805 (volume 1)",
+    "yearStart": 1805,
+    "yearEnd": 1805,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9827"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1806-1812 (volume 2)",
+    "yearStart": 1806,
+    "yearEnd": 1812,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9830"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1813-1818 (volume 3)",
+    "yearStart": 1813,
+    "yearEnd": 1818,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9839"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1819-1824 (volume 4)",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9847"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1825-1832 (volume 5)",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9864"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1833-1839 (volume 6)",
+    "yearStart": 1833,
+    "yearEnd": 1839,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9871"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1840-1848 (volume 7)",
+    "yearStart": 1840,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9876"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1848-1857 (volume 8)",
+    "yearStart": 1848,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9881"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1858-1869 (volume 9)",
+    "yearStart": 1858,
+    "yearEnd": 1869,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9888"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1869-1879 (volume 10)",
+    "yearStart": 1869,
+    "yearEnd": 1879,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9892"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1879-1891 (octobre) (volume 11)",
+    "yearStart": 1879,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9893"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1891 (octobre)-1905 (septembre (volume 12)",
+    "yearStart": 1891,
+    "yearEnd": 1905,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9894"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1905 (octobre)-1920 (volume 13)",
+    "yearStart": 1905,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9895"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1921-1934 (volume 14)",
+    "yearStart": 1921,
+    "yearEnd": 1934,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9897"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1935-1944 (volume 15)",
+    "yearStart": 1935,
+    "yearEnd": 1944,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9898"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1945-1957 (volume 16)",
+    "yearStart": 1945,
+    "yearEnd": 1957,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9899"
+  },
+  {
+    "place": "Fronton",
+    "cote": "1958-1960 (volume 17)",
+    "yearStart": 1958,
+    "yearEnd": 1960,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q13/view:9900"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1858-1862 (volume 1)",
+    "yearStart": 1858,
+    "yearEnd": 1862,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7492"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1870-1881 (volume 3)",
+    "yearStart": 1870,
+    "yearEnd": 1881,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7499"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1881-1897 (volume 4)",
+    "yearStart": 1881,
+    "yearEnd": 1897,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7509"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1897-1912 (volume 5)",
+    "yearStart": 1897,
+    "yearEnd": 1912,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7522"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1913-1925 (volume 6)",
+    "yearStart": 1913,
+    "yearEnd": 1925,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7533"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1926-1941 (volume 7)",
+    "yearStart": 1926,
+    "yearEnd": 1941,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7544"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1942-1953 (volume 8)",
+    "yearStart": 1942,
+    "yearEnd": 1953,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7561"
+  },
+  {
+    "place": "Grenade",
+    "cote": "1954-1965 (volume 9)",
+    "yearStart": 1954,
+    "yearEnd": 1965,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q14/view:7572"
+  },
+  {
+    "place": "Le Fousseret",
+    "cote": "1873-1888 (volume 1)",
+    "yearStart": 1873,
+    "yearEnd": 1888,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q12/view:301966"
+  },
+  {
+    "place": "Le Fousseret",
+    "cote": "1889-1907 (volume 2)",
+    "yearStart": 1889,
+    "yearEnd": 1907,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q12/view:301968"
+  },
+  {
+    "place": "Le Fousseret",
+    "cote": "1908-1923 (volume 3)",
+    "yearStart": 1908,
+    "yearEnd": 1923,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q12/view:301970"
+  },
+  {
+    "place": "Le Fousseret",
+    "cote": "1924-1935 (volume 4)",
+    "yearStart": 1924,
+    "yearEnd": 1935,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q12/view:301971"
+  },
+  {
+    "place": "Léguevin",
+    "cote": "1836-1864 (volume 1)",
+    "yearStart": 1836,
+    "yearEnd": 1864,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q16/view:6136"
+  },
+  {
+    "place": "Léguevin",
+    "cote": "1864-1871 (volume 2)",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q16/view:6142"
+  },
+  {
+    "place": "Léguevin",
+    "cote": "1871-1892 (volume 3)",
+    "yearStart": 1871,
+    "yearEnd": 1892,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q16/view:6163"
+  },
+  {
+    "place": "Léguevin",
+    "cote": "1892-1909 (volume 4)",
+    "yearStart": 1892,
+    "yearEnd": 1909,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q16/view:6169"
+  },
+  {
+    "place": "Léguevin",
+    "cote": "1910-1928 (volume 5)",
+    "yearStart": 1910,
+    "yearEnd": 1928,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q16/view:6174"
+  },
+  {
+    "place": "Léguevin",
+    "cote": "1929-1947 (volume 6)",
+    "yearStart": 1929,
+    "yearEnd": 1947,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q16/view:6179"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1817-1826",
+    "yearStart": 1817,
+    "yearEnd": 1826,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:293941"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1823-1839",
+    "yearStart": 1823,
+    "yearEnd": 1839,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:293985"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1840-1852",
+    "yearStart": 1840,
+    "yearEnd": 1852,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:294031"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1853-1862",
+    "yearStart": 1853,
+    "yearEnd": 1862,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:294077"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1862-1869",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:294233"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1870-1881",
+    "yearStart": 1870,
+    "yearEnd": 1881,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:294286"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1882-1891",
+    "yearStart": 1882,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:294371"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1892-1897",
+    "yearStart": 1892,
+    "yearEnd": 1897,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:298908"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1887-1892 (volume 6)",
+    "yearStart": 1887,
+    "yearEnd": 1892,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:298930"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1892-1904 (volume 7)",
+    "yearStart": 1892,
+    "yearEnd": 1904,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:298953"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1905-1925 (volume 8)",
+    "yearStart": 1905,
+    "yearEnd": 1925,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:298975"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1926-1943 (volume 9)",
+    "yearStart": 1926,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:299013"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1944-1954 (volume 10)",
+    "yearStart": 1944,
+    "yearEnd": 1954,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:299030"
+  },
+  {
+    "place": "L'Isle-en-Dodon",
+    "cote": "1955-1960 (volume 11)",
+    "yearStart": 1955,
+    "yearEnd": 1960,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q15/view:299043"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1787-an XII (volume 1)",
+    "yearStart": 1787,
+    "yearEnd": 1787,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:101815"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1787-an XII",
+    "yearStart": 1787,
+    "yearEnd": 1787,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:101871"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "an X-1812 (volume 3)",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:101936"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1811-1821",
+    "yearStart": 1811,
+    "yearEnd": 1821,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102033"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1817-1822",
+    "yearStart": 1817,
+    "yearEnd": 1822,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102081"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1822-1825",
+    "yearStart": 1822,
+    "yearEnd": 1825,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102110"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1876-1890",
+    "yearStart": 1876,
+    "yearEnd": 1890,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102148"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1907-1924 (volume 8)",
+    "yearStart": 1907,
+    "yearEnd": 1924,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102201"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1925-1940 (volume 9)",
+    "yearStart": 1925,
+    "yearEnd": 1940,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102264"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1941-1957 (volume 10)",
+    "yearStart": 1941,
+    "yearEnd": 1957,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102353"
+  },
+  {
+    "place": "Monstastruc",
+    "cote": "1958-1961 (volume 11)",
+    "yearStart": 1958,
+    "yearEnd": 1961,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q17/view:102436"
+  },
+  {
+    "place": "Montesquieu-Volvestre",
+    "cote": "1872-1893 (volume 1)",
+    "yearStart": 1872,
+    "yearEnd": 1893,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q18/view:306439"
+  },
+  {
+    "place": "Montesquieu-Volvestre",
+    "cote": "1893 (avril)-1913 (volume 2)",
+    "yearStart": 1893,
+    "yearEnd": 1913,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q18/view:306445"
+  },
+  {
+    "place": "Montesquieu-Volvestre",
+    "cote": "1914-1932 (avril) (volume 3)",
+    "yearStart": 1914,
+    "yearEnd": 1932,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q18/view:306450"
+  },
+  {
+    "place": "Montesquieu-Volvestre",
+    "cote": "1932 (mai)-1938 (juin) (volume 4)",
+    "yearStart": 1932,
+    "yearEnd": 1938,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q18/view:306457"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "an III-1809 (volume 1)",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301304"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1809-1819 (volume 2)",
+    "yearStart": 1809,
+    "yearEnd": 1819,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301313"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1819-1824 (volume 3)",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301325"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "an VIII-1812 (volume 3)",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301340"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "an IX-1807 (volume 4)",
+    "yearStart": 1807,
+    "yearEnd": 1807,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301357"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1807-1809 (volume 5)",
+    "yearStart": 1807,
+    "yearEnd": 1809,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301366"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1809-1812 (volume 6)",
+    "yearStart": 1809,
+    "yearEnd": 1812,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301374"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1811-1819 (volume 7)",
+    "yearStart": 1811,
+    "yearEnd": 1819,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301392"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1819-1824 (volume 8)",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301406"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1825-1837 (volume 9)",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301430"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1837-1852 (volume 10)",
+    "yearStart": 1837,
+    "yearEnd": 1852,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301448"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1853-1868 (volume 11)",
+    "yearStart": 1853,
+    "yearEnd": 1868,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301468"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1868-1883 (volume 12)",
+    "yearStart": 1868,
+    "yearEnd": 1883,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301483"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1884-1899 (volume 13)",
+    "yearStart": 1884,
+    "yearEnd": 1899,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301499"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1899-1922 (volume 14)",
+    "yearStart": 1899,
+    "yearEnd": 1922,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301516"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1923-1931 (volume 15)",
+    "yearStart": 1923,
+    "yearEnd": 1931,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301528"
+  },
+  {
+    "place": "Montgiscard",
+    "cote": "1932-1936 (volume 16)",
+    "yearStart": 1932,
+    "yearEnd": 1936,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q19/view:301537"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "an IX-1806 (volume 2)",
+    "yearStart": 1806,
+    "yearEnd": 1806,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335461"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1807-1809 (volume 3)",
+    "yearStart": 1807,
+    "yearEnd": 1809,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335462"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1810-1819",
+    "yearStart": 1810,
+    "yearEnd": 1819,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335466"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1815-1819 (volume 5)",
+    "yearStart": 1815,
+    "yearEnd": 1819,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335470"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1811-1817",
+    "yearStart": 1811,
+    "yearEnd": 1817,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335474"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1817-1824",
+    "yearStart": 1817,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335475"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1820-1831 (volume 7)",
+    "yearStart": 1820,
+    "yearEnd": 1831,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335482"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1832-1838 (volume 8)",
+    "yearStart": 1832,
+    "yearEnd": 1838,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335483"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1838-1842 (volume 9)",
+    "yearStart": 1838,
+    "yearEnd": 1842,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335494"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1842-1847 (volume 10)",
+    "yearStart": 1842,
+    "yearEnd": 1847,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335495"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1847-1857 (volume 11)",
+    "yearStart": 1847,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335496"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1858-1867 (volume 12)",
+    "yearStart": 1858,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335497"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1868-1878 (volume 13)",
+    "yearStart": 1868,
+    "yearEnd": 1878,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335499"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1879-1890 (volume 14)",
+    "yearStart": 1879,
+    "yearEnd": 1890,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335503"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1891-1904 (volume 15)",
+    "yearStart": 1891,
+    "yearEnd": 1904,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335504"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1905-1922 (septembre) (volume 16)",
+    "yearStart": 1905,
+    "yearEnd": 1922,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335505"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1922 (octobre)-1937 (février) (volume 17)",
+    "yearStart": 1922,
+    "yearEnd": 1937,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335506"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1937 (mars)-1950 (mars) (volume 18)",
+    "yearStart": 1937,
+    "yearEnd": 1950,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335509"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1950 (mars)-1959 (volume 19)",
+    "yearStart": 1950,
+    "yearEnd": 1959,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335510"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1960-1964 (volume 20)",
+    "yearStart": 1960,
+    "yearEnd": 1964,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335511"
+  },
+  {
+    "place": "Montréjeau",
+    "cote": "1965-1966 (volume 21)",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q20/view:335515"
+  },
+  {
+    "place": "Muret",
+    "cote": "1842 (juin)-1848 (volume 9)",
+    "yearStart": 1842,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7866"
+  },
+  {
+    "place": "Muret",
+    "cote": "1849-1857 (février) (volume 10)",
+    "yearStart": 1849,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7870"
+  },
+  {
+    "place": "Muret",
+    "cote": "1857 (mars)-1865 (septembre) (volume 11)",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7871"
+  },
+  {
+    "place": "Muret",
+    "cote": "1865 (octobre)-1872 (volume 12)",
+    "yearStart": 1865,
+    "yearEnd": 1872,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7880"
+  },
+  {
+    "place": "Muret",
+    "cote": "1873-1882 (octobre) (volume 13)",
+    "yearStart": 1873,
+    "yearEnd": 1882,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7899"
+  },
+  {
+    "place": "Muret",
+    "cote": "1882 (octobre)-1891 (volume 14)",
+    "yearStart": 1882,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7935"
+  },
+  {
+    "place": "Muret",
+    "cote": "1892-1903 (juin) (volume 15)",
+    "yearStart": 1892,
+    "yearEnd": 1903,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:7959"
+  },
+  {
+    "place": "Muret",
+    "cote": "1903-1913 (volume 16)",
+    "yearStart": 1903,
+    "yearEnd": 1913,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8235"
+  },
+  {
+    "place": "Muret",
+    "cote": "1913-1919 (volume 17)",
+    "yearStart": 1913,
+    "yearEnd": 1919,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8255"
+  },
+  {
+    "place": "Muret",
+    "cote": "1919-1928 (volume 18)",
+    "yearStart": 1919,
+    "yearEnd": 1928,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8260"
+  },
+  {
+    "place": "Muret",
+    "cote": "1928-1937 (volume 19)",
+    "yearStart": 1928,
+    "yearEnd": 1937,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8267"
+  },
+  {
+    "place": "Muret",
+    "cote": "1937-1942 (volume 20)",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8297"
+  },
+  {
+    "place": "Muret",
+    "cote": "1943-1946 (volume 21)",
+    "yearStart": 1943,
+    "yearEnd": 1946,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8320"
+  },
+  {
+    "place": "Muret",
+    "cote": "1947-1951 (volume 22)",
+    "yearStart": 1947,
+    "yearEnd": 1951,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8351"
+  },
+  {
+    "place": "Muret",
+    "cote": "1952-1958 (volume 23)",
+    "yearStart": 1952,
+    "yearEnd": 1958,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8357"
+  },
+  {
+    "place": "Muret",
+    "cote": "1959-1966 (volume 24)",
+    "yearStart": 1959,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8361"
+  },
+  {
+    "place": "Muret",
+    "cote": "1967-1968 (volume 28 par erreur)",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q21/view:8364"
+  },
+  {
+    "place": "Revel",
+    "cote": "1815-1820 (volume 13)",
+    "yearStart": 1815,
+    "yearEnd": 1820,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16566"
+  },
+  {
+    "place": "Revel",
+    "cote": "1820-1824 (volume 14)",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16570"
+  },
+  {
+    "place": "Revel",
+    "cote": "1824-1834 (volume 15)",
+    "yearStart": 1824,
+    "yearEnd": 1834,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16576"
+  },
+  {
+    "place": "Revel",
+    "cote": "1834-1843 (volume 16)",
+    "yearStart": 1834,
+    "yearEnd": 1843,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16581"
+  },
+  {
+    "place": "Revel",
+    "cote": "1843-1854 (volume 17)",
+    "yearStart": 1843,
+    "yearEnd": 1854,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16582"
+  },
+  {
+    "place": "Revel",
+    "cote": "1855-1860 (volume 18)",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16584"
+  },
+  {
+    "place": "Revel",
+    "cote": "1870-1880 (volume 20)",
+    "yearStart": 1870,
+    "yearEnd": 1880,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16588"
+  },
+  {
+    "place": "Revel",
+    "cote": "1880-1891 (volume 21)",
+    "yearStart": 1880,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q22/view:16595"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1837-1844 (volume 9)",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1287"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1845-1852 (volume 10)",
+    "yearStart": 1845,
+    "yearEnd": 1852,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1289"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1853-1860 (volume 11)",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1297"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1860-1870 (volume 12)",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1321"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1870-1881 (volume 13)",
+    "yearStart": 1870,
+    "yearEnd": 1881,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1339"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1882-1905 (volume 14)",
+    "yearStart": 1882,
+    "yearEnd": 1905,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1341"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1905-1920 (volume 15)",
+    "yearStart": 1905,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1344"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1920-1932 (volume 16)",
+    "yearStart": 1920,
+    "yearEnd": 1932,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1346"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1932-1942 (volume 17)",
+    "yearStart": 1932,
+    "yearEnd": 1942,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1348"
+  },
+  {
+    "place": "Rieumes",
+    "cote": "1943-1946 (volume 18)",
+    "yearStart": 1943,
+    "yearEnd": 1946,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q23/view:1350"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1807 (novembre)-1813 (volume 4)",
+    "yearStart": 1807,
+    "yearEnd": 1813,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1323"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1813 (juin)-1816 (volume 5)",
+    "yearStart": 1813,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1325"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1816-1824 (volume 6)",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1343"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1810-1814",
+    "yearStart": 1810,
+    "yearEnd": 1814,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1347"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1814-1818 (volume 4)",
+    "yearStart": 1814,
+    "yearEnd": 1818,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1349"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1818-1824 (volume 5)",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1353"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1824 (volume 6)",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1355"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1825-1831 (février) (volume 7)",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1357"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1831 (mars)-1837 (volume 8)",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1360"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1838-1843 (juillet) (volume 9)",
+    "yearStart": 1838,
+    "yearEnd": 1843,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1362"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1843 (août)-1848 (mars) (volume 10)",
+    "yearStart": 1843,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1366"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1848 (avril)-1853 (volume 11)",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1368"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1854-1859 (juin) (volume 12)",
+    "yearStart": 1854,
+    "yearEnd": 1859,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1370"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1859 (juillet)-1865 (volume 13)",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1372"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1866-1871 (juillet) (volume 14)",
+    "yearStart": 1866,
+    "yearEnd": 1871,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1375"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1871 (août)-1894 (volume 15)",
+    "yearStart": 1871,
+    "yearEnd": 1894,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1378"
+  },
+  {
+    "place": "Rieux-Volvestre",
+    "cote": "1895-1908 (septembre) (volume 16)",
+    "yearStart": 1895,
+    "yearEnd": 1908,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q24/view:1379"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1789-an XIII (volume 2)",
+    "yearStart": 1789,
+    "yearEnd": 1789,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9271"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "an IX-1807 (volume 3)",
+    "yearStart": 1807,
+    "yearEnd": 1807,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9279"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "an XII-1807 (volume 3)",
+    "yearStart": 1807,
+    "yearEnd": 1807,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9282"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "an X-1807 (volume 3)",
+    "yearStart": 1807,
+    "yearEnd": 1807,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9299"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1807-1808 (volume 1)",
+    "yearStart": 1807,
+    "yearEnd": 1808,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9318"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1807-1808 (volume 4)",
+    "yearStart": 1807,
+    "yearEnd": 1808,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9322"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1809-1811 (volume 2)",
+    "yearStart": 1809,
+    "yearEnd": 1811,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9328"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1809-1811 (volume 5)",
+    "yearStart": 1809,
+    "yearEnd": 1811,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9345"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1812-1815 (volume 6)",
+    "yearStart": 1812,
+    "yearEnd": 1815,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9351"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1806-1815 (volume 2)",
+    "yearStart": 1806,
+    "yearEnd": 1815,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9360"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1815-1824 (volume 3)",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9365"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1815-1824 (volume 2)",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9388"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1825 (volume 3)",
+    "yearStart": 1825,
+    "yearEnd": 1825,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9391"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1825-1832 (volume 4)",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9397"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1832-1841 (volume 5)",
+    "yearStart": 1832,
+    "yearEnd": 1841,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9403"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1841-1848 (volume 6)",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9405"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1849-1858 (volume 7)",
+    "yearStart": 1849,
+    "yearEnd": 1858,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9406"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1859-1870 (volume 8)",
+    "yearStart": 1859,
+    "yearEnd": 1870,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9415"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1870-1877 (volume 9)",
+    "yearStart": 1870,
+    "yearEnd": 1877,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9421"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1877-1888 (volume 10)",
+    "yearStart": 1877,
+    "yearEnd": 1888,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9428"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1889-1907 (septembre) (volume 11)",
+    "yearStart": 1889,
+    "yearEnd": 1907,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9437"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1907 (octobre)-1927 (septembre) (volume 12)",
+    "yearStart": 1907,
+    "yearEnd": 1927,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9450"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1927 (octobre)-1945 (volume 13)",
+    "yearStart": 1927,
+    "yearEnd": 1945,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9458"
+  },
+  {
+    "place": "Saint-Béat",
+    "cote": "1946-1959 (volume 14)",
+    "yearStart": 1946,
+    "yearEnd": 1959,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q25/view:9463"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1841-1851 (volume 1)",
+    "yearStart": 1841,
+    "yearEnd": 1851,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116719"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1852-1860 (volume 2)",
+    "yearStart": 1852,
+    "yearEnd": 1860,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116722"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1860-1868 (volume 3)",
+    "yearStart": 1860,
+    "yearEnd": 1868,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116729"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1869-1877 (volume 4)",
+    "yearStart": 1869,
+    "yearEnd": 1877,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116733"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1878-1890 (volume 5)",
+    "yearStart": 1878,
+    "yearEnd": 1890,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116736"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1891-1905 (volume 6)",
+    "yearStart": 1891,
+    "yearEnd": 1905,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116738"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1906-1916 (volume 7)",
+    "yearStart": 1906,
+    "yearEnd": 1916,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116743"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1917-1929 (volume 8)",
+    "yearStart": 1917,
+    "yearEnd": 1929,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116744"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1930-1945 (volume 9)",
+    "yearStart": 1930,
+    "yearEnd": 1945,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116747"
+  },
+  {
+    "place": "Saint-Bertrand-Barbazan",
+    "cote": "1946-1960 ( janvier) (volume 10)",
+    "yearStart": 1946,
+    "yearEnd": 1960,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q26/view:116750"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1818-1824",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10639"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1824",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10653"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1824-1832 (volume 1)",
+    "yearStart": 1824,
+    "yearEnd": 1832,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10660"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1832-1837 (volume 2)",
+    "yearStart": 1832,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10661"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1838-1842 (août) (volume 3)",
+    "yearStart": 1838,
+    "yearEnd": 1842,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10662"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1842 (août)-1850 (septembre) (volume 4)",
+    "yearStart": 1842,
+    "yearEnd": 1850,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10670"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1850 (septembre)-1857 (volume 5)",
+    "yearStart": 1850,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10680"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1858-1861 (volume 6)",
+    "yearStart": 1858,
+    "yearEnd": 1861,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10684"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1861-1867 (volume 7)",
+    "yearStart": 1861,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10685"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1867-1874 (volume 8)",
+    "yearStart": 1867,
+    "yearEnd": 1874,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10688"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1875-1880 (volume 9)",
+    "yearStart": 1875,
+    "yearEnd": 1880,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10693"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1881-1888 (volume 10)",
+    "yearStart": 1881,
+    "yearEnd": 1888,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10695"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1888-1898 (volume 11)",
+    "yearStart": 1888,
+    "yearEnd": 1898,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10698"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1899-1910 (volume 12)",
+    "yearStart": 1899,
+    "yearEnd": 1910,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10699"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1910-1916 (volume 13)",
+    "yearStart": 1910,
+    "yearEnd": 1916,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10702"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1916-1924 (volume 14)",
+    "yearStart": 1916,
+    "yearEnd": 1924,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10706"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1925-1932 (volume 15)",
+    "yearStart": 1925,
+    "yearEnd": 1932,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10714"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1932-1939 (volume 16)",
+    "yearStart": 1932,
+    "yearEnd": 1939,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10723"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1939-1945 (volume 17)",
+    "yearStart": 1939,
+    "yearEnd": 1945,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10733"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1945-1950 (volume 18)",
+    "yearStart": 1945,
+    "yearEnd": 1950,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10739"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1950-1956 (volume 19)",
+    "yearStart": 1950,
+    "yearEnd": 1956,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10748"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1956-1958 (volume 20)",
+    "yearStart": 1956,
+    "yearEnd": 1958,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10757"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1959 (janvier)-1961 (novembre) (volume 21)",
+    "yearStart": 1959,
+    "yearEnd": 1961,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10765"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1961 (octobre)-1964 (mars) (volume 22)",
+    "yearStart": 1961,
+    "yearEnd": 1964,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10772"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1964 (avril)-1966 (volume 23)",
+    "yearStart": 1964,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10778"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1967 (janvier-septembre) (volume 24)",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10784"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1967 (octobre)-1968 (juin) (volume 25)",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10792"
+  },
+  {
+    "place": "Saint-Gaudens",
+    "cote": "1968 (juillet-décembre) (volume 26)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q27/view:10797"
+  },
+  {
+    "place": "Saint-Lys",
+    "cote": "1870-1898 (volume 1)",
+    "yearStart": 1870,
+    "yearEnd": 1898,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q28/view:1048916"
+  },
+  {
+    "place": "Saint-Lys",
+    "cote": "1898-1926 (volume 2)",
+    "yearStart": 1898,
+    "yearEnd": 1926,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q28/view:1048917"
+  },
+  {
+    "place": "Saint-Martory",
+    "cote": "1841-1865 (volume 1)",
+    "yearStart": 1841,
+    "yearEnd": 1865,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q29/view:240046"
+  },
+  {
+    "place": "Saint-Martory",
+    "cote": "1865-1879 (volume 2)",
+    "yearStart": 1865,
+    "yearEnd": 1879,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q29/view:240049"
+  },
+  {
+    "place": "Saint-Martory",
+    "cote": "1879-1903 (volume 3)",
+    "yearStart": 1879,
+    "yearEnd": 1903,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q29/view:240050"
+  },
+  {
+    "place": "Saint-Martory",
+    "cote": "1903 (octobre)-1926 (volume 4)",
+    "yearStart": 1903,
+    "yearEnd": 1926,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q29/view:240051"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1818-1824",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18319"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1825-1832 (volume 5)",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18325"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1832-1839 (volume 6)",
+    "yearStart": 1832,
+    "yearEnd": 1839,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18330"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1839-1847 (volume 7)",
+    "yearStart": 1839,
+    "yearEnd": 1847,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18336"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1847-1854 (volume 8)",
+    "yearStart": 1847,
+    "yearEnd": 1854,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18341"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1855-1866 (volume 9)",
+    "yearStart": 1855,
+    "yearEnd": 1866,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18356"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1866-1876 (volume 10)",
+    "yearStart": 1866,
+    "yearEnd": 1876,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18361"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1876-1887 (volume 11)",
+    "yearStart": 1876,
+    "yearEnd": 1887,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18367"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1886-1902 (volume 12)",
+    "yearStart": 1886,
+    "yearEnd": 1902,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18373"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1903-1919 (septembre) (volume 13)",
+    "yearStart": 1903,
+    "yearEnd": 1919,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18384"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1919 (octobre)-1932 (mai) (volume 14)",
+    "yearStart": 1919,
+    "yearEnd": 1932,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18393"
+  },
+  {
+    "place": "Salies-du-Salat",
+    "cote": "1948-1955 (volume 17)",
+    "yearStart": 1948,
+    "yearEnd": 1955,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q30/view:18397"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1821 (octobre)-1829 (juin) (volume 2)",
+    "yearStart": 1821,
+    "yearEnd": 1829,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12592"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1829 (juillet)-1837 (mars) (volume 3)",
+    "yearStart": 1829,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12593"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1837 (avril)-1844 (mai) (volume 4)",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12596"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1844 (mai)-1850 (volume 5)",
+    "yearStart": 1844,
+    "yearEnd": 1850,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12636"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1851-1857 (juin-juillet) (volume 6)",
+    "yearStart": 1851,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12637"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1856-1860 (volume 7)",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12639"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1860-1864 (volume 8)",
+    "yearStart": 1860,
+    "yearEnd": 1864,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12654"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1864-1871 (volume 9)",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12656"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1871-1877 (volume 10)",
+    "yearStart": 1871,
+    "yearEnd": 1877,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12658"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1877-1881 (volume 11)",
+    "yearStart": 1877,
+    "yearEnd": 1881,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12661"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1812 (octobre)-1815 (mars)",
+    "yearStart": 1812,
+    "yearEnd": 1815,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12680"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1815 (avril)-1818",
+    "yearStart": 1815,
+    "yearEnd": 1818,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12696"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1819-1822 (septembre)",
+    "yearStart": 1819,
+    "yearEnd": 1822,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12726"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1816 (décembre)-1820",
+    "yearStart": 1816,
+    "yearEnd": 1820,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12740"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1820-1823 (mars)",
+    "yearStart": 1820,
+    "yearEnd": 1823,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12751"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1823 (avril)-1824",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12760"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1820-1826 (juin) (volume 7)",
+    "yearStart": 1820,
+    "yearEnd": 1826,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12778"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1826 (juillet)-1828 (mars) (volume 8)",
+    "yearStart": 1826,
+    "yearEnd": 1828,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12789"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1828 (avril)-1829 (juin) (volume 9)",
+    "yearStart": 1828,
+    "yearEnd": 1829,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12791"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1829 (juillet)-1831 (mars) (volume 10)",
+    "yearStart": 1829,
+    "yearEnd": 1831,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12795"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1831 (avril)-1832 (volume 11)",
+    "yearStart": 1831,
+    "yearEnd": 1832,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12805"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1833-1834 (septembre) (volume 12)",
+    "yearStart": 1833,
+    "yearEnd": 1834,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12806"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1834 (octobre)-1836 (juin) (volume 13)",
+    "yearStart": 1834,
+    "yearEnd": 1836,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12827"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1836 (juillet)-1837 (volume 14)",
+    "yearStart": 1836,
+    "yearEnd": 1837,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12842"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1838-1839 (juin) (volume 15)",
+    "yearStart": 1838,
+    "yearEnd": 1839,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12858"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1839 (juillet)-1840 (volume 16)",
+    "yearStart": 1839,
+    "yearEnd": 1840,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12870"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1841-1842 (septembre) (volume 17)",
+    "yearStart": 1841,
+    "yearEnd": 1842,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12881"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1842 (octobre)-1844 (mars) (volume 18)",
+    "yearStart": 1842,
+    "yearEnd": 1844,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:12975"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1844 (avril)-1845 (septembre) (volume 19)",
+    "yearStart": 1844,
+    "yearEnd": 1845,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13008"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1845 (octobre)-1847 (mars) (volume 20)",
+    "yearStart": 1845,
+    "yearEnd": 1847,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13019"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1847 (avril)-1848 (septembre) (volume 21)",
+    "yearStart": 1847,
+    "yearEnd": 1848,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13024"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1848 (octobre)-1850 (juin) (volume 22)",
+    "yearStart": 1848,
+    "yearEnd": 1850,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13026"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1850 (juillet)-1852 (mars) (volume 23)",
+    "yearStart": 1850,
+    "yearEnd": 1852,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13031"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1852 (avril)-1854 (mars) (volume 24)",
+    "yearStart": 1852,
+    "yearEnd": 1854,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13034"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1854 (avril)-1855 (septembre) (volume 25)",
+    "yearStart": 1854,
+    "yearEnd": 1855,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13036"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1855 (octobre)-1857 (mars) (volume 26)",
+    "yearStart": 1855,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13038"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1854-1857 (volume 27)",
+    "yearStart": 1854,
+    "yearEnd": 1857,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13043"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1858-1859 (mars) (volume 28)",
+    "yearStart": 1858,
+    "yearEnd": 1859,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13068"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1859 (avril)-1860 (septembre) (volume 29)",
+    "yearStart": 1859,
+    "yearEnd": 1860,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13103"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1860 (octobre)-1862 (mars) (volume 30)",
+    "yearStart": 1860,
+    "yearEnd": 1862,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13128"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1862 (avril)-1863 (septembre) (volume 31)",
+    "yearStart": 1862,
+    "yearEnd": 1863,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13130"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1863 (octobre)-1865 (janvier) (volume 32)",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13134"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1865 (février)-1866 (mars) (volume 33)",
+    "yearStart": 1865,
+    "yearEnd": 1866,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13140"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1866 (avril)-1867 (septembre) (volume 34)",
+    "yearStart": 1866,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13144"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1867 (octobre)-1868 (septembre) (volume 35)",
+    "yearStart": 1867,
+    "yearEnd": 1868,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13147"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1868 (octobre)-1869 (septembre) (volume 36)",
+    "yearStart": 1868,
+    "yearEnd": 1869,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13151"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1869 (octobre)-1870 (septembre) (volume 37)",
+    "yearStart": 1869,
+    "yearEnd": 1870,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13156"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1870 (octobre)-1871 (mars) (volume 38)",
+    "yearStart": 1870,
+    "yearEnd": 1871,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13163"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1871 (mars)-1872 (janvier) (volume 39)",
+    "yearStart": 1871,
+    "yearEnd": 1872,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13166"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1872 (février)-1873 (février) (volume 40)",
+    "yearStart": 1872,
+    "yearEnd": 1873,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13177"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1873 (mars)-1874 (juillet) (volume 41)",
+    "yearStart": 1873,
+    "yearEnd": 1874,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13181"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1881-1890",
+    "yearStart": 1881,
+    "yearEnd": 1890,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13189"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1890 (août)-1902 (mars)",
+    "yearStart": 1890,
+    "yearEnd": 1902,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13195"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1902 (mars)-1909 (octobre)",
+    "yearStart": 1902,
+    "yearEnd": 1909,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13209"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1909 (octobre)-1921 (janvier)",
+    "yearStart": 1909,
+    "yearEnd": 1921,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13223"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1874 (août)-1875 (volume 42)",
+    "yearStart": 1874,
+    "yearEnd": 1875,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13231"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1876 (volume 43)",
+    "yearStart": 1876,
+    "yearEnd": 1876,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13233"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1877-1878 (volume 44)",
+    "yearStart": 1877,
+    "yearEnd": 1878,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13237"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1879-1880 (volume 45)",
+    "yearStart": 1879,
+    "yearEnd": 1880,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13244"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1881-1882 (volume 46)",
+    "yearStart": 1881,
+    "yearEnd": 1882,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13247"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1883-1884 (juin) (volume 47)",
+    "yearStart": 1883,
+    "yearEnd": 1884,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13268"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1884 (juillet)-1885 (volume 48)",
+    "yearStart": 1884,
+    "yearEnd": 1885,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13277"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1886-1887 (juin) (volume 49)",
+    "yearStart": 1886,
+    "yearEnd": 1887,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13291"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1887 (juillet)-1889 (juin) (volume 50)",
+    "yearStart": 1887,
+    "yearEnd": 1889,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13293"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1889 (juillet)-1891 (volume 51)",
+    "yearStart": 1889,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13296"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1891 (juillet)-1893 (juin) (volume 52)",
+    "yearStart": 1891,
+    "yearEnd": 1893,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13298"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1893 (juillet)-1895 (juin) (volume 53)",
+    "yearStart": 1893,
+    "yearEnd": 1895,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13301"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1895 (juillet)-1897 (juillet) (volume 54)",
+    "yearStart": 1895,
+    "yearEnd": 1897,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13304"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1897 (août)-1899 (juillet) (volume 55)",
+    "yearStart": 1897,
+    "yearEnd": 1899,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13308"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1899 (août)-1901 (juillet) (volume 56)",
+    "yearStart": 1899,
+    "yearEnd": 1901,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13313"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1901 (août)-1903 (août) (volume 57)",
+    "yearStart": 1901,
+    "yearEnd": 1903,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13316"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1903 (août)-1905 (août) (volume 58)",
+    "yearStart": 1903,
+    "yearEnd": 1905,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13323"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1905 (septembre)-1907 (juillet) (volume 59)",
+    "yearStart": 1905,
+    "yearEnd": 1907,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13326"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1907 (août)-1908 (volume 61)",
+    "yearStart": 1907,
+    "yearEnd": 1908,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13330"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1909 (janvier)-1910 (avril) (volume 62)",
+    "yearStart": 1909,
+    "yearEnd": 1910,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13331"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1910 (mai)-1911 (septembre)",
+    "yearStart": 1910,
+    "yearEnd": 1911,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13335"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1911 (octobre)-1913 (avril) (volume 63)",
+    "yearStart": 1911,
+    "yearEnd": 1913,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13337"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1913 (mai)-1914 (octobre) (volume 64)",
+    "yearStart": 1913,
+    "yearEnd": 1914,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13344"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1914 (novembre)-1915 (volume 65)",
+    "yearStart": 1914,
+    "yearEnd": 1915,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13353"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1916 (volume 66)",
+    "yearStart": 1916,
+    "yearEnd": 1916,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13354"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1917 (volume 67)",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13360"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1918 (volume 68)",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13372"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1919 (volume 69)",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13373"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1920 (volume 70)",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13375"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1921 (volume 71)",
+    "yearStart": 1921,
+    "yearEnd": 1921,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13381"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1922 (volume 72)",
+    "yearStart": 1922,
+    "yearEnd": 1922,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13398"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1923 (volume 73)",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13407"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1924 (volume 74)",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13415"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1925 (volume 75)",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13422"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1926 (volume 76)",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13434"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1927 (volume 77)",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13516"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1928 (volume 78)",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13518"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1929 (volume 79)",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13535"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1930 (volume 80)",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13577"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1931 (volume 81)",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13593"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1932 (volume 82)",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13600"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1933 (volume 83)",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13611"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1934 (volume 84)",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13623"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1935 (volume 85)",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13647"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1936 (volume 86)",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13664"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1937 (volume 87)",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13667"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1938 (volume 88)",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13672"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1939 (volume 89)",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13706"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1940 (volume 90)",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13738"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1941 (volume 91)",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13761"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1942 (volume 92)",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13772"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1943 (volume 93)",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13782"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1944 (volume 94)",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13867"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1945 (volume 95)",
+    "yearStart": 1945,
+    "yearEnd": 1945,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13891"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1946 (volume 96)",
+    "yearStart": 1946,
+    "yearEnd": 1946,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13919"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1947 (volume 97)",
+    "yearStart": 1947,
+    "yearEnd": 1947,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13933"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1873-1883",
+    "yearStart": 1873,
+    "yearEnd": 1883,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13950"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1909-1919",
+    "yearStart": 1909,
+    "yearEnd": 1919,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:13954"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1872 (octobre)-1874 (volume 1)",
+    "yearStart": 1872,
+    "yearEnd": 1874,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14004"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1875-1877 (juin) (volume 2)",
+    "yearStart": 1875,
+    "yearEnd": 1877,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14020"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1877 (juillet)-1879 (volume 3)",
+    "yearStart": 1877,
+    "yearEnd": 1879,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14022"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1880-1882 (septembre) (volume 4)",
+    "yearStart": 1880,
+    "yearEnd": 1882,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14040"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1882 (octobre)-1885 (mars) (volume 5)",
+    "yearStart": 1882,
+    "yearEnd": 1885,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14049"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1885 (avril)-1887 (juin) (volume 6)",
+    "yearStart": 1885,
+    "yearEnd": 1887,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14051"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1887 (juillet)-1889 (volume 7)",
+    "yearStart": 1887,
+    "yearEnd": 1889,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14055"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1890-1892 (mars) (volume 8)",
+    "yearStart": 1890,
+    "yearEnd": 1892,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14065"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1892 (avril)-1894 (juillet) (volume 9)",
+    "yearStart": 1892,
+    "yearEnd": 1894,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14078"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1894 (août)-1896 (septembre) (volume 10)",
+    "yearStart": 1894,
+    "yearEnd": 1896,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14088"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1896 (octobre)-1898 (volume 11)",
+    "yearStart": 1896,
+    "yearEnd": 1898,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14102"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1899-1901 (mars) (volume 12)",
+    "yearStart": 1899,
+    "yearEnd": 1901,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14149"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1901 (avril)-1903 (volume 13)",
+    "yearStart": 1901,
+    "yearEnd": 1903,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14152"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1904-1906 (juin) (volume 14)",
+    "yearStart": 1904,
+    "yearEnd": 1906,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14160"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1906 (juillet)-1907 (volume 15)",
+    "yearStart": 1906,
+    "yearEnd": 1907,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14162"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1908-1910 (juin) (volume 16)",
+    "yearStart": 1908,
+    "yearEnd": 1910,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14166"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1910 (juillet)-1912 (mars) (volume 17)",
+    "yearStart": 1910,
+    "yearEnd": 1912,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14177"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1912 (avril)-1913 (volume 18)",
+    "yearStart": 1912,
+    "yearEnd": 1913,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14186"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1914-1915 (avril) (volume 19)",
+    "yearStart": 1914,
+    "yearEnd": 1915,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14193"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1915 (mai)-1916 (septembre) (volume 20)",
+    "yearStart": 1915,
+    "yearEnd": 1916,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14201"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1916 (octobre)-1917 (octobre) (volume 21)",
+    "yearStart": 1916,
+    "yearEnd": 1917,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14223"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1917 (novembre)-1918 (octobre) (volume 22)",
+    "yearStart": 1917,
+    "yearEnd": 1918,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14233"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1918 (novembre)-1920 (avril) (volume 23)",
+    "yearStart": 1918,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14242"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1920 (mai)-1921 (septembre) (volume 24)",
+    "yearStart": 1920,
+    "yearEnd": 1921,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14255"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1921 (octobre)-1922 (volume 25)",
+    "yearStart": 1921,
+    "yearEnd": 1922,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14265"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1923 (volume 26)",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14266"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1924 (volume 27)",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14267"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1925 (volume 28)",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14271"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1926 (volume 29)",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14279"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1927 (volume 30)",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14286"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1928 (volume 31)",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14292"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1929 (volume 32)",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14312"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1930 (volume 33)",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14318"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1931 (volume 34)",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14319"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1932 (volume 35)",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14321"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1933 (volume 36)",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14322"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1934 (volume 37)",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14323"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1935 (volume 38)",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14325"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1936 (volume 39)",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14326"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1937 (volume 40)",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14327"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1938 (volume 41)",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14328"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1939 (volume 42)",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14330"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1940 (volume 43)",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14331"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1941 (volume 44)",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14332"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1942 (volume 45)",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14334"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1943 (volume 46)",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14335"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1944 (volume 47)",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14342"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1945 (volume 48)",
+    "yearStart": 1945,
+    "yearEnd": 1945,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14352"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1946 (volume 49)",
+    "yearStart": 1946,
+    "yearEnd": 1946,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14355"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1947 (volume 50)",
+    "yearStart": 1947,
+    "yearEnd": 1947,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14359"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1815-1822",
+    "yearStart": 1815,
+    "yearEnd": 1822,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14362"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1816-1824 (volume 3)",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14365"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1825-1829",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14369"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1829-1833",
+    "yearStart": 1829,
+    "yearEnd": 1833,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14372"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1834-1839",
+    "yearStart": 1834,
+    "yearEnd": 1839,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14376"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1839-1846 (volume 6)",
+    "yearStart": 1839,
+    "yearEnd": 1846,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14383"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1846-1853 (volume 7)",
+    "yearStart": 1846,
+    "yearEnd": 1853,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14386"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1853-1860 (volume 8)",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14389"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1860-1868 (volume 9)",
+    "yearStart": 1860,
+    "yearEnd": 1868,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14396"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1868-1874 (volume 10)",
+    "yearStart": 1868,
+    "yearEnd": 1874,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14403"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1875-1888 (volume 11)",
+    "yearStart": 1875,
+    "yearEnd": 1888,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14407"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1889-1905 (juin) (volume 12)",
+    "yearStart": 1889,
+    "yearEnd": 1905,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14411"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1905 (juillet)-1915 (volume 13)",
+    "yearStart": 1905,
+    "yearEnd": 1915,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14417"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1916-1927 (volume 14)",
+    "yearStart": 1916,
+    "yearEnd": 1927,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14421"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1928-1930 (volume 15)",
+    "yearStart": 1928,
+    "yearEnd": 1930,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14424"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1931-1940 (volume 16)",
+    "yearStart": 1931,
+    "yearEnd": 1940,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14427"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1941-1947 (volume 17)",
+    "yearStart": 1941,
+    "yearEnd": 1947,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14447"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1872-1885",
+    "yearStart": 1872,
+    "yearEnd": 1885,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14475"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1885-1896",
+    "yearStart": 1885,
+    "yearEnd": 1896,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14478"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1896-1909",
+    "yearStart": 1896,
+    "yearEnd": 1909,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14481"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1910-1920",
+    "yearStart": 1910,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14484"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1921-1926",
+    "yearStart": 1921,
+    "yearEnd": 1926,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14486"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1927-1933",
+    "yearStart": 1927,
+    "yearEnd": 1933,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14489"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1934-1942",
+    "yearStart": 1934,
+    "yearEnd": 1942,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14492"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1942-1947",
+    "yearStart": 1942,
+    "yearEnd": 1947,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14494"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1er secteur : 1957-1966 (juillet)",
+    "yearStart": 1957,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14947"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "3ème secteur : 1959-1966 (juillet)",
+    "yearStart": 1959,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14955"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "4ème secteur : 1957-1966",
+    "yearStart": 1957,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14956"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "5ème secteur : 1956-1966 (juillet)",
+    "yearStart": 1956,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14960"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "6ème secteur : 1957-1966 (juillet)",
+    "yearStart": 1957,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14972"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "7ème secteur : 1954-1966 (juillet)",
+    "yearStart": 1954,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14987"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "8ème secteur : 1958-1966 (juillet)",
+    "yearStart": 1958,
+    "yearEnd": 1966,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:14996"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "1er secteur : 1966 (juillet)-1968 (janvier)",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15034"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "3ème secteur : 1966 (août)- 1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15056"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "4ème secteur : 1966 (juillet)- 1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15075"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "5ème secteur : 1966 (juillet)- 1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15113"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "6ème secteur : 1965 (mai)-1967",
+    "yearStart": 1965,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15134"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "7ème secteur : 1966 (août)-1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15147"
+  },
+  {
+    "place": "Toulouse",
+    "cote": "8ème secteur : 1966 (juillet)-1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q31/view:15159"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "Tables des successions acquittées, 1791-1808",
+    "yearStart": 1791,
+    "yearEnd": 1808,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:322"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1792-an IV (volume 5)",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:367"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1791-an VI",
+    "yearStart": 1791,
+    "yearEnd": 1791,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:372"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "an IX-1816 (volume 1).  Patronymes A et B",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:380"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "an IX-1816 (volume 2).  Patronymes C et D",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:382"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "an IX-1816 (volume 3).  Patronymes E à G",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:386"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "an IX-1816 (volume 4).  Patronymes H à M",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:391"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "an IX-1816 (volume 5).  Patronymes M à R",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:392"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "an IX-1816 (volume 6).  Patronymes R à V",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:394"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1816-1821",
+    "yearStart": 1816,
+    "yearEnd": 1821,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:404"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1816-1821",
+    "yearStart": 1816,
+    "yearEnd": 1821,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:424"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1816-1821",
+    "yearStart": 1816,
+    "yearEnd": 1821,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:446"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1816-1821",
+    "yearStart": 1816,
+    "yearEnd": 1821,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:450"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1822-1825  Patronymes de A à D",
+    "yearStart": 1822,
+    "yearEnd": 1825,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:464"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1822-1825  Patronymes de E à N",
+    "yearStart": 1822,
+    "yearEnd": 1825,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:476"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1822-1825  Patronymes de O à Z",
+    "yearStart": 1822,
+    "yearEnd": 1825,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:489"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1825-1830 (volume 1)",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:491"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1831-1836 (volume 2)",
+    "yearStart": 1831,
+    "yearEnd": 1836,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:512"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1836-1841 (volume 3)",
+    "yearStart": 1836,
+    "yearEnd": 1841,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:515"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1841-1847 (volume 4)",
+    "yearStart": 1841,
+    "yearEnd": 1847,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:520"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1848-1853 (volume 5)",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:536"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1853-1858 (volume 6)",
+    "yearStart": 1853,
+    "yearEnd": 1858,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:540"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1858-1863 (volume 7)",
+    "yearStart": 1858,
+    "yearEnd": 1863,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:547"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1863-1867 (volume 8)",
+    "yearStart": 1863,
+    "yearEnd": 1867,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:551"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1867-1872 (volume 9)",
+    "yearStart": 1867,
+    "yearEnd": 1872,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:557"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1872-1880 (volume 10)",
+    "yearStart": 1872,
+    "yearEnd": 1880,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:558"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1881-1891 (volume 11)",
+    "yearStart": 1881,
+    "yearEnd": 1891,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:562"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1891-1900 (volume 12)",
+    "yearStart": 1891,
+    "yearEnd": 1900,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:564"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1901-1910 (volume 13)",
+    "yearStart": 1901,
+    "yearEnd": 1910,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:566"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1911-1918 (volume 14)",
+    "yearStart": 1911,
+    "yearEnd": 1918,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:591"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1919-1927 (volume 15)",
+    "yearStart": 1919,
+    "yearEnd": 1927,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:602"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1928-1937 (volume 16)",
+    "yearStart": 1928,
+    "yearEnd": 1937,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:613"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1938-1945 (volume 17)",
+    "yearStart": 1938,
+    "yearEnd": 1945,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:621"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1946-1954 (mars) (volume 18)",
+    "yearStart": 1946,
+    "yearEnd": 1954,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:631"
+  },
+  {
+    "place": "Villefranche-de-Lauragais",
+    "cote": "1954 (avril)-1963 (volume 19)",
+    "yearStart": 1954,
+    "yearEnd": 1963,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q32/view:641"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1817-1826 (volume 4)",
+    "yearStart": 1817,
+    "yearEnd": 1826,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948478"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1824-1840 (volume 5)",
+    "yearStart": 1824,
+    "yearEnd": 1840,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948480"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1841-1856 (volume 6)",
+    "yearStart": 1841,
+    "yearEnd": 1856,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948481"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1857-1873 (volume 7)",
+    "yearStart": 1857,
+    "yearEnd": 1873,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948482"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1874-1890 (volume 8)",
+    "yearStart": 1874,
+    "yearEnd": 1890,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948484"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1891-1906 (volume 9)",
+    "yearStart": 1891,
+    "yearEnd": 1906,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948487"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1907-1920 (volume 10)",
+    "yearStart": 1907,
+    "yearEnd": 1920,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948494"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1921-1930 (volume 11)",
+    "yearStart": 1921,
+    "yearEnd": 1930,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948497"
+  },
+  {
+    "place": "Villemur",
+    "cote": "1931-1934 (volume 12)",
+    "yearStart": 1931,
+    "yearEnd": 1934,
+    "url": "https://archives.haute-garonne.fr/archive/fonds/FRAD031_003Q33/view:948499"
+  }
+]
