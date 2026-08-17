@@ -315,6 +315,19 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_27.json',
         bureauxUrl: './assets/data/successions_27_bureaux.json',
     },
+    '12': {
+        label: 'Aveyron',
+        kind: 'facet',
+        // Bornes réelles de la série (513 registres scrapés, voir scrape_successions_aveyron.py) :
+        // liste des 34 bureaux tirée du PDF officiel du département, l'autocomplete du portail
+        // étant plafonnée à 10 suggestions sans lien fiable avec le nom saisi.
+        minYear: 1751,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_12.json',
+        bureauxUrl: './assets/data/successions_12_bureaux.json',
+        // Portail "Ligeo Archives" (même logiciel que Seine-Maritime/Haute-Garonne/Bouches-du-Rhône).
+        catalogUrl: 'https://archives.aveyron.fr/archive/resultats/tablesuccessions/n:128?type=tablesuccessions',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

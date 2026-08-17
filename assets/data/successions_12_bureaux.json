@@ -1,0 +1,1218 @@
+{
+  "AGEN D AVEYRON": {
+    "bureau": "Pont-de-Salars",
+    "distanceKm": 8.5
+  },
+  "AGUESSAC": {
+    "bureau": "Millau",
+    "distanceKm": 7.8
+  },
+  "ALMONT LES JUNIES": {
+    "bureau": "Decazeville",
+    "distanceKm": 6.0
+  },
+  "ALMON LES JUNIES": {
+    "bureau": "Decazeville",
+    "distanceKm": 6.0
+  },
+  "ALPUECH": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "ALRANCE": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 8.6
+  },
+  "AMBEYRAC": {
+    "bureau": "Villeneuve",
+    "distanceKm": 9.0
+  },
+  "ANGLARS SAINT FELIX": {
+    "bureau": "Rignac",
+    "distanceKm": 4.8
+  },
+  "ARGENCES EN AUBRAC": {
+    "bureau": "Sainte-Geneviève-sur-Argence",
+    "distanceKm": 0.0
+  },
+  "ARNAC SUR DOURDOU": {
+    "bureau": "Camarès",
+    "distanceKm": 12.8
+  },
+  "ARQUES": {
+    "bureau": "Laissac",
+    "distanceKm": 5.9
+  },
+  "ARVIEU": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 9.4
+  },
+  "ASPRIERES": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 0.0
+  },
+  "AURELLE VERLAC": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "AURIAC LAGAST": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 7.5
+  },
+  "AUZITS": {
+    "bureau": "Aubin",
+    "distanceKm": 6.6
+  },
+  "AYSSENES": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 7.7
+  },
+  "BALAGUIER D OLT": {
+    "bureau": "Villeneuve",
+    "distanceKm": 9.1
+  },
+  "BALAGUIER SUR RANCE": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 4.3
+  },
+  "BALSAC": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "BARAQUEVILLE": {
+    "bureau": "Sauveterre",
+    "distanceKm": 11.5
+  },
+  "CARCENAC PEYRALES": {
+    "bureau": "Sauveterre",
+    "distanceKm": 11.5
+  },
+  "BELCASTEL": {
+    "bureau": "Rignac",
+    "distanceKm": 3.0
+  },
+  "BELMONT SUR RANCE": {
+    "bureau": "Camarès",
+    "distanceKm": 10.4
+  },
+  "BERTHOLENE": {
+    "bureau": "Laissac",
+    "distanceKm": 4.1
+  },
+  "BESSUEJOULS": {
+    "bureau": "Espalion",
+    "distanceKm": 4.1
+  },
+  "BOISSE PENCHOT": {
+    "bureau": "Decazeville",
+    "distanceKm": 3.7
+  },
+  "BOR ET BAR": {
+    "bureau": "Najac",
+    "distanceKm": 10.0
+  },
+  "BOUILLAC": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 3.8
+  },
+  "BOURNAZEL": {
+    "bureau": "Rignac",
+    "distanceKm": 6.4
+  },
+  "BOUSSAC": {
+    "bureau": "Sauveterre",
+    "distanceKm": 7.5
+  },
+  "BOZOULS": {
+    "bureau": "Espalion",
+    "distanceKm": 6.4
+  },
+  "BRANDONNET": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 9.6
+  },
+  "BRASC": {
+    "bureau": "Réquista",
+    "distanceKm": 5.8
+  },
+  "BROMMAT": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 6.1
+  },
+  "BROQUIES": {
+    "bureau": "Réquista",
+    "distanceKm": 13.0
+  },
+  "BROUSSE LE CHATEAU": {
+    "bureau": "Réquista",
+    "distanceKm": 7.4
+  },
+  "BRUSQUE": {
+    "bureau": "Camarès",
+    "distanceKm": 8.6
+  },
+  "BUZEINS": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "CABANES": {
+    "bureau": "Naucelle",
+    "distanceKm": 4.4
+  },
+  "CALMELS ET LE VIALA": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 7.6
+  },
+  "CALMONT": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 10.1
+  },
+  "CAMBOULAZET": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 8.0
+  },
+  "CAMJAC": {
+    "bureau": "Naucelle",
+    "distanceKm": 4.3
+  },
+  "CAMPAGNAC": {
+    "bureau": "Séverac-le-Château",
+    "distanceKm": 11.0
+  },
+  "CAMPOURIEZ": {
+    "bureau": "Estaing",
+    "distanceKm": 12.7
+  },
+  "CAMPUAC": {
+    "bureau": "Estaing",
+    "distanceKm": 8.1
+  },
+  "CANET DE SALARS": {
+    "bureau": "Pont-de-Salars",
+    "distanceKm": 4.5
+  },
+  "CANTOIN": {
+    "bureau": "Sainte-Geneviève-sur-Argence",
+    "distanceKm": 6.2
+  },
+  "CAPDENAC GARE": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 6.0
+  },
+  "CASSUEJOULS": {
+    "bureau": "Laguiole",
+    "distanceKm": 5.6
+  },
+  "CASTANET": {
+    "bureau": "Sauveterre",
+    "distanceKm": 4.2
+  },
+  "CASTELMARY": {
+    "bureau": "Naucelle",
+    "distanceKm": 8.7
+  },
+  "CASTELNAU PEGAYROLS": {
+    "bureau": "Saint-Beauzély",
+    "distanceKm": 3.3
+  },
+  "CASTELNAU DE MANDAILLES": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 9.5
+  },
+  "CASTELNAU": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 9.5
+  },
+  "CAUSSE ET DIEGE": {
+    "bureau": "Villeneuve",
+    "distanceKm": 8.8
+  },
+  "SALVAGNAC SAINT LOUP": {
+    "bureau": "Villeneuve",
+    "distanceKm": 8.8
+  },
+  "CENTRES": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 6.7
+  },
+  "CLAIRVAUX D AVEYRON": {
+    "bureau": "Rignac",
+    "distanceKm": 8.6
+  },
+  "CLAIRVAUX": {
+    "bureau": "Rignac",
+    "distanceKm": 8.6
+  },
+  "COLOMBIES": {
+    "bureau": "Rignac",
+    "distanceKm": 7.2
+  },
+  "COMBRET": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 7.1
+  },
+  "COMPEYRE": {
+    "bureau": "Millau",
+    "distanceKm": 8.9
+  },
+  "COMPOLIBAT": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 8.9
+  },
+  "COMPREGNAC": {
+    "bureau": "Saint-Beauzély",
+    "distanceKm": 8.1
+  },
+  "COMPS LA GRAND VILLE": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 7.1
+  },
+  "CONDOM D AUBRAC": {
+    "bureau": "Laguiole",
+    "distanceKm": 10.2
+  },
+  "CONNAC": {
+    "bureau": "Réquista",
+    "distanceKm": 3.3
+  },
+  "CONQUES EN ROUERGUE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "SAINT CYPRIEN SUR DOURDOU": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "COUBISOU": {
+    "bureau": "Estaing",
+    "distanceKm": 4.3
+  },
+  "COUPIAC": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 7.0
+  },
+  "COUSSERGUES": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "CRANSAC": {
+    "bureau": "Aubin",
+    "distanceKm": 3.3
+  },
+  "CREISSELS": {
+    "bureau": "Millau",
+    "distanceKm": 6.3
+  },
+  "CRESPIN": {
+    "bureau": "Naucelle",
+    "distanceKm": 8.8
+  },
+  "CRUEJOULS": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "CURAN": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 8.1
+  },
+  "CURIERES": {
+    "bureau": "Laguiole",
+    "distanceKm": 6.4
+  },
+  "DRUELLE BALSAC": {
+    "bureau": "Rodez",
+    "distanceKm": 8.1
+  },
+  "DRUELLE": {
+    "bureau": "Rodez",
+    "distanceKm": 8.1
+  },
+  "DRULHE": {
+    "bureau": "Montbazens",
+    "distanceKm": 6.9
+  },
+  "DURENQUE": {
+    "bureau": "Réquista",
+    "distanceKm": 9.6
+  },
+  "ENTRAYGUES SUR TRUYERE": {
+    "bureau": "Estaing",
+    "distanceKm": 12.0
+  },
+  "ENTRAYGUES": {
+    "bureau": "Estaing",
+    "distanceKm": 12.0
+  },
+  "ESCANDOLIERES": {
+    "bureau": "Rignac",
+    "distanceKm": 8.8
+  },
+  "ESPEYRAC": {
+    "bureau": "Conques",
+    "distanceKm": 10.7
+  },
+  "FAYET": {
+    "bureau": "Camarès",
+    "distanceKm": 7.4
+  },
+  "FIRMI": {
+    "bureau": "Aubin",
+    "distanceKm": 6.0
+  },
+  "FLAGNAC": {
+    "bureau": "Decazeville",
+    "distanceKm": 2.7
+  },
+  "FLAVIN": {
+    "bureau": "Pont-de-Salars",
+    "distanceKm": 6.9
+  },
+  "FLORENTIN LA CAPELLE": {
+    "bureau": "Estaing",
+    "distanceKm": 7.6
+  },
+  "FOISSAC": {
+    "bureau": "Villeneuve",
+    "distanceKm": 6.4
+  },
+  "FONDAMENTE": {
+    "bureau": "Cornus",
+    "distanceKm": 7.2
+  },
+  "MONTPAON": {
+    "bureau": "Cornus",
+    "distanceKm": 7.2
+  },
+  "GABRIAC": {
+    "bureau": "Espalion",
+    "distanceKm": 7.1
+  },
+  "GAILLAC D AVEYRON": {
+    "bureau": "Laissac",
+    "distanceKm": 5.7
+  },
+  "GALGAN": {
+    "bureau": "Montbazens",
+    "distanceKm": 3.7
+  },
+  "GISSAC": {
+    "bureau": "Camarès",
+    "distanceKm": 5.5
+  },
+  "GOLINHAC": {
+    "bureau": "Estaing",
+    "distanceKm": 7.4
+  },
+  "GOUTRENS": {
+    "bureau": "Rignac",
+    "distanceKm": 6.7
+  },
+  "GRAISSAC": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "GRAMOND": {
+    "bureau": "Sauveterre",
+    "distanceKm": 4.7
+  },
+  "GRAND VABRE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "HUPARLAC": {
+    "bureau": "Sainte-Geneviève-sur-Argence",
+    "distanceKm": 8.6
+  },
+  "L HOSPITALET DU LARZAC": {
+    "bureau": "Nant",
+    "distanceKm": 8.2
+  },
+  "LA BASTIDE PRADINES": {
+    "bureau": "Millau",
+    "distanceKm": 11.0
+  },
+  "LA BASTIDE SOLAGES": {
+    "bureau": "Réquista",
+    "distanceKm": 9.2
+  },
+  "LA CAPELLE BALAGUIER": {
+    "bureau": "Villeneuve",
+    "distanceKm": 8.1
+  },
+  "LA CAPELLE BLEYS": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 4.7
+  },
+  "LA CAPELLE BONANCE": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 6.8
+  },
+  "LA CAVALERIE": {
+    "bureau": "Nant",
+    "distanceKm": 9.1
+  },
+  "LA COUVERTOIRADE": {
+    "bureau": "Cornus",
+    "distanceKm": 8.1
+  },
+  "LA CRESSE": {
+    "bureau": "Millau",
+    "distanceKm": 8.6
+  },
+  "LA FOUILLADE": {
+    "bureau": "Najac",
+    "distanceKm": 8.0
+  },
+  "LA LOUBIERE": {
+    "bureau": "Rodez",
+    "distanceKm": 7.8
+  },
+  "LA ROQUE SAINTE MARGUERITE": {
+    "bureau": "Nant",
+    "distanceKm": 9.6
+  },
+  "LA ROUQUETTE": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 5.8
+  },
+  "LA SALVETAT PEYRALES": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 9.5
+  },
+  "LA SALVETAT": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 9.5
+  },
+  "LA SELVE": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 7.5
+  },
+  "LA SERRE": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 3.0
+  },
+  "LA TERRISSE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "LACALM": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "LACROIX BARREZ": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 12.0
+  },
+  "LACROIX": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 12.0
+  },
+  "LAISSAC SEVERAC L EGLISE": {
+    "bureau": "Laissac",
+    "distanceKm": 0.0
+  },
+  "LANUEJOULS": {
+    "bureau": "Montbazens",
+    "distanceKm": 7.9
+  },
+  "LAPANOUSE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "LAPANOUSE DE CERNON": {
+    "bureau": "Millau",
+    "distanceKm": 10.1
+  },
+  "LASSOUTS": {
+    "bureau": "Espalion",
+    "distanceKm": 8.0
+  },
+  "LAVAL ROQUECEZIERE": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 7.5
+  },
+  "LAVERNHE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "LE BAS SEGALA": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 7.8
+  },
+  "LA BASTIDE L EVEQUE": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 7.8
+  },
+  "LE CAYROL": {
+    "bureau": "Espalion",
+    "distanceKm": 7.7
+  },
+  "LE CLAPIER": {
+    "bureau": "Cornus",
+    "distanceKm": 6.8
+  },
+  "LE FEL": {
+    "bureau": "Conques",
+    "distanceKm": 14.0
+  },
+  "ENGUIALES": {
+    "bureau": "Conques",
+    "distanceKm": 14.0
+  },
+  "LE MONASTERE": {
+    "bureau": "Rodez",
+    "distanceKm": 3.5
+  },
+  "LE NAYRAC": {
+    "bureau": "Estaing",
+    "distanceKm": 2.8
+  },
+  "LE TRUEL": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 11.8
+  },
+  "LE VIBAL": {
+    "bureau": "Pont-de-Salars",
+    "distanceKm": 4.5
+  },
+  "LES ALBRES": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 3.3
+  },
+  "LES COSTES GOZON": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 7.7
+  },
+  "LESCURE JAOUL": {
+    "bureau": "Rieupeyroux",
+    "distanceKm": 11.1
+  },
+  "LESTRADE ET THOUELS": {
+    "bureau": "Réquista",
+    "distanceKm": 7.4
+  },
+  "LIVINHAC LE HAUT": {
+    "bureau": "Decazeville",
+    "distanceKm": 4.9
+  },
+  "LOUPIAC": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "LUC LA PRIMAUBE": {
+    "bureau": "Rodez",
+    "distanceKm": 6.6
+  },
+  "LUC": {
+    "bureau": "Rodez",
+    "distanceKm": 6.6
+  },
+  "LUGAN": {
+    "bureau": "Montbazens",
+    "distanceKm": 3.6
+  },
+  "LUNAC": {
+    "bureau": "Najac",
+    "distanceKm": 12.1
+  },
+  "LEDERGUES": {
+    "bureau": "Réquista",
+    "distanceKm": 10.7
+  },
+  "MALEVILLE": {
+    "bureau": "Villeneuve",
+    "distanceKm": 8.5
+  },
+  "MANHAC": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 9.8
+  },
+  "MARCILLAC VALLON": {
+    "bureau": "Conques",
+    "distanceKm": 12.9
+  },
+  "MARNHAGUES ET LATOUR": {
+    "bureau": "Cornus",
+    "distanceKm": 12.5
+  },
+  "MARTIEL": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 9.4
+  },
+  "MARTRIN": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 5.5
+  },
+  "MAYRAN": {
+    "bureau": "Rignac",
+    "distanceKm": 6.5
+  },
+  "MELJAC": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 8.2
+  },
+  "MONTAGNOL": {
+    "bureau": "Camarès",
+    "distanceKm": 11.3
+  },
+  "MONTCLAR": {
+    "bureau": "Réquista",
+    "distanceKm": 8.1
+  },
+  "MONTEILS": {
+    "bureau": "Najac",
+    "distanceKm": 6.8
+  },
+  "MONTFRANC": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 5.6
+  },
+  "MONTJAUX": {
+    "bureau": "Saint-Beauzély",
+    "distanceKm": 8.8
+  },
+  "MONTLAUR": {
+    "bureau": "Camarès",
+    "distanceKm": 6.2
+  },
+  "MONTPEYROUX": {
+    "bureau": "Estaing",
+    "distanceKm": 9.8
+  },
+  "MONTROZIER": {
+    "bureau": "Laissac",
+    "distanceKm": 10.2
+  },
+  "MONTSALES": {
+    "bureau": "Villeneuve",
+    "distanceKm": 5.9
+  },
+  "MONTEZIC": {
+    "bureau": "Sainte-Geneviève-sur-Argence",
+    "distanceKm": 14.5
+  },
+  "MORLHON LE HAUT": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 4.6
+  },
+  "MOSTUEJOULS": {
+    "bureau": "Séverac-le-Château",
+    "distanceKm": 15.2
+  },
+  "MOUNES PROHENCOUX": {
+    "bureau": "Camarès",
+    "distanceKm": 5.9
+  },
+  "PROHENCOUX": {
+    "bureau": "Camarès",
+    "distanceKm": 5.9
+  },
+  "MOURET": {
+    "bureau": "Conques",
+    "distanceKm": 12.5
+  },
+  "MOYRAZES": {
+    "bureau": "Rodez",
+    "distanceKm": 11.7
+  },
+  "MURASSON": {
+    "bureau": "Camarès",
+    "distanceKm": 10.9
+  },
+  "MURET LE CHATEAU": {
+    "bureau": "Estaing",
+    "distanceKm": 12.6
+  },
+  "MUROLS": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 15.0
+  },
+  "MELAGUES": {
+    "bureau": "Camarès",
+    "distanceKm": 14.8
+  },
+  "NAUSSAC": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 6.5
+  },
+  "NAUVIALE": {
+    "bureau": "Conques",
+    "distanceKm": 8.4
+  },
+  "NOAILHAC": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "OLEMPS": {
+    "bureau": "Rodez",
+    "distanceKm": 2.7
+  },
+  "OLS ET RINHODES": {
+    "bureau": "Villeneuve",
+    "distanceKm": 6.7
+  },
+  "ONET LE CHATEAU": {
+    "bureau": "Rodez",
+    "distanceKm": 2.7
+  },
+  "PALMAS D AVEYRON": {
+    "bureau": "Laissac",
+    "distanceKm": 6.3
+  },
+  "PALMAS": {
+    "bureau": "Laissac",
+    "distanceKm": 6.3
+  },
+  "PAULHE": {
+    "bureau": "Millau",
+    "distanceKm": 5.6
+  },
+  "PEUX ET COUFFOULEUX": {
+    "bureau": "Camarès",
+    "distanceKm": 6.4
+  },
+  "PEYRELEAU": {
+    "bureau": "Millau",
+    "distanceKm": 11.0
+  },
+  "PEYRUSSE LE ROC": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 5.8
+  },
+  "PIERREFICHE": {
+    "bureau": "Laissac",
+    "distanceKm": 10.1
+  },
+  "PLAISANCE": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 7.4
+  },
+  "POMAYROLS": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 4.5
+  },
+  "POUSTHOMY": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 4.0
+  },
+  "PRADES SALARS": {
+    "bureau": "Pont-de-Salars",
+    "distanceKm": 6.8
+  },
+  "PRADES D AUBRAC": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 4.4
+  },
+  "PRADINAS": {
+    "bureau": "Sauveterre",
+    "distanceKm": 3.8
+  },
+  "PRIVEZAC": {
+    "bureau": "Rignac",
+    "distanceKm": 7.7
+  },
+  "PRUINES": {
+    "bureau": "Conques",
+    "distanceKm": 9.4
+  },
+  "PREVINQUIERES": {
+    "bureau": "Rignac",
+    "distanceKm": 5.7
+  },
+  "QUINS": {
+    "bureau": "Sauveterre",
+    "distanceKm": 5.1
+  },
+  "REBOURGUIL": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 10.3
+  },
+  "RECOULES PREVINQUIERES": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "RIVIERE SUR TARN": {
+    "bureau": "Millau",
+    "distanceKm": 12.9
+  },
+  "RODELLE": {
+    "bureau": "Espalion",
+    "distanceKm": 11.6
+  },
+  "ROQUEFORT SUR SOULZON": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 10.4
+  },
+  "ROUSSENNAC": {
+    "bureau": "Montbazens",
+    "distanceKm": 4.4
+  },
+  "RULLAC SAINT CIRQ": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 6.8
+  },
+  "SAINT AMANS DES COTS": {
+    "bureau": "Estaing",
+    "distanceKm": 12.7
+  },
+  "SAINT ANDRE DE NAJAC": {
+    "bureau": "Najac",
+    "distanceKm": 5.9
+  },
+  "SAINT ANDRE": {
+    "bureau": "Najac",
+    "distanceKm": 5.9
+  },
+  "SAINT ANDRE DE VEZINES": {
+    "bureau": "Millau",
+    "distanceKm": 13.6
+  },
+  "SAINT BEAULIZE": {
+    "bureau": "Cornus",
+    "distanceKm": 9.0
+  },
+  "SAINT CHRISTOPHE VALLON": {
+    "bureau": "Rignac",
+    "distanceKm": 11.3
+  },
+  "SAINT CHRISTOPHE": {
+    "bureau": "Rignac",
+    "distanceKm": 11.3
+  },
+  "SAINT CHELY D AUBRAC": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 10.3
+  },
+  "SAINT COME D OLT": {
+    "bureau": "Espalion",
+    "distanceKm": 4.8
+  },
+  "SAINT COME": {
+    "bureau": "Espalion",
+    "distanceKm": 4.8
+  },
+  "SAINT FELIX DE LUNEL": {
+    "bureau": "Conques",
+    "distanceKm": 9.7
+  },
+  "SAINT FELIX DE SORGUES": {
+    "bureau": "Camarès",
+    "distanceKm": 10.9
+  },
+  "SAINT GENIEZ D OLT ET D AUBRAC": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 0.0
+  },
+  "SAINT GEORGES DE LUZENCON": {
+    "bureau": "Millau",
+    "distanceKm": 11.4
+  },
+  "SAINT HIPPOLYTE": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 17.6
+  },
+  "SAINT IGEST": {
+    "bureau": "Villeneuve",
+    "distanceKm": 4.9
+  },
+  "SAINT IZAIRE": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 11.8
+  },
+  "SAINT JEAN DELNOUS": {
+    "bureau": "Réquista",
+    "distanceKm": 5.0
+  },
+  "SAINT JEAN D ALCAPIES": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 8.9
+  },
+  "SAINT JEAN DU BRUEL": {
+    "bureau": "Nant",
+    "distanceKm": 8.1
+  },
+  "SAINT JEAN ET SAINT PAUL": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 14.1
+  },
+  "SAINT JUST SUR VIAUR": {
+    "bureau": "Naucelle",
+    "distanceKm": 8.0
+  },
+  "SAINT JUERY": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 7.4
+  },
+  "SAINT LAURENT D OLT": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 10.0
+  },
+  "SAINT LAURENT DE LEVEZOU": {
+    "bureau": "Saint-Beauzély",
+    "distanceKm": 5.1
+  },
+  "SAINT LEONS": {
+    "bureau": "Saint-Beauzély",
+    "distanceKm": 6.4
+  },
+  "SAINT MARTIN DE LENNE": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 10.1
+  },
+  "SAINT PARTHEM": {
+    "bureau": "Decazeville",
+    "distanceKm": 7.9
+  },
+  "SAINT ROME DE CERNON": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 12.2
+  },
+  "SAINT ROME DE TARN": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 9.3
+  },
+  "SAINT REMY": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 5.6
+  },
+  "SAINT SALVADOU": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "SAINT SANTIN": {
+    "bureau": "Decazeville",
+    "distanceKm": 8.0
+  },
+  "SAINT SATURNIN DE LENNE": {
+    "bureau": "Séverac-le-Château",
+    "distanceKm": 10.7
+  },
+  "SAINT SEVER DU MOUSTIER": {
+    "bureau": "Saint-Sernin-sur-Rance",
+    "distanceKm": 12.8
+  },
+  "SAINT SYMPHORIEN DE THENIERES": {
+    "bureau": "Sainte-Geneviève-sur-Argence",
+    "distanceKm": 9.4
+  },
+  "SAINT VICTOR ET MELVIEU": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 11.0
+  },
+  "SAINTE CROIX": {
+    "bureau": "Villeneuve",
+    "distanceKm": 6.4
+  },
+  "SAINTE EULALIE D OLT": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 8.4
+  },
+  "SAINTE EULALIE": {
+    "bureau": "Saint-Geniez-d'Olt",
+    "distanceKm": 8.4
+  },
+  "SAINTE EULALIE DE CERNON": {
+    "bureau": "Cornus",
+    "distanceKm": 8.7
+  },
+  "SAINTE JULIETTE SUR VIAUR": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 5.0
+  },
+  "SAINTE RADEGONDE": {
+    "bureau": "Rodez",
+    "distanceKm": 6.0
+  },
+  "SALLES COURBATIES": {
+    "bureau": "Villeneuve",
+    "distanceKm": 6.3
+  },
+  "SALLES LA SOURCE": {
+    "bureau": "Rodez",
+    "distanceKm": 10.3
+  },
+  "SALMIECH": {
+    "bureau": "Cassagnes-Bégonhès",
+    "distanceKm": 5.9
+  },
+  "SALVAGNAC CAJARC": {
+    "bureau": "Villeneuve",
+    "distanceKm": 12.5
+  },
+  "SANVENSA": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 7.4
+  },
+  "SAUCLIERES": {
+    "bureau": "Nant",
+    "distanceKm": 8.8
+  },
+  "SAUJAC": {
+    "bureau": "Villeneuve",
+    "distanceKm": 10.6
+  },
+  "SAUVETERRE DE ROUERGUE": {
+    "bureau": "Sauveterre",
+    "distanceKm": 0.0
+  },
+  "SAVIGNAC": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 5.8
+  },
+  "SONNAC": {
+    "bureau": "Capdenac-Asprières",
+    "distanceKm": 2.2
+  },
+  "SOULAGES BONNEVAL": {
+    "bureau": "Laguiole",
+    "distanceKm": 7.7
+  },
+  "SYLVANES": {
+    "bureau": "Camarès",
+    "distanceKm": 5.7
+  },
+  "SEBAZAC CONCOURES": {
+    "bureau": "Rodez",
+    "distanceKm": 8.1
+  },
+  "SEBRAZAC": {
+    "bureau": "Estaing",
+    "distanceKm": 4.9
+  },
+  "SEGUR": {
+    "bureau": "Laissac",
+    "distanceKm": 9.0
+  },
+  "SENERGUES": {
+    "bureau": "Conques",
+    "distanceKm": 5.6
+  },
+  "SEVERAC D AVEYRON": {
+    "bureau": "Séverac-le-Château",
+    "distanceKm": 0.0
+  },
+  "SEVERAC L EGLISE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "TAURIAC DE CAMARES": {
+    "bureau": "Camarès",
+    "distanceKm": 13.1
+  },
+  "TAURIAC DE NAUCELLE": {
+    "bureau": "Naucelle",
+    "distanceKm": 5.0
+  },
+  "TAUSSAC": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 6.3
+  },
+  "TAYRAC": {
+    "bureau": "Sauveterre",
+    "distanceKm": 7.5
+  },
+  "THERONDELS": {
+    "bureau": "Mur-de-Barrez",
+    "distanceKm": 5.1
+  },
+  "TOULONJAC": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 4.3
+  },
+  "TOURNEMIRE": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 13.7
+  },
+  "TREMOUILLES": {
+    "bureau": "Pont-de-Salars",
+    "distanceKm": 7.6
+  },
+  "VABRE TIZAC": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "VABRE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "VABRES L ABBAYE": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 4.9
+  },
+  "VABRES": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 4.9
+  },
+  "VAILHOURLES": {
+    "bureau": "Villefranche-de-Rouergue",
+    "distanceKm": 10.6
+  },
+  "VALADY": {
+    "bureau": "Rignac",
+    "distanceKm": 12.5
+  },
+  "VALZERGUES": {
+    "bureau": "Montbazens",
+    "distanceKm": 3.1
+  },
+  "VAUREILLES": {
+    "bureau": "Montbazens",
+    "distanceKm": 3.4
+  },
+  "VERRIERES": {
+    "bureau": "Saint-Beauzély",
+    "distanceKm": 9.0
+  },
+  "VERSOLS ET LAPEYRE": {
+    "bureau": "Saint-Affrique",
+    "distanceKm": 8.9
+  },
+  "VEYREAU": {
+    "bureau": "Millau",
+    "distanceKm": 16.9
+  },
+  "VIALA DU PAS DE JAUX": {
+    "bureau": "Cornus",
+    "distanceKm": 13.0
+  },
+  "VIALA DU TARN": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 9.3
+  },
+  "VILLECOMTAL": {
+    "bureau": "Estaing",
+    "distanceKm": 9.2
+  },
+  "VILLEFRANCHE DE PANAT": {
+    "bureau": "Salles-Curan",
+    "distanceKm": 9.8
+  },
+  "VILLEVAYRE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "VIMENET": {
+    "bureau": "Laissac",
+    "distanceKm": 8.1
+  },
+  "VITRAC EN VIADENE": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "VIVIEZ": {
+    "bureau": "Decazeville",
+    "distanceKm": 3.2
+  },
+  "VIVIEZ LES ALBRES": {
+    "bureau": "Decazeville",
+    "distanceKm": 3.2
+  },
+  "VORS": {
+    "bureau": "Rodez",
+    "distanceKm": 0.0
+  },
+  "VEZINS DE LEVEZOU": {
+    "bureau": "Séverac-le-Château",
+    "distanceKm": 8.9
+  }
+}
