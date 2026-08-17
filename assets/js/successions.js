@@ -328,6 +328,21 @@ export const SUCCESSION_DEPTS = {
         // Portail "Ligeo Archives" (même logiciel que Seine-Maritime/Haute-Garonne/Bouches-du-Rhône).
         catalogUrl: 'https://archives.aveyron.fr/archive/resultats/tablesuccessions/n:128?type=tablesuccessions',
     },
+    '84': {
+        label: 'Vaucluse',
+        kind: 'facet',
+        // Bornes réelles de la série (175 registres scrapés, voir scrape_successions_vaucluse.py) :
+        // seuls 7 bureaux (sur l'ensemble historique du département) ont un fonds numérisé et
+        // consultable en ligne ici (Avignon, Apt, Pertuis, Vaison-la-Romaine, Valréas,
+        // Pernes-les-Fontaines, Sault) - repli par proximité plus grossier qu'ailleurs pour les
+        // communes hors de leur ressort (peu de bureaux à répartir sur tout le département).
+        minYear: 1741,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_84.json',
+        bureauxUrl: './assets/data/successions_84_bureaux.json',
+        // Portail "Anaphore/Bach" (même logiciel que Tarn/Tarn-et-Garonne/Gard/Côtes-d'Armor).
+        catalogUrl: 'https://earchives.vaucluse.fr/archives/search?filter_field=cSubject&filter_value=enregistrement',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
