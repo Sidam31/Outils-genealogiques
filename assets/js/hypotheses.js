@@ -103,13 +103,15 @@ export function initHypotheses() {
     // "cousin issu de germain". "cousin germain" et "cousin remué de germain" traités comme
     // synonymes, tous deux à montée 3 / descente 3 (arrière-grand-parent commun).
     const HYP_TERM_DICT = {
-        oncle: { up: 1, down: 2 }, tante: { up: 1, down: 2 }, neveu_niece: { up: 2, down: 1 },
+        oncle: { up: 2, down: 1 }, tante: { up: 2, down: 1 }, neveu_niece: { up: 1, down: 2 },
+        grand_oncle: { up: 3, down: 1 },
         cousin_germain: { up: 3, down: 3 }, cousin_issu_germain: { up: 2, down: 3 },
         cousin_remue_germain: { up: 3, down: 3 }, cousin_breton: { up: 2, down: 3 }
     };
     const HYP_TERM_LABELS = {
-        pere: "Père", mere: "Mère", beau_pere: "Beau-père", belle_mere: "Belle-mère", ayeul: "Ayeul", frere: "Frère", soeur: "Sœur",
-        oncle: "Oncle", tante: "Tante", neveu_niece: "Neveu/Nièce",
+        pere: "Père", mere: "Mère", grand_pere: "Grand-père", grand_mere: "Grand-mère",
+        beau_pere: "Beau-père", belle_mere: "Belle-mère", ayeul: "Ayeul", frere: "Frère", soeur: "Sœur",
+        oncle: "Oncle", tante: "Tante", grand_oncle: "Grand-oncle", neveu_niece: "Neveu/Nièce",
         cousin_germain: "Cousin germain", cousin_issu_germain: "Cousin issu de germain",
         cousin_remue_germain: "Cousin remué/remis de germain", cousin_breton: "Cousin à la mode de Bretagne",
         canonique_compose: "Degré canonique composé", numerique_libre: "Degré numérique"
@@ -169,6 +171,7 @@ export function initHypotheses() {
             return { candidates };
         }
         if (terme === "pere" || terme === "mere" || terme === "beau_pere" || terme === "belle_mere") return { candidates: [{ up: 1, down: 0 }] };
+        if (terme === "grand_pere" || terme === "grand_mere") return { candidates: [{ up: 2, down: 0 }] };
         if (terme === "frere" || terme === "soeur") return { candidates: [{ up: 1, down: 1 }] };
         const entry = HYP_TERM_DICT[terme];
         if (!entry) return null;
@@ -347,8 +350,8 @@ export function initHypotheses() {
     hypLienNatureEl.addEventListener("change", hypUpdateFormVisibility);
     hypTermeEl.addEventListener("change", () => {
         hypUpdateFormVisibility();
-        if (hypTermeEl.value === "pere") hypBrancheSelect.value = "paternel";
-        if (hypTermeEl.value === "mere") hypBrancheSelect.value = "maternel";
+        if (hypTermeEl.value === "pere" || hypTermeEl.value === "grand_pere") hypBrancheSelect.value = "paternel";
+        if (hypTermeEl.value === "mere" || hypTermeEl.value === "grand_mere") hypBrancheSelect.value = "maternel";
         // Beau-père/belle-mère occupent la place du père/de la mère dans l'arbre (même branche),
         // mais ne sont jamais un lien par le sang : la nature "alliance" est donc forcée plutôt que
         // laissée au choix par défaut ("par le sang"), qui serait faux dans tous les cas.
