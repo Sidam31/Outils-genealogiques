@@ -375,6 +375,23 @@ export const SUCCESSION_DEPTS = {
         // session, contrairement à son cousin apparent qui a bloqué la Charente-Maritime.
         catalogUrl: 'https://recherche-archives.savoie.fr/?id=search1398427899lBzVcZ',
     },
+    '62': {
+        label: 'Pas-de-Calais',
+        kind: 'facet',
+        // Bornes réelles de la série (940 registres scrapés, voir
+        // scrape_successions_pas_de_calais.py). 38 des 40 bureaux du formulaire ont un fonds
+        // "Table des successions et absences" catalogué ; Aire-sur-la-Lys et Frévent n'ont que des
+        // "Tables des successions acquittées" (type exclu, comme ailleurs dans ce projet) - repli
+        // par proximité pour leurs communes. Desvres n'a pas de bureau dans le formulaire du tout
+        // (numérisation annoncée "à venir" par le site source lui-même).
+        minYear: 1791,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_62.json',
+        bureauxUrl: './assets/data/successions_62_bureaux.json',
+        // Portail protégé par Incapsula, contourné avec l'autorisation explicite du service
+        // d'archives du Pas-de-Calais (même précédent que la Haute-Garonne).
+        catalogUrl: 'https://archivesenligne.pasdecalais.fr/console/ir_seriel.php?id=56&p=formulaire_enregistrement_tsa',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
