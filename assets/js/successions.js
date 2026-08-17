@@ -359,6 +359,22 @@ export const SUCCESSION_DEPTS = {
         // visionneuse indépendants de toute session contrairement à son cousin (voir le scraper).
         catalogUrl: 'https://archives.cotedor.fr/console/ir_ead_visu.php?eadid=FRAD021_000001842&ir=23254',
     },
+    '73': {
+        label: 'Savoie',
+        kind: 'facet',
+        // Bornes réelles de la série (168 registres scrapés, voir scrape_successions_savoie.py) :
+        // 21 des 25 bureaux ont un fonds catalogué sous ce type exact ("Tables des décès,
+        // successions et absences") ; les 4 restants (Ugine, La Chambre,
+        // Saint-Michel-de-Maurienne, Yenne) n'en ont pas dans ce catalogue en ligne - repli par
+        // proximité pour leurs communes.
+        minYear: 1858,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_73.json',
+        bureauxUrl: './assets/data/successions_73_bureaux.json',
+        // Portail "Mnesys" (huitième logiciel) : liens de visionneuse "ark:" indépendants de toute
+        // session, contrairement à son cousin apparent qui a bloqué la Charente-Maritime.
+        catalogUrl: 'https://recherche-archives.savoie.fr/?id=search1398427899lBzVcZ',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
