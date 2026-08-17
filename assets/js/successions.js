@@ -445,6 +445,19 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_02_bureaux.json',
         catalogUrl: 'https://archives.aisne.fr/archive/recherche/successionsabsences/n:322',
     },
+    '42': {
+        label: 'Loire',
+        kind: 'facet',
+        // Bornes réelles de la série (628 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['42']) : recherche vide couvrant tout le
+        // fonds "Enregistrement" (donations, sépultures, testaments, successions ACQUITTÉES...),
+        // filtré côté client sur le titre de la visionneuse (aucun champ de formulaire dédié ici).
+        minYear: 1823,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_42.json',
+        bureauxUrl: './assets/data/successions_42_bureaux.json',
+        catalogUrl: 'https://archives.loire.fr/archive/recherche/enregistrement/n:130',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

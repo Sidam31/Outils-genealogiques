@@ -1,0 +1,1346 @@
+{
+  "ABOEN": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 5.2
+  },
+  "AILLEUX": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 6.8
+  },
+  "AMBIERLE": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 4.8
+  },
+  "AMIONS": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "ANDREZIEUX BOUTHEON": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 5.4
+  },
+  "ANDREZIEUX": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 5.4
+  },
+  "APINAC": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 6.5
+  },
+  "ARCINGES": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 5.6
+  },
+  "ARCON": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 7.4
+  },
+  "ARTHUN": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 2.9
+  },
+  "AVEIZIEUX": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 4.4
+  },
+  "BALBIGNY": {
+    "bureau": "Néronde",
+    "distanceKm": 4.1
+  },
+  "BARD": {
+    "bureau": "Montbrison",
+    "distanceKm": 6.6
+  },
+  "BELLEGARDE EN FOREZ": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 4.1
+  },
+  "BELLEROCHE": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 4.7
+  },
+  "BESSEY": {
+    "bureau": "Pélussin",
+    "distanceKm": 5.1
+  },
+  "BOISSET SAINT PRIEST": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 8.6
+  },
+  "BOISSET LES MONTROND": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 8.9
+  },
+  "BONSON": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 3.8
+  },
+  "BOUTHEON": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "BOYER": {
+    "bureau": "Charlieu",
+    "distanceKm": 8.2
+  },
+  "BOEN": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 0.0
+  },
+  "BRIENNON": {
+    "bureau": "Charlieu",
+    "distanceKm": 7.4
+  },
+  "BULLY": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 10.8
+  },
+  "BURDIGNES": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 4.6
+  },
+  "BUSSIERES": {
+    "bureau": "Néronde",
+    "distanceKm": 2.4
+  },
+  "BUSSY ALBIEUX": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 4.6
+  },
+  "CALOIRE": {
+    "bureau": "Firminy",
+    "distanceKm": 5.5
+  },
+  "CELLIEU": {
+    "bureau": "Saint-Chamond",
+    "distanceKm": 6.2
+  },
+  "CERVIERES": {
+    "bureau": "Noirétable",
+    "distanceKm": 4.8
+  },
+  "CEZAY": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 4.5
+  },
+  "CHAGNON": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 5.3
+  },
+  "CHALAIN D UZORE": {
+    "bureau": "Montbrison",
+    "distanceKm": 8.0
+  },
+  "CHALAIN LE COMTAL": {
+    "bureau": "Montbrison",
+    "distanceKm": 9.1
+  },
+  "CHALMAZEL JEANSAGNIERE": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 7.4
+  },
+  "CHALMAZEL": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 7.4
+  },
+  "CHAMBLES": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 4.7
+  },
+  "CHAMBEON": {
+    "bureau": "Feurs",
+    "distanceKm": 6.1
+  },
+  "CHAMBŒUF": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 3.3
+  },
+  "CHAMPDIEU": {
+    "bureau": "Montbrison",
+    "distanceKm": 4.6
+  },
+  "CHAMPOLY": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 8.0
+  },
+  "CHANDON": {
+    "bureau": "Charlieu",
+    "distanceKm": 2.8
+  },
+  "CHANGY": {
+    "bureau": "Pacaudière",
+    "distanceKm": 4.3
+  },
+  "CHAUSSETERRE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 5.8
+  },
+  "CHAVANAY": {
+    "bureau": "Pélussin",
+    "distanceKm": 5.2
+  },
+  "CHAZEAU": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "CHAZELLES SUR LAVIEU": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 3.9
+  },
+  "CHAZELLES SUR LYON": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 5.3
+  },
+  "CHENEREILLES": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 6.6
+  },
+  "CHERIER": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 6.2
+  },
+  "CHEVRIERES": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 6.9
+  },
+  "CHIRASSIMONT": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 6.0
+  },
+  "CHUYER": {
+    "bureau": "Pélussin",
+    "distanceKm": 4.6
+  },
+  "CHATEAUNEUF": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 1.4
+  },
+  "CHATELNEUF": {
+    "bureau": "Montbrison",
+    "distanceKm": 8.4
+  },
+  "CHATELUS": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 8.8
+  },
+  "CIVENS": {
+    "bureau": "Feurs",
+    "distanceKm": 4.0
+  },
+  "CLEPPE": {
+    "bureau": "Feurs",
+    "distanceKm": 4.9
+  },
+  "COLOMBIER": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 6.1
+  },
+  "COMBRE": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 8.4
+  },
+  "COMMELLE VERNAY": {
+    "bureau": "Roanne",
+    "distanceKm": 5.7
+  },
+  "CORDELLE": {
+    "bureau": "Roanne",
+    "distanceKm": 11.7
+  },
+  "COTTANCE": {
+    "bureau": "Néronde",
+    "distanceKm": 6.4
+  },
+  "COUTOUVRE": {
+    "bureau": "Roanne",
+    "distanceKm": 10.2
+  },
+  "CRAINTILLEUX": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 7.2
+  },
+  "CREMEAUX": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 7.0
+  },
+  "CROIZET SUR GAND": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 4.1
+  },
+  "CROIZET": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 4.1
+  },
+  "CUINZIER": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 7.7
+  },
+  "CUZIEU": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 4.2
+  },
+  "DANCE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "DARGOIRE": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 6.4
+  },
+  "DOIZIEUX": {
+    "bureau": "Pélussin",
+    "distanceKm": 6.0
+  },
+  "ESSERTINES EN CHATELNEUF": {
+    "bureau": "Montbrison",
+    "distanceKm": 6.2
+  },
+  "ESSERTINES EN DONZY": {
+    "bureau": "Feurs",
+    "distanceKm": 8.7
+  },
+  "ESTIVAREILLES": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 4.6
+  },
+  "FARNAY": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 4.3
+  },
+  "FONTANES": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 3.9
+  },
+  "FOURNEAUX": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 3.6
+  },
+  "FRAISSES": {
+    "bureau": "Firminy",
+    "distanceKm": 2.3
+  },
+  "GENILAC": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 3.9
+  },
+  "SAINT GENIS TERRENOIRE": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 3.9
+  },
+  "GRAIX": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 6.3
+  },
+  "GRAMMOND": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 6.5
+  },
+  "GREZIEUX LE FROMENTAL": {
+    "bureau": "Montbrison",
+    "distanceKm": 6.4
+  },
+  "GREZOLLES": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 5.8
+  },
+  "GUMIERES": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 3.3
+  },
+  "IZIEUX": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "JARNOSSE": {
+    "bureau": "Charlieu",
+    "distanceKm": 9.1
+  },
+  "JAS": {
+    "bureau": "Feurs",
+    "distanceKm": 7.0
+  },
+  "JEANSAGNIERE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "JONZIEUX": {
+    "bureau": "Saint-Genest-Malifaux",
+    "distanceKm": 7.0
+  },
+  "JURE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 6.3
+  },
+  "L HORME": {
+    "bureau": "Saint-Chamond",
+    "distanceKm": 3.9
+  },
+  "L HOPITAL LE GRAND": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 9.4
+  },
+  "L HOPITAL SOUS ROCHEFORT": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 6.1
+  },
+  "L ETRAT": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 4.3
+  },
+  "LA BENISSON DIEU": {
+    "bureau": "Charlieu",
+    "distanceKm": 9.7
+  },
+  "LA BENISSONS DIEU": {
+    "bureau": "Charlieu",
+    "distanceKm": 9.7
+  },
+  "LA CHAMBA": {
+    "bureau": "Noirétable",
+    "distanceKm": 6.0
+  },
+  "LA CHAMBONIE": {
+    "bureau": "Noirétable",
+    "distanceKm": 7.2
+  },
+  "LA CHAPELLE VILLARS": {
+    "bureau": "Pélussin",
+    "distanceKm": 7.5
+  },
+  "LA CHAPELLE EN LAFAYE": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 5.4
+  },
+  "LA CULA": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "LA COTE SAINT DIDIER": {
+    "bureau": "Noirétable",
+    "distanceKm": 9.5
+  },
+  "SAINT DIDIER SUR ROCHEFORT": {
+    "bureau": "Noirétable",
+    "distanceKm": 9.5
+  },
+  "LA COTE EN COUZAN": {
+    "bureau": "Noirétable",
+    "distanceKm": 8.3
+  },
+  "LA FOUILLOUSE": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 5.8
+  },
+  "LA GIMOND": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 3.5
+  },
+  "LA GRAND CROIX": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 5.1
+  },
+  "LA GRESLE": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 11.2
+  },
+  "LA PACAUDIERE": {
+    "bureau": "Pacaudière",
+    "distanceKm": 0.0
+  },
+  "LA RICAMARIE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 2.2
+  },
+  "LA TALAUDIERE": {
+    "bureau": "Saint-Chamond",
+    "distanceKm": 6.5
+  },
+  "LA TERRASSE SUR DORLAY": {
+    "bureau": "Pélussin",
+    "distanceKm": 6.2
+  },
+  "LA TOUR EN JAREZ": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 4.8
+  },
+  "LA TOURETTE": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 1.6
+  },
+  "LA TUILIERE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 4.1
+  },
+  "LA VALLA EN GIER": {
+    "bureau": "Saint-Chamond",
+    "distanceKm": 7.1
+  },
+  "LA VALLA SUR ROCHEFORT": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 8.5
+  },
+  "LA VALLA": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 8.5
+  },
+  "LA VERSANNE": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 4.6
+  },
+  "LAVIEU": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 4.5
+  },
+  "LAY": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 2.7
+  },
+  "LE BESSAT": {
+    "bureau": "Saint-Genest-Malifaux",
+    "distanceKm": 6.7
+  },
+  "LE CERGNE": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 5.9
+  },
+  "LE CHAMBON FEUGEROLLES": {
+    "bureau": "Chambon-Feugerolles",
+    "distanceKm": 0.0
+  },
+  "LE COTEAU": {
+    "bureau": "Roanne",
+    "distanceKm": 2.7
+  },
+  "LE CROZET": {
+    "bureau": "Pacaudière",
+    "distanceKm": 3.2
+  },
+  "LEIGNEUX": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 1.7
+  },
+  "LENTIGNY": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 9.3
+  },
+  "LES NOES": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 7.4
+  },
+  "LES SALLES": {
+    "bureau": "Noirétable",
+    "distanceKm": 5.8
+  },
+  "LORETTE": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 3.1
+  },
+  "LUPE": {
+    "bureau": "Pélussin",
+    "distanceKm": 6.6
+  },
+  "LURIECQ": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 3.3
+  },
+  "LURE": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 8.3
+  },
+  "LERIGNEUX": {
+    "bureau": "Montbrison",
+    "distanceKm": 9.8
+  },
+  "LEZIGNEUX": {
+    "bureau": "Montbrison",
+    "distanceKm": 4.8
+  },
+  "MABLY": {
+    "bureau": "Roanne",
+    "distanceKm": 5.4
+  },
+  "MACHEZAL": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 7.4
+  },
+  "MACLAS": {
+    "bureau": "Pélussin",
+    "distanceKm": 7.3
+  },
+  "MAGNEUX HAUTE RIVE": {
+    "bureau": "Feurs",
+    "distanceKm": 8.4
+  },
+  "MAIZILLY": {
+    "bureau": "Charlieu",
+    "distanceKm": 5.6
+  },
+  "MALLEVAL": {
+    "bureau": "Pélussin",
+    "distanceKm": 6.7
+  },
+  "MARCENOD": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 8.8
+  },
+  "MARCILLY LE CHATEL": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 6.9
+  },
+  "MARCILLY LE PAVE": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 6.9
+  },
+  "MARCLOPT": {
+    "bureau": "Feurs",
+    "distanceKm": 7.7
+  },
+  "MARCOUX": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 5.2
+  },
+  "MARGERIE CHANTAGRET": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 3.8
+  },
+  "MARINGES": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 7.2
+  },
+  "MARLHES": {
+    "bureau": "Saint-Genest-Malifaux",
+    "distanceKm": 7.5
+  },
+  "MAROLS": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 4.3
+  },
+  "MARS": {
+    "bureau": "Charlieu",
+    "distanceKm": 6.4
+  },
+  "MERLE LEIGNEC": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 7.0
+  },
+  "MERLE": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 7.0
+  },
+  "MIZERIEUX": {
+    "bureau": "Néronde",
+    "distanceKm": 7.6
+  },
+  "MOINGT": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "MONTAGNY": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 9.1
+  },
+  "MONTARCHER": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 5.4
+  },
+  "MONTCHAL": {
+    "bureau": "Néronde",
+    "distanceKm": 7.9
+  },
+  "MONTROND LES BAINS": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 6.7
+  },
+  "MONTVERDUN": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 7.1
+  },
+  "MORNAND EN FOREZ": {
+    "bureau": "Montbrison",
+    "distanceKm": 8.8
+  },
+  "MORNAND": {
+    "bureau": "Montbrison",
+    "distanceKm": 8.8
+  },
+  "NANDAX": {
+    "bureau": "Charlieu",
+    "distanceKm": 7.3
+  },
+  "NEAUX": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 4.8
+  },
+  "NERVIEUX": {
+    "bureau": "Néronde",
+    "distanceKm": 7.3
+  },
+  "NEULISE": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 6.4
+  },
+  "NOAILLY": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 10.5
+  },
+  "NOLLIEUX": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 2.2
+  },
+  "NOTRE DAME DE BOISSET": {
+    "bureau": "Roanne",
+    "distanceKm": 7.3
+  },
+  "OUCHES": {
+    "bureau": "Roanne",
+    "distanceKm": 7.7
+  },
+  "PALOGNEUX": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 4.0
+  },
+  "PANISSIERES": {
+    "bureau": "Néronde",
+    "distanceKm": 10.0
+  },
+  "PARIGNY": {
+    "bureau": "Roanne",
+    "distanceKm": 6.2
+  },
+  "PAVEZIN": {
+    "bureau": "Pélussin",
+    "distanceKm": 4.8
+  },
+  "PERREUX": {
+    "bureau": "Roanne",
+    "distanceKm": 4.9
+  },
+  "PINAY": {
+    "bureau": "Néronde",
+    "distanceKm": 8.7
+  },
+  "PLANFOY": {
+    "bureau": "Saint-Genest-Malifaux",
+    "distanceKm": 3.7
+  },
+  "POMMIERS EN FOREZ": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 5.4
+  },
+  "POMMIERS": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 5.4
+  },
+  "PONCINS": {
+    "bureau": "Feurs",
+    "distanceKm": 5.9
+  },
+  "POUILLY LES NONAINS": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 5.4
+  },
+  "POUILLY LES FEURS": {
+    "bureau": "Néronde",
+    "distanceKm": 4.6
+  },
+  "POUILLY SOUS CHARLIEU": {
+    "bureau": "Charlieu",
+    "distanceKm": 4.6
+  },
+  "PRADINES": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 6.8
+  },
+  "PRALONG": {
+    "bureau": "Montbrison",
+    "distanceKm": 7.9
+  },
+  "PRECIEUX": {
+    "bureau": "Montbrison",
+    "distanceKm": 6.3
+  },
+  "PERIGNEUX": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 7.1
+  },
+  "RENAISON": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 2.4
+  },
+  "RIORGES": {
+    "bureau": "Roanne",
+    "distanceKm": 3.3
+  },
+  "RIVAS": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 5.3
+  },
+  "ROCHE EN FOREZ": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 10.1
+  },
+  "ROCHE": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 10.1
+  },
+  "ROCHE LA MOLIERE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 3.0
+  },
+  "ROCHETAILLEE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "ROISEY": {
+    "bureau": "Pélussin",
+    "distanceKm": 3.6
+  },
+  "ROIZEY": {
+    "bureau": "Pélussin",
+    "distanceKm": 3.6
+  },
+  "ROZIER COTES D AUREC": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 6.8
+  },
+  "ROZIER EN DONZY": {
+    "bureau": "Néronde",
+    "distanceKm": 4.5
+  },
+  "REGNY": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 5.9
+  },
+  "SAIL LES BAINS": {
+    "bureau": "Pacaudière",
+    "distanceKm": 6.7
+  },
+  "SAIL SOUS COUZAN": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 3.9
+  },
+  "SAINT ALBAN LES EAUX": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 6.8
+  },
+  "SAINT ANDRE D APCHON": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 4.5
+  },
+  "SAINT ANDRE LE PUY": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 6.2
+  },
+  "SAINT APPOLINARD": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 8.1
+  },
+  "SAINT BARTHELEMY LESTRA": {
+    "bureau": "Feurs",
+    "distanceKm": 7.9
+  },
+  "SAINT BONNET DES QUARTS": {
+    "bureau": "Pacaudière",
+    "distanceKm": 7.2
+  },
+  "SAINT BONNET LE COURREAU": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 6.1
+  },
+  "SAINT BONNET LES OULES": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 4.0
+  },
+  "SAINT CHRISTO EN JAREZ": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 6.7
+  },
+  "SAINT CYPRIEN": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 5.6
+  },
+  "SAINT CYR DE FAVIERES": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 9.5
+  },
+  "SAINT CYR DE VALORGES": {
+    "bureau": "Néronde",
+    "distanceKm": 8.4
+  },
+  "SAINT CYR LES VIGNES": {
+    "bureau": "Feurs",
+    "distanceKm": 7.6
+  },
+  "SAINT DENIS DE CABANNE": {
+    "bureau": "Charlieu",
+    "distanceKm": 2.9
+  },
+  "SAINT DENIS SUR COISE": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 9.1
+  },
+  "SAINT FORGEUX LESPINASSE": {
+    "bureau": "Pacaudière",
+    "distanceKm": 6.8
+  },
+  "SAINT GENEST LERPT": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 4.2
+  },
+  "SAINT GEORGES HAUTE VILLE": {
+    "bureau": "Montbrison",
+    "distanceKm": 6.8
+  },
+  "SAINT GEORGES DE BAROILLE": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 7.5
+  },
+  "SAINT GERMAIN LESPINASSE": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 6.2
+  },
+  "SAINT GERMAIN LA MONTAGNE": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 5.1
+  },
+  "SAINT HAON LE VIEUX": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 1.4
+  },
+  "SAINT HILAIRE CUSSON LA VALMITTE": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 6.3
+  },
+  "SAINT HILAIRE SOUS CHARLIEU": {
+    "bureau": "Charlieu",
+    "distanceKm": 5.0
+  },
+  "SAINT JEAN BONNEFONDS": {
+    "bureau": "Saint-Chamond",
+    "distanceKm": 4.9
+  },
+  "SAINT JEAN SAINT MAURICE SUR LOIRE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 11.9
+  },
+  "SAINT JEAN LE PUY": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 11.9
+  },
+  "SAINT JEAN LA VETRE": {
+    "bureau": "Noirétable",
+    "distanceKm": 5.3
+  },
+  "SAINT JODARD": {
+    "bureau": "Néronde",
+    "distanceKm": 9.7
+  },
+  "SAINT JOSEPH": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 3.8
+  },
+  "SAINT JULIEN MOLIN MOLETTE": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 4.7
+  },
+  "SAINT JULIEN D ODDES": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 2.4
+  },
+  "SAINT JULIEN EN JAREZ": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT JUST SAINT RAMBERT": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 0.0
+  },
+  "SAINT JUST EN BAS": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 4.8
+  },
+  "SAINT JUST LA PENDUE": {
+    "bureau": "Néronde",
+    "distanceKm": 4.9
+  },
+  "SAINT JUST SUR LOIRE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT LAURENT ROCHEFORT": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 7.9
+  },
+  "SAINT LAURENT LA CONCHE": {
+    "bureau": "Feurs",
+    "distanceKm": 4.4
+  },
+  "SAINT LEGER SUR ROANNE": {
+    "bureau": "Roanne",
+    "distanceKm": 5.9
+  },
+  "SAINT MARCEL D URFE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 7.1
+  },
+  "SAINT MARCEL DE FELINES": {
+    "bureau": "Néronde",
+    "distanceKm": 4.8
+  },
+  "SAINT MARCELLIN EN FOREZ": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 6.2
+  },
+  "SAINT MARTIN LESTRA": {
+    "bureau": "Feurs",
+    "distanceKm": 10.9
+  },
+  "SAINT MARTIN D ESTREAUX": {
+    "bureau": "Pacaudière",
+    "distanceKm": 4.4
+  },
+  "SAINT MARTIN EN COAILLEUX": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN LA PLAINE": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 3.9
+  },
+  "SAINT MARTIN LA SAUVETE": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 7.0
+  },
+  "SAINT MAURICE EN GOURGOIS": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 8.6
+  },
+  "SAINT MAURICE SUR LOIRE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT MICHEL SUR RHONE": {
+    "bureau": "Pélussin",
+    "distanceKm": 6.1
+  },
+  "SAINT MEDARD EN FOREZ": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 3.8
+  },
+  "SAINT NIZIER DE FORNAS": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 2.4
+  },
+  "SAINT NIZIER SOUS CHARLIEU": {
+    "bureau": "Charlieu",
+    "distanceKm": 3.5
+  },
+  "SAINT PAUL D UZORE": {
+    "bureau": "Montbrison",
+    "distanceKm": 8.3
+  },
+  "SAINT PAUL EN CORNILLON": {
+    "bureau": "Firminy",
+    "distanceKm": 4.2
+  },
+  "SAINT PAUL EN JAREZ": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 6.0
+  },
+  "SAINT PIERRE DE BŒUF": {
+    "bureau": "Pélussin",
+    "distanceKm": 8.0
+  },
+  "SAINT PIERRE LA NOAILLE": {
+    "bureau": "Charlieu",
+    "distanceKm": 5.3
+  },
+  "SAINT POLGUES": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 8.6
+  },
+  "SAINT PRIEST EN JAREZ": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 5.6
+  },
+  "SAINT PRIEST LA PRUGNE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 7.0
+  },
+  "SAINT PRIEST LA ROCHE": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 9.3
+  },
+  "SAINT PRIEST LA VETRE": {
+    "bureau": "Noirétable",
+    "distanceKm": 5.5
+  },
+  "SAINT RIRAND": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 6.2
+  },
+  "SAINT ROMAIN D URFE": {
+    "bureau": "Saint-Just-en-Chevalet",
+    "distanceKm": 4.6
+  },
+  "SAINT ROMAIN EN JAREZ": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 7.4
+  },
+  "SAINT ROMAIN LA MOTTE": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 6.0
+  },
+  "SAINT ROMAIN LE PUY": {
+    "bureau": "Montbrison",
+    "distanceKm": 6.8
+  },
+  "SAINT ROMAIN LES ATHEUX": {
+    "bureau": "Chambon-Feugerolles",
+    "distanceKm": 3.9
+  },
+  "SAINT REGIS DU COIN": {
+    "bureau": "Saint-Genest-Malifaux",
+    "distanceKm": 7.4
+  },
+  "SAINT SAUVEUR EN RUE": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 5.7
+  },
+  "SAINT SIXTE": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 3.9
+  },
+  "SAINT THOMAS LA GARDE": {
+    "bureau": "Montbrison",
+    "distanceKm": 3.4
+  },
+  "SAINT THURIN": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT VICTOR SUR LOIRE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT VICTOR SUR RHINS": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 7.7
+  },
+  "SAINT VINCENT DE BOISSET": {
+    "bureau": "Roanne",
+    "distanceKm": 4.7
+  },
+  "SAINT ETIENNE SUR LOIRE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "SAINT ETIENNE LE MOLARD": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 7.2
+  },
+  "SAINTE AGATHE EN DONZY": {
+    "bureau": "Néronde",
+    "distanceKm": 5.7
+  },
+  "SAINTE AGATHE LA BOUTERESSE": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 3.2
+  },
+  "SAINTE COLOMBE SUR GAND": {
+    "bureau": "Néronde",
+    "distanceKm": 4.6
+  },
+  "SAINTE CROIX EN JAREZ": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 5.5
+  },
+  "SAINTE FOY SAINT SULPICE": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 8.4
+  },
+  "SALT EN DONZY": {
+    "bureau": "Feurs",
+    "distanceKm": 4.2
+  },
+  "SALVIZINET": {
+    "bureau": "Feurs",
+    "distanceKm": 4.8
+  },
+  "SAUVAIN": {
+    "bureau": "Saint-Georges-en-Couzan",
+    "distanceKm": 7.2
+  },
+  "SAVIGNEUX": {
+    "bureau": "Montbrison",
+    "distanceKm": 3.2
+  },
+  "SEVELINGES": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 8.7
+  },
+  "SOLEYMIEUX": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 4.0
+  },
+  "SOLORE EN FOREZ": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 5.2
+  },
+  "DEBATS RIVIERE D ORPRA": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 5.2
+  },
+  "SORBIERS": {
+    "bureau": "Saint-Héand",
+    "distanceKm": 5.4
+  },
+  "SOUTERNON": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 5.8
+  },
+  "SURY LE COMTAL": {
+    "bureau": "Saint-Rambert-sur-Loire",
+    "distanceKm": 7.7
+  },
+  "TARENTAISE": {
+    "bureau": "Saint-Genest-Malifaux",
+    "distanceKm": 4.5
+  },
+  "TARTARAS": {
+    "bureau": "Rive-de-Gier",
+    "distanceKm": 5.2
+  },
+  "TERRENOIRE": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 0.0
+  },
+  "THELIS LA COMBE": {
+    "bureau": "Bourg-Argental",
+    "distanceKm": 3.8
+  },
+  "TRELINS": {
+    "bureau": "Boën-sur-Lignon",
+    "distanceKm": 2.8
+  },
+  "UNIAS": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 6.7
+  },
+  "UNIEUX": {
+    "bureau": "Firminy",
+    "distanceKm": 3.0
+  },
+  "URBISE": {
+    "bureau": "Pacaudière",
+    "distanceKm": 7.0
+  },
+  "USSON EN FOREZ": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 10.9
+  },
+  "USSON": {
+    "bureau": "Saint-Bonnet-le-Château",
+    "distanceKm": 10.9
+  },
+  "VALEILLE": {
+    "bureau": "Feurs",
+    "distanceKm": 4.7
+  },
+  "VALFLEURY": {
+    "bureau": "Saint-Chamond",
+    "distanceKm": 7.7
+  },
+  "VEAUCHE": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 5.1
+  },
+  "VEAUCHETTE": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 6.5
+  },
+  "VENDRANGES": {
+    "bureau": "Saint-Symphorien-de-Lay",
+    "distanceKm": 7.1
+  },
+  "VERRIERES EN FOREZ": {
+    "bureau": "Saint-Jean-Soleymieux",
+    "distanceKm": 7.0
+  },
+  "VILLARS": {
+    "bureau": "Saint-Etienne",
+    "distanceKm": 5.0
+  },
+  "VILLEMONTAIS": {
+    "bureau": "Saint-Haon-le-Châtel",
+    "distanceKm": 9.5
+  },
+  "VILLEREST": {
+    "bureau": "Roanne",
+    "distanceKm": 6.6
+  },
+  "VILLERET": {
+    "bureau": "Roanne",
+    "distanceKm": 6.6
+  },
+  "VILLERS": {
+    "bureau": "Charlieu",
+    "distanceKm": 6.1
+  },
+  "VIOLAY": {
+    "bureau": "Néronde",
+    "distanceKm": 8.8
+  },
+  "VIRICELLES": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 7.8
+  },
+  "VIRIGNEUX": {
+    "bureau": "Saint-Galmier",
+    "distanceKm": 9.6
+  },
+  "VIVANS": {
+    "bureau": "Pacaudière",
+    "distanceKm": 4.7
+  },
+  "VOUGY": {
+    "bureau": "Roanne",
+    "distanceKm": 6.8
+  },
+  "VERANNE": {
+    "bureau": "Pélussin",
+    "distanceKm": 6.1
+  },
+  "VERIN": {
+    "bureau": "Pélussin",
+    "distanceKm": 7.6
+  },
+  "VEZELIN SUR LOIRE": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 7.0
+  },
+  "SAINT PAUL DE VEZELIN": {
+    "bureau": "Saint-Germain-Laval",
+    "distanceKm": 7.0
+  },
+  "VETRE SUR ANZON": {
+    "bureau": "Noirétable",
+    "distanceKm": 8.3
+  },
+  "SAINT JULIEN LA VETRE": {
+    "bureau": "Noirétable",
+    "distanceKm": 8.3
+  },
+  "ECOCHE": {
+    "bureau": "Belmont-de-la-Loire",
+    "distanceKm": 3.4
+  },
+  "ECOTAY L OLME": {
+    "bureau": "Montbrison",
+    "distanceKm": 2.6
+  },
+  "EPERCIEUX SAINT PAUL": {
+    "bureau": "Néronde",
+    "distanceKm": 5.7
+  }
+}

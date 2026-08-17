@@ -1,0 +1,4398 @@
+[
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q9746",
+    "yearStart": 1823,
+    "yearEnd": 1839,
+    "url": "https://archives.loire.fr/ark:/51302/vtae7deb9752e16d5c5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10009",
+    "yearStart": 1824,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vta69d712f40f2cbf62/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1542",
+    "yearStart": 1825,
+    "yearEnd": 1828,
+    "url": "https://archives.loire.fr/ark:/51302/vta81f9dacf8e95752c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8509",
+    "yearStart": 1825,
+    "yearEnd": 1828,
+    "url": "https://archives.loire.fr/ark:/51302/vta8791ec0c29250c8f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8510",
+    "yearStart": 1825,
+    "yearEnd": 1828,
+    "url": "https://archives.loire.fr/ark:/51302/vta9d087111712a3400/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q516",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa39909c5302a631e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5783",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.loire.fr/ark:/51302/vta245056d354d00c7f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17208",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.loire.fr/ark:/51302/vta698c63f61796bbb9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q12318",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.loire.fr/ark:/51302/vtaed8b09696d7251e9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3214",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vtac89e7fd392cb82c5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10626",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vtafa9277c16a57a372/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11412",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vtae249fefb0e7c67cc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q765",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d71cf54617ed565/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2084",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.loire.fr/ark:/51302/vta8dcd67a2a7cf0215/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4754",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.loire.fr/ark:/51302/vta216c581b3d0eb2fe/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6886",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf39e5838143b180d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1123",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.loire.fr/ark:/51302/vta1bf44e86d0a8501b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11133",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.loire.fr/ark:/51302/vta8789a4fa2d8444e8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3696",
+    "yearStart": 1825,
+    "yearEnd": 1836,
+    "url": "https://archives.loire.fr/ark:/51302/vtae189d7e297368161/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Noirétable",
+    "cote": "3Q3500",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives.loire.fr/ark:/51302/vta4c3030fe8eb3a5c5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9205",
+    "yearStart": 1825,
+    "yearEnd": 1842,
+    "url": "https://archives.loire.fr/ark:/51302/vtad5ef03bade40f1d0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4058",
+    "yearStart": 1826,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vta340a0c0e9bc726c3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q10406",
+    "yearStart": 1827,
+    "yearEnd": 1840,
+    "url": "https://archives.loire.fr/ark:/51302/vta32ef021fbcfc524f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q517",
+    "yearStart": 1829,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vta59bdbf0b9e512e2f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1543",
+    "yearStart": 1829,
+    "yearEnd": 1833,
+    "url": "https://archives.loire.fr/ark:/51302/vtaac6ce35f42b3eefd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8511",
+    "yearStart": 1829,
+    "yearEnd": 1835,
+    "url": "https://archives.loire.fr/ark:/51302/vta0ce7d02f2dfd68bb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8512",
+    "yearStart": 1829,
+    "yearEnd": 1835,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf502553b55878cd8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5784",
+    "yearStart": 1830,
+    "yearEnd": 1835,
+    "url": "https://archives.loire.fr/ark:/51302/vta1a9fb4b760b01be2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17209",
+    "yearStart": 1830,
+    "yearEnd": 1839,
+    "url": "https://archives.loire.fr/ark:/51302/vtadb9c397c0d19f3c0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q12319",
+    "yearStart": 1833,
+    "yearEnd": 1839,
+    "url": "https://archives.loire.fr/ark:/51302/vta1502362a1dd40edf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4725",
+    "yearStart": 1833,
+    "yearEnd": 1839,
+    "url": "https://archives.loire.fr/ark:/51302/vtaef82f5ca4f4a9ab9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q518",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://archives.loire.fr/ark:/51302/vta0d35ea06144de2b6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11413",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://archives.loire.fr/ark:/51302/vta45519fd28a46a369/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10010",
+    "yearStart": 1833,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf31b6211f7e2b2f8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1544",
+    "yearStart": 1834,
+    "yearEnd": 1838,
+    "url": "https://archives.loire.fr/ark:/51302/vtafe28e00f250e3b2e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10627",
+    "yearStart": 1834,
+    "yearEnd": 1843,
+    "url": "https://archives.loire.fr/ark:/51302/vta71371c6180bb0d3f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3215",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vta1e41b092a6aa9e35/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4059",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vtab64962f38577fbf5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q766",
+    "yearStart": 1834,
+    "yearEnd": 1845,
+    "url": "https://archives.loire.fr/ark:/51302/vta2dde00f45604a7bd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2085",
+    "yearStart": 1835,
+    "yearEnd": 1843,
+    "url": "https://archives.loire.fr/ark:/51302/vta0f152d0f366fe5bf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6887",
+    "yearStart": 1835,
+    "yearEnd": 1843,
+    "url": "https://archives.loire.fr/ark:/51302/vtab63eec273e888d2f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11134",
+    "yearStart": 1835,
+    "yearEnd": 1845,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf344c20f61b329ca/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8513",
+    "yearStart": 1836,
+    "yearEnd": 1838,
+    "url": "https://archives.loire.fr/ark:/51302/vta61b15d05a4651615/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5785",
+    "yearStart": 1836,
+    "yearEnd": 1841,
+    "url": "https://archives.loire.fr/ark:/51302/vta7d7eed3672ab12ed/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1124",
+    "yearStart": 1836,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vta254a08fcc2bf822e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3697",
+    "yearStart": 1836,
+    "yearEnd": 1846,
+    "url": "https://archives.loire.fr/ark:/51302/vta812b0e7b6761aefd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8514",
+    "yearStart": 1839,
+    "yearEnd": 1842,
+    "url": "https://archives.loire.fr/ark:/51302/vta4bea64e1e7c169a7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1545",
+    "yearStart": 1839,
+    "yearEnd": 1843,
+    "url": "https://archives.loire.fr/ark:/51302/vtad76b43a5fcc99a05/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9206",
+    "yearStart": 1839,
+    "yearEnd": 1847,
+    "url": "https://archives.loire.fr/ark:/51302/vtabc3730b79275795a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Noirétable",
+    "cote": "3Q3501",
+    "yearStart": 1839,
+    "yearEnd": 1849,
+    "url": "https://archives.loire.fr/ark:/51302/vta325a490bcdf977d5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q9747",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa202bcccc62c9ebb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2993",
+    "yearStart": 1840,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vta1c1508cfe630eb43/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4726",
+    "yearStart": 1840,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vta95cfe6a938681cb6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17210",
+    "yearStart": 1840,
+    "yearEnd": 1844,
+    "url": "https://archives.loire.fr/ark:/51302/vtab6b3a6d69c211611/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q148",
+    "yearStart": 1840,
+    "yearEnd": 1849,
+    "url": "https://archives.loire.fr/ark:/51302/vtac73bc8bc88796f47/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11414",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives.loire.fr/ark:/51302/vta2ec74b5ce3da0517/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q519",
+    "yearStart": 1841,
+    "yearEnd": 1847,
+    "url": "https://archives.loire.fr/ark:/51302/vtad6c864fc61ce6651/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q10407",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://archives.loire.fr/ark:/51302/vtadf7339da2b05f990/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8515",
+    "yearStart": 1842,
+    "yearEnd": 1843,
+    "url": "https://archives.loire.fr/ark:/51302/vtaea96f35be6cb1439/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5786",
+    "yearStart": 1842,
+    "yearEnd": 1845,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf0a88048ec45e710/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6888",
+    "yearStart": 1843,
+    "yearEnd": 1849,
+    "url": "https://archives.loire.fr/ark:/51302/vta70c06acfb615d0f4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8516",
+    "yearStart": 1844,
+    "yearEnd": 1845,
+    "url": "https://archives.loire.fr/ark:/51302/vta7d0bd3b21ca72e76/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4727",
+    "yearStart": 1844,
+    "yearEnd": 1847,
+    "url": "https://archives.loire.fr/ark:/51302/vta1bc663e9b7463908/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1125",
+    "yearStart": 1844,
+    "yearEnd": 1848,
+    "url": "https://archives.loire.fr/ark:/51302/vta95c553486a5aa643/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2086",
+    "yearStart": 1844,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vta8a6521895bbae3f1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11135",
+    "yearStart": 1844,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vta8d7b6c30df31ca1b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1546",
+    "yearStart": 1844,
+    "yearEnd": 1851,
+    "url": "https://archives.loire.fr/ark:/51302/vta873e3a1ca7feac4d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10628",
+    "yearStart": 1844,
+    "yearEnd": 1851,
+    "url": "https://archives.loire.fr/ark:/51302/vta40eec17a7f874777/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10011",
+    "yearStart": 1844,
+    "yearEnd": 1853,
+    "url": "https://archives.loire.fr/ark:/51302/vta8387b8fed4e3892c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3216",
+    "yearStart": 1844,
+    "yearEnd": 1854,
+    "url": "https://archives.loire.fr/ark:/51302/vta9e9ea963f3511c2a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5787",
+    "yearStart": 1845,
+    "yearEnd": 1847,
+    "url": "https://archives.loire.fr/ark:/51302/vta37c6c61a8b125838/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8517",
+    "yearStart": 1845,
+    "yearEnd": 1847,
+    "url": "https://archives.loire.fr/ark:/51302/vta1e1cc8c769ce1017/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2994",
+    "yearStart": 1845,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vta0d1e0b2c80ce250f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4060",
+    "yearStart": 1845,
+    "yearEnd": 1852,
+    "url": "https://archives.loire.fr/ark:/51302/vtacc874334e772252a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q767",
+    "yearStart": 1846,
+    "yearEnd": 1858,
+    "url": "https://archives.loire.fr/ark:/51302/vta11f69705d1742829/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8518",
+    "yearStart": 1847,
+    "yearEnd": 1848,
+    "url": "https://archives.loire.fr/ark:/51302/vta140d2a186a231fb4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9207",
+    "yearStart": 1847,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa5ef6c145dfb5a7b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11415",
+    "yearStart": 1847,
+    "yearEnd": 1852,
+    "url": "https://archives.loire.fr/ark:/51302/vta671d16f93234259a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3698",
+    "yearStart": 1847,
+    "yearEnd": 1853,
+    "url": "https://archives.loire.fr/ark:/51302/vtaca1ceea830567f34/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5788",
+    "yearStart": 1848,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vtac2b8c2b4c54ac050/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8519",
+    "yearStart": 1848,
+    "yearEnd": 1850,
+    "url": "https://archives.loire.fr/ark:/51302/vta2731e58a2ed6e84a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4728",
+    "yearStart": 1848,
+    "yearEnd": 1851,
+    "url": "https://archives.loire.fr/ark:/51302/vta5dcca55e973eee07/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q520",
+    "yearStart": 1848,
+    "yearEnd": 1855,
+    "url": "https://archives.loire.fr/ark:/51302/vta935fd96d1d780c5d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17211",
+    "yearStart": 1848,
+    "yearEnd": 1858,
+    "url": "https://archives.loire.fr/ark:/51302/vta95686d7b8c2044e9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1126",
+    "yearStart": 1849,
+    "yearEnd": 1853,
+    "url": "https://archives.loire.fr/ark:/51302/vtab8382aa126cf5dd7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q149",
+    "yearStart": 1849,
+    "yearEnd": 1858,
+    "url": "https://archives.loire.fr/ark:/51302/vtaeea8e74df764d7a1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q10408",
+    "yearStart": 1849,
+    "yearEnd": 1860,
+    "url": "https://archives.loire.fr/ark:/51302/vta1f43499205eeadd9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8520",
+    "yearStart": 1850,
+    "yearEnd": 1851,
+    "url": "https://archives.loire.fr/ark:/51302/vtab050d079fbd5703e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5789",
+    "yearStart": 1850,
+    "yearEnd": 1854,
+    "url": "https://archives.loire.fr/ark:/51302/vta9e189262b204dc22/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6889",
+    "yearStart": 1850,
+    "yearEnd": 1855,
+    "url": "https://archives.loire.fr/ark:/51302/vta40addbca91980757/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9208",
+    "yearStart": 1850,
+    "yearEnd": 1856,
+    "url": "https://archives.loire.fr/ark:/51302/vta1967c00a8291ee40/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2087",
+    "yearStart": 1850,
+    "yearEnd": 1857,
+    "url": "https://archives.loire.fr/ark:/51302/vtab1cda428f74cd3d6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q9748",
+    "yearStart": 1850,
+    "yearEnd": 1859,
+    "url": "https://archives.loire.fr/ark:/51302/vta6cf0519dbd79ee9a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Noirétable",
+    "cote": "3Q3502",
+    "yearStart": 1850,
+    "yearEnd": 1861,
+    "url": "https://archives.loire.fr/ark:/51302/vtabb464031f01fd844/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8521",
+    "yearStart": 1851,
+    "yearEnd": 1853,
+    "url": "https://archives.loire.fr/ark:/51302/vta6cf17b2e89dc3141/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11136",
+    "yearStart": 1851,
+    "yearEnd": 1857,
+    "url": "https://archives.loire.fr/ark:/51302/vta9a6606c59b1065f1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2995",
+    "yearStart": 1851,
+    "yearEnd": 1858,
+    "url": "https://archives.loire.fr/ark:/51302/vta4b89e078991ed62c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10629",
+    "yearStart": 1851,
+    "yearEnd": 1859,
+    "url": "https://archives.loire.fr/ark:/51302/vtae2e97f17590a372d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4729",
+    "yearStart": 1852,
+    "yearEnd": 1854,
+    "url": "https://archives.loire.fr/ark:/51302/vtaba13e0a0aec42c02/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1547",
+    "yearStart": 1852,
+    "yearEnd": 1859,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa4b9684e3cf3ada1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11416",
+    "yearStart": 1852,
+    "yearEnd": 1859,
+    "url": "https://archives.loire.fr/ark:/51302/vta0a165455739181c4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8522",
+    "yearStart": 1853,
+    "yearEnd": 1853,
+    "url": "https://archives.loire.fr/ark:/51302/vtadaf274089a956cb6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1127",
+    "yearStart": 1853,
+    "yearEnd": 1856,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf6ec25077004ddec/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3699",
+    "yearStart": 1853,
+    "yearEnd": 1858,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa97139ffab9f6759/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4061",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.loire.fr/ark:/51302/vta2f27f78039feffe4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "3Q9377",
+    "yearStart": 1853,
+    "yearEnd": 1866,
+    "url": "https://archives.loire.fr/ark:/51302/vtaee5900534365855b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8523",
+    "yearStart": 1854,
+    "yearEnd": 1855,
+    "url": "https://archives.loire.fr/ark:/51302/vta237f5c358d92dc26/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5790",
+    "yearStart": 1854,
+    "yearEnd": 1857,
+    "url": "https://archives.loire.fr/ark:/51302/vta8821aeccc8b1402d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10012",
+    "yearStart": 1854,
+    "yearEnd": 1862,
+    "url": "https://archives.loire.fr/ark:/51302/vta8deb9949f10d96ad/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8524",
+    "yearStart": 1855,
+    "yearEnd": 1856,
+    "url": "https://archives.loire.fr/ark:/51302/vtae5c1d02e14726cef/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4730",
+    "yearStart": 1855,
+    "yearEnd": 1857,
+    "url": "https://archives.loire.fr/ark:/51302/vta02cceb9bcaf43ddf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6890",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives.loire.fr/ark:/51302/vta6f3c2d936cc6d389/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3217",
+    "yearStart": 1855,
+    "yearEnd": 1864,
+    "url": "https://archives.loire.fr/ark:/51302/vtacdae8c74db686b02/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8525",
+    "yearStart": 1856,
+    "yearEnd": 1857,
+    "url": "https://archives.loire.fr/ark:/51302/vta1705c014e1b22858/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1128",
+    "yearStart": 1856,
+    "yearEnd": 1859,
+    "url": "https://archives.loire.fr/ark:/51302/vtac2622fe18cd5bb22/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q521",
+    "yearStart": 1856,
+    "yearEnd": 1861,
+    "url": "https://archives.loire.fr/ark:/51302/vta068f89f49aedda0f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9209",
+    "yearStart": 1856,
+    "yearEnd": 1861,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa3dbe963391f1b63/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17131",
+    "yearStart": 1856,
+    "yearEnd": 1861,
+    "url": "https://archives.loire.fr/ark:/51302/vta4b10afaceb183af4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q6290",
+    "yearStart": 1856,
+    "yearEnd": 1864,
+    "url": "https://archives.loire.fr/ark:/51302/vta825be9af505ae9e1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8526",
+    "yearStart": 1857,
+    "yearEnd": 1858,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf3b2dc508b542f9b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8527",
+    "yearStart": 1858,
+    "yearEnd": 1859,
+    "url": "https://archives.loire.fr/ark:/51302/vtae40a485ecc80e947/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4731",
+    "yearStart": 1858,
+    "yearEnd": 1861,
+    "url": "https://archives.loire.fr/ark:/51302/vta1206bb0a49987190/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5791",
+    "yearStart": 1858,
+    "yearEnd": 1862,
+    "url": "https://archives.loire.fr/ark:/51302/vta56db31b092e6ff5f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2996",
+    "yearStart": 1858,
+    "yearEnd": 1863,
+    "url": "https://archives.loire.fr/ark:/51302/vta3ea1dfcfeec35f77/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q150",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa5179562c04efae4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2088",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vtadbf8ff1af3e7f53c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q768",
+    "yearStart": 1858,
+    "yearEnd": 1868,
+    "url": "https://archives.loire.fr/ark:/51302/vtac375fe6055b9624d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3700",
+    "yearStart": 1858,
+    "yearEnd": 1869,
+    "url": "https://archives.loire.fr/ark:/51302/vta4006f0f4427f47b5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10630",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vta04e1a242fefc5fc0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11417",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vta914f5429b6d08a1a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1548",
+    "yearStart": 1859,
+    "yearEnd": 1867,
+    "url": "https://archives.loire.fr/ark:/51302/vta5844cf5938d1096b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q9749",
+    "yearStart": 1859,
+    "yearEnd": 1868,
+    "url": "https://archives.loire.fr/ark:/51302/vta827e7e492328d6fb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8528",
+    "yearStart": 1860,
+    "yearEnd": 1860,
+    "url": "https://archives.loire.fr/ark:/51302/vta1579b65cddf2da28/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1129",
+    "yearStart": 1860,
+    "yearEnd": 1863,
+    "url": "https://archives.loire.fr/ark:/51302/vta53f1c7259dea5114/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6891",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vta1898c7e7bb09086f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q17286",
+    "yearStart": 1860,
+    "yearEnd": 1873,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa05e2ec2cd8651b3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8529",
+    "yearStart": 1861,
+    "yearEnd": 1862,
+    "url": "https://archives.loire.fr/ark:/51302/vta741059047caed890/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4062",
+    "yearStart": 1861,
+    "yearEnd": 1867,
+    "url": "https://archives.loire.fr/ark:/51302/vta25fc1607a36efc75/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9210",
+    "yearStart": 1861,
+    "yearEnd": 1869,
+    "url": "https://archives.loire.fr/ark:/51302/vta301c5a578a28b6c9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17312",
+    "yearStart": 1861,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vta9c6766d786d56f1a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8530",
+    "yearStart": 1862,
+    "yearEnd": 1862,
+    "url": "https://archives.loire.fr/ark:/51302/vtae2ad2e4b50145673/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4732",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vta56de7994b8340d0c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5792",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vtab3711430b7546ae6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17132",
+    "yearStart": 1862,
+    "yearEnd": 1866,
+    "url": "https://archives.loire.fr/ark:/51302/vta7c602b30457ab4df/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Noirétable",
+    "cote": "3Q17259",
+    "yearStart": 1862,
+    "yearEnd": 1873,
+    "url": "https://archives.loire.fr/ark:/51302/vta2b41e2556dafe9e5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8531",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vta1d46e91e3ab0dde8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1130",
+    "yearStart": 1863,
+    "yearEnd": 1867,
+    "url": "https://archives.loire.fr/ark:/51302/vtabd011cefccff2419/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10013",
+    "yearStart": 1863,
+    "yearEnd": 1872,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf141a03d51c9d147/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8532",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://archives.loire.fr/ark:/51302/vta861a3a14d6b49e40/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2997",
+    "yearStart": 1864,
+    "yearEnd": 1866,
+    "url": "https://archives.loire.fr/ark:/51302/vta523c08c0e74aa196/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17212",
+    "yearStart": 1864,
+    "yearEnd": 1872,
+    "url": "https://archives.loire.fr/ark:/51302/vtaac9db2ba443279cc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8533",
+    "yearStart": 1865,
+    "yearEnd": 1866,
+    "url": "https://archives.loire.fr/ark:/51302/vta8c8908e179ac9c09/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5793",
+    "yearStart": 1865,
+    "yearEnd": 1868,
+    "url": "https://archives.loire.fr/ark:/51302/vtad58e7e7b359634ea/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2089",
+    "yearStart": 1865,
+    "yearEnd": 1870,
+    "url": "https://archives.loire.fr/ark:/51302/vta792b2a339aabe940/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q151",
+    "yearStart": 1865,
+    "yearEnd": 1874,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa28389c86cb53632/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3218",
+    "yearStart": 1865,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vta33e066e0b895ab7c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8534",
+    "yearStart": 1866,
+    "yearEnd": 1866,
+    "url": "https://archives.loire.fr/ark:/51302/vta61bd843ab3e43573/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4733",
+    "yearStart": 1866,
+    "yearEnd": 1869,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d08d96cbcc5fc71/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6892",
+    "yearStart": 1866,
+    "yearEnd": 1870,
+    "url": "https://archives.loire.fr/ark:/51302/vta101148a11d613751/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11418",
+    "yearStart": 1866,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vta222b3ee0437247ec/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10631",
+    "yearStart": 1866,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vtae5b4c7fd754c4995/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "3Q9378",
+    "yearStart": 1866,
+    "yearEnd": 1877,
+    "url": "https://archives.loire.fr/ark:/51302/vtacabdd556db5303c9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8535",
+    "yearStart": 1867,
+    "yearEnd": 1867,
+    "url": "https://archives.loire.fr/ark:/51302/vta2554564e62152887/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q12320",
+    "yearStart": 1867,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vtac247d003697314e3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1549",
+    "yearStart": 1867,
+    "yearEnd": 1872,
+    "url": "https://archives.loire.fr/ark:/51302/vta206d15e56f041166/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4063",
+    "yearStart": 1867,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vtabbb56ee77bc1c74c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Georges-en-Couzan",
+    "cote": "3Q9514",
+    "yearStart": 1867,
+    "yearEnd": 1887,
+    "url": "https://archives.loire.fr/ark:/51302/vta4909796db7ea1ac6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8536",
+    "yearStart": 1868,
+    "yearEnd": 1869,
+    "url": "https://archives.loire.fr/ark:/51302/vta260d8255084a867a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1131",
+    "yearStart": 1868,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vta16b865ae5f1c83e5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17313",
+    "yearStart": 1868,
+    "yearEnd": 1874,
+    "url": "https://archives.loire.fr/ark:/51302/vta30725372d9e7038e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17133",
+    "yearStart": 1868,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vtac7d13e2aa26c5ce8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8537",
+    "yearStart": 1869,
+    "yearEnd": 1869,
+    "url": "https://archives.loire.fr/ark:/51302/vtabfc12299bb063e0b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5794",
+    "yearStart": 1869,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vtafbe21ec61cee94c9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q9750",
+    "yearStart": 1869,
+    "yearEnd": 1874,
+    "url": "https://archives.loire.fr/ark:/51302/vta69523b1f19b8c99a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9211",
+    "yearStart": 1869,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vtab33e825117864339/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12961",
+    "yearStart": 1869,
+    "yearEnd": 1877,
+    "url": "https://archives.loire.fr/ark:/51302/vta163c0b2e27b0ae62/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q769",
+    "yearStart": 1869,
+    "yearEnd": 1881,
+    "url": "https://archives.loire.fr/ark:/51302/vta4d0951bc890b3b44/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8538",
+    "yearStart": 1870,
+    "yearEnd": 1870,
+    "url": "https://archives.loire.fr/ark:/51302/vtabe7b89556b436e47/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4734",
+    "yearStart": 1870,
+    "yearEnd": 1873,
+    "url": "https://archives.loire.fr/ark:/51302/vta5a76acca58a2fb5e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3701",
+    "yearStart": 1870,
+    "yearEnd": 1887,
+    "url": "https://archives.loire.fr/ark:/51302/vta037126ab3f858965/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8539",
+    "yearStart": 1871,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vta2c374d1c26d772c9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8540",
+    "yearStart": 1871,
+    "yearEnd": 1871,
+    "url": "https://archives.loire.fr/ark:/51302/vtacb3dbe5114b1beb8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6893",
+    "yearStart": 1871,
+    "yearEnd": 1872,
+    "url": "https://archives.loire.fr/ark:/51302/vta773046ffbf59c6e4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5795",
+    "yearStart": 1871,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vtac31bbaf1b4d2a632/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2090",
+    "yearStart": 1871,
+    "yearEnd": 1877,
+    "url": "https://archives.loire.fr/ark:/51302/vta54e6dd684eb62bc6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8541",
+    "yearStart": 1872,
+    "yearEnd": 1872,
+    "url": "https://archives.loire.fr/ark:/51302/vtac60cbb09df01b390/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1132",
+    "yearStart": 1872,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vta1ff6065d5701f54d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q12321",
+    "yearStart": 1872,
+    "yearEnd": 1876,
+    "url": "https://archives.loire.fr/ark:/51302/vta14a96a19d6e118f9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6894",
+    "yearStart": 1872,
+    "yearEnd": 1877,
+    "url": "https://archives.loire.fr/ark:/51302/vta99697d5dd814ef61/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11419",
+    "yearStart": 1872,
+    "yearEnd": 1879,
+    "url": "https://archives.loire.fr/ark:/51302/vta13e9e95fa8cba599/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1550",
+    "yearStart": 1872,
+    "yearEnd": 1880,
+    "url": "https://archives.loire.fr/ark:/51302/vta66eb19d1438c136a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17213",
+    "yearStart": 1872,
+    "yearEnd": 1883,
+    "url": "https://archives.loire.fr/ark:/51302/vta7f088d11695f0ab6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10014",
+    "yearStart": 1872,
+    "yearEnd": 1884,
+    "url": "https://archives.loire.fr/ark:/51302/vta3814d8c47d9d12cd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8542",
+    "yearStart": 1873,
+    "yearEnd": 1874,
+    "url": "https://archives.loire.fr/ark:/51302/vtaea5d703f696de561/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4735",
+    "yearStart": 1873,
+    "yearEnd": 1877,
+    "url": "https://archives.loire.fr/ark:/51302/vta64b393e5c4d52f76/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17314",
+    "yearStart": 1873,
+    "yearEnd": 1885,
+    "url": "https://archives.loire.fr/ark:/51302/vta081646f02af415ee/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q17287",
+    "yearStart": 1873,
+    "yearEnd": 1892,
+    "url": "https://archives.loire.fr/ark:/51302/vta7a4a41646925d393/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Noirétable",
+    "cote": "3Q17260",
+    "yearStart": 1873,
+    "yearEnd": 1893,
+    "url": "https://archives.loire.fr/ark:/51302/vtae2bcdebdf991bf60/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8543",
+    "yearStart": 1874,
+    "yearEnd": 1874,
+    "url": "https://archives.loire.fr/ark:/51302/vta0e984fd5db80ffda/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8544",
+    "yearStart": 1874,
+    "yearEnd": 1875,
+    "url": "https://archives.loire.fr/ark:/51302/vta6a1b2f42a979645c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q152",
+    "yearStart": 1874,
+    "yearEnd": 1887,
+    "url": "https://archives.loire.fr/ark:/51302/vtac6e1f5ffa46b1fde/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8545",
+    "yearStart": 1875,
+    "yearEnd": 1876,
+    "url": "https://archives.loire.fr/ark:/51302/vtad44288ab56adb4b4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5796",
+    "yearStart": 1875,
+    "yearEnd": 1879,
+    "url": "https://archives.loire.fr/ark:/51302/vta0b9a6a07d229399d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9212",
+    "yearStart": 1875,
+    "yearEnd": 1885,
+    "url": "https://archives.loire.fr/ark:/51302/vtadf730dbbbe30fb7f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11137",
+    "yearStart": 1875,
+    "yearEnd": 1885,
+    "url": "https://archives.loire.fr/ark:/51302/vta6bddae973ab3b629/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q9751",
+    "yearStart": 1875,
+    "yearEnd": 1888,
+    "url": "https://archives.loire.fr/ark:/51302/vta1ae05fe861bc1622/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q10632",
+    "yearStart": 1875,
+    "yearEnd": 1889,
+    "url": "https://archives.loire.fr/ark:/51302/vtadc6e59b732564f2c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3219",
+    "yearStart": 1875,
+    "yearEnd": 1892,
+    "url": "https://archives.loire.fr/ark:/51302/vtac3fba4e01e0d36d0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8546",
+    "yearStart": 1876,
+    "yearEnd": 1876,
+    "url": "https://archives.loire.fr/ark:/51302/vta4c1aa408f111e23a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1133",
+    "yearStart": 1876,
+    "yearEnd": 1880,
+    "url": "https://archives.loire.fr/ark:/51302/vta7a4155866b117ddb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4064",
+    "yearStart": 1876,
+    "yearEnd": 1888,
+    "url": "https://archives.loire.fr/ark:/51302/vta57417aff865480d5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8547",
+    "yearStart": 1877,
+    "yearEnd": 1877,
+    "url": "https://archives.loire.fr/ark:/51302/vtadcb6e2f9c07bb786/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q12322",
+    "yearStart": 1877,
+    "yearEnd": 1883,
+    "url": "https://archives.loire.fr/ark:/51302/vta996f6f74f9225537/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "3Q9379",
+    "yearStart": 1877,
+    "yearEnd": 1895,
+    "url": "https://archives.loire.fr/ark:/51302/vta71822d9d79bd7211/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8548",
+    "yearStart": 1878,
+    "yearEnd": 1878,
+    "url": "https://archives.loire.fr/ark:/51302/vta3acc50167c3cefaf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4736",
+    "yearStart": 1878,
+    "yearEnd": 1882,
+    "url": "https://archives.loire.fr/ark:/51302/vta6022290572d52f03/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6895",
+    "yearStart": 1878,
+    "yearEnd": 1883,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d6566eee461c281/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2091",
+    "yearStart": 1878,
+    "yearEnd": 1886,
+    "url": "https://archives.loire.fr/ark:/51302/vta42df2146231613cf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8549",
+    "yearStart": 1879,
+    "yearEnd": 1879,
+    "url": "https://archives.loire.fr/ark:/51302/vta292226f0eadbb080/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5797",
+    "yearStart": 1879,
+    "yearEnd": 1883,
+    "url": "https://archives.loire.fr/ark:/51302/vta756c180b90e566d5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q10134",
+    "yearStart": 1879,
+    "yearEnd": 1886,
+    "url": "https://archives.loire.fr/ark:/51302/vta9b84145b70a61cb0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8550",
+    "yearStart": 1880,
+    "yearEnd": 1880,
+    "url": "https://archives.loire.fr/ark:/51302/vta6d7a2d606375f3f5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1134",
+    "yearStart": 1880,
+    "yearEnd": 1883,
+    "url": "https://archives.loire.fr/ark:/51302/vta32bf7757b5018fd5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q11420",
+    "yearStart": 1880,
+    "yearEnd": 1890,
+    "url": "https://archives.loire.fr/ark:/51302/vta2f307a5b353d914a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q1551",
+    "yearStart": 1880,
+    "yearEnd": 1891,
+    "url": "https://archives.loire.fr/ark:/51302/vta08551086ddf7b56d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8551",
+    "yearStart": 1881,
+    "yearEnd": 1881,
+    "url": "https://archives.loire.fr/ark:/51302/vtae0acdf96cb2bc2c6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8552",
+    "yearStart": 1882,
+    "yearEnd": 1882,
+    "url": "https://archives.loire.fr/ark:/51302/vta02bcae59f4c93133/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4737",
+    "yearStart": 1882,
+    "yearEnd": 1886,
+    "url": "https://archives.loire.fr/ark:/51302/vta42502a4840e76b6a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q770",
+    "yearStart": 1882,
+    "yearEnd": 1895,
+    "url": "https://archives.loire.fr/ark:/51302/vta5b90b4facf338621/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8553",
+    "yearStart": 1883,
+    "yearEnd": 1883,
+    "url": "https://archives.loire.fr/ark:/51302/vta43f524d5cdfc3b46/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5798",
+    "yearStart": 1883,
+    "yearEnd": 1885,
+    "url": "https://archives.loire.fr/ark:/51302/vta0247320ff3d22f02/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6896",
+    "yearStart": 1883,
+    "yearEnd": 1888,
+    "url": "https://archives.loire.fr/ark:/51302/vta1c48428e7e6c7ede/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17315",
+    "yearStart": 1883,
+    "yearEnd": 1894,
+    "url": "https://archives.loire.fr/ark:/51302/vtadffec85c63e58cf8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17214",
+    "yearStart": 1883,
+    "yearEnd": 1895,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa104877b7c3102f7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8554",
+    "yearStart": 1884,
+    "yearEnd": 1884,
+    "url": "https://archives.loire.fr/ark:/51302/vta33522d439e858217/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1135",
+    "yearStart": 1884,
+    "yearEnd": 1888,
+    "url": "https://archives.loire.fr/ark:/51302/vta88659ee154a3648f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2998",
+    "yearStart": 1884,
+    "yearEnd": 1890,
+    "url": "https://archives.loire.fr/ark:/51302/vta9638ea0aee53738b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9213",
+    "yearStart": 1884,
+    "yearEnd": 1892,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa1c722e0fbe624e2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8555",
+    "yearStart": 1885,
+    "yearEnd": 1885,
+    "url": "https://archives.loire.fr/ark:/51302/vta4e4e703ab7076628/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8556",
+    "yearStart": 1885,
+    "yearEnd": 1886,
+    "url": "https://archives.loire.fr/ark:/51302/vta378b03f9a9c1a9f4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q10015",
+    "yearStart": 1885,
+    "yearEnd": 1894,
+    "url": "https://archives.loire.fr/ark:/51302/vta1319bdee3688d6de/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5799",
+    "yearStart": 1886,
+    "yearEnd": 1889,
+    "url": "https://archives.loire.fr/ark:/51302/vta8dcce227ca6c5033/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17134",
+    "yearStart": 1886,
+    "yearEnd": 1894,
+    "url": "https://archives.loire.fr/ark:/51302/vta8d71b2594b566fbf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8557",
+    "yearStart": 1887,
+    "yearEnd": 1887,
+    "url": "https://archives.loire.fr/ark:/51302/vta84695f8180bcd3e3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4738",
+    "yearStart": 1887,
+    "yearEnd": 1891,
+    "url": "https://archives.loire.fr/ark:/51302/vta82797fd5fa330289/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2092",
+    "yearStart": 1887,
+    "yearEnd": 1896,
+    "url": "https://archives.loire.fr/ark:/51302/vta1d010f0a49e8ad41/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Georges-en-Couzan",
+    "cote": "3Q9515",
+    "yearStart": 1887,
+    "yearEnd": 1898,
+    "url": "https://archives.loire.fr/ark:/51302/vtab8bbf0759f7a05a1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q10135",
+    "yearStart": 1887,
+    "yearEnd": 1898,
+    "url": "https://archives.loire.fr/ark:/51302/vtad1ceec5739852606/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q153",
+    "yearStart": 1887,
+    "yearEnd": 1899,
+    "url": "https://archives.loire.fr/ark:/51302/vta8d4f0bd3e939e8cd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q3702",
+    "yearStart": 1887,
+    "yearEnd": 1904,
+    "url": "https://archives.loire.fr/ark:/51302/vta1020b42044018306/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8558",
+    "yearStart": 1888,
+    "yearEnd": 1888,
+    "url": "https://archives.loire.fr/ark:/51302/vta9c86511f07fd589f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8559",
+    "yearStart": 1888,
+    "yearEnd": 1889,
+    "url": "https://archives.loire.fr/ark:/51302/vtab947109955a12a19/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1136",
+    "yearStart": 1888,
+    "yearEnd": 1891,
+    "url": "https://archives.loire.fr/ark:/51302/vta2a1391a94863efb0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6897",
+    "yearStart": 1888,
+    "yearEnd": 1893,
+    "url": "https://archives.loire.fr/ark:/51302/vta6e05bf71c331bde8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4065",
+    "yearStart": 1888,
+    "yearEnd": 1897,
+    "url": "https://archives.loire.fr/ark:/51302/vta89c06aa493fb4dd0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15549",
+    "yearStart": 1888,
+    "yearEnd": 1904,
+    "url": "https://archives.loire.fr/ark:/51302/vta88fe68eca807a1a6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8560",
+    "yearStart": 1889,
+    "yearEnd": 1890,
+    "url": "https://archives.loire.fr/ark:/51302/vtad7e6a8913db8fb31/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q15545",
+    "yearStart": 1889,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vta0ac30f25ad8aaaa4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8561",
+    "yearStart": 1890,
+    "yearEnd": 1891,
+    "url": "https://archives.loire.fr/ark:/51302/vtad37c323f6cec7174/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5800",
+    "yearStart": 1890,
+    "yearEnd": 1893,
+    "url": "https://archives.loire.fr/ark:/51302/vta6f2fe15181225ce4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q2999",
+    "yearStart": 1890,
+    "yearEnd": 1896,
+    "url": "https://archives.loire.fr/ark:/51302/vta33c6943dab4df064/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16622",
+    "yearStart": 1890,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vta3cecef9459d80e88/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15559",
+    "yearStart": 1891,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vta468863cc11ca5f30/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8562",
+    "yearStart": 1892,
+    "yearEnd": 1892,
+    "url": "https://archives.loire.fr/ark:/51302/vtaeea6d91ff8cda070/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q1137",
+    "yearStart": 1892,
+    "yearEnd": 1896,
+    "url": "https://archives.loire.fr/ark:/51302/vtafb792b4e150ac516/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4739",
+    "yearStart": 1892,
+    "yearEnd": 1897,
+    "url": "https://archives.loire.fr/ark:/51302/vtaef7ee46d0ba33f5e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q3220",
+    "yearStart": 1892,
+    "yearEnd": 1899,
+    "url": "https://archives.loire.fr/ark:/51302/vta6659a0e10602fc27/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9214",
+    "yearStart": 1892,
+    "yearEnd": 1899,
+    "url": "https://archives.loire.fr/ark:/51302/vtac582b3be4553c053/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q17288",
+    "yearStart": 1892,
+    "yearEnd": 1907,
+    "url": "https://archives.loire.fr/ark:/51302/vta718bf12164942471/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8563",
+    "yearStart": 1893,
+    "yearEnd": 1893,
+    "url": "https://archives.loire.fr/ark:/51302/vta2ca477456ffcdd42/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q5801",
+    "yearStart": 1893,
+    "yearEnd": 1896,
+    "url": "https://archives.loire.fr/ark:/51302/vta28f574dc6ec295be/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6898",
+    "yearStart": 1893,
+    "yearEnd": 1898,
+    "url": "https://archives.loire.fr/ark:/51302/vta35c010124cf8b979/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q11686",
+    "yearStart": 1893,
+    "yearEnd": 1904,
+    "url": "https://archives.loire.fr/ark:/51302/vta542fb98515fbd17a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8564",
+    "yearStart": 1894,
+    "yearEnd": 1894,
+    "url": "https://archives.loire.fr/ark:/51302/vta5e527a546c29e4e2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q15539",
+    "yearStart": 1894,
+    "yearEnd": 1907,
+    "url": "https://archives.loire.fr/ark:/51302/vtaebee377975823a46/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8565",
+    "yearStart": 1895,
+    "yearEnd": 1895,
+    "url": "https://archives.loire.fr/ark:/51302/vta49029a87b7a95188/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17135",
+    "yearStart": 1895,
+    "yearEnd": 1903,
+    "url": "https://archives.loire.fr/ark:/51302/vtae29423fa756fa08e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17215",
+    "yearStart": 1895,
+    "yearEnd": 1908,
+    "url": "https://archives.loire.fr/ark:/51302/vtae898913759acfcd0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "3Q12299",
+    "yearStart": 1895,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta38d2a549ba4537f6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8566",
+    "yearStart": 1896,
+    "yearEnd": 1896,
+    "url": "https://archives.loire.fr/ark:/51302/vta2395f090bd6bf39d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18780",
+    "yearStart": 1896,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vtaddfae5a00f1fa7fa/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q12298",
+    "yearStart": 1896,
+    "yearEnd": 1912,
+    "url": "https://archives.loire.fr/ark:/51302/vtad414f36c37362577/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8567",
+    "yearStart": 1897,
+    "yearEnd": 1897,
+    "url": "https://archives.loire.fr/ark:/51302/vtae699b3911cbfd112/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15495",
+    "yearStart": 1897,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vta77916dd387c361c0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4740",
+    "yearStart": 1897,
+    "yearEnd": 1902,
+    "url": "https://archives.loire.fr/ark:/51302/vtafbb47aa5435de249/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2093",
+    "yearStart": 1897,
+    "yearEnd": 1903,
+    "url": "https://archives.loire.fr/ark:/51302/vtafa89ae21ba336250/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q3000",
+    "yearStart": 1897,
+    "yearEnd": 1904,
+    "url": "https://archives.loire.fr/ark:/51302/vta233b3e2d538c5585/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4066",
+    "yearStart": 1897,
+    "yearEnd": 1905,
+    "url": "https://archives.loire.fr/ark:/51302/vta5029b9d396b23908/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8568",
+    "yearStart": 1898,
+    "yearEnd": 1898,
+    "url": "https://archives.loire.fr/ark:/51302/vtaae508c56387623c5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6899",
+    "yearStart": 1898,
+    "yearEnd": 1902,
+    "url": "https://archives.loire.fr/ark:/51302/vta1a8c28a6dd530114/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Georges-en-Couzan",
+    "cote": "3Q9516",
+    "yearStart": 1898,
+    "yearEnd": 1920,
+    "url": "https://archives.loire.fr/ark:/51302/vtac215d57d76c66714/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8569",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vtad1ab62bf7b99a462/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q8570",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vta1cf978a6b23d4367/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9215",
+    "yearStart": 1899,
+    "yearEnd": 1908,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf99f826e69bc97a2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12962",
+    "yearStart": 1899,
+    "yearEnd": 1913,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa16a44afd43b2418/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q16632",
+    "yearStart": 1899,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa4045bfde2214407/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11790",
+    "yearStart": 1900,
+    "yearEnd": 1900,
+    "url": "https://archives.loire.fr/ark:/51302/vta796d75da2012b668/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15496",
+    "yearStart": 1900,
+    "yearEnd": 1903,
+    "url": "https://archives.loire.fr/ark:/51302/vta08e38af0cdff702d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18781",
+    "yearStart": 1900,
+    "yearEnd": 1904,
+    "url": "https://archives.loire.fr/ark:/51302/vta63031bba3394f2cc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16623",
+    "yearStart": 1900,
+    "yearEnd": 1910,
+    "url": "https://archives.loire.fr/ark:/51302/vta6a42656d6c70bf33/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q15557",
+    "yearStart": 1900,
+    "yearEnd": 1917,
+    "url": "https://archives.loire.fr/ark:/51302/vtae4375b28d2d258f8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11791",
+    "yearStart": 1901,
+    "yearEnd": 1901,
+    "url": "https://archives.loire.fr/ark:/51302/vtacc951733ec130803/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15560",
+    "yearStart": 1901,
+    "yearEnd": 1912,
+    "url": "https://archives.loire.fr/ark:/51302/vta5a391305ec8c2b5e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q15546",
+    "yearStart": 1901,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta09a485632b596020/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11792",
+    "yearStart": 1902,
+    "yearEnd": 1902,
+    "url": "https://archives.loire.fr/ark:/51302/vta19e7b974ca940497/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4741",
+    "yearStart": 1902,
+    "yearEnd": 1906,
+    "url": "https://archives.loire.fr/ark:/51302/vtad8377836d8430ea8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6900",
+    "yearStart": 1902,
+    "yearEnd": 1906,
+    "url": "https://archives.loire.fr/ark:/51302/vta4eb6f8c759fd941a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11793",
+    "yearStart": 1903,
+    "yearEnd": 1903,
+    "url": "https://archives.loire.fr/ark:/51302/vta99b4f3b765162f7c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15497",
+    "yearStart": 1903,
+    "yearEnd": 1906,
+    "url": "https://archives.loire.fr/ark:/51302/vtaefa2094c51af7059/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11138",
+    "yearStart": 1903,
+    "yearEnd": 1910,
+    "url": "https://archives.loire.fr/ark:/51302/vta4a0d2459aaf5ad35/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11794",
+    "yearStart": 1904,
+    "yearEnd": 1904,
+    "url": "https://archives.loire.fr/ark:/51302/vta85d786fd46ff2a28/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18782",
+    "yearStart": 1904,
+    "yearEnd": 1907,
+    "url": "https://archives.loire.fr/ark:/51302/vta304c89e64ca68518/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2094",
+    "yearStart": 1904,
+    "yearEnd": 1913,
+    "url": "https://archives.loire.fr/ark:/51302/vtad8de88925aa0dc80/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15550",
+    "yearStart": 1904,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta493ade95ba93a01e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q15534",
+    "yearStart": 1904,
+    "yearEnd": 1925,
+    "url": "https://archives.loire.fr/ark:/51302/vta2195ad63cfa9010e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11795",
+    "yearStart": 1905,
+    "yearEnd": 1905,
+    "url": "https://archives.loire.fr/ark:/51302/vta0ed03f5b2c9e6dac/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11835",
+    "yearStart": 1905,
+    "yearEnd": 1910,
+    "url": "https://archives.loire.fr/ark:/51302/vtaef884933d2333d47/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q3001",
+    "yearStart": 1905,
+    "yearEnd": 1911,
+    "url": "https://archives.loire.fr/ark:/51302/vtae7d014a25e721745/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17316",
+    "yearStart": 1905,
+    "yearEnd": 1914,
+    "url": "https://archives.loire.fr/ark:/51302/vta88e52e1a8c94f7ec/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4067",
+    "yearStart": 1905,
+    "yearEnd": 1919,
+    "url": "https://archives.loire.fr/ark:/51302/vtaeaf2662aaaafbd41/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11796",
+    "yearStart": 1906,
+    "yearEnd": 1906,
+    "url": "https://archives.loire.fr/ark:/51302/vta0f64ca92468597f0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11797",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "url": "https://archives.loire.fr/ark:/51302/vta93e58e806bd49af7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11798",
+    "yearStart": 1907,
+    "yearEnd": 1907,
+    "url": "https://archives.loire.fr/ark:/51302/vtaba97cd3d7ec12c0f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4742",
+    "yearStart": 1907,
+    "yearEnd": 1909,
+    "url": "https://archives.loire.fr/ark:/51302/vta3d62e8ca8e3e8e18/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15498",
+    "yearStart": 1907,
+    "yearEnd": 1909,
+    "url": "https://archives.loire.fr/ark:/51302/vta63254fe1d21f9009/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6901",
+    "yearStart": 1907,
+    "yearEnd": 1909,
+    "url": "https://archives.loire.fr/ark:/51302/vta9c2b1a590e3b88fc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18783",
+    "yearStart": 1907,
+    "yearEnd": 1910,
+    "url": "https://archives.loire.fr/ark:/51302/vta425a56212217dbf8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q15540",
+    "yearStart": 1907,
+    "yearEnd": 1923,
+    "url": "https://archives.loire.fr/ark:/51302/vta6e81f057fa40966f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q17289",
+    "yearStart": 1907,
+    "yearEnd": 1924,
+    "url": "https://archives.loire.fr/ark:/51302/vta764a68a88af0caa4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11799",
+    "yearStart": 1908,
+    "yearEnd": 1908,
+    "url": "https://archives.loire.fr/ark:/51302/vtae426616a563dda7d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9216",
+    "yearStart": 1908,
+    "yearEnd": 1916,
+    "url": "https://archives.loire.fr/ark:/51302/vta59806528e747e835/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q6291",
+    "yearStart": 1908,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta50e1ac89feaa29a9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11800",
+    "yearStart": 1909,
+    "yearEnd": 1909,
+    "url": "https://archives.loire.fr/ark:/51302/vta521f081ebf10a229/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15499",
+    "yearStart": 1909,
+    "yearEnd": 1911,
+    "url": "https://archives.loire.fr/ark:/51302/vta67393180eed66fad/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11801",
+    "yearStart": 1910,
+    "yearEnd": 1910,
+    "url": "https://archives.loire.fr/ark:/51302/vtafe1f46244ec34068/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18784",
+    "yearStart": 1910,
+    "yearEnd": 1913,
+    "url": "https://archives.loire.fr/ark:/51302/vta4ac699283bbb16e6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6902",
+    "yearStart": 1910,
+    "yearEnd": 1913,
+    "url": "https://archives.loire.fr/ark:/51302/vta11ba3edad9b000f0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4743",
+    "yearStart": 1910,
+    "yearEnd": 1914,
+    "url": "https://archives.loire.fr/ark:/51302/vtab817c6c71bf2b16e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16624",
+    "yearStart": 1910,
+    "yearEnd": 1920,
+    "url": "https://archives.loire.fr/ark:/51302/vtab60a326c5eae56de/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11802",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa2802768fb4dd30a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15500",
+    "yearStart": 1911,
+    "yearEnd": 1914,
+    "url": "https://archives.loire.fr/ark:/51302/vta9860e9229064fba2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11139",
+    "yearStart": 1911,
+    "yearEnd": 1916,
+    "url": "https://archives.loire.fr/ark:/51302/vta54fa763073a18a16/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11836",
+    "yearStart": 1911,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta07a3e4905f2279fb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11803",
+    "yearStart": 1912,
+    "yearEnd": 1912,
+    "url": "https://archives.loire.fr/ark:/51302/vta0dae683e74e612e5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q3002",
+    "yearStart": 1912,
+    "yearEnd": 1917,
+    "url": "https://archives.loire.fr/ark:/51302/vta1559c41e4e890061/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q11687",
+    "yearStart": 1912,
+    "yearEnd": 1920,
+    "url": "https://archives.loire.fr/ark:/51302/vta0a01050f0132ee72/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q12267",
+    "yearStart": 1912,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta4e40f17266729a3e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11804",
+    "yearStart": 1913,
+    "yearEnd": 1913,
+    "url": "https://archives.loire.fr/ark:/51302/vta4a3d9c3f157387ce/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18785",
+    "yearStart": 1913,
+    "yearEnd": 1916,
+    "url": "https://archives.loire.fr/ark:/51302/vta5915a056b25fa502/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6903",
+    "yearStart": 1913,
+    "yearEnd": 1916,
+    "url": "https://archives.loire.fr/ark:/51302/vtae22da5c0f25be649/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15561",
+    "yearStart": 1913,
+    "yearEnd": 1919,
+    "url": "https://archives.loire.fr/ark:/51302/vta248660de23844bf9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18798",
+    "yearStart": 1913,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta5b6ef0727f147ac1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11805",
+    "yearStart": 1914,
+    "yearEnd": 1914,
+    "url": "https://archives.loire.fr/ark:/51302/vtabdd40bb55e2af54f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15501",
+    "yearStart": 1914,
+    "yearEnd": 1916,
+    "url": "https://archives.loire.fr/ark:/51302/vta388ba8be7e0265ae/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11811",
+    "yearStart": 1914,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta493d7cc0fa59e5f5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2095",
+    "yearStart": 1914,
+    "yearEnd": 1919,
+    "url": "https://archives.loire.fr/ark:/51302/vta77efe31eb2cb409a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12963",
+    "yearStart": 1914,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta92bc44554bed5271/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11806",
+    "yearStart": 1915,
+    "yearEnd": 1915,
+    "url": "https://archives.loire.fr/ark:/51302/vta6f74c2c5d124da31/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4744",
+    "yearStart": 1915,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta4c5172910da77c6d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11807",
+    "yearStart": 1916,
+    "yearEnd": 1916,
+    "url": "https://archives.loire.fr/ark:/51302/vtac148a7fa802fa65c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18786",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta04e12bdf2be534c0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15502",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vtab7a8adbd089e2b21/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6904",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vtabbaa25fcb072f1c1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11808",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives.loire.fr/ark:/51302/vta656338d56c2e6fbf/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9217",
+    "yearStart": 1917,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta001fb92f8ba54a99/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11140",
+    "yearStart": 1917,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta667d562a6a9371e7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q3003",
+    "yearStart": 1917,
+    "yearEnd": 1923,
+    "url": "https://archives.loire.fr/ark:/51302/vtafc1eea7f01baa034/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Belmont-de-la-Loire",
+    "cote": "3Q15558",
+    "yearStart": 1917,
+    "yearEnd": 1926,
+    "url": "https://archives.loire.fr/ark:/51302/vta3ba9e6298e9c0a97/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Georges-en-Couzan",
+    "cote": "3Q9517",
+    "yearStart": 1917,
+    "yearEnd": 1933,
+    "url": "https://archives.loire.fr/ark:/51302/vta9c4f449ff3f8d84a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11809",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta87a88bb4f81bfdd1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11810",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.loire.fr/ark:/51302/vta9b6f89ada447c0e3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18787",
+    "yearStart": 1918,
+    "yearEnd": 1920,
+    "url": "https://archives.loire.fr/ark:/51302/vta77038cf92ae1dde1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15503",
+    "yearStart": 1918,
+    "yearEnd": 1920,
+    "url": "https://archives.loire.fr/ark:/51302/vta4242ef46ea5fcd46/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4745",
+    "yearStart": 1918,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf4005b99e82a7f57/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6905",
+    "yearStart": 1918,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta8ea3f0df8d8e5123/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16625",
+    "yearStart": 1918,
+    "yearEnd": 1925,
+    "url": "https://archives.loire.fr/ark:/51302/vtaea99d4d0780d8bbc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q16633",
+    "yearStart": 1918,
+    "yearEnd": 1927,
+    "url": "https://archives.loire.fr/ark:/51302/vta50d32d29cf591fd4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q6292",
+    "yearStart": 1918,
+    "yearEnd": 1929,
+    "url": "https://archives.loire.fr/ark:/51302/vtae83020b7efc07eeb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15551",
+    "yearStart": 1918,
+    "yearEnd": 1930,
+    "url": "https://archives.loire.fr/ark:/51302/vta0b6eafc89417e122/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11812",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives.loire.fr/ark:/51302/vta0262aca46c8f2d38/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q15547",
+    "yearStart": 1919,
+    "yearEnd": 1929,
+    "url": "https://archives.loire.fr/ark:/51302/vtade404279594f797f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "3Q12297",
+    "yearStart": 1919,
+    "yearEnd": 1937,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf0fc1a6ec767ec36/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11813",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "url": "https://archives.loire.fr/ark:/51302/vta47340da7b0f6997a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15504",
+    "yearStart": 1920,
+    "yearEnd": 1922,
+    "url": "https://archives.loire.fr/ark:/51302/vta658a65de9fd6c128/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18788",
+    "yearStart": 1920,
+    "yearEnd": 1923,
+    "url": "https://archives.loire.fr/ark:/51302/vta1232d3bd67ac2481/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15562",
+    "yearStart": 1920,
+    "yearEnd": 1927,
+    "url": "https://archives.loire.fr/ark:/51302/vta09dcaa11b7a47485/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2096",
+    "yearStart": 1920,
+    "yearEnd": 1927,
+    "url": "https://archives.loire.fr/ark:/51302/vta988d3b0052f65386/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q4068",
+    "yearStart": 1920,
+    "yearEnd": 1930,
+    "url": "https://archives.loire.fr/ark:/51302/vta068d2bea96180a06/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11814",
+    "yearStart": 1921,
+    "yearEnd": 1921,
+    "url": "https://archives.loire.fr/ark:/51302/vta2c020acad722c65c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4746",
+    "yearStart": 1921,
+    "yearEnd": 1924,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa76b5b7d16a42906/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18799",
+    "yearStart": 1921,
+    "yearEnd": 1926,
+    "url": "https://archives.loire.fr/ark:/51302/vtac2bfbd62aec66e17/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9218",
+    "yearStart": 1921,
+    "yearEnd": 1926,
+    "url": "https://archives.loire.fr/ark:/51302/vta9d4d5cc64b09230d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q11688",
+    "yearStart": 1921,
+    "yearEnd": 1928,
+    "url": "https://archives.loire.fr/ark:/51302/vtadec3881f4f598612/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11837",
+    "yearStart": 1921,
+    "yearEnd": 1930,
+    "url": "https://archives.loire.fr/ark:/51302/vtad07117907b96e095/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11815",
+    "yearStart": 1922,
+    "yearEnd": 1922,
+    "url": "https://archives.loire.fr/ark:/51302/vta282d708f69465d3f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15505",
+    "yearStart": 1922,
+    "yearEnd": 1924,
+    "url": "https://archives.loire.fr/ark:/51302/vta8b17c57b943759d7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6906",
+    "yearStart": 1922,
+    "yearEnd": 1925,
+    "url": "https://archives.loire.fr/ark:/51302/vtae91845dfa3f5687a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11141",
+    "yearStart": 1922,
+    "yearEnd": 1928,
+    "url": "https://archives.loire.fr/ark:/51302/vta8b2af00970bb7bac/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12964",
+    "yearStart": 1922,
+    "yearEnd": 1932,
+    "url": "https://archives.loire.fr/ark:/51302/vtac18c11b0102321cd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Jean-Soleymieux",
+    "cote": "3Q10409",
+    "yearStart": 1922,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta498079b0c1c84d1b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11816",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives.loire.fr/ark:/51302/vta217055a239fccdb8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18789",
+    "yearStart": 1923,
+    "yearEnd": 1927,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa3ece9cf802e3abc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q3004",
+    "yearStart": 1923,
+    "yearEnd": 1928,
+    "url": "https://archives.loire.fr/ark:/51302/vta49da8b3f4ea20455/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11817",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.loire.fr/ark:/51302/vta2e9b9b65007112da/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15506",
+    "yearStart": 1924,
+    "yearEnd": 1926,
+    "url": "https://archives.loire.fr/ark:/51302/vtaed6b79c3addf6641/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q15541",
+    "yearStart": 1924,
+    "yearEnd": 1938,
+    "url": "https://archives.loire.fr/ark:/51302/vta3795a88a1e048be9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11818",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.loire.fr/ark:/51302/vta27041e2d26de3ad8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4747",
+    "yearStart": 1925,
+    "yearEnd": 1928,
+    "url": "https://archives.loire.fr/ark:/51302/vtac69e234354383a4f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6907",
+    "yearStart": 1925,
+    "yearEnd": 1928,
+    "url": "https://archives.loire.fr/ark:/51302/vta1124517f0ed0823d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11819",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.loire.fr/ark:/51302/vta1acace25f174bd5a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18800",
+    "yearStart": 1926,
+    "yearEnd": 1931,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa0935059bf889619/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q15535",
+    "yearStart": 1926,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vtaab04f91f2b2a269b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16626",
+    "yearStart": 1926,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta4da44860825c3d44/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11820",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.loire.fr/ark:/51302/vta3e7e869f220469c0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15507",
+    "yearStart": 1927,
+    "yearEnd": 1929,
+    "url": "https://archives.loire.fr/ark:/51302/vta9c9c0e61a3458dda/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18790",
+    "yearStart": 1927,
+    "yearEnd": 1931,
+    "url": "https://archives.loire.fr/ark:/51302/vta0bb63c8b78b94a98/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15563",
+    "yearStart": 1927,
+    "yearEnd": 1933,
+    "url": "https://archives.loire.fr/ark:/51302/vta23fecf07f569df21/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Néronde",
+    "cote": "3Q16634",
+    "yearStart": 1927,
+    "yearEnd": 1935,
+    "url": "https://archives.loire.fr/ark:/51302/vtac4df032457dab9bc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11821",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.loire.fr/ark:/51302/vta5740f896220ab9cd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9219",
+    "yearStart": 1928,
+    "yearEnd": 1931,
+    "url": "https://archives.loire.fr/ark:/51302/vta5c30c456476d877b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q11689",
+    "yearStart": 1928,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vtafa503877fd880f47/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q2097",
+    "yearStart": 1928,
+    "yearEnd": 1936,
+    "url": "https://archives.loire.fr/ark:/51302/vta3be6af8da95ecc98/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11822",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.loire.fr/ark:/51302/vta037335006a8741d4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15508",
+    "yearStart": 1929,
+    "yearEnd": 1931,
+    "url": "https://archives.loire.fr/ark:/51302/vta2c2ae0dffc71cbe8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4748",
+    "yearStart": 1929,
+    "yearEnd": 1932,
+    "url": "https://archives.loire.fr/ark:/51302/vta71c0a9ba2484a1cd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6908",
+    "yearStart": 1929,
+    "yearEnd": 1932,
+    "url": "https://archives.loire.fr/ark:/51302/vta06e202836bee269f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11142",
+    "yearStart": 1929,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta3457a67b71e1c1dc/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q3005",
+    "yearStart": 1929,
+    "yearEnd": 1935,
+    "url": "https://archives.loire.fr/ark:/51302/vta0fd65c0ffe7acc32/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11823",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa2ef38aab009016b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "3Q15548",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta350a82e2101fc617/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q6293",
+    "yearStart": 1930,
+    "yearEnd": 1939,
+    "url": "https://archives.loire.fr/ark:/51302/vta9e194291f7e237b0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11838",
+    "yearStart": 1930,
+    "yearEnd": 1940,
+    "url": "https://archives.loire.fr/ark:/51302/vta0be6444fed6d8bda/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11824",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.loire.fr/ark:/51302/vta40e810d395eac200/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15509",
+    "yearStart": 1931,
+    "yearEnd": 1933,
+    "url": "https://archives.loire.fr/ark:/51302/vta209a00eb00cf0ff5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18791",
+    "yearStart": 1931,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta425dfee2caff0432/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15552",
+    "yearStart": 1931,
+    "yearEnd": 1941,
+    "url": "https://archives.loire.fr/ark:/51302/vta4a1bd3fd73f096ea/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11825",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.loire.fr/ark:/51302/vtabca9b56469e5d50f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6909",
+    "yearStart": 1932,
+    "yearEnd": 1935,
+    "url": "https://archives.loire.fr/ark:/51302/vtad2d82a73a027afa0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18801",
+    "yearStart": 1932,
+    "yearEnd": 1937,
+    "url": "https://archives.loire.fr/ark:/51302/vta73e6c33e5e37dca5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12965",
+    "yearStart": 1932,
+    "yearEnd": 1938,
+    "url": "https://archives.loire.fr/ark:/51302/vta59284e12d5500127/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11826",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.loire.fr/ark:/51302/vta84c9fe21c1bef0a7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15510",
+    "yearStart": 1933,
+    "yearEnd": 1935,
+    "url": "https://archives.loire.fr/ark:/51302/vta66b201be986cd092/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4749",
+    "yearStart": 1933,
+    "yearEnd": 1937,
+    "url": "https://archives.loire.fr/ark:/51302/vta643db237ab0e8026/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15564",
+    "yearStart": 1933,
+    "yearEnd": 1939,
+    "url": "https://archives.loire.fr/ark:/51302/vta5eeb14a55f3afa52/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11827",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta86598615945b6009/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Georges-en-Couzan",
+    "cote": "3Q9518",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.loire.fr/ark:/51302/vta94d28b586190422b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q11690",
+    "yearStart": 1934,
+    "yearEnd": 1940,
+    "url": "https://archives.loire.fr/ark:/51302/vta1335df5b7253c218/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q12300",
+    "yearStart": 1934,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf4fcf6d74b7463ca/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11828",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.loire.fr/ark:/51302/vta80a8ebbb359d2c85/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15511",
+    "yearStart": 1935,
+    "yearEnd": 1937,
+    "url": "https://archives.loire.fr/ark:/51302/vtaca73237363af4ebb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16627",
+    "yearStart": 1935,
+    "yearEnd": 1940,
+    "url": "https://archives.loire.fr/ark:/51302/vta627113a59a04d64a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q11143",
+    "yearStart": 1935,
+    "yearEnd": 1941,
+    "url": "https://archives.loire.fr/ark:/51302/vta0348bb14bfa5d094/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q15536",
+    "yearStart": 1935,
+    "yearEnd": 1951,
+    "url": "https://archives.loire.fr/ark:/51302/vta93811c3a0a615026/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11829",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.loire.fr/ark:/51302/vta6a0bed78708e5d35/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q6910",
+    "yearStart": 1936,
+    "yearEnd": 1939,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa1e223dd7c8024f3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18792",
+    "yearStart": 1936,
+    "yearEnd": 1940,
+    "url": "https://archives.loire.fr/ark:/51302/vtac005416e04fd3b6e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q9220",
+    "yearStart": 1936,
+    "yearEnd": 1941,
+    "url": "https://archives.loire.fr/ark:/51302/vta611700be7181eb52/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17568",
+    "yearStart": 1936,
+    "yearEnd": 1942,
+    "url": "https://archives.loire.fr/ark:/51302/vtafdf1f4ef7b109dac/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q18235",
+    "yearStart": 1936,
+    "yearEnd": 1945,
+    "url": "https://archives.loire.fr/ark:/51302/vta09fbaee77506c711/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11830",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.loire.fr/ark:/51302/vta47e467c5b5d2c02d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15512",
+    "yearStart": 1937,
+    "yearEnd": 1939,
+    "url": "https://archives.loire.fr/ark:/51302/vtaca87f83f75f03491/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11831",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.loire.fr/ark:/51302/vtaaad62733bd5ea475/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11832",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.loire.fr/ark:/51302/vtae1bede3cbd77ae62/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q4750",
+    "yearStart": 1938,
+    "yearEnd": 1941,
+    "url": "https://archives.loire.fr/ark:/51302/vtaeca4e46b7aa26d0e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18802",
+    "yearStart": 1938,
+    "yearEnd": 1942,
+    "url": "https://archives.loire.fr/ark:/51302/vta2e42fae8ae95c3e9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q15542",
+    "yearStart": 1938,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vtac8552cd38d82cb0c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11833",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.loire.fr/ark:/51302/vtac63e2d3e5bb79da7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15513",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://archives.loire.fr/ark:/51302/vta88c43fb88c4b2e5a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12966",
+    "yearStart": 1939,
+    "yearEnd": 1948,
+    "url": "https://archives.loire.fr/ark:/51302/vta7553ecc0f43a2216/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "3Q11834",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.loire.fr/ark:/51302/vtac95bdf222e9ac126/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18793",
+    "yearStart": 1940,
+    "yearEnd": 1944,
+    "url": "https://archives.loire.fr/ark:/51302/vta22fead63f172b568/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19822",
+    "yearStart": 1940,
+    "yearEnd": 1944,
+    "url": "https://archives.loire.fr/ark:/51302/vta3915a8262a80ae15/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17433",
+    "yearStart": 1940,
+    "yearEnd": 1945,
+    "url": "https://archives.loire.fr/ark:/51302/vtabadb9b0bd07f2b9f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15565",
+    "yearStart": 1940,
+    "yearEnd": 1945,
+    "url": "https://archives.loire.fr/ark:/51302/vtae9c870dcc7ce6c81/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17620",
+    "yearStart": 1940,
+    "yearEnd": 1949,
+    "url": "https://archives.loire.fr/ark:/51302/vta499fb080f1fab256/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "2148W404",
+    "yearStart": 1940,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vtafbd722eb50435b75/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W413",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives.loire.fr/ark:/51302/vtac9f1c559011dc1eb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15514",
+    "yearStart": 1941,
+    "yearEnd": 1943,
+    "url": "https://archives.loire.fr/ark:/51302/vta4a53f6ea3d7d18af/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q19675",
+    "yearStart": 1941,
+    "yearEnd": 1944,
+    "url": "https://archives.loire.fr/ark:/51302/vta6a2036d8cf709385/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17660",
+    "yearStart": 1941,
+    "yearEnd": 1946,
+    "url": "https://archives.loire.fr/ark:/51302/vta6fd843aa53053036/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16628",
+    "yearStart": 1941,
+    "yearEnd": 1947,
+    "url": "https://archives.loire.fr/ark:/51302/vta577b1832d0540254/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q18371",
+    "yearStart": 1941,
+    "yearEnd": 1949,
+    "url": "https://archives.loire.fr/ark:/51302/vta4946a73147a95a9f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W344",
+    "yearStart": 1941,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vta32216fbdf3e9d080/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15553",
+    "yearStart": 1941,
+    "yearEnd": 1951,
+    "url": "https://archives.loire.fr/ark:/51302/vta3519b87ad875e712/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W345",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives.loire.fr/ark:/51302/vtae6ffe61ba1289b70/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W346",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives.loire.fr/ark:/51302/vta85d66e79bcbd217a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15515",
+    "yearStart": 1943,
+    "yearEnd": 1945,
+    "url": "https://archives.loire.fr/ark:/51302/vtaea6c20012db7691f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18803",
+    "yearStart": 1943,
+    "yearEnd": 1947,
+    "url": "https://archives.loire.fr/ark:/51302/vta474dfa25480f06e6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17569",
+    "yearStart": 1943,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vta9aceed8023794aea/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q18236",
+    "yearStart": 1943,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vtab99b51020b0c97d8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W347",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives.loire.fr/ark:/51302/vta09db2b935c0d0f88/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W348",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives.loire.fr/ark:/51302/vtacd2f2b42471f0af4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q19676",
+    "yearStart": 1944,
+    "yearEnd": 1948,
+    "url": "https://archives.loire.fr/ark:/51302/vta9ce59e888aea6a0d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W349",
+    "yearStart": 1945,
+    "yearEnd": 1945,
+    "url": "https://archives.loire.fr/ark:/51302/vta70fa358a8717bd72/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15516",
+    "yearStart": 1945,
+    "yearEnd": 1948,
+    "url": "https://archives.loire.fr/ark:/51302/vtadaadf78673cd0f4b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18794",
+    "yearStart": 1945,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vtad58883d69bd5bc20/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17434",
+    "yearStart": 1945,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vtac0f0f28f23b16faa/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q19585",
+    "yearStart": 1945,
+    "yearEnd": 1960,
+    "url": "https://archives.loire.fr/ark:/51302/vta8db56e0d019d956c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W350",
+    "yearStart": 1946,
+    "yearEnd": 1946,
+    "url": "https://archives.loire.fr/ark:/51302/vta1fc16f4460a0f994/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15566",
+    "yearStart": 1946,
+    "yearEnd": 1951,
+    "url": "https://archives.loire.fr/ark:/51302/vta0492ba3a49461195/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17661",
+    "yearStart": 1946,
+    "yearEnd": 1954,
+    "url": "https://archives.loire.fr/ark:/51302/vta097d9bf96b01c028/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W351",
+    "yearStart": 1947,
+    "yearEnd": 1947,
+    "url": "https://archives.loire.fr/ark:/51302/vta2dcd4590052c56d6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W352",
+    "yearStart": 1948,
+    "yearEnd": 1948,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d032d5bf168f0c3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15517",
+    "yearStart": 1948,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vta5ab77e7a4728ef75/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18804",
+    "yearStart": 1948,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vta83407f91a6bda6ba/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16629",
+    "yearStart": 1948,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vta878fd48bbc7c6299/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W353",
+    "yearStart": 1949,
+    "yearEnd": 1949,
+    "url": "https://archives.loire.fr/ark:/51302/vta40d9fc0062e19007/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W354",
+    "yearStart": 1949,
+    "yearEnd": 1949,
+    "url": "https://archives.loire.fr/ark:/51302/vta51d893e7fb273ea9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12967",
+    "yearStart": 1949,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vta23ce7afff5a9782f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q18372",
+    "yearStart": 1949,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vtafff63394c6069eda/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W355",
+    "yearStart": 1950,
+    "yearEnd": 1950,
+    "url": "https://archives.loire.fr/ark:/51302/vtab64f4f61418310b3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15518",
+    "yearStart": 1950,
+    "yearEnd": 1951,
+    "url": "https://archives.loire.fr/ark:/51302/vta27ec7d9874cb1535/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19824",
+    "yearStart": 1950,
+    "yearEnd": 1951,
+    "url": "https://archives.loire.fr/ark:/51302/vtaefc3639d04083921/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q19678",
+    "yearStart": 1950,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vta8c2804470efd982e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17621",
+    "yearStart": 1950,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vta69599e2eaddb3414/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q19431 (ancienne cote 2148W405)",
+    "yearStart": 1950,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vtae053e559fc81fd92/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W356",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://archives.loire.fr/ark:/51302/vtab39958f4ff545757/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15519",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vta127299436f3cb68a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15554",
+    "yearStart": 1951,
+    "yearEnd": 1954,
+    "url": "https://archives.loire.fr/ark:/51302/vta3a4e1f5ec5f7abf5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18795",
+    "yearStart": 1951,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vta8e8dd36483ce0a9f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q15543",
+    "yearStart": 1951,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vta709aada1efc6251d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17570",
+    "yearStart": 1951,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa15586facabb9b91/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W357",
+    "yearStart": 1951,
+    "yearEnd": 1960,
+    "url": "https://archives.loire.fr/ark:/51302/vta24c2deab54787343/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19825",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vta8f8e2362b2b730d8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W358",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vta3e567b896c516665/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W359",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.loire.fr/ark:/51302/vta8bd5453330eb78dd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15520",
+    "yearStart": 1952,
+    "yearEnd": 1953,
+    "url": "https://archives.loire.fr/ark:/51302/vta78e0133086b997f7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15567",
+    "yearStart": 1952,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vtad7b0b0f5431ea631/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17435",
+    "yearStart": 1952,
+    "yearEnd": 1957,
+    "url": "https://archives.loire.fr/ark:/51302/vtab690df1a2d124788/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q15537",
+    "yearStart": 1952,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vta2bae34ffa1cbfcd7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W360",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.loire.fr/ark:/51302/vta7e97a3f4fb0e50f4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W361",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.loire.fr/ark:/51302/vta579f381ecdd887ae/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15521",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vta0b09a1fc8c376d7d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19826",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vtaedc7bf5923b14d0a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18805",
+    "yearStart": 1953,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vta8792450f0bf9c9f4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12968",
+    "yearStart": 1953,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa246adc3a7beb245/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W362",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.loire.fr/ark:/51302/vta8ed1b61318ad1258/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W363",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.loire.fr/ark:/51302/vta065cdbfbf39840ef/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17662",
+    "yearStart": 1954,
+    "yearEnd": 1958,
+    "url": "https://archives.loire.fr/ark:/51302/vta286431e6d965f613/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q18237",
+    "yearStart": 1954,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vtae65ed9e92bc09ab3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W364",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d425f051b418ab2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W365",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.loire.fr/ark:/51302/vtac49b8c1ba6859b75/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15522",
+    "yearStart": 1955,
+    "yearEnd": 1957,
+    "url": "https://archives.loire.fr/ark:/51302/vta309b2b802c46c909/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15555",
+    "yearStart": 1955,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vta85db1a91618dc3f5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W366",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vta2848d1515e48af12/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W367",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.loire.fr/ark:/51302/vta1c26f8066eda8e7e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19827",
+    "yearStart": 1956,
+    "yearEnd": 1958,
+    "url": "https://archives.loire.fr/ark:/51302/vtaab22d320154ef089/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18796",
+    "yearStart": 1956,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vtac5100482dce6f65e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15568",
+    "yearStart": 1956,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vta8d6798b128e5bb96/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q19679",
+    "yearStart": 1956,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vta4c66f4ed94c8cb08/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16630",
+    "yearStart": 1956,
+    "yearEnd": 1960,
+    "url": "https://archives.loire.fr/ark:/51302/vtafd216e3cfb6029c2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q18373",
+    "yearStart": 1956,
+    "yearEnd": 1961,
+    "url": "https://archives.loire.fr/ark:/51302/vta4e7bb3c4fa967ca5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17622",
+    "yearStart": 1956,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vtadab4cdbaa06fda58/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W368",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.loire.fr/ark:/51302/vta53b7e537634a7ad9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W369",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.loire.fr/ark:/51302/vta5eaa95a970bdc045/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15523",
+    "yearStart": 1957,
+    "yearEnd": 1958,
+    "url": "https://archives.loire.fr/ark:/51302/vta0a3ca81924b818af/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18806",
+    "yearStart": 1957,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d5b6e87ebb0b4ad/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "3Q15544",
+    "yearStart": 1957,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vtade1c1869c71995f5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Genest-Malifaux",
+    "cote": "2148W401",
+    "yearStart": 1957,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta9598359a967437e2/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W370",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.loire.fr/ark:/51302/vta7b4d16b5551244c8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W371",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.loire.fr/ark:/51302/vta10ddfe0aebc34703/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17436",
+    "yearStart": 1958,
+    "yearEnd": 1963,
+    "url": "https://archives.loire.fr/ark:/51302/vta430238078ec6db31/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "3Q17663",
+    "yearStart": 1958,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta04469ce4869b68ee/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W372",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vta0c64c78e23ec223b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W373",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.loire.fr/ark:/51302/vta0259dca3a9985959/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15524",
+    "yearStart": 1959,
+    "yearEnd": 1960,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf72b2b8c4061032e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19828",
+    "yearStart": 1959,
+    "yearEnd": 1961,
+    "url": "https://archives.loire.fr/ark:/51302/vta3d0fc71216b94f29/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Chambon-Feugerolles",
+    "cote": "3Q18797",
+    "yearStart": 1959,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vtacd211a344b396bed/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q18238",
+    "yearStart": 1959,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta77b3c4b30a9736c8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W374",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.loire.fr/ark:/51302/vta0ccbdf745d952a7a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W375",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.loire.fr/ark:/51302/vta4ba128e28b0be6ba/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18807",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf1bb25f02ec16c78/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15525",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vta0cce6185374fa8ef/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15569",
+    "yearStart": 1960,
+    "yearEnd": 1963,
+    "url": "https://archives.loire.fr/ark:/51302/vta5fe0ac1b27009145/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17571",
+    "yearStart": 1960,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa5f2a6ddefeae0d0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pacaudière",
+    "cote": "3Q15538",
+    "yearStart": 1960,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vtacfd3f9ccf556968b/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W377",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.loire.fr/ark:/51302/vta49ff128302afc049/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W378",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa6265056a3c32d70/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q19586",
+    "yearStart": 1961,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vtae924353e877c4e0d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W376",
+    "yearStart": 1961,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vtac2e83f2c300f2ae5/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "3Q16631",
+    "yearStart": 1961,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta7fbf01d5617b7acb/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W379",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vtae933fa603b9e0498/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W380",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa509a5988eedea8e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15526",
+    "yearStart": 1962,
+    "yearEnd": 1963,
+    "url": "https://archives.loire.fr/ark:/51302/vta67102724fdf5a19f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19829",
+    "yearStart": 1962,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vtae2ab197eef60e23d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q18374",
+    "yearStart": 1962,
+    "yearEnd": 1967,
+    "url": "https://archives.loire.fr/ark:/51302/vtad6fd79e4a9bd1697/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W381",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.loire.fr/ark:/51302/vta63c08b45cb76985f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W382",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.loire.fr/ark:/51302/vta6976129ced9782b6/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18808",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vta6aa31a73db5eac1c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "3Q19681",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vta4e8cbe4c1845129e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Boën-sur-Lignon",
+    "cote": "3Q17437",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vtad55351f4c428c042/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15527",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta87c5cae556b47202/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "3Q17623",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vtad7ae85267bb5277d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Germain-Laval",
+    "cote": "3Q15556",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta0bbfef285da97b7e/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Héand",
+    "cote": "3Q12969",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf022199296d0f5e1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W383",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vtac431cc9e199de760/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W384",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.loire.fr/ark:/51302/vta6689691ea2fe2d74/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Charlieu",
+    "cote": "3Q15570",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vtacee1f170be8c7bb1/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W385",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta36e087196b1a7a34/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W386",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.loire.fr/ark:/51302/vta844dd35309bc7dbe/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18809",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vta113ce9db7e20be46/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17572",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vtae764151133629727/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15528",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vta870c722c8829b97c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15530",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vtab8a37761f048f19d/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19830 (ancienne cote 2376W126_2",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf685cead6874b7ec/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15532",
+    "yearStart": 1965,
+    "yearEnd": 1967,
+    "url": "https://archives.loire.fr/ark:/51302/vta59320a3b409a78c7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "3Q19432 (ancienne cote 2148W416)",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta7da638fb469eaf10/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Feurs",
+    "cote": "3Q18239",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta67c842170d7ce8e8/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Pélussin",
+    "cote": "3Q19587 (ancienne cote 2376W126_1)",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta003fd5d107fd5e31/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W387",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vta53a06cf37dea74c7/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W388",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vta2d5af039b9225668/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W390",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.loire.fr/ark:/51302/vta124fd1e0a97a7f0f/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W389",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.loire.fr/ark:/51302/vta129add462bb1bbf4/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Firminy",
+    "cote": "3Q18810",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtac609d5888cf05686/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "3Q18375",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta0be3abf0ae750c0a/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W391",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.loire.fr/ark:/51302/vta03b588adfdd8b722/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W392",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.loire.fr/ark:/51302/vtafac7ef4434744d90/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W393",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.loire.fr/ark:/51302/vta2489ea34bd41a913/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17573",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtab6334fa7a6388035/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15529",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta95dac84cd893d6fd/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15531",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtad232010378c03055/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "3Q19831 (ancienne cote 2376W126_3)",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta4e6348d685934f58/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Montbrison",
+    "cote": "3Q17624",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtaab4013f69e993815/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Roanne",
+    "cote": "3Q15533",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta5ab2006651f5755c/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W394",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtab902c4a728b82468/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W395",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta44f21b945cac7ff3/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W396",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vta8305867e391ab6b0/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  },
+  {
+    "place": "Saint-Etienne",
+    "cote": "2148W397",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.loire.fr/ark:/51302/vtaf12c84bb2fa7e4b9/daogrp/0/layout:table/idsearch:RECH_48cd00223dab757a9318827eaabf76e1"
+  }
+]
