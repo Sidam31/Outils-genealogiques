@@ -29,34 +29,6 @@
   },
   {
     "place": "Baume-les-Dames",
-    "cote": "4Q279",
-    "yearStart": 1798,
-    "yearEnd": 1807,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/87gn0jfb2ct4"
-  },
-  {
-    "place": "Baume-les-Dames",
-    "cote": "4Q280",
-    "yearStart": 1807,
-    "yearEnd": 1814,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/xgbwlrqjsn29"
-  },
-  {
-    "place": "Baume-les-Dames",
-    "cote": "4Q281",
-    "yearStart": 1813,
-    "yearEnd": 1820,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/x50gwrnm4zhk"
-  },
-  {
-    "place": "Baume-les-Dames",
-    "cote": "4Q282",
-    "yearStart": 1820,
-    "yearEnd": 1825,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/pkg27w4hqdcf"
-  },
-  {
-    "place": "Baume-les-Dames",
     "cote": "4Q283",
     "yearStart": 1830,
     "yearEnd": 1835,
@@ -110,41 +82,6 @@
     "yearStart": 1886,
     "yearEnd": 1901,
     "url": "https://portail-archives.doubs.fr/ark:/25993/vjpcsnr50wdf"
-  },
-  {
-    "place": "Besançon",
-    "cote": "7Q5",
-    "yearStart": 1791,
-    "yearEnd": 1800,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/xnwr7bvqljk4"
-  },
-  {
-    "place": "Besançon",
-    "cote": "7Q6",
-    "yearStart": 1800,
-    "yearEnd": 1806,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/8fvz2t1chqn0"
-  },
-  {
-    "place": "Besançon",
-    "cote": "7Q7",
-    "yearStart": 1806,
-    "yearEnd": 1809,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/mlt5nbq1gp6v"
-  },
-  {
-    "place": "Besançon",
-    "cote": "7Q8",
-    "yearStart": 1810,
-    "yearEnd": 1812,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/c6g2hpl580b9"
-  },
-  {
-    "place": "Besançon",
-    "cote": "7Q9",
-    "yearStart": 1813,
-    "yearEnd": 1819,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/5dc2hnz6psjf"
   },
   {
     "place": "Besançon",
@@ -330,13 +267,6 @@
   },
   {
     "place": "Besançon",
-    "cote": "7Q159",
-    "yearStart": 1819,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/wj7r1xf8n94v"
-  },
-  {
-    "place": "Besançon",
     "cote": "7Q160",
     "yearStart": 1828,
     "yearEnd": 1831,
@@ -355,13 +285,6 @@
     "yearStart": 1800,
     "yearEnd": 1808,
     "url": "https://portail-archives.doubs.fr/ark:/25993/rl34hfz5b1mc"
-  },
-  {
-    "place": "Belvoir",
-    "cote": "8Q205",
-    "yearStart": 1817,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/18kl6hwn7t0d"
   },
   {
     "place": "Belvoir",
@@ -420,27 +343,6 @@
     "url": "https://portail-archives.doubs.fr/ark:/25993/901hg35x4ntw"
   },
   {
-    "place": "Levier",
-    "cote": "11Q67",
-    "yearStart": 1784,
-    "yearEnd": 1809,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/p5b92fqlznsx"
-  },
-  {
-    "place": "Levier",
-    "cote": "11Q91",
-    "yearStart": 1808,
-    "yearEnd": 1814,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/qcb0rdn4wl5f"
-  },
-  {
-    "place": "Marchaux",
-    "cote": "13Q183",
-    "yearStart": 1820,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/7z18xd9mwhgf"
-  },
-  {
     "place": "Marchaux",
     "cote": "13Q184",
     "yearStart": 1825,
@@ -481,20 +383,6 @@
     "yearStart": 1873,
     "yearEnd": 1887,
     "url": "https://portail-archives.doubs.fr/ark:/25993/x92rvcb3lq41"
-  },
-  {
-    "place": "Marchaux",
-    "cote": "13Q226",
-    "yearStart": 1808,
-    "yearEnd": 1820,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/51gfbr3m9c4s"
-  },
-  {
-    "place": "Montbéliard",
-    "cote": "15Q368",
-    "yearStart": 1808,
-    "yearEnd": 1816,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/8d1tgb7z3k6n"
   },
   {
     "place": "Morteau",
@@ -652,13 +540,6 @@
   },
   {
     "place": "Orchamps-Vennes",
-    "cote": "19Q198",
-    "yearStart": 1817,
-    "yearEnd": 1825,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/r17qcx9gwd3t"
-  },
-  {
-    "place": "Orchamps-Vennes",
     "cote": "19Q199",
     "yearStart": 1825,
     "yearEnd": 1835,
@@ -691,41 +572,6 @@
     "yearStart": 1874,
     "yearEnd": 1889,
     "url": "https://portail-archives.doubs.fr/ark:/25993/8r4f7dpbq1tn"
-  },
-  {
-    "place": "Pontarlier",
-    "cote": "20Q244",
-    "yearStart": 1791,
-    "yearEnd": 1799,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/tjxqkdg0wl8p"
-  },
-  {
-    "place": "Pontarlier",
-    "cote": "20Q245",
-    "yearStart": 1798,
-    "yearEnd": 1804,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/b31zw9jxc7qn"
-  },
-  {
-    "place": "Pontarlier",
-    "cote": "20Q246",
-    "yearStart": 1805,
-    "yearEnd": 1810,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/837qf2xkzcwl"
-  },
-  {
-    "place": "Pontarlier",
-    "cote": "20Q247",
-    "yearStart": 1810,
-    "yearEnd": 1825,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/ndp3j9hqkl20"
-  },
-  {
-    "place": "Levier",
-    "cote": "20Q248",
-    "yearStart": 1815,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/5lp874z9qdwg"
   },
   {
     "place": "Pont-de-Roide",
@@ -791,41 +637,6 @@
     "url": "https://portail-archives.doubs.fr/ark:/25993/m1dvgzxbps65"
   },
   {
-    "place": "Pont-de-Roide",
-    "cote": "21Q208",
-    "yearStart": 1804,
-    "yearEnd": 1812,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/0bqv6mtps187"
-  },
-  {
-    "place": "Pont-de-Roide",
-    "cote": "21Q209",
-    "yearStart": 1813,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/814v60q3rdj5"
-  },
-  {
-    "place": "Quingey",
-    "cote": "22Q282",
-    "yearStart": 1788,
-    "yearEnd": 1807,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/3mcj1w4bzd86"
-  },
-  {
-    "place": "Quingey",
-    "cote": "22Q283",
-    "yearStart": 1807,
-    "yearEnd": 1815,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/kchwl9qzm4df"
-  },
-  {
-    "place": "Quingey",
-    "cote": "22Q284",
-    "yearStart": 1816,
-    "yearEnd": 1825,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/jshgbv0lmr9w"
-  },
-  {
     "place": "Quingey",
     "cote": "22Q285",
     "yearStart": 1836,
@@ -866,27 +677,6 @@
     "yearStart": 1873,
     "yearEnd": 1887,
     "url": "https://portail-archives.doubs.fr/ark:/25993/4kc3gv1259ld"
-  },
-  {
-    "place": "Recologne",
-    "cote": "23Q244",
-    "yearStart": 1808,
-    "yearEnd": 1813,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/h1x0js6t2dk8"
-  },
-  {
-    "place": "Recologne",
-    "cote": "23Q245",
-    "yearStart": 1813,
-    "yearEnd": 1822,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/l1wfv3r2z8ph"
-  },
-  {
-    "place": "Recologne",
-    "cote": "23Q246",
-    "yearStart": 1822,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/vx5q9pkw831t"
   },
   {
     "place": "Recologne",
@@ -946,41 +736,6 @@
   },
   {
     "place": "Rougemont",
-    "cote": "24Q220",
-    "yearStart": 1791,
-    "yearEnd": 1809,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/2p71dctmgq9b"
-  },
-  {
-    "place": "Rougemont",
-    "cote": "24Q223",
-    "yearStart": 1804,
-    "yearEnd": 1809,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/svbt30x2jg7l"
-  },
-  {
-    "place": "Rougemont",
-    "cote": "24Q224",
-    "yearStart": 1809,
-    "yearEnd": 1812,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/3mrptxb7d48j"
-  },
-  {
-    "place": "Rougemont",
-    "cote": "24Q225",
-    "yearStart": 1812,
-    "yearEnd": 1823,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/rlbkm0sq8p95"
-  },
-  {
-    "place": "Rougemont",
-    "cote": "24Q226",
-    "yearStart": 1823,
-    "yearEnd": 1825,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/rdb15wv7cjmz"
-  },
-  {
-    "place": "Rougemont",
     "cote": "24Q227",
     "yearStart": 1825,
     "yearEnd": 1837,
@@ -1030,13 +785,6 @@
   },
   {
     "place": "Roulans",
-    "cote": "25Q173",
-    "yearStart": 1811,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/hjxc1dms9n80"
-  },
-  {
-    "place": "Roulans",
     "cote": "25Q174",
     "yearStart": 1825,
     "yearEnd": 1838,
@@ -1069,13 +817,6 @@
     "yearStart": 1874,
     "yearEnd": 1889,
     "url": "https://portail-archives.doubs.fr/ark:/25993/zh3b0mkf8wj1"
-  },
-  {
-    "place": "Saint-Hippolyte",
-    "cote": "27Q159",
-    "yearStart": 1811,
-    "yearEnd": 1824,
-    "url": "https://portail-archives.doubs.fr/ark:/25993/70lc513fx69s"
   },
   {
     "place": "Saint-Hippolyte",

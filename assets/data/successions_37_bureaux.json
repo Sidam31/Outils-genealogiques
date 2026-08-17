@@ -368,8 +368,8 @@
     "distanceKm": 5.7
   },
   "DOLUS LE SEC": {
-    "bureau": "Manthelan",
-    "distanceKm": 6.1
+    "bureau": "Loches",
+    "distanceKm": 7.9
   },
   "DRACHE": {
     "bureau": "Sainte-Maure-de-Touraine",
@@ -500,8 +500,8 @@
     "distanceKm": 11.3
   },
   "LE LOUROUX": {
-    "bureau": "Manthelan",
-    "distanceKm": 4.5
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 10.4
   },
   "LE PETIT PRESSIGNY": {
     "bureau": "Preuilly-sur-Claise",
@@ -536,8 +536,8 @@
     "distanceKm": 8.1
   },
   "LOUANS": {
-    "bureau": "Manthelan",
-    "distanceKm": 7.8
+    "bureau": "Sainte-Maure-de-Touraine",
+    "distanceKm": 10.4
   },
   "LOUESTAULT": {
     "bureau": "Tours",
@@ -570,6 +570,10 @@
   "MAILLE": {
     "bureau": "Sainte-Maure-de-Touraine",
     "distanceKm": 7.9
+  },
+  "MANTHELAN": {
+    "bureau": "Ligueil",
+    "distanceKm": 11.0
   },
   "MARCILLY SUR MAULNE": {
     "bureau": "Château-La-Vallière",
@@ -804,12 +808,12 @@
     "distanceKm": 7.8
   },
   "SAINT AUBIN LE DEPEINT": {
-    "bureau": "Saint-Chrisrophe-sur-le-Nais",
-    "distanceKm": 5.0
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 11.5
   },
   "SAINT AUBIN": {
-    "bureau": "Saint-Chrisrophe-sur-le-Nais",
-    "distanceKm": 5.0
+    "bureau": "Château-La-Vallière",
+    "distanceKm": 11.5
   },
   "SAINT AVERTIN": {
     "bureau": "Tours",
@@ -828,8 +832,8 @@
     "distanceKm": 8.6
   },
   "SAINT CHRISTOPHE SUR LE NAIS": {
-    "bureau": "Saint-Chrisrophe-sur-le-Nais",
-    "distanceKm": 0.0
+    "bureau": "Neuvy-le-Roi",
+    "distanceKm": 8.9
   },
   "SAINT CYR SUR LOIRE": {
     "bureau": "Tours",
@@ -888,8 +892,8 @@
     "distanceKm": 9.5
   },
   "SAINT PATERNE RACAN": {
-    "bureau": "Saint-Chrisrophe-sur-le-Nais",
-    "distanceKm": 5.0
+    "bureau": "Neuillé-Pont-Pierre",
+    "distanceKm": 7.6
   },
   "SAINT PIERRE DES CORPS": {
     "bureau": "Tours",
@@ -1000,12 +1004,12 @@
     "distanceKm": 3.3
   },
   "TAUXIGNY SAINT BAULD": {
-    "bureau": "Manthelan",
-    "distanceKm": 8.4
+    "bureau": "Montbazon",
+    "distanceKm": 12.2
   },
   "TAUXIGNY": {
-    "bureau": "Manthelan",
-    "distanceKm": 8.4
+    "bureau": "Montbazon",
+    "distanceKm": 12.2
   },
   "TAVANT": {
     "bureau": "L'Ile-Bouchard",
@@ -1096,8 +1100,8 @@
     "distanceKm": 6.3
   },
   "VOU": {
-    "bureau": "Manthelan",
-    "distanceKm": 5.4
+    "bureau": "Ligueil",
+    "distanceKm": 6.6
   },
   "VERETZ": {
     "bureau": "Vouvray",

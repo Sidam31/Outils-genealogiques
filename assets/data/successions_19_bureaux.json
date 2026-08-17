@@ -1,0 +1,1122 @@
+{
+  "AFFIEUX": {
+    "bureau": "Treignac",
+    "distanceKm": 5.7
+  },
+  "AIX": {
+    "bureau": "Ussel",
+    "distanceKm": 10.4
+  },
+  "ALBIGNAC": {
+    "bureau": "Meyssac",
+    "distanceKm": 11.0
+  },
+  "ALBUSSAC": {
+    "bureau": "Argentat",
+    "distanceKm": 9.6
+  },
+  "ALLASSAC": {
+    "bureau": "Objat",
+    "distanceKm": 3.7
+  },
+  "ALLEYRAT": {
+    "bureau": "Ussel",
+    "distanceKm": 5.9
+  },
+  "ALTILLAC": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 3.7
+  },
+  "AMBRUGEAT": {
+    "bureau": "Meymac",
+    "distanceKm": 3.7
+  },
+  "ARGENTAT SUR DORDOGNE": {
+    "bureau": "Argentat",
+    "distanceKm": 0.0
+  },
+  "ARNAC POMPADOUR": {
+    "bureau": "Lubersac",
+    "distanceKm": 4.9
+  },
+  "ASTAILLAC": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 5.4
+  },
+  "AUBAZINES": {
+    "bureau": "Tulle",
+    "distanceKm": 10.9
+  },
+  "AURIAC": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 8.2
+  },
+  "AYEN": {
+    "bureau": "Objat",
+    "distanceKm": 7.2
+  },
+  "BAR": {
+    "bureau": "Corrèze",
+    "distanceKm": 5.4
+  },
+  "BASSIGNAC LE BAS": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 4.3
+  },
+  "BASSIGNAC LE HAUT": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 7.3
+  },
+  "BEAUMONT": {
+    "bureau": "Seilhac",
+    "distanceKm": 8.5
+  },
+  "BELLECHASSAGNE": {
+    "bureau": "Sornac",
+    "distanceKm": 4.6
+  },
+  "BENAYES": {
+    "bureau": "Lubersac",
+    "distanceKm": 9.9
+  },
+  "BEYNAT": {
+    "bureau": "Meyssac",
+    "distanceKm": 9.9
+  },
+  "BEYSSAC": {
+    "bureau": "Vigeois",
+    "distanceKm": 7.6
+  },
+  "BEYSSENAC": {
+    "bureau": "Juillac",
+    "distanceKm": 8.7
+  },
+  "BILHAC": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 8.0
+  },
+  "BILLAC": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 8.0
+  },
+  "BONNEFOND": {
+    "bureau": "Bugeat",
+    "distanceKm": 8.1
+  },
+  "BRANCEILLES": {
+    "bureau": "Meyssac",
+    "distanceKm": 5.1
+  },
+  "BRIGNAC LA PLAINE": {
+    "bureau": "Objat",
+    "distanceKm": 12.5
+  },
+  "BRIVEZAC": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "CAMPS SAINT MATHURIN LEOBAZEL": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 12.2
+  },
+  "CAMPS": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 12.2
+  },
+  "CHABRIGNAC": {
+    "bureau": "Juillac",
+    "distanceKm": 4.4
+  },
+  "CHAMBERET": {
+    "bureau": "Treignac",
+    "distanceKm": 8.7
+  },
+  "CHAMBOULIVE": {
+    "bureau": "Seilhac",
+    "distanceKm": 6.9
+  },
+  "CHAMEYRAT": {
+    "bureau": "Tulle",
+    "distanceKm": 5.5
+  },
+  "CHAMPAGNAC LA NOAILLE": {
+    "bureau": "Corrèze",
+    "distanceKm": 12.1
+  },
+  "CHAMPAGNAC LA PRUNE": {
+    "bureau": "Argentat",
+    "distanceKm": 8.1
+  },
+  "CHANAC LES MINES": {
+    "bureau": "Tulle",
+    "distanceKm": 3.7
+  },
+  "CHANTEIX": {
+    "bureau": "Seilhac",
+    "distanceKm": 9.3
+  },
+  "CHAPELLE SPINASSE": {
+    "bureau": "Égletons",
+    "distanceKm": 7.5
+  },
+  "CHARTRIER FERRIERE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 11.8
+  },
+  "CHASTEAUX": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 7.9
+  },
+  "CHAUFFOUR SUR VELL": {
+    "bureau": "Meyssac",
+    "distanceKm": 3.4
+  },
+  "CHAUMEIL": {
+    "bureau": "Corrèze",
+    "distanceKm": 9.7
+  },
+  "CHAVANAC": {
+    "bureau": "Meymac",
+    "distanceKm": 7.4
+  },
+  "CHAVEROCHE": {
+    "bureau": "Ussel",
+    "distanceKm": 3.3
+  },
+  "CHENAILLER MASCHEIX": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 7.2
+  },
+  "CHIRAC BELLEVUE": {
+    "bureau": "Neuvic",
+    "distanceKm": 10.8
+  },
+  "CLERGOUX": {
+    "bureau": "Corrèze",
+    "distanceKm": 12.2
+  },
+  "COLLONGES LA ROUGE": {
+    "bureau": "Meyssac",
+    "distanceKm": 2.9
+  },
+  "COLLONGES": {
+    "bureau": "Meyssac",
+    "distanceKm": 2.9
+  },
+  "COMBRESSOL": {
+    "bureau": "Meymac",
+    "distanceKm": 10.3
+  },
+  "CONCEZE": {
+    "bureau": "Juillac",
+    "distanceKm": 5.3
+  },
+  "CONDAT SUR GANAVEIX": {
+    "bureau": "Uzerche",
+    "distanceKm": 6.4
+  },
+  "CONFOLENT PORT DIEU": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 15.1
+  },
+  "PORT DIEU": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 15.1
+  },
+  "CORNIL": {
+    "bureau": "Tulle",
+    "distanceKm": 8.4
+  },
+  "COSNAC": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 5.7
+  },
+  "COUFFY SUR SARSONNE": {
+    "bureau": "Sornac",
+    "distanceKm": 12.6
+  },
+  "COURTEIX": {
+    "bureau": "Ussel",
+    "distanceKm": 10.7
+  },
+  "CUBLAC": {
+    "bureau": "Objat",
+    "distanceKm": 14.4
+  },
+  "CUREMONTE": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 5.9
+  },
+  "DAMPNIAT": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 9.7
+  },
+  "DARAZAC": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 4.4
+  },
+  "DARNETS": {
+    "bureau": "Égletons",
+    "distanceKm": 5.8
+  },
+  "DAVIGNAC": {
+    "bureau": "Meymac",
+    "distanceKm": 8.1
+  },
+  "ESPAGNAC": {
+    "bureau": "Tulle",
+    "distanceKm": 10.3
+  },
+  "ESPARTIGNAC": {
+    "bureau": "Uzerche",
+    "distanceKm": 4.4
+  },
+  "ESTIVALS": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 13.4
+  },
+  "ESTIVAUX": {
+    "bureau": "Vigeois",
+    "distanceKm": 7.1
+  },
+  "EYBURIE": {
+    "bureau": "Uzerche",
+    "distanceKm": 7.6
+  },
+  "EYGURANDE": {
+    "bureau": "Ussel",
+    "distanceKm": 16.8
+  },
+  "EYREIN": {
+    "bureau": "Corrèze",
+    "distanceKm": 7.8
+  },
+  "FAVARS": {
+    "bureau": "Tulle",
+    "distanceKm": 7.6
+  },
+  "FEYT": {
+    "bureau": "Ussel",
+    "distanceKm": 20.5
+  },
+  "FORGES": {
+    "bureau": "Argentat",
+    "distanceKm": 7.1
+  },
+  "GIMEL LES CASCADES": {
+    "bureau": "Tulle",
+    "distanceKm": 6.4
+  },
+  "GIMEL": {
+    "bureau": "Tulle",
+    "distanceKm": 6.4
+  },
+  "GOULLES": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 12.8
+  },
+  "GOURDON MURAT": {
+    "bureau": "Bugeat",
+    "distanceKm": 5.1
+  },
+  "GRANDSAIGNE": {
+    "bureau": "Égletons",
+    "distanceKm": 10.8
+  },
+  "GROS CHASTANG": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 10.8
+  },
+  "GUMOND": {
+    "bureau": "Argentat",
+    "distanceKm": 11.9
+  },
+  "HAUTEFAGE": {
+    "bureau": "Argentat",
+    "distanceKm": 5.9
+  },
+  "JUGEALS NAZARETH": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 6.8
+  },
+  "L EGLISE AUX BOIS": {
+    "bureau": "Treignac",
+    "distanceKm": 11.6
+  },
+  "LA CHAPELLE SAINT GERAUD": {
+    "bureau": "Argentat",
+    "distanceKm": 7.4
+  },
+  "LA CHAPELLE AUX BROCS": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 9.0
+  },
+  "LA CHAPELLE AUX SAINTS": {
+    "bureau": "Meyssac",
+    "distanceKm": 7.9
+  },
+  "LA ROCHE CANILLAC": {
+    "bureau": "Argentat",
+    "distanceKm": 9.4
+  },
+  "LA TOURETTE": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "LACELLE": {
+    "bureau": "Treignac",
+    "distanceKm": 10.3
+  },
+  "LADIGNAC SUR RONDELLES": {
+    "bureau": "Tulle",
+    "distanceKm": 6.4
+  },
+  "LAFAGE SUR SOMBRE": {
+    "bureau": "Égletons",
+    "distanceKm": 14.8
+  },
+  "LAGARDE MARC LA TOUR": {
+    "bureau": "Tulle",
+    "distanceKm": 9.8
+  },
+  "LAGARDE ENVAL": {
+    "bureau": "Tulle",
+    "distanceKm": 9.8
+  },
+  "LAGLEYGEOLLE": {
+    "bureau": "Meyssac",
+    "distanceKm": 4.2
+  },
+  "LAGRAULIERE": {
+    "bureau": "Seilhac",
+    "distanceKm": 7.2
+  },
+  "LAGUENNE SUR AVALOUZE": {
+    "bureau": "Tulle",
+    "distanceKm": 3.9
+  },
+  "LAGUENNE": {
+    "bureau": "Tulle",
+    "distanceKm": 3.9
+  },
+  "LAMAZIERE BASSE": {
+    "bureau": "Neuvic",
+    "distanceKm": 6.3
+  },
+  "LAMAZIERE HAUTE": {
+    "bureau": "Ussel",
+    "distanceKm": 15.8
+  },
+  "LAMONGERIE": {
+    "bureau": "Uzerche",
+    "distanceKm": 12.3
+  },
+  "LANTEUIL": {
+    "bureau": "Meyssac",
+    "distanceKm": 8.5
+  },
+  "LAPLEAU": {
+    "bureau": "Neuvic",
+    "distanceKm": 10.7
+  },
+  "LARCHE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 8.6
+  },
+  "LAROCHE PRES FEYT": {
+    "bureau": "Ussel",
+    "distanceKm": 23.1
+  },
+  "LASCAUX": {
+    "bureau": "Juillac",
+    "distanceKm": 6.7
+  },
+  "LATRONCHE": {
+    "bureau": "Neuvic",
+    "distanceKm": 6.0
+  },
+  "LAVAL SUR LUZEGE": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 13.9
+  },
+  "LE CHASTANG": {
+    "bureau": "Tulle",
+    "distanceKm": 10.5
+  },
+  "LE JARDIN": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "LE LONZAC": {
+    "bureau": "Treignac",
+    "distanceKm": 10.9
+  },
+  "LE PESCHER": {
+    "bureau": "Meyssac",
+    "distanceKm": 6.9
+  },
+  "LES ANGLES SUR CORREZE": {
+    "bureau": "Tulle",
+    "distanceKm": 5.4
+  },
+  "LES TROIS SAINTS": {
+    "bureau": "Uzerche",
+    "distanceKm": 4.4
+  },
+  "SAINT YBARD": {
+    "bureau": "Uzerche",
+    "distanceKm": 4.4
+  },
+  "LESTARDS": {
+    "bureau": "Treignac",
+    "distanceKm": 4.9
+  },
+  "LIGINIAC": {
+    "bureau": "Neuvic",
+    "distanceKm": 7.4
+  },
+  "LIGNAREIX": {
+    "bureau": "Ussel",
+    "distanceKm": 6.4
+  },
+  "LIGNEYRAC": {
+    "bureau": "Meyssac",
+    "distanceKm": 5.4
+  },
+  "LIOURDRES": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 7.2
+  },
+  "LISSAC SUR COUZE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 5.5
+  },
+  "LOSTANGES": {
+    "bureau": "Meyssac",
+    "distanceKm": 7.1
+  },
+  "LOUIGNAC": {
+    "bureau": "Juillac",
+    "distanceKm": 12.3
+  },
+  "MADRANGES": {
+    "bureau": "Treignac",
+    "distanceKm": 10.0
+  },
+  "MALEMORT": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 7.3
+  },
+  "MALEMORT SUR CORREZE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 7.3
+  },
+  "MANSAC": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 10.4
+  },
+  "MARC LA TOUR": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "MARCILLAC LA CROISILLE": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 13.4
+  },
+  "MARCILLAC LA CROZE": {
+    "bureau": "Meyssac",
+    "distanceKm": 4.2
+  },
+  "MARGERIDES": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 8.6
+  },
+  "MASSERET": {
+    "bureau": "Uzerche",
+    "distanceKm": 13.4
+  },
+  "MAUSSAC": {
+    "bureau": "Égletons",
+    "distanceKm": 8.9
+  },
+  "MEILHARDS": {
+    "bureau": "Treignac",
+    "distanceKm": 13.0
+  },
+  "MERCŒUR": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 9.4
+  },
+  "MERLINES": {
+    "bureau": "Ussel",
+    "distanceKm": 14.9
+  },
+  "MESTES": {
+    "bureau": "Ussel",
+    "distanceKm": 7.0
+  },
+  "MEYRIGNAC L EGLISE": {
+    "bureau": "Corrèze",
+    "distanceKm": 4.3
+  },
+  "MILLEVACHES": {
+    "bureau": "Sornac",
+    "distanceKm": 7.4
+  },
+  "MONCEAUX SUR DORDOGNE": {
+    "bureau": "Argentat",
+    "distanceKm": 5.9
+  },
+  "MONESTIER MERLINES": {
+    "bureau": "Ussel",
+    "distanceKm": 18.9
+  },
+  "MONESTIER PORT DIEU": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 11.4
+  },
+  "MONTAIGNAC SUR DOUSTRE": {
+    "bureau": "Égletons",
+    "distanceKm": 9.6
+  },
+  "MONTAIGNAC SAINT HIPPOLYTE": {
+    "bureau": "Égletons",
+    "distanceKm": 9.6
+  },
+  "MONTGIBAUD": {
+    "bureau": "Lubersac",
+    "distanceKm": 7.0
+  },
+  "MOUSTIER VENTADOUR": {
+    "bureau": "Égletons",
+    "distanceKm": 7.2
+  },
+  "MENOIRE": {
+    "bureau": "Meyssac",
+    "distanceKm": 10.6
+  },
+  "NAVES": {
+    "bureau": "Tulle",
+    "distanceKm": 5.0
+  },
+  "NESPOULS": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 10.1
+  },
+  "NEUVILLE": {
+    "bureau": "Argentat",
+    "distanceKm": 6.6
+  },
+  "NOAILHAC": {
+    "bureau": "Meyssac",
+    "distanceKm": 6.2
+  },
+  "NOAILLES": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 5.1
+  },
+  "NONARDS": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 2.9
+  },
+  "ORGNAC SUR VEZERE": {
+    "bureau": "Vigeois",
+    "distanceKm": 6.4
+  },
+  "ORLIAC DE BAR": {
+    "bureau": "Corrèze",
+    "distanceKm": 5.3
+  },
+  "PALAZINGES": {
+    "bureau": "Tulle",
+    "distanceKm": 12.8
+  },
+  "PALISSE": {
+    "bureau": "Neuvic",
+    "distanceKm": 8.6
+  },
+  "PANDRIGNES": {
+    "bureau": "Tulle",
+    "distanceKm": 9.3
+  },
+  "PERPEZAC LE BLANC": {
+    "bureau": "Objat",
+    "distanceKm": 9.2
+  },
+  "PERPEZAC LE NOIR": {
+    "bureau": "Vigeois",
+    "distanceKm": 5.8
+  },
+  "PEYRELEVADE": {
+    "bureau": "Sornac",
+    "distanceKm": 12.0
+  },
+  "PEYRISSAC": {
+    "bureau": "Treignac",
+    "distanceKm": 10.2
+  },
+  "PIERREFITTE": {
+    "bureau": "Uzerche",
+    "distanceKm": 6.0
+  },
+  "PRADINES": {
+    "bureau": "Bugeat",
+    "distanceKm": 9.3
+  },
+  "PUY D ARNAC": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 5.3
+  },
+  "PERET BEL AIR": {
+    "bureau": "Égletons",
+    "distanceKm": 5.4
+  },
+  "PEROLS SUR VEZERE": {
+    "bureau": "Bugeat",
+    "distanceKm": 6.0
+  },
+  "QUEYSSAC LES VIGNES": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 6.6
+  },
+  "REYGADE": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 6.1
+  },
+  "RILHAC TREIGNAC": {
+    "bureau": "Treignac",
+    "distanceKm": 9.1
+  },
+  "RILHAC XAINTRIE": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 10.2
+  },
+  "ROCHE LE PEYROUX": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 8.9
+  },
+  "ROSIERS D EGLETONS": {
+    "bureau": "Égletons",
+    "distanceKm": 3.8
+  },
+  "ROSIERS DE JUILLAC": {
+    "bureau": "Juillac",
+    "distanceKm": 4.2
+  },
+  "SADROC": {
+    "bureau": "Donzenac",
+    "distanceKm": 5.2
+  },
+  "SAILLAC": {
+    "bureau": "Meyssac",
+    "distanceKm": 3.7
+  },
+  "SAINT ANGEL": {
+    "bureau": "Ussel",
+    "distanceKm": 7.8
+  },
+  "SAINT AUGUSTIN": {
+    "bureau": "Corrèze",
+    "distanceKm": 8.3
+  },
+  "SAINT AULAIRE": {
+    "bureau": "Objat",
+    "distanceKm": 3.8
+  },
+  "SAINT BAZILE DE MEYSSAC": {
+    "bureau": "Meyssac",
+    "distanceKm": 3.1
+  },
+  "SAINT BAZILE DE LA ROCHE": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "SAINT BONNET AVALOUZE": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "SAINT BONNET ELVERT": {
+    "bureau": "Argentat",
+    "distanceKm": 4.6
+  },
+  "SAINT BONNET L ENFANTIER": {
+    "bureau": "Donzenac",
+    "distanceKm": 7.5
+  },
+  "SAINT BONNET LA RIVIERE": {
+    "bureau": "Objat",
+    "distanceKm": 5.5
+  },
+  "SAINT BONNET LES TOURS DE MERLE": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 9.3
+  },
+  "SAINT BONNET PRES BORT": {
+    "bureau": "Ussel",
+    "distanceKm": 11.4
+  },
+  "SAINT CERNIN DE LARCHE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 9.9
+  },
+  "SAINT CHAMANT": {
+    "bureau": "Argentat",
+    "distanceKm": 3.0
+  },
+  "SAINT CIRGUES LA LOUTRE": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 5.4
+  },
+  "SAINT CLEMENT": {
+    "bureau": "Seilhac",
+    "distanceKm": 4.2
+  },
+  "SAINT CYPRIEN": {
+    "bureau": "Objat",
+    "distanceKm": 4.3
+  },
+  "SAINT CYR LA ROCHE": {
+    "bureau": "Objat",
+    "distanceKm": 2.8
+  },
+  "SAINT DEZERY": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "SAINT EXUPERY LES ROCHES": {
+    "bureau": "Ussel",
+    "distanceKm": 8.1
+  },
+  "SAINT FREJOUX": {
+    "bureau": "Ussel",
+    "distanceKm": 6.8
+  },
+  "SAINT GENIEZ O MERLE": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 5.9
+  },
+  "SAINT GERMAIN LAVOLPS": {
+    "bureau": "Ussel",
+    "distanceKm": 8.4
+  },
+  "SAINT GERMAIN LES VERGNES": {
+    "bureau": "Donzenac",
+    "distanceKm": 8.4
+  },
+  "SAINT HILAIRE FOISSAC": {
+    "bureau": "Neuvic",
+    "distanceKm": 12.3
+  },
+  "SAINT HILAIRE LUC": {
+    "bureau": "Neuvic",
+    "distanceKm": 3.4
+  },
+  "SAINT HILAIRE PEYROUX": {
+    "bureau": "Donzenac",
+    "distanceKm": 9.5
+  },
+  "SAINT HILAIRE TAURIEUX": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 8.9
+  },
+  "SAINT HILAIRE LES COURBES": {
+    "bureau": "Treignac",
+    "distanceKm": 5.2
+  },
+  "SAINT JAL": {
+    "bureau": "Seilhac",
+    "distanceKm": 6.0
+  },
+  "SAINT JULIEN MAUMONT": {
+    "bureau": "Meyssac",
+    "distanceKm": 2.3
+  },
+  "SAINT JULIEN AUX BOIS": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 4.9
+  },
+  "SAINT JULIEN LE PELERIN": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 14.5
+  },
+  "SAINT JULIEN LE VENDOMOIS": {
+    "bureau": "Lubersac",
+    "distanceKm": 6.3
+  },
+  "SAINT JULIEN PRES BORT": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIAL ENTRAYGUES": {
+    "bureau": "Argentat",
+    "distanceKm": 3.3
+  },
+  "SAINT MARTIAL DE GIMEL": {
+    "bureau": "Tulle",
+    "distanceKm": 9.6
+  },
+  "SAINT MARTIN SEPERT": {
+    "bureau": "Lubersac",
+    "distanceKm": 6.6
+  },
+  "SAINT MARTIN LA MEANNE": {
+    "bureau": "Argentat",
+    "distanceKm": 7.7
+  },
+  "SAINT MATHURIN LEOBAZEL": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "SAINT MERD DE LAPLEAU": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 12.7
+  },
+  "SAINT MERD LES OUSSINES": {
+    "bureau": "Bugeat",
+    "distanceKm": 7.9
+  },
+  "SAINT MEXANT": {
+    "bureau": "Tulle",
+    "distanceKm": 7.5
+  },
+  "SAINT PANTALEON DE LAPLEAU": {
+    "bureau": "Neuvic",
+    "distanceKm": 6.2
+  },
+  "SAINT PANTALEON DE LARCHE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 6.3
+  },
+  "SAINT PARDOUX CORBIER": {
+    "bureau": "Lubersac",
+    "distanceKm": 4.4
+  },
+  "SAINT PARDOUX L ORTIGIER": {
+    "bureau": "Donzenac",
+    "distanceKm": 8.6
+  },
+  "SAINT PARDOUX LA CROISILLE": {
+    "bureau": "Corrèze",
+    "distanceKm": 14.7
+  },
+  "SAINT PARDOUX LE NEUF": {
+    "bureau": "Ussel",
+    "distanceKm": 7.5
+  },
+  "SAINT PARDOUX LE VIEUX": {
+    "bureau": "Ussel",
+    "distanceKm": 5.7
+  },
+  "SAINT PAUL": {
+    "bureau": "Argentat",
+    "distanceKm": 10.0
+  },
+  "SAINT PRIEST DE GIMEL": {
+    "bureau": "Corrèze",
+    "distanceKm": 6.9
+  },
+  "SAINT ROBERT": {
+    "bureau": "Juillac",
+    "distanceKm": 7.9
+  },
+  "SAINT REMY": {
+    "bureau": "Sornac",
+    "distanceKm": 8.4
+  },
+  "SAINT SALVADOUR": {
+    "bureau": "Seilhac",
+    "distanceKm": 4.4
+  },
+  "SAINT SETIERS": {
+    "bureau": "Sornac",
+    "distanceKm": 5.0
+  },
+  "SAINT SOLVE": {
+    "bureau": "Objat",
+    "distanceKm": 4.7
+  },
+  "SAINT SORNIN LAVOLPS": {
+    "bureau": "Juillac",
+    "distanceKm": 8.3
+  },
+  "SAINT SULPICE LES BOIS": {
+    "bureau": "Sornac",
+    "distanceKm": 7.0
+  },
+  "SAINT SYLVAIN": {
+    "bureau": "Argentat",
+    "distanceKm": 8.0
+  },
+  "SAINT VIANCE": {
+    "bureau": "Donzenac",
+    "distanceKm": 5.6
+  },
+  "SAINT VICTOUR": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 10.4
+  },
+  "SAINT YRIEIX LE DEJALAT": {
+    "bureau": "Égletons",
+    "distanceKm": 6.4
+  },
+  "SAINT ELOY LES TUILERIES": {
+    "bureau": "Lubersac",
+    "distanceKm": 9.2
+  },
+  "SAINT ETIENNE AUX CLOS": {
+    "bureau": "Ussel",
+    "distanceKm": 12.1
+  },
+  "SAINT ETIENNE LA GENESTE": {
+    "bureau": "Ussel",
+    "distanceKm": 12.1
+  },
+  "SAINTE FORTUNADE": {
+    "bureau": "Tulle",
+    "distanceKm": 7.1
+  },
+  "SAINTE FEREOLE": {
+    "bureau": "Donzenac",
+    "distanceKm": 5.4
+  },
+  "SAINTE MARIE LAPANOUZE": {
+    "bureau": "Neuvic",
+    "distanceKm": 10.2
+  },
+  "SALON LA TOUR": {
+    "bureau": "Uzerche",
+    "distanceKm": 8.6
+  },
+  "SARRAN": {
+    "bureau": "Corrèze",
+    "distanceKm": 7.0
+  },
+  "SARROUX SAINT JULIEN": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 5.7
+  },
+  "SARROUX": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 5.7
+  },
+  "SEGONZAC": {
+    "bureau": "Juillac",
+    "distanceKm": 5.5
+  },
+  "SERVIERES LE CHATEAU": {
+    "bureau": "Saint-Privat",
+    "distanceKm": 4.9
+  },
+  "SEXCLES": {
+    "bureau": "Argentat",
+    "distanceKm": 10.1
+  },
+  "SIONIAC": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 3.6
+  },
+  "SORNAC SAINT GERMAIN LAVOLPS": {
+    "bureau": "Sornac",
+    "distanceKm": 0.0
+  },
+  "SOUDAINE LAVINADIERE": {
+    "bureau": "Treignac",
+    "distanceKm": 6.2
+  },
+  "SOUDEILLES": {
+    "bureau": "Égletons",
+    "distanceKm": 3.7
+  },
+  "SOURSAC": {
+    "bureau": "Neuvic",
+    "distanceKm": 11.6
+  },
+  "SEGUR LE CHATEAU": {
+    "bureau": "Lubersac",
+    "distanceKm": 7.9
+  },
+  "SERANDON": {
+    "bureau": "Neuvic",
+    "distanceKm": 5.9
+  },
+  "SERILHAC": {
+    "bureau": "Meyssac",
+    "distanceKm": 6.6
+  },
+  "TARNAC": {
+    "bureau": "Bugeat",
+    "distanceKm": 8.9
+  },
+  "THALAMY": {
+    "bureau": "Bort-les-Orgues",
+    "distanceKm": 12.7
+  },
+  "TOY VIAM": {
+    "bureau": "Bugeat",
+    "distanceKm": 6.3
+  },
+  "TROCHE": {
+    "bureau": "Vigeois",
+    "distanceKm": 5.6
+  },
+  "TUDEILS": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 6.9
+  },
+  "TURENNE": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 9.4
+  },
+  "USSAC": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 4.7
+  },
+  "VALIERGUES": {
+    "bureau": "Ussel",
+    "distanceKm": 8.6
+  },
+  "VARETZ": {
+    "bureau": "Brive-la-Gaillarde",
+    "distanceKm": 8.0
+  },
+  "VARS SUR ROSEIX": {
+    "bureau": "Objat",
+    "distanceKm": 3.2
+  },
+  "VEIX": {
+    "bureau": "Treignac",
+    "distanceKm": 6.3
+  },
+  "VENARSAL": {
+    "bureau": "Tulle",
+    "distanceKm": 0.0
+  },
+  "VEYRIERES": {
+    "bureau": "Ussel",
+    "distanceKm": 10.7
+  },
+  "VIAM": {
+    "bureau": "Bugeat",
+    "distanceKm": 4.5
+  },
+  "VIGNOLS": {
+    "bureau": "Objat",
+    "distanceKm": 6.6
+  },
+  "VITRAC SUR MONTANE": {
+    "bureau": "Corrèze",
+    "distanceKm": 5.2
+  },
+  "VOUTEZAC": {
+    "bureau": "Objat",
+    "distanceKm": 3.5
+  },
+  "VEGENNES": {
+    "bureau": "Beaulieu-sur-Dordogne",
+    "distanceKm": 6.9
+  },
+  "YSSANDON": {
+    "bureau": "Objat",
+    "distanceKm": 7.5
+  }
+}

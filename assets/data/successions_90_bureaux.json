@@ -1,0 +1,438 @@
+{
+  "ANDELNANS": {
+    "bureau": "Belfort",
+    "distanceKm": 5.2
+  },
+  "ANGEOT": {
+    "bureau": "Fontaine",
+    "distanceKm": 4.4
+  },
+  "ANJOUTEY": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.8
+  },
+  "ARGIESANS": {
+    "bureau": "Belfort",
+    "distanceKm": 4.6
+  },
+  "AUTRECHENE": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.7
+  },
+  "RECHOTTE": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.7
+  },
+  "AUXELLES BAS": {
+    "bureau": "Giromagny",
+    "distanceKm": 3.1
+  },
+  "AUXELLES HAUT": {
+    "bureau": "Giromagny",
+    "distanceKm": 3.1
+  },
+  "BANVILLARS": {
+    "bureau": "Belfort",
+    "distanceKm": 6.8
+  },
+  "BAVILLIERS": {
+    "bureau": "Belfort",
+    "distanceKm": 2.9
+  },
+  "BEAUCOURT": {
+    "bureau": "Delle",
+    "distanceKm": 5.9
+  },
+  "BERMONT": {
+    "bureau": "Belfort",
+    "distanceKm": 7.8
+  },
+  "BESSONCOURT": {
+    "bureau": "Fontaine",
+    "distanceKm": 4.3
+  },
+  "BETHONVILLIERS": {
+    "bureau": "Fontaine",
+    "distanceKm": 3.5
+  },
+  "BORON": {
+    "bureau": "Delle",
+    "distanceKm": 5.4
+  },
+  "BOTANS": {
+    "bureau": "Belfort",
+    "distanceKm": 5.6
+  },
+  "BOURG SOUS CHATELET": {
+    "bureau": "Fontaine",
+    "distanceKm": 6.7
+  },
+  "BOUROGNE": {
+    "bureau": "Delle",
+    "distanceKm": 9.0
+  },
+  "BREBOTTE": {
+    "bureau": "Delle",
+    "distanceKm": 7.7
+  },
+  "BRETAGNE": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.3
+  },
+  "BUC": {
+    "bureau": "Belfort",
+    "distanceKm": 5.1
+  },
+  "CHARMOIS": {
+    "bureau": "Delle",
+    "distanceKm": 8.9
+  },
+  "CHAUX": {
+    "bureau": "Giromagny",
+    "distanceKm": 3.4
+  },
+  "CHAVANATTE": {
+    "bureau": "Delle",
+    "distanceKm": 9.8
+  },
+  "CHAVANNES LES GRANDS": {
+    "bureau": "Fontaine",
+    "distanceKm": 8.6
+  },
+  "CHATENOIS LES FORGES": {
+    "bureau": "Belfort",
+    "distanceKm": 9.5
+  },
+  "CHEVREMONT": {
+    "bureau": "Fontaine",
+    "distanceKm": 6.0
+  },
+  "CHEVREMONT FONTENELLE": {
+    "bureau": "Fontaine",
+    "distanceKm": 6.0
+  },
+  "COURCELLES": {
+    "bureau": "Delle",
+    "distanceKm": 5.4
+  },
+  "COURTELEVANT": {
+    "bureau": "Delle",
+    "distanceKm": 6.9
+  },
+  "CRAVANCHE": {
+    "bureau": "Belfort",
+    "distanceKm": 1.5
+  },
+  "CROIX": {
+    "bureau": "Delle",
+    "distanceKm": 7.9
+  },
+  "CUNELIERES": {
+    "bureau": "Fontaine",
+    "distanceKm": 3.5
+  },
+  "DANJOUTIN": {
+    "bureau": "Belfort",
+    "distanceKm": 3.5
+  },
+  "DENNEY": {
+    "bureau": "Belfort",
+    "distanceKm": 4.9
+  },
+  "DORANS": {
+    "bureau": "Belfort",
+    "distanceKm": 6.6
+  },
+  "EGUENIGUE": {
+    "bureau": "Fontaine",
+    "distanceKm": 5.2
+  },
+  "ESCHENE AUTRAGE": {
+    "bureau": "Belfort",
+    "distanceKm": 0.0
+  },
+  "ESSERT": {
+    "bureau": "Belfort",
+    "distanceKm": 2.3
+  },
+  "FAVEROIS": {
+    "bureau": "Delle",
+    "distanceKm": 3.8
+  },
+  "FELON": {
+    "bureau": "Fontaine",
+    "distanceKm": 5.7
+  },
+  "FLORIMONT": {
+    "bureau": "Delle",
+    "distanceKm": 5.5
+  },
+  "FONTENELLE": {
+    "bureau": "Fontaine",
+    "distanceKm": 5.0
+  },
+  "FOUSSEMAGNE": {
+    "bureau": "Fontaine",
+    "distanceKm": 2.0
+  },
+  "FRAIS": {
+    "bureau": "Fontaine",
+    "distanceKm": 1.6
+  },
+  "FROIDEFONTAINE": {
+    "bureau": "Delle",
+    "distanceKm": 7.2
+  },
+  "FECHE L EGLISE": {
+    "bureau": "Delle",
+    "distanceKm": 3.0
+  },
+  "GRANDVILLARS": {
+    "bureau": "Delle",
+    "distanceKm": 3.6
+  },
+  "GROSMAGNY": {
+    "bureau": "Giromagny",
+    "distanceKm": 4.9
+  },
+  "GROSNE": {
+    "bureau": "Delle",
+    "distanceKm": 7.0
+  },
+  "JONCHEREY": {
+    "bureau": "Delle",
+    "distanceKm": 2.7
+  },
+  "LACHAPELLE SOUS CHAUX": {
+    "bureau": "Giromagny",
+    "distanceKm": 4.3
+  },
+  "LACHAPELLE SOUS ROUGEMONT": {
+    "bureau": "Fontaine",
+    "distanceKm": 6.6
+  },
+  "LACOLLONGE": {
+    "bureau": "Fontaine",
+    "distanceKm": 3.0
+  },
+  "LAGRANGE": {
+    "bureau": "Fontaine",
+    "distanceKm": 3.4
+  },
+  "LAMADELEINE VAL DES ANGES": {
+    "bureau": "Giromagny",
+    "distanceKm": 6.9
+  },
+  "LARIVIERE": {
+    "bureau": "Fontaine",
+    "distanceKm": 2.4
+  },
+  "LEBETAIN": {
+    "bureau": "Delle",
+    "distanceKm": 3.2
+  },
+  "LEPUIX": {
+    "bureau": "Delle",
+    "distanceKm": 9.1
+  },
+  "LEPUIX NEUF": {
+    "bureau": "Delle",
+    "distanceKm": 9.1
+  },
+  "LEVAL": {
+    "bureau": "Fontaine",
+    "distanceKm": 8.4
+  },
+  "MENONCOURT": {
+    "bureau": "Fontaine",
+    "distanceKm": 4.2
+  },
+  "MEROUX MOVAL": {
+    "bureau": "Belfort",
+    "distanceKm": 7.9
+  },
+  "MEROUX": {
+    "bureau": "Belfort",
+    "distanceKm": 7.9
+  },
+  "MONTBOUTON": {
+    "bureau": "Delle",
+    "distanceKm": 7.2
+  },
+  "MONTREUX CHATEAU": {
+    "bureau": "Fontaine",
+    "distanceKm": 5.3
+  },
+  "MORVILLARS": {
+    "bureau": "Delle",
+    "distanceKm": 5.7
+  },
+  "MOVAL": {
+    "bureau": "Belfort",
+    "distanceKm": 0.0
+  },
+  "MEZIRE": {
+    "bureau": "Delle",
+    "distanceKm": 6.0
+  },
+  "NOVILLARD": {
+    "bureau": "Fontaine",
+    "distanceKm": 6.3
+  },
+  "OFFEMONT": {
+    "bureau": "Belfort",
+    "distanceKm": 3.2
+  },
+  "PETIT CROIX": {
+    "bureau": "Fontaine",
+    "distanceKm": 4.2
+  },
+  "PETITEFONTAINE": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.6
+  },
+  "LA PETITE FONTAINE": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.6
+  },
+  "PETITMAGNY": {
+    "bureau": "Giromagny",
+    "distanceKm": 6.3
+  },
+  "PHAFFANS": {
+    "bureau": "Fontaine",
+    "distanceKm": 3.7
+  },
+  "PEROUSE": {
+    "bureau": "Belfort",
+    "distanceKm": 4.0
+  },
+  "RECOUVRANCE": {
+    "bureau": "Delle",
+    "distanceKm": 7.1
+  },
+  "REPPE": {
+    "bureau": "Fontaine",
+    "distanceKm": 2.4
+  },
+  "RIERVESCEMONT": {
+    "bureau": "Giromagny",
+    "distanceKm": 5.5
+  },
+  "ROMAGNY SOUS ROUGEMONT": {
+    "bureau": "Fontaine",
+    "distanceKm": 7.3
+  },
+  "ROPPE": {
+    "bureau": "Belfort",
+    "distanceKm": 6.1
+  },
+  "ROUGEGOUTTE": {
+    "bureau": "Giromagny",
+    "distanceKm": 3.2
+  },
+  "ROUGEMONT LE CHATEAU": {
+    "bureau": "Fontaine",
+    "distanceKm": 10.4
+  },
+  "RECHESY": {
+    "bureau": "Delle",
+    "distanceKm": 9.2
+  },
+  "SAINT DIZIER L EVEQUE": {
+    "bureau": "Delle",
+    "distanceKm": 5.1
+  },
+  "SAINT GERMAIN LE CHATELET": {
+    "bureau": "Fontaine",
+    "distanceKm": 5.8
+  },
+  "SALBERT": {
+    "bureau": "Belfort",
+    "distanceKm": 0.0
+  },
+  "SERMAMAGNY": {
+    "bureau": "Belfort",
+    "distanceKm": 4.6
+  },
+  "SEVENANS": {
+    "bureau": "Belfort",
+    "distanceKm": 6.7
+  },
+  "SUARCE": {
+    "bureau": "Delle",
+    "distanceKm": 8.7
+  },
+  "THIANCOURT": {
+    "bureau": "Delle",
+    "distanceKm": 2.0
+  },
+  "TREVENANS": {
+    "bureau": "Belfort",
+    "distanceKm": 9.1
+  },
+  "TRETUDANS": {
+    "bureau": "Belfort",
+    "distanceKm": 9.1
+  },
+  "URCEREY": {
+    "bureau": "Belfort",
+    "distanceKm": 4.8
+  },
+  "VALDOIE": {
+    "bureau": "Belfort",
+    "distanceKm": 3.0
+  },
+  "VAUTHIERMONT": {
+    "bureau": "Fontaine",
+    "distanceKm": 3.4
+  },
+  "VELLESCOT": {
+    "bureau": "Delle",
+    "distanceKm": 7.5
+  },
+  "VESCEMONT": {
+    "bureau": "Giromagny",
+    "distanceKm": 3.4
+  },
+  "VILLARS LE SEC": {
+    "bureau": "Delle",
+    "distanceKm": 5.8
+  },
+  "VOURVENANS": {
+    "bureau": "Belfort",
+    "distanceKm": 0.0
+  },
+  "VETRIGNE": {
+    "bureau": "Belfort",
+    "distanceKm": 4.9
+  },
+  "VEZELOIS": {
+    "bureau": "Belfort",
+    "distanceKm": 7.0
+  },
+  "ELOIE": {
+    "bureau": "Belfort",
+    "distanceKm": 5.2
+  },
+  "ETUEFFONT": {
+    "bureau": "Giromagny",
+    "distanceKm": 7.5
+  },
+  "ETUEFFONT HAUT": {
+    "bureau": "Giromagny",
+    "distanceKm": 7.5
+  },
+  "ETUEFFONT BAS": {
+    "bureau": "Belfort",
+    "distanceKm": 0.0
+  },
+  "EVETTE SALBERT": {
+    "bureau": "Belfort",
+    "distanceKm": 3.8
+  },
+  "EVETTE": {
+    "bureau": "Belfort",
+    "distanceKm": 3.8
+  }
+}

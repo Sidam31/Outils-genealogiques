@@ -1,0 +1,1238 @@
+{
+  "AFFOUX": {
+    "bureau": "Tarare",
+    "distanceKm": 7.1
+  },
+  "AIGUEPERSE": {
+    "bureau": "Monsols",
+    "distanceKm": 11.6
+  },
+  "ALBIGNY SUR SAONE": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.0
+  },
+  "ALBIGNY": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.0
+  },
+  "ALIX": {
+    "bureau": "Anse",
+    "distanceKm": 5.1
+  },
+  "AMBERIEUX": {
+    "bureau": "Anse",
+    "distanceKm": 3.6
+  },
+  "AMPUIS": {
+    "bureau": "Condrieu",
+    "distanceKm": 5.4
+  },
+  "ANCY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 7.8
+  },
+  "ARBUISSONNAS": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "ARNAS": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 4.2
+  },
+  "AVEIZE": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 5.8
+  },
+  "AVENAS": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "AZOLETTE": {
+    "bureau": "Monsols",
+    "distanceKm": 12.5
+  },
+  "BAGNOLS": {
+    "bureau": "Anse",
+    "distanceKm": 7.6
+  },
+  "BEAUVALLON": {
+    "bureau": "Mornant",
+    "distanceKm": 3.7
+  },
+  "SAINT ANDEOL LE CHATEAU": {
+    "bureau": "Mornant",
+    "distanceKm": 3.7
+  },
+  "BELLEVILLE EN BEAUJOLAIS": {
+    "bureau": "Belleville",
+    "distanceKm": 0.0
+  },
+  "BELMONT D AZERGUES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 5.8
+  },
+  "BELMONT": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 5.8
+  },
+  "BESSENAY": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 7.1
+  },
+  "BIBOST": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.3
+  },
+  "BLACE": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 9.4
+  },
+  "BOURG DE THIZY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "BRIGNAIS": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 3.7
+  },
+  "BRINDAS": {
+    "bureau": "Vaugneray",
+    "distanceKm": 4.3
+  },
+  "BRON": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 4.4
+  },
+  "BRULLIOLES": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 2.9
+  },
+  "BRUSSIEU": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 4.0
+  },
+  "BULLY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 3.7
+  },
+  "CAILLOUX SUR FONTAINES": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 4.1
+  },
+  "CALUIRE ET CUIRE": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.6
+  },
+  "CENVES": {
+    "bureau": "Monsols",
+    "distanceKm": 9.0
+  },
+  "CERCIE": {
+    "bureau": "Belleville",
+    "distanceKm": 4.7
+  },
+  "CHABANIERE": {
+    "bureau": "Mornant",
+    "distanceKm": 5.5
+  },
+  "SAINT MAURICE SUR DARGOIRE": {
+    "bureau": "Mornant",
+    "distanceKm": 5.5
+  },
+  "CHAMBOST ALLIERES": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 4.0
+  },
+  "CHAMBOST LONGESSAIGNE": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 8.2
+  },
+  "CHAMELET": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 7.8
+  },
+  "CHAMPAGNE AU MONT D OR": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.3
+  },
+  "CHAPONNAY": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 7.2
+  },
+  "CHAPONOST": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 4.1
+  },
+  "CHARBONNIERES LES BAINS": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 7.4
+  },
+  "CHARENTAY": {
+    "bureau": "Belleville",
+    "distanceKm": 4.6
+  },
+  "CHARLY": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 4.4
+  },
+  "CHARNAY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 7.0
+  },
+  "CHASSAGNY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "CHASSELAY": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 5.5
+  },
+  "CHASSIEU": {
+    "bureau": "Meyzieu",
+    "distanceKm": 5.9
+  },
+  "CHAUSSAN": {
+    "bureau": "Mornant",
+    "distanceKm": 4.1
+  },
+  "CHAZAY D AZERGUES": {
+    "bureau": "Anse",
+    "distanceKm": 7.9
+  },
+  "CHAZAY": {
+    "bureau": "Anse",
+    "distanceKm": 7.9
+  },
+  "CHESSY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.3
+  },
+  "CHEVINAY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.5
+  },
+  "CHIROUBLES": {
+    "bureau": "Beaujeu",
+    "distanceKm": 6.1
+  },
+  "CHATILLON": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 5.1
+  },
+  "CHENAS": {
+    "bureau": "Belleville",
+    "distanceKm": 11.2
+  },
+  "CHENELETTE": {
+    "bureau": "Beaujeu",
+    "distanceKm": 7.1
+  },
+  "CIVRIEUX D AZERGUES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 8.3
+  },
+  "CLAVEISOLLES": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 4.8
+  },
+  "COGNY": {
+    "bureau": "Anse",
+    "distanceKm": 9.4
+  },
+  "COISE": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 2.6
+  },
+  "COLLONGES AU MONT D OR": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 2.1
+  },
+  "COLOMBIER SAUGNIEU": {
+    "bureau": "Meyzieu",
+    "distanceKm": 10.1
+  },
+  "COMMUNAY": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 5.1
+  },
+  "CORBAS": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 4.5
+  },
+  "CORCELLES EN BEAUJOLAIS": {
+    "bureau": "Belleville",
+    "distanceKm": 4.4
+  },
+  "COURS": {
+    "bureau": "Thizy",
+    "distanceKm": 5.8
+  },
+  "COURS LA VILLE": {
+    "bureau": "Thizy",
+    "distanceKm": 5.8
+  },
+  "COURZIEU": {
+    "bureau": "Vaugneray",
+    "distanceKm": 6.5
+  },
+  "COUZON AU MONT D OR": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.0
+  },
+  "CRAPONNE": {
+    "bureau": "Vaugneray",
+    "distanceKm": 6.4
+  },
+  "CREPIEUX LA PAPE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "CUBLIZE": {
+    "bureau": "Thizy",
+    "distanceKm": 6.9
+  },
+  "CURIS AU MONT D OR": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.2
+  },
+  "CURIS": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.2
+  },
+  "DARDILLY": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 5.5
+  },
+  "DAREIZE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "DENICE": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 6.3
+  },
+  "DEUX GROSNES": {
+    "bureau": "Monsols",
+    "distanceKm": 0.0
+  },
+  "DIEME": {
+    "bureau": "Tarare",
+    "distanceKm": 6.4
+  },
+  "DOMMARTIN": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 7.9
+  },
+  "DRACE": {
+    "bureau": "Belleville",
+    "distanceKm": 5.5
+  },
+  "DUERNE": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 8.2
+  },
+  "DURETTE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "DECINES CHARPIEU": {
+    "bureau": "Meyzieu",
+    "distanceKm": 4.1
+  },
+  "FEYZIN": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 3.9
+  },
+  "FLEURIE": {
+    "bureau": "Belleville",
+    "distanceKm": 9.4
+  },
+  "FLEURIEU SUR SAONE": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.9
+  },
+  "FLEURIEUX SUR L ARBRESLE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 3.0
+  },
+  "FONTAINES SAINT MARTIN": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.8
+  },
+  "FONTAINES SUR SAONE": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.0
+  },
+  "FRANCHEVILLE": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 6.0
+  },
+  "FRONTENAS": {
+    "bureau": "Anse",
+    "distanceKm": 6.4
+  },
+  "GENAS": {
+    "bureau": "Meyzieu",
+    "distanceKm": 5.6
+  },
+  "GENAY": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 1.9
+  },
+  "GLEIZE": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 3.0
+  },
+  "GRANDRIS": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 4.3
+  },
+  "GRIGNY SUR RHONE": {
+    "bureau": "Givors",
+    "distanceKm": 3.7
+  },
+  "GRIGNY": {
+    "bureau": "Givors",
+    "distanceKm": 3.7
+  },
+  "GREZIEU LA VARENNE": {
+    "bureau": "Vaugneray",
+    "distanceKm": 3.0
+  },
+  "GREZIEU LE MARCHE": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 3.7
+  },
+  "HAUTE RIVOIRE": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 5.6
+  },
+  "IRIGNY": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 2.6
+  },
+  "JARNIOUX": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "JONAGE": {
+    "bureau": "Meyzieu",
+    "distanceKm": 2.3
+  },
+  "JONS": {
+    "bureau": "Meyzieu",
+    "distanceKm": 5.8
+  },
+  "JOUX": {
+    "bureau": "Tarare",
+    "distanceKm": 5.2
+  },
+  "JULIENAS": {
+    "bureau": "Monsols",
+    "distanceKm": 11.0
+  },
+  "JULLIE": {
+    "bureau": "Monsols",
+    "distanceKm": 7.7
+  },
+  "LA CHAPELLE DE MARDORE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "LA CHAPELLE SUR COISE": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 4.5
+  },
+  "LA MULATIERE": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 4.9
+  },
+  "LA TOUR DE SALVAGNY": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 8.1
+  },
+  "LA VILLE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "LACENAS": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 6.3
+  },
+  "LACHASSAGNE": {
+    "bureau": "Anse",
+    "distanceKm": 2.9
+  },
+  "LANCIE": {
+    "bureau": "Belleville",
+    "distanceKm": 6.6
+  },
+  "LANTIGNIE": {
+    "bureau": "Beaujeu",
+    "distanceKm": 2.9
+  },
+  "LARAJASSE": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 5.9
+  },
+  "LE BREUIL": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.5
+  },
+  "LE PERREON": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 6.3
+  },
+  "LENTILLY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 5.0
+  },
+  "LES ARDILLATS": {
+    "bureau": "Beaujeu",
+    "distanceKm": 5.1
+  },
+  "LES CHERES": {
+    "bureau": "Anse",
+    "distanceKm": 6.4
+  },
+  "LES HAIES": {
+    "bureau": "Condrieu",
+    "distanceKm": 4.3
+  },
+  "LES HALLES": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 3.7
+  },
+  "LES OLMES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "LES SAUVAGES": {
+    "bureau": "Tarare",
+    "distanceKm": 5.1
+  },
+  "LIMAS": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 1.4
+  },
+  "LIMONEST": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.8
+  },
+  "LISSIEU": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 6.6
+  },
+  "LOIRE SUR RHONE": {
+    "bureau": "Givors",
+    "distanceKm": 4.6
+  },
+  "LOIRE": {
+    "bureau": "Givors",
+    "distanceKm": 4.6
+  },
+  "LONGES": {
+    "bureau": "Condrieu",
+    "distanceKm": 6.3
+  },
+  "LONGESSAIGNE": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 5.8
+  },
+  "LOZANNE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.1
+  },
+  "LUCENAY": {
+    "bureau": "Anse",
+    "distanceKm": 3.5
+  },
+  "LYON": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "LYON 1ER ARRONDISSEMENT": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 4.9
+  },
+  "LYON 2E ARRONDISSEMENT": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 5.7
+  },
+  "LYON 3E ARRONDISSEMENT": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 2.8
+  },
+  "LYON 4E ARRONDISSEMENT": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 4.6
+  },
+  "LYON 5E ARRONDISSEMENT": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 7.1
+  },
+  "LYON 6E ARRONDISSEMENT": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 2.7
+  },
+  "LYON 7E ARRONDISSEMENT": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 5.7
+  },
+  "LYON 8E ARRONDISSEMENT": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 4.5
+  },
+  "LYON 9E ARRONDISSEMENT": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 4.2
+  },
+  "LEGNY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 8.3
+  },
+  "LETRA": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 8.5
+  },
+  "MARCHAMPT": {
+    "bureau": "Beaujeu",
+    "distanceKm": 5.7
+  },
+  "MARCILLY D AZERGUES": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 8.5
+  },
+  "MARCY": {
+    "bureau": "Anse",
+    "distanceKm": 4.1
+  },
+  "MARCY L ETOILE": {
+    "bureau": "Vaugneray",
+    "distanceKm": 7.9
+  },
+  "MARDORE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "MARENNES": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 3.7
+  },
+  "MARNAND": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "MEAUX LA MONTAGNE": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 6.8
+  },
+  "MESSIMY": {
+    "bureau": "Vaugneray",
+    "distanceKm": 4.1
+  },
+  "MEYS": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 6.3
+  },
+  "MILLERY": {
+    "bureau": "Givors",
+    "distanceKm": 5.5
+  },
+  "MIONS": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 6.8
+  },
+  "MOIRE": {
+    "bureau": "Anse",
+    "distanceKm": 8.1
+  },
+  "MONTAGNY": {
+    "bureau": "Givors",
+    "distanceKm": 5.0
+  },
+  "MONTANAY": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.0
+  },
+  "MONTMELAS SAINT SORLIN": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 8.2
+  },
+  "MONTROMANT": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 6.5
+  },
+  "MONTROTTIER": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 6.8
+  },
+  "MORANCE": {
+    "bureau": "Anse",
+    "distanceKm": 5.7
+  },
+  "NUELLES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "ODENAS": {
+    "bureau": "Belleville",
+    "distanceKm": 7.1
+  },
+  "OINGT": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "ORLIENAS": {
+    "bureau": "Mornant",
+    "distanceKm": 6.1
+  },
+  "OULLINS PIERRE BENITE": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 2.5
+  },
+  "OULLINS": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 2.5
+  },
+  "OUROUX": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "PIERRE BENITE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "POLEYMIEUX AU MONT D OR": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 4.2
+  },
+  "POLLIONNAY": {
+    "bureau": "Vaugneray",
+    "distanceKm": 4.6
+  },
+  "POMEYS": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 1.7
+  },
+  "POMMIERS": {
+    "bureau": "Anse",
+    "distanceKm": 1.7
+  },
+  "PONT TRAMBOUZE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "PORTE DES PIERRES DOREES": {
+    "bureau": "Anse",
+    "distanceKm": 4.6
+  },
+  "LIERGUES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "POUILLY LE MONIAL": {
+    "bureau": "Anse",
+    "distanceKm": 4.6
+  },
+  "POULE LES ECHARMEAUX": {
+    "bureau": "Beaujeu",
+    "distanceKm": 8.6
+  },
+  "POULE": {
+    "bureau": "Beaujeu",
+    "distanceKm": 8.6
+  },
+  "PROPIERES": {
+    "bureau": "Monsols",
+    "distanceKm": 10.1
+  },
+  "PUSIGNAN": {
+    "bureau": "Meyzieu",
+    "distanceKm": 4.8
+  },
+  "QUINCIEUX": {
+    "bureau": "Anse",
+    "distanceKm": 6.1
+  },
+  "QUINCIE EN BEAUJOLAIS": {
+    "bureau": "Beaujeu",
+    "distanceKm": 5.8
+  },
+  "RANCHAL": {
+    "bureau": "Thizy",
+    "distanceKm": 10.6
+  },
+  "RILLIEUX LA PAPE": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 6.1
+  },
+  "RILLIEUX": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 6.1
+  },
+  "RIVERIE": {
+    "bureau": "Mornant",
+    "distanceKm": 7.0
+  },
+  "RIVOLET": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 7.6
+  },
+  "ROCHETAILLEE SUR SAONE": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.0
+  },
+  "ROCHETAILLEE": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 3.0
+  },
+  "RONNO": {
+    "bureau": "Amplepuis",
+    "distanceKm": 6.0
+  },
+  "RONTALON": {
+    "bureau": "Mornant",
+    "distanceKm": 6.1
+  },
+  "REGNIE DURETTE": {
+    "bureau": "Beaujeu",
+    "distanceKm": 5.0
+  },
+  "REGNIE": {
+    "bureau": "Beaujeu",
+    "distanceKm": 5.0
+  },
+  "SAIN BEL": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 2.7
+  },
+  "SAINT ANDRE LA COTE": {
+    "bureau": "Mornant",
+    "distanceKm": 6.5
+  },
+  "SAINT APPOLINAIRE": {
+    "bureau": "Tarare",
+    "distanceKm": 7.8
+  },
+  "SAINT BONNET DE MURE": {
+    "bureau": "Meyzieu",
+    "distanceKm": 9.1
+  },
+  "SAINT BONNET DES BRUYERES": {
+    "bureau": "Monsols",
+    "distanceKm": 7.7
+  },
+  "SAINT BONNET LE TRONCY": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 7.6
+  },
+  "SAINT CHRISTOPHE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT CLEMENT DE VERS": {
+    "bureau": "Monsols",
+    "distanceKm": 11.4
+  },
+  "SAINT CLEMENT LES PLACES": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 4.1
+  },
+  "SAINT CLEMENT SUR VALSONNE": {
+    "bureau": "Tarare",
+    "distanceKm": 3.0
+  },
+  "SAINT CYR LE CHATOUX": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 3.1
+  },
+  "SAINT CYR SUR LE RHONE": {
+    "bureau": "Condrieu",
+    "distanceKm": 7.2
+  },
+  "SAINT DIDIER AU MONT D OR": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 1.4
+  },
+  "SAINT DIDIER SOUS RIVERIE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT DIDIER SUR BEAUJEU": {
+    "bureau": "Beaujeu",
+    "distanceKm": 3.8
+  },
+  "SAINT FONS": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 4.6
+  },
+  "SAINT FORGEUX": {
+    "bureau": "Tarare",
+    "distanceKm": 6.5
+  },
+  "SAINT GENIS LAVAL": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 0.0
+  },
+  "SAINT GENIS L ARGENTIERE": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 3.4
+  },
+  "SAINT GENIS LES OLLIERES": {
+    "bureau": "Vaugneray",
+    "distanceKm": 6.8
+  },
+  "SAINT GEORGES DE RENEINS": {
+    "bureau": "Belleville",
+    "distanceKm": 6.3
+  },
+  "SAINT GERMAIN NUELLES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 2.9
+  },
+  "SAINT GERMAIN SUR L ARBRESLE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 2.9
+  },
+  "SAINT GERMAIN AU MONT D OR": {
+    "bureau": "Neuville-sur-Saône",
+    "distanceKm": 2.9
+  },
+  "SAINT IGNY DE VERS": {
+    "bureau": "Monsols",
+    "distanceKm": 9.6
+  },
+  "SAINT JACQUES DES ARRETS": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT JEAN D ARDIERES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT JEAN DE TOUSLAS": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT JEAN DES VIGNES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 7.2
+  },
+  "SAINT JEAN LA BUSSIERE": {
+    "bureau": "Amplepuis",
+    "distanceKm": 4.4
+  },
+  "SAINT JULIEN": {
+    "bureau": "Villefranche AC",
+    "distanceKm": 7.6
+  },
+  "SAINT JULIEN SUR BIBOST": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 7.2
+  },
+  "SAINT JUST D AVRAY": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 7.2
+  },
+  "SAINT LAGER": {
+    "bureau": "Belleville",
+    "distanceKm": 4.3
+  },
+  "SAINT LAURENT D AGNY": {
+    "bureau": "Mornant",
+    "distanceKm": 2.8
+  },
+  "SAINT LAURENT D OINGT": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT LAURENT DE MURE": {
+    "bureau": "Meyzieu",
+    "distanceKm": 11.1
+  },
+  "SAINT LAURENT DE VAUX": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT LOUP": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT MAMERT": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT MARCEL L ECLAIRE": {
+    "bureau": "Tarare",
+    "distanceKm": 4.0
+  },
+  "SAINT MARTIN DE CORNAS": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT MARTIN EN HAUT": {
+    "bureau": "Saint-Symphorien-sur-Coise",
+    "distanceKm": 9.1
+  },
+  "SAINT NIZIER D AZERGUES": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 5.0
+  },
+  "SAINT PIERRE DE CHANDIEU": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 11.1
+  },
+  "SAINT PIERRE LA PALUD": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 5.7
+  },
+  "SAINT PRIEST": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 9.0
+  },
+  "SAINT RAMBERT L ILE BARBE": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT ROMAIN AU MONT D OR": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 1.6
+  },
+  "SAINT ROMAIN DE POPEY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.7
+  },
+  "SAINT ROMAIN EN GAL": {
+    "bureau": "Givors",
+    "distanceKm": 7.6
+  },
+  "SAINT ROMAIN EN GIER": {
+    "bureau": "Givors",
+    "distanceKm": 4.5
+  },
+  "SAINT SORLIN": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "SAINT VINCENT DE REINS": {
+    "bureau": "Thizy",
+    "distanceKm": 6.8
+  },
+  "SAINT VERAND": {
+    "bureau": "Tarare",
+    "distanceKm": 7.2
+  },
+  "SAINT ETIENNE DES OULLIERES": {
+    "bureau": "Belleville",
+    "distanceKm": 7.9
+  },
+  "SAINT ETIENNE LA VARENNE": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 8.9
+  },
+  "SAINTE CATHERINE": {
+    "bureau": "Mornant",
+    "distanceKm": 8.0
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Condrieu",
+    "distanceKm": 10.0
+  },
+  "SAINTE CONSORCE": {
+    "bureau": "Vaugneray",
+    "distanceKm": 6.3
+  },
+  "SAINTE FOY L ARGENTIERE": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 4.0
+  },
+  "SAINTE FOY LES LYON": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 4.9
+  },
+  "SAINTE PAULE": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 9.9
+  },
+  "SALLES ARBUISSONNAS EN BEAUJOLAIS": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 9.5
+  },
+  "SALLES": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 9.5
+  },
+  "SARCEY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 6.8
+  },
+  "SATHONAY CAMP": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 4.9
+  },
+  "SATHONAY VILLAGE": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 5.7
+  },
+  "SAVIGNY": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.3
+  },
+  "SIMANDRES": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 3.1
+  },
+  "SOLAIZE": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 2.7
+  },
+  "SOUCIEU EN JARREST": {
+    "bureau": "Vaugneray",
+    "distanceKm": 6.7
+  },
+  "SOURCIEUX LES MINES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.4
+  },
+  "SOUZY": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 4.4
+  },
+  "SEREZIN DU RHONE": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 3.4
+  },
+  "TALUYERS": {
+    "bureau": "Mornant",
+    "distanceKm": 4.5
+  },
+  "TAPONAS": {
+    "bureau": "Belleville",
+    "distanceKm": 2.9
+  },
+  "TASSIN LA DEMI LUNE": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 8.1
+  },
+  "TERNAND": {
+    "bureau": "Tarare",
+    "distanceKm": 8.4
+  },
+  "TERNAY": {
+    "bureau": "Givors",
+    "distanceKm": 4.5
+  },
+  "THEIZE": {
+    "bureau": "Anse",
+    "distanceKm": 6.0
+  },
+  "THEL": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "THIZY LES BOURGS": {
+    "bureau": "Thizy",
+    "distanceKm": 0.0
+  },
+  "THURINS": {
+    "bureau": "Vaugneray",
+    "distanceKm": 5.8
+  },
+  "TOUSSIEU": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 9.2
+  },
+  "TRADES": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 4.9
+  },
+  "TREVES": {
+    "bureau": "Givors",
+    "distanceKm": 7.4
+  },
+  "TUPIN ET SEMONS": {
+    "bureau": "Condrieu",
+    "distanceKm": 3.0
+  },
+  "VAL D OINGT": {
+    "bureau": "Anse",
+    "distanceKm": 10.7
+  },
+  "LE BOIS D OINGT": {
+    "bureau": "Anse",
+    "distanceKm": 10.7
+  },
+  "VALSONNE": {
+    "bureau": "Tarare",
+    "distanceKm": 4.4
+  },
+  "VAULX EN VELIN": {
+    "bureau": "Villeurbanne",
+    "distanceKm": 2.8
+  },
+  "VAUX EN BEAUJOLAIS": {
+    "bureau": "Lamure-sur-Azergues",
+    "distanceKm": 5.6
+  },
+  "VAUXRENARD": {
+    "bureau": "Monsols",
+    "distanceKm": 6.3
+  },
+  "VERNAISON": {
+    "bureau": "Saint-Symphorien-d'Ozon",
+    "distanceKm": 4.3
+  },
+  "VERNAY": {
+    "bureau": "Beaujeu",
+    "distanceKm": 4.1
+  },
+  "VILLE SUR JARNIOUX": {
+    "bureau": "Anse",
+    "distanceKm": 9.0
+  },
+  "VILLECHENEVE": {
+    "bureau": "Saint-Laurent-de-Chamousset",
+    "distanceKm": 9.5
+  },
+  "VILLIE MORGON": {
+    "bureau": "Beaujeu",
+    "distanceKm": 6.3
+  },
+  "VINDRY SUR TURDINE": {
+    "bureau": "Tarare",
+    "distanceKm": 5.4
+  },
+  "PONTCHARRA SUR TURDINE": {
+    "bureau": "Tarare",
+    "distanceKm": 5.4
+  },
+  "VOURLES": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 4.3
+  },
+  "VENISSIEUX": {
+    "bureau": "Saint-Genis-Laval - Oullins",
+    "distanceKm": 6.9
+  },
+  "YZERON": {
+    "bureau": "Vaugneray",
+    "distanceKm": 4.1
+  },
+  "ECHALAS": {
+    "bureau": "Givors",
+    "distanceKm": 4.4
+  },
+  "ECULLY": {
+    "bureau": "Saint-Cyr-au-Mont-d'Or",
+    "distanceKm": 5.5
+  },
+  "EMERINGES": {
+    "bureau": "Monsols",
+    "distanceKm": 8.8
+  },
+  "EVEUX": {
+    "bureau": "L'Arbresle",
+    "distanceKm": 1.4
+  }
+}

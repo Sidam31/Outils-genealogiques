@@ -99,9 +99,13 @@ export const SUCCESSION_DEPTS = {
     '37': {
         label: 'Indre-et-Loire',
         kind: 'facet',
-        // Bornes réelles de la série (4554 registres scrapés, voir scrape_successions_multi.py).
-        minYear: 1788,
-        maxYear: 1969,
+        // Bornes réelles de la série (389 registres scrapés, voir scrape_successions_multi.py) -
+        // corrigé après coup : le formUuid, malgré son nom, couvrait en réalité tout le fonds
+        // "Enregistrement" (dont les déclarations de succession brutes, une source différente des
+        // tables d'index visées ici) ; voir is_tsa_record_type dans le scraper. Repéré et corrigé
+        // le 2026-08-17 - avant cette date, ce département pouvait pointer vers la mauvaise série.
+        minYear: 1824,
+        maxYear: 1968,
         portalBase: 'https://archives.touraine.fr/search/results',
         formUuid: 'f311e3b2-110c-43a5-a051-4585d7499fb9',
         registersUrl: './assets/data/successions_37.json',
@@ -132,7 +136,10 @@ export const SUCCESSION_DEPTS = {
     '25': {
         label: 'Doubs',
         kind: 'facet',
-        // Bornes réelles de la série (295 registres scrapés, voir scrape_successions_multi.py).
+        // Bornes réelles de la série (258 registres scrapés, voir scrape_successions_multi.py) -
+        // corrigé après coup le 2026-08-17, même cause qu'Indre-et-Loire (voir son commentaire) :
+        // des items d'une sous-série voisine (déclarations brutes, pas les tables d'index)
+        // étaient mélangés aux vrais registres.
         minYear: 1776,
         maxYear: 1969,
         portalBase: 'https://portail-archives.doubs.fr/search/results',
@@ -227,6 +234,75 @@ export const SUCCESSION_DEPTS = {
         // Portail "Arkothèque" (même logiciel que Paris), mais sans subdivision par patronyme -
         // un registre par (bureau, tranche d'années), donc kind 'facet' ordinaire ici.
         catalogUrl: 'https://archives.allier.fr/archives-en-ligne/tables-des-successions-et-absences',
+    },
+    '90': {
+        label: 'Territoire de Belfort',
+        kind: 'facet',
+        // Bornes réelles de la série (83 registres scrapés, voir scrape_successions_multi.py) :
+        // plus petit département de la France métropolitaine, seulement 2 bureaux (dont un partagé
+        // entre 3 communes - Delle, Fontaine, Giromagny - voir bureauNamesFromPlace plus haut). Ce
+        // formUuid couvrait en réalité tout le fonds "Enregistrement" (partages, testaments,
+        // successions acquittées...) avant filtrage par is_tsa_record_type - voir son commentaire.
+        minYear: 1791,
+        maxYear: 1968,
+        portalBase: 'https://archives.territoiredebelfort.fr/search/results',
+        formUuid: '4a39b8c2-efbf-4502-a0a4-8f10350fa0a8',
+        registersUrl: './assets/data/successions_90.json',
+        bureauxUrl: './assets/data/successions_90_bureaux.json',
+    },
+    '68': {
+        label: 'Haut-Rhin',
+        kind: 'facet',
+        // Bornes réelles de la série (246 registres scrapés, voir scrape_successions_multi.py).
+        // Portail sans date par item dans la liste de résultats (needs_detail_date) et avec un
+        // numéro de page courant absent du texte de pagination statique - voir total_pages().
+        minYear: 1832,
+        maxYear: 1969,
+        portalBase: 'https://archives68.alsace.eu/search/results',
+        formUuid: 'e58a19a1-3336-434f-9376-425c8bbb2f11',
+        registersUrl: './assets/data/successions_68.json',
+        bureauxUrl: './assets/data/successions_68_bureaux.json',
+    },
+    '13': {
+        label: 'Bouches-du-Rhône',
+        kind: 'facet',
+        // Bornes réelles de la série (2320 registres scrapés, voir
+        // scrape_successions_bouches_du_rhone.py) : chaque registre couvre souvent plusieurs
+        // communes explicitement nommées (pas seulement le siège du bureau comme ailleurs), d'où
+        // 108 communes à correspondance exacte directe - bien plus fin que le simple repli par
+        // proximité utilisé pour les 34 communes restantes du département.
+        minYear: 1769,
+        maxYear: 1925,
+        registersUrl: './assets/data/successions_13.json',
+        bureauxUrl: './assets/data/successions_13_bureaux.json',
+        // Portail "Ligeo Archives" (même logiciel qu'Aveyron/Seine-Maritime/Haute-Garonne), mais
+        // avec un formulaire de recherche classique (bureau + case à cocher "Table des décès,
+        // successions et absences" explicite) plutôt qu'un arbre de classement ou une autocomplete
+        // plafonnée - repli sur le formulaire lui-même.
+        catalogUrl: 'https://www.archives13.fr/archive/recherche/enregistrement/n:33',
+    },
+    '19': {
+        label: 'Corrèze',
+        kind: 'facet',
+        // Bornes réelles de la série (460 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1731,
+        maxYear: 1969,
+        portalBase: 'https://www.archives.correze.fr/search/results',
+        formUuid: '4a09a92a-132c-44a6-aac4-a4f0e5155439',
+        registersUrl: './assets/data/successions_19.json',
+        bureauxUrl: './assets/data/successions_19_bureaux.json',
+    },
+    '69': {
+        label: 'Rhône',
+        kind: 'facet',
+        // Bornes réelles de la série (475 registres scrapés, voir scrape_successions_multi.py).
+        minYear: 1823,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_69.json',
+        bureauxUrl: './assets/data/successions_69_bureaux.json',
+        // Pas de formUuid publié pour cette série ici (interrogée par mot-clé côté scraper, voir
+        // DEPARTMENTS['69'] dans scrape_successions_multi.py) : repli sur cette même recherche.
+        catalogUrl: 'https://archives.rhone.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=Table+des+successions+et+absences&mode=list&sort=referencecode_asc',
     },
 };
 

@@ -1,0 +1,138 @@
+{
+  "AIX EN PROVENCE": {
+    "bureau": "Eguilles",
+    "distanceKm": 6.6
+  },
+  "CABANNES": {
+    "bureau": "Noves",
+    "distanceKm": 4.6
+  },
+  "EYGALIERES": {
+    "bureau": "Mollégès",
+    "distanceKm": 4.5
+  },
+  "LA BAUX": {
+    "bureau": "Les Baux-de-Provence",
+    "distanceKm": 0.0
+  },
+  "MARSEILLE 10E ARRONDISSEMENT": {
+    "bureau": "La Penne-sur-Huveaune",
+    "distanceKm": 7.6
+  },
+  "MARSEILLE 11E ARRONDISSEMENT": {
+    "bureau": "La Penne-sur-Huveaune",
+    "distanceKm": 3.4
+  },
+  "MARSEILLE 12E ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 6.6
+  },
+  "MARSEILLE 13E ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 3.0
+  },
+  "MARSEILLE 14E ARRONDISSEMENT": {
+    "bureau": "Septèmes-les-Vallons",
+    "distanceKm": 5.2
+  },
+  "MARSEILLE 15E ARRONDISSEMENT": {
+    "bureau": "Septèmes-les-Vallons",
+    "distanceKm": 4.7
+  },
+  "MARSEILLE 16E ARRONDISSEMENT": {
+    "bureau": "Les Pennes-Mirabeau",
+    "distanceKm": 4.1
+  },
+  "MARSEILLE 1ER ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 9.7
+  },
+  "MARSEILLE 2E ARRONDISSEMENT": {
+    "bureau": "Septèmes-les-Vallons",
+    "distanceKm": 8.2
+  },
+  "MARSEILLE 3E ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 8.9
+  },
+  "MARSEILLE 4E ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 8.2
+  },
+  "MARSEILLE 5E ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 9.5
+  },
+  "MARSEILLE 6E ARRONDISSEMENT": {
+    "bureau": "Plan-de-Cuques",
+    "distanceKm": 10.8
+  },
+  "MARSEILLE 7E ARRONDISSEMENT": {
+    "bureau": "Le Rove",
+    "distanceKm": 11.1
+  },
+  "MARSEILLE 8E ARRONDISSEMENT": {
+    "bureau": "La Penne-sur-Huveaune",
+    "distanceKm": 17.1
+  },
+  "MARSEILLE 9E ARRONDISSEMENT": {
+    "bureau": "La Penne-sur-Huveaune",
+    "distanceKm": 7.1
+  },
+  "MAS BLANC": {
+    "bureau": "Mas-Blanc-des-Alpilles",
+    "distanceKm": 0.0
+  },
+  "MAUSSANE": {
+    "bureau": "Maussane-les-Alpilles",
+    "distanceKm": 0.0
+  },
+  "ORGON": {
+    "bureau": "Mollégès",
+    "distanceKm": 7.0
+  },
+  "PARADOU": {
+    "bureau": "Le Paradou",
+    "distanceKm": 0.0
+  },
+  "PLAN D ORGON": {
+    "bureau": "Mollégès",
+    "distanceKm": 4.7
+  },
+  "PORT DE BOUC": {
+    "bureau": "Saint-Mître-les-Remparts",
+    "distanceKm": 4.2
+  },
+  "SAINT ANDIOL": {
+    "bureau": "Mollégès",
+    "distanceKm": 3.3
+  },
+  "SAINT MITRE": {
+    "bureau": "Saint-Mître-les-Remparts",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE DE MEZOARGUES": {
+    "bureau": "Mézoargues",
+    "distanceKm": 0.0
+  },
+  "SAINT REMY": {
+    "bureau": "Saint-Rémy-de-Provence",
+    "distanceKm": 0.0
+  },
+  "SAINT VICTORET": {
+    "bureau": "Marignane",
+    "distanceKm": 2.9
+  },
+  "SAUSSET LES PINS": {
+    "bureau": "Carry-le-Rouet",
+    "distanceKm": 3.5
+  },
+  "SENAS": {
+    "bureau": "Lamanon",
+    "distanceKm": 3.9
+  },
+  "VERQUIERES": {
+    "bureau": "Noves",
+    "distanceKm": 2.8
+  }
+}

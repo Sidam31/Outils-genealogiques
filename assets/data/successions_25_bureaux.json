@@ -28,8 +28,8 @@
     "distanceKm": 2.5
   },
   "AIBRE": {
-    "bureau": "Montbéliard",
-    "distanceKm": 7.5
+    "bureau": "Audincourt",
+    "distanceKm": 14.1
   },
   "ALAISE": {
     "bureau": "Besançon",
@@ -40,8 +40,8 @@
     "distanceKm": 7.2
   },
   "ALLONDANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 2.6
+    "bureau": "Audincourt",
+    "distanceKm": 9.0
   },
   "AMAGNEY": {
     "bureau": "Marchaux",
@@ -80,8 +80,8 @@
     "distanceKm": 10.1
   },
   "ARCEY": {
-    "bureau": "Montbéliard",
-    "distanceKm": 10.0
+    "bureau": "l'Isle-sur-le-Doubs",
+    "distanceKm": 11.6
   },
   "ARCIER": {
     "bureau": "Besançon",
@@ -92,8 +92,8 @@
     "distanceKm": 0.0
   },
   "ARCON": {
-    "bureau": "Pontarlier",
-    "distanceKm": 6.0
+    "bureau": "Montbenoît",
+    "distanceKm": 6.1
   },
   "ATHOSE": {
     "bureau": "Besançon",
@@ -152,8 +152,8 @@
     "distanceKm": 11.1
   },
   "BART": {
-    "bureau": "Montbéliard",
-    "distanceKm": 3.2
+    "bureau": "Audincourt",
+    "distanceKm": 6.5
   },
   "BARTHERANS": {
     "bureau": "Quingey",
@@ -168,8 +168,8 @@
     "distanceKm": 8.1
   },
   "BAVANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 5.7
+    "bureau": "Audincourt",
+    "distanceKm": 9.1
   },
   "BELFAYS": {
     "bureau": "Saint-Hippolyte",
@@ -184,16 +184,16 @@
     "distanceKm": 4.1
   },
   "BERCHE": {
-    "bureau": "Montbéliard",
-    "distanceKm": 6.2
+    "bureau": "Audincourt",
+    "distanceKm": 7.8
   },
   "BERTHELANGE": {
     "bureau": "Saint-Vit",
     "distanceKm": 3.9
   },
   "BETHONCOURT": {
-    "bureau": "Montbéliard",
-    "distanceKm": 3.0
+    "bureau": "Audincourt",
+    "distanceKm": 8.1
   },
   "BEURE": {
     "bureau": "Besançon",
@@ -284,8 +284,8 @@
     "distanceKm": 4.5
   },
   "BOUVERANS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 15.0
+    "bureau": "Levier",
+    "distanceKm": 15.6
   },
   "BRAILLANS": {
     "bureau": "Marchaux",
@@ -376,8 +376,8 @@
     "distanceKm": 3.1
   },
   "CHAFFOIS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 10.1
+    "bureau": "Levier",
+    "distanceKm": 11.3
   },
   "CHALEZEULE": {
     "bureau": "Besançon",
@@ -600,8 +600,8 @@
     "distanceKm": 0.0
   },
   "COURCELLES LES MONTBELIARD": {
-    "bureau": "Montbéliard",
-    "distanceKm": 2.3
+    "bureau": "Audincourt",
+    "distanceKm": 5.3
   },
   "COURCHAPON": {
     "bureau": "Recologne",
@@ -668,8 +668,8 @@
     "distanceKm": 6.9
   },
   "DAMBENOIS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 7.4
+    "bureau": "Audincourt",
+    "distanceKm": 7.6
   },
   "DAMMARTIN LES TEMPLIERS": {
     "bureau": "Roulans",
@@ -680,8 +680,8 @@
     "distanceKm": 6.1
   },
   "DAMPIERRE SUR LE DOUBS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 7.0
+    "bureau": "Audincourt",
+    "distanceKm": 8.9
   },
   "DAMPJOUX": {
     "bureau": "Pont-de-Roide",
@@ -712,8 +712,8 @@
     "distanceKm": 7.0
   },
   "DOMMARTIN": {
-    "bureau": "Pontarlier",
-    "distanceKm": 5.4
+    "bureau": "Montbenoît",
+    "distanceKm": 13.0
   },
   "DOMPIERRE LES TILLEULS": {
     "bureau": "Levier",
@@ -724,8 +724,8 @@
     "distanceKm": 7.5
   },
   "DOUBS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 2.0
+    "bureau": "Montbenoît",
+    "distanceKm": 9.4
   },
   "DOULAIZE": {
     "bureau": "Besançon",
@@ -736,16 +736,16 @@
     "distanceKm": 0.0
   },
   "DUNG": {
-    "bureau": "Montbéliard",
-    "distanceKm": 3.2
+    "bureau": "Audincourt",
+    "distanceKm": 8.5
   },
   "DURNES": {
     "bureau": "Ornans",
     "distanceKm": 5.4
   },
   "DESANDANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 8.8
+    "bureau": "l'Isle-sur-le-Doubs",
+    "distanceKm": 14.2
   },
   "DESERVILLERS": {
     "bureau": "Amancey",
@@ -980,8 +980,8 @@
     "distanceKm": 16.3
   },
   "GRAND CHARMONT": {
-    "bureau": "Montbéliard",
-    "distanceKm": 3.5
+    "bureau": "Audincourt",
+    "distanceKm": 6.5
   },
   "GRANDFONTAINE": {
     "bureau": "Saint-Vit",
@@ -996,8 +996,8 @@
     "distanceKm": 0.0
   },
   "GRANGES NARBOZ": {
-    "bureau": "Pontarlier",
-    "distanceKm": 6.1
+    "bureau": "Montbenoît",
+    "distanceKm": 15.9
   },
   "GRANGES SAINTE MARIE": {
     "bureau": "Besançon",
@@ -1036,8 +1036,8 @@
     "distanceKm": 1.7
   },
   "HOUTAUD": {
-    "bureau": "Pontarlier",
-    "distanceKm": 5.9
+    "bureau": "Montbenoît",
+    "distanceKm": 14.4
   },
   "HUANNE MONTMARTIN": {
     "bureau": "Rougemont",
@@ -1064,8 +1064,8 @@
     "distanceKm": 11.9
   },
   "ISSANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 3.8
+    "bureau": "Audincourt",
+    "distanceKm": 10.2
   },
   "JALLERANGE": {
     "bureau": "Recologne",
@@ -1108,8 +1108,8 @@
     "distanceKm": 12.0
   },
   "LA CLUSE ET MIJOUX": {
-    "bureau": "Pontarlier",
-    "distanceKm": 6.7
+    "bureau": "Montbenoît",
+    "distanceKm": 15.0
   },
   "LA GRANGE": {
     "bureau": "Belvoir",
@@ -1120,8 +1120,8 @@
     "distanceKm": 3.8
   },
   "LA PLANEE": {
-    "bureau": "Pontarlier",
-    "distanceKm": 11.7
+    "bureau": "Mouthe",
+    "distanceKm": 18.1
   },
   "LA PRETIERE": {
     "bureau": "l'Isle-sur-le-Doubs",
@@ -1152,8 +1152,8 @@
     "distanceKm": 0.0
   },
   "LAIRE": {
-    "bureau": "Montbéliard",
-    "distanceKm": 5.1
+    "bureau": "Audincourt",
+    "distanceKm": 11.7
   },
   "LAISSEY": {
     "bureau": "Roulans",
@@ -1256,8 +1256,8 @@
     "distanceKm": 5.5
   },
   "LE VERNOY": {
-    "bureau": "Montbéliard",
-    "distanceKm": 10.2
+    "bureau": "Audincourt",
+    "distanceKm": 16.7
   },
   "LES ALLIES": {
     "bureau": "Montbenoît",
@@ -1288,24 +1288,24 @@
     "distanceKm": 13.6
   },
   "LES FOURGS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 9.0
+    "bureau": "Montbenoît",
+    "distanceKm": 16.5
   },
   "LES GRANGETTES": {
-    "bureau": "Pontarlier",
-    "distanceKm": 10.5
+    "bureau": "Mouthe",
+    "distanceKm": 18.5
   },
   "LES GRAS": {
     "bureau": "Montbenoît",
     "distanceKm": 6.0
   },
   "LES HOPITAUX NEUFS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 14.8
+    "bureau": "Mouthe",
+    "distanceKm": 18.1
   },
   "LES HOPITAUX VIEUX": {
-    "bureau": "Pontarlier",
-    "distanceKm": 12.8
+    "bureau": "Mouthe",
+    "distanceKm": 19.6
   },
   "LES MONTS RONDS": {
     "bureau": "Ornans",
@@ -1448,12 +1448,12 @@
     "distanceKm": 5.5
   },
   "MALBUISSON": {
-    "bureau": "Pontarlier",
-    "distanceKm": 13.9
+    "bureau": "Mouthe",
+    "distanceKm": 15.2
   },
   "MALPAS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 12.0
+    "bureau": "Mouthe",
+    "distanceKm": 17.2
   },
   "MAMBOUHANS": {
     "bureau": "Besançon",
@@ -1547,6 +1547,10 @@
     "bureau": "Saint-Hippolyte",
     "distanceKm": 2.1
   },
+  "MONTBELIARD": {
+    "bureau": "Audincourt",
+    "distanceKm": 6.6
+  },
   "MONTBELIARDOT": {
     "bureau": "Orchamps-Vennes",
     "distanceKm": 14.4
@@ -1596,8 +1600,8 @@
     "distanceKm": 6.6
   },
   "MONTPERREUX": {
-    "bureau": "Pontarlier",
-    "distanceKm": 11.1
+    "bureau": "Mouthe",
+    "distanceKm": 18.3
   },
   "MONTROND LE CHATEAU": {
     "bureau": "Ornans",
@@ -1700,8 +1704,8 @@
     "distanceKm": 2.7
   },
   "NOMMAY": {
-    "bureau": "Montbéliard",
-    "distanceKm": 5.2
+    "bureau": "Audincourt",
+    "distanceKm": 6.6
   },
   "NOVILLARS": {
     "bureau": "Marchaux",
@@ -1752,16 +1756,16 @@
     "distanceKm": 2.6
   },
   "OUHANS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 10.8
+    "bureau": "Montbenoît",
+    "distanceKm": 11.5
   },
   "OUVANS": {
     "bureau": "Belvoir",
     "distanceKm": 10.6
   },
   "OYE ET PALLET": {
-    "bureau": "Pontarlier",
-    "distanceKm": 7.8
+    "bureau": "Montbenoît",
+    "distanceKm": 17.4
   },
   "PALANTINE": {
     "bureau": "Quingey",
@@ -1847,6 +1851,10 @@
     "bureau": "Baume-les-Dames",
     "distanceKm": 2.9
   },
+  "PONTARLIER": {
+    "bureau": "Montbenoît",
+    "distanceKm": 9.8
+  },
   "POUILLEY FRANCAIS": {
     "bureau": "Saint-Vit",
     "distanceKm": 1.9
@@ -1868,8 +1876,8 @@
     "distanceKm": 3.9
   },
   "PRESENTEVILLERS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 4.3
+    "bureau": "Audincourt",
+    "distanceKm": 9.4
   },
   "PUESSANS": {
     "bureau": "Rougemont",
@@ -1904,8 +1912,8 @@
     "distanceKm": 0.0
   },
   "RAYNANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 4.8
+    "bureau": "Audincourt",
+    "distanceKm": 11.3
   },
   "RECULFOZ": {
     "bureau": "Mouthe",
@@ -2048,12 +2056,12 @@
     "distanceKm": 6.7
   },
   "SAINT JULIEN LES MONTBELIARD": {
-    "bureau": "Montbéliard",
-    "distanceKm": 6.0
+    "bureau": "Audincourt",
+    "distanceKm": 11.9
   },
   "SAINT JULIEN": {
-    "bureau": "Montbéliard",
-    "distanceKm": 6.0
+    "bureau": "Audincourt",
+    "distanceKm": 11.9
   },
   "SAINT JULIEN LES RUSSEY": {
     "bureau": "Saint-Hippolyte",
@@ -2068,24 +2076,24 @@
     "distanceKm": 4.3
   },
   "SAINT POINT LAC": {
-    "bureau": "Pontarlier",
-    "distanceKm": 13.6
+    "bureau": "Mouthe",
+    "distanceKm": 15.4
   },
   "SAINTE ANNE": {
     "bureau": "Levier",
     "distanceKm": 10.7
   },
   "SAINTE COLOMBE": {
-    "bureau": "Pontarlier",
-    "distanceKm": 9.5
+    "bureau": "Levier",
+    "distanceKm": 15.4
   },
   "SAINTE MARIE": {
-    "bureau": "Montbéliard",
-    "distanceKm": 6.9
+    "bureau": "l'Isle-sur-le-Doubs",
+    "distanceKm": 11.5
   },
   "SAINTE SUZANNE": {
-    "bureau": "Montbéliard",
-    "distanceKm": 1.4
+    "bureau": "Audincourt",
+    "distanceKm": 7.0
   },
   "SAMSON": {
     "bureau": "Quingey",
@@ -2140,8 +2148,8 @@
     "distanceKm": 2.7
   },
   "SEMONDANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 7.4
+    "bureau": "Audincourt",
+    "distanceKm": 13.8
   },
   "SEPTFONTAINES": {
     "bureau": "Levier",
@@ -2172,8 +2180,8 @@
     "distanceKm": 3.3
   },
   "SOCHAUX": {
-    "bureau": "Montbéliard",
-    "distanceKm": 3.5
+    "bureau": "Audincourt",
+    "distanceKm": 4.3
   },
   "SOLEMONT": {
     "bureau": "Pont-de-Roide",
@@ -2248,8 +2256,8 @@
     "distanceKm": 4.5
   },
   "TOUILLON ET LOUTELET": {
-    "bureau": "Pontarlier",
-    "distanceKm": 13.4
+    "bureau": "Mouthe",
+    "distanceKm": 16.6
   },
   "TOURNANS": {
     "bureau": "Baume-les-Dames",
@@ -2304,12 +2312,12 @@
     "distanceKm": 0.0
   },
   "VAL D USIERS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 9.7
+    "bureau": "Levier",
+    "distanceKm": 11.5
   },
   "BIANS LES USIERS": {
-    "bureau": "Pontarlier",
-    "distanceKm": 9.7
+    "bureau": "Levier",
+    "distanceKm": 11.5
   },
   "VAL DE ROULANS": {
     "bureau": "Roulans",
@@ -2440,8 +2448,8 @@
     "distanceKm": 2.1
   },
   "VERRIERES DE JOUX": {
-    "bureau": "Pontarlier",
-    "distanceKm": 5.9
+    "bureau": "Montbenoît",
+    "distanceKm": 11.0
   },
   "VERRIERES DU GROSBOIS": {
     "bureau": "Besançon",
@@ -2452,8 +2460,8 @@
     "distanceKm": 4.0
   },
   "VIEUX CHARMONT": {
-    "bureau": "Montbéliard",
-    "distanceKm": 4.6
+    "bureau": "Audincourt",
+    "distanceKm": 5.3
   },
   "VILLARS SAINT GEORGES": {
     "bureau": "Quingey",
@@ -2544,8 +2552,8 @@
     "distanceKm": 6.1
   },
   "VUILLECIN": {
-    "bureau": "Pontarlier",
-    "distanceKm": 5.3
+    "bureau": "Montbenoît",
+    "distanceKm": 10.4
   },
   "VYT LES BELVOIR": {
     "bureau": "Belvoir",
@@ -2556,8 +2564,8 @@
     "distanceKm": 8.8
   },
   "ECHENANS": {
-    "bureau": "Montbéliard",
-    "distanceKm": 6.9
+    "bureau": "Audincourt",
+    "distanceKm": 13.0
   },
   "ECHEVANNES": {
     "bureau": "Ornans",
@@ -2608,7 +2616,7 @@
     "distanceKm": 5.8
   },
   "ETOUVANS": {
-    "bureau": "Montbéliard",
+    "bureau": "Pont-de-Roide",
     "distanceKm": 8.3
   },
   "ETRABONNE": {
