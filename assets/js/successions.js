@@ -227,6 +227,18 @@ function baseBureauName(place) {
     return place.replace(/\s*\(.*\)\s*$/, '').trim();
 }
 
+// Certains portails partagent un même registre entre plusieurs bureaux plutôt qu'un seul par
+// registre comme partout ailleurs (ex. Territoire de Belfort : "bureaux de Delle, Fontaine et
+// Giromagny") : on indexe alors ce registre sous CHAQUE nom de bureau, sans quoi aucune de ces
+// communes ne matcherait jamais exactement. Ne PAS découper "X, La"/"X, Le"/"X, Les" : c'est
+// l'article reporté en fin de nom (convention de nommage vue à Loire-Atlantique, ex.
+// "Chapelle-sur-Erdre, La"), pas une liste de bureaux.
+function bureauNamesFromPlace(place) {
+    const base = baseBureauName(place);
+    if (/,\s*(la|le|les|l['’])$/i.test(base)) return [base];
+    return base.split(/,| et /i).map(s => s.trim()).filter(Boolean);
+}
+
 // Lien de repli (Nord) quand aucun registre précis n'a pu être identifié (commune absente du
 // dépouillement, y compris via le bureau le plus proche) : liste, pour l'année demandée, tous les
 // registres du département sans filtrer par lieu — à feuilleter soi-même plutôt que rien.
@@ -273,9 +285,11 @@ function loadFacetIndex(config) {
     ]).then(([registers, bureaux]) => {
         const registerIndex = new Map();
         registers.forEach(r => {
-            const key = normalizePlace(baseBureauName(r.place));
-            if (!registerIndex.has(key)) registerIndex.set(key, []);
-            registerIndex.get(key).push(r);
+            bureauNamesFromPlace(r.place).forEach(name => {
+                const key = normalizePlace(name);
+                if (!registerIndex.has(key)) registerIndex.set(key, []);
+                registerIndex.get(key).push(r);
+            });
         });
         const bureauIndex = new Map();
         Object.entries(bureaux).forEach(([communeNorm, entry]) => {
