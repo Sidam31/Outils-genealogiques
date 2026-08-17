@@ -1,0 +1,3406 @@
+{
+  "ABBECOURT": {
+    "bureau": "Chauny",
+    "distanceKm": 3.4
+  },
+  "ACHERY": {
+    "bureau": "La Fère",
+    "distanceKm": 3.5
+  },
+  "ACY": {
+    "bureau": "Soissons",
+    "distanceKm": 7.6
+  },
+  "AGNICOURT ET SECHELLES": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 12.4
+  },
+  "AGUILCOURT": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 6.4
+  },
+  "AISONVILLE ET BERNOVILLE": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 7.3
+  },
+  "AIZELLES": {
+    "bureau": "Craonne",
+    "distanceKm": 4.6
+  },
+  "AIZY JOUY": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 2.8
+  },
+  "AIZY": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 2.8
+  },
+  "ALAINCOURT": {
+    "bureau": "Ribemont",
+    "distanceKm": 7.5
+  },
+  "ALLEMANT": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.9
+  },
+  "AMBLENY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 5.9
+  },
+  "AMBRIEF": {
+    "bureau": "Soissons",
+    "distanceKm": 8.5
+  },
+  "AMIFONTAINE": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 9.7
+  },
+  "AMIGNY ROUY": {
+    "bureau": "Chauny",
+    "distanceKm": 6.3
+  },
+  "ANCIENVILLE": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 7.5
+  },
+  "ANDELAIN": {
+    "bureau": "La Fère",
+    "distanceKm": 2.8
+  },
+  "ANGUILCOURT LE SART": {
+    "bureau": "La Fère",
+    "distanceKm": 5.1
+  },
+  "ANIZY LE GRAND": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 0.0
+  },
+  "ANNOIS": {
+    "bureau": "Chauny",
+    "distanceKm": 10.9
+  },
+  "ANY MARTIN RIEUX": {
+    "bureau": "Aubenton",
+    "distanceKm": 6.9
+  },
+  "ARCHON": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.7
+  },
+  "ARCY SAINTE RESTITUE": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 8.4
+  },
+  "ARMENTIERES SUR OURCQ": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 4.0
+  },
+  "ARRANCY": {
+    "bureau": "Craonne",
+    "distanceKm": 5.9
+  },
+  "ARTEMPS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 11.2
+  },
+  "ARTONGES": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "ASSIS SUR SERRE": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 4.9
+  },
+  "ATHIES SOUS LAON": {
+    "bureau": "Laon",
+    "distanceKm": 5.6
+  },
+  "ATTILLY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 9.1
+  },
+  "AUBENCHEUL AUX BOIS": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 15.0
+  },
+  "AUBIGNY AUX KAISNES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 14.3
+  },
+  "AUBIGNY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 14.3
+  },
+  "AUBIGNY EN LAONNOIS": {
+    "bureau": "Craonne",
+    "distanceKm": 5.1
+  },
+  "AUDIGNICOURT": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 7.4
+  },
+  "AUDIGNY": {
+    "bureau": "Guise",
+    "distanceKm": 3.6
+  },
+  "AUGY": {
+    "bureau": "Braine",
+    "distanceKm": 2.0
+  },
+  "AULNOIS SOUS LAON": {
+    "bureau": "Laon",
+    "distanceKm": 5.6
+  },
+  "AUTREMENCOURT": {
+    "bureau": "Marle",
+    "distanceKm": 4.9
+  },
+  "AUTREPPES": {
+    "bureau": "Vervins",
+    "distanceKm": 8.1
+  },
+  "AUTREVILLE": {
+    "bureau": "Chauny",
+    "distanceKm": 3.7
+  },
+  "AZY SUR MARNE": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 5.4
+  },
+  "BAGNEUX": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 6.7
+  },
+  "BANCIGNY": {
+    "bureau": "Vervins",
+    "distanceKm": 9.3
+  },
+  "BARBONVAL": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "BARENTON BUGNY": {
+    "bureau": "Laon",
+    "distanceKm": 6.6
+  },
+  "BARENTON CEL": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 5.5
+  },
+  "BARENTON SUR SERRE": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 6.0
+  },
+  "BARISIS AUX BOIS": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 7.6
+  },
+  "BARISIS": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 7.6
+  },
+  "BARZY EN THIERACHE": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 5.1
+  },
+  "BARZY": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 5.1
+  },
+  "BARZY SUR MARNE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 10.0
+  },
+  "BASSOLES AULERS": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 4.7
+  },
+  "BAZOCHES ET SAINT THIBAUT": {
+    "bureau": "Braine",
+    "distanceKm": 8.2
+  },
+  "BAZOCHES SUR VESLES": {
+    "bureau": "Braine",
+    "distanceKm": 8.2
+  },
+  "BEAUMONT EN BEINE": {
+    "bureau": "Chauny",
+    "distanceKm": 9.9
+  },
+  "BEAUME": {
+    "bureau": "Aubenton",
+    "distanceKm": 3.0
+  },
+  "BEAUREVOIR": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 9.5
+  },
+  "BEAURIEUX": {
+    "bureau": "Craonne",
+    "distanceKm": 5.7
+  },
+  "BEAUTOR": {
+    "bureau": "La Fère",
+    "distanceKm": 3.4
+  },
+  "BEAUVOIS EN VERMANDOIS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.8
+  },
+  "BEAUVOIS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.8
+  },
+  "BECQUIGNY": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 2.9
+  },
+  "BELLEAU": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 6.1
+  },
+  "BELLENGLISE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.9
+  },
+  "BELLEU": {
+    "bureau": "Soissons",
+    "distanceKm": 2.4
+  },
+  "BELLICOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.8
+  },
+  "BENAY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.4
+  },
+  "BERGUES SUR SAMBRE": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 7.3
+  },
+  "BERLANCOURT": {
+    "bureau": "Marle",
+    "distanceKm": 4.0
+  },
+  "BERLISE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.9
+  },
+  "BERNOT": {
+    "bureau": "Guise",
+    "distanceKm": 10.2
+  },
+  "BERNOY LE CHATEAU": {
+    "bureau": "Soissons",
+    "distanceKm": 6.4
+  },
+  "NOYANT ET ACONIN": {
+    "bureau": "Soissons",
+    "distanceKm": 6.4
+  },
+  "BERNY RIVIERE": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 3.0
+  },
+  "BERRIEUX": {
+    "bureau": "Craonne",
+    "distanceKm": 5.6
+  },
+  "BERRY AU BAC": {
+    "bureau": "Craonne",
+    "distanceKm": 8.6
+  },
+  "BERTAUCOURT EPOURDON": {
+    "bureau": "La Fère",
+    "distanceKm": 4.9
+  },
+  "BERTHENICOURT": {
+    "bureau": "Ribemont",
+    "distanceKm": 7.1
+  },
+  "BERTRICOURT": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 4.8
+  },
+  "BERZY LE SEC": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "BESMONT": {
+    "bureau": "Aubenton",
+    "distanceKm": 5.5
+  },
+  "BESME": {
+    "bureau": "Chauny",
+    "distanceKm": 10.1
+  },
+  "BESNY ET LOIZY": {
+    "bureau": "Laon",
+    "distanceKm": 3.4
+  },
+  "BEUGNEUX": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 3.2
+  },
+  "BEUVARDES": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 6.4
+  },
+  "BICHANCOURT": {
+    "bureau": "Chauny",
+    "distanceKm": 4.4
+  },
+  "BIEUXY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 8.3
+  },
+  "BILLY SUR AISNE": {
+    "bureau": "Soissons",
+    "distanceKm": 4.4
+  },
+  "BILLY SUR OURCQ": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 6.2
+  },
+  "BIEVRES": {
+    "bureau": "Craonne",
+    "distanceKm": 7.5
+  },
+  "BLANZY LES FISMES": {
+    "bureau": "Braine",
+    "distanceKm": 9.8
+  },
+  "BLESMES": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 7.0
+  },
+  "BLERANCOURDELLE": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "BLERANCOURT": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 11.2
+  },
+  "BOHAIN": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 0.0
+  },
+  "BOIS LES PARGNY": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 5.7
+  },
+  "BONCOURT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 9.4
+  },
+  "BONNEIL": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 4.9
+  },
+  "BONNESVALYN": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.4
+  },
+  "BONY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 16.4
+  },
+  "BOSMONT SUR SERRE": {
+    "bureau": "Marle",
+    "distanceKm": 7.3
+  },
+  "BOUCONVILLE VAUCLAIR": {
+    "bureau": "Craonne",
+    "distanceKm": 2.8
+  },
+  "BOUCONVILLE VAUCLERC": {
+    "bureau": "Craonne",
+    "distanceKm": 2.8
+  },
+  "BOUFFIGNEREUX": {
+    "bureau": "Craonne",
+    "distanceKm": 8.8
+  },
+  "BOURESCHES": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 4.5
+  },
+  "BOURG ET COMIN": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 10.1
+  },
+  "BOURGUIGNON SOUS COUCY": {
+    "bureau": "Chauny",
+    "distanceKm": 9.6
+  },
+  "BOURGUIGNON SOUS MONTBAVIN": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 7.1
+  },
+  "BOUE": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 6.8
+  },
+  "BRANCOURT EN LAONNOIS": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 2.2
+  },
+  "BRANCOURT LE GRAND": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 5.0
+  },
+  "BRANGES": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "BRASLES": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 3.0
+  },
+  "BRAY SAINT CHRISTOPHE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.8
+  },
+  "BRAYE": {
+    "bureau": "Vervins",
+    "distanceKm": 8.4
+  },
+  "BRAYE EN LAONNOIS": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 7.2
+  },
+  "BRAYE EN THIERACHE": {
+    "bureau": "Vervins",
+    "distanceKm": 8.4
+  },
+  "BRENELLE": {
+    "bureau": "Braine",
+    "distanceKm": 2.4
+  },
+  "BRENY": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 3.7
+  },
+  "BRIE": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 9.5
+  },
+  "BRISSAY CHOIGNY": {
+    "bureau": "La Fère",
+    "distanceKm": 6.5
+  },
+  "BRISSY HAMEGICOURT": {
+    "bureau": "Ribemont",
+    "distanceKm": 6.7
+  },
+  "BRISSY": {
+    "bureau": "Ribemont",
+    "distanceKm": 6.7
+  },
+  "BRUMETZ": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 10.1
+  },
+  "BRUNEHAMEL": {
+    "bureau": "Aubenton",
+    "distanceKm": 6.3
+  },
+  "BRUYS": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 9.3
+  },
+  "BRUYERES ET MONTBERAULT": {
+    "bureau": "Laon",
+    "distanceKm": 7.2
+  },
+  "BRUYERES SUR FERE": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 4.6
+  },
+  "BRUYERES": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 4.6
+  },
+  "BRECY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 7.9
+  },
+  "BUCILLY": {
+    "bureau": "Aubenton",
+    "distanceKm": 8.3
+  },
+  "BUCY LE LONG": {
+    "bureau": "Soissons",
+    "distanceKm": 5.2
+  },
+  "BUCY LES CERNY": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 8.0
+  },
+  "BUCY LES PIERREPONT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 7.0
+  },
+  "BUIRE": {
+    "bureau": "Hirson",
+    "distanceKm": 5.3
+  },
+  "BUIRONFOSSE": {
+    "bureau": "La Capelle",
+    "distanceKm": 5.7
+  },
+  "BURELLES": {
+    "bureau": "Vervins",
+    "distanceKm": 7.5
+  },
+  "BUSSIARES": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 9.6
+  },
+  "BUZANCY": {
+    "bureau": "Soissons",
+    "distanceKm": 7.8
+  },
+  "BETHANCOURT EN VAUX": {
+    "bureau": "Chauny",
+    "distanceKm": 6.0
+  },
+  "BEZU SAINT GERMAIN": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 5.9
+  },
+  "BEZU LE GUERY": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 5.7
+  },
+  "CAILLOUEL CREPIGNY": {
+    "bureau": "Chauny",
+    "distanceKm": 7.0
+  },
+  "CAMELIN": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 12.5
+  },
+  "CAMELIN ET LE FRESNE": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 12.5
+  },
+  "CASTRES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 5.2
+  },
+  "CAULAINCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.4
+  },
+  "CAUMONT": {
+    "bureau": "Chauny",
+    "distanceKm": 3.9
+  },
+  "CELLES LES CONDE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 1.9
+  },
+  "CELLES SUR AISNE": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 3.4
+  },
+  "CERIZY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 9.8
+  },
+  "CERNY EN LAONNOIS": {
+    "bureau": "Craonne",
+    "distanceKm": 8.3
+  },
+  "CERNY LES BUCY": {
+    "bureau": "Laon",
+    "distanceKm": 4.9
+  },
+  "CERSEUIL": {
+    "bureau": "Braine",
+    "distanceKm": 2.9
+  },
+  "CESSIERES SUZY": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.4
+  },
+  "CESSIERES": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.4
+  },
+  "CHACRISE": {
+    "bureau": "Soissons",
+    "distanceKm": 9.9
+  },
+  "CHAILLEVOIS": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.9
+  },
+  "CHALANDRY": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 3.4
+  },
+  "CHAMBRY": {
+    "bureau": "Laon",
+    "distanceKm": 5.2
+  },
+  "CHAMOUILLE": {
+    "bureau": "Craonne",
+    "distanceKm": 9.3
+  },
+  "CHAMPS": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 5.1
+  },
+  "CHAOURSE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 10.9
+  },
+  "CHARLY": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 0.0
+  },
+  "CHARMES": {
+    "bureau": "La Fère",
+    "distanceKm": 2.0
+  },
+  "CHARTEVES": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 9.8
+  },
+  "CHASSEMY": {
+    "bureau": "Braine",
+    "distanceKm": 3.9
+  },
+  "CHAUDARDES": {
+    "bureau": "Craonne",
+    "distanceKm": 5.8
+  },
+  "CHAUDUN": {
+    "bureau": "Soissons",
+    "distanceKm": 8.7
+  },
+  "CHAVIGNON": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 6.7
+  },
+  "CHAVIGNY": {
+    "bureau": "Soissons",
+    "distanceKm": 5.3
+  },
+  "CHAVONNE": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 3.2
+  },
+  "CHERMIZY AILLES": {
+    "bureau": "Craonne",
+    "distanceKm": 5.7
+  },
+  "CHEVENNES": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 2.9
+  },
+  "CHEVREGNY": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 8.5
+  },
+  "CHEVRESIS MONCEAU": {
+    "bureau": "Ribemont",
+    "distanceKm": 8.4
+  },
+  "CHIERRY": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 4.7
+  },
+  "CHIGNY": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 9.3
+  },
+  "CHIVRES VAL": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 5.9
+  },
+  "CHIVRES EN LAONNOIS": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 2.7
+  },
+  "CHIVY LES ETOUVELLES": {
+    "bureau": "Laon",
+    "distanceKm": 4.7
+  },
+  "CHOUY": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 5.9
+  },
+  "CHATILLON LES SONS": {
+    "bureau": "Marle",
+    "distanceKm": 5.2
+  },
+  "CHATILLON SUR OISE": {
+    "bureau": "Ribemont",
+    "distanceKm": 4.0
+  },
+  "CHERY CHARTREUVE": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 10.4
+  },
+  "CHERY LES POUILLY": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 5.5
+  },
+  "CHERY LES ROZOY": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 3.3
+  },
+  "CHERET": {
+    "bureau": "Laon",
+    "distanceKm": 8.3
+  },
+  "CHEZY EN ORXOIS": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 9.2
+  },
+  "CHEZY SUR MARNE": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 6.9
+  },
+  "CIERGES": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 6.8
+  },
+  "CILLY": {
+    "bureau": "Marle",
+    "distanceKm": 5.5
+  },
+  "CIRY SALSOGNE": {
+    "bureau": "Braine",
+    "distanceKm": 5.5
+  },
+  "CLACY ET THIERRET": {
+    "bureau": "Laon",
+    "distanceKm": 3.9
+  },
+  "CLAIRFONTAINE": {
+    "bureau": "La Capelle",
+    "distanceKm": 5.5
+  },
+  "CLAMECY": {
+    "bureau": "Soissons",
+    "distanceKm": 6.4
+  },
+  "CLASTRES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 11.5
+  },
+  "CLERMONT LES FERMES": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 10.1
+  },
+  "CLERMONT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 10.1
+  },
+  "COHAN": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "COINCY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 6.6
+  },
+  "COINGT": {
+    "bureau": "Aubenton",
+    "distanceKm": 7.9
+  },
+  "COLLIGIS CRANDELAIN": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 10.2
+  },
+  "COLONFAY": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 3.1
+  },
+  "COMMENCHON": {
+    "bureau": "Chauny",
+    "distanceKm": 5.7
+  },
+  "CONCEVREUX": {
+    "bureau": "Craonne",
+    "distanceKm": 7.9
+  },
+  "CONDREN": {
+    "bureau": "Chauny",
+    "distanceKm": 4.5
+  },
+  "CONDE SUR AISNE": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 3.8
+  },
+  "CONDE SUR SUIPPE": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 6.3
+  },
+  "CONNIGIS": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 4.5
+  },
+  "CONTESCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 6.9
+  },
+  "CORBENY": {
+    "bureau": "Craonne",
+    "distanceKm": 2.6
+  },
+  "CORCY": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 7.6
+  },
+  "COUCY LA VILLE": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 3.5
+  },
+  "COUCY LE CHATEAU AUFFRIQUE": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 0.0
+  },
+  "COUCY LES EPPES": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 7.0
+  },
+  "COULONGES COHAN": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 8.2
+  },
+  "COULONGES EN TARDENOIS": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 8.2
+  },
+  "COULONGES": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 8.2
+  },
+  "COUPRU": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 5.5
+  },
+  "COURBES": {
+    "bureau": "La Fère",
+    "distanceKm": 6.4
+  },
+  "COURBOIN": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 3.5
+  },
+  "COURCELLES SUR VESLE": {
+    "bureau": "Braine",
+    "distanceKm": 2.9
+  },
+  "COURCELLES SUR VESLES": {
+    "bureau": "Braine",
+    "distanceKm": 2.9
+  },
+  "COURCHAMPS": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 5.6
+  },
+  "COURMELLES": {
+    "bureau": "Soissons",
+    "distanceKm": 3.9
+  },
+  "COURMONT": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 6.3
+  },
+  "COURTEMONT VARENNES": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 8.1
+  },
+  "COURTRIZY ET FUSSIGNY": {
+    "bureau": "Craonne",
+    "distanceKm": 7.4
+  },
+  "COUVRELLES": {
+    "bureau": "Braine",
+    "distanceKm": 4.1
+  },
+  "COUVRON ET AUMENCOURT": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 9.1
+  },
+  "COYOLLES": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 5.9
+  },
+  "CRAMAILLE": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 5.7
+  },
+  "CRAONNELLE": {
+    "bureau": "Craonne",
+    "distanceKm": 3.0
+  },
+  "CROIX FONSOMME": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 8.0
+  },
+  "CROIX FONSOMMES": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 8.0
+  },
+  "CROUTTES SUR MARNE": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 3.4
+  },
+  "CROUTTES": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 3.4
+  },
+  "CROUY": {
+    "bureau": "Soissons",
+    "distanceKm": 4.7
+  },
+  "CRUPILLY": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 9.6
+  },
+  "CRECY AU MONT": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 3.3
+  },
+  "CREPY": {
+    "bureau": "Laon",
+    "distanceKm": 8.6
+  },
+  "CREZANCY": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 5.5
+  },
+  "CUFFIES": {
+    "bureau": "Soissons",
+    "distanceKm": 3.6
+  },
+  "CUGNY": {
+    "bureau": "Chauny",
+    "distanceKm": 11.2
+  },
+  "CUGNY LES CROUTTES": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "CUIRIEUX": {
+    "bureau": "Marle",
+    "distanceKm": 7.8
+  },
+  "CUIRY HOUSSE": {
+    "bureau": "Braine",
+    "distanceKm": 7.5
+  },
+  "CUIRY LES CHAUDARDES": {
+    "bureau": "Craonne",
+    "distanceKm": 6.8
+  },
+  "CUIRY LES IVIERS": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 7.3
+  },
+  "CUISSY ET GENY": {
+    "bureau": "Craonne",
+    "distanceKm": 8.5
+  },
+  "CUISY EN ALMONT": {
+    "bureau": "Soissons",
+    "distanceKm": 7.6
+  },
+  "CUTRY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 9.5
+  },
+  "CYS LA COMMUNE": {
+    "bureau": "Braine",
+    "distanceKm": 4.7
+  },
+  "CŒUVRES ET VALSERY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 10.2
+  },
+  "DAGNY LAMBERCY": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 9.7
+  },
+  "DALLON": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 4.2
+  },
+  "DAMMARD": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 7.2
+  },
+  "DAMPLEUX": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 3.8
+  },
+  "DANIZY": {
+    "bureau": "La Fère",
+    "distanceKm": 2.5
+  },
+  "DERCY": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 5.2
+  },
+  "DEUILLET": {
+    "bureau": "La Fère",
+    "distanceKm": 4.7
+  },
+  "DHUIZEL": {
+    "bureau": "Braine",
+    "distanceKm": 5.8
+  },
+  "DHUYS ET MORIN EN BRIE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 12.5
+  },
+  "MARCHAIS EN BRIE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 12.5
+  },
+  "DIZY LE GROS": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 11.4
+  },
+  "DOHIS": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 7.0
+  },
+  "DOLIGNON": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.5
+  },
+  "DOMMIERS": {
+    "bureau": "Soissons",
+    "distanceKm": 9.2
+  },
+  "DOMPTIN": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 4.0
+  },
+  "DORENGT": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 9.1
+  },
+  "DOUCHY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.2
+  },
+  "DRAVEGNY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 11.3
+  },
+  "DROIZY": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 7.4
+  },
+  "DURY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 15.0
+  },
+  "EFFRY": {
+    "bureau": "La Capelle",
+    "distanceKm": 7.8
+  },
+  "ENGLANCOURT": {
+    "bureau": "La Capelle",
+    "distanceKm": 9.1
+  },
+  "EPPES": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 9.2
+  },
+  "ERLON": {
+    "bureau": "Marle",
+    "distanceKm": 4.4
+  },
+  "ERLOY": {
+    "bureau": "La Capelle",
+    "distanceKm": 7.7
+  },
+  "ESCAUFOURT": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "ESQUEHERIES": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 5.0
+  },
+  "ESSIGNY LE GRAND": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.2
+  },
+  "ESSIGNY LE PETIT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.6
+  },
+  "ESSISES": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 9.1
+  },
+  "ESSOMES SUR MARNE": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 3.6
+  },
+  "ESTREES": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 13.3
+  },
+  "FARGNIERS": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "FAUCOUCOURT": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "FAVEROLLES": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 5.9
+  },
+  "FAYET": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 3.2
+  },
+  "FESMY LE SART": {
+    "bureau": "Wassigny",
+    "distanceKm": 7.6
+  },
+  "FESMY": {
+    "bureau": "Wassigny",
+    "distanceKm": 7.6
+  },
+  "FESTIEUX": {
+    "bureau": "Craonne",
+    "distanceKm": 8.8
+  },
+  "FIEULAINE": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 10.2
+  },
+  "FILAIN": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 5.3
+  },
+  "FLAVIGNY LE GRAND ET BEAURAIN": {
+    "bureau": "Guise",
+    "distanceKm": 3.8
+  },
+  "FLAVIGNY LE PETIT": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "FLAVY LE MARTEL": {
+    "bureau": "Chauny",
+    "distanceKm": 10.2
+  },
+  "FLEURY": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 6.3
+  },
+  "FLUQUIERES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.3
+  },
+  "FOLEMBRAY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 4.5
+  },
+  "FONSOMME": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.2
+  },
+  "FONSOMMES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.2
+  },
+  "FONTAINE NOTRE DAME": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 11.0
+  },
+  "FONTAINE UTERTE": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 9.7
+  },
+  "FONTAINE LES CLERCS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 6.4
+  },
+  "FONTAINE LES VERVINS": {
+    "bureau": "Vervins",
+    "distanceKm": 1.9
+  },
+  "FONTAINE": {
+    "bureau": "Vervins",
+    "distanceKm": 1.9
+  },
+  "FONTENELLE": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 3.7
+  },
+  "FONTENELLE EN BRIE": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "FONTENOY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 6.0
+  },
+  "FORESTE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 14.0
+  },
+  "FOSSOY": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 7.4
+  },
+  "FOURDRAIN": {
+    "bureau": "La Fère",
+    "distanceKm": 8.5
+  },
+  "FRANCILLY SELENCY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 3.7
+  },
+  "FRANQUEVILLE": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.0
+  },
+  "FRESNES EN TARDENOIS": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 5.1
+  },
+  "FRESNES": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 5.6
+  },
+  "FRESNES SOUS COUCY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 5.6
+  },
+  "FRESNOY LE GRAND": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 5.0
+  },
+  "FRESSANCOURT": {
+    "bureau": "La Fère",
+    "distanceKm": 6.1
+  },
+  "FRIERES FAILLOUEL": {
+    "bureau": "Chauny",
+    "distanceKm": 7.4
+  },
+  "FROIDESTREES": {
+    "bureau": "La Capelle",
+    "distanceKm": 3.1
+  },
+  "FROIDMONT COHARTILLE": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 7.4
+  },
+  "GANDELU": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 11.5
+  },
+  "GAUCHY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 2.7
+  },
+  "GERCY": {
+    "bureau": "Vervins",
+    "distanceKm": 4.4
+  },
+  "GERGNY": {
+    "bureau": "La Capelle",
+    "distanceKm": 4.2
+  },
+  "GERMAINE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.0
+  },
+  "GIBERCOURT": {
+    "bureau": "La Fère",
+    "distanceKm": 10.3
+  },
+  "GIZY": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 4.4
+  },
+  "GLAND": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 6.0
+  },
+  "GLENNES": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "GOUDELANCOURT LES BERRIEUX": {
+    "bureau": "Craonne",
+    "distanceKm": 6.6
+  },
+  "GOUDELANCOURT LES PIERREPONT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 7.8
+  },
+  "GOUSSANCOURT": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 10.5
+  },
+  "GOUY": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 14.5
+  },
+  "GRAND ROZOY": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 3.7
+  },
+  "ROZOY GRAND": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 3.7
+  },
+  "GRAND VERLY": {
+    "bureau": "Guise",
+    "distanceKm": 6.0
+  },
+  "VERLY GRAND": {
+    "bureau": "Guise",
+    "distanceKm": 6.0
+  },
+  "GRANDLUP ET FAY": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 8.0
+  },
+  "GRANDRIEUX": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.8
+  },
+  "GRICOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 5.3
+  },
+  "GRISOLLES": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 8.3
+  },
+  "GRONARD": {
+    "bureau": "Vervins",
+    "distanceKm": 5.5
+  },
+  "GROUGIS": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 6.3
+  },
+  "GRUGIES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 4.1
+  },
+  "GUIVRY": {
+    "bureau": "Chauny",
+    "distanceKm": 8.0
+  },
+  "GUNY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 3.9
+  },
+  "GUYENCOURT": {
+    "bureau": "Craonne",
+    "distanceKm": 10.7
+  },
+  "HAMEGICOURT": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "HANNAPES": {
+    "bureau": "Wassigny",
+    "distanceKm": 4.7
+  },
+  "HAPPENCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.0
+  },
+  "HARAMONT": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 9.0
+  },
+  "HARCIGNY": {
+    "bureau": "Vervins",
+    "distanceKm": 5.0
+  },
+  "HARGICOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 14.8
+  },
+  "HARLY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 4.1
+  },
+  "HARTENNES ET TAUX": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 8.1
+  },
+  "HARY": {
+    "bureau": "Vervins",
+    "distanceKm": 4.4
+  },
+  "HAUTEVESNES": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.2
+  },
+  "HAUTEVILLE": {
+    "bureau": "Guise",
+    "distanceKm": 7.1
+  },
+  "HAUTION": {
+    "bureau": "Vervins",
+    "distanceKm": 7.3
+  },
+  "HINACOURT": {
+    "bureau": "La Fère",
+    "distanceKm": 10.2
+  },
+  "HOLNON": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 5.8
+  },
+  "HOMBLIERES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 6.7
+  },
+  "HOURY": {
+    "bureau": "Vervins",
+    "distanceKm": 7.6
+  },
+  "HOUSSET": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 4.1
+  },
+  "IRON": {
+    "bureau": "Guise",
+    "distanceKm": 6.8
+  },
+  "ITANCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 7.1
+  },
+  "IVIERS": {
+    "bureau": "Aubenton",
+    "distanceKm": 5.7
+  },
+  "JAULGONNE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 10.1
+  },
+  "JEANCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 13.3
+  },
+  "JEANTES": {
+    "bureau": "Aubenton",
+    "distanceKm": 8.8
+  },
+  "JONCOURT": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 11.8
+  },
+  "JOUAIGNES": {
+    "bureau": "Braine",
+    "distanceKm": 6.0
+  },
+  "JOUY": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "JUMENCOURT": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 2.2
+  },
+  "JUMIGNY": {
+    "bureau": "Craonne",
+    "distanceKm": 6.8
+  },
+  "JUSSY": {
+    "bureau": "Chauny",
+    "distanceKm": 11.0
+  },
+  "JUVIGNY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 7.2
+  },
+  "JUVINCOURT ET DAMARY": {
+    "bureau": "Craonne",
+    "distanceKm": 6.9
+  },
+  "L EPINE AUX BOIS": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 14.0
+  },
+  "LA BOUTEILLE": {
+    "bureau": "Vervins",
+    "distanceKm": 4.9
+  },
+  "LA CELLE SOUS MONTMIRAIL": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE MONTHODON": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE SUR CHEZY": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 7.0
+  },
+  "LA CROIX SUR OURCQ": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 6.0
+  },
+  "LA FERTE CHEVRESIS": {
+    "bureau": "Ribemont",
+    "distanceKm": 7.2
+  },
+  "LA FERTE MILON": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 6.4
+  },
+  "LA FLAMENGRIE": {
+    "bureau": "La Capelle",
+    "distanceKm": 3.5
+  },
+  "LA HERIE": {
+    "bureau": "Hirson",
+    "distanceKm": 8.0
+  },
+  "LA MALMAISON": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 8.8
+  },
+  "LA NEUVILLE BOSMONT": {
+    "bureau": "Marle",
+    "distanceKm": 5.9
+  },
+  "LA NEUVILLE HOUSSET": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 4.9
+  },
+  "LA NEUVILLE EN BEINE": {
+    "bureau": "Chauny",
+    "distanceKm": 7.7
+  },
+  "LA NEUVILLE LES DORENGT": {
+    "bureau": "Wassigny",
+    "distanceKm": 7.1
+  },
+  "LA SELVE": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 12.9
+  },
+  "LA VALLEE MULATRE": {
+    "bureau": "Wassigny",
+    "distanceKm": 3.1
+  },
+  "LA VALLEE AU BLE": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.3
+  },
+  "LA VALLEE AUX BLEDS": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.3
+  },
+  "LA VILLE AUX BOIS LES DIZY": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 11.5
+  },
+  "LA VILLE AUX BOIS LES PONTAVERT": {
+    "bureau": "Craonne",
+    "distanceKm": 4.9
+  },
+  "LAFFAUX": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 7.3
+  },
+  "LAIGNY": {
+    "bureau": "Vervins",
+    "distanceKm": 5.5
+  },
+  "LANCHY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 14.9
+  },
+  "LANDIFAY ET BERTAIGNEMONT": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.0
+  },
+  "LANDOUZY LA COUR": {
+    "bureau": "Vervins",
+    "distanceKm": 5.1
+  },
+  "LANDOUZY LA VILLE": {
+    "bureau": "Vervins",
+    "distanceKm": 9.3
+  },
+  "LANDRICOURT": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 3.9
+  },
+  "LANISCOURT": {
+    "bureau": "Laon",
+    "distanceKm": 6.4
+  },
+  "LAPPION": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 10.4
+  },
+  "LARGNY SUR AUTOMNE": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 5.5
+  },
+  "LATILLY": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 3.5
+  },
+  "LAUNOY": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 6.3
+  },
+  "LAVAL EN LAONNOIS": {
+    "bureau": "Laon",
+    "distanceKm": 7.8
+  },
+  "LAVAQUERESSE": {
+    "bureau": "Guise",
+    "distanceKm": 8.6
+  },
+  "LAVERSINE": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 7.0
+  },
+  "LE CATELET": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 15.9
+  },
+  "LE CHARMEL": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 8.4
+  },
+  "LE HERIE LA VIEVILLE": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 3.5
+  },
+  "LE NOUVION": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 0.0
+  },
+  "LE PLESSIER HULEU": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 4.2
+  },
+  "LE SART": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "LE SOURD": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 5.4
+  },
+  "LE THUEL": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 7.7
+  },
+  "LE VERGUIER": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 11.6
+  },
+  "LEHAUCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 7.2
+  },
+  "LE HAUCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 7.2
+  },
+  "LEMPIRE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 18.3
+  },
+  "LEME": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 4.2
+  },
+  "LERZY": {
+    "bureau": "La Capelle",
+    "distanceKm": 3.2
+  },
+  "LES AUTELS": {
+    "bureau": "Aubenton",
+    "distanceKm": 7.6
+  },
+  "LES SEPTVALLONS": {
+    "bureau": "Braine",
+    "distanceKm": 10.3
+  },
+  "LONGUEVAL BARBONVAL": {
+    "bureau": "Braine",
+    "distanceKm": 10.3
+  },
+  "LONGUEVAL": {
+    "bureau": "Braine",
+    "distanceKm": 10.3
+  },
+  "LESCHELLE": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 5.7
+  },
+  "LESCHELLES": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 5.7
+  },
+  "LESDINS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 6.7
+  },
+  "LESGES": {
+    "bureau": "Braine",
+    "distanceKm": 5.3
+  },
+  "LESQUIELLES SAINT GERMAIN": {
+    "bureau": "Guise",
+    "distanceKm": 3.8
+  },
+  "LEUILLY SOUS COUCY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 4.9
+  },
+  "LEUILLY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 4.9
+  },
+  "LEURY": {
+    "bureau": "Soissons",
+    "distanceKm": 5.5
+  },
+  "LEUZE": {
+    "bureau": "Aubenton",
+    "distanceKm": 4.1
+  },
+  "LEVERGIES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 9.9
+  },
+  "LHUYS": {
+    "bureau": "Braine",
+    "distanceKm": 8.4
+  },
+  "LICY CLIGNON": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.9
+  },
+  "LIERVAL": {
+    "bureau": "Laon",
+    "distanceKm": 9.3
+  },
+  "LIESSE": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 0.0
+  },
+  "LIEZ": {
+    "bureau": "La Fère",
+    "distanceKm": 5.7
+  },
+  "LIME": {
+    "bureau": "Braine",
+    "distanceKm": 3.0
+  },
+  "LISLET": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 8.8
+  },
+  "LIZY": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "LOGNY LES AUBENTON": {
+    "bureau": "Aubenton",
+    "distanceKm": 2.3
+  },
+  "LOMBRAY": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "LONGCHAMPS": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "LONGPONT": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 11.0
+  },
+  "LOR": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 10.4
+  },
+  "LOUPEIGNE": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 6.8
+  },
+  "LOUATRE": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 10.3
+  },
+  "LUCY LE BOCAGE": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 7.5
+  },
+  "LUGNY": {
+    "bureau": "Marle",
+    "distanceKm": 5.2
+  },
+  "LUZOIR": {
+    "bureau": "La Capelle",
+    "distanceKm": 5.4
+  },
+  "LY FONTAINE": {
+    "bureau": "La Fère",
+    "distanceKm": 8.3
+  },
+  "MAAST ET VIOLAINE": {
+    "bureau": "Braine",
+    "distanceKm": 8.6
+  },
+  "MACOGNY": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 3.6
+  },
+  "MACQUIGNY": {
+    "bureau": "Guise",
+    "distanceKm": 4.8
+  },
+  "MAGNY LA FOSSE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.0
+  },
+  "MAISSEMY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.3
+  },
+  "MAIZY": {
+    "bureau": "Craonne",
+    "distanceKm": 10.1
+  },
+  "MALZY": {
+    "bureau": "Guise",
+    "distanceKm": 8.2
+  },
+  "MANICAMP": {
+    "bureau": "Chauny",
+    "distanceKm": 6.5
+  },
+  "MARCHAIS": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 2.8
+  },
+  "MARCY": {
+    "bureau": "Ribemont",
+    "distanceKm": 8.4
+  },
+  "MARCY SOUS MARLE": {
+    "bureau": "Marle",
+    "distanceKm": 2.3
+  },
+  "MAREST DAMPCOURT": {
+    "bureau": "Chauny",
+    "distanceKm": 5.7
+  },
+  "MAREUIL EN DOLE": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 7.7
+  },
+  "MARFONTAINE": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 5.1
+  },
+  "MARGIVAL": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 8.3
+  },
+  "MARIGNY EN ORXOIS": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 9.8
+  },
+  "MARIZY SAINT MARD": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 3.5
+  },
+  "MARIZY SAINTE GENEVIEVE": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 5.4
+  },
+  "MARLY GOMONT": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 8.9
+  },
+  "MARTIGNY": {
+    "bureau": "Aubenton",
+    "distanceKm": 6.2
+  },
+  "MARTIGNY COURPIERRE": {
+    "bureau": "Craonne",
+    "distanceKm": 9.1
+  },
+  "MAUREGNY EN HAYE": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 7.8
+  },
+  "MAYOT": {
+    "bureau": "La Fère",
+    "distanceKm": 4.9
+  },
+  "MENNESSIS": {
+    "bureau": "La Fère",
+    "distanceKm": 7.4
+  },
+  "MENNEVILLE": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "MENNEVRET": {
+    "bureau": "Wassigny",
+    "distanceKm": 4.3
+  },
+  "MERCIN ET VAUX": {
+    "bureau": "Soissons",
+    "distanceKm": 4.1
+  },
+  "MERLIEUX ET FOUQUEROLLES": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 4.1
+  },
+  "MERVAL": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "MESBRECOURT RICHECOURT": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 6.3
+  },
+  "MESNIL SAINT LAURENT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 6.5
+  },
+  "MEURIVAL": {
+    "bureau": "Craonne",
+    "distanceKm": 10.4
+  },
+  "MISSY AUX BOIS": {
+    "bureau": "Soissons",
+    "distanceKm": 7.1
+  },
+  "MISSY LES PIERREPONT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 3.5
+  },
+  "MISSY SUR AISNE": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 6.4
+  },
+  "MOLAIN": {
+    "bureau": "Wassigny",
+    "distanceKm": 5.4
+  },
+  "MOLINCHART": {
+    "bureau": "Laon",
+    "distanceKm": 5.3
+  },
+  "MONAMPTEUIL": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 7.7
+  },
+  "MONCEAU LE NEUF ET FAUCOUZY": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.3
+  },
+  "MONCEAU LE WAAST": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 7.9
+  },
+  "MONCEAU LES LEUPS": {
+    "bureau": "La Fère",
+    "distanceKm": 8.1
+  },
+  "MONCEAU SUR OISE": {
+    "bureau": "Guise",
+    "distanceKm": 5.6
+  },
+  "MONDREPUIS": {
+    "bureau": "Hirson",
+    "distanceKm": 4.8
+  },
+  "MONNES": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 3.4
+  },
+  "MONS EN LAONNOIS": {
+    "bureau": "Laon",
+    "distanceKm": 5.7
+  },
+  "MONT NOTRE DAME": {
+    "bureau": "Braine",
+    "distanceKm": 7.0
+  },
+  "MONT SAINT JEAN": {
+    "bureau": "Aubenton",
+    "distanceKm": 3.7
+  },
+  "MONT SAINT MARTIN": {
+    "bureau": "Braine",
+    "distanceKm": 11.2
+  },
+  "MONT SAINT PERE": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 7.8
+  },
+  "CHARMONT SUR MARNE": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 7.8
+  },
+  "MONT D ORIGNY": {
+    "bureau": "Guise",
+    "distanceKm": 8.5
+  },
+  "MONTAIGU": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 6.4
+  },
+  "MONTBAVIN": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.4
+  },
+  "MONTBREHAIN": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 8.2
+  },
+  "MONTCHALONS": {
+    "bureau": "Craonne",
+    "distanceKm": 8.9
+  },
+  "MONTCORNET": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 8.0
+  },
+  "MONTESCOURT LIZEROLLES": {
+    "bureau": "La Fère",
+    "distanceKm": 11.0
+  },
+  "MONTFAUCON": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 10.7
+  },
+  "MONTGOBERT": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 9.1
+  },
+  "MONTGRU SAINT HILAIRE": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 4.5
+  },
+  "MONTHENAULT": {
+    "bureau": "Laon",
+    "distanceKm": 9.5
+  },
+  "MONTHIERS": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.6
+  },
+  "MONTHUREL": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 3.3
+  },
+  "MONTIGNY LENGRAIN": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 4.4
+  },
+  "MONTIGNY EN ARROUAISE": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 8.5
+  },
+  "MONTIGNY L ALLIER": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 11.0
+  },
+  "MONTIGNY LE FRANC": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 10.7
+  },
+  "MONTIGNY LES CONDE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 2.0
+  },
+  "MONTIGNY SOUS MARLE": {
+    "bureau": "Marle",
+    "distanceKm": 2.9
+  },
+  "MONTIGNY SUR CRECY": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 3.3
+  },
+  "MONTLEVON": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 5.6
+  },
+  "MONTLOUE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 6.6
+  },
+  "MONTREUIL AUX LIONS": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 8.5
+  },
+  "MORCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 5.4
+  },
+  "MORGNY EN THIERACHE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 7.1
+  },
+  "MORSAIN": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 7.9
+  },
+  "MORTEFONTAINE": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 8.7
+  },
+  "MORTIERS": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 3.4
+  },
+  "MOULINS": {
+    "bureau": "Craonne",
+    "distanceKm": 8.9
+  },
+  "MOUSSY VERNEUIL": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 8.9
+  },
+  "MOY DE L AISNE": {
+    "bureau": "La Fère",
+    "distanceKm": 9.2
+  },
+  "MURET ET CROUTTES": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 8.8
+  },
+  "MUSCOURT": {
+    "bureau": "Craonne",
+    "distanceKm": 10.7
+  },
+  "MACHECOURT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 4.5
+  },
+  "MEZIERES SUR OISE": {
+    "bureau": "Ribemont",
+    "distanceKm": 6.1
+  },
+  "MEZY MOULINS": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 7.9
+  },
+  "NAMPCELLES LA COUR": {
+    "bureau": "Vervins",
+    "distanceKm": 8.6
+  },
+  "NAMPTEUIL SOUS MURET": {
+    "bureau": "Braine",
+    "distanceKm": 8.8
+  },
+  "NANTEUIL NOTRE DAME": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 2.8
+  },
+  "NANTEUIL LA FOSSE": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 5.7
+  },
+  "NAUROY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 11.6
+  },
+  "NESLES LA MONTAGNE": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 8.0
+  },
+  "NEUFLIEUX": {
+    "bureau": "Chauny",
+    "distanceKm": 4.3
+  },
+  "NEUVE MAISON": {
+    "bureau": "Hirson",
+    "distanceKm": 5.4
+  },
+  "NEUVILLE SAINT AMAND": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 5.3
+  },
+  "NEUVILLE SUR AILETTE": {
+    "bureau": "Craonne",
+    "distanceKm": 7.3
+  },
+  "NEUVILLE SUR MARGIVAL": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 7.6
+  },
+  "NEUVILLETTE": {
+    "bureau": "Ribemont",
+    "distanceKm": 7.8
+  },
+  "NIZY LE COMTE": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 14.9
+  },
+  "NOGENT L ARTAUD": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 5.2
+  },
+  "NOGENTEL": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 4.9
+  },
+  "NOIRCOURT": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.8
+  },
+  "NOROY SUR OURCQ": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.1
+  },
+  "NOUVION ET CATILLON": {
+    "bureau": "Ribemont",
+    "distanceKm": 8.9
+  },
+  "NOUVION LE COMTE": {
+    "bureau": "La Fère",
+    "distanceKm": 7.9
+  },
+  "NOUVION LE VINEUX": {
+    "bureau": "Laon",
+    "distanceKm": 6.7
+  },
+  "NOUVRON VINGRE": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 6.2
+  },
+  "NOYALES": {
+    "bureau": "Guise",
+    "distanceKm": 6.2
+  },
+  "OGNES": {
+    "bureau": "Chauny",
+    "distanceKm": 2.1
+  },
+  "OHIS": {
+    "bureau": "Hirson",
+    "distanceKm": 7.8
+  },
+  "OIGNY EN VALOIS": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 2.3
+  },
+  "OISY": {
+    "bureau": "Wassigny",
+    "distanceKm": 3.5
+  },
+  "OLLEZY": {
+    "bureau": "Chauny",
+    "distanceKm": 13.3
+  },
+  "OMISSY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 3.8
+  },
+  "ORAINVILLE": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 7.1
+  },
+  "ORGEVAL": {
+    "bureau": "Craonne",
+    "distanceKm": 9.2
+  },
+  "ORIGNY SAINTE BENOITE": {
+    "bureau": "Ribemont",
+    "distanceKm": 6.5
+  },
+  "ORIGNY EN THIERACHE": {
+    "bureau": "Vervins",
+    "distanceKm": 8.4
+  },
+  "ORIGNY": {
+    "bureau": "Vervins",
+    "distanceKm": 8.4
+  },
+  "OSLY COURTIL": {
+    "bureau": "Soissons",
+    "distanceKm": 6.8
+  },
+  "OSTEL": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 4.0
+  },
+  "OULCHES LA VALLEE FOULON": {
+    "bureau": "Craonne",
+    "distanceKm": 4.4
+  },
+  "OULCHY LA VILLE": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 3.0
+  },
+  "PAARS": {
+    "bureau": "Braine",
+    "distanceKm": 5.2
+  },
+  "PAISSY": {
+    "bureau": "Craonne",
+    "distanceKm": 7.3
+  },
+  "PANCY COURTECON": {
+    "bureau": "Craonne",
+    "distanceKm": 10.6
+  },
+  "PAPLEUX": {
+    "bureau": "Le Nouvion-en-Thiérache",
+    "distanceKm": 5.2
+  },
+  "PARCY ET TIGNY": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 7.8
+  },
+  "PARFONDEVAL": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.8
+  },
+  "PARFONDRU": {
+    "bureau": "Laon",
+    "distanceKm": 7.6
+  },
+  "PARGNAN": {
+    "bureau": "Craonne",
+    "distanceKm": 9.2
+  },
+  "PARGNY ET FILAIN": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 5.9
+  },
+  "PARGNY FILAIN": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 5.9
+  },
+  "PARGNY LA DHUYS": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 4.6
+  },
+  "PARGNY LES BOIS": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 4.3
+  },
+  "PARPEVILLE": {
+    "bureau": "Ribemont",
+    "distanceKm": 6.9
+  },
+  "PASLY": {
+    "bureau": "Soissons",
+    "distanceKm": 3.4
+  },
+  "PASSY EN VALOIS": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.2
+  },
+  "PASSY SUR MARNE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 7.6
+  },
+  "PAVANT": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 3.1
+  },
+  "PERLES": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "PERNANT": {
+    "bureau": "Soissons",
+    "distanceKm": 6.5
+  },
+  "PETIT VERLY": {
+    "bureau": "Wassigny",
+    "distanceKm": 6.9
+  },
+  "VERLY PETIT": {
+    "bureau": "Wassigny",
+    "distanceKm": 6.9
+  },
+  "PIERREMANDE": {
+    "bureau": "Chauny",
+    "distanceKm": 6.3
+  },
+  "PIERREPONT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 5.0
+  },
+  "PIGNICOURT": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 3.7
+  },
+  "PINON": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 3.6
+  },
+  "PISSELEUX": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "PITHON": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 16.1
+  },
+  "PLEINE SELVE": {
+    "bureau": "Ribemont",
+    "distanceKm": 4.1
+  },
+  "PLOISY": {
+    "bureau": "Soissons",
+    "distanceKm": 6.1
+  },
+  "PLOMION": {
+    "bureau": "Vervins",
+    "distanceKm": 7.9
+  },
+  "PLOYART ET VAURSEINE": {
+    "bureau": "Craonne",
+    "distanceKm": 6.7
+  },
+  "POMMIERS": {
+    "bureau": "Soissons",
+    "distanceKm": 3.6
+  },
+  "PONT ARCY": {
+    "bureau": "Braine",
+    "distanceKm": 7.8
+  },
+  "PONT SAINT MARD": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 3.4
+  },
+  "PONT A BUCY": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "PONTAVERT": {
+    "bureau": "Craonne",
+    "distanceKm": 4.1
+  },
+  "PONTRU": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.0
+  },
+  "PONTRUET": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.6
+  },
+  "POUILLY SUR SERRE": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 2.9
+  },
+  "PRESLES ET BOVES": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 3.2
+  },
+  "PRESLES ET THIERNY": {
+    "bureau": "Laon",
+    "distanceKm": 6.5
+  },
+  "PRIEZ": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 3.8
+  },
+  "PRISCES": {
+    "bureau": "Marle",
+    "distanceKm": 7.5
+  },
+  "PROISY": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.6
+  },
+  "PROIZY": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.6
+  },
+  "PROIX": {
+    "bureau": "Guise",
+    "distanceKm": 3.3
+  },
+  "PROUVAIS": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 5.9
+  },
+  "PROVISEUX ET PLESNOY": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 4.1
+  },
+  "PREMONT": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 5.9
+  },
+  "PREMONTRE": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 4.2
+  },
+  "PUISEUX EN RETZ": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 8.2
+  },
+  "PUISEUX": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 8.2
+  },
+  "PUISIEUX ET CLANLIEU": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 3.7
+  },
+  "QUESSY": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "QUIERZY": {
+    "bureau": "Chauny",
+    "distanceKm": 8.0
+  },
+  "QUINCY BASSE": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 4.4
+  },
+  "QUINCY SOUS LE MONT": {
+    "bureau": "Braine",
+    "distanceKm": 4.8
+  },
+  "RAILLIMONT": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 1.9
+  },
+  "RAMICOURT": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 9.8
+  },
+  "REGNY": {
+    "bureau": "Ribemont",
+    "distanceKm": 6.5
+  },
+  "REMAUCOURT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 7.7
+  },
+  "REMIES": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 7.0
+  },
+  "REMIGNY": {
+    "bureau": "La Fère",
+    "distanceKm": 7.4
+  },
+  "RENANSART": {
+    "bureau": "Ribemont",
+    "distanceKm": 5.8
+  },
+  "RENNEVAL": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 7.7
+  },
+  "RESSONS LE LONG": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 4.4
+  },
+  "RETHEUIL": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 12.8
+  },
+  "REUILLY SAUVIGNY": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 5.8
+  },
+  "RIBEAUVILLE": {
+    "bureau": "Wassigny",
+    "distanceKm": 2.3
+  },
+  "ROCOURT SAINT MARTIN": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 7.3
+  },
+  "ROCQUIGNY": {
+    "bureau": "La Capelle",
+    "distanceKm": 6.6
+  },
+  "ROGNY": {
+    "bureau": "Marle",
+    "distanceKm": 5.1
+  },
+  "ROGECOURT": {
+    "bureau": "La Fère",
+    "distanceKm": 3.8
+  },
+  "ROMENY SUR MARNE": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 3.0
+  },
+  "ROMENY": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 3.0
+  },
+  "ROMERY": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 7.1
+  },
+  "RONCHERES": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 8.2
+  },
+  "ROUCY": {
+    "bureau": "Craonne",
+    "distanceKm": 8.0
+  },
+  "ROUGERIES": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 6.9
+  },
+  "ROUPY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.0
+  },
+  "ROUVROY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 4.0
+  },
+  "ROUVROY SUR SERRE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 3.4
+  },
+  "ROYAUCOURT ET CHAILVET": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 7.0
+  },
+  "ROZET SAINT ALBIN": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 4.2
+  },
+  "ROZIERES SUR CRISE": {
+    "bureau": "Soissons",
+    "distanceKm": 6.7
+  },
+  "ROZOY BELLEVALLE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 11.5
+  },
+  "RESIGNY": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 6.8
+  },
+  "REVILLON": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "SACONIN ET BREUIL": {
+    "bureau": "Soissons",
+    "distanceKm": 6.3
+  },
+  "SAINT AGNAN": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "SAINT ALGIS": {
+    "bureau": "Vervins",
+    "distanceKm": 9.4
+  },
+  "SAINT AUBIN": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 9.3
+  },
+  "SAINT BANDRY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 6.0
+  },
+  "SAINT CHRISTOPHE A BERRY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 2.4
+  },
+  "SAINT CLEMENT": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 9.1
+  },
+  "SAINT ERME OUTRE ET RAMECOURT": {
+    "bureau": "Craonne",
+    "distanceKm": 9.2
+  },
+  "SAINT EUGENE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 3.6
+  },
+  "SAINT GENGOULPH": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 6.8
+  },
+  "SAINT GOBAIN": {
+    "bureau": "La Fère",
+    "distanceKm": 8.2
+  },
+  "SAINT GOBERT": {
+    "bureau": "Vervins",
+    "distanceKm": 7.5
+  },
+  "SAINT MARD": {
+    "bureau": "Braine",
+    "distanceKm": 5.5
+  },
+  "SAINT MARTIN RIVIERE": {
+    "bureau": "Wassigny",
+    "distanceKm": 4.5
+  },
+  "SAINT MICHEL": {
+    "bureau": "Hirson",
+    "distanceKm": 2.7
+  },
+  "SAINT NICOLAS AUX BOIS": {
+    "bureau": "La Fère",
+    "distanceKm": 9.1
+  },
+  "SAINT PAUL AUX BOIS": {
+    "bureau": "Chauny",
+    "distanceKm": 8.1
+  },
+  "SAINT PIERRE AIGLE": {
+    "bureau": "Soissons",
+    "distanceKm": 11.4
+  },
+  "SAINT PIERRE LES FRANQUEVILLE": {
+    "bureau": "Vervins",
+    "distanceKm": 7.6
+  },
+  "SAINT PIERREMONT": {
+    "bureau": "Marle",
+    "distanceKm": 8.4
+  },
+  "SAINT QUENTIN SUR ALLAN": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "SAINT REMY BLANZY": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 7.2
+  },
+  "SAINT SIMON": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 13.3
+  },
+  "SAINT THIBAUT": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "SAINT THOMAS": {
+    "bureau": "Craonne",
+    "distanceKm": 6.1
+  },
+  "SAINTE CROIX": {
+    "bureau": "Craonne",
+    "distanceKm": 3.5
+  },
+  "SAINTE GENEVIEVE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 4.9
+  },
+  "SAINTE PREUVE": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 6.1
+  },
+  "SAMOUSSY": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 6.5
+  },
+  "SANCY LES CHEMINOTS": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 4.1
+  },
+  "SAPONAY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 3.6
+  },
+  "SAULCHERY": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 1.3
+  },
+  "SAVY": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 6.0
+  },
+  "SEBONCOURT": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 3.6
+  },
+  "SELENS": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 8.6
+  },
+  "SEPTMONTS": {
+    "bureau": "Soissons",
+    "distanceKm": 5.2
+  },
+  "SEPTVAUX": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 7.3
+  },
+  "SEQUEHART": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.2
+  },
+  "SERAIN": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 8.1
+  },
+  "SERAUCOURT LE GRAND": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 8.5
+  },
+  "SERCHES": {
+    "bureau": "Braine",
+    "distanceKm": 6.5
+  },
+  "SERGY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 4.0
+  },
+  "SERINGES ET NESLES": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 4.7
+  },
+  "SERMOISE": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 6.9
+  },
+  "SERVAIS": {
+    "bureau": "La Fère",
+    "distanceKm": 5.8
+  },
+  "SERVAL": {
+    "bureau": "Braine",
+    "distanceKm": 10.6
+  },
+  "SILLY LA POTERIE": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 4.7
+  },
+  "SINCENY": {
+    "bureau": "Chauny",
+    "distanceKm": 4.4
+  },
+  "SISSONNE": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 8.8
+  },
+  "SISSY": {
+    "bureau": "Ribemont",
+    "distanceKm": 4.5
+  },
+  "SOIZE": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 3.8
+  },
+  "SOMMELANS": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 3.7
+  },
+  "SOMMERON": {
+    "bureau": "La Capelle",
+    "distanceKm": 2.5
+  },
+  "SOMMETTE EAUCOURT": {
+    "bureau": "Chauny",
+    "distanceKm": 14.1
+  },
+  "SONS ET RONCHERES": {
+    "bureau": "Marle",
+    "distanceKm": 7.4
+  },
+  "SORBAIS": {
+    "bureau": "La Capelle",
+    "distanceKm": 7.1
+  },
+  "SOUCY": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 10.0
+  },
+  "SOUPIR": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 5.9
+  },
+  "SURFONTAINE": {
+    "bureau": "Ribemont",
+    "distanceKm": 4.3
+  },
+  "SUZY": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "SERY LES MEZIERES": {
+    "bureau": "Ribemont",
+    "distanceKm": 4.0
+  },
+  "TAILLEFONTAINE": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 10.4
+  },
+  "TANNIERES": {
+    "bureau": "Braine",
+    "distanceKm": 6.9
+  },
+  "TARTIERS": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 9.3
+  },
+  "TAVAUX ET PONTSERICOURT": {
+    "bureau": "Marle",
+    "distanceKm": 11.5
+  },
+  "TERGNIER": {
+    "bureau": "La Fère",
+    "distanceKm": 5.5
+  },
+  "TERNY SORNY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 8.0
+  },
+  "THENAILLES": {
+    "bureau": "Vervins",
+    "distanceKm": 3.3
+  },
+  "THENELLES": {
+    "bureau": "Ribemont",
+    "distanceKm": 5.4
+  },
+  "THIERNU": {
+    "bureau": "Marle",
+    "distanceKm": 2.5
+  },
+  "TORCY EN VALOIS": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 8.2
+  },
+  "TOULIS ET ATTENCOURT": {
+    "bureau": "Marle",
+    "distanceKm": 5.6
+  },
+  "TRAVECY": {
+    "bureau": "La Fère",
+    "distanceKm": 2.5
+  },
+  "TREFCON": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 13.7
+  },
+  "TROSLY LOIRE": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 6.4
+  },
+  "TROESNES": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 6.2
+  },
+  "TRUCY": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 9.5
+  },
+  "TRELOU SUR MARNE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 10.6
+  },
+  "TRELOUP": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 10.6
+  },
+  "TUGNY ET PONT": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.1
+  },
+  "TUPIGNY": {
+    "bureau": "Wassigny",
+    "distanceKm": 4.5
+  },
+  "UGNY LE GAY": {
+    "bureau": "Chauny",
+    "distanceKm": 6.6
+  },
+  "URCEL": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 8.7
+  },
+  "URVILLERS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 7.1
+  },
+  "VADENCOURT": {
+    "bureau": "Guise",
+    "distanceKm": 4.5
+  },
+  "VADENCOURT ET BOHERIES": {
+    "bureau": "Guise",
+    "distanceKm": 4.5
+  },
+  "VAILLY": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 0.0
+  },
+  "VALLEES EN CHAMPAGNE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 4.4
+  },
+  "BAULNE EN BRIE": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 4.4
+  },
+  "VARISCOURT": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 3.9
+  },
+  "VASSENS": {
+    "bureau": "Vic-sur-Aisne",
+    "distanceKm": 7.6
+  },
+  "VASSENY": {
+    "bureau": "Braine",
+    "distanceKm": 3.4
+  },
+  "VASSOGNE": {
+    "bureau": "Craonne",
+    "distanceKm": 5.7
+  },
+  "VAUCELLES ET BEFFECOURT": {
+    "bureau": "Laon",
+    "distanceKm": 6.8
+  },
+  "VAUDESSON": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.3
+  },
+  "VAUX ANDIGNY": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 4.9
+  },
+  "VAUX EN VERMANDOIS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 10.4
+  },
+  "VAUXAILLON": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 5.0
+  },
+  "VAUXBUIN": {
+    "bureau": "Soissons",
+    "distanceKm": 2.9
+  },
+  "VAUXCERE": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "VAUXREZIS": {
+    "bureau": "Soissons",
+    "distanceKm": 6.1
+  },
+  "VAUREZIS": {
+    "bureau": "Soissons",
+    "distanceKm": 6.1
+  },
+  "VAUXTIN": {
+    "bureau": "Braine",
+    "distanceKm": 4.9
+  },
+  "VENDELLES": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 12.1
+  },
+  "VENDEUIL": {
+    "bureau": "La Fère",
+    "distanceKm": 6.3
+  },
+  "VENDHUILE": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 18.5
+  },
+  "VENDIERES": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 16.3
+  },
+  "VENDRESSE BEAULNE": {
+    "bureau": "Craonne",
+    "distanceKm": 9.7
+  },
+  "VENIZEL": {
+    "bureau": "Soissons",
+    "distanceKm": 5.3
+  },
+  "VERDILLY": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 3.9
+  },
+  "VERMAND": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 9.7
+  },
+  "VERNEUIL SOUS COUCY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 3.4
+  },
+  "VERNEUIL SUR SERRE": {
+    "bureau": "Crécy-sur-Serre",
+    "distanceKm": 6.9
+  },
+  "VERSIGNY": {
+    "bureau": "La Fère",
+    "distanceKm": 5.5
+  },
+  "VESLES ET CAUMONT": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 7.7
+  },
+  "VESLUD": {
+    "bureau": "Laon",
+    "distanceKm": 9.1
+  },
+  "VEUILLY LA POTERIE": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 9.9
+  },
+  "VICHEL NANTEUIL": {
+    "bureau": "Neuilly-Saint-Front",
+    "distanceKm": 2.9
+  },
+  "VIEL ARCY": {
+    "bureau": "Braine",
+    "distanceKm": 7.3
+  },
+  "VIELS MAISONS": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 11.6
+  },
+  "VIERZY": {
+    "bureau": "Soissons",
+    "distanceKm": 10.5
+  },
+  "VIFFORT": {
+    "bureau": "Condé-en-Brie",
+    "distanceKm": 8.4
+  },
+  "VIGNEUX HOCQUET": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 11.1
+  },
+  "VILLE SAVOYE": {
+    "bureau": "Braine",
+    "distanceKm": 9.7
+  },
+  "VILLEMONTOIRE": {
+    "bureau": "Soissons",
+    "distanceKm": 8.5
+  },
+  "VILLENEUVE SAINT GERMAIN": {
+    "bureau": "Soissons",
+    "distanceKm": 2.6
+  },
+  "VILLENEUVE SUR AISNE": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 3.5
+  },
+  "GUIGNICOURT": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 3.5
+  },
+  "VILLENEUVE SUR FERE": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 2.9
+  },
+  "VILLEQUIER AUMONT": {
+    "bureau": "Chauny",
+    "distanceKm": 4.8
+  },
+  "VILLERET": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 13.2
+  },
+  "VILLERS AGRON AIGUIZY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 14.9
+  },
+  "VILLERS HELON": {
+    "bureau": "Oulchy-le-Château",
+    "distanceKm": 10.4
+  },
+  "VILLERS SAINT CHRISTOPHE": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 15.4
+  },
+  "VILLERS EN PRAYERES": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "VILLERS LE SEC": {
+    "bureau": "Ribemont",
+    "distanceKm": 3.0
+  },
+  "VILLERS LES GUISE": {
+    "bureau": "Guise",
+    "distanceKm": 5.3
+  },
+  "VILLERS SUR FERE": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 2.1
+  },
+  "VILLIERS SAINT DENIS": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 2.9
+  },
+  "VILLIERS SUR MARNE": {
+    "bureau": "Charly-sur-Marne",
+    "distanceKm": 2.9
+  },
+  "VINCY REUIL ET MAGNY": {
+    "bureau": "Rozoy-sur-Serre",
+    "distanceKm": 6.5
+  },
+  "VIRY NOUREUIL": {
+    "bureau": "Chauny",
+    "distanceKm": 2.8
+  },
+  "VIVAISE": {
+    "bureau": "Laon",
+    "distanceKm": 6.9
+  },
+  "VIVIERES": {
+    "bureau": "Villers-Cotterêts",
+    "distanceKm": 9.6
+  },
+  "VOHARIES": {
+    "bureau": "Marle",
+    "distanceKm": 5.2
+  },
+  "VORGES": {
+    "bureau": "Laon",
+    "distanceKm": 6.5
+  },
+  "VOULPAIX": {
+    "bureau": "Vervins",
+    "distanceKm": 6.4
+  },
+  "VOUEL": {
+    "bureau": "Laon",
+    "distanceKm": 0.0
+  },
+  "VOYENNE": {
+    "bureau": "Marle",
+    "distanceKm": 3.9
+  },
+  "VREGNY": {
+    "bureau": "Vailly-sur-Aisne",
+    "distanceKm": 7.1
+  },
+  "VUILLERY": {
+    "bureau": "Soissons",
+    "distanceKm": 7.4
+  },
+  "VENEROLLES": {
+    "bureau": "Wassigny",
+    "distanceKm": 3.6
+  },
+  "VEZAPONIN": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 8.6
+  },
+  "VEZILLY": {
+    "bureau": "Fère-en-Tardenois",
+    "distanceKm": 12.3
+  },
+  "WATIGNY": {
+    "bureau": "Hirson",
+    "distanceKm": 6.5
+  },
+  "WIMY": {
+    "bureau": "La Capelle",
+    "distanceKm": 6.4
+  },
+  "WISSIGNICOURT": {
+    "bureau": "Anizy-le-Château",
+    "distanceKm": 1.4
+  },
+  "WIEGE FATY": {
+    "bureau": "Sains-Richaumont",
+    "distanceKm": 6.2
+  },
+  "EBOULEAU": {
+    "bureau": "Liesse-Notre-Dame",
+    "distanceKm": 8.6
+  },
+  "EPAGNY": {
+    "bureau": "Coucy-le-Château",
+    "distanceKm": 6.4
+  },
+  "EPARCY": {
+    "bureau": "Hirson",
+    "distanceKm": 6.6
+  },
+  "EPAUX BEZU": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 5.4
+  },
+  "EPIEDS": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 7.8
+  },
+  "ETAMPES SUR MARNE": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 3.9
+  },
+  "ETAVES ET BOCQUIAUX": {
+    "bureau": "Bohain-en-Vermandois",
+    "distanceKm": 6.5
+  },
+  "ETOUVELLES": {
+    "bureau": "Laon",
+    "distanceKm": 6.4
+  },
+  "ETREILLERS": {
+    "bureau": "Saint-Quentin",
+    "distanceKm": 9.0
+  },
+  "ETREUX": {
+    "bureau": "Wassigny",
+    "distanceKm": 4.4
+  },
+  "ETREAUPONT": {
+    "bureau": "Vervins",
+    "distanceKm": 7.3
+  },
+  "ETREPILLY": {
+    "bureau": "Château-Thierry",
+    "distanceKm": 3.6
+  },
+  "EVERGNICOURT": {
+    "bureau": "Neufchâtel-sur-Aisne",
+    "distanceKm": 2.3
+  },
+  "ŒUILLY": {
+    "bureau": "Craonne",
+    "distanceKm": 10.3
+  }
+}

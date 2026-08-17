@@ -431,6 +431,20 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_16_bureaux.json',
         catalogUrl: 'https://lasource.archives.lacharente.fr/archive/recherche/enregistrement/n:127',
     },
+    '02': {
+        label: 'Aisne',
+        kind: 'facet',
+        // Bornes réelles de la série (309 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['02']) : troisième mise en page de
+        // résultats rencontrée sur ce même logiciel (une "carte" par ligne au lieu de colonnes),
+        // avec deux registres sans dates en calendrier grégorien (uniquement "an II-an VIII") -
+        // convertis par approximation (voir REPUBLICAN_RE dans le scraper).
+        minYear: 1793,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_02.json',
+        bureauxUrl: './assets/data/successions_02_bureaux.json',
+        catalogUrl: 'https://archives.aisne.fr/archive/recherche/successionsabsences/n:322',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
