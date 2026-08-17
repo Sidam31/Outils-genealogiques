@@ -404,6 +404,33 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_91_bureaux.json',
         catalogUrl: 'https://archives.essonne.fr/page/successions-1',
     },
+    '01': {
+        label: 'Ain',
+        kind: 'facet',
+        // Bornes réelles de la série (362 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py) : neuvième logiciel du projet mais même famille que
+        // la Haute-Garonne (Ligeo Archives), ici en mode liste plate (pas d'arborescence) - portail
+        // protégé par Anubis, contourné avec l'autorisation explicite du service d'archives.
+        minYear: 1834,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_01.json',
+        bureauxUrl: './assets/data/successions_01_bureaux.json',
+        catalogUrl: 'https://www.archives.ain.fr/archive/recherche/3q/n:92',
+    },
+    '16': {
+        label: 'Charente',
+        kind: 'facet',
+        // Bornes réelles de la série (296 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['16']) : même logiciel/même Anubis que
+        // l'Ain, mais en mode "typefilter" (le fonds "Enregistrement" mélange sommiers, tables des
+        // vendeurs/acquéreurs/sépultures... - un facet "Table de successions et absences" isole
+        // la bonne sous-série côté serveur, avec cote officielle réelle cette fois).
+        minYear: 1849,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_16.json',
+        bureauxUrl: './assets/data/successions_16_bureaux.json',
+        catalogUrl: 'https://lasource.archives.lacharente.fr/archive/recherche/enregistrement/n:127',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

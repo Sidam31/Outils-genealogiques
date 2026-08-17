@@ -1,0 +1,1810 @@
+{
+  "ABZAC": {
+    "bureau": "Confolens",
+    "distanceKm": 9.3
+  },
+  "AGRIS": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 4.9
+  },
+  "AIGNES ET PUYPEROUX": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "AIZECQ": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "ALLOUE": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 9.4
+  },
+  "AMBERNAC": {
+    "bureau": "Confolens",
+    "distanceKm": 10.1
+  },
+  "AMBLEVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "AMBERAC": {
+    "bureau": "Aigre",
+    "distanceKm": 5.5
+  },
+  "ANAIS": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 7.7
+  },
+  "ANGEAC CHAMPAGNE": {
+    "bureau": "Segonzac",
+    "distanceKm": 5.9
+  },
+  "ANGEAC CHARENTE": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 3.8
+  },
+  "ANGEDUC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 6.4
+  },
+  "ANSAC SUR VIENNE": {
+    "bureau": "Confolens",
+    "distanceKm": 4.5
+  },
+  "ANVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "ARS": {
+    "bureau": "Cognac",
+    "distanceKm": 8.4
+  },
+  "ASNIERES SUR NOUERE": {
+    "bureau": "Hiersac",
+    "distanceKm": 4.7
+  },
+  "AUBETERRE": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 0.0
+  },
+  "AUBEVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "AUGE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "AUNAC SUR CHARENTE": {
+    "bureau": "Mansle",
+    "distanceKm": 5.6
+  },
+  "AUNAC": {
+    "bureau": "Mansle",
+    "distanceKm": 5.6
+  },
+  "AUSSAC VADALLE": {
+    "bureau": "Mansle",
+    "distanceKm": 7.2
+  },
+  "AUSSAC": {
+    "bureau": "Mansle",
+    "distanceKm": 7.2
+  },
+  "BALZAC": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 7.1
+  },
+  "BARBEZIEUX": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 0.0
+  },
+  "BARBEZIERES": {
+    "bureau": "Aigre",
+    "distanceKm": 9.0
+  },
+  "BARDENAC": {
+    "bureau": "Brossac",
+    "distanceKm": 3.7
+  },
+  "BRIE BARDENAC": {
+    "bureau": "Brossac",
+    "distanceKm": 3.7
+  },
+  "BARRET": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 3.9
+  },
+  "BARRO": {
+    "bureau": "Ruffec",
+    "distanceKm": 4.4
+  },
+  "BASSAC": {
+    "bureau": "Jarnac",
+    "distanceKm": 5.8
+  },
+  "BAYERS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "BAZAC": {
+    "bureau": "Chalais",
+    "distanceKm": 5.6
+  },
+  "BEAULIEU SUR SONNETTE": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 8.7
+  },
+  "BELLEVIGNE": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 6.6
+  },
+  "MALAVILLE": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 6.6
+  },
+  "MALLAVILLE": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 6.6
+  },
+  "BELLON": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 6.6
+  },
+  "BENEST": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 5.5
+  },
+  "BERNAC": {
+    "bureau": "Ruffec",
+    "distanceKm": 2.9
+  },
+  "BERNEUIL": {
+    "bureau": "Brossac",
+    "distanceKm": 7.2
+  },
+  "BESSAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 4.0
+  },
+  "BESSE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 5.8
+  },
+  "BIGNAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "BIOUSSAC": {
+    "bureau": "Ruffec",
+    "distanceKm": 5.3
+  },
+  "BIRAC": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 3.8
+  },
+  "BLANZAGUET SAINT CYBARD": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 2.3
+  },
+  "BOISBRETEAU": {
+    "bureau": "Brossac",
+    "distanceKm": 8.2
+  },
+  "BOISNE LA TUDE": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 6.6
+  },
+  "CHARMANT": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 6.6
+  },
+  "BONNES": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 3.5
+  },
+  "BONNEUIL": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 6.4
+  },
+  "BONNEVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "BORS (CANTON DE CHARENTE SUD)": {
+    "bureau": "Baignes-Sainte-Radegonde",
+    "distanceKm": 7.1
+  },
+  "BORS (CANTON DE BAIGNES SAINTE RADEGONDE)": {
+    "bureau": "Baignes-Sainte-Radegonde",
+    "distanceKm": 7.1
+  },
+  "BORS (CANTON DE TUDE ET LAVALETTE)": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 7.1
+  },
+  "BORS (CANTON DE MONTMOREAU SAINT CYBARD)": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 7.1
+  },
+  "BOURG CHARENTE": {
+    "bureau": "Jarnac",
+    "distanceKm": 5.0
+  },
+  "BOUTEVILLE": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 5.5
+  },
+  "BOUTIERS SAINT TROJAN": {
+    "bureau": "Cognac",
+    "distanceKm": 3.8
+  },
+  "BOUEX": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 12.4
+  },
+  "BRETTES": {
+    "bureau": "Villefagnan",
+    "distanceKm": 5.4
+  },
+  "BRIE": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 7.5
+  },
+  "BRIE SOUS BARBEZIEUX": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 6.2
+  },
+  "BRIE SOUS CHALAIS": {
+    "bureau": "Brossac",
+    "distanceKm": 4.7
+  },
+  "BRIGUEUIL": {
+    "bureau": "Chabanais",
+    "distanceKm": 16.1
+  },
+  "BRILLAC": {
+    "bureau": "Confolens",
+    "distanceKm": 9.4
+  },
+  "BREVILLE": {
+    "bureau": "Cognac",
+    "distanceKm": 11.0
+  },
+  "BUNZAC": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 4.3
+  },
+  "BECHERESSE": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 6.6
+  },
+  "CELLEFROUIN": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 7.6
+  },
+  "CELLETTES": {
+    "bureau": "Mansle",
+    "distanceKm": 4.2
+  },
+  "CHABRAC": {
+    "bureau": "Chabanais",
+    "distanceKm": 7.1
+  },
+  "CHADURIE": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 9.6
+  },
+  "CHALLIGNAC": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 8.4
+  },
+  "CHAMPAGNE VIGNY": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 5.9
+  },
+  "CHAMPAGNE DE BLANZAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 5.9
+  },
+  "CHAMPAGNE": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 5.9
+  },
+  "CHAMPMILLON": {
+    "bureau": "Hiersac",
+    "distanceKm": 3.1
+  },
+  "CHAMPNIERS": {
+    "bureau": "Angoulême",
+    "distanceKm": 9.2
+  },
+  "CHANTILLAC": {
+    "bureau": "Baignes-Sainte-Radegonde",
+    "distanceKm": 5.8
+  },
+  "CHANTREZAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "CHARME": {
+    "bureau": "Villefagnan",
+    "distanceKm": 6.8
+  },
+  "CHARRAS": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 13.5
+  },
+  "CHASSENEUIL SUR BONNIEURE": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 8.6
+  },
+  "CHASSENEUIL": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 8.6
+  },
+  "CHASSENON": {
+    "bureau": "Chabanais",
+    "distanceKm": 5.3
+  },
+  "CHASSIECQ": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 6.4
+  },
+  "CHASSORS": {
+    "bureau": "Jarnac",
+    "distanceKm": 3.9
+  },
+  "CHAVENAT": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "CHAZELLES": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 10.0
+  },
+  "CHENOMMET": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "CHENON": {
+    "bureau": "Mansle",
+    "distanceKm": 7.1
+  },
+  "CHERVES CHATELARS": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 3.6
+  },
+  "CHILLAC": {
+    "bureau": "Brossac",
+    "distanceKm": 4.3
+  },
+  "CHIRAC": {
+    "bureau": "Chabanais",
+    "distanceKm": 5.8
+  },
+  "CHATEAUBERNARD": {
+    "bureau": "Cognac",
+    "distanceKm": 2.8
+  },
+  "CHATIGNAC": {
+    "bureau": "Brossac",
+    "distanceKm": 4.4
+  },
+  "CLAIX": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 9.9
+  },
+  "COMBIERS": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 11.0
+  },
+  "CONDAC": {
+    "bureau": "Ruffec",
+    "distanceKm": 2.7
+  },
+  "CONDEON": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 8.7
+  },
+  "COTEAUX DU BLANZACAIS": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 0.0
+  },
+  "BLANZAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 0.0
+  },
+  "COULGENS": {
+    "bureau": "Mansle",
+    "distanceKm": 10.6
+  },
+  "COULONGES": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 6.6
+  },
+  "COURBILLAC": {
+    "bureau": "Rouillac",
+    "distanceKm": 9.2
+  },
+  "COURCOME": {
+    "bureau": "Villefagnan",
+    "distanceKm": 4.6
+  },
+  "COURGEAC": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 5.9
+  },
+  "COURLAC": {
+    "bureau": "Chalais",
+    "distanceKm": 4.7
+  },
+  "COUTURE": {
+    "bureau": "Mansle",
+    "distanceKm": 9.2
+  },
+  "CRESSAC SAINT GENIS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "CRESSAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "CRITEUIL LA MAGDELEINE": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 7.6
+  },
+  "CURAC": {
+    "bureau": "Chalais",
+    "distanceKm": 2.5
+  },
+  "DEVIAT": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 5.3
+  },
+  "DIGNAC": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 8.6
+  },
+  "DIRAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 9.0
+  },
+  "DOUZAT": {
+    "bureau": "Hiersac",
+    "distanceKm": 3.4
+  },
+  "EMBOURIE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "EMPURE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 3.8
+  },
+  "ESSE": {
+    "bureau": "Confolens",
+    "distanceKm": 4.5
+  },
+  "EXIDEUIL SUR VIENNE": {
+    "bureau": "Chabanais",
+    "distanceKm": 3.6
+  },
+  "EXIDEUIL": {
+    "bureau": "Chabanais",
+    "distanceKm": 3.6
+  },
+  "EYMOUTHIERS": {
+    "bureau": "Montbron",
+    "distanceKm": 4.8
+  },
+  "FEUILLADE": {
+    "bureau": "Montbron",
+    "distanceKm": 9.5
+  },
+  "FLEURAC": {
+    "bureau": "Jarnac",
+    "distanceKm": 7.5
+  },
+  "FLEAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 5.6
+  },
+  "FONTCLAIREAU": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "FONTENILLE": {
+    "bureau": "Mansle",
+    "distanceKm": 2.9
+  },
+  "FOUQUEBRUNE": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 8.2
+  },
+  "FOUQUEURE": {
+    "bureau": "Aigre",
+    "distanceKm": 3.8
+  },
+  "FOUSSIGNAC": {
+    "bureau": "Jarnac",
+    "distanceKm": 4.5
+  },
+  "GARAT": {
+    "bureau": "Angoulême",
+    "distanceKm": 9.4
+  },
+  "GARDES LE PONTAROUX": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 4.2
+  },
+  "GENAC BIGNAC": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 6.4
+  },
+  "GENAC": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 6.4
+  },
+  "GENOUILLAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "GENSAC LA PALLUE": {
+    "bureau": "Segonzac",
+    "distanceKm": 6.4
+  },
+  "GENTE": {
+    "bureau": "Cognac",
+    "distanceKm": 7.0
+  },
+  "GIMEUX": {
+    "bureau": "Cognac",
+    "distanceKm": 6.8
+  },
+  "GOND PONTOUVRE": {
+    "bureau": "Angoulême",
+    "distanceKm": 4.1
+  },
+  "GOURVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "GRASSAC": {
+    "bureau": "Montbron",
+    "distanceKm": 13.0
+  },
+  "GRAVES": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "GRAVES SAINT AMANT": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 5.7
+  },
+  "SAINT AMANT DE GRAVES": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 5.7
+  },
+  "GUIMPS": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 8.0
+  },
+  "GUIZENGEARD": {
+    "bureau": "Brossac",
+    "distanceKm": 6.0
+  },
+  "GURAT": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 4.8
+  },
+  "HIESSE": {
+    "bureau": "Confolens",
+    "distanceKm": 6.9
+  },
+  "HOULETTE": {
+    "bureau": "Jarnac",
+    "distanceKm": 8.1
+  },
+  "JAULDES": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 9.5
+  },
+  "JAVREZAC": {
+    "bureau": "Cognac",
+    "distanceKm": 1.9
+  },
+  "JUIGNAC": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 4.3
+  },
+  "JUILLAC LE COQ": {
+    "bureau": "Segonzac",
+    "distanceKm": 4.2
+  },
+  "JUILLAGUET": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "JUILLE": {
+    "bureau": "Mansle",
+    "distanceKm": 5.5
+  },
+  "JULIENNE": {
+    "bureau": "Jarnac",
+    "distanceKm": 4.8
+  },
+  "L ISLE D ESPAGNAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 4.6
+  },
+  "LA BOIXE": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 3.7
+  },
+  "VARS": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 3.7
+  },
+  "LA CHAPELLE": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 7.0
+  },
+  "LA CHEVRERIE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 5.0
+  },
+  "LA COURONNE": {
+    "bureau": "Angoulême",
+    "distanceKm": 5.0
+  },
+  "LA FAYE": {
+    "bureau": "Ruffec",
+    "distanceKm": 3.6
+  },
+  "LA FORET DE TESSE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 7.5
+  },
+  "LA MAGDELEINE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 4.6
+  },
+  "LA PERUSE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "LA ROCHEFOUCAULD EN ANGOUMOIS": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 0.0
+  },
+  "LA ROCHETTE": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 7.9
+  },
+  "LA TACHE": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 10.3
+  },
+  "LACHAISE": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 7.6
+  },
+  "LADIVILLE": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 8.0
+  },
+  "LAGARDE SUR LE NE": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 5.3
+  },
+  "LAMERAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "LAPRADE": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 2.3
+  },
+  "LE BOUCHAGE": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 6.0
+  },
+  "LE GRAND MADIEU": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 5.5
+  },
+  "LE LINDOIS": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 4.1
+  },
+  "LE TATRE": {
+    "bureau": "Baignes-Sainte-Radegonde",
+    "distanceKm": 5.1
+  },
+  "LE VIEUX CERIER": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 3.5
+  },
+  "LES ADJOTS": {
+    "bureau": "Ruffec",
+    "distanceKm": 4.4
+  },
+  "LES ESSARDS": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 5.3
+  },
+  "LES GOURS": {
+    "bureau": "Aigre",
+    "distanceKm": 9.6
+  },
+  "LES METAIRIES": {
+    "bureau": "Jarnac",
+    "distanceKm": 2.7
+  },
+  "LES PINS": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 8.4
+  },
+  "LESSAC": {
+    "bureau": "Confolens",
+    "distanceKm": 5.2
+  },
+  "LESTERPS": {
+    "bureau": "Confolens",
+    "distanceKm": 9.9
+  },
+  "LICHERES": {
+    "bureau": "Mansle",
+    "distanceKm": 3.3
+  },
+  "LIGNIERES AMBLEVILLE": {
+    "bureau": "Segonzac",
+    "distanceKm": 5.6
+  },
+  "LIGNIERES SONNEVILLE": {
+    "bureau": "Segonzac",
+    "distanceKm": 5.6
+  },
+  "LIGNE": {
+    "bureau": "Aigre",
+    "distanceKm": 6.4
+  },
+  "LINARS": {
+    "bureau": "Hiersac",
+    "distanceKm": 5.5
+  },
+  "LONDIGNY": {
+    "bureau": "Ruffec",
+    "distanceKm": 6.8
+  },
+  "LONGRE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 9.3
+  },
+  "LONNES": {
+    "bureau": "Mansle",
+    "distanceKm": 5.8
+  },
+  "LOUZAC SAINT ANDRE": {
+    "bureau": "Cognac",
+    "distanceKm": 5.5
+  },
+  "LOUZAC": {
+    "bureau": "Cognac",
+    "distanceKm": 5.5
+  },
+  "LUPSAULT": {
+    "bureau": "Aigre",
+    "distanceKm": 7.8
+  },
+  "LUSSAC": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 4.8
+  },
+  "LUXE": {
+    "bureau": "Mansle",
+    "distanceKm": 5.0
+  },
+  "LESIGNAC DURAND": {
+    "bureau": "Chabanais",
+    "distanceKm": 7.5
+  },
+  "MAGNAC LES GARDES": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 4.1
+  },
+  "MAGNAC LAVALETTE VILLARS": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 4.1
+  },
+  "MAGNAC LAVALETTE": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 4.1
+  },
+  "MAGNAC SUR TOUVRE": {
+    "bureau": "Angoulême",
+    "distanceKm": 7.3
+  },
+  "MAINE DE BOIXE": {
+    "bureau": "Mansle",
+    "distanceKm": 4.4
+  },
+  "MAINFONDS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "MAINXE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "MAINXE GONDEVILLE": {
+    "bureau": "Jarnac",
+    "distanceKm": 3.4
+  },
+  "GONDEVILLE": {
+    "bureau": "Jarnac",
+    "distanceKm": 3.4
+  },
+  "MAINZAC": {
+    "bureau": "Montbron",
+    "distanceKm": 13.3
+  },
+  "MANOT": {
+    "bureau": "Chabanais",
+    "distanceKm": 9.9
+  },
+  "MANSLE LES FONTAINES": {
+    "bureau": "Mansle",
+    "distanceKm": 0.0
+  },
+  "MARCILLAC LANVILLE": {
+    "bureau": "Aigre",
+    "distanceKm": 4.7
+  },
+  "MAREUIL": {
+    "bureau": "Rouillac",
+    "distanceKm": 5.2
+  },
+  "MARILLAC LE FRANC": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 6.1
+  },
+  "MARILLAC": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 6.1
+  },
+  "MARSAC": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 4.8
+  },
+  "MARTHON": {
+    "bureau": "Montbron",
+    "distanceKm": 7.6
+  },
+  "MASSIGNAC": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 7.8
+  },
+  "MAZEROLLES": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 4.4
+  },
+  "MAZIERES": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "MERPINS": {
+    "bureau": "Cognac",
+    "distanceKm": 4.1
+  },
+  "MESNAC": {
+    "bureau": "Cognac",
+    "distanceKm": 8.7
+  },
+  "MESSEUX": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "MONS": {
+    "bureau": "Aigre",
+    "distanceKm": 5.3
+  },
+  "MONTBOYER": {
+    "bureau": "Chalais",
+    "distanceKm": 6.6
+  },
+  "MONTEMBŒUF": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 0.0
+  },
+  "MONTIGNAC LE COQ": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 8.7
+  },
+  "MONTIGNE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "MONTJEAN": {
+    "bureau": "Ruffec",
+    "distanceKm": 8.4
+  },
+  "MONTMOREAU": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 0.0
+  },
+  "MONTMERAC": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 6.6
+  },
+  "MONTCHAUDE": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 6.6
+  },
+  "MONTROLLET": {
+    "bureau": "Confolens",
+    "distanceKm": 18.4
+  },
+  "MORNAC": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 7.9
+  },
+  "MOSNAC SAINT SIMEUX": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 4.0
+  },
+  "MOSNAC": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 4.0
+  },
+  "MOULIDARS": {
+    "bureau": "Hiersac",
+    "distanceKm": 4.1
+  },
+  "MOULINS SUR TARDOIRE": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 6.4
+  },
+  "VILHONNEUR": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 6.4
+  },
+  "MOUTARDON": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "MOUTHIERS SUR BOEME": {
+    "bureau": "Angoulême",
+    "distanceKm": 10.0
+  },
+  "MOUTON": {
+    "bureau": "Mansle",
+    "distanceKm": 3.8
+  },
+  "MOUTONNEAU": {
+    "bureau": "Mansle",
+    "distanceKm": 4.2
+  },
+  "MOUZON": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 5.5
+  },
+  "MEDILLAC": {
+    "bureau": "Chalais",
+    "distanceKm": 7.0
+  },
+  "MERIGNAC": {
+    "bureau": "Hiersac",
+    "distanceKm": 6.4
+  },
+  "NABINAUD": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 4.6
+  },
+  "NANCLARS": {
+    "bureau": "Mansle",
+    "distanceKm": 5.5
+  },
+  "NANTEUIL EN VALLEE": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 7.2
+  },
+  "NANTEUIL": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 7.2
+  },
+  "NERCILLAC": {
+    "bureau": "Cognac",
+    "distanceKm": 6.3
+  },
+  "NERSAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 6.5
+  },
+  "NIEUIL": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 3.3
+  },
+  "NONAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 5.3
+  },
+  "NONAVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "ORADOUR": {
+    "bureau": "Aigre",
+    "distanceKm": 5.1
+  },
+  "ORADOUR FANAIS": {
+    "bureau": "Confolens",
+    "distanceKm": 13.4
+  },
+  "ORGEDEUIL": {
+    "bureau": "Montbron",
+    "distanceKm": 3.3
+  },
+  "ORIOLLES": {
+    "bureau": "Brossac",
+    "distanceKm": 7.9
+  },
+  "ORIVAL": {
+    "bureau": "Chalais",
+    "distanceKm": 2.9
+  },
+  "PAIZAY NAUDOUIN EMBOURIE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 7.2
+  },
+  "PAIZAY NAUDOUIN": {
+    "bureau": "Villefagnan",
+    "distanceKm": 7.2
+  },
+  "PALLUAUD": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 9.6
+  },
+  "PARZAC": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 5.8
+  },
+  "PASSIRAC": {
+    "bureau": "Brossac",
+    "distanceKm": 2.0
+  },
+  "PILLAC": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 7.0
+  },
+  "PLAIZAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "PLASSAC ROUFFIAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 8.6
+  },
+  "PLEUVILLE": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 12.2
+  },
+  "PORCHERESSE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "POUGNE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "POULLIGNAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 7.3
+  },
+  "POURSAC": {
+    "bureau": "Ruffec",
+    "distanceKm": 10.0
+  },
+  "PRANZAC": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 6.9
+  },
+  "PRESSIGNAC": {
+    "bureau": "Chabanais",
+    "distanceKm": 5.8
+  },
+  "PUYMOYEN": {
+    "bureau": "Angoulême",
+    "distanceKm": 4.3
+  },
+  "PUYREAUX": {
+    "bureau": "Mansle",
+    "distanceKm": 3.3
+  },
+  "PEREUIL": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "PERIGNAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 4.7
+  },
+  "RAIX": {
+    "bureau": "Villefagnan",
+    "distanceKm": 1.9
+  },
+  "RANCOGNE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "RANVILLE BREUILLAUD": {
+    "bureau": "Aigre",
+    "distanceKm": 11.3
+  },
+  "REIGNAC": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 6.2
+  },
+  "RICHEMONT": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "RIOUX MARTIN": {
+    "bureau": "Chalais",
+    "distanceKm": 4.7
+  },
+  "RIVIERES": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 3.4
+  },
+  "RONSENAC": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 3.9
+  },
+  "ROUFFIAC": {
+    "bureau": "Chalais",
+    "distanceKm": 5.1
+  },
+  "ROUGNAC": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 8.7
+  },
+  "ROULLET SAINT ESTEPHE": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 7.1
+  },
+  "ROULLET": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 7.1
+  },
+  "ROUMAZIERES": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "ROUSSINES": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 8.0
+  },
+  "ROUZEDE": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 6.8
+  },
+  "RUELLE SUR TOUVRE": {
+    "bureau": "Angoulême",
+    "distanceKm": 7.7
+  },
+  "RUELLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 7.7
+  },
+  "REPARSAC": {
+    "bureau": "Cognac",
+    "distanceKm": 7.9
+  },
+  "SAINT ADJUTORY": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 5.4
+  },
+  "SAINT AMANT DE BOIXE": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 3.8
+  },
+  "SAINT AMANT DE BONNIEURE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT AMANT DE MONTMOREAU": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT AMANT": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT AMANT DE NOUERE": {
+    "bureau": "Hiersac",
+    "distanceKm": 6.8
+  },
+  "SAINT ANDRE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT AULAIS LA CHAPELLE": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 5.6
+  },
+  "SAINT AVIT": {
+    "bureau": "Chalais",
+    "distanceKm": 3.5
+  },
+  "SAINT BONNET": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 5.3
+  },
+  "SAINT BRICE": {
+    "bureau": "Cognac",
+    "distanceKm": 5.5
+  },
+  "SAINT CHRISTOPHE": {
+    "bureau": "Confolens",
+    "distanceKm": 15.1
+  },
+  "SAINT CHRISTOPHE DE CHALAIS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT CIERS SUR BONNIEURE": {
+    "bureau": "Mansle",
+    "distanceKm": 5.4
+  },
+  "SAINT CIERS": {
+    "bureau": "Mansle",
+    "distanceKm": 5.4
+  },
+  "SAINT COUTANT": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 4.0
+  },
+  "SAINT CYBARD": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT CYBARDEAUX": {
+    "bureau": "Rouillac",
+    "distanceKm": 4.3
+  },
+  "SAINT ESTEPHE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT EUTROPE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT FORT SUR LE NE": {
+    "bureau": "Segonzac",
+    "distanceKm": 8.2
+  },
+  "SAINT FRAIGNE": {
+    "bureau": "Aigre",
+    "distanceKm": 6.5
+  },
+  "SAINT FRONT": {
+    "bureau": "Mansle",
+    "distanceKm": 7.5
+  },
+  "SAINT FELIX": {
+    "bureau": "Brossac",
+    "distanceKm": 6.8
+  },
+  "SAINT GENIS D HIERSAC": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 5.9
+  },
+  "SAINT GENIS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT GENIS DE BLANZAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT GEORGES": {
+    "bureau": "Ruffec",
+    "distanceKm": 8.9
+  },
+  "SAINT GERMAIN DE CONFOLENS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN": {
+    "bureau": "Montbron",
+    "distanceKm": 7.9
+  },
+  "SAINT GERMAIN DE MONTBRON": {
+    "bureau": "Montbron",
+    "distanceKm": 7.9
+  },
+  "SAINT GERVAIS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT GOURSON": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 9.8
+  },
+  "SAINT GROUX": {
+    "bureau": "Mansle",
+    "distanceKm": 2.2
+  },
+  "SAINT HILAIRE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT LAURENT DE BELZAGOT": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT LAURENT DE COGNAC": {
+    "bureau": "Cognac",
+    "distanceKm": 4.5
+  },
+  "SAINT LAURENT": {
+    "bureau": "Cognac",
+    "distanceKm": 4.5
+  },
+  "SAINT LAURENT DE CERIS": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 5.6
+  },
+  "SAINT LAURENT DES COMBES": {
+    "bureau": "Brossac",
+    "distanceKm": 7.4
+  },
+  "SAINT LEGER": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIAL": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 7.9
+  },
+  "SAINT MARTIN DU CLOCHER": {
+    "bureau": "Ruffec",
+    "distanceKm": 5.1
+  },
+  "SAINT MARY": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 11.0
+  },
+  "SAINT MAURICE DES LIONS": {
+    "bureau": "Confolens",
+    "distanceKm": 7.4
+  },
+  "SAINT MICHEL": {
+    "bureau": "Angoulême",
+    "distanceKm": 2.7
+  },
+  "SAINT MEDARD": {
+    "bureau": "Rouillac",
+    "distanceKm": 5.2
+  },
+  "SAINT MEDARD(CANTON DE BARBEZIEUX SAINT HILAIRE)": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 3.4
+  },
+  "SAINT MEME LES CARRIERES": {
+    "bureau": "Jarnac",
+    "distanceKm": 5.1
+  },
+  "SAINT MEME": {
+    "bureau": "Jarnac",
+    "distanceKm": 5.1
+  },
+  "SAINT PALAIS DU NE": {
+    "bureau": "Segonzac",
+    "distanceKm": 9.8
+  },
+  "SAINT PREUIL": {
+    "bureau": "Segonzac",
+    "distanceKm": 3.1
+  },
+  "SAINT PROJET SAINT CONSTANT": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT QUENTIN DE CHALAIS": {
+    "bureau": "Chalais",
+    "distanceKm": 4.5
+  },
+  "SAINT QUENTIN SUR CHARENTE": {
+    "bureau": "Chabanais",
+    "distanceKm": 3.8
+  },
+  "SAINT ROMAIN": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 3.6
+  },
+  "SAINT SATURNIN": {
+    "bureau": "Hiersac",
+    "distanceKm": 2.7
+  },
+  "SAINT SIMEUX": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT SIMON": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 6.7
+  },
+  "SAINT SORNIN": {
+    "bureau": "Montbron",
+    "distanceKm": 4.9
+  },
+  "SAINT SULPICE DE COGNAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINT SULPICE DE RUFFEC": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 10.2
+  },
+  "SAINT SEVERIN": {
+    "bureau": "Aubeterre-sur-Dronne",
+    "distanceKm": 8.0
+  },
+  "SAINT VALLIER": {
+    "bureau": "Brossac",
+    "distanceKm": 5.2
+  },
+  "SAINT YRIEIX SUR CHARENTE": {
+    "bureau": "Angoulême",
+    "distanceKm": 4.2
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINTE MARIE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SAINTE SOULINE": {
+    "bureau": "Brossac",
+    "distanceKm": 5.9
+  },
+  "SAINTE SEVERE": {
+    "bureau": "Cognac",
+    "distanceKm": 10.1
+  },
+  "SALLES LAVALETTE": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 6.7
+  },
+  "SALLES D ANGLES": {
+    "bureau": "Cognac",
+    "distanceKm": 8.4
+  },
+  "SALLES DE BARBEZIEUX": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 3.8
+  },
+  "SALLES DE VILLEFAGNAN": {
+    "bureau": "Villefagnan",
+    "distanceKm": 8.1
+  },
+  "SAULGOND": {
+    "bureau": "Chabanais",
+    "distanceKm": 11.4
+  },
+  "SAUVAGNAC": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 8.2
+  },
+  "SAUVIGNAC": {
+    "bureau": "Brossac",
+    "distanceKm": 7.2
+  },
+  "SERS": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 11.9
+  },
+  "SIGOGNE": {
+    "bureau": "Jarnac",
+    "distanceKm": 4.9
+  },
+  "SIREUIL": {
+    "bureau": "Hiersac",
+    "distanceKm": 5.9
+  },
+  "SONNEVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SOUFFRIGNAC": {
+    "bureau": "Montbron",
+    "distanceKm": 9.4
+  },
+  "SOUVIGNE": {
+    "bureau": "Villefagnan",
+    "distanceKm": 5.4
+  },
+  "SOYAUX": {
+    "bureau": "Angoulême",
+    "distanceKm": 4.8
+  },
+  "SUAUX": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 6.1
+  },
+  "SURIS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "SERIGNAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "TAIZE AIZIE": {
+    "bureau": "Ruffec",
+    "distanceKm": 5.3
+  },
+  "TAPONNAT FLEURIGNAC": {
+    "bureau": "La Rochefoucauld",
+    "distanceKm": 6.3
+  },
+  "TERRES DE HAUTE CHARENTE": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 7.8
+  },
+  "ROUMAZIERES LOUBERT": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 7.8
+  },
+  "LOUBERT MADIEU": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 7.8
+  },
+  "LOUBERT": {
+    "bureau": "Saint-Claud",
+    "distanceKm": 7.8
+  },
+  "THEIL RABIER": {
+    "bureau": "Villefagnan",
+    "distanceKm": 6.6
+  },
+  "TORSAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 10.1
+  },
+  "TOURRIERS": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 7.0
+  },
+  "TOUVRE": {
+    "bureau": "Angoulême",
+    "distanceKm": 9.8
+  },
+  "TOUVERAC": {
+    "bureau": "Baignes-Sainte-Radegonde",
+    "distanceKm": 4.5
+  },
+  "TOUZAC": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "TRIAC LAUTRAIT": {
+    "bureau": "Jarnac",
+    "distanceKm": 4.0
+  },
+  "TROIS PALIS": {
+    "bureau": "Hiersac",
+    "distanceKm": 5.0
+  },
+  "TURGON": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 5.3
+  },
+  "TUSSON": {
+    "bureau": "Aigre",
+    "distanceKm": 5.1
+  },
+  "TUZIE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "VAL D AUGE": {
+    "bureau": "Rouillac",
+    "distanceKm": 5.2
+  },
+  "AUGE SAINT MEDARD": {
+    "bureau": "Rouillac",
+    "distanceKm": 5.2
+  },
+  "VAL DE BONNIEURE": {
+    "bureau": "Mansle",
+    "distanceKm": 9.3
+  },
+  "SAINT ANGEAU": {
+    "bureau": "Mansle",
+    "distanceKm": 9.3
+  },
+  "VAL DE COGNAC": {
+    "bureau": "Cognac",
+    "distanceKm": 5.8
+  },
+  "CHERVES RICHEMONT": {
+    "bureau": "Cognac",
+    "distanceKm": 5.8
+  },
+  "CHERVES DE COGNAC": {
+    "bureau": "Cognac",
+    "distanceKm": 5.8
+  },
+  "CHERVES": {
+    "bureau": "Cognac",
+    "distanceKm": 5.8
+  },
+  "VAL DES VIGNES": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 6.0
+  },
+  "JURIGNAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 6.0
+  },
+  "VALENCE": {
+    "bureau": "Mansle",
+    "distanceKm": 10.3
+  },
+  "VAUX LAVALETTE": {
+    "bureau": "Montmoreau-Saint-Cybard",
+    "distanceKm": 7.0
+  },
+  "VAUX ROUILLAC": {
+    "bureau": "Rouillac",
+    "distanceKm": 5.8
+  },
+  "VENTOUSE": {
+    "bureau": "Mansle",
+    "distanceKm": 10.8
+  },
+  "VERDILLE": {
+    "bureau": "Aigre",
+    "distanceKm": 9.6
+  },
+  "VERNEUIL": {
+    "bureau": "Chabanais",
+    "distanceKm": 9.3
+  },
+  "VERRIERES": {
+    "bureau": "Segonzac",
+    "distanceKm": 7.1
+  },
+  "VERTEUIL SUR CHARENTE": {
+    "bureau": "Ruffec",
+    "distanceKm": 8.1
+  },
+  "VERTEUIL": {
+    "bureau": "Ruffec",
+    "distanceKm": 8.1
+  },
+  "VERVANT": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 6.4
+  },
+  "VIBRAC": {
+    "bureau": "Châteauneuf-sur-Charente",
+    "distanceKm": 5.2
+  },
+  "VIEUX RUFFEC": {
+    "bureau": "Champagne-Mouton",
+    "distanceKm": 3.1
+  },
+  "VIGNOLLES": {
+    "bureau": "Barbezieux-Saint-Hilaire",
+    "distanceKm": 5.3
+  },
+  "VILLARS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "VILLEGATS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "VILLEJOUBERT": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 6.2
+  },
+  "VILLEJESUS": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "VILLIERS LE ROUX": {
+    "bureau": "Villefagnan",
+    "distanceKm": 4.7
+  },
+  "VILLOGNON": {
+    "bureau": "Mansle",
+    "distanceKm": 6.9
+  },
+  "VINDELLE": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 6.6
+  },
+  "VITRAC SAINT VINCENT": {
+    "bureau": "Montemboeuf",
+    "distanceKm": 5.0
+  },
+  "VIVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "VOUHARTE": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 3.6
+  },
+  "VOULGEZAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 10.2
+  },
+  "VOUTHON": {
+    "bureau": "Montbron",
+    "distanceKm": 4.3
+  },
+  "VOUZAN": {
+    "bureau": "Montbron",
+    "distanceKm": 13.5
+  },
+  "VŒUIL ET GIGET": {
+    "bureau": "Angoulême",
+    "distanceKm": 6.2
+  },
+  "XAMBES": {
+    "bureau": "Montignac-Charente",
+    "distanceKm": 5.2
+  },
+  "YVIERS": {
+    "bureau": "Chalais",
+    "distanceKm": 4.4
+  },
+  "YVRAC ET MALLEYRAND": {
+    "bureau": "Montbron",
+    "distanceKm": 7.2
+  },
+  "EBREON": {
+    "bureau": "Aigre",
+    "distanceKm": 5.1
+  },
+  "ECHALLAT": {
+    "bureau": "Hiersac",
+    "distanceKm": 6.4
+  },
+  "ECURAS": {
+    "bureau": "Montbron",
+    "distanceKm": 5.3
+  },
+  "EDON": {
+    "bureau": "Villebois-Lavalette",
+    "distanceKm": 5.6
+  },
+  "EPENEDE": {
+    "bureau": "Confolens",
+    "distanceKm": 10.8
+  },
+  "ERAVILLE": {
+    "bureau": "Angoulême",
+    "distanceKm": 0.0
+  },
+  "ETAGNAC": {
+    "bureau": "Chabanais",
+    "distanceKm": 6.6
+  },
+  "ETRIAC": {
+    "bureau": "Blanzac-Porcheresse",
+    "distanceKm": 8.1
+  }
+}

@@ -1,0 +1,1870 @@
+{
+  "AMAREINS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "AMBLEON": {
+    "bureau": "Lhuis",
+    "distanceKm": 4.1
+  },
+  "AMBRONAY": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 5.2
+  },
+  "AMBUTRIX": {
+    "bureau": "Ambérieu-en-Bugey",
+    "distanceKm": 3.7
+  },
+  "AMBERIEU": {
+    "bureau": "Ambérieu-en-Bugey",
+    "distanceKm": 0.0
+  },
+  "AMBERIEUX EN DOMBES": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 7.2
+  },
+  "ANDERT ET CONDON": {
+    "bureau": "Belley",
+    "distanceKm": 5.2
+  },
+  "ANGLEFORT": {
+    "bureau": "Seyssel",
+    "distanceKm": 5.0
+  },
+  "APREMONT": {
+    "bureau": "Oyonnax",
+    "distanceKm": 6.2
+  },
+  "ARANC": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 7.4
+  },
+  "ARANDAS": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 8.4
+  },
+  "ARBENT": {
+    "bureau": "Oyonnax",
+    "distanceKm": 3.8
+  },
+  "ARBIGNY": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 5.1
+  },
+  "ARBOYS EN BUGEY": {
+    "bureau": "Belley",
+    "distanceKm": 4.9
+  },
+  "ARBIGNIEU": {
+    "bureau": "Belley",
+    "distanceKm": 4.9
+  },
+  "ARGIS": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 3.9
+  },
+  "ARLOD": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "ARMIX": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 4.3
+  },
+  "ARNANS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "ARS SUR FORMANS": {
+    "bureau": "Trévoux",
+    "distanceKm": 6.8
+  },
+  "ARS": {
+    "bureau": "Trévoux",
+    "distanceKm": 6.8
+  },
+  "ARTEMARE": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 4.9
+  },
+  "ARVIERE EN VALROMEY": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 3.8
+  },
+  "VIRIEU LE PETIT": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 3.8
+  },
+  "ASNIERES SUR SAONE": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 7.1
+  },
+  "ATTIGNAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 7.0
+  },
+  "BALAN": {
+    "bureau": "Montluel",
+    "distanceKm": 9.6
+  },
+  "BANEINS": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 4.2
+  },
+  "BEAUPONT": {
+    "bureau": "Coligny",
+    "distanceKm": 7.0
+  },
+  "BEAUREGARD": {
+    "bureau": "Trévoux",
+    "distanceKm": 6.9
+  },
+  "BELLEYDOUX": {
+    "bureau": "Oyonnax",
+    "distanceKm": 10.0
+  },
+  "BELLIGNAT": {
+    "bureau": "Oyonnax",
+    "distanceKm": 2.5
+  },
+  "BELIGNAT": {
+    "bureau": "Oyonnax",
+    "distanceKm": 2.5
+  },
+  "BETTANT": {
+    "bureau": "Ambérieu-en-Bugey",
+    "distanceKm": 2.4
+  },
+  "BEY": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 5.9
+  },
+  "BEYNOST": {
+    "bureau": "Montluel",
+    "distanceKm": 5.9
+  },
+  "BILLIAT": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 5.6
+  },
+  "BIRIEUX": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 5.5
+  },
+  "BIZIAT": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 6.3
+  },
+  "BLYES": {
+    "bureau": "Meximieux",
+    "distanceKm": 7.4
+  },
+  "BOHAS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "BOHAS MEYRIAT RIGNAT": {
+    "bureau": "Poncin",
+    "distanceKm": 6.3
+  },
+  "MEYRIAT": {
+    "bureau": "Poncin",
+    "distanceKm": 6.3
+  },
+  "BOISSEY": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 8.8
+  },
+  "BOLOZON": {
+    "bureau": "Nantua",
+    "distanceKm": 11.9
+  },
+  "BOULIGNEUX": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 4.4
+  },
+  "BOURG SAINT CHRISTOPHE": {
+    "bureau": "Meximieux",
+    "distanceKm": 6.0
+  },
+  "BOURG": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "BOUVENT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "BOYEUX SAINT JEROME": {
+    "bureau": "Poncin",
+    "distanceKm": 7.3
+  },
+  "BOZ": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 3.7
+  },
+  "BRENS": {
+    "bureau": "Belley",
+    "distanceKm": 3.0
+  },
+  "BRESSE VALLONS": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 5.4
+  },
+  "CRAS SUR REYSSOUZE": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 5.4
+  },
+  "BRESSOLLES": {
+    "bureau": "Montluel",
+    "distanceKm": 6.4
+  },
+  "BRION": {
+    "bureau": "Nantua",
+    "distanceKm": 5.2
+  },
+  "BRIORD": {
+    "bureau": "Lhuis",
+    "distanceKm": 5.0
+  },
+  "BREGNIER CORDON": {
+    "bureau": "Belley",
+    "distanceKm": 12.8
+  },
+  "BRENAZ": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "BUELLAS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 7.8
+  },
+  "BAGE DOMMARTIN": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 3.8
+  },
+  "BAGE LA VILLE": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 3.8
+  },
+  "BEARD GEOVREISSIAT": {
+    "bureau": "Nantua",
+    "distanceKm": 6.3
+  },
+  "GEOVREISSIAT": {
+    "bureau": "Nantua",
+    "distanceKm": 6.3
+  },
+  "BELIGNEUX": {
+    "bureau": "Meximieux",
+    "distanceKm": 7.2
+  },
+  "BENONCES": {
+    "bureau": "Lhuis",
+    "distanceKm": 11.4
+  },
+  "BENY": {
+    "bureau": "Treffort",
+    "distanceKm": 7.1
+  },
+  "BEON": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "BEREZIAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 7.2
+  },
+  "CEIGNES": {
+    "bureau": "Poncin",
+    "distanceKm": 7.4
+  },
+  "CERDON": {
+    "bureau": "Poncin",
+    "distanceKm": 5.2
+  },
+  "CERTINES": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 7.8
+  },
+  "CESSEINS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CESSY": {
+    "bureau": "Gex",
+    "distanceKm": 4.7
+  },
+  "CEYZERIAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 6.0
+  },
+  "CEYZERIEU": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 6.3
+  },
+  "CHALEINS": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 8.2
+  },
+  "CHALEY": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 7.6
+  },
+  "CHALLES LA MONTAGNE": {
+    "bureau": "Poncin",
+    "distanceKm": 4.9
+  },
+  "CHALLES": {
+    "bureau": "Poncin",
+    "distanceKm": 4.9
+  },
+  "CHALLEX": {
+    "bureau": "Collonges",
+    "distanceKm": 6.9
+  },
+  "CHAMPAGNE": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 0.0
+  },
+  "CHAMPDOR CORCELLES": {
+    "bureau": "Brénod",
+    "distanceKm": 5.0
+  },
+  "CHAMPDOR": {
+    "bureau": "Brénod",
+    "distanceKm": 5.0
+  },
+  "CHAMPFROMIER": {
+    "bureau": "Collonges",
+    "distanceKm": 11.4
+  },
+  "CHANAY": {
+    "bureau": "Seyssel",
+    "distanceKm": 7.6
+  },
+  "CHANEINS": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 5.0
+  },
+  "CHANOZ CHATENAY": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 8.9
+  },
+  "CHARANCIN": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CHARIX": {
+    "bureau": "Nantua",
+    "distanceKm": 7.0
+  },
+  "CHARNOZ SUR AIN": {
+    "bureau": "Meximieux",
+    "distanceKm": 3.6
+  },
+  "CHARNOZ": {
+    "bureau": "Meximieux",
+    "distanceKm": 3.6
+  },
+  "CHAVANNES SUR REYSSOUZE": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 5.0
+  },
+  "CHAVEYRIAT": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 11.1
+  },
+  "CHAVORNAY": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CHAZEY BONS": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 5.6
+  },
+  "CHAZEY SUR AIN": {
+    "bureau": "Meximieux",
+    "distanceKm": 4.0
+  },
+  "CHEIGNIEU LA BALME": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 3.8
+  },
+  "CHEVILLARD": {
+    "bureau": "Brénod",
+    "distanceKm": 4.0
+  },
+  "CHEVROUX": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 7.1
+  },
+  "CHEVRY": {
+    "bureau": "Gex",
+    "distanceKm": 7.5
+  },
+  "CHATEAU GAILLARD": {
+    "bureau": "Ambérieu-en-Bugey",
+    "distanceKm": 5.0
+  },
+  "CHATENAY": {
+    "bureau": "Chalamont",
+    "distanceKm": 3.0
+  },
+  "CHATILLON DE MICHAILLE": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CHATILLON LA PALUD": {
+    "bureau": "Chalamont",
+    "distanceKm": 7.1
+  },
+  "CHEZERY FORENS": {
+    "bureau": "Collonges",
+    "distanceKm": 9.7
+  },
+  "CHEZERY": {
+    "bureau": "Collonges",
+    "distanceKm": 9.7
+  },
+  "CIVRIEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 9.4
+  },
+  "CIZE": {
+    "bureau": "Treffort",
+    "distanceKm": 11.6
+  },
+  "CLEYZIEU": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 5.6
+  },
+  "COLOMIEU": {
+    "bureau": "Belley",
+    "distanceKm": 5.2
+  },
+  "CONAND": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 8.2
+  },
+  "CONDAMINE": {
+    "bureau": "Brénod",
+    "distanceKm": 5.0
+  },
+  "CONDEISSIAT": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 10.6
+  },
+  "CONFORT": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 4.6
+  },
+  "CONFRANCON": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 7.1
+  },
+  "CONTREVOZ": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 5.8
+  },
+  "CONZIEU": {
+    "bureau": "Lhuis",
+    "distanceKm": 5.4
+  },
+  "CORBONOD": {
+    "bureau": "Seyssel",
+    "distanceKm": 3.5
+  },
+  "CORCELLES": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CORDIEUX": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CORLIER": {
+    "bureau": "Poncin",
+    "distanceKm": 9.1
+  },
+  "CORMARANCHE EN BUGEY": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CORMORANCHE SUR SAONE": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 4.5
+  },
+  "CORMOZ": {
+    "bureau": "Coligny",
+    "distanceKm": 10.3
+  },
+  "CORVEISSIAT": {
+    "bureau": "Treffort",
+    "distanceKm": 10.1
+  },
+  "COUPY": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "COURMANGOUX": {
+    "bureau": "Treffort",
+    "distanceKm": 4.8
+  },
+  "COURTES": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 3.5
+  },
+  "CRANS": {
+    "bureau": "Chalamont",
+    "distanceKm": 5.5
+  },
+  "CRAZ": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CRESSIN ROCHEFORT": {
+    "bureau": "Belley",
+    "distanceKm": 7.2
+  },
+  "CROTTET": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 2.3
+  },
+  "CROZET": {
+    "bureau": "Gex",
+    "distanceKm": 8.0
+  },
+  "CRUZILLES LES MEPILLAT": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 4.6
+  },
+  "CUISIAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "CULOZ BEON": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 10.3
+  },
+  "CULOZ": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 10.3
+  },
+  "CURCIAT DONGALON": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 8.3
+  },
+  "CURTAFOND": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 5.8
+  },
+  "CUZIEU": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 4.2
+  },
+  "DAGNEUX": {
+    "bureau": "Montluel",
+    "distanceKm": 5.7
+  },
+  "DIVONNE LES BAINS": {
+    "bureau": "Gex",
+    "distanceKm": 5.5
+  },
+  "DOMMARTIN": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "DOMPIERRE SUR CHALARONNE": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 4.5
+  },
+  "DOMPIERRE SUR VEYLE": {
+    "bureau": "Chalamont",
+    "distanceKm": 6.7
+  },
+  "DOMPIERRE": {
+    "bureau": "Chalamont",
+    "distanceKm": 6.7
+  },
+  "DOMSURE": {
+    "bureau": "Coligny",
+    "distanceKm": 4.7
+  },
+  "DORTAN": {
+    "bureau": "Oyonnax",
+    "distanceKm": 6.5
+  },
+  "DOUVRES": {
+    "bureau": "Ambérieu-en-Bugey",
+    "distanceKm": 3.0
+  },
+  "DROM": {
+    "bureau": "Treffort",
+    "distanceKm": 6.9
+  },
+  "DRUILLAT": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 4.5
+  },
+  "FARAMANS": {
+    "bureau": "Meximieux",
+    "distanceKm": 6.6
+  },
+  "FAREINS": {
+    "bureau": "Trévoux",
+    "distanceKm": 9.3
+  },
+  "FARGES": {
+    "bureau": "Collonges",
+    "distanceKm": 2.9
+  },
+  "FEILLENS": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 4.8
+  },
+  "FERNEY VOLTAIRE": {
+    "bureau": "Gex",
+    "distanceKm": 11.9
+  },
+  "FITIGNIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "FLAXIEU": {
+    "bureau": "Belley",
+    "distanceKm": 8.8
+  },
+  "FOISSIAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 8.1
+  },
+  "FORENS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "FRANCHELEINS": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 6.8
+  },
+  "AMAREINS FRANCHELEINS CESSEINS": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 6.8
+  },
+  "FRANS": {
+    "bureau": "Trévoux",
+    "distanceKm": 5.7
+  },
+  "GARNERANS": {
+    "bureau": "Thoissey",
+    "distanceKm": 5.4
+  },
+  "GENOUILLEUX": {
+    "bureau": "Thoissey",
+    "distanceKm": 5.4
+  },
+  "GERMAGNAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "GIRON": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 10.8
+  },
+  "GORREVOD": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 3.4
+  },
+  "GRAND CORENT": {
+    "bureau": "Treffort",
+    "distanceKm": 10.4
+  },
+  "GRANGES": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "GRILLY": {
+    "bureau": "Gex",
+    "distanceKm": 5.5
+  },
+  "GRIEGES": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 2.6
+  },
+  "GROISSIAT": {
+    "bureau": "Oyonnax",
+    "distanceKm": 4.5
+  },
+  "GROSLEE": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "GROSLEE SAINT BENOIT": {
+    "bureau": "Lhuis",
+    "distanceKm": 6.1
+  },
+  "SAINT BENOIT": {
+    "bureau": "Lhuis",
+    "distanceKm": 6.1
+  },
+  "GUEREINS": {
+    "bureau": "Thoissey",
+    "distanceKm": 7.1
+  },
+  "GEOVREISSET": {
+    "bureau": "Oyonnax",
+    "distanceKm": 2.9
+  },
+  "HAUT VALROMEY": {
+    "bureau": "Brénod",
+    "distanceKm": 6.9
+  },
+  "HOTONNES": {
+    "bureau": "Brénod",
+    "distanceKm": 6.9
+  },
+  "HAUTECOURT ROMANECHE": {
+    "bureau": "Poncin",
+    "distanceKm": 7.7
+  },
+  "HAUTECOURT": {
+    "bureau": "Poncin",
+    "distanceKm": 7.7
+  },
+  "HOSTIAZ": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "HOSTIAS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "ILLIAT": {
+    "bureau": "Thoissey",
+    "distanceKm": 7.3
+  },
+  "INJOUX GENISSIAT": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 8.4
+  },
+  "INJOUX": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 8.4
+  },
+  "INNIMOND": {
+    "bureau": "Lhuis",
+    "distanceKm": 5.2
+  },
+  "IZENAVE": {
+    "bureau": "Brénod",
+    "distanceKm": 8.2
+  },
+  "IZERNORE": {
+    "bureau": "Nantua",
+    "distanceKm": 8.3
+  },
+  "IZIEU": {
+    "bureau": "Belley",
+    "distanceKm": 10.6
+  },
+  "JASSANS RIOTTIER": {
+    "bureau": "Trévoux",
+    "distanceKm": 4.2
+  },
+  "JASSERON": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 5.6
+  },
+  "JAYAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 4.8
+  },
+  "JOURNANS": {
+    "bureau": "Poncin",
+    "distanceKm": 8.6
+  },
+  "JOYEUX": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 7.4
+  },
+  "JUJURIEUX": {
+    "bureau": "Poncin",
+    "distanceKm": 4.6
+  },
+  "L ABERGEMENT CLEMENCIAT": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 3.4
+  },
+  "L ABERGEMENT DE VAREY": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 6.2
+  },
+  "LA BOISSE": {
+    "bureau": "Montluel",
+    "distanceKm": 4.3
+  },
+  "LA BURBANCHE": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 7.3
+  },
+  "LA CHAPELLE DU CHATELARD": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 7.9
+  },
+  "LA TRANCLIERE": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 7.6
+  },
+  "LABALME": {
+    "bureau": "Poncin",
+    "distanceKm": 6.3
+  },
+  "LACOUX": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LAIZ": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 2.5
+  },
+  "LANCRANS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LANTENAY": {
+    "bureau": "Brénod",
+    "distanceKm": 6.4
+  },
+  "LAPEYROUSE": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 5.1
+  },
+  "LAVOURS": {
+    "bureau": "Belley",
+    "distanceKm": 9.7
+  },
+  "LE GRAND ABERGEMENT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LE MONTELLIER": {
+    "bureau": "Montluel",
+    "distanceKm": 6.1
+  },
+  "LE PETIT ABERGEMENT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LE PLANTAY": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 4.3
+  },
+  "LE POIZAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LE POIZAT LALLEYRIAT": {
+    "bureau": "Nantua",
+    "distanceKm": 6.8
+  },
+  "LALLEYRIAT": {
+    "bureau": "Nantua",
+    "distanceKm": 6.8
+  },
+  "LENT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 10.3
+  },
+  "LES NEYROLLES": {
+    "bureau": "Nantua",
+    "distanceKm": 2.5
+  },
+  "LESCHEROUX": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 8.8
+  },
+  "LEYMENT": {
+    "bureau": "Lagnieu",
+    "distanceKm": 5.9
+  },
+  "LEYSSARD": {
+    "bureau": "Poncin",
+    "distanceKm": 9.1
+  },
+  "LILIGNOD": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LOCHIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LOMPNAS": {
+    "bureau": "Lhuis",
+    "distanceKm": 7.3
+  },
+  "LOMPNIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LONGECOMBE": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LOYES": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LOYETTES": {
+    "bureau": "Meximieux",
+    "distanceKm": 12.2
+  },
+  "LURCY": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 9.1
+  },
+  "LUTHEZIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "LEAZ": {
+    "bureau": "Collonges",
+    "distanceKm": 3.7
+  },
+  "LELEX": {
+    "bureau": "Gex",
+    "distanceKm": 11.9
+  },
+  "MAGNIEU": {
+    "bureau": "Belley",
+    "distanceKm": 4.3
+  },
+  "MAILLAT": {
+    "bureau": "Nantua",
+    "distanceKm": 6.4
+  },
+  "MALAFRETAZ": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 2.6
+  },
+  "MANTENAY MONTLIN": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 4.2
+  },
+  "MANZIAT": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 6.7
+  },
+  "MARBOZ": {
+    "bureau": "Coligny",
+    "distanceKm": 8.4
+  },
+  "MARCHAMP": {
+    "bureau": "Lhuis",
+    "distanceKm": 3.4
+  },
+  "MARIGNIEU": {
+    "bureau": "Belley",
+    "distanceKm": 6.9
+  },
+  "MARLIEUX": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 6.5
+  },
+  "MARSONNAS": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 4.2
+  },
+  "MARTIGNAT": {
+    "bureau": "Nantua",
+    "distanceKm": 6.1
+  },
+  "MASSIEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 5.5
+  },
+  "MASSIGNIEU DE RIVES": {
+    "bureau": "Belley",
+    "distanceKm": 5.2
+  },
+  "MATAFELON GRANGES": {
+    "bureau": "Oyonnax",
+    "distanceKm": 9.6
+  },
+  "MATAFELON": {
+    "bureau": "Oyonnax",
+    "distanceKm": 9.6
+  },
+  "MEILLONNAS": {
+    "bureau": "Treffort",
+    "distanceKm": 4.3
+  },
+  "MESSIMY SUR SAONE": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 10.7
+  },
+  "MESSIMY": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 10.7
+  },
+  "MIJOUX": {
+    "bureau": "Gex",
+    "distanceKm": 3.1
+  },
+  "MIONNAY": {
+    "bureau": "Montluel",
+    "distanceKm": 7.1
+  },
+  "MIRIBEL": {
+    "bureau": "Montluel",
+    "distanceKm": 7.6
+  },
+  "MISERIEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 5.1
+  },
+  "MOGNENEINS": {
+    "bureau": "Thoissey",
+    "distanceKm": 3.3
+  },
+  "MOLLON": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "MONTAGNAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 4.2
+  },
+  "MONTAGNIEU": {
+    "bureau": "Lhuis",
+    "distanceKm": 8.7
+  },
+  "MONTANGES": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 5.3
+  },
+  "MONTCEAUX": {
+    "bureau": "Thoissey",
+    "distanceKm": 8.0
+  },
+  "MONTCET": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 10.5
+  },
+  "MONTHIEUX": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 8.5
+  },
+  "MONTMERLE SUR SAONE": {
+    "bureau": "Thoissey",
+    "distanceKm": 9.9
+  },
+  "MONTMERLE": {
+    "bureau": "Thoissey",
+    "distanceKm": 9.9
+  },
+  "MONTRACOL": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 9.8
+  },
+  "MONTREVEL": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "MONTREAL LA CLUSE": {
+    "bureau": "Nantua",
+    "distanceKm": 3.7
+  },
+  "MONTREAL": {
+    "bureau": "Nantua",
+    "distanceKm": 3.7
+  },
+  "MOENS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "MURS ET GELIGNIEUX": {
+    "bureau": "Belley",
+    "distanceKm": 11.7
+  },
+  "MERIGNAT": {
+    "bureau": "Poncin",
+    "distanceKm": 3.7
+  },
+  "MEZERIAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 10.5
+  },
+  "NAPT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "NATTAGES": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "NEUVILLE LES DAMES": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 5.7
+  },
+  "NEUVILLE SUR AIN": {
+    "bureau": "Poncin",
+    "distanceKm": 3.3
+  },
+  "NEYRON": {
+    "bureau": "Montluel",
+    "distanceKm": 9.8
+  },
+  "NIVIGNE ET SURAN": {
+    "bureau": "Treffort",
+    "distanceKm": 6.0
+  },
+  "CHAVANNES SUR SURAN": {
+    "bureau": "Treffort",
+    "distanceKm": 6.0
+  },
+  "NIVOLLET MONTGRIFFON": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 5.4
+  },
+  "NIEVROZ": {
+    "bureau": "Montluel",
+    "distanceKm": 7.7
+  },
+  "NURIEUX VOLOGNAT": {
+    "bureau": "Nantua",
+    "distanceKm": 8.2
+  },
+  "MORNAY": {
+    "bureau": "Nantua",
+    "distanceKm": 8.2
+  },
+  "OCHIAZ": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "ONCIEU": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 2.9
+  },
+  "ORDONNAZ": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 7.5
+  },
+  "ORNEX": {
+    "bureau": "Gex",
+    "distanceKm": 8.9
+  },
+  "OUTRIAZ": {
+    "bureau": "Brénod",
+    "distanceKm": 4.8
+  },
+  "OZAN": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 6.2
+  },
+  "PARCIEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 5.1
+  },
+  "PARVES ET NATTAGES": {
+    "bureau": "Belley",
+    "distanceKm": 4.6
+  },
+  "PARVES": {
+    "bureau": "Belley",
+    "distanceKm": 4.6
+  },
+  "PASSIN": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "PERREX": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 7.2
+  },
+  "PEYRIAT": {
+    "bureau": "Nantua",
+    "distanceKm": 7.8
+  },
+  "PEYRIEU": {
+    "bureau": "Belley",
+    "distanceKm": 7.7
+  },
+  "PEYZIEUX SUR SAONE": {
+    "bureau": "Thoissey",
+    "distanceKm": 5.5
+  },
+  "PEYZIEUX": {
+    "bureau": "Thoissey",
+    "distanceKm": 5.5
+  },
+  "PIRAJOUX": {
+    "bureau": "Coligny",
+    "distanceKm": 5.0
+  },
+  "PIZAY": {
+    "bureau": "Montluel",
+    "distanceKm": 5.6
+  },
+  "PLAGNE": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 9.4
+  },
+  "PLATEAU D HAUTEVILLE": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 8.9
+  },
+  "HAUTEVILLE LOMPNES": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 8.9
+  },
+  "POLLIAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 8.6
+  },
+  "POLLIEU": {
+    "bureau": "Belley",
+    "distanceKm": 7.1
+  },
+  "PORT": {
+    "bureau": "Nantua",
+    "distanceKm": 2.1
+  },
+  "POUGNY": {
+    "bureau": "Collonges",
+    "distanceKm": 3.8
+  },
+  "POUILLAT": {
+    "bureau": "Treffort",
+    "distanceKm": 7.4
+  },
+  "PRESSIAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "PRIAY": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 6.5
+  },
+  "PROULIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "PREMEYZEL": {
+    "bureau": "Belley",
+    "distanceKm": 7.8
+  },
+  "PREMILLIEU": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 6.7
+  },
+  "PREVESSIN MOENS": {
+    "bureau": "Gex",
+    "distanceKm": 10.4
+  },
+  "PREVESSIN": {
+    "bureau": "Gex",
+    "distanceKm": 10.4
+  },
+  "PUGIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "PERON": {
+    "bureau": "Collonges",
+    "distanceKm": 6.0
+  },
+  "PERONNAS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 4.3
+  },
+  "PEROUGES": {
+    "bureau": "Meximieux",
+    "distanceKm": 3.8
+  },
+  "RAMASSE": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 8.6
+  },
+  "RANCE": {
+    "bureau": "Trévoux",
+    "distanceKm": 8.0
+  },
+  "RELEVANT": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 3.8
+  },
+  "REPLONGES": {
+    "bureau": "Saint-Laurent-sur-Saône",
+    "distanceKm": 3.0
+  },
+  "REVONNAS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 8.1
+  },
+  "REYRIEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 4.7
+  },
+  "REYSSOUZE": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 1.7
+  },
+  "RIGNAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "RIGNIEUX LE FRANC": {
+    "bureau": "Meximieux",
+    "distanceKm": 6.2
+  },
+  "ROMANS": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 5.2
+  },
+  "ROMANECHE": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "ROSSILLON": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 3.3
+  },
+  "RUFFIEU": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 8.6
+  },
+  "SAINT ALBAN": {
+    "bureau": "Poncin",
+    "distanceKm": 3.4
+  },
+  "SAINT ANDRE D HUIRIAT": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 5.9
+  },
+  "SAINT ANDRE DE BAGE": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 1.8
+  },
+  "SAINT ANDRE DE CORCY": {
+    "bureau": "Montluel",
+    "distanceKm": 6.9
+  },
+  "SAINT ANDRE LE BOUCHOUX": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 9.6
+  },
+  "SAINT ANDRE SUR VIEUX JONC": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 9.9
+  },
+  "SAINT BERNARD": {
+    "bureau": "Trévoux",
+    "distanceKm": 2.5
+  },
+  "SAINT BOIS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "SAINT BENIGNE": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 2.3
+  },
+  "SAINT CHAMP": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "SAINT CYR SUR MENTHON": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 4.6
+  },
+  "SAINT DENIS EN BUGEY": {
+    "bureau": "Ambérieu-en-Bugey",
+    "distanceKm": 3.6
+  },
+  "SAINT DENIS LES BOURG": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 5.0
+  },
+  "SAINT DIDIER D AUSSIAT": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 5.0
+  },
+  "SAINT DIDIER DE FORMANS": {
+    "bureau": "Trévoux",
+    "distanceKm": 2.1
+  },
+  "SAINT DIDIER SUR CHALARONNE": {
+    "bureau": "Thoissey",
+    "distanceKm": 2.9
+  },
+  "SAINT GENIS POUILLY": {
+    "bureau": "Gex",
+    "distanceKm": 10.7
+  },
+  "SAINT GENIS SUR MENTHON": {
+    "bureau": "Bâgé-le-Châtel",
+    "distanceKm": 7.2
+  },
+  "SAINT GEORGES SUR RENON": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 6.2
+  },
+  "SAINT GERMAIN DE JOUX": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 7.5
+  },
+  "SAINT GERMAIN LES PAROISSES": {
+    "bureau": "Belley",
+    "distanceKm": 6.6
+  },
+  "SAINT GERMAIN SUR RENON": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 8.6
+  },
+  "SAINT JEAN DE GONVILLE": {
+    "bureau": "Collonges",
+    "distanceKm": 9.2
+  },
+  "SAINT JEAN DE NIOST": {
+    "bureau": "Meximieux",
+    "distanceKm": 7.4
+  },
+  "SAINT JEAN DE THURIGNEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 9.9
+  },
+  "SAINT JEAN LE VIEUX": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 3.9
+  },
+  "SAINT JEAN SUR REYSSOUZE": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 7.5
+  },
+  "SAINT JEAN SUR VEYLE": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 3.0
+  },
+  "SAINT JULIEN SUR REYSSOUZE": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 7.3
+  },
+  "SAINT JULIEN SUR VEYLE": {
+    "bureau": "Pont-de-Veyle",
+    "distanceKm": 8.6
+  },
+  "SAINT JUST": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 3.1
+  },
+  "SAINT LAURENT": {
+    "bureau": "Saint-Laurent-sur-Saône",
+    "distanceKm": 0.0
+  },
+  "SAINT MARCEL": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 7.3
+  },
+  "SAINT MARTIN DE BAVEL": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 3.0
+  },
+  "SAINT MARTIN DU FRENE": {
+    "bureau": "Nantua",
+    "distanceKm": 3.2
+  },
+  "SAINT MARTIN DU MONT": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 5.8
+  },
+  "SAINT MARTIN LE CHATEL": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 4.0
+  },
+  "SAINT MAURICE D ECHAZEAUX": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "SAINT MAURICE DE BEYNOST": {
+    "bureau": "Montluel",
+    "distanceKm": 6.9
+  },
+  "SAINT MAURICE DE GOURDANS": {
+    "bureau": "Meximieux",
+    "distanceKm": 10.0
+  },
+  "SAINT MAURICE DE REMENS": {
+    "bureau": "Meximieux",
+    "distanceKm": 7.1
+  },
+  "SAINT NIZIER LE BOUCHOUX": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 8.0
+  },
+  "SAINT NIZIER LE DESERT": {
+    "bureau": "Chalamont",
+    "distanceKm": 4.6
+  },
+  "SAINT PAUL DE VARAX": {
+    "bureau": "Chalamont",
+    "distanceKm": 9.5
+  },
+  "SAINT RAMBERT": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 0.0
+  },
+  "SAINT REMY": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 6.6
+  },
+  "SAINT SORLIN EN BUGEY": {
+    "bureau": "Lagnieu",
+    "distanceKm": 2.3
+  },
+  "SAINT SULPICE": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 5.5
+  },
+  "SAINT VULBAS": {
+    "bureau": "Lagnieu",
+    "distanceKm": 9.0
+  },
+  "SAINT ELOI": {
+    "bureau": "Meximieux",
+    "distanceKm": 5.7
+  },
+  "SAINT ETIENNE DU BOIS": {
+    "bureau": "Treffort",
+    "distanceKm": 5.8
+  },
+  "SAINT ETIENNE SUR CHALARONNE": {
+    "bureau": "Thoissey",
+    "distanceKm": 6.3
+  },
+  "SAINT ETIENNE SUR REYSSOUZE": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 7.5
+  },
+  "SAINTE CROIX": {
+    "bureau": "Montluel",
+    "distanceKm": 2.6
+  },
+  "SAINTE EUPHEMIE": {
+    "bureau": "Trévoux",
+    "distanceKm": 3.3
+  },
+  "SAINTE JULIE": {
+    "bureau": "Lagnieu",
+    "distanceKm": 4.4
+  },
+  "SAINTE OLIVE": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 6.1
+  },
+  "SALAVRE": {
+    "bureau": "Coligny",
+    "distanceKm": 3.0
+  },
+  "SAMOGNAT": {
+    "bureau": "Oyonnax",
+    "distanceKm": 5.5
+  },
+  "SANDRANS": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 6.5
+  },
+  "SAULT BRENAZ": {
+    "bureau": "Lagnieu",
+    "distanceKm": 5.5
+  },
+  "SAUVERNY": {
+    "bureau": "Gex",
+    "distanceKm": 6.3
+  },
+  "SAVIGNEUX": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 8.3
+  },
+  "SEILLONNAZ": {
+    "bureau": "Lhuis",
+    "distanceKm": 6.6
+  },
+  "SERGY": {
+    "bureau": "Gex",
+    "distanceKm": 11.1
+  },
+  "SERMOYER": {
+    "bureau": "Pont-de-Vaux",
+    "distanceKm": 7.3
+  },
+  "SERRIERES DE BRIORD": {
+    "bureau": "Lhuis",
+    "distanceKm": 10.5
+  },
+  "SERRIERES": {
+    "bureau": "Lhuis",
+    "distanceKm": 10.5
+  },
+  "SERRIERES SUR AIN": {
+    "bureau": "Poncin",
+    "distanceKm": 6.9
+  },
+  "SERVAS": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 8.8
+  },
+  "SERVIGNAT": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 2.6
+  },
+  "SIMANDRE SUR SURAN": {
+    "bureau": "Treffort",
+    "distanceKm": 7.3
+  },
+  "SIMANDRE": {
+    "bureau": "Treffort",
+    "distanceKm": 7.3
+  },
+  "SONGIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "SONTHONNAX LA MONTAGNE": {
+    "bureau": "Nantua",
+    "distanceKm": 11.7
+  },
+  "SOUCLIN": {
+    "bureau": "Lagnieu",
+    "distanceKm": 7.5
+  },
+  "SULIGNAT": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 5.2
+  },
+  "SURJOUX": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "SURJOUX LHOPITAL": {
+    "bureau": "Seyssel",
+    "distanceKm": 10.2
+  },
+  "LHOPITAL": {
+    "bureau": "Seyssel",
+    "distanceKm": 10.2
+  },
+  "SUTRIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "SEGNY": {
+    "bureau": "Gex",
+    "distanceKm": 6.6
+  },
+  "TALISSIEU": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 6.5
+  },
+  "TENAY": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 6.6
+  },
+  "THIL": {
+    "bureau": "Montluel",
+    "distanceKm": 7.6
+  },
+  "THOIRY": {
+    "bureau": "Collonges",
+    "distanceKm": 12.8
+  },
+  "THEZILLIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "TORCIEU": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 4.7
+  },
+  "TOSSIAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 8.8
+  },
+  "TOUSSIEUX": {
+    "bureau": "Trévoux",
+    "distanceKm": 5.1
+  },
+  "TRAMOYES": {
+    "bureau": "Montluel",
+    "distanceKm": 4.6
+  },
+  "VAL REVERMONT": {
+    "bureau": "Treffort",
+    "distanceKm": 0.0
+  },
+  "TREFFORT CUISIAT": {
+    "bureau": "Treffort",
+    "distanceKm": 0.0
+  },
+  "VALEINS": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 6.3
+  },
+  "VALROMEY SUR SERAN": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 2.5
+  },
+  "BELMONT LUTHEZIEU": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 2.5
+  },
+  "BELMONT": {
+    "bureau": "Champagne-en-Valromey",
+    "distanceKm": 2.5
+  },
+  "VALSERHONE": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 0.0
+  },
+  "BELLEGARDE": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 0.0
+  },
+  "VANDEINS": {
+    "bureau": "Montrevel-en-Bresse",
+    "distanceKm": 12.6
+  },
+  "VARAMBON": {
+    "bureau": "Pont-d'Ain",
+    "distanceKm": 4.7
+  },
+  "VAUX EN BUGEY": {
+    "bureau": "Lagnieu",
+    "distanceKm": 3.9
+  },
+  "VERJON": {
+    "bureau": "Coligny",
+    "distanceKm": 4.8
+  },
+  "VERNOUX": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 4.2
+  },
+  "VERSAILLEUX": {
+    "bureau": "Chalamont",
+    "distanceKm": 5.4
+  },
+  "VERSONNEX": {
+    "bureau": "Gex",
+    "distanceKm": 7.1
+  },
+  "VESANCY": {
+    "bureau": "Gex",
+    "distanceKm": 3.1
+  },
+  "VESCOURS": {
+    "bureau": "Saint-Trivier-de-Courtes",
+    "distanceKm": 3.5
+  },
+  "VEYZIAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "VIEU": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "VIEU D IZENAVE": {
+    "bureau": "Brénod",
+    "distanceKm": 4.3
+  },
+  "VILLARS": {
+    "bureau": "Villars-les-Dombes",
+    "distanceKm": 0.0
+  },
+  "VILLEBOIS": {
+    "bureau": "Lagnieu",
+    "distanceKm": 9.3
+  },
+  "VILLEMOTIER": {
+    "bureau": "Coligny",
+    "distanceKm": 5.6
+  },
+  "VILLENEUVE": {
+    "bureau": "Saint-Trivier-sur-Moignans",
+    "distanceKm": 4.4
+  },
+  "VILLEREVERSURE": {
+    "bureau": "Treffort",
+    "distanceKm": 10.2
+  },
+  "VILLES": {
+    "bureau": "Bellegarde-sur-Valserine",
+    "distanceKm": 4.1
+  },
+  "VILLETTE SUR AIN": {
+    "bureau": "Chalamont",
+    "distanceKm": 6.2
+  },
+  "VILLETTE": {
+    "bureau": "Chalamont",
+    "distanceKm": 6.2
+  },
+  "VILLIEU LOYES MOLLON": {
+    "bureau": "Meximieux",
+    "distanceKm": 2.9
+  },
+  "VILLIEU": {
+    "bureau": "Meximieux",
+    "distanceKm": 2.9
+  },
+  "VIRIAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 5.7
+  },
+  "VIRIGNIN": {
+    "bureau": "Belley",
+    "distanceKm": 2.4
+  },
+  "VOLOGNAT": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "VONGNES": {
+    "bureau": "Virieu-le-Grand",
+    "distanceKm": 7.7
+  },
+  "VONNAS": {
+    "bureau": "Châtillon-sur-Chalaronne",
+    "distanceKm": 10.1
+  },
+  "VOUVRAY": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "VESENEX CRASSY": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "VESINES": {
+    "bureau": "Saint-Laurent-sur-Saône",
+    "distanceKm": 6.3
+  },
+  "ECHALLON": {
+    "bureau": "Oyonnax",
+    "distanceKm": 7.2
+  },
+  "ECHENEVEX": {
+    "bureau": "Gex",
+    "distanceKm": 4.3
+  },
+  "ETREZ": {
+    "bureau": "Bourg-en-Bresse",
+    "distanceKm": 0.0
+  },
+  "EVOSGES": {
+    "bureau": "Saint-Rambert-en-Bugey",
+    "distanceKm": 4.7
+  }
+}
