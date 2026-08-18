@@ -573,20 +573,31 @@ export function drawSeasonalityHeatmap(containerId, data, opts = {}) {
 
     const width = container.node().clientWidth || 600;
     const cellHeight = 24;
-    const margin = { top: 26, right: 90, bottom: 6, left: 170 };
+    const totalColWidth = 40;
+    const margin = { top: 26, right: 140, bottom: 6, left: 170 };
     const height = margin.top + margin.bottom + rows.length * cellHeight;
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
     const months = d3.range(12);
-    const x = d3.scaleBand().domain(months).range([margin.left, width - margin.right]).padding(0.08);
+    const gridRight = width - margin.right;
+    const x = d3.scaleBand().domain(months).range([margin.left, gridRight]).padding(0.08);
     const y = d3.scaleBand().domain(rows.map(r => r.label)).range([margin.top, height - margin.bottom]).padding(0.08);
     const maxPct = d3.max(rows, r => d3.max(r.byMonth, m => m.pct)) || 1;
     const color = d3.scaleSequential(d3.interpolateBlues).domain([0, maxPct]);
+    // Colonne "Total" juste après Décembre : donne le nombre de mariages derrière chaque ligne, pour
+    // juger si un pourcentage repose sur un échantillon solide ou sur une poignée de cas.
+    const totalColCenter = gridRight + 14 + totalColWidth / 2;
+    const legendX = gridRight + 14 + totalColWidth + 18;
 
     svg.selectAll('text.month-label').data(months).join('text').attr('class', 'month-label')
         .attr('x', m => x(m) + x.bandwidth() / 2).attr('y', margin.top - 8)
         .attr('text-anchor', 'middle').style('font-size', '10px').style('fill', '#555')
         .text(m => SEASONALITY_MONTH_SHORT[m]);
+
+    svg.append('text').attr('class', 'month-label')
+        .attr('x', totalColCenter).attr('y', margin.top - 8)
+        .attr('text-anchor', 'middle').style('font-size', '10px').style('font-weight', 700).style('fill', '#555')
+        .text('Total');
 
     svg.selectAll('text.row-label').data(rows).join('text').attr('class', 'row-label')
         .attr('x', margin.left - 8).attr('y', r => y(r.label) + y.bandwidth() / 2).attr('dy', '0.35em')
@@ -595,9 +606,16 @@ export function drawSeasonalityHeatmap(containerId, data, opts = {}) {
         .text(r => r.label.length > 24 ? r.label.slice(0, 22) + '…' : r.label)
         .append('title').text(r => r.label);
 
-    // Séparateur sous la ligne "Ensemble" pour la distinguer visuellement des professions.
+    svg.selectAll('text.row-total').data(rows).join('text').attr('class', 'row-total')
+        .attr('x', totalColCenter).attr('y', r => y(r.label) + y.bandwidth() / 2).attr('dy', '0.35em')
+        .attr('text-anchor', 'middle').style('font-size', '11px').style('fill', '#333')
+        .style('font-weight', r => r.label === 'Ensemble' ? 700 : 400)
+        .text(r => r.total);
+
+    // Séparateur sous la ligne "Ensemble" pour la distinguer visuellement des professions (grille +
+    // colonne Total, la légende reste à part).
     svg.append('line')
-        .attr('x1', margin.left - 4).attr('x2', width - margin.right)
+        .attr('x1', margin.left - 4).attr('x2', gridRight + 14 + totalColWidth)
         .attr('y1', y(rows[0].label) + y.bandwidth() + y.step() * 0.04)
         .attr('y2', y(rows[0].label) + y.bandwidth() + y.step() * 0.04)
         .attr('stroke', '#bbb').attr('stroke-width', 1);
@@ -631,7 +649,7 @@ export function drawSeasonalityHeatmap(containerId, data, opts = {}) {
 
     // Légende séquentielle (dégradé + repères min/max) : requise pour une heatmap, où la couleur porte
     // l'information (contrairement aux barres/lignes du site, où l'axe suffit).
-    const legendX = width - margin.right + 18, legendY = margin.top, legendW = 14, legendH = Math.min(90, height - margin.top - margin.bottom);
+    const legendY = margin.top, legendW = 14, legendH = Math.min(90, height - margin.top - margin.bottom);
     const gradientId = `seas-grad-${containerId}`;
     const defs = svg.append('defs');
     const gradient = defs.append('linearGradient').attr('id', gradientId).attr('x1', '0').attr('x2', '0').attr('y1', '1').attr('y2', '0');
