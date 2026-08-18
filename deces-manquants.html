@@ -271,6 +271,7 @@
                         <th>Naissance</th>
                         <th class="sortable" data-sort-succ="death">Décès <span class="sort-arrow"></span></th>
                         <th>Commune</th>
+                        <th>Éléments complémentaires</th>
                         <th>Registre</th>
                     </tr>
                 </thead>
@@ -787,6 +788,38 @@ const fa = (() => {
         return `${warn}<div class="city-buttons">${links}</div>`;
     }
 
+    // Conjoint(e)(s) de p (une par famille "fams", en général une seule sauf remariage) via la map
+    // fams déjà chargée pour cette page (voir fa.applyData ci-dessous) : utile ici pour repérer d'un
+    // coup d'œil, en plus de l'âge/la commune de naissance, si un(e) conjoint(e) pourrait être
+    // cité(e) comme héritier(ère) dans l'acte de succession (encore vivant(e) au décès ou non).
+    function deathPhrase(evt, sexIsF) {
+        if (evt?.day != null && evt?.month != null) return `décédé${sexIsF ? 'e' : ''} le ${formatFullDate(evt)}`;
+        if (evt?.year != null) return `décédé${sexIsF ? 'e' : ''} en ${evt.year}${evt.approx ? ' (env.)' : ''}`;
+        return null;
+    }
+    function spouseSummaries(p) {
+        if (!p.fams || !p.fams.length) return [];
+        return p.fams.map(fid => fams.get(fid)).filter(Boolean).map(f => {
+            const spouseId = f.husb === p.id ? f.wife : (f.wife === p.id ? f.husb : null);
+            const spouse = spouseId ? map.get(spouseId) : null;
+            if (!spouse) return null;
+            const sexIsF = spouse.sex === 'F';
+            const label = sexIsF ? 'Épouse' : (spouse.sex === 'M' ? 'Époux' : 'Conjoint(e)');
+            const status = deathPhrase(spouse.death, sexIsF) || `${sexIsF ? 'vivante' : 'vivant'} (aucun décès acté)`;
+            return `${label} : ${spouse.name || '?'} — ${status}`;
+        }).filter(Boolean);
+    }
+    // Colonne "Éléments complémentaires" : âge au décès, commune de naissance et statut du/des
+    // conjoint(e)(s) — des informations absentes des autres colonnes (Naissance/Décès/Commune ne
+    // montrent que l'année et la commune de DÉCÈS) mais utiles pour prioriser une piste de succession.
+    function successionExtraInfoCell(p) {
+        const parts = [];
+        if (p.ageDeath != null) parts.push(`Âge au décès : ${p.ageDeath} an${p.ageDeath > 1 ? 's' : ''}`);
+        if (p.birth?.geo?.city) parts.push(`Né${p.sex === 'F' ? 'e' : ''} à ${p.birth.geo.city}`);
+        spouseSummaries(p).forEach(s => parts.push(s));
+        return parts.length ? `<ul class="reason-list">${parts.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>` : '<em>aucune info</em>';
+    }
+
     function renderSuccessionResults() {
         resultsBodySuccessions.innerHTML = '';
         sortedSuccessionResults().forEach(r => {
@@ -800,6 +833,7 @@ const fa = (() => {
                 <td>${birthDisplay}</td>
                 <td>${escapeHtml(formatFullDate(p.death))}</td>
                 <td>${escapeHtml(r.city)}</td>
+                <td>${successionExtraInfoCell(p)}</td>
                 <td>${successionRegistreCell(r)}</td>
             `;
             resultsBodySuccessions.appendChild(tr);
@@ -856,7 +890,7 @@ const fa = (() => {
             downloadCsv('notariat_pistes.csv', headers, rows);
         } else {
             if (!successionResults.length) return;
-            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Date deces', 'Departement', 'Commune', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Contexte', 'Cote', 'URL registre'];
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Age au deces', 'Date deces', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Contexte', 'Cote', 'URL registre'];
             const rows = [];
             sortedSuccessionResults().forEach(r => {
                 const base = [
@@ -866,9 +900,12 @@ const fa = (() => {
                     r.person.given || '',
                     r.birthEst ? r.birthEst.year : '',
                     r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                    r.person.birth?.geo?.city || '',
+                    r.person.ageDeath != null ? r.person.ageDeath : '',
                     formatFullDate(r.person.death),
                     r.deptLabel,
                     r.city,
+                    spouseSummaries(r.person).join(' | '),
                     r.matchType,
                     r.bureauInfo ? r.bureauInfo.bureau : '',
                     r.bureauInfo ? r.bureauInfo.distanceKm : '',

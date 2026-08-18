@@ -860,6 +860,7 @@ function loadFacetIndex(config) {
     ]).then(([registers, bureaux]) => {
         const registerIndex = new Map();
         registers.forEach(r => {
+            r.letterFilter = letterFilterFromCote(r.cote);
             bureauNamesFromPlace(r.place).forEach(name => {
                 const key = normalizePlace(name);
                 if (!registerIndex.has(key)) registerIndex.set(key, []);
@@ -961,19 +962,28 @@ function cityCandidates(geo) {
 function parentContextLabel(geo, matched) {
     return matched !== geo.city ? `"${geo.city}" non reconnu — résolu via le lieu parent "${matched}"` : null;
 }
-function resolveFacet(idx, geo, year) {
+// Filtre par tranche de patronyme (voir letterFilterFromCote) avant de sélectionner par année :
+// un registre sans lettre associée (letterFilter null, l'immense majorité) passe toujours (comme
+// matchesLetterFilter) ; si le patronyme ne matche aucune tranche connue (repli), on montre quand
+// même tout plutôt que rien - même philosophie que le reste du module (mieux vaut une piste en trop
+// qu'une vraie correspondance masquée à tort).
+function filterByLetter(records, surname) {
+    const bySurname = records.filter(r => matchesLetterFilter(r.letterFilter, surname));
+    return bySurname.length ? bySurname : records;
+}
+function resolveFacet(idx, geo, year, person) {
     const candidates = cityCandidates(geo);
     for (const candidate of candidates) {
         const exact = idx.registerIndex.get(normalizePlace(candidate));
         if (exact && exact.length) {
-            return { matchType: 'exact', registers: pickRegisters(exact, year), bureauInfo: null, contextLabel: parentContextLabel(geo, candidate) };
+            return { matchType: 'exact', registers: pickRegisters(filterByLetter(exact, person.surname), year), bureauInfo: null, contextLabel: parentContextLabel(geo, candidate) };
         }
     }
     for (const candidate of candidates) {
         const bureauInfo = idx.bureauIndex.get(normalizePlace(candidate)) || null;
         const viaBureau = bureauInfo ? idx.registerIndex.get(normalizePlace(bureauInfo.bureau)) : null;
         if (viaBureau && viaBureau.length) {
-            return { matchType: 'bureau', registers: pickRegisters(viaBureau, year), bureauInfo, contextLabel: parentContextLabel(geo, candidate) };
+            return { matchType: 'bureau', registers: pickRegisters(filterByLetter(viaBureau, person.surname), year), bureauInfo, contextLabel: parentContextLabel(geo, candidate) };
         }
     }
     return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
@@ -1028,16 +1038,58 @@ function matchesLetterFilter(filter, surname) {
     return prefix >= filter.from.padEnd(len, ' ') && prefix <= filter.to.padEnd(len, ' ');
 }
 
+// Certains départements 'facet' subdivisent eux aussi leurs registres par tranche de patronyme au
+// sein d'une même ville/année (repéré à Toulouse/Haute-Garonne, ex. cote "F-O (n°2)"), sans que le
+// scraper concerné n'expose de champ dédié comme letterFilter à Paris : on le déduit ici du texte
+// de la cote plutôt que de retoucher chaque scraper. Motif volontairement strict (toute la cote,
+// juste "X-Y" ou "X-Y (n°N)") pour ne matcher que ce cas précis et ne rien casser ailleurs — vérifié
+// sur l'ensemble des départements 'facet' au moment d'écrire ceci : seul ce département en produit.
+const COTE_LETTER_RANGE_RE = /^([A-Za-zÀ-ÿ])\s*-\s*([A-Za-zÀ-ÿ])\s*(?:\(n°?\s*\d+\))?$/;
+function letterFilterFromCote(cote) {
+    if (!cote) return null;
+    const m = cote.trim().match(COTE_LETTER_RANGE_RE);
+    return m ? { mode: 'range', from: m[1].toUpperCase(), to: m[2].toUpperCase() } : null;
+}
+
+// Numéro d'arrondissement parisien mentionné dans le texte du lieu de décès du GEDCOM, s'il y en a
+// un : ni le format GEDCOM standard ni analyzePlace (gedcom.js) ne distinguent l'arrondissement de
+// la commune, donc rien de plus fiable qu'une lecture du texte brut ("Paris 16", "Paris 16e",
+// "Paris (16e arrondissement)"...) n'est disponible ici. Un code postal parisien explicite (75016)
+// est aussi reconnu, ses deux derniers chiffres encodant l'arrondissement. Hors plage 1-20 (ex. un
+// "75" de code département resté collé à "Paris" faute de virgule dans le fichier source) : ignoré,
+// ce n'est pas un arrondissement valide.
+function extractParisArrondissement(cityStr) {
+    if (!cityStr || !/paris/i.test(cityStr)) return null;
+    const postal = cityStr.match(/\b750(\d{2})\b/);
+    if (postal) { const n = parseInt(postal[1], 10); if (n >= 1 && n <= 20) return n; }
+    const m = cityStr.match(/(\d{1,2})\s*(?:e|er|ème|eme)?\b/i);
+    if (m) { const n = parseInt(m[1], 10); if (n >= 1 && n <= 20) return n; }
+    return null;
+}
+// Tous les numéros d'arrondissement couverts par un registre (voir r.place, ex. "10e, 16e et 19e
+// arrondissements", "11e et 12e arrondissements anciens puis 6e et 13e arrondissements" pour un
+// registre ayant changé de ressort en cours de série) : une simple extraction de tous les nombres
+// suffit, "ancien(s)"/"et"/"puis" ne sont que des connecteurs. Pas d'ambigüité avec les
+// arrondissements "anciens" (numérotation 1795-1860, différente de l'actuelle) : le filtrage par
+// année (pickRegisters) a déjà écarté ces registres pour un décès plus tardif avant qu'on y arrive.
+function parisPlaceArrondissements(place) {
+    return new Set((place.match(/\d+/g) || []).map(n => parseInt(n, 10)));
+}
+
 // kind 'citywide' (Paris) : aucune correspondance de lieu à faire (une seule commune dans tout le
 // département), mais chaque registre couvre une tranche de patronymes (comme au Tarn, voir kind
 // 'bureau-letter') ET un arrondissement/bureau particulier - sans le filtre par patronyme, une
 // recherche par année seule renvoie des dizaines de registres (tous les bureaux ET toutes les
-// tranches de lettres actifs cette année-là). Il reste malgré tout possible d'avoir plusieurs
-// candidats après filtrage : l'arrondissement du décès (que le GEDCOM ne connaît généralement pas)
-// départagerait, d'où le contextLabel qui prévient de vérifier soi-même dans ce cas.
-function resolveCitywide(idx, year, person) {
+// tranches de lettres actifs cette année-là). Quand le lieu de décès du GEDCOM précise lui-même
+// l'arrondissement (voir extractParisArrondissement), on filtre aussi dessus ; sinon (cas le plus
+// courant, juste "Paris") le contextLabel prévient qu'il reste plusieurs candidats à départager
+// soi-même selon l'arrondissement du décès.
+function resolveCitywide(idx, geo, year, person) {
     const bySurname = idx.records.filter(r => matchesLetterFilter(r.letterFilter, person.surname));
-    const registers = pickRegisters(bySurname, year);
+    const arr = extractParisArrondissement(geo.city);
+    const byArr = arr != null ? bySurname.filter(r => parisPlaceArrondissements(r.place).has(arr)) : bySurname;
+    const pool = byArr.length ? byArr : bySurname;
+    const registers = pickRegisters(pool, year);
     if (!registers.length) {
         return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
     }
@@ -1046,7 +1098,7 @@ function resolveCitywide(idx, year, person) {
         matchType: 'exact', registers, bureauInfo: null,
         contextLabel: places.size > 1
             ? `Paris est organisé par arrondissement : ${registers.length} registre(s) correspondent à cette année, à vérifier selon l'arrondissement du décès.`
-            : null,
+            : (arr != null ? `Filtré sur le ${arr}${arr === 1 ? 'er' : 'e'} arrondissement (déduit du lieu de décès).` : null),
     };
 }
 
@@ -1070,8 +1122,8 @@ export function computeSuccessionLeads(list, indexes, opts) {
         if (year < config.minYear || year > config.maxYear) return; // hors des bornes de la série
 
         const resolved = config.kind === 'bureau-letter' ? resolveBureauLetter(idx, geo, year, p)
-            : config.kind === 'citywide' ? resolveCitywide(idx, year, p)
-            : resolveFacet(idx, geo, year);
+            : config.kind === 'citywide' ? resolveCitywide(idx, geo, year, p)
+            : resolveFacet(idx, geo, year, p);
 
         results.push({
             person: p, year, city: geo.city, dept: dc, deptLabel: config.label,
