@@ -1,0 +1,534 @@
+[
+  {
+    "place": "Aumont-Aubrac",
+    "cote": "3 Q 62",
+    "yearStart": 1825,
+    "yearEnd": 1846,
+    "url": "https://archives.lozere.fr/ark:/24967/vta5bd304bb891f7cf6/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Aumont-Aubrac",
+    "cote": "3 Q 63",
+    "yearStart": 1846,
+    "yearEnd": 1860,
+    "url": "https://archives.lozere.fr/ark:/24967/vta31c8ee3953e35090/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Aumont-Aubrac",
+    "cote": "3 Q 64",
+    "yearStart": 1860,
+    "yearEnd": 1882,
+    "url": "https://archives.lozere.fr/ark:/24967/vtac37b642fb87b9529/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Aumont-Aubrac",
+    "cote": "3 Q 65",
+    "yearStart": 1882,
+    "yearEnd": 1901,
+    "url": "https://archives.lozere.fr/ark:/24967/vta374992a6833c2c79/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Aumont-Aubrac",
+    "cote": "3 Q 66",
+    "yearStart": 1901,
+    "yearEnd": 1925,
+    "url": "https://archives.lozere.fr/ark:/24967/vta6c19bcd4948cc9fa/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Aumont-Aubrac",
+    "cote": "3 Q 67",
+    "yearStart": 1925,
+    "yearEnd": 1937,
+    "url": "https://archives.lozere.fr/ark:/24967/vta16a68a536145944a/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Barre-des-Cévennes",
+    "cote": "3 Q 273",
+    "yearStart": 1816,
+    "yearEnd": 1841,
+    "url": "https://archives.lozere.fr/ark:/24967/vtacc70eaea18423225/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Barre-des-Cévennes",
+    "cote": "3 Q 274",
+    "yearStart": 1842,
+    "yearEnd": 1851,
+    "url": "https://archives.lozere.fr/ark:/24967/vta7c715514cfffe982/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Barre-des-Cévennes",
+    "cote": "3 Q 275",
+    "yearStart": 1852,
+    "yearEnd": 1868,
+    "url": "https://archives.lozere.fr/ark:/24967/vtab337c8ecb4049042/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Barre-des-Cévennes",
+    "cote": "3 Q 276",
+    "yearStart": 1868,
+    "yearEnd": 1884,
+    "url": "https://archives.lozere.fr/ark:/24967/vta4dc9ad6120efcf6f/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Barre-des-Cévennes",
+    "cote": "3 Q 277",
+    "yearStart": 1885,
+    "yearEnd": 1908,
+    "url": "https://archives.lozere.fr/ark:/24967/vtadbc97c805e8bb5fe/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Barre-des-Cévennes",
+    "cote": "3 Q 278",
+    "yearStart": 1909,
+    "yearEnd": 1925,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaf835008cdbf0f87a/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 706",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.lozere.fr/ark:/24967/vta201505b9933955c1/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 707",
+    "yearStart": 1836,
+    "yearEnd": 1844,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaab2d342533e624a3/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 708",
+    "yearStart": 1845,
+    "yearEnd": 1852,
+    "url": "https://archives.lozere.fr/ark:/24967/vtab46cc86af37f900f/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 709",
+    "yearStart": 1853,
+    "yearEnd": 1859,
+    "url": "https://archives.lozere.fr/ark:/24967/vta51f82f9e8fdd01a2/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 710",
+    "yearStart": 1860,
+    "yearEnd": 1869,
+    "url": "https://archives.lozere.fr/ark:/24967/vtafb86fd02dd2938a8/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 711",
+    "yearStart": 1870,
+    "yearEnd": 1880,
+    "url": "https://archives.lozere.fr/ark:/24967/vtafa8d018ec5a7efe4/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 712",
+    "yearStart": 1881,
+    "yearEnd": 1893,
+    "url": "https://archives.lozere.fr/ark:/24967/vtad19439e2caf02f84/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 713",
+    "yearStart": 1894,
+    "yearEnd": 1901,
+    "url": "https://archives.lozere.fr/ark:/24967/vtafeaccbedb0296f60/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 714",
+    "yearStart": 1902,
+    "yearEnd": 1919,
+    "url": "https://archives.lozere.fr/ark:/24967/vta3071480b91448e76/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "La Canourgue",
+    "cote": "3 Q 715",
+    "yearStart": 1919,
+    "yearEnd": 1943,
+    "url": "https://archives.lozere.fr/ark:/24967/vta0a9c363660ba9378/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Châteauneuf-de-Randon",
+    "cote": "3 Q 1130",
+    "yearStart": 1849,
+    "yearEnd": 1871,
+    "url": "https://archives.lozere.fr/ark:/24967/vta08c3aac5f01bebf0/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Châteauneuf-de-Randon",
+    "cote": "3 Q 1131",
+    "yearStart": 1871,
+    "yearEnd": 1891,
+    "url": "https://archives.lozere.fr/ark:/24967/vtadfbe7ecca1e91448/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Châteauneuf-de-Randon",
+    "cote": "3 Q 1132",
+    "yearStart": 1891,
+    "yearEnd": 1903,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaf5f1b7b4dff8ea84/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Châteauneuf-de-Randon",
+    "cote": "3 Q 1133",
+    "yearStart": 1903,
+    "yearEnd": 1934,
+    "url": "https://archives.lozere.fr/ark:/24967/vtad066d7319cf3e4a1/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Châteauneuf-de-Randon",
+    "cote": "3 Q 1134",
+    "yearStart": 1934,
+    "yearEnd": 1936,
+    "url": "https://archives.lozere.fr/ark:/24967/vta89af310091782af1/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1310",
+    "yearStart": 1824,
+    "yearEnd": 1837,
+    "url": "https://archives.lozere.fr/ark:/24967/vta199a81e77686f10e/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1311",
+    "yearStart": 1838,
+    "yearEnd": 1842,
+    "url": "https://archives.lozere.fr/ark:/24967/vta9b484ee4da6f92d3/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1312",
+    "yearStart": 1843,
+    "yearEnd": 1852,
+    "url": "https://archives.lozere.fr/ark:/24967/vta58dd53aacfd24255/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1313",
+    "yearStart": 1853,
+    "yearEnd": 1855,
+    "url": "https://archives.lozere.fr/ark:/24967/vta685839842fd973e3/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1314",
+    "yearStart": 1856,
+    "yearEnd": 1861,
+    "url": "https://archives.lozere.fr/ark:/24967/vta7145226044ea8eb9/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1315",
+    "yearStart": 1861,
+    "yearEnd": 1870,
+    "url": "https://archives.lozere.fr/ark:/24967/vtada9e708986cc88bc/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1316",
+    "yearStart": 1870,
+    "yearEnd": 1881,
+    "url": "https://archives.lozere.fr/ark:/24967/vta3cb65bf4bb33856c/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1317",
+    "yearStart": 1881,
+    "yearEnd": 1897,
+    "url": "https://archives.lozere.fr/ark:/24967/vta252b32e1729fcb7b/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1318",
+    "yearStart": 1894,
+    "yearEnd": 1917,
+    "url": "https://archives.lozere.fr/ark:/24967/vta23bb2cde82ce304d/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1319",
+    "yearStart": 1917,
+    "yearEnd": 1935,
+    "url": "https://archives.lozere.fr/ark:/24967/vta2aabbdcb602c1e30/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1320",
+    "yearStart": 1935,
+    "yearEnd": 1943,
+    "url": "https://archives.lozere.fr/ark:/24967/vta076d88dfb6ee1dca/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1321",
+    "yearStart": 1943,
+    "yearEnd": 1953,
+    "url": "https://archives.lozere.fr/ark:/24967/vtace272d6c4d421cbd/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1322",
+    "yearStart": 1953,
+    "yearEnd": 1962,
+    "url": "https://archives.lozere.fr/ark:/24967/vtae138433a81369144/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Florac",
+    "cote": "3 Q 1323",
+    "yearStart": 1963,
+    "yearEnd": 1969,
+    "url": "https://archives.lozere.fr/ark:/24967/vta3ad43913c077cd49/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Grandrieu",
+    "cote": "3 Q 1995",
+    "yearStart": 1840,
+    "yearEnd": 1860,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaa873b4b54d91694b/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Grandrieu",
+    "cote": "3 Q 1996",
+    "yearStart": 1861,
+    "yearEnd": 1878,
+    "url": "https://archives.lozere.fr/ark:/24967/vtafa988a14b14b5407/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Grandrieu",
+    "cote": "3 Q 1997",
+    "yearStart": 1878,
+    "yearEnd": 1897,
+    "url": "https://archives.lozere.fr/ark:/24967/vta64515506f0d8c5ea/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Grandrieu",
+    "cote": "3 Q 1998",
+    "yearStart": 1897,
+    "yearEnd": 1921,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaa57d32a375f6798b/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Grandrieu",
+    "cote": "3 Q 1999",
+    "yearStart": 1922,
+    "yearEnd": 1934,
+    "url": "https://archives.lozere.fr/ark:/24967/vta011ad80721b0987b/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2202",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.lozere.fr/ark:/24967/vta09fa6e4b7bf7fa48/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2203",
+    "yearStart": 1832,
+    "yearEnd": 1842,
+    "url": "https://archives.lozere.fr/ark:/24967/vtac028b671ae77a17f/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2204",
+    "yearStart": 1842,
+    "yearEnd": 1854,
+    "url": "https://archives.lozere.fr/ark:/24967/vta8cc7bfb726de3520/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2205",
+    "yearStart": 1855,
+    "yearEnd": 1866,
+    "url": "https://archives.lozere.fr/ark:/24967/vta72414adbcea4d626/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2206",
+    "yearStart": 1866,
+    "yearEnd": 1876,
+    "url": "https://archives.lozere.fr/ark:/24967/vtad46904ea40de700b/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2207",
+    "yearStart": 1876,
+    "yearEnd": 1892,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaaf9ba76a698fc2cd/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2208",
+    "yearStart": 1892,
+    "yearEnd": 1908,
+    "url": "https://archives.lozere.fr/ark:/24967/vta7c34c0f4d1e63677/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2209",
+    "yearStart": 1909,
+    "yearEnd": 1926,
+    "url": "https://archives.lozere.fr/ark:/24967/vta2a56bf6123130aaa/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2210",
+    "yearStart": 1926,
+    "yearEnd": 1942,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaec625bd01937ee6a/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2211",
+    "yearStart": 1942,
+    "yearEnd": 1952,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaf0bb90744e0db86f/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2212",
+    "yearStart": 1952,
+    "yearEnd": 1960,
+    "url": "https://archives.lozere.fr/ark:/24967/vta21bec908bc7b792a/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Langogne",
+    "cote": "3 Q 2213",
+    "yearStart": 1960,
+    "yearEnd": 1968,
+    "url": "https://archives.lozere.fr/ark:/24967/vta4029f43e908e825e/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3105",
+    "yearStart": 1825,
+    "yearEnd": 1825,
+    "url": "https://archives.lozere.fr/ark:/24967/vta8d8bad6ee11059f4/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3106",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.lozere.fr/ark:/24967/vtac65a8199c0fa4c15/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3107",
+    "yearStart": 1833,
+    "yearEnd": 1839,
+    "url": "https://archives.lozere.fr/ark:/24967/vta61a339a9431e03fc/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3108",
+    "yearStart": 1840,
+    "yearEnd": 1849,
+    "url": "https://archives.lozere.fr/ark:/24967/vta8fd33090a227627a/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3109",
+    "yearStart": 1850,
+    "yearEnd": 1857,
+    "url": "https://archives.lozere.fr/ark:/24967/vtae2fed28913de60a9/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3110",
+    "yearStart": 1858,
+    "yearEnd": 1864,
+    "url": "https://archives.lozere.fr/ark:/24967/vta32904169e65ceebd/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3111",
+    "yearStart": 1864,
+    "yearEnd": 1872,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaa66c4bf98d360141/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3112",
+    "yearStart": 1873,
+    "yearEnd": 1881,
+    "url": "https://archives.lozere.fr/ark:/24967/vta445d5b32ad124f31/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3113",
+    "yearStart": 1881,
+    "yearEnd": 1890,
+    "url": "https://archives.lozere.fr/ark:/24967/vta200c9e352ae7c68a/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3114",
+    "yearStart": 1891,
+    "yearEnd": 1903,
+    "url": "https://archives.lozere.fr/ark:/24967/vta7486802e3908a885/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3115",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives.lozere.fr/ark:/24967/vtae1ef7293a13b2cad/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3116",
+    "yearStart": 1918,
+    "yearEnd": 1929,
+    "url": "https://archives.lozere.fr/ark:/24967/vtabfbbc87d07c2e4cd/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3117",
+    "yearStart": 1930,
+    "yearEnd": 1939,
+    "url": "https://archives.lozere.fr/ark:/24967/vta8422f2cda2c20520/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3118",
+    "yearStart": 1940,
+    "yearEnd": 1946,
+    "url": "https://archives.lozere.fr/ark:/24967/vtac22f19b4f06d24ee/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3119",
+    "yearStart": 1946,
+    "yearEnd": 1954,
+    "url": "https://archives.lozere.fr/ark:/24967/vta5c2a3b429520f77b/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3120",
+    "yearStart": 1955,
+    "yearEnd": 1962,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaf0420bb71eeba3d5/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3121",
+    "yearStart": 1963,
+    "yearEnd": 1967,
+    "url": "https://archives.lozere.fr/ark:/24967/vtaedd9048a78e92215/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  },
+  {
+    "place": "Marvejols",
+    "cote": "3 Q 3122",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.lozere.fr/ark:/24967/vta4eb9494075d919ed/daogrp/0/layout:fonds/idsearch:RECH_efdd60a926cd21f4ef1ab2b6a38f1a5e"
+  }
+]

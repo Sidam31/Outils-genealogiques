@@ -605,6 +605,23 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_63_bureaux.json',
         catalogUrl: 'https://www.archivesdepartementales.puy-de-dome.fr/archive/recherche/enregistrement/',
     },
+    '48': {
+        label: 'Lozère',
+        kind: 'facet',
+        // Bornes réelles de la série (76 registres scrapés, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['48']) : seul département de cette
+        // famille dont l'arbre entier (dossiers ET feuilles) est déjà rendu en une seule page
+        // (pas de requête par noeud comme la Haute-Garonne) - avec un piège de classification par
+        // héritage (voir walk_tree dans le scraper) : un dossier nommé "successions et absences"
+        // peut englober à la fois cette série ET son antécédent "acquittées" (pré-1825), chaque
+        // feuille portant alors sa propre classification plus précise qui prime sur celle héritée
+        // du parent. Seuls 8 bureaux ressortent avec cette classification résolue correctement.
+        minYear: 1816,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_48.json',
+        bureauxUrl: './assets/data/successions_48_bureaux.json',
+        catalogUrl: 'https://archives.lozere.fr/archive/recherche/enregistrement/n:305',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

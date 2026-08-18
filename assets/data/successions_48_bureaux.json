@@ -1,0 +1,878 @@
+{
+  "ALBARET SAINTE MARIE": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 21.0
+  },
+  "ALBARET LE COMTAL": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 21.6
+  },
+  "ALLENC": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 10.9
+  },
+  "ALTIER": {
+    "bureau": "Florac",
+    "distanceKm": 23.8
+  },
+  "ANTRENAS": {
+    "bureau": "Marvejols",
+    "distanceKm": 4.7
+  },
+  "ARCOMIE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "ARZENC D APCHER": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 21.1
+  },
+  "ARZENC DE RANDON": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 6.4
+  },
+  "AUROUX": {
+    "bureau": "Grandrieu",
+    "distanceKm": 6.6
+  },
+  "AUXILLAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "BADAROUX": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 15.0
+  },
+  "BAGNOLS LES BAINS": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "BAGNOLS": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "BALSIEGES": {
+    "bureau": "Marvejols",
+    "distanceKm": 15.1
+  },
+  "BANASSAC CANILHAC": {
+    "bureau": "La Canourgue",
+    "distanceKm": 7.1
+  },
+  "BANASSAC": {
+    "bureau": "La Canourgue",
+    "distanceKm": 7.1
+  },
+  "BARJAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 9.8
+  },
+  "BARRE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 0.0
+  },
+  "BASSURELS": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 11.8
+  },
+  "BEL AIR VAL D ANCE": {
+    "bureau": "Grandrieu",
+    "distanceKm": 7.6
+  },
+  "CHAMBON LE CHATEAU": {
+    "bureau": "Grandrieu",
+    "distanceKm": 7.6
+  },
+  "BELVEZET": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "BERC": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "BLAVIGNAC": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 19.7
+  },
+  "BOURGS SUR COLAGNE": {
+    "bureau": "Marvejols",
+    "distanceKm": 5.1
+  },
+  "LE MONASTIER PIN MORIES": {
+    "bureau": "Marvejols",
+    "distanceKm": 5.1
+  },
+  "LE MONASTIER": {
+    "bureau": "Marvejols",
+    "distanceKm": 5.1
+  },
+  "BRENOUX": {
+    "bureau": "Florac",
+    "distanceKm": 20.1
+  },
+  "BRION": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 16.5
+  },
+  "BEDOUES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "BEDOUES COCURES": {
+    "bureau": "Florac",
+    "distanceKm": 3.4
+  },
+  "COCURES": {
+    "bureau": "Florac",
+    "distanceKm": 3.4
+  },
+  "CANILHAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "CANS ET CEVENNES": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 4.0
+  },
+  "SAINT LAURENT DE TREVES": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 4.0
+  },
+  "CASSAGNAS": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 5.2
+  },
+  "CHADENET": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 16.0
+  },
+  "CHANAC": {
+    "bureau": "La Canourgue",
+    "distanceKm": 7.7
+  },
+  "CHASSERADES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "CHASTANIER": {
+    "bureau": "Langogne",
+    "distanceKm": 6.4
+  },
+  "CHASTEL NOUVEL": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.1
+  },
+  "CHAUCHAILLES": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 19.5
+  },
+  "CHAUDEYRAC": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 5.0
+  },
+  "CHAULHAC": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 25.3
+  },
+  "CHEYLARD L EVEQUE": {
+    "bureau": "Langogne",
+    "distanceKm": 9.3
+  },
+  "CHIRAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "COMBRET": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "CUBIERES": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 21.2
+  },
+  "CUBIERETTES": {
+    "bureau": "Florac",
+    "distanceKm": 18.9
+  },
+  "CULTURES": {
+    "bureau": "Marvejols",
+    "distanceKm": 10.4
+  },
+  "ESCLANEDES": {
+    "bureau": "Marvejols",
+    "distanceKm": 10.2
+  },
+  "ESTABLES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "FAU DE PEYRE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "FLORAC TROIS RIVIERES": {
+    "bureau": "Florac",
+    "distanceKm": 0.0
+  },
+  "FONTANES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "FONTANS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 10.2
+  },
+  "FOURNELS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 17.3
+  },
+  "FRAISSINET DE FOURQUES": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 12.3
+  },
+  "FRAISSINET DE LOZERE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "GABRIAC": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 8.6
+  },
+  "GABRIAS": {
+    "bureau": "Marvejols",
+    "distanceKm": 7.7
+  },
+  "GATUZIERES": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 15.2
+  },
+  "GORGES DU TARN CAUSSES": {
+    "bureau": "Florac",
+    "distanceKm": 14.4
+  },
+  "SAINTE ENIMIE": {
+    "bureau": "Florac",
+    "distanceKm": 14.4
+  },
+  "GRANDVALS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 17.8
+  },
+  "GREZES": {
+    "bureau": "Marvejols",
+    "distanceKm": 6.1
+  },
+  "HURES LA PARADE": {
+    "bureau": "Florac",
+    "distanceKm": 20.8
+  },
+  "HURES": {
+    "bureau": "Florac",
+    "distanceKm": 20.8
+  },
+  "ISPAGNAC": {
+    "bureau": "Florac",
+    "distanceKm": 11.9
+  },
+  "JAVOLS": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "JULIANGES": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 27.4
+  },
+  "LA BASTIDE PUYLAURENT": {
+    "bureau": "Langogne",
+    "distanceKm": 17.8
+  },
+  "LA CAPELLE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LA CHAZE DE PEYRE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LA CHAZE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LA FAGE MONTIVERNOUX": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 11.8
+  },
+  "LA FAGE SAINT JULIEN": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 13.0
+  },
+  "LA MALENE": {
+    "bureau": "La Canourgue",
+    "distanceKm": 13.9
+  },
+  "LA PANOUSE": {
+    "bureau": "Grandrieu",
+    "distanceKm": 5.8
+  },
+  "LA PARADE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LA SALLE PRUNET": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LA TIEULE": {
+    "bureau": "La Canourgue",
+    "distanceKm": 8.5
+  },
+  "LA VILLEDIEU": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LACHAMP": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LACHAMP RIBENNES": {
+    "bureau": "Marvejols",
+    "distanceKm": 11.1
+  },
+  "RIBENNES": {
+    "bureau": "Marvejols",
+    "distanceKm": 11.1
+  },
+  "LAJO": {
+    "bureau": "Grandrieu",
+    "distanceKm": 17.0
+  },
+  "LANUEJOLS": {
+    "bureau": "Florac",
+    "distanceKm": 19.3
+  },
+  "LAUBERT": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 6.8
+  },
+  "LAVAL ATGER": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LAVAL DU TARN": {
+    "bureau": "La Canourgue",
+    "distanceKm": 9.2
+  },
+  "LE BORN": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 12.3
+  },
+  "LE BUISSON": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 8.1
+  },
+  "LE COLLET DE DEZE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 19.6
+  },
+  "LE MALZIEU FORAIN": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 21.9
+  },
+  "LE MALZIEU VILLE": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 19.5
+  },
+  "LE POMPIDOU": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 5.5
+  },
+  "LE RECOUX": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LE ROZIER": {
+    "bureau": "La Canourgue",
+    "distanceKm": 25.6
+  },
+  "LE VILLARD": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LES BESSONS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 9.6
+  },
+  "LES BONDONS": {
+    "bureau": "Florac",
+    "distanceKm": 9.0
+  },
+  "LES HERMAUX": {
+    "bureau": "Marvejols",
+    "distanceKm": 13.1
+  },
+  "LES LAUBIES": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 13.7
+  },
+  "LES MONTS VERTS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 17.9
+  },
+  "LE BACON": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 17.9
+  },
+  "LES SALCES": {
+    "bureau": "Marvejols",
+    "distanceKm": 12.4
+  },
+  "LES SALELLES": {
+    "bureau": "La Canourgue",
+    "distanceKm": 6.7
+  },
+  "LES VIGNES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "LUC": {
+    "bureau": "Langogne",
+    "distanceKm": 9.2
+  },
+  "MARCHASTEL": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 14.2
+  },
+  "MAS SAINT CHELY": {
+    "bureau": "La Canourgue",
+    "distanceKm": 17.2
+  },
+  "SAINT CHELY DU TARN": {
+    "bureau": "La Canourgue",
+    "distanceKm": 17.2
+  },
+  "MAS D ORCIERES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "MASSEGROS CAUSSES GORGES": {
+    "bureau": "La Canourgue",
+    "distanceKm": 13.7
+  },
+  "LE MASSEGROS": {
+    "bureau": "La Canourgue",
+    "distanceKm": 13.7
+  },
+  "MENDE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "MEYRUEIS": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 19.1
+  },
+  "MOISSAC VALLEE FRANCAISE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 14.2
+  },
+  "MOISSAC": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 14.2
+  },
+  "MOLEZON": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 4.6
+  },
+  "MONT LOZERE ET GOULET": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 16.1
+  },
+  "LE BLEYMARD": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 16.1
+  },
+  "MONTBEL": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 5.9
+  },
+  "MONTBRUN": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "MONTJEZIEU": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "MONTRODAT": {
+    "bureau": "Marvejols",
+    "distanceKm": 3.4
+  },
+  "MONTS DE RANDON": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 16.6
+  },
+  "RIEUTORT DE RANDON": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 16.6
+  },
+  "RIEUTORT": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 16.6
+  },
+  "NASBINALS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 18.7
+  },
+  "NAUSSAC FONTANES": {
+    "bureau": "Langogne",
+    "distanceKm": 5.4
+  },
+  "NAUSSAC": {
+    "bureau": "Langogne",
+    "distanceKm": 5.4
+  },
+  "NOALHAC": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 17.3
+  },
+  "PALHERS": {
+    "bureau": "Marvejols",
+    "distanceKm": 4.6
+  },
+  "PAULHAC EN MARGERIDE": {
+    "bureau": "Grandrieu",
+    "distanceKm": 27.7
+  },
+  "PELOUSE": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 10.0
+  },
+  "PEYRE EN AUBRAC": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 0.0
+  },
+  "PIED DE BORNE": {
+    "bureau": "Langogne",
+    "distanceKm": 28.5
+  },
+  "BALMELLES": {
+    "bureau": "Langogne",
+    "distanceKm": 28.5
+  },
+  "PIERREFICHE": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 5.4
+  },
+  "PIN MORIES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "PLANCHAMP": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "PONT DE MONTVERT SUD MONT LOZERE": {
+    "bureau": "Florac",
+    "distanceKm": 13.2
+  },
+  "LE PONT DE MONTVERT": {
+    "bureau": "Florac",
+    "distanceKm": 13.2
+  },
+  "POURCHARESSES": {
+    "bureau": "Florac",
+    "distanceKm": 25.0
+  },
+  "PRADES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "PRINSUEJOLS": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "PRINSUEJOLS MALBOUZON": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 9.3
+  },
+  "MALBOUZON": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 9.3
+  },
+  "PRUNIERES": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 14.7
+  },
+  "PREVENCHERES": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 23.1
+  },
+  "QUEZAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "RECOULES D AUBRAC": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 18.7
+  },
+  "RECOULES DE FUMAS": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 8.0
+  },
+  "RIMEIZE": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 8.6
+  },
+  "ROCLES": {
+    "bureau": "Langogne",
+    "distanceKm": 4.0
+  },
+  "ROUSSES": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 10.8
+  },
+  "SAINT ALBAN SUR LIMAGNOLE": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 15.7
+  },
+  "SAINT AMANS": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT ANDRE CAPCEZE": {
+    "bureau": "Florac",
+    "distanceKm": 27.5
+  },
+  "SAINT ANDRE DE LANCIZE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 9.8
+  },
+  "SAINT ANDEOL DE CLERGUEMORT": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT BAUZILE": {
+    "bureau": "Marvejols",
+    "distanceKm": 19.1
+  },
+  "SAINT BONNET LAVAL": {
+    "bureau": "Grandrieu",
+    "distanceKm": 6.8
+  },
+  "SAINT BONNET DE MONTAUROUX": {
+    "bureau": "Grandrieu",
+    "distanceKm": 6.8
+  },
+  "SAINT BONNET DE CHIRAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 6.0
+  },
+  "SAINT CHELY D APCHER": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 13.6
+  },
+  "SAINT DENIS EN MARGERIDE": {
+    "bureau": "Grandrieu",
+    "distanceKm": 13.9
+  },
+  "SAINT DENIS": {
+    "bureau": "Grandrieu",
+    "distanceKm": 13.9
+  },
+  "SAINT FLOUR DE MERCOIRE": {
+    "bureau": "Langogne",
+    "distanceKm": 4.3
+  },
+  "SAINT FREZAL D ALBUGES": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 9.9
+  },
+  "SAINT GAL": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 11.6
+  },
+  "SAINT GEORGES DE LEVEJAC": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT GERMAIN DE CALBERTE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 12.1
+  },
+  "SAINT GERMAIN DU TEIL": {
+    "bureau": "La Canourgue",
+    "distanceKm": 9.3
+  },
+  "SAINT HILAIRE DE LAVIT": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 14.4
+  },
+  "SAINT JEAN CHAZORNE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT JEAN LA FOUILLOUSE": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 6.4
+  },
+  "SAINT JULIEN D ARPAON": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT JULIEN DES POINTS": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 22.8
+  },
+  "SAINT JULIEN DU TOURNEL": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT JUERY": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 21.4
+  },
+  "SAINT LAURENT DE MURET": {
+    "bureau": "Marvejols",
+    "distanceKm": 10.2
+  },
+  "SAINT LAURENT DE VEYRES": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 14.4
+  },
+  "SAINT LEGER DE PEYRE": {
+    "bureau": "Marvejols",
+    "distanceKm": 5.7
+  },
+  "SAINT LEGER DU MALZIEU": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 23.1
+  },
+  "SAINT MARTIN DE BOUBAUX": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 21.3
+  },
+  "SAINT MARTIN DE LANSUSCLE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 7.2
+  },
+  "SAINT MAURICE DE VENTALON": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT MICHEL DE DEZE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 16.5
+  },
+  "SAINT PAUL LE FROID": {
+    "bureau": "Grandrieu",
+    "distanceKm": 8.1
+  },
+  "SAINT PIERRE DE NOGARET": {
+    "bureau": "La Canourgue",
+    "distanceKm": 12.7
+  },
+  "SAINT PIERRE DES TRIPIERS": {
+    "bureau": "La Canourgue",
+    "distanceKm": 22.4
+  },
+  "SAINT PIERRE LE VIEUX": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 17.1
+  },
+  "SAINT PRIVAT DE VALLONGUE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 13.2
+  },
+  "SAINT PRIVAT DU FAU": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 25.9
+  },
+  "SAINT ROME DE DOLAN": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT SATURNIN": {
+    "bureau": "La Canourgue",
+    "distanceKm": 5.5
+  },
+  "SAINT SAUVEUR DE GINESTOUX": {
+    "bureau": "Grandrieu",
+    "distanceKm": 7.7
+  },
+  "SAINT SAUVEUR DE PEYRE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINT ETIENNE VALLEE FRANCAISE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 16.6
+  },
+  "SAINT ETIENNE DU VALDONNEZ": {
+    "bureau": "Florac",
+    "distanceKm": 14.5
+  },
+  "SAINTE COLOMBE DE MONTAUROUX": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINTE COLOMBE DE PEYRE": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "SAINTE CROIX VALLEE FRANCAISE": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 9.5
+  },
+  "SAINTE CROIX": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 9.5
+  },
+  "SAINTE EULALIE": {
+    "bureau": "Grandrieu",
+    "distanceKm": 11.8
+  },
+  "SAINTE HELENE": {
+    "bureau": "Châteauneuf-de-Randon",
+    "distanceKm": 15.8
+  },
+  "SERVERETTE": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 9.4
+  },
+  "SERVIERES": {
+    "bureau": "Marvejols",
+    "distanceKm": 16.2
+  },
+  "TERMES": {
+    "bureau": "Aumont-Aubrac",
+    "distanceKm": 16.6
+  },
+  "TRELANS": {
+    "bureau": "Marvejols",
+    "distanceKm": 15.5
+  },
+  "VEBRON": {
+    "bureau": "Florac",
+    "distanceKm": 9.7
+  },
+  "VENTALON EN CEVENNES": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 16.7
+  },
+  "SAINT FREZAL DE VENTALON": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 16.7
+  },
+  "VIALAS": {
+    "bureau": "Barre-des-Cévennes",
+    "distanceKm": 20.1
+  },
+  "VILLEFORT": {
+    "bureau": "Florac",
+    "distanceKm": 27.7
+  }
+}
