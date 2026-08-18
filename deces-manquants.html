@@ -172,6 +172,9 @@
                     <li><strong>Indre</strong> — le fonds numérisé ne comprend que la table pré-1825 ("successions acquittées", une sous-série distincte) et d'autres tables non liées ; pas de table "successions et absences" repérée.</li>
                     <li><strong>Saône-et-Loire</strong> — le fonds "Contrôle des actes et enregistrement" numérisé ne semble pas comprendre de table nommée "successions et absences" (uniquement acquéreurs, baux, contrats de mariage, décès...).</li>
                     <li><strong>Eure-et-Loir</strong> — page de résultats dédiée trouvée, mais les champs de données du site source restent vides à l'affichage (bug apparent côté portail, pas un problème d'accès).</li>
+                    <li><strong>Var</strong> — fonds volumineux (~17 400 résultats bruts) dont la pagination du portail refuse tout accès au-delà d'environ 10 000 résultats (limite côté serveur) ; le filtre par type de document qui permettrait de réduire la requête sous ce seuil reste inaccessible (champ présent mais non interactif) sur ce déploiement.</li>
+                    <li><strong>Landes</strong> — portail Cloudflare franchi normalement, mais la pagination de la page de résultats se bloque dès la 2ᵉ page sur ce déploiement précis (le clic part bien mais le contenu ne se met jamais à jour), y compris après plusieurs tentatives.</li>
+                    <li><strong>Gers</strong> — page de résultats vide à l'affichage (application cliente ne semblant pas s'initialiser correctement depuis cette URL) ; page d'accueil du portail sans lien direct trouvé vers cette série.</li>
                 </ul>
                 <p class="hint" style="text-align:center;">La grande majorité des autres départements non listés ci-dessus n'ont simplement pas encore été examinés.</p>
             </details>
