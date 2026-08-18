@@ -20,14 +20,19 @@ export class GedcomParser {
         if(day < 1 || day > 31) return null;
         return { day, month, year };
     }
-    // Jour de la semaine (0=dimanche...6=samedi, convention JS) d'une date GEDCOM complète, ou null si
-    // le jour/mois est inconnu OU si la date est approximative/composite (ABT, EST, BEF, AFT,
-    // BET...AND...) : un jour de la semaine n'a de sens que pour une date certaine. Calendrier
+    // jour/mois/année d'une date GEDCOM complète, ou null si le jour/mois est inconnu OU si la date
+    // est approximative/composite (ABT, EST, BEF, AFT, BET...AND...) : partagé par getWeekday
+    // ci-dessous et par le mois de mariage (parseFam, tag MARR/DATE) — un mois n'a de sens que pour
+    // une date certaine, tout comme un jour de la semaine.
+    strictFullDate(s) {
+        if(!s || /\b(ABT|CAL|EST|CIRCA|ABOUT|BEF|BEFORE|AFT|AFTER|BET|BETWEEN|FROM|TO)\b/i.test(s)) return null;
+        return this.parseFullDate(s);
+    }
+    // Jour de la semaine (0=dimanche...6=samedi, convention JS) d'une date GEDCOM complète. Calendrier
     // grégorien proleptique (Date.UTC) : norme usuelle pour ce calcul en généalogie, y compris sur des
     // dates antérieures à l'adoption du calendrier.
     getWeekday(s) {
-        if(!s || /\b(ABT|CAL|EST|CIRCA|ABOUT|BEF|BEFORE|AFT|AFTER|BET|BETWEEN|FROM|TO)\b/i.test(s)) return null;
-        const d = this.parseFullDate(s);
+        const d = this.strictFullDate(s);
         if(!d) return null;
         return new Date(Date.UTC(d.year, d.month, d.day)).getUTCDay();
     }
@@ -297,6 +302,7 @@ export class GedcomParser {
                 target.year=this.getYear(v);
                 if(v && v.trim().length) target.hasDate = true;
                 target.weekday = this.getWeekday(v); // null si la date n'a pas de jour/mois exploitable
+                target.month = this.strictFullDate(v)?.month ?? null; // idem, pour la saisonnalité (mois de mariage)
             }
             if(t==='PLAC') {
                 const stub = this.newPlaceStub(v);
@@ -319,6 +325,7 @@ export class GedcomParser {
             if(!geo) return;
             const r = this.analyzePlace(geo.raw, geo.form || this.globalPlacForm);
             geo.dept = r.dept; geo.region = r.region; geo.country = r.country; geo.city = r.city;
+            geo.cityChain = r.cityChain;
         };
         this.indis.forEach(i => {
             finalize(i.birth.geo); finalize(i.death.geo);
@@ -332,9 +339,9 @@ export class GedcomParser {
         this.fams.forEach(f => { finalize(f.marr.geo); finalize(f.div.geo); });
     }
     analyzePlace(str, formStr) {
-        if(!str) return { dept:null, region:null, country:null, city:null };
+        if(!str) return { dept:null, region:null, country:null, city:null, cityChain:null };
         const norm = normalizePlace(str);
-        let country=null, dept=null, region=null, city=null;
+        let country=null, dept=null, region=null, city=null, cityChain=null;
 
         // 1) Alignement positionnel via le "PLAC.FORM" (propre au lieu, sinon celui de l'en-tête du
         // fichier) quand son nombre de champs déclarés correspond exactement au nombre de segments
@@ -369,6 +376,12 @@ export class GedcomParser {
                 // sinon (FORM du type "Lieudit, Commune, ...") le champ juste avant le département.
                 if(cityIdx >= 0 && rawParts[cityIdx]) city = rawParts[cityIdx];
                 else if(deptIdx > 0 && rawParts[deptIdx - 1]) city = rawParts[deptIdx - 1];
+                // Tous les segments plus précis que le département (du plus précis, ex. lieu-dit, au
+                // plus général juste avant le département) : permet aux outils qui recherchent une
+                // commune dans un index externe (recensements, successions) de remonter au lieu
+                // parent quand le segment le plus précis n'y est pas reconnu (ex. hameau non répertorié
+                // alors que la commune dont il dépend l'est).
+                if(deptIdx > 0) cityChain = rawParts.slice(0, deptIdx).filter(Boolean);
             }
         }
 
@@ -393,6 +406,7 @@ export class GedcomParser {
                     if(!region) region = regionHit[1];
                     const deptSegNorm = normalizePlace(posParts[posParts.length - 3]);
                     dept = findDept(deptSegNorm) || GEO.deptEnglishAliases[deptSegNorm] || null;
+                    if(dept && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean);
                 }
             }
         }
@@ -419,6 +433,9 @@ export class GedcomParser {
             const parts = str.split(',').map(s => s.trim()).filter(Boolean);
             if(parts.length) city = parts[0];
         }
+        // Repli : quand (1)/(2) n'ont pas pu établir de chaîne fiable (FORM absent/décompte différent,
+        // dept trouvé par recherche floue...), la seule candidate connue reste "city" lui-même.
+        if(!cityChain || !cityChain.length) cityChain = city ? [city] : [];
 
         let deptDisp = null;
         if(dept) {
@@ -427,7 +444,7 @@ export class GedcomParser {
         }
         if(!country && dept) country = "France";
         if(!country && !dept && !region) country = "Inconnu";
-        return { dept:deptDisp, region, country, city };
+        return { dept:deptDisp, region, country, city, cityChain };
     }
     postProcess() {
         this.indis.forEach(i => {

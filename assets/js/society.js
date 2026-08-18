@@ -373,6 +373,80 @@ export function computeSurnameExtinction(map, fams) {
     return { totalMaleSurnames: bySurname.size, atRiskCount: atRisk.length, atRiskSurnames: atRisk.slice(0, 15) };
 }
 
+// --- 9. Saisonnalité des mariages par profession : le mois de mariage (tag MARR/DATE — jour+mois
+//    disponible seulement pour une date complète et certaine, voir gedcom.js strictFullDate) croisé
+//    avec les professions (p.occupations) des personnes qui se marient. Une même personne peut
+//    apparaître dans plusieurs FAMS (remariage) : chaque mariage daté compte séparément pour elle.
+//    minYear/maxYear (optionnels) restreignent l'analyse à une période, pour voir si un profil
+//    saisonnier se déplace au fil du temps plutôt que de n'avoir qu'une moyenne sur tout le fichier.
+export const SEASONALITY_MONTH_LABELS = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
+const SEASONALITY_MONTH_SHORT = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc'];
+
+export function computeMarriageSeasonality(list, fams, opts = {}) {
+    const topN = opts.topN || 8;
+    const minYear = opts.minYear ?? null;
+    const maxYear = opts.maxYear ?? null;
+    const minSample = opts.minSample || 5;
+
+    const profTotals = new Map();
+    const profMonths = new Map();
+    const overallByMonth = new Array(12).fill(0);
+    let overallTotal = 0;
+
+    list.forEach(p => {
+        if (!p.occupations?.length || !p.fams?.length) return;
+        const profs = Array.from(new Set(p.occupations.map(o => o.trim()).filter(Boolean)));
+        if (!profs.length) return;
+
+        p.fams.forEach(fid => {
+            const f = fams.get(fid);
+            if (!f?.marr?.hasDate || f.marr.month == null) return;
+            if (minYear != null && (f.marr.year == null || f.marr.year < minYear)) return;
+            if (maxYear != null && (f.marr.year == null || f.marr.year > maxYear)) return;
+
+            const month = f.marr.month;
+            overallByMonth[month]++;
+            overallTotal++;
+            profs.forEach(prof => {
+                if (!profMonths.has(prof)) { profMonths.set(prof, new Array(12).fill(0)); profTotals.set(prof, 0); }
+                profMonths.get(prof)[month]++;
+                profTotals.set(prof, profTotals.get(prof) + 1);
+            });
+        });
+    });
+
+    const toRow = (label, total, counts) => ({
+        label, total,
+        byMonth: counts.map((count, month) => ({
+            month, label: SEASONALITY_MONTH_LABELS[month], shortLabel: SEASONALITY_MONTH_SHORT[month], count,
+            pct: total > 0 ? +(count / total * 100).toFixed(1) : 0
+        }))
+    });
+
+    const professions = Array.from(profTotals.entries())
+        .filter(([, total]) => total >= minSample)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, topN)
+        .map(([prof, total]) => toRow(prof, total, profMonths.get(prof)));
+
+    const overall = toRow('Ensemble', overallTotal, overallByMonth);
+
+    // Repère le plus grand écart (profession, mois) par rapport à la moyenne générale de ce mois-là :
+    // un exemple concret à mettre en avant sans imposer d'hypothèse a priori (hiver, été...).
+    let mostSkewed = null, maxDelta = -1;
+    professions.forEach(row => {
+        row.byMonth.forEach((m, i) => {
+            const delta = m.pct - overall.byMonth[i].pct;
+            if (Math.abs(delta) > maxDelta) {
+                maxDelta = Math.abs(delta);
+                mostSkewed = { profession: row.label, month: SEASONALITY_MONTH_LABELS[i], profPct: m.pct, overallPct: overall.byMonth[i].pct, total: row.total };
+            }
+        });
+    });
+
+    return { monthLabels: SEASONALITY_MONTH_LABELS, overall, professions, overallTotal, mostSkewed, minSample };
+}
+
 export function computeSocietyStats(list, map, fams, communesPopIndex) {
     return {
         professions: computeProfessionsStats(list, map),
@@ -478,4 +552,92 @@ export function drawCategoryBarChart(containerId, data) {
         .attr('x', d => x(d.label) + x.bandwidth() / 2).attr('y', d => y(d.count) - 5)
         .attr('text-anchor', 'middle').style('font-size', '11px').style('font-weight', 'bold')
         .text(d => d.count);
+}
+
+// Heatmap profession × mois de mariage (voir computeMarriageSeasonality) : une ligne "Ensemble" (tous
+// mariages datés confondus) sert de référence au-dessus des lignes par profession, triées par nombre
+// de mariages décroissant. Chaque cellule encode, en dégradé séquentiel (une seule teinte, clair→foncé,
+// même idiome que le fond de carte de maps.js), la part des mariages de CETTE ligne tombant dans ce
+// mois (pourcentage, pas effectif brut) : ça permet de comparer la forme de la saisonnalité entre des
+// professions dont les effectifs totaux diffèrent beaucoup. L'effectif brut reste visible au survol.
+export function drawSeasonalityHeatmap(containerId, data, opts = {}) {
+    const container = d3.select(`#${containerId}`);
+    container.selectAll('*').remove();
+
+    const rows = data.overall.total > 0 ? [data.overall, ...data.professions] : [];
+    if (!rows.length) {
+        container.append('div').attr('class', 'map-placeholder')
+            .text(opts.emptyMessage || 'Pas assez de données (profession + date de mariage complète — jour, mois, année — requises).');
+        return;
+    }
+
+    const width = container.node().clientWidth || 600;
+    const cellHeight = 24;
+    const margin = { top: 26, right: 90, bottom: 6, left: 170 };
+    const height = margin.top + margin.bottom + rows.length * cellHeight;
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    const months = d3.range(12);
+    const x = d3.scaleBand().domain(months).range([margin.left, width - margin.right]).padding(0.08);
+    const y = d3.scaleBand().domain(rows.map(r => r.label)).range([margin.top, height - margin.bottom]).padding(0.08);
+    const maxPct = d3.max(rows, r => d3.max(r.byMonth, m => m.pct)) || 1;
+    const color = d3.scaleSequential(d3.interpolateBlues).domain([0, maxPct]);
+
+    svg.selectAll('text.month-label').data(months).join('text').attr('class', 'month-label')
+        .attr('x', m => x(m) + x.bandwidth() / 2).attr('y', margin.top - 8)
+        .attr('text-anchor', 'middle').style('font-size', '10px').style('fill', '#555')
+        .text(m => SEASONALITY_MONTH_SHORT[m]);
+
+    svg.selectAll('text.row-label').data(rows).join('text').attr('class', 'row-label')
+        .attr('x', margin.left - 8).attr('y', r => y(r.label) + y.bandwidth() / 2).attr('dy', '0.35em')
+        .attr('text-anchor', 'end').style('font-size', '11px')
+        .style('font-weight', r => r.label === 'Ensemble' ? 700 : 400)
+        .text(r => r.label.length > 24 ? r.label.slice(0, 22) + '…' : r.label)
+        .append('title').text(r => r.label);
+
+    // Séparateur sous la ligne "Ensemble" pour la distinguer visuellement des professions.
+    svg.append('line')
+        .attr('x1', margin.left - 4).attr('x2', width - margin.right)
+        .attr('y1', y(rows[0].label) + y.bandwidth() + y.step() * 0.04)
+        .attr('y2', y(rows[0].label) + y.bandwidth() + y.step() * 0.04)
+        .attr('stroke', '#bbb').attr('stroke-width', 1);
+
+    const tooltip = document.getElementById('tooltip');
+    const rowGroups = svg.selectAll('g.seas-row').data(rows).join('g').attr('class', 'seas-row');
+    rowGroups.selectAll('rect').data(r => r.byMonth.map(m => ({ ...m, rowLabel: r.label, rowTotal: r.total }))).join('rect')
+        .attr('x', d => x(d.month)).attr('y', d => y(d.rowLabel))
+        .attr('width', x.bandwidth()).attr('height', y.bandwidth())
+        .attr('fill', d => d.count > 0 ? color(d.pct) : '#f4f6f7')
+        .attr('stroke', '#fff').attr('stroke-width', 1)
+        .on('mouseover', function(e, d) {
+            d3.select(this).attr('stroke', '#2c3e50').attr('stroke-width', 1.5);
+            if (tooltip) {
+                tooltip.style.opacity = 1;
+                tooltip.innerHTML = `<strong>${d.rowLabel} — ${d.label}</strong>
+                    <div class="tt-row"><span>Mariages ce mois</span><span>${d.count}</span></div>
+                    <div class="tt-row"><span>Part sur l'année</span><span>${d.pct}%</span></div>
+                    <div class="tt-row"><span>Total « ${d.rowLabel} »</span><span>${d.rowTotal}</span></div>`;
+            }
+        })
+        .on('mousemove', e => {
+            if (!tooltip) return;
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+            if (tooltip) tooltip.style.opacity = 0;
+        });
+
+    // Légende séquentielle (dégradé + repères min/max) : requise pour une heatmap, où la couleur porte
+    // l'information (contrairement aux barres/lignes du site, où l'axe suffit).
+    const legendX = width - margin.right + 18, legendY = margin.top, legendW = 14, legendH = Math.min(90, height - margin.top - margin.bottom);
+    const gradientId = `seas-grad-${containerId}`;
+    const defs = svg.append('defs');
+    const gradient = defs.append('linearGradient').attr('id', gradientId).attr('x1', '0').attr('x2', '0').attr('y1', '1').attr('y2', '0');
+    d3.range(0, 1.01, 0.1).forEach(t => gradient.append('stop').attr('offset', `${t * 100}%`).attr('stop-color', color(t * maxPct)));
+    svg.append('rect').attr('x', legendX).attr('y', legendY).attr('width', legendW).attr('height', legendH)
+        .attr('fill', `url(#${gradientId})`).attr('stroke', '#ccc').attr('stroke-width', 0.5);
+    svg.append('text').attr('x', legendX + legendW + 5).attr('y', legendY + 8).style('font-size', '9px').style('fill', '#555').text(`${maxPct.toFixed(0)}%`);
+    svg.append('text').attr('x', legendX + legendW + 5).attr('y', legendY + legendH).style('font-size', '9px').style('fill', '#555').text('0%');
 }

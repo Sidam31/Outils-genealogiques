@@ -950,39 +950,58 @@ function pickRegisters(records, year) {
     return [best];
 }
 
+// Candidates à essayer pour une correspondance de commune, du lieu le plus précis (tel qu'acté,
+// ex. un lieu-dit/hameau) jusqu'au lieu parent le plus général connu (la commune elle-même, juste
+// avant le département) — voir geo.cityChain dans gedcom.js. Un lieu-dit n'a normalement pas son
+// propre registre ni son propre bureau : mieux vaut retenter avec son lieu parent que de conclure
+// trop vite à "aucune piste".
+function cityCandidates(geo) {
+    return (geo.cityChain && geo.cityChain.length) ? geo.cityChain : [geo.city];
+}
+function parentContextLabel(geo, matched) {
+    return matched !== geo.city ? `"${geo.city}" non reconnu — résolu via le lieu parent "${matched}"` : null;
+}
 function resolveFacet(idx, geo, year) {
-    const cityNorm = normalizePlace(geo.city);
-    const exact = idx.registerIndex.get(cityNorm);
-    if (exact && exact.length) {
-        return { matchType: 'exact', registers: pickRegisters(exact, year), bureauInfo: null, contextLabel: null };
+    const candidates = cityCandidates(geo);
+    for (const candidate of candidates) {
+        const exact = idx.registerIndex.get(normalizePlace(candidate));
+        if (exact && exact.length) {
+            return { matchType: 'exact', registers: pickRegisters(exact, year), bureauInfo: null, contextLabel: parentContextLabel(geo, candidate) };
+        }
     }
-    const bureauInfo = idx.bureauIndex.get(cityNorm) || null;
-    const viaBureau = bureauInfo ? idx.registerIndex.get(normalizePlace(bureauInfo.bureau)) : null;
-    if (viaBureau && viaBureau.length) {
-        return { matchType: 'bureau', registers: pickRegisters(viaBureau, year), bureauInfo, contextLabel: null };
+    for (const candidate of candidates) {
+        const bureauInfo = idx.bureauIndex.get(normalizePlace(candidate)) || null;
+        const viaBureau = bureauInfo ? idx.registerIndex.get(normalizePlace(bureauInfo.bureau)) : null;
+        if (viaBureau && viaBureau.length) {
+            return { matchType: 'bureau', registers: pickRegisters(viaBureau, year), bureauInfo, contextLabel: parentContextLabel(geo, candidate) };
+        }
     }
     return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
 }
 
 function resolveBureauLetter(idx, geo, year, person) {
-    const cityNorm = normalizePlace(geo.city);
-    const history = idx.communeHistory.get(cityNorm);
-    const bureau = history ? (history.find(h => year >= h.yearStart && year <= h.yearEnd) || {}).bureau : null;
+    let bureau = null, matchedCity = null;
+    for (const candidate of cityCandidates(geo)) {
+        const history = idx.communeHistory.get(normalizePlace(candidate));
+        const found = history ? (history.find(h => year >= h.yearStart && year <= h.yearEnd) || {}).bureau : null;
+        if (found) { bureau = found; matchedCity = candidate; break; }
+    }
     if (!bureau) {
         return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
     }
     const letter = firstSurnameLetter(person.surname);
     const byLetter = idx.registerIndex.get(normalizePlace(bureau));
     const candidates = letter && byLetter ? byLetter.get(letter) : null;
+    const parentNote = matchedCity !== geo.city ? ` (via le lieu parent "${matchedCity}")` : '';
     if (candidates && candidates.length) {
         return {
             matchType: 'exact', registers: pickRegisters(candidates, year), bureauInfo: null,
-            contextLabel: `Bureau de ${bureau} — noms commençant par ${letter}`,
+            contextLabel: `Bureau de ${bureau} — noms commençant par ${letter}${parentNote}`,
         };
     }
     return {
         matchType: 'none', registers: [], bureauInfo: null,
-        contextLabel: letter ? `Bureau de ${bureau} (aucun registre pour "${letter}")` : `Bureau de ${bureau} (patronyme inconnu)`,
+        contextLabel: (letter ? `Bureau de ${bureau} (aucun registre pour "${letter}")` : `Bureau de ${bureau} (patronyme inconnu)`) + parentNote,
     };
 }
 

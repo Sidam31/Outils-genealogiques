@@ -1,4 +1,4 @@
-import { deptCode, deptName } from './geo.js';
+import { deptCode, deptName, normalizePlace } from './geo.js';
 import { estimateBirthYear } from './inference.js';
 
 // Départements dont les tables de recensement nominatif sont indexées par la base de noms
@@ -135,7 +135,11 @@ export function computeMissingRecensements(list, map, fams, opts) {
             if (!geo || !geo.dept) return;
             if (!deptCodes.has(deptCode(geo.dept))) return;
 
-            hits.push({ year, city: geo.city, dept: geo.dept, source });
+            // Lieu parent (voir geo.cityChain dans gedcom.js) : le segment le plus général avant le
+            // département, quasi-toujours la commune elle-même — utile en repli quand le lieu le plus
+            // précis (souvent un lieu-dit/hameau) n'est pas reconnu par l'index FranceArchives.
+            const cityAlt = (geo.cityChain && geo.cityChain.length > 1) ? geo.cityChain[geo.cityChain.length - 1] : null;
+            hits.push({ year, city: geo.city, cityAlt, dept: geo.dept, source });
         });
         if (!hits.length) return;
 
@@ -182,11 +186,31 @@ function fuzzyForenameField(text) {
 // de FranceArchives, qui ne pouvait interroger que "cette personne a-t-elle elle-même produit un
 // acte en tant que notaire" faute d'index nominatif sur les minutes.
 
+// OU-e (syntaxe FranceArchives "~", sans guillemets) plusieurs libellés de lieu candidats en un
+// seul terme de recherche, sans doublon — utilisé pour élargir es_locations à la commune parente
+// (cityAlt, voir geo.cityChain dans gedcom.js) et/ou au département quand le lieu le plus précis
+// acté (souvent un lieu-dit/hameau) n'est pas reconnu tel quel par l'index.
+function orLocations(...names) {
+    const seen = new Set();
+    const parts = [];
+    names.forEach(n => {
+        if (!n) return;
+        const key = normalizePlace(n);
+        if (seen.has(key)) return;
+        seen.add(key);
+        parts.push(n);
+    });
+    return parts.length ? parts.join('~') : null;
+}
+
 // Lien pré-rempli vers la base de noms "recensement" de FranceArchives, ciblé sur UNE année de
 // recensement précise (es_date_min = es_date_max = cette année, puisqu'on sait déjà exactement
 // quel recensement chercher) et le département (`dept`, au format "XX - Nom" tel que stocké par
 // analyzePlace) utilisé en secours quand la commune (`city`) n'est pas reconnue par l'index.
-export function buildFranceArchivesUrl(p, city, censusYear, dept) {
+// `cityAlt` (optionnel) est le lieu parent de `city` (ex. la commune quand `city` est un lieu-dit
+// qui en dépend) : OU-é avec lui pour élargir la recherche sans devoir deviner lequel des deux
+// libellés l'index FranceArchives reconnaît.
+export function buildFranceArchivesUrl(p, city, censusYear, dept, cityAlt) {
     const params = new URLSearchParams();
     if (p.surname) params.set('es_names', fuzzyField(p.surname));
     if (p.given) params.set('es_forenames', fuzzyForenameField(p.given));
@@ -196,16 +220,16 @@ export function buildFranceArchivesUrl(p, city, censusYear, dept) {
         // le nom du département dans es_locations en secours, il ne reste qu'à préciser la commune
         // si elle est connue.
         params.set('es_service', serviceId);
-        if (city) params.set('es_locations', city);
+        const loc = orLocations(city, cityAlt);
+        if (loc) params.set('es_locations', loc);
     } else {
         // Pas d'identifiant de service connu pour ce département : on retombe sur le texte, en OU-ant
         // le nom de la commune (pas toujours reconnu par l'index : graphie ancienne, fusion de
         // communes...) avec celui du département en secours, vérifié manuellement sur FranceArchives
         // ("Belleville~Rhône", sans guillemets).
         const dn = deptName(dept);
-        if (city && dn) params.set('es_locations', `${city}~${dn}`);
-        else if (city) params.set('es_locations', city);
-        else if (dn) params.set('es_locations', dn);
+        const loc = orLocations(city, cityAlt, dn);
+        if (loc) params.set('es_locations', loc);
     }
     if (p.sex === 'M' || p.sex === 'F') params.set('es_gender', p.sex === 'M' ? 'h' : 'f');
     if (censusYear != null) {

@@ -120,11 +120,15 @@ export function computeNotarialActLeads(list, index, opts) {
         const addEvent = (type, year, geo) => {
             if (year == null || !geo || !geo.city || !geo.dept) return;
             const dc = deptCode(geo.dept);
-            const key = dc + '|' + normalizePlace(geo.city);
-            const candidates = index.get(key) || [];
-            const matches = candidates.filter(r => periodMatches(r, year, tolerance, maxCareerSpan));
-            if (!matches.length) return;
-            events.push({ type, year, city: geo.city, dept: dc, matches });
+            // Essaie d'abord la commune telle qu'actée, puis remonte au lieu parent (voir
+            // geo.cityChain dans gedcom.js) si elle n'a aucun notaire indexé : un lieu-dit/hameau n'a
+            // normalement pas sa propre fiche FranceGenWeb, seule la commune dont il dépend en a une.
+            const candidatesCity = (geo.cityChain && geo.cityChain.length) ? geo.cityChain : [geo.city];
+            for (const candidate of candidatesCity) {
+                const key = dc + '|' + normalizePlace(candidate);
+                const matches = (index.get(key) || []).filter(r => periodMatches(r, year, tolerance, maxCareerSpan));
+                if (matches.length) { events.push({ type, year, city: geo.city, dept: dc, matches }); return; }
+            }
         };
         addEvent('mariage', p.marrYear, p.marrGeo);
         addEvent('décès', p.death?.year, p.death?.geo);
