@@ -696,7 +696,7 @@ const fa = (() => {
             // naissance actée ou estimée) aide à repérer d'un coup d'œil un lien peu plausible avant
             // même d'ouvrir le registre.
             const hitsDisplay = r.hits.map(h => {
-                const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept);
+                const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept, h.cityAlt);
                 const age = h.year - r.birthEst.year;
                 const ageDisplay = `${age} an${age > 1 ? 's' : ''}${r.birthEst.estimated ? ' (est.)' : ''}`;
                 return `<div style="margin-bottom:6px;">

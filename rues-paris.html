@@ -357,6 +357,12 @@ function init(DB) {
   const mapNoteEl = document.getElementById('mapNote');
   let mapInstance = null;
   let mapDataCache = [];
+  // L'évènement 'load' de maplibre ne se déclenche qu'une seule fois par instance de carte (juste
+  // après son initialisation) : s'y réabonner via once('load', ...) à chaque clic sur "voir sur la
+  // carte" ne fonctionne donc que pour le tout premier clic. mapInstance.loaded() n'est pas non plus
+  // fiable ensuite (il peut redevenir false brièvement après un resize()), d'où ce drapeau posé une
+  // fois pour toutes dans le handler 'load' de initMap().
+  let mapReady = false;
 
   function openMap(){
     if(!mapWrapEl.classList.contains('open')){
@@ -390,7 +396,7 @@ function init(DB) {
         .setHTML(`<strong>${esc(name)}</strong>`)
         .addTo(mapInstance);
     };
-    if(mapInstance.loaded()) fly();
+    if(mapReady) fly();
     else mapInstance.once('load', fly);
     mapWrapEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
   }
@@ -454,6 +460,7 @@ function init(DB) {
         if(popup){ popup.remove(); popup = null; }
       });
       renderMapMarkers();
+      mapReady = true;
     });
   }
 

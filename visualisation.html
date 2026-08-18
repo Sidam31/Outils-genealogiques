@@ -174,6 +174,25 @@
             </div>
 
             <div class="society-section">
+                <div class="chart-box-header">
+                    <h3>📅 Saisonnalité des mariages par profession</h3>
+                    <button class="chart-copy-btn" data-target="socSeasonalityChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <p class="hint">Nécessite une date de mariage complète (jour, mois, année) — les dates approximatives ou incomplètes ne sont pas prises en compte. Chaque case indique la part des mariages de cette ligne tombant dans ce mois (les professions ont des effectifs très différents ; comparer des pourcentages plutôt que des effectifs bruts évite de fausser la lecture). La ligne « Ensemble » sert de référence.</p>
+                <div class="controls" style="margin-bottom:10px;">
+                    <label for="socSeasonMinYear">De</label>
+                    <input type="number" id="socSeasonMinYear" placeholder="année min" style="width:100px;">
+                    <label for="socSeasonMaxYear">à</label>
+                    <input type="number" id="socSeasonMaxYear" placeholder="année max" style="width:100px;">
+                    <button id="socSeasonResetBtn" class="secondary">Toutes périodes</button>
+                </div>
+                <div class="society-stat-card" id="socSeasonHighlight" style="text-align:left; display:none; margin-bottom:12px;">
+                    <div class="lbl" id="socSeasonHighlightText"></div>
+                </div>
+                <div id="socSeasonalityChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+            </div>
+
+            <div class="society-section">
                 <h3>📄 Complétude documentaire</h3>
                 <p class="hint">Ce fichier ne code pas de sources (tag SOUR) : la complétude est estimée sur 4 critères — naissance datée, décès daté, lieu renseigné, détail biographique (profession, recensement, résidence...). Un vivant peut légitimement n'avoir aucune date de décès : ne pas sur-interpréter un score bas pour les générations récentes.</p>
                 <div class="society-stat-grid">
@@ -296,7 +315,7 @@ import {
     drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
-import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart } from './assets/js/society.js';
+import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap } from './assets/js/society.js';
 import { loadCommunesPopulation } from './assets/js/communes-population.js';
 
 // --- Sous-navigation : bascule entre les deux volets fusionnés sur cette page ---
@@ -489,8 +508,38 @@ mapTimeSliderEl.addEventListener('input', () => { updateTimeLabel(); renderFilte
 const societyStatus = document.getElementById('societyStatus');
 const societyContent = document.getElementById('societyContent');
 const socDocDownloadBtn = document.getElementById('socDocDownloadBtn');
+const socSeasonMinYearEl = document.getElementById('socSeasonMinYear');
+const socSeasonMaxYearEl = document.getElementById('socSeasonMaxYear');
+const socSeasonResetBtn = document.getElementById('socSeasonResetBtn');
+const socSeasonHighlightEl = document.getElementById('socSeasonHighlight');
+const socSeasonHighlightTextEl = document.getElementById('socSeasonHighlightText');
 
 let fullSparseList = [];
+
+function renderMarriageSeasonality() {
+    if (!list.length) return;
+    const minYear = socSeasonMinYearEl.value ? parseInt(socSeasonMinYearEl.value, 10) : null;
+    const maxYear = socSeasonMaxYearEl.value ? parseInt(socSeasonMaxYearEl.value, 10) : null;
+    const seasonality = computeMarriageSeasonality(list, fams, { minYear, maxYear });
+
+    drawSeasonalityHeatmap('socSeasonalityChart', seasonality);
+
+    const s = seasonality.mostSkewed;
+    if (s) {
+        socSeasonHighlightEl.style.display = '';
+        const direction = s.profPct > s.overallPct ? 'plus' : 'moins';
+        socSeasonHighlightTextEl.innerHTML = `💡 <strong>${escapeHtml(s.profession)}</strong> : ${s.profPct}% des mariages ont lieu en <strong>${s.month}</strong>, contre ${s.overallPct}% en moyenne pour l'ensemble des mariages datés (${direction} fréquent que la moyenne, sur ${s.total} mariage${s.total > 1 ? 's' : ''} de cette profession).`;
+    } else {
+        socSeasonHighlightEl.style.display = 'none';
+    }
+}
+socSeasonMinYearEl.addEventListener('change', renderMarriageSeasonality);
+socSeasonMaxYearEl.addEventListener('change', renderMarriageSeasonality);
+socSeasonResetBtn.addEventListener('click', () => {
+    socSeasonMinYearEl.value = '';
+    socSeasonMaxYearEl.value = '';
+    renderMarriageSeasonality();
+});
 
 function setStat(id, value) {
     const el = document.getElementById(id);
@@ -546,6 +595,8 @@ function renderCitySizeSection(citySize) {
 }
 
 function renderSociety(stats) {
+    renderMarriageSeasonality();
+
     // Professions
     setStat('socProfTotal', stats.professions.total);
     const trans = stats.professions.fatherSonTransmission;
