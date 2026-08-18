@@ -617,6 +617,20 @@ export function initHypotheses() {
     document.getElementById("hypBtnZoomIn").addEventListener("click", () => hypZoom(1 / 1.25));
     document.getElementById("hypBtnZoomOut").addEventListener("click", () => hypZoom(1.25));
 
+    // Zoom molette : centré sur le point pointé par la souris (pas sur le centre du viewBox), pour
+    // que le contenu sous le curseur reste sous le curseur pendant le zoom, comme dans un éditeur
+    // de carte classique. preventDefault empêche le scroll de la page pendant le survol du canevas.
+    hypSvg.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const pt = hypToSvgPoint(e);
+        const factor = e.deltaY < 0 ? 1 / 1.1 : 1.1;
+        const w = hypClamp(hypVb.w * factor, 300, 12000);
+        const h = w * (hypVb.h / hypVb.w);
+        const fx = (pt.x - hypVb.x) / hypVb.w, fy = (pt.y - hypVb.y) / hypVb.h;
+        hypVb = { x: pt.x - fx * w, y: pt.y - fy * h, w, h };
+        hypSvg.setAttribute("viewBox", `${hypVb.x} ${hypVb.y} ${hypVb.w} ${hypVb.h}`);
+    }, { passive: false });
+
     // Écarter/resserrer tout : le multiplicateur du niveau 1 entre dans le produit cumulatif de
     // hypEffectiveSpacingScale() pour TOUTE génération >= 1 (cf. boucle k=1..g), donc le modifier
     // seul suffit à écarter/resserrer l'ensemble de l'arbre en une fois, en préservant les réglages
@@ -642,7 +656,7 @@ export function initHypotheses() {
         });
         g.appendChild(circle);
         if (label) {
-            const text = hypSvgEl("text", { y: (opts.r || 20) + 14, "text-anchor": "middle" });
+            const text = hypSvgEl("text", { y: (opts.r || 20) + 14 + (opts.labelDy || 0), "text-anchor": "middle" });
             // Un style CSS global non scopé (prévu pour l'arbre éventail : "text { font-size:7px;
             // fill:#222; text-shadow:... }") gagne toujours sur les attributs de présentation SVG
             // comme ceux ci-dessus : on force donc taille/couleur via le style inline (qui gagne sur
@@ -792,7 +806,12 @@ export function initHypotheses() {
                 fill: f.side === "paternel" ? "#dbe8fb" : "#fbdbe8",
                 stroke: f.side === "paternel" ? "#4f8fe0" : "#e05f8f",
                 title: `${f.indi.name} — génération ${f.g}, branche ${f.side}`,
-                nodeKey: key, gen: f.g
+                nodeKey: key, gen: f.g,
+                // Aux générations profondes, les slots d'une même génération sont rapprochés
+                // (hypRealSlotX) au point que les libellés adjacents se chevaucheraient s'ils
+                // restaient tous alignés sur la même ligne sous leur nœud : on alterne un cran plus
+                // bas un slot sur deux pour les séparer verticalement.
+                labelDy: (f.index % 2) * 13
             });
             knownPosById[f.indi.id] = { x, y, gen: f.g, side: f.side };
         }

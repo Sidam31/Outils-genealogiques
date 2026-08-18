@@ -59,6 +59,9 @@ export class GedcomParser {
                     type='INDI';
                     cur={
                         id:this.clean(tag), name:'Inconnu', given:null, surname:null, birth:{}, death:{}, fams:[], childrenCount:0, occupations:[],
+                        // Un "1 NAME" par nom (nom légal, alias/pseudonyme via "2 TYPE aka"...) est mis en
+                        // attente ici, résolu en postProcess() une fois tous rencontrés (voir _names/_curNameBuf).
+                        _names:[], _curNameBuf:null,
                         // EMIG/IMMI suivent le même schéma simple (une seule "case") que BIRT/DEAT/BURI/BAPM :
                         // contrairement à CENS/RESI ci-dessous, une personne n'émigre/n'immigre en général
                         // qu'une fois dans un fichier GEDCOM donné, donc pas d'accumulation en tableau ici.
@@ -108,11 +111,15 @@ export class GedcomParser {
             // (ex. "Jean/Dupont/") : on force un espace autour du nom entre slashes plutôt que de
             // simplement retirer les "/", puis on nettoie les espaces multiples qui en résultent.
             if(t==='NAME') {
-                i.name=v.replace(/\/([^\/]*)\//g, ' $1 ').replace(/\s+/g, ' ').trim();
+                // Plusieurs "1 NAME" sont possibles pour une même personne (nom légal, alias...) :
+                // celui en cours est mis en file (_curNameBuf) plutôt qu'écrit directement sur i,
+                // le "2 TYPE" qui le qualifie éventuellement n'arrivant qu'après cette ligne.
+                if(i._curNameBuf) i._names.push(i._curNameBuf);
+                const full = v.replace(/\/([^\/]*)\//g, ' $1 ').replace(/\s+/g, ' ').trim();
                 // Prénom/nom déduits de "Prénom /NOM/" : servent de repli si le fichier ne fournit
                 // pas de sous-tags GIVN/SURN dédiés (voir lvl===2 ci-dessous, qui prime sur ceci).
                 const nm = v.match(/^([^\/]*)\/([^\/]*)\//);
-                if(nm) { i.given = nm[1].trim() || null; i.surname = nm[2].trim() || null; }
+                i._curNameBuf = { full, given: nm ? (nm[1].trim() || null) : null, surname: nm ? (nm[2].trim() || null) : null, type: null };
             }
             if(t==='FAMC') i.famc=this.clean(v);
             if(t==='FAMS') i.fams.push(this.clean(v));
@@ -163,8 +170,12 @@ export class GedcomParser {
         else if(lvl===2) {
             if(t!=='PLAC') this._curPlaceStub = null; // DATE/ADDR/SOUR... referment le contexte du lieu précédent
             // GIVN/SURN (sous NAME) priment sur le repli "Prénom /NOM/" du niveau 1 ci-dessus.
-            if(t==='GIVN' && i._ctx==='NAME' && v && v.trim()) i.given = v.trim();
-            if(t==='SURN' && i._ctx==='NAME' && v && v.trim()) i.surname = v.trim();
+            if(t==='GIVN' && i._ctx==='NAME' && v && v.trim() && i._curNameBuf) i._curNameBuf.given = v.trim();
+            if(t==='SURN' && i._ctx==='NAME' && v && v.trim() && i._curNameBuf) i._curNameBuf.surname = v.trim();
+            // Qualifie le "1 NAME" en cours : "birth" (ou absence de TYPE) sert de nom légal de
+            // référence (given/surname utilisés pour les recherches d'archives et l'appariement
+            // INSEE) ; "aka"/"nickname"/"alias" est l'alias préféré pour l'affichage (voir postProcess).
+            if(t==='TYPE' && i._ctx==='NAME' && v && v.trim() && i._curNameBuf) i._curNameBuf.type = v.trim().toLowerCase();
             if(t==='DATE') {
                 const y=this.getYear(v);
                 const approx=this.isApproxDate(v);
@@ -420,6 +431,25 @@ export class GedcomParser {
     }
     postProcess() {
         this.indis.forEach(i => {
+            // Résolution des "1 NAME" mis en attente (voir parseIndi) : le nom légal (TYPE "birth",
+            // ou à défaut sans TYPE, ou à défaut le premier rencontré) fournit given/surname — utilisés
+            // pour les recherches d'archives et l'appariement INSEE, donc toujours l'identité civile —
+            // tandis que l'alias (TYPE "aka"/"nickname"/"alias"), s'il existe, devient le nom AFFICHÉ
+            // (i.name) partout dans l'appli, sans toucher à given/surname.
+            if(i._curNameBuf) { i._names.push(i._curNameBuf); i._curNameBuf = null; }
+            if(i._names.length) {
+                const aliasEntry = i._names.find(n => n.type && /aka|nickname|alias/.test(n.type));
+                const primaryEntry = i._names.find(n => n.type === 'birth') || i._names.find(n => !n.type) || i._names[0];
+                if(primaryEntry) {
+                    i.name = primaryEntry.full || i.name;
+                    if(primaryEntry.given) i.given = primaryEntry.given;
+                    if(primaryEntry.surname) i.surname = primaryEntry.surname;
+                }
+                i.legalName = primaryEntry ? primaryEntry.full : i.name;
+                i.aliasName = aliasEntry ? aliasEntry.full : null;
+                if(i.aliasName) i.name = i.aliasName;
+            }
+            delete i._names; delete i._curNameBuf;
             if(i.famc) { const f=this.fams.get(i.famc); if(f) { if(f.husb) i.fatherId=f.husb; if(f.wife) i.motherId=f.wife; } }
             if(i.birth.year && i.death.year) i.ageDeath = i.death.year - i.birth.year;
             let fMarrY=null, fChildY=null, tot=0;
