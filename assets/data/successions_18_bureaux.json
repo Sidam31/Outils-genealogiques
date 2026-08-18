@@ -1,0 +1,1086 @@
+{
+  "ACHERES": {
+    "bureau": "Henrichemont",
+    "distanceKm": 6.2
+  },
+  "AINAY LE VIEIL": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 7.6
+  },
+  "ALLOGNY": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 6.0
+  },
+  "ALLOUIS": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 5.4
+  },
+  "ANNOIX": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 8.9
+  },
+  "APREMONT SUR ALLIER": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 7.4
+  },
+  "APREMONT": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 7.4
+  },
+  "ARCOMPS": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 9.2
+  },
+  "ARDENAIS": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 4.7
+  },
+  "ARGENT SUR SAULDRE": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 8.5
+  },
+  "ARGENVIERES": {
+    "bureau": "Sancergues",
+    "distanceKm": 7.1
+  },
+  "ARPHEUILLES": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 8.4
+  },
+  "ARCAY": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 7.0
+  },
+  "ASSIGNY": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 8.2
+  },
+  "AUBINGES": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 3.6
+  },
+  "AUGY SUR AUBOIS": {
+    "bureau": "Sancoins",
+    "distanceKm": 5.8
+  },
+  "AVORD": {
+    "bureau": "Baugy",
+    "distanceKm": 6.9
+  },
+  "AZY": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 11.1
+  },
+  "BANNAY": {
+    "bureau": "Sancerre",
+    "distanceKm": 7.5
+  },
+  "BANNEGON": {
+    "bureau": "Charenton-du-Cher",
+    "distanceKm": 8.7
+  },
+  "BARLIEU": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 4.4
+  },
+  "BEDDES": {
+    "bureau": "Châteaumeillant",
+    "distanceKm": 6.0
+  },
+  "BEFFES": {
+    "bureau": "Sancergues",
+    "distanceKm": 10.5
+  },
+  "BELLEVILLE SUR LOIRE": {
+    "bureau": "Léré",
+    "distanceKm": 4.6
+  },
+  "BELLEVILLE": {
+    "bureau": "Léré",
+    "distanceKm": 4.6
+  },
+  "BENGY SUR CRAON": {
+    "bureau": "Baugy",
+    "distanceKm": 6.7
+  },
+  "BERRY BOUY": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 4.9
+  },
+  "BESSAIS LE FROMENTAL": {
+    "bureau": "Charenton-du-Cher",
+    "distanceKm": 9.4
+  },
+  "BLANCAFORT": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 10.7
+  },
+  "BLET": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 13.4
+  },
+  "BOULLERET": {
+    "bureau": "Léré",
+    "distanceKm": 3.8
+  },
+  "BOUZAIS": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 4.3
+  },
+  "BRINAY": {
+    "bureau": "Vierzon",
+    "distanceKm": 8.1
+  },
+  "BRINON SUR SAULDRE": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 17.5
+  },
+  "BRUERE ALLICHAMPS": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 8.8
+  },
+  "BRECY": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 8.8
+  },
+  "BUSSY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 5.3
+  },
+  "BUE": {
+    "bureau": "Sancerre",
+    "distanceKm": 2.8
+  },
+  "CERBOIS": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 9.0
+  },
+  "CHALIVOY MILON": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 11.2
+  },
+  "CHAMBON": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 9.9
+  },
+  "CHARENTONNAY": {
+    "bureau": "Sancergues",
+    "distanceKm": 3.2
+  },
+  "CHARLY": {
+    "bureau": "Nérondes",
+    "distanceKm": 12.8
+  },
+  "CHASSY": {
+    "bureau": "Nérondes",
+    "distanceKm": 4.2
+  },
+  "CHAUMONT": {
+    "bureau": "Sancoins",
+    "distanceKm": 12.2
+  },
+  "CHAUMOUX MARCILLY": {
+    "bureau": "Sancergues",
+    "distanceKm": 9.5
+  },
+  "CHAVANNES": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 4.6
+  },
+  "CHEZAL BENOIT": {
+    "bureau": "Lignières",
+    "distanceKm": 11.4
+  },
+  "CHERY": {
+    "bureau": "Vierzon",
+    "distanceKm": 13.8
+  },
+  "CIVRAY": {
+    "bureau": "Chârost",
+    "distanceKm": 4.8
+  },
+  "CLEMONT": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 11.0
+  },
+  "COGNY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 8.7
+  },
+  "COLOMBIERS": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 4.2
+  },
+  "CONCRESSAULT": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 7.0
+  },
+  "CONTRES": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 5.6
+  },
+  "CORNUSSE": {
+    "bureau": "Nérondes",
+    "distanceKm": 9.8
+  },
+  "CORQUOY": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 3.9
+  },
+  "COUARGUES": {
+    "bureau": "Sancerre",
+    "distanceKm": 9.3
+  },
+  "COURS LES BARRES": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 10.2
+  },
+  "COUST": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 7.4
+  },
+  "COUY": {
+    "bureau": "Sancergues",
+    "distanceKm": 8.3
+  },
+  "CROISY": {
+    "bureau": "Nérondes",
+    "distanceKm": 8.6
+  },
+  "CROSSES": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 12.9
+  },
+  "CREZANCY EN SANCERRE": {
+    "bureau": "Sancerre",
+    "distanceKm": 6.2
+  },
+  "CREZANCY": {
+    "bureau": "Sancerre",
+    "distanceKm": 6.2
+  },
+  "CREZANCAY SUR CHER": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 6.0
+  },
+  "CUFFY": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 7.4
+  },
+  "CULAN": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 10.4
+  },
+  "DAMPIERRE EN CROT": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 5.0
+  },
+  "DAMPIERRE EN GRACAY": {
+    "bureau": "Vierzon",
+    "distanceKm": 11.8
+  },
+  "DREVANT": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 2.9
+  },
+  "ENNORDRES": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 7.3
+  },
+  "FARGES ALLICHAMPS": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 9.2
+  },
+  "FARGES EN SEPTAINE": {
+    "bureau": "Baugy",
+    "distanceKm": 8.2
+  },
+  "FAVERDINES": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 4.3
+  },
+  "FEUX": {
+    "bureau": "Sancergues",
+    "distanceKm": 7.9
+  },
+  "FLAVIGNY": {
+    "bureau": "Nérondes",
+    "distanceKm": 5.4
+  },
+  "FOECY": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 7.7
+  },
+  "FUSSY": {
+    "bureau": "Bourges",
+    "distanceKm": 7.6
+  },
+  "GARDEFORT": {
+    "bureau": "Sancerre",
+    "distanceKm": 7.4
+  },
+  "GARIGNY": {
+    "bureau": "Sancergues",
+    "distanceKm": 8.3
+  },
+  "GENOUILLY": {
+    "bureau": "Vierzon",
+    "distanceKm": 15.3
+  },
+  "GERMIGNY L EXEMPT": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 6.7
+  },
+  "GIVARDON": {
+    "bureau": "Sancoins",
+    "distanceKm": 8.3
+  },
+  "GRACAY": {
+    "bureau": "Vierzon",
+    "distanceKm": 20.1
+  },
+  "GROISES": {
+    "bureau": "Sancergues",
+    "distanceKm": 9.0
+  },
+  "GRON": {
+    "bureau": "Baugy",
+    "distanceKm": 6.7
+  },
+  "GROSSOUVRE": {
+    "bureau": "Sancoins",
+    "distanceKm": 6.6
+  },
+  "HERRY": {
+    "bureau": "Sancergues",
+    "distanceKm": 7.8
+  },
+  "HUMBLIGNY": {
+    "bureau": "Henrichemont",
+    "distanceKm": 9.1
+  },
+  "IDS SAINT ROCH": {
+    "bureau": "Lignières",
+    "distanceKm": 6.4
+  },
+  "IGNOL": {
+    "bureau": "Nérondes",
+    "distanceKm": 5.4
+  },
+  "INEUIL": {
+    "bureau": "Lignières",
+    "distanceKm": 5.5
+  },
+  "IVOY LE PRE": {
+    "bureau": "Henrichemont",
+    "distanceKm": 6.6
+  },
+  "JALOGNES": {
+    "bureau": "Sancerre",
+    "distanceKm": 11.2
+  },
+  "JARS": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 7.1
+  },
+  "JOUET SUR L AUBOIS": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 11.3
+  },
+  "JUSSY CHAMPAGNE": {
+    "bureau": "Baugy",
+    "distanceKm": 10.6
+  },
+  "JUSSY LE CHAUDRIER": {
+    "bureau": "Sancergues",
+    "distanceKm": 5.4
+  },
+  "LA CELETTE": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 5.2
+  },
+  "LA CELLE": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 6.6
+  },
+  "LA CELLE CONDE": {
+    "bureau": "Lignières",
+    "distanceKm": 3.4
+  },
+  "LA CHAPELLE HUGON": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 6.8
+  },
+  "LA CHAPELLE MONTLINARD": {
+    "bureau": "Sancergues",
+    "distanceKm": 6.4
+  },
+  "LA CHAPELLE SAINT URSIN": {
+    "bureau": "Bourges",
+    "distanceKm": 6.4
+  },
+  "LA CHAPELLE D ANGILLON": {
+    "bureau": "Henrichemont",
+    "distanceKm": 10.7
+  },
+  "LA CHAPELOTTE": {
+    "bureau": "Henrichemont",
+    "distanceKm": 6.0
+  },
+  "LA GROUTTE": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 3.9
+  },
+  "LA PERCHE": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 7.6
+  },
+  "LANTAN": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 8.1
+  },
+  "LAPAN": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 7.1
+  },
+  "LAVERDINES": {
+    "bureau": "Bourges",
+    "distanceKm": 0.0
+  },
+  "LAZENAY": {
+    "bureau": "Chârost",
+    "distanceKm": 9.7
+  },
+  "LE CHAUTAY": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 3.9
+  },
+  "LE NOYER": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 9.9
+  },
+  "LE PONDY": {
+    "bureau": "Charenton-du-Cher",
+    "distanceKm": 6.8
+  },
+  "LE SUBDRAY": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 4.8
+  },
+  "LEVET": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 7.7
+  },
+  "LIMEUX": {
+    "bureau": "Chârost",
+    "distanceKm": 8.9
+  },
+  "LISSAY LOCHY": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 10.6
+  },
+  "LOYE SUR ARNON": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 7.6
+  },
+  "LUGNY BOURBONNAIS": {
+    "bureau": "Bourges",
+    "distanceKm": 0.0
+  },
+  "LUGNY CHAMPAGNE": {
+    "bureau": "Sancergues",
+    "distanceKm": 5.9
+  },
+  "LUNERY": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 6.3
+  },
+  "LURY SUR ARNON": {
+    "bureau": "Vierzon",
+    "distanceKm": 11.5
+  },
+  "MAISONNAIS": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 5.8
+  },
+  "MAREUIL SUR ARNON": {
+    "bureau": "Lignières",
+    "distanceKm": 13.3
+  },
+  "MARMAGNE": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 5.7
+  },
+  "MARSEILLES LES AUBIGNY": {
+    "bureau": "Sancergues",
+    "distanceKm": 12.1
+  },
+  "MARSEILLE LES AUBIGNY": {
+    "bureau": "Sancergues",
+    "distanceKm": 12.1
+  },
+  "MARCAIS": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 9.5
+  },
+  "MASSAY": {
+    "bureau": "Vierzon",
+    "distanceKm": 11.1
+  },
+  "MEILLANT": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 7.4
+  },
+  "MENETOU COUTURE": {
+    "bureau": "Nérondes",
+    "distanceKm": 8.3
+  },
+  "MENETOU RATEL": {
+    "bureau": "Sancerre",
+    "distanceKm": 5.9
+  },
+  "MENETOU SALON": {
+    "bureau": "Henrichemont",
+    "distanceKm": 7.3
+  },
+  "MONTIGNY": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 10.3
+  },
+  "MONTLOUIS": {
+    "bureau": "Lignières",
+    "distanceKm": 6.1
+  },
+  "MORLAC": {
+    "bureau": "Lignières",
+    "distanceKm": 9.9
+  },
+  "MORNAY BERRY": {
+    "bureau": "Nérondes",
+    "distanceKm": 5.8
+  },
+  "MORNAY SUR ALLIER": {
+    "bureau": "Sancoins",
+    "distanceKm": 7.5
+  },
+  "MOROGUES": {
+    "bureau": "Henrichemont",
+    "distanceKm": 6.6
+  },
+  "MORTHOMIERS": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 5.6
+  },
+  "MOULINS SUR YEVRE": {
+    "bureau": "Bourges",
+    "distanceKm": 9.9
+  },
+  "MENETREOL SOUS SANCERRE": {
+    "bureau": "Sancerre",
+    "distanceKm": 3.7
+  },
+  "MENETREOL SUR SAULDRE": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 10.0
+  },
+  "MEREAU": {
+    "bureau": "Vierzon",
+    "distanceKm": 6.3
+  },
+  "MERY SUR CHER": {
+    "bureau": "Vierzon",
+    "distanceKm": 6.6
+  },
+  "MERY ES BOIS": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 9.8
+  },
+  "NANCAY": {
+    "bureau": "Vierzon",
+    "distanceKm": 16.7
+  },
+  "NEUILLY EN DUN": {
+    "bureau": "Sancoins",
+    "distanceKm": 9.7
+  },
+  "NEUILLY EN SANCERRE": {
+    "bureau": "Henrichemont",
+    "distanceKm": 9.1
+  },
+  "NEUVY DEUX CLOCHERS": {
+    "bureau": "Henrichemont",
+    "distanceKm": 10.4
+  },
+  "NEUVY LE BARROIS": {
+    "bureau": "Sancoins",
+    "distanceKm": 9.4
+  },
+  "NEUVY SUR BARANGEON": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 15.6
+  },
+  "NOHANT EN GOUT": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 11.5
+  },
+  "NOHANT EN GRACAY": {
+    "bureau": "Vierzon",
+    "distanceKm": 16.8
+  },
+  "NOZIERES": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 7.1
+  },
+  "OIZON": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 7.8
+  },
+  "ORCENAIS": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 7.9
+  },
+  "ORVAL": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 3.7
+  },
+  "OSMERY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 9.3
+  },
+  "OSMOY": {
+    "bureau": "Bourges",
+    "distanceKm": 8.6
+  },
+  "OUROUER LES BOURDELINS": {
+    "bureau": "Nérondes",
+    "distanceKm": 10.5
+  },
+  "PARASSY": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 5.5
+  },
+  "PARNAY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 4.2
+  },
+  "PIGNY": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 7.5
+  },
+  "PLAIMPIED GIVAUDINS": {
+    "bureau": "Bourges",
+    "distanceKm": 8.2
+  },
+  "PLOU": {
+    "bureau": "Chârost",
+    "distanceKm": 4.8
+  },
+  "POISIEUX": {
+    "bureau": "Chârost",
+    "distanceKm": 4.8
+  },
+  "PRESLY": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 13.1
+  },
+  "PREUILLY": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 6.1
+  },
+  "PRIMELLES": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 10.0
+  },
+  "PRECY": {
+    "bureau": "Sancergues",
+    "distanceKm": 8.1
+  },
+  "PREVERANGES": {
+    "bureau": "Châteaumeillant",
+    "distanceKm": 11.3
+  },
+  "QUANTILLY": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 4.9
+  },
+  "QUINCY": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 5.1
+  },
+  "RAYMOND": {
+    "bureau": "Baugy",
+    "distanceKm": 10.6
+  },
+  "REIGNY": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 5.5
+  },
+  "REZAY": {
+    "bureau": "Lignières",
+    "distanceKm": 10.2
+  },
+  "RIANS": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 4.4
+  },
+  "SAGONNE": {
+    "bureau": "Sancoins",
+    "distanceKm": 7.9
+  },
+  "SAINT AIGNAN DES NOYERS": {
+    "bureau": "Sancoins",
+    "distanceKm": 9.9
+  },
+  "SAINT AMBROIX": {
+    "bureau": "Chârost",
+    "distanceKm": 7.0
+  },
+  "SAINT BAUDEL": {
+    "bureau": "Lignières",
+    "distanceKm": 10.3
+  },
+  "SAINT BOUIZE": {
+    "bureau": "Sancerre",
+    "distanceKm": 8.2
+  },
+  "SAINT CAPRAIS": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 4.0
+  },
+  "SAINT CHRISTOPHE LE CHAUDRY": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 7.3
+  },
+  "SAINT CEOLS": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 6.3
+  },
+  "SAINT DENIS DE PALIN": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 5.8
+  },
+  "SAINT DOULCHARD": {
+    "bureau": "Bourges",
+    "distanceKm": 5.0
+  },
+  "SAINT GEORGES DE POISIEUX": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 5.2
+  },
+  "SAINT GEORGES SUR MOULON": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 4.4
+  },
+  "SAINT GEORGES SUR LA PREE": {
+    "bureau": "Vierzon",
+    "distanceKm": 9.9
+  },
+  "SAINT GERMAIN DES BOIS": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 7.9
+  },
+  "SAINT GERMAIN DU PUY": {
+    "bureau": "Bourges",
+    "distanceKm": 7.3
+  },
+  "SAINT HILAIRE DE COURT": {
+    "bureau": "Vierzon",
+    "distanceKm": 6.8
+  },
+  "SAINT HILAIRE DE GONDILLY": {
+    "bureau": "Nérondes",
+    "distanceKm": 5.9
+  },
+  "SAINT HILAIRE EN LIGNIERES": {
+    "bureau": "Lignières",
+    "distanceKm": 6.1
+  },
+  "SAINT JEANVRIN": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 5.1
+  },
+  "SAINT JUST": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 11.5
+  },
+  "SAINT LAURENT": {
+    "bureau": "Vierzon",
+    "distanceKm": 8.2
+  },
+  "SAINT LOUP DES CHAUMES": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 5.7
+  },
+  "SAINT LEGER LE PETIT": {
+    "bureau": "Sancergues",
+    "distanceKm": 8.8
+  },
+  "SAINT MARTIN DES CHAMPS": {
+    "bureau": "Sancergues",
+    "distanceKm": 2.4
+  },
+  "SAINT MAUR": {
+    "bureau": "Châteaumeillant",
+    "distanceKm": 5.9
+  },
+  "SAINT MICHEL DE VOLANGIS": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 8.5
+  },
+  "SAINT OUTRILLE": {
+    "bureau": "Vierzon",
+    "distanceKm": 22.8
+  },
+  "SAINT PALAIS": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 3.8
+  },
+  "SAINT PIERRE LES BOIS": {
+    "bureau": "Le Châtelet",
+    "distanceKm": 5.1
+  },
+  "SAINT PIERRE LES ETIEUX": {
+    "bureau": "Charenton-du-Cher",
+    "distanceKm": 4.9
+  },
+  "SAINT PRIEST LA MARCHE": {
+    "bureau": "Châteaumeillant",
+    "distanceKm": 11.6
+  },
+  "SAINT SATUR": {
+    "bureau": "Sancerre",
+    "distanceKm": 3.7
+  },
+  "SAINT SATURNIN": {
+    "bureau": "Châteaumeillant",
+    "distanceKm": 5.6
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 7.2
+  },
+  "SAINT VITTE": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 7.3
+  },
+  "SAINT ELOY DE GY": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 7.0
+  },
+  "SAINTE GEMME EN SANCERROIS": {
+    "bureau": "Léré",
+    "distanceKm": 7.9
+  },
+  "SAINTE GEMME": {
+    "bureau": "Léré",
+    "distanceKm": 7.9
+  },
+  "SAINTE LUNAISE": {
+    "bureau": "Bourges",
+    "distanceKm": 0.0
+  },
+  "SAINTE MONTAINE": {
+    "bureau": "Aubigny-sur-Nère",
+    "distanceKm": 7.5
+  },
+  "SAINTE SOLANGE": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 5.7
+  },
+  "SAINTE THORETTE": {
+    "bureau": "Mehun-sur-Yèvre",
+    "distanceKm": 5.7
+  },
+  "SALIGNY LE VIF": {
+    "bureau": "Bourges",
+    "distanceKm": 0.0
+  },
+  "SANTRANGES": {
+    "bureau": "Léré",
+    "distanceKm": 9.3
+  },
+  "SAUGY": {
+    "bureau": "Chârost",
+    "distanceKm": 3.3
+  },
+  "SAVIGNY EN SANCERRE": {
+    "bureau": "Léré",
+    "distanceKm": 6.2
+  },
+  "SAVIGNY EN SEPTAINE": {
+    "bureau": "Bourges",
+    "distanceKm": 13.1
+  },
+  "SENNECAY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 10.4
+  },
+  "SENS BEAUJEU": {
+    "bureau": "Sancerre",
+    "distanceKm": 10.5
+  },
+  "SERRUELLES": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 3.6
+  },
+  "SIDIAILLES": {
+    "bureau": "Châteaumeillant",
+    "distanceKm": 9.8
+  },
+  "SOULANGIS": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 3.8
+  },
+  "SOYE EN SEPTAINE": {
+    "bureau": "Bourges",
+    "distanceKm": 8.6
+  },
+  "SUBLIGNY": {
+    "bureau": "Sancerre",
+    "distanceKm": 9.4
+  },
+  "SURY EN VAUX": {
+    "bureau": "Sancerre",
+    "distanceKm": 5.5
+  },
+  "SURY PRES LERE": {
+    "bureau": "Léré",
+    "distanceKm": 3.1
+  },
+  "SURY EN LERE": {
+    "bureau": "Léré",
+    "distanceKm": 3.1
+  },
+  "SURY ES BOIS": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 4.9
+  },
+  "SEVRY": {
+    "bureau": "Sancergues",
+    "distanceKm": 6.8
+  },
+  "TENDRON": {
+    "bureau": "Nérondes",
+    "distanceKm": 3.2
+  },
+  "THAUMIERS": {
+    "bureau": "Charenton-du-Cher",
+    "distanceKm": 8.6
+  },
+  "THAUVENAY": {
+    "bureau": "Sancerre",
+    "distanceKm": 5.2
+  },
+  "THOU": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 4.3
+  },
+  "THENIOUX": {
+    "bureau": "Vierzon",
+    "distanceKm": 11.3
+  },
+  "TORTERON": {
+    "bureau": "La Guerche-sur-l'Aubois",
+    "distanceKm": 7.1
+  },
+  "TOUCHAY": {
+    "bureau": "Lignières",
+    "distanceKm": 5.0
+  },
+  "TROUY": {
+    "bureau": "Bourges",
+    "distanceKm": 6.3
+  },
+  "UZAY LE VENON": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 9.9
+  },
+  "VALLENAY": {
+    "bureau": "Saint-Amand-Montrond",
+    "distanceKm": 11.3
+  },
+  "VASSELAY": {
+    "bureau": "Saint-Martin-d'Auxigny",
+    "distanceKm": 6.5
+  },
+  "VEAUGUES": {
+    "bureau": "Sancerre",
+    "distanceKm": 8.3
+  },
+  "VENESMES": {
+    "bureau": "Châteauneuf-sur-Cher",
+    "distanceKm": 4.4
+  },
+  "VERDIGNY": {
+    "bureau": "Sancerre",
+    "distanceKm": 2.9
+  },
+  "VEREAUX": {
+    "bureau": "Sancoins",
+    "distanceKm": 6.7
+  },
+  "VERNAIS": {
+    "bureau": "Charenton-du-Cher",
+    "distanceKm": 5.1
+  },
+  "VERNEUIL": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 8.4
+  },
+  "VESDUN": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 6.0
+  },
+  "VIGNOUX SOUS LES AIX": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 7.2
+  },
+  "VIGNOUX SUR BARANGEON": {
+    "bureau": "Vierzon",
+    "distanceKm": 8.9
+  },
+  "VILLABON": {
+    "bureau": "Baugy",
+    "distanceKm": 7.5
+  },
+  "VILLECELIN": {
+    "bureau": "Lignières",
+    "distanceKm": 7.2
+  },
+  "VILLEGENON": {
+    "bureau": "Vailly-sur-Sauldre",
+    "distanceKm": 5.7
+  },
+  "VILLENEUVE SUR CHER": {
+    "bureau": "Saint-Florent-sur-Cher",
+    "distanceKm": 4.7
+  },
+  "VILLEQUIERS": {
+    "bureau": "Baugy",
+    "distanceKm": 4.5
+  },
+  "VINON": {
+    "bureau": "Sancerre",
+    "distanceKm": 5.2
+  },
+  "VORLY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 8.0
+  },
+  "VORNAY": {
+    "bureau": "Dun-sur-Auron",
+    "distanceKm": 9.0
+  },
+  "VOUZERON": {
+    "bureau": "Vierzon",
+    "distanceKm": 10.8
+  },
+  "EPINEUIL LE FLEURIEL": {
+    "bureau": "Saulzais-le-Potier",
+    "distanceKm": 5.6
+  },
+  "ETRECHY": {
+    "bureau": "Les Aix-d'Angillon",
+    "distanceKm": 11.7
+  }
+}

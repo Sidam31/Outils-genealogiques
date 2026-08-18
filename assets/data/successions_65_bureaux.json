@@ -1,0 +1,1942 @@
+{
+  "ADAST": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 3.8
+  },
+  "ADERVIELLE POUCHERGUES": {
+    "bureau": "Arreau",
+    "distanceKm": 14.0
+  },
+  "ADERVIELLE": {
+    "bureau": "Arreau",
+    "distanceKm": 14.0
+  },
+  "ADE": {
+    "bureau": "Ossun",
+    "distanceKm": 4.3
+  },
+  "AGOS VIDALOS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 4.0
+  },
+  "ALLIER": {
+    "bureau": "Tarbes",
+    "distanceKm": 8.1
+  },
+  "ANCIZAN": {
+    "bureau": "Arreau",
+    "distanceKm": 3.5
+  },
+  "ANDREST": {
+    "bureau": "Tarbes",
+    "distanceKm": 8.6
+  },
+  "ANGOS": {
+    "bureau": "Tournay",
+    "distanceKm": 6.6
+  },
+  "ANLA": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 2.5
+  },
+  "ANSOST": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 6.4
+  },
+  "ANTICHAN": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 4.2
+  },
+  "ANTIN": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 6.3
+  },
+  "ANTIST": {
+    "bureau": "Tournay",
+    "distanceKm": 11.5
+  },
+  "ANERES": {
+    "bureau": "Nestier",
+    "distanceKm": 2.2
+  },
+  "ANERAN CAMORS": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "ARAGNOUET": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 15.5
+  },
+  "ARBEOST": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 14.6
+  },
+  "ARCIZAC ADOUR": {
+    "bureau": "Tarbes",
+    "distanceKm": 10.0
+  },
+  "ARCIZAC EZ ANGLES": {
+    "bureau": "Lourdes",
+    "distanceKm": 8.1
+  },
+  "ARCIZANS AVANT": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.5
+  },
+  "ARCIZANS DESSUS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.5
+  },
+  "ARDENGOST": {
+    "bureau": "Arreau",
+    "distanceKm": 6.7
+  },
+  "ARGELES BAGNERES": {
+    "bureau": "Tournay",
+    "distanceKm": 11.1
+  },
+  "ARGELES": {
+    "bureau": "Tournay",
+    "distanceKm": 11.1
+  },
+  "ARIES ESPENAN": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 2.9
+  },
+  "ARMENTEULE": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "ARNE": {
+    "bureau": "Galan",
+    "distanceKm": 9.0
+  },
+  "ARRAS EN LAVEDAN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 6.1
+  },
+  "ARRAYOU": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "ARRAYOU LAHITTE": {
+    "bureau": "Lourdes",
+    "distanceKm": 10.3
+  },
+  "LAHITTE EZ ANGLES": {
+    "bureau": "Lourdes",
+    "distanceKm": 10.3
+  },
+  "LAHITTE": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "ARRENS MARSOUS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 16.7
+  },
+  "ARRENS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 16.7
+  },
+  "ARRODETS": {
+    "bureau": "Lourdes",
+    "distanceKm": 10.7
+  },
+  "ARRODETS EZ ANGLES": {
+    "bureau": "Lourdes",
+    "distanceKm": 10.7
+  },
+  "ARTAGNAN": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 3.2
+  },
+  "ARTALENS SOUIN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.6
+  },
+  "ARTIGUEMY": {
+    "bureau": "Tournay",
+    "distanceKm": 6.4
+  },
+  "ARTIGUES": {
+    "bureau": "Lourdes",
+    "distanceKm": 7.8
+  },
+  "ASPIN AURE": {
+    "bureau": "Arreau",
+    "distanceKm": 2.5
+  },
+  "ASPIN": {
+    "bureau": "Lourdes",
+    "distanceKm": 4.7
+  },
+  "ASPIN EN LAVEDAN": {
+    "bureau": "Lourdes",
+    "distanceKm": 4.7
+  },
+  "ASQUE": {
+    "bureau": "Campan",
+    "distanceKm": 9.0
+  },
+  "ASTUGUE": {
+    "bureau": "Lourdes",
+    "distanceKm": 12.5
+  },
+  "ASTE": {
+    "bureau": "Campan",
+    "distanceKm": 7.0
+  },
+  "AUBAREDE": {
+    "bureau": "Cabanac",
+    "distanceKm": 2.2
+  },
+  "AUCUN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 8.6
+  },
+  "AULON": {
+    "bureau": "Arreau",
+    "distanceKm": 8.7
+  },
+  "AUREILHAN": {
+    "bureau": "Tarbes",
+    "distanceKm": 3.5
+  },
+  "AURENSAN": {
+    "bureau": "Tarbes",
+    "distanceKm": 7.8
+  },
+  "AURIEBAT": {
+    "bureau": "Maubourguet",
+    "distanceKm": 4.8
+  },
+  "AVAJAN": {
+    "bureau": "Arreau",
+    "distanceKm": 9.5
+  },
+  "AVENTIGNAN": {
+    "bureau": "Nestier",
+    "distanceKm": 3.7
+  },
+  "AVERAN": {
+    "bureau": "Ossun",
+    "distanceKm": 6.1
+  },
+  "AVEUX": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 3.9
+  },
+  "AVEZAC PRAT LAHITTE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 4.3
+  },
+  "AVEZAC PRAT": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 4.3
+  },
+  "AYROS ARBOUIX": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 2.6
+  },
+  "AYZAC OST": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 1.9
+  },
+  "AZEREIX": {
+    "bureau": "Ossun",
+    "distanceKm": 2.5
+  },
+  "AZET": {
+    "bureau": "Arreau",
+    "distanceKm": 14.9
+  },
+  "BANIOS": {
+    "bureau": "Campan",
+    "distanceKm": 10.1
+  },
+  "BARBACHEN": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 5.4
+  },
+  "BARBAZAN DEBAT": {
+    "bureau": "Tarbes",
+    "distanceKm": 6.6
+  },
+  "BARBAZAN DESSUS": {
+    "bureau": "Tournay",
+    "distanceKm": 8.6
+  },
+  "BAREILLES": {
+    "bureau": "Arreau",
+    "distanceKm": 8.7
+  },
+  "BARLEST": {
+    "bureau": "Lourdes",
+    "distanceKm": 4.7
+  },
+  "BARRANCOUEU": {
+    "bureau": "Arreau",
+    "distanceKm": 0.8
+  },
+  "BARRY": {
+    "bureau": "Ossun",
+    "distanceKm": 6.8
+  },
+  "BARTHE": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 3.5
+  },
+  "BARTRES": {
+    "bureau": "Lourdes",
+    "distanceKm": 3.6
+  },
+  "BAREGES": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 8.4
+  },
+  "BATSERE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 8.3
+  },
+  "BAZET": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.7
+  },
+  "BAZILLAC": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 4.7
+  },
+  "BAZORDAN": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 9.1
+  },
+  "BAZUS AURE": {
+    "bureau": "Arreau",
+    "distanceKm": 6.6
+  },
+  "BAZUS NESTE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 5.5
+  },
+  "BEAUCENS": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 9.2
+  },
+  "BEAUDEAN": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 3.1
+  },
+  "BENQUE MOLERE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 7.5
+  },
+  "BENQUE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 7.5
+  },
+  "BERBERUST LIAS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.9
+  },
+  "BERNAC DEBAT": {
+    "bureau": "Tarbes",
+    "distanceKm": 8.5
+  },
+  "BERNAC DESSUS": {
+    "bureau": "Tournay",
+    "distanceKm": 9.9
+  },
+  "BERNADETS DEBAT": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 5.6
+  },
+  "BERNADETS DESSUS": {
+    "bureau": "Tournay",
+    "distanceKm": 5.2
+  },
+  "BERTREN": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 3.2
+  },
+  "BETBEZE": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 4.6
+  },
+  "BETPOUEY": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 4.7
+  },
+  "BETPOUEY BAREGES": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 4.7
+  },
+  "BETPOUY": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 5.7
+  },
+  "BETTES": {
+    "bureau": "Tournay",
+    "distanceKm": 11.8
+  },
+  "BEYREDE JUMET CAMOUS": {
+    "bureau": "Arreau",
+    "distanceKm": 4.6
+  },
+  "BEYREDE JUMET": {
+    "bureau": "Arreau",
+    "distanceKm": 4.6
+  },
+  "BIZE": {
+    "bureau": "Nestier",
+    "distanceKm": 3.1
+  },
+  "BIZOUS": {
+    "bureau": "Nestier",
+    "distanceKm": 3.1
+  },
+  "BONNEFONT": {
+    "bureau": "Galan",
+    "distanceKm": 4.8
+  },
+  "BONNEMAZON": {
+    "bureau": "Tournay",
+    "distanceKm": 8.5
+  },
+  "BONREPOS": {
+    "bureau": "Galan",
+    "distanceKm": 4.1
+  },
+  "BORDES": {
+    "bureau": "Tournay",
+    "distanceKm": 2.4
+  },
+  "BORDERES LOURON": {
+    "bureau": "Arreau",
+    "distanceKm": 9.0
+  },
+  "BORDERES SUR L ECHEZ": {
+    "bureau": "Tarbes",
+    "distanceKm": 3.6
+  },
+  "BOUILH DEVANT": {
+    "bureau": "Cabanac",
+    "distanceKm": 7.5
+  },
+  "BOUILH PEREUILH": {
+    "bureau": "Cabanac",
+    "distanceKm": 4.6
+  },
+  "BOULIN": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.9
+  },
+  "BOURG DE BIGORRE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 10.1
+  },
+  "BOURG": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 10.1
+  },
+  "BOURISP": {
+    "bureau": "Arreau",
+    "distanceKm": 9.2
+  },
+  "BOURREAC": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.8
+  },
+  "BOURS": {
+    "bureau": "Tarbes",
+    "distanceKm": 4.7
+  },
+  "BOO SILHEN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 2.4
+  },
+  "BRAMEVAQUE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 6.8
+  },
+  "BUGARD": {
+    "bureau": "Cabanac",
+    "distanceKm": 7.6
+  },
+  "BULAN": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 9.3
+  },
+  "BUN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 6.9
+  },
+  "BURG": {
+    "bureau": "Tournay",
+    "distanceKm": 6.1
+  },
+  "BUZON": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 7.2
+  },
+  "BEGOLE": {
+    "bureau": "Tournay",
+    "distanceKm": 6.0
+  },
+  "BENAC": {
+    "bureau": "Ossun",
+    "distanceKm": 6.4
+  },
+  "CADEILHAN TRACHERE": {
+    "bureau": "Arreau",
+    "distanceKm": 12.1
+  },
+  "CADEAC": {
+    "bureau": "Arreau",
+    "distanceKm": 2.4
+  },
+  "CAHARET": {
+    "bureau": "Tournay",
+    "distanceKm": 6.9
+  },
+  "CAIXON": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 3.1
+  },
+  "CALAVANTE": {
+    "bureau": "Tournay",
+    "distanceKm": 6.8
+  },
+  "CAMALES": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 4.5
+  },
+  "CAMOUS": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "CAMPARAN": {
+    "bureau": "Arreau",
+    "distanceKm": 9.7
+  },
+  "CAMPISTROUS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 2.6
+  },
+  "CAMPUZAN": {
+    "bureau": "Galan",
+    "distanceKm": 6.8
+  },
+  "CANTAOUS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 4.5
+  },
+  "CAPVERN": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 5.1
+  },
+  "CASTELBAJAC": {
+    "bureau": "Galan",
+    "distanceKm": 5.8
+  },
+  "CASTELNAU RIVIERE BASSE": {
+    "bureau": "Castenau-Rivière-Basse",
+    "distanceKm": 0.0
+  },
+  "CASTELVIEILH": {
+    "bureau": "Cabanac",
+    "distanceKm": 1.8
+  },
+  "CASTERETS": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 5.8
+  },
+  "CASTILLON": {
+    "bureau": "Tournay",
+    "distanceKm": 10.1
+  },
+  "CASTERA LANUSSE": {
+    "bureau": "Tournay",
+    "distanceKm": 3.9
+  },
+  "CASTERA LOU": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 7.0
+  },
+  "CAUBOUS": {
+    "bureau": "Galan",
+    "distanceKm": 5.8
+  },
+  "CAUSSADE RIVIERE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 5.8
+  },
+  "CAUTERETS": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 13.5
+  },
+  "CAZARILH": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 8.7
+  },
+  "CAZAUX DEBAT": {
+    "bureau": "Arreau",
+    "distanceKm": 5.1
+  },
+  "CAZAUX FRECHET ANERAN CAMORS": {
+    "bureau": "Arreau",
+    "distanceKm": 11.8
+  },
+  "CAZAUX FRECHET": {
+    "bureau": "Arreau",
+    "distanceKm": 11.8
+  },
+  "CHELLE DEBAT": {
+    "bureau": "Cabanac",
+    "distanceKm": 3.2
+  },
+  "CHELLE SPOU": {
+    "bureau": "Tournay",
+    "distanceKm": 4.6
+  },
+  "CHEUST": {
+    "bureau": "Lourdes",
+    "distanceKm": 10.8
+  },
+  "CHIS": {
+    "bureau": "Tarbes",
+    "distanceKm": 7.6
+  },
+  "CHEZE": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 9.9
+  },
+  "CIEUTAT": {
+    "bureau": "Tournay",
+    "distanceKm": 7.0
+  },
+  "CIZOS": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 4.6
+  },
+  "CLARAC": {
+    "bureau": "Tournay",
+    "distanceKm": 3.8
+  },
+  "CLARENS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 3.3
+  },
+  "COLLONGUES": {
+    "bureau": "Cabanac",
+    "distanceKm": 4.7
+  },
+  "COTDOUSSAN": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "COUSSAN": {
+    "bureau": "Cabanac",
+    "distanceKm": 3.6
+  },
+  "CRECHETS": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 4.1
+  },
+  "DEVEZE": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 3.8
+  },
+  "DOURS": {
+    "bureau": "Cabanac",
+    "distanceKm": 8.1
+  },
+  "ENS": {
+    "bureau": "Arreau",
+    "distanceKm": 13.3
+  },
+  "ESBAREICH": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 11.1
+  },
+  "ESCALA": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 2.5
+  },
+  "ESCAUNETS": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 11.3
+  },
+  "ESCONDEAUX": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 4.7
+  },
+  "ESCONNETS": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 12.1
+  },
+  "ESCOTS": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 10.1
+  },
+  "ESCOUBES POUTS": {
+    "bureau": "Lourdes",
+    "distanceKm": 8.7
+  },
+  "ESPARROS": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 9.5
+  },
+  "ESPIEILH": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 11.4
+  },
+  "ESPECHE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 6.8
+  },
+  "ESQUIEZE SERE": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 5.4
+  },
+  "ESTAING": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 15.8
+  },
+  "ESTAMPURES": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 9.4
+  },
+  "ESTARVIELLE": {
+    "bureau": "Arreau",
+    "distanceKm": 12.6
+  },
+  "ESTENSAN": {
+    "bureau": "Arreau",
+    "distanceKm": 11.1
+  },
+  "ESTERRE": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 4.1
+  },
+  "ESTIRAC": {
+    "bureau": "Maubourguet",
+    "distanceKm": 3.6
+  },
+  "FERRIERES": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 11.5
+  },
+  "FERRERE": {
+    "bureau": "Arreau",
+    "distanceKm": 13.2
+  },
+  "FONTRAILLES": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 3.1
+  },
+  "FRECHENDETS": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 12.3
+  },
+  "FRECHET AURE": {
+    "bureau": "Arreau",
+    "distanceKm": 4.4
+  },
+  "FRECHOU FRECHET": {
+    "bureau": "Tournay",
+    "distanceKm": 6.6
+  },
+  "FRECHEDE": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 8.5
+  },
+  "GAILLAGOS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 7.1
+  },
+  "GALEZ": {
+    "bureau": "Galan",
+    "distanceKm": 4.1
+  },
+  "GARDERES": {
+    "bureau": "Ossun",
+    "distanceKm": 12.4
+  },
+  "GAUDENT": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 4.9
+  },
+  "GAUSSAN": {
+    "bureau": "Galan",
+    "distanceKm": 6.0
+  },
+  "GAVARNIE": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "GAVARNIE GEDRE": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 8.9
+  },
+  "GEDRE": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 8.9
+  },
+  "GAYAN": {
+    "bureau": "Tarbes",
+    "distanceKm": 7.5
+  },
+  "GAZAVE": {
+    "bureau": "Nestier",
+    "distanceKm": 5.7
+  },
+  "GAZOST": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 9.3
+  },
+  "GEMBRIE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 4.7
+  },
+  "GENSAC": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 5.7
+  },
+  "GER": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 6.8
+  },
+  "GERDE": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 10.8
+  },
+  "GERM": {
+    "bureau": "Arreau",
+    "distanceKm": 18.1
+  },
+  "GERMS SUR L OUSSOUET": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 9.7
+  },
+  "GEU": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.2
+  },
+  "GEZ": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 2.5
+  },
+  "GEZ EZ ANGLES": {
+    "bureau": "Lourdes",
+    "distanceKm": 8.8
+  },
+  "GONEZ": {
+    "bureau": "Cabanac",
+    "distanceKm": 4.7
+  },
+  "GOUAUX": {
+    "bureau": "Arreau",
+    "distanceKm": 7.4
+  },
+  "GOUDON": {
+    "bureau": "Cabanac",
+    "distanceKm": 3.3
+  },
+  "GOURGUE": {
+    "bureau": "Tournay",
+    "distanceKm": 5.5
+  },
+  "GRAILHEN": {
+    "bureau": "Arreau",
+    "distanceKm": 9.8
+  },
+  "GRUST": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 8.4
+  },
+  "GREZIAN": {
+    "bureau": "Arreau",
+    "distanceKm": 5.1
+  },
+  "GUCHAN": {
+    "bureau": "Arreau",
+    "distanceKm": 7.8
+  },
+  "GUCHEN": {
+    "bureau": "Arreau",
+    "distanceKm": 6.7
+  },
+  "GUIZERIX": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 5.6
+  },
+  "GENOS": {
+    "bureau": "Arreau",
+    "distanceKm": 17.6
+  },
+  "GENEREST": {
+    "bureau": "Nestier",
+    "distanceKm": 4.8
+  },
+  "HACHAN": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 5.0
+  },
+  "HAGEDET": {
+    "bureau": "Castenau-Rivière-Basse",
+    "distanceKm": 6.8
+  },
+  "HAUBAN": {
+    "bureau": "Tournay",
+    "distanceKm": 11.5
+  },
+  "HAUTAGET": {
+    "bureau": "Nestier",
+    "distanceKm": 1.6
+  },
+  "HIBARETTE": {
+    "bureau": "Ossun",
+    "distanceKm": 6.5
+  },
+  "HIIS": {
+    "bureau": "Tarbes",
+    "distanceKm": 11.6
+  },
+  "HITTE": {
+    "bureau": "Tournay",
+    "distanceKm": 7.4
+  },
+  "HORGUES": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.8
+  },
+  "HOUEYDETS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 4.7
+  },
+  "HOURC": {
+    "bureau": "Cabanac",
+    "distanceKm": 4.8
+  },
+  "HECHES": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 9.2
+  },
+  "HERES": {
+    "bureau": "Castenau-Rivière-Basse",
+    "distanceKm": 3.9
+  },
+  "IBOS": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.5
+  },
+  "ILHAN": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "ILHET": {
+    "bureau": "Arreau",
+    "distanceKm": 8.0
+  },
+  "ILHEU": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 3.4
+  },
+  "IZAOURT": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 1.0
+  },
+  "IZAUX": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 2.6
+  },
+  "JACQUE": {
+    "bureau": "Cabanac",
+    "distanceKm": 5.0
+  },
+  "JARRET": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.3
+  },
+  "JUILLAN": {
+    "bureau": "Ossun",
+    "distanceKm": 5.2
+  },
+  "JULOS": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.5
+  },
+  "JUNCALAS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 9.1
+  },
+  "JEZEAU": {
+    "bureau": "Arreau",
+    "distanceKm": 6.4
+  },
+  "LABASSERE": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 10.9
+  },
+  "LABASTIDE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 5.5
+  },
+  "LABATUT RIVIERE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 6.3
+  },
+  "LABORDE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 8.7
+  },
+  "LACASSAGNE": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 3.3
+  },
+  "LAFITOLE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 3.8
+  },
+  "LAGARDE": {
+    "bureau": "Tarbes",
+    "distanceKm": 8.1
+  },
+  "LAGRANGE": {
+    "bureau": "Lannemezan",
+    "distanceKm": 3.9
+  },
+  "LAHITTE TOUPIERE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 4.3
+  },
+  "LALANNE": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 6.8
+  },
+  "LALANNE TRIE": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 2.0
+  },
+  "LALOUBERE": {
+    "bureau": "Tarbes",
+    "distanceKm": 3.5
+  },
+  "LAMARQUE PONTACQ": {
+    "bureau": "Ossun",
+    "distanceKm": 5.7
+  },
+  "LAMARQUE RUSTAING": {
+    "bureau": "Cabanac",
+    "distanceKm": 5.9
+  },
+  "LAMEAC": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.4
+  },
+  "LANESPEDE": {
+    "bureau": "Tournay",
+    "distanceKm": 3.2
+  },
+  "LANNE": {
+    "bureau": "Ossun",
+    "distanceKm": 4.1
+  },
+  "LANSAC": {
+    "bureau": "Cabanac",
+    "distanceKm": 7.1
+  },
+  "LANCON": {
+    "bureau": "Arreau",
+    "distanceKm": 4.7
+  },
+  "LAPEYRE": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 2.9
+  },
+  "LARAN": {
+    "bureau": "Galan",
+    "distanceKm": 6.0
+  },
+  "LARREULE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 3.5
+  },
+  "LARROQUE": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 2.4
+  },
+  "LASCAZERES": {
+    "bureau": "Maubourguet",
+    "distanceKm": 6.2
+  },
+  "LASLADES": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.7
+  },
+  "LASSALES": {
+    "bureau": "Galan",
+    "distanceKm": 7.0
+  },
+  "LAU BALAGNAS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 1.7
+  },
+  "LAYRISSE": {
+    "bureau": "Ossun",
+    "distanceKm": 8.6
+  },
+  "LES ANGLES": {
+    "bureau": "Lourdes",
+    "distanceKm": 7.4
+  },
+  "LESCURRY": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 5.3
+  },
+  "LESPOUEY": {
+    "bureau": "Tournay",
+    "distanceKm": 6.8
+  },
+  "LHEZ": {
+    "bureau": "Tournay",
+    "distanceKm": 4.5
+  },
+  "LIAC": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 4.9
+  },
+  "LIBAROS": {
+    "bureau": "Galan",
+    "distanceKm": 3.1
+  },
+  "LIES": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 12.0
+  },
+  "LIZOS": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.6
+  },
+  "LOMBRES": {
+    "bureau": "Nestier",
+    "distanceKm": 2.9
+  },
+  "LOMNE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 7.4
+  },
+  "LORTET": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 4.8
+  },
+  "LOUBAJAC": {
+    "bureau": "Lourdes",
+    "distanceKm": 3.7
+  },
+  "LOUCRUP": {
+    "bureau": "Ossun",
+    "distanceKm": 11.3
+  },
+  "LOUDENVIELLE": {
+    "bureau": "Arreau",
+    "distanceKm": 20.0
+  },
+  "LOUDERVIELLE": {
+    "bureau": "Arreau",
+    "distanceKm": 15.1
+  },
+  "LOUEY": {
+    "bureau": "Ossun",
+    "distanceKm": 4.6
+  },
+  "LOUIT": {
+    "bureau": "Cabanac",
+    "distanceKm": 5.7
+  },
+  "LUBRET SAINT LUC": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 5.4
+  },
+  "LUBY BETMONT": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 6.0
+  },
+  "LUC": {
+    "bureau": "Tournay",
+    "distanceKm": 6.5
+  },
+  "LUGAGNAN": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.2
+  },
+  "LUQUET": {
+    "bureau": "Ossun",
+    "distanceKm": 10.9
+  },
+  "LUSTAR": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 5.3
+  },
+  "LUTILHOUS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 5.8
+  },
+  "LUZ": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 0.0
+  },
+  "LEZIGNAN": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.2
+  },
+  "MADIRAN": {
+    "bureau": "Castenau-Rivière-Basse",
+    "distanceKm": 3.8
+  },
+  "MANSAN": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 5.6
+  },
+  "MARQUERIE": {
+    "bureau": "Cabanac",
+    "distanceKm": 1.9
+  },
+  "MARSAC": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 7.5
+  },
+  "MARSAS": {
+    "bureau": "Campan",
+    "distanceKm": 11.6
+  },
+  "MARSEILLAN": {
+    "bureau": "Cabanac",
+    "distanceKm": 3.3
+  },
+  "MARSOUS": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "MASCARAS": {
+    "bureau": "Tournay",
+    "distanceKm": 5.9
+  },
+  "MAULEON BAROUSSE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 8.8
+  },
+  "MAUVEZIN": {
+    "bureau": "Tournay",
+    "distanceKm": 7.9
+  },
+  "MAZEROLLES": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 7.7
+  },
+  "MAZOUAU": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 6.2
+  },
+  "MAZERES DE NESTE": {
+    "bureau": "Nestier",
+    "distanceKm": 5.8
+  },
+  "MAZERES": {
+    "bureau": "Nestier",
+    "distanceKm": 5.8
+  },
+  "MINGOT": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 1.6
+  },
+  "MOLERE": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "MOMERES": {
+    "bureau": "Tarbes",
+    "distanceKm": 7.1
+  },
+  "MONFAUCON": {
+    "bureau": "Maubourguet",
+    "distanceKm": 6.8
+  },
+  "MONLONG": {
+    "bureau": "Galan",
+    "distanceKm": 6.0
+  },
+  "MONLEON MAGNOAC": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 7.8
+  },
+  "MONT": {
+    "bureau": "Arreau",
+    "distanceKm": 13.7
+  },
+  "MONTASTRUC": {
+    "bureau": "Galan",
+    "distanceKm": 4.9
+  },
+  "MONTGAILLARD": {
+    "bureau": "Tournay",
+    "distanceKm": 12.7
+  },
+  "MONTIGNAC": {
+    "bureau": "Tournay",
+    "distanceKm": 7.8
+  },
+  "MONTOUSSE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 3.2
+  },
+  "MONTSERIE": {
+    "bureau": "Nestier",
+    "distanceKm": 3.5
+  },
+  "MONTEGUT": {
+    "bureau": "Nestier",
+    "distanceKm": 2.1
+  },
+  "MOULEDOUS": {
+    "bureau": "Tournay",
+    "distanceKm": 4.1
+  },
+  "MOUMOULOUS": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 7.6
+  },
+  "MUN": {
+    "bureau": "Cabanac",
+    "distanceKm": 3.9
+  },
+  "MERILHEU": {
+    "bureau": "Tournay",
+    "distanceKm": 10.7
+  },
+  "NEUILH": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 12.8
+  },
+  "NISTOS": {
+    "bureau": "Nestier",
+    "distanceKm": 7.9
+  },
+  "NISTOS HAUT ET BAS": {
+    "bureau": "Nestier",
+    "distanceKm": 7.9
+  },
+  "NOUILHAN": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 3.7
+  },
+  "ODOS": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.0
+  },
+  "OLEAC DEBAT": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.6
+  },
+  "OLEAC DESSUS": {
+    "bureau": "Tournay",
+    "distanceKm": 4.8
+  },
+  "OMEX": {
+    "bureau": "Lourdes",
+    "distanceKm": 3.3
+  },
+  "ORDIZAN": {
+    "bureau": "Tournay",
+    "distanceKm": 12.2
+  },
+  "ORGAN": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 3.8
+  },
+  "ORIEUX": {
+    "bureau": "Tournay",
+    "distanceKm": 6.8
+  },
+  "ORIGNAC": {
+    "bureau": "Tournay",
+    "distanceKm": 9.1
+  },
+  "ORINCLES": {
+    "bureau": "Ossun",
+    "distanceKm": 9.0
+  },
+  "ORLEIX": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.9
+  },
+  "OROIX": {
+    "bureau": "Tarbes",
+    "distanceKm": 9.3
+  },
+  "OSMETS": {
+    "bureau": "Cabanac",
+    "distanceKm": 4.9
+  },
+  "OSSEN": {
+    "bureau": "Lourdes",
+    "distanceKm": 4.7
+  },
+  "OSSUN EZ ANGLES": {
+    "bureau": "Lourdes",
+    "distanceKm": 11.6
+  },
+  "OUEILLOUX": {
+    "bureau": "Tournay",
+    "distanceKm": 5.5
+  },
+  "OURDE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 8.5
+  },
+  "OURDIS COTDOUSSAN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 10.5
+  },
+  "OURDIS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 10.5
+  },
+  "OURDON": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 7.2
+  },
+  "OURSBELILLE": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.9
+  },
+  "OUSTE": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 8.0
+  },
+  "OUZOUS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 3.3
+  },
+  "OZON": {
+    "bureau": "Tournay",
+    "distanceKm": 2.2
+  },
+  "PAILHAC": {
+    "bureau": "Arreau",
+    "distanceKm": 2.9
+  },
+  "PAREAC": {
+    "bureau": "Lourdes",
+    "distanceKm": 8.3
+  },
+  "PEYRAUBE": {
+    "bureau": "Tournay",
+    "distanceKm": 2.3
+  },
+  "PEYRET SAINT ANDRE": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 2.0
+  },
+  "PEYRIGUERE": {
+    "bureau": "Cabanac",
+    "distanceKm": 3.8
+  },
+  "PEYROUSE": {
+    "bureau": "Lourdes",
+    "distanceKm": 2.8
+  },
+  "PEYRUN": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 6.7
+  },
+  "PIERREFITTE NESTALAS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.5
+  },
+  "PINAS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 3.8
+  },
+  "PINTAC": {
+    "bureau": "Tarbes",
+    "distanceKm": 7.7
+  },
+  "POUCHERGUES": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "POUEYFERRE": {
+    "bureau": "Lourdes",
+    "distanceKm": 1.2
+  },
+  "POUMAROUS": {
+    "bureau": "Tournay",
+    "distanceKm": 3.7
+  },
+  "POUY": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 5.5
+  },
+  "POUYASTRUC": {
+    "bureau": "Cabanac",
+    "distanceKm": 4.2
+  },
+  "POUZAC": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 12.3
+  },
+  "PRECHAC": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 2.7
+  },
+  "PUJO": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 5.7
+  },
+  "PUNTOUS": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 4.8
+  },
+  "PUYDARRIEUX": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 4.1
+  },
+  "PERE": {
+    "bureau": "Tournay",
+    "distanceKm": 5.8
+  },
+  "RABASTENS": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 0.0
+  },
+  "RECURT": {
+    "bureau": "Galan",
+    "distanceKm": 3.7
+  },
+  "RICAUD": {
+    "bureau": "Tournay",
+    "distanceKm": 4.7
+  },
+  "RIS": {
+    "bureau": "Arreau",
+    "distanceKm": 6.7
+  },
+  "REJAUMONT": {
+    "bureau": "Lannemezan",
+    "distanceKm": 6.2
+  },
+  "SABALOS": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.4
+  },
+  "SABARROS": {
+    "bureau": "Galan",
+    "distanceKm": 3.4
+  },
+  "SACOUE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 7.5
+  },
+  "SADOURNIN": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 4.0
+  },
+  "SAILHAN": {
+    "bureau": "Arreau",
+    "distanceKm": 12.0
+  },
+  "SAINT ARROMAN": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 4.4
+  },
+  "SAINT CREAC": {
+    "bureau": "Lourdes",
+    "distanceKm": 7.2
+  },
+  "SAINT LANNE": {
+    "bureau": "Castenau-Rivière-Basse",
+    "distanceKm": 2.8
+  },
+  "SAINT LARY SOULAN": {
+    "bureau": "Arreau",
+    "distanceKm": 19.4
+  },
+  "SAINT LARY": {
+    "bureau": "Arreau",
+    "distanceKm": 19.4
+  },
+  "SAINT LAURENT DE NESTE": {
+    "bureau": "Nestier",
+    "distanceKm": 3.5
+  },
+  "SAINT LAURENT": {
+    "bureau": "Nestier",
+    "distanceKm": 3.5
+  },
+  "SAINT LEZER": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 4.1
+  },
+  "SAINT MARTIN": {
+    "bureau": "Tarbes",
+    "distanceKm": 7.8
+  },
+  "SAINT PASTOUS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 4.6
+  },
+  "SAINT PAUL": {
+    "bureau": "Nestier",
+    "distanceKm": 4.5
+  },
+  "SAINT PE DE BIGORRE": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.5
+  },
+  "SAINT PE": {
+    "bureau": "Lourdes",
+    "distanceKm": 6.5
+  },
+  "SAINT SAVIN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 3.7
+  },
+  "SAINT SEVER DE RUSTAN": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 7.5
+  },
+  "SAINT SEVER": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 7.5
+  },
+  "SAINTE MARIE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 6.6
+  },
+  "SALIGOS": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 7.4
+  },
+  "SALLES": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 6.3
+  },
+  "SALLES ADOUR": {
+    "bureau": "Tarbes",
+    "distanceKm": 6.5
+  },
+  "SALECHAN": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 8.5
+  },
+  "SAMURAN": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 4.6
+  },
+  "SANOUS": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 3.9
+  },
+  "SARIAC MAGNOAC": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 3.5
+  },
+  "SARLABOUS": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 8.2
+  },
+  "SARNIGUET": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 8.9
+  },
+  "SARP": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 2.4
+  },
+  "SARRANCOLIN": {
+    "bureau": "Arreau",
+    "distanceKm": 7.6
+  },
+  "SARRIAC BIGORRE": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 3.3
+  },
+  "SARROUILLES": {
+    "bureau": "Tarbes",
+    "distanceKm": 5.4
+  },
+  "SASSIS": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 5.5
+  },
+  "SAUVETERRE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 5.3
+  },
+  "SAZOS": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 5.8
+  },
+  "SEICH": {
+    "bureau": "Nestier",
+    "distanceKm": 6.8
+  },
+  "SENTOUS": {
+    "bureau": "Galan",
+    "distanceKm": 4.9
+  },
+  "SERS": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 7.7
+  },
+  "SIARROUY": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 7.7
+  },
+  "SINZOS": {
+    "bureau": "Tournay",
+    "distanceKm": 4.9
+  },
+  "SIRADAN": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 6.3
+  },
+  "SIREIX": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 6.7
+  },
+  "SOMBRUN": {
+    "bureau": "Maubourguet",
+    "distanceKm": 3.5
+  },
+  "SOREAC": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.8
+  },
+  "SOST": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 14.6
+  },
+  "SOUBLECAUSE": {
+    "bureau": "Castenau-Rivière-Basse",
+    "distanceKm": 5.0
+  },
+  "SOUES": {
+    "bureau": "Tarbes",
+    "distanceKm": 4.5
+  },
+  "SOULAN": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  },
+  "SOULOM": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 6.5
+  },
+  "SOUYEAUX": {
+    "bureau": "Cabanac",
+    "distanceKm": 6.0
+  },
+  "SERE LANSO": {
+    "bureau": "Lourdes",
+    "distanceKm": 9.1
+  },
+  "SERE RUSTAING": {
+    "bureau": "Cabanac",
+    "distanceKm": 5.6
+  },
+  "SERE EN LAVEDAN": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 3.1
+  },
+  "SERE": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 3.1
+  },
+  "SEGALAS": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 3.4
+  },
+  "SEGUS": {
+    "bureau": "Lourdes",
+    "distanceKm": 5.3
+  },
+  "SEMEAC": {
+    "bureau": "Tarbes",
+    "distanceKm": 4.0
+  },
+  "SENAC": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 3.9
+  },
+  "SERON": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 13.8
+  },
+  "TAJAN": {
+    "bureau": "Galan",
+    "distanceKm": 6.3
+  },
+  "TALAZAC": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 6.5
+  },
+  "TARASTEIX": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 9.4
+  },
+  "THERMES MAGNOAC": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 7.4
+  },
+  "THUY": {
+    "bureau": "Cabanac",
+    "distanceKm": 2.4
+  },
+  "THEBE": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 7.9
+  },
+  "TIBIRAN JAUNAC": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 5.5
+  },
+  "TILHOUSE": {
+    "bureau": "La Barthe-de-Neste",
+    "distanceKm": 5.2
+  },
+  "TOSTAT": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 7.1
+  },
+  "TOURNOUS DARRE": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 3.0
+  },
+  "TOURNOUS DEVANT": {
+    "bureau": "Galan",
+    "distanceKm": 3.2
+  },
+  "TRAMEZAIGUES": {
+    "bureau": "Arreau",
+    "distanceKm": 18.5
+  },
+  "TRIE": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 0.0
+  },
+  "TROUBAT": {
+    "bureau": "Loures-Barousse",
+    "distanceKm": 6.0
+  },
+  "TROULEY LABARTHE": {
+    "bureau": "Cabanac",
+    "distanceKm": 5.5
+  },
+  "TREBONS": {
+    "bureau": "Bagnères-de-Bigorre",
+    "distanceKm": 14.2
+  },
+  "TUZAGUET": {
+    "bureau": "Nestier",
+    "distanceKm": 3.8
+  },
+  "UGLAS": {
+    "bureau": "Lannemezan",
+    "distanceKm": 4.0
+  },
+  "UGNOUAS": {
+    "bureau": "Rabastens-de-Bigorre",
+    "distanceKm": 6.5
+  },
+  "UZ": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.3
+  },
+  "UZER": {
+    "bureau": "Tournay",
+    "distanceKm": 12.6
+  },
+  "VIDOU": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 2.9
+  },
+  "VIDOUZE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 7.5
+  },
+  "VIELLA": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 3.8
+  },
+  "VIELLE ADOUR": {
+    "bureau": "Tournay",
+    "distanceKm": 10.4
+  },
+  "VIELLE AURE": {
+    "bureau": "Campan",
+    "distanceKm": 11.0
+  },
+  "VIELLE LOURON": {
+    "bureau": "Arreau",
+    "distanceKm": 10.4
+  },
+  "VIER BORDES": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 5.7
+  },
+  "VIEUZOS": {
+    "bureau": "Galan",
+    "distanceKm": 5.0
+  },
+  "VIEY": {
+    "bureau": "Luz-Saint-Sauveur",
+    "distanceKm": 6.6
+  },
+  "VIGER": {
+    "bureau": "Lourdes",
+    "distanceKm": 5.6
+  },
+  "VIGNEC": {
+    "bureau": "Arreau",
+    "distanceKm": 11.4
+  },
+  "VILLEFRANQUE": {
+    "bureau": "Maubourguet",
+    "distanceKm": 4.8
+  },
+  "VILLELONGUE": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 9.8
+  },
+  "VILLEMBITS": {
+    "bureau": "Trie-sur-Baïse",
+    "distanceKm": 5.2
+  },
+  "VILLEMUR": {
+    "bureau": "Castelnau-Magnoac",
+    "distanceKm": 6.8
+  },
+  "VILLENAVE PRES BEARN": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 11.8
+  },
+  "VILLENAVE PRES MARSAC": {
+    "bureau": "Vic-en-Bigorre",
+    "distanceKm": 6.7
+  },
+  "VISCOS": {
+    "bureau": "Argelès-Gazost",
+    "distanceKm": 10.6
+  },
+  "VISKER": {
+    "bureau": "Ossun",
+    "distanceKm": 9.8
+  },
+  "VIZOS": {
+    "bureau": "Tarbes",
+    "distanceKm": 0.0
+  }
+}

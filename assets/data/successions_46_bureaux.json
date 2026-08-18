@@ -1,0 +1,1374 @@
+{
+  "ALBAS": {
+    "bureau": "Luzech",
+    "distanceKm": 3.1
+  },
+  "ALBIAC": {
+    "bureau": "Gramat",
+    "distanceKm": 8.0
+  },
+  "ALVIGNAC": {
+    "bureau": "Gramat",
+    "distanceKm": 8.4
+  },
+  "ANGLARS": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 3.8
+  },
+  "ANGLARS JUILLAC": {
+    "bureau": "Luzech",
+    "distanceKm": 4.9
+  },
+  "ANGLARS NOZAC": {
+    "bureau": "Gourdon",
+    "distanceKm": 5.6
+  },
+  "ARCAMBAL": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 4.9
+  },
+  "AUJOLS": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 8.2
+  },
+  "AUTOIRE": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 6.1
+  },
+  "AYNAC": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 7.8
+  },
+  "BACH": {
+    "bureau": "Lalbenque",
+    "distanceKm": 9.3
+  },
+  "BAGAT EN QUERCY": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "BAGAT": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "BAGNAC SUR CELE": {
+    "bureau": "Figeac",
+    "distanceKm": 11.7
+  },
+  "BAGNAC": {
+    "bureau": "Figeac",
+    "distanceKm": 11.7
+  },
+  "BALADOU": {
+    "bureau": "Martel",
+    "distanceKm": 3.9
+  },
+  "BANNES": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 4.1
+  },
+  "BARGUELONNE EN QUERCY": {
+    "bureau": "Montcuq",
+    "distanceKm": 6.7
+  },
+  "SAINT DAUNES": {
+    "bureau": "Montcuq",
+    "distanceKm": 6.7
+  },
+  "BEAUMAT": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "BEAUREGARD": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.6
+  },
+  "BELFORT DU QUERCY": {
+    "bureau": "Lalbenque",
+    "distanceKm": 7.4
+  },
+  "BELLEFONT LA RAUZE": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 6.3
+  },
+  "LAROQUE DES ARCS": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 6.3
+  },
+  "BELMONT BRETENOUX": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 4.3
+  },
+  "BELMONT SAINTE FOI": {
+    "bureau": "Lalbenque",
+    "distanceKm": 7.5
+  },
+  "BELMONTET": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "BERGANTY": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 6.8
+  },
+  "BESSONIES": {
+    "bureau": "Latronquière",
+    "distanceKm": 5.8
+  },
+  "BIARS SUR CERE": {
+    "bureau": "Bretenoux",
+    "distanceKm": 1.8
+  },
+  "BIO": {
+    "bureau": "Gramat",
+    "distanceKm": 6.2
+  },
+  "BLARS": {
+    "bureau": "Lauzès",
+    "distanceKm": 11.9
+  },
+  "BOISSIERES": {
+    "bureau": "Catus",
+    "distanceKm": 5.2
+  },
+  "BOUSSAC": {
+    "bureau": "Livernon",
+    "distanceKm": 8.2
+  },
+  "BOUZIES": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 4.9
+  },
+  "BRENGUES": {
+    "bureau": "Livernon",
+    "distanceKm": 8.1
+  },
+  "BEDUER": {
+    "bureau": "Figeac",
+    "distanceKm": 8.8
+  },
+  "BELAYE": {
+    "bureau": "Luzech",
+    "distanceKm": 7.6
+  },
+  "BETAILLE": {
+    "bureau": "Vayrac",
+    "distanceKm": 3.8
+  },
+  "CABRERETS": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 4.3
+  },
+  "CADRIEU": {
+    "bureau": "Cajarc",
+    "distanceKm": 3.1
+  },
+  "CAHUS": {
+    "bureau": "Bretenoux",
+    "distanceKm": 7.7
+  },
+  "CAILLAC": {
+    "bureau": "Luzech",
+    "distanceKm": 6.1
+  },
+  "CALAMANE": {
+    "bureau": "Catus",
+    "distanceKm": 7.1
+  },
+  "CALVIAC": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "CALVIGNAC": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.6
+  },
+  "CALES": {
+    "bureau": "Gramat",
+    "distanceKm": 13.4
+  },
+  "CAMBAYRAC": {
+    "bureau": "Luzech",
+    "distanceKm": 6.0
+  },
+  "CAMBES": {
+    "bureau": "Livernon",
+    "distanceKm": 6.8
+  },
+  "CAMBOULIT": {
+    "bureau": "Figeac",
+    "distanceKm": 5.6
+  },
+  "CAMBURAT": {
+    "bureau": "Figeac",
+    "distanceKm": 4.8
+  },
+  "CANIAC DU CAUSSE": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 4.3
+  },
+  "CANIAC": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 4.3
+  },
+  "CAPDENAC": {
+    "bureau": "Figeac",
+    "distanceKm": 4.7
+  },
+  "CARAYAC": {
+    "bureau": "Cajarc",
+    "distanceKm": 8.7
+  },
+  "CARDAILLAC": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 8.1
+  },
+  "CARENNAC": {
+    "bureau": "Vayrac",
+    "distanceKm": 4.7
+  },
+  "CARLUCET": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 9.4
+  },
+  "CARNAC ROUFFIAC": {
+    "bureau": "Montcuq",
+    "distanceKm": 8.2
+  },
+  "CASSAGNES": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 5.7
+  },
+  "CASTELFRANC": {
+    "bureau": "Luzech",
+    "distanceKm": 4.8
+  },
+  "CASTELNAU MONTRATIER SAINTE ALAUZIE": {
+    "bureau": "Castelnau-Montratier",
+    "distanceKm": 0.0
+  },
+  "CAVAGNAC": {
+    "bureau": "Vayrac",
+    "distanceKm": 9.0
+  },
+  "CAZILLAC": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "CIEURAC": {
+    "bureau": "Lalbenque",
+    "distanceKm": 6.8
+  },
+  "COMIAC": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "CONCORES": {
+    "bureau": "Gourdon",
+    "distanceKm": 7.8
+  },
+  "CONCOTS": {
+    "bureau": "Lalbenque",
+    "distanceKm": 9.6
+  },
+  "CONDAT": {
+    "bureau": "Vayrac",
+    "distanceKm": 5.7
+  },
+  "CORN": {
+    "bureau": "Livernon",
+    "distanceKm": 6.2
+  },
+  "CORNAC": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 5.8
+  },
+  "COURS": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "COUZOU": {
+    "bureau": "Gramat",
+    "distanceKm": 6.8
+  },
+  "CRAS": {
+    "bureau": "Lauzès",
+    "distanceKm": 2.7
+  },
+  "CRAYSSAC": {
+    "bureau": "Catus",
+    "distanceKm": 4.7
+  },
+  "CREMPS": {
+    "bureau": "Lalbenque",
+    "distanceKm": 5.9
+  },
+  "CRESSENSAC SARRAZAC": {
+    "bureau": "Martel",
+    "distanceKm": 10.0
+  },
+  "CRESSENSAC": {
+    "bureau": "Martel",
+    "distanceKm": 10.0
+  },
+  "CREYSSE": {
+    "bureau": "Martel",
+    "distanceKm": 4.2
+  },
+  "CREGOLS": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 8.1
+  },
+  "CUZAC": {
+    "bureau": "Figeac",
+    "distanceKm": 9.8
+  },
+  "CUZANCE": {
+    "bureau": "Martel",
+    "distanceKm": 6.6
+  },
+  "CENEVIERES": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 6.2
+  },
+  "CEZAC": {
+    "bureau": "Castelnau-Montratier",
+    "distanceKm": 9.0
+  },
+  "CŒUR DE CAUSSE": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 0.0
+  },
+  "DOUELLE": {
+    "bureau": "Cahors",
+    "distanceKm": 6.8
+  },
+  "DURAVEL": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 4.2
+  },
+  "DURBANS": {
+    "bureau": "Livernon",
+    "distanceKm": 7.5
+  },
+  "DEGAGNAC": {
+    "bureau": "Salviac",
+    "distanceKm": 4.3
+  },
+  "ESCAMPS": {
+    "bureau": "Lalbenque",
+    "distanceKm": 5.7
+  },
+  "ESCLAUZELS": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 6.3
+  },
+  "ESPAGNAC SAINTE EULALIE": {
+    "bureau": "Livernon",
+    "distanceKm": 6.8
+  },
+  "ESPEYROUX": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 4.1
+  },
+  "ESPERE": {
+    "bureau": "Catus",
+    "distanceKm": 5.8
+  },
+  "ESPEDAILLAC": {
+    "bureau": "Livernon",
+    "distanceKm": 6.4
+  },
+  "ESTAL": {
+    "bureau": "Bretenoux",
+    "distanceKm": 6.0
+  },
+  "FAJOLES": {
+    "bureau": "Gourdon",
+    "distanceKm": 7.9
+  },
+  "FARGUES": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "FAYCELLES": {
+    "bureau": "Figeac",
+    "distanceKm": 5.2
+  },
+  "FELZINS": {
+    "bureau": "Figeac",
+    "distanceKm": 10.2
+  },
+  "FLAUJAC GARE": {
+    "bureau": "Livernon",
+    "distanceKm": 8.1
+  },
+  "FLAUJAC POUJOLS": {
+    "bureau": "Cahors",
+    "distanceKm": 7.0
+  },
+  "FLOIRAC": {
+    "bureau": "Vayrac",
+    "distanceKm": 4.5
+  },
+  "FLORESSAS": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 6.2
+  },
+  "FONS": {
+    "bureau": "Assier",
+    "distanceKm": 6.6
+  },
+  "FONTANES": {
+    "bureau": "Lalbenque",
+    "distanceKm": 5.7
+  },
+  "FONTANES DU CAUSSE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "FOURMAGNAC": {
+    "bureau": "Figeac",
+    "distanceKm": 7.3
+  },
+  "FRANCOULES": {
+    "bureau": "Lauzès",
+    "distanceKm": 7.2
+  },
+  "FRAYSSINET": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 9.4
+  },
+  "FRAYSSINET LE GELAT": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 8.5
+  },
+  "FRAYSSINHES": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 4.0
+  },
+  "FRONTENAC": {
+    "bureau": "Figeac",
+    "distanceKm": 8.1
+  },
+  "GAGNAC SUR CERE": {
+    "bureau": "Bretenoux",
+    "distanceKm": 4.0
+  },
+  "GAGNAC": {
+    "bureau": "Bretenoux",
+    "distanceKm": 4.0
+  },
+  "GIGNAC": {
+    "bureau": "Souillac",
+    "distanceKm": 7.8
+  },
+  "GIGOUZAC": {
+    "bureau": "Catus",
+    "distanceKm": 8.1
+  },
+  "GINDOU": {
+    "bureau": "Cazals",
+    "distanceKm": 4.5
+  },
+  "GINOUILLAC": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 10.6
+  },
+  "GINTRAC": {
+    "bureau": "Bretenoux",
+    "distanceKm": 7.7
+  },
+  "GIRAC": {
+    "bureau": "Bretenoux",
+    "distanceKm": 2.0
+  },
+  "GLANES": {
+    "bureau": "Bretenoux",
+    "distanceKm": 2.4
+  },
+  "GORSES": {
+    "bureau": "Latronquière",
+    "distanceKm": 3.0
+  },
+  "GOUJOUNAC": {
+    "bureau": "Cazals",
+    "distanceKm": 7.9
+  },
+  "GREZES": {
+    "bureau": "Livernon",
+    "distanceKm": 3.6
+  },
+  "GREALOU": {
+    "bureau": "Cajarc",
+    "distanceKm": 6.0
+  },
+  "GREZELS": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 5.2
+  },
+  "ISSENDOLUS": {
+    "bureau": "Gramat",
+    "distanceKm": 6.1
+  },
+  "ISSEPTS": {
+    "bureau": "Assier",
+    "distanceKm": 3.5
+  },
+  "LABASTIDE MARNHAC": {
+    "bureau": "Cahors",
+    "distanceKm": 8.6
+  },
+  "LABASTIDE DU HAUT MONT": {
+    "bureau": "Latronquière",
+    "distanceKm": 4.6
+  },
+  "LABASTIDE DU VERT": {
+    "bureau": "Luzech",
+    "distanceKm": 3.5
+  },
+  "LABATHUDE": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 4.1
+  },
+  "LABURGADE": {
+    "bureau": "Lalbenque",
+    "distanceKm": 6.3
+  },
+  "LACAM D OURCET": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "LACAPELLE CABANAC": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 7.0
+  },
+  "LACAVE": {
+    "bureau": "Souillac",
+    "distanceKm": 11.0
+  },
+  "LACHAPELLE AUZAC": {
+    "bureau": "Souillac",
+    "distanceKm": 2.8
+  },
+  "LADIRAT": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 5.9
+  },
+  "LAGARDELLE": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 3.9
+  },
+  "LAMAGDELAINE": {
+    "bureau": "Cahors",
+    "distanceKm": 5.4
+  },
+  "LAMATIVIE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "LAMOTHE CASSEL": {
+    "bureau": "Lauzès",
+    "distanceKm": 7.5
+  },
+  "LAMOTHE FENELON": {
+    "bureau": "Souillac",
+    "distanceKm": 10.0
+  },
+  "LANZAC": {
+    "bureau": "Souillac",
+    "distanceKm": 5.2
+  },
+  "LARAMIERE": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 8.1
+  },
+  "LARNAGOL": {
+    "bureau": "Cajarc",
+    "distanceKm": 4.6
+  },
+  "LARROQUE TOIRAC": {
+    "bureau": "Cajarc",
+    "distanceKm": 8.4
+  },
+  "LASCABANES": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "LATOUILLE LENTILLAC": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 6.1
+  },
+  "LAURESSES": {
+    "bureau": "Latronquière",
+    "distanceKm": 3.9
+  },
+  "LAVAL DE CERE": {
+    "bureau": "Bretenoux",
+    "distanceKm": 7.8
+  },
+  "LAVERCANTIERE": {
+    "bureau": "Salviac",
+    "distanceKm": 7.3
+  },
+  "LAVERGNE": {
+    "bureau": "Gramat",
+    "distanceKm": 6.0
+  },
+  "LE BASTIT": {
+    "bureau": "Gramat",
+    "distanceKm": 6.6
+  },
+  "LE BOURG": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 2.4
+  },
+  "LE BOUYSSOU": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 3.7
+  },
+  "LE MONTAT": {
+    "bureau": "Cahors",
+    "distanceKm": 7.7
+  },
+  "LE ROC": {
+    "bureau": "Souillac",
+    "distanceKm": 6.1
+  },
+  "LE VIGAN EN QUERCY": {
+    "bureau": "Gourdon",
+    "distanceKm": 6.5
+  },
+  "LE VIGAN": {
+    "bureau": "Gourdon",
+    "distanceKm": 6.5
+  },
+  "LE VIGNON EN QUERCY": {
+    "bureau": "Martel",
+    "distanceKm": 5.8
+  },
+  "LES QUATRE ROUTES DU LOT": {
+    "bureau": "Martel",
+    "distanceKm": 5.8
+  },
+  "LES QUATRE ROUTES": {
+    "bureau": "Martel",
+    "distanceKm": 5.8
+  },
+  "LEBREIL": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "LENDOU EN QUERCY": {
+    "bureau": "Montcuq",
+    "distanceKm": 8.3
+  },
+  "SAINT CYPRIEN": {
+    "bureau": "Montcuq",
+    "distanceKm": 8.3
+  },
+  "LENTILLAC SAINT BLAISE": {
+    "bureau": "Figeac",
+    "distanceKm": 7.8
+  },
+  "LENTILLAC DU CAUSSE": {
+    "bureau": "Lauzès",
+    "distanceKm": 5.0
+  },
+  "LENTILLAC LAUZES": {
+    "bureau": "Lauzès",
+    "distanceKm": 5.0
+  },
+  "LES ARQUES": {
+    "bureau": "Cazals",
+    "distanceKm": 5.6
+  },
+  "LES JUNIES": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 7.2
+  },
+  "LES PECHS DU VERS": {
+    "bureau": "Lauzès",
+    "distanceKm": 2.8
+  },
+  "SAINT CERNIN": {
+    "bureau": "Lauzès",
+    "distanceKm": 2.8
+  },
+  "LEYME": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 6.7
+  },
+  "LHERM": {
+    "bureau": "Catus",
+    "distanceKm": 7.9
+  },
+  "LIMOGNE": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 0.0
+  },
+  "LINAC": {
+    "bureau": "Figeac",
+    "distanceKm": 10.7
+  },
+  "LISSAC ET MOURET": {
+    "bureau": "Figeac",
+    "distanceKm": 4.4
+  },
+  "LOUBRESSAC": {
+    "bureau": "Bretenoux",
+    "distanceKm": 7.0
+  },
+  "LOUPIAC": {
+    "bureau": "Souillac",
+    "distanceKm": 10.0
+  },
+  "LUGAGNAC": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.0
+  },
+  "LUNAN": {
+    "bureau": "Figeac",
+    "distanceKm": 4.8
+  },
+  "LUNEGARDE": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 8.2
+  },
+  "LEOBARD": {
+    "bureau": "Salviac",
+    "distanceKm": 4.8
+  },
+  "MARCILHAC SUR CELE": {
+    "bureau": "Cajarc",
+    "distanceKm": 7.8
+  },
+  "MARCILHAC": {
+    "bureau": "Cajarc",
+    "distanceKm": 7.8
+  },
+  "MARMINIAC": {
+    "bureau": "Cazals",
+    "distanceKm": 2.5
+  },
+  "MASCLAT": {
+    "bureau": "Gourdon",
+    "distanceKm": 10.4
+  },
+  "MAUROUX": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 9.8
+  },
+  "MAXOU": {
+    "bureau": "Catus",
+    "distanceKm": 8.5
+  },
+  "MAYRAC": {
+    "bureau": "Martel",
+    "distanceKm": 6.1
+  },
+  "MAYRINHAC LENTOUR": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 8.6
+  },
+  "MECHMONT": {
+    "bureau": "Lauzès",
+    "distanceKm": 9.4
+  },
+  "MERCUES": {
+    "bureau": "Cahors",
+    "distanceKm": 5.9
+  },
+  "MEYRONNE": {
+    "bureau": "Martel",
+    "distanceKm": 7.8
+  },
+  "MIERS": {
+    "bureau": "Vayrac",
+    "distanceKm": 9.4
+  },
+  "MILHAC": {
+    "bureau": "Gourdon",
+    "distanceKm": 6.8
+  },
+  "MOLIERES": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 6.9
+  },
+  "MONTAMEL": {
+    "bureau": "Lauzès",
+    "distanceKm": 10.2
+  },
+  "MONTBRUN": {
+    "bureau": "Cajarc",
+    "distanceKm": 5.4
+  },
+  "MONTCABRIER": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 6.2
+  },
+  "MONTCLERA": {
+    "bureau": "Cazals",
+    "distanceKm": 3.1
+  },
+  "MONTCUQ EN QUERCY BLANC": {
+    "bureau": "Montcuq",
+    "distanceKm": 0.0
+  },
+  "MONTDOUMERC": {
+    "bureau": "Lalbenque",
+    "distanceKm": 7.1
+  },
+  "MONTET ET BOUXAL": {
+    "bureau": "Latronquière",
+    "distanceKm": 6.5
+  },
+  "MONTFAUCON": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 5.3
+  },
+  "MONTGESTY": {
+    "bureau": "Catus",
+    "distanceKm": 4.0
+  },
+  "MONTLAUZUN": {
+    "bureau": "Montcuq",
+    "distanceKm": 6.0
+  },
+  "MONTREDON": {
+    "bureau": "Figeac",
+    "distanceKm": 12.6
+  },
+  "MONTVALENT": {
+    "bureau": "Martel",
+    "distanceKm": 7.2
+  },
+  "NADAILLAC DE ROUGE": {
+    "bureau": "Souillac",
+    "distanceKm": 7.6
+  },
+  "NADILLAC": {
+    "bureau": "Lauzès",
+    "distanceKm": 5.6
+  },
+  "NUZEJOULS": {
+    "bureau": "Catus",
+    "distanceKm": 3.6
+  },
+  "ORNIAC": {
+    "bureau": "Lauzès",
+    "distanceKm": 8.5
+  },
+  "PADIRAC": {
+    "bureau": "Bretenoux",
+    "distanceKm": 9.7
+  },
+  "PARNAC": {
+    "bureau": "Luzech",
+    "distanceKm": 3.8
+  },
+  "PAYRAC": {
+    "bureau": "Gourdon",
+    "distanceKm": 9.5
+  },
+  "PAYRIGNAC": {
+    "bureau": "Gourdon",
+    "distanceKm": 3.4
+  },
+  "PERN": {
+    "bureau": "Castelnau-Montratier",
+    "distanceKm": 9.3
+  },
+  "PERN LHOSPITALET": {
+    "bureau": "Lalbenque",
+    "distanceKm": 10.8
+  },
+  "LHOSPITALET": {
+    "bureau": "Lalbenque",
+    "distanceKm": 10.8
+  },
+  "PESCADOIRES": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 2.5
+  },
+  "PEYRILLES": {
+    "bureau": "Catus",
+    "distanceKm": 7.7
+  },
+  "PINSAC": {
+    "bureau": "Souillac",
+    "distanceKm": 8.0
+  },
+  "PLANIOLES": {
+    "bureau": "Figeac",
+    "distanceKm": 3.7
+  },
+  "POMAREDE": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 6.0
+  },
+  "PONTCIRQ": {
+    "bureau": "Catus",
+    "distanceKm": 6.2
+  },
+  "PORTE DU QUERCY": {
+    "bureau": "Montcuq",
+    "distanceKm": 8.0
+  },
+  "LE BOULVE": {
+    "bureau": "Montcuq",
+    "distanceKm": 8.0
+  },
+  "PRADINES": {
+    "bureau": "Cahors",
+    "distanceKm": 4.1
+  },
+  "PRAYSSAC": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 3.8
+  },
+  "PRENDEIGNES": {
+    "bureau": "Figeac",
+    "distanceKm": 10.5
+  },
+  "PROMILHANES": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.0
+  },
+  "PRUDHOMAT": {
+    "bureau": "Bretenoux",
+    "distanceKm": 3.4
+  },
+  "PUYBRUN": {
+    "bureau": "Bretenoux",
+    "distanceKm": 4.4
+  },
+  "PUYJOURDES": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.5
+  },
+  "QUISSAC EN QUERCY": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 9.3
+  },
+  "QUISSAC": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 9.3
+  },
+  "RAMPOUX": {
+    "bureau": "Salviac",
+    "distanceKm": 5.7
+  },
+  "REILHAC": {
+    "bureau": "Gramat",
+    "distanceKm": 7.2
+  },
+  "REILHAGUET": {
+    "bureau": "Gourdon",
+    "distanceKm": 12.0
+  },
+  "REYREVIGNES": {
+    "bureau": "Assier",
+    "distanceKm": 4.3
+  },
+  "RIGNAC": {
+    "bureau": "Gramat",
+    "distanceKm": 4.8
+  },
+  "ROCAMADOUR": {
+    "bureau": "Gramat",
+    "distanceKm": 9.2
+  },
+  "ROUFFILHAC": {
+    "bureau": "Gourdon",
+    "distanceKm": 7.4
+  },
+  "RUDELLE": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 4.4
+  },
+  "RUEYRES": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 7.0
+  },
+  "SABADEL LATRONQUIERE": {
+    "bureau": "Latronquière",
+    "distanceKm": 8.3
+  },
+  "SABADEL": {
+    "bureau": "Latronquière",
+    "distanceKm": 8.3
+  },
+  "SABADEL LAUZES": {
+    "bureau": "Lauzès",
+    "distanceKm": 2.5
+  },
+  "SAIGNES": {
+    "bureau": "Gramat",
+    "distanceKm": 9.0
+  },
+  "SAILLAC": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 8.6
+  },
+  "SAINT BRESSOU": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 4.7
+  },
+  "SAINT CAPRAIS": {
+    "bureau": "Cazals",
+    "distanceKm": 6.2
+  },
+  "SAINT CHAMARAND": {
+    "bureau": "Gourdon",
+    "distanceKm": 9.1
+  },
+  "SAINT CHELS": {
+    "bureau": "Cajarc",
+    "distanceKm": 4.6
+  },
+  "SAINT CIRGUES": {
+    "bureau": "Latronquière",
+    "distanceKm": 8.1
+  },
+  "SAINT CIRQ LAPOPIE": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 7.3
+  },
+  "SAINT CIRQ MADELON": {
+    "bureau": "Gourdon",
+    "distanceKm": 7.0
+  },
+  "SAINT CIRQ SOUILLAGUET": {
+    "bureau": "Gourdon",
+    "distanceKm": 7.0
+  },
+  "SAINT CLAIR": {
+    "bureau": "Gourdon",
+    "distanceKm": 5.4
+  },
+  "SAINT DENIS CATUS": {
+    "bureau": "Catus",
+    "distanceKm": 4.1
+  },
+  "SAINT DENIS LES MARTEL": {
+    "bureau": "Vayrac",
+    "distanceKm": 3.0
+  },
+  "SAINT FELIX": {
+    "bureau": "Figeac",
+    "distanceKm": 7.0
+  },
+  "SAINT GERMAIN DU BEL AIR": {
+    "bureau": "Gourdon",
+    "distanceKm": 11.5
+  },
+  "SAINT GERMAIN": {
+    "bureau": "Gourdon",
+    "distanceKm": 11.5
+  },
+  "SAINT GERY VERS": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 0.0
+  },
+  "SAINT HILAIRE": {
+    "bureau": "Latronquière",
+    "distanceKm": 5.8
+  },
+  "SAINT HILAIRE BESSONIES": {
+    "bureau": "Latronquière",
+    "distanceKm": 5.8
+  },
+  "SAINT JEAN LAGINESTE": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 5.0
+  },
+  "SAINT JEAN LESPINASSE": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 3.7
+  },
+  "SAINT JEAN MIRABEL": {
+    "bureau": "Figeac",
+    "distanceKm": 7.4
+  },
+  "SAINT JEAN DE LAUR": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.2
+  },
+  "SAINT LAURENT LOLMIE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINT LAURENT LES TOURS": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 3.7
+  },
+  "SAINT MARTIN LABOUVAL": {
+    "bureau": "Cajarc",
+    "distanceKm": 8.7
+  },
+  "SAINT MARTIN DE VERS": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN LE REDON": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 8.7
+  },
+  "SAINT MATRE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINT MAURICE EN QUERCY": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 2.8
+  },
+  "SAINT MICHEL LOUBEJOU": {
+    "bureau": "Bretenoux",
+    "distanceKm": 2.9
+  },
+  "SAINT MICHEL DE BANNIERES": {
+    "bureau": "Vayrac",
+    "distanceKm": 3.6
+  },
+  "SAINT MEDARD": {
+    "bureau": "Catus",
+    "distanceKm": 4.1
+  },
+  "SAINT MEDARD NICOURBY": {
+    "bureau": "Latronquière",
+    "distanceKm": 6.2
+  },
+  "SAINT MEDARD DE PRESQUE": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 5.1
+  },
+  "SAINT PANTALEON": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINT PAUL FLAUGNAC": {
+    "bureau": "Castelnau-Montratier",
+    "distanceKm": 6.2
+  },
+  "FLAUGNAC": {
+    "bureau": "Castelnau-Montratier",
+    "distanceKm": 6.2
+  },
+  "SAINT PAUL DE LOUBRESSAC": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINT PAUL DE VERN": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 3.3
+  },
+  "SAINT PERDOUX": {
+    "bureau": "Figeac",
+    "distanceKm": 8.6
+  },
+  "SAINT PIERRE LAFEUILLE": {
+    "bureau": "Cahors",
+    "distanceKm": 7.1
+  },
+  "SAINT PIERRE TOIRAC": {
+    "bureau": "Figeac",
+    "distanceKm": 9.6
+  },
+  "SAINT PROJET": {
+    "bureau": "Gourdon",
+    "distanceKm": 11.1
+  },
+  "SAINT SAUVEUR LA VALLEE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINT SIMON": {
+    "bureau": "Assier",
+    "distanceKm": 4.5
+  },
+  "SAINT SOZY": {
+    "bureau": "Martel",
+    "distanceKm": 7.6
+  },
+  "SAINT SULPICE": {
+    "bureau": "Livernon",
+    "distanceKm": 9.3
+  },
+  "SAINT VINCENT RIVE D OLT": {
+    "bureau": "Luzech",
+    "distanceKm": 5.1
+  },
+  "SAINT VINCENT DU PENDIT": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 1.9
+  },
+  "SAINTE ALAUZIE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 6.2
+  },
+  "SAINTE CROIX": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SARRAZAC": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAULIAC SUR CELE": {
+    "bureau": "Cajarc",
+    "distanceKm": 10.1
+  },
+  "SAUX": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "SAUZET": {
+    "bureau": "Luzech",
+    "distanceKm": 7.4
+  },
+  "SONAC": {
+    "bureau": "Assier",
+    "distanceKm": 2.8
+  },
+  "SOTURAC": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 9.7
+  },
+  "SOUCIRAC": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 10.6
+  },
+  "SOULOMES": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 2.3
+  },
+  "SOUSCEYRAC EN QUERCY": {
+    "bureau": "Latronquière",
+    "distanceKm": 11.4
+  },
+  "SOUSCEYRAC": {
+    "bureau": "Latronquière",
+    "distanceKm": 11.4
+  },
+  "STRENQUELS": {
+    "bureau": "Martel",
+    "distanceKm": 4.9
+  },
+  "SENAILLAC LATRONQUIERE": {
+    "bureau": "Latronquière",
+    "distanceKm": 4.1
+  },
+  "SENAILLAC": {
+    "bureau": "Latronquière",
+    "distanceKm": 4.1
+  },
+  "SENAILLAC LAUZES": {
+    "bureau": "Lauzès",
+    "distanceKm": 6.0
+  },
+  "SENIERGUES": {
+    "bureau": "Labastide-Murat",
+    "distanceKm": 9.0
+  },
+  "SERIGNAC": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 10.2
+  },
+  "TAURIAC": {
+    "bureau": "Bretenoux",
+    "distanceKm": 5.4
+  },
+  "TERROU": {
+    "bureau": "Lacapelle-Marival",
+    "distanceKm": 7.0
+  },
+  "TEYSSIEU": {
+    "bureau": "Saint-Céré",
+    "distanceKm": 8.7
+  },
+  "THEDIRAC": {
+    "bureau": "Catus",
+    "distanceKm": 4.3
+  },
+  "THEGRA": {
+    "bureau": "Gramat",
+    "distanceKm": 7.3
+  },
+  "THEMINES": {
+    "bureau": "Assier",
+    "distanceKm": 8.5
+  },
+  "THEMINETTES": {
+    "bureau": "Assier",
+    "distanceKm": 5.6
+  },
+  "TOUR DE FAURE": {
+    "bureau": "Saint-Géry",
+    "distanceKm": 8.0
+  },
+  "TOUZAC": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 6.4
+  },
+  "TRESPOUX RASSIELS": {
+    "bureau": "Cahors",
+    "distanceKm": 7.3
+  },
+  "USSEL": {
+    "bureau": "Lauzès",
+    "distanceKm": 7.2
+  },
+  "UZECH": {
+    "bureau": "Catus",
+    "distanceKm": 5.1
+  },
+  "VAILLAC": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "VALPRIONDE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "VALROUFIE": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "VARAIRE": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 5.7
+  },
+  "VAYLATS": {
+    "bureau": "Lalbenque",
+    "distanceKm": 7.2
+  },
+  "VERS": {
+    "bureau": "Cahors",
+    "distanceKm": 0.0
+  },
+  "VIAZAC": {
+    "bureau": "Figeac",
+    "distanceKm": 6.3
+  },
+  "VIDAILLAC": {
+    "bureau": "Limogne-en-Quercy",
+    "distanceKm": 6.3
+  },
+  "VILLESEQUE": {
+    "bureau": "Luzech",
+    "distanceKm": 10.1
+  },
+  "VIRE SUR LOT": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 4.4
+  },
+  "VIRE": {
+    "bureau": "Puy-l'Evêque",
+    "distanceKm": 4.4
+  }
+}

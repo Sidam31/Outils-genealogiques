@@ -1,0 +1,1098 @@
+{
+  "ABLIS": {
+    "bureau": "Rambouillet",
+    "distanceKm": 14.0
+  },
+  "ACHERES": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 5.7
+  },
+  "ADAINVILLE": {
+    "bureau": "Houdan",
+    "distanceKm": 9.7
+  },
+  "AIGREMONT": {
+    "bureau": "Poissy",
+    "distanceKm": 2.5
+  },
+  "ALLAINVILLE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 21.4
+  },
+  "ANDELU": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 14.9
+  },
+  "ANDRESY": {
+    "bureau": "Poissy",
+    "distanceKm": 6.2
+  },
+  "ARNOUVILLE LES MANTES": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 9.7
+  },
+  "ARTHIEUL": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "AUBERGENVILLE": {
+    "bureau": "Meulan",
+    "distanceKm": 6.8
+  },
+  "AUFFARGIS": {
+    "bureau": "Rambouillet",
+    "distanceKm": 5.8
+  },
+  "AUFFREVILLE BRASSEUIL": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 4.8
+  },
+  "AULNAY SUR MAULDRE": {
+    "bureau": "Meulan",
+    "distanceKm": 9.8
+  },
+  "AUTEUIL": {
+    "bureau": "Houdan",
+    "distanceKm": 16.8
+  },
+  "AUTOUILLET": {
+    "bureau": "Houdan",
+    "distanceKm": 15.4
+  },
+  "BAILLY": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 3.3
+  },
+  "BAZAINVILLE": {
+    "bureau": "Houdan",
+    "distanceKm": 5.2
+  },
+  "BAZEMONT": {
+    "bureau": "Meulan",
+    "distanceKm": 8.5
+  },
+  "BAZOCHES SUR GUYONNE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 14.0
+  },
+  "BENNECOURT": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 3.5
+  },
+  "BEYNES": {
+    "bureau": "Poissy",
+    "distanceKm": 13.5
+  },
+  "BLAMECOURT": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "BLARU": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 6.7
+  },
+  "BOINVILLE EN MANTOIS": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.7
+  },
+  "BOINVILLE LE GAILLARD": {
+    "bureau": "Rambouillet",
+    "distanceKm": 17.8
+  },
+  "BOINVILLIERS": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.9
+  },
+  "BOIS D ARCY": {
+    "bureau": "Versailles",
+    "distanceKm": 7.1
+  },
+  "BOISSETS": {
+    "bureau": "Houdan",
+    "distanceKm": 6.8
+  },
+  "BOISSY MAUVOISIN": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 5.9
+  },
+  "BOISSY SANS AVOIR": {
+    "bureau": "Houdan",
+    "distanceKm": 14.9
+  },
+  "BONNELLES": {
+    "bureau": "Chevreuse",
+    "distanceKm": 9.3
+  },
+  "BOUAFLE": {
+    "bureau": "Meulan",
+    "distanceKm": 5.4
+  },
+  "BOUGIVAL": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 3.7
+  },
+  "BOURDONNE": {
+    "bureau": "Houdan",
+    "distanceKm": 6.2
+  },
+  "BREUIL BOIS ROBERT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 5.9
+  },
+  "BRUEIL EN VEXIN": {
+    "bureau": "Meulan",
+    "distanceKm": 7.8
+  },
+  "BREVAL": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 7.0
+  },
+  "BUC": {
+    "bureau": "Versailles",
+    "distanceKm": 3.4
+  },
+  "BUCHELAY": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 1.7
+  },
+  "BULLION": {
+    "bureau": "Chevreuse",
+    "distanceKm": 9.6
+  },
+  "BEHOUST": {
+    "bureau": "Houdan",
+    "distanceKm": 10.1
+  },
+  "CARRIERES SOUS POISSY": {
+    "bureau": "Poissy",
+    "distanceKm": 2.5
+  },
+  "CARRIERES SUR SEINE": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 5.9
+  },
+  "CERNAY LA VILLE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 6.5
+  },
+  "CHAMBOURCY": {
+    "bureau": "Poissy",
+    "distanceKm": 3.0
+  },
+  "CHANTELOUP LES VIGNES": {
+    "bureau": "Poissy",
+    "distanceKm": 5.9
+  },
+  "CHAPET": {
+    "bureau": "Meulan",
+    "distanceKm": 4.6
+  },
+  "CHATOU": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 5.1
+  },
+  "CHAUFOUR LES BONNIERES": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 6.1
+  },
+  "CHAVENAY": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 7.8
+  },
+  "CHOISEL": {
+    "bureau": "Chevreuse",
+    "distanceKm": 3.4
+  },
+  "CHATEAUFORT": {
+    "bureau": "Chevreuse",
+    "distanceKm": 5.8
+  },
+  "CIVRY LA FORET": {
+    "bureau": "Houdan",
+    "distanceKm": 7.7
+  },
+  "CLAIREFONTAINE EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 6.6
+  },
+  "CLAIREFONTAINE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 6.6
+  },
+  "COIGNIERES": {
+    "bureau": "Chevreuse",
+    "distanceKm": 10.0
+  },
+  "CONDE SUR VESGRE": {
+    "bureau": "Houdan",
+    "distanceKm": 9.0
+  },
+  "CONFLANS SAINTE HONORINE": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 7.9
+  },
+  "COURGENT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 11.3
+  },
+  "CRACHES": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "CRAVENT": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 6.8
+  },
+  "CRESPIERES": {
+    "bureau": "Poissy",
+    "distanceKm": 9.1
+  },
+  "CROISSY SUR SEINE": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 3.7
+  },
+  "DAMMARTIN EN SERVE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 10.7
+  },
+  "DAMPIERRE EN YVELINES": {
+    "bureau": "Chevreuse",
+    "distanceKm": 4.1
+  },
+  "DAMPIERRE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 4.1
+  },
+  "DANNEMARIE": {
+    "bureau": "Houdan",
+    "distanceKm": 3.9
+  },
+  "DAVRON": {
+    "bureau": "Poissy",
+    "distanceKm": 8.6
+  },
+  "DROCOURT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.5
+  },
+  "ECQUEVILLY": {
+    "bureau": "Meulan",
+    "distanceKm": 6.4
+  },
+  "ESSONNES": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "FAVRIEUX": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 6.9
+  },
+  "FEUCHEROLLES": {
+    "bureau": "Poissy",
+    "distanceKm": 5.8
+  },
+  "FLACOURT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.1
+  },
+  "FLEXANVILLE": {
+    "bureau": "Houdan",
+    "distanceKm": 12.4
+  },
+  "FLINS NEUVE EGLISE": {
+    "bureau": "Houdan",
+    "distanceKm": 10.8
+  },
+  "FLINS SUR SEINE": {
+    "bureau": "Meulan",
+    "distanceKm": 5.1
+  },
+  "FOLLAINVILLE DENNEMONT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 3.8
+  },
+  "FOLLAINVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 3.8
+  },
+  "FONTENAY MAUVOISIN": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 5.1
+  },
+  "FONTENAY SAINT PERE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 5.9
+  },
+  "FONTENAY LE FLEURY": {
+    "bureau": "Versailles",
+    "distanceKm": 5.4
+  },
+  "FOURQUEUX": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "FRENEUSE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 4.9
+  },
+  "GAILLON SUR MONTCIENT": {
+    "bureau": "Meulan",
+    "distanceKm": 2.9
+  },
+  "GAILLON": {
+    "bureau": "Meulan",
+    "distanceKm": 2.9
+  },
+  "GALLUIS": {
+    "bureau": "Houdan",
+    "distanceKm": 14.0
+  },
+  "GAMBAIS": {
+    "bureau": "Houdan",
+    "distanceKm": 5.9
+  },
+  "GAMBAISEUIL": {
+    "bureau": "Houdan",
+    "distanceKm": 9.9
+  },
+  "GARANCIERES": {
+    "bureau": "Houdan",
+    "distanceKm": 12.2
+  },
+  "GARGENVILLE": {
+    "bureau": "Meulan",
+    "distanceKm": 7.2
+  },
+  "GAZERAN": {
+    "bureau": "Rambouillet",
+    "distanceKm": 4.5
+  },
+  "GOMMECOURT": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 6.1
+  },
+  "GOUPILLIERES": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 13.8
+  },
+  "GOUSSONVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 9.6
+  },
+  "GRANDCHAMP": {
+    "bureau": "Houdan",
+    "distanceKm": 8.5
+  },
+  "GRESSEY": {
+    "bureau": "Houdan",
+    "distanceKm": 4.0
+  },
+  "GROSROUVRE": {
+    "bureau": "Houdan",
+    "distanceKm": 12.1
+  },
+  "GUERNES": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 4.2
+  },
+  "GUERVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 5.9
+  },
+  "GUITRANCOURT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 6.4
+  },
+  "GUYANCOURT": {
+    "bureau": "Versailles",
+    "distanceKm": 4.7
+  },
+  "HARDRICOURT": {
+    "bureau": "Meulan",
+    "distanceKm": 1.9
+  },
+  "HARGEVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 11.9
+  },
+  "HERBEVILLE": {
+    "bureau": "Poissy",
+    "distanceKm": 10.1
+  },
+  "HERMERAY": {
+    "bureau": "Rambouillet",
+    "distanceKm": 10.7
+  },
+  "HOUILLES": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 6.0
+  },
+  "ISSOU": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 7.0
+  },
+  "JAMBVILLE": {
+    "bureau": "Meulan",
+    "distanceKm": 6.6
+  },
+  "JOUARS PONTCHARTRAIN": {
+    "bureau": "Chevreuse",
+    "distanceKm": 12.9
+  },
+  "JOUY MAUVOISIN": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 4.1
+  },
+  "JOUY EN JOSAS": {
+    "bureau": "Versailles",
+    "distanceKm": 5.3
+  },
+  "JUMEAUVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 11.8
+  },
+  "JUZIERS": {
+    "bureau": "Meulan",
+    "distanceKm": 4.9
+  },
+  "L ETANG LA VILLE": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 2.2
+  },
+  "LA BOISSIERE ECOLE": {
+    "bureau": "Houdan",
+    "distanceKm": 12.8
+  },
+  "LA CELLE SAINT CLOUD": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 3.7
+  },
+  "LA CELLE LES BORDES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 8.4
+  },
+  "LA FALAISE": {
+    "bureau": "Meulan",
+    "distanceKm": 9.6
+  },
+  "LA HAUTEVILLE": {
+    "bureau": "Houdan",
+    "distanceKm": 10.4
+  },
+  "LA QUEUE LES YVELINES": {
+    "bureau": "Houdan",
+    "distanceKm": 11.9
+  },
+  "LA VERRIERE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 8.4
+  },
+  "LA VILLENEUVE EN CHEVRIE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 2.9
+  },
+  "LAINVILLE EN VEXIN": {
+    "bureau": "Meulan",
+    "distanceKm": 8.9
+  },
+  "LAINVILLE": {
+    "bureau": "Meulan",
+    "distanceKm": 8.9
+  },
+  "LE CHESNAY ROCQUENCOURT": {
+    "bureau": "Versailles",
+    "distanceKm": 2.7
+  },
+  "LE CHESNAY": {
+    "bureau": "Versailles",
+    "distanceKm": 2.7
+  },
+  "LE MESNIL SAINT DENIS": {
+    "bureau": "Chevreuse",
+    "distanceKm": 6.6
+  },
+  "LE MESNIL LE ROI": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 1.5
+  },
+  "LE PECQ": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 3.1
+  },
+  "LE PERRAY EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 5.0
+  },
+  "LE PERRAY": {
+    "bureau": "Rambouillet",
+    "distanceKm": 5.0
+  },
+  "LE PORT MARLY": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 2.3
+  },
+  "LE TARTRE GAUDRAN": {
+    "bureau": "Houdan",
+    "distanceKm": 11.0
+  },
+  "LE TERTRE SAINT DENIS": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.5
+  },
+  "LE TREMBLAY SUR MAULDRE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 14.8
+  },
+  "LE VESINET": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 4.3
+  },
+  "LES ALLUETS LE ROI": {
+    "bureau": "Poissy",
+    "distanceKm": 8.3
+  },
+  "LES BREVIAIRES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 7.1
+  },
+  "LES CLAYES SOUS BOIS": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 9.5
+  },
+  "LES ESSARTS LE ROI": {
+    "bureau": "Rambouillet",
+    "distanceKm": 7.8
+  },
+  "LES LOGES EN JOSAS": {
+    "bureau": "Versailles",
+    "distanceKm": 5.0
+  },
+  "LES MESNULS": {
+    "bureau": "Rambouillet",
+    "distanceKm": 11.2
+  },
+  "LES MUREAUX": {
+    "bureau": "Meulan",
+    "distanceKm": 1.9
+  },
+  "LIMAY": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 3.3
+  },
+  "LIMETZ VILLEZ": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 4.8
+  },
+  "LIMETZ": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 4.8
+  },
+  "LOMMOYE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 4.2
+  },
+  "LONGNES": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 10.8
+  },
+  "LONGVILLIERS": {
+    "bureau": "Chevreuse",
+    "distanceKm": 14.2
+  },
+  "LOUVECIENNES": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 1.9
+  },
+  "LEVIS SAINT NOM": {
+    "bureau": "Chevreuse",
+    "distanceKm": 7.8
+  },
+  "LEVY SAINT NOM": {
+    "bureau": "Chevreuse",
+    "distanceKm": 7.8
+  },
+  "MAGNANVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 3.1
+  },
+  "MAGNY LES HAMEAUX": {
+    "bureau": "Chevreuse",
+    "distanceKm": 4.0
+  },
+  "MAINCOURT SUR YVETTE": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "MAISONS LAFFITTE": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 4.1
+  },
+  "MANTES GASSICOURT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 0.0
+  },
+  "MANTES LA VILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 2.7
+  },
+  "MARCQ": {
+    "bureau": "Poissy",
+    "distanceKm": 16.2
+  },
+  "MAREIL MARLY": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 1.8
+  },
+  "MAREIL LE GUYON": {
+    "bureau": "Rambouillet",
+    "distanceKm": 15.2
+  },
+  "MAREIL SUR MAULDRE": {
+    "bureau": "Poissy",
+    "distanceKm": 11.6
+  },
+  "MAULE": {
+    "bureau": "Meulan",
+    "distanceKm": 12.1
+  },
+  "MAULETTE": {
+    "bureau": "Houdan",
+    "distanceKm": 1.7
+  },
+  "MAURECOURT": {
+    "bureau": "Poissy",
+    "distanceKm": 8.5
+  },
+  "MAUREPAS": {
+    "bureau": "Chevreuse",
+    "distanceKm": 11.0
+  },
+  "MEULAN EN YVELINES": {
+    "bureau": "Meulan",
+    "distanceKm": 0.0
+  },
+  "MILLEMONT": {
+    "bureau": "Houdan",
+    "distanceKm": 9.5
+  },
+  "MILON LA CHAPELLE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 3.0
+  },
+  "MITTAINVILLE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 14.6
+  },
+  "MOISSON": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.2
+  },
+  "MONDREVILLE": {
+    "bureau": "Houdan",
+    "distanceKm": 12.2
+  },
+  "MONTAINVILLE": {
+    "bureau": "Poissy",
+    "distanceKm": 13.4
+  },
+  "MONTALET LE BOIS": {
+    "bureau": "Meulan",
+    "distanceKm": 7.5
+  },
+  "MONTCHAUVET": {
+    "bureau": "Houdan",
+    "distanceKm": 11.0
+  },
+  "MONTESSON": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 2.7
+  },
+  "MONTFORT L AMAURY": {
+    "bureau": "Rambouillet",
+    "distanceKm": 13.2
+  },
+  "MONTIGNY LE BRETONNEUX": {
+    "bureau": "Versailles",
+    "distanceKm": 7.5
+  },
+  "MORAINVILLIERS": {
+    "bureau": "Poissy",
+    "distanceKm": 6.1
+  },
+  "MOUSSEAUX SUR SEINE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 6.7
+  },
+  "MULCENT": {
+    "bureau": "Houdan",
+    "distanceKm": 10.0
+  },
+  "MEDAN": {
+    "bureau": "Poissy",
+    "distanceKm": 4.5
+  },
+  "MENERVILLE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 7.0
+  },
+  "MERICOURT": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "MERE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 15.8
+  },
+  "MEZIERES SUR SEINE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.5
+  },
+  "MEZY SUR SEINE": {
+    "bureau": "Meulan",
+    "distanceKm": 2.9
+  },
+  "MEZY": {
+    "bureau": "Meulan",
+    "distanceKm": 2.9
+  },
+  "NEAUPHLE LE CHATEAU": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 14.9
+  },
+  "NEAUPHLE LE VIEUX": {
+    "bureau": "Poissy",
+    "distanceKm": 16.8
+  },
+  "NEAUPHLETTE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 9.2
+  },
+  "NOISY LE ROI": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 3.3
+  },
+  "NOTRE DAME DE LA MER": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 5.2
+  },
+  "JEUFOSSE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 5.2
+  },
+  "NEZEL": {
+    "bureau": "Meulan",
+    "distanceKm": 8.6
+  },
+  "OINVILLE SUR MONTCIENT": {
+    "bureau": "Meulan",
+    "distanceKm": 5.0
+  },
+  "ORCEMONT": {
+    "bureau": "Rambouillet",
+    "distanceKm": 6.8
+  },
+  "ORGERUS": {
+    "bureau": "Houdan",
+    "distanceKm": 8.3
+  },
+  "ORGEVAL": {
+    "bureau": "Poissy",
+    "distanceKm": 4.1
+  },
+  "ORPHIN": {
+    "bureau": "Rambouillet",
+    "distanceKm": 9.4
+  },
+  "ORSONVILLE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 19.6
+  },
+  "ORVILLIERS": {
+    "bureau": "Houdan",
+    "distanceKm": 7.2
+  },
+  "OSMOY": {
+    "bureau": "Houdan",
+    "distanceKm": 11.5
+  },
+  "PARAY DOUAVILLE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 21.6
+  },
+  "PERDREAUVILLE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 6.2
+  },
+  "PLAISIR": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 11.9
+  },
+  "POIGNY LA FORET": {
+    "bureau": "Rambouillet",
+    "distanceKm": 6.5
+  },
+  "POIGNY": {
+    "bureau": "Rambouillet",
+    "distanceKm": 6.5
+  },
+  "PONTHEVRARD": {
+    "bureau": "Rambouillet",
+    "distanceKm": 12.9
+  },
+  "PORCHEVILLE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 5.9
+  },
+  "PORT VILLEZ": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "PRUNAY EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 14.4
+  },
+  "PRUNAY SOUS ABLIS": {
+    "bureau": "Rambouillet",
+    "distanceKm": 14.4
+  },
+  "PRUNAY LE TEMPLE": {
+    "bureau": "Houdan",
+    "distanceKm": 8.8
+  },
+  "RAIZEUX": {
+    "bureau": "Rambouillet",
+    "distanceKm": 11.1
+  },
+  "RENNEMOULIN": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 5.0
+  },
+  "RICHEBOURG": {
+    "bureau": "Houdan",
+    "distanceKm": 4.1
+  },
+  "ROCHEFORT EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 12.8
+  },
+  "ROCQUENCOURT": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "ROLLEBOISE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 2.4
+  },
+  "ROSAY": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 9.5
+  },
+  "ROSNY SUR SEINE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 3.4
+  },
+  "SAILLY": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 9.1
+  },
+  "SAINT ARNOULT EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 11.2
+  },
+  "SAINT CYR L ECOLE": {
+    "bureau": "Versailles",
+    "distanceKm": 3.9
+  },
+  "SAINT FORGET": {
+    "bureau": "Chevreuse",
+    "distanceKm": 2.9
+  },
+  "SAINT GERMAIN DE LA GRANGE": {
+    "bureau": "Poissy",
+    "distanceKm": 13.4
+  },
+  "SAINT HILARION": {
+    "bureau": "Rambouillet",
+    "distanceKm": 8.8
+  },
+  "SAINT ILLIERS LA VILLE": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "SAINT ILLIERS LE BOIS": {
+    "bureau": "Bonnières-sur-Seine",
+    "distanceKm": 7.2
+  },
+  "SAINT LAMBERT": {
+    "bureau": "Chevreuse",
+    "distanceKm": 3.8
+  },
+  "SAINT LEGER EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 10.2
+  },
+  "SAINT MARTIN DE BRETHENCOURT": {
+    "bureau": "Rambouillet",
+    "distanceKm": 16.6
+  },
+  "SAINT MARTIN DES CHAMPS": {
+    "bureau": "Houdan",
+    "distanceKm": 12.7
+  },
+  "SAINT MARTIN LA GARENNE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 4.8
+  },
+  "SAINT NOM LA BRETECHE": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 5.3
+  },
+  "SAINT REMY L HONORE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 11.3
+  },
+  "SAINT REMY LES CHEVREUSE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 3.5
+  },
+  "SAINTE MESME": {
+    "bureau": "Rambouillet",
+    "distanceKm": 15.4
+  },
+  "SARTROUVILLE": {
+    "bureau": "Saint-Germain-en-Laye",
+    "distanceKm": 5.1
+  },
+  "SAULX MARCHAIS": {
+    "bureau": "Poissy",
+    "distanceKm": 16.5
+  },
+  "SENLISSE": {
+    "bureau": "Chevreuse",
+    "distanceKm": 5.3
+  },
+  "SEPTEUIL": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 12.0
+  },
+  "SOINDRES": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 4.8
+  },
+  "SONCHAMP": {
+    "bureau": "Rambouillet",
+    "distanceKm": 8.2
+  },
+  "TACOIGNIERES": {
+    "bureau": "Houdan",
+    "distanceKm": 6.3
+  },
+  "TESSANCOURT SUR AUBETTE": {
+    "bureau": "Meulan",
+    "distanceKm": 2.5
+  },
+  "THIONVILLE SUR OPTON": {
+    "bureau": "Versailles",
+    "distanceKm": 0.0
+  },
+  "THIVERVAL GRIGNON": {
+    "bureau": "Poissy",
+    "distanceKm": 11.4
+  },
+  "THIVERVAL": {
+    "bureau": "Poissy",
+    "distanceKm": 11.4
+  },
+  "THOIRY": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 16.1
+  },
+  "TILLY": {
+    "bureau": "Houdan",
+    "distanceKm": 9.2
+  },
+  "TOUSSUS LE NOBLE": {
+    "bureau": "Versailles",
+    "distanceKm": 6.2
+  },
+  "TRAPPES": {
+    "bureau": "Chevreuse",
+    "distanceKm": 8.3
+  },
+  "TRIEL SUR SEINE": {
+    "bureau": "Poissy",
+    "distanceKm": 5.9
+  },
+  "VAUX SUR SEINE": {
+    "bureau": "Meulan",
+    "distanceKm": 4.5
+  },
+  "VERNEUIL SUR SEINE": {
+    "bureau": "Meulan",
+    "distanceKm": 4.6
+  },
+  "VERNOUILLET": {
+    "bureau": "Poissy",
+    "distanceKm": 5.8
+  },
+  "VERT": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 6.0
+  },
+  "VICQ": {
+    "bureau": "Houdan",
+    "distanceKm": 17.1
+  },
+  "VIEILLE EGLISE EN YVELINES": {
+    "bureau": "Rambouillet",
+    "distanceKm": 3.5
+  },
+  "VILLENNES SUR SEINE": {
+    "bureau": "Poissy",
+    "distanceKm": 2.5
+  },
+  "VILLEPREUX": {
+    "bureau": "Marly-le-Roi",
+    "distanceKm": 6.8
+  },
+  "VILLETTE": {
+    "bureau": "Mantes-la-Jolie",
+    "distanceKm": 8.0
+  },
+  "VILLIERS SAINT FREDERIC": {
+    "bureau": "Poissy",
+    "distanceKm": 15.5
+  },
+  "VILLIERS LE MAHIEU": {
+    "bureau": "Houdan",
+    "distanceKm": 14.3
+  },
+  "VIROFLAY": {
+    "bureau": "Versailles",
+    "distanceKm": 3.9
+  },
+  "VOISINS LE BRETONNEUX": {
+    "bureau": "Chevreuse",
+    "distanceKm": 6.3
+  },
+  "VELIZY VILLACOUBLAY": {
+    "bureau": "Versailles",
+    "distanceKm": 6.0
+  },
+  "ELANCOURT": {
+    "bureau": "Chevreuse",
+    "distanceKm": 9.8
+  },
+  "EMANCE": {
+    "bureau": "Rambouillet",
+    "distanceKm": 10.2
+  },
+  "EPONE": {
+    "bureau": "Meulan",
+    "distanceKm": 9.7
+  },
+  "EVECQUEMONT": {
+    "bureau": "Meulan",
+    "distanceKm": 2.6
+  }
+}

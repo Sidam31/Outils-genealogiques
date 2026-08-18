@@ -1,0 +1,1054 @@
+{
+  "AGNAT": {
+    "bureau": "Brioude",
+    "distanceKm": 7.5
+  },
+  "AIGUILHE": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 2.9
+  },
+  "ALLEYRAC": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 4.7
+  },
+  "ALLEYRAS": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 21.3
+  },
+  "ALLY": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 7.4
+  },
+  "ARAULES": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 8.3
+  },
+  "ARLEMPDES": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 11.2
+  },
+  "ARLET": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 5.0
+  },
+  "ARSAC EN VELAY": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 6.0
+  },
+  "AUBAZAT": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 4.5
+  },
+  "AUREC SUR LOIRE": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 9.1
+  },
+  "AUREC": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 9.1
+  },
+  "AUTRAC": {
+    "bureau": "Blesle",
+    "distanceKm": 4.6
+  },
+  "AUVERS": {
+    "bureau": "Pinols",
+    "distanceKm": 4.8
+  },
+  "AZERAT": {
+    "bureau": "Auzon",
+    "distanceKm": 4.0
+  },
+  "BAINS": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 11.2
+  },
+  "BARGES": {
+    "bureau": "Pradelles",
+    "distanceKm": 7.7
+  },
+  "BAS": {
+    "bureau": "Bas-en-Basset",
+    "distanceKm": 0.0
+  },
+  "BEAULIEU": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 7.0
+  },
+  "BEAUMONT": {
+    "bureau": "Brioude",
+    "distanceKm": 4.7
+  },
+  "BEAUNE SUR ARZON": {
+    "bureau": "Craponne-sur-Arzon",
+    "distanceKm": 5.7
+  },
+  "BEAUX": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 7.6
+  },
+  "BEAUZAC": {
+    "bureau": "Bas-en-Basset",
+    "distanceKm": 7.2
+  },
+  "BELLEVUE LA MONTAGNE": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 7.3
+  },
+  "BERBEZIT": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 8.9
+  },
+  "BESSAMOREL": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 3.6
+  },
+  "BLANZAC": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 3.6
+  },
+  "BLASSAC": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 2.1
+  },
+  "BLAVOZY": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 7.0
+  },
+  "BOISSET": {
+    "bureau": "Saint-Pal-de-Chalencon",
+    "distanceKm": 4.1
+  },
+  "BONNEVAL": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 3.7
+  },
+  "BORNE": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 5.0
+  },
+  "BOURNONCLE SAINT PIERRE": {
+    "bureau": "Auzon",
+    "distanceKm": 6.4
+  },
+  "BOURNONCLE": {
+    "bureau": "Auzon",
+    "distanceKm": 6.4
+  },
+  "BRIVES CHARENSAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 2.6
+  },
+  "CAYRES": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 14.0
+  },
+  "CERZAT": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 4.6
+  },
+  "CEYSSAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 5.1
+  },
+  "CHADRAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 3.6
+  },
+  "CHADRON": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 6.2
+  },
+  "CHAMALIERES SUR LOIRE": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 6.1
+  },
+  "CHAMBEZON": {
+    "bureau": "Blesle",
+    "distanceKm": 9.3
+  },
+  "CHAMPAGNAC LE VIEUX": {
+    "bureau": "Auzon",
+    "distanceKm": 10.6
+  },
+  "CHAMPAGNAC": {
+    "bureau": "Auzon",
+    "distanceKm": 10.6
+  },
+  "CHAMPCLAUSE": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 6.2
+  },
+  "CHANALEILLES": {
+    "bureau": "Pinols",
+    "distanceKm": 22.5
+  },
+  "CHANIAT": {
+    "bureau": "Brioude",
+    "distanceKm": 7.2
+  },
+  "CHANTEUGES": {
+    "bureau": "Langeac",
+    "distanceKm": 4.5
+  },
+  "CHARRAIX": {
+    "bureau": "Langeac",
+    "distanceKm": 8.8
+  },
+  "CHASPINHAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 7.5
+  },
+  "CHASPUZAC": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 9.5
+  },
+  "CHASSAGNES": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 2.7
+  },
+  "CHASSIGNOLLES": {
+    "bureau": "Auzon",
+    "distanceKm": 8.5
+  },
+  "CHASTEL": {
+    "bureau": "Pinols",
+    "distanceKm": 5.5
+  },
+  "CHAUDEYROLLES": {
+    "bureau": "Fay-sur-Lignon",
+    "distanceKm": 4.5
+  },
+  "CHAVANIAC LAFAYETTE": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 8.4
+  },
+  "CHAZELLES": {
+    "bureau": "Langeac",
+    "distanceKm": 6.0
+  },
+  "CHENEREILLES": {
+    "bureau": "Tence",
+    "distanceKm": 5.7
+  },
+  "CHILHAC": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 2.0
+  },
+  "CHOMELIX": {
+    "bureau": "Craponne-sur-Arzon",
+    "distanceKm": 8.5
+  },
+  "CISTRIERES": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 6.2
+  },
+  "COHADE": {
+    "bureau": "Brioude",
+    "distanceKm": 4.6
+  },
+  "COLLAT": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 7.2
+  },
+  "CONNANGLES": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 4.2
+  },
+  "COSTAROS": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 14.1
+  },
+  "COUBON": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 4.1
+  },
+  "COUTEUGES": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 3.9
+  },
+  "CROISANCES": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "CRONCE": {
+    "bureau": "Pinols",
+    "distanceKm": 4.3
+  },
+  "CUBELLES": {
+    "bureau": "Langeac",
+    "distanceKm": 10.7
+  },
+  "CUSSAC SUR LOIRE": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 5.0
+  },
+  "CUSSAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 5.0
+  },
+  "CEAUX D ALLEGRE": {
+    "bureau": "Allègre",
+    "distanceKm": 5.5
+  },
+  "DESGES": {
+    "bureau": "Pinols",
+    "distanceKm": 5.2
+  },
+  "DOMEYRAT": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 3.3
+  },
+  "DUNIERES": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 3.8
+  },
+  "ESPALEM": {
+    "bureau": "Blesle",
+    "distanceKm": 4.8
+  },
+  "ESPALY SAINT MARCEL": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 3.7
+  },
+  "ESPLANTAS VAZEILLES": {
+    "bureau": "Langeac",
+    "distanceKm": 20.2
+  },
+  "ESPLANTAS": {
+    "bureau": "Langeac",
+    "distanceKm": 20.2
+  },
+  "FERRUSSAC": {
+    "bureau": "Pinols",
+    "distanceKm": 4.9
+  },
+  "FIX SAINT GENEYS": {
+    "bureau": "Allègre",
+    "distanceKm": 5.4
+  },
+  "FONTANNES": {
+    "bureau": "Brioude",
+    "distanceKm": 4.0
+  },
+  "FREYCENET LA CUCHE": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 7.5
+  },
+  "FREYCENET LA TOUR": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 4.7
+  },
+  "FRUGERES LES MINES": {
+    "bureau": "Auzon",
+    "distanceKm": 5.6
+  },
+  "FRUGIERES LE PIN": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 6.4
+  },
+  "FELINES": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 8.2
+  },
+  "GOUDET": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 8.3
+  },
+  "GRAZAC": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 7.6
+  },
+  "GRENIER MONTGON": {
+    "bureau": "Blesle",
+    "distanceKm": 3.9
+  },
+  "GREZES": {
+    "bureau": "Pinols",
+    "distanceKm": 15.8
+  },
+  "JAVAUGUES": {
+    "bureau": "Brioude",
+    "distanceKm": 8.4
+  },
+  "JAX": {
+    "bureau": "Allègre",
+    "distanceKm": 5.4
+  },
+  "JOSAT": {
+    "bureau": "Allègre",
+    "distanceKm": 6.8
+  },
+  "JULLIANGES": {
+    "bureau": "Craponne-sur-Arzon",
+    "distanceKm": 6.6
+  },
+  "LA BESSEYRE SAINT MARY": {
+    "bureau": "Pinols",
+    "distanceKm": 7.5
+  },
+  "LA CHAPELLE BERTIN": {
+    "bureau": "Allègre",
+    "distanceKm": 4.5
+  },
+  "LA CHAPELLE GENESTE": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 3.8
+  },
+  "LA CHAPELLE D AUREC": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 4.9
+  },
+  "LA CHOMETTE": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 3.9
+  },
+  "LA SAUVETAT": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "LA SEAUVE SUR SEMENE": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 5.2
+  },
+  "LAFARRE": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 11.1
+  },
+  "LAMOTHE": {
+    "bureau": "Brioude",
+    "distanceKm": 4.2
+  },
+  "LANDOS": {
+    "bureau": "Pradelles",
+    "distanceKm": 9.5
+  },
+  "LANTRIAC": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 6.3
+  },
+  "LAPTE": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 6.0
+  },
+  "LAUSSONNE": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 4.6
+  },
+  "LAVAL SUR DOULON": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 10.6
+  },
+  "LAVAUDIEU": {
+    "bureau": "Brioude",
+    "distanceKm": 6.7
+  },
+  "LAVOUTE SUR LOIRE": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 6.7
+  },
+  "LE BOUCHET SAINT NICOLAS": {
+    "bureau": "Pradelles",
+    "distanceKm": 14.9
+  },
+  "LE BOUCHET": {
+    "bureau": "Pradelles",
+    "distanceKm": 14.9
+  },
+  "LE BRIGNON": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 11.0
+  },
+  "LE CHAMBON SUR LIGNON": {
+    "bureau": "Tence",
+    "distanceKm": 7.2
+  },
+  "LE MAS DE TENCE": {
+    "bureau": "Tence",
+    "distanceKm": 5.3
+  },
+  "LE MONASTIER": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 0.0
+  },
+  "LE MONTEIL": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 4.3
+  },
+  "LE PERTUIS": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 5.9
+  },
+  "LE PUY": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "LE VERNET": {
+    "bureau": "Langeac",
+    "distanceKm": 15.3
+  },
+  "LEMPDES SUR ALLAGNON": {
+    "bureau": "Auzon",
+    "distanceKm": 7.9
+  },
+  "LEMPDES": {
+    "bureau": "Auzon",
+    "distanceKm": 7.9
+  },
+  "LES ESTABLES": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 10.0
+  },
+  "LES VASTRES": {
+    "bureau": "Fay-sur-Lignon",
+    "distanceKm": 5.0
+  },
+  "LES VILLETTES": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 5.0
+  },
+  "LISSAC": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 5.2
+  },
+  "LORLANGES": {
+    "bureau": "Blesle",
+    "distanceKm": 6.8
+  },
+  "LOUDES": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 7.2
+  },
+  "LUBILHAC": {
+    "bureau": "Blesle",
+    "distanceKm": 9.6
+  },
+  "LEOTOING": {
+    "bureau": "Blesle",
+    "distanceKm": 6.8
+  },
+  "MALREVERS": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 9.1
+  },
+  "MALVALETTE": {
+    "bureau": "Bas-en-Basset",
+    "distanceKm": 5.9
+  },
+  "MALVIERES": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 3.5
+  },
+  "MAZERAT AUROUZE": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 5.0
+  },
+  "MAZEYRAT AUROUZE": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 5.0
+  },
+  "MAZET SAINT VOY": {
+    "bureau": "Fay-sur-Lignon",
+    "distanceKm": 7.0
+  },
+  "MAZEYRAT D ALLIER": {
+    "bureau": "Langeac",
+    "distanceKm": 7.5
+  },
+  "MAZEYRAT CRISPINHAC": {
+    "bureau": "Langeac",
+    "distanceKm": 7.5
+  },
+  "MERCŒUR": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 8.4
+  },
+  "MONISTROL D ALLIER": {
+    "bureau": "Langeac",
+    "distanceKm": 16.8
+  },
+  "MONLET": {
+    "bureau": "Allègre",
+    "distanceKm": 4.9
+  },
+  "MONTCLARD": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 7.1
+  },
+  "MONTFAUCON": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 0.0
+  },
+  "MONTREGARD": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 3.8
+  },
+  "MONTUSCLAT": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 3.1
+  },
+  "MOUDEYRES": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 7.4
+  },
+  "MEZERES": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 8.9
+  },
+  "OUIDES": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 18.5
+  },
+  "OURS MONS": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "PAULHAC": {
+    "bureau": "Brioude",
+    "distanceKm": 3.6
+  },
+  "POLIGNAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 6.3
+  },
+  "PONT SALOMON": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 7.2
+  },
+  "PRADES": {
+    "bureau": "Langeac",
+    "distanceKm": 11.0
+  },
+  "PRESAILLES": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 5.4
+  },
+  "PEBRAC": {
+    "bureau": "Langeac",
+    "distanceKm": 6.3
+  },
+  "QUEYRIERES": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 5.1
+  },
+  "RAUCOULES": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 3.2
+  },
+  "RAURET": {
+    "bureau": "Pradelles",
+    "distanceKm": 6.9
+  },
+  "REILHAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "RETOURNAC": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 9.6
+  },
+  "RIOTORD": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 9.8
+  },
+  "ROCHE EN REGNIER": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 5.0
+  },
+  "ROSIERES": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 9.3
+  },
+  "SAINT ANDRE DE CHALENCON": {
+    "bureau": "Saint-Pal-de-Chalencon",
+    "distanceKm": 8.0
+  },
+  "SAINT ARCONS D ALLIER": {
+    "bureau": "Langeac",
+    "distanceKm": 6.7
+  },
+  "SAINT ARCONS DE BARGES": {
+    "bureau": "Pradelles",
+    "distanceKm": 8.8
+  },
+  "SAINT AUSTREMOINE": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 6.2
+  },
+  "SAINT BEAUZIRE": {
+    "bureau": "Brioude",
+    "distanceKm": 8.8
+  },
+  "SAINT BONNET LE FROID": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 10.0
+  },
+  "SAINT BERAIN": {
+    "bureau": "Langeac",
+    "distanceKm": 12.9
+  },
+  "SAINT CHRISTOPHE D ALLIER": {
+    "bureau": "Pradelles",
+    "distanceKm": 16.8
+  },
+  "SAINT CHRISTOPHE SUR DOLAIZON": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 7.0
+  },
+  "SAINT CHRISTOPHE SUR DOLAISON": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 7.0
+  },
+  "SAINT CIRGUES": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 3.9
+  },
+  "SAINT DIDIER D ALLIER": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "SAINT DIDIER EN VELAY": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 8.2
+  },
+  "SAINT DIDIER SUR DOULON": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 9.8
+  },
+  "SAINT EBLE": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "SAINT FERREOL D AUROURE": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 10.0
+  },
+  "SAINT FRONT": {
+    "bureau": "Fay-sur-Lignon",
+    "distanceKm": 7.0
+  },
+  "SAINT GENEYS PRES SAINT PAULIEN": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 4.8
+  },
+  "SAINT GEORGES LAGRICOL": {
+    "bureau": "Craponne-sur-Arzon",
+    "distanceKm": 3.8
+  },
+  "SAINT GEORGES D AURAC": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 7.1
+  },
+  "SAINT GERMAIN LAPRADE": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 6.8
+  },
+  "SAINT GERON": {
+    "bureau": "Brioude",
+    "distanceKm": 8.1
+  },
+  "SAINT HAON": {
+    "bureau": "Pradelles",
+    "distanceKm": 13.6
+  },
+  "SAINT HILAIRE": {
+    "bureau": "Auzon",
+    "distanceKm": 5.2
+  },
+  "SAINT HOSTIEN": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 6.3
+  },
+  "SAINT ILPIZE": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 5.2
+  },
+  "SAINT JEAN LACHALM": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 16.6
+  },
+  "SAINT JEAN D AUBRIGOUX": {
+    "bureau": "Craponne-sur-Arzon",
+    "distanceKm": 5.0
+  },
+  "SAINT JEAN DE NAY": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 12.7
+  },
+  "SAINT JEURES": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 7.3
+  },
+  "SAINT JULIEN MOLHESABATE": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 8.5
+  },
+  "SAINT JULIEN D ANCE": {
+    "bureau": "Saint-Pal-de-Chalencon",
+    "distanceKm": 5.2
+  },
+  "SAINT JULIEN DES CHAZES": {
+    "bureau": "Langeac",
+    "distanceKm": 8.1
+  },
+  "SAINT JULIEN DU PINET": {
+    "bureau": "Yssingeaux",
+    "distanceKm": 6.2
+  },
+  "SAINT JUST MALMONT": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 12.1
+  },
+  "SAINT JUST PRES BRIOUDE": {
+    "bureau": "Brioude",
+    "distanceKm": 8.1
+  },
+  "SAINT LAURENT CHABREUGES": {
+    "bureau": "Brioude",
+    "distanceKm": 3.7
+  },
+  "SAINT MARTIN DE FUGERES": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 6.5
+  },
+  "SAINT MAURICE DE LIGNON": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 7.9
+  },
+  "SAINT PAL DE MONS": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 7.4
+  },
+  "SAINT PAL DE SENOUIRE": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 7.9
+  },
+  "SAINT PAL DE MURS": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 7.9
+  },
+  "SAINT PAUL DE TARTAS": {
+    "bureau": "Pradelles",
+    "distanceKm": 3.8
+  },
+  "SAINT PIERRE EYNAC": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 4.2
+  },
+  "SAINT PIERRE DU CHAMP": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 5.2
+  },
+  "SAINT PRIVAT D ALLIER": {
+    "bureau": "Langeac",
+    "distanceKm": 17.6
+  },
+  "SAINT PRIVAT DU DRAGON": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 5.2
+  },
+  "SAINT PREJET ARMANDON": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 4.7
+  },
+  "SAINT PREJET D ALLIER": {
+    "bureau": "Langeac",
+    "distanceKm": 20.8
+  },
+  "SAINT ROMAIN LACHALM": {
+    "bureau": "Montfaucon-en-Velay",
+    "distanceKm": 9.5
+  },
+  "SAINT VERT": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 12.9
+  },
+  "SAINT VICTOR MALESCOURS": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 11.0
+  },
+  "SAINT VICTOR SUR ARLANC": {
+    "bureau": "Craponne-sur-Arzon",
+    "distanceKm": 5.9
+  },
+  "SAINT VIDAL": {
+    "bureau": "Saint-Paulien",
+    "distanceKm": 6.8
+  },
+  "SAINT VINCENT": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 4.8
+  },
+  "SAINT VENERAND": {
+    "bureau": "Pradelles",
+    "distanceKm": 20.2
+  },
+  "SAINT ETIENNE LARDEYROL": {
+    "bureau": "Saint-Julien-Chapteuil",
+    "distanceKm": 9.1
+  },
+  "SAINT ETIENNE DU VIGAN": {
+    "bureau": "Pradelles",
+    "distanceKm": 3.9
+  },
+  "SAINT ETIENNE SUR BLESLE": {
+    "bureau": "Blesle",
+    "distanceKm": 4.1
+  },
+  "SAINTE EUGENIE DE VILLENEUVE": {
+    "bureau": "Allègre",
+    "distanceKm": 6.6
+  },
+  "SAINTE FLORINE": {
+    "bureau": "Auzon",
+    "distanceKm": 5.7
+  },
+  "SAINTE MARGUERITE": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 5.4
+  },
+  "SAINTE MARIE DES CHAZES": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "SAINTE SIGOLENE": {
+    "bureau": "Monistrol-sur-Loire",
+    "distanceKm": 5.7
+  },
+  "SALETTES": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 8.2
+  },
+  "SALZUIT": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 2.8
+  },
+  "SANSSAC L EGLISE": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 8.3
+  },
+  "SAUGUES": {
+    "bureau": "Langeac",
+    "distanceKm": 14.3
+  },
+  "SEMBADEL": {
+    "bureau": "La Chaise-Dieu",
+    "distanceKm": 5.4
+  },
+  "SIAUGUES SAINTE MARIE": {
+    "bureau": "Langeac",
+    "distanceKm": 11.9
+  },
+  "SIAUGUES SAINT ROMAIN": {
+    "bureau": "Langeac",
+    "distanceKm": 11.9
+  },
+  "SOLIGNAC SOUS ROCHE": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 9.7
+  },
+  "SOLIGNAC SUR LOIRE": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 8.1
+  },
+  "SENEUJOLS": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 11.8
+  },
+  "TAILHAC": {
+    "bureau": "Langeac",
+    "distanceKm": 2.8
+  },
+  "TAULHAC PRES LE PUY": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "THORAS": {
+    "bureau": "Langeac",
+    "distanceKm": 24.7
+  },
+  "TIRANGES": {
+    "bureau": "Saint-Pal-de-Chalencon",
+    "distanceKm": 7.7
+  },
+  "TORSIAC": {
+    "bureau": "Blesle",
+    "distanceKm": 4.8
+  },
+  "VABRES": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "VALPRIVAS": {
+    "bureau": "Bas-en-Basset",
+    "distanceKm": 4.4
+  },
+  "VALS LE CHASTEL": {
+    "bureau": "Paulhaguet",
+    "distanceKm": 6.2
+  },
+  "VALS PRES LE PUY": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 2.7
+  },
+  "VARENNES SAINT HONORAT": {
+    "bureau": "Allègre",
+    "distanceKm": 3.4
+  },
+  "VAZEILLES LIMANDRE": {
+    "bureau": "Allègre",
+    "distanceKm": 7.8
+  },
+  "VAZEILLES PRES SAUGUES": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "VENTEUGES": {
+    "bureau": "Pinols",
+    "distanceKm": 10.6
+  },
+  "VERGEZAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 12.0
+  },
+  "VERGONGHEON": {
+    "bureau": "Auzon",
+    "distanceKm": 4.3
+  },
+  "VERNASSAL": {
+    "bureau": "Allègre",
+    "distanceKm": 4.5
+  },
+  "VIEILLE BRIOUDE": {
+    "bureau": "Brioude",
+    "distanceKm": 5.3
+  },
+  "VIELPRAT": {
+    "bureau": "Le Monastier-sur-Gazeille",
+    "distanceKm": 10.8
+  },
+  "VILLENEUVE D ALLIER": {
+    "bureau": "Lavoûte-Chilhac",
+    "distanceKm": 5.8
+  },
+  "VISSAC": {
+    "bureau": "Le Puy-en-Velay",
+    "distanceKm": 0.0
+  },
+  "VISSAC AUTEYRAC": {
+    "bureau": "Allègre",
+    "distanceKm": 9.2
+  },
+  "AUTEYRAC": {
+    "bureau": "Allègre",
+    "distanceKm": 9.2
+  },
+  "VOREY": {
+    "bureau": "Vorey-sur-Arzon",
+    "distanceKm": 0.0
+  },
+  "VEZEZOUX": {
+    "bureau": "Auzon",
+    "distanceKm": 3.2
+  }
+}

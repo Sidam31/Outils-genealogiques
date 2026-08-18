@@ -1,0 +1,162 @@
+{
+  "ABLON SUR SEINE": {
+    "bureau": "Vitry-sur-Seine",
+    "distanceKm": 7.6
+  },
+  "ALFORTVILLE": {
+    "bureau": "Maisons-Alfort",
+    "distanceKm": 1.5
+  },
+  "ARCUEIL": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 2.4
+  },
+  "BONNEUIL SUR MARNE": {
+    "bureau": "Saint-Maur-des-Fossés",
+    "distanceKm": 3.1
+  },
+  "BRY SUR MARNE": {
+    "bureau": "Nogent Sud",
+    "distanceKm": 3.0
+  },
+  "CACHAN": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 2.1
+  },
+  "CHAMPIGNY SUR MARNE": {
+    "bureau": "Saint-Maur-des-Fossés",
+    "distanceKm": 2.9
+  },
+  "CHENNEVIERES SUR MARNE": {
+    "bureau": "Saint-Maur-des-Fossés",
+    "distanceKm": 3.9
+  },
+  "CHEVILLY LARUE": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 2.9
+  },
+  "CHOISY LE ROI": {
+    "bureau": "Vitry-sur-Seine",
+    "distanceKm": 3.4
+  },
+  "CRETEIL": {
+    "bureau": "Maisons-Alfort",
+    "distanceKm": 2.1
+  },
+  "FONTENAY SOUS BOIS": {
+    "bureau": "Nogent Sud",
+    "distanceKm": 1.6
+  },
+  "FRESNES": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 4.7
+  },
+  "GENTILLY": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 2.4
+  },
+  "JOINVILLE LE PONT": {
+    "bureau": "Nogent Sud",
+    "distanceKm": 2.1
+  },
+  "L HAY LES ROSES": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 2.2
+  },
+  "LA QUEUE EN BRIE": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 5.7
+  },
+  "LE KREMLIN BICETRE": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 1.7
+  },
+  "LE PERREUX SUR MARNE": {
+    "bureau": "Nogent Sud",
+    "distanceKm": 1.9
+  },
+  "LE PLESSIS TREVISE": {
+    "bureau": "Saint-Maur-des-Fossés",
+    "distanceKm": 6.2
+  },
+  "LIMEIL BREVANNES": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 2.4
+  },
+  "MANDRES LES ROSES": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 4.6
+  },
+  "MANDRES": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 4.6
+  },
+  "MAROLLES EN BRIE": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 2.2
+  },
+  "NOISEAU": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 4.1
+  },
+  "ORLY": {
+    "bureau": "Vitry-sur-Seine",
+    "distanceKm": 5.5
+  },
+  "ORMESSON SUR MARNE": {
+    "bureau": "Saint-Maur-des-Fossés",
+    "distanceKm": 3.6
+  },
+  "PERIGNY": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 6.0
+  },
+  "RUNGIS": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 5.0
+  },
+  "SAINT MANDE": {
+    "bureau": "Vincennes",
+    "distanceKm": 1.5
+  },
+  "SAINT MAURICE": {
+    "bureau": "Maisons-Alfort",
+    "distanceKm": 1.8
+  },
+  "SANTENY": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 3.9
+  },
+  "SUCY EN BRIE": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 2.8
+  },
+  "THIAIS": {
+    "bureau": "Vitry-sur-Seine",
+    "distanceKm": 3.3
+  },
+  "VALENTON": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 4.8
+  },
+  "VILLECRESNES": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 2.6
+  },
+  "VILLEJUIF": {
+    "bureau": "Villejuif Est",
+    "distanceKm": 0.0
+  },
+  "VILLENEUVE SAINT GEORGES": {
+    "bureau": "Boissy-Saint-Léger",
+    "distanceKm": 5.6
+  },
+  "VILLENEUVE LE ROI": {
+    "bureau": "Vitry-sur-Seine",
+    "distanceKm": 6.4
+  },
+  "VILLIERS SUR MARNE": {
+    "bureau": "Nogent Sud",
+    "distanceKm": 5.0
+  }
+}

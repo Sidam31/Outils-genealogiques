@@ -1,0 +1,758 @@
+{
+  "ARNAC LA POSTE": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 6.3
+  },
+  "AUGNE": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 7.2
+  },
+  "AUREIL": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 8.4
+  },
+  "AZAT LE RIS": {
+    "bureau": "Le Dorat",
+    "distanceKm": 10.8
+  },
+  "AZAT LE RIZ": {
+    "bureau": "Le Dorat",
+    "distanceKm": 10.8
+  },
+  "BALLEDENT": {
+    "bureau": "Châteauponsac",
+    "distanceKm": 5.6
+  },
+  "BEAUMONT DU LAC": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 12.1
+  },
+  "BEAUMONT": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 12.1
+  },
+  "BEAUNE LES MINES": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "BERNEUIL": {
+    "bureau": "Bellac",
+    "distanceKm": 7.3
+  },
+  "BERSAC SUR RIVALIER": {
+    "bureau": "Bessines-sur-Gartempe",
+    "distanceKm": 5.6
+  },
+  "BEYNAC": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 4.7
+  },
+  "BLANZAC": {
+    "bureau": "Bellac",
+    "distanceKm": 6.5
+  },
+  "BLOND": {
+    "bureau": "Bellac",
+    "distanceKm": 5.4
+  },
+  "BOISSEUIL": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 8.1
+  },
+  "BONNAC LA COTE": {
+    "bureau": "Ambazac",
+    "distanceKm": 8.5
+  },
+  "BOSMIE L AIGUILLE": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 7.4
+  },
+  "BOSMIE": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 7.4
+  },
+  "BREUILAUFA": {
+    "bureau": "Nantiat",
+    "distanceKm": 6.5
+  },
+  "BUJALEUF": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 11.3
+  },
+  "BURGNAC": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 7.3
+  },
+  "BUSSIERE BOFFY": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "BUSSIERE GALANT": {
+    "bureau": "Châlus",
+    "distanceKm": 8.3
+  },
+  "CHAILLAC SUR VIENNE": {
+    "bureau": "Saint-Junien",
+    "distanceKm": 3.9
+  },
+  "CHAMBORET": {
+    "bureau": "Nantiat",
+    "distanceKm": 4.4
+  },
+  "CHAMPAGNAC LA RIVIERE": {
+    "bureau": "Oradour-sur-Vayres",
+    "distanceKm": 5.4
+  },
+  "CHAMPNETERY": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 7.0
+  },
+  "CHAMPSAC": {
+    "bureau": "Châlus",
+    "distanceKm": 5.5
+  },
+  "CHAPTELAT": {
+    "bureau": "Limoges",
+    "distanceKm": 6.7
+  },
+  "CHEISSOUX": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 10.8
+  },
+  "CHATEAU CHERVIX": {
+    "bureau": "Saint-Germain-les-Belles",
+    "distanceKm": 9.3
+  },
+  "CHERONNAC": {
+    "bureau": "Saint-Mathieu",
+    "distanceKm": 6.2
+  },
+  "CIEUX": {
+    "bureau": "Nantiat",
+    "distanceKm": 12.5
+  },
+  "COGNAC LA FORET": {
+    "bureau": "Saint-Laurent-sur-Gorre",
+    "distanceKm": 7.6
+  },
+  "COGNAC LE FROID": {
+    "bureau": "Saint-Laurent-sur-Gorre",
+    "distanceKm": 7.6
+  },
+  "COMPREIGNAC": {
+    "bureau": "Nantiat",
+    "distanceKm": 8.4
+  },
+  "CONDAT SUR VIENNE": {
+    "bureau": "Limoges",
+    "distanceKm": 8.0
+  },
+  "COUSSAC BONNEVAL": {
+    "bureau": "Saint-Yrieix-la-Perche",
+    "distanceKm": 9.7
+  },
+  "COUZEIX": {
+    "bureau": "Limoges",
+    "distanceKm": 3.3
+  },
+  "CROMAC": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 7.9
+  },
+  "CUSSAC": {
+    "bureau": "Oradour-sur-Vayres",
+    "distanceKm": 5.6
+  },
+  "DARNAC": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "DINSAC": {
+    "bureau": "Le Dorat",
+    "distanceKm": 4.3
+  },
+  "DOMPIERRE LES EGLISES": {
+    "bureau": "Magnac-Laval",
+    "distanceKm": 7.0
+  },
+  "DOMPS": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 6.1
+  },
+  "DOURNAZAC": {
+    "bureau": "Châlus",
+    "distanceKm": 4.0
+  },
+  "DROUX": {
+    "bureau": "Le Dorat",
+    "distanceKm": 7.6
+  },
+  "EYBOULEUF": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 5.4
+  },
+  "EYJEAUX": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 9.5
+  },
+  "FEYTIAT": {
+    "bureau": "Limoges",
+    "distanceKm": 9.4
+  },
+  "FLAVIGNAC": {
+    "bureau": "Saint-Laurent-sur-Gorre",
+    "distanceKm": 9.5
+  },
+  "FOLLES": {
+    "bureau": "Laurière",
+    "distanceKm": 6.7
+  },
+  "FROMENTAL": {
+    "bureau": "Bessines-sur-Gartempe",
+    "distanceKm": 6.9
+  },
+  "GAJOUBERT": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 5.0
+  },
+  "GLANDON": {
+    "bureau": "Saint-Yrieix-la-Perche",
+    "distanceKm": 6.3
+  },
+  "GLANGES": {
+    "bureau": "Saint-Germain-les-Belles",
+    "distanceKm": 7.2
+  },
+  "GORRE": {
+    "bureau": "Saint-Laurent-sur-Gorre",
+    "distanceKm": 3.9
+  },
+  "ISLE": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 5.8
+  },
+  "JABREILLES LES BORDES": {
+    "bureau": "Laurière",
+    "distanceKm": 5.8
+  },
+  "JANAILHAC": {
+    "bureau": "Nexon",
+    "distanceKm": 4.8
+  },
+  "JAVERDAT": {
+    "bureau": "Saint-Junien",
+    "distanceKm": 9.4
+  },
+  "JOUAC": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 11.0
+  },
+  "JOURGNAC": {
+    "bureau": "Nexon",
+    "distanceKm": 8.5
+  },
+  "LA BAZEUGE": {
+    "bureau": "Le Dorat",
+    "distanceKm": 5.5
+  },
+  "LA CHAPELLE MONTBRANDEIX": {
+    "bureau": "Châlus",
+    "distanceKm": 9.0
+  },
+  "LA CROISILLE SUR BRIANCE": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 8.1
+  },
+  "LA CROIX SUR GARTEMPE": {
+    "bureau": "Bellac",
+    "distanceKm": 6.9
+  },
+  "LA GENEYTOUSE": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 7.0
+  },
+  "LA JONCHERE SAINT MAURICE": {
+    "bureau": "Laurière",
+    "distanceKm": 7.8
+  },
+  "LA MEYZE": {
+    "bureau": "Nexon",
+    "distanceKm": 6.2
+  },
+  "LA PORCHERIE": {
+    "bureau": "Saint-Germain-les-Belles",
+    "distanceKm": 5.0
+  },
+  "LA ROCHE L ABEILLE": {
+    "bureau": "Saint-Yrieix-la-Perche",
+    "distanceKm": 8.7
+  },
+  "LADIGNAC LE LONG": {
+    "bureau": "Saint-Yrieix-la-Perche",
+    "distanceKm": 9.0
+  },
+  "LAVIGNAC": {
+    "bureau": "Nexon",
+    "distanceKm": 7.4
+  },
+  "LE BUIS": {
+    "bureau": "Nantiat",
+    "distanceKm": 3.8
+  },
+  "LE CHALARD": {
+    "bureau": "Saint-Yrieix-la-Perche",
+    "distanceKm": 7.0
+  },
+  "LE CHATENET EN DOGNON": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 6.8
+  },
+  "LE PALAIS SUR VIENNE": {
+    "bureau": "Limoges",
+    "distanceKm": 8.1
+  },
+  "LE VIGEN": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 9.0
+  },
+  "LES BILLANGES": {
+    "bureau": "Ambazac",
+    "distanceKm": 10.8
+  },
+  "LES CARS": {
+    "bureau": "Nexon",
+    "distanceKm": 7.9
+  },
+  "LES GRANDS CHEZEAUX": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 5.0
+  },
+  "LES SALLES LAVAUGUYON": {
+    "bureau": "Saint-Mathieu",
+    "distanceKm": 7.5
+  },
+  "LINARDS": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 5.6
+  },
+  "LUSSAC LES EGLISES": {
+    "bureau": "Magnac-Laval",
+    "distanceKm": 11.8
+  },
+  "MAGNAC BOURG": {
+    "bureau": "Saint-Germain-les-Belles",
+    "distanceKm": 3.9
+  },
+  "MAILHAC SUR BENAIZE": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 5.9
+  },
+  "MAISONNAIS SUR TARDOIRE": {
+    "bureau": "Saint-Mathieu",
+    "distanceKm": 7.0
+  },
+  "MARVAL": {
+    "bureau": "Saint-Mathieu",
+    "distanceKm": 7.9
+  },
+  "MASLEON": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 8.8
+  },
+  "MEILHAC": {
+    "bureau": "Nexon",
+    "distanceKm": 5.9
+  },
+  "MEUZAC": {
+    "bureau": "Saint-Germain-les-Belles",
+    "distanceKm": 8.1
+  },
+  "MILHAGUET": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "MOISSANNES": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 5.7
+  },
+  "MONTROL SENARD": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 8.5
+  },
+  "MORTEMART": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 6.1
+  },
+  "MORTEROLLES SUR SEMME": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "NEDDE": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 8.0
+  },
+  "NEUVIC ENTIER": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 5.8
+  },
+  "NIEUL": {
+    "bureau": "Limoges",
+    "distanceKm": 7.9
+  },
+  "NOUIC": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 3.9
+  },
+  "ORADOUR SAINT GENEST": {
+    "bureau": "Le Dorat",
+    "distanceKm": 5.6
+  },
+  "ORADOUR SUR GLANE": {
+    "bureau": "Saint-Junien",
+    "distanceKm": 11.4
+  },
+  "PAGEAS": {
+    "bureau": "Châlus",
+    "distanceKm": 4.8
+  },
+  "PANAZOL": {
+    "bureau": "Limoges",
+    "distanceKm": 7.6
+  },
+  "PENSOL": {
+    "bureau": "Châlus",
+    "distanceKm": 12.2
+  },
+  "PEYRAT DE BELLAC": {
+    "bureau": "Bellac",
+    "distanceKm": 3.1
+  },
+  "PEYRAT LE CHATEAU": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 13.0
+  },
+  "PEYRILHAC": {
+    "bureau": "Nantiat",
+    "distanceKm": 6.6
+  },
+  "RANCON": {
+    "bureau": "Châteauponsac",
+    "distanceKm": 7.6
+  },
+  "RAZES": {
+    "bureau": "Bessines-sur-Gartempe",
+    "distanceKm": 8.4
+  },
+  "REMPNAT": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 11.0
+  },
+  "RILHAC LASTOURS": {
+    "bureau": "Nexon",
+    "distanceKm": 4.9
+  },
+  "RILHAC RANCON": {
+    "bureau": "Ambazac",
+    "distanceKm": 7.5
+  },
+  "ROYERES": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 4.8
+  },
+  "ROZIERS SAINT GEORGES": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 7.0
+  },
+  "SAILLAT SUR VIENNE": {
+    "bureau": "Rochechouart",
+    "distanceKm": 4.8
+  },
+  "SAILLAT": {
+    "bureau": "Rochechouart",
+    "distanceKm": 4.8
+  },
+  "SAINT AMAND MAGNAZEIX": {
+    "bureau": "Châteauponsac",
+    "distanceKm": 8.4
+  },
+  "SAINT AMAND LE PETIT": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 7.0
+  },
+  "SAINT AUVENT": {
+    "bureau": "Rochechouart",
+    "distanceKm": 6.2
+  },
+  "SAINT BARBANT": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "SAINT BAZILE": {
+    "bureau": "Saint-Mathieu",
+    "distanceKm": 4.2
+  },
+  "SAINT BONNET BRIANCE": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 9.9
+  },
+  "SAINT BONNET DE BELLAC": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 9.2
+  },
+  "SAINT BRICE SUR VIENNE": {
+    "bureau": "Saint-Junien",
+    "distanceKm": 6.2
+  },
+  "SAINT CYR": {
+    "bureau": "Saint-Laurent-sur-Gorre",
+    "distanceKm": 3.1
+  },
+  "SAINT DENIS DES MURS": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 7.6
+  },
+  "SAINT GENCE": {
+    "bureau": "Limoges",
+    "distanceKm": 9.1
+  },
+  "SAINT GENEST SUR ROSELLE": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 4.9
+  },
+  "SAINT GEORGES LES LANDES": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 6.1
+  },
+  "SAINT GILLES LES FORETS": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 8.4
+  },
+  "SAINT HILAIRE BONNEVAL": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 3.4
+  },
+  "SAINT HILAIRE LA TREILLE": {
+    "bureau": "Saint-Sulpice-les-Feuilles",
+    "distanceKm": 9.7
+  },
+  "SAINT HILAIRE LES PLACES": {
+    "bureau": "Nexon",
+    "distanceKm": 3.8
+  },
+  "SAINT JEAN LIGOURE": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 4.0
+  },
+  "SAINT JOUVENT": {
+    "bureau": "Nantiat",
+    "distanceKm": 6.4
+  },
+  "SAINT JULIEN LE PETIT": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 12.5
+  },
+  "SAINT JUNIEN LES COMBES": {
+    "bureau": "Bellac",
+    "distanceKm": 7.8
+  },
+  "SAINT JUST LE MARTEL": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 8.7
+  },
+  "SAINT LAURENT LES EGLISES": {
+    "bureau": "Ambazac",
+    "distanceKm": 6.1
+  },
+  "SAINT LEGER MAGNAZEIX": {
+    "bureau": "Magnac-Laval",
+    "distanceKm": 7.2
+  },
+  "SAINT LEGER LA MONTAGNE": {
+    "bureau": "Laurière",
+    "distanceKm": 7.1
+  },
+  "SAINT MARTIAL SUR ISOP": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 7.5
+  },
+  "SAINT MARTIN TERRESSUS": {
+    "bureau": "Ambazac",
+    "distanceKm": 7.1
+  },
+  "SAINT MARTIN DE JUSSAC": {
+    "bureau": "Saint-Junien",
+    "distanceKm": 6.2
+  },
+  "SAINT MARTIN LE MAULT": {
+    "bureau": "Magnac-Laval",
+    "distanceKm": 14.3
+  },
+  "SAINT MARTIN LE VIEUX": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 5.3
+  },
+  "SAINT MAURICE LES BROUSSES": {
+    "bureau": "Nexon",
+    "distanceKm": 6.1
+  },
+  "SAINT MEARD": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 6.3
+  },
+  "SAINT NICOLAS COURBEFY": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "SAINT OUEN SUR GARTEMPE": {
+    "bureau": "Le Dorat",
+    "distanceKm": 4.1
+  },
+  "SAINT PARDOUX": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "SAINT PARDOUX LE LAC": {
+    "bureau": "Nantiat",
+    "distanceKm": 7.9
+  },
+  "ROUSSAC": {
+    "bureau": "Nantiat",
+    "distanceKm": 7.9
+  },
+  "SAINT PAUL": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 10.1
+  },
+  "SAINT PRIEST LIGOURE": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 9.1
+  },
+  "SAINT PRIEST TAURION": {
+    "bureau": "Ambazac",
+    "distanceKm": 6.7
+  },
+  "SAINT PRIEST LE BETOUX": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "SAINT PRIEST SOUS AIXE": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 4.1
+  },
+  "SAINT SORNIN LEULAC": {
+    "bureau": "Châteauponsac",
+    "distanceKm": 7.4
+  },
+  "SAINT SORNIN LA MARCHE": {
+    "bureau": "Le Dorat",
+    "distanceKm": 6.4
+  },
+  "SAINT SULPICE LAURIERE": {
+    "bureau": "Laurière",
+    "distanceKm": 2.5
+  },
+  "SAINT SYLVESTRE": {
+    "bureau": "Ambazac",
+    "distanceKm": 4.6
+  },
+  "SAINT SYMPHORIEN SUR COUZE": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "SAINT VICTURNIEN": {
+    "bureau": "Saint-Junien",
+    "distanceKm": 11.4
+  },
+  "SAINT VITTE SUR BRIANCE": {
+    "bureau": "Saint-Germain-les-Belles",
+    "distanceKm": 4.1
+  },
+  "SAINT YRIEIX SOUS AIXE": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 7.3
+  },
+  "SAINTE ANNE SAINT PRIEST": {
+    "bureau": "Eymoutiers",
+    "distanceKm": 4.0
+  },
+  "SAINTE MARIE DE VAUX": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 9.5
+  },
+  "SAUVIAT SUR VIGE": {
+    "bureau": "Saint-Léonard-de-Noblat",
+    "distanceKm": 9.5
+  },
+  "SOLIGNAC": {
+    "bureau": "Limoges",
+    "distanceKm": 11.0
+  },
+  "SURDOUX": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 10.1
+  },
+  "SUSSAC": {
+    "bureau": "Châteauneuf-la-Forêt",
+    "distanceKm": 5.2
+  },
+  "SEREILHAC": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 6.4
+  },
+  "TERSANNES": {
+    "bureau": "Magnac-Laval",
+    "distanceKm": 6.9
+  },
+  "THIAT": {
+    "bureau": "Limoges",
+    "distanceKm": 0.0
+  },
+  "THOURON": {
+    "bureau": "Nantiat",
+    "distanceKm": 3.8
+  },
+  "VAL D ISSOIRE": {
+    "bureau": "Mézières-sur-Issoire",
+    "distanceKm": 0.0
+  },
+  "VAL D OIRE ET GARTEMPE": {
+    "bureau": "Le Dorat",
+    "distanceKm": 13.5
+  },
+  "BUSSIERE POITEVINE": {
+    "bureau": "Le Dorat",
+    "distanceKm": 13.5
+  },
+  "VAULRY": {
+    "bureau": "Nantiat",
+    "distanceKm": 7.1
+  },
+  "VAYRES": {
+    "bureau": "Oradour-sur-Vayres",
+    "distanceKm": 5.5
+  },
+  "VERNEUIL MOUSTIERS": {
+    "bureau": "Magnac-Laval",
+    "distanceKm": 11.8
+  },
+  "VERNEUIL SUR VIENNE": {
+    "bureau": "Aixe-sur-Vienne",
+    "distanceKm": 5.5
+  },
+  "VEYRAC": {
+    "bureau": "Limoges",
+    "distanceKm": 11.8
+  },
+  "VICQ SUR BREUILH": {
+    "bureau": "Pierre-Buffière",
+    "distanceKm": 5.4
+  },
+  "VIDEIX": {
+    "bureau": "Saint-Mathieu",
+    "distanceKm": 8.9
+  },
+  "VILLEFAVARD": {
+    "bureau": "Châteauponsac",
+    "distanceKm": 6.7
+  }
+}

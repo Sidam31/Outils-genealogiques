@@ -1,0 +1,1758 @@
+{
+  "AILLEVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 3.2
+  },
+  "AIX VILLEMAUR PALIS": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 0.0
+  },
+  "ALLIBAUDIERES": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 6.5
+  },
+  "AMANCE": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 6.2
+  },
+  "ARCONVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 8.5
+  },
+  "ARGANCON": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 9.1
+  },
+  "ARRELLES": {
+    "bureau": "Riceys",
+    "distanceKm": 9.4
+  },
+  "ARREMBECOURT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 17.0
+  },
+  "ARRENTIERES": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 4.3
+  },
+  "ARSONVAL": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.2
+  },
+  "ASSENAY": {
+    "bureau": "Bouilly",
+    "distanceKm": 5.6
+  },
+  "ASSENCIERES": {
+    "bureau": "Troyes",
+    "distanceKm": 11.7
+  },
+  "AUBETERRE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 12.0
+  },
+  "AUBIGNY": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "AULNAY": {
+    "bureau": "Ramerupt",
+    "distanceKm": 9.9
+  },
+  "AUXON": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 5.1
+  },
+  "AVANT LES MARCILLY": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 8.9
+  },
+  "AVANT LES RAMERUPT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 9.2
+  },
+  "AVIREY LINGEY": {
+    "bureau": "Riceys",
+    "distanceKm": 8.1
+  },
+  "AVON LA PEZE": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 6.3
+  },
+  "AVREUIL": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 6.7
+  },
+  "BAGNEUX LA FOSSE": {
+    "bureau": "Riceys",
+    "distanceKm": 6.3
+  },
+  "BAILLY LE FRANC": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 16.4
+  },
+  "BALIGNICOURT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 11.3
+  },
+  "BALNOT LA GRANGE": {
+    "bureau": "Chaource",
+    "distanceKm": 9.2
+  },
+  "BALNOT SUR LAIGNES": {
+    "bureau": "Riceys",
+    "distanceKm": 5.6
+  },
+  "BARBEREY SAINT SULPICE": {
+    "bureau": "Troyes",
+    "distanceKm": 6.0
+  },
+  "BARBEREY": {
+    "bureau": "Troyes",
+    "distanceKm": 6.0
+  },
+  "BARBUISE": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 5.1
+  },
+  "BAROVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 6.1
+  },
+  "BAYEL": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.2
+  },
+  "BEAUVOIR SUR SARCE": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "BERCENAY EN OTHE": {
+    "bureau": "Bouilly",
+    "distanceKm": 6.9
+  },
+  "BERCENAY LE HAYER": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 4.0
+  },
+  "BERGERES": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 6.2
+  },
+  "BERNON": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 10.1
+  },
+  "BERTIGNOLLES": {
+    "bureau": "Essoyes",
+    "distanceKm": 10.0
+  },
+  "BESSY": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 8.7
+  },
+  "BEUREY": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 7.5
+  },
+  "BLAINCOURT SUR AUBE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 5.7
+  },
+  "BLIGNICOURT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 6.2
+  },
+  "BLIGNY": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 11.4
+  },
+  "BOSSANCOURT": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 9.7
+  },
+  "BOULAGES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 9.2
+  },
+  "BOURANTON": {
+    "bureau": "Troyes",
+    "distanceKm": 8.2
+  },
+  "BOURDENAY": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 4.7
+  },
+  "VAL D ORVIN": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 4.7
+  },
+  "BOURGUIGNONS": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 3.0
+  },
+  "BOUY LUXEMBOURG": {
+    "bureau": "Piney",
+    "distanceKm": 10.1
+  },
+  "BOUY SUR ORVIN": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 8.2
+  },
+  "BRAGELOGNE BEAUVOIR": {
+    "bureau": "Riceys",
+    "distanceKm": 8.6
+  },
+  "BRAGELOGNE": {
+    "bureau": "Riceys",
+    "distanceKm": 8.6
+  },
+  "BRAUX": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 10.5
+  },
+  "BRIEL SUR BARSE": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 7.6
+  },
+  "BRIENNE LA VIEILLE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 3.1
+  },
+  "BRILLECOURT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 7.3
+  },
+  "BREVIANDES": {
+    "bureau": "Troyes",
+    "distanceKm": 4.5
+  },
+  "BREVONNES": {
+    "bureau": "Piney",
+    "distanceKm": 4.2
+  },
+  "BUCEY EN OTHE": {
+    "bureau": "Estissac",
+    "distanceKm": 4.6
+  },
+  "BUCHERES": {
+    "bureau": "Troyes",
+    "distanceKm": 6.8
+  },
+  "BUXEUIL": {
+    "bureau": "Riceys",
+    "distanceKm": 7.2
+  },
+  "BUXIERES SUR ARCE": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 5.9
+  },
+  "BERULLE": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 7.6
+  },
+  "BETIGNICOURT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.7
+  },
+  "CELLES SUR OURCE": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 5.8
+  },
+  "CHACENAY": {
+    "bureau": "Essoyes",
+    "distanceKm": 6.5
+  },
+  "CHALETTE SUR VOIRE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 9.8
+  },
+  "CHAMOY": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 7.2
+  },
+  "CHAMP SUR BARSE": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 3.2
+  },
+  "CHAMPFLEURY": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 12.1
+  },
+  "CHAMPIGNOL LEZ MONDEVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 12.6
+  },
+  "CHAMPIGNY SUR AUBE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 7.0
+  },
+  "CHANNES": {
+    "bureau": "Riceys",
+    "distanceKm": 10.3
+  },
+  "CHAPELLE VALLON": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 12.8
+  },
+  "CHAPPES": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 10.7
+  },
+  "CHARMONT SOUS BARBUISE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 13.1
+  },
+  "CHARMOY": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 8.3
+  },
+  "CHARNY LE BACHOT": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 5.6
+  },
+  "CHASEREY": {
+    "bureau": "Chaource",
+    "distanceKm": 12.6
+  },
+  "CHASSERICOURT": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "CHAUCHIGNY": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 10.4
+  },
+  "CHAUDREY": {
+    "bureau": "Ramerupt",
+    "distanceKm": 6.5
+  },
+  "CHAUFFOUR LES BAILLY": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 8.6
+  },
+  "CHAUMESNIL": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 7.3
+  },
+  "CHAVANGES": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 14.0
+  },
+  "CHENNEGY": {
+    "bureau": "Estissac",
+    "distanceKm": 4.6
+  },
+  "CHERVEY": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 8.6
+  },
+  "CHESLEY": {
+    "bureau": "Chaource",
+    "distanceKm": 9.4
+  },
+  "CHESSY LES PRES": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 5.4
+  },
+  "CHATRES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "CLEREY": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 8.2
+  },
+  "COCLOIS": {
+    "bureau": "Ramerupt",
+    "distanceKm": 6.2
+  },
+  "COLOMBE LA FOSSE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 6.8
+  },
+  "COLOMBE LE SEC": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.0
+  },
+  "CORMOST": {
+    "bureau": "Chaource",
+    "distanceKm": 10.7
+  },
+  "COURCELLES SUR VOIRE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 9.4
+  },
+  "COURCEROY": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 7.1
+  },
+  "COURSAN EN OTHE": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 6.4
+  },
+  "COURTAOULT": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 4.9
+  },
+  "COURTENOT": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 6.7
+  },
+  "COURTERANGES": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 4.1
+  },
+  "COURTERON": {
+    "bureau": "Mussy-sur-Seine",
+    "distanceKm": 4.0
+  },
+  "COUSSEGREY": {
+    "bureau": "Chaource",
+    "distanceKm": 14.2
+  },
+  "COUVIGNON": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 5.1
+  },
+  "CRANCEY": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 5.7
+  },
+  "CRENEY PRES TROYES": {
+    "bureau": "Troyes",
+    "distanceKm": 7.1
+  },
+  "CRESPY LE NEUF": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 6.1
+  },
+  "CRESANTIGNES": {
+    "bureau": "Bouilly",
+    "distanceKm": 5.4
+  },
+  "CUNFIN": {
+    "bureau": "Essoyes",
+    "distanceKm": 9.5
+  },
+  "CUSSANGY": {
+    "bureau": "Chaource",
+    "distanceKm": 5.0
+  },
+  "DAMPIERRE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 6.6
+  },
+  "DAVREY": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 3.7
+  },
+  "DIENVILLE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 8.1
+  },
+  "DIERREY SAINT JULIEN": {
+    "bureau": "Estissac",
+    "distanceKm": 6.0
+  },
+  "DIERREY SAINT PIERRE": {
+    "bureau": "Estissac",
+    "distanceKm": 9.2
+  },
+  "DOLANCOURT": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 8.9
+  },
+  "DOMMARTIN LE COQ": {
+    "bureau": "Ramerupt",
+    "distanceKm": 4.9
+  },
+  "DONNEMENT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 9.1
+  },
+  "DOSCHES": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 5.6
+  },
+  "DOSNON": {
+    "bureau": "Ramerupt",
+    "distanceKm": 10.5
+  },
+  "DROUPT SAINT BASLE": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 5.1
+  },
+  "DROUPT SAINTE MARIE": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 3.1
+  },
+  "EAUX PUISEAUX": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 7.0
+  },
+  "ENGENTE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 6.3
+  },
+  "FAUX VILLECERF": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 7.4
+  },
+  "FAY LES MARCILLY": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 8.7
+  },
+  "FAYS LA CHAPELLE": {
+    "bureau": "Bouilly",
+    "distanceKm": 6.7
+  },
+  "FERREUX QUINCEY": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 8.8
+  },
+  "FERREUX": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 8.8
+  },
+  "FEUGES": {
+    "bureau": "Troyes",
+    "distanceKm": 11.9
+  },
+  "FONTAINE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 2.7
+  },
+  "FONTAINE LUYERES": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "FONTAINE MACON": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "FONTAINE LES GRES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 10.5
+  },
+  "FONTENAY DE BOSSERY": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 5.5
+  },
+  "FONTETTE": {
+    "bureau": "Essoyes",
+    "distanceKm": 6.1
+  },
+  "FONTVANNES": {
+    "bureau": "Estissac",
+    "distanceKm": 5.6
+  },
+  "FOUCHERES": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 8.4
+  },
+  "FRALIGNES": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 5.5
+  },
+  "FRAVAUX": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 5.6
+  },
+  "FRESNAY": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 8.5
+  },
+  "FRESNOY LE CHATEAU": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 5.6
+  },
+  "FULIGNY": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 4.0
+  },
+  "GRANDVILLE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 8.8
+  },
+  "GUMERY": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 8.5
+  },
+  "GYE SUR SEINE": {
+    "bureau": "Mussy-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "GELANNES": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 5.6
+  },
+  "GERAUDOT": {
+    "bureau": "Piney",
+    "distanceKm": 4.1
+  },
+  "HAMPIGNY": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 8.9
+  },
+  "HERBISSE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 9.8
+  },
+  "ISLE AUBIGNY": {
+    "bureau": "Ramerupt",
+    "distanceKm": 2.2
+  },
+  "ISLE SOUS RAMERUPT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 2.2
+  },
+  "ISLE AUMONT": {
+    "bureau": "Bouilly",
+    "distanceKm": 9.9
+  },
+  "JASSEINES": {
+    "bureau": "Ramerupt",
+    "distanceKm": 7.0
+  },
+  "JAUCOURT": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 6.0
+  },
+  "JAVERNANT": {
+    "bureau": "Bouilly",
+    "distanceKm": 3.2
+  },
+  "JESSAINS": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 10.0
+  },
+  "JEUGNY": {
+    "bureau": "Chaource",
+    "distanceKm": 8.3
+  },
+  "JONCREUIL": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 15.9
+  },
+  "JULLY SUR SARCE": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 7.3
+  },
+  "JUVANCOURT": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 14.5
+  },
+  "JUVANZE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 9.4
+  },
+  "JUZANVIGNY": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 6.4
+  },
+  "L ABBAYE SOUS PLANCY": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "LA CHAISE": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 4.3
+  },
+  "LA CHAPELLE SAINT LUC": {
+    "bureau": "Troyes",
+    "distanceKm": 4.3
+  },
+  "LA FOSSE CORDUAN": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 9.3
+  },
+  "LA LOGE POMBLIN": {
+    "bureau": "Chaource",
+    "distanceKm": 7.0
+  },
+  "LA LOGE AUX CHEVRES": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 4.5
+  },
+  "LA LOUPTIERE THENARD": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 13.3
+  },
+  "LA MOTTE TILLY": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "LA RIVIERE DE CORPS": {
+    "bureau": "Troyes",
+    "distanceKm": 4.7
+  },
+  "LA ROTHIERE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.9
+  },
+  "LA SAULSOTTE": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 5.5
+  },
+  "LA VENDUE MIGNOT": {
+    "bureau": "Bouilly",
+    "distanceKm": 9.3
+  },
+  "LA VILLE AUX BOIS": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 3.4
+  },
+  "VILLE AUX BOIS": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 3.4
+  },
+  "LA VILLENEUVE AU CHATELOT": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 6.7
+  },
+  "LA VILLENEUVE AU CHENE": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 4.7
+  },
+  "LAGESSE": {
+    "bureau": "Chaource",
+    "distanceKm": 4.7
+  },
+  "LAINES AUX BOIS": {
+    "bureau": "Bouilly",
+    "distanceKm": 4.3
+  },
+  "LANDREVILLE": {
+    "bureau": "Essoyes",
+    "distanceKm": 6.5
+  },
+  "LANTAGES": {
+    "bureau": "Chaource",
+    "distanceKm": 5.5
+  },
+  "LASSICOURT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 4.5
+  },
+  "LAUBRESSEL": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 6.0
+  },
+  "LAVAU": {
+    "bureau": "Troyes",
+    "distanceKm": 4.8
+  },
+  "LE CHENE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 5.0
+  },
+  "LE MERIOT": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 4.1
+  },
+  "LE PAVILLON SAINTE JULIE": {
+    "bureau": "Estissac",
+    "distanceKm": 13.9
+  },
+  "LENTILLES": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 12.5
+  },
+  "LES BORDES AUMONT": {
+    "bureau": "Bouilly",
+    "distanceKm": 9.4
+  },
+  "LES CROUTES": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 8.2
+  },
+  "LES GRANDES CHAPELLES": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 10.4
+  },
+  "LES GRANGES": {
+    "bureau": "Chaource",
+    "distanceKm": 5.5
+  },
+  "LES LOGES MARGUERON": {
+    "bureau": "Chaource",
+    "distanceKm": 4.9
+  },
+  "LES NOES PRES TROYES": {
+    "bureau": "Troyes",
+    "distanceKm": 2.9
+  },
+  "LES RICEYS": {
+    "bureau": "Riceys",
+    "distanceKm": 0.0
+  },
+  "LESMONT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 8.0
+  },
+  "LHUITRE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 6.4
+  },
+  "LIGNIERES": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 11.4
+  },
+  "LIGNOL LE CHATEAU": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.1
+  },
+  "LIREY": {
+    "bureau": "Bouilly",
+    "distanceKm": 4.8
+  },
+  "LOCHES SUR OURCE": {
+    "bureau": "Essoyes",
+    "distanceKm": 3.9
+  },
+  "LONGCHAMP SUR AUJON": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 11.4
+  },
+  "LONGEVILLE SUR MOGNE": {
+    "bureau": "Bouilly",
+    "distanceKm": 7.2
+  },
+  "LONGEVILLE": {
+    "bureau": "Bouilly",
+    "distanceKm": 7.2
+  },
+  "LONGPRE LE SEC": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 8.6
+  },
+  "LONGSOLS": {
+    "bureau": "Ramerupt",
+    "distanceKm": 11.3
+  },
+  "LONGUEVILLE SUR AUBE": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 4.9
+  },
+  "LUYERES": {
+    "bureau": "Troyes",
+    "distanceKm": 13.1
+  },
+  "LEVIGNY": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.4
+  },
+  "MACEY": {
+    "bureau": "Estissac",
+    "distanceKm": 9.5
+  },
+  "MACHY": {
+    "bureau": "Bouilly",
+    "distanceKm": 5.6
+  },
+  "MAGNANT": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 7.1
+  },
+  "MAGNICOURT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 9.6
+  },
+  "MAGNY FOUCHARD": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 6.6
+  },
+  "MAILLY LE CAMP": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 16.0
+  },
+  "MAISON DES CHAMPS": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 8.8
+  },
+  "MAISONS LES CHAOURCE": {
+    "bureau": "Chaource",
+    "distanceKm": 6.2
+  },
+  "MAISONS LES SOULAINES": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 8.6
+  },
+  "MAIZIERES LA GRANDE PAROISSE": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 5.7
+  },
+  "MAIZIERES LES BRIENNE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 6.7
+  },
+  "MARAYE EN OTHE": {
+    "bureau": "Bouilly",
+    "distanceKm": 9.5
+  },
+  "MARIGNY LE CHATEL": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 9.7
+  },
+  "MARNAY SUR SEINE": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "MAROLLES LES BAILLY": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 8.6
+  },
+  "MAROLLES SOUS LIGNIERES": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 11.0
+  },
+  "MATHAUX": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 6.8
+  },
+  "MAUPAS": {
+    "bureau": "Bouilly",
+    "distanceKm": 8.5
+  },
+  "MERGEY": {
+    "bureau": "Troyes",
+    "distanceKm": 11.7
+  },
+  "MERREY SUR ARCE": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 2.8
+  },
+  "MESGRIGNY": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 3.8
+  },
+  "MESNIL LETTRE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 7.7
+  },
+  "MESNIL SAINT LOUP": {
+    "bureau": "Estissac",
+    "distanceKm": 7.3
+  },
+  "MESNIL SAINT PERE": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 4.8
+  },
+  "MESNIL SELLIERES": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 10.0
+  },
+  "MESNIL LA COMTESSE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 5.2
+  },
+  "MESSON": {
+    "bureau": "Estissac",
+    "distanceKm": 7.9
+  },
+  "METZ ROBERT": {
+    "bureau": "Chaource",
+    "distanceKm": 3.1
+  },
+  "MEURVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 8.4
+  },
+  "MOLINS SUR AUBE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 11.0
+  },
+  "MONTANGON": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "MONTAULIN": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 6.4
+  },
+  "MONTCEAUX LES VAUDES": {
+    "bureau": "Chaource",
+    "distanceKm": 10.4
+  },
+  "MONTFEY": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 2.9
+  },
+  "MONTGUEUX": {
+    "bureau": "Troyes",
+    "distanceKm": 9.0
+  },
+  "MONTIER EN L ISLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 4.5
+  },
+  "MONTIGNY LES MONTS": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 5.7
+  },
+  "MONTIERAMEY": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 3.8
+  },
+  "MONTMARTIN LE HAUT": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 8.0
+  },
+  "MONTMORENCY BEAUFORT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 10.0
+  },
+  "MONTPOTHIER": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 3.2
+  },
+  "MONTREUIL SUR BARSE": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 4.8
+  },
+  "MONTSUZAIN": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 9.0
+  },
+  "MOREMBERT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 3.2
+  },
+  "MORVILLIERS": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 5.7
+  },
+  "MOUSSEY": {
+    "bureau": "Bouilly",
+    "distanceKm": 8.3
+  },
+  "NEUVILLE SUR SEINE": {
+    "bureau": "Riceys",
+    "distanceKm": 5.2
+  },
+  "NEUVILLE SUR VANNE": {
+    "bureau": "Estissac",
+    "distanceKm": 2.9
+  },
+  "NEUVILLE SUR VANNES": {
+    "bureau": "Estissac",
+    "distanceKm": 2.9
+  },
+  "NOGENT EN OTHE": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 11.7
+  },
+  "NOGENT SUR AUBE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 4.4
+  },
+  "NOZAY": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 5.3
+  },
+  "NOE LES MALLETS": {
+    "bureau": "Essoyes",
+    "distanceKm": 5.7
+  },
+  "ONJON": {
+    "bureau": "Piney",
+    "distanceKm": 9.8
+  },
+  "ORIGNY LE SEC": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 7.1
+  },
+  "ORMES": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 3.7
+  },
+  "ORTILLON": {
+    "bureau": "Ramerupt",
+    "distanceKm": 6.8
+  },
+  "ORVILLIERS SAINT JULIEN": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 9.5
+  },
+  "OSSEY LES TROIS MAISONS": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 8.9
+  },
+  "PAISY COSDON": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 1.9
+  },
+  "PALIS": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "PARGUES": {
+    "bureau": "Chaource",
+    "distanceKm": 7.2
+  },
+  "PARS LES CHAVANGES": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 13.4
+  },
+  "PARS LES ROMILLY": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 3.9
+  },
+  "PARS": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 3.9
+  },
+  "PAYNS": {
+    "bureau": "Troyes",
+    "distanceKm": 12.4
+  },
+  "PEL ET DER": {
+    "bureau": "Piney",
+    "distanceKm": 8.2
+  },
+  "PERTHES LES BRIENNE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 3.8
+  },
+  "PETIT MESNIL": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 8.1
+  },
+  "PLAINES SAINT LANGE": {
+    "bureau": "Mussy-sur-Seine",
+    "distanceKm": 2.0
+  },
+  "PLANCY L ABBAYE": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 11.7
+  },
+  "PLANCY": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 11.7
+  },
+  "PLANTY": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 6.3
+  },
+  "PLESSIS BARBUISE": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 3.9
+  },
+  "PLESSIS GATEBLED": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "POIVRES": {
+    "bureau": "Ramerupt",
+    "distanceKm": 17.7
+  },
+  "POLIGNY": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 7.2
+  },
+  "POLISOT": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 4.9
+  },
+  "POLISY": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 6.2
+  },
+  "PONT SAINTE MARIE": {
+    "bureau": "Troyes",
+    "distanceKm": 3.4
+  },
+  "PONT SUR SEINE": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 7.6
+  },
+  "POUAN LES VALLEES": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 5.6
+  },
+  "POUGY": {
+    "bureau": "Ramerupt",
+    "distanceKm": 10.4
+  },
+  "POUY SUR VANNES": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 4.7
+  },
+  "PRASLIN": {
+    "bureau": "Chaource",
+    "distanceKm": 5.1
+  },
+  "PROVERVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 3.0
+  },
+  "PRUGNY": {
+    "bureau": "Bouilly",
+    "distanceKm": 7.8
+  },
+  "PRUNAY BELLEVILLE": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 11.1
+  },
+  "PRUSY": {
+    "bureau": "Chaource",
+    "distanceKm": 11.2
+  },
+  "PRECY NOTRE DAME": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 6.7
+  },
+  "PRECY SAINT MARTIN": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 5.4
+  },
+  "PREMIERFAIT": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 9.1
+  },
+  "PUITS ET NUISEMENT": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 5.3
+  },
+  "PERIGNY LA ROSE": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 7.7
+  },
+  "QUINCEY": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "RACINES": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 4.6
+  },
+  "RADONVILLIERS": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.7
+  },
+  "RANCES": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.3
+  },
+  "RHEGES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 7.7
+  },
+  "RHEGES BESSY": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 7.7
+  },
+  "RIGNY LA NONNEUSE": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 9.6
+  },
+  "RIGNY LE FERRON": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 7.8
+  },
+  "RILLY SAINTE SYRE": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 7.9
+  },
+  "ROMAINES": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "RONCENAY": {
+    "bureau": "Bouilly",
+    "distanceKm": 4.3
+  },
+  "ROSIERES PRES TROYES": {
+    "bureau": "Troyes",
+    "distanceKm": 3.3
+  },
+  "ROSNAY L HOPITAL": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.0
+  },
+  "ROSNAY": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.0
+  },
+  "ROUILLY SACEY": {
+    "bureau": "Piney",
+    "distanceKm": 6.7
+  },
+  "ROUILLY SAINT LOUP": {
+    "bureau": "Troyes",
+    "distanceKm": 6.2
+  },
+  "ROUVRES LES VIGNES": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 8.0
+  },
+  "RUMILLY LES VAUDES": {
+    "bureau": "Chaource",
+    "distanceKm": 8.4
+  },
+  "RUVIGNY": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 6.8
+  },
+  "SAINT ANDRE LES VERGERS": {
+    "bureau": "Troyes",
+    "distanceKm": 2.8
+  },
+  "SAINT AUBIN": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 4.6
+  },
+  "SAINT BENOIST SUR VANNE": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 3.7
+  },
+  "SAINT BENOIT SUR SEINE": {
+    "bureau": "Troyes",
+    "distanceKm": 9.7
+  },
+  "SAINT CHRISTOPHE DODINICOURT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 5.4
+  },
+  "SAINT FLAVY": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 13.1
+  },
+  "SAINT GERMAIN": {
+    "bureau": "Troyes",
+    "distanceKm": 6.8
+  },
+  "SAINT HILAIRE SOUS ROMILLY": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 4.7
+  },
+  "SAINT JEAN DE BONNEVAL": {
+    "bureau": "Bouilly",
+    "distanceKm": 4.8
+  },
+  "SAINT JULIEN LES VILLAS": {
+    "bureau": "Troyes",
+    "distanceKm": 2.8
+  },
+  "SAINT LOUP DE BUFFIGNY": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 10.1
+  },
+  "SAINT LUPIEN": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 6.5
+  },
+  "SAINT LYE": {
+    "bureau": "Troyes",
+    "distanceKm": 9.7
+  },
+  "SAINT LEGER PRES TROYES": {
+    "bureau": "Troyes",
+    "distanceKm": 5.9
+  },
+  "SAINT LEGER SOUS BRIENNE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 1.7
+  },
+  "SAINT LEGER SOUS MARGERIE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 13.6
+  },
+  "SAINT MARDS EN OTHE": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 9.0
+  },
+  "SAINT MARTIN DE BOSSENAY": {
+    "bureau": "Romilly-sur-Seine",
+    "distanceKm": 8.0
+  },
+  "SAINT MESMIN": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 7.8
+  },
+  "SAINT NABORD SUR AUBE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 4.8
+  },
+  "SAINT NICOLAS LA CHAPELLE": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 2.8
+  },
+  "SAINT OULPH": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 3.0
+  },
+  "SAINT PARRES AUX TERTRES": {
+    "bureau": "Troyes",
+    "distanceKm": 4.4
+  },
+  "SAINT PARRES LES VAUDES": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 10.4
+  },
+  "SAINT PHAL": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 8.3
+  },
+  "SAINT POUANGE": {
+    "bureau": "Bouilly",
+    "distanceKm": 5.7
+  },
+  "SAINT REMY SOUS BARBUISE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 5.7
+  },
+  "SAINT THIBAULT": {
+    "bureau": "Troyes",
+    "distanceKm": 11.7
+  },
+  "SAINT USAGE": {
+    "bureau": "Essoyes",
+    "distanceKm": 9.0
+  },
+  "SAINT ETIENNE SOUS BARBUISE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 4.9
+  },
+  "SAINTE MAURE": {
+    "bureau": "Troyes",
+    "distanceKm": 7.4
+  },
+  "SAINTE SAVINE": {
+    "bureau": "Troyes",
+    "distanceKm": 3.8
+  },
+  "SALON": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 14.5
+  },
+  "SAULCY": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 10.1
+  },
+  "SAVIERES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 11.2
+  },
+  "SEMOINE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 16.4
+  },
+  "SOLIGNY LES ETANGS": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 10.5
+  },
+  "SOMMEVAL": {
+    "bureau": "Bouilly",
+    "distanceKm": 4.0
+  },
+  "SOULIGNY": {
+    "bureau": "Bouilly",
+    "distanceKm": 2.7
+  },
+  "SPOY": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.3
+  },
+  "THENNELIERES": {
+    "bureau": "Troyes",
+    "distanceKm": 7.9
+  },
+  "THIEFFRAIN": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 4.9
+  },
+  "THIL": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 7.1
+  },
+  "THORS": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 10.3
+  },
+  "TORCY LE GRAND": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 2.5
+  },
+  "TORCY LE PETIT": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 3.8
+  },
+  "TORVILLIERS": {
+    "bureau": "Troyes",
+    "distanceKm": 8.0
+  },
+  "TRANCAULT": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 9.6
+  },
+  "TRANNES": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 11.6
+  },
+  "TRAINEL": {
+    "bureau": "Nogent-sur-Seine",
+    "distanceKm": 10.8
+  },
+  "TROUAN LE GRAND": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "TROUANS": {
+    "bureau": "Ramerupt",
+    "distanceKm": 12.6
+  },
+  "TROUAN LE PETIT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 12.6
+  },
+  "TURGY": {
+    "bureau": "Chaource",
+    "distanceKm": 6.9
+  },
+  "UNIENVILLE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 9.0
+  },
+  "URVILLE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 7.7
+  },
+  "VAILLY": {
+    "bureau": "Troyes",
+    "distanceKm": 9.6
+  },
+  "VAL D AUZON": {
+    "bureau": "Piney",
+    "distanceKm": 7.7
+  },
+  "AUZON LES MARAIS": {
+    "bureau": "Piney",
+    "distanceKm": 7.7
+  },
+  "VALLANT SAINT GEORGES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 5.2
+  },
+  "VALLENTIGNY": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 7.9
+  },
+  "VALLIERES": {
+    "bureau": "Chaource",
+    "distanceKm": 8.7
+  },
+  "VANLAY": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 9.0
+  },
+  "VAUCHASSIS": {
+    "bureau": "Bouilly",
+    "distanceKm": 5.7
+  },
+  "VAUCHONVILLIERS": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 6.6
+  },
+  "VAUCOGNE": {
+    "bureau": "Ramerupt",
+    "distanceKm": 3.6
+  },
+  "VAUDES": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 11.9
+  },
+  "VAUPOISSON": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 6.0
+  },
+  "VERNONVILLIERS": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 7.6
+  },
+  "VERPILLIERES SUR OURCE": {
+    "bureau": "Essoyes",
+    "distanceKm": 3.4
+  },
+  "VERRICOURT": {
+    "bureau": "Ramerupt",
+    "distanceKm": 8.3
+  },
+  "VERRIERES": {
+    "bureau": "Troyes",
+    "distanceKm": 8.8
+  },
+  "VILLACERF": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 13.6
+  },
+  "VILLADIN": {
+    "bureau": "Marcilly-le-Hayer",
+    "distanceKm": 4.1
+  },
+  "VILLE SOUS LA FERTE": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 10.8
+  },
+  "VILLE SUR ARCE": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 5.1
+  },
+  "VILLE SUR TERRE": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 5.0
+  },
+  "VILLECHETIF": {
+    "bureau": "Troyes",
+    "distanceKm": 6.4
+  },
+  "VILLEHARDOUIN": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "VILLELOUP": {
+    "bureau": "Estissac",
+    "distanceKm": 12.0
+  },
+  "VILLEMAUR SUR VANNE": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "VILLEMEREUIL": {
+    "bureau": "Bouilly",
+    "distanceKm": 6.7
+  },
+  "VILLEMOIRON EN OTHE": {
+    "bureau": "Estissac",
+    "distanceKm": 5.8
+  },
+  "VILLEMORIEN": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 7.4
+  },
+  "VILLEMOYENNE": {
+    "bureau": "Lusigny-sur-Barse",
+    "distanceKm": 8.7
+  },
+  "VILLENAUXE": {
+    "bureau": "Villenauxe-la-Grande",
+    "distanceKm": 0.0
+  },
+  "VILLENEUVE AU CHEMIN": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 6.2
+  },
+  "VILLERET": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 10.1
+  },
+  "VILLERY": {
+    "bureau": "Bouilly",
+    "distanceKm": 2.4
+  },
+  "VILLETTE SUR AUBE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 2.4
+  },
+  "VILLIERS HERBISSE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 13.4
+  },
+  "VILLIERS LE BOIS": {
+    "bureau": "Chaource",
+    "distanceKm": 12.3
+  },
+  "VILLIERS SOUS PRASLIN": {
+    "bureau": "Chaource",
+    "distanceKm": 8.9
+  },
+  "VILLY EN TRODES": {
+    "bureau": "Vendeuvre-sur-Barse",
+    "distanceKm": 6.7
+  },
+  "VILLY LE BOIS": {
+    "bureau": "Bouilly",
+    "distanceKm": 7.5
+  },
+  "VILLY LE MARECHAL": {
+    "bureau": "Bouilly",
+    "distanceKm": 6.3
+  },
+  "VINETS": {
+    "bureau": "Ramerupt",
+    "distanceKm": 6.2
+  },
+  "VIREY SOUS BAR": {
+    "bureau": "Bar-sur-Seine",
+    "distanceKm": 5.8
+  },
+  "VITRY LE CROISE": {
+    "bureau": "Essoyes",
+    "distanceKm": 11.2
+  },
+  "VIVIERS SUR ARTAUT": {
+    "bureau": "Essoyes",
+    "distanceKm": 6.4
+  },
+  "VIAPRES LE GRAND": {
+    "bureau": "Troyes",
+    "distanceKm": 0.0
+  },
+  "VIAPRES LE PETIT": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 8.9
+  },
+  "VOIGNY": {
+    "bureau": "Bar-sur-Aube",
+    "distanceKm": 3.8
+  },
+  "VOSNON": {
+    "bureau": "Ervy-le-Châtel",
+    "distanceKm": 7.8
+  },
+  "VOUGREY": {
+    "bureau": "Chaource",
+    "distanceKm": 8.3
+  },
+  "VOUE": {
+    "bureau": "Arcis-sur-Aube",
+    "distanceKm": 7.6
+  },
+  "VULAINES": {
+    "bureau": "Aix-en-Othe",
+    "distanceKm": 7.5
+  },
+  "YEVRES LE PETIT": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 9.3
+  },
+  "ECHEMINES": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 13.8
+  },
+  "ECLANCE": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 9.6
+  },
+  "EGUILLY SOUS BOIS": {
+    "bureau": "Essoyes",
+    "distanceKm": 9.9
+  },
+  "EPAGNE": {
+    "bureau": "Brienne-le-Château",
+    "distanceKm": 4.3
+  },
+  "EPOTHEMONT": {
+    "bureau": "Soulaines-Dhuys",
+    "distanceKm": 5.3
+  },
+  "ETOURVY": {
+    "bureau": "Chaource",
+    "distanceKm": 12.2
+  },
+  "ETRELLES SUR AUBE": {
+    "bureau": "Méry-sur-Seine",
+    "distanceKm": 6.4
+  }
+}

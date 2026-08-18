@@ -622,6 +622,174 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_48_bureaux.json',
         catalogUrl: 'https://archives.lozere.fr/archive/recherche/enregistrement/n:305',
     },
+    '15': {
+        label: 'Cantal',
+        kind: 'facet',
+        // Bornes réelles de la série (274 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['15']) : onzième logiciel du projet mais
+        // même famille "Arkothèque" que l'Allier/Paris - portail protégé par un mur anti-robot à
+        // redirection cookie, contourné avec l'autorisation explicite du service d'archives (même
+        // précédent que la Haute-Garonne/le Pas-de-Calais). Page dédiée "...-numerisees" utilisée
+        // plutôt que la page "Enregistrement" générale, qui mélange plusieurs séries distinctes.
+        minYear: 1757,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_15.json',
+        bureauxUrl: './assets/data/successions_15_bureaux.json',
+        catalogUrl: 'https://archives.cantal.fr/rechercher/genealogie/tables-des-successions-et-absences-numerisees',
+    },
+    '94': {
+        label: 'Val-de-Marne',
+        kind: 'facet',
+        // Bornes réelles de la série (719 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['94']) : page dédiée, déjà scopée aux deux
+        // variantes voulues ("Tables des successions et absences" / "Tables des décès, successions
+        // et absences") - confirmé sans mélange d'autre sous-série avant de s'en servir tel quel.
+        minYear: 1759,
+        maxYear: 1975,
+        registersUrl: './assets/data/successions_94.json',
+        bureauxUrl: './assets/data/successions_94_bureaux.json',
+        catalogUrl: 'https://archives.valdemarne.fr/recherches/archives-en-ligne/tables-alphabetiques-de-successions',
+    },
+    '87': {
+        label: 'Haute-Vienne',
+        kind: 'facet',
+        // Bornes réelles de la série (416 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['87']) : page mélangeant "Déclarations de
+        // successions" (dépôts bruts, non voulus) et "Table des successions et absences" (la vraie
+        // table), filtrée côté client sur le champ "analyse".
+        minYear: 1790,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_87.json',
+        bureauxUrl: './assets/data/successions_87_bureaux.json',
+        catalogUrl: 'https://archives.haute-vienne.fr/rechercher/archives-en-ligne/declarations-et-tables-des-successions-1790-1968',
+    },
+    '08': {
+        label: 'Ardennes',
+        kind: 'facet',
+        // Bornes réelles de la série (174 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['08']) : page dédiée déjà propre, aucun
+        // filtrage nécessaire.
+        minYear: 1768,
+        maxYear: 1958,
+        registersUrl: './assets/data/successions_08.json',
+        bureauxUrl: './assets/data/successions_08_bureaux.json',
+        catalogUrl: 'https://archives.cd08.fr/archives-numerisees/sources-genealogiques/tables-des-successions-et-absences',
+    },
+    '18': {
+        label: 'Cher',
+        kind: 'facet',
+        // Bornes réelles de la série (363 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['18']) : mélange "Table(s) des successions
+        // et (des) absences" avec "Table des sépultures et décès" (sous-série voisine, non voulue)
+        // - filtré côté client sur le champ de type.
+        minYear: 1797,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_18.json',
+        bureauxUrl: './assets/data/successions_18_bureaux.json',
+        catalogUrl: 'https://www.archives18.fr/archives-numerisees/tables-de-successions-et-dabsences',
+    },
+    '49': {
+        label: 'Maine-et-Loire',
+        kind: 'facet',
+        // Bornes réelles de la série (593 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['49']) : mélange "Table des décès"/"Table
+        // des successions acquittées" (exclue) avec "Table des successions et absences" (voulue) -
+        // filtré côté client. Aucune cote officielle exposée sur ce déploiement.
+        minYear: 1822,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_49.json',
+        bureauxUrl: './assets/data/successions_49_bureaux.json',
+        catalogUrl: 'https://recherche-archives.maine-et-loire.fr/rechercher-et-consulter/archives-consultables-en-ligne/tables-de-successions-et-absences',
+    },
+    '72': {
+        label: 'Sarthe',
+        kind: 'facet',
+        // Bornes réelles de la série (503 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['72']) : mélange "Table des contrats de
+        // mariage"/"Table des successions acquittées" (exclue) avec "Table des successions et
+        // absences" (voulue) - filtré côté client.
+        minYear: 1824,
+        maxYear: 1971,
+        registersUrl: './assets/data/successions_72.json',
+        bureauxUrl: './assets/data/successions_72_bureaux.json',
+        catalogUrl: 'https://archives.sarthe.fr/archives-en-ligne/tables-de-lenregistrement-sous-serie-3-q',
+    },
+    '10': {
+        label: 'Aube',
+        kind: 'facet',
+        // Bornes réelles de la série (249 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['10']) : page dédiée déjà propre, aucun
+        // filtrage nécessaire.
+        minYear: 1790,
+        maxYear: 1946,
+        registersUrl: './assets/data/successions_10.json',
+        bureauxUrl: './assets/data/successions_10_bureaux.json',
+        catalogUrl: 'https://www.archives-aube.fr/recherches/documents-numerises/genealogie/tables-de-successions/tables-des-successions-et-absences-1790-1946',
+    },
+    '78': {
+        label: 'Yvelines',
+        kind: 'facet',
+        // Bornes réelles de la série (287 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['78']) : fonds "9Q Enregistrement" complet
+        // (13 types distincts : acquéreurs, baux, contrats de mariage, décès et absences par
+        // jugement, partages, successions acquittées/payées, testaments...) - filtré côté client
+        // sur le seul "Tables des successions et absences" (correspondance exacte).
+        minYear: 1824,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_78.json',
+        bureauxUrl: './assets/data/successions_78_bureaux.json',
+        catalogUrl: 'https://archives.yvelines.fr/rechercher/archives-en-ligne/enregistrementbrtables-referencant-les-actesbret-declarations-de-successions/tables-de-lenregistrement',
+    },
+    '65': {
+        label: 'Hautes-Pyrénées',
+        kind: 'facet',
+        // Bornes réelles de la série (270 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['65']) : mélange avec des "Fiches décès du
+        // bureau de X (lettres...)" - un fichier-carte distinct, non voulu - filtré côté client.
+        minYear: 1815,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_65.json',
+        bureauxUrl: './assets/data/successions_65_bureaux.json',
+        catalogUrl: 'https://archivesenligne65.fr/archives/acces-thematique/naitre-vivre-et-mourir/les-registres-de-lenregistrement-1',
+    },
+    '46': {
+        label: 'Lot',
+        kind: 'facet',
+        // Bornes réelles de la série (5570 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['46']) : chaque registre y est subdivisé
+        // par lettre de patronyme individuelle (pas une tranche), d'où le volume bien plus élevé
+        // que les autres départements de ce projet.
+        minYear: 1822,
+        maxYear: 1956,
+        registersUrl: './assets/data/successions_46.json',
+        bureauxUrl: './assets/data/successions_46_bureaux.json',
+        catalogUrl: 'https://archives.lot.fr/recherche-en-ligne/archives-numerisees/enregistrement-et-hypotheques/enregistrement-tsa',
+    },
+    '43': {
+        label: 'Haute-Loire',
+        kind: 'facet',
+        // Bornes réelles de la série (308 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['43']) : fonds "Contrôle des actes et de
+        // l'Enregistrement" complet (16 types distincts), filtré côté client sur le seul "Table
+        // des successions et absences" (match exact).
+        minYear: 1821,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_43.json',
+        bureauxUrl: './assets/data/successions_43_bureaux.json',
+        catalogUrl: 'https://www.archives43.fr/archives-en-ligne/familles-et-individus-en-haute-loire/tables-du-controle-des-actes-et-de-lenregistrement',
+    },
+    '45': {
+        label: 'Loiret',
+        kind: 'facet',
+        // Bornes réelles de la série (185 registres scrapés, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['45']) : page dédiée propre - les entrées
+        // sans visionneuse (registre catalogué mais non numérisé) sont naturellement exclues.
+        minYear: 1823,
+        maxYear: 1903,
+        registersUrl: './assets/data/successions_45.json',
+        bureauxUrl: './assets/data/successions_45_bureaux.json',
+        catalogUrl: 'https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
