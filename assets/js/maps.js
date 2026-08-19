@@ -16,6 +16,18 @@ export async function ensureFranceGeo() {
     return franceGeoCache;
 }
 
+// Contours des provinces belges (+ Région de Bruxelles-Capitale, traitée comme une entrée de plus) :
+// même principe que ensureFranceGeo, source distincte car aucune des deux ne couvre l'autre pays.
+// Chaque feature porte un "AdPrKey" (propriétés) qui correspond aux codes de GEO.beProvinceLabels.
+let belgiumGeoCache = null;
+export async function ensureBelgiumGeo() {
+    if(!belgiumGeoCache) {
+        const res = await fetch('https://raw.githubusercontent.com/mathiasleroy/Belgium-Geographic-Data/master/dist/polygons/geojson/Belgium.provinces.WGS84.geojson');
+        belgiumGeoCache = await res.json();
+    }
+    return belgiumGeoCache;
+}
+
 // Pays limitrophes/proches affichés en gris clair autour de la France sur la carte des
 // départements, pour donner un contexte géographique (pas de coloration par données).
 let europeGeoCache = null;
@@ -68,7 +80,7 @@ function ensureCommuneGeo(dept) {
 export async function enrichMissingCoords(list) {
     const seen = new Set(), pending = [];
     const collect = geo => {
-        if(!geo || geo.lat != null || !geo.city || !geo.dept || seen.has(geo)) return;
+        if(!geo || geo.lat != null || !geo.city || (!geo.dept && !geo.beProvince) || seen.has(geo)) return;
         seen.add(geo);
         pending.push(geo);
     };
@@ -78,10 +90,14 @@ export async function enrichMissingCoords(list) {
     });
     if(!pending.length) return;
 
-    const depts = Array.from(new Set(pending.map(g => deptCode(g.dept))));
-    const nameMapsByDept = new Map(await Promise.all(depts.map(async d => [d, await ensureCommuneGeo(d)])));
+    // Clé de fichier commune à ensureCommuneGeo : "01" pour un département français, "BE-60000"
+    // pour une province belge (cf. build_communes_geo_be.py) — le dossier communes_geo/ est
+    // partagé entre les deux jeux de données, seul le préfixe "BE-" les distingue.
+    const keyOf = geo => geo.dept ? deptCode(geo.dept) : `BE-${deptCode(geo.beProvince)}`;
+    const keys = Array.from(new Set(pending.map(keyOf)));
+    const nameMapsByKey = new Map(await Promise.all(keys.map(async k => [k, await ensureCommuneGeo(k)])));
     pending.forEach(geo => {
-        const nameMap = nameMapsByDept.get(deptCode(geo.dept));
+        const nameMap = nameMapsByKey.get(keyOf(geo));
         const hit = nameMap && nameMap.get(normalizePlace(geo.city));
         if(hit) { geo.lat = hit[0]; geo.lon = hit[1]; }
     });
@@ -95,7 +111,7 @@ const GEO_EVENT_LABELS = { BIRT: 'Naissance', DEAT: 'Décès', MARR: 'Mariage' }
 // sans date connue restent inclus comme avant.
 export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
     const yearMax = opts && opts.yearMax != null ? opts.yearMax : null;
-    const byCountry = {}, byDept = {};
+    const byCountry = {}, byDept = {}, byBeProvince = {};
     // Points pour la heatmap du monde : résolution département (préfecture) pour la France
     // quand on la connaît, sinon centroïde du pays. Clé -> { label, coords, count, items }.
     // items liste, pour l'infobulle, chaque événement/personne ayant contribué à ce point.
@@ -110,15 +126,20 @@ export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
         if(!geo) return;
         if(geo.country && geo.country !== 'Inconnu') byCountry[geo.country] = (byCountry[geo.country] || 0) + 1;
         if(geo.dept) byDept[geo.dept.split(' - ')[0]] = (byDept[geo.dept.split(' - ')[0]] || 0) + 1;
+        if(geo.beProvince) byBeProvince[geo.beProvince.split(' - ')[0]] = (byBeProvince[geo.beProvince.split(' - ')[0]] || 0) + 1;
         // Priorité aux coordonnées GPS exactes du GEDCOM (LATI/LONG), sinon préfecture du
-        // département, sinon centroïde du pays.
+        // département/province, sinon centroïde du pays.
         if(geo.lat != null && geo.lon != null) {
-            addPoint('gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), geo.dept || geo.raw || geo.country, [geo.lon, geo.lat], item);
+            addPoint('gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), geo.dept || geo.beProvince || geo.raw || geo.country, [geo.lon, geo.lat], item);
             return;
         }
         if(geo.dept) {
             const code = geo.dept.split(' - ')[0];
             if(GEO.deptCentroids[code]) { addPoint('dept:' + code, geo.dept, GEO.deptCentroids[code], item); return; }
+        }
+        if(geo.beProvince) {
+            const code = geo.beProvince.split(' - ')[0];
+            if(GEO.beProvinceCentroids[code]) { addPoint('beprov:' + code, geo.beProvince, GEO.beProvinceCentroids[code], item); return; }
         }
         if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country], item);
     };
@@ -134,7 +155,7 @@ export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
         if(eventFlags.DEAT && passesTime(i.death?.year)) add(i.death?.geo, { name: i.name, type: 'DEAT', typeLabel: GEO_EVENT_LABELS.DEAT, year: i.death?.year || null });
         if(eventFlags.MARR && passesTime(i.marrYear)) add(i.marrGeo, { name: i.name, type: 'MARR', typeLabel: GEO_EVENT_LABELS.MARR, year: i.marrYear || null });
     });
-    return { byCountry, byDept, byWorldPoint };
+    return { byCountry, byDept, byBeProvince, byWorldPoint };
 }
 
 // --- Carte du monde : heatmap MapLibre GL (WebGL), cf. exemple officiel MapLibre "heatmap-layer".
@@ -415,6 +436,84 @@ export async function drawFranceMap(byDept, byCountry) {
     }
 }
 
+// --- CARTE DE BELGIQUE (choroplèthe par province) ---
+// Pendant de drawFranceMap pour la Belgique : une couleur par province (+ Région de
+// Bruxelles-Capitale), sur son propre geojson (ensureBelgiumGeo). Pas de pays voisins affichés ici
+// (contrairement à drawFranceMap) : la Belgique n'a pas besoin de ce contexte supplémentaire, la
+// France y figurant déjà comme voisin sur SA propre carte.
+export async function drawBelgiumMap(byBeProvince) {
+    const container = d3.select('#belgiumMapChart');
+    showMapMessage('belgiumMapChart', 'Chargement de la carte de Belgique…');
+
+    let geojsonRaw;
+    try {
+        geojsonRaw = await ensureBelgiumGeo();
+    } catch(err) {
+        showMapMessage('belgiumMapChart', 'Impossible de charger la carte de Belgique (connexion internet requise).', true);
+        return;
+    }
+    if(!document.getElementById('belgiumMapChart')) return;
+    const features = geojsonRaw.features;
+
+    container.selectAll('*').remove();
+    const width = container.node().clientWidth || 500, height = 420;
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    // fitExtent (et non un centrage manuel comme pour drawFranceMap) : suffisant en l'absence de
+    // pays voisins à cadrer autour, et évite d'avoir à calibrer une projection à la main pour un
+    // territoire dont l'étendue est fixe et connue (contrairement à un contour choisi dynamiquement).
+    const projection = d3.geoMercator().fitExtent([[16, 16], [width - 16, height - 16]], { type: 'FeatureCollection', features });
+    const path = d3.geoPath().projection(projection);
+    const maxCount = d3.max(Object.values(byBeProvince)) || 1;
+    const colorScale = d3.scaleSequentialSqrt(d3.interpolateBlues).domain([0, maxCount]);
+
+    const tooltip = document.getElementById('tooltip');
+
+    svg.selectAll('path.province')
+        .data(features)
+        .join('path')
+        .attr('class', 'province')
+        .attr('d', path)
+        .attr('fill', d => { const c = byBeProvince[d.properties.AdPrKey] || 0; return c > 0 ? colorScale(c) : '#f0f0f0'; })
+        .attr('stroke', '#555')
+        .attr('stroke-width', 0.8)
+        .style('cursor', 'default')
+        .on('mouseover', function(e, d) {
+            const count = byBeProvince[d.properties.AdPrKey] || 0;
+            d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${d.properties.NameFRE || d.properties.AdPrKey}</strong><div class="tt-row"><span>Occurrences</span><span>${count}</span></div>`;
+        })
+        .on('mousemove', e => {
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#555').attr('stroke-width', 0.8);
+            tooltip.style.opacity = 0;
+        });
+
+    const legendWidth = 180, legendHeight = 12;
+    const legendX = width - legendWidth - 20, legendY = height - 34;
+    const gradientId = 'belgiumMapGradient';
+    const gradient = svg.append('defs').append('linearGradient')
+        .attr('id', gradientId).attr('x1', '0%').attr('x2', '100%').attr('y1', '0%').attr('y2', '0%');
+    const stopCount = 10;
+    for(let i = 0; i <= stopCount; i++) {
+        const t = i / stopCount;
+        gradient.append('stop').attr('offset', `${t * 100}%`).attr('stop-color', colorScale(t * maxCount));
+    }
+    const legend = svg.append('g').attr('transform', `translate(${legendX},${legendY})`);
+    legend.append('text').attr('x', 0).attr('y', -6).style('font-size', '10px').style('font-weight', 'bold').style('fill', '#333')
+        .text('Occurrences par province');
+    legend.append('rect').attr('width', legendWidth).attr('height', legendHeight)
+        .style('fill', `url(#${gradientId})`).attr('stroke', '#999').attr('stroke-width', 0.5);
+    const legendScale = d3.scaleLinear().domain([0, maxCount]).range([0, legendWidth]);
+    legend.append('g').attr('transform', `translate(0,${legendHeight})`)
+        .call(d3.axisBottom(legendScale).tickValues(niceIntegerTicks(maxCount, 4)).tickFormat(d3.format('d')))
+        .selectAll('text').style('font-size', '9px');
+}
+
 // --- CARTE PAR DÉPARTEMENT (détail d'un seul département : événements géolocalisés + patronymes) ---
 // Complète la choropleth ci-dessus (une couleur par département, sur toute la France) par une vue
 // zoomée sur UN département à la fois, où chaque événement individuel redevient visible (au lieu
@@ -634,6 +733,158 @@ function drawDeptSurnamePanel(svg, x0, panelWidth, height, surnames) {
             .style('font-size', '9px').style('font-style', 'italic').style('fill', '#999')
             .text(`+ ${surnames.length - shown.length} autre(s)`);
     }
+}
+
+// --- CARTE PAR PROVINCE BELGE (détail d'une seule province : événements géolocalisés + patronymes) ---
+// Pendant de la section "CARTE PAR DÉPARTEMENT" ci-dessus, pour la Belgique : mêmes événements
+// géolocalisables (personBeProvinceEvents ~ personDeptEvents), même agrégation par lieu+type, même
+// panneau "Liste éclair" des patronymes (drawDeptSurnamePanel, générique — réutilisé tel quel) et
+// mêmes icônes/couleurs par type d'événement (DEPT_EVENT_TYPES, générique malgré son nom).
+function personBeProvinceEvents(p) {
+    const evts = [];
+    if(p.birth?.geo?.beProvince) evts.push({ type: 'BIRT', geo: p.birth.geo, year: p.birth.year });
+    if(p.death?.geo?.beProvince) evts.push({ type: 'DEAT', geo: p.death.geo, year: p.death.year });
+    if(p.marrGeo?.beProvince) evts.push({ type: 'MARR', geo: p.marrGeo, year: p.marrYear });
+    (p.resiEvents || []).forEach(r => { if(r.geo?.beProvince) evts.push({ type: 'RESI', geo: r.geo, year: r.year }); });
+    (p.otherEvents || []).forEach(oe => {
+        if(oe.geo?.beProvince && !oe.isCens && !oe.isResi) evts.push({ type: 'OTHER', geo: oe.geo, year: oe.year, factLabel: labelForOther(oe) });
+    });
+    return evts;
+}
+
+export function computeBeProvinceSummaries(list) {
+    const totals = new Map();
+    list.forEach(p => personBeProvinceEvents(p).forEach(e => {
+        const code = deptCode(e.geo.beProvince);
+        if(code) totals.set(code, (totals.get(code) || 0) + 1);
+    }));
+    return Array.from(totals.entries())
+        .map(([code, total]) => ({ code, label: GEO.beProvinceLabels[code] || code, total }))
+        .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'fr'));
+}
+
+export function computeBeProvinceDetail(list, code) {
+    const pointMap = new Map();
+    const surnameOwners = new Map(); // patronyme -> Set(id personne)
+    let totalEvents = 0, geolocated = 0;
+
+    list.forEach(p => {
+        const evts = personBeProvinceEvents(p).filter(e => deptCode(e.geo.beProvince) === code);
+        if(!evts.length) return;
+        totalEvents += evts.length;
+
+        const surname = (p.surname || '').trim();
+        if(surname) {
+            if(!surnameOwners.has(surname)) surnameOwners.set(surname, new Set());
+            surnameOwners.get(surname).add(p.id);
+        }
+
+        evts.forEach(e => {
+            if(e.geo.lat == null || e.geo.lon == null) return;
+            geolocated++;
+            const key = `${e.type}:${e.geo.lat.toFixed(3)},${e.geo.lon.toFixed(3)}`;
+            if(!pointMap.has(key)) pointMap.set(key, { type: e.type, lat: e.geo.lat, lon: e.geo.lon, city: e.geo.city || null, count: 0, items: [] });
+            const pt = pointMap.get(key);
+            pt.count++;
+            if(pt.items.length < 30) pt.items.push({ name: p.name, year: e.year, factLabel: e.factLabel || null });
+        });
+    });
+
+    const surnames = Array.from(surnameOwners.entries())
+        .map(([surname, ids]) => ({ surname, count: ids.size }))
+        .sort((a, b) => b.count - a.count || a.surname.localeCompare(b.surname, 'fr'));
+
+    return {
+        code, label: GEO.beProvinceLabels[code] || code,
+        totalEvents, geolocated,
+        points: Array.from(pointMap.values()),
+        surnames
+    };
+}
+
+export async function drawBeProvinceMap(containerId, code, detail) {
+    const container = d3.select(`#${containerId}`);
+    showMapMessage(containerId, 'Chargement de la carte…');
+
+    let geojsonRaw;
+    try {
+        geojsonRaw = await ensureBelgiumGeo();
+    } catch(err) {
+        showMapMessage(containerId, 'Impossible de charger la carte (connexion internet requise).', true);
+        return;
+    }
+    if(!document.getElementById(containerId)) return;
+    const feature = geojsonRaw.features.find(f => f.properties.AdPrKey === code);
+    if(!feature) {
+        showMapMessage(containerId, `Contour introuvable pour cette province (${detail.label}).`, true);
+        return;
+    }
+
+    container.selectAll('*').remove();
+    const height = 440;
+    const containerWidth = container.node().clientWidth || 720;
+    const listWidth = containerWidth >= 560 ? 200 : 0;
+    const mapWidth = containerWidth - listWidth;
+    const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
+
+    const projection = d3.geoConicConformal().fitExtent([[24, 24], [mapWidth - 24, height - 24]], feature);
+    const path = d3.geoPath().projection(projection);
+
+    svg.append('path').datum(feature).attr('d', path)
+        .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
+
+    if(!detail.points.length) {
+        svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
+            .style('font-size', '11px').style('fill', '#888')
+            .text('Aucun événement précisément géolocalisé pour cette province.');
+    } else {
+        const plotted = detail.points
+            .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
+            .filter(Boolean);
+
+        const maxCount = d3.max(plotted, p => p.count) || 1;
+        const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
+        const tooltip = document.getElementById('tooltip');
+
+        svg.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
+            .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
+            .attr('fill', p => DEPT_EVENT_TYPES[p.type]?.color || '#3498db')
+            .attr('fill-opacity', 0.75).attr('stroke', '#fff').attr('stroke-width', 1)
+            .style('cursor', 'pointer')
+            .on('mouseover', function(e, p) {
+                d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+                const info = DEPT_EVENT_TYPES[p.type] || { label: p.type, icon: '•' };
+                const shown = Math.min(15, p.items.length);
+                const rows = p.items.slice(0, shown).map(it => {
+                    const label = it.factLabel ? `${escapeHtml(it.name || 'Inconnu')} — ${escapeHtml(it.factLabel)}` : escapeHtml(it.name || 'Inconnu');
+                    return `<div class="tt-row"><span>${label}</span><span>${it.year != null ? it.year : ''}</span></div>`;
+                }).join('');
+                const more = p.count > shown ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${p.count - shown} autre(s)</div>` : '';
+                tooltip.style.opacity = 1;
+                tooltip.innerHTML = `<strong>${info.icon} ${info.label}${p.city ? ' — ' + escapeHtml(p.city) : ''}</strong>
+                    <div class="tt-row"><span>Occurrences</span><span>${p.count}</span></div>
+                    <div style="margin-top:6px;max-height:200px;overflow-y:auto">${rows}${more}</div>`;
+            })
+            .on('mousemove', e => {
+                tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+                tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+            })
+            .on('mouseout', function() {
+                d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+                tooltip.style.opacity = 0;
+            });
+
+        const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
+        const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
+        typesPresent.forEach((t, i) => {
+            const info = DEPT_EVENT_TYPES[t];
+            legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
+            legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
+                .text(`${info.icon} ${info.label}`);
+        });
+    }
+
+    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
 }
 
 // --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---

@@ -877,6 +877,20 @@ const fa = (() => {
 
     // Le registre visé dépend du type de correspondance trouvée par computeSuccessionLeads, et de
     // ce que le portail du département publie (voir successions.js, config.kind) :
+    // Marqueur de numérisation d'un registre (successions ET mariage) : reg.digitized n'est
+    // renseigné que pour les départements où le scraper a pu le déterminer sans requête
+    // supplémentaire (le champ était déjà présent sur la page listant les résultats, ex. Gironde/
+    // Territoire de Belfort) - true (📷 numérisé, cliquer ouvre un scan), false (🗄️ coté mais pas
+    // numérisé, le lien mène à la notice du catalogue, pas à une image) ou absent (statut inconnu
+    // pour ce département - la plupart, dont le Tarn : le savoir exigerait une requête par
+    // registre, des milliers pour ce seul département, non fait pour l'instant). Absent n'affiche
+    // rien plutôt que de prétendre à tort qu'un registre est numérisé.
+    function digitizedBadge(reg) {
+        if (reg.digitized === true) return ' 📷';
+        if (reg.digitized === false) return ' 🗄️<span style="font-size:0.75rem; color:#777;"> (non numérisé)</span>';
+        return '';
+    }
+
     // - 'exact' : la commune (ou son bureau, résolu avec certitude pour ce département et cette
     //   année) a son propre registre, lien(s) direct(s) vers la/les notice(s) — plusieurs quand
     //   plusieurs registres se chevauchent (bureaux multiples d'une même ville au Nord, tranches
@@ -899,7 +913,7 @@ const fa = (() => {
         // (et redondant avec la colonne Décès) quand un seul lieu est en jeu, comme partout ailleurs.
         const distinctPlaces = new Set(r.registers.map(reg => reg.place));
         const links = r.registers.map(reg =>
-            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">⚰ ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>`
+            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">⚰ ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>${digitizedBadge(reg)}`
         ).join('');
         return `${warn}<div class="city-buttons">${links}</div>`;
     }
@@ -968,7 +982,7 @@ const fa = (() => {
         const warn = (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '') + yearGapWarning(r);
         const distinctPlaces = new Set(r.registers.map(reg => reg.place));
         const links = r.registers.map(reg =>
-            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">💍 ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>`
+            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">💍 ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>${digitizedBadge(reg)}`
         ).join('');
         return `${warn}<div class="city-buttons">${links}</div>`;
     }

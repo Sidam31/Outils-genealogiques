@@ -363,7 +363,12 @@ export class FanChart {
         const words = this.getDisplayWords(i);
         const sel = d3.select(el);
         sel.text(null);
-        const blurSurname = words.length > 1 && this.getPrivacyMode() === 'blur' && this.isPrivate(i);
+        // Le flou ne peut cibler que l'élément <text> entier (nom+patronyme) : la propriété CSS
+        // "filter" n'a d'effet garanti que sur les éléments graphiques SVG (text, g...), pas sur
+        // un <tspan> — un flou par mot y est silencieusement ignoré par Firefox (conforme à la
+        // spec SVG, contrairement à Chromium qui le tolère). Le mode "mask" reste donc la seule
+        // option pour masquer précisément le seul patronyme.
+        sel.classed('blurred-name', words.length > 1 && this.getPrivacyMode() === 'blur' && this.isPrivate(i));
 
         const r = (d.y0 + d.y1) / 2;
         const angularSpan = Math.max(0, d.x1 - d.x0);
@@ -384,8 +389,7 @@ export class FanChart {
 
         if(canTwoLine) {
             const t1 = sel.append('tspan').attr('x', 0).attr('dy', '-0.1em').text(words[0]);
-            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1])
-                .classed('blurred-surname', blurSurname);
+            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1]);
             let w = Math.max(t1.node().getComputedTextLength(), t2.node().getComputedTextLength());
             if(w > availW) {
                 const scale = Math.max(availW / w, minSize / baseFontSize);
@@ -400,12 +404,7 @@ export class FanChart {
         }
 
         const full = words.join(' ');
-        if(blurSurname) {
-            sel.append('tspan').text(words[0] + ' ');
-            sel.append('tspan').classed('blurred-surname', true).text(words[1]);
-        } else {
-            sel.text(full);
-        }
+        sel.text(full);
         const w = el.getComputedTextLength();
         if(w > availW) {
             const scale = availW / w;
@@ -414,9 +413,6 @@ export class FanChart {
                 sel.style('font-size', newSize + 'px');
             } else {
                 sel.style('font-size', minSize + 'px');
-                // Le repli par troncature réécrit le texte brut de l'élément : le flou par mot
-                // (tspan dédié) est perdu pour ces rares segments minuscules, sans conséquence
-                // visuelle vu leur taille.
                 this.truncateToFit(el, full, availW);
             }
         }
@@ -442,7 +438,9 @@ export class FanChart {
         const words = this.getDisplayWords(i);
         const sel = d3.select(el);
         sel.text(null);
-        const blurSurname = words.length > 1 && this.getPrivacyMode() === 'blur' && this.isPrivate(i);
+        // Voir fitText() : le flou cible tout l'élément <text>, pas un mot isolé (limite du
+        // filtre CSS sur <tspan>, ignoré par Firefox).
+        sel.classed('blurred-name', words.length > 1 && this.getPrivacyMode() === 'blur' && this.isPrivate(i));
 
         const availW = Math.max(4, radius * 1.6);
         const baseFontSize = parseFloat(window.getComputedStyle(el).fontSize) || 12;
@@ -452,8 +450,7 @@ export class FanChart {
 
         if(canTwoLine) {
             const t1 = sel.append('tspan').attr('x', 0).attr('dy', '-0.1em').text(words[0]);
-            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1])
-                .classed('blurred-surname', blurSurname);
+            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1]);
             let w = Math.max(t1.node().getComputedTextLength(), t2.node().getComputedTextLength());
             if(w > availW) {
                 const scale = Math.max(availW / w, minSize / baseFontSize);
@@ -467,12 +464,7 @@ export class FanChart {
             return;
         }
 
-        if(blurSurname) {
-            sel.append('tspan').text(words[0] + ' ');
-            sel.append('tspan').classed('blurred-surname', true).text(words[1]);
-        } else {
-            sel.text(words.join(' '));
-        }
+        sel.text(words.join(' '));
         const w = el.getComputedTextLength();
         if(w > availW) {
             const scale = availW / w;

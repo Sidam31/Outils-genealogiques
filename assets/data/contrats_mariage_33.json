@@ -4,1301 +4,2031 @@
     "cote": "2C551T1",
     "yearStart": 1703,
     "yearEnd": 1766,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499431?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499431?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "La Réole",
+    "cote": "",
+    "yearStart": 1706,
+    "yearEnd": 1721,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510760?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "La Réole",
+    "cote": "",
+    "yearStart": 1721,
+    "yearEnd": 1725,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510764?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "La Réole",
+    "cote": "",
+    "yearStart": 1722,
+    "yearEnd": 1767,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510765?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Castelnau",
+    "cote": "",
+    "yearStart": 1740,
+    "yearEnd": 1780,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502923?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Barsac",
+    "cote": "",
+    "yearStart": 1749,
+    "yearEnd": 1769,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:500268?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Coutras",
+    "cote": "",
+    "yearStart": 1749,
+    "yearEnd": 1781,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:503717?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Cenon-Carbon-Blanc",
+    "cote": "",
+    "yearStart": 1750,
+    "yearEnd": 1762,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:503498?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Monségur",
+    "cote": "",
+    "yearStart": 1750,
+    "yearEnd": 1774,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:514004?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Emilion",
+    "cote": "",
+    "yearStart": 1750,
+    "yearEnd": 1787,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:516100?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Langoiran",
+    "cote": "",
+    "yearStart": 1750,
+    "yearEnd": 1789,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:509316?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Galgon",
+    "cote": "",
+    "yearStart": 1751,
+    "yearEnd": 1763,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:505598?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Saint-André-de-Cubzac",
+    "cote": "",
+    "yearStart": 1751,
+    "yearEnd": 1775,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:515639?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Sauveterre",
+    "cote": "",
+    "yearStart": 1751,
+    "yearEnd": 1776,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517698?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Guîtres",
+    "cote": "",
+    "yearStart": 1751,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:508890?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Lussac-en-Puynormand",
+    "cote": "",
+    "yearStart": 1752,
+    "yearEnd": 1766,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:513068?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Gensac",
+    "cote": "",
+    "yearStart": 1752,
+    "yearEnd": 1777,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:507762?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Branne",
+    "cote": "",
+    "yearStart": 1752,
+    "yearEnd": 1778,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502074?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Bazas",
+    "cote": "",
+    "yearStart": 1752,
+    "yearEnd": 1792,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:500753?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "",
+    "yearStart": 1753,
+    "yearEnd": 1771,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:516565?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Langon",
+    "cote": "",
+    "yearStart": 1753,
+    "yearEnd": 1775,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510121?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Villandrault",
+    "cote": "",
+    "yearStart": 1753,
+    "yearEnd": 1780,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517929?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Vayres",
+    "cote": "",
+    "yearStart": 1753,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517823?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Bourg",
+    "cote": "",
+    "yearStart": 1754,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:501756?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Créon",
+    "cote": "",
+    "yearStart": 1755,
+    "yearEnd": 1778,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:504427?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Cadillac",
+    "cote": "",
+    "yearStart": 1760,
+    "yearEnd": 1786,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502368?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Sainte-Foy-la-Grande",
+    "cote": "",
+    "yearStart": 1760,
+    "yearEnd": 1760,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517452?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Cenon-Carbon-Blanc",
+    "cote": "",
+    "yearStart": 1762,
+    "yearEnd": 1776,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:503499?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Galgon",
+    "cote": "",
+    "yearStart": 1763,
+    "yearEnd": 1790,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:505603?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "La Réole",
+    "cote": "",
+    "yearStart": 1765,
+    "yearEnd": 1792,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510769?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux",
     "cote": "2C552",
     "yearStart": 1766,
     "yearEnd": 1772,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499433?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499433?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "",
+    "yearStart": 1766,
+    "yearEnd": 1776,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:516567?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Lussac-en-Puynormand",
+    "cote": "",
+    "yearStart": 1766,
+    "yearEnd": 1777,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:513072?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux",
     "cote": "2C553",
     "yearStart": 1769,
     "yearEnd": 1774,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499436?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499436?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Landiras",
+    "cote": "",
+    "yearStart": 1769,
+    "yearEnd": 1784,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:508983?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Blaye",
+    "cote": "",
+    "yearStart": 1771,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:501444?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux",
     "cote": "2C554",
     "yearStart": 1774,
     "yearEnd": 1780,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499437?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499437?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Monségur",
+    "cote": "",
+    "yearStart": 1774,
+    "yearEnd": 1774,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:514010?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Villandrault",
+    "cote": "",
+    "yearStart": 1775,
+    "yearEnd": 1781,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517933?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Langon",
+    "cote": "",
+    "yearStart": 1775,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510123?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Saint-André-de-Cubzac",
+    "cote": "",
+    "yearStart": 1775,
+    "yearEnd": 1793,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:515642?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "",
+    "yearStart": 1776,
+    "yearEnd": 1785,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:516569?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Gensac",
+    "cote": "",
+    "yearStart": 1777,
+    "yearEnd": 1790,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:507772?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Lussac-en-Puynormand",
+    "cote": "",
+    "yearStart": 1777,
+    "yearEnd": 1790,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:513115?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Cenon-Carbon-Blanc",
+    "cote": "",
+    "yearStart": 1777,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:503501?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Sauveterre",
+    "cote": "",
+    "yearStart": 1777,
+    "yearEnd": 1793,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517699?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Créon",
+    "cote": "",
+    "yearStart": 1778,
+    "yearEnd": 1778,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:504434?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Branne",
+    "cote": "",
+    "yearStart": 1779,
+    "yearEnd": 1791,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502075?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux",
     "cote": "2C555",
     "yearStart": 1780,
     "yearEnd": 1785,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499439?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499439?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castelnau",
+    "cote": "",
+    "yearStart": 1780,
+    "yearEnd": 1785,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502924?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Villandrault",
+    "cote": "",
+    "yearStart": 1781,
+    "yearEnd": 1786,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517937?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Coutras",
+    "cote": "",
+    "yearStart": 1781,
+    "yearEnd": 1781,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:503719?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Castelnau",
+    "cote": "",
+    "yearStart": 1785,
+    "yearEnd": 1788,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502926?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Macaire",
+    "cote": "",
+    "yearStart": 1785,
+    "yearEnd": 1789,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:516572?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux",
     "cote": "2C556",
     "yearStart": 1785,
     "yearEnd": 1790,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499441?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499441?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Barsac",
+    "cote": "",
+    "yearStart": 1785,
+    "yearEnd": 1790,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:500306?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Villandrault",
+    "cote": "",
+    "yearStart": 1786,
+    "yearEnd": 1790,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:517940?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Cadillac",
+    "cote": "",
+    "yearStart": 1786,
+    "yearEnd": 1786,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:502370?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux",
     "cote": "2C557",
     "yearStart": 1790,
     "yearEnd": 1791,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499445?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:499445?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "La Teste",
+    "cote": "",
+    "yearStart": 1790,
+    "yearEnd": 1792,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:511242?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Langon",
+    "cote": "",
+    "yearStart": 1791,
+    "yearEnd": 1792,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_2C/view:510127?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q320",
     "yearStart": 1791,
     "yearEnd": 1793,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484926?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484926?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10098",
     "yearStart": 1791,
     "yearEnd": 1793,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008902?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008902?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Castelnau",
     "cote": "3Q12147",
     "yearStart": 1791,
     "yearEnd": 1791,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54718?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54718?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9277",
     "yearStart": 1791,
     "yearEnd": 1791,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004919?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004919?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Belin",
+    "cote": "",
+    "yearStart": 1791,
+    "yearEnd": 1816,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1001790?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11557",
     "yearStart": 1792,
     "yearEnd": 1792,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015753?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015753?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15715",
     "yearStart": 1792,
     "yearEnd": 1792,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97801?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97801?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8019",
     "yearStart": 1792,
     "yearEnd": 1796,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999101?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999101?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15247",
     "yearStart": 1792,
     "yearEnd": 1792,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93653?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93653?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Branne",
     "cote": "3Q10619",
     "yearStart": 1792,
     "yearEnd": 1807,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011912?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011912?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q321",
     "yearStart": 1793,
     "yearEnd": 1793,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484998?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:484998?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q322",
     "yearStart": 1793,
     "yearEnd": 1795,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485000?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485000?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16993",
     "yearStart": 1793,
     "yearEnd": 1793,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106059?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106059?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11558",
     "yearStart": 1793,
     "yearEnd": 1793,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015755?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015755?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10099",
     "yearStart": 1793,
     "yearEnd": 1809,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008905?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008905?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15716",
     "yearStart": 1794,
     "yearEnd": 1801,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97805?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97805?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q323",
     "yearStart": 1795,
     "yearEnd": 1797,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485003?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485003?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15248",
     "yearStart": 1807,
     "yearEnd": 1807,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93661?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93661?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q324",
     "yearStart": 1797,
     "yearEnd": 1799,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485006?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485006?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8020",
     "yearStart": 1797,
     "yearEnd": 1809,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999103?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999103?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q359",
     "yearStart": 1798,
     "yearEnd": 1803,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485073?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485073?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Castelnau",
     "cote": "3Q12148",
     "yearStart": 1813,
     "yearEnd": 1813,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54747?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54747?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Créon",
     "cote": "3Q13927",
     "yearStart": 1815,
     "yearEnd": 1815,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83407?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83407?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q325",
     "yearStart": 1799,
     "yearEnd": 1802,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485007?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485007?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15717",
     "yearStart": 1801,
     "yearEnd": 1804,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97810?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97810?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13369",
     "yearStart": 1808,
     "yearEnd": 1808,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81592?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81592?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11559",
     "yearStart": 1808,
     "yearEnd": 1808,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015757?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015757?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16994",
     "yearStart": 1810,
     "yearEnd": 1810,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106061?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106061?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q326",
     "yearStart": 1806,
     "yearEnd": 1806,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485009?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485009?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q360",
     "yearStart": 1806,
     "yearEnd": 1806,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485075?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485075?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9278",
     "yearStart": 1807,
     "yearEnd": 1807,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004922?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004922?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Cadillac",
     "cote": "3Q11038",
     "yearStart": 1816,
     "yearEnd": 1816,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014616?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014616?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q361",
     "yearStart": 1804,
     "yearEnd": 1804,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485077?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485077?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15718",
     "yearStart": 1812,
     "yearEnd": 1812,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97814?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97814?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q327",
     "yearStart": 1806,
     "yearEnd": 1808,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485011?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485011?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9279",
     "yearStart": 1807,
     "yearEnd": 1809,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004928?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004928?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Branne",
     "cote": "3Q10620",
     "yearStart": 1807,
     "yearEnd": 1814,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011920?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011920?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q328",
     "yearStart": 1808,
     "yearEnd": 1810,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485014?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485014?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13370",
     "yearStart": 1808,
     "yearEnd": 1813,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81595?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81595?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11560",
     "yearStart": 1808,
     "yearEnd": 1817,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015759?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015759?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9280",
     "yearStart": 1809,
     "yearEnd": 1811,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004932?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004932?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10100",
     "yearStart": 1809,
     "yearEnd": 1813,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008909?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008909?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q329",
     "yearStart": 1810,
     "yearEnd": 1812,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485015?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485015?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16995",
     "yearStart": 1810,
     "yearEnd": 1814,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106064?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106064?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8021",
     "yearStart": 1810,
     "yearEnd": 1816,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999106?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999106?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9281",
     "yearStart": 1811,
     "yearEnd": 1815,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004936?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004936?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q330",
     "yearStart": 1812,
     "yearEnd": 1815,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485017?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485017?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1812,
+    "yearEnd": 1817,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80949?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Langon",
     "cote": "3Q15249",
     "yearStart": 1813,
     "yearEnd": 1817,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93666?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93666?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15719",
     "yearStart": 1813,
     "yearEnd": 1818,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97819?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97819?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10101",
     "yearStart": 1813,
     "yearEnd": 1818,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008917?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008917?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Castelnau",
     "cote": "3Q12149",
     "yearStart": 1813,
     "yearEnd": 1823,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54765?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54765?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Branne",
     "cote": "3Q10621",
     "yearStart": 1814,
     "yearEnd": 1817,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011936?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011936?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13371",
     "yearStart": 1814,
     "yearEnd": 1820,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81600?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81600?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q331",
     "yearStart": 1815,
     "yearEnd": 1817,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485019?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485019?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9282",
     "yearStart": 1815,
     "yearEnd": 1819,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004942?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004942?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16996",
     "yearStart": 1815,
     "yearEnd": 1822,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106065?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106065?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Créon",
     "cote": "3Q13928",
     "yearStart": 1815,
     "yearEnd": 1827,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83411?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83411?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Cadillac",
     "cote": "3Q11039",
     "yearStart": 1816,
     "yearEnd": 1824,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014623?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014623?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Belin",
+    "cote": "",
+    "yearStart": 1816,
+    "yearEnd": 1833,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1001794?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q332",
     "yearStart": 1817,
     "yearEnd": 1819,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485022?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485022?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8022",
     "yearStart": 1817,
     "yearEnd": 1823,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999109?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999109?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15250",
     "yearStart": 1817,
     "yearEnd": 1829,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93671?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93671?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80951?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "La Réole",
     "cote": "3Q15720",
     "yearStart": 1818,
     "yearEnd": 1824,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97823?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97823?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11561",
     "yearStart": 1818,
     "yearEnd": 1834,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015762?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015762?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Branne",
     "cote": "3Q10622",
     "yearStart": 1818,
     "yearEnd": 1836,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011944?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011944?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q333",
     "yearStart": 1819,
     "yearEnd": 1820,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485024?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485024?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10102",
     "yearStart": 1819,
     "yearEnd": 1823,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008920?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008920?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9283",
     "yearStart": 1819,
     "yearEnd": 1825,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004953?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004953?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q334",
     "yearStart": 1820,
     "yearEnd": 1823,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485025?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485025?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13372",
     "yearStart": 1821,
     "yearEnd": 1826,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81604?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81604?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16997",
     "yearStart": 1822,
     "yearEnd": 1832,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106066?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106066?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blanquefort",
     "cote": "3Q8883",
     "yearStart": 1822,
     "yearEnd": 1836,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003125?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003125?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q335",
     "yearStart": 1823,
     "yearEnd": 1825,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485028?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485028?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10103",
     "yearStart": 1823,
     "yearEnd": 1827,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008923?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008923?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Castelnau",
     "cote": "3Q12150",
     "yearStart": 1823,
     "yearEnd": 1829,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54777?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54777?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Cadillac",
     "cote": "3Q11040",
     "yearStart": 1824,
     "yearEnd": 1829,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014629?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014629?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15721",
     "yearStart": 1824,
     "yearEnd": 1830,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97828?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97828?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8023",
     "yearStart": 1824,
     "yearEnd": 1831,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999115?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999115?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q336",
     "yearStart": 1825,
     "yearEnd": 1826,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485030?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485030?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80952?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Blaye",
     "cote": "3Q9284",
     "yearStart": 1825,
     "yearEnd": 1834,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004957?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004957?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q337",
     "yearStart": 1826,
     "yearEnd": 1828,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485032?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485032?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13373",
     "yearStart": 1827,
     "yearEnd": 1834,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81608?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81608?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q338",
     "yearStart": 1828,
     "yearEnd": 1829,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485033?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485033?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10104",
     "yearStart": 1828,
     "yearEnd": 1833,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008928?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008928?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Créon",
     "cote": "3Q13929",
     "yearStart": 1828,
     "yearEnd": 1837,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83416?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83416?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q339",
     "yearStart": 1829,
     "yearEnd": 1831,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485036?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485036?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15251",
     "yearStart": 1829,
     "yearEnd": 1834,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93689?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93689?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Castelnau",
     "cote": "3Q12151",
     "yearStart": 1829,
     "yearEnd": 1838,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54782?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54782?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Cadillac",
     "cote": "3Q11041",
     "yearStart": 1829,
     "yearEnd": 1840,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014635?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014635?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q340",
     "yearStart": 1831,
     "yearEnd": 1832,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485037?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485037?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80955?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "La Réole",
     "cote": "3Q15722",
     "yearStart": 1831,
     "yearEnd": 1839,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97833?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97833?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q368",
     "yearStart": 1832,
     "yearEnd": 1833,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485091?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485091?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q341",
     "yearStart": 1832,
     "yearEnd": 1834,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485039?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485039?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16998",
     "yearStart": 1832,
     "yearEnd": 1838,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106068?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106068?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8024",
     "yearStart": 1832,
     "yearEnd": 1838,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999117?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999117?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q369",
     "yearStart": 1833,
     "yearEnd": 1835,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485093?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485093?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10105",
     "yearStart": 1833,
     "yearEnd": 1838,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008936?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008936?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Belin",
+    "cote": "",
+    "yearStart": 1833,
+    "yearEnd": 1844,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1001806?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q342",
     "yearStart": 1834,
     "yearEnd": 1836,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485042?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485042?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9285",
     "yearStart": 1834,
     "yearEnd": 1841,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004963?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004963?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11562",
     "yearStart": 1834,
     "yearEnd": 1843,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015764?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015764?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q370",
     "yearStart": 1835,
     "yearEnd": 1836,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485095?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485095?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13374",
     "yearStart": 1835,
     "yearEnd": 1843,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81613?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81613?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Guîtres",
     "cote": "3Q14656",
     "yearStart": 1835,
     "yearEnd": 1843,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88342?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88342?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15252",
     "yearStart": 1835,
     "yearEnd": 1843,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93694?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93694?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q343",
     "yearStart": 1836,
     "yearEnd": 1838,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485043?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485043?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q371",
     "yearStart": 1836,
     "yearEnd": 1838,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485097?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485097?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blanquefort",
     "cote": "3Q8884",
     "yearStart": 1836,
     "yearEnd": 1846,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003127?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003127?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Branne",
     "cote": "3Q10623",
     "yearStart": 1836,
     "yearEnd": 1851,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011951?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011951?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q344",
     "yearStart": 1838,
     "yearEnd": 1839,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485046?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485046?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q372",
     "yearStart": 1838,
     "yearEnd": 1839,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485098?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485098?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80956?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bourg",
     "cote": "3Q10106",
     "yearStart": 1838,
     "yearEnd": 1845,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008940?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008940?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Créon",
     "cote": "3Q13930",
     "yearStart": 1838,
     "yearEnd": 1846,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83421?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83421?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Castelnau",
     "cote": "3Q12152",
     "yearStart": 1838,
     "yearEnd": 1848,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54795?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:54795?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q345",
     "yearStart": 1839,
     "yearEnd": 1841,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485047?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485047?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q373",
     "yearStart": 1839,
     "yearEnd": 1841,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485101?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485101?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15723",
     "yearStart": 1839,
     "yearEnd": 1844,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97837?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97837?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8025",
     "yearStart": 1839,
     "yearEnd": 1845,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999121?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999121?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q16999",
     "yearStart": 1839,
     "yearEnd": 1847,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106071?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106071?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q362",
     "yearStart": 1839,
     "yearEnd": 1850,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485080?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485080?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Cadillac",
     "cote": "3Q11042",
     "yearStart": 1840,
     "yearEnd": 1852,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014637?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014637?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q346",
     "yearStart": 1841,
     "yearEnd": 1842,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485049?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485049?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q374",
     "yearStart": 1841,
     "yearEnd": 1843,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485102?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485102?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9286",
     "yearStart": 1842,
     "yearEnd": 1848,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004973?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004973?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q347",
     "yearStart": 1843,
     "yearEnd": 1844,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485051?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485051?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q375",
     "yearStart": 1843,
     "yearEnd": 1844,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485104?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485104?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11563",
     "yearStart": 1843,
     "yearEnd": 1851,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015766?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015766?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Guîtres",
     "cote": "3Q14657",
     "yearStart": 1843,
     "yearEnd": 1855,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88349?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88349?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q348",
     "yearStart": 1844,
     "yearEnd": 1846,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485054?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485054?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q376",
     "yearStart": 1844,
     "yearEnd": 1846,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485107?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485107?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15253",
     "yearStart": 1844,
     "yearEnd": 1852,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93726?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93726?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13375",
     "yearStart": 1844,
     "yearEnd": 1853,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81618?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81618?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15724",
     "yearStart": 1844,
     "yearEnd": 1855,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97842?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97842?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Belin",
+    "cote": "",
+    "yearStart": 1844,
+    "yearEnd": 1863,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1001809?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1845,
+    "yearEnd": 1851,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80959?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q349",
     "yearStart": 1846,
     "yearEnd": 1847,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485055?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485055?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q377",
     "yearStart": 1846,
     "yearEnd": 1847,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485111?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485111?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8026",
     "yearStart": 1846,
     "yearEnd": 1851,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999124?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999124?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blanquefort",
     "cote": "3Q8885",
     "yearStart": 1846,
     "yearEnd": 1853,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003138?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003138?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Créon",
     "cote": "3Q13931",
     "yearStart": 1846,
     "yearEnd": 1855,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83425?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83425?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bourg",
     "cote": "3Q10107",
     "yearStart": 1846,
     "yearEnd": 1877,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008948?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1008948?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q350",
     "yearStart": 1847,
     "yearEnd": 1848,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485057?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485057?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q378",
     "yearStart": 1847,
     "yearEnd": 1848,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485112?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485112?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Lesparre",
     "cote": "3Q17000",
     "yearStart": 1848,
     "yearEnd": 1857,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106074?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106074?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blaye",
     "cote": "3Q9287",
     "yearStart": 1848,
     "yearEnd": 1857,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004979?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1004979?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q351",
     "yearStart": 1849,
     "yearEnd": 1850,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485058?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485058?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q379",
     "yearStart": 1849,
     "yearEnd": 1850,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485115?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485115?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q352",
     "yearStart": 1850,
     "yearEnd": 1851,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485061?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485061?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q380",
     "yearStart": 1850,
     "yearEnd": 1851,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485116?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485116?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q381",
     "yearStart": 1851,
     "yearEnd": 1853,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485118?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485118?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1851,
+    "yearEnd": 1858,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80966?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11564",
     "yearStart": 1851,
     "yearEnd": 1859,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015768?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015768?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Branne",
     "cote": "3Q10624",
     "yearStart": 1851,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011955?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1011955?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q353",
     "yearStart": 1852,
     "yearEnd": 1853,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485064?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485064?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8027",
     "yearStart": 1852,
     "yearEnd": 1860,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999127?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999127?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Langon",
     "cote": "3Q15254",
     "yearStart": 1852,
     "yearEnd": 1861,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93731?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:93731?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Cadillac",
     "cote": "3Q11043",
     "yearStart": 1852,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014639?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1014639?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q382",
     "yearStart": 1853,
     "yearEnd": 1854,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485119?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485119?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q354",
     "yearStart": 1853,
     "yearEnd": 1856,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485065?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485065?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q363",
     "yearStart": 1853,
     "yearEnd": 1856,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485083?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485083?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q383",
     "yearStart": 1854,
     "yearEnd": 1856,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485120?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485120?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Coutras",
     "cote": "3Q13376",
     "yearStart": 1854,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81624?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:81624?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Blanquefort",
     "cote": "3Q8886",
     "yearStart": 1854,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003144?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1003144?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "La Réole",
     "cote": "3Q15725",
     "yearStart": 1855,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97845?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:97845?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q384",
     "yearStart": 1856,
     "yearEnd": 1857,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485121?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485121?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q355",
     "yearStart": 1856,
     "yearEnd": 1858,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485066?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485066?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q364",
     "yearStart": 1856,
     "yearEnd": 1858,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485085?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485085?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Créon",
+    "cote": "",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83428?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Guîtres",
     "cote": "3Q14658",
     "yearStart": 1856,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88357?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:88357?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q385",
     "yearStart": 1857,
     "yearEnd": 1858,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485123?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485123?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q386",
     "yearStart": 1858,
     "yearEnd": 1860,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485124?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485124?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q365",
     "yearStart": 1858,
     "yearEnd": 1861,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485086?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485086?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Castres",
+    "cote": "",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:80968?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Lesparre",
     "cote": "3Q17001",
     "yearStart": 1858,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106075?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:106075?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q356",
     "yearStart": 1859,
     "yearEnd": 1861,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485067?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485067?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Carbon-Blanc",
     "cote": "3Q11565",
     "yearStart": 1859,
     "yearEnd": 1866,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015770?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1015770?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q387",
     "yearStart": 1860,
     "yearEnd": 1861,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485126?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485126?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bazas",
     "cote": "3Q8028",
     "yearStart": 1860,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999129?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:999129?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q388",
     "yearStart": 1861,
     "yearEnd": 1862,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485127?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485127?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q366",
     "yearStart": 1861,
     "yearEnd": 1863,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485087?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485087?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q357",
     "yearStart": 1861,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485068?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485068?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q389",
     "yearStart": 1862,
     "yearEnd": 1864,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485131?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485131?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
+  },
+  {
+    "place": "Belin",
+    "cote": "",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_7688_12122/view:1001812?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": false
   },
   {
     "place": "Bordeaux -- deuxième bureau",
     "cote": "3Q367",
     "yearStart": 1864,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485089?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485089?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q390",
     "yearStart": 1864,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485132?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485132?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Créon",
     "cote": "3Q13933",
     "yearStart": 1865,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83433?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_12123_17798/view:83433?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux -- premier bureau",
     "cote": "3Q358",
     "yearStart": 1865,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485070?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485070?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   },
   {
     "place": "Bordeaux",
     "cote": "3Q391",
     "yearStart": 1865,
     "yearEnd": 1865,
-    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485135?RECH_table_Libel=Table des contrats de mariage|"
+    "url": "https://archives.gironde.fr/archive/fonds/FRAD033_IR_3Q_1_7687/view:485135?RECH_table_Libel=Table des contrats de mariage|",
+    "digitized": true
   }
 ]

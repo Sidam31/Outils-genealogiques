@@ -3,7 +3,7 @@ export const GEO = {
     deptNames: {"ain":"01","aisne":"02","allier":"03","alpes-de-haute-provence":"04","hautes-alpes":"05","alpes-maritimes":"06","ardèche":"07","ardennes":"08","ariège":"09","aube":"10","aude":"11","aveyron":"12","bouches-du-rhône":"13","calvados":"14","cantal":"15","charente":"16","charente-maritime":"17","cher":"18","corrèze":"19","corse-du-sud":"2A","haute-corse":"2B","côte-d'or":"21","côtes-d'armor":"22","creuse":"23","dordogne":"24","doubs":"25","drôme":"26","eure":"27","eure-et-loir":"28","finistère":"29","gard":"30","haute-garonne":"31","gers":"32","gironde":"33","hérault":"34","ille-et-vilaine":"35","indre":"36","indre-et-loire":"37","isère":"38","jura":"39","landes":"40","loir-et-cher":"41","loire":"42","haute-loire":"43","loire-atlantique":"44","loiret":"45","lot":"46","lot-et-garonne":"47","lozère":"48","maine-et-loire":"49","manche":"50","marne":"51","haute-marne":"52","mayenne":"53","meurthe-et-moselle":"54","meuse":"55","morbihan":"56","moselle":"57","nièvre":"58","nord":"59","oise":"60","orne":"61","pas-de-calais":"62","puy-de-dôme":"63","pyrénées-atlantiques":"64","hautes-pyrénées":"65","pyrénées-orientales":"66","bas-rhin":"67","haut-rhin":"68","rhône":"69","haute-saône":"70","saône-et-loire":"71","sarthe":"72","savoie":"73","haute-savoie":"74","paris":"75","seine-maritime":"76","seine-et-marne":"77","yvelines":"78","deux-sèvres":"79","somme":"80","tarn":"81","tarn-et-garonne":"82","var":"83","vaucluse":"84","vendée":"85","vienne":"86","haute-vienne":"87","vosges":"88","yonne":"89","territoire de belfort":"90","essonne":"91","hauts-de-seine":"92","seine-saint-denis":"93","val-de-marne":"94","val-d'oise":"95","guadeloupe":"971","martinique":"972","guyane":"973","la réunion":"974","mayotte":"976"},
     deptLabels: {},
     regions: ["Hauts-de-France","Auvergne-Rhône-Alpes","Bourgogne-Franche-Comté","Bretagne","Centre-Val de Loire","Corse","Grand Est","Île-de-France","Normandie","Nouvelle-Aquitaine","Occitanie","Pays de la Loire","Provence-Alpes-Côte d'Azur","Alsace","Aquitaine","Auvergne","Basse-Normandie","Bourgogne","Centre","Champagne-Ardenne","Franche-Comté","Haute-Normandie","Languedoc-Roussillon","Limousin","Lorraine","Midi-Pyrénées","Nord-Pas-de-Calais","Picardie","Poitou-Charentes","Rhône-Alpes","Wallonie","Walloon","Flandre","Flanders","Vlaanderen","Bruxelles","Brussels"],
-    countryMap: {"france":"France","belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","suisse":"Suisse","switzerland":"Suisse","allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne","italie":"Italie","italy":"Italie","italia":"Italie","espagne":"Espagne","spain":"Espagne","espana":"Espagne","usa":"USA","états-unis":"USA","united states":"USA","uk":"Royaume-Uni","united kingdom":"Royaume-Uni","angleterre":"Royaume-Uni","england":"Royaume-Uni","canada":"Canada","québec":"Canada","algérie":"Algérie","maroc":"Maroc","tunisie":"Tunisie","andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg","pays-bas":"Pays-Bas","netherlands":"Pays-Bas","hollande":"Pays-Bas","holland":"Pays-Bas","autriche":"Autriche","austria":"Autriche","portugal":"Portugal","monaco":"Monaco"}
+    countryMap: {"france":"France","belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","belge":"Belgique","belges":"Belgique","suisse":"Suisse","switzerland":"Suisse","allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne","italie":"Italie","italy":"Italie","italia":"Italie","espagne":"Espagne","spain":"Espagne","espana":"Espagne","usa":"USA","états-unis":"USA","united states":"USA","uk":"Royaume-Uni","united kingdom":"Royaume-Uni","angleterre":"Royaume-Uni","england":"Royaume-Uni","canada":"Canada","québec":"Canada","algérie":"Algérie","maroc":"Maroc","tunisie":"Tunisie","andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg","pays-bas":"Pays-Bas","netherlands":"Pays-Bas","hollande":"Pays-Bas","holland":"Pays-Bas","autriche":"Autriche","austria":"Autriche","portugal":"Portugal","monaco":"Monaco"}
 };
 for(let [k,v] of Object.entries(GEO.deptNames)) GEO.deptLabels[v] = k.charAt(0).toUpperCase() + k.slice(1);
 
@@ -48,6 +48,38 @@ GEO.deptCentroids = {
     "974":[55.4500,-20.8789], "976":[45.1662,-12.7806]
 };
 
+// Provinces belges (équivalent des départements français) : codes "AdPrKey" du jeu de données
+// géographique utilisé pour leurs contours (cf. ensureBelgiumGeo dans maps.js), la Région de
+// Bruxelles-Capitale (pas une province au sens strict) étant traitée comme une entrée de plus pour
+// permettre la même choroplèthe. Codes et libellés côté source ("Belgium-Geographic-Data").
+GEO.beProvinceNames = {
+    "anvers":"10000", "antwerpen":"10000",
+    "brabant flamand":"20001", "vlaams brabant":"20001",
+    "brabant wallon":"20002",
+    "flandre occidentale":"30000", "west vlaanderen":"30000",
+    "flandre orientale":"40000", "oost vlaanderen":"40000",
+    "hainaut":"50000", "henegouwen":"50000",
+    "liège":"60000", "liege":"60000", "luik":"60000",
+    "limbourg":"70000", "limburg":"70000",
+    "luxembourg":"80000",
+    "namur":"90000", "namen":"90000",
+    "bruxelles capitale":"04000", "bruxelles":"04000", "brussels":"04000", "brussel":"04000"
+};
+GEO.beProvinceLabels = {
+    "10000":"Anvers", "20001":"Brabant flamand", "20002":"Brabant wallon",
+    "30000":"Flandre occidentale", "40000":"Flandre orientale", "50000":"Hainaut",
+    "60000":"Liège", "70000":"Limbourg", "80000":"Luxembourg", "90000":"Namur",
+    "04000":"Bruxelles-Capitale"
+};
+// Coordonnées [lng, lat] approximatives (chef-lieu) de chaque province belge, même usage que
+// GEO.deptCentroids pour les départements français (heatmap de la carte du monde).
+GEO.beProvinceCentroids = {
+    "10000":[4.4025,51.2194], "20001":[4.7011,50.8798], "20002":[4.6003,50.7167],
+    "30000":[3.2247,51.2093], "40000":[3.7174,51.0543], "50000":[3.9524,50.4542],
+    "60000":[5.5797,50.6326], "70000":[5.3378,50.9307], "80000":[5.8154,49.6833],
+    "90000":[4.8720,50.4669], "04000":[4.3517,50.8503]
+};
+
 // Alias de noms de départements historiques (avant les renommages du XXe siècle), encore
 // courants dans les actes anciens : ex. "Côtes-du-Nord" (Côtes-d'Armor depuis 1990),
 // "Loire-Inférieure" (Loire-Atlantique depuis 1957), "Seine-Inférieure" (Seine-Maritime, 1955).
@@ -88,6 +120,20 @@ GEO.deptEntriesNorm = Object.entries({ ...GEO.deptNames, ...GEO.deptHistoricalAl
     .sort((a, b) => b.len - a.len);
 export function findDept(normText) {
     for(const e of GEO.deptEntriesNorm) if(e.regex.test(normText)) return e.code;
+    return null;
+}
+// Même principe que GEO.deptEntriesNorm/findDept, pour les provinces belges : permet à analyzePlace
+// de reconnaître "Anvers", "Hainaut", "Liège"... dans un lieu belge exactement comme il reconnaît un
+// département français, au lieu de laisser ces lieux sans subdivision (ou pire, matcher par erreur
+// un département français homonyme, cf. garde-fous dans analyzePlace).
+GEO.beProvinceEntriesNorm = Object.entries(GEO.beProvinceNames)
+    .map(([name, code]) => {
+        const n = normalizePlace(name);
+        return { code, len: n.length, regex: new RegExp(`(^|\\s|,)${n.replace(/\s+/g, '\\s*')}(\\s|,|$)`) };
+    })
+    .sort((a, b) => b.len - a.len);
+export function findBeProvince(normText) {
+    for(const e of GEO.beProvinceEntriesNorm) if(e.regex.test(normText)) return e.code;
     return null;
 }
 

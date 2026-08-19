@@ -252,6 +252,18 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_18.json',
         catalogUrl: 'https://www.archives18.fr/archives-numerisees/tables-de-mariages-de-lenregistrement',
     },
+    '83': {
+        label: 'Var',
+        // Bornes réelles de la série (329 registres scrapés sur les 100 premières pages du fonds
+        // - le portail plafonne l'accès à ~10 000 résultats bruts, voir
+        // scrape_contrats_mariage_arkotheque.py DEPARTMENTS['83']) : département débloqué après
+        // découverte de la nouvelle URL de recherche (l'ancienne, documentée dans le blocage
+        // "successions" de ce fichier, est un 404 depuis une refonte du site).
+        minYear: 1705,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_83.json',
+        catalogUrl: 'https://archives.var.fr/recherche/rechercher-dans-les-archives-numerisees-et-les-inventaires/controle-des-actes-et-enregistrement',
+    },
 };
 
 function fetchJson(url) {

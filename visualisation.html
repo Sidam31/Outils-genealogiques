@@ -20,6 +20,7 @@
     <button type="button" class="tab-btn active" id="topModeVisualisationBtn">📊 Visualisation</button>
     <button type="button" class="tab-btn" id="topModeSocieteBtn">🏛️ Société</button>
     <button type="button" class="tab-btn" id="topModeDeptBtn">🗺️ Départements</button>
+    <button type="button" class="tab-btn" id="topModeBeBtn">🇧🇪 Provinces belges</button>
 </div>
 
 <div id="mapsPanel" class="tab-panel">
@@ -67,6 +68,13 @@
                     <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
                 </div>
                 <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Carte de Belgique (provinces)</h3>
+                    <button class="chart-copy-btn" data-target="belgiumMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="belgiumMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
             </div>
         </div>
 
@@ -346,6 +354,48 @@
     </div>
 </div>
 
+<div id="bePanel" class="tab-panel hidden">
+    <div class="quality-container">
+        <p class="quality-intro">Une province belge à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence, autre) et les patronymes qui y sont attachés.</p>
+
+        <div class="map-scope-row">
+            <label for="beAncestorOnly"><input type="checkbox" id="beAncestorOnly"> Uniquement les ascendants de :</label>
+            <div class="ctrl">
+                <input type="text" id="bePersonSearch" placeholder="Rechercher une personne..." disabled>
+                <ul id="bePersonResults"></ul>
+            </div>
+            <span id="bePersonSelected" class="map-person-selected"></span>
+        </div>
+
+        <div id="beStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="beContent" class="hidden">
+            <div class="dept-scroll-bar" id="beScrollBar"></div>
+
+            <div class="dept-layout">
+                <div class="dept-map-col">
+                    <div class="chart-box-header">
+                        <h3 id="beMapTitle">Province</h3>
+                        <button class="chart-copy-btn" data-target="beMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                    <div class="society-stat-grid" style="margin-bottom:10px;">
+                        <div class="society-stat-card"><div class="num" id="beTotalEvents">–</div><div class="lbl">événements dans cette province</div></div>
+                        <div class="society-stat-card"><div class="num" id="beGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
+                        <div class="society-stat-card"><div class="num" id="beSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
+                    </div>
+                    <div id="beMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                </div>
+
+                <div class="dept-side-col">
+                    <h3>📜 Liste éclair des patronymes</h3>
+                    <input type="text" id="beSurnameFilter" placeholder="Filtrer un patronyme...">
+                    <div id="beSurnameList" class="society-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="tooltip"></div>
 
 <script type="module">
@@ -353,10 +403,11 @@ import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { getAncestorIds, decadeOf, centuryLabel, downloadCsv, escapeHtml } from './assets/js/utils.js';
 import {
-    showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap, enrichMissingCoords,
+    showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap, drawBelgiumMap, enrichMissingCoords,
     getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawFirstChildTrend,
     drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury,
-    computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap
+    computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap,
+    computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
 import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap } from './assets/js/society.js';
@@ -366,20 +417,25 @@ import { loadCommunesPopulation } from './assets/js/communes-population.js';
 const topModeVisualisationBtn = document.getElementById('topModeVisualisationBtn');
 const topModeSocieteBtn = document.getElementById('topModeSocieteBtn');
 const topModeDeptBtn = document.getElementById('topModeDeptBtn');
+const topModeBeBtn = document.getElementById('topModeBeBtn');
 const mapsPanelEl = document.getElementById('mapsPanel');
 const societePanelEl = document.getElementById('societePanel');
 const deptPanelEl = document.getElementById('deptPanel');
+const bePanelEl = document.getElementById('bePanel');
 function setTopMode(m) {
     topModeVisualisationBtn.classList.toggle('active', m === 'visualisation');
     topModeSocieteBtn.classList.toggle('active', m === 'societe');
     topModeDeptBtn.classList.toggle('active', m === 'departements');
+    topModeBeBtn.classList.toggle('active', m === 'belgique');
     mapsPanelEl.classList.toggle('hidden', m !== 'visualisation');
     societePanelEl.classList.toggle('hidden', m !== 'societe');
     deptPanelEl.classList.toggle('hidden', m !== 'departements');
+    bePanelEl.classList.toggle('hidden', m !== 'belgique');
 }
 topModeVisualisationBtn.addEventListener('click', () => setTopMode('visualisation'));
 topModeSocieteBtn.addEventListener('click', () => setTopMode('societe'));
 topModeDeptBtn.addEventListener('click', () => setTopMode('departements'));
+topModeBeBtn.addEventListener('click', () => setTopMode('belgique'));
 
 // --- Visualisation ---
 let exportCtl = null;
@@ -444,6 +500,7 @@ function renderFilteredMaps() {
     if(!map.size || !list.length) {
         showMapMessage('worldMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
         showMapMessage('franceMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
+        showMapMessage('belgiumMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
         updateTimeSliderBounds(null);
         return;
     }
@@ -452,9 +509,10 @@ function renderFilteredMaps() {
     const bounds = computeYearBounds(scopeIds, map, eventFlags);
     updateTimeSliderBounds(bounds);
     const yearMax = (mapTimeEnabledEl.checked && bounds) ? parseInt(mapTimeSliderEl.value, 10) : null;
-    const { byDept, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMax });
+    const { byDept, byBeProvince, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMax });
     drawWorldMap(byWorldPoint);
     drawFranceMap(byDept, byCountry);
+    drawBelgiumMap(byBeProvince);
 }
 
 function updatePyramidLabel() {
@@ -869,6 +927,96 @@ const deptPersonPicker = createPersonPicker({
 });
 wireClickAway(deptPersonResultsEl);
 
+// --- Provinces belges --- (pendant du bloc "Départements" ci-dessus, pour la Belgique)
+const beStatusEl = document.getElementById('beStatus');
+const beContentEl = document.getElementById('beContent');
+const beScrollBarEl = document.getElementById('beScrollBar');
+const beMapTitleEl = document.getElementById('beMapTitle');
+const beSurnameFilterEl = document.getElementById('beSurnameFilter');
+const beAncestorOnlyEl = document.getElementById('beAncestorOnly');
+const bePersonSearchEl = document.getElementById('bePersonSearch');
+const bePersonResultsEl = document.getElementById('bePersonResults');
+const bePersonSelectedEl = document.getElementById('bePersonSelected');
+
+let beSummariesCache = [];
+let beSelectedCode = null;
+let beSurnamesCache = [];
+let bePersonId = null;
+
+function beScopedList() {
+    if (!beAncestorOnlyEl.checked || !bePersonId) return list;
+    const ids = new Set(getAncestorIds(map, bePersonId));
+    return list.filter(p => ids.has(p.id));
+}
+
+function renderBeSelector() {
+    beScrollBarEl.innerHTML = beSummariesCache.map(s => `
+        <button type="button" class="dept-chip${s.code === beSelectedCode ? ' active' : ''}" data-code="${s.code}">
+            ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
+        </button>
+    `).join('');
+}
+
+function renderBeSurnameList(filterText) {
+    const f = (filterText || '').trim().toLowerCase();
+    const filtered = f ? beSurnamesCache.filter(s => s.surname.toLowerCase().includes(f)) : beSurnamesCache;
+    renderList('beSurnameList', filtered.map(s => `
+        <div class="society-list-item">
+            <div class="main"><div class="title">${escapeHtml(s.surname)}</div></div>
+            <div class="badge">${s.count}</div>
+        </div>
+    `));
+}
+
+function renderBeProvinceDetail() {
+    if (!beSelectedCode) return;
+    const detail = computeBeProvinceDetail(beScopedList(), beSelectedCode);
+    beMapTitleEl.textContent = detail.label;
+    setStat('beTotalEvents', detail.totalEvents);
+    setStat('beGeoEvents', detail.geolocated);
+    setStat('beSurnameCount', detail.surnames.length);
+    beSurnamesCache = detail.surnames;
+    renderBeSurnameList(beSurnameFilterEl.value);
+    drawBeProvinceMap('beMapChart', beSelectedCode, detail);
+}
+
+function selectBeProvince(code) {
+    beSelectedCode = code;
+    renderBeSelector();
+    renderBeProvinceDetail();
+}
+
+function refreshBeSummaries() {
+    if (!list.length) return;
+    beSummariesCache = computeBeProvinceSummaries(beScopedList());
+    if (!beSummariesCache.length) {
+        beSelectedCode = null;
+        beContentEl.classList.add('hidden');
+        beStatusEl.textContent = 'Aucun événement avec province belge identifiée pour ce périmètre.';
+        return;
+    }
+    beContentEl.classList.remove('hidden');
+    beStatusEl.textContent = `Fichier chargé (${list.length} individus)${beAncestorOnlyEl.checked && bePersonId ? ' — ascendants uniquement' : ''}.`;
+    const keepSelection = beSummariesCache.some(s => s.code === beSelectedCode);
+    selectBeProvince(keepSelection ? beSelectedCode : beSummariesCache[0].code);
+}
+
+beScrollBarEl.addEventListener('click', e => {
+    const btn = e.target.closest('.dept-chip');
+    if (btn && btn.dataset.code !== beSelectedCode) selectBeProvince(btn.dataset.code);
+});
+beSurnameFilterEl.addEventListener('input', () => renderBeSurnameList(beSurnameFilterEl.value));
+beAncestorOnlyEl.addEventListener('change', e => {
+    bePersonSearchEl.disabled = !e.target.checked;
+    refreshBeSummaries();
+});
+const bePersonPicker = createPersonPicker({
+    searchEl: bePersonSearchEl, resultsEl: bePersonResultsEl, selectedEl: bePersonSelectedEl,
+    getList: () => list,
+    onSelect: p => { bePersonId = p.id; refreshBeSummaries(); }
+});
+wireClickAway(bePersonResultsEl);
+
 bootstrap({
     page: 'visualisation',
     onReady: controlsSlot => { exportCtl = setupExportButton(controlsSlot); },
@@ -880,24 +1028,36 @@ bootstrap({
         // initial, qui reste sur le repli département/pays), puis les cartes sont redessinées une
         // fois la résolution disponible (dont la carte par département, qui en dépend pour placer
         // ses points).
-        enrichMissingCoords(list).then(() => { renderFilteredMaps(); if (deptSelectedCode) renderDepartmentDetail(); });
+        enrichMissingCoords(list).then(() => {
+            renderFilteredMaps();
+            if (deptSelectedCode) renderDepartmentDetail();
+            if (beSelectedCode) renderBeProvinceDetail();
+        });
 
         // Filtre "ascendants de" du panneau Départements : la personne (et le périmètre qu'elle
         // définissait) appartenait au fichier précédent, donc sans intérêt pour celui-ci. Idem pour
         // la sélection de département : sans ce reset, refreshDeptSummaries() la garderait si le
         // nouveau fichier a, par coïncidence, un département de même code — pas ce qu'on veut à
         // l'ouverture d'un nouveau fichier (seulement quand on affine juste le filtre ascendants).
+        // Même chose côté panneau Provinces belges.
         deptPersonId = null;
         deptSelectedCode = null;
         deptAncestorOnlyEl.checked = false;
         deptPersonSearchEl.disabled = true;
         deptPersonPicker.reset();
+        bePersonId = null;
+        beSelectedCode = null;
+        beAncestorOnlyEl.checked = false;
+        bePersonSearchEl.disabled = true;
+        bePersonPicker.reset();
 
         if (!data.list.length) {
             societyStatus.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
             societyContent.classList.add('hidden');
             deptStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
             deptContentEl.classList.add('hidden');
+            beStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
+            beContentEl.classList.add('hidden');
             return;
         }
         societyStatus.textContent = `Fichier chargé (${data.list.length} individus).`;
@@ -905,9 +1065,11 @@ bootstrap({
         const stats = computeSocietyStats(data.list, data.map, data.fams);
         renderSociety(stats);
 
-        // Département par défaut : celui qui totalise le plus d'événements (computeDepartmentSummaries
-        // trie déjà par total décroissant), pour ouvrir la vue sur la branche la plus représentée.
+        // Département/province par défaut : celui/celle qui totalise le plus d'événements
+        // (computeDepartmentSummaries/computeBeProvinceSummaries trient déjà par total décroissant),
+        // pour ouvrir la vue sur la branche la plus représentée.
         refreshDeptSummaries();
+        refreshBeSummaries();
 
         // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
         // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même

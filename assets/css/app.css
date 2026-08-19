@@ -97,7 +97,7 @@ text.gen-0, text.gen-1 { font-size: 9px; }
 text.gen-2, text.gen-3 { font-size: 8px; }
 text.gen-4, text.gen-5 { font-size: 7px; }
 text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
-.blurred-surname { filter: blur(3px); }
+.blurred-name { filter: blur(3px); }
 #tooltip .blurred-surname { filter: blur(3px); }
 
 /* SHARED TAB PANEL (Quality + Maps + nouveaux outils) */

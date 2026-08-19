@@ -1,4 +1,4 @@
-import { GEO, normalizePlace, findDept, BELGIAN_REGIONS } from './geo.js';
+import { GEO, normalizePlace, findDept, findBeProvince, BELGIAN_REGIONS } from './geo.js';
 
 // Tags GEDCOM 5.5.1 standard (événements/attributs individuels) au-delà de ceux qui ont déjà leur
 // propre "case" dédiée (BIRT/DEAT/BURI/BAPM/CHR/EMIG/IMMI/CENS/RESI/OCCU) : sans ce dictionnaire, un
@@ -384,7 +384,7 @@ export class GedcomParser {
             if(!geo) return;
             const r = this.analyzePlace(geo.raw, geo.form || this.globalPlacForm);
             geo.dept = r.dept; geo.region = r.region; geo.country = r.country; geo.city = r.city;
-            geo.cityChain = r.cityChain;
+            geo.cityChain = r.cityChain; geo.beProvince = r.beProvince;
         };
         this.indis.forEach(i => {
             finalize(i.birth.geo); finalize(i.death.geo);
@@ -398,9 +398,9 @@ export class GedcomParser {
         this.fams.forEach(f => { finalize(f.marr.geo); finalize(f.div.geo); });
     }
     analyzePlace(str, formStr) {
-        if(!str) return { dept:null, region:null, country:null, city:null, cityChain:null };
+        if(!str) return { dept:null, region:null, country:null, city:null, cityChain:null, beProvince:null };
         const norm = normalizePlace(str);
-        let country=null, dept=null, region=null, city=null, cityChain=null;
+        let country=null, dept=null, region=null, city=null, cityChain=null, beProvince=null;
 
         // 1) Alignement positionnel via le "PLAC.FORM" (propre au lieu, sinon celui de l'en-tête du
         // fichier) quand son nombre de champs déclarés correspond exactement au nombre de segments
@@ -425,6 +425,13 @@ export class GedcomParser {
                     const segNorm = normalizePlace(rawParts[deptIdx]);
                     dept = findDept(segNorm) || GEO.deptEnglishAliases[segNorm] || null;
                     if(dept) country = country || "France";
+                    // Même champ "département/comté" du FORM, essayé côté provinces belges quand ce
+                    // n'en est pas un français : un GEDCOM belge réutilise souvent ce même niveau de
+                    // FORM pour sa province (ex. "Commune,Province,Pays" avec FORM "city,county,country").
+                    else {
+                        beProvince = findBeProvince(segNorm) || null;
+                        if(beProvince) country = country || "Belgique";
+                    }
                 }
                 if(regionIdx >= 0 && rawParts[regionIdx]) {
                     const segNorm = normalizePlace(rawParts[regionIdx]);
@@ -453,7 +460,7 @@ export class GedcomParser {
         // Département, Pays"). Une fois confirmé, le segment "Département" est sûr à son tour, donc
         // on peut y appliquer sans risque la table de traduction anglaise (ex. "North" -> "Nord") :
         // contrairement à la recherche floue globale (3), on sait déjà PRÉCISÉMENT où regarder.
-        if(!dept) {
+        if(!dept && !beProvince) {
             const posParts = str.split(',').map(s => s.trim());
             if(posParts.length >= 3) {
                 const lastNorm = normalizePlace(posParts[posParts.length - 1]);
@@ -466,6 +473,12 @@ export class GedcomParser {
                     const deptSegNorm = normalizePlace(posParts[posParts.length - 3]);
                     dept = findDept(deptSegNorm) || GEO.deptEnglishAliases[deptSegNorm] || null;
                     if(dept && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean);
+                    // Même position (juste avant la région), essayée côté provinces belges quand ce
+                    // n'est pas un département français : couvre "Commune,Province,Wallonie,Belgique".
+                    else if(!dept) {
+                        beProvince = findBeProvince(deptSegNorm) || null;
+                        if(beProvince && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean);
+                    }
                 }
             }
         }
@@ -479,7 +492,16 @@ export class GedcomParser {
             const hit = GEO.regionEntriesNorm.find(([nr]) => norm.includes(nr));
             if(hit) { region = hit[1]; country = BELGIAN_REGIONS.has(hit[1]) ? "Belgique" : "France"; }
         }
-        if(!dept && (!country || country==="France")) {
+        // Provinces belges essayées AVANT le repli département français : une province belge
+        // reconnue (ex. "Hainaut", "Liège") force country="Belgique", ce qui bloque ensuite le
+        // repli département français ci-dessous (garde "!country || country==='France'") — sans ce
+        // point d'ordre, un lieu belge sans mot "Belgique" explicite pouvait auparavant matcher par
+        // erreur un département français homonyme et se retrouver compté comme français.
+        if(!beProvince && !dept && (!country || country==="Belgique")) {
+            beProvince = findBeProvince(norm) || null;
+            if(beProvince) country = "Belgique";
+        }
+        if(!dept && !beProvince && (!country || country==="France")) {
             // Code INSEE complet (5 chiffres : 2 dept + 3 commune, ou 97xxx pour DOM)
             const codeInsee = str.match(/\b(97[1-6]|2[AB]|0[1-9]|[1-8]\d|9[0-5])\d{3}\b/);
             if(codeInsee && GEO.deptLabels[codeInsee[1]]) { dept = codeInsee[1]; country = "France"; }
@@ -501,9 +523,15 @@ export class GedcomParser {
             const l = GEO.deptLabels[dept];
             deptDisp = l ? `${dept} - ${l}` : dept;
         }
+        let beProvinceDisp = null;
+        if(beProvince) {
+            const l = GEO.beProvinceLabels[beProvince];
+            beProvinceDisp = l ? `${beProvince} - ${l}` : beProvince;
+        }
         if(!country && dept) country = "France";
-        if(!country && !dept && !region) country = "Inconnu";
-        return { dept:deptDisp, region, country, city, cityChain };
+        if(!country && beProvince) country = "Belgique";
+        if(!country && !dept && !beProvince && !region) country = "Inconnu";
+        return { dept:deptDisp, region, country, city, cityChain, beProvince:beProvinceDisp };
     }
     postProcess() {
         this.indis.forEach(i => {
