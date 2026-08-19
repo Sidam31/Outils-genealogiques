@@ -2,12 +2,19 @@
 import { getEventLabel } from './utils.js';
 import { estimateBirthYear } from './inference.js';
 
-// Libellé d'un fait personnalisé (EVEN/FACT générique) : le TYPE prime (c'est généralement lui qui
-// porte la description saisie par le généalogiste, ex. "Domicile", "Condamnation", "Service militaire"),
-// la valeur brute de la ligne "1 EVEN"/"1 FACT" vient en complément si elle apporte une info distincte.
+// Libellé d'un fait personnalisé (EVEN/FACT générique, ou tag standard type ADOP/GRAD/TITL...) :
+// - tagLabel (ex. "Diplôme", posé par gedcom.js pour un tag standard reconnu) + typeLabel (le texte
+//   libre d'un éventuel "2 TYPE", ex. "Master of Arts" — une combinaison standard GEDCOM, pas un usage
+//   non conforme, y compris sous un tag qui n'est normalement pas générique comme "1 GRAD") se
+//   combinent en "Diplôme : Master of Arts" plutôt que de se marcher dessus.
+// - à défaut de tagLabel (cas EVEN/FACT générique, sans tag standard reconnu), typeLabel prime seul
+//   (c'est généralement lui qui porte la description saisie par le généalogiste, ex. "Domicile",
+//   "Condamnation", "Service militaire"), la valeur brute de la ligne "1 EVEN"/"1 FACT" venant en
+//   complément si elle apporte une info distincte.
 function labelForOther(entry) {
+    if (entry.tagLabel && entry.typeLabel && entry.typeLabel !== entry.tagLabel) return `${entry.tagLabel} : ${entry.typeLabel}`;
     if (entry.typeLabel && entry.value && entry.value !== entry.typeLabel) return `${entry.typeLabel} : ${entry.value}`;
-    return entry.typeLabel || entry.value || 'Événement';
+    return entry.tagLabel || entry.typeLabel || entry.value || 'Événement';
 }
 
 function spouseName(fam, personId, map) {

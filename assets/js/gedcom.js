@@ -1,5 +1,18 @@
 import { GEO, normalizePlace, findDept, BELGIAN_REGIONS } from './geo.js';
 
+// Tags GEDCOM 5.5.1 standard (événements/attributs individuels) au-delà de ceux qui ont déjà leur
+// propre "case" dédiée (BIRT/DEAT/BURI/BAPM/CHR/EMIG/IMMI/CENS/RESI/OCCU) : sans ce dictionnaire, un
+// "1 ADOP" ou "1 TITL" isolé (sans "1 EVEN"/"1 FACT" englobant) était silencieusement ignoré par le
+// parseur — jamais poussé dans otherEvents, donc jamais visible sur la frise de vie. Traités ici
+// exactement comme un "1 EVEN"/"1 FACT" générique (voir parseIndi), avec un libellé français déjà
+// posé par défaut (remplacé par un éventuel "2 TYPE" plus précis, comme pour EVEN/FACT).
+const OTHER_EVENT_TAG_LABELS = {
+    ADOP: 'Adoption', CONF: 'Confirmation', FCOM: 'Première communion', ORDN: 'Ordination',
+    NATU: 'Naturalisation', WILL: 'Testament', PROB: 'Homologation de testament',
+    GRAD: 'Diplôme', RETI: 'Retraite', TITL: 'Titre', RELI: 'Religion', EDUC: 'Éducation',
+    NATI: 'Nationalité', CAST: 'Caste', DSCR: 'Description physique', PROP: 'Propriété'
+};
+
 // --- PARSER ---
 export class GedcomParser {
     constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; }
@@ -40,6 +53,10 @@ export class GedcomParser {
     newCensusEntry() { return { year:null, approx:false, geo:null }; }
     newResiEntry() { return { year:null, approx:false, geo:null }; }
     newPlaceStub(raw) { return { raw, form:null, lat:null, lon:null, dept:null, region:null, country:null, city:null }; }
+    // Vrai pour "1 EVEN"/"1 FACT" (génériques) ou tout tag standard répertorié dans
+    // OTHER_EVENT_TAG_LABELS (ex. ADOP, TITL...) : les trois utilisent la même mécanique otherEvents/
+    // _pendingEven (voir parseIndi), donc partagent ce test plutôt que de le répéter à 4 endroits.
+    isOtherEventTag(t) { return t==='EVEN' || t==='FACT' || !!OTHER_EVENT_TAG_LABELS[t]; }
     // Parse une coordonnée GEDCOM LATI/LONG du type "N47.314010" ou "W2.311220" en degrés décimaux signés.
     parseCoord(v) {
         if(!v) return null;
@@ -158,14 +175,20 @@ export class GedcomParser {
             // plutôt qu'un tag standard (OCCU / CENS). On mémorise la valeur en attendant de voir
             // si son TYPE la confirme (traité au niveau 2 ci-dessous) : sans TYPE reconnu, elle est ignorée.
             this._curFactValue = (t==='FACT' && v && v.trim()) ? v.trim() : null;
-            if(t==='EVEN' || t==='FACT') {
+            if(this.isOtherEventTag(t)) {
                 // Entrée générique poussée immédiatement dans otherEvents (comme pour CENS/RESI ci-dessus),
-                // avec la valeur brute de la ligne "1 EVEN"/"1 FACT" elle-même (indépendamment de
-                // _curFactValue, qui ne capture que FACT) : TYPE/DATE/PLAC (niveau 2) la mutent ensuite en
-                // place. _pendingEven reste l'objet historique utilisé par la logique occupation/recensement
-                // ci-dessous ; "entry" y est ajouté comme simple référence croisée, sans rien changer aux
-                // champs existants (hasDate/year/approx/geo/isCens/censusEntry).
-                const otherEntry = { tag:t, typeLabel:null, value:(v && v.trim()) ? v.trim() : null, year:null, approx:false, geo:null, isCens:false, isOccupation:false, isResi:false };
+                // avec la valeur brute de la ligne "1 EVEN"/"1 FACT"/tag standard elle-même (indépendamment
+                // de _curFactValue, qui ne capture que FACT) : TYPE/DATE/PLAC (niveau 2) la mutent ensuite
+                // en place. tagLabel (fixe, ex. "Diplôme" pour GRAD) et typeLabel (variable, rempli par un
+                // éventuel "2 TYPE <libre>" ci-dessous — un "1 GRAD"/"2 TYPE Master of Arts" est une
+                // combinaison standard GEDCOM, pas un usage non conforme) sont deux champs SÉPARÉS :
+                // labelForOther (timeline.js) les combine ("Diplôme : Master of Arts") sans que l'un
+                // écrase l'autre, contrairement à un "1 EVEN"/"1 FACT" générique où tagLabel reste null
+                // (rien à combiner, typeLabel/value suffisent déjà à eux seuls, voir labelForOther).
+                // _pendingEven reste l'objet historique utilisé par la logique occupation/recensement/
+                // résidence ci-dessous ; "entry" y est ajouté comme simple référence croisée, sans rien
+                // changer aux champs existants (hasDate/year/approx/geo/isCens/censusEntry).
+                const otherEntry = { tag:t, tagLabel:OTHER_EVENT_TAG_LABELS[t] || null, typeLabel:null, value:(v && v.trim()) ? v.trim() : null, year:null, approx:false, geo:null, isCens:false, isOccupation:false, isResi:false };
                 i.otherEvents.push(otherEntry);
                 this._pendingEven = { hasDate:false, year:null, approx:false, geo:null, isCens:false, isResi:false, entry:otherEntry };
             } else {
@@ -203,7 +226,7 @@ export class GedcomParser {
                     if(i._ctx==='CENS' && this._curCensusEntry) { this._curCensusEntry.year = y; this._curCensusEntry.approx = approx; }
                     if(i._ctx==='RESI' && this._curResiEntry) { this._curResiEntry.year = y; this._curResiEntry.approx = approx; }
                 }
-                if((i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven && v && v.trim().length) {
+                if(this.isOtherEventTag(i._ctx) && this._pendingEven && v && v.trim().length) {
                     this._pendingEven.hasDate = true; this._pendingEven.year = y; this._pendingEven.approx = approx;
                     if(this._pendingEven.entry) { this._pendingEven.entry.year = y; this._pendingEven.entry.approx = approx; }
                     // Ordre GEDCOM habituel : TYPE précède DATE/PLAC (pas l'inverse). Si le TYPE a
@@ -236,7 +259,7 @@ export class GedcomParser {
                     if(i._ctx==='CENS' && this._curCensusEntry) this._curCensusEntry.geo = stub;
                     if(i._ctx==='RESI' && this._curResiEntry) this._curResiEntry.geo = stub;
                 }
-                if((i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven) {
+                if(this.isOtherEventTag(i._ctx) && this._pendingEven) {
                     this._pendingEven.geo = stub;
                     if(this._pendingEven.entry) this._pendingEven.entry.geo = stub;
                     if(this._pendingEven.isCens) {
@@ -249,11 +272,13 @@ export class GedcomParser {
                     }
                 }
             }
-            // Capture générique et inconditionnelle du TYPE de tout "1 EVEN"/"1 FACT" dans otherEvents,
-            // indépendamment de sa reconnaissance (ou non) comme métier/recensement ci-dessous : c'est
-            // ce TYPE qui sert de libellé à la frise de vie pour les faits personnalisés (ex. "Domicile",
-            // "Condamnation", "Service militaire").
-            if(t==='TYPE' && (i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven?.entry) {
+            // Capture générique et inconditionnelle du TYPE de tout "1 EVEN"/"1 FACT"/tag standard listé
+            // dans otherEvents, indépendamment de sa reconnaissance (ou non) comme métier/recensement
+            // ci-dessous : c'est ce TYPE (texte libre, ex. "Service militaire", "Master of Arts") que
+            // labelForOther (timeline.js) combine avec tagLabel (le libellé français fixe posé plus haut
+            // pour un tag standard reconnu, ex. "Diplôme") pour donner "Diplôme : Master of Arts" sur la
+            // frise de vie, plutôt que de perdre l'un ou l'autre.
+            if(t==='TYPE' && this.isOtherEventTag(i._ctx) && this._pendingEven?.entry) {
                 this._pendingEven.entry.typeLabel = v.trim();
             }
             if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
