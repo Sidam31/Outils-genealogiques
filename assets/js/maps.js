@@ -16,6 +16,22 @@ export async function ensureFranceGeo() {
     return franceGeoCache;
 }
 
+// Inverse l'ordre des points de chaque anneau (Polygon/MultiPolygon) : la source "Belgium-Geographic-
+// Data" (convertie depuis un shapefile Esri, à en juger par ses propriétés "RecId"/"Shape_Leng"/
+// "Shape_Area") encode SES anneaux dans le sens Esri (extérieur horaire), l'inverse de la convention
+// GeoJSON RFC 7946/d3-geo (extérieur antihoraire). Sans ce correctif, d3.geoBounds/d3.geoPath
+// interprètent chaque province comme couvrant la quasi-totalité du globe (un seul point de la sphère
+// exclu), ce qui casse à la fois fitExtent (échelle ~100 au lieu de plusieurs milliers) et le rendu
+// (chaque province se dessine comme un rectangle couvrant tout le cadre). Vérifié empiriquement :
+// inverser tous les anneaux (extérieurs ET trous, peu importe leur sens d'origine) suffit à corriger
+// les deux symptômes, la relation d'orientation relative extérieur/trou étant préservée par l'inversion.
+function fixEsriRingWinding(geometry) {
+    const reverseRings = rings => rings.map(ring => ring.slice().reverse());
+    if(geometry.type === 'Polygon') return { ...geometry, coordinates: reverseRings(geometry.coordinates) };
+    if(geometry.type === 'MultiPolygon') return { ...geometry, coordinates: geometry.coordinates.map(reverseRings) };
+    return geometry;
+}
+
 // Contours des provinces belges (+ Région de Bruxelles-Capitale, traitée comme une entrée de plus) :
 // même principe que ensureFranceGeo, source distincte car aucune des deux ne couvre l'autre pays.
 // Chaque feature porte un "AdPrKey" (propriétés) qui correspond aux codes de GEO.beProvinceLabels.
@@ -23,7 +39,8 @@ let belgiumGeoCache = null;
 export async function ensureBelgiumGeo() {
     if(!belgiumGeoCache) {
         const res = await fetch('https://raw.githubusercontent.com/mathiasleroy/Belgium-Geographic-Data/master/dist/polygons/geojson/Belgium.provinces.WGS84.geojson');
-        belgiumGeoCache = await res.json();
+        const raw = await res.json();
+        belgiumGeoCache = { ...raw, features: raw.features.map(f => ({ ...f, geometry: fixEsriRingWinding(f.geometry) })) };
     }
     return belgiumGeoCache;
 }

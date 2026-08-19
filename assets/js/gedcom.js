@@ -1,4 +1,4 @@
-import { GEO, normalizePlace, findDept, findBeProvince, BELGIAN_REGIONS } from './geo.js';
+import { GEO, normalizePlace, findDept, findBeProvince, findCountry, BELGIAN_REGIONS } from './geo.js';
 
 // Tags GEDCOM 5.5.1 standard (événements/attributs individuels) au-delà de ceux qui ont déjà leur
 // propre "case" dédiée (BIRT/DEAT/BURI/BAPM/CHR/EMIG/IMMI/CENS/RESI/OCCU) : sans ce dictionnaire, un
@@ -418,8 +418,7 @@ export class GedcomParser {
                 const cityIdx = idxOf(/commune|ville|city|town/);
                 if(countryIdx >= 0 && rawParts[countryIdx]) {
                     const segNorm = normalizePlace(rawParts[countryIdx]);
-                    const hit = GEO.countryEntriesNorm.find(([nk]) => segNorm.includes(nk));
-                    country = hit ? hit[1] : rawParts[countryIdx];
+                    country = findCountry(segNorm) || rawParts[countryIdx];
                 }
                 if(deptIdx >= 0 && rawParts[deptIdx]) {
                     const segNorm = normalizePlace(rawParts[deptIdx]);

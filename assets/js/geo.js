@@ -3,7 +3,87 @@ export const GEO = {
     deptNames: {"ain":"01","aisne":"02","allier":"03","alpes-de-haute-provence":"04","hautes-alpes":"05","alpes-maritimes":"06","ardèche":"07","ardennes":"08","ariège":"09","aube":"10","aude":"11","aveyron":"12","bouches-du-rhône":"13","calvados":"14","cantal":"15","charente":"16","charente-maritime":"17","cher":"18","corrèze":"19","corse-du-sud":"2A","haute-corse":"2B","côte-d'or":"21","côtes-d'armor":"22","creuse":"23","dordogne":"24","doubs":"25","drôme":"26","eure":"27","eure-et-loir":"28","finistère":"29","gard":"30","haute-garonne":"31","gers":"32","gironde":"33","hérault":"34","ille-et-vilaine":"35","indre":"36","indre-et-loire":"37","isère":"38","jura":"39","landes":"40","loir-et-cher":"41","loire":"42","haute-loire":"43","loire-atlantique":"44","loiret":"45","lot":"46","lot-et-garonne":"47","lozère":"48","maine-et-loire":"49","manche":"50","marne":"51","haute-marne":"52","mayenne":"53","meurthe-et-moselle":"54","meuse":"55","morbihan":"56","moselle":"57","nièvre":"58","nord":"59","oise":"60","orne":"61","pas-de-calais":"62","puy-de-dôme":"63","pyrénées-atlantiques":"64","hautes-pyrénées":"65","pyrénées-orientales":"66","bas-rhin":"67","haut-rhin":"68","rhône":"69","haute-saône":"70","saône-et-loire":"71","sarthe":"72","savoie":"73","haute-savoie":"74","paris":"75","seine-maritime":"76","seine-et-marne":"77","yvelines":"78","deux-sèvres":"79","somme":"80","tarn":"81","tarn-et-garonne":"82","var":"83","vaucluse":"84","vendée":"85","vienne":"86","haute-vienne":"87","vosges":"88","yonne":"89","territoire de belfort":"90","essonne":"91","hauts-de-seine":"92","seine-saint-denis":"93","val-de-marne":"94","val-d'oise":"95","guadeloupe":"971","martinique":"972","guyane":"973","la réunion":"974","mayotte":"976"},
     deptLabels: {},
     regions: ["Hauts-de-France","Auvergne-Rhône-Alpes","Bourgogne-Franche-Comté","Bretagne","Centre-Val de Loire","Corse","Grand Est","Île-de-France","Normandie","Nouvelle-Aquitaine","Occitanie","Pays de la Loire","Provence-Alpes-Côte d'Azur","Alsace","Aquitaine","Auvergne","Basse-Normandie","Bourgogne","Centre","Champagne-Ardenne","Franche-Comté","Haute-Normandie","Languedoc-Roussillon","Limousin","Lorraine","Midi-Pyrénées","Nord-Pas-de-Calais","Picardie","Poitou-Charentes","Rhône-Alpes","Wallonie","Walloon","Flandre","Flanders","Vlaanderen","Bruxelles","Brussels"],
-    countryMap: {"france":"France","belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","belge":"Belgique","belges":"Belgique","suisse":"Suisse","switzerland":"Suisse","allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne","italie":"Italie","italy":"Italie","italia":"Italie","espagne":"Espagne","spain":"Espagne","espana":"Espagne","usa":"USA","états-unis":"USA","united states":"USA","uk":"Royaume-Uni","united kingdom":"Royaume-Uni","angleterre":"Royaume-Uni","england":"Royaume-Uni","canada":"Canada","québec":"Canada","algérie":"Algérie","maroc":"Maroc","tunisie":"Tunisie","andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg","pays-bas":"Pays-Bas","netherlands":"Pays-Bas","hollande":"Pays-Bas","holland":"Pays-Bas","autriche":"Autriche","austria":"Autriche","portugal":"Portugal","monaco":"Monaco"}
+    // Volontairement large (pas juste les pays limitrophes) : un pays reconnu ici, quel qu'il soit,
+    // bloque le repli département français de analyzePlace (voir son étape 3) — c'est le principal
+    // garde-fou contre les lieux hors de France (ex. anglais/américains) mal comptés comme français
+    // faute de pays reconnu dans le texte. Mieux vaut reconnaître un pays de trop (sans conséquence :
+    // il n'a pas de département/province à déduire) que d'en manquer un.
+    countryMap: {
+        "france":"France",
+        "belgique":"Belgique","belgium":"Belgique","belgië":"Belgique","belge":"Belgique","belges":"Belgique",
+        "suisse":"Suisse","switzerland":"Suisse","schweiz":"Suisse",
+        "allemagne":"Allemagne","germany":"Allemagne","deutschland":"Allemagne",
+        "italie":"Italie","italy":"Italie","italia":"Italie",
+        "espagne":"Espagne","spain":"Espagne","espana":"Espagne",
+        "usa":"USA","états-unis":"USA","etats-unis":"USA","united states":"USA","u.s.a.":"USA",
+        "uk":"Royaume-Uni","united kingdom":"Royaume-Uni","great britain":"Royaume-Uni","grande-bretagne":"Royaume-Uni",
+        "angleterre":"Royaume-Uni","england":"Royaume-Uni","ecosse":"Royaume-Uni","scotland":"Royaume-Uni",
+        "pays de galles":"Royaume-Uni","wales":"Royaume-Uni","irlande du nord":"Royaume-Uni","northern ireland":"Royaume-Uni",
+        "irlande":"Irlande","ireland":"Irlande",
+        "canada":"Canada","québec":"Canada","quebec":"Canada",
+        "algérie":"Algérie","algeria":"Algérie","maroc":"Maroc","morocco":"Maroc","tunisie":"Tunisie","tunisia":"Tunisie",
+        "andorre":"Andorre","andorra":"Andorre","luxembourg":"Luxembourg",
+        "pays-bas":"Pays-Bas","netherlands":"Pays-Bas","hollande":"Pays-Bas","holland":"Pays-Bas",
+        "autriche":"Autriche","austria":"Autriche","portugal":"Portugal","monaco":"Monaco",
+        "liechtenstein":"Liechtenstein",
+        "suède":"Suède","suede":"Suède","sweden":"Suède",
+        "norvège":"Norvège","norvege":"Norvège","norway":"Norvège",
+        "danemark":"Danemark","denmark":"Danemark",
+        "finlande":"Finlande","finland":"Finlande",
+        "islande":"Islande","iceland":"Islande",
+        "pologne":"Pologne","poland":"Pologne",
+        "république tchèque":"Tchéquie","tchéquie":"Tchéquie","czech republic":"Tchéquie","czechia":"Tchéquie",
+        "slovaquie":"Slovaquie","slovakia":"Slovaquie",
+        "hongrie":"Hongrie","hungary":"Hongrie",
+        "roumanie":"Roumanie","romania":"Roumanie",
+        "bulgarie":"Bulgarie","bulgaria":"Bulgarie",
+        "serbie":"Serbie","serbia":"Serbie",
+        "croatie":"Croatie","croatia":"Croatie",
+        "slovénie":"Slovénie","slovenia":"Slovénie",
+        "bosnie":"Bosnie","bosnia":"Bosnie",
+        "monténégro":"Monténégro","montenegro":"Monténégro",
+        "macédoine":"Macédoine","macedonia":"Macédoine",
+        "albanie":"Albanie","albania":"Albanie",
+        "grèce":"Grèce","grece":"Grèce","greece":"Grèce",
+        "chypre":"Chypre","cyprus":"Chypre","malte":"Malte","malta":"Malte",
+        "ukraine":"Ukraine","biélorussie":"Biélorussie","belarus":"Biélorussie",
+        "russie":"Russie","russia":"Russie","moldavie":"Moldavie","moldova":"Moldavie",
+        "lituanie":"Lituanie","lithuania":"Lituanie","lettonie":"Lettonie","latvia":"Lettonie",
+        "estonie":"Estonie","estonia":"Estonie",
+        "géorgie":"Géorgie","georgia":"Géorgie","arménie":"Arménie","armenia":"Arménie",
+        "azerbaïdjan":"Azerbaïdjan","azerbaijan":"Azerbaïdjan","turquie":"Turquie","turkey":"Turquie",
+        "mexique":"Mexique","mexico":"Mexique",
+        "brésil":"Brésil","bresil":"Brésil","brazil":"Brésil",
+        "argentine":"Argentine","argentina":"Argentine",
+        "chili":"Chili","chile":"Chili","pérou":"Pérou","perou":"Pérou","peru":"Pérou",
+        "colombie":"Colombie","colombia":"Colombie","venezuela":"Venezuela",
+        "cuba":"Cuba","haïti":"Haïti","haiti":"Haïti",
+        "république dominicaine":"République dominicaine","dominican republic":"République dominicaine",
+        "uruguay":"Uruguay","paraguay":"Paraguay","bolivie":"Bolivie","bolivia":"Bolivie",
+        "équateur":"Équateur","equateur":"Équateur","ecuador":"Équateur",
+        "égypte":"Égypte","egypte":"Égypte","egypt":"Égypte",
+        "sénégal":"Sénégal","senegal":"Sénégal","côte d'ivoire":"Côte d'Ivoire","ivory coast":"Côte d'Ivoire",
+        "cameroun":"Cameroun","cameroon":"Cameroun","mali":"Mali","niger":"Niger","burkina faso":"Burkina Faso",
+        "guinée":"Guinée","guinea":"Guinée","madagascar":"Madagascar",
+        "congo":"Congo","gabon":"Gabon","bénin":"Bénin","benin":"Bénin","togo":"Togo",
+        "nigeria":"Nigeria","ghana":"Ghana","kenya":"Kenya","éthiopie":"Éthiopie","ethiopia":"Éthiopie",
+        "afrique du sud":"Afrique du Sud","south africa":"Afrique du Sud",
+        "libye":"Libye","libya":"Libye","angola":"Angola","mozambique":"Mozambique",
+        "rwanda":"Rwanda","burundi":"Burundi","tchad":"Tchad","chad":"Tchad",
+        "liban":"Liban","lebanon":"Liban","syrie":"Syrie","syria":"Syrie",
+        "israël":"Israël","israel":"Israël","jordanie":"Jordanie","jordan":"Jordanie",
+        "irak":"Irak","iraq":"Irak","iran":"Iran",
+        "arabie saoudite":"Arabie saoudite","saudi arabia":"Arabie saoudite",
+        "émirats arabes unis":"Émirats arabes unis","united arab emirates":"Émirats arabes unis",
+        "chine":"Chine","china":"Chine","japon":"Japon","japan":"Japon",
+        "corée du sud":"Corée du Sud","south korea":"Corée du Sud","corée du nord":"Corée du Nord","north korea":"Corée du Nord",
+        "inde":"Inde","india":"Inde","pakistan":"Pakistan","bangladesh":"Bangladesh",
+        "vietnam":"Vietnam","cambodge":"Cambodge","cambodia":"Cambodge","laos":"Laos",
+        "thaïlande":"Thaïlande","thailande":"Thaïlande","thailand":"Thaïlande",
+        "indonésie":"Indonésie","indonesia":"Indonésie","malaisie":"Malaisie","malaysia":"Malaisie",
+        "philippines":"Philippines","singapour":"Singapour","singapore":"Singapour",
+        "australie":"Australie","australia":"Australie","nouvelle-zélande":"Nouvelle-Zélande","new zealand":"Nouvelle-Zélande"
+    }
 };
 for(let [k,v] of Object.entries(GEO.deptNames)) GEO.deptLabels[v] = k.charAt(0).toUpperCase() + k.slice(1);
 
@@ -109,6 +189,21 @@ export function normalizePlace(s) {
 export const BELGIAN_REGIONS = new Set(["Wallonie","Flandre","Bruxelles","Brussels","Walloon","Flanders","Vlaanderen"]);
 GEO.countryEntriesNorm = Object.entries(GEO.countryMap).map(([k, v]) => [normalizePlace(k), v]);
 GEO.regionEntriesNorm = GEO.regions.map(r => [normalizePlace(r), r]);
+// Même principe que GEO.deptEntriesNorm/findDept (mot entier, pas simple sous-chaîne) : la table des
+// pays étant volontairement large (voir countryMap), un test par sous-chaîne nue ferait remonter de
+// faux positifs sur des lieux français dont le nom contient par coïncidence un nom de pays court en
+// entier (ex. "Malicorne-sur-Sarthe" contient "Mali", "Nigremont" contient "Niger") — le mot entier,
+// trié du plus long au plus court comme pour les départements, élimine ce risque.
+GEO.countryEntriesWordNorm = Object.entries(GEO.countryMap)
+    .map(([name, label]) => {
+        const n = normalizePlace(name);
+        return { label, len: n.length, regex: new RegExp(`(^|\\s|,)${n.replace(/\s+/g, '\\s*')}(\\s|,|$)`) };
+    })
+    .sort((a, b) => b.len - a.len);
+export function findCountry(normText) {
+    for(const e of GEO.countryEntriesWordNorm) if(e.regex.test(normText)) return e.label;
+    return null;
+}
 // Trié du nom le plus long au plus court : évite qu'un département dont le nom est un sous-mot
 // d'un autre (ex. "Loire" dans "Loire-Atlantique", "Cher" dans "Loir-et-Cher", "Nord" dans
 // l'ancien nom "Côtes-du-Nord") ne soit détecté à la place du bon département.

@@ -4,958 +4,1095 @@
     "cote": "33Q/1",
     "yearStart": 1841,
     "yearEnd": 1862,
-    "url": "https://archives.eure.fr/ark:/26335/4cfl1hq8gtp3"
+    "url": "https://archives.eure.fr/ark:/26335/4cfl1hq8gtp3",
+    "digitized": false
   },
   {
     "place": "Amfreville-la-campagne",
     "cote": "33Q/2",
     "yearStart": 1863,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/9qshg2fk1tnm"
+    "url": "https://archives.eure.fr/ark:/26335/9qshg2fk1tnm",
+    "digitized": false
   },
   {
     "place": "s Andelys",
     "cote": "43Q/1",
     "yearStart": 1801,
     "yearEnd": 1813,
-    "url": "https://archives.eure.fr/ark:/26335/vndzxw1k79sl"
+    "url": "https://archives.eure.fr/ark:/26335/vndzxw1k79sl",
+    "digitized": false
   },
   {
     "place": "s Andelys",
     "cote": "43Q/2",
     "yearStart": 1813,
     "yearEnd": 1819,
-    "url": "https://archives.eure.fr/ark:/26335/swgzcp35dlr6"
+    "url": "https://archives.eure.fr/ark:/26335/swgzcp35dlr6",
+    "digitized": false
   },
   {
     "place": "s Andelys",
     "cote": "43Q/3",
     "yearStart": 1819,
     "yearEnd": 1828,
-    "url": "https://archives.eure.fr/ark:/26335/j05kqt8pnd9m"
+    "url": "https://archives.eure.fr/ark:/26335/j05kqt8pnd9m",
+    "digitized": false
   },
   {
     "place": "s Andelys",
     "cote": "43Q/4",
     "yearStart": 1828,
     "yearEnd": 1831,
-    "url": "https://archives.eure.fr/ark:/26335/n2s0lqrv3j4c"
+    "url": "https://archives.eure.fr/ark:/26335/n2s0lqrv3j4c",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/1",
     "yearStart": 1804,
     "yearEnd": 1810,
-    "url": "https://archives.eure.fr/ark:/26335/03bv7gpkd8ml"
+    "url": "https://archives.eure.fr/ark:/26335/03bv7gpkd8ml",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/2",
     "yearStart": 1810,
     "yearEnd": 1813,
-    "url": "https://archives.eure.fr/ark:/26335/dg7xt5613kfv"
+    "url": "https://archives.eure.fr/ark:/26335/dg7xt5613kfv",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/3",
     "yearStart": 1812,
     "yearEnd": 1816,
-    "url": "https://archives.eure.fr/ark:/26335/l8z25c479vx0"
+    "url": "https://archives.eure.fr/ark:/26335/l8z25c479vx0",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/4",
     "yearStart": 1817,
     "yearEnd": 1825,
-    "url": "https://archives.eure.fr/ark:/26335/lprvgj6k4d17"
+    "url": "https://archives.eure.fr/ark:/26335/lprvgj6k4d17",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/5",
     "yearStart": 1825,
     "yearEnd": 1833,
-    "url": "https://archives.eure.fr/ark:/26335/b7hc45sp1nk6"
+    "url": "https://archives.eure.fr/ark:/26335/b7hc45sp1nk6",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/6",
     "yearStart": 1833,
     "yearEnd": 1843,
-    "url": "https://archives.eure.fr/ark:/26335/03gx4s9kd6tb"
+    "url": "https://archives.eure.fr/ark:/26335/03gx4s9kd6tb",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/7",
     "yearStart": 1843,
     "yearEnd": 1850,
-    "url": "https://archives.eure.fr/ark:/26335/z82vwhsm04j5"
+    "url": "https://archives.eure.fr/ark:/26335/z82vwhsm04j5",
+    "digitized": false
   },
   {
     "place": "Beaumont-le-Roger",
     "cote": "73Q/8",
     "yearStart": 1851,
     "yearEnd": 1858,
-    "url": "https://archives.eure.fr/ark:/26335/dq7v9w3bc50t"
+    "url": "https://archives.eure.fr/ark:/26335/dq7v9w3bc50t",
+    "digitized": false
   },
   {
     "place": "Bernay",
     "cote": "81Q/1",
     "yearStart": 1803,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/vrd9wnm78c35"
+    "url": "https://archives.eure.fr/ark:/26335/vrd9wnm78c35",
+    "digitized": false
   },
   {
     "place": "Bernay",
     "cote": "81Q/2",
     "yearStart": 1813,
     "yearEnd": 1818,
-    "url": "https://archives.eure.fr/ark:/26335/wzqf7rn2pvl3"
+    "url": "https://archives.eure.fr/ark:/26335/wzqf7rn2pvl3",
+    "digitized": false
   },
   {
     "place": "Bernay",
     "cote": "81Q/3",
     "yearStart": 1818,
     "yearEnd": 1825,
-    "url": "https://archives.eure.fr/ark:/26335/8sw0d75tf1l3"
+    "url": "https://archives.eure.fr/ark:/26335/8sw0d75tf1l3",
+    "digitized": false
   },
   {
     "place": "Bernay",
     "cote": "81Q/4",
     "yearStart": 1827,
     "yearEnd": 1833,
-    "url": "https://archives.eure.fr/ark:/26335/b4j72sl5ktg6"
+    "url": "https://archives.eure.fr/ark:/26335/b4j72sl5ktg6",
+    "digitized": false
   },
   {
     "place": "Bernay",
     "cote": "81Q/5",
     "yearStart": 1834,
     "yearEnd": 1842,
-    "url": "https://archives.eure.fr/ark:/26335/b5xs3q0tcvr4"
+    "url": "https://archives.eure.fr/ark:/26335/b5xs3q0tcvr4",
+    "digitized": false
   },
   {
     "place": "Bernay",
     "cote": "81Q/7",
     "yearStart": 1855,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/2btpg87s13hr"
+    "url": "https://archives.eure.fr/ark:/26335/2btpg87s13hr",
+    "digitized": false
   },
   {
     "place": "Beuzeville",
     "cote": "92Q/1",
     "yearStart": 1743,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/d1wlgzb46snx"
+    "url": "https://archives.eure.fr/ark:/26335/d1wlgzb46snx",
+    "digitized": false
   },
   {
     "place": "Beuzeville",
     "cote": "92Q/3",
     "yearStart": 1829,
     "yearEnd": 1844,
-    "url": "https://archives.eure.fr/ark:/26335/gfcvs5d2w4mt"
+    "url": "https://archives.eure.fr/ark:/26335/gfcvs5d2w4mt",
+    "digitized": false
   },
   {
     "place": "Beuzeville",
     "cote": "92Q/4",
     "yearStart": 1845,
     "yearEnd": 1862,
-    "url": "https://archives.eure.fr/ark:/26335/hnkgx8r6qj34"
+    "url": "https://archives.eure.fr/ark:/26335/hnkgx8r6qj34",
+    "digitized": false
   },
   {
     "place": "Beuzeville",
     "cote": "92Q/5",
     "yearStart": 1863,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/ctjh5b9dvg4f"
+    "url": "https://archives.eure.fr/ark:/26335/ctjh5b9dvg4f",
+    "digitized": false
   },
   {
     "place": "Bourg-Achard",
     "cote": "105Q/1",
     "yearStart": 1793,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/qw1dmvj02l4c"
+    "url": "https://archives.eure.fr/ark:/26335/qw1dmvj02l4c",
+    "digitized": false
   },
   {
     "place": "Bourg-Achard",
     "cote": "105Q/2",
     "yearStart": 1812,
     "yearEnd": 1819,
-    "url": "https://archives.eure.fr/ark:/26335/2s5pkv6flm18"
+    "url": "https://archives.eure.fr/ark:/26335/2s5pkv6flm18",
+    "digitized": false
   },
   {
     "place": "Bourg-Achard",
     "cote": "105Q/3",
     "yearStart": 1819,
     "yearEnd": 1824,
-    "url": "https://archives.eure.fr/ark:/26335/269ngw3zpxmf"
+    "url": "https://archives.eure.fr/ark:/26335/269ngw3zpxmf",
+    "digitized": false
   },
   {
     "place": "Bourg-Achard",
     "cote": "105Q/4",
     "yearStart": 1824,
     "yearEnd": 1830,
-    "url": "https://archives.eure.fr/ark:/26335/v671jk89qxmf"
+    "url": "https://archives.eure.fr/ark:/26335/v671jk89qxmf",
+    "digitized": false
   },
   {
     "place": "Bourg-Achard",
     "cote": "105Q/5",
     "yearStart": 1830,
     "yearEnd": 1835,
-    "url": "https://archives.eure.fr/ark:/26335/0vpktb61z42h"
+    "url": "https://archives.eure.fr/ark:/26335/0vpktb61z42h",
+    "digitized": false
   },
   {
     "place": "Bourg-Achard",
     "cote": "105Q/6",
     "yearStart": 1836,
     "yearEnd": 1847,
-    "url": "https://archives.eure.fr/ark:/26335/dn7jq39bvgrh"
+    "url": "https://archives.eure.fr/ark:/26335/dn7jq39bvgrh",
+    "digitized": false
   },
   {
     "place": "Bourgtheroulde",
     "cote": "114Q/1",
     "yearStart": 1836,
     "yearEnd": 1846,
-    "url": "https://archives.eure.fr/ark:/26335/z506q12b4mlh"
+    "url": "https://archives.eure.fr/ark:/26335/z506q12b4mlh",
+    "digitized": false
   },
   {
     "place": "Bourgtheroulde",
     "cote": "114Q/2",
     "yearStart": 1847,
     "yearEnd": 1863,
-    "url": "https://archives.eure.fr/ark:/26335/0fnjwm8r91ql"
+    "url": "https://archives.eure.fr/ark:/26335/0fnjwm8r91ql",
+    "digitized": false
   },
   {
     "place": "Bourgtheroulde",
     "cote": "114Q/3",
     "yearStart": 1863,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/fh64txqnkz0v"
+    "url": "https://archives.eure.fr/ark:/26335/fh64txqnkz0v",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/1",
     "yearStart": 1804,
     "yearEnd": 1811,
-    "url": "https://archives.eure.fr/ark:/26335/dxb1mc3f8vw0"
+    "url": "https://archives.eure.fr/ark:/26335/dxb1mc3f8vw0",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/2",
     "yearStart": 1812,
     "yearEnd": 1818,
-    "url": "https://archives.eure.fr/ark:/26335/j2k64gz13rqn"
+    "url": "https://archives.eure.fr/ark:/26335/j2k64gz13rqn",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/3",
     "yearStart": 1818,
     "yearEnd": 1823,
-    "url": "https://archives.eure.fr/ark:/26335/rzh2stg5l9nm"
+    "url": "https://archives.eure.fr/ark:/26335/rzh2stg5l9nm",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/5",
     "yearStart": 1832,
     "yearEnd": 1840,
-    "url": "https://archives.eure.fr/ark:/26335/3mbdvz24p5f0"
+    "url": "https://archives.eure.fr/ark:/26335/3mbdvz24p5f0",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/6",
     "yearStart": 1841,
     "yearEnd": 1853,
-    "url": "https://archives.eure.fr/ark:/26335/zcgpqj905vdl"
+    "url": "https://archives.eure.fr/ark:/26335/zcgpqj905vdl",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/7",
     "yearStart": 1853,
     "yearEnd": 1861,
-    "url": "https://archives.eure.fr/ark:/26335/skrphd8txw39"
+    "url": "https://archives.eure.fr/ark:/26335/skrphd8txw39",
+    "digitized": false
   },
   {
     "place": "Conches",
     "cote": "193Q/8",
     "yearStart": 1861,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/3vdlzjk5bqpg"
+    "url": "https://archives.eure.fr/ark:/26335/3vdlzjk5bqpg",
+    "digitized": false
   },
   {
     "place": "Damville",
     "cote": "222Q/1",
     "yearStart": 1808,
     "yearEnd": 1814,
-    "url": "https://archives.eure.fr/ark:/26335/lk4r8vz16tn5"
+    "url": "https://archives.eure.fr/ark:/26335/lk4r8vz16tn5",
+    "digitized": false
   },
   {
     "place": "Damville",
     "cote": "222Q/2",
     "yearStart": 1814,
     "yearEnd": 1827,
-    "url": "https://archives.eure.fr/ark:/26335/hcfrjg1x9865"
+    "url": "https://archives.eure.fr/ark:/26335/hcfrjg1x9865",
+    "digitized": false
   },
   {
     "place": "Damville",
     "cote": "222Q/3",
     "yearStart": 1827,
     "yearEnd": 1848,
-    "url": "https://archives.eure.fr/ark:/26335/h3207qnxcwks"
+    "url": "https://archives.eure.fr/ark:/26335/h3207qnxcwks",
+    "digitized": false
   },
   {
     "place": "Damville",
     "cote": "222Q/4",
     "yearStart": 1849,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/zj5rpdvt820k"
+    "url": "https://archives.eure.fr/ark:/26335/zj5rpdvt820k",
+    "digitized": false
   },
   {
     "place": "Écos",
     "cote": "232Q/1",
     "yearStart": 1809,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/gr34bjp1vcm8"
+    "url": "https://archives.eure.fr/ark:/26335/gr34bjp1vcm8",
+    "digitized": false
   },
   {
     "place": "Écos",
     "cote": "232Q/2",
     "yearStart": 1813,
     "yearEnd": 1825,
-    "url": "https://archives.eure.fr/ark:/26335/0k8135dsr7p2"
+    "url": "https://archives.eure.fr/ark:/26335/0k8135dsr7p2",
+    "digitized": false
   },
   {
     "place": "Écos",
     "cote": "232Q/3",
     "yearStart": 1826,
     "yearEnd": 1843,
-    "url": "https://archives.eure.fr/ark:/26335/r4mb1p8nqz0s"
+    "url": "https://archives.eure.fr/ark:/26335/r4mb1p8nqz0s",
+    "digitized": false
   },
   {
     "place": "Écos",
     "cote": "232Q/4",
     "yearStart": 1844,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/wh60q2kfj7cv"
+    "url": "https://archives.eure.fr/ark:/26335/wh60q2kfj7cv",
+    "digitized": false
   },
   {
     "place": "Écouis",
     "cote": "245Q/1",
     "yearStart": 1823,
     "yearEnd": 1835,
-    "url": "https://archives.eure.fr/ark:/26335/9t108543mzkn"
+    "url": "https://archives.eure.fr/ark:/26335/9t108543mzkn",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/1",
     "yearStart": 1809,
     "yearEnd": 1810,
-    "url": "https://archives.eure.fr/ark:/26335/2ftd8m0c4s97"
+    "url": "https://archives.eure.fr/ark:/26335/2ftd8m0c4s97",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/2",
     "yearStart": 1810,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/js90x1nv5khc"
+    "url": "https://archives.eure.fr/ark:/26335/js90x1nv5khc",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/3",
     "yearStart": 1812,
     "yearEnd": 1817,
-    "url": "https://archives.eure.fr/ark:/26335/51gjcqlbh38w"
+    "url": "https://archives.eure.fr/ark:/26335/51gjcqlbh38w",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/4",
     "yearStart": 1817,
     "yearEnd": 1823,
-    "url": "https://archives.eure.fr/ark:/26335/cxtfh79r0pkq"
+    "url": "https://archives.eure.fr/ark:/26335/cxtfh79r0pkq",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/5",
     "yearStart": 1823,
     "yearEnd": 1829,
-    "url": "https://archives.eure.fr/ark:/26335/cqd924fvlmrt"
+    "url": "https://archives.eure.fr/ark:/26335/cqd924fvlmrt",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/6",
     "yearStart": 1829,
     "yearEnd": 1835,
-    "url": "https://archives.eure.fr/ark:/26335/lwx1g0bmrv57"
+    "url": "https://archives.eure.fr/ark:/26335/lwx1g0bmrv57",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/7",
     "yearStart": 1835,
     "yearEnd": 1841,
-    "url": "https://archives.eure.fr/ark:/26335/nshq5b9m20r3"
+    "url": "https://archives.eure.fr/ark:/26335/nshq5b9m20r3",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/8",
     "yearStart": 1842,
     "yearEnd": 1849,
-    "url": "https://archives.eure.fr/ark:/26335/lj5f3kvbp24r"
+    "url": "https://archives.eure.fr/ark:/26335/lj5f3kvbp24r",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/9",
     "yearStart": 1850,
     "yearEnd": 1857,
-    "url": "https://archives.eure.fr/ark:/26335/05ph6v29bqkr"
+    "url": "https://archives.eure.fr/ark:/26335/05ph6v29bqkr",
+    "digitized": false
   },
   {
     "place": "Évreux",
     "cote": "263Q/10",
     "yearStart": 1857,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/672q9w3nlhtv"
+    "url": "https://archives.eure.fr/ark:/26335/672q9w3nlhtv",
+    "digitized": false
   },
   {
     "place": "Fleury-sur-Andelle",
     "cote": "283Q/2",
     "yearStart": 1847,
     "yearEnd": 1864,
-    "url": "https://archives.eure.fr/ark:/26335/nhzvq7cfpl19"
+    "url": "https://archives.eure.fr/ark:/26335/nhzvq7cfpl19",
+    "digitized": false
   },
   {
     "place": "Fleury-sur-Andelle",
     "cote": "283Q/3",
     "yearStart": 1864,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/m71gn3hk4095"
+    "url": "https://archives.eure.fr/ark:/26335/m71gn3hk4095",
+    "digitized": false
   },
   {
     "place": "Gaillon",
     "cote": "301Q/1",
     "yearStart": 1812,
     "yearEnd": 1823,
-    "url": "https://archives.eure.fr/ark:/26335/dh28qt5n6fzl"
+    "url": "https://archives.eure.fr/ark:/26335/dh28qt5n6fzl",
+    "digitized": false
   },
   {
     "place": "Gaillon",
     "cote": "301Q/2",
     "yearStart": 1824,
     "yearEnd": 1831,
-    "url": "https://archives.eure.fr/ark:/26335/8fq0pg9jdvsx"
+    "url": "https://archives.eure.fr/ark:/26335/8fq0pg9jdvsx",
+    "digitized": false
   },
   {
     "place": "Gaillon",
     "cote": "301Q/3",
     "yearStart": 1832,
     "yearEnd": 1847,
-    "url": "https://archives.eure.fr/ark:/26335/hbr94sw76nxd"
+    "url": "https://archives.eure.fr/ark:/26335/hbr94sw76nxd",
+    "digitized": false
   },
   {
     "place": "Gaillon",
     "cote": "301Q/4",
     "yearStart": 1848,
     "yearEnd": 1864,
-    "url": "https://archives.eure.fr/ark:/26335/71r5gnzlksbv"
+    "url": "https://archives.eure.fr/ark:/26335/71r5gnzlksbv",
+    "digitized": false
   },
   {
     "place": "Gaillon",
     "cote": "301Q/5",
     "yearStart": 1865,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/1k2b5hwxfv0r"
+    "url": "https://archives.eure.fr/ark:/26335/1k2b5hwxfv0r",
+    "digitized": false
   },
   {
     "place": "Gisors",
     "cote": "312Q/1",
     "yearStart": 1810,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/mh1glwqf9zbj"
+    "url": "https://archives.eure.fr/ark:/26335/mh1glwqf9zbj",
+    "digitized": false
   },
   {
     "place": "Gisors",
     "cote": "312Q/2",
     "yearStart": 1812,
     "yearEnd": 1824,
-    "url": "https://archives.eure.fr/ark:/26335/tcgpw0m9xkq6"
+    "url": "https://archives.eure.fr/ark:/26335/tcgpw0m9xkq6",
+    "digitized": false
   },
   {
     "place": "Lieurey",
     "cote": "352Q/1",
     "yearStart": 1804,
     "yearEnd": 1811,
-    "url": "https://archives.eure.fr/ark:/26335/tw8hr6qmnk0l"
+    "url": "https://archives.eure.fr/ark:/26335/tw8hr6qmnk0l",
+    "digitized": false
   },
   {
     "place": "Lieurey",
     "cote": "352Q/2",
     "yearStart": 1812,
     "yearEnd": 1815,
-    "url": "https://archives.eure.fr/ark:/26335/k5gnfd3qvm6p"
+    "url": "https://archives.eure.fr/ark:/26335/k5gnfd3qvm6p",
+    "digitized": false
   },
   {
     "place": "Lieurey",
     "cote": "352Q/3",
     "yearStart": 1816,
     "yearEnd": 1822,
-    "url": "https://archives.eure.fr/ark:/26335/b4r6l1tswf90"
+    "url": "https://archives.eure.fr/ark:/26335/b4r6l1tswf90",
+    "digitized": false
   },
   {
     "place": "Lieurey",
     "cote": "352Q/4",
     "yearStart": 1823,
     "yearEnd": 1829,
-    "url": "https://archives.eure.fr/ark:/26335/124tnx5zbkl6"
+    "url": "https://archives.eure.fr/ark:/26335/124tnx5zbkl6",
+    "digitized": false
   },
   {
     "place": "Lieurey",
     "cote": "352Q/5",
     "yearStart": 1830,
     "yearEnd": 1840,
-    "url": "https://archives.eure.fr/ark:/26335/r281tvw7zgql"
+    "url": "https://archives.eure.fr/ark:/26335/r281tvw7zgql",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/1",
     "yearStart": 1795,
     "yearEnd": 1807,
-    "url": "https://archives.eure.fr/ark:/26335/m475bhkdw1fr"
+    "url": "https://archives.eure.fr/ark:/26335/m475bhkdw1fr",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/2",
     "yearStart": 1807,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/h6r9dqctgz72"
+    "url": "https://archives.eure.fr/ark:/26335/h6r9dqctgz72",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/3",
     "yearStart": 1813,
     "yearEnd": 1824,
-    "url": "https://archives.eure.fr/ark:/26335/r8n14pvwxc7b"
+    "url": "https://archives.eure.fr/ark:/26335/r8n14pvwxc7b",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/4",
     "yearStart": 1825,
     "yearEnd": 1829,
-    "url": "https://archives.eure.fr/ark:/26335/168wq4ng0mfs"
+    "url": "https://archives.eure.fr/ark:/26335/168wq4ng0mfs",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/5",
     "yearStart": 1830,
     "yearEnd": 1836,
-    "url": "https://archives.eure.fr/ark:/26335/x8tvdq3j70wm"
+    "url": "https://archives.eure.fr/ark:/26335/x8tvdq3j70wm",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/6",
     "yearStart": 1837,
     "yearEnd": 1842,
-    "url": "https://archives.eure.fr/ark:/26335/g9t17jzb6nhs"
+    "url": "https://archives.eure.fr/ark:/26335/g9t17jzb6nhs",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/7",
     "yearStart": 1843,
     "yearEnd": 1848,
-    "url": "https://archives.eure.fr/ark:/26335/ctm2x7w8lnqr"
+    "url": "https://archives.eure.fr/ark:/26335/ctm2x7w8lnqr",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/8",
     "yearStart": 1848,
     "yearEnd": 1854,
-    "url": "https://archives.eure.fr/ark:/26335/tqg517fk8mr9"
+    "url": "https://archives.eure.fr/ark:/26335/tqg517fk8mr9",
+    "digitized": false
   },
   {
     "place": "Louviers",
     "cote": "359Q/9",
     "yearStart": 1854,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/h1vj6r02cwpt"
+    "url": "https://archives.eure.fr/ark:/26335/h1vj6r02cwpt",
+    "digitized": false
   },
   {
     "place": "Lyons-la-Forêt",
     "cote": "378Q/1",
     "yearStart": 1799,
     "yearEnd": 1813,
-    "url": "https://archives.eure.fr/ark:/26335/qr30d1fl6tng"
+    "url": "https://archives.eure.fr/ark:/26335/qr30d1fl6tng",
+    "digitized": false
   },
   {
     "place": "Lyons-la-Forêt",
     "cote": "378Q/2",
     "yearStart": 1811,
     "yearEnd": 1825,
-    "url": "https://archives.eure.fr/ark:/26335/k76r3swb0pt9"
+    "url": "https://archives.eure.fr/ark:/26335/k76r3swb0pt9",
+    "digitized": false
   },
   {
     "place": "Lyons-la-Forêt",
     "cote": "378Q/3",
     "yearStart": 1826,
     "yearEnd": 1833,
-    "url": "https://archives.eure.fr/ark:/26335/npk4gs03dlz7"
+    "url": "https://archives.eure.fr/ark:/26335/npk4gs03dlz7",
+    "digitized": false
   },
   {
     "place": "Lyons-la-Forêt",
     "cote": "378Q/4",
     "yearStart": 1833,
     "yearEnd": 1851,
-    "url": "https://archives.eure.fr/ark:/26335/n4pbjzmwc3xg"
+    "url": "https://archives.eure.fr/ark:/26335/n4pbjzmwc3xg",
+    "digitized": false
   },
   {
     "place": "Lyons-la-Forêt",
     "cote": "378Q/5",
     "yearStart": 1852,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/mqpdbsvktwfl"
+    "url": "https://archives.eure.fr/ark:/26335/mqpdbsvktwfl",
+    "digitized": false
   },
   {
     "place": "Lyre",
     "cote": "389Q/1",
     "yearStart": 1791,
     "yearEnd": 1809,
-    "url": "https://archives.eure.fr/ark:/26335/6l4vtnd31rw2"
+    "url": "https://archives.eure.fr/ark:/26335/6l4vtnd31rw2",
+    "digitized": false
   },
   {
     "place": "Montfort-sur-Risle",
     "cote": "405Q/1",
     "yearStart": 1807,
     "yearEnd": 1810,
-    "url": "https://archives.eure.fr/ark:/26335/f20svmjcl4zq"
+    "url": "https://archives.eure.fr/ark:/26335/f20svmjcl4zq",
+    "digitized": false
   },
   {
     "place": "Montfort-sur-Risle",
     "cote": "405Q/2",
     "yearStart": 1810,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/mcz87x9tsl2p"
+    "url": "https://archives.eure.fr/ark:/26335/mcz87x9tsl2p",
+    "digitized": false
   },
   {
     "place": "Montfort-sur-Risle",
     "cote": "405Q/3",
     "yearStart": 1813,
     "yearEnd": 1834,
-    "url": "https://archives.eure.fr/ark:/26335/lzr7dqvhmjf8"
+    "url": "https://archives.eure.fr/ark:/26335/lzr7dqvhmjf8",
+    "digitized": false
   },
   {
     "place": "Nonancourt",
     "cote": "436Q/1",
     "yearStart": 1814,
     "yearEnd": 1833,
-    "url": "https://archives.eure.fr/ark:/26335/cmptx4sqz9h3"
+    "url": "https://archives.eure.fr/ark:/26335/cmptx4sqz9h3",
+    "digitized": false
   },
   {
     "place": "Nonancourt",
     "cote": "436Q/2",
     "yearStart": 1835,
     "yearEnd": 1851,
-    "url": "https://archives.eure.fr/ark:/26335/074m51jrzlkx"
+    "url": "https://archives.eure.fr/ark:/26335/074m51jrzlkx",
+    "digitized": false
   },
   {
     "place": "Nonancourt",
     "cote": "436Q/3",
     "yearStart": 1852,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/xv5jn37ls914"
+    "url": "https://archives.eure.fr/ark:/26335/xv5jn37ls914",
+    "digitized": false
   },
   {
     "place": "Pacy-sur-Eure",
     "cote": "446Q/1",
     "yearStart": 1813,
     "yearEnd": 1838,
-    "url": "https://archives.eure.fr/ark:/26335/b8k9f2xv0lhn"
+    "url": "https://archives.eure.fr/ark:/26335/b8k9f2xv0lhn",
+    "digitized": false
   },
   {
     "place": "Pacy-sur-Eure",
     "cote": "446Q/2",
     "yearStart": 1839,
     "yearEnd": 1856,
-    "url": "https://archives.eure.fr/ark:/26335/lcmzh7v0wdj8"
+    "url": "https://archives.eure.fr/ark:/26335/lcmzh7v0wdj8",
+    "digitized": false
   },
   {
     "place": "Pacy-sur-Eure",
     "cote": "446Q/3",
     "yearStart": 1856,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/80ld1wtnqfsg"
+    "url": "https://archives.eure.fr/ark:/26335/80ld1wtnqfsg",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/1",
     "yearStart": 1792,
     "yearEnd": 1808,
-    "url": "https://archives.eure.fr/ark:/26335/jzbqw1v390kx"
+    "url": "https://archives.eure.fr/ark:/26335/jzbqw1v390kx",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/2",
     "yearStart": 1808,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/mkcjq0fxtgw1"
+    "url": "https://archives.eure.fr/ark:/26335/mkcjq0fxtgw1",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/3",
     "yearStart": 1812,
     "yearEnd": 1819,
-    "url": "https://archives.eure.fr/ark:/26335/x8ftvzhcw6qg"
+    "url": "https://archives.eure.fr/ark:/26335/x8ftvzhcw6qg",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/4",
     "yearStart": 1818,
     "yearEnd": 1825,
-    "url": "https://archives.eure.fr/ark:/26335/dt1r8jcx64zf"
+    "url": "https://archives.eure.fr/ark:/26335/dt1r8jcx64zf",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/5",
     "yearStart": 1824,
     "yearEnd": 1828,
-    "url": "https://archives.eure.fr/ark:/26335/n27qb4gxvtp8"
+    "url": "https://archives.eure.fr/ark:/26335/n27qb4gxvtp8",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/6",
     "yearStart": 1828,
     "yearEnd": 1832,
-    "url": "https://archives.eure.fr/ark:/26335/kqg0v3wxjf7z"
+    "url": "https://archives.eure.fr/ark:/26335/kqg0v3wxjf7z",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/7",
     "yearStart": 1832,
     "yearEnd": 1839,
-    "url": "https://archives.eure.fr/ark:/26335/3sbtd0kqg75c"
+    "url": "https://archives.eure.fr/ark:/26335/3sbtd0kqg75c",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/8",
     "yearStart": 1839,
     "yearEnd": 1845,
-    "url": "https://archives.eure.fr/ark:/26335/mdz7h1kf0lcw"
+    "url": "https://archives.eure.fr/ark:/26335/mdz7h1kf0lcw",
+    "digitized": false
   },
   {
     "place": "Pont-Audemer",
     "cote": "455Q/9",
     "yearStart": 1846,
     "yearEnd": 1856,
-    "url": "https://archives.eure.fr/ark:/26335/sdwml62cpxh5"
+    "url": "https://archives.eure.fr/ark:/26335/sdwml62cpxh5",
+    "digitized": false
   },
   {
     "place": "Pont-de-l'Arche",
     "cote": "466Q/5",
     "yearStart": 1850,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/qbn7wv93jhdg"
+    "url": "https://archives.eure.fr/ark:/26335/qbn7wv93jhdg",
+    "digitized": false
   },
   {
     "place": "Rugles",
     "cote": "508Q/1",
     "yearStart": 1811,
     "yearEnd": 1813,
-    "url": "https://archives.eure.fr/ark:/26335/kcdhjnsxvm31"
+    "url": "https://archives.eure.fr/ark:/26335/kcdhjnsxvm31",
+    "digitized": false
   },
   {
     "place": "Rugles",
     "cote": "508Q/2",
     "yearStart": 1813,
     "yearEnd": 1823,
-    "url": "https://archives.eure.fr/ark:/26335/0csf8245v9dq"
+    "url": "https://archives.eure.fr/ark:/26335/0csf8245v9dq",
+    "digitized": false
   },
   {
     "place": "Rugles",
     "cote": "508Q/3",
     "yearStart": 1824,
     "yearEnd": 1834,
-    "url": "https://archives.eure.fr/ark:/26335/dwbh0m6j8pc4"
+    "url": "https://archives.eure.fr/ark:/26335/dwbh0m6j8pc4",
+    "digitized": false
   },
   {
     "place": "Rugles",
     "cote": "508Q/4",
     "yearStart": 1835,
     "yearEnd": 1846,
-    "url": "https://archives.eure.fr/ark:/26335/vxkq903tf17m"
+    "url": "https://archives.eure.fr/ark:/26335/vxkq903tf17m",
+    "digitized": false
   },
   {
     "place": "Rugles",
     "cote": "508Q/5",
     "yearStart": 1847,
     "yearEnd": 1862,
-    "url": "https://archives.eure.fr/ark:/26335/t460gxbqsj3p"
+    "url": "https://archives.eure.fr/ark:/26335/t460gxbqsj3p",
+    "digitized": false
   },
   {
     "place": "Saint-André de l'Eure",
     "cote": "516Q/1",
     "yearStart": 1792,
     "yearEnd": 1811,
-    "url": "https://archives.eure.fr/ark:/26335/gjm5xv6tpkr8"
+    "url": "https://archives.eure.fr/ark:/26335/gjm5xv6tpkr8",
+    "digitized": false
   },
   {
     "place": "Saint-André de l'Eure",
     "cote": "516Q/2",
     "yearStart": 1811,
     "yearEnd": 1821,
-    "url": "https://archives.eure.fr/ark:/26335/jwrnxv9tmp36"
+    "url": "https://archives.eure.fr/ark:/26335/jwrnxv9tmp36",
+    "digitized": false
   },
   {
     "place": "Saint-André de l'Eure",
     "cote": "516Q/4",
     "yearStart": 1827,
     "yearEnd": 1835,
-    "url": "https://archives.eure.fr/ark:/26335/xqbtmn6cdpjr"
+    "url": "https://archives.eure.fr/ark:/26335/xqbtmn6cdpjr",
+    "digitized": false
   },
   {
     "place": "Saint-André de l'Eure",
     "cote": "516Q/5",
     "yearStart": 1835,
     "yearEnd": 1848,
-    "url": "https://archives.eure.fr/ark:/26335/50dw731q6fj4"
+    "url": "https://archives.eure.fr/ark:/26335/50dw731q6fj4",
+    "digitized": false
   },
   {
     "place": "Saint-André de l'Eure",
     "cote": "516Q/6",
     "yearStart": 1848,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/4s9zv75tlg08"
+    "url": "https://archives.eure.fr/ark:/26335/4s9zv75tlg08",
+    "digitized": false
   },
   {
     "place": "Saint-Georges-du-Vièvre",
     "cote": "527Q/1",
     "yearStart": 1841,
     "yearEnd": 1856,
-    "url": "https://archives.eure.fr/ark:/26335/740frbpcq9m6"
+    "url": "https://archives.eure.fr/ark:/26335/740frbpcq9m6",
+    "digitized": false
   },
   {
     "place": "Saint-Georges-du-Vièvre",
     "cote": "527Q/2",
     "yearStart": 1856,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/mt5ljvnb62gq"
+    "url": "https://archives.eure.fr/ark:/26335/mt5ljvnb62gq",
+    "digitized": false
   },
   {
     "place": "Thiberville",
     "cote": "556Q/1",
     "yearStart": 1791,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/k64wtrhxld2z"
+    "url": "https://archives.eure.fr/ark:/26335/k64wtrhxld2z",
+    "digitized": false
   },
   {
     "place": "Thiberville",
     "cote": "556Q/2",
     "yearStart": 1812,
     "yearEnd": 1825,
-    "url": "https://archives.eure.fr/ark:/26335/37w8p9ftzrq0"
+    "url": "https://archives.eure.fr/ark:/26335/37w8p9ftzrq0",
+    "digitized": false
   },
   {
     "place": "Thiberville",
     "cote": "556Q/3",
     "yearStart": 1825,
     "yearEnd": 1826,
-    "url": "https://archives.eure.fr/ark:/26335/v9jtkcdqr03z"
+    "url": "https://archives.eure.fr/ark:/26335/v9jtkcdqr03z",
+    "digitized": false
   },
   {
     "place": "Verneuil-sur-Avre",
     "cote": "608Q/1",
     "yearStart": 1800,
     "yearEnd": 1811,
-    "url": "https://archives.eure.fr/ark:/26335/m1n5tbsk3ghv"
+    "url": "https://archives.eure.fr/ark:/26335/m1n5tbsk3ghv",
+    "digitized": false
   },
   {
     "place": "Verneuil-sur-Avre",
     "cote": "608Q/2",
     "yearStart": 1812,
     "yearEnd": 1822,
-    "url": "https://archives.eure.fr/ark:/26335/6kfxzv3hwn1p"
+    "url": "https://archives.eure.fr/ark:/26335/6kfxzv3hwn1p",
+    "digitized": false
   },
   {
     "place": "Verneuil-sur-Avre",
     "cote": "608Q/3",
     "yearStart": 1822,
     "yearEnd": 1830,
-    "url": "https://archives.eure.fr/ark:/26335/zmvklrxnhc3j"
+    "url": "https://archives.eure.fr/ark:/26335/zmvklrxnhc3j",
+    "digitized": false
   },
   {
     "place": "Verneuil-sur-Avre",
     "cote": "608Q/4",
     "yearStart": 1830,
     "yearEnd": 1838,
-    "url": "https://archives.eure.fr/ark:/26335/p54knvftz9bw"
+    "url": "https://archives.eure.fr/ark:/26335/p54knvftz9bw",
+    "digitized": false
   },
   {
     "place": "Verneuil-sur-Avre",
     "cote": "608Q/5",
     "yearStart": 1838,
     "yearEnd": 1848,
-    "url": "https://archives.eure.fr/ark:/26335/6vr4dl9fs038"
+    "url": "https://archives.eure.fr/ark:/26335/6vr4dl9fs038",
+    "digitized": false
   },
   {
     "place": "Verneuil-sur-Avre",
     "cote": "608Q/7",
     "yearStart": 1858,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/kf5s0jvrdtw3"
+    "url": "https://archives.eure.fr/ark:/26335/kf5s0jvrdtw3",
+    "digitized": false
   },
   {
     "place": "Vernon",
     "cote": "617Q/1",
     "yearStart": 1804,
     "yearEnd": 1812,
-    "url": "https://archives.eure.fr/ark:/26335/7t4wfdzmk3n2"
+    "url": "https://archives.eure.fr/ark:/26335/7t4wfdzmk3n2",
+    "digitized": false
   },
   {
     "place": "Vernon",
     "cote": "617Q/2",
     "yearStart": 1813,
     "yearEnd": 1830,
-    "url": "https://archives.eure.fr/ark:/26335/jvrflzks1x7c"
+    "url": "https://archives.eure.fr/ark:/26335/jvrflzks1x7c",
+    "digitized": false
   },
   {
     "place": "Vernon",
     "cote": "617Q/3",
     "yearStart": 1830,
     "yearEnd": 1846,
-    "url": "https://archives.eure.fr/ark:/26335/j9xwzkmbq3h5"
+    "url": "https://archives.eure.fr/ark:/26335/j9xwzkmbq3h5",
+    "digitized": false
   },
   {
     "place": "Vernon",
     "cote": "617Q/4",
     "yearStart": 1846,
     "yearEnd": 1865,
-    "url": "https://archives.eure.fr/ark:/26335/qw64sf98gptj"
+    "url": "https://archives.eure.fr/ark:/26335/qw64sf98gptj",
+    "digitized": false
   },
   {
     "place": "Breteuil",
     "cote": "130BIS/Q/1",
     "yearStart": 1806,
     "yearEnd": 1814,
-    "url": "https://archives.eure.fr/ark:/26335/q50t84ds7wmv"
+    "url": "https://archives.eure.fr/ark:/26335/q50t84ds7wmv",
+    "digitized": false
   },
   {
     "place": "Breteuil",
     "cote": "130BIS/Q/2",
     "yearStart": 1814,
     "yearEnd": 1824,
-    "url": "https://archives.eure.fr/ark:/26335/dr2knqphwm1x"
+    "url": "https://archives.eure.fr/ark:/26335/dr2knqphwm1x",
+    "digitized": false
   },
   {
     "place": "Breteuil",
     "cote": "130BIS/Q/3",
     "yearStart": 1824,
     "yearEnd": 1837,
-    "url": "https://archives.eure.fr/ark:/26335/z0rb3wkljg6c"
+    "url": "https://archives.eure.fr/ark:/26335/z0rb3wkljg6c",
+    "digitized": false
   },
   {
     "place": "Breteuil",
     "cote": "130BIS/Q/4",
     "yearStart": 1837,
     "yearEnd": 1852,
-    "url": "https://archives.eure.fr/ark:/26335/86hc5bkq3v9l"
+    "url": "https://archives.eure.fr/ark:/26335/86hc5bkq3v9l",
+    "digitized": false
   },
   {
     "place": "Breteuil",
     "cote": "130BIS/Q/5",
     "yearStart": 1855,
     "yearEnd": 1856,
-    "url": "https://archives.eure.fr/ark:/26335/wh950xvtsb81"
+    "url": "https://archives.eure.fr/ark:/26335/wh950xvtsb81",
+    "digitized": false
   }
 ]
