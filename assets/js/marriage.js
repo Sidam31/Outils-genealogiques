@@ -89,6 +89,73 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_22.json',
         catalogUrl: 'https://recherche.archives.cotesdarmor.fr/archives/classification-scheme',
     },
+    '70': {
+        label: 'Haute-Saône',
+        // Bornes réelles de la série (36 registres scrapés, 15 lieux, voir
+        // scrape_contrats_mariage_haute_saone.py) : extraits des pages déjà en cache pour les
+        // successions (portail Ligeo Archives + Anubis, mode "titletext_bureau") - ce fonds
+        // mélangeait déjà les deux séries dans les mêmes résultats de recherche libre par bureau.
+        // Pas de cote officielle exposée pour ces lignes (contrairement aux successions du même
+        // portail) : le libellé complet du registre sert d'identifiant, voir le scraper.
+        minYear: 1722,
+        maxYear: 1808,
+        registersUrl: './assets/data/contrats_mariage_70.json',
+        catalogUrl: 'https://archives.haute-saone.fr/archive/recherche/enregistrement/n:121',
+    },
+    '86': {
+        label: 'Vienne',
+        // Bornes réelles de la série (62 registres scrapés, 21 lieux, voir
+        // scrape_contrats_mariage_ligeo_anubis.py) : facette RECH_type "table des contrats de
+        // mariage" découverte via le widget d'autocomplétion du portail (même portail Ligeo
+        // Archives + Anubis que la Deux-Sèvres, distingué par RECH_dep).
+        minYear: 1752,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_86.json',
+        catalogUrl: 'https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101',
+    },
+    '79': {
+        label: 'Deux-Sèvres',
+        // Bornes réelles de la série (100 registres scrapés, 23 lieux, voir
+        // scrape_contrats_mariage_ligeo_anubis.py). Même portail que la Vienne.
+        minYear: 1705,
+        maxYear: 1866,
+        registersUrl: './assets/data/contrats_mariage_79.json',
+        catalogUrl: 'https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101',
+    },
+    '16': {
+        label: 'Charente',
+        // Bornes réelles de la série (46 registres scrapés, 23 lieux, voir
+        // scrape_contrats_mariage_ligeo_anubis.py) : facette REch_typeformalites "Table des
+        // contrats de mariage" découverte via le widget d'autocomplétion (portail Ligeo Archives +
+        // Anubis, même autorisation explicite que la série successions de ce département).
+        minYear: 1718,
+        maxYear: 1814,
+        registersUrl: './assets/data/contrats_mariage_16.json',
+        catalogUrl: 'https://lasource.archives.lacharente.fr/archive/recherche/enregistrement/n:127',
+    },
+    '33': {
+        label: 'Gironde',
+        // Bornes réelles de la série (186 registres scrapés, 17 lieux, voir
+        // scrape_contrats_mariage_ligeo_anubis.py) : facette RECH_table "Table des contrats de
+        // mariage" (deux facettes proches existaient - "Tables des contrats de mariage" au
+        // pluriel, et une "Contrôle des extraits de baptême et mariages" hors-sujet - la première
+        // correspondance stricte est retenue, voir MARRIAGE_FACET_RE dans le scraper).
+        minYear: 1703,
+        maxYear: 1877,
+        registersUrl: './assets/data/contrats_mariage_33.json',
+        catalogUrl: 'https://archives.gironde.fr/archive/recherche/enregistrement2',
+    },
+    '48': {
+        label: 'Lozère',
+        // Bornes réelles de la série (55 registres scrapés, 14 lieux, voir
+        // scrape_contrats_mariage_lozere.py) : arbre complet du fonds "Enregistrement" déjà rendu
+        // en une seule recherche (comme les successions de ce département), simplement filtré côté
+        // serveur sur la case à cocher "mariage" au lieu de "successions".
+        minYear: 1779,
+        maxYear: 1866,
+        registersUrl: './assets/data/contrats_mariage_48.json',
+        catalogUrl: 'https://archives.lozere.fr/archive/recherche/enregistrement/n:305',
+    },
 };
 
 function fetchJson(url) {

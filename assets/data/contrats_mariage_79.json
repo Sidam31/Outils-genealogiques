@@ -1,0 +1,702 @@
+[
+  {
+    "place": "Coulonges-sur-l'Autize",
+    "cote": "2 C 696",
+    "yearStart": 1705,
+    "yearEnd": 1707,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac5bceced476b8cce/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "2 C 2446",
+    "yearStart": 1760,
+    "yearEnd": 1790,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtacd70e1eecc93d5a3/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "2 C 2469",
+    "yearStart": 1760,
+    "yearEnd": 1790,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtab4f6fcffb400451b/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "2 C 2433",
+    "yearStart": 1760,
+    "yearEnd": 1760,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta2ce76482a6d61443/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Sauzé-Vaussais",
+    "cote": "2 C 2454",
+    "yearStart": 1761,
+    "yearEnd": 1812,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta9bd6c71e7750782d/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Champdeniers",
+    "cote": "2 C 2417",
+    "yearStart": 1765,
+    "yearEnd": 1792,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta3c170d86ad620a6f/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Airvault",
+    "cote": "2 C 2407",
+    "yearStart": 1766,
+    "yearEnd": 1817,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta4808372806a5449c/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Chef-Boutonne",
+    "cote": "2 C 2421",
+    "yearStart": 1767,
+    "yearEnd": 1808,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta3d69c561d644b493/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "2 C 2442",
+    "yearStart": 1768,
+    "yearEnd": 1792,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac562802f74e7201f/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thouars",
+    "cote": "2 C 2394",
+    "yearStart": 1769,
+    "yearEnd": 1779,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta86828bf73c2f9b0f/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Argenton-Château",
+    "cote": "2 C 2282",
+    "yearStart": 1770,
+    "yearEnd": 1774,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta95fa18b4250b73d7/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Frontenay-Rohan-Rohan",
+    "cote": "2 C 847",
+    "yearStart": 1770,
+    "yearEnd": 1789,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta9a3f4f2678630cfc/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thouars",
+    "cote": "3 Q 24/228",
+    "yearStart": 1775,
+    "yearEnd": 1809,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta6296ec5de1d85440/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "La Mothe-Saint-Héray",
+    "cote": "3 Q 17/121",
+    "yearStart": 1778,
+    "yearEnd": 1809,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta5a40ec40db0f9cc9/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Vasles",
+    "cote": "2 C 5311",
+    "yearStart": 1780,
+    "yearEnd": 1793,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/28387/vtad698ea68fe065d41/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Mauzé-sur-le-Mignon",
+    "cote": "3 Q 13/146",
+    "yearStart": 1786,
+    "yearEnd": 1816,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta9f77359511df8caa/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Bressuire",
+    "cote": "3 Q 4/117",
+    "yearStart": 1788,
+    "yearEnd": 1816,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtada5951416e74130d/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/166",
+    "yearStart": 1790,
+    "yearEnd": 1790,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac50262287d2e2c8c/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/168",
+    "yearStart": 1790,
+    "yearEnd": 1790,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtabb1da2dab1a714b1/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Secondigny",
+    "cote": "3 Q 22/62",
+    "yearStart": 1791,
+    "yearEnd": 1822,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta6bcb743e4ea1775c/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/716",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa2bea01a2d4274f1/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Champdeniers",
+    "cote": "3 Q 7/65",
+    "yearStart": 1792,
+    "yearEnd": 1812,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtae86294ad53a90323/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/169",
+    "yearStart": 1793,
+    "yearEnd": 1801,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtafd77f3797bafde0d/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Châtillon-sur-Sèvre",
+    "cote": "3 Q 8/203",
+    "yearStart": 1864,
+    "yearEnd": 1864,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta3e16345c112488fa/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/717",
+    "yearStart": 1796,
+    "yearEnd": 1798,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad6332b10b96fbd78/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Chizé",
+    "cote": "3 Q 10/75",
+    "yearStart": 1796,
+    "yearEnd": 1810,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta99c38d7430ae37cc/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Moncoutant",
+    "cote": "3 Q 16/45",
+    "yearStart": 1829,
+    "yearEnd": 1829,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta4c956c2d77663b98/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Parthenay",
+    "cote": "3 Q 19/187",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad96ac98e86e679dc/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/229",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta07c687e4ace66630/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/718",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta630fdf5ddf4b2929/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/170",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta67188ecbb300b07f/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thouars",
+    "cote": "3 Q 24/229",
+    "yearStart": 1809,
+    "yearEnd": 1819,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta83c55bfea9451be4/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/719",
+    "yearStart": 1810,
+    "yearEnd": 1814,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtae79eb875d816a3a5/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "La Mothe-Saint-Héray",
+    "cote": "3 Q 17/122",
+    "yearStart": 1810,
+    "yearEnd": 1817,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta759c20596fccba00/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Argenton-Château",
+    "cote": "3 Q 3/17",
+    "yearStart": 1810,
+    "yearEnd": 1824,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtae27c22ca5637619e/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Coulonges-sur-l'Autize",
+    "cote": "3 Q 11/53",
+    "yearStart": 1811,
+    "yearEnd": 1818,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta77727331f162466e/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Chizé",
+    "cote": "3 Q 10/76",
+    "yearStart": 1811,
+    "yearEnd": 1829,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta487c567467125696/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/230",
+    "yearStart": 1812,
+    "yearEnd": 1813,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta793787108e18109f/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Champdeniers",
+    "cote": "3 Q 7/66",
+    "yearStart": 1812,
+    "yearEnd": 1832,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac22892e99477d6db/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Sauzé-Vaussais",
+    "cote": "3 Q 21/120",
+    "yearStart": 1812,
+    "yearEnd": 1832,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaef9262c7fc7d4e6b/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/231",
+    "yearStart": 1813,
+    "yearEnd": 1823,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta44d880bac7e107c1/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thénezay",
+    "cote": "3 Q 23/89",
+    "yearStart": 1813,
+    "yearEnd": 1830,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta0a12861c97c71169/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Parthenay",
+    "cote": "3 Q 19/188",
+    "yearStart": 1814,
+    "yearEnd": 1832,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta3a1ffbd7a1134988/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/720",
+    "yearStart": 1815,
+    "yearEnd": 1818,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad5ac2bf0c682c486/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/171",
+    "yearStart": 1816,
+    "yearEnd": 1829,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtae5688747f48de813/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Mauzé-sur-le-Mignon",
+    "cote": "3 Q 13/147",
+    "yearStart": 1816,
+    "yearEnd": 1834,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta860c67f5068cc469/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "La Mothe-Saint-Héray",
+    "cote": "3 Q 17/123",
+    "yearStart": 1817,
+    "yearEnd": 1832,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta8cd70c6bf5e05d6c/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Airvault",
+    "cote": "3 Q 2/36",
+    "yearStart": 1817,
+    "yearEnd": 1845,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa61c470f010a3939/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/721",
+    "yearStart": 1818,
+    "yearEnd": 1822,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad0aaff838dea01ed/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thouars",
+    "cote": "3 Q 24/230",
+    "yearStart": 1819,
+    "yearEnd": 1836,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaf8bf1fd9bb7f8657/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Coulonges-sur-l'Autize",
+    "cote": "3 Q 11/229",
+    "yearStart": 1819,
+    "yearEnd": 1837,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtafe5a107ec7b30be7/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/722",
+    "yearStart": 1822,
+    "yearEnd": 1827,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta38c1e4a2d279ec29/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Secondigny",
+    "cote": "3 Q 22/161",
+    "yearStart": 1822,
+    "yearEnd": 1862,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtadf2406bca85d8a42/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/232",
+    "yearStart": 1823,
+    "yearEnd": 1829,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta8f9b5efe72d9cfd9/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Argenton-Château",
+    "cote": "3 Q 3/18",
+    "yearStart": 1825,
+    "yearEnd": 1864,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta25d58d693fa4aaa6/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/723",
+    "yearStart": 1827,
+    "yearEnd": 1831,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa24a3971c279cc9f/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/172",
+    "yearStart": 1829,
+    "yearEnd": 1834,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtae0978b019973be28/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Chef-Boutonne",
+    "cote": "3 Q 9/310",
+    "yearStart": 1829,
+    "yearEnd": 1846,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaf189722c80477a47/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Chizé",
+    "cote": "3 Q 10/82",
+    "yearStart": 1829,
+    "yearEnd": 1846,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta41ce0e8e577b6185/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Moncoutant",
+    "cote": "3 Q 16/202",
+    "yearStart": 1829,
+    "yearEnd": 1853,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta5ef56dcc4a44345c/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/233",
+    "yearStart": 1830,
+    "yearEnd": 1838,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta223efdbe0b1155e3/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thénezay",
+    "cote": "3 Q 23/90",
+    "yearStart": 1831,
+    "yearEnd": 1852,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta35bb375730defe4b/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/724",
+    "yearStart": 1832,
+    "yearEnd": 1836,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac36b7aa351aa952a/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "La Mothe-Saint-Héray",
+    "cote": "3 Q 17/271",
+    "yearStart": 1832,
+    "yearEnd": 1852,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta0288c26cb61e0dbe/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Champdeniers",
+    "cote": "3 Q 7/67",
+    "yearStart": 1832,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta079e2830dfb98caf/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Sauzé-Vaussais",
+    "cote": "3 Q 21/121",
+    "yearStart": 1832,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta0f63dedfda5fb286/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Parthenay",
+    "cote": "3 Q 19/189",
+    "yearStart": 1833,
+    "yearEnd": 1845,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta30e72afed0ce4783/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/412",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtab025dc055107cd97/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Mauzé-sur-le-Mignon",
+    "cote": "3 Q 13/148",
+    "yearStart": 1834,
+    "yearEnd": 1847,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta4e0d4b05740f2e7b/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/725",
+    "yearStart": 1836,
+    "yearEnd": 1841,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta080c0b7047c7e377/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Bressuire",
+    "cote": "3 Q 4/337",
+    "yearStart": 1837,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta430847ac809b79ad/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thouars",
+    "cote": "3 Q 24/554",
+    "yearStart": 1837,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta48f6a47b0f795d58/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Coulonges-sur-l'Autize",
+    "cote": "3 Q 11/230",
+    "yearStart": 1838,
+    "yearEnd": 1850,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa335523c3a3164ab/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Lezay",
+    "cote": "3 Q 12/16",
+    "yearStart": 1839,
+    "yearEnd": 1844,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtab4e8ed13db3b5925/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/234",
+    "yearStart": 1839,
+    "yearEnd": 1847,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaae4c0b5ccc5e9ae5/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/726",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta907fa18846c2e911/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/413",
+    "yearStart": 1844,
+    "yearEnd": 1857,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta776ea9a07a5c9d07/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Lezay",
+    "cote": "3 Q 12/144",
+    "yearStart": 1844,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta030c565ec007bd5b/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Parthenay",
+    "cote": "3 Q 19/426",
+    "yearStart": 1845,
+    "yearEnd": 1854,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta45d236c6b9eb53e8/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/727",
+    "yearStart": 1846,
+    "yearEnd": 1851,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta638e084a96247877/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Airvault",
+    "cote": "3 Q 2/37",
+    "yearStart": 1846,
+    "yearEnd": 1854,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac2ef93c5fb059429/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Chef-Boutonne",
+    "cote": "3 Q 9/311",
+    "yearStart": 1846,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaebee1d9a79a9c2bc/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Brioux-sur-Boutonne",
+    "cote": "3 Q 5/215",
+    "yearStart": 1847,
+    "yearEnd": 1861,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta2d1bba2f03d0a5f0/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Mauzé-sur-le-Mignon",
+    "cote": "3 Q 13/149",
+    "yearStart": 1847,
+    "yearEnd": 1866,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta1df745ee85257783/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/235",
+    "yearStart": 1848,
+    "yearEnd": 1857,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac2a894d430d4fbb9/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Melle",
+    "cote": "3 Q 15/535",
+    "yearStart": 1850,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtab0de853cd8b1bb9a/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/728",
+    "yearStart": 1851,
+    "yearEnd": 1857,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtadd10714357c0554b/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Coulonges-sur-l'Autize",
+    "cote": "3 Q 11/231",
+    "yearStart": 1851,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtabe6798db36468c52/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "La Mothe-Saint-Héray",
+    "cote": "3 Q 17/272",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaed75f2629c6c36d1/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thénezay",
+    "cote": "3 Q 23/202",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa0d026fd92a33708/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Airvault",
+    "cote": "3 Q 2/38",
+    "yearStart": 1854,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad8b863d534e26466/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Moncoutant",
+    "cote": "3 Q 16/203",
+    "yearStart": 1854,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta092a2d37f866bdd7/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Parthenay",
+    "cote": "3 Q 19/427",
+    "yearStart": 1854,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa2f3d7fe89fa38b2/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/729",
+    "yearStart": 1857,
+    "yearEnd": 1863,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta4909ea3e2af3f0de/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Saint-Maixent-l'École",
+    "cote": "3 Q 20/414",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtaa19f34d15a668edc/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Brioux-sur-Boutonne",
+    "cote": "3 Q 5/216",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad768b5f398043e17/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Niort",
+    "cote": "3 Q 18/730",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta3b1664692d7369e2/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Secondigny",
+    "cote": "3 Q 22/162",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtac34e370f8ef04767/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Argenton-Château",
+    "cote": "3 Q 3/19",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vtad455264e188025bf/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  },
+  {
+    "place": "Thouars",
+    "cote": "3 Q 24/555",
+    "yearStart": 1865,
+    "yearEnd": 1865,
+    "url": "https://archives-deux-sevres-vienne.fr/ark:/58825/vta718fb9b730b0a504/daogrp/0/layout:table/idsearch:RECH_e72c6d74da6cb4fc5f322c9f49570360"
+  }
+]
