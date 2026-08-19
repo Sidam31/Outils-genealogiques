@@ -836,6 +836,16 @@ const fa = (() => {
         });
     }
 
+    // Au-delà de ce nombre d'années d'écart, le registre renvoyé par pickRegisters (successions.js/
+    // marriage.js) n'est plus "la bonne année, à la marge près" mais une simple valeur de repli pour
+    // ne jamais laisser une commune sans piste — il faut le dire clairement plutôt que de laisser
+    // croire à une correspondance sûre (ex. décès de 1879 proposant un registre 1914-1930).
+    const YEAR_GAP_WARNING_THRESHOLD = 5;
+    function yearGapWarning(r) {
+        if (!r.yearGap || r.yearGap <= YEAR_GAP_WARNING_THRESHOLD) return '';
+        return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ Aucun registre ne couvre ${r.year} pour cette commune — le plus proche disponible est à ${r.yearGap} an${r.yearGap > 1 ? 's' : ''} d'écart.</div>`;
+    }
+
     // Le registre visé dépend du type de correspondance trouvée par computeSuccessionLeads, et de
     // ce que le portail du département publie (voir successions.js, config.kind) :
     // - 'exact' : la commune (ou son bureau, résolu avec certitude pour ce département et cette
@@ -852,9 +862,9 @@ const fa = (() => {
             return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ ${escapeHtml(reason)}</div>
                 <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Parcourir la série manuellement</a></div>`;
         }
-        const warn = r.matchType === 'bureau'
+        const warn = (r.matchType === 'bureau'
             ? `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ "${escapeHtml(r.city)}" non répertoriée — bureau le plus proche : ${escapeHtml(r.bureauInfo.bureau)} (${r.bureauInfo.distanceKm} km, à vérifier)</div>`
-            : (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '');
+            : (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '')) + yearGapWarning(r);
         // Plusieurs bureaux/arrondissements différents peuvent matcher à la fois (Paris) : afficher
         // le lieu de chaque registre dans ce cas pour que la personne choisisse le bon - inutile
         // (et redondant avec la colonne Décès) quand un seul lieu est en jeu, comme partout ailleurs.
@@ -926,7 +936,7 @@ const fa = (() => {
             return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ ${escapeHtml(reason)}</div>
                 <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Parcourir la série manuellement</a></div>`;
         }
-        const warn = r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '';
+        const warn = (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '') + yearGapWarning(r);
         const distinctPlaces = new Set(r.registers.map(reg => reg.place));
         const links = r.registers.map(reg =>
             `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">💍 ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>`
@@ -1004,7 +1014,7 @@ const fa = (() => {
             downloadCsv('notariat_pistes.csv', headers, rows);
         } else if (mode === 'successions') {
             if (!successionResults.length) return;
-            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Age au deces', 'Date deces', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Contexte', 'Cote', 'URL registre'];
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Age au deces', 'Date deces', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Ecart annees registre', 'Contexte', 'Cote', 'URL registre'];
             const rows = [];
             sortedSuccessionResults().forEach(r => {
                 const base = [
@@ -1023,6 +1033,7 @@ const fa = (() => {
                     r.matchType,
                     r.bureauInfo ? r.bureauInfo.bureau : '',
                     r.bureauInfo ? r.bureauInfo.distanceKm : '',
+                    r.yearGap || '',
                     r.contextLabel || ''
                 ];
                 if (r.registers.length) {
@@ -1034,7 +1045,7 @@ const fa = (() => {
             downloadCsv('successions_pistes.csv', headers, rows);
         } else {
             if (!mariageResults.length) return;
-            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Annee mariage', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Contexte', 'Cote', 'URL registre'];
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Annee mariage', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Ecart annees registre', 'Contexte', 'Cote', 'URL registre'];
             const rows = [];
             sortedMariageResults().forEach(r => {
                 const base = [
@@ -1050,6 +1061,7 @@ const fa = (() => {
                     r.city,
                     spouseSummaries(r.person).join(' | '),
                     r.matchType,
+                    r.yearGap || '',
                     r.contextLabel || ''
                 ];
                 if (r.registers.length) {

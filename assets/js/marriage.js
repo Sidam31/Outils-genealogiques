@@ -66,16 +66,18 @@ function parentContextLabel(geo, matched) {
 
 // Comme pickRegisters dans successions.js : renvoie les registres couvrant l'année recherchée, ou à
 // défaut le plus proche dans le temps (bornes de registre imprécises plutôt qu'aucune piste).
+// yearGap (0 quand l'année est bien couverte) accompagne ce repli pour signaler une approximation
+// potentiellement lointaine à l'affichage.
 function pickRegisters(records, year) {
-    if (!records || !records.length) return [];
+    if (!records || !records.length) return { registers: [], yearGap: 0 };
     const containing = records.filter(r => year >= r.yearStart && year <= r.yearEnd);
-    if (containing.length) return containing;
+    if (containing.length) return { registers: containing, yearGap: 0 };
     let best = records[0], bestDist = Infinity;
     records.forEach(r => {
         const dist = year < r.yearStart ? r.yearStart - year : year - r.yearEnd;
         if (dist < bestDist) { bestDist = dist; best = r; }
     });
-    return [best];
+    return { registers: [best], yearGap: bestDist };
 }
 
 function loadDeptIndex(deptCodeKey) {
@@ -114,10 +116,11 @@ function resolveRegisters(idx, geo, year) {
     for (const candidate of cityCandidates(geo)) {
         const exact = idx.registerIndex.get(normalizePlace(candidate));
         if (exact && exact.length) {
-            return { matchType: 'exact', registers: pickRegisters(exact, year), contextLabel: parentContextLabel(geo, candidate) };
+            const picked = pickRegisters(exact, year);
+            return { matchType: 'exact', registers: picked.registers, yearGap: picked.yearGap, contextLabel: parentContextLabel(geo, candidate) };
         }
     }
-    return { matchType: 'none', registers: [], contextLabel: null };
+    return { matchType: 'none', registers: [], yearGap: 0, contextLabel: null };
 }
 
 // indexes: Map département -> {config, registerIndex} (voir loadMarriageIndexes)

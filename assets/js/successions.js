@@ -938,17 +938,19 @@ export function loadSuccessionIndexes() {
 // multiples d'une même ville, périodes redondantes/qui se chevauchent...) ; à défaut, le registre
 // le plus proche dans le temps, pour ne jamais renvoyer une piste vide quand des registres
 // existent bel et bien pour cette commune, juste pas pile sur cette année (bornes de registre
-// imprécises, calendrier républicain converti approximativement).
+// imprécises, calendrier républicain converti approximativement). yearGap (0 quand l'année est
+// bien couverte) accompagne ce repli pour que l'appelant puisse distinguer un vrai match d'une
+// approximation potentiellement lointaine (voir YEAR_GAP_WARNING_THRESHOLD côté affichage).
 function pickRegisters(records, year) {
-    if (!records || !records.length) return [];
+    if (!records || !records.length) return { registers: [], yearGap: 0 };
     const containing = records.filter(r => year >= r.yearStart && year <= r.yearEnd);
-    if (containing.length) return containing;
+    if (containing.length) return { registers: containing, yearGap: 0 };
     let best = records[0], bestDist = Infinity;
     records.forEach(r => {
         const dist = year < r.yearStart ? r.yearStart - year : year - r.yearEnd;
         if (dist < bestDist) { bestDist = dist; best = r; }
     });
-    return [best];
+    return { registers: [best], yearGap: bestDist };
 }
 
 // Candidates à essayer pour une correspondance de commune, du lieu le plus précis (tel qu'acté,
@@ -976,17 +978,19 @@ function resolveFacet(idx, geo, year, person) {
     for (const candidate of candidates) {
         const exact = idx.registerIndex.get(normalizePlace(candidate));
         if (exact && exact.length) {
-            return { matchType: 'exact', registers: pickRegisters(filterByLetter(exact, person.surname), year), bureauInfo: null, contextLabel: parentContextLabel(geo, candidate) };
+            const picked = pickRegisters(filterByLetter(exact, person.surname), year);
+            return { matchType: 'exact', registers: picked.registers, yearGap: picked.yearGap, bureauInfo: null, contextLabel: parentContextLabel(geo, candidate) };
         }
     }
     for (const candidate of candidates) {
         const bureauInfo = idx.bureauIndex.get(normalizePlace(candidate)) || null;
         const viaBureau = bureauInfo ? idx.registerIndex.get(normalizePlace(bureauInfo.bureau)) : null;
         if (viaBureau && viaBureau.length) {
-            return { matchType: 'bureau', registers: pickRegisters(filterByLetter(viaBureau, person.surname), year), bureauInfo, contextLabel: parentContextLabel(geo, candidate) };
+            const picked = pickRegisters(filterByLetter(viaBureau, person.surname), year);
+            return { matchType: 'bureau', registers: picked.registers, yearGap: picked.yearGap, bureauInfo, contextLabel: parentContextLabel(geo, candidate) };
         }
     }
-    return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
+    return { matchType: 'none', registers: [], yearGap: 0, bureauInfo: null, contextLabel: null };
 }
 
 function resolveBureauLetter(idx, geo, year, person) {
@@ -997,20 +1001,21 @@ function resolveBureauLetter(idx, geo, year, person) {
         if (found) { bureau = found; matchedCity = candidate; break; }
     }
     if (!bureau) {
-        return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
+        return { matchType: 'none', registers: [], yearGap: 0, bureauInfo: null, contextLabel: null };
     }
     const letter = firstSurnameLetter(person.surname);
     const byLetter = idx.registerIndex.get(normalizePlace(bureau));
     const candidates = letter && byLetter ? byLetter.get(letter) : null;
     const parentNote = matchedCity !== geo.city ? ` (via le lieu parent "${matchedCity}")` : '';
     if (candidates && candidates.length) {
+        const picked = pickRegisters(candidates, year);
         return {
-            matchType: 'exact', registers: pickRegisters(candidates, year), bureauInfo: null,
+            matchType: 'exact', registers: picked.registers, yearGap: picked.yearGap, bureauInfo: null,
             contextLabel: `Bureau de ${bureau} — noms commençant par ${letter}${parentNote}`,
         };
     }
     return {
-        matchType: 'none', registers: [], bureauInfo: null,
+        matchType: 'none', registers: [], yearGap: 0, bureauInfo: null,
         contextLabel: (letter ? `Bureau de ${bureau} (aucun registre pour "${letter}")` : `Bureau de ${bureau} (patronyme inconnu)`) + parentNote,
     };
 }
@@ -1089,13 +1094,14 @@ function resolveCitywide(idx, geo, year, person) {
     const arr = extractParisArrondissement(geo.city);
     const byArr = arr != null ? bySurname.filter(r => parisPlaceArrondissements(r.place).has(arr)) : bySurname;
     const pool = byArr.length ? byArr : bySurname;
-    const registers = pickRegisters(pool, year);
+    const picked = pickRegisters(pool, year);
+    const registers = picked.registers;
     if (!registers.length) {
-        return { matchType: 'none', registers: [], bureauInfo: null, contextLabel: null };
+        return { matchType: 'none', registers: [], yearGap: 0, bureauInfo: null, contextLabel: null };
     }
     const places = new Set(registers.map(r => r.place));
     return {
-        matchType: 'exact', registers, bureauInfo: null,
+        matchType: 'exact', registers, yearGap: picked.yearGap, bureauInfo: null,
         contextLabel: places.size > 1
             ? `Paris est organisé par arrondissement : ${registers.length} registre(s) correspondent à cette année, à vérifier selon l'arrondissement du décès.`
             : (arr != null ? `Filtré sur le ${arr}${arr === 1 ? 'er' : 'e'} arrondissement (déduit du lieu de décès).` : null),
