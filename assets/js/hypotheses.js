@@ -478,7 +478,56 @@ export function initHypotheses() {
         }
     }
 
-    // --- Export / import des hypothèses ---
+    // --- Export / import / cache des hypothèses ---
+    // Clé de cache navigateur (localStorage) : permet de "mettre de côté" un jeu d'hypothèses en
+    // cours sans passer par un fichier JSON, pour le reprendre plus tard dans le même navigateur.
+    const HYP_CACHE_KEY = "visugedcom_hyp_cache_v1";
+    const hypMergeModeEl = document.getElementById("hypMergeMode");
+    const hypCacheStatusEl = document.getElementById("hypCacheStatus");
+
+    // hypCounter doit toujours être >= au plus grand suffixe numérique déjà utilisé dans les ids
+    // "hN" présents (remplacement OU fusion), sans quoi une fusion ultérieure pourrait réattribuer
+    // un id déjà pris et faire entrer en collision deux hypothèses distinctes.
+    function hypMaxCounterFrom(list) {
+        let max = 0;
+        list.forEach(h => { const m = /^h(\d+)$/.exec(h.id || ""); if (m) max = Math.max(max, parseInt(m[1], 10)); });
+        return max;
+    }
+    // Ajoute newHyps (un jeu d'hypothèses complet venant d'un fichier JSON ou du cache) à la suite
+    // des hypothèses actuelles, sans détection de doublons ; chaque hypothèse importée reçoit un
+    // nouvel id "hN" pour ne jamais entrer en collision avec l'existant, et les referenceKey de type
+    // {hypSubject, cIdx} qui pointaient vers une AUTRE hypothèse du même lot sont réécrites vers le
+    // nouvel id (sinon la référence, une fois fusionnée, pointerait vers un id qui n'existe plus ou,
+    // pire, vers une hypothèse existante sans rapport qui aurait hérité de cet ancien id).
+    function hypMergeInHypotheses(newHyps) {
+        const idMap = {};
+        const remapped = newHyps.map(h => {
+            const newId = "h" + (++hypCounter);
+            idMap[h.id] = newId;
+            return Object.assign({}, h, { id: newId });
+        });
+        remapped.forEach(h => {
+            if (!h.referenceKey) return;
+            try {
+                const ref = JSON.parse(h.referenceKey);
+                if (ref.hypSubject && idMap[ref.hypSubject]) {
+                    h.referenceKey = JSON.stringify({ hypSubject: idMap[ref.hypSubject], cIdx: ref.cIdx });
+                }
+            } catch (e) { /* ancien format ou référence non liée à une hypothèse : rien à réécrire */ }
+        });
+        hypotheses = hypotheses.concat(remapped);
+    }
+    function hypApplyImportedHypotheses(data) {
+        if (!Array.isArray(data)) throw new Error("format invalide");
+        if (hypMergeModeEl.checked) {
+            hypMergeInHypotheses(data);
+        } else {
+            hypotheses = data;
+            hypCounter = hypMaxCounterFrom(hypotheses);
+        }
+        hypRenderList(); hypRefreshRefOptions(); hypRender();
+    }
+
     document.getElementById("hypBtnExport").addEventListener("click", () => {
         const blob = new Blob([JSON.stringify(hypotheses, null, 2)], { type: "application/json" });
         const url = URL.createObjectURL(blob);
@@ -494,15 +543,40 @@ export function initHypotheses() {
         const reader = new FileReader();
         reader.onload = () => {
             try {
-                const data = JSON.parse(reader.result);
-                if (!Array.isArray(data)) throw new Error("format invalide");
-                hypotheses = data;
-                hypCounter = hypotheses.length;
-                hypRenderList(); hypRender();
+                hypApplyImportedHypotheses(JSON.parse(reader.result));
             } catch (err) { alert("Fichier JSON invalide : " + err.message); }
         };
         reader.readAsText(file);
+        e.target.value = "";
     });
+
+    function hypRefreshCacheStatus() {
+        const raw = localStorage.getItem(HYP_CACHE_KEY);
+        if (!raw) { hypCacheStatusEl.textContent = "Aucune sauvegarde en cache."; return; }
+        try {
+            const saved = JSON.parse(raw);
+            const n = Array.isArray(saved.hypotheses) ? saved.hypotheses.length : 0;
+            const date = saved.savedAt ? new Date(saved.savedAt).toLocaleString() : "date inconnue";
+            hypCacheStatusEl.textContent = `Cache : ${n} hypothèse(s), enregistrée(s) le ${date}.`;
+        } catch (e) { hypCacheStatusEl.textContent = "Cache présent mais illisible."; }
+    }
+    document.getElementById("hypBtnSaveCache").addEventListener("click", () => {
+        localStorage.setItem(HYP_CACHE_KEY, JSON.stringify({ savedAt: Date.now(), hypotheses }));
+        hypRefreshCacheStatus();
+    });
+    document.getElementById("hypBtnLoadCache").addEventListener("click", () => {
+        const raw = localStorage.getItem(HYP_CACHE_KEY);
+        if (!raw) { alert("Aucune sauvegarde en cache."); return; }
+        try {
+            const saved = JSON.parse(raw);
+            hypApplyImportedHypotheses(saved.hypotheses);
+        } catch (err) { alert("Cache invalide : " + err.message); }
+    });
+    document.getElementById("hypBtnClearCache").addEventListener("click", () => {
+        localStorage.removeItem(HYP_CACHE_KEY);
+        hypRefreshCacheStatus();
+    });
+    hypRefreshCacheStatus();
 
     // --- Rendu SVG ---
     const hypSvg = document.getElementById("hypCanvas");

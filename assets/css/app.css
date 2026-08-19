@@ -228,7 +228,7 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 #hypPivotResults li:hover { background: #eef; }
 
 /* ACCUEIL (index.html) */
-.home-container { max-width: 760px; margin: 40px auto; padding: 0 20px; }
+.home-container { max-width: 760px; margin: 40px auto; padding: 0 20px 40px; }
 .home-drop { border: 2px dashed #bdc3c7; border-radius: 10px; padding: 40px 20px; text-align: center; background: #fff; }
 .home-drop.drag-over { border-color: #3b82f6; background: #eef4fe; }
 .home-summary { background: #fff; border: 1px solid #ddd; border-radius: 8px; padding: 16px 20px; margin-top: 20px; }

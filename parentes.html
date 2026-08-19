@@ -156,6 +156,13 @@
                 <button id="hypBtnImport">Importer JSON</button>
                 <input type="file" id="hypImportInput" accept=".json" style="display:none">
             </div>
+            <label class="hyp-checkbox-label"><input type="checkbox" id="hypMergeMode"> Fusionner au lieu de remplacer (import JSON et cache)</label>
+            <div class="hyp-row">
+                <button id="hypBtnSaveCache">Enregistrer dans le cache</button>
+                <button id="hypBtnLoadCache">Charger depuis le cache</button>
+                <button id="hypBtnClearCache">Vider le cache</button>
+            </div>
+            <div class="hint" id="hypCacheStatus"></div>
         </section>
     </div>
 
