@@ -1,0 +1,954 @@
+[
+  {
+    "place": "Aigues-Mortes",
+    "cote": "3 Q 6/1",
+    "yearStart": 1837,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_AIGUES_MORTES_de-13"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/1",
+    "yearStart": 1820,
+    "yearEnd": 1828,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-33"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/2",
+    "yearStart": 1829,
+    "yearEnd": 1836,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-34"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/3",
+    "yearStart": 1837,
+    "yearEnd": 1842,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-35"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/4",
+    "yearStart": 1843,
+    "yearEnd": 1847,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-36"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/5",
+    "yearStart": 1848,
+    "yearEnd": 1855,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-37"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/6",
+    "yearStart": 1855,
+    "yearEnd": 1859,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-38"
+  },
+  {
+    "place": "Alès",
+    "cote": "4 Q 6/7",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALES_de-39"
+  },
+  {
+    "place": "Alzon",
+    "cote": "5 Q 6/1",
+    "yearStart": 1819,
+    "yearEnd": 1819,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALZON_de-16"
+  },
+  {
+    "place": "Alzon",
+    "cote": "5 Q 6/2",
+    "yearStart": 1819,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALZON_de-17"
+  },
+  {
+    "place": "Alzon",
+    "cote": "5 Q 6/3",
+    "yearStart": 1838,
+    "yearEnd": 1862,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALZON_de-18"
+  },
+  {
+    "place": "Alzon",
+    "cote": "5 Q 6/4",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ALZON_de-19"
+  },
+  {
+    "place": "Anduze",
+    "cote": "6 Q 6/1",
+    "yearStart": 1817,
+    "yearEnd": 1817,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ANDUZE_de-22"
+  },
+  {
+    "place": "Anduze",
+    "cote": "6 Q 6/2",
+    "yearStart": 1817,
+    "yearEnd": 1830,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ANDUZE_de-23"
+  },
+  {
+    "place": "Anduze",
+    "cote": "6 Q 6/3",
+    "yearStart": 1830,
+    "yearEnd": 1843,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ANDUZE_de-24"
+  },
+  {
+    "place": "Anduze",
+    "cote": "6 Q 6/4",
+    "yearStart": 1843,
+    "yearEnd": 1855,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ANDUZE_de-25"
+  },
+  {
+    "place": "Anduze",
+    "cote": "6 Q 6/5",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ANDUZE_de-26"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/1",
+    "yearStart": 1807,
+    "yearEnd": 1807,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-39"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/2",
+    "yearStart": 1807,
+    "yearEnd": 1813,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-40"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/3",
+    "yearStart": 1813,
+    "yearEnd": 1821,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-41"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/4",
+    "yearStart": 1822,
+    "yearEnd": 1831,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-42"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/5",
+    "yearStart": 1832,
+    "yearEnd": 1842,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-43"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/6",
+    "yearStart": 1842,
+    "yearEnd": 1852,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-44"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/7",
+    "yearStart": 1852,
+    "yearEnd": 1862,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-45"
+  },
+  {
+    "place": "Bagnols-sur-Cèze",
+    "cote": "7 Q 7/8",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BAGNOLS_SUR_CEZE_de-46"
+  },
+  {
+    "place": "Beaucaire",
+    "cote": "9 Q 8/1",
+    "yearStart": 1791,
+    "yearEnd": 1817,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BEAUCAIRE_de-16"
+  },
+  {
+    "place": "Beaucaire",
+    "cote": "9 Q 8/2",
+    "yearStart": 1817,
+    "yearEnd": 1827,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BEAUCAIRE_de-17"
+  },
+  {
+    "place": "Beaucaire",
+    "cote": "9 Q 8/3",
+    "yearStart": 1828,
+    "yearEnd": 1842,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_BEAUCAIRE_de-18"
+  },
+  {
+    "place": "Calvisson",
+    "cote": "13 Q 7/2",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CALVISSON_de-6"
+  },
+  {
+    "place": "Clarensac",
+    "cote": "13 Q 7/1",
+    "yearStart": 1791,
+    "yearEnd": 1791,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CLARENSAC_de-29"
+  },
+  {
+    "place": "Clarensac",
+    "cote": "13 Q 7/2",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CLARENSAC_de-30"
+  },
+  {
+    "place": "Clarensac",
+    "cote": "13 Q 7/3",
+    "yearStart": 1814,
+    "yearEnd": 1834,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CLARENSAC_de-31"
+  },
+  {
+    "place": "Clarensac",
+    "cote": "13 Q 7/4",
+    "yearStart": 1835,
+    "yearEnd": 1847,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CLARENSAC_de-32"
+  },
+  {
+    "place": "Clarensac",
+    "cote": "13 Q 7/5",
+    "yearStart": 1848,
+    "yearEnd": 1862,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CLARENSAC_de-33"
+  },
+  {
+    "place": "Clarensac",
+    "cote": "13 Q 7/6",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_CLARENSAC_de-34"
+  },
+  {
+    "place": "Génolhac",
+    "cote": "14 Q 7/1",
+    "yearStart": 1750,
+    "yearEnd": 1807,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_GENOLHAC_de-21"
+  },
+  {
+    "place": "Génolhac",
+    "cote": "14 Q 7/2",
+    "yearStart": 1807,
+    "yearEnd": 1823,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_GENOLHAC_de-22"
+  },
+  {
+    "place": "Génolhac",
+    "cote": "14 Q 7/3",
+    "yearStart": 1823,
+    "yearEnd": 1834,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_GENOLHAC_de-23"
+  },
+  {
+    "place": "Génolhac",
+    "cote": "14 Q 7/4",
+    "yearStart": 1837,
+    "yearEnd": 1845,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_GENOLHAC_de-24"
+  },
+  {
+    "place": "Génolhac",
+    "cote": "14 Q 7/5",
+    "yearStart": 1845,
+    "yearEnd": 1856,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_GENOLHAC_de-25"
+  },
+  {
+    "place": "Génolhac",
+    "cote": "14 Q 7/6",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_GENOLHAC_de-26"
+  },
+  {
+    "place": "Lasalle",
+    "cote": "16 Q 6/1",
+    "yearStart": 1822,
+    "yearEnd": 1822,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LASALLE_de-9"
+  },
+  {
+    "place": "Lasalle",
+    "cote": "16 Q 6/2",
+    "yearStart": 1823,
+    "yearEnd": 1846,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LASALLE_de-10"
+  },
+  {
+    "place": "Lasalle",
+    "cote": "16 Q 6/3",
+    "yearStart": 1847,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LASALLE_de-11"
+  },
+  {
+    "place": "Le Vigan",
+    "cote": "38 Q 8/1",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LE_VIGAN_de-25"
+  },
+  {
+    "place": "Le Vigan",
+    "cote": "38 Q 8/2",
+    "yearStart": 1813,
+    "yearEnd": 1824,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LE_VIGAN_de-26"
+  },
+  {
+    "place": "Le Vigan",
+    "cote": "38 Q 8/3",
+    "yearStart": 1824,
+    "yearEnd": 1831,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LE_VIGAN_de-27"
+  },
+  {
+    "place": "Le Vigan",
+    "cote": "38 Q 8/4",
+    "yearStart": 1831,
+    "yearEnd": 1842,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LE_VIGAN_de-28"
+  },
+  {
+    "place": "Le Vigan",
+    "cote": "38 Q 8/5",
+    "yearStart": 1842,
+    "yearEnd": 1854,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LE_VIGAN_de-29"
+  },
+  {
+    "place": "Le Vigan",
+    "cote": "38 Q 8/6",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_LE_VIGAN_de-30"
+  },
+  {
+    "place": "Montfrin",
+    "cote": "18 Q 9/1",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_MONTFRIN_de-19"
+  },
+  {
+    "place": "Montfrin",
+    "cote": "18 Q 9/3",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_MONTFRIN_de-21"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/3",
+    "yearStart": 1806,
+    "yearEnd": 1811,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-46"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/4",
+    "yearStart": 1811,
+    "yearEnd": 1816,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-47"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/5",
+    "yearStart": 1816,
+    "yearEnd": 1822,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-48"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/6",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-49"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/7",
+    "yearStart": 1828,
+    "yearEnd": 1831,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-50"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/8",
+    "yearStart": 1831,
+    "yearEnd": 1834,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-51"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/9",
+    "yearStart": 1835,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-52"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/10",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-53"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/11",
+    "yearStart": 1844,
+    "yearEnd": 1848,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-54"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/12",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-55"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/13",
+    "yearStart": 1853,
+    "yearEnd": 1857,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-56"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/14",
+    "yearStart": 1857,
+    "yearEnd": 1861,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-57"
+  },
+  {
+    "place": "Nîmes",
+    "cote": "19 Q 9/15",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_NIMES_de-58"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/1",
+    "yearStart": 1793,
+    "yearEnd": 1793,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-15"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/2",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-16"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/3",
+    "yearStart": 1820,
+    "yearEnd": 1828,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-17"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/4",
+    "yearStart": 1829,
+    "yearEnd": 1839,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-18"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/5",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-19"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/6",
+    "yearStart": 1851,
+    "yearEnd": 1862,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-20"
+  },
+  {
+    "place": "Pont-Saint-Esprit",
+    "cote": "20 Q 7/7",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_PONT_SAINT_ESPRIT_de-21"
+  },
+  {
+    "place": "Remoulins",
+    "cote": "21 Q 14/1",
+    "yearStart": 1809,
+    "yearEnd": 1823,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_REMOULINS_de-17"
+  },
+  {
+    "place": "Remoulins",
+    "cote": "21 Q 14/2",
+    "yearStart": 1824,
+    "yearEnd": 1829,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_REMOULINS_de-18"
+  },
+  {
+    "place": "Remoulins",
+    "cote": "21 Q 14/5",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_REMOULINS_de-21"
+  },
+  {
+    "place": "Roquemaure",
+    "cote": "22 Q 6/1",
+    "yearStart": 1800,
+    "yearEnd": 1817,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ROQUEMAURE_de-35"
+  },
+  {
+    "place": "Roquemaure",
+    "cote": "22 Q 6/2",
+    "yearStart": 1817,
+    "yearEnd": 1827,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ROQUEMAURE_de-36"
+  },
+  {
+    "place": "Roquemaure",
+    "cote": "22 Q 6/3",
+    "yearStart": 1827,
+    "yearEnd": 1842,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ROQUEMAURE_de-37"
+  },
+  {
+    "place": "Roquemaure",
+    "cote": "22 Q 6/4",
+    "yearStart": 1842,
+    "yearEnd": 1861,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_ROQUEMAURE_de-38"
+  },
+  {
+    "place": "Saint-André-de-Valborgne",
+    "cote": "24 Q 6/1",
+    "yearStart": 1810,
+    "yearEnd": 1823,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_ANDRE_DE_VALBORGNE_de-7"
+  },
+  {
+    "place": "Saint-André-de-Valborgne",
+    "cote": "24 Q 6/2",
+    "yearStart": 1823,
+    "yearEnd": 1835,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_ANDRE_DE_VALBORGNE_de-8"
+  },
+  {
+    "place": "Saint-André-de-Valborgne",
+    "cote": "24 Q 6/3",
+    "yearStart": 1835,
+    "yearEnd": 1857,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_ANDRE_DE_VALBORGNE_de-9"
+  },
+  {
+    "place": "Saint-André-de-Valborgne",
+    "cote": "24 Q 6/4",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_ANDRE_DE_VALBORGNE_de-10"
+  },
+  {
+    "place": "Saint-Chaptes",
+    "cote": "25 Q 6/1",
+    "yearStart": 1817,
+    "yearEnd": 1817,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_CHAPTES_de-22"
+  },
+  {
+    "place": "Saint-Chaptes",
+    "cote": "25 Q 6/2",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_CHAPTES_de-23"
+  },
+  {
+    "place": "Saint-Chaptes",
+    "cote": "25 Q 6/4",
+    "yearStart": 1828,
+    "yearEnd": 1831,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_CHAPTES_de-25"
+  },
+  {
+    "place": "Saint-Chaptes",
+    "cote": "25 Q 6/5",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_CHAPTES_de-26"
+  },
+  {
+    "place": "Saint-Chaptes",
+    "cote": "25 Q 6/7",
+    "yearStart": 1847,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_CHAPTES_de-28"
+  },
+  {
+    "place": "Saint-Gilles",
+    "cote": "26 Q 7/1",
+    "yearStart": 1810,
+    "yearEnd": 1830,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_GILLES_de-19"
+  },
+  {
+    "place": "Saint-Gilles",
+    "cote": "26 Q 7/2",
+    "yearStart": 1830,
+    "yearEnd": 1859,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_GILLES_de-20"
+  },
+  {
+    "place": "Saint-Gilles",
+    "cote": "26 Q 7/3",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_GILLES_de-21"
+  },
+  {
+    "place": "Saint-Hippolyte-du-Fort",
+    "cote": "27 Q 6/1",
+    "yearStart": 1813,
+    "yearEnd": 1828,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_HIPPOLYTE_DU_FORT_de-11"
+  },
+  {
+    "place": "Saint-Hippolyte-du-Fort",
+    "cote": "27 Q 6/2",
+    "yearStart": 1813,
+    "yearEnd": 1828,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_HIPPOLYTE_DU_FORT_de-12"
+  },
+  {
+    "place": "Saint-Hippolyte-du-Fort",
+    "cote": "27 Q 6/3",
+    "yearStart": 1850,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_HIPPOLYTE_DU_FORT_de-13"
+  },
+  {
+    "place": "Saint-Jean-du-Gard",
+    "cote": "28 Q 6/1",
+    "yearStart": 1818,
+    "yearEnd": 1818,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_JEAN_DU_GARD_de-5"
+  },
+  {
+    "place": "Saint-Jean-du-Gard",
+    "cote": "28 Q 6/2",
+    "yearStart": 1845,
+    "yearEnd": 1869,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAINT_JEAN_DU_GARD_de-6"
+  },
+  {
+    "place": "Sauve",
+    "cote": "30 Q 7/1",
+    "yearStart": 1812,
+    "yearEnd": 1822,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAUVE_de-22"
+  },
+  {
+    "place": "Sauve",
+    "cote": "30 Q 7/2",
+    "yearStart": 1822,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAUVE_de-23"
+  },
+  {
+    "place": "Sauve",
+    "cote": "30 Q 7/3",
+    "yearStart": 1818,
+    "yearEnd": 1851,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAUVE_de-24"
+  },
+  {
+    "place": "Sauve",
+    "cote": "30 Q 7/4",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SAUVE_de-25"
+  },
+  {
+    "place": "Sommières",
+    "cote": "31 Q 7/1",
+    "yearStart": 1815,
+    "yearEnd": 1825,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SOMMIERES_de-30"
+  },
+  {
+    "place": "Sommières",
+    "cote": "31 Q 7/2",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SOMMIERES_de-31"
+  },
+  {
+    "place": "Sommières",
+    "cote": "31 Q 7/3",
+    "yearStart": 1832,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SOMMIERES_de-32"
+  },
+  {
+    "place": "Sommières",
+    "cote": "31 Q 7/4",
+    "yearStart": 1837,
+    "yearEnd": 1845,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SOMMIERES_de-33"
+  },
+  {
+    "place": "Sommières",
+    "cote": "31 Q 7/5",
+    "yearStart": 1845,
+    "yearEnd": 1855,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SOMMIERES_de-34"
+  },
+  {
+    "place": "Sommières",
+    "cote": "31 Q 7/6",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SOMMIERES_de-35"
+  },
+  {
+    "place": "Sumène",
+    "cote": "32 Q 6/1",
+    "yearStart": 1809,
+    "yearEnd": 1822,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SUMENE_de-16"
+  },
+  {
+    "place": "Sumène",
+    "cote": "32 Q 6/2",
+    "yearStart": 1823,
+    "yearEnd": 1840,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SUMENE_de-17"
+  },
+  {
+    "place": "Sumène",
+    "cote": "32 Q 6/3",
+    "yearStart": 1841,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_SUMENE_de-18"
+  },
+  {
+    "place": "Uzès",
+    "cote": "34 Q 7/2",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-52"
+  },
+  {
+    "place": "Uzès",
+    "cote": "34 Q 7/3",
+    "yearStart": 1810,
+    "yearEnd": 1811,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-53"
+  },
+  {
+    "place": "Uzès",
+    "cote": "34 Q 7/4",
+    "yearStart": 1811,
+    "yearEnd": 1814,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-54"
+  },
+  {
+    "place": "Uzès",
+    "cote": "34 Q 7/5",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-55"
+  },
+  {
+    "place": "Uzès",
+    "cote": "1138 W 338",
+    "yearStart": 1830,
+    "yearEnd": 1837,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-56"
+  },
+  {
+    "place": "Uzès",
+    "cote": "34 Q 7/8",
+    "yearStart": 1838,
+    "yearEnd": 1845,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-57"
+  },
+  {
+    "place": "Uzès",
+    "cote": "1138 W 339",
+    "yearStart": 1846,
+    "yearEnd": 1852,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-58"
+  },
+  {
+    "place": "Uzès",
+    "cote": "34 Q 7/10",
+    "yearStart": 1851,
+    "yearEnd": 1860,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-59"
+  },
+  {
+    "place": "Uzès",
+    "cote": "1138 W 340",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_UZES_de-60"
+  },
+  {
+    "place": "Valleraugue",
+    "cote": "35 Q 6/1",
+    "yearStart": 1818,
+    "yearEnd": 1818,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VALLERAUGUE_de-17"
+  },
+  {
+    "place": "Valleraugue",
+    "cote": "35 Q 6/2",
+    "yearStart": 1818,
+    "yearEnd": 1834,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VALLERAUGUE_de-18"
+  },
+  {
+    "place": "Valleraugue",
+    "cote": "35 Q 6/3",
+    "yearStart": 1834,
+    "yearEnd": 1860,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VALLERAUGUE_de-19"
+  },
+  {
+    "place": "Valleraugue",
+    "cote": "35 Q 6/4",
+    "yearStart": 1861,
+    "yearEnd": 1862,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VALLERAUGUE_de-20"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/1",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-31"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/2",
+    "yearStart": 1806,
+    "yearEnd": 1822,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-32"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/4",
+    "yearStart": 1822,
+    "yearEnd": 1831,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-34"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/5",
+    "yearStart": 1832,
+    "yearEnd": 1839,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-35"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/6",
+    "yearStart": 1840,
+    "yearEnd": 1849,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-36"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/7",
+    "yearStart": 1849,
+    "yearEnd": 1857,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-37"
+  },
+  {
+    "place": "Vauvert",
+    "cote": "36 Q 7/8",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VAUVERT_de-38"
+  },
+  {
+    "place": "Vézénobres",
+    "cote": "37 Q 7/1",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VEZENOBRES_de-16"
+  },
+  {
+    "place": "Vézénobres",
+    "cote": "37 Q 7/2",
+    "yearStart": 1809,
+    "yearEnd": 1830,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VEZENOBRES_de-17"
+  },
+  {
+    "place": "Vézénobres",
+    "cote": "37 Q 7/3",
+    "yearStart": 1830,
+    "yearEnd": 1851,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VEZENOBRES_de-18"
+  },
+  {
+    "place": "Vézénobres",
+    "cote": "37 Q 7/4",
+    "yearStart": 1851,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VEZENOBRES_de-19"
+  },
+  {
+    "place": "Villeneuve-lès-Avignon",
+    "cote": "39 Q 7/1",
+    "yearStart": 1815,
+    "yearEnd": 1815,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VILLENEUVE_LES_AVIGNON_de-21"
+  },
+  {
+    "place": "Villeneuve-lès-Avignon",
+    "cote": "39 Q 7/2",
+    "yearStart": 1815,
+    "yearEnd": 1834,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VILLENEUVE_LES_AVIGNON_de-22"
+  },
+  {
+    "place": "Villeneuve-lès-Avignon",
+    "cote": "39 Q 7/3",
+    "yearStart": 1834,
+    "yearEnd": 1865,
+    "url": "https://earchives.gard.fr/archives/show/FRAD030_ENREGISTREMENT_VILLENEUVE_LES_AVIGNON_de-23"
+  }
+]

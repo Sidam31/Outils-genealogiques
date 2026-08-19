@@ -47,6 +47,48 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_31.json',
         catalogUrl: 'https://archives.haute-garonne.fr/n/enregistrement/n:352',
     },
+    '72': {
+        label: 'Sarthe',
+        // Bornes réelles de la série (113 registres scrapés, 30 lieux distincts, voir
+        // scrape_contrats_mariage_arkotheque.py). Même portail Arkothèque que 78/43, déjà mixé
+        // avec les successions sur cette même page (pas de découverte séparée nécessaire).
+        minYear: 1776,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_72.json',
+        catalogUrl: 'https://archives.sarthe.fr/archives-en-ligne/tables-de-lenregistrement-sous-serie-3-q',
+    },
+    '82': {
+        label: 'Tarn-et-Garonne',
+        // Bornes réelles de la série (106 registres scrapés, 20 bureaux, voir
+        // scrape_contrats_mariage_tarn_et_garonne.py). Même document Anaphore/Bach unique que les
+        // successions de ce département (FRAD082_IR_00383), qui mélange déjà tous les types
+        // d'actes du fonds "Enregistrement" - la table des contrats de mariage y est un noeud
+        // frère de "Table des successions et absences", filtré côté client comme elle.
+        minYear: 1755,
+        maxYear: 1866,
+        registersUrl: './assets/data/contrats_mariage_82.json',
+        catalogUrl: 'https://recherche.archives82.fr/document/FRAD082_IR_00383',
+    },
+    '30': {
+        label: 'Gard',
+        // Bornes réelles de la série (136 registres scrapés, 29 lieux, voir
+        // scrape_contrats_mariage_anaphore.py). Portail Anaphore/Bach, fonds "Enregistrement" par
+        // bureau : "Contrats de mariage" est un dossier frère de "Table alphabétique des
+        // successions et absences" dans chaque document de bureau.
+        minYear: 1750,
+        maxYear: 1869,
+        registersUrl: './assets/data/contrats_mariage_30.json',
+        catalogUrl: 'https://earchives.gard.fr/document/FRAD030_ENREGISTREMENT',
+    },
+    '22': {
+        label: "Côtes-d'Armor",
+        // Bornes réelles de la série (41 registres scrapés, 28 lieux, voir
+        // scrape_contrats_mariage_anaphore.py). Même logiciel/mécanique que le Gard.
+        minYear: 1765,
+        maxYear: 1873,
+        registersUrl: './assets/data/contrats_mariage_22.json',
+        catalogUrl: 'https://recherche.archives.cotesdarmor.fr/archives/classification-scheme',
+    },
 };
 
 function fetchJson(url) {
