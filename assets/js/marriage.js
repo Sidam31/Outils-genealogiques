@@ -156,6 +156,42 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_48.json',
         catalogUrl: 'https://archives.lozere.fr/archive/recherche/enregistrement/n:305',
     },
+    '69': {
+        label: 'Rhône',
+        // Bornes réelles de la série (175 registres scrapés, 25 lieux, voir
+        // scrape_contrats_mariage_rhone.py) : ce département n'a pas de recherche sauvegardée
+        // (formUuid) comme les autres du même portail, mais une recherche par mot-clé sur le champ
+        // "controlledAccessPhysicalCharacteristic" fonctionne directement pour "Table des contrats
+        // de mariage" comme elle le fait déjà pour les successions.
+        minYear: 1730,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_69.json',
+        catalogUrl: 'https://archives.rhone.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=Table+des+contrats+de+mariage&mode=list&sort=referencecode_asc',
+    },
+    '27': {
+        label: 'Eure',
+        // Bornes réelles de la série (137 registres scrapés, 31 lieux, voir
+        // scrape_contrats_mariage_multi.py) : même portail à formUuid que les successions de ce
+        // département, mais interrogé directement par mot-clé sur
+        // "controlledAccessPhysicalCharacteristic" (comme le Rhône) plutôt que via le formUuid
+        // d'origine (pré-filtré sur la seule série successions).
+        minYear: 1743,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_27.json',
+        catalogUrl: 'https://archives.eure.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=Table+des+contrats+de+mariage&mode=list&sort=referencecode_asc',
+    },
+    '90': {
+        label: 'Territoire de Belfort',
+        // Bornes réelles de la série (10 registres scrapés, 2 lieux, voir
+        // scrape_contrats_mariage_multi.py) : même technique que l'Eure/le Rhône (mot-clé sur
+        // "controlledAccessPhysicalCharacteristic"), sans le filtre "facet_media=image" habituel -
+        // ces notices n'ont pas d'image numérisée associée mais restent de vrais registres
+        // catalogués (cote/dates réelles).
+        minYear: 1791,
+        maxYear: 1869,
+        registersUrl: './assets/data/contrats_mariage_90.json',
+        catalogUrl: 'https://archives.territoiredebelfort.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=Table+des+contrats+de+mariage&mode=list&sort=referencecode_asc',
+    },
 };
 
 function fetchJson(url) {
