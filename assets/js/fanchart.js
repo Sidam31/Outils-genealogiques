@@ -179,7 +179,7 @@ export class FanChart {
                 .attr('dy', '.35em')
                 .style('font-size', '12px')
                 .style('pointer-events', 'none');
-            this.fitRootText(rootTextSel.node(), rootData.name, rootRadius);
+            this.fitRootText(rootTextSel.node(), rootData, rootRadius);
         }
 
         this.legend(mode, colorScale);
@@ -315,22 +315,55 @@ export class FanChart {
             .each(function(d) { self.fitText(this, d, type); });
     }
 
-    // Découpe le nom en mots utilisables pour l'affichage : [prénom, patronyme] ou [mot unique]
-    getDisplayWords(fullName) {
+    // Vrai si la personne doit être protégée : vivante (pas de décès acté) ou décédée depuis
+    // moins de 25 ans. Convention alignée sur getHistoricalWindow (timeline.js) : sans date de
+    // décès, on considère la personne comme probablement vivante.
+    isPrivate(i) {
+        if(!i || i.id === 'DUMMY') return false;
+        const deathYear = i.death?.year;
+        if(deathYear == null) return true;
+        return (new Date().getFullYear() - deathYear) < 25;
+    }
+
+    getPrivacyMode() {
+        const el = document.getElementById('privacyMode');
+        return el ? el.value : '';
+    }
+
+    // Nom formaté (HTML) pour l'infobulle, respectant le mode de protection en cours.
+    displayNameHtml(i) {
+        const words = this.getDisplayWords(i);
+        if(words.length < 2) return words[0];
+        if(this.getPrivacyMode() === 'blur' && this.isPrivate(i)) {
+            return `${words[0]} <span class="blurred-surname">${words[1]}</span>`;
+        }
+        return words.join(' ');
+    }
+
+    // Découpe le nom en mots utilisables pour l'affichage : [prénom, patronyme] ou [mot unique].
+    // En mode "mask", le patronyme des personnes protégées (voir isPrivate) est remplacé par un
+    // symbole neutre ; en mode "blur" les mots restent intacts, le flou est appliqué au rendu.
+    getDisplayWords(i) {
+        const fullName = i && i.name;
         if(!fullName || fullName === '?') return ['?'];
         const parts = fullName.trim().split(/\s+/).filter(Boolean);
         if(parts.length === 0) return ['?'];
-        if(parts.length === 1) return [parts[0]];
-        return [parts[0], parts[parts.length - 1]];
+        const words = parts.length === 1 ? [parts[0]] : [parts[0], parts[parts.length - 1]];
+        if(words.length > 1 && this.getPrivacyMode() === 'mask' && this.isPrivate(i)) {
+            words[words.length - 1] = '•••';
+        }
+        return words;
     }
 
     // Ajuste le texte d'un label d'arc pour qu'il tienne dans l'espace disponible :
     // essaie d'abord un retour à la ligne (prénom / patronyme), puis réduit la taille de police,
     // et en dernier recours tronque avec une ellipse.
     fitText(el, d, type) {
-        const words = this.getDisplayWords(d.data.name);
+        const i = d.data;
+        const words = this.getDisplayWords(i);
         const sel = d3.select(el);
         sel.text(null);
+        const blurSurname = words.length > 1 && this.getPrivacyMode() === 'blur' && this.isPrivate(i);
 
         const r = (d.y0 + d.y1) / 2;
         const angularSpan = Math.max(0, d.x1 - d.x0);
@@ -351,7 +384,8 @@ export class FanChart {
 
         if(canTwoLine) {
             const t1 = sel.append('tspan').attr('x', 0).attr('dy', '-0.1em').text(words[0]);
-            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1]);
+            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1])
+                .classed('blurred-surname', blurSurname);
             let w = Math.max(t1.node().getComputedTextLength(), t2.node().getComputedTextLength());
             if(w > availW) {
                 const scale = Math.max(availW / w, minSize / baseFontSize);
@@ -366,7 +400,12 @@ export class FanChart {
         }
 
         const full = words.join(' ');
-        sel.text(full);
+        if(blurSurname) {
+            sel.append('tspan').text(words[0] + ' ');
+            sel.append('tspan').classed('blurred-surname', true).text(words[1]);
+        } else {
+            sel.text(full);
+        }
         const w = el.getComputedTextLength();
         if(w > availW) {
             const scale = availW / w;
@@ -375,6 +414,9 @@ export class FanChart {
                 sel.style('font-size', newSize + 'px');
             } else {
                 sel.style('font-size', minSize + 'px');
+                // Le repli par troncature réécrit le texte brut de l'élément : le flou par mot
+                // (tspan dédié) est perdu pour ces rares segments minuscules, sans conséquence
+                // visuelle vu leur taille.
                 this.truncateToFit(el, full, availW);
             }
         }
@@ -396,10 +438,11 @@ export class FanChart {
     }
 
     // Ajuste le texte du nœud racine (cercle central) pour qu'il tienne dans son diamètre
-    fitRootText(el, name, radius) {
-        const words = this.getDisplayWords(name);
+    fitRootText(el, i, radius) {
+        const words = this.getDisplayWords(i);
         const sel = d3.select(el);
         sel.text(null);
+        const blurSurname = words.length > 1 && this.getPrivacyMode() === 'blur' && this.isPrivate(i);
 
         const availW = Math.max(4, radius * 1.6);
         const baseFontSize = parseFloat(window.getComputedStyle(el).fontSize) || 12;
@@ -409,7 +452,8 @@ export class FanChart {
 
         if(canTwoLine) {
             const t1 = sel.append('tspan').attr('x', 0).attr('dy', '-0.1em').text(words[0]);
-            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1]);
+            const t2 = sel.append('tspan').attr('x', 0).attr('dy', `${lineHeight}em`).text(words[1])
+                .classed('blurred-surname', blurSurname);
             let w = Math.max(t1.node().getComputedTextLength(), t2.node().getComputedTextLength());
             if(w > availW) {
                 const scale = Math.max(availW / w, minSize / baseFontSize);
@@ -423,8 +467,12 @@ export class FanChart {
             return;
         }
 
-        const full = words.join(' ');
-        sel.text(full);
+        if(blurSurname) {
+            sel.append('tspan').text(words[0] + ' ');
+            sel.append('tspan').classed('blurred-surname', true).text(words[1]);
+        } else {
+            sel.text(words.join(' '));
+        }
         const w = el.getComputedTextLength();
         if(w > availW) {
             const scale = availW / w;
@@ -615,7 +663,7 @@ export class FanChart {
         t.style.opacity = 1;
         const row = (l,v,r) => v ? `<div class="tt-row"><span class="tt-lbl">${l}</span><span>${v}</span></div>${r?`<div class="tt-raw">"${r}"</div>`:''}` : '';
         const pl = (g) => g ? (g.dept||g.country||'') : '';
-        t.innerHTML = `<strong>${i.name || '?'}</strong>
+        t.innerHTML = `<strong>${this.displayNameHtml(i)}</strong>
             ${row('Naissance', (i.birth?.year||'')+' '+pl(i.birth?.geo), i.birth?.geo?.raw)}
             ${row('Décès', (i.death?.year||'')+' '+pl(i.death?.geo)+(i.ageDeath?` (${i.ageDeath} ans)`:''), i.death?.geo?.raw)}
             ${row('Enfants', i.childCount ? `${i.childCount}${i.childrenYears?.length ? ' (' + i.childrenYears.join(', ') + ')' : ''}` : null)}

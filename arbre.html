@@ -70,6 +70,11 @@ function setupControls(controlsSlot) {
                     <option value="m_country">Pays Mariage</option>
                 </optgroup>
             </select>
+            <select id="privacyMode" title="Protection des patronymes des personnes vivantes ou récemment décédées">
+                <option value="">Patronymes: visibles</option>
+                <option value="mask">Patronymes: masqués (vivants/&lt;25 ans)</option>
+                <option value="blur">Patronymes: floutés (vivants/&lt;25 ans)</option>
+            </select>
             <button id="resetBtn" title="Réinitialiser Zoom">🏠 Home</button>
         </div>
     `;
@@ -77,11 +82,12 @@ function setupControls(controlsSlot) {
         search: document.getElementById('searchInput'),
         res: document.getElementById('searchResults'),
         depth: document.getElementById('depthSelect'),
-        mode: document.getElementById('colorMode')
+        mode: document.getElementById('colorMode'),
+        privacy: document.getElementById('privacyMode')
     };
     chart = new FanChart('chart');
 
-    [els.depth, els.mode].forEach(el => el.addEventListener('change', () => chart.render()));
+    [els.depth, els.mode, els.privacy].forEach(el => el.addEventListener('change', () => chart.render()));
     createPersonPicker({
         searchEl: els.search, resultsEl: els.res, selectedEl: null,
         getList: () => list,
