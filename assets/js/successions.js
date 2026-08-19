@@ -790,6 +790,19 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_45_bureaux.json',
         catalogUrl: 'https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions',
     },
+    '83': {
+        label: 'Var',
+        kind: 'facet',
+        // Bornes réelles de la série (2223 registres scrapés, 83 lieux, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['83']) : débloqué après découverte de la
+        // nouvelle URL de recherche (portail refondu, l'ancienne documentée pour ce département est
+        // un 404). Couverture partielle : le portail plafonne la pagination à ~10 000 résultats
+        // bruts sur ~17 400 au total, donc une partie du fonds reste hors d'atteinte pour l'instant.
+        minYear: 1770,
+        maxYear: 1975,
+        registersUrl: './assets/data/successions_83.json',
+        catalogUrl: 'https://archives.var.fr/recherche/rechercher-dans-les-archives-numerisees-et-les-inventaires/controle-des-actes-et-enregistrement',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
