@@ -192,6 +192,66 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_90.json',
         catalogUrl: 'https://archives.territoiredebelfort.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=Table+des+contrats+de+mariage&mode=list&sort=referencecode_asc',
     },
+    '71': {
+        label: 'Saône-et-Loire',
+        // Bornes réelles de la série (70 registres scrapés, 34 lieux, voir
+        // scrape_contrats_mariage_arkotheque.py) : département ABSENT de SUCCESSION_DEPTS (son
+        // fonds "Contrôle des actes et enregistrement" n'a pas de table "successions et absences"
+        // du tout, voir la liste "non couverts" ci-dessus) mais possède bien une "Table
+        // alphabétique des contrats de mariage" — repéré en resondant ce même fonds pour ce mode.
+        // Pas de cote officielle exposée sur ce déploiement (même limitation que le Maine-et-Loire
+        // pour les successions, voir DEPARTMENTS['49'] dans scrape_successions_arkotheque.py).
+        minYear: 1729,
+        maxYear: 1812,
+        registersUrl: './assets/data/contrats_mariage_71.json',
+        catalogUrl: 'https://www.archives71.fr/consulter/en-ligne/familles-et-individus/controle-des-actes-et-enregistrement',
+    },
+    '05': {
+        label: 'Hautes-Alpes',
+        // Bornes réelles de la série (79 registres scrapés, 24 lieux, voir
+        // scrape_contrats_mariage_hautes_alpes.py) : département ABSENT de SUCCESSION_DEPTS (son
+        // fonds Enregistrement en ligne n'a que les "successions collatérales", pas la table
+        // "successions et absences") mais avec une case "Mariage" (portail Ligeo Archives) donnant
+        // de vrais résultats catalogués. Particularité : le tableau de résultats ne publie pas la
+        // commune, seule la fiche individuelle de chaque notice l'expose (voir le scraper).
+        minYear: 1750,
+        maxYear: 1958,
+        registersUrl: './assets/data/contrats_mariage_05.json',
+        catalogUrl: 'https://archives.hautes-alpes.fr/archive/recherche/enregistrement/n:214',
+    },
+    '36': {
+        label: 'Indre',
+        // Bornes réelles de la série (67 registres scrapés, 17 lieux, voir
+        // scrape_contrats_mariage_arkotheque.py) : département ABSENT de SUCCESSION_DEPTS (son
+        // fonds numérisé n'a que la table pré-1825 "successions acquittées", pas "successions et
+        // absences") mais avec une "Table des contrats de mariage" bien présente dans ce fonds.
+        minYear: 1790,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_36.json',
+        catalogUrl: 'https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q',
+    },
+    '15': {
+        label: 'Cantal',
+        // Bornes réelles de la série (127 registres scrapés, 21 lieux, voir
+        // scrape_contrats_mariage_arkotheque.py) : page Arkothèque dédiée "...-numerisees"
+        // distincte de la page successions (déjà couverte, voir '15' dans SUCCESSION_DEPTS),
+        // trouvée par recherche web plutôt qu'en resondant le fonds Enregistrement général (qui
+        // n'expose pas de type_field exploitable sur ce déploiement).
+        minYear: 1731,
+        maxYear: 1867,
+        registersUrl: './assets/data/contrats_mariage_15.json',
+        catalogUrl: 'https://www.archives.cantal.fr/rechercher/genealogie/tables-des-contrats-de-mariage-numerisees',
+    },
+    '18': {
+        label: 'Cher',
+        // Bornes réelles de la série (106 registres scrapés, 29 lieux, voir
+        // scrape_contrats_mariage_arkotheque.py) : page Arkothèque dédiée séparée de la page
+        // successions (déjà couverte), trouvée par recherche web.
+        minYear: 1750,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_18.json',
+        catalogUrl: 'https://www.archives18.fr/archives-numerisees/tables-de-mariages-de-lenregistrement',
+    },
 };
 
 function fetchJson(url) {
