@@ -165,9 +165,9 @@ export class GedcomParser {
                 // place. _pendingEven reste l'objet historique utilisé par la logique occupation/recensement
                 // ci-dessous ; "entry" y est ajouté comme simple référence croisée, sans rien changer aux
                 // champs existants (hasDate/year/approx/geo/isCens/censusEntry).
-                const otherEntry = { tag:t, typeLabel:null, value:(v && v.trim()) ? v.trim() : null, year:null, approx:false, geo:null, isCens:false, isOccupation:false };
+                const otherEntry = { tag:t, typeLabel:null, value:(v && v.trim()) ? v.trim() : null, year:null, approx:false, geo:null, isCens:false, isOccupation:false, isResi:false };
                 i.otherEvents.push(otherEntry);
-                this._pendingEven = { hasDate:false, year:null, approx:false, geo:null, isCens:false, entry:otherEntry };
+                this._pendingEven = { hasDate:false, year:null, approx:false, geo:null, isCens:false, isResi:false, entry:otherEntry };
             } else {
                 this._pendingEven = null;
             }
@@ -214,6 +214,12 @@ export class GedcomParser {
                         i.events.CENS.hasDate = true; i.events.CENS.year = y; i.events.CENS.approx = approx;
                         if(this._pendingEven.censusEntry) { this._pendingEven.censusEntry.year = y; this._pendingEven.censusEntry.approx = approx; }
                     }
+                    // Idem pour un "1 EVEN"/"1 FACT" déjà confirmé comme résidence par son TYPE (voir bloc
+                    // TYPE ci-dessous) : la DATE qui suit s'écrit directement dans resiEvents.
+                    if(this._pendingEven.isResi) {
+                        i.events.RESI.hasDate = true; i.events.RESI.year = y; i.events.RESI.approx = approx;
+                        if(this._pendingEven.resiEntry) { this._pendingEven.resiEntry.year = y; this._pendingEven.resiEntry.approx = approx; }
+                    }
                 }
             }
             if(t==='PLAC') {
@@ -236,6 +242,10 @@ export class GedcomParser {
                     if(this._pendingEven.isCens) {
                         i.events.CENS.geo = stub;
                         if(this._pendingEven.censusEntry) this._pendingEven.censusEntry.geo = stub;
+                    }
+                    if(this._pendingEven.isResi) {
+                        i.events.RESI.geo = stub;
+                        if(this._pendingEven.resiEntry) this._pendingEven.resiEntry.geo = stub;
                     }
                 }
             }
@@ -271,6 +281,24 @@ export class GedcomParser {
                 entry.geo = p.geo;
                 i.censusEvents.push(entry);
                 p.censusEntry = entry;
+            }
+            // "1 EVEN"/"1 FACT" confirmé comme résidence par son TYPE (ex. "1 EVEN" / "2 TYPE Residence",
+            // rencontré dans des exports Ancestris/Gramps à la place du tag standard "1 RESI") : même
+            // mécanique que le recensement ci-dessus, pour que la mobilité résidentielle (society.js) et
+            // la frise de vie (timeline.js) en tiennent compte au même titre qu'un vrai RESI.
+            if(t==='TYPE' && (i._ctx==='EVEN' || i._ctx==='FACT') && this._pendingEven && /r[ée]sidence|domicile/i.test(v)) {
+                const p = this._pendingEven;
+                p.isResi = true;
+                if(p.entry) p.entry.isResi = true;
+                i.events.RESI.hasTag = true;
+                if(p.hasDate) { i.events.RESI.hasDate = true; i.events.RESI.year = p.year; i.events.RESI.approx = p.approx; }
+                if(p.geo) i.events.RESI.geo = p.geo;
+                const entry = this.newResiEntry();
+                entry.year = p.hasDate ? p.year : null;
+                entry.approx = p.approx;
+                entry.geo = p.geo;
+                i.resiEvents.push(entry);
+                p.resiEntry = entry;
             }
         }
         // "3 FORM" (hiérarchie propre à ce lieu) et "3 MAP / 4 LATI / 4 LONG" (coordonnées GPS),

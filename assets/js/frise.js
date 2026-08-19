@@ -185,6 +185,7 @@ export class FriseChart {
         // d'œil les déplacements de la personne ; les événements sans lieu connu gardent la couleur
         // par défaut de l'application.
         const placeColors = new PlaceColorAssigner(colors.marker);
+        let hasUnknownPlace = false; // au moins un événement sans dept/pays connu (voir placeColorKey) sur CETTE frise
         const evG = this.svg.append('g').attr('class', 'frise-events');
         laidOut.forEach(e => {
             const x = xScale(e.year);
@@ -193,6 +194,7 @@ export class FriseChart {
             const ageText = e.age != null ? ` (${e.ageEstimated ? '~' : ''}${e.age} ans)` : '';
             const text = `${e.label} : ${e.year}${e.approx ? ' (env.)' : ''}${ageText}${place ? ` — ${place}` : ''}`;
             const flip = (x + estimateTextWidth(text)) > (width - MARGIN.right);
+            if (!placeColorKey(e.geo)) hasUnknownPlace = true;
             const dotColor = placeColors.colorFor(e.geo);
 
             evG.append('line')
@@ -255,6 +257,6 @@ export class FriseChart {
             });
         }
 
-        if (this.onReady) this.onReady(this.person, life, placeColors.legend);
+        if (this.onReady) this.onReady(this.person, life, placeColors.legend, hasUnknownPlace);
     }
 }

@@ -71,10 +71,10 @@ export function buildLifeEvents(person, map, fams) {
     (person.censusEvents || []).forEach(entry => add('CENS', 'Recensement', entry.year, entry.approx, entry.geo, null));
     (person.resiEvents || []).forEach(entry => add('RESI', 'Résidence', entry.year, entry.approx, entry.geo, null));
 
-    // Les EVEN/FACT reconnus comme recensement (isCens) sont déjà représentés ci-dessus via
-    // censusEvents : les reprendre ici les afficherait en double sur la frise.
+    // Les EVEN/FACT reconnus comme recensement (isCens) ou résidence (isResi) sont déjà représentés
+    // ci-dessus via censusEvents/resiEvents : les reprendre ici les afficherait en double sur la frise.
     (person.otherEvents || []).forEach(entry => {
-        if (entry.isCens) return;
+        if (entry.isCens || entry.isResi) return;
         add('OTHER', labelForOther(entry), entry.year, entry.approx, entry.geo, entry.value);
     });
 

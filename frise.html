@@ -66,9 +66,11 @@ function renderUndated(life) {
 
 // Un swatch par lieu (département, à défaut pays) effectivement présent sur CETTE frise, dans
 // l'ordre de première apparition — la couleur est calculée par frise.js (angle d'or), on ne fait
-// ici que refléter ce qu'il a assigné.
-function renderPlaceLegend(placeLegend) {
-    const items = [`<div class="leg-item"><span class="dot" style="background:var(--frise-marker)"></span>Lieu inconnu</div>`]
+// ici que refléter ce qu'il a assigné. Le swatch "Lieu inconnu" n'est ajouté que si au moins un
+// événement de CETTE frise y est réellement associé (hasUnknownPlace) : sinon il apparaissait dans
+// toutes les légendes, même quand chaque événement avait un lieu reconnu.
+function renderPlaceLegend(placeLegend, hasUnknownPlace) {
+    const items = (hasUnknownPlace ? [`<div class="leg-item"><span class="dot" style="background:var(--frise-marker)"></span>Lieu inconnu</div>`] : [])
         .concat((placeLegend || []).map(p => `<div class="leg-item"><span class="dot" style="background:${p.color}"></span>${escapeHtml(p.label)}</div>`));
     legendPlaces.innerHTML = items.join('');
 }
@@ -93,11 +95,11 @@ function setupControls(controlsSlot) {
 
     chart = new FriseChart('chart', {
         onEmpty: person => showMessage('msg-error', `<h2>Aucun événement daté</h2><p>${escapeHtml(person?.name || 'Cette personne')} n'a aucun événement avec une année connue.</p>`),
-        onReady: (person, life, placeLegend) => {
+        onReady: (person, life, placeLegend, hasUnknownPlace) => {
             chartMessage.classList.add('hidden');
             legend.style.display = 'block';
             legendHistory.style.display = historyToggle.checked ? 'block' : 'none';
-            renderPlaceLegend(placeLegend);
+            renderPlaceLegend(placeLegend, hasUnknownPlace);
             renderUndated(life);
         }
     });
