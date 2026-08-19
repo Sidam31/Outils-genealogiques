@@ -17,6 +17,7 @@
     <button type="button" class="tab-btn" id="topModeRecensementBtn">📋 Recensement</button>
     <button type="button" class="tab-btn" id="topModeNotariatBtn">⚖ Notariat</button>
     <button type="button" class="tab-btn" id="topModeSuccessionsBtn">⚰ Successions</button>
+    <button type="button" class="tab-btn" id="topModeMariageBtn">💍 Mariage</button>
 </div>
 
 <div id="dmPanel" class="tab-panel">
@@ -185,6 +186,16 @@
             <p class="hint" style="text-align:center;"><strong>Paris</strong> ne compte qu'une seule commune pour tout le département : les registres y sont organisés par arrondissement (avec des découpages ayant changé dans le temps), une information que le GEDCOM ne renseigne généralement pas. Toutes les pistes de l'année recherchée sont donc affichées, à charge de choisir celle du bon arrondissement.</p>
             <p class="hint" style="text-align:center;">Chaque département a son propre portail d'archives, avec sa propre technique de recherche ; l'ajout d'un département suivant reprend le même mécanisme.</p>
         </div>
+        <div id="faIntroMariage" class="hidden">
+            <p class="quality-intro">Pour chaque personne mariée dans une commune connue, dans un département couvert ci-dessous et pendant la période où sa série est numérisée, un lien direct vers le(s) registre(s) du portail des Archives départementales concerné, dans la série des tables des contrats de mariage (même fonds "Enregistrement" que le mode Successions).</p>
+            <p class="hint" style="text-align:center;">
+                <strong>Haute-Garonne</strong> 1763-1866 ·
+                <strong>Haute-Loire</strong> 1737-1865 ·
+                <strong>Yvelines</strong> 1760-1865
+            </p>
+            <p class="hint" style="text-align:center;">Couverture pilote (3 départements pour l'instant, même mécanique que le mode Successions — voir <code>scripts_py/scrape_contrats_mariage_arkotheque.py</code> et <code>scrape_contrats_mariage_haute_garonne.py</code> pour en ajouter d'autres). En Haute-Garonne, 9 des 30 bureaux n'ont pas de table de contrats de mariage cataloguée dans ce fonds — aucune piste précise ne remonte pour leurs communes. En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici : ce portail n'a pas d'index nominatif sur cette série, le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis.</p>
+            <p class="hint" style="text-align:center;"><strong>Paris</strong> n'est pas couvert ici : les Archives de Paris précisent elles-mêmes que leur fichier des contrats de mariage (1889-1922) ne permet pas de retrouver l'acte sans déjà connaître le nom du notaire — l'inverse de ce que ce mode recherche (partir de la commune/année pour trouver le notaire).</p>
+        </div>
 
         <div class="options-panel">
             <div id="faRecensementOptions">
@@ -278,6 +289,24 @@
                 <tbody id="faResultsBodySuccessions"></tbody>
             </table>
         </div>
+
+        <div id="faResultsWrapMariage" class="hidden">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort-mar="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-mar="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th>Naissance</th>
+                        <th class="sortable" data-sort-mar="year">Mariage <span class="sort-arrow"></span></th>
+                        <th>Commune</th>
+                        <th>Éléments complémentaires</th>
+                        <th>Registre</th>
+                    </tr>
+                </thead>
+                <tbody id="faResultsBodyMariage"></tbody>
+            </table>
+        </div>
     </div>
 </div>
 
@@ -293,14 +322,16 @@ import {
 } from './assets/js/recensements.js';
 import { computeNotarialActLeads, loadNotairesIndex, notaireDetailUrl } from './assets/js/notaires.js';
 import { computeSuccessionLeads, loadSuccessionIndexes } from './assets/js/successions.js';
+import { computeMarriageLeads, loadMarriageIndexes } from './assets/js/marriage.js';
 import { estimateBirthYear } from './assets/js/inference.js';
 
-// --- Sous-navigation : bascule entre les quatre volets fusionnés sur cette page ---
-// (Décès manquants, puis les trois modes du volet FranceArchives, tous à plat au même niveau).
+// --- Sous-navigation : bascule entre les cinq volets fusionnés sur cette page ---
+// (Décès manquants, puis les quatre modes du volet FranceArchives, tous à plat au même niveau).
 const topModeDecesBtn = document.getElementById('topModeDecesBtn');
 const topModeRecensementBtn = document.getElementById('topModeRecensementBtn');
 const topModeNotariatBtn = document.getElementById('topModeNotariatBtn');
 const topModeSuccessionsBtn = document.getElementById('topModeSuccessionsBtn');
+const topModeMariageBtn = document.getElementById('topModeMariageBtn');
 const dmPanelEl = document.getElementById('dmPanel');
 const faPanelEl = document.getElementById('faPanel');
 function setTopMode(m) {
@@ -308,6 +339,7 @@ function setTopMode(m) {
     topModeRecensementBtn.classList.toggle('active', m === 'recensement');
     topModeNotariatBtn.classList.toggle('active', m === 'notariat');
     topModeSuccessionsBtn.classList.toggle('active', m === 'successions');
+    topModeMariageBtn.classList.toggle('active', m === 'mariage');
     dmPanelEl.classList.toggle('hidden', m !== 'deces');
     faPanelEl.classList.toggle('hidden', m === 'deces');
     if (m !== 'deces') fa.setMode(m);
@@ -316,6 +348,7 @@ topModeDecesBtn.addEventListener('click', () => setTopMode('deces'));
 topModeRecensementBtn.addEventListener('click', () => setTopMode('recensement'));
 topModeNotariatBtn.addEventListener('click', () => setTopMode('notariat'));
 topModeSuccessionsBtn.addEventListener('click', () => setTopMode('successions'));
+topModeMariageBtn.addEventListener('click', () => setTopMode('mariage'));
 
 // --- Décès manquants ---
 // Enveloppé dans une IIFE : ce volet reprend tel quel le script de l'ancienne page
@@ -493,22 +526,26 @@ const fa = (() => {
     // et charger son fichier plutôt que d'attendre le clic "Analyser".
     loadNotairesIndex();
     loadSuccessionIndexes();
+    loadMarriageIndexes();
 
     let list = [], map = new Map(), fams = new Map();
     let ancestorPersonId = null;
     let lastResults = [];
     let notarialResults = [];
     let successionResults = [];
-    let mode = 'recensement'; // 'recensement' | 'notariat' | 'successions'
+    let mariageResults = [];
+    let mode = 'recensement'; // 'recensement' | 'notariat' | 'successions' | 'mariage'
     let sortKey = 'sosa', sortDir = 1;
     let sortKeyNota = 'sosa', sortDirNota = 1;
     let sortKeySucc = 'sosa', sortDirSucc = 1;
+    let sortKeyMar = 'sosa', sortDirMar = 1;
 
     const SORT_COMPARATORS = {
         sosa: r => r.sosa ?? Infinity,
         name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
         birth: r => r.birthEst ? r.birthEst.year : Infinity,
-        death: r => r.year ?? Infinity
+        death: r => r.year ?? Infinity,
+        year: r => r.year ?? Infinity
     };
 
     function sortedResults() {
@@ -533,6 +570,14 @@ const fa = (() => {
             const ka = getKey(a), kb = getKey(b);
             const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
             return cmp * sortDirSucc;
+        });
+    }
+    function sortedMariageResults() {
+        const getKey = SORT_COMPARATORS[sortKeyMar] || SORT_COMPARATORS.sosa;
+        return [...mariageResults].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDirMar;
         });
     }
 
@@ -560,6 +605,14 @@ const fa = (() => {
             renderSuccessionResults();
         });
     });
+    document.querySelectorAll('#faPanel th.sortable[data-sort-mar]').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sortMar;
+            if (sortKeyMar === key) { sortDirMar *= -1; } else { sortKeyMar = key; sortDirMar = 1; }
+            updateSortIndicators();
+            renderMariageResults();
+        });
+    });
     function updateSortIndicators() {
         document.querySelectorAll('#faResultsWrapRecensement th.sortable').forEach(th => {
             const active = th.dataset.sort === sortKey;
@@ -576,6 +629,11 @@ const fa = (() => {
             th.classList.toggle('sort-active', active);
             th.querySelector('.sort-arrow').textContent = active ? (sortDirSucc === 1 ? '▲' : '▼') : '';
         });
+        document.querySelectorAll('#faResultsWrapMariage th.sortable').forEach(th => {
+            const active = th.dataset.sortMar === sortKeyMar;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDirMar === 1 ? '▲' : '▼') : '';
+        });
     }
 
     const analyzeBtn = document.getElementById('faAnalyzeBtn');
@@ -583,9 +641,11 @@ const fa = (() => {
     const resultsWrapRecensement = document.getElementById('faResultsWrapRecensement');
     const resultsWrapNotariat = document.getElementById('faResultsWrapNotariat');
     const resultsWrapSuccessions = document.getElementById('faResultsWrapSuccessions');
+    const resultsWrapMariage = document.getElementById('faResultsWrapMariage');
     const resultsBodyRecensement = document.getElementById('faResultsBodyRecensement');
     const resultsBodyNotariat = document.getElementById('faResultsBodyNotariat');
     const resultsBodySuccessions = document.getElementById('faResultsBodySuccessions');
+    const resultsBodyMariage = document.getElementById('faResultsBodyMariage');
     const csvBtn = document.getElementById('faCsvBtn');
     const ancestorOnlyEl = document.getElementById('faOptAncestorOnly');
     const personSearchEl = document.getElementById('faPersonSearch');
@@ -597,6 +657,7 @@ const fa = (() => {
     const introRecensementEl = document.getElementById('faIntroRecensement');
     const introNotariatEl = document.getElementById('faIntroNotariat');
     const introSuccessionsEl = document.getElementById('faIntroSuccessions');
+    const introMariageEl = document.getElementById('faIntroMariage');
 
     deptCodesInput.value = RECENSEMENT_DEPT_CODES_DEFAULT.join(', ');
     censusDatesInput.value = RECENSEMENT_DATES_DEFAULT.join(', ');
@@ -621,6 +682,7 @@ const fa = (() => {
         introRecensementEl.classList.toggle('hidden', mode !== 'recensement');
         introNotariatEl.classList.toggle('hidden', mode !== 'notariat');
         introSuccessionsEl.classList.toggle('hidden', mode !== 'successions');
+        introMariageEl.classList.toggle('hidden', mode !== 'mariage');
         recensementOptionsEl.classList.toggle('hidden', mode !== 'recensement');
         document.getElementById('faRecensementAgeOptions').classList.toggle('hidden', mode !== 'recensement');
         document.getElementById('faNotariatOptions').classList.toggle('hidden', mode !== 'notariat');
@@ -631,10 +693,15 @@ const fa = (() => {
         const hasRecensement = lastResults.length > 0;
         const hasNotariat = notarialResults.length > 0;
         const hasSuccessions = successionResults.length > 0;
+        const hasMariage = mariageResults.length > 0;
         resultsWrapRecensement.classList.toggle('hidden', !(mode === 'recensement' && hasRecensement));
         resultsWrapNotariat.classList.toggle('hidden', !(mode === 'notariat' && hasNotariat));
         resultsWrapSuccessions.classList.toggle('hidden', !(mode === 'successions' && hasSuccessions));
-        const hasCurrent = mode === 'recensement' ? hasRecensement : (mode === 'notariat' ? hasNotariat : hasSuccessions);
+        resultsWrapMariage.classList.toggle('hidden', !(mode === 'mariage' && hasMariage));
+        const hasCurrent = mode === 'recensement' ? hasRecensement
+            : mode === 'notariat' ? hasNotariat
+            : mode === 'successions' ? hasSuccessions
+            : hasMariage;
         csvBtn.classList.toggle('hidden', !hasCurrent);
     }
 
@@ -670,15 +737,25 @@ const fa = (() => {
             r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
         });
 
-        statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat, ${successionResults.length} pour les successions.`;
+        statusEl.textContent = 'Analyse en cours… (chargement des registres de contrats de mariage si besoin)';
+        const marriageIndexes = await loadMarriageIndexes();
+        mariageResults = computeMarriageLeads(list, marriageIndexes, { ancestorScopeSet: scopeSet });
+        mariageResults.forEach(r => {
+            r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
+            r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
+        });
+
+        statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat, ${successionResults.length} pour les successions, ${mariageResults.length} pour les contrats de mariage.`;
 
         sortKey = sosaMap ? 'sosa' : 'name'; sortDir = 1;
         sortKeyNota = sosaMap ? 'sosa' : 'name'; sortDirNota = 1;
         sortKeySucc = sosaMap ? 'sosa' : 'name'; sortDirSucc = 1;
+        sortKeyMar = sosaMap ? 'sosa' : 'name'; sortDirMar = 1;
         updateSortIndicators();
         renderResults();
         renderNotarialResults();
         renderSuccessionResults();
+        renderMariageResults();
         updateResultsVisibility();
     });
 
@@ -809,10 +886,10 @@ const fa = (() => {
             return `${label} : ${spouse.name || '?'} — ${status}`;
         }).filter(Boolean);
     }
-    // Colonne "Éléments complémentaires" : âge au décès, commune de naissance et statut du/des
-    // conjoint(e)(s) — des informations absentes des autres colonnes (Naissance/Décès/Commune ne
-    // montrent que l'année et la commune de DÉCÈS) mais utiles pour prioriser une piste de succession.
-    function successionExtraInfoCell(p) {
+    // Colonne "Éléments complémentaires" (successions ET mariage) : âge au décès, commune de
+    // naissance et statut du/des conjoint(e)(s) — des informations absentes des autres colonnes
+    // (Naissance/Décès ou Mariage/Commune ne montrent que l'année et la commune de l'événement).
+    function extraInfoCell(p) {
         const parts = [];
         if (p.ageDeath != null) parts.push(`Âge au décès : ${p.ageDeath} an${p.ageDeath > 1 ? 's' : ''}`);
         if (p.birth?.geo?.city) parts.push(`Né${p.sex === 'F' ? 'e' : ''} à ${p.birth.geo.city}`);
@@ -833,10 +910,47 @@ const fa = (() => {
                 <td>${birthDisplay}</td>
                 <td>${escapeHtml(formatFullDate(p.death))}</td>
                 <td>${escapeHtml(r.city)}</td>
-                <td>${successionExtraInfoCell(p)}</td>
+                <td>${extraInfoCell(p)}</td>
                 <td>${successionRegistreCell(r)}</td>
             `;
             resultsBodySuccessions.appendChild(tr);
+        });
+    }
+
+    // Registre visé par un contrat de mariage : mêmes principes d'affichage que
+    // successionRegistreCell, mais marriage.js ne produit que 'exact'/'none' (pas de repli par
+    // bureau géographique pour l'instant, couverture pilote à seulement 2 départements).
+    function mariageRegistreCell(r) {
+        if (!r.registers.length) {
+            const reason = r.contextLabel || 'Commune absente de cette série';
+            return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ ${escapeHtml(reason)}</div>
+                <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Parcourir la série manuellement</a></div>`;
+        }
+        const warn = r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '';
+        const distinctPlaces = new Set(r.registers.map(reg => reg.place));
+        const links = r.registers.map(reg =>
+            `<a class="btn-link" href="${reg.url}" target="_blank" rel="noopener">💍 ${escapeHtml(reg.cote)}${distinctPlaces.size > 1 ? ' — ' + escapeHtml(reg.place) : ''} [${reg.yearStart}-${reg.yearEnd}]</a>`
+        ).join('');
+        return `${warn}<div class="city-buttons">${links}</div>`;
+    }
+
+    function renderMariageResults() {
+        resultsBodyMariage.innerHTML = '';
+        sortedMariageResults().forEach(r => {
+            const p = r.person;
+            const tr = document.createElement('tr');
+            const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
+            tr.innerHTML = `
+                <td>${r.sosa != null ? r.sosa : '-'}</td>
+                <td>${escapeHtml(p.surname || '')}</td>
+                <td>${escapeHtml(p.given || '')}</td>
+                <td>${birthDisplay}</td>
+                <td>${r.year}</td>
+                <td>${escapeHtml(r.city)}</td>
+                <td>${extraInfoCell(p)}</td>
+                <td>${mariageRegistreCell(r)}</td>
+            `;
+            resultsBodyMariage.appendChild(tr);
         });
     }
 
@@ -888,7 +1002,7 @@ const fa = (() => {
                 });
             });
             downloadCsv('notariat_pistes.csv', headers, rows);
-        } else {
+        } else if (mode === 'successions') {
             if (!successionResults.length) return;
             const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Age au deces', 'Date deces', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Bureau le plus proche', 'Distance (km)', 'Contexte', 'Cote', 'URL registre'];
             const rows = [];
@@ -918,6 +1032,33 @@ const fa = (() => {
                 }
             });
             downloadCsv('successions_pistes.csv', headers, rows);
+        } else {
+            if (!mariageResults.length) return;
+            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Annee mariage', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Contexte', 'Cote', 'URL registre'];
+            const rows = [];
+            sortedMariageResults().forEach(r => {
+                const base = [
+                    r.sosa != null ? r.sosa : '',
+                    r.person.id,
+                    r.person.surname || '',
+                    r.person.given || '',
+                    r.birthEst ? r.birthEst.year : '',
+                    r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                    r.person.birth?.geo?.city || '',
+                    r.year,
+                    r.deptLabel,
+                    r.city,
+                    spouseSummaries(r.person).join(' | '),
+                    r.matchType,
+                    r.contextLabel || ''
+                ];
+                if (r.registers.length) {
+                    r.registers.forEach(reg => rows.push([...base, reg.cote, reg.url]));
+                } else {
+                    rows.push([...base, '', r.fallbackUrl]);
+                }
+            });
+            downloadCsv('mariage_pistes.csv', headers, rows);
         }
     });
 
