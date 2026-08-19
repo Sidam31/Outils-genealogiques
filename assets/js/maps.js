@@ -58,11 +58,12 @@ function ensureCommuneGeo(dept) {
     return communeGeoCache.get(dept);
 }
 
-// Complète en place, pour chaque individu, les coordonnées GPS manquantes (naissance/décès/mariage)
-// à partir du nom de commune déjà extrait par analyzePlace (geo.city/geo.dept), quand la commune est
-// reconnue dans la base ci-dessus. N'écrase jamais des coordonnées déjà connues (LATI/LONG du
-// GEDCOM), qui restent prioritaires. À appeler une fois après le chargement d'un GEDCOM : les objets
-// geo sont mutés une seule fois puis réutilisés par tous les rendus (filtres, curseur temporel...).
+// Complète en place, pour chaque individu, les coordonnées GPS manquantes (naissance/décès/mariage/
+// résidences) à partir du nom de commune déjà extrait par analyzePlace (geo.city/geo.dept), quand la
+// commune est reconnue dans la base ci-dessus. N'écrase jamais des coordonnées déjà connues (LATI/LONG
+// du GEDCOM), qui restent prioritaires. À appeler une fois après le chargement d'un GEDCOM : les objets
+// geo sont mutés une seule fois puis réutilisés par tous les rendus (filtres, curseur temporel, carte
+// par département...).
 export async function enrichMissingCoords(list) {
     const seen = new Set(), pending = [];
     const collect = geo => {
@@ -70,7 +71,10 @@ export async function enrichMissingCoords(list) {
         seen.add(geo);
         pending.push(geo);
     };
-    list.forEach(i => { collect(i.birth?.geo); collect(i.death?.geo); collect(i.marrGeo); });
+    list.forEach(i => {
+        collect(i.birth?.geo); collect(i.death?.geo); collect(i.marrGeo);
+        (i.resiEvents || []).forEach(r => collect(r.geo));
+    });
     if(!pending.length) return;
 
     const depts = Array.from(new Set(pending.map(g => deptCode(g.dept))));
@@ -408,6 +412,173 @@ export async function drawFranceMap(byDept, byCountry) {
             .call(d3.axisBottom(nLegendScale).tickValues(niceIntegerTicks(maxNeighborCount, 4)).tickFormat(d3.format('d')))
             .selectAll('text').style('font-size', '9px');
     }
+}
+
+// --- CARTE PAR DÉPARTEMENT (détail d'un seul département : événements géolocalisés + patronymes) ---
+// Complète la choropleth ci-dessus (une couleur par département, sur toute la France) par une vue
+// zoomée sur UN département à la fois, où chaque événement individuel redevient visible (au lieu
+// d'être noyé dans un total). Réutilise le même geojson (ensureFranceGeo) plutôt que d'en charger un
+// spécifique par département : d3.geoConicConformal().fitExtent() zoome sur le seul contour choisi.
+export const DEPT_EVENT_TYPES = {
+    BIRT: { label: 'Naissance', icon: '👶', color: '#3498db' },
+    DEAT: { label: 'Décès', icon: '⚰️', color: '#34495e' },
+    MARR: { label: 'Mariage', icon: '💍', color: '#9b59b6' },
+    RESI: { label: 'Résidence', icon: '🏠', color: '#e67e22' }
+};
+
+// Événements géolocalisables d'une personne, tous départements confondus : naissance/décès (uniques),
+// premier mariage daté (voir postProcess dans gedcom.js), et chaque résidence connue (tag RESI natif
+// ou EVEN/FACT TYPE=Résidence — voir gedcom.js). CENS/EMIG/IMMI restent hors-scope de cette vue,
+// centrée sur "où a vécu cette personne" plutôt que sur les démarches administratives ponctuelles.
+function personDeptEvents(p) {
+    const evts = [];
+    if(p.birth?.geo?.dept) evts.push({ type: 'BIRT', geo: p.birth.geo, year: p.birth.year });
+    if(p.death?.geo?.dept) evts.push({ type: 'DEAT', geo: p.death.geo, year: p.death.year });
+    if(p.marrGeo?.dept) evts.push({ type: 'MARR', geo: p.marrGeo, year: p.marrYear });
+    (p.resiEvents || []).forEach(r => { if(r.geo?.dept) evts.push({ type: 'RESI', geo: r.geo, year: r.year }); });
+    return evts;
+}
+
+// Un total d'événements par département, sur tout le fichier chargé : sert à peupler la barre de
+// sélection (défilement horizontal) et à choisir le département par défaut (celui qui en a le plus).
+export function computeDepartmentSummaries(list) {
+    const totals = new Map();
+    list.forEach(p => personDeptEvents(p).forEach(e => {
+        const code = deptCode(e.geo.dept);
+        if(code) totals.set(code, (totals.get(code) || 0) + 1);
+    }));
+    return Array.from(totals.entries())
+        .map(([code, total]) => ({ code, label: GEO.deptLabels[code] || code, total }))
+        .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'fr'));
+}
+
+// Détail d'UN département : points géolocalisés (groupés par lieu+type d'événement, pour agréger les
+// événements superposés au même endroit plutôt que d'empiler des cercles identiques) et liste des
+// patronymes qui y sont attachés (comptés en personnes DISTINCTES, pas en occurrences d'événement :
+// une personne née ET décédée dans ce département ne doit pas compter double dans sa "liste éclair").
+export function computeDepartmentDetail(list, code) {
+    const pointMap = new Map();
+    const surnameOwners = new Map(); // patronyme -> Set(id personne)
+    let totalEvents = 0, geolocated = 0;
+
+    list.forEach(p => {
+        const evts = personDeptEvents(p).filter(e => deptCode(e.geo.dept) === code);
+        if(!evts.length) return;
+        totalEvents += evts.length;
+
+        const surname = (p.surname || '').trim();
+        if(surname) {
+            if(!surnameOwners.has(surname)) surnameOwners.set(surname, new Set());
+            surnameOwners.get(surname).add(p.id);
+        }
+
+        evts.forEach(e => {
+            if(e.geo.lat == null || e.geo.lon == null) return;
+            geolocated++;
+            const key = `${e.type}:${e.geo.lat.toFixed(3)},${e.geo.lon.toFixed(3)}`;
+            if(!pointMap.has(key)) pointMap.set(key, { type: e.type, lat: e.geo.lat, lon: e.geo.lon, count: 0, items: [] });
+            const pt = pointMap.get(key);
+            pt.count++;
+            if(pt.items.length < 30) pt.items.push({ name: p.name, year: e.year });
+        });
+    });
+
+    const surnames = Array.from(surnameOwners.entries())
+        .map(([surname, ids]) => ({ surname, count: ids.size }))
+        .sort((a, b) => b.count - a.count || a.surname.localeCompare(b.surname, 'fr'));
+
+    return {
+        code, label: GEO.deptLabels[code] || code,
+        totalEvents, geolocated,
+        points: Array.from(pointMap.values()),
+        surnames
+    };
+}
+
+export async function drawDepartmentMap(containerId, code, detail) {
+    const container = d3.select(`#${containerId}`);
+    showMapMessage(containerId, 'Chargement de la carte…');
+
+    let geojsonRaw;
+    try {
+        geojsonRaw = await ensureFranceGeo();
+    } catch(err) {
+        showMapMessage(containerId, 'Impossible de charger la carte (connexion internet requise).', true);
+        return;
+    }
+    if(!document.getElementById(containerId)) return;
+    const feature = geojsonRaw.features.find(f => f.properties.code === code);
+    if(!feature) {
+        showMapMessage(containerId, `Contour introuvable pour ce département (${detail.label}).`, true);
+        return;
+    }
+
+    container.selectAll('*').remove();
+    const width = container.node().clientWidth || 500, height = 440;
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    const projection = d3.geoConicConformal().fitExtent([[24, 24], [width - 24, height - 24]], feature);
+    const path = d3.geoPath().projection(projection);
+
+    svg.append('path').datum(feature).attr('d', path)
+        .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
+
+    if(!detail.points.length) {
+        svg.append('text').attr('x', width / 2).attr('y', height / 2).attr('text-anchor', 'middle')
+            .style('font-size', '11px').style('fill', '#888')
+            .text('Aucun événement précisément géolocalisé pour ce département.');
+        return;
+    }
+
+    // Coordonnées écran calculées une fois (et non dans chaque accesseur x/y) : évite d'appeler la
+    // projection deux fois par point, et permet d'écarter proprement un point que fitExtent aurait
+    // malgré tout laissé hors cadre (arrondis de contour, rarissime mais silencieux sinon).
+    const plotted = detail.points
+        .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
+        .filter(Boolean);
+
+    const maxCount = d3.max(plotted, p => p.count) || 1;
+    const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
+    const tooltip = document.getElementById('tooltip');
+
+    svg.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
+        .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
+        .attr('fill', p => DEPT_EVENT_TYPES[p.type]?.color || '#3498db')
+        .attr('fill-opacity', 0.75).attr('stroke', '#fff').attr('stroke-width', 1)
+        .style('cursor', 'pointer')
+        .on('mouseover', function(e, p) {
+            d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+            const info = DEPT_EVENT_TYPES[p.type] || { label: p.type, icon: '•' };
+            const shown = Math.min(15, p.items.length);
+            const rows = p.items.slice(0, shown).map(it =>
+                `<div class="tt-row"><span>${escapeHtml(it.name || 'Inconnu')}</span><span>${it.year != null ? it.year : ''}</span></div>`
+            ).join('');
+            const more = p.count > shown ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${p.count - shown} autre(s)</div>` : '';
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${info.icon} ${info.label}</strong>
+                <div class="tt-row"><span>Occurrences</span><span>${p.count}</span></div>
+                <div style="margin-top:6px;max-height:200px;overflow-y:auto">${rows}${more}</div>`;
+        })
+        .on('mousemove', e => {
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+            tooltip.style.opacity = 0;
+        });
+
+    // Légende : seulement les types d'événement réellement présents sur CETTE carte (pas de bruit
+    // pour un type absent), dans l'ordre fixe DEPT_EVENT_TYPES pour rester cohérent d'un département
+    // à l'autre.
+    const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
+    const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
+    typesPresent.forEach((t, i) => {
+        const info = DEPT_EVENT_TYPES[t];
+        legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
+        legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
+            .text(`${info.icon} ${info.label}`);
+    });
 }
 
 // --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---

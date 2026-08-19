@@ -283,3 +283,20 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .society-list-item .main .title { font-weight: 600; }
 .society-list-item .main .meta { font-size: 0.78rem; color: #7f8c8d; }
 .society-list-item .badge { background: #ecf0f1; border-radius: 12px; padding: 2px 10px; font-size: 0.78rem; font-weight: 600; color: var(--accent); white-space: nowrap; }
+
+/* ONGLET "DÉPARTEMENTS" (carte zoomée sur un département + patronymes qui y sont attachés) */
+.dept-scroll-bar { display: flex; gap: 8px; overflow-x: auto; padding: 4px 2px 12px; margin-bottom: 10px; }
+.dept-chip { flex: 0 0 auto; padding: 6px 14px; border-radius: 16px; border: 1px solid var(--border); background: #f4f6f8; color: var(--text); cursor: pointer; font-size: 0.82rem; white-space: nowrap; transition: background 0.15s, color 0.15s; }
+.dept-chip:hover { background: #e8edf3; }
+.dept-chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+.dept-chip-count { opacity: 0.75; margin-left: 2px; }
+.dept-layout { display: flex; gap: 20px; align-items: flex-start; }
+.dept-map-col { flex: 2; min-width: 0; }
+.dept-side-col { flex: 1; min-width: 220px; max-width: 340px; }
+.dept-side-col h3 { color: var(--accent); margin-bottom: 8px; }
+.dept-side-col input[type="text"] { width: 100%; box-sizing: border-box; margin-bottom: 10px; }
+.dept-side-col .society-list { max-height: 480px; overflow-y: auto; padding-right: 4px; }
+@media (max-width: 860px) {
+    .dept-layout { flex-direction: column; }
+    .dept-side-col { max-width: none; width: 100%; }
+}

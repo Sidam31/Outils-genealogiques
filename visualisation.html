@@ -19,6 +19,7 @@
 <div class="subnav-bar">
     <button type="button" class="tab-btn active" id="topModeVisualisationBtn">📊 Visualisation</button>
     <button type="button" class="tab-btn" id="topModeSocieteBtn">🏛️ Société</button>
+    <button type="button" class="tab-btn" id="topModeDeptBtn">🗺️ Départements</button>
 </div>
 
 <div id="mapsPanel" class="tab-panel">
@@ -303,6 +304,39 @@
     </div>
 </div>
 
+<div id="deptPanel" class="tab-panel hidden">
+    <div class="quality-container">
+        <p class="quality-intro">Un département à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence) et les patronymes qui y sont attachés.</p>
+
+        <div id="deptStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="deptContent" class="hidden">
+            <div class="dept-scroll-bar" id="deptScrollBar"></div>
+
+            <div class="dept-layout">
+                <div class="dept-map-col">
+                    <div class="chart-box-header">
+                        <h3 id="deptMapTitle">Département</h3>
+                        <button class="chart-copy-btn" data-target="deptMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                    <div class="society-stat-grid" style="margin-bottom:10px;">
+                        <div class="society-stat-card"><div class="num" id="deptTotalEvents">–</div><div class="lbl">événements dans ce département</div></div>
+                        <div class="society-stat-card"><div class="num" id="deptGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
+                        <div class="society-stat-card"><div class="num" id="deptSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
+                    </div>
+                    <div id="deptMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                </div>
+
+                <div class="dept-side-col">
+                    <h3>📜 Liste éclair des patronymes</h3>
+                    <input type="text" id="deptSurnameFilter" placeholder="Filtrer un patronyme...">
+                    <div id="deptSurnameList" class="society-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="tooltip"></div>
 
 <script type="module">
@@ -312,25 +346,31 @@ import { getAncestorIds, decadeOf, centuryLabel, downloadCsv, escapeHtml } from 
 import {
     showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap, enrichMissingCoords,
     getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawFirstChildTrend,
-    drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury
+    drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury,
+    computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
 import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap } from './assets/js/society.js';
 import { loadCommunesPopulation } from './assets/js/communes-population.js';
 
-// --- Sous-navigation : bascule entre les deux volets fusionnés sur cette page ---
+// --- Sous-navigation : bascule entre les trois volets fusionnés sur cette page ---
 const topModeVisualisationBtn = document.getElementById('topModeVisualisationBtn');
 const topModeSocieteBtn = document.getElementById('topModeSocieteBtn');
+const topModeDeptBtn = document.getElementById('topModeDeptBtn');
 const mapsPanelEl = document.getElementById('mapsPanel');
 const societePanelEl = document.getElementById('societePanel');
+const deptPanelEl = document.getElementById('deptPanel');
 function setTopMode(m) {
     topModeVisualisationBtn.classList.toggle('active', m === 'visualisation');
     topModeSocieteBtn.classList.toggle('active', m === 'societe');
+    topModeDeptBtn.classList.toggle('active', m === 'departements');
     mapsPanelEl.classList.toggle('hidden', m !== 'visualisation');
     societePanelEl.classList.toggle('hidden', m !== 'societe');
+    deptPanelEl.classList.toggle('hidden', m !== 'departements');
 }
 topModeVisualisationBtn.addEventListener('click', () => setTopMode('visualisation'));
 topModeSocieteBtn.addEventListener('click', () => setTopMode('societe'));
+topModeDeptBtn.addEventListener('click', () => setTopMode('departements'));
 
 // --- Visualisation ---
 let exportCtl = null;
@@ -721,6 +761,62 @@ socDocDownloadBtn.addEventListener('click', () => {
         fullSparseList.map(r => [r.id, r.name, r.score, r.missing]));
 });
 
+// --- Départements ---
+const deptStatusEl = document.getElementById('deptStatus');
+const deptContentEl = document.getElementById('deptContent');
+const deptScrollBarEl = document.getElementById('deptScrollBar');
+const deptMapTitleEl = document.getElementById('deptMapTitle');
+const deptSurnameFilterEl = document.getElementById('deptSurnameFilter');
+
+let deptSummariesCache = [];
+let deptSelectedCode = null;
+let deptSurnamesCache = [];
+
+// Barre de sélection défilante : un chip par département présent dans le fichier (le plus chargé
+// en événements en premier, voir computeDepartmentSummaries), celui en cours mis en évidence.
+function renderDeptSelector() {
+    deptScrollBarEl.innerHTML = deptSummariesCache.map(s => `
+        <button type="button" class="dept-chip${s.code === deptSelectedCode ? ' active' : ''}" data-code="${s.code}">
+            ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
+        </button>
+    `).join('');
+}
+
+function renderDeptSurnameList(filterText) {
+    const f = (filterText || '').trim().toLowerCase();
+    const filtered = f ? deptSurnamesCache.filter(s => s.surname.toLowerCase().includes(f)) : deptSurnamesCache;
+    renderList('deptSurnameList', filtered.map(s => `
+        <div class="society-list-item">
+            <div class="main"><div class="title">${escapeHtml(s.surname)}</div></div>
+            <div class="badge">${s.count}</div>
+        </div>
+    `));
+}
+
+function renderDepartmentDetail() {
+    if (!deptSelectedCode) return;
+    const detail = computeDepartmentDetail(list, deptSelectedCode);
+    deptMapTitleEl.textContent = `${detail.label} (${deptSelectedCode})`;
+    setStat('deptTotalEvents', detail.totalEvents);
+    setStat('deptGeoEvents', detail.geolocated);
+    setStat('deptSurnameCount', detail.surnames.length);
+    deptSurnamesCache = detail.surnames;
+    renderDeptSurnameList(deptSurnameFilterEl.value);
+    drawDepartmentMap('deptMapChart', deptSelectedCode, detail);
+}
+
+function selectDepartment(code) {
+    deptSelectedCode = code;
+    renderDeptSelector();
+    renderDepartmentDetail();
+}
+
+deptScrollBarEl.addEventListener('click', e => {
+    const btn = e.target.closest('.dept-chip');
+    if (btn && btn.dataset.code !== deptSelectedCode) selectDepartment(btn.dataset.code);
+});
+deptSurnameFilterEl.addEventListener('input', () => renderDeptSurnameList(deptSurnameFilterEl.value));
+
 bootstrap({
     page: 'visualisation',
     onReady: controlsSlot => { exportCtl = setupExportButton(controlsSlot); },
@@ -730,18 +826,33 @@ bootstrap({
         renderMapsTab();
         // Coordonnées précises par commune : chargées à la demande (pas de blocage du rendu
         // initial, qui reste sur le repli département/pays), puis les cartes sont redessinées une
-        // fois la résolution disponible.
-        enrichMissingCoords(list).then(renderFilteredMaps);
+        // fois la résolution disponible (dont la carte par département, qui en dépend pour placer
+        // ses points).
+        enrichMissingCoords(list).then(() => { renderFilteredMaps(); if (deptSelectedCode) renderDepartmentDetail(); });
 
         if (!data.list.length) {
             societyStatus.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
             societyContent.classList.add('hidden');
+            deptStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
+            deptContentEl.classList.add('hidden');
             return;
         }
         societyStatus.textContent = `Fichier chargé (${data.list.length} individus).`;
         societyContent.classList.remove('hidden');
         const stats = computeSocietyStats(data.list, data.map, data.fams);
         renderSociety(stats);
+
+        // Département par défaut : celui qui totalise le plus d'événements (computeDepartmentSummaries
+        // trie déjà par total décroissant), pour ouvrir la vue sur la branche la plus représentée.
+        deptSummariesCache = computeDepartmentSummaries(data.list);
+        if (deptSummariesCache.length) {
+            deptStatusEl.textContent = `Fichier chargé (${data.list.length} individus).`;
+            deptContentEl.classList.remove('hidden');
+            selectDepartment(deptSummariesCache[0].code);
+        } else {
+            deptStatusEl.textContent = 'Aucun événement avec département identifié dans ce fichier.';
+            deptContentEl.classList.add('hidden');
+        }
 
         // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
         // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même
