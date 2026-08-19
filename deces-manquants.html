@@ -220,6 +220,10 @@
                 <div class="hint">Élargit de part et d'autre les dates de début/fin connues d'un notaire (souvent celles des actes retrouvés, pas forcément toute sa carrière) : augmentez si aucune piste ne ressort pour une commune où vous savez qu'un notaire exerçait.</div>
             </div>
 
+            <div class="checkbox-group hidden" id="faMariageOptions">
+                <label><input type="checkbox" id="faOptHideMariageNoMatch"> Masquer les pistes sans registre identifié (⚠ commune absente de cette série)</label>
+            </div>
+
             <div class="map-scope-row">
                 <label for="faOptAncestorOnly"><input type="checkbox" id="faOptAncestorOnly"> Uniquement les ascendants de :</label>
                 <div class="ctrl">
@@ -295,10 +299,9 @@
                 <thead>
                     <tr>
                         <th class="sortable" data-sort-mar="sosa">Sosa <span class="sort-arrow"></span></th>
-                        <th class="sortable" data-sort-mar="name">Nom <span class="sort-arrow"></span></th>
-                        <th>Prénom</th>
-                        <th>Naissance</th>
-                        <th class="sortable" data-sort-mar="year">Mariage <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort-mar="name">Mari <span class="sort-arrow"></span></th>
+                        <th>Mariée</th>
+                        <th class="sortable" data-sort-mar="year">Date de mariage <span class="sort-arrow"></span></th>
                         <th>Commune</th>
                         <th>Éléments complémentaires</th>
                         <th>Registre</th>
@@ -544,7 +547,14 @@ const fa = (() => {
         sosa: r => r.sosa ?? Infinity,
         name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
         birth: r => r.birthEst ? r.birthEst.year : Infinity,
-        death: r => r.year ?? Infinity,
+        death: r => r.year ?? Infinity
+    };
+    // Résultats "couple" (mode Mariage) : pas de r.person/r.sosa unique, donc un jeu de comparateurs
+    // séparé plutôt que de forcer SORT_COMPARATORS (partagé par les 3 autres modes) à connaître les
+    // deux conjoints - le mari sert de clé principale, la mariée en repli s'il est inconnu.
+    const MARRIAGE_SORT_COMPARATORS = {
+        sosa: r => (r.sosaHusb ?? r.sosaWife) ?? Infinity,
+        name: r => `${(r.husb || r.wife)?.surname || ''} ${(r.husb || r.wife)?.given || ''}`.toLocaleUpperCase('fr'),
         year: r => r.year ?? Infinity
     };
 
@@ -573,7 +583,7 @@ const fa = (() => {
         });
     }
     function sortedMariageResults() {
-        const getKey = SORT_COMPARATORS[sortKeyMar] || SORT_COMPARATORS.sosa;
+        const getKey = MARRIAGE_SORT_COMPARATORS[sortKeyMar] || MARRIAGE_SORT_COMPARATORS.sosa;
         return [...mariageResults].sort((a, b) => {
             const ka = getKey(a), kb = getKey(b);
             const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
@@ -686,6 +696,7 @@ const fa = (() => {
         recensementOptionsEl.classList.toggle('hidden', mode !== 'recensement');
         document.getElementById('faRecensementAgeOptions').classList.toggle('hidden', mode !== 'recensement');
         document.getElementById('faNotariatOptions').classList.toggle('hidden', mode !== 'notariat');
+        document.getElementById('faMariageOptions').classList.toggle('hidden', mode !== 'mariage');
         updateResultsVisibility();
     }
 
@@ -739,10 +750,10 @@ const fa = (() => {
 
         statusEl.textContent = 'Analyse en cours… (chargement des registres de contrats de mariage si besoin)';
         const marriageIndexes = await loadMarriageIndexes();
-        mariageResults = computeMarriageLeads(list, marriageIndexes, { ancestorScopeSet: scopeSet });
+        mariageResults = computeMarriageLeads(fams, map, marriageIndexes, { ancestorScopeSet: scopeSet });
         mariageResults.forEach(r => {
-            r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
-            r.birthEst = estimateBirthYear(r.person, map, fams); // affichage seulement, ne filtre rien ici
+            r.sosaHusb = (sosaMap && r.husb) ? (sosaMap.get(r.husb.id) ?? null) : null;
+            r.sosaWife = (sosaMap && r.wife) ? (sosaMap.get(r.wife.id) ?? null) : null;
         });
 
         statusEl.textContent = `Terminé. ${lastResults.length} personne(s) pour le recensement, ${notarialResults.length} pour le notariat, ${successionResults.length} pour les successions, ${mariageResults.length} pour les contrats de mariage.`;
@@ -944,25 +955,43 @@ const fa = (() => {
         return `${warn}<div class="city-buttons">${links}</div>`;
     }
 
+    // Colonne "Éléments complémentaires" (mode Mariage) : âge au mariage et commune de naissance
+    // pour CHAQUE conjoint (les colonnes Mari/Mariée montrent déjà le nom) - p.ageMarr est déjà
+    // calculé par gedcom.js (postProcess) à partir de l'âge ACTÉ, pas une estimation.
+    function spouseInfoLine(label, p) {
+        if (!p) return `${label} : inconnu(e)`;
+        const details = [];
+        if (p.ageMarr != null) details.push(`${p.ageMarr} an${p.ageMarr > 1 ? 's' : ''}`);
+        if (p.birth?.geo?.city) details.push(`né${p.sex === 'F' ? 'e' : ''} à ${p.birth.geo.city}`);
+        return details.length ? `${label} : ${details.join(', ')}` : `${label} : aucune info`;
+    }
+    function mariageCoupleInfoCell(r) {
+        const parts = [spouseInfoLine('Mari', r.husb), spouseInfoLine('Mariée', r.wife)];
+        return `<ul class="reason-list">${parts.map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>`;
+    }
+
     function renderMariageResults() {
         resultsBodyMariage.innerHTML = '';
+        const hideNoMatch = document.getElementById('faOptHideMariageNoMatch').checked;
         sortedMariageResults().forEach(r => {
-            const p = r.person;
+            if (hideNoMatch && !r.registers.length) return;
             const tr = document.createElement('tr');
-            const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '?';
+            const sosaDisplay = [r.sosaHusb, r.sosaWife].filter(s => s != null);
             tr.innerHTML = `
-                <td>${r.sosa != null ? r.sosa : '-'}</td>
-                <td>${escapeHtml(p.surname || '')}</td>
-                <td>${escapeHtml(p.given || '')}</td>
-                <td>${birthDisplay}</td>
-                <td>${r.year}</td>
+                <td>${sosaDisplay.length ? sosaDisplay.join(' / ') : '-'}</td>
+                <td>${r.husb ? escapeHtml(`${r.husb.surname || ''} ${r.husb.given || ''}`.trim()) : '<em>inconnu</em>'}</td>
+                <td>${r.wife ? escapeHtml(`${r.wife.surname || ''} ${r.wife.given || ''}`.trim()) : '<em>inconnue</em>'}</td>
+                <td>${escapeHtml(formatFullDate(r.marrEvent))}</td>
                 <td>${escapeHtml(r.city)}</td>
-                <td>${extraInfoCell(p)}</td>
+                <td>${mariageCoupleInfoCell(r)}</td>
                 <td>${mariageRegistreCell(r)}</td>
             `;
             resultsBodyMariage.appendChild(tr);
         });
     }
+    document.getElementById('faOptHideMariageNoMatch').addEventListener('change', () => {
+        if (mode === 'mariage') renderMariageResults();
+    });
 
     csvBtn.addEventListener('click', () => {
         if (mode === 'recensement') {
@@ -1045,21 +1074,29 @@ const fa = (() => {
             downloadCsv('successions_pistes.csv', headers, rows);
         } else {
             if (!mariageResults.length) return;
-            const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Annee mariage', 'Departement', 'Commune', 'Conjoint(e)s', 'Type de correspondance', 'Ecart annees registre', 'Contexte', 'Cote', 'URL registre'];
+            const headers = [
+                'Sosa mari', 'ID mari', 'Nom mari', 'Prenom mari', 'Age mari au mariage', 'Commune naissance mari',
+                'Sosa mariee', 'ID mariee', 'Nom mariee', 'Prenom mariee', 'Age mariee au mariage', 'Commune naissance mariee',
+                'Date mariage', 'Departement', 'Commune mariage', 'Type de correspondance', 'Ecart annees registre', 'Contexte', 'Cote', 'URL registre'
+            ];
             const rows = [];
             sortedMariageResults().forEach(r => {
                 const base = [
-                    r.sosa != null ? r.sosa : '',
-                    r.person.id,
-                    r.person.surname || '',
-                    r.person.given || '',
-                    r.birthEst ? r.birthEst.year : '',
-                    r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
-                    r.person.birth?.geo?.city || '',
-                    r.year,
+                    r.sosaHusb != null ? r.sosaHusb : '',
+                    r.husb ? r.husb.id : '',
+                    r.husb ? (r.husb.surname || '') : '',
+                    r.husb ? (r.husb.given || '') : '',
+                    r.husb?.ageMarr != null ? r.husb.ageMarr : '',
+                    r.husb?.birth?.geo?.city || '',
+                    r.sosaWife != null ? r.sosaWife : '',
+                    r.wife ? r.wife.id : '',
+                    r.wife ? (r.wife.surname || '') : '',
+                    r.wife ? (r.wife.given || '') : '',
+                    r.wife?.ageMarr != null ? r.wife.ageMarr : '',
+                    r.wife?.birth?.geo?.city || '',
+                    formatFullDate(r.marrEvent),
                     r.deptLabel,
                     r.city,
-                    spouseSummaries(r.person).join(' | '),
                     r.matchType,
                     r.yearGap || '',
                     r.contextLabel || ''

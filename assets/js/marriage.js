@@ -1,7 +1,9 @@
 // --- MARIAGE : lien direct vers les tables des contrats de mariage (fonds Enregistrement) ---
 // Même principe que successions.js (lien vers le bon registre, pas vers le bon acte précis), mais
-// indexé sur le mariage (p.marrYear/p.marrGeo, comme le mode Notariat) plutôt que le décès : seul
-// le mariage donne lieu à un contrat de mariage.
+// indexé sur la FAMILLE (f.marr, un contrat de mariage concerne le couple, pas un individu isolé) :
+// une ligne par couple, pas une ligne par personne comme les autres modes - contrairement à
+// p.marrYear (la plus ANCIENNE date de mariage d'un individu, utilisée par notaires.js), ceci
+// couvre CHAQUE mariage d'une personne qui s'est remariée, pas seulement le premier.
 //
 // Couverture pilote (2 départements, voir scripts_py/scrape_contrats_mariage_arkotheque.py) : les
 // deux sont sur le même portail "Arkothèque" que Paris/Allier (successions.js), dépouillés au sein
@@ -123,16 +125,29 @@ function resolveRegisters(idx, geo, year) {
     return { matchType: 'none', registers: [], yearGap: 0, contextLabel: null };
 }
 
+// fams: Map (voir GedcomParser.fams) — chaque famille porte son propre événement de mariage
+// (f.marr : year/geo/day/month/approx), déjà normalisé par finalizeAllGeo() comme n'importe quel
+// autre lieu du GEDCOM (geo.city/geo.dept/geo.cityChain).
+// map: Map id -> individu, pour résoudre f.husb/f.wife en objets personne complets.
 // indexes: Map département -> {config, registerIndex} (voir loadMarriageIndexes)
-// opts: { ancestorScopeSet }
-export function computeMarriageLeads(list, indexes, opts) {
+// opts: { ancestorScopeSet } — une famille est retenue si AU MOINS un des deux conjoints est dans
+// le périmètre (l'autre peut être un conjoint "entré" par mariage, hors de la lignée de sang).
+export function computeMarriageLeads(fams, map, indexes, opts) {
     opts = opts || {};
     const results = [];
-    list.forEach(p => {
-        if (opts.ancestorScopeSet && !opts.ancestorScopeSet.has(p.id)) return;
-        const year = p.marrYear;
-        const geo = p.marrGeo;
+    fams.forEach(f => {
+        if (opts.ancestorScopeSet) {
+            const husbIn = f.husb && opts.ancestorScopeSet.has(f.husb);
+            const wifeIn = f.wife && opts.ancestorScopeSet.has(f.wife);
+            if (!husbIn && !wifeIn) return;
+        }
+        const year = f.marr?.year;
+        const geo = f.marr?.geo;
         if (year == null || !geo || !geo.city || !geo.dept) return;
+
+        const husb = f.husb ? map.get(f.husb) : null;
+        const wife = f.wife ? map.get(f.wife) : null;
+        if (!husb && !wife) return; // ni époux ni épouse identifiable (ne devrait pas arriver)
 
         const dc = deptCode(geo.dept);
         const idx = indexes.get(dc);
@@ -142,7 +157,7 @@ export function computeMarriageLeads(list, indexes, opts) {
 
         const resolved = resolveRegisters(idx, geo, year);
         results.push({
-            person: p, year, city: geo.city, dept: dc, deptLabel: config.label,
+            fam: f, husb, wife, marrEvent: f.marr, year, city: geo.city, dept: dc, deptLabel: config.label,
             ...resolved,
             fallbackUrl: resolved.registers.length ? null : config.catalogUrl,
         });

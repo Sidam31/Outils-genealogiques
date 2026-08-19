@@ -353,9 +353,15 @@ export class GedcomParser {
             const target = f._ctx==='MARR' ? f.marr : f.div;
             if(t==='DATE') {
                 target.year=this.getYear(v);
+                target.approx=this.isApproxDate(v);
                 if(v && v.trim().length) target.hasDate = true;
                 target.weekday = this.getWeekday(v); // null si la date n'a pas de jour/mois exploitable
-                target.month = this.strictFullDate(v)?.month ?? null; // idem, pour la saisonnalité (mois de mariage)
+                // Jour/mois complets (comme i.death.day/month) : seulement dispo pour une date certaine
+                // — utilisé pour afficher la date de mariage complète (mode Mariage) plutôt que la
+                // seule année.
+                const full = this.strictFullDate(v);
+                target.month = full?.month ?? null;
+                target.day = full?.day ?? null;
             }
             if(t==='PLAC') {
                 const stub = this.newPlaceStub(v);
