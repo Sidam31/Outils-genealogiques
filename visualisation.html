@@ -306,7 +306,16 @@
 
 <div id="deptPanel" class="tab-panel hidden">
     <div class="quality-container">
-        <p class="quality-intro">Un département à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence) et les patronymes qui y sont attachés.</p>
+        <p class="quality-intro">Un département à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence, autre) et les patronymes qui y sont attachés.</p>
+
+        <div class="map-scope-row">
+            <label for="deptAncestorOnly"><input type="checkbox" id="deptAncestorOnly"> Uniquement les ascendants de :</label>
+            <div class="ctrl">
+                <input type="text" id="deptPersonSearch" placeholder="Rechercher une personne..." disabled>
+                <ul id="deptPersonResults"></ul>
+            </div>
+            <span id="deptPersonSelected" class="map-person-selected"></span>
+        </div>
 
         <div id="deptStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
 
@@ -767,13 +776,26 @@ const deptContentEl = document.getElementById('deptContent');
 const deptScrollBarEl = document.getElementById('deptScrollBar');
 const deptMapTitleEl = document.getElementById('deptMapTitle');
 const deptSurnameFilterEl = document.getElementById('deptSurnameFilter');
+const deptAncestorOnlyEl = document.getElementById('deptAncestorOnly');
+const deptPersonSearchEl = document.getElementById('deptPersonSearch');
+const deptPersonResultsEl = document.getElementById('deptPersonResults');
+const deptPersonSelectedEl = document.getElementById('deptPersonSelected');
 
 let deptSummariesCache = [];
 let deptSelectedCode = null;
 let deptSurnamesCache = [];
+let deptPersonId = null;
 
-// Barre de sélection défilante : un chip par département présent dans le fichier (le plus chargé
-// en événements en premier, voir computeDepartmentSummaries), celui en cours mis en évidence.
+// Périmètre courant : tout le fichier, ou seulement les ascendants de la personne choisie (même
+// logique que le filtre "Uniquement les ascendants de" de l'onglet Cartes, voir getAncestorIds).
+function deptScopedList() {
+    if (!deptAncestorOnlyEl.checked || !deptPersonId) return list;
+    const ids = new Set(getAncestorIds(map, deptPersonId));
+    return list.filter(p => ids.has(p.id));
+}
+
+// Barre de sélection défilante : un chip par département présent dans le périmètre courant (le plus
+// chargé en événements en premier, voir computeDepartmentSummaries), celui en cours mis en évidence.
 function renderDeptSelector() {
     deptScrollBarEl.innerHTML = deptSummariesCache.map(s => `
         <button type="button" class="dept-chip${s.code === deptSelectedCode ? ' active' : ''}" data-code="${s.code}">
@@ -795,7 +817,7 @@ function renderDeptSurnameList(filterText) {
 
 function renderDepartmentDetail() {
     if (!deptSelectedCode) return;
-    const detail = computeDepartmentDetail(list, deptSelectedCode);
+    const detail = computeDepartmentDetail(deptScopedList(), deptSelectedCode);
     deptMapTitleEl.textContent = `${detail.label} (${deptSelectedCode})`;
     setStat('deptTotalEvents', detail.totalEvents);
     setStat('deptGeoEvents', detail.geolocated);
@@ -811,11 +833,41 @@ function selectDepartment(code) {
     renderDepartmentDetail();
 }
 
+// Recalcule la liste des départements (et leurs totaux) pour le périmètre courant : appelé au
+// chargement du fichier ET à chaque changement du filtre ascendants (le département le plus chargé
+// peut changer selon qu'on regarde tout le fichier ou une seule branche). Garde la sélection en
+// cours si elle reste pertinente pour le nouveau périmètre, plutôt que de sauter systématiquement
+// sur le premier département — moins déstabilisant quand on affine juste le filtre.
+function refreshDeptSummaries() {
+    if (!list.length) return;
+    deptSummariesCache = computeDepartmentSummaries(deptScopedList());
+    if (!deptSummariesCache.length) {
+        deptSelectedCode = null;
+        deptContentEl.classList.add('hidden');
+        deptStatusEl.textContent = 'Aucun événement avec département identifié pour ce périmètre.';
+        return;
+    }
+    deptContentEl.classList.remove('hidden');
+    deptStatusEl.textContent = `Fichier chargé (${list.length} individus)${deptAncestorOnlyEl.checked && deptPersonId ? ' — ascendants uniquement' : ''}.`;
+    const keepSelection = deptSummariesCache.some(s => s.code === deptSelectedCode);
+    selectDepartment(keepSelection ? deptSelectedCode : deptSummariesCache[0].code);
+}
+
 deptScrollBarEl.addEventListener('click', e => {
     const btn = e.target.closest('.dept-chip');
     if (btn && btn.dataset.code !== deptSelectedCode) selectDepartment(btn.dataset.code);
 });
 deptSurnameFilterEl.addEventListener('input', () => renderDeptSurnameList(deptSurnameFilterEl.value));
+deptAncestorOnlyEl.addEventListener('change', e => {
+    deptPersonSearchEl.disabled = !e.target.checked;
+    refreshDeptSummaries();
+});
+const deptPersonPicker = createPersonPicker({
+    searchEl: deptPersonSearchEl, resultsEl: deptPersonResultsEl, selectedEl: deptPersonSelectedEl,
+    getList: () => list,
+    onSelect: p => { deptPersonId = p.id; refreshDeptSummaries(); }
+});
+wireClickAway(deptPersonResultsEl);
 
 bootstrap({
     page: 'visualisation',
@@ -829,6 +881,17 @@ bootstrap({
         // fois la résolution disponible (dont la carte par département, qui en dépend pour placer
         // ses points).
         enrichMissingCoords(list).then(() => { renderFilteredMaps(); if (deptSelectedCode) renderDepartmentDetail(); });
+
+        // Filtre "ascendants de" du panneau Départements : la personne (et le périmètre qu'elle
+        // définissait) appartenait au fichier précédent, donc sans intérêt pour celui-ci. Idem pour
+        // la sélection de département : sans ce reset, refreshDeptSummaries() la garderait si le
+        // nouveau fichier a, par coïncidence, un département de même code — pas ce qu'on veut à
+        // l'ouverture d'un nouveau fichier (seulement quand on affine juste le filtre ascendants).
+        deptPersonId = null;
+        deptSelectedCode = null;
+        deptAncestorOnlyEl.checked = false;
+        deptPersonSearchEl.disabled = true;
+        deptPersonPicker.reset();
 
         if (!data.list.length) {
             societyStatus.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
@@ -844,15 +907,7 @@ bootstrap({
 
         // Département par défaut : celui qui totalise le plus d'événements (computeDepartmentSummaries
         // trie déjà par total décroissant), pour ouvrir la vue sur la branche la plus représentée.
-        deptSummariesCache = computeDepartmentSummaries(data.list);
-        if (deptSummariesCache.length) {
-            deptStatusEl.textContent = `Fichier chargé (${data.list.length} individus).`;
-            deptContentEl.classList.remove('hidden');
-            selectDepartment(deptSummariesCache[0].code);
-        } else {
-            deptStatusEl.textContent = 'Aucun événement avec département identifié dans ce fichier.';
-            deptContentEl.classList.add('hidden');
-        }
+        refreshDeptSummaries();
 
         // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
         // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même

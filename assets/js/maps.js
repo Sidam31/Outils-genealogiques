@@ -1,5 +1,6 @@
 import { GEO, normalizePlace, deptCode } from './geo.js';
 import { escapeHtml, computeStats, decadeOf, centuryOf, periodOf, WEEKDAY_LABELS } from './utils.js';
+import { labelForOther } from './timeline.js';
 
 export function showMapMessage(containerId, text, isError) {
     d3.select(`#${containerId}`).html(`<div class="map-placeholder"${isError ? ' style="color:#c0392b"' : ''}>${text}</div>`);
@@ -423,19 +424,27 @@ export const DEPT_EVENT_TYPES = {
     BIRT: { label: 'Naissance', icon: '👶', color: '#3498db' },
     DEAT: { label: 'Décès', icon: '⚰️', color: '#34495e' },
     MARR: { label: 'Mariage', icon: '💍', color: '#9b59b6' },
-    RESI: { label: 'Résidence', icon: '🏠', color: '#e67e22' }
+    RESI: { label: 'Résidence', icon: '🏠', color: '#e67e22' },
+    OTHER: { label: 'Autre', icon: '📌', color: '#16a085' }
 };
 
 // Événements géolocalisables d'une personne, tous départements confondus : naissance/décès (uniques),
-// premier mariage daté (voir postProcess dans gedcom.js), et chaque résidence connue (tag RESI natif
-// ou EVEN/FACT TYPE=Résidence — voir gedcom.js). CENS/EMIG/IMMI restent hors-scope de cette vue,
-// centrée sur "où a vécu cette personne" plutôt que sur les démarches administratives ponctuelles.
+// premier mariage daté (voir postProcess dans gedcom.js), chaque résidence connue (tag RESI natif ou
+// EVEN/FACT TYPE=Résidence — voir gedcom.js), et tout autre fait localisé (otherEvents : ADOP, GRAD,
+// TITL... ou EVEN/FACT générique — voir OTHER_EVENT_TAG_LABELS dans gedcom.js), regroupés sous "Autre".
+// isCens/isResi sont exclus d'"Autre" : ces faits sont DÉJÀ comptés ci-dessus via resiEvents (et
+// exclus de censusEvents ici, hors-scope de cette vue) — les reprendre ferait doublon sur la carte,
+// même piège que celui déjà géré par buildLifeEvents (timeline.js) pour la frise de vie.
+// EMIG/IMMI restent hors-scope, centrée sur "où a vécu cette personne" plutôt que les migrations.
 function personDeptEvents(p) {
     const evts = [];
     if(p.birth?.geo?.dept) evts.push({ type: 'BIRT', geo: p.birth.geo, year: p.birth.year });
     if(p.death?.geo?.dept) evts.push({ type: 'DEAT', geo: p.death.geo, year: p.death.year });
     if(p.marrGeo?.dept) evts.push({ type: 'MARR', geo: p.marrGeo, year: p.marrYear });
     (p.resiEvents || []).forEach(r => { if(r.geo?.dept) evts.push({ type: 'RESI', geo: r.geo, year: r.year }); });
+    (p.otherEvents || []).forEach(oe => {
+        if(oe.geo?.dept && !oe.isCens && !oe.isResi) evts.push({ type: 'OTHER', geo: oe.geo, year: oe.year, factLabel: labelForOther(oe) });
+    });
     return evts;
 }
 
@@ -476,10 +485,10 @@ export function computeDepartmentDetail(list, code) {
             if(e.geo.lat == null || e.geo.lon == null) return;
             geolocated++;
             const key = `${e.type}:${e.geo.lat.toFixed(3)},${e.geo.lon.toFixed(3)}`;
-            if(!pointMap.has(key)) pointMap.set(key, { type: e.type, lat: e.geo.lat, lon: e.geo.lon, count: 0, items: [] });
+            if(!pointMap.has(key)) pointMap.set(key, { type: e.type, lat: e.geo.lat, lon: e.geo.lon, city: e.geo.city || null, count: 0, items: [] });
             const pt = pointMap.get(key);
             pt.count++;
-            if(pt.items.length < 30) pt.items.push({ name: p.name, year: e.year });
+            if(pt.items.length < 30) pt.items.push({ name: p.name, year: e.year, factLabel: e.factLabel || null });
         });
     });
 
@@ -514,71 +523,117 @@ export async function drawDepartmentMap(containerId, code, detail) {
     }
 
     container.selectAll('*').remove();
-    const width = container.node().clientWidth || 500, height = 440;
-    const svg = container.append('svg').attr('width', width).attr('height', height);
+    const height = 440;
+    // La "liste éclair" des patronymes est dessinée EN SVG, dans une colonne à droite de la carte
+    // (plutôt qu'en HTML à côté) : le bouton "copier l'image" (copySvgAsPng, utils.js) ne sérialise
+    // QUE le <svg> ciblé, donc c'est le seul moyen pour qu'elle apparaisse dans l'image copiée/
+    // partagée. La colonne HTML #deptSurnameList (filtrable, scrollable, non tronquée) reste la
+    // référence pour un usage interactif ; celle-ci n'en est qu'un aperçu figé, plafonné à ce qui
+    // tient verticalement. Sautée sous un seuil de largeur : pas la place de l'afficher lisiblement.
+    const containerWidth = container.node().clientWidth || 720;
+    const listWidth = containerWidth >= 560 ? 200 : 0;
+    const mapWidth = containerWidth - listWidth;
+    const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
 
-    const projection = d3.geoConicConformal().fitExtent([[24, 24], [width - 24, height - 24]], feature);
+    const projection = d3.geoConicConformal().fitExtent([[24, 24], [mapWidth - 24, height - 24]], feature);
     const path = d3.geoPath().projection(projection);
 
     svg.append('path').datum(feature).attr('d', path)
         .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
 
     if(!detail.points.length) {
-        svg.append('text').attr('x', width / 2).attr('y', height / 2).attr('text-anchor', 'middle')
+        svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
             .style('font-size', '11px').style('fill', '#888')
             .text('Aucun événement précisément géolocalisé pour ce département.');
-        return;
+    } else {
+        // Coordonnées écran calculées une fois (et non dans chaque accesseur x/y) : évite d'appeler la
+        // projection deux fois par point, et permet d'écarter proprement un point que fitExtent aurait
+        // malgré tout laissé hors cadre (arrondis de contour, rarissime mais silencieux sinon).
+        const plotted = detail.points
+            .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
+            .filter(Boolean);
+
+        const maxCount = d3.max(plotted, p => p.count) || 1;
+        const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
+        const tooltip = document.getElementById('tooltip');
+
+        svg.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
+            .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
+            .attr('fill', p => DEPT_EVENT_TYPES[p.type]?.color || '#3498db')
+            .attr('fill-opacity', 0.75).attr('stroke', '#fff').attr('stroke-width', 1)
+            .style('cursor', 'pointer')
+            .on('mouseover', function(e, p) {
+                d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+                const info = DEPT_EVENT_TYPES[p.type] || { label: p.type, icon: '•' };
+                const shown = Math.min(15, p.items.length);
+                const rows = p.items.slice(0, shown).map(it => {
+                    // factLabel (surtout utile sous "Autre", voir personDeptEvents) : les faits
+                    // regroupés sous ce type peuvent être de nature très différente (adoption, diplôme,
+                    // fait personnalisé...) d'une personne à l'autre au même endroit, contrairement à
+                    // BIRT/DEAT/MARR/RESI où le type du point suffit déjà à savoir de quoi il s'agit.
+                    const label = it.factLabel ? `${escapeHtml(it.name || 'Inconnu')} — ${escapeHtml(it.factLabel)}` : escapeHtml(it.name || 'Inconnu');
+                    return `<div class="tt-row"><span>${label}</span><span>${it.year != null ? it.year : ''}</span></div>`;
+                }).join('');
+                const more = p.count > shown ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${p.count - shown} autre(s)</div>` : '';
+                tooltip.style.opacity = 1;
+                tooltip.innerHTML = `<strong>${info.icon} ${info.label}${p.city ? ' — ' + escapeHtml(p.city) : ''}</strong>
+                    <div class="tt-row"><span>Occurrences</span><span>${p.count}</span></div>
+                    <div style="margin-top:6px;max-height:200px;overflow-y:auto">${rows}${more}</div>`;
+            })
+            .on('mousemove', e => {
+                tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+                tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+            })
+            .on('mouseout', function() {
+                d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+                tooltip.style.opacity = 0;
+            });
+
+        // Légende : seulement les types d'événement réellement présents sur CETTE carte (pas de bruit
+        // pour un type absent), dans l'ordre fixe DEPT_EVENT_TYPES pour rester cohérent d'un
+        // département à l'autre.
+        const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
+        const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
+        typesPresent.forEach((t, i) => {
+            const info = DEPT_EVENT_TYPES[t];
+            legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
+            legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
+                .text(`${info.icon} ${info.label}`);
+        });
     }
 
-    // Coordonnées écran calculées une fois (et non dans chaque accesseur x/y) : évite d'appeler la
-    // projection deux fois par point, et permet d'écarter proprement un point que fitExtent aurait
-    // malgré tout laissé hors cadre (arrondis de contour, rarissime mais silencieux sinon).
-    const plotted = detail.points
-        .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
-        .filter(Boolean);
+    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
+}
 
-    const maxCount = d3.max(plotted, p => p.count) || 1;
-    const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
-    const tooltip = document.getElementById('tooltip');
+// Colonne "Liste éclair" dessinée dans le <svg> de la carte (voir drawDepartmentMap) : plafonnée au
+// nombre de lignes qui tiennent verticalement (rowHeight fixe), le reste résumé en "+N autres" plutôt
+// que débordé hors du cadre — la liste HTML #deptSurnameList à côté reste, elle, non tronquée.
+function drawDeptSurnamePanel(svg, x0, panelWidth, height, surnames) {
+    svg.append('line').attr('x1', x0).attr('x2', x0).attr('y1', 10).attr('y2', height - 10).attr('stroke', '#ddd');
 
-    svg.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
-        .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
-        .attr('fill', p => DEPT_EVENT_TYPES[p.type]?.color || '#3498db')
-        .attr('fill-opacity', 0.75).attr('stroke', '#fff').attr('stroke-width', 1)
-        .style('cursor', 'pointer')
-        .on('mouseover', function(e, p) {
-            d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
-            const info = DEPT_EVENT_TYPES[p.type] || { label: p.type, icon: '•' };
-            const shown = Math.min(15, p.items.length);
-            const rows = p.items.slice(0, shown).map(it =>
-                `<div class="tt-row"><span>${escapeHtml(it.name || 'Inconnu')}</span><span>${it.year != null ? it.year : ''}</span></div>`
-            ).join('');
-            const more = p.count > shown ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${p.count - shown} autre(s)</div>` : '';
-            tooltip.style.opacity = 1;
-            tooltip.innerHTML = `<strong>${info.icon} ${info.label}</strong>
-                <div class="tt-row"><span>Occurrences</span><span>${p.count}</span></div>
-                <div style="margin-top:6px;max-height:200px;overflow-y:auto">${rows}${more}</div>`;
-        })
-        .on('mousemove', e => {
-            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
-            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
-        })
-        .on('mouseout', function() {
-            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
-            tooltip.style.opacity = 0;
-        });
+    const g = svg.append('g').attr('transform', `translate(${x0 + 16}, 22)`);
+    g.append('text').attr('x', 0).attr('y', 0).style('font-size', '12px').style('font-weight', 700).style('fill', '#2c3e50')
+        .text('📜 Liste éclair');
+    g.append('text').attr('x', 0).attr('y', 15).style('font-size', '9px').style('fill', '#888')
+        .text(`${surnames.length} patronyme${surnames.length > 1 ? 's' : ''}`);
 
-    // Légende : seulement les types d'événement réellement présents sur CETTE carte (pas de bruit
-    // pour un type absent), dans l'ordre fixe DEPT_EVENT_TYPES pour rester cohérent d'un département
-    // à l'autre.
-    const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
-    const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
-    typesPresent.forEach((t, i) => {
-        const info = DEPT_EVENT_TYPES[t];
-        legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
-        legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
-            .text(`${info.icon} ${info.label}`);
+    const rowHeight = 15, startY = 34, maxRows = Math.max(0, Math.floor((height - startY - 14) / rowHeight));
+    const shown = surnames.slice(0, maxRows);
+    const countX = panelWidth - 32;
+
+    shown.forEach((s, i) => {
+        const y = startY + i * rowHeight;
+        g.append('text').attr('x', 0).attr('y', y).style('font-size', '10.5px').style('fill', '#333')
+            .text(s.surname.length > 18 ? s.surname.slice(0, 17) + '…' : s.surname)
+            .append('title').text(s.surname);
+        g.append('text').attr('x', countX).attr('y', y).attr('text-anchor', 'end')
+            .style('font-size', '10px').style('fill', '#7f8c8d').text(s.count);
     });
+    if(surnames.length > shown.length) {
+        g.append('text').attr('x', 0).attr('y', startY + shown.length * rowHeight)
+            .style('font-size', '9px').style('font-style', 'italic').style('fill', '#999')
+            .text(`+ ${surnames.length - shown.length} autre(s)`);
+    }
 }
 
 // --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---

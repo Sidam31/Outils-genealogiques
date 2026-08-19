@@ -508,16 +508,12 @@ export class GedcomParser {
             // (i.name) partout dans l'appli, sans toucher à given/surname.
             if(i._curNameBuf) { i._names.push(i._curNameBuf); i._curNameBuf = null; }
             if(i._names.length) {
-                const aliasEntry = i._names.find(n => n.type && /aka|nickname|alias/.test(n.type));
-                const primaryEntry = i._names.find(n => n.type === 'birth') || i._names.find(n => !n.type) || i._names[0];
-                if(primaryEntry) {
-                    i.name = primaryEntry.full || i.name;
-                    if(primaryEntry.given) i.given = primaryEntry.given;
-                    if(primaryEntry.surname) i.surname = primaryEntry.surname;
-                }
-                i.legalName = primaryEntry ? primaryEntry.full : i.name;
-                i.aliasName = aliasEntry ? aliasEntry.full : null;
-                if(i.aliasName) i.name = i.aliasName;
+                // Plusieurs "1 NAME" peuvent coexister (nom légal, alias/pseudonyme...) : on ne
+                // retient que le tout premier rencontré dans le fichier, les suivants sont ignorés.
+                const primaryEntry = i._names[0];
+                i.name = primaryEntry.full || i.name;
+                if(primaryEntry.given) i.given = primaryEntry.given;
+                if(primaryEntry.surname) i.surname = primaryEntry.surname;
             }
             delete i._names; delete i._curNameBuf;
             if(i.famc) { const f=this.fams.get(i.famc); if(f) { if(f.husb) i.fatherId=f.husb; if(f.wife) i.motherId=f.wife; } }

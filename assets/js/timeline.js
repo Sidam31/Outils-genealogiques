@@ -11,7 +11,7 @@ import { estimateBirthYear } from './inference.js';
 //   (c'est généralement lui qui porte la description saisie par le généalogiste, ex. "Domicile",
 //   "Condamnation", "Service militaire"), la valeur brute de la ligne "1 EVEN"/"1 FACT" venant en
 //   complément si elle apporte une info distincte.
-function labelForOther(entry) {
+export function labelForOther(entry) {
     if (entry.tagLabel && entry.typeLabel && entry.typeLabel !== entry.tagLabel) return `${entry.tagLabel} : ${entry.typeLabel}`;
     if (entry.typeLabel && entry.value && entry.value !== entry.typeLabel) return `${entry.typeLabel} : ${entry.value}`;
     return entry.tagLabel || entry.typeLabel || entry.value || 'Événement';
