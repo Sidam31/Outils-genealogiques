@@ -5,7 +5,8 @@
     "detail": "N°2. 1er janvier 1790-31 décembre 1809",
     "yearStart": 1790,
     "yearEnd": 1809,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb38b71"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb38b71",
+    "digitized": true
   },
   {
     "place": "Châtre (La)",
@@ -13,7 +14,8 @@
     "detail": "N°9. 1791-1810",
     "yearStart": 1791,
     "yearEnd": 1810,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f2513ee"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f2513ee",
+    "digitized": true
   },
   {
     "place": "Bélâbre",
@@ -21,7 +23,8 @@
     "detail": "N°2. 1792-1806",
     "yearStart": 1792,
     "yearEnd": 1806,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e6372b1"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e6372b1",
+    "digitized": true
   },
   {
     "place": "Blanc (Le)",
@@ -29,7 +32,8 @@
     "detail": "An II-1er juillet 1811",
     "yearStart": 1811,
     "yearEnd": 1811,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9748c2"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9748c2",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -37,7 +41,8 @@
     "detail": "N°3. 1er avril 1793-3 nivôse an IX",
     "yearStart": 1793,
     "yearEnd": 1793,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58b584"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58b584",
+    "digitized": true
   },
   {
     "place": "Levroux",
@@ -45,7 +50,8 @@
     "detail": "N°2. 5 avril 1793-1er janvier 1809",
     "yearStart": 1793,
     "yearEnd": 1809,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f9867dd"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f9867dd",
+    "digitized": true
   },
   {
     "place": "Mézières-en-Brenne",
@@ -53,7 +59,8 @@
     "detail": "N°2. 2 décembre 1793-31 décembre 1826",
     "yearStart": 1793,
     "yearEnd": 1826,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fadcf46"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fadcf46",
+    "digitized": true
   },
   {
     "place": "Poulaines",
@@ -61,7 +68,26 @@
     "detail": "N°1. 10 février 1793-1er vendémiaire an XI",
     "yearStart": 1793,
     "yearEnd": 1793,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fce3df0"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fce3df0",
+    "digitized": true
+  },
+  {
+    "place": "Vatan",
+    "cote": "3 Q 3284",
+    "detail": "N°2. 1793-1er vendémiaire an VI",
+    "yearStart": 1793,
+    "yearEnd": 1793,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
+  },
+  {
+    "place": "Valençay",
+    "cote": "3 Q 3143",
+    "detail": "N°[3]. 12 fructidor an II-11 janvier 1809",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Argenton-sur-Creuse",
@@ -69,7 +95,8 @@
     "detail": "N°3. An V-1813",
     "yearStart": 1813,
     "yearEnd": 1813,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e57fff7"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e57fff7",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -77,7 +104,17 @@
     "detail": "N°6. 15 pluviôse an V-11 thermidor an IX",
     "yearStart": 1796,
     "yearEnd": 1800,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584eef2ecd"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584eef2ecd",
+    "digitized": true
+  },
+  {
+    "place": "Vatan",
+    "cote": "3 Q 3285",
+    "detail": "N°3. 1er vendémiaire an VI-1er janvier 1809",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Issoudun",
@@ -85,7 +122,8 @@
     "detail": "N°4. 3 nivôse an IX-1er vendémiaire an XI",
     "yearStart": 1800,
     "yearEnd": 1802,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58c856"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58c856",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -93,7 +131,8 @@
     "detail": "N°5. 3 nivôse an IX-31 décembre 1807",
     "yearStart": 1807,
     "yearEnd": 1807,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58e166"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58e166",
+    "digitized": true
   },
   {
     "place": "Cluis",
@@ -101,7 +140,8 @@
     "detail": "N°2. An XI-1812",
     "yearStart": 1812,
     "yearEnd": 1812,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f3d322c"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f3d322c",
+    "digitized": true
   },
   {
     "place": "Poulaines",
@@ -109,7 +149,8 @@
     "detail": "N°[2]. An XI-31 décembre 1811",
     "yearStart": 1811,
     "yearEnd": 1811,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fe31edf"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fe31edf",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -117,7 +158,8 @@
     "detail": "N°7. 12 thermidor an IX-31 décembre 1807",
     "yearStart": 1807,
     "yearEnd": 1807,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef008c0"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef008c0",
+    "digitized": true
   },
   {
     "place": "Buzançais",
@@ -125,7 +167,8 @@
     "detail": "N°2. 1806-1812",
     "yearStart": 1806,
     "yearEnd": 1812,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ebac2e5"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ebac2e5",
+    "digitized": true
   },
   {
     "place": "Bélâbre",
@@ -133,7 +176,8 @@
     "detail": "N°3. 1807-1818",
     "yearStart": 1807,
     "yearEnd": 1818,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e6398a4"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e6398a4",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -141,7 +185,8 @@
     "detail": "N°8. 1er janvier 1808-1er juillet 1815",
     "yearStart": 1808,
     "yearEnd": 1815,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef0304c"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef0304c",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -149,7 +194,8 @@
     "detail": "N°6. 1er janvier 1808-1er janvier 1810",
     "yearStart": 1808,
     "yearEnd": 1810,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58fd38"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f58fd38",
+    "digitized": true
   },
   {
     "place": "Argenton-sur-Creuse",
@@ -157,7 +203,26 @@
     "detail": "N°4. 1809-1814",
     "yearStart": 1809,
     "yearEnd": 1814,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e58815c"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e58815c",
+    "digitized": true
+  },
+  {
+    "place": "Valençay",
+    "cote": "3 Q 3144",
+    "detail": "N°[4]. 12 janvier 1809-1er janvier 1818",
+    "yearStart": 1809,
+    "yearEnd": 1818,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
+  },
+  {
+    "place": "Vatan",
+    "cote": "3 Q 3286",
+    "detail": "N°4. 1er janvier 1809-30 juin 1815",
+    "yearStart": 1809,
+    "yearEnd": 1815,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Issoudun",
@@ -165,7 +230,8 @@
     "detail": "N°7. 1er janvier 1810-9 février 1814",
     "yearStart": 1810,
     "yearEnd": 1814,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f591a88"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f591a88",
+    "digitized": true
   },
   {
     "place": "Neuvy-Saint-Sépulchre",
@@ -173,7 +239,8 @@
     "detail": "N°3. Année 1810",
     "yearStart": 1810,
     "yearEnd": 1810,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb3ad62"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb3ad62",
+    "digitized": true
   },
   {
     "place": "Blanc (Le)",
@@ -181,7 +248,8 @@
     "detail": "1er juillet 1811-31 décembre 1820",
     "yearStart": 1811,
     "yearEnd": 1820,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9764c4"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9764c4",
+    "digitized": true
   },
   {
     "place": "Buzançais",
@@ -189,7 +257,8 @@
     "detail": "N°3. 1812-1833",
     "yearStart": 1812,
     "yearEnd": 1833,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ebae576"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ebae576",
+    "digitized": true
   },
   {
     "place": "Poulaines",
@@ -197,7 +266,8 @@
     "detail": "N°[3]. 1er janvier 1812-1er janvier 1815",
     "yearStart": 1812,
     "yearEnd": 1815,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fe342e1"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fe342e1",
+    "digitized": true
   },
   {
     "place": "Cluis",
@@ -205,7 +275,8 @@
     "detail": "N°3. Année 1813",
     "yearStart": 1813,
     "yearEnd": 1813,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f3d4259"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f3d4259",
+    "digitized": true
   },
   {
     "place": "Saint-Benoît-du-Sault",
@@ -213,7 +284,17 @@
     "detail": "N°5. 31 décembre 1813-1er octobre 1828",
     "yearStart": 1813,
     "yearEnd": 1828,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ffa7770"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ffa7770",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gaultier",
+    "cote": "3 Q 6816",
+    "detail": "1813-1865",
+    "yearStart": 1813,
+    "yearEnd": 1865,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Aigurande",
@@ -221,7 +302,8 @@
     "detail": "N°5. 1814-1827",
     "yearStart": 1814,
     "yearEnd": 1827,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e10c433"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e10c433",
+    "digitized": true
   },
   {
     "place": "Éguzon",
@@ -229,7 +311,8 @@
     "detail": "1814-1843",
     "yearStart": 1814,
     "yearEnd": 1843,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f410de4"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f410de4",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -237,7 +320,8 @@
     "detail": "N°8. 9 février 1814-31 décembre 1824",
     "yearStart": 1814,
     "yearEnd": 1824,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f6e741b"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f6e741b",
+    "digitized": true
   },
   {
     "place": "Neuvy-Saint-Sépulchre",
@@ -245,7 +329,8 @@
     "detail": "N°1. 1er janvier 1814-31 décembre 1838",
     "yearStart": 1814,
     "yearEnd": 1838,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb3c668"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb3c668",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -253,7 +338,8 @@
     "detail": "N°9. 1er juillet 1815-31 décembre 1824",
     "yearStart": 1815,
     "yearEnd": 1824,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef05c81"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef05c81",
+    "digitized": true
   },
   {
     "place": "Poulaines",
@@ -261,7 +347,26 @@
     "detail": "N°4. 1815-1828",
     "yearStart": 1815,
     "yearEnd": 1828,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fe359a9"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fe359a9",
+    "digitized": true
+  },
+  {
+    "place": "Vatan",
+    "cote": "3 Q 3287",
+    "detail": "N°5. 1er juillet 1815-1er juin 1845",
+    "yearStart": 1815,
+    "yearEnd": 1845,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
+  },
+  {
+    "place": "Valençay",
+    "cote": "3 Q 3148",
+    "detail": "N°5. 1er janvier 1818-1er mars 1835",
+    "yearStart": 1818,
+    "yearEnd": 1835,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Argenton-sur-Creuse",
@@ -269,7 +374,8 @@
     "detail": "N°5. 1819-1843",
     "yearStart": 1819,
     "yearEnd": 1843,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e5899e7"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e5899e7",
+    "digitized": true
   },
   {
     "place": "Bélâbre",
@@ -277,7 +383,8 @@
     "detail": "N°4. 1819-1841",
     "yearStart": 1819,
     "yearEnd": 1841,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e63d53e"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e63d53e",
+    "digitized": true
   },
   {
     "place": "Levroux",
@@ -285,7 +392,8 @@
     "detail": "N°4. 1er avril 1820-20 décembre 1854",
     "yearStart": 1820,
     "yearEnd": 1854,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f987c19"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f987c19",
+    "digitized": true
   },
   {
     "place": "Châtre (La)",
@@ -293,7 +401,17 @@
     "detail": "N°11. 1821-1835",
     "yearStart": 1821,
     "yearEnd": 1835,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f253714"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f253714",
+    "digitized": true
+  },
+  {
+    "place": "Tournon-Saint-Martin",
+    "cote": "3 Q 3005",
+    "detail": "23 juillet 1821-25 juillet 1826",
+    "yearStart": 1821,
+    "yearEnd": 1826,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Blanc (Le)",
@@ -301,7 +419,8 @@
     "detail": "1er janvier 1822-1831",
     "yearStart": 1822,
     "yearEnd": 1831,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e978cfb"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e978cfb",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -309,7 +428,8 @@
     "detail": "N°10. 1er janvier 1825-8 février 1839",
     "yearStart": 1825,
     "yearEnd": 1839,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef085ff"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef085ff",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -317,7 +437,8 @@
     "detail": "N°9. 1825-1830",
     "yearStart": 1825,
     "yearEnd": 1830,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f6ecc6e"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f6ecc6e",
+    "digitized": true
   },
   {
     "place": "Aigurande",
@@ -325,7 +446,8 @@
     "detail": "N°6. 1827-1835",
     "yearStart": 1827,
     "yearEnd": 1835,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e10eadc"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e10eadc",
+    "digitized": true
   },
   {
     "place": "Mézières-en-Brenne",
@@ -333,7 +455,8 @@
     "detail": "N°3. 1er janvier 1827-23 août 1865",
     "yearStart": 1827,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb00ddc"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fb00ddc",
+    "digitized": true
   },
   {
     "place": "Poulaines",
@@ -341,7 +464,8 @@
     "detail": "N°5. 1er janvier 1828-2 décembre 1843",
     "yearStart": 1828,
     "yearEnd": 1843,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fce568c"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fce568c",
+    "digitized": true
   },
   {
     "place": "Saint-Benoît-du-Sault",
@@ -349,7 +473,8 @@
     "detail": "N°6. 1er octobre 1828-10 juin 1840",
     "yearStart": 1828,
     "yearEnd": 1840,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ffaadf5"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ffaadf5",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -357,7 +482,26 @@
     "detail": "N°10. 1831-1836",
     "yearStart": 1831,
     "yearEnd": 1836,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f6f08f3"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f6f08f3",
+    "digitized": true
+  },
+  {
+    "place": "Tournon-Saint-Martin",
+    "cote": "3 Q 12620",
+    "detail": "6 août 1833-1865",
+    "yearStart": 1833,
+    "yearEnd": 1865,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
+  },
+  {
+    "place": "Buzançais",
+    "cote": "3 Q 822",
+    "detail": "N°4. 1834-1865",
+    "yearStart": 1834,
+    "yearEnd": 1865,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Aigurande",
@@ -365,7 +509,8 @@
     "detail": "N°7. 1835-1837",
     "yearStart": 1835,
     "yearEnd": 1837,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e111bcc"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e111bcc",
+    "digitized": true
   },
   {
     "place": "Châtre (La)",
@@ -373,7 +518,17 @@
     "detail": "N°12. 1835-1847",
     "yearStart": 1835,
     "yearEnd": 1847,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f25694b"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f25694b",
+    "digitized": true
+  },
+  {
+    "place": "Valençay",
+    "cote": "3 Q 3149",
+    "detail": "N°6. 2 mars 1835-31 décembre 1848",
+    "yearStart": 1835,
+    "yearEnd": 1848,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Aigurande",
@@ -381,7 +536,8 @@
     "detail": "N°8. 1837-1850",
     "yearStart": 1837,
     "yearEnd": 1850,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e114116"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e114116",
+    "digitized": true
   },
   {
     "place": "Écueillé",
@@ -389,7 +545,8 @@
     "detail": "N°1. 1er avril 1837-14 mai 1865",
     "yearStart": 1837,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f3e7c50"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f3e7c50",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -397,7 +554,8 @@
     "detail": "N°11. 1er janvier 1837-janvier 1846",
     "yearStart": 1837,
     "yearEnd": 1846,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f701287"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f701287",
+    "digitized": true
   },
   {
     "place": "Neuvy-Saint-Sépulchre",
@@ -405,7 +563,8 @@
     "detail": "N°2. 1838-1856",
     "yearStart": 1838,
     "yearEnd": 1856,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fc80805"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fc80805",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -413,7 +572,8 @@
     "detail": "N°11. 8 février 1839-1er juillet 1853",
     "yearStart": 1839,
     "yearEnd": 1853,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef0e02f"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef0e02f",
+    "digitized": true
   },
   {
     "place": "Éguzon",
@@ -421,7 +581,17 @@
     "detail": "5 février 1840-22 octobre 1865",
     "yearStart": 1840,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f41c8dd"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f41c8dd",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Benoît-du-Sault",
+    "cote": "3 Q 2790",
+    "detail": "N°[7]. 10 juin 1840-3 mars 1851",
+    "yearStart": 1840,
+    "yearEnd": 1851,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Ardentes",
@@ -429,7 +599,17 @@
     "detail": "1841-1865",
     "yearStart": 1841,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e3f2d41"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e3f2d41",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Sévère-sur-Indre",
+    "cote": "3 Q 13302",
+    "detail": "Juin 1841-août 1865",
+    "yearStart": 1841,
+    "yearEnd": 1865,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Bélâbre",
@@ -437,7 +617,8 @@
     "detail": "N°5. 1842-[1865]",
     "yearStart": 1842,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e7f32a6"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e7f32a6",
+    "digitized": true
   },
   {
     "place": "Argenton-sur-Creuse",
@@ -445,7 +626,17 @@
     "detail": "N°6. 1844-1856",
     "yearStart": 1844,
     "yearEnd": 1856,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e5cbf55"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e5cbf55",
+    "digitized": true
+  },
+  {
+    "place": "Vatan",
+    "cote": "3 Q 5548",
+    "detail": "N°6. 14 juin 1845-17 décembre 1865",
+    "yearStart": 1845,
+    "yearEnd": 1865,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Issoudun",
@@ -453,7 +644,17 @@
     "detail": "15 janvier 1846-27 décembre 1854",
     "yearStart": 1846,
     "yearEnd": 1854,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f74eda6"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f74eda6",
+    "digitized": true
+  },
+  {
+    "place": "Valençay",
+    "cote": "3 Q 3778",
+    "detail": "N°[7]. 4 janvier 1849-29 octobre 1865",
+    "yearStart": 1849,
+    "yearEnd": 1865,
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q",
+    "digitized": false
   },
   {
     "place": "Aigurande",
@@ -461,7 +662,8 @@
     "detail": "N°9. 1850-1853",
     "yearStart": 1850,
     "yearEnd": 1853,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e116070"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e116070",
+    "digitized": true
   },
   {
     "place": "Saint-Benoît-du-Sault",
@@ -469,7 +671,8 @@
     "detail": "N°8. 6 mars 1851-29 décembre 1865",
     "yearStart": 1851,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ffaef44"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ffaef44",
+    "digitized": true
   },
   {
     "place": "Châteauroux",
@@ -477,7 +680,8 @@
     "detail": "N°12. 1er juillet 1853- décembre 1865",
     "yearStart": 1853,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef1386e"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584ef1386e",
+    "digitized": true
   },
   {
     "place": "Levroux",
@@ -485,7 +689,8 @@
     "detail": "N°5. 21 décembre 1854-14 décembre 1865",
     "yearStart": 1854,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f988ae9"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f988ae9",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -493,7 +698,8 @@
     "detail": "30 janvier 1855-4 décembre 1864",
     "yearStart": 1855,
     "yearEnd": 1864,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f7514cd"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f7514cd",
+    "digitized": true
   },
   {
     "place": "Neuvy-Saint-Sépulchre",
@@ -501,7 +707,8 @@
     "detail": "N°3. 1856-1865",
     "yearStart": 1856,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fc83003"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584fc83003",
+    "digitized": true
   },
   {
     "place": "Argenton-sur-Creuse",
@@ -509,7 +716,8 @@
     "detail": "N°7. 1857-1865",
     "yearStart": 1857,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e5d02df"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e5d02df",
+    "digitized": true
   },
   {
     "place": "Issoudun",
@@ -517,7 +725,8 @@
     "detail": "Année 1865",
     "yearStart": 1865,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f7542bf"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584f7542bf",
+    "digitized": true
   },
   {
     "place": "Blanc (Le)",
@@ -525,7 +734,8 @@
     "detail": "[1831]-[1858]",
     "yearStart": 1831,
     "yearEnd": 1858,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9bac12"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9bac12",
+    "digitized": true
   },
   {
     "place": "Blanc (Le)",
@@ -533,6 +743,7 @@
     "detail": "[1858]-[1865]",
     "yearStart": 1858,
     "yearEnd": 1865,
-    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9c2ed0"
+    "url": "https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q?arko_default_620a54016cd23--ficheFocus=arko_fiche_67c584e9c2ed0",
+    "digitized": true
   }
 ]
