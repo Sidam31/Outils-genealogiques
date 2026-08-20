@@ -300,6 +300,19 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_93.json',
         catalogUrl: 'https://archives.seinesaintdenis.fr/archive/resultats/sucession/n:219',
     },
+    '39': {
+        label: 'Jura',
+        // Bornes réelles de la série (45 registres, 15 lieux, voir
+        // scrape_contrats_mariage_jura.py) - même portail/mécanique que les successions de ce
+        // département, mais bien plus fourni côté mariage (45 fiches contre seulement 4 côté
+        // successions pour ce mot-clé). Quelques registres composites ("Table des baux, des
+        // partages et des contrats de mariage") conservés tels quels : ils contiennent bien des
+        // contrats de mariage, mêlés à d'autres actes du même volume.
+        minYear: 1706,
+        maxYear: 1812,
+        registersUrl: './assets/data/contrats_mariage_39.json',
+        catalogUrl: 'https://archives39.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20contrats%20de%20mariage',
+    },
 };
 
 function fetchJson(url) {

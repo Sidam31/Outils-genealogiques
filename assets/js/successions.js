@@ -855,6 +855,19 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_52.json',
         catalogUrl: 'https://archives.haute-marne.fr/archives/classification-scheme',
     },
+    '39': {
+        label: 'Jura',
+        kind: 'facet',
+        // Bornes réelles de la série (4 registres seulement, 2 lieux, voir
+        // scrape_successions_multi.py DEPARTMENTS['39']) - même logiciel que Nord/Rhône. Le
+        // mot-clé "table des successions" est très restrictif sur ce déploiement : la plupart des
+        // bureaux n'ont que des "tables des successions collatérales" (sous-série distincte,
+        // exclue comme partout ailleurs dans ce projet) - couverture minime mais réelle.
+        minYear: 1736,
+        maxYear: 1810,
+        registersUrl: './assets/data/successions_39.json',
+        catalogUrl: 'https://archives39.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20successions',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
