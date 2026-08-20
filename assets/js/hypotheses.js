@@ -916,6 +916,36 @@ export function initHypotheses() {
             knownPosById[sib.id] = { x: sx, y: sy, gen: 0, side: null };
         });
 
+        // Hypothèses fusionnées (import + "fusionner") depuis un autre individu de référence : leur
+        // referenceKey {indiId} pointe vers une personne réelle du fichier mais absente du scan
+        // ci-dessus (non atteignable depuis le pivot ACTUEL). Sans ça, hypResolveReference ne la
+        // trouverait pas dans knownPosById et retomberait silencieusement sur le pivot courant
+        // (offset 0) — donnant l'impression trompeuse que l'hypothèse concerne le pivot actuel. On
+        // lui donne donc son propre point d'ancrage pour qu'elle garde sa personne de référence
+        // d'origine plutôt que d'être réattachée au pivot actuel.
+        const hypForeignRefIds = new Set();
+        hypotheses.forEach(hyp => {
+            if (!hyp.referenceKey) return;
+            try {
+                const ref = JSON.parse(hyp.referenceKey);
+                if (ref.indiId && !knownPosById[ref.indiId] && hypGedData.individuals[ref.indiId]) {
+                    hypForeignRefIds.add(ref.indiId);
+                }
+            } catch (e) { /* ancien format ou référence vers une autre hypothèse : rien à ancrer */ }
+        });
+        Array.from(hypForeignRefIds).forEach((id, i) => {
+            const indi = hypGedData.individuals[id];
+            const foreignKey = "FOREIGNREF|" + id;
+            let fx = pivotPos.x - 320 - i * 170, fy = pivotPos.y + 190;
+            if (hypManualPos[foreignKey]) { fx = hypManualPos[foreignKey].x; fy = hypManualPos[foreignKey].y; }
+            hypDrawNode(nodesLayer, fx, fy, indi.name, {
+                r: 22, fill: "#fef3c7", stroke: "#d97706", strokeWidth: 2,
+                title: `${indi.name} — personne de référence d'origine (hypothèse fusionnée)`,
+                nodeKey: foreignKey, gen: 0
+            });
+            knownPosById[id] = { x: fx, y: fy, gen: 0, side: null };
+        });
+
         hypotheses.forEach((hyp, hIdx) => {
             const ref = hypResolveReference(hyp.referenceKey, knownPosById);
             hyp.candidates.forEach((cand, cIdx) => {
