@@ -217,9 +217,11 @@
                 <strong>Yvelines</strong> 1760-1865 ·
                 <strong>Oise</strong> 1729-1810 ·
                 <strong>Seine-Saint-Denis</strong> 1747-1865 (partielle, un seul bureau sur 10) ·
-                <strong>Jura</strong> 1706-1812
+                <strong>Jura</strong> 1706-1812 ·
+                <strong>Corrèze</strong> 1730-1865 ·
+                <strong>Indre-et-Loire</strong> 1750-1865
             </p>
-            <p class="hint" style="text-align:center;">Couverture progressive (26 départements pour l'instant, même mécanique que le mode Successions. En Haute-Garonne, 9 des 30 bureaux n'ont pas de table de contrats de mariage cataloguée dans ce fonds — aucune piste précise ne remonte pour leurs communes. En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici : ce portail n'a pas d'index nominatif sur cette série, le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis.</p>
+            <p class="hint" style="text-align:center;">Couverture progressive (28 départements pour l'instant, même mécanique que le mode Successions. En Haute-Garonne, 9 des 30 bureaux n'ont pas de table de contrats de mariage cataloguée dans ce fonds — aucune piste précise ne remonte pour leurs communes. En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici : ce portail n'a pas d'index nominatif sur cette série, le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis.</p>
             <p class="hint" style="text-align:center;"><strong>Paris</strong> n'est pas couvert ici : les Archives de Paris précisent elles-mêmes que leur fichier des contrats de mariage (1889-1922) ne permet pas de retrouver l'acte sans déjà connaître le nom du notaire — l'inverse de ce que ce mode recherche (partir de la commune/année pour trouver le notaire).</p>
             <details style="max-width:700px; margin:0.5rem auto;">
                 <summary class="hint" style="text-align:center; cursor:pointer;">Départements vérifiés sans table de contrats de mariage (cliquer pour les détails)</summary>
@@ -323,6 +325,8 @@
                         <th>Commune</th>
                         <th>Éléments complémentaires</th>
                         <th>Registre</th>
+                        <th>Vérifié</th>
+                        <th>Commentaire</th>
                     </tr>
                 </thead>
                 <tbody id="faResultsBodySuccessions"></tbody>
@@ -340,6 +344,8 @@
                         <th>Commune</th>
                         <th>Éléments complémentaires</th>
                         <th>Registre</th>
+                        <th>Vérifié</th>
+                        <th>Commentaire</th>
                     </tr>
                 </thead>
                 <tbody id="faResultsBodyMariage"></tbody>
@@ -908,6 +914,58 @@ const fa = (() => {
         return '';
     }
 
+    // --- Colonnes "Vérifié"/"Commentaire" (successions ET mariage) : annotation manuelle libre,
+    // conservée dans le cache navigateur (localStorage), pas dans le GEDCOM ni un export - sert à
+    // cocher/noter au fil de la vérification manuelle des pistes sans perdre l'état d'une session à
+    // l'autre sur le même navigateur. Clé de ligne = person.id (successions) / fam.id (mariage,
+    // une ligne par couple) : stable d'un rechargement à l'autre tant que le même GEDCOM est utilisé.
+    const FA_VERIF_KEY_SUCC = 'visugedcom_fa_verif_successions_v1';
+    const FA_VERIF_KEY_MAR = 'visugedcom_fa_verif_mariage_v1';
+    function loadVerifStore(storeKey) {
+        try {
+            return JSON.parse(localStorage.getItem(storeKey)) || {};
+        } catch (e) { return {}; }
+    }
+    function getVerifEntry(storeKey, rowId) {
+        return loadVerifStore(storeKey)[rowId] || { verified: false, comment: '' };
+    }
+    function saveVerifEntry(storeKey, rowId, patch) {
+        const store = loadVerifStore(storeKey);
+        const entry = Object.assign({ verified: false, comment: '' }, store[rowId], patch);
+        // Rien à garder pour une ligne jamais annotée : évite de faire grossir le cache indéfiniment
+        // au fil des rechargements avec des entrées vides.
+        if (!entry.verified && !entry.comment) {
+            delete store[rowId];
+        } else {
+            store[rowId] = entry;
+        }
+        localStorage.setItem(storeKey, JSON.stringify(store));
+    }
+    function verifCells(storeKey, rowId) {
+        const entry = getVerifEntry(storeKey, rowId);
+        const idAttr = escapeHtml(String(rowId));
+        return `
+            <td style="text-align:center;"><input type="checkbox" class="fa-verif-checkbox" data-store="${storeKey}" data-row-id="${idAttr}"${entry.verified ? ' checked' : ''}></td>
+            <td><input type="text" class="fa-verif-comment" data-store="${storeKey}" data-row-id="${idAttr}" value="${escapeHtml(entry.comment)}" placeholder="Commentaire..." style="width:100%; min-width:120px; box-sizing:border-box; font:inherit; padding:2px 4px;"></td>
+        `;
+    }
+    // Délégation d'évènements (un seul écouteur par tbody, posé une fois - pas à chaque rendu, la
+    // table étant entièrement reconstruite à chaque tri/filtre) : "change" suffit pour la case à
+    // cocher, mais "blur" (qui ne bouillonne pas, d'où la phase de capture) pour le commentaire -
+    // sauvegarder à chaque frappe (evt "input") réécrirait le cache en boucle inutilement.
+    function wireVerifCellEvents(tbody) {
+        tbody.addEventListener('change', (e) => {
+            if (!e.target.classList.contains('fa-verif-checkbox')) return;
+            saveVerifEntry(e.target.dataset.store, e.target.dataset.rowId, { verified: e.target.checked });
+        });
+        tbody.addEventListener('blur', (e) => {
+            if (!e.target.classList || !e.target.classList.contains('fa-verif-comment')) return;
+            saveVerifEntry(e.target.dataset.store, e.target.dataset.rowId, { comment: e.target.value });
+        }, true);
+    }
+    wireVerifCellEvents(resultsBodySuccessions);
+    wireVerifCellEvents(resultsBodyMariage);
+
     // - 'exact' : la commune (ou son bureau, résolu avec certitude pour ce département et cette
     //   année) a son propre registre, lien(s) direct(s) vers la/les notice(s) — plusieurs quand
     //   plusieurs registres se chevauchent (bureaux multiples d'une même ville au Nord, tranches
@@ -982,6 +1040,7 @@ const fa = (() => {
                 <td>${escapeHtml(r.city)}</td>
                 <td>${extraInfoCell(p)}</td>
                 <td>${successionRegistreCell(r)}</td>
+                ${verifCells(FA_VERIF_KEY_SUCC, p.id)}
             `;
             resultsBodySuccessions.appendChild(tr);
         });
@@ -1034,6 +1093,7 @@ const fa = (() => {
                 <td>${escapeHtml(r.city)}</td>
                 <td>${mariageCoupleInfoCell(r)}</td>
                 <td>${mariageRegistreCell(r)}</td>
+                ${verifCells(FA_VERIF_KEY_MAR, r.fam.id)}
             `;
             resultsBodyMariage.appendChild(tr);
         });

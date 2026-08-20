@@ -1,0 +1,1258 @@
+[
+  {
+    "place": "Meyssac",
+    "cote": "21Q/1",
+    "yearStart": 1760,
+    "yearEnd": 1769,
+    "url": "https://www.archives.correze.fr/ark:/69090/9d2q0hxkpsl1",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/2",
+    "yearStart": 1769,
+    "yearEnd": 1779,
+    "url": "https://www.archives.correze.fr/ark:/69090/pdwkn832mjcx",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/3",
+    "yearStart": 1779,
+    "yearEnd": 1785,
+    "url": "https://www.archives.correze.fr/ark:/69090/ksc87mwt2jph",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/4",
+    "yearStart": 1785,
+    "yearEnd": 1791,
+    "url": "https://www.archives.correze.fr/ark:/69090/2bq80j35s9lk",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/5",
+    "yearStart": 1791,
+    "yearEnd": 1797,
+    "url": "https://www.archives.correze.fr/ark:/69090/psr14k2cxgf7",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/6",
+    "yearStart": 1798,
+    "yearEnd": 1801,
+    "url": "https://www.archives.correze.fr/ark:/69090/7jwp8lfrm3kn",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/7",
+    "yearStart": 1801,
+    "yearEnd": 1812,
+    "url": "https://www.archives.correze.fr/ark:/69090/xhb084w2vm6f",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/8",
+    "yearStart": 1813,
+    "yearEnd": 1819,
+    "url": "https://www.archives.correze.fr/ark:/69090/kpzb7qlxc1d4",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/9",
+    "yearStart": 1819,
+    "yearEnd": 1826,
+    "url": "https://www.archives.correze.fr/ark:/69090/cgnhkt7xzr3q",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/10",
+    "yearStart": 1826,
+    "yearEnd": 1833,
+    "url": "https://www.archives.correze.fr/ark:/69090/gbdj9px74qft",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/11",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://www.archives.correze.fr/ark:/69090/fjlqkp01xgtm",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/12",
+    "yearStart": 1841,
+    "yearEnd": 1852,
+    "url": "https://www.archives.correze.fr/ark:/69090/hz10vcq5xj26",
+    "digitized": true
+  },
+  {
+    "place": "Meyssac",
+    "cote": "21Q/13",
+    "yearStart": 1853,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/lgm6vtq1fc7r",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/1",
+    "yearStart": 1766,
+    "yearEnd": 1782,
+    "url": "https://www.archives.correze.fr/ark:/69090/43fzjkgbv0d6",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/2",
+    "yearStart": 1783,
+    "yearEnd": 1793,
+    "url": "https://www.archives.correze.fr/ark:/69090/sk4qr7vdz0hc",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/3",
+    "yearStart": 1793,
+    "yearEnd": 1807,
+    "url": "https://www.archives.correze.fr/ark:/69090/p63dt9rzhq0j",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/4",
+    "yearStart": 1807,
+    "yearEnd": 1812,
+    "url": "https://www.archives.correze.fr/ark:/69090/71hbdnk9fqgr",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/5",
+    "yearStart": 1812,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/05b89cxwvq16",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/6",
+    "yearStart": 1815,
+    "yearEnd": 1826,
+    "url": "https://www.archives.correze.fr/ark:/69090/5k4sprjxz016",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/7",
+    "yearStart": 1826,
+    "yearEnd": 1832,
+    "url": "https://www.archives.correze.fr/ark:/69090/d7b309rnfgw6",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/8",
+    "yearStart": 1833,
+    "yearEnd": 1838,
+    "url": "https://www.archives.correze.fr/ark:/69090/g39jxw5hb04n",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/9",
+    "yearStart": 1838,
+    "yearEnd": 1848,
+    "url": "https://www.archives.correze.fr/ark:/69090/rm0b4pwjl365",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/10",
+    "yearStart": 1848,
+    "yearEnd": 1859,
+    "url": "https://www.archives.correze.fr/ark:/69090/3jb0grlwv6p4",
+    "digitized": true
+  },
+  {
+    "place": "Uzerche",
+    "cote": "42Q/11",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/28qwfdn0mtpb",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/1",
+    "yearStart": 1756,
+    "yearEnd": 1798,
+    "url": "https://www.archives.correze.fr/ark:/69090/lkbzv8sjtxf6",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/2",
+    "yearStart": 1799,
+    "yearEnd": 1805,
+    "url": "https://www.archives.correze.fr/ark:/69090/l968th457f0c",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/3",
+    "yearStart": 1806,
+    "yearEnd": 1810,
+    "url": "https://www.archives.correze.fr/ark:/69090/2083nsdwfkq7",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/4",
+    "yearStart": 1810,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/j798h10rmxwl",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/5",
+    "yearStart": 1815,
+    "yearEnd": 1823,
+    "url": "https://www.archives.correze.fr/ark:/69090/dg856wp7kl19",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/6",
+    "yearStart": 1823,
+    "yearEnd": 1831,
+    "url": "https://www.archives.correze.fr/ark:/69090/4cxr1ngb3sdj",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/7",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://www.archives.correze.fr/ark:/69090/34vwdh9t5snr",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/8",
+    "yearStart": 1837,
+    "yearEnd": 1843,
+    "url": "https://www.archives.correze.fr/ark:/69090/1sc5dgftvq9r",
+    "digitized": true
+  },
+  {
+    "place": "Argentat",
+    "cote": "58Q/10",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/pm3kg65zb89t",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/1",
+    "yearStart": 1758,
+    "yearEnd": 1759,
+    "url": "https://www.archives.correze.fr/ark:/69090/zpmk98gb672s",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/2",
+    "yearStart": 1760,
+    "yearEnd": 1791,
+    "url": "https://www.archives.correze.fr/ark:/69090/5jfsbc0dmn8r",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/3",
+    "yearStart": 1760,
+    "yearEnd": 1785,
+    "url": "https://www.archives.correze.fr/ark:/69090/tcmz3pvdrkl5",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/4",
+    "yearStart": 1791,
+    "yearEnd": 1799,
+    "url": "https://www.archives.correze.fr/ark:/69090/fqdkst8lg4cb",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/5",
+    "yearStart": 1799,
+    "yearEnd": 1808,
+    "url": "https://www.archives.correze.fr/ark:/69090/c0247qgvz9h8",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/6",
+    "yearStart": 1808,
+    "yearEnd": 1811,
+    "url": "https://www.archives.correze.fr/ark:/69090/0h1298j6dfpn",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/7",
+    "yearStart": 1812,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/jxn2d9t7c1wg",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/8",
+    "yearStart": 1815,
+    "yearEnd": 1820,
+    "url": "https://www.archives.correze.fr/ark:/69090/k6504lj2pzb9",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/9",
+    "yearStart": 1821,
+    "yearEnd": 1828,
+    "url": "https://www.archives.correze.fr/ark:/69090/j39q5k78xgv6",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/10",
+    "yearStart": 1828,
+    "yearEnd": 1835,
+    "url": "https://www.archives.correze.fr/ark:/69090/2xm8hqlkdw6s",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/11",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://www.archives.correze.fr/ark:/69090/8gf4mwprklz7",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/12",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://www.archives.correze.fr/ark:/69090/mlk4025z3pcw",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/13",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://www.archives.correze.fr/ark:/69090/2k9c0gft1qwb",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/14",
+    "yearStart": 1854,
+    "yearEnd": 1859,
+    "url": "https://www.archives.correze.fr/ark:/69090/2gt18klxqn93",
+    "digitized": true
+  },
+  {
+    "place": "Brive-la-Gaillarde",
+    "cote": "85Q/15",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/7j98k2xmt6cv",
+    "digitized": true
+  },
+  {
+    "place": "Égletons",
+    "cote": "111Q/1",
+    "yearStart": 1730,
+    "yearEnd": 1758,
+    "url": "https://www.archives.correze.fr/ark:/69090/6ft1rvwxkqg2",
+    "digitized": true
+  },
+  {
+    "place": "Égletons",
+    "cote": "111Q/2",
+    "yearStart": 1758,
+    "yearEnd": 1784,
+    "url": "https://www.archives.correze.fr/ark:/69090/4g71dq2nm9vs",
+    "digitized": true
+  },
+  {
+    "place": "Égletons",
+    "cote": "111Q/3",
+    "yearStart": 1784,
+    "yearEnd": 1802,
+    "url": "https://www.archives.correze.fr/ark:/69090/rcb1phfj5dn7",
+    "digitized": true
+  },
+  {
+    "place": "Égletons",
+    "cote": "111Q/4",
+    "yearStart": 1802,
+    "yearEnd": 1809,
+    "url": "https://www.archives.correze.fr/ark:/69090/k1n2b9r8dzvh",
+    "digitized": true
+  },
+  {
+    "place": "Égletons",
+    "cote": "111Q/5",
+    "yearStart": 1809,
+    "yearEnd": 1819,
+    "url": "https://www.archives.correze.fr/ark:/69090/8p2b06f1mchn",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/1",
+    "yearStart": 1750,
+    "yearEnd": 1764,
+    "url": "https://www.archives.correze.fr/ark:/69090/b6v8rnd0kx29",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/2",
+    "yearStart": 1765,
+    "yearEnd": 1800,
+    "url": "https://www.archives.correze.fr/ark:/69090/t1j4hd0qwk28",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/3",
+    "yearStart": 1800,
+    "yearEnd": 1814,
+    "url": "https://www.archives.correze.fr/ark:/69090/0bvwzl452rnx",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/4",
+    "yearStart": 1815,
+    "yearEnd": 1830,
+    "url": "https://www.archives.correze.fr/ark:/69090/f6972skr4qlt",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/5",
+    "yearStart": 1830,
+    "yearEnd": 1843,
+    "url": "https://www.archives.correze.fr/ark:/69090/548p9vkrthfl",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/6",
+    "yearStart": 1843,
+    "yearEnd": 1854,
+    "url": "https://www.archives.correze.fr/ark:/69090/dhln69tqp7bz",
+    "digitized": true
+  },
+  {
+    "place": "Juillac",
+    "cote": "122Q/7",
+    "yearStart": 1854,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/r3w476p2c9sm",
+    "digitized": true
+  },
+  {
+    "place": "Lubersac",
+    "cote": "138Q/1",
+    "yearStart": 1759,
+    "yearEnd": 1791,
+    "url": "https://www.archives.correze.fr/ark:/69090/hwbjrxp20k3q",
+    "digitized": true
+  },
+  {
+    "place": "Lubersac",
+    "cote": "138Q/2",
+    "yearStart": 1806,
+    "yearEnd": 1824,
+    "url": "https://www.archives.correze.fr/ark:/69090/rkgx2znq36hj",
+    "digitized": true
+  },
+  {
+    "place": "Lubersac",
+    "cote": "138Q/3",
+    "yearStart": 1824,
+    "yearEnd": 1833,
+    "url": "https://www.archives.correze.fr/ark:/69090/frcpv104s9zm",
+    "digitized": true
+  },
+  {
+    "place": "Lubersac",
+    "cote": "138Q/4",
+    "yearStart": 1833,
+    "yearEnd": 1842,
+    "url": "https://www.archives.correze.fr/ark:/69090/4dntx03q895k",
+    "digitized": true
+  },
+  {
+    "place": "Lubersac",
+    "cote": "138Q/5",
+    "yearStart": 1842,
+    "yearEnd": 1854,
+    "url": "https://www.archives.correze.fr/ark:/69090/7tkw2c5vsz3p",
+    "digitized": true
+  },
+  {
+    "place": "Lubersac",
+    "cote": "138Q/6",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/60pr4351ljt2",
+    "digitized": true
+  },
+  {
+    "place": "Marcillac-la-Croisille",
+    "cote": "150Q/1",
+    "yearStart": 1758,
+    "yearEnd": 1784,
+    "url": "https://www.archives.correze.fr/ark:/69090/mnv7pd0s6jx5",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/1",
+    "yearStart": 1770,
+    "yearEnd": 1777,
+    "url": "https://www.archives.correze.fr/ark:/69090/1bcjsz8phxv9",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/2",
+    "yearStart": 1770,
+    "yearEnd": 1777,
+    "url": "https://www.archives.correze.fr/ark:/69090/bxjcr096w5t4",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/3",
+    "yearStart": 1777,
+    "yearEnd": 1787,
+    "url": "https://www.archives.correze.fr/ark:/69090/xp02g18fjks7",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/4",
+    "yearStart": 1777,
+    "yearEnd": 1787,
+    "url": "https://www.archives.correze.fr/ark:/69090/kmxpdng4789h",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/5",
+    "yearStart": 1760,
+    "yearEnd": 1812,
+    "url": "https://www.archives.correze.fr/ark:/69090/pkzg6dmvj4cr",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/6",
+    "yearStart": 1810,
+    "yearEnd": 1812,
+    "url": "https://www.archives.correze.fr/ark:/69090/w0mp9bcq84dv",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/7",
+    "yearStart": 1821,
+    "yearEnd": 1830,
+    "url": "https://www.archives.correze.fr/ark:/69090/gfcshqwm208k",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/8",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://www.archives.correze.fr/ark:/69090/38nrmcpld45k",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/9",
+    "yearStart": 1838,
+    "yearEnd": 1847,
+    "url": "https://www.archives.correze.fr/ark:/69090/9d10qxmpcgwb",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/10",
+    "yearStart": 1847,
+    "yearEnd": 1855,
+    "url": "https://www.archives.correze.fr/ark:/69090/063d4kjx875c",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/11",
+    "yearStart": 1855,
+    "yearEnd": 1863,
+    "url": "https://www.archives.correze.fr/ark:/69090/tjk1zwfrmq7x",
+    "digitized": true
+  },
+  {
+    "place": "Meymac",
+    "cote": "164Q/12",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/w9rnxbkc0z64",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/1",
+    "yearStart": 1749,
+    "yearEnd": 1759,
+    "url": "https://www.archives.correze.fr/ark:/69090/1hpfnb5m9qjd",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/2",
+    "yearStart": 1760,
+    "yearEnd": 1769,
+    "url": "https://www.archives.correze.fr/ark:/69090/l1xfzngkvmsj",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/3",
+    "yearStart": 1770,
+    "yearEnd": 1779,
+    "url": "https://www.archives.correze.fr/ark:/69090/phkbzs8f473w",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/4",
+    "yearStart": 1780,
+    "yearEnd": 1792,
+    "url": "https://www.archives.correze.fr/ark:/69090/ld1m6kvnb248",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/5",
+    "yearStart": 1792,
+    "yearEnd": 1810,
+    "url": "https://www.archives.correze.fr/ark:/69090/34nbjc8tmhlw",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/6",
+    "yearStart": 1810,
+    "yearEnd": 1819,
+    "url": "https://www.archives.correze.fr/ark:/69090/6lmxzr3dvjwq",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/7",
+    "yearStart": 1820,
+    "yearEnd": 1829,
+    "url": "https://www.archives.correze.fr/ark:/69090/0frd93qgjt26",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/8",
+    "yearStart": 1830,
+    "yearEnd": 1839,
+    "url": "https://www.archives.correze.fr/ark:/69090/vlb4gqd6xc3n",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/9",
+    "yearStart": 1840,
+    "yearEnd": 1852,
+    "url": "https://www.archives.correze.fr/ark:/69090/k9br3lm2vdcj",
+    "digitized": true
+  },
+  {
+    "place": "Neuvic",
+    "cote": "181Q/10",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/mw74shgv8xtc",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/1",
+    "yearStart": 1750,
+    "yearEnd": 1762,
+    "url": "https://www.archives.correze.fr/ark:/69090/p9wb8jsxcr7v",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/2",
+    "yearStart": 1763,
+    "yearEnd": 1777,
+    "url": "https://www.archives.correze.fr/ark:/69090/0qr75j3znh64",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/3",
+    "yearStart": 1778,
+    "yearEnd": 1795,
+    "url": "https://www.archives.correze.fr/ark:/69090/3vdzmpg4qjl8",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/4",
+    "yearStart": 1794,
+    "yearEnd": 1797,
+    "url": "https://www.archives.correze.fr/ark:/69090/8m5sv31pq7bw",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/5",
+    "yearStart": 1797,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/2rmpcf3n4hlw",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/6",
+    "yearStart": 1815,
+    "yearEnd": 1827,
+    "url": "https://www.archives.correze.fr/ark:/69090/26hxc31tnm4w",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/7",
+    "yearStart": 1828,
+    "yearEnd": 1839,
+    "url": "https://www.archives.correze.fr/ark:/69090/7pd24sgrl19c",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/8",
+    "yearStart": 1840,
+    "yearEnd": 1855,
+    "url": "https://www.archives.correze.fr/ark:/69090/n79452qx1djh",
+    "digitized": true
+  },
+  {
+    "place": "Objat",
+    "cote": "197Q/9",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/j46v9rmc7dwl",
+    "digitized": true
+  },
+  {
+    "place": "Seilhac",
+    "cote": "229Q/1",
+    "yearStart": 1813,
+    "yearEnd": 1842,
+    "url": "https://www.archives.correze.fr/ark:/69090/v9fdphc051jb",
+    "digitized": true
+  },
+  {
+    "place": "Seilhac",
+    "cote": "229Q/2",
+    "yearStart": 1813,
+    "yearEnd": 1842,
+    "url": "https://www.archives.correze.fr/ark:/69090/kxwtr20npqbc",
+    "digitized": true
+  },
+  {
+    "place": "Seilhac",
+    "cote": "229Q/3",
+    "yearStart": 1842,
+    "yearEnd": 1857,
+    "url": "https://www.archives.correze.fr/ark:/69090/15s0mwnb8742",
+    "digitized": true
+  },
+  {
+    "place": "Seilhac",
+    "cote": "229Q/4",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/50fm4r9t6kcj",
+    "digitized": true
+  },
+  {
+    "place": "Treignac",
+    "cote": "237Q/1",
+    "yearStart": 1769,
+    "yearEnd": 1796,
+    "url": "https://www.archives.correze.fr/ark:/69090/cdzrqlh9xsvm",
+    "digitized": true
+  },
+  {
+    "place": "Treignac",
+    "cote": "237Q/2",
+    "yearStart": 1795,
+    "yearEnd": 1813,
+    "url": "https://www.archives.correze.fr/ark:/69090/2mdnvj631br0",
+    "digitized": true
+  },
+  {
+    "place": "Treignac",
+    "cote": "237Q/3",
+    "yearStart": 1814,
+    "yearEnd": 1824,
+    "url": "https://www.archives.correze.fr/ark:/69090/wkz201js9xqh",
+    "digitized": true
+  },
+  {
+    "place": "Treignac",
+    "cote": "237Q/4",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://www.archives.correze.fr/ark:/69090/6k9chr3vb4tg",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/1",
+    "yearStart": 1791,
+    "yearEnd": 1793,
+    "url": "https://www.archives.correze.fr/ark:/69090/zhngjqrsfm73",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/1",
+    "yearStart": 1791,
+    "yearEnd": 1793,
+    "url": "https://www.archives.correze.fr/ark:/69090/w837gpn0jk49",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/2",
+    "yearStart": 1793,
+    "yearEnd": 1803,
+    "url": "https://www.archives.correze.fr/ark:/69090/pkrm276nz9t0",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/2",
+    "yearStart": 1793,
+    "yearEnd": 1803,
+    "url": "https://www.archives.correze.fr/ark:/69090/fdm7s3zt2chj",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/3",
+    "yearStart": 1802,
+    "yearEnd": 1811,
+    "url": "https://www.archives.correze.fr/ark:/69090/5mt47nvl12hq",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/3",
+    "yearStart": 1802,
+    "yearEnd": 1811,
+    "url": "https://www.archives.correze.fr/ark:/69090/6q9wrkx0cm3g",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/4",
+    "yearStart": 1811,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/wb3mj4cp7dft",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/4",
+    "yearStart": 1811,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/z1qxf768mths",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/5",
+    "yearStart": 1815,
+    "yearEnd": 1817,
+    "url": "https://www.archives.correze.fr/ark:/69090/6f0n287r9ckj",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/5",
+    "yearStart": 1815,
+    "yearEnd": 1817,
+    "url": "https://www.archives.correze.fr/ark:/69090/r8d04qslvxnz",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/6",
+    "yearStart": 1817,
+    "yearEnd": 1822,
+    "url": "https://www.archives.correze.fr/ark:/69090/6xnbk2spv15m",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/6",
+    "yearStart": 1817,
+    "yearEnd": 1822,
+    "url": "https://www.archives.correze.fr/ark:/69090/rmcl2qbg3z09",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/7",
+    "yearStart": 1822,
+    "yearEnd": 1826,
+    "url": "https://www.archives.correze.fr/ark:/69090/kplfgjzx1d2r",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/7",
+    "yearStart": 1822,
+    "yearEnd": 1826,
+    "url": "https://www.archives.correze.fr/ark:/69090/6gfrbj3p459l",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/8",
+    "yearStart": 1826,
+    "yearEnd": 1830,
+    "url": "https://www.archives.correze.fr/ark:/69090/dxk3h186m7fg",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/8",
+    "yearStart": 1826,
+    "yearEnd": 1830,
+    "url": "https://www.archives.correze.fr/ark:/69090/gj67kfv9mx0p",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/9",
+    "yearStart": 1830,
+    "yearEnd": 1835,
+    "url": "https://www.archives.correze.fr/ark:/69090/nm8dsk2v7zbw",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/9",
+    "yearStart": 1830,
+    "yearEnd": 1835,
+    "url": "https://www.archives.correze.fr/ark:/69090/rbhzxcfwms67",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/10",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://www.archives.correze.fr/ark:/69090/p5cwb8794mgs",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/10",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://www.archives.correze.fr/ark:/69090/g192k0cxwbnm",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/11",
+    "yearStart": 1839,
+    "yearEnd": 1842,
+    "url": "https://www.archives.correze.fr/ark:/69090/htslnr2kpqzc",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/11",
+    "yearStart": 1839,
+    "yearEnd": 1842,
+    "url": "https://www.archives.correze.fr/ark:/69090/pgq5sb1j6w90",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/12",
+    "yearStart": 1842,
+    "yearEnd": 1846,
+    "url": "https://www.archives.correze.fr/ark:/69090/tlgqm785wjvd",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/12",
+    "yearStart": 1842,
+    "yearEnd": 1846,
+    "url": "https://www.archives.correze.fr/ark:/69090/sxp8lfqd73wb",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/13",
+    "yearStart": 1846,
+    "yearEnd": 1851,
+    "url": "https://www.archives.correze.fr/ark:/69090/f6x4jk8nbq7v",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/13",
+    "yearStart": 1846,
+    "yearEnd": 1851,
+    "url": "https://www.archives.correze.fr/ark:/69090/k5z0qft183gv",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/14",
+    "yearStart": 1851,
+    "yearEnd": 1855,
+    "url": "https://www.archives.correze.fr/ark:/69090/9t7hk31sr2xf",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/14",
+    "yearStart": 1851,
+    "yearEnd": 1855,
+    "url": "https://www.archives.correze.fr/ark:/69090/fb6rtz02s9n1",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/15",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://www.archives.correze.fr/ark:/69090/gjd4x3n6qrcb",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/15",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://www.archives.correze.fr/ark:/69090/w591kbxtvdlc",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/16",
+    "yearStart": 1860,
+    "yearEnd": 1864,
+    "url": "https://www.archives.correze.fr/ark:/69090/dr6qvj1037bs",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/16",
+    "yearStart": 1860,
+    "yearEnd": 1864,
+    "url": "https://www.archives.correze.fr/ark:/69090/m7xq3s6lgbzt",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/17",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/hxbrcwmn2gl6",
+    "digitized": true
+  },
+  {
+    "place": "Tulle",
+    "cote": "247Q/17",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/c8mtnlz36jb5",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/1",
+    "yearStart": 1764,
+    "yearEnd": 1777,
+    "url": "https://www.archives.correze.fr/ark:/69090/w87lmdj3xpzs",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/2",
+    "yearStart": 1777,
+    "yearEnd": 1788,
+    "url": "https://www.archives.correze.fr/ark:/69090/szm9g5pqlknr",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/3",
+    "yearStart": 1789,
+    "yearEnd": 1791,
+    "url": "https://www.archives.correze.fr/ark:/69090/xm2lnpw9cv8d",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/4",
+    "yearStart": 1791,
+    "yearEnd": 1798,
+    "url": "https://www.archives.correze.fr/ark:/69090/h1fbm6kc025d",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/5",
+    "yearStart": 1797,
+    "yearEnd": 1802,
+    "url": "https://www.archives.correze.fr/ark:/69090/4w831zrtvdx9",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/6",
+    "yearStart": 1802,
+    "yearEnd": 1808,
+    "url": "https://www.archives.correze.fr/ark:/69090/tn5s1z08rqjw",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/7",
+    "yearStart": 1808,
+    "yearEnd": 1815,
+    "url": "https://www.archives.correze.fr/ark:/69090/vd7t6bxmfqr3",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/8",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://www.archives.correze.fr/ark:/69090/n67q3zjglkxh",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/9",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://www.archives.correze.fr/ark:/69090/84lhgj1w36zr",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/10",
+    "yearStart": 1831,
+    "yearEnd": 1840,
+    "url": "https://www.archives.correze.fr/ark:/69090/0r8zq7gdn5jx",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/11",
+    "yearStart": 1840,
+    "yearEnd": 1845,
+    "url": "https://www.archives.correze.fr/ark:/69090/20kgvr71b5md",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/12",
+    "yearStart": 1846,
+    "yearEnd": 1850,
+    "url": "https://www.archives.correze.fr/ark:/69090/fnrdx1mhjcl8",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/13",
+    "yearStart": 1851,
+    "yearEnd": 1856,
+    "url": "https://www.archives.correze.fr/ark:/69090/z6vrdhc3pqnf",
+    "digitized": true
+  },
+  {
+    "place": "Ussel",
+    "cote": "261Q/14",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/wklhq1g6tzvr",
+    "digitized": true
+  },
+  {
+    "place": "Vigeois",
+    "cote": "280Q/1",
+    "yearStart": 1807,
+    "yearEnd": 1861,
+    "url": "https://www.archives.correze.fr/ark:/69090/5lgxzc2fmhv4",
+    "digitized": true
+  },
+  {
+    "place": "Vigeois",
+    "cote": "280Q/2",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://www.archives.correze.fr/ark:/69090/rkph2xvmnz4t",
+    "digitized": true
+  },
+  {
+    "place": "Beaulieu-sur-Dordogne",
+    "cote": "331Q/1",
+    "yearStart": 1803,
+    "yearEnd": 1814,
+    "url": "https://www.archives.correze.fr/ark:/69090/jclsntzdpqk5",
+    "digitized": true
+  }
+]

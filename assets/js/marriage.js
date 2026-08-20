@@ -313,6 +313,29 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_39.json',
         catalogUrl: 'https://archives39.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20contrats%20de%20mariage',
     },
+    '19': {
+        label: 'Corrèze',
+        // Bornes réelles de la série (157 registres, 17 lieux, voir
+        // scrape_contrats_mariage_correze.py) - même portail que les successions de ce département
+        // (DEPARTMENTS['19'] dans scrape_successions_multi.py), "Table des contrats de mariages"
+        // est un noeud frère de la table des successions déjà couverte.
+        minYear: 1730,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_19.json',
+        catalogUrl: 'https://www.archives.correze.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20contrats%20de%20mariage',
+    },
+    '37': {
+        label: 'Indre-et-Loire',
+        // Bornes réelles de la série (74 registres, 29 lieux, voir
+        // scrape_contrats_mariage_touraine.py) - contrairement aux successions de ce département
+        // (arbre "Enregistrement - gestion par bureaux", lieu déjà nu), les contrats de mariage
+        // vivent dans un arbre séparé et plus ancien ("2C - Contrôle des actes des notaires"), lieu
+        // au format "Bureau d'Amboise (1706-an II)" nettoyé côté scraper.
+        minYear: 1750,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_37.json',
+        catalogUrl: 'https://archives.touraine.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20contrats%20de%20mariage',
+    },
 };
 
 function fetchJson(url) {

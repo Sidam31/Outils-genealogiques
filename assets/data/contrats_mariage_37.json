@@ -1,0 +1,594 @@
+[
+  {
+    "place": "Amboise",
+    "cote": "2C9 (Cote)",
+    "yearStart": 1777,
+    "yearEnd": 1777,
+    "url": "https://archives.touraine.fr/ark:/37621/6xp534znv70m",
+    "digitized": true
+  },
+  {
+    "place": "Artannes",
+    "cote": "2C230 (Cote)",
+    "yearStart": 1776,
+    "yearEnd": 1789,
+    "url": "https://archives.touraine.fr/ark:/37621/b5nq68p0ghwl",
+    "digitized": true
+  },
+  {
+    "place": "Bléré",
+    "cote": "2C450 (Cote)",
+    "yearStart": 1775,
+    "yearEnd": 1775,
+    "url": "https://archives.touraine.fr/ark:/37621/qp51fx86jrv9",
+    "digitized": true
+  },
+  {
+    "place": "Bourgueil",
+    "cote": "2C549 (Cote)",
+    "yearStart": 1750,
+    "yearEnd": 1750,
+    "url": "https://archives.touraine.fr/ark:/37621/5fs7xmknvb34",
+    "digitized": true
+  },
+  {
+    "place": "Château-la-Vallière",
+    "cote": "2C765 (Cote)",
+    "yearStart": 1767,
+    "yearEnd": 1767,
+    "url": "https://archives.touraine.fr/ark:/37621/7g4sx6cv3whp",
+    "digitized": true
+  },
+  {
+    "place": "Cormery",
+    "cote": "2C1275 (Cote)",
+    "yearStart": 1754,
+    "yearEnd": 1790,
+    "url": "https://archives.touraine.fr/ark:/37621/jk42cr1bg8lq",
+    "digitized": true
+  },
+  {
+    "place": "La Haye",
+    "cote": "2C1509 (Cote)",
+    "yearStart": 1781,
+    "yearEnd": 1789,
+    "url": "https://archives.touraine.fr/ark:/37621/mx8cghqskzvr",
+    "digitized": true
+  },
+  {
+    "place": "Langeais",
+    "cote": "2C1652 (Cote)",
+    "yearStart": 1752,
+    "yearEnd": 1772,
+    "url": "https://archives.touraine.fr/ark:/37621/4wvzn570gxjk",
+    "digitized": true
+  },
+  {
+    "place": "Ligueil",
+    "cote": "2C1718 (Cote)",
+    "yearStart": 1760,
+    "yearEnd": 1790,
+    "url": "https://archives.touraine.fr/ark:/37621/2f8dc5wgrbzj",
+    "digitized": true
+  },
+  {
+    "place": "Loches",
+    "cote": "2C1830 (Cote)",
+    "yearStart": 1755,
+    "yearEnd": 1806,
+    "url": "https://archives.touraine.fr/ark:/37621/r16sqwlkbd79",
+    "digitized": true
+  },
+  {
+    "place": "Montbazon",
+    "cote": "2C2078 (Cote)",
+    "yearStart": 1776,
+    "yearEnd": 1776,
+    "url": "https://archives.touraine.fr/ark:/37621/7nfjmtv9qxdp",
+    "digitized": true
+  },
+  {
+    "place": "Montrésor",
+    "cote": "2C2190 (Cote)",
+    "yearStart": 1775,
+    "yearEnd": 1822,
+    "url": "https://archives.touraine.fr/ark:/37621/mq6ts8f9dkwx",
+    "digitized": true
+  },
+  {
+    "place": "Nouâtre",
+    "cote": "2C2337 (Cote)",
+    "yearStart": 1755,
+    "yearEnd": 1790,
+    "url": "https://archives.touraine.fr/ark:/37621/f24mj7gn6kbc",
+    "digitized": true
+  },
+  {
+    "place": "Preuilly",
+    "cote": "2C2371 (Cote)",
+    "yearStart": 1761,
+    "yearEnd": 1814,
+    "url": "https://archives.touraine.fr/ark:/37621/324fkjcvm0pn",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Maure",
+    "cote": "2C2762 (Cote)",
+    "yearStart": 1754,
+    "yearEnd": 1812,
+    "url": "https://archives.touraine.fr/ark:/37621/l41q975j02h3",
+    "digitized": true
+  },
+  {
+    "place": "Amboise",
+    "cote": "3Q32 (Cote)",
+    "yearStart": 1806,
+    "yearEnd": 1806,
+    "url": "https://archives.touraine.fr/ark:/37621/vns6l49tmzc0",
+    "digitized": true
+  },
+  {
+    "place": "Amboise",
+    "cote": "3Q33 (Cote)",
+    "yearStart": 1807,
+    "yearEnd": 1810,
+    "url": "https://archives.touraine.fr/ark:/37621/rcv5x204gk3d",
+    "digitized": true
+  },
+  {
+    "place": "Amboise",
+    "cote": "3Q34 (Cote)",
+    "yearStart": 1811,
+    "yearEnd": 1819,
+    "url": "https://archives.touraine.fr/ark:/37621/1mgxbwv2p786",
+    "digitized": true
+  },
+  {
+    "place": "Amboise",
+    "cote": "3Q35 (Cote)",
+    "yearStart": 1820,
+    "yearEnd": 1842,
+    "url": "https://archives.touraine.fr/ark:/37621/j8v2z50r4khc",
+    "digitized": true
+  },
+  {
+    "place": "Amboise",
+    "cote": "3Q36 (Cote)",
+    "yearStart": 1842,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/dlcv03p6n4x9",
+    "digitized": true
+  },
+  {
+    "place": "Azay-le-Rideau",
+    "cote": "3Q531 (Cote)",
+    "yearStart": 1843,
+    "yearEnd": 1843,
+    "url": "https://archives.touraine.fr/ark:/37621/7b62pd5qmwj0",
+    "digitized": true
+  },
+  {
+    "place": "Azay-le-Rideau",
+    "cote": "3Q532 (Cote)",
+    "yearStart": 1843,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/3lrbhxj1tsck",
+    "digitized": true
+  },
+  {
+    "place": "Bléré",
+    "cote": "3Q899 (Cote)",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives.touraine.fr/ark:/37621/fsdxg0qh9wl3",
+    "digitized": true
+  },
+  {
+    "place": "Bléré",
+    "cote": "3Q900 (Cote)",
+    "yearStart": 1813,
+    "yearEnd": 1839,
+    "url": "https://archives.touraine.fr/ark:/37621/d1psl6hr5q3m",
+    "digitized": true
+  },
+  {
+    "place": "Bléré",
+    "cote": "3Q901 (Cote)",
+    "yearStart": 1840,
+    "yearEnd": 1855,
+    "url": "https://archives.touraine.fr/ark:/37621/cz29q7tmgpvk",
+    "digitized": true
+  },
+  {
+    "place": "Bléré",
+    "cote": "3Q902 (Cote)",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/0j4q6mt3lw5k",
+    "digitized": true
+  },
+  {
+    "place": "Bourgueil",
+    "cote": "3Q1359 (Cote)",
+    "yearStart": 1814,
+    "yearEnd": 1824,
+    "url": "https://archives.touraine.fr/ark:/37621/3hxpf98m0gjd",
+    "digitized": true
+  },
+  {
+    "place": "Bourgueil",
+    "cote": "3Q1360 (Cote)",
+    "yearStart": 1825,
+    "yearEnd": 1854,
+    "url": "https://archives.touraine.fr/ark:/37621/6dgbnz3s0h47",
+    "digitized": true
+  },
+  {
+    "place": "Bourgueil",
+    "cote": "3Q1361 (Cote)",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/0xqv7g8f3dt5",
+    "digitized": true
+  },
+  {
+    "place": "Château-La-Vallière",
+    "cote": "3Q1784 (Cote)",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://archives.touraine.fr/ark:/37621/371n8t40prxm",
+    "digitized": true
+  },
+  {
+    "place": "Château-La-Vallière",
+    "cote": "3Q1785 (Cote)",
+    "yearStart": 1811,
+    "yearEnd": 1824,
+    "url": "https://archives.touraine.fr/ark:/37621/d9qgl8n4fx0p",
+    "digitized": true
+  },
+  {
+    "place": "Château-La-Vallière",
+    "cote": "3Q1786 (Cote)",
+    "yearStart": 1825,
+    "yearEnd": 1852,
+    "url": "https://archives.touraine.fr/ark:/37621/w20zlx3gt964",
+    "digitized": true
+  },
+  {
+    "place": "Château-La-Vallière",
+    "cote": "3Q1787 (Cote)",
+    "yearStart": 1853,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/n3b2p7f8c10z",
+    "digitized": true
+  },
+  {
+    "place": "Château-Renault",
+    "cote": "3Q2117 (Cote)",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.touraine.fr/ark:/37621/kqvlfbhjcnds",
+    "digitized": true
+  },
+  {
+    "place": "Château-Renault",
+    "cote": "3Q2118 (Cote)",
+    "yearStart": 1825,
+    "yearEnd": 1849,
+    "url": "https://archives.touraine.fr/ark:/37621/bh6pcxkg7051",
+    "digitized": true
+  },
+  {
+    "place": "Château-Renault",
+    "cote": "3Q2119 (Cote)",
+    "yearStart": 1850,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/qwj8c1p3sf6r",
+    "digitized": true
+  },
+  {
+    "place": "Chinon",
+    "cote": "3Q2550 (Cote)",
+    "yearStart": 1773,
+    "yearEnd": 1820,
+    "url": "https://archives.touraine.fr/ark:/37621/58wvgp0n96dr",
+    "digitized": true
+  },
+  {
+    "place": "Chinon",
+    "cote": "3Q2551 (Cote)",
+    "yearStart": 1821,
+    "yearEnd": 1838,
+    "url": "https://archives.touraine.fr/ark:/37621/c8dfzqvgjh1m",
+    "digitized": true
+  },
+  {
+    "place": "Chinon",
+    "cote": "3Q2552 (Cote)",
+    "yearStart": 1839,
+    "yearEnd": 1861,
+    "url": "https://archives.touraine.fr/ark:/37621/p3cqjs5xhdlw",
+    "digitized": true
+  },
+  {
+    "place": "Le Grand-Pressigny",
+    "cote": "3Q3171 (Cote)",
+    "yearStart": 1792,
+    "yearEnd": 1818,
+    "url": "https://archives.touraine.fr/ark:/37621/x103lnk6g72d",
+    "digitized": true
+  },
+  {
+    "place": "Le Grand-Pressigny",
+    "cote": "3Q3172 (Cote)",
+    "yearStart": 1819,
+    "yearEnd": 1855,
+    "url": "https://archives.touraine.fr/ark:/37621/7xbd4km3pj1c",
+    "digitized": true
+  },
+  {
+    "place": "Le Grand-Pressigny",
+    "cote": "3Q3173 (Cote)",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/16dn25jhlp09",
+    "digitized": true
+  },
+  {
+    "place": "Descartes (anciennement La Haye-Descartes)",
+    "cote": "3Q3419 (Cote)",
+    "yearStart": 1808,
+    "yearEnd": 1829,
+    "url": "https://archives.touraine.fr/ark:/37621/gzt0qm2bksxc",
+    "digitized": true
+  },
+  {
+    "place": "Descartes (anciennement La Haye-Descartes)",
+    "cote": "3Q3420 (Cote)",
+    "yearStart": 1830,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/4kpfmcn57vx2",
+    "digitized": true
+  },
+  {
+    "place": "L'Ile-Bouchard",
+    "cote": "3Q3716 (Cote)",
+    "yearStart": 1806,
+    "yearEnd": 1825,
+    "url": "https://archives.touraine.fr/ark:/37621/tg2sdbc0m8r9",
+    "digitized": true
+  },
+  {
+    "place": "L'Ile-Bouchard",
+    "cote": "3Q3717 (Cote)",
+    "yearStart": 1825,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/561wsqf8r0jb",
+    "digitized": true
+  },
+  {
+    "place": "Langeais",
+    "cote": "3Q4035 (Cote)",
+    "yearStart": 1773,
+    "yearEnd": 1825,
+    "url": "https://archives.touraine.fr/ark:/37621/mt93rp275gkh",
+    "digitized": true
+  },
+  {
+    "place": "Langeais",
+    "cote": "3Q4036 (Cote)",
+    "yearStart": 1826,
+    "yearEnd": 1837,
+    "url": "https://archives.touraine.fr/ark:/37621/8bn4gr70f1wl",
+    "digitized": true
+  },
+  {
+    "place": "Langeais",
+    "cote": "3Q4037 (Cote)",
+    "yearStart": 1837,
+    "yearEnd": 1856,
+    "url": "https://archives.touraine.fr/ark:/37621/x21v9mf08spn",
+    "digitized": true
+  },
+  {
+    "place": "Langeais",
+    "cote": "3Q4038 (Cote)",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/89n5fq4xgj1c",
+    "digitized": true
+  },
+  {
+    "place": "Ligueil",
+    "cote": "3Q4398 (Cote)",
+    "yearStart": 1817,
+    "yearEnd": 1864,
+    "url": "https://archives.touraine.fr/ark:/37621/v3xrdhzj6475",
+    "digitized": true
+  },
+  {
+    "place": "Ligueil",
+    "cote": "3Q4399 (Cote)",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/c26rftbh0w7v",
+    "digitized": true
+  },
+  {
+    "place": "Loches",
+    "cote": "3Q4680 (Cote)",
+    "yearStart": 1806,
+    "yearEnd": 1823,
+    "url": "https://archives.touraine.fr/ark:/37621/8362gs9m710n",
+    "digitized": true
+  },
+  {
+    "place": "Loches",
+    "cote": "3Q4681 (Cote)",
+    "yearStart": 1823,
+    "yearEnd": 1835,
+    "url": "https://archives.touraine.fr/ark:/37621/73lbxhd5tngk",
+    "digitized": true
+  },
+  {
+    "place": "Loches",
+    "cote": "3Q4682 (Cote)",
+    "yearStart": 1836,
+    "yearEnd": 1852,
+    "url": "https://archives.touraine.fr/ark:/37621/5hm247gnb9qc",
+    "digitized": true
+  },
+  {
+    "place": "Loches",
+    "cote": "3Q4683 (Cote)",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/8nvt7jf4h356",
+    "digitized": true
+  },
+  {
+    "place": "Manthelan",
+    "cote": "3Q5392 (Cote)",
+    "yearStart": 1772,
+    "yearEnd": 1817,
+    "url": "https://archives.touraine.fr/ark:/37621/bfc0m1spd9zn",
+    "digitized": true
+  },
+  {
+    "place": "Montbazon",
+    "cote": "3Q5480 (Cote)",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives.touraine.fr/ark:/37621/zqwtbr403mv6",
+    "digitized": true
+  },
+  {
+    "place": "Montbazon",
+    "cote": "3Q5481 (Cote)",
+    "yearStart": 1813,
+    "yearEnd": 1841,
+    "url": "https://archives.touraine.fr/ark:/37621/t6g3h0z5pdbc",
+    "digitized": true
+  },
+  {
+    "place": "Montbazon",
+    "cote": "3Q5482 (Cote)",
+    "yearStart": 1849,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/l30jzcp6189q",
+    "digitized": true
+  },
+  {
+    "place": "Montrésor",
+    "cote": "3Q5947 (Cote)",
+    "yearStart": 1821,
+    "yearEnd": 1863,
+    "url": "https://archives.touraine.fr/ark:/37621/4nq6fs0xzdkt",
+    "digitized": true
+  },
+  {
+    "place": "Montrésor",
+    "cote": "3Q5948 (Cote)",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/l5gnvdsbz3q0",
+    "digitized": true
+  },
+  {
+    "place": "Preuilly-sur-Claise",
+    "cote": "3Q6574 (Cote)",
+    "yearStart": 1818,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/08h5v7k34x2p",
+    "digitized": true
+  },
+  {
+    "place": "Richelieu",
+    "cote": "3Q6867 (Cote)",
+    "yearStart": 1848,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/9hgz3ptqsb42",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Maure-de-Touraine",
+    "cote": "3Q7215 (Cote)",
+    "yearStart": 1813,
+    "yearEnd": 1859,
+    "url": "https://archives.touraine.fr/ark:/37621/fht1sr9jxmcg",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Maure-de-Touraine",
+    "cote": "3Q7216 (Cote)",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/g7c6smj05npb",
+    "digitized": true
+  },
+  {
+    "place": "Vouvray",
+    "cote": "3Q9589 (Cote)",
+    "yearStart": 1791,
+    "yearEnd": 1820,
+    "url": "https://archives.touraine.fr/ark:/37621/xm93pfqndbh5",
+    "digitized": true
+  },
+  {
+    "place": "Vouvray",
+    "cote": "3Q9590 (Cote)",
+    "yearStart": 1821,
+    "yearEnd": 1830,
+    "url": "https://archives.touraine.fr/ark:/37621/0g98k4vhfm7p",
+    "digitized": true
+  },
+  {
+    "place": "Vouvray",
+    "cote": "3Q9591 (Cote)",
+    "yearStart": 1831,
+    "yearEnd": 1849,
+    "url": "https://archives.touraine.fr/ark:/37621/x4s1qn3fh6lv",
+    "digitized": true
+  },
+  {
+    "place": "Vouvray",
+    "cote": "3Q9592 (Cote)",
+    "yearStart": 1850,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/t1cw6drsf0ng",
+    "digitized": true
+  },
+  {
+    "place": "Neuillé-Pont-Pierre",
+    "cote": "3Q15541 (Cote)",
+    "yearStart": 1825,
+    "yearEnd": 1862,
+    "url": "https://archives.touraine.fr/ark:/37621/fh456sjn7md0",
+    "digitized": true
+  },
+  {
+    "place": "Neuvy-le-Roi",
+    "cote": "3Q15582 (Cote)",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.touraine.fr/ark:/37621/d7rpmb48zwsf",
+    "digitized": true
+  },
+  {
+    "place": "Neuvy-le-Roi",
+    "cote": "3Q15583 (Cote)",
+    "yearStart": 1825,
+    "yearEnd": 1845,
+    "url": "https://archives.touraine.fr/ark:/37621/6scjvk7g4m23",
+    "digitized": true
+  },
+  {
+    "place": "Neuvy-le-Roi",
+    "cote": "3Q15584 (Cote)",
+    "yearStart": 1846,
+    "yearEnd": 1865,
+    "url": "https://archives.touraine.fr/ark:/37621/l1qztmrj4x2p",
+    "digitized": true
+  }
+]
