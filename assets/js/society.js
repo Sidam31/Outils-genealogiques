@@ -36,9 +36,12 @@ export function computeProfessionsStats(list, map) {
     let fatherSonEligible = 0, fatherSonMatches = 0;
 
     list.forEach(p => {
-        (p.occupations || []).forEach(occ => {
-            const key = (occ || '').trim();
-            if (!key) return;
+        // Une même personne peut avoir plusieurs "1 OCCU" identiques (le même métier réenregistré
+        // à plusieurs actes/recensements, voir gedcom.js) : on déduplique par personne pour que ce
+        // classement compte des PERSONNES exerçant une profession, pas des occurrences du tag OCCU
+        // (cohérent avec computeMarriageSeasonality, qui déduplique déjà de la même façon).
+        const distinctOccs = new Set((p.occupations || []).map(occ => (occ || '').trim()).filter(Boolean));
+        distinctOccs.forEach(key => {
             professions.set(key, (professions.get(key) || 0) + 1);
         });
 
