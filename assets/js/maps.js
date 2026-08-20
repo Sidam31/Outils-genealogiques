@@ -1071,7 +1071,7 @@ export function drawAgeDeathTrend(list) {
     const container = d3.select('#ageChartDeathTrend');
     const byDecadeM = new Map(), byDecadeF = new Map();
     list.forEach(i => {
-        if(i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F')) {
+        if(i.death?.year && i.ageDeath != null && i.ageDeath >= 0 && i.ageDeath <= 110 && (i.sex === 'M' || i.sex === 'F')) {
             const dec = decadeOf(i.death.year);
             const target = i.sex === 'M' ? byDecadeM : byDecadeF;
             if(!target.has(dec)) target.set(dec, []);

@@ -163,8 +163,8 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
     box-shadow: 0 1px 2px rgba(0,0,0,0.08);
     transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
 }
-.chart-zoom-reset-btn:hover, .chart-copy-btn:hover { background: #f0f4fb; box-shadow: 0 2px 6px rgba(0,0,0,0.14); transform: translateY(-1px); }
-.chart-zoom-reset-btn:active, .chart-copy-btn:active { transform: translateY(0); box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
+.chart-zoom-reset-btn:hover, .chart-copy-btn:hover { background: #f0f4fb; box-shadow: 0 2px 6px rgba(0,0,0,0.14); }
+.chart-zoom-reset-btn:active, .chart-copy-btn:active { box-shadow: 0 1px 2px rgba(0,0,0,0.1); }
 
 /* DECADE SLIDER */
 .decade-slider-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; padding: 0 10px; }
