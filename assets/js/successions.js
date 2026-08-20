@@ -827,6 +827,31 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_54.json',
         catalogUrl: 'https://archivesenligne.meurthe-et-moselle.fr/archives-en-ligne/tables-de-successions-et-absences',
     },
+    '41': {
+        label: 'Loir-et-Cher',
+        kind: 'facet',
+        // Bornes réelles de la série (300 registres, 27 lieux, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['41']) - nouveau département pour ce
+        // projet, portail Ligeo Archives derrière Anubis (mode "columns_typefilter", nouveau : le
+        // noeud "tsa" mélange 6 types de tables voisines, filtré côté client). Tous les registres
+        // sont numérisés.
+        minYear: 1824,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_41.json',
+        catalogUrl: 'https://www.archives41.fr/archive/recherche/tsa/n:152',
+    },
+    '52': {
+        label: 'Haute-Marne',
+        kind: 'facet',
+        // Bornes réelles de la série (168 registres, 30 bureaux sur 36, voir
+        // scrape_successions_haute_marne.py) - nouveau département pour ce projet, portail
+        // Anaphore/Bach (même logiciel que Gard/Côtes-d'Armor/Vaucluse) mais arbre à un niveau de
+        // plus (volume daté puis subdivision par lettre, non exploitée ici).
+        minYear: 1791,
+        maxYear: 1966,
+        registersUrl: './assets/data/successions_52.json',
+        catalogUrl: 'https://archives.haute-marne.fr/archives/classification-scheme',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
