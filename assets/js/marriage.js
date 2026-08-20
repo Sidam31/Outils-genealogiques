@@ -275,6 +275,17 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_84.json',
         catalogUrl: 'https://earchives.vaucluse.fr/archives/search?filter_field=cCorpname&filter_value=Bureau+de+l%27enregistrement+d%27Avignon',
     },
+    '60': {
+        label: 'Oise',
+        // Bornes réelles de la série (16 registres, 12 lieux, voir
+        // scrape_contrats_mariage_archinoe.py) - même portail Archinoë que les successions de
+        // l'Oise, "Tables des contrats de mariage" est une valeur soeur du même sélecteur
+        // "type_registre" (pas trouvée pour Loire-Atlantique, même famille de logiciel).
+        minYear: 1729,
+        maxYear: 1810,
+        registersUrl: './assets/data/contrats_mariage_60.json',
+        catalogUrl: 'https://ressources.archives.oise.fr/v2/ad60/tsa.html',
+    },
 };
 
 function fetchJson(url) {
