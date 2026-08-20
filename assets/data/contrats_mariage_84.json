@@ -1,0 +1,266 @@
+[
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2670",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-320",
+    "digitized": true
+  },
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2671",
+    "yearStart": 1811,
+    "yearEnd": 1816,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-321",
+    "digitized": true
+  },
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2672",
+    "yearStart": 1816,
+    "yearEnd": 1829,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-322",
+    "digitized": true
+  },
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2673",
+    "yearStart": 1829,
+    "yearEnd": 1837,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-323",
+    "digitized": true
+  },
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2674",
+    "yearStart": 1837,
+    "yearEnd": 1846,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-324",
+    "digitized": true
+  },
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2675",
+    "yearStart": 1847,
+    "yearEnd": 1857,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-325",
+    "digitized": true
+  },
+  {
+    "place": "Avignon",
+    "cote": "19 Q 2676",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000826_de-326",
+    "digitized": true
+  },
+  {
+    "place": "Apt",
+    "cote": "19 Q 725",
+    "yearStart": 1772,
+    "yearEnd": 1772,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000131_de-99",
+    "digitized": true
+  },
+  {
+    "place": "Apt",
+    "cote": "19 Q 726",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000131_de-100",
+    "digitized": true
+  },
+  {
+    "place": "Apt",
+    "cote": "19 Q 727",
+    "yearStart": 1813,
+    "yearEnd": 1827,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000131_de-101",
+    "digitized": true
+  },
+  {
+    "place": "Apt",
+    "cote": "19 Q 728",
+    "yearStart": 1827,
+    "yearEnd": 1841,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000131_de-102",
+    "digitized": true
+  },
+  {
+    "place": "Apt",
+    "cote": "19 Q 729",
+    "yearStart": 1840,
+    "yearEnd": 1857,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000131_de-103",
+    "digitized": true
+  },
+  {
+    "place": "Apt",
+    "cote": "19 Q 730",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000131_de-104",
+    "digitized": true
+  },
+  {
+    "place": "Pertuis",
+    "cote": "19 Q 9879",
+    "yearStart": 1772,
+    "yearEnd": 1772,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000838_de-75",
+    "digitized": true
+  },
+  {
+    "place": "Pertuis",
+    "cote": "19 Q 9881",
+    "yearStart": 1815,
+    "yearEnd": 1815,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000838_de-77",
+    "digitized": true
+  },
+  {
+    "place": "Pertuis",
+    "cote": "19 Q 9882",
+    "yearStart": 1815,
+    "yearEnd": 1831,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000838_de-78",
+    "digitized": true
+  },
+  {
+    "place": "Pertuis",
+    "cote": "19 Q 9883",
+    "yearStart": 1831,
+    "yearEnd": 1850,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000838_de-79",
+    "digitized": true
+  },
+  {
+    "place": "Pertuis",
+    "cote": "19 Q 9884",
+    "yearStart": 1851,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000838_de-80",
+    "digitized": true
+  },
+  {
+    "place": "Vaison-la-Romaine",
+    "cote": "19 Q 10548",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000840_de-59",
+    "digitized": true
+  },
+  {
+    "place": "Vaison-la-Romaine",
+    "cote": "19 Q 10549",
+    "yearStart": 1814,
+    "yearEnd": 1830,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000840_de-60",
+    "digitized": true
+  },
+  {
+    "place": "Vaison-la-Romaine",
+    "cote": "19 Q 10550",
+    "yearStart": 1831,
+    "yearEnd": 1851,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000840_de-61",
+    "digitized": true
+  },
+  {
+    "place": "Vaison-la-Romaine",
+    "cote": "19 Q 10551",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000840_de-62",
+    "digitized": true
+  },
+  {
+    "place": "Valréas",
+    "cote": "19 Q 10977",
+    "yearStart": 1809,
+    "yearEnd": 1809,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000841_de-44",
+    "digitized": true
+  },
+  {
+    "place": "Valréas",
+    "cote": "19 Q 10978",
+    "yearStart": 1809,
+    "yearEnd": 1825,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000841_de-45",
+    "digitized": true
+  },
+  {
+    "place": "Valréas",
+    "cote": "19 Q 10979",
+    "yearStart": 1824,
+    "yearEnd": 1833,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000841_de-46",
+    "digitized": true
+  },
+  {
+    "place": "Valréas",
+    "cote": "19 Q 10980",
+    "yearStart": 1833,
+    "yearEnd": 1848,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000841_de-47",
+    "digitized": true
+  },
+  {
+    "place": "Valréas",
+    "cote": "19 Q 10981",
+    "yearStart": 1849,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000841_de-48",
+    "digitized": true
+  },
+  {
+    "place": "Pernes-les-Fontaines",
+    "cote": "19 Q 9377",
+    "yearStart": 1833,
+    "yearEnd": 1860,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000837_de-23",
+    "digitized": true
+  },
+  {
+    "place": "Pernes-les-Fontaines",
+    "cote": "19 Q 9378",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000837_de-24",
+    "digitized": true
+  },
+  {
+    "place": "Sault",
+    "cote": "19 Q 10155",
+    "yearStart": 1791,
+    "yearEnd": 1807,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000839_de-37",
+    "digitized": true
+  },
+  {
+    "place": "Sault",
+    "cote": "19 Q 10156",
+    "yearStart": 1807,
+    "yearEnd": 1824,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000839_de-38",
+    "digitized": true
+  },
+  {
+    "place": "Sault",
+    "cote": "19 Q 10157",
+    "yearStart": 1825,
+    "yearEnd": 1856,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000839_de-39",
+    "digitized": true
+  },
+  {
+    "place": "Sault",
+    "cote": "19 Q 10158",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://earchives.vaucluse.fr/archives/show/FRAD084_IR0000839_de-40",
+    "digitized": true
+  }
+]

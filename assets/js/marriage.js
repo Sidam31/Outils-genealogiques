@@ -264,6 +264,17 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_83.json',
         catalogUrl: 'https://archives.var.fr/recherche/rechercher-dans-les-archives-numerisees-et-les-inventaires/controle-des-actes-et-enregistrement',
     },
+    '84': {
+        label: 'Vaucluse',
+        // Bornes réelles de la série (33 registres, 7 bureaux, voir
+        // scrape_contrats_mariage_vaucluse.py) - la facette cCorpname utilisée côté successions ne
+        // remonte pas ce noeud de façon fiable ; trouvé en repli via l'arbre complet de chaque
+        // bureau ("/document/<IR id>"). Tous les registres sont numérisés.
+        minYear: 1772,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_84.json',
+        catalogUrl: 'https://earchives.vaucluse.fr/archives/search?filter_field=cCorpname&filter_value=Bureau+de+l%27enregistrement+d%27Avignon',
+    },
 };
 
 function fetchJson(url) {

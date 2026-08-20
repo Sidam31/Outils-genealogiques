@@ -657,6 +657,12 @@ export async function drawDepartmentMap(containerId, code, detail) {
     svg.append('path').datum(feature).attr('d', path)
         .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
 
+    // Titre dessiné EN SVG (même raison que la "liste éclair", voir plus haut) : le nom du
+    // département n'apparaît sinon que dans le <h3> HTML à côté, absent de l'image copiée/partagée
+    // puisque copySvgAsPng (utils.js) ne sérialise que le <svg> ciblé.
+    svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
+        .text(`${detail.label} (${code})`);
+
     if(!detail.points.length) {
         svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
             .style('font-size', '11px').style('fill', '#888')
@@ -849,6 +855,11 @@ export async function drawBeProvinceMap(containerId, code, detail) {
 
     svg.append('path').datum(feature).attr('d', path)
         .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
+
+    // Titre dessiné EN SVG : même raison que pour drawDepartmentMap (voir son commentaire) — absent
+    // sinon de l'image copiée/partagée, qui ne sérialise que le <svg>.
+    svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
+        .text(detail.label);
 
     if(!detail.points.length) {
         svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
