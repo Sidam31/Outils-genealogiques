@@ -1,0 +1,4602 @@
+[
+  {
+    "place": "Béziers",
+    "cote": "2 C 389",
+    "yearStart": 1760,
+    "yearEnd": 1798,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta49349afc4bb435d7",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "2 C 870",
+    "yearStart": 1787,
+    "yearEnd": 1787,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtade6d18cc0b252fdf",
+    "digitized": false
+  },
+  {
+    "place": "Lunel",
+    "cote": "2 C 999",
+    "yearStart": 1767,
+    "yearEnd": 1803,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta156c461bd97f3aa1",
+    "digitized": false
+  },
+  {
+    "place": "Montpellier",
+    "cote": "2 C 1530",
+    "yearStart": 1769,
+    "yearEnd": 1792,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1d844e9e9135c24e",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "2 C 1785",
+    "yearStart": 1768,
+    "yearEnd": 1768,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3bf7bc973579b0f1",
+    "digitized": true
+  },
+  {
+    "place": "Pignan",
+    "cote": "2 C 1876",
+    "yearStart": 1768,
+    "yearEnd": 1768,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta66977f6ebda29fba",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 66",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab44fab261f263455",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 67",
+    "yearStart": 1830,
+    "yearEnd": 1834,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa9ea19e9c2a52d40",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 68",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac22772f6221ad0a9",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 69",
+    "yearStart": 1841,
+    "yearEnd": 1845,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae205fba0e92b0e79",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 70",
+    "yearStart": 1846,
+    "yearEnd": 1850,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9dd7d8bad6eb8982",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 71",
+    "yearStart": 1850,
+    "yearEnd": 1855,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta78263c32db9a4385",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 72",
+    "yearStart": 1855,
+    "yearEnd": 1862,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf1fd18ae5cfc9d0a",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 73",
+    "yearStart": 1863,
+    "yearEnd": 1869,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0b3041d8134a2f57",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 74",
+    "yearStart": 1869,
+    "yearEnd": 1874,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac63b38fb22aaf28f",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 75",
+    "yearStart": 1874,
+    "yearEnd": 1880,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta328676dc517b232a",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 76",
+    "yearStart": 1881,
+    "yearEnd": 1887,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8ec6a0b228e780fc",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 77",
+    "yearStart": 1887,
+    "yearEnd": 1895,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa7e461df838a8cea",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 78",
+    "yearStart": 1895,
+    "yearEnd": 1903,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaeec1033619fc192f",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 79",
+    "yearStart": 1904,
+    "yearEnd": 1912,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad4e3cace8620e571",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 80",
+    "yearStart": 1913,
+    "yearEnd": 1919,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta162491feb214df23",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 81",
+    "yearStart": 1919,
+    "yearEnd": 1924,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf5bbf2d10487abd5",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 82",
+    "yearStart": 1924,
+    "yearEnd": 1930,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4faa6d344b039770",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 83",
+    "yearStart": 1930,
+    "yearEnd": 1937,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1497f3b0606efc09",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 84",
+    "yearStart": 1938,
+    "yearEnd": 1943,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafe13ce5ff9e1b424",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 85",
+    "yearStart": 1944,
+    "yearEnd": 1950,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6f4fe9f6923a5896",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 86",
+    "yearStart": 1951,
+    "yearEnd": 1958,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8b818995f12d6457",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 87",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaa1135473ec014b2",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 88",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5f2469a963a7fa7d",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 829",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta57f3f8da69689dae",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 830",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae2df3e49471cc676",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 831",
+    "yearStart": 1813,
+    "yearEnd": 1825,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2e79681a88d478c3",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 836",
+    "yearStart": 1822,
+    "yearEnd": 1836,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf9d391472c17b216",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 837",
+    "yearStart": 1837,
+    "yearEnd": 1847,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf548aa2849689dd6",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 838",
+    "yearStart": 1848,
+    "yearEnd": 1858,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf32edc3cd1cd7b2a",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 839",
+    "yearStart": 1858,
+    "yearEnd": 1870,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta02d41d8cbda1fee8",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 840",
+    "yearStart": 1870,
+    "yearEnd": 1881,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta94e31ee8328667be",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 841",
+    "yearStart": 1882,
+    "yearEnd": 1896,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacea1a1a32a0ed278",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 842",
+    "yearStart": 1897,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta05785e2e01db2bce",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 843",
+    "yearStart": 1921,
+    "yearEnd": 1950,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9620b59f6bf20d01",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1039",
+    "yearStart": 1801,
+    "yearEnd": 1814,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacad6d530b9155e86",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1040",
+    "yearStart": 1815,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa398802d97ce80a8",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1045",
+    "yearStart": 1843,
+    "yearEnd": 1850,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad940d669819bf0a9",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1046",
+    "yearStart": 1850,
+    "yearEnd": 1855,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac598afbaa2b96f5a",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1047",
+    "yearStart": 1856,
+    "yearEnd": 1864,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta57665e7b532d105c",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1048",
+    "yearStart": 1865,
+    "yearEnd": 1873,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4f47514f30446c2b",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1049",
+    "yearStart": 1873,
+    "yearEnd": 1881,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2e89361817b88d74",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1051",
+    "yearStart": 1892,
+    "yearEnd": 1901,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae6004579b82db7f0",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1052",
+    "yearStart": 1901,
+    "yearEnd": 1912,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacff8a62f6ad147d9",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1053",
+    "yearStart": 1913,
+    "yearEnd": 1922,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6e76383e25f9cdc8",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1054",
+    "yearStart": 1922,
+    "yearEnd": 1928,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta300bf5e1a2429ff8",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1055",
+    "yearStart": 1928,
+    "yearEnd": 1933,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta50eb42cc952ce745",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1056",
+    "yearStart": 1934,
+    "yearEnd": 1940,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaeca7a6642db30a09",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1057",
+    "yearStart": 1940,
+    "yearEnd": 1945,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta634de8f230d3e7de",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1058",
+    "yearStart": 1946,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4630389a92b4c726",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1059",
+    "yearStart": 1953,
+    "yearEnd": 1957,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6b62671d0c1974fd",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1060",
+    "yearStart": 1958,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta096e194474dc59f0",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1061",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7faca5bdae2c8f5d",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1686",
+    "yearStart": 1807,
+    "yearEnd": 1812,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaca60cadacb54c4fb",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1687",
+    "yearStart": 1813,
+    "yearEnd": 1816,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacf82f6fce8e4237a",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1688",
+    "yearStart": 1817,
+    "yearEnd": 1825,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2e6af39c679743b8",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1709",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa7ff8c6ed336c0c8",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1710",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa0dfe266738a03de",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1711",
+    "yearStart": 1824,
+    "yearEnd": 1827,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6c467c1bd24db9d9",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1712",
+    "yearStart": 1828,
+    "yearEnd": 1830,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta995d3736c84684e1",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1713",
+    "yearStart": 1831,
+    "yearEnd": 1833,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa9bee83010acd55f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1714",
+    "yearStart": 1834,
+    "yearEnd": 1836,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac8865486bf99798d",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1715",
+    "yearStart": 1837,
+    "yearEnd": 1840,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta254ff1f313cca407",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1716",
+    "yearStart": 1840,
+    "yearEnd": 1843,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacfb5d98d4d6e9c6b",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1717",
+    "yearStart": 1844,
+    "yearEnd": 1847,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta599334c81176d4a5",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1718",
+    "yearStart": 1847,
+    "yearEnd": 1850,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5fc368fcf43d632a",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1719",
+    "yearStart": 1851,
+    "yearEnd": 1854,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaac0e918dd7e20986",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1720",
+    "yearStart": 1854,
+    "yearEnd": 1856,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta74fb2d5134e7797f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1721",
+    "yearStart": 1856,
+    "yearEnd": 1858,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf81fc5e46a49559e",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1722",
+    "yearStart": 1859,
+    "yearEnd": 1861,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta51111d37678406c2",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1723",
+    "yearStart": 1862,
+    "yearEnd": 1864,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae61d615e332c587e",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1724",
+    "yearStart": 1865,
+    "yearEnd": 1866,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7442d15b74d66a90",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1725",
+    "yearStart": 1867,
+    "yearEnd": 1869,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3497f6231784e059",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1726",
+    "yearStart": 1869,
+    "yearEnd": 1872,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2064d5b1cd701a62",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1727",
+    "yearStart": 1872,
+    "yearEnd": 1874,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab258498eadf09b4f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1728",
+    "yearStart": 1875,
+    "yearEnd": 1877,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0a8c0f3194b05f9b",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1729",
+    "yearStart": 1877,
+    "yearEnd": 1880,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta672ead401c28a189",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1730",
+    "yearStart": 1880,
+    "yearEnd": 1882,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtadaf2b1da82f532e9",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1731",
+    "yearStart": 1882,
+    "yearEnd": 1885,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3f2cd71180778331",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1732",
+    "yearStart": 1885,
+    "yearEnd": 1887,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta50d98dc261fd2b2f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1733",
+    "yearStart": 1888,
+    "yearEnd": 1889,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta89d772882a9d4cd3",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1734",
+    "yearStart": 1890,
+    "yearEnd": 1891,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf52c70427ff1f4d0",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1735",
+    "yearStart": 1892,
+    "yearEnd": 1893,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6ac2fbeb9fd0d3fd",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1736",
+    "yearStart": 1894,
+    "yearEnd": 1896,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa460f773c03f55e8",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1737",
+    "yearStart": 1896,
+    "yearEnd": 1898,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad929310c35d2668f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1738",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta278d679cd51bc2e6",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1739",
+    "yearStart": 1901,
+    "yearEnd": 1903,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta134b5c58d986e1a6",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1740",
+    "yearStart": 1903,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa85d1220ae8185b9",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1741",
+    "yearStart": 1905,
+    "yearEnd": 1907,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4f6fbf9a35286402",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1742",
+    "yearStart": 1908,
+    "yearEnd": 1909,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta828a17072dc0b301",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1743",
+    "yearStart": 1910,
+    "yearEnd": 1911,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta515e5ae6eeef5b7f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1744",
+    "yearStart": 1911,
+    "yearEnd": 1913,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6bdd37d71a537c8b",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1745",
+    "yearStart": 1914,
+    "yearEnd": 1915,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab881a55c9699c580",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1746",
+    "yearStart": 1915,
+    "yearEnd": 1917,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad2157a054f7d0e9d",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1747",
+    "yearStart": 1917,
+    "yearEnd": 1918,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3a7ddbb669c037a1",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1748",
+    "yearStart": 1918,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta10441fa14b901a71",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1749",
+    "yearStart": 1920,
+    "yearEnd": 1921,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta90149ed735aff4fe",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1750",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf409954ad1588989",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1751",
+    "yearStart": 1924,
+    "yearEnd": 1925,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac28a296bd94cd4d7",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1752",
+    "yearStart": 1926,
+    "yearEnd": 1927,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaab222fd04efa842d",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1753",
+    "yearStart": 1928,
+    "yearEnd": 1929,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta984b1ab2b50cd398",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1754",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac710321fff29cc8f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1755",
+    "yearStart": 1932,
+    "yearEnd": 1933,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta94a4381c0018f7cd",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1756",
+    "yearStart": 1934,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae752ab84614c6756",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1757",
+    "yearStart": 1936,
+    "yearEnd": 1937,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacf4f9c7aba3af168",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1758",
+    "yearStart": 1938,
+    "yearEnd": 1939,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8c29b873f7dd3fd8",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1759",
+    "yearStart": 1940,
+    "yearEnd": 1941,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta66e00514a9de99ee",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1760",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7ec2ab4ef2ae9843",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1761",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac2b614d6ffab8e80",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1762",
+    "yearStart": 1944,
+    "yearEnd": 1946,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4a123d6e743a73ab",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1763",
+    "yearStart": 1946,
+    "yearEnd": 1949,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaad04d3fd80cb4a67",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1764",
+    "yearStart": 1950,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad6d55f29e81784b1",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1765",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta93b8fd1bf51eb6d5",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1766",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacf747542986abe3c",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1767",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta56d72ffe76e62b8b",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1768",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4c17cc52d85c4fdc",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1769",
+    "yearStart": 1962,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3a4c5271f68fc0c0",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1770",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta073077e7a9917b96",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 16347",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad797f9f44eacb6c4",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 16348",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta80213fbdf637fe62",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1771",
+    "yearStart": 1944,
+    "yearEnd": 1946,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaba4b4d15ff69554b",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1772",
+    "yearStart": 1947,
+    "yearEnd": 1950,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf7c64c1c34257bb2",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1773",
+    "yearStart": 1951,
+    "yearEnd": 1954,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta636c1413a1781cdc",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1774",
+    "yearStart": 1955,
+    "yearEnd": 1957,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta518d83d092727046",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1775",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta97c044e92e4089b3",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1776",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9498a42a009549e7",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1777",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta52eb6d96cb63657d",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 16349",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta30b9ae4a92c0a305",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 16350",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2cfb49f65395d724",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3815",
+    "yearStart": 1858,
+    "yearEnd": 1871,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0d623c63c4122745",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3816",
+    "yearStart": 1871,
+    "yearEnd": 1885,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7a1fa01ee9a248f2",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3817",
+    "yearStart": 1885,
+    "yearEnd": 1897,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf4cef44f977d81d2",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3818",
+    "yearStart": 1897,
+    "yearEnd": 1910,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2cbd217e0a7fa5e8",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3819",
+    "yearStart": 1910,
+    "yearEnd": 1923,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa40cbe08e2d06485",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3820",
+    "yearStart": 1924,
+    "yearEnd": 1934,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta647c5358b4039119",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3821",
+    "yearStart": 1935,
+    "yearEnd": 1945,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae73ec0cf5454faa3",
+    "digitized": true
+  },
+  {
+    "place": "Capestang",
+    "cote": "3 Q 3822",
+    "yearStart": 1946,
+    "yearEnd": 1956,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa1d282e133ccab9f",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4127",
+    "yearStart": 1811,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1142fc7aa77d2b96",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4129",
+    "yearStart": 1791,
+    "yearEnd": 1820,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2cf5d68e890ad9ff",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4130",
+    "yearStart": 1821,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3197183dd48c9a3b",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4154",
+    "yearStart": 1824,
+    "yearEnd": 1839,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac65398868d7fffda",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4155",
+    "yearStart": 1840,
+    "yearEnd": 1846,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf342b04bbc377ef1",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4156",
+    "yearStart": 1847,
+    "yearEnd": 1856,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf1377eacf956cbde",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4157",
+    "yearStart": 1857,
+    "yearEnd": 1866,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf210adac56319dd9",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4158",
+    "yearStart": 1866,
+    "yearEnd": 1874,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta373e4baa3e43d465",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4159",
+    "yearStart": 1875,
+    "yearEnd": 1884,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac1b3bb86b5891c2b",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4160",
+    "yearStart": 1885,
+    "yearEnd": 1891,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta594d853b3c5df931",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4161",
+    "yearStart": 1892,
+    "yearEnd": 1899,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1e84119ec55fc8a0",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4162",
+    "yearStart": 1900,
+    "yearEnd": 1907,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafbfe01877f5a330a",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4163",
+    "yearStart": 1908,
+    "yearEnd": 1916,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta196b7664a03bbb03",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4164",
+    "yearStart": 1917,
+    "yearEnd": 1926,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3e44d2c4dca52d13",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4165",
+    "yearStart": 1927,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabd6f19dda1b25ada",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4166",
+    "yearStart": 1936,
+    "yearEnd": 1945,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafae88d9b2957ebd6",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4167",
+    "yearStart": 1946,
+    "yearEnd": 1953,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2fb5e4c65423c9f5",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4609",
+    "yearStart": 1811,
+    "yearEnd": 1817,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaeece446ccb021aab",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4627",
+    "yearStart": 1822,
+    "yearEnd": 1832,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6547cb06a50ca9e7",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4628",
+    "yearStart": 1832,
+    "yearEnd": 1839,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta51a47144a7079651",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4629",
+    "yearStart": 1839,
+    "yearEnd": 1847,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6e9af1ae5303ba61",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4630",
+    "yearStart": 1847,
+    "yearEnd": 1857,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta66589c3648e33cae",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4631",
+    "yearStart": 1857,
+    "yearEnd": 1864,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta224bddbb64a8a208",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4632",
+    "yearStart": 1865,
+    "yearEnd": 1873,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9bdcf33243037523",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4633",
+    "yearStart": 1874,
+    "yearEnd": 1881,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaf4a86a8cf7edb10",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4634",
+    "yearStart": 1882,
+    "yearEnd": 1890,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta16b144e457627b2a",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4635",
+    "yearStart": 1891,
+    "yearEnd": 1902,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta51a422043ef2b207",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4636",
+    "yearStart": 1902,
+    "yearEnd": 1915,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta77519fece1598323",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4637",
+    "yearStart": 1915,
+    "yearEnd": 1924,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaae56c312067ad527",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4638",
+    "yearStart": 1925,
+    "yearEnd": 1932,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta88747bcd465e2b8e",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4639",
+    "yearStart": 1932,
+    "yearEnd": 1943,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3c3679756acd3562",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4640",
+    "yearStart": 1943,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae04e48b36e6fb521",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4641",
+    "yearStart": 1956,
+    "yearEnd": 1960,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabb44458d7815d513",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4642",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta896281920092808d",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4643",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta79d4ef1c108ee0e7",
+    "digitized": true
+  },
+  {
+    "place": "Florensac",
+    "cote": "3 Q 5150",
+    "yearStart": 1847,
+    "yearEnd": 1864,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5a77967b70622b6d",
+    "digitized": true
+  },
+  {
+    "place": "Florensac",
+    "cote": "3 Q 5151",
+    "yearStart": 1865,
+    "yearEnd": 1880,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad67ffd548d1d2dfe",
+    "digitized": true
+  },
+  {
+    "place": "Florensac",
+    "cote": "3 Q 5152",
+    "yearStart": 1880,
+    "yearEnd": 1897,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf519fca2f7cd2e54",
+    "digitized": true
+  },
+  {
+    "place": "Florensac",
+    "cote": "3 Q 5153",
+    "yearStart": 1897,
+    "yearEnd": 1909,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5c219d345ea0ea2d",
+    "digitized": true
+  },
+  {
+    "place": "Frontignan",
+    "cote": "3 Q 5286",
+    "yearStart": 1863,
+    "yearEnd": 1882,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9407cb035d7ce4a3",
+    "digitized": true
+  },
+  {
+    "place": "Frontignan",
+    "cote": "3 Q 5287",
+    "yearStart": 1882,
+    "yearEnd": 1895,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad92eea00fc5eb30e",
+    "digitized": true
+  },
+  {
+    "place": "Frontignan",
+    "cote": "3 Q 5288",
+    "yearStart": 1896,
+    "yearEnd": 1913,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad24d3785325f92d4",
+    "digitized": true
+  },
+  {
+    "place": "Frontignan",
+    "cote": "3 Q 5289",
+    "yearStart": 1914,
+    "yearEnd": 1927,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaf53ff2ee8457a4c",
+    "digitized": true
+  },
+  {
+    "place": "Frontignan",
+    "cote": "3 Q 5290",
+    "yearStart": 1928,
+    "yearEnd": 1944,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae5df628fb59b5ebd",
+    "digitized": true
+  },
+  {
+    "place": "Frontignan",
+    "cote": "3 Q 5291",
+    "yearStart": 1944,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaec3be1c5f675aa48",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5469",
+    "yearStart": 1808,
+    "yearEnd": 1814,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta40515ef675fa7576",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5470",
+    "yearStart": 1814,
+    "yearEnd": 1820,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta864c4a802a8eb1f2",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5471",
+    "yearStart": 1821,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4a02d26c93ac29c8",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5477",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac5bf26785fd5e071",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5479",
+    "yearStart": 1846,
+    "yearEnd": 1855,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta92f5ba3d00f1b076",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5480",
+    "yearStart": 1856,
+    "yearEnd": 1862,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0ec158ee7c1acc00",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5481",
+    "yearStart": 1863,
+    "yearEnd": 1876,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1dae4bfee7cb1057",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5482",
+    "yearStart": 1877,
+    "yearEnd": 1892,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5702d0e2ace68cb6",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5483",
+    "yearStart": 1892,
+    "yearEnd": 1907,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad195dd631d27a33d",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5484",
+    "yearStart": 1907,
+    "yearEnd": 1921,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacea5a0fe92584c06",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5485",
+    "yearStart": 1921,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae4fea925d4462601",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5486",
+    "yearStart": 1935,
+    "yearEnd": 1950,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta08e30f843f420a95",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5487",
+    "yearStart": 1951,
+    "yearEnd": 1958,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa7395958c86c7a9b",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "3 Q 5488",
+    "yearStart": 1959,
+    "yearEnd": 1967,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5bdeb986020548e0",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5851",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa31632d03b539d1b",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5852",
+    "yearStart": 1834,
+    "yearEnd": 1841,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0cd10fd6fde62d34",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5853",
+    "yearStart": 1842,
+    "yearEnd": 1849,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta06a3810dd8055e14",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5854",
+    "yearStart": 1850,
+    "yearEnd": 1855,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta752b3a4e33130455",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5855",
+    "yearStart": 1856,
+    "yearEnd": 1864,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta075efa9a475971d0",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5856",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5d12845798976aeb",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5857",
+    "yearStart": 1871,
+    "yearEnd": 1880,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae79a5869ccd97c12",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5858",
+    "yearStart": 1881,
+    "yearEnd": 1891,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6d7fefcf9490e0a9",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5859",
+    "yearStart": 1891,
+    "yearEnd": 1901,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4fe8e74037f5dde8",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5860",
+    "yearStart": 1901,
+    "yearEnd": 1912,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf1a504f561f8d399",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5861",
+    "yearStart": 1912,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaca234bf660b814d0",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5862",
+    "yearStart": 1921,
+    "yearEnd": 1932,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab3a7c0f42babb7b2",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5863",
+    "yearStart": 1932,
+    "yearEnd": 1943,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1f0333062bb6b566",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "3 Q 5864",
+    "yearStart": 1944,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta51527800d38df250",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6434",
+    "yearStart": 1809,
+    "yearEnd": 1814,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9dd14ff7ce4ced1f",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6435",
+    "yearStart": 1815,
+    "yearEnd": 1823,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta74bdf0a09c4cef53",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6436",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta14d642333c160b68",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6444",
+    "yearStart": 1821,
+    "yearEnd": 1829,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7f5e05ea622cbfe9",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6445",
+    "yearStart": 1829,
+    "yearEnd": 1834,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaf26a3db65e91c4f",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6446",
+    "yearStart": 1834,
+    "yearEnd": 1838,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta70bb62a8319a0e08",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6447",
+    "yearStart": 1839,
+    "yearEnd": 1842,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3f869ded3b3b6d30",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6448",
+    "yearStart": 1843,
+    "yearEnd": 1846,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6f2e7871e0ca544e",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6449",
+    "yearStart": 1847,
+    "yearEnd": 1851,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabd0e369a3592020c",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6450",
+    "yearStart": 1852,
+    "yearEnd": 1856,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8a86400ff96debe8",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6451",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3ae5bc7ed2cf0283",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6452",
+    "yearStart": 1860,
+    "yearEnd": 1863,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3f9ef2491437f996",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6453",
+    "yearStart": 1863,
+    "yearEnd": 1869,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta75358aa91dde6a79",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6454",
+    "yearStart": 1870,
+    "yearEnd": 1875,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafd97dce8f8cca8e9",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6455",
+    "yearStart": 1876,
+    "yearEnd": 1883,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta41bdd77293bd502c",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6456",
+    "yearStart": 1883,
+    "yearEnd": 1889,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab7a516512252ea94",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6457",
+    "yearStart": 1889,
+    "yearEnd": 1896,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacdd144dc36ee1978",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6458",
+    "yearStart": 1897,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta86d8eec836296625",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6459",
+    "yearStart": 1905,
+    "yearEnd": 1912,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta44a9764a045d5299",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6460",
+    "yearStart": 1913,
+    "yearEnd": 1921,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9c60b6309c1ba6ba",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6461",
+    "yearStart": 1921,
+    "yearEnd": 1931,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab73ceed0ac72eaf0",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6462",
+    "yearStart": 1932,
+    "yearEnd": 1944,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta651460d242db2dde",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6463",
+    "yearStart": 1945,
+    "yearEnd": 1959,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4d754e911c66f4cb",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6464",
+    "yearStart": 1960,
+    "yearEnd": 1965,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5ac2427de94eb9c9",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6465",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta83ba540829e1e199",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "3 Q 6466",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa02aece26e7da018",
+    "digitized": true
+  },
+  {
+    "place": "Lunas",
+    "cote": "3 Q 7076",
+    "yearStart": 1854,
+    "yearEnd": 1872,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta09ebab148a7dd7b9",
+    "digitized": true
+  },
+  {
+    "place": "Lunas",
+    "cote": "3 Q 7079",
+    "yearStart": 1889,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta37a6bfeeb01e6ad2",
+    "digitized": true
+  },
+  {
+    "place": "Lunas",
+    "cote": "3 Q 7080",
+    "yearStart": 1905,
+    "yearEnd": 1924,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf3f9b63f00768aa9",
+    "digitized": true
+  },
+  {
+    "place": "Lunas",
+    "cote": "3 Q 7081",
+    "yearStart": 1924,
+    "yearEnd": 1934,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad96e27e13433d8bc",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7255",
+    "yearStart": 1841,
+    "yearEnd": 1841,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6bf1ba3f41cc238a",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7257",
+    "yearStart": 1812,
+    "yearEnd": 1818,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta63ae2d8baa3ab42e",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7258",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf2472a9e15cb134d",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7265",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta563a0870a18c7c1c",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7266",
+    "yearStart": 1832,
+    "yearEnd": 1838,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8fd9215646d20fb9",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7267",
+    "yearStart": 1839,
+    "yearEnd": 1846,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta699cf9d9bb277d5a",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7268",
+    "yearStart": 1847,
+    "yearEnd": 1855,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf322bd47ba9b1317",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7269",
+    "yearStart": 1855,
+    "yearEnd": 1863,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaab6a89a5ddd1e4a4",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7270",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2268cbd1604124a2",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7271",
+    "yearStart": 1872,
+    "yearEnd": 1880,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta449ca042cbfc7873",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7272",
+    "yearStart": 1881,
+    "yearEnd": 1887,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3e1b52017c1c11cb",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7273",
+    "yearStart": 1888,
+    "yearEnd": 1894,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta182b76d30806d242",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7274",
+    "yearStart": 1895,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta819ac5c69a126c35",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7275",
+    "yearStart": 1906,
+    "yearEnd": 1916,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae11c93d246423774",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7276",
+    "yearStart": 1917,
+    "yearEnd": 1926,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4bc21acf887717d8",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7277",
+    "yearStart": 1925,
+    "yearEnd": 1936,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta53750f7b4c440321",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7279",
+    "yearStart": 1944,
+    "yearEnd": 1954,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta65fc7348567ea9f4",
+    "digitized": true
+  },
+  {
+    "place": "Lunel",
+    "cote": "3 Q 7280",
+    "yearStart": 1954,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaabd7bf4ab90e0564",
+    "digitized": true
+  },
+  {
+    "place": "Les Matelles",
+    "cote": "3 Q 7766",
+    "yearStart": 1923,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta638048a99c367627",
+    "digitized": true
+  },
+  {
+    "place": "Les Matelles",
+    "cote": "3 Q 7767",
+    "yearStart": 1935,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta96b33d5674237c1e",
+    "digitized": true
+  },
+  {
+    "place": "Les Matelles",
+    "cote": "3 Q 7768",
+    "yearStart": 1949,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta55a5c3507c5a06f1",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7817",
+    "yearStart": 1806,
+    "yearEnd": 1818,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta810562feb10620b2",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7818",
+    "yearStart": 1818,
+    "yearEnd": 1829,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa5e832c15bfc32a4",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7823",
+    "yearStart": 1824,
+    "yearEnd": 1831,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta827eb5acea2019b3",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7824",
+    "yearStart": 1832,
+    "yearEnd": 1840,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad20584fd736dd5af",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7825",
+    "yearStart": 1841,
+    "yearEnd": 1849,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf259c3ac4b53b649",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7826",
+    "yearStart": 1850,
+    "yearEnd": 1859,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae441916d4f77faf1",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7827",
+    "yearStart": 1860,
+    "yearEnd": 1868,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa2d725e33599cc9f",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7828",
+    "yearStart": 1869,
+    "yearEnd": 1876,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6370051def091230",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7829",
+    "yearStart": 1877,
+    "yearEnd": 1884,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta73821d68ca251950",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7830",
+    "yearStart": 1885,
+    "yearEnd": 1894,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8ef82a64a72d9bd4",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7831",
+    "yearStart": 1895,
+    "yearEnd": 1904,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad856d85dff4ee071",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7832",
+    "yearStart": 1905,
+    "yearEnd": 1915,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta456b522d393e116a",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7833",
+    "yearStart": 1916,
+    "yearEnd": 1927,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta91ce18a4a9c5782c",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7834",
+    "yearStart": 1928,
+    "yearEnd": 1943,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4f4c0dfc7ac56157",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7835",
+    "yearStart": 1944,
+    "yearEnd": 1958,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaee72ceb5f08d7c06",
+    "digitized": true
+  },
+  {
+    "place": "Mèze",
+    "cote": "3 Q 7836",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa5b2d2aa20fc9787",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8371",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta97f462a8ca6ed1f7",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8372",
+    "yearStart": 1837,
+    "yearEnd": 1847,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabdbebf58c58ae458",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8373",
+    "yearStart": 1847,
+    "yearEnd": 1857,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2bb61b5c3f454010",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8374",
+    "yearStart": 1857,
+    "yearEnd": 1866,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabc743d4919776b6e",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8375",
+    "yearStart": 1866,
+    "yearEnd": 1875,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6c66f319bb93f592",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8376",
+    "yearStart": 1876,
+    "yearEnd": 1890,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaeae7e3bbdcc126ed",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8377",
+    "yearStart": 1891,
+    "yearEnd": 1902,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8952f06e95a7a53e",
+    "digitized": true
+  },
+  {
+    "place": "Montagnac",
+    "cote": "3 Q 8378",
+    "yearStart": 1903,
+    "yearEnd": 1908,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta68cfdd0e50427928",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8690",
+    "yearStart": 1817,
+    "yearEnd": 1829,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaca2c41ce7b0e7941",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8723",
+    "yearStart": 1824,
+    "yearEnd": 1827,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafcce79bc27b9d078",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8724",
+    "yearStart": 1827,
+    "yearEnd": 1830,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta738f482b77630171",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8725",
+    "yearStart": 1830,
+    "yearEnd": 1832,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta07ead837f756cfef",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8726",
+    "yearStart": 1832,
+    "yearEnd": 1834,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0a8685cda007c88c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8727",
+    "yearStart": 1834,
+    "yearEnd": 1835,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac686e7b3250773ee",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8728",
+    "yearStart": 1836,
+    "yearEnd": 1837,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta721b9a80c74c8877",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8729",
+    "yearStart": 1838,
+    "yearEnd": 1839,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae50a0afdbb6e76e7",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8730",
+    "yearStart": 1840,
+    "yearEnd": 1841,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta78d00cd74ffeb42e",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8731",
+    "yearStart": 1842,
+    "yearEnd": 1843,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6994b9d181661d7d",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8732",
+    "yearStart": 1844,
+    "yearEnd": 1845,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf503e238392a9b44",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8733",
+    "yearStart": 1846,
+    "yearEnd": 1847,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac381f59dc124756c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8734",
+    "yearStart": 1848,
+    "yearEnd": 1849,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafb8aef35dfc79f47",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8735",
+    "yearStart": 1849,
+    "yearEnd": 1851,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad95f1faf484cc153",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8736",
+    "yearStart": 1851,
+    "yearEnd": 1853,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta86b018e6f9830707",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8737",
+    "yearStart": 1853,
+    "yearEnd": 1854,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2804fae8e2061753",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8738",
+    "yearStart": 1854,
+    "yearEnd": 1856,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa1739bf8bbcd88fa",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8739",
+    "yearStart": 1856,
+    "yearEnd": 1857,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad8b19cb998df5d86",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8740",
+    "yearStart": 1857,
+    "yearEnd": 1859,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2ad7017977e1de80",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8741",
+    "yearStart": 1859,
+    "yearEnd": 1861,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf40f0f1d2bc77a47",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8742",
+    "yearStart": 1861,
+    "yearEnd": 1863,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab7cc4efc59156eac",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8743",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa3a392c511b5b93c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8744",
+    "yearStart": 1865,
+    "yearEnd": 1866,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta982293e4fd145cc7",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8745",
+    "yearStart": 1866,
+    "yearEnd": 1868,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta571531965ca0e2d5",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8746",
+    "yearStart": 1868,
+    "yearEnd": 1870,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta15e94cfc52e95a4a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8747",
+    "yearStart": 1870,
+    "yearEnd": 1871,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab35784b58a9d755e",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8748",
+    "yearStart": 1871,
+    "yearEnd": 1873,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac16de6eb6f3fc0b5",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8749",
+    "yearStart": 1873,
+    "yearEnd": 1874,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf7d64553d75c72f0",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8750",
+    "yearStart": 1874,
+    "yearEnd": 1876,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaea53515b663759ac",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8751",
+    "yearStart": 1876,
+    "yearEnd": 1878,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac4a65760e36521c6",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8752",
+    "yearStart": 1878,
+    "yearEnd": 1880,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacfb8250c2442f667",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8753",
+    "yearStart": 1880,
+    "yearEnd": 1882,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5cb8c75104c2c6a2",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8754",
+    "yearStart": 1882,
+    "yearEnd": 1883,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta035e0dd6560fdfc9",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8755",
+    "yearStart": 1884,
+    "yearEnd": 1885,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtace105be7523e9774",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8756",
+    "yearStart": 1885,
+    "yearEnd": 1887,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5f47fe281505d913",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8757",
+    "yearStart": 1887,
+    "yearEnd": 1889,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7015907111e5d60a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8758",
+    "yearStart": 1889,
+    "yearEnd": 1891,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad795b3a9efbb3e45",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8759",
+    "yearStart": 1891,
+    "yearEnd": 1893,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtadc5251f5213a1caf",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8760",
+    "yearStart": 1893,
+    "yearEnd": 1894,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaacb4b5a77af8aa26",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8761",
+    "yearStart": 1894,
+    "yearEnd": 1896,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta619240d46c6dc3ac",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8762",
+    "yearStart": 1896,
+    "yearEnd": 1897,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab145b61f50c0c229",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8763",
+    "yearStart": 1898,
+    "yearEnd": 1899,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa03d288f12cf7f34",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8764",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2c25e5505f39b73a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8765",
+    "yearStart": 1901,
+    "yearEnd": 1902,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8b2c986ad2d36689",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8766",
+    "yearStart": 1902,
+    "yearEnd": 1904,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta67b54521919c4880",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8767",
+    "yearStart": 1904,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7826f9941279bd2a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8768",
+    "yearStart": 1906,
+    "yearEnd": 1907,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtace4c1f4a5236fbcb",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8769",
+    "yearStart": 1907,
+    "yearEnd": 1908,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta038661fa46120171",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8770",
+    "yearStart": 1908,
+    "yearEnd": 1909,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5fdcd78d8494eda2",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8771",
+    "yearStart": 1909,
+    "yearEnd": 1911,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0f90e542efb7df4f",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8772",
+    "yearStart": 1911,
+    "yearEnd": 1912,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta01126cfc5ee1b059",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8773",
+    "yearStart": 1912,
+    "yearEnd": 1913,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta147471e0a59b5aa9",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8774",
+    "yearStart": 1913,
+    "yearEnd": 1914,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta34e43d5bf2931073",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8775",
+    "yearStart": 1914,
+    "yearEnd": 1915,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad9e4e328355e49ce",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8776",
+    "yearStart": 1915,
+    "yearEnd": 1916,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta89c8794a311f8c6a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8777",
+    "yearStart": 1916,
+    "yearEnd": 1917,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9c898defe1e44836",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8778",
+    "yearStart": 1917,
+    "yearEnd": 1918,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafeb62d00fac668eb",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8779",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5bedb244338992c5",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8780",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta49c3896fa5614ff0",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8781",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8e580beff2132a98",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8782",
+    "yearStart": 1921,
+    "yearEnd": 1921,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta10275265eae1b0f8",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8783",
+    "yearStart": 1922,
+    "yearEnd": 1922,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacdb968ae43d41ae5",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8784",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta94cbe7e3a7b1c3cf",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8785",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta64900c36c3fc34d7",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8786",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0e5b310d61a5b022",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8787",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9763ea8acce47922",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8788",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6206e0411a1149d6",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8789",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1edc9bf236915985",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8790",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabb7d17ba92710f00",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8791",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad74fab6f536e030e",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8792",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaff12b7b7bdcfbf01",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8793",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3f9d3560a05648ef",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8794",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1bf1e715f52783c4",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8795",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta510a12e735cd18dd",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8796",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta274129223383fbe2",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8797",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf3863e5edaf8ee19",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8798",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta208a7228c53b306d",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8799",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta590507ba6f164c97",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8800",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaed3bc98a1ba86d80",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8801",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac2b9b8fc1dae8f4c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8802",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta608641d6b0ff44b6",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8803",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8cfc627f8015a6d3",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8804",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac79da00266e1379a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8805",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta83e406e12c855738",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8806",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac39afd7c814a2148",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8807",
+    "yearStart": 1945,
+    "yearEnd": 1945,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3ec350f666342a5c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8808",
+    "yearStart": 1946,
+    "yearEnd": 1946,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafe489654ebb9f297",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8809",
+    "yearStart": 1947,
+    "yearEnd": 1947,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6818fba01dbf98e0",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8810",
+    "yearStart": 1948,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad61b114b377053cd",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8811",
+    "yearStart": 1949,
+    "yearEnd": 1949,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4d1d9bfb3bcb7ef3",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8812",
+    "yearStart": 1950,
+    "yearEnd": 1950,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta26786bf5d01b3229",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8813",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1545ca60677eea1a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8814",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta45fc547b85ba0eb3",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8815",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafc1fb2c31c41bc96",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8816",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac67eabc3aaef45fe",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8817",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta65c26d287b859ed0",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8818",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1803a68ea099e5e3",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8819",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab6f04259be344934",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8820",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta041868e99100742e",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8821",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8384cbe66ffdf698",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8822",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta213ae4d0c701017c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8823",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0380318f8120f81c",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8824",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab0b0c84ab0ad2f77",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8825",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta21b6820d248e6bf0",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8826",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae0f90f71480c8dba",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8827",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta46e6092d1a7c69a1",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8828",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8775025572d27d15",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8829",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6d057364061651f4",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8830",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8605400930dfba54",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8831",
+    "yearStart": 1943,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta617e86d5e4fc50cf",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8832",
+    "yearStart": 1947,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta06ee971f592d0280",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8833",
+    "yearStart": 1949,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5d3e0b2a5e639c78",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8834",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta58877216d71ae8c4",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8835",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae52aa8887123d29a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8836",
+    "yearStart": 1958,
+    "yearEnd": 1960,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5ea201ed74904fb7",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8837",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5ac4467a95e6e33e",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8838",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta70ab36b616ca92a2",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8839",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaafd51643edb6f474",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8840",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2820a535e0d978f9",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8841",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta025bb0da65503521",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8842",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaac728e90f8fee37",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8843",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab3f0452899e988b6",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8844",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta389ed32f8fe8e9dc",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "3 Q 8845",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta00db83e336de8891",
+    "digitized": true
+  },
+  {
+    "place": "Murviel-lès-Béziers",
+    "cote": "3 Q 11326",
+    "yearStart": 1896,
+    "yearEnd": 1910,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta34255661abde0cbc",
+    "digitized": true
+  },
+  {
+    "place": "Murviel-lès-Béziers",
+    "cote": "3 Q 11327",
+    "yearStart": 1910,
+    "yearEnd": 1926,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta58acf40d9f667bf6",
+    "digitized": true
+  },
+  {
+    "place": "Murviel-lès-Béziers",
+    "cote": "3 Q 11328",
+    "yearStart": 1926,
+    "yearEnd": 1942,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta06619638bec15969",
+    "digitized": true
+  },
+  {
+    "place": "Olargues",
+    "cote": "3 Q 11477",
+    "yearStart": 1863,
+    "yearEnd": 1873,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta22372695f71320da",
+    "digitized": true
+  },
+  {
+    "place": "Olargues",
+    "cote": "3 Q 11478",
+    "yearStart": 1874,
+    "yearEnd": 1892,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4dff30f1595e000f",
+    "digitized": true
+  },
+  {
+    "place": "Olargues",
+    "cote": "3 Q 11479",
+    "yearStart": 1892,
+    "yearEnd": 1914,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta76f1c09284d4671e",
+    "digitized": true
+  },
+  {
+    "place": "Olargues",
+    "cote": "3 Q 11480",
+    "yearStart": 1914,
+    "yearEnd": 1939,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4d69ebfdab2c0dca",
+    "digitized": true
+  },
+  {
+    "place": "Olargues",
+    "cote": "3 Q 11481",
+    "yearStart": 1939,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae6355f56a5aa1d2c",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11644",
+    "yearStart": 1792,
+    "yearEnd": 1808,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae32104ce0174963b",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11645",
+    "yearStart": 1808,
+    "yearEnd": 1813,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0a368f3368278086",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11646",
+    "yearStart": 1813,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3d53db91c21c2b0d",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11647",
+    "yearStart": 1824,
+    "yearEnd": 1826,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9805acde2916384a",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11655",
+    "yearStart": 1824,
+    "yearEnd": 1837,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3461b0d8c535e718",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11656",
+    "yearStart": 1838,
+    "yearEnd": 1849,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta56671a13f34d9d31",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11657",
+    "yearStart": 1849,
+    "yearEnd": 1858,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta154fb2ffa2a18926",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11658",
+    "yearStart": 1858,
+    "yearEnd": 1868,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7cd1e8d32c7b6733",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11659",
+    "yearStart": 1868,
+    "yearEnd": 1878,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1c8cacff407a2793",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11661",
+    "yearStart": 1908,
+    "yearEnd": 1928,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac34ecf702c03a6a7",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11662",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa56697374006fc15",
+    "digitized": true
+  },
+  {
+    "place": "Olonzac",
+    "cote": "3 Q 11663",
+    "yearStart": 1929,
+    "yearEnd": 1947,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab6f19b63d595bfe3",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 11994",
+    "yearStart": 1832,
+    "yearEnd": 1832,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaba2579ae2cea7470",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 11995",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta27d881143ae14d7a",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 11996",
+    "yearStart": 1832,
+    "yearEnd": 1839,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta610f5acbb86976b6",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 11997",
+    "yearStart": 1840,
+    "yearEnd": 1851,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1a6ee5df224fd8c5",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 11998",
+    "yearStart": 1851,
+    "yearEnd": 1859,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac0f1e1d6943e68be",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 11999",
+    "yearStart": 1859,
+    "yearEnd": 1868,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtada09f9b3c2626410",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12000",
+    "yearStart": 1868,
+    "yearEnd": 1877,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab4e47e63280bfcb8",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12001",
+    "yearStart": 1878,
+    "yearEnd": 1887,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta44063094f02d9b99",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12002",
+    "yearStart": 1888,
+    "yearEnd": 1898,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9d3c9175171381e0",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12003",
+    "yearStart": 1899,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta31fed11e1ec57b38",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12004",
+    "yearStart": 1906,
+    "yearEnd": 1913,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3f6ea701eaee5b89",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12005",
+    "yearStart": 1914,
+    "yearEnd": 1918,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7fb1657e71fb7ba7",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12006",
+    "yearStart": 1918,
+    "yearEnd": 1923,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3cddd3b67ac9d1d9",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12007",
+    "yearStart": 1924,
+    "yearEnd": 1929,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa9b99ec2b3b83d1a",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12008",
+    "yearStart": 1930,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta30ceca0530d54144",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12009",
+    "yearStart": 1936,
+    "yearEnd": 1940,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae1a1339ce1a46380",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12010",
+    "yearStart": 1941,
+    "yearEnd": 1945,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5d391533976124ad",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12011",
+    "yearStart": 1945,
+    "yearEnd": 1950,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta35c4af7565698da5",
+    "digitized": true
+  },
+  {
+    "place": "Pézenas",
+    "cote": "3 Q 12012",
+    "yearStart": 1951,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae7faa69afb051b29",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12795",
+    "yearStart": 1811,
+    "yearEnd": 1817,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1009a2f8bfebd44c",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12796",
+    "yearStart": 1818,
+    "yearEnd": 1823,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5ac7ba683686e5b5",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12797",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta36bd79fce66ea91b",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12806",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabea6562ec8611e80",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12807",
+    "yearStart": 1824,
+    "yearEnd": 1831,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafde9af13052490c0",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12808",
+    "yearStart": 1832,
+    "yearEnd": 1841,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab17ca624eec0b49c",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12809",
+    "yearStart": 1841,
+    "yearEnd": 1847,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabf2c8eba2c02b085",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12810",
+    "yearStart": 1847,
+    "yearEnd": 1855,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtabff0dd3c1cb3cbdb",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12811",
+    "yearStart": 1855,
+    "yearEnd": 1863,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaede548ffeadd0534",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12812",
+    "yearStart": 1864,
+    "yearEnd": 1870,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2489463ea30ea010",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12813",
+    "yearStart": 1871,
+    "yearEnd": 1879,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta52102c301b58595e",
+    "digitized": true
+  },
+  {
+    "place": "Puissalicon",
+    "cote": "3 Q 12814",
+    "yearStart": 1880,
+    "yearEnd": 1895,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4c66de9874303c25",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13082",
+    "yearStart": 1819,
+    "yearEnd": 1825,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtada081f86aa1ceeaa",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13085",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3fd92d66593d90db",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13086",
+    "yearStart": 1838,
+    "yearEnd": 1853,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta74cec5da8c9372f1",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13087",
+    "yearStart": 1853,
+    "yearEnd": 1867,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3837e0caf9a91bcc",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13088",
+    "yearStart": 1867,
+    "yearEnd": 1878,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5f11887d0e187742",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13089",
+    "yearStart": 1878,
+    "yearEnd": 1893,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6d6be201a94e3dbb",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13090",
+    "yearStart": 1893,
+    "yearEnd": 1913,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab5d66325dbed30f5",
+    "digitized": true
+  },
+  {
+    "place": "Roujan",
+    "cote": "3 Q 13091",
+    "yearStart": 1914,
+    "yearEnd": 1934,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta443074c4daee4ad4",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 16842",
+    "yearStart": 1799,
+    "yearEnd": 1802,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafd381b6189032e0d",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13358",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta55e30b96e90508b5",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13359",
+    "yearStart": 1811,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6874cb71e7ce2fc3",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13364",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta50fd81366e241629",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13365",
+    "yearStart": 1836,
+    "yearEnd": 1844,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta66877db368984bc0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13366",
+    "yearStart": 1845,
+    "yearEnd": 1852,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta21a3b6bbdcc580e2",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13367",
+    "yearStart": 1853,
+    "yearEnd": 1864,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4174ffec81d481ec",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13368",
+    "yearStart": 1865,
+    "yearEnd": 1876,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta730718600423ef16",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13369",
+    "yearStart": 1876,
+    "yearEnd": 1889,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta78543c2006853996",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13370",
+    "yearStart": 1890,
+    "yearEnd": 1905,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta38da19766f65a3ee",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13371",
+    "yearStart": 1906,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7a2882642a6a2c6b",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13372",
+    "yearStart": 1921,
+    "yearEnd": 1932,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta57195ac895905c5e",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "3 Q 13373",
+    "yearStart": 1933,
+    "yearEnd": 1947,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta03bdd242e0c767e2",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13773",
+    "yearStart": 1819,
+    "yearEnd": 1819,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6c21c6e9b77ae466",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13774",
+    "yearStart": 1819,
+    "yearEnd": 1823,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8df3d39aea0a5ab3",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13775",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta55e95e4664c710ac",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13777",
+    "yearStart": 1847,
+    "yearEnd": 1858,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta14688d93dfeda634",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13778",
+    "yearStart": 1859,
+    "yearEnd": 1873,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7a948f0b5f81d269",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13779",
+    "yearStart": 1874,
+    "yearEnd": 1892,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae88dd830e9686ffb",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13780",
+    "yearStart": 1893,
+    "yearEnd": 1908,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta69f002c30a9d3e59",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Gervais-sur-Mare",
+    "cote": "3 Q 13781",
+    "yearStart": 1908,
+    "yearEnd": 1917,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7dc90255e331dd85",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14056",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf0d587158779bda2",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14061",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta30643a9c353d7be8",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14062",
+    "yearStart": 1835,
+    "yearEnd": 1844,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaa98f0e7bee58608",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14063",
+    "yearStart": 1844,
+    "yearEnd": 1854,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta560fac5f41ae65f0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14064",
+    "yearStart": 1854,
+    "yearEnd": 1866,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta119dce137d6e38a9",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14065",
+    "yearStart": 1866,
+    "yearEnd": 1876,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6aec82dbff151e20",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14066",
+    "yearStart": 1876,
+    "yearEnd": 1888,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta71a5fff2955bf7ef",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "3 Q 14068",
+    "yearStart": 1907,
+    "yearEnd": 1924,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1da505468a0678ef",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14346",
+    "yearStart": 1806,
+    "yearEnd": 1811,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2571ba215f8bfd36",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14347",
+    "yearStart": 1812,
+    "yearEnd": 1815,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4b0652febe6b9924",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14348",
+    "yearStart": 1815,
+    "yearEnd": 1822,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta64a616cff90b5a7e",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14349",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab34620a9949a85df",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14360",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaea9c6ea1aa5e2094",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14361",
+    "yearStart": 1830,
+    "yearEnd": 1835,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0c07bc6893ab20c8",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14362",
+    "yearStart": 1835,
+    "yearEnd": 1839,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5e2dff707b5b3b30",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14363",
+    "yearStart": 1839,
+    "yearEnd": 1843,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafbcfa7dfbcd9b3e8",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14364",
+    "yearStart": 1844,
+    "yearEnd": 1848,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta930970c31e1974cb",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14365",
+    "yearStart": 1848,
+    "yearEnd": 1852,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3986dbc1973df2ed",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14366",
+    "yearStart": 1852,
+    "yearEnd": 1856,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta693f0e8dc4ad7b87",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14367",
+    "yearStart": 1857,
+    "yearEnd": 1862,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0b9a9b9e52fa641f",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14368",
+    "yearStart": 1862,
+    "yearEnd": 1866,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafbc7e855678b122d",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14369",
+    "yearStart": 1866,
+    "yearEnd": 1872,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta282122c5ed2a63c4",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14370",
+    "yearStart": 1872,
+    "yearEnd": 1881,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5543cd60880bd8fb",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14371",
+    "yearStart": 1882,
+    "yearEnd": 1899,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac8fa6c83370366bc",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14372",
+    "yearStart": 1900,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0a7628138ceb7206",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14373",
+    "yearStart": 1921,
+    "yearEnd": 1942,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0b494f24785cf68f",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14374",
+    "yearStart": 1942,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta855b17ca9588f701",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14375",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacb239f090454d953",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14376",
+    "yearStart": 1956,
+    "yearEnd": 1959,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7d8275f3bf05e8cc",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14377",
+    "yearStart": 1959,
+    "yearEnd": 1962,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9eb2720fe1e90fa9",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14378",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab55a2b7418d20cab",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14379",
+    "yearStart": 1964,
+    "yearEnd": 1967,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7df3a6f429467fed",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14380",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae7b69cfda8f15746",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14381",
+    "yearStart": 1947,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae7b9e4118d4f73d8",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Pons-de-Thomières",
+    "cote": "3 Q 14382",
+    "yearStart": 1947,
+    "yearEnd": 1952,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae50e78805dd4f801",
+    "digitized": true
+  },
+  {
+    "place": "La Salvetat-sur-Agout",
+    "cote": "3 Q 15047",
+    "yearStart": 1857,
+    "yearEnd": 1875,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7ed3843686a3876e",
+    "digitized": true
+  },
+  {
+    "place": "La Salvetat-sur-Agout",
+    "cote": "3 Q 15048",
+    "yearStart": 1875,
+    "yearEnd": 1892,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta09cb1e243e7fb290",
+    "digitized": true
+  },
+  {
+    "place": "La Salvetat-sur-Agout",
+    "cote": "3 Q 15049",
+    "yearStart": 1892,
+    "yearEnd": 1929,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta06c843be41126a81",
+    "digitized": true
+  },
+  {
+    "place": "La Salvetat-sur-Agout",
+    "cote": "3 Q 15050",
+    "yearStart": 1930,
+    "yearEnd": 1948,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta051c1aca381be5ac",
+    "digitized": true
+  },
+  {
+    "place": "Servian",
+    "cote": "3 Q 15152",
+    "yearStart": 1864,
+    "yearEnd": 1879,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta86576b32ed1f9ce6",
+    "digitized": true
+  },
+  {
+    "place": "Servian",
+    "cote": "3 Q 15153",
+    "yearStart": 1880,
+    "yearEnd": 1888,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac2e8c3788a44e3f5",
+    "digitized": true
+  },
+  {
+    "place": "Servian",
+    "cote": "3 Q 15154",
+    "yearStart": 1888,
+    "yearEnd": 1904,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaee22081c0955dd0b",
+    "digitized": true
+  },
+  {
+    "place": "Servian",
+    "cote": "3 Q 15155",
+    "yearStart": 1905,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5d6be66158cf3c29",
+    "digitized": true
+  },
+  {
+    "place": "Servian",
+    "cote": "3 Q 15156",
+    "yearStart": 1920,
+    "yearEnd": 1935,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad710b69033d647af",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15332",
+    "yearStart": 1811,
+    "yearEnd": 1814,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac86e9f18c91e0e42",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15333",
+    "yearStart": 1814,
+    "yearEnd": 1818,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta855e7e6cf1250ee3",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15334",
+    "yearStart": 1817,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae169175f65e78d16",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15339",
+    "yearStart": 1812,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaed17c81fe36c2ca",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15340",
+    "yearStart": 1812,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab85c7228e876b548",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15342",
+    "yearStart": 1824,
+    "yearEnd": 1835,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtafd78acca2f79d8d4",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15343",
+    "yearStart": 1836,
+    "yearEnd": 1845,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtacc37230d0f8797a2",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15344",
+    "yearStart": 1845,
+    "yearEnd": 1848,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab9afa9dd80681f4f",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15345",
+    "yearStart": 1849,
+    "yearEnd": 1852,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaec65b12754f92a56",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15346",
+    "yearStart": 1852,
+    "yearEnd": 1856,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta28d258d70e7078f1",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15347",
+    "yearStart": 1857,
+    "yearEnd": 1861,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1fc29b4623c92432",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15348",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta378eab5e156e8a0b",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15349",
+    "yearStart": 1866,
+    "yearEnd": 1869,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta7740c8ce4fe17eba",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15350",
+    "yearStart": 1870,
+    "yearEnd": 1873,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3e27d3a8b4cac240",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15351",
+    "yearStart": 1874,
+    "yearEnd": 1878,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa4b9fa4a31351c1d",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15352",
+    "yearStart": 1878,
+    "yearEnd": 1882,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta151b71afb57ba5b7",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15353",
+    "yearStart": 1882,
+    "yearEnd": 1885,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad6fb40c1e9d07b88",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15354",
+    "yearStart": 1886,
+    "yearEnd": 1889,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8f60c3c4dee55ecc",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15355",
+    "yearStart": 1889,
+    "yearEnd": 1893,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab0e829f4f57b9a15",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15356",
+    "yearStart": 1893,
+    "yearEnd": 1899,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6b31d5fb4dcdc9de",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15357",
+    "yearStart": 1899,
+    "yearEnd": 1903,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaeb19522218bb49df",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15358",
+    "yearStart": 1903,
+    "yearEnd": 1908,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8231a6230acd97ad",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15359",
+    "yearStart": 1908,
+    "yearEnd": 1913,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9f0c687f143f0230",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15360",
+    "yearStart": 1914,
+    "yearEnd": 1918,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta30f40b32def1d40f",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15361",
+    "yearStart": 1919,
+    "yearEnd": 1920,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta49be89cc8f7ec150",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15362",
+    "yearStart": 1920,
+    "yearEnd": 1924,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1c2dc830caffd8ba",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15363",
+    "yearStart": 1925,
+    "yearEnd": 1929,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8f69677a43b40219",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15364",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta6fe975a8eb7590a8",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15365",
+    "yearStart": 1935,
+    "yearEnd": 1940,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0b846fcc0d94f72b",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15366",
+    "yearStart": 1940,
+    "yearEnd": 1944,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1690801080fd61b4",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15367",
+    "yearStart": 1945,
+    "yearEnd": 1951,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta632ee0b4c2004910",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15368",
+    "yearStart": 1951,
+    "yearEnd": 1956,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta47b8a8ec398364c8",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15369",
+    "yearStart": 1956,
+    "yearEnd": 1960,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2d2031f9a9cea9d2",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15370",
+    "yearStart": 1960,
+    "yearEnd": 1963,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf5e02ff2f206e1bf",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15371",
+    "yearStart": 1964,
+    "yearEnd": 1966,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaa63eb2a3a8cd52e4",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15372",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf6155b56c62a4dad",
+    "digitized": true
+  },
+  {
+    "place": "Sète",
+    "cote": "3 Q 15373",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9149bed340c41f70",
+    "digitized": true
+  }
+]

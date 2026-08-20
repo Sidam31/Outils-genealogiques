@@ -868,6 +868,49 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_39.json',
         catalogUrl: 'https://archives39.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20successions',
     },
+    '88': {
+        label: 'Vosges',
+        kind: 'facet',
+        // Bornes réelles de la série (435 registres, 27 lieux sur 43 bureaux, voir
+        // scrape_successions_vosges.py) - nouveau département pour ce projet, portail Ligeo
+        // Archives à arbre "tv:/view:" (pas de recherche par facette) débloqué via des liens ARK
+        // fournis par l'utilisateur. 3 bureaux (Ruppes, Saulxures-lès-Bulgnéville, Vrécourt) n'ont
+        // pas de sous-série "Tables et fichiers" dans l'arbre - probablement rattachés à un autre
+        // bureau, non couverts.
+        minYear: 1784,
+        maxYear: 1971,
+        registersUrl: './assets/data/successions_88.json',
+        catalogUrl: 'https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:23103',
+    },
+    '34': {
+        label: 'Hérault',
+        kind: 'facet',
+        // Bornes réelles de la série (575 registres, 32 lieux, voir
+        // scrape_successions_ligeo_anubis.py, DEPARTMENTS['34']) - nouveau département pour ce
+        // projet, découvert par audit systématique des empreintes logicielles (Ligeo Archives +
+        // Anubis). 573/575 registres numérisés.
+        minYear: 1760,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_34.json',
+        catalogUrl: 'https://archives-pierresvives.herault.fr/archive/resultats/enregistrement/n:22',
+    },
+    '57': {
+        label: 'Moselle',
+        kind: 'facet',
+        // Bornes réelles de la série (471 registres, 30 lieux sur 34 bureaux, voir
+        // scrape_successions_moselle.py) - nouveau département pour ce projet, découvert par audit
+        // systématique. Contrairement à tous les autres départements Ligeo Archives couverts, ce
+        // portail ne publie AUCUN tableau HTML par registre pour cette série : seul un PDF officiel
+        // par bureau (instrument de recherche complet) est disponible, parsé directement (pas de
+        // lien vers une image numérisée par registre, donc "digitized" toujours faux). 4 bureaux
+        // non couverts : Metz et Sarreguemines/Vic-sur-Seille utilisent un gabarit de PDF plus
+        // récent et structurellement différent (non parsé) ; Rombas nomme sa table "Tables des
+        // décès" plutôt que "successions et absences" (pas trouvée sous ce nom dans son PDF).
+        minYear: 1825,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_57.json',
+        catalogUrl: 'https://www.archives57.com/archive/fonds/FRAD057_archives57-inventaires-bis/view:448878/n:87',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

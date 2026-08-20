@@ -1,0 +1,322 @@
+[
+  {
+    "place": "Aniane",
+    "cote": "2 C 146",
+    "yearStart": 1766,
+    "yearEnd": 1810,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf339956ceed65971",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "2 C 217",
+    "yearStart": 1767,
+    "yearEnd": 1767,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf66688c692b676a1",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "2 C 396",
+    "yearStart": 1771,
+    "yearEnd": 1791,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta5d04a59a6e4d4c9d",
+    "digitized": true
+  },
+  {
+    "place": "Ganges",
+    "cote": "2 C 704",
+    "yearStart": 1762,
+    "yearEnd": 1762,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta0ef951f84023854f",
+    "digitized": true
+  },
+  {
+    "place": "Gignac",
+    "cote": "2 C 765",
+    "yearStart": 1764,
+    "yearEnd": 1799,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaee1eead66fe28ac0",
+    "digitized": true
+  },
+  {
+    "place": "Lodève",
+    "cote": "2 C 874",
+    "yearStart": 1764,
+    "yearEnd": 1793,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta19d0d68cf75b1964",
+    "digitized": false
+  },
+  {
+    "place": "Lunel",
+    "cote": "2 C 1002",
+    "yearStart": 1750,
+    "yearEnd": 1750,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtace3a74492815255a",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "2 C 1533",
+    "yearStart": 1764,
+    "yearEnd": 1791,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta161156836c9ce6d2",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "2 C 1534",
+    "yearStart": 1764,
+    "yearEnd": 1794,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta52a9df36f02e0fde",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "2 C 1535",
+    "yearStart": 1764,
+    "yearEnd": 1794,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaf167faedab4d1b84",
+    "digitized": true
+  },
+  {
+    "place": "Montpellier",
+    "cote": "2 C 1536",
+    "yearStart": 1764,
+    "yearEnd": 1794,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta3877f1d393236f31",
+    "digitized": true
+  },
+  {
+    "place": "Pignan",
+    "cote": "2 C 1878",
+    "yearStart": 1738,
+    "yearEnd": 1796,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2d15cbd7c0f7c62b",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chinian",
+    "cote": "2 C 2126",
+    "yearStart": 1763,
+    "yearEnd": 1808,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtac718490cb5432301",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "2 C 2177",
+    "yearStart": 1752,
+    "yearEnd": 1752,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaba5d730a5a19ac66",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Martin-de-Londres",
+    "cote": "2 C 2202",
+    "yearStart": 1762,
+    "yearEnd": 1810,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9e83aec8d755331b",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 59",
+    "yearStart": 1810,
+    "yearEnd": 1825,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta8e8f1b47b2aee18f",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 60",
+    "yearStart": 1826,
+    "yearEnd": 1848,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4e91dc2977bd74b9",
+    "digitized": true
+  },
+  {
+    "place": "Agde",
+    "cote": "3 Q 61",
+    "yearStart": 1848,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4624190a6bb52fd2",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 824",
+    "yearStart": 1811,
+    "yearEnd": 1836,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta70e0e6be20df6bc5",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 825",
+    "yearStart": 1837,
+    "yearEnd": 1858,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad93f290fa240e459",
+    "digitized": true
+  },
+  {
+    "place": "Aniane",
+    "cote": "3 Q 826",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta63d542dedfeb6d09",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1032",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae595c4a4e46c7f53",
+    "digitized": true
+  },
+  {
+    "place": "Bédarieux",
+    "cote": "3 Q 1034",
+    "yearStart": 1850,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2b1c34ce46718aee",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1668",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta55138ae4be079f84",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1669",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad06e843bdd14f741",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1670",
+    "yearStart": 1810,
+    "yearEnd": 1817,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtab6a1173267486960",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1671",
+    "yearStart": 1818,
+    "yearEnd": 1828,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta01a2f4b26e68a131",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1672",
+    "yearStart": 1828,
+    "yearEnd": 1835,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaed51ccbbddaa7b23",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1673",
+    "yearStart": 1835,
+    "yearEnd": 1845,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtaaa942ebe5eff024f",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1674",
+    "yearStart": 1845,
+    "yearEnd": 1858,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta752225b1cd0b9a71",
+    "digitized": true
+  },
+  {
+    "place": "Béziers",
+    "cote": "3 Q 1675",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta26dc96eb2f09a261",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4119",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta03aac933eed61128",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4120",
+    "yearStart": 1824,
+    "yearEnd": 1844,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta186ea027a0e469f6",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4121",
+    "yearStart": 1844,
+    "yearEnd": 1860,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta2a7fa98f90eeef79",
+    "digitized": true
+  },
+  {
+    "place": "Castries",
+    "cote": "3 Q 4122",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta4c9fcc9a3f92de29",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4599",
+    "yearStart": 1791,
+    "yearEnd": 1810,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta9157c652746fa144",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4600",
+    "yearStart": 1810,
+    "yearEnd": 1825,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad2fb8116407c80c7",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4601",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtad524efc73ce07c11",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4602",
+    "yearStart": 1839,
+    "yearEnd": 1857,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vtae88ba5d62e24f7e8",
+    "digitized": true
+  },
+  {
+    "place": "Clermont-l'Hérault",
+    "cote": "3 Q 4603",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives-pierresvives.herault.fr/ark:/37279/vta1e26d416d2b9139e",
+    "digitized": true
+  }
+]

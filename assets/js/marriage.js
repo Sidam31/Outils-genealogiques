@@ -336,6 +336,29 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_37.json',
         catalogUrl: 'https://archives.touraine.fr/search/results?target=controlledAccessPhysicalCharacteristic&keyword=table%20des%20contrats%20de%20mariage',
     },
+    '34': {
+        label: 'Hérault',
+        // Bornes réelles de la série (40 registres, 14 lieux, voir
+        // scrape_contrats_mariage_ligeo_anubis.py, FACET_TARGETS['34']) - même portail que les
+        // successions de ce département, "Table des contrats de mariage" trouvée via le widget
+        // d'autocomplétion de facette. Couverture plus modeste que les successions (575 registres) :
+        // sous-série réellement moins fournie sur ce déploiement.
+        minYear: 1738,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_34.json',
+        catalogUrl: 'https://archives-pierresvives.herault.fr/archive/resultats/enregistrement/n:22',
+    },
+    '88': {
+        label: 'Vosges',
+        // Bornes réelles de la série (35 registres, 13 lieux sur 43 bureaux, voir
+        // scrape_contrats_mariage_vosges.py) - même portail/arbre que les successions de ce
+        // département, mais sous-série beaucoup moins fournie (seuls 15 bureaux ont une table des
+        // contrats de mariage cataloguée contre 40 pour les successions).
+        minYear: 1790,
+        maxYear: 1908,
+        registersUrl: './assets/data/contrats_mariage_88.json',
+        catalogUrl: 'https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:23103',
+    },
 };
 
 function fetchJson(url) {
