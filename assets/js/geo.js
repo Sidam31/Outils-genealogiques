@@ -192,17 +192,25 @@ GEO.regionEntriesNorm = GEO.regions.map(r => [normalizePlace(r), r]);
 // Même principe que GEO.deptEntriesNorm/findDept (mot entier, pas simple sous-chaîne) : la table des
 // pays étant volontairement large (voir countryMap), un test par sous-chaîne nue ferait remonter de
 // faux positifs sur des lieux français dont le nom contient par coïncidence un nom de pays court en
-// entier (ex. "Malicorne-sur-Sarthe" contient "Mali", "Nigremont" contient "Niger") — le mot entier,
-// trié du plus long au plus court comme pour les départements, élimine ce risque.
+// entier (ex. "Malicorne-sur-Sarthe" contient "Mali", "Nigremont" contient "Niger") — le mot entier
+// élimine ce risque.
 GEO.countryEntriesWordNorm = Object.entries(GEO.countryMap)
     .map(([name, label]) => {
         const n = normalizePlace(name);
-        return { label, len: n.length, regex: new RegExp(`(^|\\s|,)${n.replace(/\s+/g, '\\s*')}(\\s|,|$)`) };
-    })
-    .sort((a, b) => b.len - a.len);
+        return { label, regex: new RegExp(`(^|\\s|,)${n.replace(/\s+/g, '\\s*')}(\\s|,|$)`) };
+    });
+// Match le PLUS À DROITE dans le texte (pas le plus long) : dans une hiérarchie "Commune,Département/
+// Province,Région,Pays", le pays est toujours le terme le plus à l'extérieur/à droite. Nécessaire
+// pour départager un texte contenant deux noms reconnus à la fois (ex. "Bastogne,Luxembourg,Belgique" :
+// "Luxembourg" y est le nom d'une PROVINCE belge, pas le pays, malgré "Luxembourg" > "Belgique" en
+// longueur — préférer le plus long aurait fait gagner le mauvais pays).
 export function findCountry(normText) {
-    for(const e of GEO.countryEntriesWordNorm) if(e.regex.test(normText)) return e.label;
-    return null;
+    let best = null, bestIndex = -1;
+    for(const e of GEO.countryEntriesWordNorm) {
+        const m = e.regex.exec(normText);
+        if(m && m.index >= bestIndex) { bestIndex = m.index; best = e.label; }
+    }
+    return best;
 }
 // Trié du nom le plus long au plus court : évite qu'un département dont le nom est un sous-mot
 // d'un autre (ex. "Loire" dans "Loire-Atlantique", "Cher" dans "Loir-et-Cher", "Nord" dans

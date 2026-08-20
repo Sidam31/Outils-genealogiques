@@ -464,10 +464,10 @@ export class GedcomParser {
             if(posParts.length >= 3) {
                 const lastNorm = normalizePlace(posParts[posParts.length - 1]);
                 const beforeLastNorm = normalizePlace(posParts[posParts.length - 2]);
-                const countryHit = GEO.countryEntriesNorm.find(([nk]) => lastNorm.includes(nk));
+                const countryHit = findCountry(lastNorm);
                 const regionHit = GEO.regionEntriesNorm.find(([nr]) => beforeLastNorm === nr);
                 if(countryHit && regionHit) {
-                    if(!country) country = countryHit[1];
+                    if(!country) country = countryHit;
                     if(!region) region = regionHit[1];
                     const deptSegNorm = normalizePlace(posParts[posParts.length - 3]);
                     dept = findDept(deptSegNorm) || GEO.deptEnglishAliases[deptSegNorm] || null;
@@ -483,10 +483,7 @@ export class GedcomParser {
         }
 
         // 3) Recherche floue de secours sur la chaîne complète (comble ce que (1) et (2) n'ont pas trouvé).
-        if(!country) {
-            const hit = GEO.countryEntriesNorm.find(([nk]) => norm.includes(nk));
-            if(hit) country = hit[1];
-        }
+        if(!country) country = findCountry(norm);
         if(!region && (!country || country==="France" || country==="Belgique")) {
             const hit = GEO.regionEntriesNorm.find(([nr]) => norm.includes(nr));
             if(hit) { region = hit[1]; country = BELGIAN_REGIONS.has(hit[1]) ? "Belgique" : "France"; }

@@ -5,7 +5,8 @@
     "detail": "Registre n° 1, environ 1849-1871",
     "yearStart": 1849,
     "yearEnd": 1871,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c65a5f7"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c65a5f7",
+    "digitized": true
   },
   {
     "place": "Artenay",
@@ -13,7 +14,44 @@
     "detail": "Registre n° 2, environ 1870-1890",
     "yearStart": 1870,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6613e8"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6613e8",
+    "digitized": true
+  },
+  {
+    "place": "Artenay",
+    "cote": "1101 W 91642",
+    "detail": "Registre n° 3, environ 1891-1912",
+    "yearStart": 1891,
+    "yearEnd": 1912,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Artenay",
+    "cote": "1101 W 91643",
+    "detail": "Registre n° 4, environ 1910-1925",
+    "yearStart": 1910,
+    "yearEnd": 1925,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Artenay",
+    "cote": "1101 W 91644",
+    "detail": "Registre n° 5, environ 1926-1945",
+    "yearStart": 1926,
+    "yearEnd": 1945,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Artenay",
+    "cote": "1101 W 91645",
+    "detail": "Registre n° 6, 1946-1948",
+    "yearStart": 1946,
+    "yearEnd": 1948,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Beaugency",
@@ -21,7 +59,8 @@
     "detail": "Registre n° 6, environ 1836-1841. Registres 1 à 5 manquants.",
     "yearStart": 1836,
     "yearEnd": 1841,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c66b307"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c66b307",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -29,7 +68,8 @@
     "detail": "Registre n° 7, environ 1841-1846",
     "yearStart": 1841,
     "yearEnd": 1846,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c66d60f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c66d60f",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -37,7 +77,8 @@
     "detail": "Registre n° 8, environ 1846-1854",
     "yearStart": 1846,
     "yearEnd": 1854,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c67002a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c67002a",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -45,7 +86,8 @@
     "detail": "Registre n° 9, environ 1853-1866",
     "yearStart": 1853,
     "yearEnd": 1856,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6719a0"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6719a0",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -53,7 +95,8 @@
     "detail": "Registre n° 10, environ 1860-1875",
     "yearStart": 1860,
     "yearEnd": 1875,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c673082"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c673082",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -61,7 +104,8 @@
     "detail": "Registre n° 11, environ 1870-1879",
     "yearStart": 1870,
     "yearEnd": 1879,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c675e30"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c675e30",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -69,7 +113,8 @@
     "detail": "Registre n° 12, environ 1876-1891",
     "yearStart": 1876,
     "yearEnd": 1891,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c678433"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c678433",
+    "digitized": true
   },
   {
     "place": "Beaugency",
@@ -77,7 +122,62 @@
     "detail": "Registre n° 13, 1891-1903",
     "yearStart": 1891,
     "yearEnd": 1903,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c67aae7"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c67aae7",
+    "digitized": true
+  },
+  {
+    "place": "Beaugency",
+    "cote": "1101 W 91995",
+    "detail": "Registre n° 14, 1904-1916",
+    "yearStart": 1904,
+    "yearEnd": 1916,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Beaugency",
+    "cote": "1101 W 91996",
+    "detail": "Registre n° 15, 1917-1921",
+    "yearStart": 1917,
+    "yearEnd": 1921,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Beaugency",
+    "cote": "1101 W 91997",
+    "detail": "Registre n° 16, 1922-1934",
+    "yearStart": 1922,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Beaugency",
+    "cote": "1101 W 91998",
+    "detail": "Registre n° 17, 1934-1943",
+    "yearStart": 1934,
+    "yearEnd": 1943,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Beaugency",
+    "cote": "1101 W 91999",
+    "detail": "Registre n° 18, 1944-1957",
+    "yearStart": 1944,
+    "yearEnd": 1957,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Beaugency",
+    "cote": "1101 W 92000",
+    "detail": "Registre n° 19, 1958-1965",
+    "yearStart": 1958,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Bellegarde",
@@ -85,7 +185,8 @@
     "detail": "Registre sans n°, environ 1834-1836",
     "yearStart": 1834,
     "yearEnd": 1836,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d433a69"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d433a69",
+    "digitized": true
   },
   {
     "place": "Bellegarde",
@@ -93,7 +194,8 @@
     "detail": "Registre sans n°, environ 1838-1854",
     "yearStart": 1838,
     "yearEnd": 1854,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c689d1c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c689d1c",
+    "digitized": true
   },
   {
     "place": "Bellegarde",
@@ -101,7 +203,8 @@
     "detail": "Registre n° 6, 1853-1864",
     "yearStart": 1853,
     "yearEnd": 1864,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c68b6c8"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c68b6c8",
+    "digitized": true
   },
   {
     "place": "Bellegarde",
@@ -109,7 +212,8 @@
     "detail": "Registre n° 7, 1864-1874",
     "yearStart": 1864,
     "yearEnd": 1874,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c68da93"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c68da93",
+    "digitized": true
   },
   {
     "place": "Bellegarde",
@@ -117,7 +221,8 @@
     "detail": "Registre n° 8, 1875-1890",
     "yearStart": 1875,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c69088e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c69088e",
+    "digitized": true
   },
   {
     "place": "Bellegarde",
@@ -125,7 +230,71 @@
     "detail": "Registre n° 9, 1891-1903",
     "yearStart": 1891,
     "yearEnd": 1903,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c693cc6"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c693cc6",
+    "digitized": true
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1200 W 117349",
+    "detail": "Registre n° 10, environ mars 1902-novembre 1920",
+    "yearStart": 1902,
+    "yearEnd": 1920,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1200 W 117350",
+    "detail": "Registre n° 11, environ janvier 1920-août 1934",
+    "yearStart": 1920,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1115 W 97269",
+    "detail": "Registre n° 12, 1934-1941",
+    "yearStart": 1934,
+    "yearEnd": 1941,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1115 W 97270",
+    "detail": "Registre n° 13, 1942-1950",
+    "yearStart": 1942,
+    "yearEnd": 1950,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1115 W 97271",
+    "detail": "Registre n° 14, 1950-1959",
+    "yearStart": 1950,
+    "yearEnd": 1959,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1540 W 286",
+    "detail": "Registre n° 15, 1960-1963",
+    "yearStart": 1960,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Bellegarde",
+    "cote": "1115 W 97272",
+    "detail": "Registre n° 16, 1960-1963. Correspond uniquement au secteur de Boiscommun.",
+    "yearStart": 1960,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Boiscommun",
@@ -133,7 +302,8 @@
     "detail": "Registre n° 6, environ 1861-1865. Registres 1 à 5 manquants.",
     "yearStart": 1861,
     "yearEnd": 1865,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6a5c31"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6a5c31",
+    "digitized": true
   },
   {
     "place": "Boiscommun",
@@ -141,7 +311,8 @@
     "detail": "Registre n° 7, environ 1866-1872",
     "yearStart": 1866,
     "yearEnd": 1872,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6a7b81"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6a7b81",
+    "digitized": true
   },
   {
     "place": "Boiscommun",
@@ -149,7 +320,8 @@
     "detail": "Registre n° 8, environ 1872-1878",
     "yearStart": 1872,
     "yearEnd": 1878,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6aa798"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6aa798",
+    "digitized": true
   },
   {
     "place": "Boiscommun",
@@ -157,7 +329,8 @@
     "detail": "Registre n° 9, environ 1878-1882",
     "yearStart": 1878,
     "yearEnd": 1882,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6ac476"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6ac476",
+    "digitized": true
   },
   {
     "place": "Boiscommun",
@@ -165,7 +338,8 @@
     "detail": "Registre n° 10, environ 1883-1886",
     "yearStart": 1883,
     "yearEnd": 1886,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6ae698"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6ae698",
+    "digitized": true
   },
   {
     "place": "Boiscommun",
@@ -173,7 +347,8 @@
     "detail": "Registre n° 11, environ 1887-1892",
     "yearStart": 1887,
     "yearEnd": 1892,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6b05a0"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6b05a0",
+    "digitized": true
   },
   {
     "place": "Boiscommun",
@@ -181,7 +356,44 @@
     "detail": "Registre n° 12, environ 1893-1900",
     "yearStart": 1893,
     "yearEnd": 1900,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6b24ef"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6b24ef",
+    "digitized": true
+  },
+  {
+    "place": "Boiscommun",
+    "cote": "1115 W 97265",
+    "detail": "Registre n° 13, environ 1900-1911",
+    "yearStart": 1900,
+    "yearEnd": 1911,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Boiscommun",
+    "cote": "1115 W 97266",
+    "detail": "Registre n° 14, 1911-1923",
+    "yearStart": 1911,
+    "yearEnd": 1923,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Boiscommun",
+    "cote": "1115 W 97267",
+    "detail": "Registre n° 15, 1920-1930",
+    "yearStart": 1920,
+    "yearEnd": 1930,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Boiscommun",
+    "cote": "1115 W 97268",
+    "detail": "Registre n° 16, 1930-1934",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Briare",
@@ -189,7 +401,8 @@
     "detail": "Registre n° 6, environ 1837-1848. Registres 1 à 5 manquants.",
     "yearStart": 1837,
     "yearEnd": 1848,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6bb77a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6bb77a",
+    "digitized": true
   },
   {
     "place": "Briare",
@@ -197,7 +410,8 @@
     "detail": "Registre n° 7, environ 1848-1856",
     "yearStart": 1848,
     "yearEnd": 1856,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6bdef7"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6bdef7",
+    "digitized": true
   },
   {
     "place": "Briare",
@@ -205,7 +419,8 @@
     "detail": "Registre n° 8, environ 1856-1866",
     "yearStart": 1856,
     "yearEnd": 1866,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6bfa4c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6bfa4c",
+    "digitized": true
   },
   {
     "place": "Briare",
@@ -213,7 +428,8 @@
     "detail": "Registre n° 9, environ 1866-1874",
     "yearStart": 1866,
     "yearEnd": 1874,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6c15e3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6c15e3",
+    "digitized": true
   },
   {
     "place": "Briare",
@@ -221,7 +437,8 @@
     "detail": "Registre n° 10, environ 1874-1886",
     "yearStart": 1874,
     "yearEnd": 1886,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6c3308"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6c3308",
+    "digitized": true
   },
   {
     "place": "Briare",
@@ -229,7 +446,35 @@
     "detail": "Registre n° 11, environ 1887-1897",
     "yearStart": 1887,
     "yearEnd": 1897,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6c4ac4"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6c4ac4",
+    "digitized": true
+  },
+  {
+    "place": "Briare",
+    "cote": "1130 W 102320",
+    "detail": "Registre n° 12, 1898-1913. Registres 13 à 15 manquants.",
+    "yearStart": 1898,
+    "yearEnd": 1913,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Briare",
+    "cote": "1130 W 102321",
+    "detail": "Registre n° 16, 1946-1962",
+    "yearStart": 1946,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Briare",
+    "cote": "1130 W 102322",
+    "detail": "Registre n° 17, 1958-1963",
+    "yearStart": 1958,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Châteauneuf-sur-Loire",
@@ -237,7 +482,8 @@
     "detail": "Registre n° 9, environ 1836-1844. Registres 1 à 8 manquants.",
     "yearStart": 1836,
     "yearEnd": 1844,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6cac7e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6cac7e",
+    "digitized": true
   },
   {
     "place": "Châteauneuf-sur-Loire",
@@ -245,7 +491,8 @@
     "detail": "Registre n° 10 environ 1844-1853",
     "yearStart": 1844,
     "yearEnd": 1853,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6cca84"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6cca84",
+    "digitized": true
   },
   {
     "place": "Châteauneuf-sur-Loire",
@@ -253,7 +500,8 @@
     "detail": "Registre n° 11 environ 1853-1861",
     "yearStart": 1853,
     "yearEnd": 1861,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6cef9d"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6cef9d",
+    "digitized": true
   },
   {
     "place": "Châteauneuf-sur-Loire",
@@ -261,7 +509,8 @@
     "detail": "Registre n° 12 environ 1862-1871",
     "yearStart": 1862,
     "yearEnd": 1871,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6d1a4b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6d1a4b",
+    "digitized": true
   },
   {
     "place": "Châteauneuf-sur-Loire",
@@ -269,7 +518,8 @@
     "detail": "Registre n° 13 environ 1872-1887",
     "yearStart": 1872,
     "yearEnd": 1887,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6d35e2"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6d35e2",
+    "digitized": true
   },
   {
     "place": "Châteauneuf-sur-Loire",
@@ -277,7 +527,89 @@
     "detail": "Registre n° 14 environ 1887-1900",
     "yearStart": 1887,
     "yearEnd": 1900,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6d53b3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6d53b3",
+    "digitized": true
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92526",
+    "detail": "Registre n° 15, 1902-1918",
+    "yearStart": 1902,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92527",
+    "detail": "Registre n° 15bis, 1902-1918",
+    "yearStart": 1902,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92528",
+    "detail": "Registre n° 16, 1918-1922",
+    "yearStart": 1918,
+    "yearEnd": 1922,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92529",
+    "detail": "Registre n° 17, 1922-1935",
+    "yearStart": 1922,
+    "yearEnd": 1935,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92530",
+    "detail": "Registre n° 18, 1936-1942 (Attention, les pages sont dans le désordre)",
+    "yearStart": 1936,
+    "yearEnd": 1942,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92531",
+    "detail": "Registre n° 19, 1942-1949",
+    "yearStart": 1942,
+    "yearEnd": 1949,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92532",
+    "detail": "Registre n° 20, 1949-1956",
+    "yearStart": 1949,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92533",
+    "detail": "Registre n° 21, 1957-1965",
+    "yearStart": 1957,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteauneuf-sur-Loire",
+    "cote": "1101 W 92534",
+    "detail": "Registre n° 22, 1966-1968",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Châteaurenard",
@@ -285,7 +617,8 @@
     "detail": "Registre n° 1, 1825-1837",
     "yearStart": 1825,
     "yearEnd": 1837,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6eb9d9"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6eb9d9",
+    "digitized": true
   },
   {
     "place": "Châteaurenard",
@@ -293,7 +626,8 @@
     "detail": "Registre n° 2, 1838-1846",
     "yearStart": 1838,
     "yearEnd": 1846,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6ed88d"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6ed88d",
+    "digitized": true
   },
   {
     "place": "Châteaurenard",
@@ -301,7 +635,8 @@
     "detail": "Registre n° 3, 1847-1858",
     "yearStart": 1847,
     "yearEnd": 1858,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6f0664"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6f0664",
+    "digitized": true
   },
   {
     "place": "Châteaurenard",
@@ -309,7 +644,8 @@
     "detail": "Registre n° 4, 1858-1865",
     "yearStart": 1858,
     "yearEnd": 1865,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6f3db1"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c6f3db1",
+    "digitized": true
   },
   {
     "place": "Châteaurenard",
@@ -317,7 +653,8 @@
     "detail": "Registre n° 5, 1865-1875",
     "yearStart": 1865,
     "yearEnd": 1875,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c702541"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c702541",
+    "digitized": true
   },
   {
     "place": "Châteaurenard",
@@ -325,7 +662,8 @@
     "detail": "Registre n° 6, 1876-1891",
     "yearStart": 1876,
     "yearEnd": 1891,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c7073b0"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c7073b0",
+    "digitized": true
   },
   {
     "place": "Châteaurenard",
@@ -333,7 +671,35 @@
     "detail": "Registre n° 7, 1891-1901",
     "yearStart": 1891,
     "yearEnd": 1901,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c709e3e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c709e3e",
+    "digitized": true
+  },
+  {
+    "place": "Châteaurenard",
+    "cote": "1200 W 117426",
+    "detail": "Registre n° 8, environ janvier 1900-décembre 1910",
+    "yearStart": 1900,
+    "yearEnd": 1910,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteaurenard",
+    "cote": "1200 W 117427",
+    "detail": "Registre n° 9, janvier 1911-novembre 1923",
+    "yearStart": 1911,
+    "yearEnd": 1923,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châteaurenard",
+    "cote": "1200 W 117428",
+    "detail": "Registre n° 10, janvier 1924-octobre 1934",
+    "yearStart": 1924,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Châtillon-Coligny",
@@ -341,7 +707,8 @@
     "detail": "Registre n° 7, 1838-1844. Registres 1 à 6 manquants.",
     "yearStart": 1838,
     "yearEnd": 1844,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c711b4b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c711b4b",
+    "digitized": true
   },
   {
     "place": "Châtillon-Coligny",
@@ -349,7 +716,8 @@
     "detail": "Registre n° 8, 1844-1854",
     "yearStart": 1844,
     "yearEnd": 1854,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c713af5"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c713af5",
+    "digitized": true
   },
   {
     "place": "Châtillon-Coligny",
@@ -357,7 +725,8 @@
     "detail": "Registre n° 9, 1855-1864",
     "yearStart": 1855,
     "yearEnd": 1864,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c715b0e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c715b0e",
+    "digitized": true
   },
   {
     "place": "Châtillon-Coligny",
@@ -365,7 +734,8 @@
     "detail": "Registre n° 10, 1865-1877",
     "yearStart": 1865,
     "yearEnd": 1877,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c717ec5"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c717ec5",
+    "digitized": true
   },
   {
     "place": "Châtillon-Coligny",
@@ -373,7 +743,62 @@
     "detail": "Registre n° 11, 1877-1890",
     "yearStart": 1877,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c719f32"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c719f32",
+    "digitized": true
+  },
+  {
+    "place": "Châtillon-Coligny",
+    "cote": "1200 W 117519",
+    "detail": "Registre n° 12, environ mars 1891-juin 1907",
+    "yearStart": 1891,
+    "yearEnd": 1907,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-Coligny",
+    "cote": "1200 W 117520",
+    "detail": "Registre n° 13, environ avril 1907-novembre 1921",
+    "yearStart": 1907,
+    "yearEnd": 1921,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-Coligny",
+    "cote": "1200 W 117521",
+    "detail": "Registre n° 14, environ janvier 1922-décembre 1934",
+    "yearStart": 1922,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-Coligny",
+    "cote": "1540 W 301",
+    "detail": "Registre n° 15, environ janvier 1935-décembre 1949",
+    "yearStart": 1935,
+    "yearEnd": 1949,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-Coligny",
+    "cote": "1540 W 302",
+    "detail": "Registre n° 16, environ janvier 1950-décembre 1962",
+    "yearStart": 1950,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-Coligny",
+    "cote": "1540 W 188",
+    "detail": "Registre n° 17, janvier 1963-décembre 1968",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Châtillon-sur-Loire",
@@ -381,7 +806,8 @@
     "detail": "Registre sans n°, 1834-1843",
     "yearStart": 1834,
     "yearEnd": 1843,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72761a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72761a",
+    "digitized": true
   },
   {
     "place": "Châtillon-sur-Loire",
@@ -389,7 +815,8 @@
     "detail": "Registre sans n°, 1843-1853",
     "yearStart": 1843,
     "yearEnd": 1853,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c7291eb"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c7291eb",
+    "digitized": true
   },
   {
     "place": "Châtillon-sur-Loire",
@@ -397,7 +824,8 @@
     "detail": "Registre sans n°, 1853-1869",
     "yearStart": 1853,
     "yearEnd": 1869,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72ae41"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72ae41",
+    "digitized": true
   },
   {
     "place": "Châtillon-sur-Loire",
@@ -405,7 +833,8 @@
     "detail": "Registre n° 8, environ 1863-1875",
     "yearStart": 1863,
     "yearEnd": 1875,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72da89"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72da89",
+    "digitized": true
   },
   {
     "place": "Châtillon-sur-Loire",
@@ -413,7 +842,35 @@
     "detail": "Registre n° 9, environ 1876-1893",
     "yearStart": 1876,
     "yearEnd": 1893,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72ff34"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c72ff34",
+    "digitized": true
+  },
+  {
+    "place": "Châtillon-sur-Loire",
+    "cote": "3 Q 44212",
+    "detail": "Registre n° 10, environ 1893-1909",
+    "yearStart": 1893,
+    "yearEnd": 1909,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-sur-Loire",
+    "cote": "3 Q 44213",
+    "detail": "Registre n° 11, environ 1909-1929",
+    "yearStart": 1909,
+    "yearEnd": 1929,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Châtillon-sur-Loire",
+    "cote": "3 Q 44214",
+    "detail": "Registre n° 12, environ 1930-1934",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Cléry-Saint-André",
@@ -421,7 +878,26 @@
     "detail": "Registre sans n°, environ 1861-1890",
     "yearStart": 1861,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c736ee9"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c736ee9",
+    "digitized": true
+  },
+  {
+    "place": "Cléry-Saint-André",
+    "cote": "1101 W 92619",
+    "detail": "Registre n° 2, 1890-1917",
+    "yearStart": 1890,
+    "yearEnd": 1917,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Cléry-Saint-André",
+    "cote": "1101 W 92620",
+    "detail": "Registre n° 3, 1917-1926",
+    "yearStart": 1917,
+    "yearEnd": 1926,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Courtenay",
@@ -429,7 +905,8 @@
     "detail": "Registre n° 4, 1830-1844. Registres 1 à 3 manquants.",
     "yearStart": 1830,
     "yearEnd": 1844,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c73b846"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c73b846",
+    "digitized": true
   },
   {
     "place": "Courtenay",
@@ -437,7 +914,8 @@
     "detail": "Registre n° 5, 1845-1860",
     "yearStart": 1845,
     "yearEnd": 1860,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c90d0e8"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c90d0e8",
+    "digitized": true
   },
   {
     "place": "Courtenay",
@@ -445,7 +923,8 @@
     "detail": "Registre n° 6, 1860-1874",
     "yearStart": 1860,
     "yearEnd": 1874,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9140d3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9140d3",
+    "digitized": true
   },
   {
     "place": "Courtenay",
@@ -453,7 +932,35 @@
     "detail": "Registre n° 7, 1875-1893",
     "yearStart": 1875,
     "yearEnd": 1893,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c918d88"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c918d88",
+    "digitized": true
+  },
+  {
+    "place": "Courtenay",
+    "cote": "3 Q 38348",
+    "detail": "Registre n° 8, 1893-1916",
+    "yearStart": 1893,
+    "yearEnd": 1916,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Courtenay",
+    "cote": "1200 W 117598",
+    "detail": "Registre n° 9, mai 1914-novembre 1938",
+    "yearStart": 1914,
+    "yearEnd": 1938,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Courtenay",
+    "cote": "1540 W 309",
+    "detail": "Registre n° 10, décembre 1938-juin 1954",
+    "yearStart": 1938,
+    "yearEnd": 1954,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Ferrières",
@@ -461,7 +968,8 @@
     "detail": "Registre n° 1, 1829-1840",
     "yearStart": 1829,
     "yearEnd": 1840,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c92978c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c92978c",
+    "digitized": true
   },
   {
     "place": "Ferrières",
@@ -469,7 +977,8 @@
     "detail": "Registre n° 2, 1841-1852",
     "yearStart": 1841,
     "yearEnd": 1852,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c92e606"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c92e606",
+    "digitized": true
   },
   {
     "place": "Ferrières",
@@ -477,7 +986,8 @@
     "detail": "Registre n° 3, 1852-1862",
     "yearStart": 1852,
     "yearEnd": 1862,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c93221f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c93221f",
+    "digitized": true
   },
   {
     "place": "Ferrières",
@@ -485,7 +995,8 @@
     "detail": "Registre n° 4, 1862-1873",
     "yearStart": 1862,
     "yearEnd": 1873,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9360cb"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9360cb",
+    "digitized": true
   },
   {
     "place": "Ferrières",
@@ -493,7 +1004,8 @@
     "detail": "Registre n° 5, 1873-1888",
     "yearStart": 1873,
     "yearEnd": 1888,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c938a2e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c938a2e",
+    "digitized": true
   },
   {
     "place": "Ferrières",
@@ -501,7 +1013,44 @@
     "detail": "Registre n° 6, environ février 1888-février 1903. Couvre essentiellement les années 1888-1898",
     "yearStart": 1888,
     "yearEnd": 1903,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c93b782"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c93b782",
+    "digitized": true
+  },
+  {
+    "place": "Ferrières",
+    "cote": "1200 W 117705",
+    "detail": "Registre n° 7, environ janvier 1898-août 1911",
+    "yearStart": 1898,
+    "yearEnd": 1911,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Ferrières",
+    "cote": "1200 W 117706",
+    "detail": "Registre n° 8, environ 1900-juin 1929. Couvre essentiellement les années 1911-1928.",
+    "yearStart": 1900,
+    "yearEnd": 1929,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Ferrières",
+    "cote": "1200 W 117707",
+    "detail": "Registre n° 9, environ mars 1924-novembre 1940. Couvre essentiellement les années 1927-1940.",
+    "yearStart": 1924,
+    "yearEnd": 1940,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Ferrières",
+    "cote": "1200 W 117708",
+    "detail": "Registre n° 10, environ avril 1930-novembre 1942. Couvre essentiellement les années 1939-1942.",
+    "yearStart": 1930,
+    "yearEnd": 1942,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Gien",
@@ -509,7 +1058,8 @@
     "detail": "Registre sans n°, 1825-1838",
     "yearStart": 1825,
     "yearEnd": 1838,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9493ca"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9493ca",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -517,7 +1067,8 @@
     "detail": "Registre sans n°, 1838-1845",
     "yearStart": 1838,
     "yearEnd": 1845,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c94c44b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c94c44b",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -525,7 +1076,8 @@
     "detail": "Registre sans n°, 1845-1852",
     "yearStart": 1845,
     "yearEnd": 1852,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c94f240"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c94f240",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -533,7 +1085,8 @@
     "detail": "Registre sans n°, 1853-1859",
     "yearStart": 1853,
     "yearEnd": 1859,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c951a08"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c951a08",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -541,7 +1094,8 @@
     "detail": "Registre sans n°, 1859-1867",
     "yearStart": 1859,
     "yearEnd": 1867,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c953fa9"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c953fa9",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -549,7 +1103,8 @@
     "detail": "Registre n° 8, environ 1864-1869",
     "yearStart": 1864,
     "yearEnd": 1869,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9563dd"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9563dd",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -557,7 +1112,8 @@
     "detail": "Registre n° 9, environ 1870-1876",
     "yearStart": 1870,
     "yearEnd": 1876,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c959d33"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c959d33",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -565,7 +1121,8 @@
     "detail": "Registre n° 10, environ 1876-1882",
     "yearStart": 1876,
     "yearEnd": 1882,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c95ccbd"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c95ccbd",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -573,7 +1130,8 @@
     "detail": "Registre n° 11, environ 1883-1887",
     "yearStart": 1883,
     "yearEnd": 1887,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c95f367"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c95f367",
+    "digitized": true
   },
   {
     "place": "Gien",
@@ -581,7 +1139,152 @@
     "detail": "Registre n° 12, environ 1888-1893",
     "yearStart": 1888,
     "yearEnd": 1893,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c961ea4"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c961ea4",
+    "digitized": true
+  },
+  {
+    "place": "Gien",
+    "cote": "3 Q 43853",
+    "detail": "Registre n° 13, environ 1894-1904",
+    "yearStart": 1894,
+    "yearEnd": 1904,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102163",
+    "detail": "Registre n° 14, 1904-1914",
+    "yearStart": 1904,
+    "yearEnd": 1914,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102164",
+    "detail": "Registre n° 15, 1915-1924",
+    "yearStart": 1915,
+    "yearEnd": 1924,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102165",
+    "detail": "Registre n° 16, 1923-1931",
+    "yearStart": 1923,
+    "yearEnd": 1931,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102166",
+    "detail": "Registre n° 17, 1931-1937",
+    "yearStart": 1931,
+    "yearEnd": 1937,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102167",
+    "detail": "Registre n° 18, 1938-1944",
+    "yearStart": 1938,
+    "yearEnd": 1944,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102168",
+    "detail": "Registre n° 19, 1944-1950",
+    "yearStart": 1944,
+    "yearEnd": 1950,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102169",
+    "detail": "Registre n° 20, 1950-1952",
+    "yearStart": 1950,
+    "yearEnd": 1952,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102170",
+    "detail": "Registre n° 21, 1953-1956",
+    "yearStart": 1953,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102171",
+    "detail": "Registre n° 22, 1956-1960. Les deux registres 22 sont presque identiques.",
+    "yearStart": 1956,
+    "yearEnd": 1960,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102172",
+    "detail": "Registre n° 22, 1956-1960. Les deux registres 22 sont presque identiques.",
+    "yearStart": 1956,
+    "yearEnd": 1960,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102596",
+    "detail": "Registre n° 14, 1960-1962.",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102172 bis",
+    "detail": "Registre n° 24, 1963-1964",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102598",
+    "detail": "Registre n° 15, 1964-1968. Concerne uniquement l'ancien bureau de Sully-sur-Loire.",
+    "yearStart": 1964,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102323",
+    "detail": "Registre n° 1, 1965-1968. Concerne uniquement l'ancien bureau de Briare.",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Gien",
+    "cote": "1130 W 102173",
+    "detail": "Registre n° 1, 1965-1968. Concerne uniquement le bureau de Gien avant les rattachements.",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Jargeau",
@@ -589,7 +1292,8 @@
     "detail": "Registre n° 8, environ 1837-1846. Registres 1 à 7 manquants.",
     "yearStart": 1837,
     "yearEnd": 1846,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c98bdf5"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c98bdf5",
+    "digitized": true
   },
   {
     "place": "Jargeau",
@@ -597,7 +1301,8 @@
     "detail": "Registre n° 9, environ 1847-1853",
     "yearStart": 1847,
     "yearEnd": 1853,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c98e0bf"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c98e0bf",
+    "digitized": true
   },
   {
     "place": "Jargeau",
@@ -605,7 +1310,8 @@
     "detail": "Registre n° 10, environ 1853-1863",
     "yearStart": 1853,
     "yearEnd": 1863,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c990f69"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c990f69",
+    "digitized": true
   },
   {
     "place": "Jargeau",
@@ -613,7 +1319,8 @@
     "detail": "Registre n° 11, environ 1863-1873",
     "yearStart": 1863,
     "yearEnd": 1873,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9933fd"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9933fd",
+    "digitized": true
   },
   {
     "place": "Jargeau",
@@ -621,7 +1328,8 @@
     "detail": "Registre n° 12, environ 1873-1880",
     "yearStart": 1873,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9975c0"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9975c0",
+    "digitized": true
   },
   {
     "place": "Jargeau",
@@ -629,7 +1337,35 @@
     "detail": "Registre n° 13, environ 1880-1894",
     "yearStart": 1880,
     "yearEnd": 1894,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c99a0ba"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c99a0ba",
+    "digitized": true
+  },
+  {
+    "place": "Jargeau",
+    "cote": "1101 W 92877",
+    "detail": "Registre n° 14, 1900-1914",
+    "yearStart": 1900,
+    "yearEnd": 1914,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Jargeau",
+    "cote": "1101 W 92878",
+    "detail": "Registre n° 15, 1915-sept 1931",
+    "yearStart": 1915,
+    "yearEnd": 1931,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Jargeau",
+    "cote": "1101 W 92879",
+    "detail": "Registre n° 16, 1932-1935",
+    "yearStart": 1932,
+    "yearEnd": 1935,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "La Ferté-Saint-Aubin",
@@ -637,7 +1373,8 @@
     "detail": "Registre sans n°, environ 1825-1838",
     "yearStart": 1825,
     "yearEnd": 1838,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d437136"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d437136",
+    "digitized": true
   },
   {
     "place": "La Ferté-Saint-Aubin",
@@ -645,7 +1382,8 @@
     "detail": "Registre n° 1, environ 1838-1855",
     "yearStart": 1838,
     "yearEnd": 1855,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9a54b6"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9a54b6",
+    "digitized": true
   },
   {
     "place": "La Ferté-Saint-Aubin",
@@ -653,7 +1391,8 @@
     "detail": "Registre n° 2, environ 1854-1874",
     "yearStart": 1854,
     "yearEnd": 1874,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9a7bab"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9a7bab",
+    "digitized": true
   },
   {
     "place": "La Ferté-Saint-Aubin",
@@ -661,7 +1400,53 @@
     "detail": "Registre n° 3, environ 1875-1895",
     "yearStart": 1875,
     "yearEnd": 1895,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9aa46a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9aa46a",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Saint-Aubin",
+    "cote": "1101 W 92735",
+    "detail": "Registre n° 3, 22 février 1897-21 mars 1904",
+    "yearStart": 1897,
+    "yearEnd": 1904,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "La Ferté-Saint-Aubin",
+    "cote": "1101 W 92736",
+    "detail": "Registre n° 4, 22 novembre 1904-30 juin 1921",
+    "yearStart": 1904,
+    "yearEnd": 1921,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "La Ferté-Saint-Aubin",
+    "cote": "1101 W 92737",
+    "detail": "Registre n° 5, 1922-1939",
+    "yearStart": 1922,
+    "yearEnd": 1939,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "La Ferté-Saint-Aubin",
+    "cote": "1101 W 92738",
+    "detail": "Registre n° 6, 1939-1947",
+    "yearStart": 1939,
+    "yearEnd": 1947,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "La Ferté-Saint-Aubin",
+    "cote": "1101 W 92739",
+    "detail": "Registre n° 7, 1948",
+    "yearStart": 1948,
+    "yearEnd": 1948,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Lorris",
@@ -669,7 +1454,8 @@
     "detail": "Registre sans n°, environ 1825-1838",
     "yearStart": 1825,
     "yearEnd": 1838,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9bab1a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9bab1a",
+    "digitized": true
   },
   {
     "place": "Lorris",
@@ -677,7 +1463,8 @@
     "detail": "Registre n° 4, environ 1840-1853. Registre 5 inexistant.",
     "yearStart": 1840,
     "yearEnd": 1853,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9bd5cb"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9bd5cb",
+    "digitized": true
   },
   {
     "place": "Lorris",
@@ -685,7 +1472,8 @@
     "detail": "Registre n° 6, environ 1854-1860",
     "yearStart": 1854,
     "yearEnd": 1860,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9bfba7"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9bfba7",
+    "digitized": true
   },
   {
     "place": "Lorris",
@@ -693,7 +1481,8 @@
     "detail": "Registre n° 7, environ 1861-1872",
     "yearStart": 1861,
     "yearEnd": 1872,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9c28a5"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9c28a5",
+    "digitized": true
   },
   {
     "place": "Lorris",
@@ -701,7 +1490,8 @@
     "detail": "Registre n° 8, environ 1872-1877",
     "yearStart": 1872,
     "yearEnd": 1877,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9c47b3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9c47b3",
+    "digitized": true
   },
   {
     "place": "Lorris",
@@ -709,7 +1499,44 @@
     "detail": "Registre sans n°, environ 1878-1894",
     "yearStart": 1878,
     "yearEnd": 1894,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9c708f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9c708f",
+    "digitized": true
+  },
+  {
+    "place": "Lorris",
+    "cote": "3 Q 38786",
+    "detail": "Registre sans n°, commencé en 1895",
+    "yearStart": 1895,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Lorris",
+    "cote": "1200 W 117760",
+    "detail": "Registre n° 11, environ novembre 1919-octobre 1935",
+    "yearStart": 1919,
+    "yearEnd": 1935,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Lorris",
+    "cote": "1200 W 117761",
+    "detail": "Registre sans numéro, environ avril 1934-novembre 1942",
+    "yearStart": 1934,
+    "yearEnd": 1942,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Lorris",
+    "cote": "1200 W 117762",
+    "detail": "Registre n° 13, environ novembre 1935-décembre 1947. Couvre essentiellement les années 1944-1947.",
+    "yearStart": 1935,
+    "yearEnd": 1947,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Malesherbes",
@@ -717,7 +1544,8 @@
     "detail": "Registre n° 4, environ 1825-1840",
     "yearStart": 1825,
     "yearEnd": 1840,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9d7cfa"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9d7cfa",
+    "digitized": true
   },
   {
     "place": "Malesherbes",
@@ -725,7 +1553,8 @@
     "detail": "Registre n° 5, environ 1841-1853",
     "yearStart": 1841,
     "yearEnd": 1853,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9dad3a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9dad3a",
+    "digitized": true
   },
   {
     "place": "Malesherbes",
@@ -733,7 +1562,8 @@
     "detail": "Registre n° 6, environ 1854-1866",
     "yearStart": 1854,
     "yearEnd": 1866,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9dd1ce"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9dd1ce",
+    "digitized": true
   },
   {
     "place": "Malesherbes",
@@ -741,7 +1571,8 @@
     "detail": "Registre n° 7, environ 1867-1878",
     "yearStart": 1867,
     "yearEnd": 1878,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9df8c1"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9df8c1",
+    "digitized": true
   },
   {
     "place": "Malesherbes",
@@ -749,7 +1580,62 @@
     "detail": "Registre n° 7bis, environ 1879-1892",
     "yearStart": 1879,
     "yearEnd": 1892,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9e372c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925c9e372c",
+    "digitized": true
+  },
+  {
+    "place": "Malesherbes",
+    "cote": "3 Q 42577",
+    "detail": "Registre n° 8, environ 1892-1911",
+    "yearStart": 1892,
+    "yearEnd": 1911,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Malesherbes",
+    "cote": "1115 W 97673",
+    "detail": "Registre sans numéro, 1912-1931. Pour les compléments voir les registres n° 4 à 8 (1825-1911).",
+    "yearStart": 1912,
+    "yearEnd": 1931,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Malesherbes",
+    "cote": "1115 W 97674",
+    "detail": "Registre sans numéro, 1930-1944",
+    "yearStart": 1930,
+    "yearEnd": 1944,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Malesherbes",
+    "cote": "1115 W 97675",
+    "detail": "Registre sans numéro, 1944-1955",
+    "yearStart": 1944,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Malesherbes",
+    "cote": "1115 W 97676",
+    "detail": "Registre n° 12, 1955-1963",
+    "yearStart": 1955,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Malesherbes",
+    "cote": "1115 W 97677",
+    "detail": "Registre sans numéro, 1963",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Meung-sur-Loire",
@@ -757,7 +1643,8 @@
     "detail": "Registre n° 8, environ 1836-1846. Registres 1 à 7 manquants.",
     "yearStart": 1836,
     "yearEnd": 1846,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca08ffc"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca08ffc",
+    "digitized": true
   },
   {
     "place": "Meung-sur-Loire",
@@ -765,7 +1652,8 @@
     "detail": "Registre n° 9, environ 1841-1852",
     "yearStart": 1841,
     "yearEnd": 1852,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca0b54c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca0b54c",
+    "digitized": true
   },
   {
     "place": "Meung-sur-Loire",
@@ -773,7 +1661,8 @@
     "detail": "Registre n° 11, environ 1842-1856",
     "yearStart": 1842,
     "yearEnd": 1856,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca0e5c6"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca0e5c6",
+    "digitized": true
   },
   {
     "place": "Meung-sur-Loire",
@@ -781,7 +1670,8 @@
     "detail": "Registre n° 10, environ 1851-1852. Registre 11 manquant.",
     "yearStart": 1851,
     "yearEnd": 1852,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca12e05"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca12e05",
+    "digitized": true
   },
   {
     "place": "Meung-sur-Loire",
@@ -789,7 +1679,8 @@
     "detail": "Registre n° 12, environ 1856-1861. Registre 13 manquant.",
     "yearStart": 1856,
     "yearEnd": 1861,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca15f1b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca15f1b",
+    "digitized": true
   },
   {
     "place": "Meung-sur-Loire",
@@ -797,7 +1688,8 @@
     "detail": "Registre n° 14, environ 1869-1877",
     "yearStart": 1869,
     "yearEnd": 1877,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca186f3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca186f3",
+    "digitized": true
   },
   {
     "place": "Meung-sur-Loire",
@@ -805,7 +1697,62 @@
     "detail": "Registre n° 15, environ 1878-1893",
     "yearStart": 1878,
     "yearEnd": 1893,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca1b280"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca1b280",
+    "digitized": true
+  },
+  {
+    "place": "Meung-sur-Loire",
+    "cote": "1101 W 93250",
+    "detail": "Registre n° 16, 1894-1904",
+    "yearStart": 1894,
+    "yearEnd": 1904,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Meung-sur-Loire",
+    "cote": "1101 W 93251",
+    "detail": "Registre n° 17, 1905-1921",
+    "yearStart": 1905,
+    "yearEnd": 1921,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Meung-sur-Loire",
+    "cote": "1101 W 93252",
+    "detail": "Registre n° 18, 1921-1930",
+    "yearStart": 1921,
+    "yearEnd": 1930,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Meung-sur-Loire",
+    "cote": "1101 W 93253",
+    "detail": "Registre n° 19, 1931-1943",
+    "yearStart": 1931,
+    "yearEnd": 1943,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Meung-sur-Loire",
+    "cote": "1101 W 93254",
+    "detail": "Registre n° 20, 1941-1951",
+    "yearStart": 1941,
+    "yearEnd": 1951,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Meung-sur-Loire",
+    "cote": "1101 W 93255",
+    "detail": "Registre n° 21, 1951-1960",
+    "yearStart": 1951,
+    "yearEnd": 1960,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Montargis",
@@ -813,7 +1760,8 @@
     "detail": "Registre n° 8, 1824-1830. Registres 1 à 7 manquants.",
     "yearStart": 1824,
     "yearEnd": 1830,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca38c2c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca38c2c",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -821,7 +1769,8 @@
     "detail": "Registre n° 9, 1831-1838. Registre 10 manquant.",
     "yearStart": 1831,
     "yearEnd": 1838,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca3bf18"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca3bf18",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -829,7 +1778,8 @@
     "detail": "Registre n° 11, 1849-1854",
     "yearStart": 1849,
     "yearEnd": 1854,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca3ed3b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca3ed3b",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -837,7 +1787,8 @@
     "detail": "Registre n° 12, 1854-1858",
     "yearStart": 1854,
     "yearEnd": 1858,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca422df"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca422df",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -845,7 +1796,8 @@
     "detail": "Registre n° 13, 1859-1864",
     "yearStart": 1859,
     "yearEnd": 1864,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca4492b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca4492b",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -853,7 +1805,8 @@
     "detail": "Registre n° 14, 1865-1871",
     "yearStart": 1865,
     "yearEnd": 1871,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca46eb1"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca46eb1",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -861,7 +1814,8 @@
     "detail": "Registre n° 15, 1871-1877",
     "yearStart": 1871,
     "yearEnd": 1877,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca49bd4"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ca49bd4",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -869,7 +1823,8 @@
     "detail": "Registre n° 16, 1878-1885",
     "yearStart": 1878,
     "yearEnd": 1885,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc31977"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc31977",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -877,7 +1832,8 @@
     "detail": "Registre n° 17, 1885-1891",
     "yearStart": 1885,
     "yearEnd": 1891,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc35070"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc35070",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -885,7 +1841,8 @@
     "detail": "Registre n° 18, 1891-1895",
     "yearStart": 1891,
     "yearEnd": 1895,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc38661"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc38661",
+    "digitized": true
   },
   {
     "place": "Montargis",
@@ -893,7 +1850,206 @@
     "detail": "Registre n° 19, 1896-1900",
     "yearStart": 1896,
     "yearEnd": 1900,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc3b0ad"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cc3b0ad",
+    "digitized": true
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117277",
+    "detail": "Registre n° 20 janvier 1902-juin 1909",
+    "yearStart": 1902,
+    "yearEnd": 1909,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117278",
+    "detail": "Registre sans numéro, janvier 1909-janvier 1914",
+    "yearStart": 1909,
+    "yearEnd": 1914,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117279",
+    "detail": "Registre n° 22, janvier 1914-décembre 1917",
+    "yearStart": 1914,
+    "yearEnd": 1917,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117280",
+    "detail": "Registre n° 23, janvier 1918-juillet 1921",
+    "yearStart": 1918,
+    "yearEnd": 1921,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117281",
+    "detail": "Registre n° 24, juillet 1921-décembre 1926",
+    "yearStart": 1921,
+    "yearEnd": 1926,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117282",
+    "detail": "Registre n° 25, janvier 1927-décembre 1930",
+    "yearStart": 1927,
+    "yearEnd": 1930,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117283",
+    "detail": "Registre n° 26, janvier 1931-juin 1935",
+    "yearStart": 1931,
+    "yearEnd": 1935,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117284",
+    "detail": "Registre n° 27, juillet 1935-décembre 1938",
+    "yearStart": 1935,
+    "yearEnd": 1938,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117285",
+    "detail": "Registre n° 28, janvier 1939-décembre 1941",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1200 W 117286",
+    "detail": "Registre n° 29, environ janvier 1942-novembre 1944. Registre 30 manquant.",
+    "yearStart": 1942,
+    "yearEnd": 1944,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 176",
+    "detail": "Registre n° 31, environ octobre 1947-mars 1952",
+    "yearStart": 1947,
+    "yearEnd": 1952,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 182",
+    "detail": "Registre n° 31bis, environ octobre 1947-mars 1952, constitué pour les bureaux fermés (Châteaurenard, Ferrières, Lorris).",
+    "yearStart": 1947,
+    "yearEnd": 1952,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 177",
+    "detail": "Registre n° 32, environ avril 1952-décembre 1956",
+    "yearStart": 1952,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 183",
+    "detail": "Registre n° 32bis, environ avril 1952-décembre 1956 constitué pour les bureaux fermés (Châteaurenard, Courtenay, Ferrières, Lorris).",
+    "yearStart": 1952,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 178",
+    "detail": "Registre n° 33, environ janvier 1957-décembre 1959",
+    "yearStart": 1957,
+    "yearEnd": 1959,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 184",
+    "detail": "Registre n° 33bis, environ janvier 1957-décembre 1959 constitué pour les bureaux fermés (Châteaurenard, Courtenay, Ferrières, Lorris).",
+    "yearStart": 1957,
+    "yearEnd": 1959,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 179",
+    "detail": "Registre n° 34, janvier 1960-décembre 1962",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 185",
+    "detail": "Registre n° 34bis, janvier 1960-décembre 1962 constitué pour les bureaux fermés (Châteaurenard, Courtenay, Ferrières, Lorris).",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 180",
+    "detail": "Registre n° 35, janvier 1963-décembre 1965",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 186",
+    "detail": "Registre n° 35bis, janvier 1963-décembre 1965 constitué pour les bureaux fermés (Châteaurenard, Courtenay, Ferrières, Lorris).",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 181",
+    "detail": "Registre n° 36, janvier 1966-décembre 1968",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Montargis",
+    "cote": "1540 W 187",
+    "detail": "Registre n° 36bis, janvier 1966-décembre 1968 constitué pour les bureaux fermés (Châteaurenard, Courtenay, Ferrières, Lorris).",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Neuville-aux-Bois",
@@ -901,7 +2057,8 @@
     "detail": "Registre sans n°, environ 1823-1834",
     "yearStart": 1823,
     "yearEnd": 1834,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cca45bf"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cca45bf",
+    "digitized": true
   },
   {
     "place": "Neuville-aux-Bois",
@@ -909,7 +2066,8 @@
     "detail": "Registre sans n°, environ 1836-1844",
     "yearStart": 1836,
     "yearEnd": 1844,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cca9b93"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cca9b93",
+    "digitized": true
   },
   {
     "place": "Neuville-aux-Bois",
@@ -917,7 +2075,8 @@
     "detail": "Registre sans n°, environ 1845-1850",
     "yearStart": 1845,
     "yearEnd": 1850,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccaddba"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccaddba",
+    "digitized": true
   },
   {
     "place": "Neuville-aux-Bois",
@@ -925,7 +2084,53 @@
     "detail": "Registre sans n°, environ 1872-1889",
     "yearStart": 1872,
     "yearEnd": 1889,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccb3785"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccb3785",
+    "digitized": true
+  },
+  {
+    "place": "Neuville-aux-Bois",
+    "cote": "1101 W 93413",
+    "detail": "Registre n° 13, 1889-1906",
+    "yearStart": 1889,
+    "yearEnd": 1906,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Neuville-aux-Bois",
+    "cote": "1101 W 93414",
+    "detail": "Registre n° 14, 1907-1918",
+    "yearStart": 1907,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Neuville-aux-Bois",
+    "cote": "1101 W 93415",
+    "detail": "Registre n° 15, 1919-1934",
+    "yearStart": 1919,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Neuville-aux-Bois",
+    "cote": "1101 W 93416",
+    "detail": "Registre n° 16, 1935-1947",
+    "yearStart": 1935,
+    "yearEnd": 1947,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Neuville-aux-Bois",
+    "cote": "1101 W 93417",
+    "detail": "Registre n° 17, 1948",
+    "yearStart": 1948,
+    "yearEnd": 1948,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Orléans",
@@ -933,7 +2138,8 @@
     "detail": "Registre n° 7, octobre 1836-mars 1838. Registres 1 à 6 manquants.",
     "yearStart": 1836,
     "yearEnd": 1838,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cccf822"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cccf822",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -941,7 +2147,8 @@
     "detail": "Registre n° 8, avril 1938-septembre 1839",
     "yearStart": 1838,
     "yearEnd": 1839,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd2244"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd2244",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -949,7 +2156,8 @@
     "detail": "Registre n° 9, octobre 1839-mars 1841",
     "yearStart": 1839,
     "yearEnd": 1841,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd4c78"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd4c78",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -957,7 +2165,8 @@
     "detail": "Registre n° 10, avril 1841-septembre 1842",
     "yearStart": 1841,
     "yearEnd": 1842,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd7621"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd7621",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -965,7 +2174,8 @@
     "detail": "Registre n° 11, octobre 1842-mars 1844",
     "yearStart": 1842,
     "yearEnd": 1844,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd998c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccd998c",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -973,7 +2183,8 @@
     "detail": "Registre n° 12, mars 1844-septembre 1845",
     "yearStart": 1844,
     "yearEnd": 1845,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccdc189"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccdc189",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -981,7 +2192,8 @@
     "detail": "Registre n° 13, octobre 1845-mars 1847",
     "yearStart": 1845,
     "yearEnd": 1847,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccde96f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccde96f",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -989,7 +2201,8 @@
     "detail": "Registre n° 14, avril 1847-septembre 1848",
     "yearStart": 1847,
     "yearEnd": 1848,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cce1e0e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cce1e0e",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -997,7 +2210,8 @@
     "detail": "Registre n° 15, octobre 1848-décembre 1849",
     "yearStart": 1848,
     "yearEnd": 1849,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cce6463"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cce6463",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1005,7 +2219,8 @@
     "detail": "Registre n° 16, janvier 1850-novembre 1850",
     "yearStart": 1850,
     "yearEnd": 1850,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cceb61c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cceb61c",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1013,7 +2228,8 @@
     "detail": "Registre n° 17, janvier 1851-novembre 1851",
     "yearStart": 1851,
     "yearEnd": 1851,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccf04e9"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925ccf04e9",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1021,7 +2237,8 @@
     "detail": "Registre n° 18, décembre 1851-décembre 1852",
     "yearStart": 1851,
     "yearEnd": 1852,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd00345"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd00345",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1029,7 +2246,8 @@
     "detail": "Registre n° 19, février 1853-décembre 1853",
     "yearStart": 1853,
     "yearEnd": 1853,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd03355"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd03355",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1037,7 +2255,8 @@
     "detail": "Registre n° 20, janvier 1854-mars 1855",
     "yearStart": 1854,
     "yearEnd": 1855,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd0729e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd0729e",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1045,7 +2264,8 @@
     "detail": "Registre n° 21, avril 1855-septembre 1856",
     "yearStart": 1855,
     "yearEnd": 1856,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd0c847"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd0c847",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1053,7 +2273,8 @@
     "detail": "Registre n° 22, octobre 1856-février 1858",
     "yearStart": 1856,
     "yearEnd": 1858,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd11212"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd11212",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1061,7 +2282,8 @@
     "detail": "Registre n° 23, avril 1858-septembre 1859",
     "yearStart": 1858,
     "yearEnd": 1859,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd14210"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd14210",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1069,7 +2291,8 @@
     "detail": "Registre n° 24, octobre 1859-juin 1861",
     "yearStart": 1859,
     "yearEnd": 1861,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd17b64"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd17b64",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1077,7 +2300,8 @@
     "detail": "Registre n° 25, juillet 1861-mars 1863",
     "yearStart": 1861,
     "yearEnd": 1863,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd1e8bd"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd1e8bd",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1085,7 +2309,8 @@
     "detail": "Registre n° 26, avril 1863-décembre 1864",
     "yearStart": 1863,
     "yearEnd": 1864,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd220a6"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd220a6",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1093,7 +2318,8 @@
     "detail": "Registre n° 27, janvier 1865-septembre 1866",
     "yearStart": 1865,
     "yearEnd": 1866,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd266dd"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd266dd",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1101,7 +2327,8 @@
     "detail": "Registre n° 28, octobre 1866-juillet 1868",
     "yearStart": 1866,
     "yearEnd": 1868,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd29991"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd29991",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1109,7 +2336,8 @@
     "detail": "Registre n° 29, août 1868-mars 1870",
     "yearStart": 1868,
     "yearEnd": 1870,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd2c3bc"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd2c3bc",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1117,7 +2345,8 @@
     "detail": "Registre n° 30, avril 1870-juin 1871",
     "yearStart": 1870,
     "yearEnd": 1871,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd2f163"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd2f163",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1125,7 +2354,8 @@
     "detail": "Registre 30 bis, octobre 1870-janvier 1871",
     "yearStart": 1870,
     "yearEnd": 1871,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd31cdf"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd31cdf",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1133,7 +2363,8 @@
     "detail": "Registre n° 31, juillet 1871-mars 1873",
     "yearStart": 1871,
     "yearEnd": 1873,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd3505a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd3505a",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1141,7 +2372,8 @@
     "detail": "Registre n° 32, avril 1873-mai 1874",
     "yearStart": 1873,
     "yearEnd": 1874,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd38e4f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd38e4f",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1149,7 +2381,8 @@
     "detail": "Registre n° 33, janvier 1875-août 1876",
     "yearStart": 1875,
     "yearEnd": 1876,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd3b1c2"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd3b1c2",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1157,7 +2390,8 @@
     "detail": "Registre n° 34, octobre 1876-juin 1877. Registre 35 manquant.",
     "yearStart": 1876,
     "yearEnd": 1877,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd3e3b3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd3e3b3",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1165,7 +2399,8 @@
     "detail": "Registre n° 36, janvier 1880-septembre 1881",
     "yearStart": 1880,
     "yearEnd": 1881,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd4119b"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd4119b",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1173,7 +2408,8 @@
     "detail": "Registre n° 37, octobre 1881-août 1883",
     "yearStart": 1881,
     "yearEnd": 1883,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd43466"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd43466",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1181,7 +2417,8 @@
     "detail": "Registre n° 38, octobre 1883-août 1885",
     "yearStart": 1883,
     "yearEnd": 1885,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd46237"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd46237",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1189,7 +2426,8 @@
     "detail": "Registre n° 39, octobre 1885-juin 1887",
     "yearStart": 1885,
     "yearEnd": 1887,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd48971"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd48971",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1197,7 +2435,8 @@
     "detail": "Registre n° 40, juillet 1887-novembre 1888",
     "yearStart": 1887,
     "yearEnd": 1888,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd4b4e3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd4b4e3",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1205,7 +2444,8 @@
     "detail": "Registre n° 41, avril 1889-septembre 1890. Registre 42 manquant.",
     "yearStart": 1889,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd4ddb2"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd4ddb2",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1213,7 +2453,8 @@
     "detail": "Registre n° 43, avril 1892-août 1893",
     "yearStart": 1892,
     "yearEnd": 1893,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd50129"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd50129",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1221,7 +2462,8 @@
     "detail": "Registre n° 44, octobre 1893-février 1895",
     "yearStart": 1893,
     "yearEnd": 1895,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd52a65"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd52a65",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1229,7 +2471,8 @@
     "detail": "Registre n° 45, juin 1895-décembre 1896",
     "yearStart": 1895,
     "yearEnd": 1896,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd55749"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd55749",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1237,7 +2480,8 @@
     "detail": "Registre n° 46, janvier 1897-juin 1898",
     "yearStart": 1897,
     "yearEnd": 1898,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd57a81"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd57a81",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1245,7 +2489,8 @@
     "detail": "Registre n° 47, août 1898-décembre 1899",
     "yearStart": 1898,
     "yearEnd": 1899,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd59edb"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd59edb",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1253,7 +2498,8 @@
     "detail": "Registre n° 48, janvier 1900-juin 1901",
     "yearStart": 1900,
     "yearEnd": 1901,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd5cc7a"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd5cc7a",
+    "digitized": true
   },
   {
     "place": "Orléans",
@@ -1261,7 +2507,746 @@
     "detail": "Registre n° 49, juillet 1901-décembre 1902",
     "yearStart": 1901,
     "yearEnd": 1902,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd6066f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925cd6066f",
+    "digitized": true
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91445",
+    "detail": "Registre n° 50, janvier 1903-mai 1904",
+    "yearStart": 1903,
+    "yearEnd": 1904,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91446",
+    "detail": "Registre n° 51, juin 1904-décembre 1905",
+    "yearStart": 1904,
+    "yearEnd": 1905,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91447",
+    "detail": "Registre n° 52, janvier 1906-mars 1907",
+    "yearStart": 1906,
+    "yearEnd": 1907,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91448",
+    "detail": "Registre n° 53, avril 1907-avril 1908",
+    "yearStart": 1907,
+    "yearEnd": 1908,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91449",
+    "detail": "Registre n° 54, avril 1908-mai 1909",
+    "yearStart": 1908,
+    "yearEnd": 1909,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91450",
+    "detail": "Registre n° 55, juin 1909-décembre 1910",
+    "yearStart": 1909,
+    "yearEnd": 1910,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91451",
+    "detail": "Registre n° 56, janvier 1911-mars 1912",
+    "yearStart": 1911,
+    "yearEnd": 1912,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91452",
+    "detail": "Registre n° 57, avril 1912-mai 1913",
+    "yearStart": 1912,
+    "yearEnd": 1913,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91453",
+    "detail": "Registre n° 58, juin 1913-juin 1914",
+    "yearStart": 1913,
+    "yearEnd": 1914,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91454",
+    "detail": "Registre n° 59, juillet 1914-mars 1915",
+    "yearStart": 1914,
+    "yearEnd": 1915,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91455",
+    "detail": "Registre n° 60, avril 1915-février 1916",
+    "yearStart": 1915,
+    "yearEnd": 1916,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91456",
+    "detail": "Registre n° 61, mars 1916-janvier 1917",
+    "yearStart": 1916,
+    "yearEnd": 1917,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91457",
+    "detail": "Registre n° 62, février 1917-décembre 1917",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91458",
+    "detail": "Registre n° 63, janvier 1918-septembre 1918",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91459",
+    "detail": "Registre n° 64, octobre 1918-mai 1919",
+    "yearStart": 1918,
+    "yearEnd": 1919,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91460",
+    "detail": "Registre n° 65, juin 1919-juin 1920",
+    "yearStart": 1919,
+    "yearEnd": 1920,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91461",
+    "detail": "Registre n° 66, juillet 1920-juin 1921",
+    "yearStart": 1920,
+    "yearEnd": 1921,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91462",
+    "detail": "Registre n° 67, juillet 1921-mars 1922",
+    "yearStart": 1921,
+    "yearEnd": 1922,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91463",
+    "detail": "Registre n° 68, avril 1922-mars 1923",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91464",
+    "detail": "Orléans ville : registre n° 69, avril 1923-juillet 1924",
+    "yearStart": 1923,
+    "yearEnd": 1924,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91503",
+    "detail": "Orléans campagne : registre n° 1, avril 1923-septembre 1926",
+    "yearStart": 1923,
+    "yearEnd": 1926,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91465",
+    "detail": "Orléans ville : registre n° 70, août 1924-janvier 1926",
+    "yearStart": 1924,
+    "yearEnd": 1926,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91466",
+    "detail": "Orléans ville : registre n° 71, janvier 1926-mars 1927",
+    "yearStart": 1926,
+    "yearEnd": 1927,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91504",
+    "detail": "Orléans campagne : registre n° 2, octobre 1926-décembre 1929",
+    "yearStart": 1926,
+    "yearEnd": 1929,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91467",
+    "detail": "Orléans ville : registre n° 72, avril 1927-novembre 1928",
+    "yearStart": 1927,
+    "yearEnd": 1928,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91468",
+    "detail": "Orléans ville : registre n° 73, décembre 1928-juin 1930",
+    "yearStart": 1928,
+    "yearEnd": 1930,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91469",
+    "detail": "Orléans ville : registre n° 74, juin 1930-octobre 1931",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91505",
+    "detail": "Orléans campagne : registre n° 3, janvier 1930-décembre 1932",
+    "yearStart": 1930,
+    "yearEnd": 1932,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91470",
+    "detail": "Orléans ville : registre n° 75, novembre 1931-décembre 1932",
+    "yearStart": 1931,
+    "yearEnd": 1932,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91471",
+    "detail": "Orléans ville : registre n° 76, janvier 1933-avril 1934",
+    "yearStart": 1933,
+    "yearEnd": 1934,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91506",
+    "detail": "Orléans campagne : registre n° 4, janvier 1933-décembre 1935",
+    "yearStart": 1933,
+    "yearEnd": 1935,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91472",
+    "detail": "Orléans ville : registre n° 77, mai 1934-septembre 1935",
+    "yearStart": 1934,
+    "yearEnd": 1935,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91473",
+    "detail": "Orléans ville : registre n° 78, octobre 1935-janvier 1937",
+    "yearStart": 1935,
+    "yearEnd": 1937,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91507",
+    "detail": "Orléans campagne : registre n° 5, janvier 1936-décembre 1938",
+    "yearStart": 1936,
+    "yearEnd": 1938,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91474",
+    "detail": "Orléans ville : registre n° 79, février 1937-avril 1938",
+    "yearStart": 1937,
+    "yearEnd": 1938,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91475",
+    "detail": "Orléans ville : registre n° 80, mai 1938-août 1939",
+    "yearStart": 1938,
+    "yearEnd": 1939,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91476",
+    "detail": "Orléans ville : registre n° 81, septembre 1939-juillet 1940",
+    "yearStart": 1939,
+    "yearEnd": 1940,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91508",
+    "detail": "Orléans campagne : registre n° 6, janvier 1939-septembre 1941",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91477",
+    "detail": "Orléans ville : registre n° 82, août 1940-septembre 1941",
+    "yearStart": 1940,
+    "yearEnd": 1941,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91478",
+    "detail": "Orléans ville : registre n° 83, octobre 1941-décembre 1942",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91509",
+    "detail": "Orléans campagne : registre n° 7, octobre 1941-mars 1944",
+    "yearStart": 1941,
+    "yearEnd": 1944,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91479",
+    "detail": "Orléans ville : registre n° 84, janvier 1943-mars 1944",
+    "yearStart": 1943,
+    "yearEnd": 1944,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91480",
+    "detail": "Orléans ville : registre n° 85, avril 1944-mai 1945",
+    "yearStart": 1944,
+    "yearEnd": 1945,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91510",
+    "detail": "Orléans campagne : registre n° 8, avril 1944-mars 1947",
+    "yearStart": 1944,
+    "yearEnd": 1947,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91481",
+    "detail": "Orléans ville : registre n° 86, juin 1945-décembre 1946",
+    "yearStart": 1945,
+    "yearEnd": 1946,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91482",
+    "detail": "Orléans ville : registre n° 87, janvier 1947-août 1948",
+    "yearStart": 1947,
+    "yearEnd": 1948,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91511",
+    "detail": "Orléans campagne : registre n° 9, avril 1947-décembre 1949",
+    "yearStart": 1947,
+    "yearEnd": 1949,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91483",
+    "detail": "Orléans ville : registre n° 88, septembre 1948-décembre 1949",
+    "yearStart": 1948,
+    "yearEnd": 1949,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91484",
+    "detail": "Orléans ville : registre n° 89, janvier-décembre 1950",
+    "yearStart": 1950,
+    "yearEnd": 1950,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91512",
+    "detail": "Orléans campagne : registre n° 10, janvier 1950-juin 1952",
+    "yearStart": 1950,
+    "yearEnd": 1952,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91485",
+    "detail": "Orléans ville : registre n° 90, janvier-décembre 1951",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91486",
+    "detail": "Orléans ville : registre n° 91, janvier-décembre 1952",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91513",
+    "detail": "Orléans campagne : registre n° 11, juillet 1952-décembre 1953",
+    "yearStart": 1952,
+    "yearEnd": 1953,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91487",
+    "detail": "Orléans ville : registre n° 92, janvier-décembre 1953",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91488",
+    "detail": "Orléans ville : registre n° 93, janvier-décembre 1954",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91514",
+    "detail": "Orléans campagne : registre n° 12, janvier 1954-mars 1955",
+    "yearStart": 1954,
+    "yearEnd": 1955,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91489",
+    "detail": "Orléans ville : registre n° 94, janvier-décembre 1955",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91515",
+    "detail": "Orléans campagne : registre n° 13, avril 1955-septembre 1956",
+    "yearStart": 1955,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91490",
+    "detail": "Orléans ville : registre n° 95, janvier-décembre 1956",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91516",
+    "detail": "Orléans campagne : registre n° 14, octobre 1956-décembre 1957",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91491",
+    "detail": "Orléans ville : registre n° 96, janvier-décembre 1957",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91492",
+    "detail": "Orléans ville : registre n° 97, janvier-décembre 1958",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91517",
+    "detail": "Orléans campagne : registre n° 15, janvier 1958-mars 1959",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91493",
+    "detail": "Orléans ville : registre n° 98, janvier--décembre 1959",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91518",
+    "detail": "Orléans campagne : registre n° 16, avril 1959-juin 1960",
+    "yearStart": 1959,
+    "yearEnd": 1960,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91494",
+    "detail": "Orléans ville : registre n° 99, janvier-décembre 1960",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91519",
+    "detail": "Orléans campagne : registre n° 17, juillet 1960-septembre 1961",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91495",
+    "detail": "Orléans ville : registre n° 100, janvier-décembre 1961",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91520",
+    "detail": "Orléans campagne : registre n° 18, octobre 1961-décembre 1962",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91496",
+    "detail": "Orléans ville : registre n° 101, janvier-décembre 1962",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91497",
+    "detail": "Orléans ville : registre n° 102, janvier-décembre 1963",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91521",
+    "detail": "Orléans campagne : registre n° 19, janvier-décembre 1963",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91498",
+    "detail": "Orléans ville : registre n° 103, janvier-janvier 1964",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91522",
+    "detail": "Orléans campagne : registre n° 20, janvier-décembre 1964",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91499",
+    "detail": "Orléans ville : registre n° 104, janvier-décembre 1965",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91523",
+    "detail": "Orléans campagne : registre n° 21, janvier-décembre 1965",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91500",
+    "detail": "Orléans ville : registre n° 105, janvier-décembre 1966",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91524",
+    "detail": "Orléans campagne : registre n° 22, janvier-décembre 1966",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91501",
+    "detail": "Orléans ville : registre n° 106, janvier-décembre 1967",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91525",
+    "detail": "Orléans campagne : registre n° 23, janvier-décembre 1967",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91502",
+    "detail": "Orléans ville : registre n° 107, janvier-décembre 1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Orléans",
+    "cote": "1101 W 91526",
+    "detail": "Orléans campagne : registre n° 24, janvier-décembre 1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Outarville",
@@ -1269,7 +3254,62 @@
     "detail": "Registre n° 12, environ 1884-1897",
     "yearStart": 1884,
     "yearEnd": 1897,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0a4865"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0a4865",
+    "digitized": true
+  },
+  {
+    "place": "Outarville",
+    "cote": "1115 W 97903 1",
+    "detail": "Registre sans n°, 1898-1913.",
+    "yearStart": 1898,
+    "yearEnd": 1913,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Outarville",
+    "cote": "1115 W 97903 2",
+    "detail": "Registre sans n°, 1914-1922",
+    "yearStart": 1914,
+    "yearEnd": 1922,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Outarville",
+    "cote": "1115 W 97903 3",
+    "detail": "Registre sans n°, 1922-1933",
+    "yearStart": 1922,
+    "yearEnd": 1933,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Outarville",
+    "cote": "1115 W 97903 4",
+    "detail": "Registre sans n°, 1934-1941",
+    "yearStart": 1934,
+    "yearEnd": 1941,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Outarville",
+    "cote": "1115 W 97903 5",
+    "detail": "Registre sans n°, 1942-1953",
+    "yearStart": 1942,
+    "yearEnd": 1953,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Outarville",
+    "cote": "1115 W 97903 6",
+    "detail": "Registre sans n°, 1954-1962",
+    "yearStart": 1954,
+    "yearEnd": 1962,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Ouzouer-sur-Loire",
@@ -1277,7 +3317,8 @@
     "detail": "Registre n° 8, environ 1831-1843. Registres 1 à 7 manquants.",
     "yearStart": 1831,
     "yearEnd": 1843,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0b9919"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0b9919",
+    "digitized": true
   },
   {
     "place": "Ouzouer-sur-Loire",
@@ -1285,7 +3326,8 @@
     "detail": "Registre n° 9, environ 1843-1857",
     "yearStart": 1843,
     "yearEnd": 1857,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0bcc18"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0bcc18",
+    "digitized": true
   },
   {
     "place": "Ouzouer-sur-Loire",
@@ -1293,7 +3335,8 @@
     "detail": "Registre n° 10, environ 1857-1876",
     "yearStart": 1857,
     "yearEnd": 1876,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0beffa"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0beffa",
+    "digitized": true
   },
   {
     "place": "Ouzouer-sur-Loire",
@@ -1301,7 +3344,17 @@
     "detail": "Registre n° 11, environ 1877-1903",
     "yearStart": 1877,
     "yearEnd": 1903,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0c3117"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0c3117",
+    "digitized": true
+  },
+  {
+    "place": "Ouzouer-sur-Loire",
+    "cote": "3 Q 44333",
+    "detail": "Registre n° 12, environ 1904-1908",
+    "yearStart": 1904,
+    "yearEnd": 1908,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Patay",
@@ -1309,7 +3362,8 @@
     "detail": "Registre n° 4, environ 1824-1841. Registre 1 à 3 manquants.",
     "yearStart": 1824,
     "yearEnd": 1841,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d439e48"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d439e48",
+    "digitized": true
   },
   {
     "place": "Patay",
@@ -1317,7 +3371,8 @@
     "detail": "Registre n° 5, environ 1842-1852",
     "yearStart": 1842,
     "yearEnd": 1852,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0c7f5d"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0c7f5d",
+    "digitized": true
   },
   {
     "place": "Patay",
@@ -1325,7 +3380,8 @@
     "detail": "Registre n° 6, environ 1854-1866",
     "yearStart": 1854,
     "yearEnd": 1866,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0caa21"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0caa21",
+    "digitized": true
   },
   {
     "place": "Patay",
@@ -1333,7 +3389,8 @@
     "detail": "Registre n° 7, environ 1864-1884",
     "yearStart": 1864,
     "yearEnd": 1884,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0cdc51"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0cdc51",
+    "digitized": true
   },
   {
     "place": "Patay",
@@ -1341,7 +3398,44 @@
     "detail": "Registre n° 8, environ 1885-1891",
     "yearStart": 1885,
     "yearEnd": 1891,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0d1899"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0d1899",
+    "digitized": true
+  },
+  {
+    "place": "Patay",
+    "cote": "1101 W 93559",
+    "detail": "Registre n° 9, décembre 1894-octobre 1907",
+    "yearStart": 1894,
+    "yearEnd": 1907,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Patay",
+    "cote": "1101 W 93560",
+    "detail": "Registre n° 10, juillet 1921-février 1926",
+    "yearStart": 1921,
+    "yearEnd": 1926,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Patay",
+    "cote": "1101 W 93561",
+    "detail": "Registre n° 11, 1923-1942",
+    "yearStart": 1923,
+    "yearEnd": 1942,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Patay",
+    "cote": "1101 W 93562",
+    "detail": "Registre n° 12, 1943-1948",
+    "yearStart": 1943,
+    "yearEnd": 1948,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Pithiviers",
@@ -1349,7 +3443,8 @@
     "detail": "Registre sans n°, environ 1831-1836",
     "yearStart": 1831,
     "yearEnd": 1836,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0e652f"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0e652f",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1357,7 +3452,8 @@
     "detail": "Registre sans n°, environ 1836-1842",
     "yearStart": 1836,
     "yearEnd": 1842,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0e9025"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0e9025",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1365,7 +3461,8 @@
     "detail": "Registre n° 4, environ 1843-1850",
     "yearStart": 1843,
     "yearEnd": 1850,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0ed498"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d0ed498",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1373,7 +3470,8 @@
     "detail": "Registre n° 5, environ 1851-1858",
     "yearStart": 1851,
     "yearEnd": 1858,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d100fad"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d100fad",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1381,7 +3479,8 @@
     "detail": "Registre n° 6, environ 1858-1863",
     "yearStart": 1858,
     "yearEnd": 1863,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d105166"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d105166",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1389,7 +3488,8 @@
     "detail": "Registre n° 7, environ 1864-1868",
     "yearStart": 1864,
     "yearEnd": 1868,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d10a390"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d10a390",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1397,7 +3497,8 @@
     "detail": "Registre n° 8, environ 1869-1875",
     "yearStart": 1869,
     "yearEnd": 1875,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d1139ee"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d1139ee",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1405,7 +3506,8 @@
     "detail": "Registre n° 9, environ 1875-1883",
     "yearStart": 1875,
     "yearEnd": 1883,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d12ceb6"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d12ceb6",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1413,7 +3515,8 @@
     "detail": "Registre n° 10, environ 1883-1890",
     "yearStart": 1883,
     "yearEnd": 1890,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d14c70c"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d14c70c",
+    "digitized": true
   },
   {
     "place": "Pithiviers",
@@ -1421,7 +3524,125 @@
     "detail": "Registre n° 11, environ 1891-1899",
     "yearStart": 1891,
     "yearEnd": 1899,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d43e482"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d43e482",
+    "digitized": true
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97002",
+    "detail": "Registre n° 12, 1900-1906",
+    "yearStart": 1900,
+    "yearEnd": 1906,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97003",
+    "detail": "Registre n° 13, 1907-1912",
+    "yearStart": 1907,
+    "yearEnd": 1912,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97004",
+    "detail": "Registre n° 14, 1913-1918",
+    "yearStart": 1913,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97005",
+    "detail": "Registre n° 15, 1919-1924",
+    "yearStart": 1919,
+    "yearEnd": 1924,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97006",
+    "detail": "Registre n° 16, 1925-1932",
+    "yearStart": 1925,
+    "yearEnd": 1932,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97007",
+    "detail": "Registre n° 17, 1932-1939",
+    "yearStart": 1932,
+    "yearEnd": 1939,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97008",
+    "detail": "Registre n° 18, 1940-1947",
+    "yearStart": 1940,
+    "yearEnd": 1947,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97009",
+    "detail": "Registre n° 19, 1947-1956",
+    "yearStart": 1947,
+    "yearEnd": 1956,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97010",
+    "detail": "Registre n° 20, 1957-1963",
+    "yearStart": 1957,
+    "yearEnd": 1963,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97903 7",
+    "detail": "Registre n° 1, 1962-1968. Correspond uniquement au secteur de Pithiviers.",
+    "yearStart": 1962,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 97678",
+    "detail": "Registre n° 2, 1963-1968. Correspond uniquement aux secteurs de Malesherbes, Outarville, Sermaises.",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 98050",
+    "detail": "Registre n° 3, 1963-1968. Correspond uniquement aux secteurs de Beaune-la-Rolande, Boiscommun, Nancray-sur-Rimarde et Puiseaux.",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Pithiviers",
+    "cote": "1115 W 98051",
+    "detail": "Registre n° 4, 1963-1968, surtout 1968. Correspond uniquement aux secteurs de Beaune-la-Rolande, Boiscommun, Nancray-sur-Rimarde et Puiseaux.",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Puiseaux",
@@ -1429,7 +3650,8 @@
     "detail": "Registre n° 6, environ 1843-1858. Registres 1 à 5 manquants.",
     "yearStart": 1843,
     "yearEnd": 1858,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d3edc99"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d3edc99",
+    "digitized": true
   },
   {
     "place": "Puiseaux",
@@ -1437,7 +3659,8 @@
     "detail": "Registre n° 7, environ 1858-1873",
     "yearStart": 1858,
     "yearEnd": 1873,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d4013b3"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d4013b3",
+    "digitized": true
   },
   {
     "place": "Puiseaux",
@@ -1445,7 +3668,35 @@
     "detail": "Registre n° 8, environ 1873-1892",
     "yearStart": 1873,
     "yearEnd": 1892,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d406223"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d406223",
+    "digitized": true
+  },
+  {
+    "place": "Puiseaux",
+    "cote": "3 Q 43078 4",
+    "detail": "Registre n° 9, environ 1892-1912",
+    "yearStart": 1892,
+    "yearEnd": 1912,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Puiseaux",
+    "cote": "1115 W 98048",
+    "detail": "Registre n° 10, 1913-1929.",
+    "yearStart": 1913,
+    "yearEnd": 1929,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Puiseaux",
+    "cote": "1115 W 98049",
+    "detail": "Registre n° 11, 1929-1942",
+    "yearStart": 1929,
+    "yearEnd": 1942,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   },
   {
     "place": "Sully-sur-Loire",
@@ -1453,7 +3704,8 @@
     "detail": "Registre n° 4, environ 1825-1846. Registres 1 à 3 manquants.",
     "yearStart": 1825,
     "yearEnd": 1846,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d42e191"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d42e191",
+    "digitized": true
   },
   {
     "place": "Sully-sur-Loire",
@@ -1461,7 +3713,8 @@
     "detail": "Registre n° 5, environ 1846-1860",
     "yearStart": 1846,
     "yearEnd": 1860,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d430b0e"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d430b0e",
+    "digitized": true
   },
   {
     "place": "Sully-sur-Loire",
@@ -1469,7 +3722,8 @@
     "detail": "Registre n° 6, environ 1859-1873",
     "yearStart": 1859,
     "yearEnd": 1873,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d415895"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d415895",
+    "digitized": true
   },
   {
     "place": "Sully-sur-Loire",
@@ -1477,6 +3731,61 @@
     "detail": "Registre n° 7, environ 1874-1892",
     "yearStart": 1874,
     "yearEnd": 1892,
-    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d419207"
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions?arko_default_617a4c4f3c3b4--ficheFocus=arko_fiche_617925d419207",
+    "digitized": true
+  },
+  {
+    "place": "Sully-sur-Loire",
+    "cote": "3 Q 44477",
+    "detail": "Registre n° 8 environ 1892-1911",
+    "yearStart": 1892,
+    "yearEnd": 1911,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Sully-sur-Loire",
+    "cote": "1130 W 102591",
+    "detail": "Registre n° 9, 1911-1918",
+    "yearStart": 1911,
+    "yearEnd": 1918,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Sully-sur-Loire",
+    "cote": "1130 W 102592",
+    "detail": "Registre n° 10, 1919-1928",
+    "yearStart": 1919,
+    "yearEnd": 1928,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Sully-sur-Loire",
+    "cote": "1130 W 102593",
+    "detail": "Registre n° 11, 1928-1937",
+    "yearStart": 1928,
+    "yearEnd": 1937,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Sully-sur-Loire",
+    "cote": "1130 W 102594",
+    "detail": "Registre n° 12, 1937-1947",
+    "yearStart": 1937,
+    "yearEnd": 1947,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
+  },
+  {
+    "place": "Sully-sur-Loire",
+    "cote": "1130 W 102595",
+    "detail": "Registre n° 13, 1948-1960",
+    "yearStart": 1948,
+    "yearEnd": 1960,
+    "url": "https://www.archives-loiret.fr/faire-vos-recherches/archives-numerisees/tables-de-successions",
+    "digitized": false
   }
 ]
