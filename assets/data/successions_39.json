@@ -1,0 +1,34 @@
+[
+  {
+    "place": "Arlay",
+    "cote": "2C282, 2 Cp 133 (Ancienne cote aux AD Jura)",
+    "yearStart": 1770,
+    "yearEnd": 1790,
+    "url": "https://archives39.fr/ark:/36595/70j2w1dzgs4n",
+    "digitized": true
+  },
+  {
+    "place": "Foncine",
+    "cote": "2C929, Qp 1780 (Ancienne cote aux AD Jura)",
+    "yearStart": 1790,
+    "yearEnd": 1810,
+    "url": "https://archives39.fr/ark:/36595/1j9d25srmtfg",
+    "digitized": true
+  },
+  {
+    "place": "Foncine",
+    "cote": "2C930, II C 673 (Ancienne cote aux AD Jura)",
+    "yearStart": 1736,
+    "yearEnd": 1760,
+    "url": "https://archives39.fr/ark:/36595/7j6zswc13lp4",
+    "digitized": true
+  },
+  {
+    "place": "Foncine",
+    "cote": "2C931, II C 674 (Ancienne cote aux AD Jura)",
+    "yearStart": 1740,
+    "yearEnd": 1789,
+    "url": "https://archives39.fr/ark:/36595/nqxls9tcr4gk",
+    "digitized": true
+  }
+]

@@ -254,11 +254,11 @@ export const MARRIAGE_DEPTS = {
     },
     '83': {
         label: 'Var',
-        // Bornes réelles de la série (329 registres scrapés sur les 100 premières pages du fonds
-        // - le portail plafonne l'accès à ~10 000 résultats bruts, voir
-        // scrape_contrats_mariage_arkotheque.py DEPARTMENTS['83']) : département débloqué après
-        // découverte de la nouvelle URL de recherche (l'ancienne, documentée dans le blocage
-        // "successions" de ce fichier, est un 404 depuis une refonte du site).
+        // Bornes réelles de la série (634 registres, 132 lieux, voir
+        // scrape_contrats_mariage_var_api.py) - même contournement du plafond de pagination que les
+        // successions (voir SUCCESSION_DEPTS['83'] dans successions.js) : dépouillé lettre par
+        // lettre via le champ "Commune" du widget plutôt qu'une recherche globale plafonnée à
+        // ~10 000 résultats bruts (portait la couverture initiale à 329 registres seulement).
         minYear: 1705,
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_83.json',
