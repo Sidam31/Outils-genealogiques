@@ -911,6 +911,20 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_57.json',
         catalogUrl: 'https://www.archives57.com/archive/fonds/FRAD057_archives57-inventaires-bis/view:448878/n:87',
     },
+    '14': {
+        label: 'Calvados',
+        kind: 'facet',
+        // Bornes réelles de la série (4776 registres, 33 lieux, voir
+        // scrape_successions_calvados.py) - nouveau département pour ce projet, portail au logiciel
+        // non identifié ailleurs (ni Ligeo, ni Anaphore, ni Nuxeo, ni Archinoë) mais mécanisme de
+        // recherche classique "search/results?q=...&facet_titleProper=..." - trouvé via recherche
+        // web. La plage couvre aussi la série antérieure "contrôle des actes" (avant 1791, mêlée à
+        // la même facette "Enregistrement : tables de successions et absences...").
+        minYear: 1752,
+        maxYear: 2005,
+        registersUrl: './assets/data/successions_14.json',
+        catalogUrl: 'https://archives.calvados.fr/search/results?q=tables+successions+et+absences&scope=all&mode=table',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
