@@ -803,6 +803,30 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_83.json',
         catalogUrl: 'https://archives.var.fr/recherche/rechercher-dans-les-archives-numerisees-et-les-inventaires/controle-des-actes-et-enregistrement',
     },
+    '32': {
+        label: 'Gers',
+        kind: 'facet',
+        // Bornes réelles de la série (291 registres, 27 bureaux, voir scrape_successions_gers.py) -
+        // nouveau département pour ce projet, outil de recherche maison (pas un des logiciels
+        // vendeurs déjà vus ailleurs). Tous les registres portent un lien vers une visionneuse
+        // (aucune ligne sans "digitized" constatée) - pas de repli catalogue nécessaire.
+        minYear: 1820,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_32.json',
+        catalogUrl: 'https://www.archives32.fr/archives_numerisees/portail/successions_absences/recherche/',
+    },
+    '54': {
+        label: 'Meurthe-et-Moselle',
+        kind: 'facet',
+        // Bornes réelles de la série (5741 registres, 557 communes, voir
+        // scrape_successions_arkotheque.py, DEPARTMENTS['54']) - portail Arkothèque, nouveau
+        // département pour ce projet. Le champ "commune" donne directement la commune exacte (pas
+        // juste le bureau), correspondance plus précise que la plupart des autres départements.
+        minYear: 1844,
+        maxYear: 1945,
+        registersUrl: './assets/data/successions_54.json',
+        catalogUrl: 'https://archivesenligne.meurthe-et-moselle.fr/archives-en-ligne/tables-de-successions-et-absences',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

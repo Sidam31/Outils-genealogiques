@@ -1,0 +1,2330 @@
+[
+  {
+    "place": "Aignan",
+    "cote": "Q 40867",
+    "yearStart": 1844,
+    "yearEnd": 1864,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=155&fichier=20037&lieu=Aignan&annee=1844",
+    "digitized": true
+  },
+  {
+    "place": "Aignan",
+    "cote": "Q 40868",
+    "yearStart": 1864,
+    "yearEnd": 1879,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=154&fichier=20036&lieu=Aignan&annee=1864",
+    "digitized": true
+  },
+  {
+    "place": "Aignan",
+    "cote": "Q 40869",
+    "yearStart": 1879,
+    "yearEnd": 1898,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=153&fichier=20035&lieu=Aignan&annee=1879",
+    "digitized": true
+  },
+  {
+    "place": "Aignan",
+    "cote": "Q 40870",
+    "yearStart": 1898,
+    "yearEnd": 1923,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=152&fichier=20034&lieu=Aignan&annee=1898",
+    "digitized": true
+  },
+  {
+    "place": "Aignan",
+    "cote": "Q 42096",
+    "yearStart": 1927,
+    "yearEnd": 1937,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=137&fichier=20019&lieu=Aignan&annee=1927",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 9",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=292&fichier=20174&lieu=Auch&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 10",
+    "yearStart": 1831,
+    "yearEnd": 1836,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=291&fichier=20173&lieu=Auch&annee=1831",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 11",
+    "yearStart": 1837,
+    "yearEnd": 1840,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=290&fichier=20172&lieu=Auch&annee=1837",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 12",
+    "yearStart": 1841,
+    "yearEnd": 1844,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=289&fichier=20171&lieu=Auch&annee=1841",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 13",
+    "yearStart": 1845,
+    "yearEnd": 1848,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=288&fichier=20170&lieu=Auch&annee=1845",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 14",
+    "yearStart": 1849,
+    "yearEnd": 1853,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=287&fichier=20169&lieu=Auch&annee=1849",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 15",
+    "yearStart": 1853,
+    "yearEnd": 1856,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=286&fichier=20168&lieu=Auch&annee=1853",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 16",
+    "yearStart": 1857,
+    "yearEnd": 1860,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=285&fichier=20167&lieu=Auch&annee=1857",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "9Q 17",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=208&fichier=20090&lieu=Auch&annee=1861",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 10130",
+    "yearStart": 1866,
+    "yearEnd": 1870,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=207&fichier=20089&lieu=Auch&annee=1866",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 10131",
+    "yearStart": 1870,
+    "yearEnd": 1874,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=206&fichier=20088&lieu=Auch&annee=1870",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 10132",
+    "yearStart": 1874,
+    "yearEnd": 1880,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=205&fichier=20087&lieu=Auch&annee=1874",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 10133",
+    "yearStart": 1880,
+    "yearEnd": 1885,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=204&fichier=20086&lieu=Auch&annee=1880",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 34555",
+    "yearStart": 1885,
+    "yearEnd": 1891,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=166&fichier=20048&lieu=Auch&annee=1885",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 34556",
+    "yearStart": 1891,
+    "yearEnd": 1896,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=165&fichier=20047&lieu=Auch&annee=1891",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43271",
+    "yearStart": 1897,
+    "yearEnd": 1903,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=109&fichier=17788&lieu=Auch&annee=1897",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43272",
+    "yearStart": 1903,
+    "yearEnd": 1909,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=108&fichier=17583&lieu=Auch&annee=1903",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43273",
+    "yearStart": 1910,
+    "yearEnd": 1914,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=107&fichier=17376&lieu=Auch&annee=1910",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43274",
+    "yearStart": 1914,
+    "yearEnd": 1918,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=106&fichier=17170&lieu=Auch&annee=1914",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43275",
+    "yearStart": 1918,
+    "yearEnd": 1921,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=105&fichier=16961&lieu=Auch&annee=1918",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43276",
+    "yearStart": 1921,
+    "yearEnd": 1925,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=104&fichier=16761&lieu=Auch&annee=1921",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43277",
+    "yearStart": 1925,
+    "yearEnd": 1929,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=103&fichier=16563&lieu=Auch&annee=1925",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43278",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=102&fichier=16358&lieu=Auch&annee=1930",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43279",
+    "yearStart": 1934,
+    "yearEnd": 1939,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=101&fichier=16156&lieu=Auch&annee=1934",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43280",
+    "yearStart": 1939,
+    "yearEnd": 1942,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=100&fichier=15967&lieu=Auch&annee=1939",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43281",
+    "yearStart": 1943,
+    "yearEnd": 1946,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=99&fichier=15754&lieu=Auch&annee=1943",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43282",
+    "yearStart": 1946,
+    "yearEnd": 1951,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=98&fichier=15542&lieu=Auch&annee=1946",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43283",
+    "yearStart": 1951,
+    "yearEnd": 1954,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=97&fichier=15359&lieu=Auch&annee=1951",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43284",
+    "yearStart": 1955,
+    "yearEnd": 1956,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=96&fichier=15270&lieu=Auch&annee=1955",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43286",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=94&fichier=15039&lieu=Auch&annee=1956",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43285",
+    "yearStart": 1957,
+    "yearEnd": 1958,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=95&fichier=15157&lieu=Auch&annee=1957",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43287",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=93&fichier=14949&lieu=Auch&annee=1959",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43288",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=92&fichier=14830&lieu=Auch&annee=1960",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43289",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=91&fichier=14742&lieu=Auch&annee=1961",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43290",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=90&fichier=14654&lieu=Auch&annee=1962",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43291",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=89&fichier=14555&lieu=Auch&annee=1963",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43292",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=88&fichier=14368&lieu=Auch&annee=1964",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43293",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=87&fichier=14153&lieu=Auch&annee=1965",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43294",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=86&fichier=14009&lieu=Auch&annee=1967",
+    "digitized": true
+  },
+  {
+    "place": "Auch",
+    "cote": "Q 43295",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=85&fichier=13859&lieu=Auch&annee=1968",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "328Q 1",
+    "yearStart": 1825,
+    "yearEnd": 1828,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=281&fichier=20163&lieu=Cazaubon&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 35051",
+    "yearStart": 1834,
+    "yearEnd": 1841,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=219&fichier=20101&lieu=Cazaubon&annee=1834",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 35052",
+    "yearStart": 1842,
+    "yearEnd": 1851,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=218&fichier=20100&lieu=Cazaubon&annee=1842",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 45665",
+    "yearStart": 1847,
+    "yearEnd": 1864,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=36&fichier=5870&lieu=Cazaubon&annee=1847",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 35053",
+    "yearStart": 1851,
+    "yearEnd": 1864,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=160&fichier=20042&lieu=Cazaubon&annee=1851",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 35054",
+    "yearStart": 1864,
+    "yearEnd": 1877,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=159&fichier=20041&lieu=Cazaubon&annee=1864",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 45666",
+    "yearStart": 1876,
+    "yearEnd": 1898,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=35&fichier=5677&lieu=Cazaubon&annee=1876",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 45667",
+    "yearStart": 1898,
+    "yearEnd": 1920,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=34&fichier=5484&lieu=Cazaubon&annee=1898",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 45668",
+    "yearStart": 1921,
+    "yearEnd": 1936,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=33&fichier=5302&lieu=Cazaubon&annee=1921",
+    "digitized": true
+  },
+  {
+    "place": "Cazaubon",
+    "cote": "Q 45669",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=32&fichier=5218&lieu=Cazaubon&annee=1937",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "334Q 2",
+    "yearStart": 1831,
+    "yearEnd": 1833,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=280&fichier=20162&lieu=Condom&annee=1831",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "339Q 1",
+    "yearStart": 1832,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=278&fichier=20160&lieu=Condom&annee=1832",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "334Q 3",
+    "yearStart": 1833,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=279&fichier=20161&lieu=Condom&annee=1833",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 34869",
+    "yearStart": 1835,
+    "yearEnd": 1842,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=225&fichier=20107&lieu=Condom&annee=1835",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 34870",
+    "yearStart": 1842,
+    "yearEnd": 1849,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=224&fichier=20106&lieu=Condom&annee=1842",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 34871",
+    "yearStart": 1849,
+    "yearEnd": 1857,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=223&fichier=20105&lieu=Condom&annee=1849",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45831",
+    "yearStart": 1868,
+    "yearEnd": 1873,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=31&fichier=5097&lieu=Condom&annee=1868",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45832",
+    "yearStart": 1873,
+    "yearEnd": 1880,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=30&fichier=4963&lieu=Condom&annee=1873",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45833",
+    "yearStart": 1880,
+    "yearEnd": 1888,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=29&fichier=4842&lieu=Condom&annee=1880",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45834",
+    "yearStart": 1888,
+    "yearEnd": 1896,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=28&fichier=4717&lieu=Condom&annee=1888",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45835",
+    "yearStart": 1896,
+    "yearEnd": 1911,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=27&fichier=4535&lieu=Condom&annee=1896",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45836",
+    "yearStart": 1911,
+    "yearEnd": 1921,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=26&fichier=4383&lieu=Condom&annee=1911",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45837",
+    "yearStart": 1922,
+    "yearEnd": 1932,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=25&fichier=4195&lieu=Condom&annee=1922",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45838",
+    "yearStart": 1932,
+    "yearEnd": 1941,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=24&fichier=4007&lieu=Condom&annee=1932",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45839",
+    "yearStart": 1942,
+    "yearEnd": 1950,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=23&fichier=3816&lieu=Condom&annee=1942",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45840",
+    "yearStart": 1950,
+    "yearEnd": 1957,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=22&fichier=3615&lieu=Condom&annee=1950",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45841",
+    "yearStart": 1957,
+    "yearEnd": 1965,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=21&fichier=3419&lieu=Condom&annee=1957",
+    "digitized": true
+  },
+  {
+    "place": "Condom",
+    "cote": "Q 45842",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=20&fichier=3235&lieu=Condom&annee=1965",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "347Q 1",
+    "yearStart": 1824,
+    "yearEnd": 1833,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=277&fichier=20159&lieu=Eauze&annee=1824",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 35014",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=221&fichier=20103&lieu=Eauze&annee=1839",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 35015",
+    "yearStart": 1850,
+    "yearEnd": 1857,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=220&fichier=20102&lieu=Eauze&annee=1850",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 35016",
+    "yearStart": 1858,
+    "yearEnd": 1868,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=164&fichier=20046&lieu=Eauze&annee=1858",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 35018",
+    "yearStart": 1869,
+    "yearEnd": 1878,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=163&fichier=20045&lieu=Eauze&annee=1869",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46315",
+    "yearStart": 1879,
+    "yearEnd": 1893,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=19&fichier=3066&lieu=Eauze&annee=1879",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 35020",
+    "yearStart": 1894,
+    "yearEnd": 1911,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=162&fichier=20044&lieu=Eauze&annee=1894",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 35021",
+    "yearStart": 1912,
+    "yearEnd": 1919,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=161&fichier=20043&lieu=Eauze&annee=1912",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46316",
+    "yearStart": 1919,
+    "yearEnd": 1928,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=18&fichier=2862&lieu=Eauze&annee=1919",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46317",
+    "yearStart": 1929,
+    "yearEnd": 1937,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=17&fichier=2673&lieu=Eauze&annee=1929",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46318",
+    "yearStart": 1938,
+    "yearEnd": 1946,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=16&fichier=2435&lieu=Eauze&annee=1938",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46319",
+    "yearStart": 1946,
+    "yearEnd": 1953,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=15&fichier=2154&lieu=Eauze&annee=1946",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46320",
+    "yearStart": 1954,
+    "yearEnd": 1962,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=14&fichier=1836&lieu=Eauze&annee=1954",
+    "digitized": true
+  },
+  {
+    "place": "Eauze",
+    "cote": "Q 46321",
+    "yearStart": 1962,
+    "yearEnd": 1966,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=13&fichier=1675&lieu=Eauze&annee=1962",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33577",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=237&fichier=20119&lieu=Fleurance&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33560",
+    "yearStart": 1838,
+    "yearEnd": 1849,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=239&fichier=20121&lieu=Fleurance&annee=1838",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33561",
+    "yearStart": 1849,
+    "yearEnd": 1858,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=238&fichier=20120&lieu=Fleurance&annee=1849",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33562",
+    "yearStart": 1858,
+    "yearEnd": 1864,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=183&fichier=20065&lieu=Fleurance&annee=1858",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33563",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=182&fichier=20064&lieu=Fleurance&annee=1864",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33564",
+    "yearStart": 1872,
+    "yearEnd": 1884,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=181&fichier=20063&lieu=Fleurance&annee=1872",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 33565",
+    "yearStart": 1885,
+    "yearEnd": 1899,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=180&fichier=20062&lieu=Fleurance&annee=1885",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 44126",
+    "yearStart": 1900,
+    "yearEnd": 1918,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=84&fichier=13663&lieu=Fleurance&annee=1900",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 44127",
+    "yearStart": 1918,
+    "yearEnd": 1930,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=83&fichier=13471&lieu=Fleurance&annee=1918",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 44128",
+    "yearStart": 1931,
+    "yearEnd": 1943,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=82&fichier=13279&lieu=Fleurance&annee=1931",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 44129",
+    "yearStart": 1943,
+    "yearEnd": 1952,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=81&fichier=13120&lieu=Fleurance&annee=1943",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 44130",
+    "yearStart": 1953,
+    "yearEnd": 1960,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=80&fichier=12961&lieu=Fleurance&annee=1953",
+    "digitized": true
+  },
+  {
+    "place": "Fleurance",
+    "cote": "Q 44131",
+    "yearStart": 1961,
+    "yearEnd": 1963,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=79&fichier=12889&lieu=Fleurance&annee=1961",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 11599",
+    "yearStart": 1828,
+    "yearEnd": 1841,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=253&fichier=20135&lieu=Gimont&annee=1828",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 11600",
+    "yearStart": 1841,
+    "yearEnd": 1852,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=252&fichier=20134&lieu=Gimont&annee=1841",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 33171",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=189&fichier=20071&lieu=Gimont&annee=1852",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 33143",
+    "yearStart": 1865,
+    "yearEnd": 1872,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=192&fichier=20074&lieu=Gimont&annee=1865",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 33144",
+    "yearStart": 1872,
+    "yearEnd": 1882,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=191&fichier=20073&lieu=Gimont&annee=1872",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 33145",
+    "yearStart": 1881,
+    "yearEnd": 1901,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=190&fichier=20072&lieu=Gimont&annee=1881",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 44326",
+    "yearStart": 1902,
+    "yearEnd": 1921,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=78&fichier=12697&lieu=Gimont&annee=1902",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 44327",
+    "yearStart": 1922,
+    "yearEnd": 1935,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=77&fichier=12492&lieu=Gimont&annee=1922",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 44328",
+    "yearStart": 1936,
+    "yearEnd": 1948,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=76&fichier=12291&lieu=Gimont&annee=1936",
+    "digitized": true
+  },
+  {
+    "place": "Gimont",
+    "cote": "Q 44329",
+    "yearStart": 1949,
+    "yearEnd": 1955,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=75&fichier=12202&lieu=Gimont&annee=1949",
+    "digitized": true
+  },
+  {
+    "place": "Jegun",
+    "cote": "42Q 1",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=284&fichier=20166&lieu=Jégun&annee=1824",
+    "digitized": true
+  },
+  {
+    "place": "Jegun",
+    "cote": "42Q 2",
+    "yearStart": 1825,
+    "yearEnd": 1839,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=283&fichier=20165&lieu=Jégun&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Jegun",
+    "cote": "42Q 3",
+    "yearStart": 1839,
+    "yearEnd": 1856,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=282&fichier=20164&lieu=Jégun&annee=1839",
+    "digitized": true
+  },
+  {
+    "place": "Jegun",
+    "cote": "Q 10300",
+    "yearStart": 1856,
+    "yearEnd": 1870,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=201&fichier=20083&lieu=Jegun&annee=1856",
+    "digitized": true
+  },
+  {
+    "place": "Jegun",
+    "cote": "Q 33288",
+    "yearStart": 1870,
+    "yearEnd": 1894,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=186&fichier=20068&lieu=Jegun&annee=1870",
+    "digitized": true
+  },
+  {
+    "place": "Jegun",
+    "cote": "Q 44691",
+    "yearStart": 1899,
+    "yearEnd": 1908,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=67&fichier=10737&lieu=Jegun&annee=1899",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 10901",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=259&fichier=20141&lieu=L'Isle-Jourdain&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 10902",
+    "yearStart": 1835,
+    "yearEnd": 1842,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=258&fichier=20140&lieu=L'Isle-Jourdain&annee=1835",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 10903",
+    "yearStart": 1843,
+    "yearEnd": 1850,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=257&fichier=20139&lieu=L'Isle-Jourdain&annee=1843",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 32987",
+    "yearStart": 1849,
+    "yearEnd": 1857,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=241&fichier=20123&lieu=L'Isle-Jourdain&annee=1849",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 32988",
+    "yearStart": 1857,
+    "yearEnd": 1863,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=197&fichier=20079&lieu=L'Isle-Jourdain&annee=1857",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 32989",
+    "yearStart": 1864,
+    "yearEnd": 1870,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=196&fichier=20078&lieu=L'Isle-Jourdain&annee=1864",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 32990",
+    "yearStart": 1870,
+    "yearEnd": 1878,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=195&fichier=20077&lieu=L'Isle-Jourdain&annee=1870",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 32991",
+    "yearStart": 1878,
+    "yearEnd": 1887,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=194&fichier=20076&lieu=L'Isle-Jourdain&annee=1878",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 32992",
+    "yearStart": 1887,
+    "yearEnd": 1897,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=193&fichier=20075&lieu=L'Isle-Jourdain&annee=1887",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44471",
+    "yearStart": 1899,
+    "yearEnd": 1909,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=74&fichier=12021&lieu=L'Isle-Jourdain&annee=1899",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44472",
+    "yearStart": 1910,
+    "yearEnd": 1919,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=73&fichier=11822&lieu=L'Isle-Jourdain&annee=1910",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44473",
+    "yearStart": 1920,
+    "yearEnd": 1931,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=72&fichier=11619&lieu=L'Isle-Jourdain&annee=1920",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44474",
+    "yearStart": 1931,
+    "yearEnd": 1943,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=71&fichier=11430&lieu=L'Isle-Jourdain&annee=1931",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44475",
+    "yearStart": 1944,
+    "yearEnd": 1956,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=70&fichier=11229&lieu=L'Isle-Jourdain&annee=1944",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44476",
+    "yearStart": 1957,
+    "yearEnd": 1962,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=69&fichier=11027&lieu=L'Isle-Jourdain&annee=1957",
+    "digitized": true
+  },
+  {
+    "place": "L'Isle-Jourdain",
+    "cote": "Q 44477",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=68&fichier=10824&lieu=L'Isle-Jourdain&annee=1963",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "386Q 1",
+    "yearStart": 1820,
+    "yearEnd": 1826,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=276&fichier=20158&lieu=Lectoure&annee=1820",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "386Q 2",
+    "yearStart": 1826,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=275&fichier=20157&lieu=Lectoure&annee=1826",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 33877",
+    "yearStart": 1835,
+    "yearEnd": 1843,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=234&fichier=20116&lieu=Lectoure&annee=1835",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 33851",
+    "yearStart": 1843,
+    "yearEnd": 1850,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=236&fichier=20118&lieu=Lectoure&annee=1843",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 33852",
+    "yearStart": 1850,
+    "yearEnd": 1856,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=235&fichier=20117&lieu=Lectoure&annee=1850",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 33853",
+    "yearStart": 1856,
+    "yearEnd": 1864,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=179&fichier=20061&lieu=Lectoure&annee=1856",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 33854",
+    "yearStart": 1864,
+    "yearEnd": 1872,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=178&fichier=20060&lieu=Lectoure&annee=1864",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 33855",
+    "yearStart": 1873,
+    "yearEnd": 1885,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=177&fichier=20059&lieu=Lectoure&annee=1873",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 44716",
+    "yearStart": 1888,
+    "yearEnd": 1900,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=66&fichier=10547&lieu=Lectoure&annee=1888",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 44717",
+    "yearStart": 1901,
+    "yearEnd": 1919,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=65&fichier=10349&lieu=Lectoure&annee=1901",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 44718",
+    "yearStart": 1920,
+    "yearEnd": 1934,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=64&fichier=10148&lieu=Lectoure&annee=1920",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 44719",
+    "yearStart": 1935,
+    "yearEnd": 1945,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=63&fichier=9957&lieu=Lectoure&annee=1935",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 44720",
+    "yearStart": 1946,
+    "yearEnd": 1961,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=62&fichier=9759&lieu=Lectoure&annee=1946",
+    "digitized": true
+  },
+  {
+    "place": "Lectoure",
+    "cote": "Q 44721",
+    "yearStart": 1962,
+    "yearEnd": 1964,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=61&fichier=9699&lieu=Lectoure&annee=1962",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 16607",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=249&fichier=20131&lieu=Lombez&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 16608",
+    "yearStart": 1834,
+    "yearEnd": 1840,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=248&fichier=20130&lieu=Lombez&annee=1834",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 16609",
+    "yearStart": 1840,
+    "yearEnd": 1847,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=247&fichier=20129&lieu=Lombez&annee=1840",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 16610",
+    "yearStart": 1848,
+    "yearEnd": 1852,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=246&fichier=20128&lieu=Lombez&annee=1848",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34209",
+    "yearStart": 1852,
+    "yearEnd": 1857,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=231&fichier=20113&lieu=Lombez&annee=1852",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34210",
+    "yearStart": 1858,
+    "yearEnd": 1863,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=174&fichier=20056&lieu=Lombez&annee=1858",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34211",
+    "yearStart": 1863,
+    "yearEnd": 1868,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=173&fichier=20055&lieu=Lombez&annee=1863",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34212",
+    "yearStart": 1869,
+    "yearEnd": 1874,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=172&fichier=20054&lieu=Lombez&annee=1869",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34213",
+    "yearStart": 1875,
+    "yearEnd": 1880,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=171&fichier=20053&lieu=Lombez&annee=1875",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34214",
+    "yearStart": 1881,
+    "yearEnd": 1889,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=170&fichier=20052&lieu=Lombez&annee=1881",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 34215",
+    "yearStart": 1890,
+    "yearEnd": 1895,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=169&fichier=20051&lieu=Lombez&annee=1890",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44892",
+    "yearStart": 1896,
+    "yearEnd": 1905,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=60&fichier=9518&lieu=Lombez&annee=1896",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44893",
+    "yearStart": 1906,
+    "yearEnd": 1913,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=59&fichier=9333&lieu=Lombez&annee=1906",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44894",
+    "yearStart": 1913,
+    "yearEnd": 1924,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=58&fichier=9146&lieu=Lombez&annee=1913",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44895",
+    "yearStart": 1924,
+    "yearEnd": 1935,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=57&fichier=8940&lieu=Lombez&annee=1924",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44896",
+    "yearStart": 1936,
+    "yearEnd": 1946,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=56&fichier=8728&lieu=Lombez&annee=1936",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44897",
+    "yearStart": 1947,
+    "yearEnd": 1959,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=55&fichier=8532&lieu=Lombez&annee=1947",
+    "digitized": true
+  },
+  {
+    "place": "Lombez",
+    "cote": "Q 44898",
+    "yearStart": 1960,
+    "yearEnd": 1966,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=54&fichier=8442&lieu=Lombez&annee=1960",
+    "digitized": true
+  },
+  {
+    "place": "Marciac",
+    "cote": "Q 10618",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=266&fichier=20148&lieu=Marciac&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Marciac",
+    "cote": "Q 10619",
+    "yearStart": 1836,
+    "yearEnd": 1847,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=265&fichier=20147&lieu=Marciac&annee=1836",
+    "digitized": true
+  },
+  {
+    "place": "Marciac",
+    "cote": "Q 41028",
+    "yearStart": 1892,
+    "yearEnd": 1909,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=151&fichier=20033&lieu=Marciac&annee=1892",
+    "digitized": true
+  },
+  {
+    "place": "Marciac",
+    "cote": "Q 42154",
+    "yearStart": 1910,
+    "yearEnd": 1917,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=136&fichier=20018&lieu=Marciac&annee=1910",
+    "digitized": true
+  },
+  {
+    "place": "Marciac",
+    "cote": "Q 42155",
+    "yearStart": 1917,
+    "yearEnd": 1931,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=135&fichier=20017&lieu=Marciac&annee=1917",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "491Q 1",
+    "yearStart": 1823,
+    "yearEnd": 1838,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=270&fichier=20152&lieu=Masseube&annee=1823",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "491Q 2",
+    "yearStart": 1838,
+    "yearEnd": 1848,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=269&fichier=20151&lieu=Masseube&annee=1838",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "491Q 3",
+    "yearStart": 1844,
+    "yearEnd": 1855,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=268&fichier=20150&lieu=Masseube&annee=1844",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "491Q 4",
+    "yearStart": 1846,
+    "yearEnd": 1860,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=267&fichier=20149&lieu=Masseube&annee=1846",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "Q 10219",
+    "yearStart": 1861,
+    "yearEnd": 1873,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=203&fichier=20085&lieu=Masseube&annee=1861",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "Q 10220",
+    "yearStart": 1873,
+    "yearEnd": 1887,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=202&fichier=20084&lieu=Masseube&annee=1873",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "Q 45094",
+    "yearStart": 1887,
+    "yearEnd": 1901,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=53&fichier=8303&lieu=Masseube&annee=1887",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "Q 45095",
+    "yearStart": 1901,
+    "yearEnd": 1920,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=52&fichier=8147&lieu=Masseube&annee=1901",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "Q 45096",
+    "yearStart": 1920,
+    "yearEnd": 1937,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=51&fichier=7982&lieu=Masseube&annee=1920",
+    "digitized": true
+  },
+  {
+    "place": "Masseube",
+    "cote": "Q 45097",
+    "yearStart": 1938,
+    "yearEnd": 1942,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=50&fichier=7940&lieu=Masseube&annee=1938",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q  34366",
+    "yearStart": 1832,
+    "yearEnd": 1844,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=230&fichier=20112&lieu=Mauvezin&annee=1832",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q 34367",
+    "yearStart": 1844,
+    "yearEnd": 1856,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=229&fichier=20111&lieu=Mauvezin&annee=1844",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q  34368",
+    "yearStart": 1857,
+    "yearEnd": 1869,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=168&fichier=20050&lieu=Mauvezin&annee=1857",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q  34369",
+    "yearStart": 1869,
+    "yearEnd": 1881,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=167&fichier=20049&lieu=Mauvezin&annee=1869",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q  45177",
+    "yearStart": 1882,
+    "yearEnd": 1903,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=49&fichier=7764&lieu=Mauvezin&annee=1882",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q 45178",
+    "yearStart": 1904,
+    "yearEnd": 1931,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=48&fichier=7576&lieu=Mauvezin&annee=1904",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q  45179",
+    "yearStart": 1932,
+    "yearEnd": 1952,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=47&fichier=7418&lieu=Mauvezin&annee=1932",
+    "digitized": true
+  },
+  {
+    "place": "Mauvezin",
+    "cote": "Q  45180",
+    "yearStart": 1953,
+    "yearEnd": 1960,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=46&fichier=7319&lieu=Mauvezin&annee=1953",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q  10572",
+    "yearStart": 1830,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=211&fichier=20093&lieu=Miélan&annee=1830",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q  10573",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=210&fichier=20092&lieu=Miélan&annee=1834",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q  19374",
+    "yearStart": 1844,
+    "yearEnd": 1852,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=209&fichier=20091&lieu=Miélan&annee=1844",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 41095",
+    "yearStart": 1851,
+    "yearEnd": 1853,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=215&fichier=20097&lieu=Miélan&annee=1851",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 42092",
+    "yearStart": 1894,
+    "yearEnd": 1915,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=138&fichier=20020&lieu=Miélan&annee=1894",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 42277",
+    "yearStart": 1915,
+    "yearEnd": 1921,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=132&fichier=20014&lieu=Miélan&annee=1915",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 42278",
+    "yearStart": 1923,
+    "yearEnd": 1936,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=131&fichier=20013&lieu=Miélan&annee=1923",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 42279",
+    "yearStart": 1937,
+    "yearEnd": 1948,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=130&fichier=20012&lieu=Miélan&annee=1937",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 42280",
+    "yearStart": 1949,
+    "yearEnd": 1957,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=129&fichier=20011&lieu=Miélan&annee=1949",
+    "digitized": true
+  },
+  {
+    "place": "Miélan",
+    "cote": "Q 42281",
+    "yearStart": 1957,
+    "yearEnd": 1959,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=128&fichier=20010&lieu=Miélan&annee=1957",
+    "digitized": true
+  },
+  {
+    "place": "Miradoux",
+    "cote": "414Q 1",
+    "yearStart": 1824,
+    "yearEnd": 1832,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=274&fichier=20156&lieu=Miradoux&annee=1824",
+    "digitized": true
+  },
+  {
+    "place": "Miradoux",
+    "cote": "414Q 2",
+    "yearStart": 1832,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=273&fichier=20155&lieu=Miradoux&annee=1832",
+    "digitized": true
+  },
+  {
+    "place": "Miradoux",
+    "cote": "Q 33388",
+    "yearStart": 1842,
+    "yearEnd": 1846,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=240&fichier=20122&lieu=Miradoux&annee=1842",
+    "digitized": true
+  },
+  {
+    "place": "Miradoux",
+    "cote": "Q 33389",
+    "yearStart": 1847,
+    "yearEnd": 1865,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=185&fichier=20067&lieu=Miradoux&annee=1847",
+    "digitized": true
+  },
+  {
+    "place": "Miradoux",
+    "cote": "Q 33390",
+    "yearStart": 1865,
+    "yearEnd": 1887,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=184&fichier=20066&lieu=Miradoux&annee=1865",
+    "digitized": true
+  },
+  {
+    "place": "Miradoux",
+    "cote": "Q 45254",
+    "yearStart": 1889,
+    "yearEnd": 1933,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=45&fichier=7105&lieu=Miradoux&annee=1889",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 19279",
+    "yearStart": 1823,
+    "yearEnd": 1831,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=245&fichier=20127&lieu=Mirande&annee=1823",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 19280",
+    "yearStart": 1832,
+    "yearEnd": 1838,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=244&fichier=20126&lieu=Mirande&annee=1832",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 19281",
+    "yearStart": 1838,
+    "yearEnd": 1841,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=243&fichier=20125&lieu=Mirande&annee=1838",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 19282",
+    "yearStart": 1842,
+    "yearEnd": 1850,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=242&fichier=20124&lieu=Mirande&annee=1842",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 41345",
+    "yearStart": 1888,
+    "yearEnd": 1894,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=150&fichier=20032&lieu=Mirande&annee=1888",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 41346",
+    "yearStart": 1896,
+    "yearEnd": 1905,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=149&fichier=20031&lieu=Mirande&annee=1896",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42777",
+    "yearStart": 1905,
+    "yearEnd": 1912,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=118&fichier=19530&lieu=Mirande&annee=1905",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42778",
+    "yearStart": 1912,
+    "yearEnd": 1921,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=117&fichier=19361&lieu=Mirande&annee=1912",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42779",
+    "yearStart": 1921,
+    "yearEnd": 1930,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=116&fichier=19166&lieu=Mirande&annee=1921",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42780",
+    "yearStart": 1930,
+    "yearEnd": 1939,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=115&fichier=18990&lieu=Mirande&annee=1930",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42953",
+    "yearStart": 1939,
+    "yearEnd": 1949,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=114&fichier=18810&lieu=Mirande&annee=1939",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42954",
+    "yearStart": 1949,
+    "yearEnd": 1951,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=113&fichier=18734&lieu=Mirande&annee=1949",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42955",
+    "yearStart": 1953,
+    "yearEnd": 1959,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=112&fichier=18512&lieu=Mirande&annee=1953",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42956",
+    "yearStart": 1960,
+    "yearEnd": 1963,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=111&fichier=18173&lieu=Mirande&annee=1960",
+    "digitized": true
+  },
+  {
+    "place": "Mirande",
+    "cote": "Q 42957",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=110&fichier=17989&lieu=Mirande&annee=1965",
+    "digitized": true
+  },
+  {
+    "place": "Montesquiou",
+    "cote": "Q 41585",
+    "yearStart": 1839,
+    "yearEnd": 1851,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=214&fichier=20096&lieu=Montesquiou&annee=1839",
+    "digitized": true
+  },
+  {
+    "place": "Montesquiou",
+    "cote": "Q 41587",
+    "yearStart": 1852,
+    "yearEnd": 1861,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=147&fichier=20029&lieu=Montesquiou&annee=1852",
+    "digitized": true
+  },
+  {
+    "place": "Montesquiou",
+    "cote": "Q 41586",
+    "yearStart": 1862,
+    "yearEnd": 1873,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=148&fichier=20030&lieu=Montesquiou&annee=1862",
+    "digitized": true
+  },
+  {
+    "place": "Montesquiou",
+    "cote": "Q 41588",
+    "yearStart": 1874,
+    "yearEnd": 1888,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=146&fichier=20028&lieu=Montesquiou&annee=1874",
+    "digitized": true
+  },
+  {
+    "place": "Montesquiou",
+    "cote": "Q 41589",
+    "yearStart": 1888,
+    "yearEnd": 1909,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=145&fichier=20027&lieu=Montesquiou&annee=1888",
+    "digitized": true
+  },
+  {
+    "place": "Montréal",
+    "cote": "Q 40207",
+    "yearStart": 1832,
+    "yearEnd": 1842,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=216&fichier=20098&lieu=Montréal&annee=1832",
+    "digitized": true
+  },
+  {
+    "place": "Montréal",
+    "cote": "Q 40095",
+    "yearStart": 1842,
+    "yearEnd": 1856,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=217&fichier=20099&lieu=Montréal&annee=1842",
+    "digitized": true
+  },
+  {
+    "place": "Montréal",
+    "cote": "Q 40208",
+    "yearStart": 1856,
+    "yearEnd": 1867,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=157&fichier=20039&lieu=Montréal&annee=1856",
+    "digitized": true
+  },
+  {
+    "place": "Montréal",
+    "cote": "Q 40209",
+    "yearStart": 1867,
+    "yearEnd": 1876,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=156&fichier=20038&lieu=Montréal&annee=1867",
+    "digitized": true
+  },
+  {
+    "place": "Montréal",
+    "cote": "Q 46689",
+    "yearStart": 1871,
+    "yearEnd": 1892,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=12&fichier=1501&lieu=Montréal&annee=1871",
+    "digitized": true
+  },
+  {
+    "place": "Montréal",
+    "cote": "Q 46690",
+    "yearStart": 1892,
+    "yearEnd": 1908,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=11&fichier=1350&lieu=Montréal&annee=1892",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "443Q 1",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=272&fichier=20154&lieu=Nogaro&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 10656",
+    "yearStart": 1835,
+    "yearEnd": 1845,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=262&fichier=20144&lieu=Nogaro&annee=1835",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 34957",
+    "yearStart": 1845,
+    "yearEnd": 1850,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=222&fichier=20104&lieu=Nogaro&annee=1845",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 46806",
+    "yearStart": 1886,
+    "yearEnd": 1897,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=10&fichier=1177&lieu=Nogaro&annee=1886",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 46807",
+    "yearStart": 1898,
+    "yearEnd": 1911,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=9&fichier=1000&lieu=Nogaro&annee=1898",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 46808",
+    "yearStart": 1912,
+    "yearEnd": 1924,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=8&fichier=834&lieu=Nogaro&annee=1912",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 46809",
+    "yearStart": 1925,
+    "yearEnd": 1936,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=7&fichier=637&lieu=Nogaro&annee=1925",
+    "digitized": true
+  },
+  {
+    "place": "Nogaro",
+    "cote": "Q 46810",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=6&fichier=540&lieu=Nogaro&annee=1937",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "449Q 1",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=271&fichier=20153&lieu=Plaisance&annee=1825",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  10657",
+    "yearStart": 1836,
+    "yearEnd": 1843,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=261&fichier=20143&lieu=Plaisance&annee=1836",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  10658",
+    "yearStart": 1843,
+    "yearEnd": 1849,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=260&fichier=20142&lieu=Plaisance&annee=1843",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  41745",
+    "yearStart": 1849,
+    "yearEnd": 1859,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=213&fichier=20095&lieu=Plaisance&annee=1849",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  41746",
+    "yearStart": 1859,
+    "yearEnd": 1873,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=144&fichier=20026&lieu=Plaisance&annee=1859",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  41747",
+    "yearStart": 1876,
+    "yearEnd": 1895,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=143&fichier=20025&lieu=Plaisance&annee=1876",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  41748",
+    "yearStart": 1895,
+    "yearEnd": 1913,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=142&fichier=20024&lieu=Plaisance&annee=1895",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  42192",
+    "yearStart": 1914,
+    "yearEnd": 1929,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=134&fichier=20016&lieu=Plaisance&annee=1914",
+    "digitized": true
+  },
+  {
+    "place": "Plaisance",
+    "cote": "Q  42193",
+    "yearStart": 1932,
+    "yearEnd": 1943,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=133&fichier=20015&lieu=Plaisance&annee=1932",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 10654",
+    "yearStart": 1822,
+    "yearEnd": 1834,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=264&fichier=20146&lieu=Riscle&annee=1822",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 10655",
+    "yearStart": 1834,
+    "yearEnd": 1847,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=263&fichier=20145&lieu=Riscle&annee=1834",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 41911",
+    "yearStart": 1847,
+    "yearEnd": 1858,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=212&fichier=20094&lieu=Riscle&annee=1847",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 41912",
+    "yearStart": 1858,
+    "yearEnd": 1874,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=141&fichier=20023&lieu=Riscle&annee=1858",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 41913",
+    "yearStart": 1871,
+    "yearEnd": 1874,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=140&fichier=20022&lieu=Riscle&annee=1871",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 41914",
+    "yearStart": 1875,
+    "yearEnd": 1890,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=139&fichier=20021&lieu=Riscle&annee=1875",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42462",
+    "yearStart": 1890,
+    "yearEnd": 1908,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=127&fichier=20009&lieu=Riscle&annee=1890",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42463",
+    "yearStart": 1909,
+    "yearEnd": 1927,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=126&fichier=20008&lieu=Riscle&annee=1909",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42464",
+    "yearStart": 1929,
+    "yearEnd": 1942,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=125&fichier=20007&lieu=Riscle&annee=1929",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42465",
+    "yearStart": 1942,
+    "yearEnd": 1946,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=124&fichier=20006&lieu=Riscle&annee=1942",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42466",
+    "yearStart": 1947,
+    "yearEnd": 1951,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=123&fichier=20005&lieu=Riscle&annee=1947",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42467",
+    "yearStart": 1951,
+    "yearEnd": 1955,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=122&fichier=20004&lieu=Riscle&annee=1951",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42468",
+    "yearStart": 1955,
+    "yearEnd": 1958,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=121&fichier=20003&lieu=Riscle&annee=1955",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42469",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=120&fichier=19826&lieu=Riscle&annee=1959",
+    "digitized": true
+  },
+  {
+    "place": "Riscle",
+    "cote": "Q 42470",
+    "yearStart": 1964,
+    "yearEnd": 1967,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=119&fichier=19672&lieu=Riscle&annee=1964",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Clar",
+    "cote": "Q 33971",
+    "yearStart": 1822,
+    "yearEnd": 1837,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=233&fichier=20115&lieu=Saint-Clar&annee=1822",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Clar",
+    "cote": "Q 33972",
+    "yearStart": 1837,
+    "yearEnd": 1854,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=232&fichier=20114&lieu=Saint-Clar&annee=1837",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Clar",
+    "cote": "Q 33973",
+    "yearStart": 1854,
+    "yearEnd": 1871,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=176&fichier=20058&lieu=Saint-Clar&annee=1854",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Clar",
+    "cote": "Q 33974",
+    "yearStart": 1871,
+    "yearEnd": 1896,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=175&fichier=20057&lieu=Saint-Clar&annee=1871",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Clar",
+    "cote": "Q 45287",
+    "yearStart": 1897,
+    "yearEnd": 1918,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=44&fichier=6982&lieu=Saint-Clar&annee=1897",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Clar",
+    "cote": "Q 45288",
+    "yearStart": 1919,
+    "yearEnd": 1934,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=43&fichier=6872&lieu=Saint-Clar&annee=1919",
+    "digitized": true
+  },
+  {
+    "place": "Saramon",
+    "cote": "Q 11663",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=251&fichier=20133&lieu=Saramon&annee=1824",
+    "digitized": true
+  },
+  {
+    "place": "Saramon",
+    "cote": "Q 11664",
+    "yearStart": 1826,
+    "yearEnd": 1845,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=250&fichier=20132&lieu=Saramon&annee=1826",
+    "digitized": true
+  },
+  {
+    "place": "Saramon",
+    "cote": "Q 33265",
+    "yearStart": 1860,
+    "yearEnd": 1871,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=188&fichier=20070&lieu=Saramon&annee=1860",
+    "digitized": true
+  },
+  {
+    "place": "Saramon",
+    "cote": "Q 33266",
+    "yearStart": 1870,
+    "yearEnd": 1882,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=187&fichier=20069&lieu=Saramon&annee=1870",
+    "digitized": true
+  },
+  {
+    "place": "Saramon",
+    "cote": "Q 45340",
+    "yearStart": 1882,
+    "yearEnd": 1904,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=42&fichier=6734&lieu=Saramon&annee=1882",
+    "digitized": true
+  },
+  {
+    "place": "Saramon",
+    "cote": "Q 45341",
+    "yearStart": 1904,
+    "yearEnd": 1915,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=41&fichier=6663&lieu=Saramon&annee=1904",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "Q 34730",
+    "yearStart": 1821,
+    "yearEnd": 1837,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=228&fichier=20110&lieu=Valence&annee=1821",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "Q 34731",
+    "yearStart": 1838,
+    "yearEnd": 1848,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=227&fichier=20109&lieu=Valence&annee=1838",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "Q 34732",
+    "yearStart": 1848,
+    "yearEnd": 1858,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=226&fichier=20108&lieu=Valence&annee=1848",
+    "digitized": true
+  },
+  {
+    "place": "Valence-sur-Baïse",
+    "cote": "Q 47025",
+    "yearStart": 1858,
+    "yearEnd": 1869,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=5&fichier=399&lieu=Valence-sur-Baïse&annee=1858",
+    "digitized": true
+  },
+  {
+    "place": "Valence-sur-Baïse",
+    "cote": "Q 40181",
+    "yearStart": 1870,
+    "yearEnd": 1875,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=158&fichier=20040&lieu=Valence-sur-Baïse&annee=1870",
+    "digitized": true
+  },
+  {
+    "place": "Valence-sur-Baïse",
+    "cote": "Q 47026",
+    "yearStart": 1885,
+    "yearEnd": 1904,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=4&fichier=226&lieu=Valence-sur-Baïse&annee=1885",
+    "digitized": true
+  },
+  {
+    "place": "Valence-sur-Baïse",
+    "cote": "Q 47027",
+    "yearStart": 1905,
+    "yearEnd": 1930,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=3&fichier=92&lieu=Valence-sur-Baïse&annee=1905",
+    "digitized": true
+  },
+  {
+    "place": "Valence-sur-Baïse",
+    "cote": "Q 47028",
+    "yearStart": 1918,
+    "yearEnd": 1934,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=2&fichier=1&lieu=Valence-sur-Baïse&annee=1918",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 11065",
+    "yearStart": 1826,
+    "yearEnd": 1830,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=256&fichier=20138&lieu=Vic-Fezensac&annee=1826",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 11067",
+    "yearStart": 1835,
+    "yearEnd": 1850,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=254&fichier=20136&lieu=Vic-Fezensac&annee=1835",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 11066",
+    "yearStart": 1839,
+    "yearEnd": 1849,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=255&fichier=20137&lieu=Vic-Fezensac&annee=1839",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 11068",
+    "yearStart": 1857,
+    "yearEnd": 1867,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=200&fichier=20082&lieu=Vic-Fezensac&annee=1857",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 11069",
+    "yearStart": 1867,
+    "yearEnd": 1876,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=199&fichier=20081&lieu=Vic-Fezensac&annee=1867",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 11070",
+    "yearStart": 1877,
+    "yearEnd": 1889,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=198&fichier=20080&lieu=Vic-Fezensac&annee=1877",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 45386",
+    "yearStart": 1890,
+    "yearEnd": 1907,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=40&fichier=6486&lieu=Vic-Fezensac&annee=1890",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 45387",
+    "yearStart": 1907,
+    "yearEnd": 1925,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=39&fichier=6333&lieu=Vic-Fezensac&annee=1907",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 45388",
+    "yearStart": 1925,
+    "yearEnd": 1941,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=38&fichier=6138&lieu=Vic-Fezensac&annee=1925",
+    "digitized": true
+  },
+  {
+    "place": "Vic-Fezensac",
+    "cote": "Q 45389",
+    "yearStart": 1942,
+    "yearEnd": 1954,
+    "url": "https://www.archives32.fr/archives_numerisees/portail/visu/?sa=37&fichier=6037&lieu=Vic-Fezensac&annee=1942",
+    "digitized": true
+  }
+]
