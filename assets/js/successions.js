@@ -793,11 +793,14 @@ export const SUCCESSION_DEPTS = {
     '83': {
         label: 'Var',
         kind: 'facet',
-        // Bornes réelles de la série (2223 registres scrapés, 83 lieux, voir
-        // scrape_successions_arkotheque.py, DEPARTMENTS['83']) : débloqué après découverte de la
-        // nouvelle URL de recherche (portail refondu, l'ancienne documentée pour ce département est
-        // un 404). Couverture partielle : le portail plafonne la pagination à ~10 000 résultats
-        // bruts sur ~17 400 au total, donc une partie du fonds reste hors d'atteinte pour l'instant.
+        // Bornes réelles de la série (3509 registres, 151 lieux, voir
+        // scrape_successions_var_api.py) : le portail plafonne toute recherche à ~10 000 résultats
+        // bruts (sur ~17 400 au total tous types confondus), initialement contourné en filtrant
+        // uniquement par type (2223 registres) - désormais dépouillé lettre par lettre via le champ
+        // "Commune" du widget (caché en display:none mais toujours fonctionnel en déclenchant ses
+        // évènements input/change par JS - la seule interaction qui échoue est le clic direct sur
+        // son bouton "Consulter la liste"), chaque lettre restant largement sous le plafond (max
+        // observé : 4063 fiches brutes pour "L").
         minYear: 1770,
         maxYear: 1975,
         registersUrl: './assets/data/successions_83.json',

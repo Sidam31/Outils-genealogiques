@@ -286,6 +286,20 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_60.json',
         catalogUrl: 'https://ressources.archives.oise.fr/v2/ad60/tsa.html',
     },
+    '93': {
+        label: 'Seine-Saint-Denis',
+        // Bornes réelles de la série (6 registres, un seul bureau - Pantin - sur les 10 du
+        // département, voir scrape_contrats_mariage_seine_saint_denis.py) - trouvée en corrigeant
+        // un bug de scraping côté successions (voir DEPARTMENTS['93'] dans
+        // scrape_successions_ligeo_anubis.py : le noeud recherché n'était pas toujours scopé aux
+        // seules successions, une fiche "contrats de mariage" s'y était glissée à tort). Couverture
+        // probablement partielle : seules les pages déjà en cache pour les successions ont été
+        // repassées, pas une recherche dédiée sur les 9 autres bureaux.
+        minYear: 1747,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_93.json',
+        catalogUrl: 'https://archives.seinesaintdenis.fr/archive/resultats/sucession/n:219',
+    },
 };
 
 function fetchJson(url) {

@@ -1,0 +1,50 @@
+[
+  {
+    "place": "Pantin",
+    "cote": "DC6/480",
+    "yearStart": 1747,
+    "yearEnd": 1783,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13261",
+    "digitized": true
+  },
+  {
+    "place": "Pantin",
+    "cote": "DQ14/1137",
+    "yearStart": 1810,
+    "yearEnd": 1825,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13265",
+    "digitized": true
+  },
+  {
+    "place": "Pantin",
+    "cote": "DQ14/1138",
+    "yearStart": 1825,
+    "yearEnd": 1840,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13269",
+    "digitized": true
+  },
+  {
+    "place": "Pantin",
+    "cote": "DQ14/1139",
+    "yearStart": 1840,
+    "yearEnd": 1848,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13273",
+    "digitized": true
+  },
+  {
+    "place": "Pantin",
+    "cote": "DQ14/1140",
+    "yearStart": 1848,
+    "yearEnd": 1857,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13277",
+    "digitized": true
+  },
+  {
+    "place": "Pantin",
+    "cote": "DQ14/1141",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13281",
+    "digitized": true
+  }
+]

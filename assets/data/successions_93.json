@@ -1,2797 +1,5 @@
 [
   {
-    "place": "Aubervilliers",
-    "cote": "1747W/1",
-    "yearStart": 1905,
-    "yearEnd": 1909,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7721",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/2",
-    "yearStart": 1910,
-    "yearEnd": 1911,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7724",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/3",
-    "yearStart": 1912,
-    "yearEnd": 1914,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7729",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/4",
-    "yearStart": 1914,
-    "yearEnd": 1916,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7736",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/5",
-    "yearStart": 1917,
-    "yearEnd": 1918,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7745",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/6",
-    "yearStart": 1919,
-    "yearEnd": 1920,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7749",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/7",
-    "yearStart": 1921,
-    "yearEnd": 1923,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7753",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/8",
-    "yearStart": 1923,
-    "yearEnd": 1925,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7756",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/9",
-    "yearStart": 1925,
-    "yearEnd": 1927,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7759",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/10",
-    "yearStart": 1927,
-    "yearEnd": 1928,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7763",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/11",
-    "yearStart": 1929,
-    "yearEnd": 1930,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7765",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/12",
-    "yearStart": 1931,
-    "yearEnd": 1932,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7766",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/13",
-    "yearStart": 1933,
-    "yearEnd": 1934,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7768",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/14",
-    "yearStart": 1935,
-    "yearEnd": 1936,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7771",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/15",
-    "yearStart": 1937,
-    "yearEnd": 1938,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7776",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/16",
-    "yearStart": 1939,
-    "yearEnd": 1940,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7782",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/17",
-    "yearStart": 1941,
-    "yearEnd": 1942,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7788",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/18",
-    "yearStart": 1943,
-    "yearEnd": 1944,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7796",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/19",
-    "yearStart": 1945,
-    "yearEnd": 1946,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7801",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/20",
-    "yearStart": 1947,
-    "yearEnd": 1948,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7808",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/21",
-    "yearStart": 1949,
-    "yearEnd": 1950,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7813",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/22",
-    "yearStart": 1951,
-    "yearEnd": 1952,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7820",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/23",
-    "yearStart": 1953,
-    "yearEnd": 1953,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7825",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/24",
-    "yearStart": 1953,
-    "yearEnd": 1954,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7832",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/25",
-    "yearStart": 1955,
-    "yearEnd": 1955,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7838",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/26",
-    "yearStart": 1956,
-    "yearEnd": 1956,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7843",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/27",
-    "yearStart": 1957,
-    "yearEnd": 1957,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7850",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/28",
-    "yearStart": 1958,
-    "yearEnd": 1958,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7858",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/29",
-    "yearStart": 1959,
-    "yearEnd": 1959,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7868",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/30",
-    "yearStart": 1960,
-    "yearEnd": 1960,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7874",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/31",
-    "yearStart": 1961,
-    "yearEnd": 1961,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7883",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/32",
-    "yearStart": 1962,
-    "yearEnd": 1962,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7889",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/33",
-    "yearStart": 1963,
-    "yearEnd": 1963,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7895",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/34",
-    "yearStart": 1964,
-    "yearEnd": 1964,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7901",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/35",
-    "yearStart": 1965,
-    "yearEnd": 1965,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7909",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/36",
-    "yearStart": 1966,
-    "yearEnd": 1966,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7911",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/37",
-    "yearStart": 1967,
-    "yearEnd": 1967,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7916",
-    "digitized": true
-  },
-  {
-    "place": "Aubervilliers",
-    "cote": "1747W/38",
-    "yearStart": 1968,
-    "yearEnd": 1968,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7920",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/1",
-    "yearStart": 1870,
-    "yearEnd": 1883,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13341",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/2",
-    "yearStart": 1879,
-    "yearEnd": 1885,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13345",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/3",
-    "yearStart": 1886,
-    "yearEnd": 1890,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13350",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/4",
-    "yearStart": 1890,
-    "yearEnd": 1895,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13354",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/5",
-    "yearStart": 1895,
-    "yearEnd": 1899,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13358",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/6",
-    "yearStart": 1900,
-    "yearEnd": 1904,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13363",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/7",
-    "yearStart": 1904,
-    "yearEnd": 1908,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13367",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/8",
-    "yearStart": 1908,
-    "yearEnd": 1910,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13371",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/9",
-    "yearStart": 1910,
-    "yearEnd": 1912,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13376",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/10",
-    "yearStart": 1912,
-    "yearEnd": 1914,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13381",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/11",
-    "yearStart": 1914,
-    "yearEnd": 1917,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13385",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/12",
-    "yearStart": 1917,
-    "yearEnd": 1919,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13389",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/13",
-    "yearStart": 1918,
-    "yearEnd": 1922,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13393",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/14",
-    "yearStart": 1921,
-    "yearEnd": 1922,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13397",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/15",
-    "yearStart": 1922,
-    "yearEnd": 1923,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13401",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/16",
-    "yearStart": 1923,
-    "yearEnd": 1924,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13405",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/17",
-    "yearStart": 1925,
-    "yearEnd": 1926,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13410",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/18",
-    "yearStart": 1926,
-    "yearEnd": 1927,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13414",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/19",
-    "yearStart": 1927,
-    "yearEnd": 1929,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13419",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/20",
-    "yearStart": 1929,
-    "yearEnd": 1930,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13423",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/21",
-    "yearStart": 1931,
-    "yearEnd": 1932,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13427",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/22",
-    "yearStart": 1932,
-    "yearEnd": 1933,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13431",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/23",
-    "yearStart": 1934,
-    "yearEnd": 1935,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13435",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/24",
-    "yearStart": 1935,
-    "yearEnd": 1937,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13439",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/25",
-    "yearStart": 1937,
-    "yearEnd": 1938,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13443",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/26",
-    "yearStart": 1939,
-    "yearEnd": 1940,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13447",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/27",
-    "yearStart": 1940,
-    "yearEnd": 1941,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13451",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/28",
-    "yearStart": 1941,
-    "yearEnd": 1942,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13455",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/29",
-    "yearStart": 1942,
-    "yearEnd": 1944,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13459",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/30",
-    "yearStart": 1942,
-    "yearEnd": 1944,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13463",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/31",
-    "yearStart": 1945,
-    "yearEnd": 1947,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13468",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/32",
-    "yearStart": 1945,
-    "yearEnd": 1947,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13472",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/34",
-    "yearStart": 1948,
-    "yearEnd": 1950,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13476",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/33",
-    "yearStart": 1948,
-    "yearEnd": 1950,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13480",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/36",
-    "yearStart": 1951,
-    "yearEnd": 1952,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13484",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/35",
-    "yearStart": 1951,
-    "yearEnd": 1952,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13490",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/37",
-    "yearStart": 1953,
-    "yearEnd": 1954,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13494",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "1246W/38",
-    "yearStart": 1953,
-    "yearEnd": 1954,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13498",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/1",
-    "yearStart": 1955,
-    "yearEnd": 1956,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13506",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/2",
-    "yearStart": 1955,
-    "yearEnd": 1956,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13512",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/3",
-    "yearStart": 1956,
-    "yearEnd": 1957,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13515",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/4",
-    "yearStart": 1956,
-    "yearEnd": 1957,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13519",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/5",
-    "yearStart": 1958,
-    "yearEnd": 1959,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13523",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/6",
-    "yearStart": 1958,
-    "yearEnd": 1959,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13527",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/7",
-    "yearStart": 1959,
-    "yearEnd": 1960,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13531",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/8",
-    "yearStart": 1959,
-    "yearEnd": 1960,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13535",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/9",
-    "yearStart": 1961,
-    "yearEnd": 1962,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13539",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/10",
-    "yearStart": 1961,
-    "yearEnd": 1962,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13543",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/11",
-    "yearStart": 1962,
-    "yearEnd": 1962,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13549",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/12",
-    "yearStart": 1963,
-    "yearEnd": 1963,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13553",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/13",
-    "yearStart": 1963,
-    "yearEnd": 1963,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13557",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/14",
-    "yearStart": 1964,
-    "yearEnd": 1964,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13561",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/15",
-    "yearStart": 1964,
-    "yearEnd": 1964,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13565",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/16",
-    "yearStart": 1965,
-    "yearEnd": 1965,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13569",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/17",
-    "yearStart": 1965,
-    "yearEnd": 1965,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13573",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/18",
-    "yearStart": 1966,
-    "yearEnd": 1966,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13575",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/19",
-    "yearStart": 1966,
-    "yearEnd": 1967,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13579",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/20",
-    "yearStart": 1967,
-    "yearEnd": 1968,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13583",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3152W/21",
-    "yearStart": 1968,
-    "yearEnd": 1968,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13587",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/221",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13593",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/222",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13597",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/223",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13600",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/224",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13604",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/277",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13609",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/225",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13613",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/226",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13617",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/227",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13621",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/228",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13625",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/229",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13629",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/230",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13634",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/231",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13638",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/232",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13642",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/233",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13645",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/234",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13648",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/235",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13651",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/236",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13655",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/237",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13659",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/238",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13663",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/239",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13667",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/240",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13672",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/241",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13676",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/242",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13680",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/243",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13684",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/244",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13688",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/245",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13692",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/246",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13696",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/247",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13700",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/248",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13704",
-    "digitized": true
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/249",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13708",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/250",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13711",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/251",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13714",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/252",
-    "yearStart": 1976,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13718",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/253",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13721",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/254",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13724",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/255",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13727",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/256",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13729",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/257",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13730",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/258",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13732",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/259",
-    "yearStart": 1979,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13733",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/260",
-    "yearStart": 1979,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13734",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/261",
-    "yearStart": 1979,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13735",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/262",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13736",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/263",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13738",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/264",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13739",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/265",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13740",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/266",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13741",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/267",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13744",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/268",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13746",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/269",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13749",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/270",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13751",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/271",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13754",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/272",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13756",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/273",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13759",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/274",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13761",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/275",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13764",
-    "digitized": false
-  },
-  {
-    "place": "Le Raincy",
-    "cote": "3068W/276",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13765",
-    "digitized": false
-  },
-  {
-    "place": "Livry-Gargan",
-    "cote": "93/367",
-    "yearStart": 1791,
-    "yearEnd": 1796,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8065",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/1",
-    "yearStart": 1905,
-    "yearEnd": 1910,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8072",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/2",
-    "yearStart": 1911,
-    "yearEnd": 1913,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8075",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/3",
-    "yearStart": 1914,
-    "yearEnd": 1916,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8078",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/4",
-    "yearStart": 1914,
-    "yearEnd": 1919,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8081",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/5",
-    "yearStart": 1914,
-    "yearEnd": 1921,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8087",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/6",
-    "yearStart": 1921,
-    "yearEnd": 1923,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8093",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/7",
-    "yearStart": 1924,
-    "yearEnd": 1925,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8101",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/8",
-    "yearStart": 1926,
-    "yearEnd": 1927,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8111",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/9",
-    "yearStart": 1928,
-    "yearEnd": 1929,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8117",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/10",
-    "yearStart": 1930,
-    "yearEnd": 1931,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8128",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/11",
-    "yearStart": 1932,
-    "yearEnd": 1933,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8134",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/12",
-    "yearStart": 1934,
-    "yearEnd": 1935,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8143",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/13",
-    "yearStart": 1936,
-    "yearEnd": 1937,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8151",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/14",
-    "yearStart": 1938,
-    "yearEnd": 1939,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8153",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/15",
-    "yearStart": 1940,
-    "yearEnd": 1941,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8158",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/16",
-    "yearStart": 1942,
-    "yearEnd": 1943,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8161",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/17",
-    "yearStart": 1944,
-    "yearEnd": 1945,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8165",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/18",
-    "yearStart": 1946,
-    "yearEnd": 1948,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8169",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/19",
-    "yearStart": 1949,
-    "yearEnd": 1951,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8173",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/20",
-    "yearStart": 1952,
-    "yearEnd": 1954,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8178",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/21",
-    "yearStart": 1955,
-    "yearEnd": 1956,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8181",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/22",
-    "yearStart": 1957,
-    "yearEnd": 1957,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8183",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/23",
-    "yearStart": 1958,
-    "yearEnd": 1959,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8187",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/24",
-    "yearStart": 1960,
-    "yearEnd": 1961,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8189",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/25",
-    "yearStart": 1962,
-    "yearEnd": 1963,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8192",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/26",
-    "yearStart": 1964,
-    "yearEnd": 1965,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8195",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/27",
-    "yearStart": 1966,
-    "yearEnd": 1967,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8198",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "1817W/28",
-    "yearStart": 1968,
-    "yearEnd": 1968,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8201",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/1",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8207",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/2",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8212",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/3",
-    "yearStart": 1969,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8216",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/4",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8220",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/5",
-    "yearStart": 1970,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8227",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/6",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8236",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/7",
-    "yearStart": 1971,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8247",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/8",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8257",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/9",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8267",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/10",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8279",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/11",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8290",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/12",
-    "yearStart": 1973,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8298",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/13",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8309",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/14",
-    "yearStart": 1974,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8322",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/15",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8329",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/16",
-    "yearStart": 1975,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8338",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/17",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8342",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/18",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8345",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/19",
-    "yearStart": 1976,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8349",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/20",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8354",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/21",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8361",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/22",
-    "yearStart": 1977,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8366",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/23",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8375",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/24",
-    "yearStart": 1978,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8380",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/25",
-    "yearStart": 1979,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8384",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/26",
-    "yearStart": 1979,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8389",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/27",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8394",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/28",
-    "yearStart": 1980,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8399",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/29",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8404",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/30",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8408",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/31",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8413",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/32",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8419",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/33",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8425",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/34",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8431",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/35",
-    "yearStart": 1969,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8438",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/36",
-    "yearStart": 1969,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8445",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/37",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8456",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/38",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8469",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/39",
-    "yearStart": 1971,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8476",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/40",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8485",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/41",
-    "yearStart": 1972,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8500",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/42",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8507",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/43",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8520",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/44",
-    "yearStart": 1974,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8531",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/45",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8542",
-    "digitized": true
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/46",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8553",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/47",
-    "yearStart": 1976,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8559",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/48",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8565",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/49",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8570",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/50",
-    "yearStart": 1978,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8576",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/51",
-    "yearStart": 1979,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8584",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/52",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8589",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/53",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8595",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/54",
-    "yearStart": 1981,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8601",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/55",
-    "yearStart": 1982,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8607",
-    "digitized": false
-  },
-  {
-    "place": "Montreuil",
-    "cote": "2900W/56",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8612",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/1",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8631",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/2",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8641",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/3",
-    "yearStart": 1969,
-    "yearEnd": 1969,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8653",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/4",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8662",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/5",
-    "yearStart": 1970,
-    "yearEnd": 1970,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8672",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/6",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8681",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/7",
-    "yearStart": 1971,
-    "yearEnd": 1971,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8692",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/8",
-    "yearStart": 1971,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8705",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/9",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8716",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/10",
-    "yearStart": 1972,
-    "yearEnd": 1972,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8727",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/11",
-    "yearStart": 1973,
-    "yearEnd": 1973,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8736",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/12",
-    "yearStart": 1973,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8746",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/13",
-    "yearStart": 1974,
-    "yearEnd": 1974,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8758",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/14",
-    "yearStart": 1974,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8773",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/15",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8783",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/16",
-    "yearStart": 1975,
-    "yearEnd": 1975,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8798",
-    "digitized": true
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/17",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8808",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/18",
-    "yearStart": 1976,
-    "yearEnd": 1976,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8816",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/19",
-    "yearStart": 1976,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8822",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/20",
-    "yearStart": 1977,
-    "yearEnd": 1977,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8828",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/21",
-    "yearStart": 1977,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8837",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/22",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8843",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/23",
-    "yearStart": 1978,
-    "yearEnd": 1978,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8849",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/24",
-    "yearStart": 1979,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8856",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/25",
-    "yearStart": 1979,
-    "yearEnd": 1979,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8860",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/26",
-    "yearStart": 1979,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8865",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/27",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8872",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/28",
-    "yearStart": 1980,
-    "yearEnd": 1980,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8880",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/29",
-    "yearStart": 1980,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8884",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/30",
-    "yearStart": 1981,
-    "yearEnd": 1981,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8890",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/31",
-    "yearStart": 1981,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8896",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/32",
-    "yearStart": 1982,
-    "yearEnd": 1982,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8902",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/33",
-    "yearStart": 1982,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8908",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/34",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8912",
-    "digitized": false
-  },
-  {
-    "place": "Neuilly-sur-Marne",
-    "cote": "2876W/35",
-    "yearStart": 1983,
-    "yearEnd": 1983,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8918",
-    "digitized": false
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/1",
-    "yearStart": 1904,
-    "yearEnd": 1908,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8938",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/2",
-    "yearStart": 1909,
-    "yearEnd": 1910,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8947",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/3",
-    "yearStart": 1911,
-    "yearEnd": 1912,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8958",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/4",
-    "yearStart": 1913,
-    "yearEnd": 1914,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8969",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/5",
-    "yearStart": 1914,
-    "yearEnd": 1916,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8978",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/6",
-    "yearStart": 1916,
-    "yearEnd": 1917,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8987",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/7",
-    "yearStart": 1918,
-    "yearEnd": 1919,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8995",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/8",
-    "yearStart": 1919,
-    "yearEnd": 1920,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9003",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/9",
-    "yearStart": 1921,
-    "yearEnd": 1922,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9011",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/10",
-    "yearStart": 1922,
-    "yearEnd": 1923,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9018",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/11",
-    "yearStart": 1924,
-    "yearEnd": 1924,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9028",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/12",
-    "yearStart": 1925,
-    "yearEnd": 1925,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9037",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/13",
-    "yearStart": 1926,
-    "yearEnd": 1926,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9052",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/14",
-    "yearStart": 1927,
-    "yearEnd": 1927,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9072",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/15",
-    "yearStart": 1928,
-    "yearEnd": 1928,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9093",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/16",
-    "yearStart": 1929,
-    "yearEnd": 1929,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9154",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/17",
-    "yearStart": 1930,
-    "yearEnd": 1930,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9214",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/18",
-    "yearStart": 1931,
-    "yearEnd": 1931,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9282",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/19",
-    "yearStart": 1932,
-    "yearEnd": 1932,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9331",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/20",
-    "yearStart": 1933,
-    "yearEnd": 1933,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9389",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/21",
-    "yearStart": 1934,
-    "yearEnd": 1934,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9444",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/22",
-    "yearStart": 1935,
-    "yearEnd": 1935,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9498",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/23",
-    "yearStart": 1936,
-    "yearEnd": 1936,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9557",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/24",
-    "yearStart": 1937,
-    "yearEnd": 1937,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9609",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/25",
-    "yearStart": 1938,
-    "yearEnd": 1938,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9651",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/26",
-    "yearStart": 1939,
-    "yearEnd": 1939,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9728",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/27",
-    "yearStart": 1940,
-    "yearEnd": 1940,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9770",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/28",
-    "yearStart": 1941,
-    "yearEnd": 1941,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9830",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/29",
-    "yearStart": 1941,
-    "yearEnd": 1941,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9895",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/30",
-    "yearStart": 1942,
-    "yearEnd": 1942,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9944",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/31",
-    "yearStart": 1943,
-    "yearEnd": 1943,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10006",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/32",
-    "yearStart": 1944,
-    "yearEnd": 1944,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10056",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/33",
-    "yearStart": 1945,
-    "yearEnd": 1945,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10098",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/34",
-    "yearStart": 1946,
-    "yearEnd": 1946,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10149",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/35",
-    "yearStart": 1947,
-    "yearEnd": 1947,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10191",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/36",
-    "yearStart": 1948,
-    "yearEnd": 1948,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10231",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/37",
-    "yearStart": 1949,
-    "yearEnd": 1949,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10310",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/38",
-    "yearStart": 1950,
-    "yearEnd": 1950,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10348",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/39",
-    "yearStart": 1950,
-    "yearEnd": 1950,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10402",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/40",
-    "yearStart": 1951,
-    "yearEnd": 1951,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10490",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/41",
-    "yearStart": 1951,
-    "yearEnd": 1951,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10499",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/42",
-    "yearStart": 1952,
-    "yearEnd": 1952,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10503",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/43",
-    "yearStart": 1952,
-    "yearEnd": 1952,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10505",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/44",
-    "yearStart": 1953,
-    "yearEnd": 1953,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10510",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/45",
-    "yearStart": 1953,
-    "yearEnd": 1953,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10513",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/46",
-    "yearStart": 1954,
-    "yearEnd": 1954,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10517",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/47",
-    "yearStart": 1954,
-    "yearEnd": 1954,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10522",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/48",
-    "yearStart": 1955,
-    "yearEnd": 1955,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10527",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/49",
-    "yearStart": 1955,
-    "yearEnd": 1955,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10531",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/50",
-    "yearStart": 1956,
-    "yearEnd": 1956,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10534",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/51",
-    "yearStart": 1956,
-    "yearEnd": 1956,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10539",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/52",
-    "yearStart": 1957,
-    "yearEnd": 1957,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10544",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/53",
-    "yearStart": 1957,
-    "yearEnd": 1957,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10548",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/54",
-    "yearStart": 1958,
-    "yearEnd": 1958,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10552",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/55",
-    "yearStart": 1958,
-    "yearEnd": 1958,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10556",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/56",
-    "yearStart": 1959,
-    "yearEnd": 1959,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10559",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/57",
-    "yearStart": 1959,
-    "yearEnd": 1959,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10560",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/58",
-    "yearStart": 1960,
-    "yearEnd": 1960,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10561",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/59",
-    "yearStart": 1960,
-    "yearEnd": 1960,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10563",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/60",
-    "yearStart": 1961,
-    "yearEnd": 1961,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10564",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/61",
-    "yearStart": 1961,
-    "yearEnd": 1961,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10565",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/62",
-    "yearStart": 1962,
-    "yearEnd": 1962,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10567",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/63",
-    "yearStart": 1962,
-    "yearEnd": 1962,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10571",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/64",
-    "yearStart": 1963,
-    "yearEnd": 1963,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10573",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/65",
-    "yearStart": 1963,
-    "yearEnd": 1963,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10577",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/66",
-    "yearStart": 1964,
-    "yearEnd": 1964,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10581",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/67",
-    "yearStart": 1964,
-    "yearEnd": 1964,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10584",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/68",
-    "yearStart": 1965,
-    "yearEnd": 1965,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10588",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/69",
-    "yearStart": 1965,
-    "yearEnd": 1965,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10590",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/70",
-    "yearStart": 1966,
-    "yearEnd": 1966,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10591",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/71",
-    "yearStart": 1966,
-    "yearEnd": 1966,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10593",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/72",
-    "yearStart": 1967,
-    "yearEnd": 1967,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10596",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/73",
-    "yearStart": 1967,
-    "yearEnd": 1967,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10597",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/74",
-    "yearStart": 1968,
-    "yearEnd": 1968,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10598",
-    "digitized": true
-  },
-  {
-    "place": "Noisy-le-Sec",
-    "cote": "1635W/75",
-    "yearStart": 1968,
-    "yearEnd": 1968,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10601",
-    "digitized": true
-  },
-  {
     "place": "Pantin",
     "cote": "DQ14/1198",
     "yearStart": 1807,
@@ -3469,366 +677,6 @@
     "yearStart": 1876,
     "yearEnd": 1884,
     "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13136",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1112",
-    "yearStart": 1810,
-    "yearEnd": 1814,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13145",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1113",
-    "yearStart": 1814,
-    "yearEnd": 1825,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13149",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1114",
-    "yearStart": 1825,
-    "yearEnd": 1825,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13153",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1115",
-    "yearStart": 1830,
-    "yearEnd": 1835,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13157",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1116",
-    "yearStart": 1835,
-    "yearEnd": 1838,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13162",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1117",
-    "yearStart": 1838,
-    "yearEnd": 1841,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13166",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1118",
-    "yearStart": 1841,
-    "yearEnd": 1844,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13171",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1119",
-    "yearStart": 1844,
-    "yearEnd": 1847,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13175",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1120",
-    "yearStart": 1847,
-    "yearEnd": 1850,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13180",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1121",
-    "yearStart": 1850,
-    "yearEnd": 1853,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13185",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1122",
-    "yearStart": 1853,
-    "yearEnd": 1856,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13189",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1123",
-    "yearStart": 1856,
-    "yearEnd": 1858,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13194",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1124",
-    "yearStart": 1858,
-    "yearEnd": 1860,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13198",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1125",
-    "yearStart": 1860,
-    "yearEnd": 1864,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13202",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1126",
-    "yearStart": 1864,
-    "yearEnd": 1865,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13206",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DC6/481",
-    "yearStart": 1777,
-    "yearEnd": 1783,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13212",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1127",
-    "yearStart": 1810,
-    "yearEnd": 1814,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13216",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1128",
-    "yearStart": 1814,
-    "yearEnd": 1818,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13220",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1129",
-    "yearStart": 1818,
-    "yearEnd": 1824,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13224",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1130",
-    "yearStart": 1824,
-    "yearEnd": 1824,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13230",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1131",
-    "yearStart": 1825,
-    "yearEnd": 1828,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13235",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1132",
-    "yearStart": 1838,
-    "yearEnd": 1844,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13239",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1133",
-    "yearStart": 1844,
-    "yearEnd": 1848,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13243",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1134",
-    "yearStart": 1848,
-    "yearEnd": 1856,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13247",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1135",
-    "yearStart": 1856,
-    "yearEnd": 1861,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13251",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1136",
-    "yearStart": 1861,
-    "yearEnd": 1865,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13255",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DC6/480",
-    "yearStart": 1747,
-    "yearEnd": 1783,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13261",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1137",
-    "yearStart": 1810,
-    "yearEnd": 1825,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13265",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1138",
-    "yearStart": 1825,
-    "yearEnd": 1840,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13269",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1139",
-    "yearStart": 1840,
-    "yearEnd": 1848,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13273",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1140",
-    "yearStart": 1848,
-    "yearEnd": 1857,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13277",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1141",
-    "yearStart": 1857,
-    "yearEnd": 1865,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13281",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1142",
-    "yearStart": 1772,
-    "yearEnd": 1813,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13287",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1143",
-    "yearStart": 1813,
-    "yearEnd": 1820,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13290",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1144",
-    "yearStart": 1772,
-    "yearEnd": 1813,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13294",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1145",
-    "yearStart": 1813,
-    "yearEnd": 1820,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13298",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DC6/482",
-    "yearStart": 1777,
-    "yearEnd": 1783,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13303",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DC6/483",
-    "yearStart": 1769,
-    "yearEnd": 1789,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13306",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1146",
-    "yearStart": 1811,
-    "yearEnd": 1825,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13309",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1147",
-    "yearStart": 1825,
-    "yearEnd": 1826,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13313",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1148",
-    "yearStart": 1826,
-    "yearEnd": 1838,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13317",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1149",
-    "yearStart": 1838,
-    "yearEnd": 1847,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13321",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1150",
-    "yearStart": 1847,
-    "yearEnd": 1857,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13325",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1151",
-    "yearStart": 1857,
-    "yearEnd": 1863,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13329",
-    "digitized": true
-  },
-  {
-    "place": "Pantin",
-    "cote": "DQ14/1152",
-    "yearStart": 1864,
-    "yearEnd": 1864,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13333",
     "digitized": true
   },
   {
@@ -4645,150 +1493,6 @@
     "yearStart": 1963,
     "yearEnd": 1963,
     "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14243",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/511",
-    "yearStart": 1705,
-    "yearEnd": 1768,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14251",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/512",
-    "yearStart": 1769,
-    "yearEnd": 1785,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14254",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/158",
-    "yearStart": 1786,
-    "yearEnd": 1805,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14258",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/159",
-    "yearStart": 1806,
-    "yearEnd": 1813,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14261",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/509",
-    "yearStart": 1769,
-    "yearEnd": 1779,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14267",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/510",
-    "yearStart": 1779,
-    "yearEnd": 1785,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14270",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/156",
-    "yearStart": 1786,
-    "yearEnd": 1805,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14274",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/157",
-    "yearStart": 1806,
-    "yearEnd": 1813,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14277",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/516",
-    "yearStart": 1769,
-    "yearEnd": 1783,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14283",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/517",
-    "yearStart": 1768,
-    "yearEnd": 1791,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14286",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/160",
-    "yearStart": 1780,
-    "yearEnd": 1797,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14289",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/161",
-    "yearStart": 1803,
-    "yearEnd": 1809,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14291",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/513",
-    "yearStart": 1764,
-    "yearEnd": 1790,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14296",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/514",
-    "yearStart": 1764,
-    "yearEnd": 1790,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14301",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DC6/515",
-    "yearStart": 1764,
-    "yearEnd": 1790,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14305",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/162",
-    "yearStart": 1788,
-    "yearEnd": 1803,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14308",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/1321",
-    "yearStart": 1843,
-    "yearEnd": 1851,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14312",
-    "digitized": true
-  },
-  {
-    "place": "Saint-Denis",
-    "cote": "DQ14/1322",
-    "yearStart": 1851,
-    "yearEnd": 1858,
-    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14317",
     "digitized": true
   },
   {
@@ -5749,6 +2453,2790 @@
     "yearStart": 1982,
     "yearEnd": 1982,
     "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:14696",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/1",
+    "yearStart": 1870,
+    "yearEnd": 1883,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13341",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/2",
+    "yearStart": 1879,
+    "yearEnd": 1885,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13345",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/3",
+    "yearStart": 1886,
+    "yearEnd": 1890,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13350",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/4",
+    "yearStart": 1890,
+    "yearEnd": 1895,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13354",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/5",
+    "yearStart": 1895,
+    "yearEnd": 1899,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13358",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/6",
+    "yearStart": 1900,
+    "yearEnd": 1904,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13363",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/7",
+    "yearStart": 1904,
+    "yearEnd": 1908,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13367",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/8",
+    "yearStart": 1908,
+    "yearEnd": 1910,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13371",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/9",
+    "yearStart": 1910,
+    "yearEnd": 1912,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13376",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/10",
+    "yearStart": 1912,
+    "yearEnd": 1914,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13381",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/11",
+    "yearStart": 1914,
+    "yearEnd": 1917,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13385",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/12",
+    "yearStart": 1917,
+    "yearEnd": 1919,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13389",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/13",
+    "yearStart": 1918,
+    "yearEnd": 1922,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13393",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/14",
+    "yearStart": 1921,
+    "yearEnd": 1922,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13397",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/15",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13401",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/16",
+    "yearStart": 1923,
+    "yearEnd": 1924,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13405",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/17",
+    "yearStart": 1925,
+    "yearEnd": 1926,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13410",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/18",
+    "yearStart": 1926,
+    "yearEnd": 1927,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13414",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/19",
+    "yearStart": 1927,
+    "yearEnd": 1929,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13419",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/20",
+    "yearStart": 1929,
+    "yearEnd": 1930,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13423",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/21",
+    "yearStart": 1931,
+    "yearEnd": 1932,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13427",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/22",
+    "yearStart": 1932,
+    "yearEnd": 1933,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13431",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/23",
+    "yearStart": 1934,
+    "yearEnd": 1935,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13435",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/24",
+    "yearStart": 1935,
+    "yearEnd": 1937,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13439",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/25",
+    "yearStart": 1937,
+    "yearEnd": 1938,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13443",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/26",
+    "yearStart": 1939,
+    "yearEnd": 1940,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13447",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/27",
+    "yearStart": 1940,
+    "yearEnd": 1941,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13451",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/28",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13455",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/29",
+    "yearStart": 1942,
+    "yearEnd": 1944,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13459",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/30",
+    "yearStart": 1942,
+    "yearEnd": 1944,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13463",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/31",
+    "yearStart": 1945,
+    "yearEnd": 1947,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13468",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/32",
+    "yearStart": 1945,
+    "yearEnd": 1947,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13472",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/34",
+    "yearStart": 1948,
+    "yearEnd": 1950,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13476",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/33",
+    "yearStart": 1948,
+    "yearEnd": 1950,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13480",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/36",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13484",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/35",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13490",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/37",
+    "yearStart": 1953,
+    "yearEnd": 1954,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13494",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "1246W/38",
+    "yearStart": 1953,
+    "yearEnd": 1954,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13498",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/1",
+    "yearStart": 1955,
+    "yearEnd": 1956,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13506",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/2",
+    "yearStart": 1955,
+    "yearEnd": 1956,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13512",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/3",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13515",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/4",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13519",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/5",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13523",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/6",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13527",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/7",
+    "yearStart": 1959,
+    "yearEnd": 1960,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13531",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/8",
+    "yearStart": 1959,
+    "yearEnd": 1960,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13535",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/9",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13539",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/10",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13543",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/11",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13549",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/12",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13553",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/13",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13557",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/14",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13561",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/15",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13565",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/16",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13569",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/17",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13573",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/18",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13575",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/19",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13579",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/20",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13583",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3152W/21",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13587",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/221",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13593",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/222",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13597",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/223",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13600",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/224",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13604",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/277",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13609",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/225",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13613",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/226",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13617",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/227",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13621",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/228",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13625",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/229",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13629",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/230",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13634",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/231",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13638",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/232",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13642",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/233",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13645",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/234",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13648",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/235",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13651",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/236",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13655",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/237",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13659",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/238",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13663",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/239",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13667",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/240",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13672",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/241",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13676",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/242",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13680",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/243",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13684",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/244",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13688",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/245",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13692",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/246",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13696",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/247",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13700",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/248",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13704",
+    "digitized": true
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/249",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13708",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/250",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13711",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/251",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13714",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/252",
+    "yearStart": 1976,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13718",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/253",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13721",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/254",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13724",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/255",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13727",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/256",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13729",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/257",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13730",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/258",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13732",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/259",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13733",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/260",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13734",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/261",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13735",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/262",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13736",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/263",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13738",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/264",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13739",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/265",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13740",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/266",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13741",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/267",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13744",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/268",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13746",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/269",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13749",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/270",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13751",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/271",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13754",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/272",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13756",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/273",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13759",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/274",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13761",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/275",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13764",
+    "digitized": false
+  },
+  {
+    "place": "Le Raincy",
+    "cote": "3068W/276",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:13765",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/1",
+    "yearStart": 1905,
+    "yearEnd": 1910,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8072",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/2",
+    "yearStart": 1911,
+    "yearEnd": 1913,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8075",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/3",
+    "yearStart": 1914,
+    "yearEnd": 1916,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8078",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/4",
+    "yearStart": 1914,
+    "yearEnd": 1919,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8081",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/5",
+    "yearStart": 1914,
+    "yearEnd": 1921,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8087",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/6",
+    "yearStart": 1921,
+    "yearEnd": 1923,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8093",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/7",
+    "yearStart": 1924,
+    "yearEnd": 1925,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8101",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/8",
+    "yearStart": 1926,
+    "yearEnd": 1927,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8111",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/9",
+    "yearStart": 1928,
+    "yearEnd": 1929,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8117",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/10",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8128",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/11",
+    "yearStart": 1932,
+    "yearEnd": 1933,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8134",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/12",
+    "yearStart": 1934,
+    "yearEnd": 1935,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8143",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/13",
+    "yearStart": 1936,
+    "yearEnd": 1937,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8151",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/14",
+    "yearStart": 1938,
+    "yearEnd": 1939,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8153",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/15",
+    "yearStart": 1940,
+    "yearEnd": 1941,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8158",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/16",
+    "yearStart": 1942,
+    "yearEnd": 1943,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8161",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/17",
+    "yearStart": 1944,
+    "yearEnd": 1945,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8165",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/18",
+    "yearStart": 1946,
+    "yearEnd": 1948,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8169",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/19",
+    "yearStart": 1949,
+    "yearEnd": 1951,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8173",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/20",
+    "yearStart": 1952,
+    "yearEnd": 1954,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8178",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/21",
+    "yearStart": 1955,
+    "yearEnd": 1956,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8181",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/22",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8183",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/23",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8187",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/24",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8189",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/25",
+    "yearStart": 1962,
+    "yearEnd": 1963,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8192",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/26",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8195",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/27",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8198",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "1817W/28",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8201",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/1",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8207",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/2",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8212",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/3",
+    "yearStart": 1969,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8216",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/4",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8220",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/5",
+    "yearStart": 1970,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8227",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/6",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8236",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/7",
+    "yearStart": 1971,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8247",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/8",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8257",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/9",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8267",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/10",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8279",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/11",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8290",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/12",
+    "yearStart": 1973,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8298",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/13",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8309",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/14",
+    "yearStart": 1974,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8322",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/15",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8329",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/16",
+    "yearStart": 1975,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8338",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/17",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8342",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/18",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8345",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/19",
+    "yearStart": 1976,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8349",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/20",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8354",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/21",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8361",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/22",
+    "yearStart": 1977,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8366",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/23",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8375",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/24",
+    "yearStart": 1978,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8380",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/25",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8384",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/26",
+    "yearStart": 1979,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8389",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/27",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8394",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/28",
+    "yearStart": 1980,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8399",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/29",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8404",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/30",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8408",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/31",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8413",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/32",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8419",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/33",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8425",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/34",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8431",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/35",
+    "yearStart": 1969,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8438",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/36",
+    "yearStart": 1969,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8445",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/37",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8456",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/38",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8469",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/39",
+    "yearStart": 1971,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8476",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/40",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8485",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/41",
+    "yearStart": 1972,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8500",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/42",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8507",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/43",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8520",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/44",
+    "yearStart": 1974,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8531",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/45",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8542",
+    "digitized": true
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/46",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8553",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/47",
+    "yearStart": 1976,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8559",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/48",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8565",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/49",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8570",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/50",
+    "yearStart": 1978,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8576",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/51",
+    "yearStart": 1979,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8584",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/52",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8589",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/53",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8595",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/54",
+    "yearStart": 1981,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8601",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/55",
+    "yearStart": 1982,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8607",
+    "digitized": false
+  },
+  {
+    "place": "Montreuil",
+    "cote": "2900W/56",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8612",
+    "digitized": false
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/1",
+    "yearStart": 1904,
+    "yearEnd": 1908,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8938",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/2",
+    "yearStart": 1909,
+    "yearEnd": 1910,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8947",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/3",
+    "yearStart": 1911,
+    "yearEnd": 1912,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8958",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/4",
+    "yearStart": 1913,
+    "yearEnd": 1914,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8969",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/5",
+    "yearStart": 1914,
+    "yearEnd": 1916,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8978",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/6",
+    "yearStart": 1916,
+    "yearEnd": 1917,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8987",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/7",
+    "yearStart": 1918,
+    "yearEnd": 1919,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8995",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/8",
+    "yearStart": 1919,
+    "yearEnd": 1920,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9003",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/9",
+    "yearStart": 1921,
+    "yearEnd": 1922,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9011",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/10",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9018",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/11",
+    "yearStart": 1924,
+    "yearEnd": 1924,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9028",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/12",
+    "yearStart": 1925,
+    "yearEnd": 1925,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9037",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/13",
+    "yearStart": 1926,
+    "yearEnd": 1926,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9052",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/14",
+    "yearStart": 1927,
+    "yearEnd": 1927,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9072",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/15",
+    "yearStart": 1928,
+    "yearEnd": 1928,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9093",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/16",
+    "yearStart": 1929,
+    "yearEnd": 1929,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9154",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/17",
+    "yearStart": 1930,
+    "yearEnd": 1930,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9214",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/18",
+    "yearStart": 1931,
+    "yearEnd": 1931,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9282",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/19",
+    "yearStart": 1932,
+    "yearEnd": 1932,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9331",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/20",
+    "yearStart": 1933,
+    "yearEnd": 1933,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9389",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/21",
+    "yearStart": 1934,
+    "yearEnd": 1934,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9444",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/22",
+    "yearStart": 1935,
+    "yearEnd": 1935,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9498",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/23",
+    "yearStart": 1936,
+    "yearEnd": 1936,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9557",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/24",
+    "yearStart": 1937,
+    "yearEnd": 1937,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9609",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/25",
+    "yearStart": 1938,
+    "yearEnd": 1938,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9651",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/26",
+    "yearStart": 1939,
+    "yearEnd": 1939,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9728",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/27",
+    "yearStart": 1940,
+    "yearEnd": 1940,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9770",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/28",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9830",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/29",
+    "yearStart": 1941,
+    "yearEnd": 1941,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9895",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/30",
+    "yearStart": 1942,
+    "yearEnd": 1942,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:9944",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/31",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10006",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/32",
+    "yearStart": 1944,
+    "yearEnd": 1944,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10056",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/33",
+    "yearStart": 1945,
+    "yearEnd": 1945,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10098",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/34",
+    "yearStart": 1946,
+    "yearEnd": 1946,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10149",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/35",
+    "yearStart": 1947,
+    "yearEnd": 1947,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10191",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/36",
+    "yearStart": 1948,
+    "yearEnd": 1948,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10231",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/37",
+    "yearStart": 1949,
+    "yearEnd": 1949,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10310",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/38",
+    "yearStart": 1950,
+    "yearEnd": 1950,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10348",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/39",
+    "yearStart": 1950,
+    "yearEnd": 1950,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10402",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/40",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10490",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/41",
+    "yearStart": 1951,
+    "yearEnd": 1951,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10499",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/42",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10503",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/43",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10505",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/44",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10510",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/45",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10513",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/46",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10517",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/47",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10522",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/48",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10527",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/49",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10531",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/50",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10534",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/51",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10539",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/52",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10544",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/53",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10548",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/54",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10552",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/55",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10556",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/56",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10559",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/57",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10560",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/58",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10561",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/59",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10563",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/60",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10564",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/61",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10565",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/62",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10567",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/63",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10571",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/64",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10573",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/65",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10577",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/66",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10581",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/67",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10584",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/68",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10588",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/69",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10590",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/70",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10591",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/71",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10593",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/72",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10596",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/73",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10597",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/74",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10598",
+    "digitized": true
+  },
+  {
+    "place": "Noisy-le-Sec",
+    "cote": "1635W/75",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:10601",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/1",
+    "yearStart": 1905,
+    "yearEnd": 1909,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7721",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/2",
+    "yearStart": 1910,
+    "yearEnd": 1911,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7724",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/3",
+    "yearStart": 1912,
+    "yearEnd": 1914,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7729",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/4",
+    "yearStart": 1914,
+    "yearEnd": 1916,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7736",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/5",
+    "yearStart": 1917,
+    "yearEnd": 1918,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7745",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/6",
+    "yearStart": 1919,
+    "yearEnd": 1920,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7749",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/7",
+    "yearStart": 1921,
+    "yearEnd": 1923,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7753",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/8",
+    "yearStart": 1923,
+    "yearEnd": 1925,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7756",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/9",
+    "yearStart": 1925,
+    "yearEnd": 1927,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7759",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/10",
+    "yearStart": 1927,
+    "yearEnd": 1928,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7763",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/11",
+    "yearStart": 1929,
+    "yearEnd": 1930,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7765",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/12",
+    "yearStart": 1931,
+    "yearEnd": 1932,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7766",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/13",
+    "yearStart": 1933,
+    "yearEnd": 1934,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7768",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/14",
+    "yearStart": 1935,
+    "yearEnd": 1936,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7771",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/15",
+    "yearStart": 1937,
+    "yearEnd": 1938,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7776",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/16",
+    "yearStart": 1939,
+    "yearEnd": 1940,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7782",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/17",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7788",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/18",
+    "yearStart": 1943,
+    "yearEnd": 1944,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7796",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/19",
+    "yearStart": 1945,
+    "yearEnd": 1946,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7801",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/20",
+    "yearStart": 1947,
+    "yearEnd": 1948,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7808",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/21",
+    "yearStart": 1949,
+    "yearEnd": 1950,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7813",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/22",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7820",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/23",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7825",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/24",
+    "yearStart": 1953,
+    "yearEnd": 1954,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7832",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/25",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7838",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/26",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7843",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/27",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7850",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/28",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7858",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/29",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7868",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/30",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7874",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/31",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7883",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/32",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7889",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/33",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7895",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/34",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7901",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/35",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7909",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/36",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7911",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/37",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7916",
+    "digitized": true
+  },
+  {
+    "place": "Aubervilliers",
+    "cote": "1747W/38",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:7920",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/1",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8631",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/2",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8641",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/3",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8653",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/4",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8662",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/5",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8672",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/6",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8681",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/7",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8692",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/8",
+    "yearStart": 1971,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8705",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/9",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8716",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/10",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8727",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/11",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8736",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/12",
+    "yearStart": 1973,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8746",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/13",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8758",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/14",
+    "yearStart": 1974,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8773",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/15",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8783",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/16",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8798",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/17",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8808",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/18",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8816",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/19",
+    "yearStart": 1976,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8822",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/20",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8828",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/21",
+    "yearStart": 1977,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8837",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/22",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8843",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/23",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8849",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/24",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8856",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/25",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8860",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/26",
+    "yearStart": 1979,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8865",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/27",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8872",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/28",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8880",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/29",
+    "yearStart": 1980,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8884",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/30",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8890",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/31",
+    "yearStart": 1981,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8896",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/32",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8902",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/33",
+    "yearStart": 1982,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8908",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/34",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8912",
+    "digitized": false
+  },
+  {
+    "place": "Neuilly-sur-Marne",
+    "cote": "2876W/35",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.seinesaintdenis.fr/archive/fonds/FRAD093_008169/view:8918",
     "digitized": false
   }
 ]
