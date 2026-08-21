@@ -3,7 +3,7 @@ import { buildLifeEvents, computeWaterfallLayout, getHistoricalWindow, packHisto
 import { FRENCH_HISTORICAL_TIMELINE } from './historical-timeline.js';
 import { escapeHtml } from './utils.js';
 
-const CATEGORY_LABELS = { monarque: 'Monarque', regime: 'Régime', president: 'Président', evenement: 'Événement historique' };
+export const CATEGORY_LABELS = { monarque: 'Monarque', regime: 'Régime', president: 'Président', evenement: 'Événement historique' };
 const MARGIN = { top: 64, right: 30, bottom: 30, left: 30 };
 const PX_PER_YEAR = 22;
 const LANE_HEIGHT = 22;
@@ -257,6 +257,7 @@ export class FriseChart {
             });
         }
 
-        if (this.onReady) this.onReady(this.person, life, placeColors.legend, hasUnknownPlace);
+        const historyCategories = new Set(historical.items.map(i => i.category));
+        if (this.onReady) this.onReady(this.person, life, placeColors.legend, hasUnknownPlace, historyCategories);
     }
 }

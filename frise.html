@@ -20,12 +20,7 @@
     <div id="friseUndated" class="frise-undated hidden"></div>
     <div id="legend" style="display:none">
         <div id="legendPlaces"></div>
-        <div id="legendHistory">
-            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-monarque)"></span>Monarque</div>
-            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-regime)"></span>Régime</div>
-            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-president)"></span>Président</div>
-            <div class="leg-item"><span class="dot" style="background:var(--frise-lane-evenement)"></span>Événement historique</div>
-        </div>
+        <div id="legendHistory"></div>
     </div>
     <div id="chartMessage" class="msg-info">
         <h2>Chargez un fichier GEDCOM</h2>
@@ -37,7 +32,7 @@
 
 <script type="module">
 import { bootstrap } from './assets/js/bootstrap.js';
-import { FriseChart } from './assets/js/frise.js';
+import { FriseChart, CATEGORY_LABELS } from './assets/js/frise.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml } from './assets/js/utils.js';
 
@@ -75,6 +70,17 @@ function renderPlaceLegend(placeLegend, hasUnknownPlace) {
     legendPlaces.innerHTML = items.join('');
 }
 
+// N'affiche que les catégories de contexte historique réellement présentes sur CETTE frise (ex: une
+// vie sous la seule Ve République n'a pas besoin d'un swatch "Monarque").
+function renderHistoryLegend(historyCategories) {
+    const cats = historyCategories || new Set();
+    legendHistory.innerHTML = Object.keys(CATEGORY_LABELS)
+        .filter(cat => cats.has(cat))
+        .map(cat => `<div class="leg-item"><span class="dot" style="background:var(--frise-lane-${cat})"></span>${escapeHtml(CATEGORY_LABELS[cat])}</div>`)
+        .join('');
+    return cats.size > 0;
+}
+
 function setupControls(controlsSlot) {
     controlsSlot.innerHTML = `
         <div class="ctrl" style="position:relative">
@@ -95,10 +101,11 @@ function setupControls(controlsSlot) {
 
     chart = new FriseChart('chart', {
         onEmpty: person => showMessage('msg-error', `<h2>Aucun événement daté</h2><p>${escapeHtml(person?.name || 'Cette personne')} n'a aucun événement avec une année connue.</p>`),
-        onReady: (person, life, placeLegend, hasUnknownPlace) => {
+        onReady: (person, life, placeLegend, hasUnknownPlace, historyCategories) => {
             chartMessage.classList.add('hidden');
             legend.style.display = 'block';
-            legendHistory.style.display = historyToggle.checked ? 'block' : 'none';
+            const hasHistory = renderHistoryLegend(historyCategories);
+            legendHistory.style.display = (historyToggle.checked && hasHistory) ? 'block' : 'none';
             renderPlaceLegend(placeLegend, hasUnknownPlace);
             renderUndated(life);
         }
