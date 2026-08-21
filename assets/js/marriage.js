@@ -293,8 +293,12 @@ export const MARRIAGE_DEPTS = {
         // un bug de scraping côté successions (voir DEPARTMENTS['93'] dans
         // scrape_successions_ligeo_anubis.py : le noeud recherché n'était pas toujours scopé aux
         // seules successions, une fiche "contrats de mariage" s'y était glissée à tort). Couverture
-        // probablement partielle : seules les pages déjà en cache pour les successions ont été
-        // repassées, pas une recherche dédiée sur les 9 autres bureaux.
+        // vérifiée comme complète dans la limite de ce que le portail expose : le cache successions
+        // couvre déjà les 10 bureaux (toutes leurs pages), aucun autre n'a de ligne "contrats de
+        // mariage" mêlée aux siennes ; l'arbre de classement (Domaines. Enregistrement. Hypothèques
+        // > Enregistrement et timbre) ne descend pas plus finement qu'un fonds par bureau sans sous-
+        // séries, et aucun noeud de recherche dédié aux contrats de mariage n'existe sur ce portail
+        // (seuls "sucession" et "notaire", ce dernier pour les minutes notariales brutes).
         minYear: 1747,
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_93.json',

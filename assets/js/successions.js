@@ -947,12 +947,17 @@ export const SUCCESSION_DEPTS = {
     '38': {
         label: 'Isère',
         kind: 'facet',
-        // Bornes réelles de la série (295 registres, 23 lieux sur 41 bureaux dépouillés, voir
+        // Bornes réelles de la série (493 registres, 39 lieux sur 41 bureaux, voir
         // scrape_successions_isere.py) - nouveau département pour ce projet, même famille que la
-        // Moselle (un PDF officiel par bureau, pas de tableau HTML par registre). Environ la moitié
-        // des PDF (les plus anciens, non re-numérisés récemment) ont un calque de texte corrompu
-        // par un filigrane entrelacé caractère par caractère avec le contenu réel, rendant
-        // l'extraction fiable impossible pour ces bureaux - non couverts pour l'instant.
+        // Moselle (un PDF officiel par bureau, pas de tableau HTML par registre). Les PDF les plus
+        // anciens ont un filigrane diagonal dont les caractères sont entrelacés avec le texte réel,
+        // mais dans une police radicalement plus grande (36-61pt contre 8.8-14pt) - filtré avant
+        // extraction (voir le filtre sur "size" dans extract_records) plutôt que de perdre ces
+        // bureaux. 2 bureaux non couverts pour de vraies raisons de fond (vérifié individuellement,
+        // pas un bug) : L'Isle-d'Abeau n'a fonctionné que de 1992 à 2004, sans table 3Q classique ;
+        // Monestier-de-Clermont, supprimé en 1924, n'a qu'un reliquat d'une seule cote "successions
+        // payées" (1812-1824) — sa vraie table doit être classée sous Vif ou Clelles, les bureaux
+        // qui lui ont succédé.
         minYear: 1791,
         maxYear: 1968,
         registersUrl: './assets/data/successions_38.json',

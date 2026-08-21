@@ -65,6 +65,7 @@ nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: c
 #chart:active { cursor: grabbing; }
 #chartMessage { position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); text-align: center; pointer-events: none; }
 #chartMessage.hidden { display: none; }
+#chartMessage a { pointer-events: auto; }
 #chartMessage h2 { margin: 0 0 8px; font-size: 1.2rem; font-weight: normal; }
 #chartMessage p { margin: 0; font-size: 0.85rem; }
 #chartMessage.msg-info { color: #aaa; }
