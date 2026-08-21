@@ -359,6 +359,19 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_88.json',
         catalogUrl: 'https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:23103',
     },
+    '74': {
+        label: 'Haute-Savoie',
+        // Bornes réelles de la série (18 registres, 12 lieux, voir
+        // scrape_contrats_mariage_haute_savoie.py) - même portail Ligeo Archives et même mode
+        // "typefilter" que les successions de ce département (DEPARTMENTS['74'] dans
+        // scrape_successions_ligeo_anubis.py) : un simple <select> à valeur littérale, substituée
+        // directement de "Table des successions et absences" à "Table des contrats de mariage"
+        // sans avoir besoin de découvrir un hash MD5 comme pour la plupart des autres départements.
+        minYear: 1809,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_74.json',
+        catalogUrl: 'https://archives.hautesavoie.fr/archive/resultats/enregistrement/n:154?RECH_type_registre=Table+des+contrats+de+mariage&type=enregistrement',
+    },
 };
 
 function fetchJson(url) {
