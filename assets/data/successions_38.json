@@ -1,0 +1,2362 @@
+[
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/493",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/494",
+    "yearStart": 1806,
+    "yearEnd": 1806,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/495",
+    "yearStart": 1806,
+    "yearEnd": 1813,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/496",
+    "yearStart": 1814,
+    "yearEnd": 1821,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/497",
+    "yearStart": 1821,
+    "yearEnd": 1829,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/498",
+    "yearStart": 1830,
+    "yearEnd": 1831,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/499",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/500",
+    "yearStart": 1833,
+    "yearEnd": 1840,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/501",
+    "yearStart": 1841,
+    "yearEnd": 1847,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/502",
+    "yearStart": 1847,
+    "yearEnd": 1854,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/503",
+    "yearStart": 1854,
+    "yearEnd": 1860,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/504",
+    "yearStart": 1860,
+    "yearEnd": 1866,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/505",
+    "yearStart": 1867,
+    "yearEnd": 1872,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/506",
+    "yearStart": 1872,
+    "yearEnd": 1881,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/507",
+    "yearStart": 1881,
+    "yearEnd": 1890,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/508",
+    "yearStart": 1891,
+    "yearEnd": 1896,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Pont-de-Beauvoisin",
+    "cote": "3 Q 18/585",
+    "yearStart": 1896,
+    "yearEnd": 1905,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-09/3q18_pont_de_beauvoisin.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/441",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/442",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/443",
+    "yearStart": 1812,
+    "yearEnd": 1820,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/444",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/445",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/446",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/447",
+    "yearStart": 1837,
+    "yearEnd": 1847,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/448",
+    "yearStart": 1847,
+    "yearEnd": 1857,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/449",
+    "yearStart": 1857,
+    "yearEnd": 1866,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/450",
+    "yearStart": 1866,
+    "yearEnd": 1878,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/451",
+    "yearStart": 1878,
+    "yearEnd": 1888,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/452",
+    "yearStart": 1888,
+    "yearEnd": 1901,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/453",
+    "yearStart": 1901,
+    "yearEnd": 1911,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/454",
+    "yearStart": 1912,
+    "yearEnd": 1920,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/455",
+    "yearStart": 1921,
+    "yearEnd": 1932,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/456",
+    "yearStart": 1933,
+    "yearEnd": 1947,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/530",
+    "yearStart": 1947,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/531",
+    "yearStart": 1958,
+    "yearEnd": 1963,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Beaurepaire",
+    "cote": "3Q2/532",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2024-11/3q2_beaurepaire.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/306",
+    "yearStart": 1806,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/307",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/308",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/309",
+    "yearStart": 1844,
+    "yearEnd": 1861,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/310",
+    "yearStart": 1861,
+    "yearEnd": 1872,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/311",
+    "yearStart": 1872,
+    "yearEnd": 1893,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/312",
+    "yearStart": 1894,
+    "yearEnd": 1921,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Allevard",
+    "cote": "3 Q 1/313",
+    "yearStart": 1921,
+    "yearEnd": 1934,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-03/3q1_allevard.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3310",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3311",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3312",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3313",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3314",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3315",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3316",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3317",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3318",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2230",
+    "yearStart": 1807,
+    "yearEnd": 1809,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2231",
+    "yearStart": 1810,
+    "yearEnd": 1816,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2232",
+    "yearStart": 1817,
+    "yearEnd": 1819,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2233",
+    "yearStart": 1820,
+    "yearEnd": 1822,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2234",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2236",
+    "yearStart": 1807,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2237",
+    "yearStart": 1818,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2238",
+    "yearStart": 1807,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2239",
+    "yearStart": 1818,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2240",
+    "yearStart": 1807,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/2241",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3493",
+    "yearStart": 1956,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3494",
+    "yearStart": 1957,
+    "yearEnd": 1958,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3495",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3496",
+    "yearStart": 1959,
+    "yearEnd": 1960,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3497",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Grenoble",
+    "cote": "3 Q 11/3498",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q11_grenoble_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Morestel",
+    "cote": "3 Q 16/556",
+    "yearStart": 1791,
+    "yearEnd": 1791,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q16_morestel_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Morestel",
+    "cote": "3 Q 16/666",
+    "yearStart": 1808,
+    "yearEnd": 1810,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q16_morestel_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Morestel",
+    "cote": "3 Q 16/667",
+    "yearStart": 1811,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q16_morestel_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Morestel",
+    "cote": "3 Q 16/668",
+    "yearStart": 1811,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q16_morestel_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/460",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/461",
+    "yearStart": 1813,
+    "yearEnd": 1818,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/462",
+    "yearStart": 1818,
+    "yearEnd": 1823,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/463",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/464",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/465",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/466",
+    "yearStart": 1838,
+    "yearEnd": 1842,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/467",
+    "yearStart": 1842,
+    "yearEnd": 1849,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/468",
+    "yearStart": 1849,
+    "yearEnd": 1855,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/469",
+    "yearStart": 1855,
+    "yearEnd": 1862,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/470",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/471",
+    "yearStart": 1869,
+    "yearEnd": 1877,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/472",
+    "yearStart": 1877,
+    "yearEnd": 1888,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/473",
+    "yearStart": 1888,
+    "yearEnd": 1900,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/474",
+    "yearStart": 1900,
+    "yearEnd": 1915,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-d'Oisans",
+    "cote": "3 Q 3/475",
+    "yearStart": 1915,
+    "yearEnd": 1925,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q3_bourg_oisans_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/920",
+    "yearStart": 1812,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/921",
+    "yearStart": 1818,
+    "yearEnd": 1823,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/922",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/923",
+    "yearStart": 1831,
+    "yearEnd": 1835,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/924",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/925",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/926",
+    "yearStart": 1846,
+    "yearEnd": 1851,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/927",
+    "yearStart": 1851,
+    "yearEnd": 1856,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/928",
+    "yearStart": 1857,
+    "yearEnd": 1863,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/929",
+    "yearStart": 1863,
+    "yearEnd": 1868,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/930",
+    "yearStart": 1868,
+    "yearEnd": 1873,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/931",
+    "yearStart": 1873,
+    "yearEnd": 1877,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/932",
+    "yearStart": 1877,
+    "yearEnd": 1883,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/933",
+    "yearStart": 1884,
+    "yearEnd": 1891,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/934",
+    "yearStart": 1891,
+    "yearEnd": 1898,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/935",
+    "yearStart": 1898,
+    "yearEnd": 1906,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/936",
+    "yearStart": 1907,
+    "yearEnd": 1912,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/937",
+    "yearStart": 1913,
+    "yearEnd": 1917,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/938",
+    "yearStart": 1918,
+    "yearEnd": 1923,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/939",
+    "yearStart": 1923,
+    "yearEnd": 1927,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/940",
+    "yearStart": 1928,
+    "yearEnd": 1933,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/941",
+    "yearStart": 1933,
+    "yearEnd": 1940,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1061",
+    "yearStart": 1940,
+    "yearEnd": 1944,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1062",
+    "yearStart": 1944,
+    "yearEnd": 1947,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1389",
+    "yearStart": 1948,
+    "yearEnd": 1951,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1390",
+    "yearStart": 1952,
+    "yearEnd": 1955,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1391",
+    "yearStart": 1956,
+    "yearEnd": 1958,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1392",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1393",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1394",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1395",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Bourgoin-Jallieu",
+    "cote": "3 Q 4/1396",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q4_bourgoin_jallieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/417",
+    "yearStart": 1792,
+    "yearEnd": 1807,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/418",
+    "yearStart": 1808,
+    "yearEnd": 1814,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/419",
+    "yearStart": 1814,
+    "yearEnd": 1818,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/420",
+    "yearStart": 1818,
+    "yearEnd": 1822,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/422",
+    "yearStart": 1822,
+    "yearEnd": 1823,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/421",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/423",
+    "yearStart": 1825,
+    "yearEnd": 1827,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/424",
+    "yearStart": 1845,
+    "yearEnd": 1850,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/425",
+    "yearStart": 1850,
+    "yearEnd": 1856,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Crémieu",
+    "cote": "3 Q 7/426",
+    "yearStart": 1856,
+    "yearEnd": 1862,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2025-10/3q7_cremieu_2025.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/409",
+    "yearStart": 1826,
+    "yearEnd": 1837,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/410",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/411",
+    "yearStart": 1844,
+    "yearEnd": 1851,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/412",
+    "yearStart": 1851,
+    "yearEnd": 1859,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/413",
+    "yearStart": 1859,
+    "yearEnd": 1866,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/414",
+    "yearStart": 1866,
+    "yearEnd": 1873,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/415",
+    "yearStart": 1873,
+    "yearEnd": 1881,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/416",
+    "yearStart": 1881,
+    "yearEnd": 1889,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/417",
+    "yearStart": 1889,
+    "yearEnd": 1898,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/418",
+    "yearStart": 1899,
+    "yearEnd": 1904,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/419",
+    "yearStart": 1905,
+    "yearEnd": 1913,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/420",
+    "yearStart": 1914,
+    "yearEnd": 1919,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/421",
+    "yearStart": 1920,
+    "yearEnd": 1926,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/422",
+    "yearStart": 1927,
+    "yearEnd": 1933,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/423",
+    "yearStart": 1934,
+    "yearEnd": 1942,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/440",
+    "yearStart": 1943,
+    "yearEnd": 1952,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/441",
+    "yearStart": 1953,
+    "yearEnd": 1962,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/442",
+    "yearStart": 1963,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Rives",
+    "cote": "3Q20/691",
+    "yearStart": 1956,
+    "yearEnd": 1965,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/2026-01/3q20_rives.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Heyrieux",
+    "cote": "3 Q 12/303",
+    "yearStart": 1793,
+    "yearEnd": 1793,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q12_HEYRIEUX.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/331",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/332",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/333",
+    "yearStart": 1825,
+    "yearEnd": 1839,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/334",
+    "yearStart": 1840,
+    "yearEnd": 1852,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/335",
+    "yearStart": 1852,
+    "yearEnd": 1863,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/336",
+    "yearStart": 1863,
+    "yearEnd": 1873,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/337",
+    "yearStart": 1873,
+    "yearEnd": 1887,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/338",
+    "yearStart": 1887,
+    "yearEnd": 1904,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/339",
+    "yearStart": 1904,
+    "yearEnd": 1924,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Mens",
+    "cote": "3 Q 13/340",
+    "yearStart": 1924,
+    "yearEnd": 1945,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q13_MENS_1.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/546",
+    "yearStart": 1821,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/547",
+    "yearStart": 1824,
+    "yearEnd": 1834,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/548",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/549",
+    "yearStart": 1841,
+    "yearEnd": 1849,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/550",
+    "yearStart": 1849,
+    "yearEnd": 1856,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/551",
+    "yearStart": 1856,
+    "yearEnd": 1863,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/552",
+    "yearStart": 1863,
+    "yearEnd": 1869,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/553",
+    "yearStart": 1869,
+    "yearEnd": 1876,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/554",
+    "yearStart": 1876,
+    "yearEnd": 1884,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/555",
+    "yearStart": 1884,
+    "yearEnd": 1892,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/556",
+    "yearStart": 1892,
+    "yearEnd": 1902,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/557",
+    "yearStart": 1902,
+    "yearEnd": 1912,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/558",
+    "yearStart": 1912,
+    "yearEnd": 1919,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/559",
+    "yearStart": 1919,
+    "yearEnd": 1927,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/560",
+    "yearStart": 1927,
+    "yearEnd": 1935,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/561",
+    "yearStart": 1935,
+    "yearEnd": 1943,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/686",
+    "yearStart": 1943,
+    "yearEnd": 1951,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/783",
+    "yearStart": 1951,
+    "yearEnd": 1959,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/784",
+    "yearStart": 1960,
+    "yearEnd": 1966,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "la Mure",
+    "cote": "3 Q 17/785",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q17_MURE_LA.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/333",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/334",
+    "yearStart": 1815,
+    "yearEnd": 1815,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/335",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/336",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/337",
+    "yearStart": 1834,
+    "yearEnd": 1840,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/338",
+    "yearStart": 1841,
+    "yearEnd": 1847,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/339",
+    "yearStart": 1848,
+    "yearEnd": 1854,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roussillon",
+    "cote": "3 Q 21/355",
+    "yearStart": 1867,
+    "yearEnd": 1868,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q21_ROUSSILLON_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Roybon",
+    "cote": "3 Q 22/223",
+    "yearStart": 1807,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q22_ROYBON.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/362",
+    "yearStart": 1817,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/363",
+    "yearStart": 1824,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/364",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/365",
+    "yearStart": 1838,
+    "yearEnd": 1846,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/366",
+    "yearStart": 1846,
+    "yearEnd": 1856,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/367",
+    "yearStart": 1856,
+    "yearEnd": 1863,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/368",
+    "yearStart": 1863,
+    "yearEnd": 1872,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/369",
+    "yearStart": 1872,
+    "yearEnd": 1886,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/370",
+    "yearStart": 1886,
+    "yearEnd": 1899,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/371",
+    "yearStart": 1899,
+    "yearEnd": 1914,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/372",
+    "yearStart": 1914,
+    "yearEnd": 1923,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne-de-Saint-Geoirs",
+    "cote": "3 Q 24/373",
+    "yearStart": 1924,
+    "yearEnd": 1937,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q24_SAINT_ETIENNE_DE_SAINT_GEOIRS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Geoire-en-Valdaine",
+    "cote": "3 Q 25/299",
+    "yearStart": 1808,
+    "yearEnd": 1808,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q25_SAINT-GEOIRE-EN-VALDAINE.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Geoire-en-Valdaine",
+    "cote": "3 Q 25/300",
+    "yearStart": 1808,
+    "yearEnd": 1811,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q25_SAINT-GEOIRE-EN-VALDAINE.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Laurent-du-Pont",
+    "cote": "3Q28/168",
+    "yearStart": 1808,
+    "yearEnd": 1808,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q28_SAINT_LAURENT_DU_PONT.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Laurent-du-Pont",
+    "cote": "3Q28/169",
+    "yearStart": 1808,
+    "yearEnd": 1818,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q28_SAINT_LAURENT_DU_PONT.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Laurent-du-Pont",
+    "cote": "3Q28/170",
+    "yearStart": 1808,
+    "yearEnd": 1818,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q28_SAINT_LAURENT_DU_PONT.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Laurent-du-Pont",
+    "cote": "3Q28/171",
+    "yearStart": 1808,
+    "yearEnd": 1819,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q28_SAINT_LAURENT_DU_PONT.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Laurent-du-Pont",
+    "cote": "3Q28/176",
+    "yearStart": 1818,
+    "yearEnd": 1818,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q28_SAINT_LAURENT_DU_PONT.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/793",
+    "yearStart": 1791,
+    "yearEnd": 1814,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/795",
+    "yearStart": 1816,
+    "yearEnd": 1822,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/796",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/797",
+    "yearStart": 1837,
+    "yearEnd": 1843,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/798",
+    "yearStart": 1843,
+    "yearEnd": 1848,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/799",
+    "yearStart": 1848,
+    "yearEnd": 1854,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/800",
+    "yearStart": 1854,
+    "yearEnd": 1860,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/801",
+    "yearStart": 1860,
+    "yearEnd": 1867,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/802",
+    "yearStart": 1867,
+    "yearEnd": 1873,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/803",
+    "yearStart": 1873,
+    "yearEnd": 1879,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/804",
+    "yearStart": 1879,
+    "yearEnd": 1886,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/805",
+    "yearStart": 1887,
+    "yearEnd": 1896,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/806",
+    "yearStart": 1896,
+    "yearEnd": 1904,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/807",
+    "yearStart": 1905,
+    "yearEnd": 1913,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/808",
+    "yearStart": 1913,
+    "yearEnd": 1919,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/809",
+    "yearStart": 1920,
+    "yearEnd": 1928,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/810",
+    "yearStart": 1929,
+    "yearEnd": 1934,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/811",
+    "yearStart": 1935,
+    "yearEnd": 1939,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/920",
+    "yearStart": 1940,
+    "yearEnd": 1944,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/1016",
+    "yearStart": 1945,
+    "yearEnd": 1950,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/1017",
+    "yearStart": 1951,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/1018",
+    "yearStart": 1958,
+    "yearEnd": 1964,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/1019",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Marcellin",
+    "cote": "3 Q 29/1020",
+    "yearStart": 1965,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q29_SAINT_MARCELLIN_2024.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/207",
+    "yearStart": 1808,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/208",
+    "yearStart": 1809,
+    "yearEnd": 1811,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/209",
+    "yearStart": 1807,
+    "yearEnd": 1811,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/210",
+    "yearStart": 1811,
+    "yearEnd": 1818,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/211",
+    "yearStart": 1818,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/212",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/213",
+    "yearStart": 1837,
+    "yearEnd": 1846,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/214",
+    "yearStart": 1846,
+    "yearEnd": 1863,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/215",
+    "yearStart": 1863,
+    "yearEnd": 1878,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/216",
+    "yearStart": 1878,
+    "yearEnd": 1898,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/217",
+    "yearStart": 1898,
+    "yearEnd": 1921,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Sassenage",
+    "cote": "3 Q 31/218",
+    "yearStart": 1921,
+    "yearEnd": 1933,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q31_SASSENAGE_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Villard-de-Lans",
+    "cote": "3 Q 38/204",
+    "yearStart": 1794,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q38_VILLARD-DE-LANS.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/381",
+    "yearStart": 1817,
+    "yearEnd": 1817,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/382",
+    "yearStart": 1818,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/383",
+    "yearStart": 1826,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/384",
+    "yearStart": 1808,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/385",
+    "yearStart": 1825,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/386",
+    "yearStart": 1808,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/387",
+    "yearStart": 1826,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/388",
+    "yearStart": 1826,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/389",
+    "yearStart": 1808,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/390",
+    "yearStart": 1826,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/391",
+    "yearStart": 1806,
+    "yearEnd": 1826,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/392",
+    "yearStart": 1878,
+    "yearEnd": 1883,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/393",
+    "yearStart": 1884,
+    "yearEnd": 1891,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/394",
+    "yearStart": 1892,
+    "yearEnd": 1899,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/395",
+    "yearStart": 1900,
+    "yearEnd": 1906,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/396",
+    "yearStart": 1907,
+    "yearEnd": 1911,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/397",
+    "yearStart": 1912,
+    "yearEnd": 1917,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/398",
+    "yearStart": 1918,
+    "yearEnd": 1923,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/399",
+    "yearStart": 1924,
+    "yearEnd": 1929,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/400",
+    "yearStart": 1930,
+    "yearEnd": 1936,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/482",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/483",
+    "yearStart": 1943,
+    "yearEnd": 1946,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/484",
+    "yearStart": 1947,
+    "yearEnd": 1950,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/485",
+    "yearStart": 1951,
+    "yearEnd": 1955,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/486",
+    "yearStart": 1956,
+    "yearEnd": 1958,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/487",
+    "yearStart": 1959,
+    "yearEnd": 1961,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/488",
+    "yearStart": 1962,
+    "yearEnd": 1964,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/489",
+    "yearStart": 1965,
+    "yearEnd": 1967,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Voiron",
+    "cote": "3Q43/490",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q43_VOIRON_2024_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Clelles",
+    "cote": "3Q44/46",
+    "yearStart": 1944,
+    "yearEnd": 1966,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q44_CLELLES_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Clelles",
+    "cote": "3Q44/47",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q44_CLELLES_0.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/416",
+    "yearStart": 1819,
+    "yearEnd": 1825,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/417",
+    "yearStart": 1821,
+    "yearEnd": 1824,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/418",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/419",
+    "yearStart": 1833,
+    "yearEnd": 1841,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/420",
+    "yearStart": 1841,
+    "yearEnd": 1851,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/421",
+    "yearStart": 1851,
+    "yearEnd": 1860,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/422",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/423",
+    "yearStart": 1870,
+    "yearEnd": 1882,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/424",
+    "yearStart": 1882,
+    "yearEnd": 1896,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/425",
+    "yearStart": 1896,
+    "yearEnd": 1915,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/426",
+    "yearStart": 1915,
+    "yearEnd": 1928,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/427",
+    "yearStart": 1928,
+    "yearEnd": 1940,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/671",
+    "yearStart": 1940,
+    "yearEnd": 1945,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/672",
+    "yearStart": 1945,
+    "yearEnd": 1950,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/673",
+    "yearStart": 1951,
+    "yearEnd": 1957,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/674",
+    "yearStart": 1958,
+    "yearEnd": 1964,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  },
+  {
+    "place": "Goncelin",
+    "cote": "3 Q 9/675",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.isere.fr/sites/isere-archives-fr/files/inline-files/3Q9_GONCELIN.pdf",
+    "digitized": false
+  }
+]

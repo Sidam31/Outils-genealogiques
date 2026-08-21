@@ -1,0 +1,3330 @@
+[
+  {
+    "place": "Ambrières",
+    "cote": "84Q20",
+    "yearStart": 1804,
+    "yearEnd": 1822,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-1",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q21",
+    "yearStart": 1822,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-2",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/1",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-3",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/2",
+    "yearStart": 1835,
+    "yearEnd": 1848,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-4",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/3",
+    "yearStart": 1848,
+    "yearEnd": 1856,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-5",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/4",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-6",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/5",
+    "yearStart": 1865,
+    "yearEnd": 1873,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-7",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/6",
+    "yearStart": 1873,
+    "yearEnd": 1886,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-8",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/7",
+    "yearStart": 1899,
+    "yearEnd": 1913,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-9",
+    "digitized": true
+  },
+  {
+    "place": "Ambrières",
+    "cote": "84Q2/8",
+    "yearStart": 1926,
+    "yearEnd": 1934,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-10",
+    "digitized": true
+  },
+  {
+    "place": "Argentré",
+    "cote": "88Q2/1",
+    "yearStart": 1885,
+    "yearEnd": 1906,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-11",
+    "digitized": true
+  },
+  {
+    "place": "Argentré",
+    "cote": "88Q2/2",
+    "yearStart": 1906,
+    "yearEnd": 1924,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-12",
+    "digitized": true
+  },
+  {
+    "place": "Argentré",
+    "cote": "88Q2/3",
+    "yearStart": 1925,
+    "yearEnd": 1926,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-13",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q49",
+    "yearStart": 1837,
+    "yearEnd": 1843,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-14",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q50",
+    "yearStart": 1843,
+    "yearEnd": 1848,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-15",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q51",
+    "yearStart": 1849,
+    "yearEnd": 1855,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-16",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q208",
+    "yearStart": 1855,
+    "yearEnd": 1859,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-17",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q209",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-18",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q210",
+    "yearStart": 1866,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-19",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q211",
+    "yearStart": 1871,
+    "yearEnd": 1879,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-20",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q212",
+    "yearStart": 1879,
+    "yearEnd": 1887,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-21",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q213",
+    "yearStart": 1888,
+    "yearEnd": 1896,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-22",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q372",
+    "yearStart": 1896,
+    "yearEnd": 1911,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-23",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q373",
+    "yearStart": 1911,
+    "yearEnd": 1926,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-24",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q374",
+    "yearStart": 1926,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-25",
+    "digitized": true
+  },
+  {
+    "place": "Bais",
+    "cote": "90Q374/2",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-26",
+    "digitized": true
+  },
+  {
+    "place": "Bierné",
+    "cote": "91Q11/1",
+    "yearStart": 1850,
+    "yearEnd": 1864,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-27",
+    "digitized": true
+  },
+  {
+    "place": "Bierné",
+    "cote": "91Q11/2",
+    "yearStart": 1865,
+    "yearEnd": 1877,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-28",
+    "digitized": true
+  },
+  {
+    "place": "Bierné",
+    "cote": "91Q11/3",
+    "yearStart": 1878,
+    "yearEnd": 1898,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-29",
+    "digitized": true
+  },
+  {
+    "place": "Bierné",
+    "cote": "91Q11/4",
+    "yearStart": 1899,
+    "yearEnd": 1920,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-30",
+    "digitized": true
+  },
+  {
+    "place": "Bierné",
+    "cote": "91Q11/5",
+    "yearStart": 1921,
+    "yearEnd": 1941,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-31",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/1",
+    "yearStart": 1863,
+    "yearEnd": 1873,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-32",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/2",
+    "yearStart": 1874,
+    "yearEnd": 1881,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-33",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/3",
+    "yearStart": 1882,
+    "yearEnd": 1893,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-34",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/4",
+    "yearStart": 1893,
+    "yearEnd": 1905,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-35",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/5",
+    "yearStart": 1905,
+    "yearEnd": 1917,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-36",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/6",
+    "yearStart": 1917,
+    "yearEnd": 1927,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-37",
+    "digitized": true
+  },
+  {
+    "place": "Chailland",
+    "cote": "92Q6/7",
+    "yearStart": 1927,
+    "yearEnd": 1938,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-38",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/1",
+    "yearStart": 1808,
+    "yearEnd": 1820,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-39",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/2",
+    "yearStart": 1821,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-40",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/3",
+    "yearStart": 1825,
+    "yearEnd": 1828,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-41",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/4",
+    "yearStart": 1829,
+    "yearEnd": 1832,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-42",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/5",
+    "yearStart": 1833,
+    "yearEnd": 1837,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-43",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/6",
+    "yearStart": 1838,
+    "yearEnd": 1843,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-44",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/7",
+    "yearStart": 1844,
+    "yearEnd": 1848,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-45",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/8",
+    "yearStart": 1849,
+    "yearEnd": 1852,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-46",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/9",
+    "yearStart": 1853,
+    "yearEnd": 1857,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-47",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/10",
+    "yearStart": 1857,
+    "yearEnd": 1862,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-48",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/11",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-49",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/12",
+    "yearStart": 1866,
+    "yearEnd": 1870,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-50",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/13",
+    "yearStart": 1871,
+    "yearEnd": 1876,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-51",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/14",
+    "yearStart": 1876,
+    "yearEnd": 1882,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-52",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/15",
+    "yearStart": 1882,
+    "yearEnd": 1887,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-53",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/16",
+    "yearStart": 1887,
+    "yearEnd": 1894,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-54",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/17",
+    "yearStart": 1894,
+    "yearEnd": 1900,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-55",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/18",
+    "yearStart": 1901,
+    "yearEnd": 1909,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-56",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/19",
+    "yearStart": 1909,
+    "yearEnd": 1915,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-57",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/20",
+    "yearStart": 1915,
+    "yearEnd": 1920,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-58",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/21",
+    "yearStart": 1920,
+    "yearEnd": 1926,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-59",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/22",
+    "yearStart": 1926,
+    "yearEnd": 1934,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-60",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/23",
+    "yearStart": 1933,
+    "yearEnd": 1941,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-61",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/27",
+    "yearStart": 1953,
+    "yearEnd": 1958,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-65",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/28",
+    "yearStart": 1959,
+    "yearEnd": 1964,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-66",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/29",
+    "yearStart": 1964,
+    "yearEnd": 1966,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-67",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/30",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-68",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/31",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-69",
+    "digitized": true
+  },
+  {
+    "place": "Château-Gontier",
+    "cote": "96Q9/32",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-70",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q21",
+    "yearStart": 1802,
+    "yearEnd": 1819,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-71",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q22",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-72",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/1",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-73",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/2",
+    "yearStart": 1829,
+    "yearEnd": 1836,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-74",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/3",
+    "yearStart": 1836,
+    "yearEnd": 1842,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-75",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/4",
+    "yearStart": 1842,
+    "yearEnd": 1847,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-76",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/5",
+    "yearStart": 1847,
+    "yearEnd": 1852,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-77",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/6",
+    "yearStart": 1853,
+    "yearEnd": 1859,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-78",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/7",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-79",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/8",
+    "yearStart": 1866,
+    "yearEnd": 1872,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-80",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/9",
+    "yearStart": 1872,
+    "yearEnd": 1881,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-81",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/10",
+    "yearStart": 1881,
+    "yearEnd": 1894,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-82",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/11",
+    "yearStart": 1894,
+    "yearEnd": 1911,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-83",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/12",
+    "yearStart": 1912,
+    "yearEnd": 1923,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-84",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/13",
+    "yearStart": 1923,
+    "yearEnd": 1937,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-85",
+    "digitized": true
+  },
+  {
+    "place": "Cossé-le-Vivien",
+    "cote": "102Q2/14",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-86",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/1",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-87",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/2",
+    "yearStart": 1846,
+    "yearEnd": 1854,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-88",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/3",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-89",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/4",
+    "yearStart": 1860,
+    "yearEnd": 1869,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-90",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "3Mi1",
+    "yearStart": 1869,
+    "yearEnd": 1874,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-91",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/5",
+    "yearStart": 1875,
+    "yearEnd": 1886,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-92",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/6",
+    "yearStart": 1886,
+    "yearEnd": 1899,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-93",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/7",
+    "yearStart": 1900,
+    "yearEnd": 1917,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-94",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/8",
+    "yearStart": 1917,
+    "yearEnd": 1929,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-95",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105Q2/9",
+    "yearStart": 1929,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-96",
+    "digitized": true
+  },
+  {
+    "place": "Couptrain",
+    "cote": "105 Q2/10",
+    "yearStart": 1951,
+    "yearEnd": 1959,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-97",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q17",
+    "yearStart": 1799,
+    "yearEnd": 1809,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-98",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/1",
+    "yearStart": 1810,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-99",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/2",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-100",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/3",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-101",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/4",
+    "yearStart": 1838,
+    "yearEnd": 1845,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-102",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/5",
+    "yearStart": 1846,
+    "yearEnd": 1853,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-103",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/6",
+    "yearStart": 1853,
+    "yearEnd": 1859,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-104",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/7",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-105",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/8",
+    "yearStart": 1865,
+    "yearEnd": 1872,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-106",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/9",
+    "yearStart": 1873,
+    "yearEnd": 1885,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-107",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/10",
+    "yearStart": 1885,
+    "yearEnd": 1899,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-108",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/11",
+    "yearStart": 1899,
+    "yearEnd": 1910,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-109",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/12",
+    "yearStart": 1911,
+    "yearEnd": 1920,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-110",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/13",
+    "yearStart": 1921,
+    "yearEnd": 1930,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-111",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/14",
+    "yearStart": 1930,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-112",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/15",
+    "yearStart": 1942,
+    "yearEnd": 1946,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-113",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/16",
+    "yearStart": 1947,
+    "yearEnd": 1951,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-114",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/17",
+    "yearStart": 1951,
+    "yearEnd": 1955,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-115",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/18",
+    "yearStart": 1955,
+    "yearEnd": 1959,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-116",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/19",
+    "yearStart": 1960,
+    "yearEnd": 1963,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-117",
+    "digitized": true
+  },
+  {
+    "place": "Craon",
+    "cote": "110Q2/20",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-118",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q17",
+    "yearStart": 1801,
+    "yearEnd": 1809,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-119",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q18",
+    "yearStart": 1810,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-121",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/2",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-122",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/3",
+    "yearStart": 1833,
+    "yearEnd": 1842,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-123",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/4",
+    "yearStart": 1842,
+    "yearEnd": 1849,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-124",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/5",
+    "yearStart": 1849,
+    "yearEnd": 1855,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-125",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/6",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-126",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/7",
+    "yearStart": 1860,
+    "yearEnd": 1866,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-127",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/8",
+    "yearStart": 1866,
+    "yearEnd": 1869,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-128",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/9",
+    "yearStart": 1870,
+    "yearEnd": 1875,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-129",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/10",
+    "yearStart": 1875,
+    "yearEnd": 1884,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-130",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/11",
+    "yearStart": 1884,
+    "yearEnd": 1896,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-131",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/12",
+    "yearStart": 1896,
+    "yearEnd": 1908,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-132",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/13",
+    "yearStart": 1908,
+    "yearEnd": 1916,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-133",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/14",
+    "yearStart": 1916,
+    "yearEnd": 1924,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-134",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/15",
+    "yearStart": 1924,
+    "yearEnd": 1932,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-135",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/16",
+    "yearStart": 1932,
+    "yearEnd": 1943,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-136",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/17",
+    "yearStart": 1943,
+    "yearEnd": 1959,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-419",
+    "digitized": true
+  },
+  {
+    "place": "Ernée",
+    "cote": "116Q2/18",
+    "yearStart": 1959,
+    "yearEnd": 1965,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-420",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q26",
+    "yearStart": 1802,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-137",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q27",
+    "yearStart": 1810,
+    "yearEnd": 1821,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-138",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q28",
+    "yearStart": 1821,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-139",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q35",
+    "yearStart": 1828,
+    "yearEnd": 1832,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-140",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q36",
+    "yearStart": 1833,
+    "yearEnd": 1837,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-141",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q37",
+    "yearStart": 1837,
+    "yearEnd": 1842,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-142",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q38",
+    "yearStart": 1842,
+    "yearEnd": 1847,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-143",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q39",
+    "yearStart": 1847,
+    "yearEnd": 1851,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-144",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q40",
+    "yearStart": 1851,
+    "yearEnd": 1856,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-145",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q60",
+    "yearStart": 1857,
+    "yearEnd": 1860,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-146",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q61",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-147",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q62",
+    "yearStart": 1865,
+    "yearEnd": 1870,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-148",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q63",
+    "yearStart": 1870,
+    "yearEnd": 1874,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-149",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q64",
+    "yearStart": 1874,
+    "yearEnd": 1879,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-150",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q65",
+    "yearStart": 1879,
+    "yearEnd": 1887,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-151",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q66",
+    "yearStart": 1887,
+    "yearEnd": 1897,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-152",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q67",
+    "yearStart": 1897,
+    "yearEnd": 1905,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-153",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q68",
+    "yearStart": 1905,
+    "yearEnd": 1916,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-154",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q69",
+    "yearStart": 1916,
+    "yearEnd": 1925,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-155",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123Q70",
+    "yearStart": 1925,
+    "yearEnd": 1936,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-156",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123 Q 71",
+    "yearStart": 1937,
+    "yearEnd": 1945,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-157",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123 Q 72",
+    "yearStart": 1945,
+    "yearEnd": 1949,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-158",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123 Q 73",
+    "yearStart": 1950,
+    "yearEnd": 1956,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-159",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123 Q 74",
+    "yearStart": 1957,
+    "yearEnd": 1964,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-160",
+    "digitized": true
+  },
+  {
+    "place": "Évron",
+    "cote": "123 Q 75",
+    "yearStart": 1964,
+    "yearEnd": 1967,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-161",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q11",
+    "yearStart": 1799,
+    "yearEnd": 1812,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-162",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q12",
+    "yearStart": 1812,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-163",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/1",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-164",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/2",
+    "yearStart": 1830,
+    "yearEnd": 1837,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-165",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/3",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-166",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/4",
+    "yearStart": 1844,
+    "yearEnd": 1850,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-167",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/5",
+    "yearStart": 1850,
+    "yearEnd": 1856,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-168",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/6",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-169",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/7",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-170",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/8",
+    "yearStart": 1865,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-171",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/9",
+    "yearStart": 1872,
+    "yearEnd": 1882,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-172",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/10",
+    "yearStart": 1882,
+    "yearEnd": 1895,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-173",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/11",
+    "yearStart": 1895,
+    "yearEnd": 1910,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-174",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/12",
+    "yearStart": 1910,
+    "yearEnd": 1920,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-175",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/13",
+    "yearStart": 1920,
+    "yearEnd": 1931,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-176",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/14",
+    "yearStart": 1931,
+    "yearEnd": 1945,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-177",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/15",
+    "yearStart": 1945,
+    "yearEnd": 1954,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-178",
+    "digitized": true
+  },
+  {
+    "place": "Gorron",
+    "cote": "129Q2/16",
+    "yearStart": 1955,
+    "yearEnd": 1961,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-179",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/1",
+    "yearStart": 1824,
+    "yearEnd": 1831,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-180",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/2",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-181",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/3",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-182",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/4",
+    "yearStart": 1844,
+    "yearEnd": 1849,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-183",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/5",
+    "yearStart": 1850,
+    "yearEnd": 1856,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-184",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/6",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-185",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/7",
+    "yearStart": 1865,
+    "yearEnd": 1875,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-186",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/8",
+    "yearStart": 1875,
+    "yearEnd": 1883,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-187",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/9",
+    "yearStart": 1883,
+    "yearEnd": 1897,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-188",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/10",
+    "yearStart": 1897,
+    "yearEnd": 1916,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-189",
+    "digitized": true
+  },
+  {
+    "place": "Grez-en-Bouère",
+    "cote": "136Q2/11",
+    "yearStart": 1916,
+    "yearEnd": 1934,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-190",
+    "digitized": true
+  },
+  {
+    "place": "Bureau du Horps",
+    "cote": "139Q6/1",
+    "yearStart": 1861,
+    "yearEnd": 1873,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-191",
+    "digitized": true
+  },
+  {
+    "place": "Bureau du Horps",
+    "cote": "139Q6/2",
+    "yearStart": 1873,
+    "yearEnd": 1887,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-192",
+    "digitized": true
+  },
+  {
+    "place": "Bureau du Horps",
+    "cote": "139Q6/3",
+    "yearStart": 1887,
+    "yearEnd": 1904,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-193",
+    "digitized": true
+  },
+  {
+    "place": "Bureau du Horps",
+    "cote": "139Q6/4",
+    "yearStart": 1904,
+    "yearEnd": 1924,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-194",
+    "digitized": true
+  },
+  {
+    "place": "Bureau du Horps",
+    "cote": "139Q6/5",
+    "yearStart": 1924,
+    "yearEnd": 1935,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-195",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/1",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-196",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/2",
+    "yearStart": 1866,
+    "yearEnd": 1876,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-197",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/3",
+    "yearStart": 1877,
+    "yearEnd": 1892,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-198",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/4",
+    "yearStart": 1892,
+    "yearEnd": 1906,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-199",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/5",
+    "yearStart": 1906,
+    "yearEnd": 1920,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-200",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/6",
+    "yearStart": 1920,
+    "yearEnd": 1931,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-201",
+    "digitized": true
+  },
+  {
+    "place": "Landivy",
+    "cote": "142Q2/7",
+    "yearStart": 1931,
+    "yearEnd": 1943,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-202",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q42",
+    "yearStart": 1790,
+    "yearEnd": 1808,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-203",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q43",
+    "yearStart": 1809,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-204",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q44",
+    "yearStart": 1825,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-205",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/1",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-206",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/2",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-207",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/3",
+    "yearStart": 1866,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-208",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/4",
+    "yearStart": 1871,
+    "yearEnd": 1885,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-209",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/5",
+    "yearStart": 1885,
+    "yearEnd": 1899,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-210",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/6",
+    "yearStart": 1899,
+    "yearEnd": 1920,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-211",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/7",
+    "yearStart": 1921,
+    "yearEnd": 1935,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-212",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/8",
+    "yearStart": 1936,
+    "yearEnd": 1947,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-213",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/9",
+    "yearStart": 1947,
+    "yearEnd": 1963,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-214",
+    "digitized": true
+  },
+  {
+    "place": "Lassay",
+    "cote": "147Q2/10",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-215",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q48",
+    "yearStart": 1793,
+    "yearEnd": 1803,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-216",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q49",
+    "yearStart": 1803,
+    "yearEnd": 1808,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-217",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q50",
+    "yearStart": 1808,
+    "yearEnd": 1812,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-218",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q51",
+    "yearStart": 1812,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-219",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q52",
+    "yearStart": 1818,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-220",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q53",
+    "yearStart": 1821,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-221",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q54",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-222",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q55",
+    "yearStart": 1831,
+    "yearEnd": 1835,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-223",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q56",
+    "yearStart": 1835,
+    "yearEnd": 1839,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-224",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q57",
+    "yearStart": 1840,
+    "yearEnd": 1843,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-225",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q58",
+    "yearStart": 1843,
+    "yearEnd": 1846,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-226",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q59",
+    "yearStart": 1847,
+    "yearEnd": 1849,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-227",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q60",
+    "yearStart": 1849,
+    "yearEnd": 1851,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-228",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q61",
+    "yearStart": 1852,
+    "yearEnd": 1854,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-229",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q62",
+    "yearStart": 1855,
+    "yearEnd": 1857,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-230",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q63",
+    "yearStart": 1857,
+    "yearEnd": 1859,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-231",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q64",
+    "yearStart": 1860,
+    "yearEnd": 1862,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-232",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q65",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-233",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q70",
+    "yearStart": 1866,
+    "yearEnd": 1868,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-234",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q71",
+    "yearStart": 1869,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-235",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q72",
+    "yearStart": 1871,
+    "yearEnd": 1873,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-236",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q73",
+    "yearStart": 1874,
+    "yearEnd": 1877,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-237",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q74",
+    "yearStart": 1877,
+    "yearEnd": 1880,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-238",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q75",
+    "yearStart": 1880,
+    "yearEnd": 1884,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-239",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q76",
+    "yearStart": 1884,
+    "yearEnd": 1887,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-240",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q77",
+    "yearStart": 1887,
+    "yearEnd": 1889,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-241",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q78",
+    "yearStart": 1890,
+    "yearEnd": 1892,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-242",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q79",
+    "yearStart": 1893,
+    "yearEnd": 1896,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-243",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q80",
+    "yearStart": 1896,
+    "yearEnd": 1900,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-244",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q81",
+    "yearStart": 1900,
+    "yearEnd": 1904,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-245",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q82",
+    "yearStart": 1904,
+    "yearEnd": 1907,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-246",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q83",
+    "yearStart": 1908,
+    "yearEnd": 1910,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-247",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q84",
+    "yearStart": 1911,
+    "yearEnd": 1913,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-248",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q85",
+    "yearStart": 1914,
+    "yearEnd": 1916,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-249",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q86",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-250",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q87",
+    "yearStart": 1918,
+    "yearEnd": 1921,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-251",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q88",
+    "yearStart": 1921,
+    "yearEnd": 1923,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-252",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q89",
+    "yearStart": 1924,
+    "yearEnd": 1926,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-253",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q90",
+    "yearStart": 1927,
+    "yearEnd": 1929,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-254",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q91",
+    "yearStart": 1929,
+    "yearEnd": 1931,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-255",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q92",
+    "yearStart": 1932,
+    "yearEnd": 1934,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-256",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q93",
+    "yearStart": 1934,
+    "yearEnd": 1937,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-257",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q94",
+    "yearStart": 1937,
+    "yearEnd": 1939,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-258",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q95",
+    "yearStart": 1939,
+    "yearEnd": 1940,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-259",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q96",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-260",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q97",
+    "yearStart": 1943,
+    "yearEnd": 1944,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-261",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q98",
+    "yearStart": 1945,
+    "yearEnd": 1946,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-262",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q99",
+    "yearStart": 1947,
+    "yearEnd": 1948,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-263",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q100",
+    "yearStart": 1949,
+    "yearEnd": 1950,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-264",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q101",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-265",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q102",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-266",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q103",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-267",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q104",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-268",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q105",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-269",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q106",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-270",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q107",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-271",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q108",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-272",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q109",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-273",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q110",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-274",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q111",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-275",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q112",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-276",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q113",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-277",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q114",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-278",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q115",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-279",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q116",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-280",
+    "digitized": true
+  },
+  {
+    "place": "Laval",
+    "cote": "156Q117",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-281",
+    "digitized": true
+  },
+  {
+    "place": "Loiron",
+    "cote": "162Q2/1",
+    "yearStart": 1887,
+    "yearEnd": 1899,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-282",
+    "digitized": true
+  },
+  {
+    "place": "Loiron",
+    "cote": "162Q2/2",
+    "yearStart": 1899,
+    "yearEnd": 1913,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-283",
+    "digitized": true
+  },
+  {
+    "place": "Loiron",
+    "cote": "162Q2/3",
+    "yearStart": 1913,
+    "yearEnd": 1925,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-284",
+    "digitized": true
+  },
+  {
+    "place": "Loiron",
+    "cote": "162Q2/4",
+    "yearStart": 1925,
+    "yearEnd": 1937,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-285",
+    "digitized": true
+  },
+  {
+    "place": "Loiron",
+    "cote": "162Q2/5",
+    "yearStart": 1937,
+    "yearEnd": 1943,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-286",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q44",
+    "yearStart": 1800,
+    "yearEnd": 1813,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-287",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q45",
+    "yearStart": 1800,
+    "yearEnd": 1813,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-288",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q46",
+    "yearStart": 1800,
+    "yearEnd": 1813,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-289",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q47",
+    "yearStart": 1800,
+    "yearEnd": 1813,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-290",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q48",
+    "yearStart": 1813,
+    "yearEnd": 1821,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-291",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q49",
+    "yearStart": 1821,
+    "yearEnd": 1825,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-292",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/1",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-293",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/2",
+    "yearStart": 1829,
+    "yearEnd": 1837,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-294",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/3",
+    "yearStart": 1837,
+    "yearEnd": 1844,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-295",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/4",
+    "yearStart": 1844,
+    "yearEnd": 1848,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-296",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/5",
+    "yearStart": 1848,
+    "yearEnd": 1852,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-297",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/6",
+    "yearStart": 1853,
+    "yearEnd": 1856,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-298",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/7",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-299",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/8",
+    "yearStart": 1860,
+    "yearEnd": 1864,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-300",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/9",
+    "yearStart": 1864,
+    "yearEnd": 1867,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-301",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/10",
+    "yearStart": 1867,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-302",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/11",
+    "yearStart": 1871,
+    "yearEnd": 1873,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-303",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/12",
+    "yearStart": 1873,
+    "yearEnd": 1877,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-304",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/13",
+    "yearStart": 1877,
+    "yearEnd": 1882,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-305",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/14",
+    "yearStart": 1882,
+    "yearEnd": 1887,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-306",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/15",
+    "yearStart": 1887,
+    "yearEnd": 1892,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-307",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/16",
+    "yearStart": 1892,
+    "yearEnd": 1897,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-308",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/17",
+    "yearStart": 1897,
+    "yearEnd": 1903,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-309",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/18",
+    "yearStart": 1903,
+    "yearEnd": 1907,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-310",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/19",
+    "yearStart": 1907,
+    "yearEnd": 1910,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-311",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/20",
+    "yearStart": 1910,
+    "yearEnd": 1915,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-312",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/21",
+    "yearStart": 1915,
+    "yearEnd": 1918,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-313",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/22",
+    "yearStart": 1918,
+    "yearEnd": 1922,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-314",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/23",
+    "yearStart": 1922,
+    "yearEnd": 1927,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-315",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/24",
+    "yearStart": 1927,
+    "yearEnd": 1932,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-316",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/25",
+    "yearStart": 1932,
+    "yearEnd": 1937,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-317",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/26",
+    "yearStart": 1938,
+    "yearEnd": 1941,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-318",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/27",
+    "yearStart": 1941,
+    "yearEnd": 1945,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-319",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/28",
+    "yearStart": 1946,
+    "yearEnd": 1949,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-320",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/29",
+    "yearStart": 1949,
+    "yearEnd": 1951,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-321",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/30",
+    "yearStart": 1952,
+    "yearEnd": 1955,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-322",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/31",
+    "yearStart": 1955,
+    "yearEnd": 1959,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-323",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/32",
+    "yearStart": 1959,
+    "yearEnd": 1961,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-324",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/33",
+    "yearStart": 1961,
+    "yearEnd": 1965,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-325",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/34",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-326",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/35",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-327",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/36",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-328",
+    "digitized": true
+  },
+  {
+    "place": "Mayenne",
+    "cote": "166Q2/37",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-329",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q16",
+    "yearStart": 1809,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-330",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q17",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-331",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q18",
+    "yearStart": 1839,
+    "yearEnd": 1851,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-332",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q19",
+    "yearStart": 1851,
+    "yearEnd": 1861,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-333",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q20",
+    "yearStart": 1861,
+    "yearEnd": 1872,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-334",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q21",
+    "yearStart": 1872,
+    "yearEnd": 1880,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-335",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q22",
+    "yearStart": 1880,
+    "yearEnd": 1894,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-336",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q23",
+    "yearStart": 1894,
+    "yearEnd": 1914,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-337",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q24",
+    "yearStart": 1915,
+    "yearEnd": 1928,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-338",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q25",
+    "yearStart": 1928,
+    "yearEnd": 1941,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-339",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q26",
+    "yearStart": 1941,
+    "yearEnd": 1951,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-340",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q27",
+    "yearStart": 1951,
+    "yearEnd": 1956,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-341",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q28",
+    "yearStart": 1957,
+    "yearEnd": 1965,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-342",
+    "digitized": true
+  },
+  {
+    "place": "Meslay",
+    "cote": "173Q29",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-343",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/3",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-344",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/4",
+    "yearStart": 1865,
+    "yearEnd": 1872,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-345",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/5",
+    "yearStart": 1873,
+    "yearEnd": 1882,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-346",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/6",
+    "yearStart": 1882,
+    "yearEnd": 1892,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-347",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/7",
+    "yearStart": 1892,
+    "yearEnd": 1907,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-348",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/8",
+    "yearStart": 1907,
+    "yearEnd": 1925,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-349",
+    "digitized": true
+  },
+  {
+    "place": "Montsûrs",
+    "cote": "177Q2/9",
+    "yearStart": 1925,
+    "yearEnd": 1935,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-350",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q24",
+    "yearStart": 1800,
+    "yearEnd": 1807,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-351",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q25",
+    "yearStart": 1807,
+    "yearEnd": 1812,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-352",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q26",
+    "yearStart": 1812,
+    "yearEnd": 1818,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-353",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/2",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-354",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/3",
+    "yearStart": 1832,
+    "yearEnd": 1836,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-355",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/4",
+    "yearStart": 1837,
+    "yearEnd": 1842,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-356",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/5",
+    "yearStart": 1843,
+    "yearEnd": 1851,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-357",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/6",
+    "yearStart": 1851,
+    "yearEnd": 1859,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-358",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/7",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-359",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/8",
+    "yearStart": 1871,
+    "yearEnd": 1886,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-360",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/9",
+    "yearStart": 1886,
+    "yearEnd": 1900,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-361",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/10",
+    "yearStart": 1900,
+    "yearEnd": 1918,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-362",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/11",
+    "yearStart": 1918,
+    "yearEnd": 1930,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-363",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/12",
+    "yearStart": 1930,
+    "yearEnd": 1944,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-364",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/13",
+    "yearStart": 1944,
+    "yearEnd": 1951,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-365",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/15",
+    "yearStart": 1960,
+    "yearEnd": 1964,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-366",
+    "digitized": true
+  },
+  {
+    "place": "Pré-en-Pail",
+    "cote": "184Q2/16",
+    "yearStart": 1964,
+    "yearEnd": 1967,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-367",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/1",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-368",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/2",
+    "yearStart": 1866,
+    "yearEnd": 1874,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-369",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/3",
+    "yearStart": 1879,
+    "yearEnd": 1895,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-370",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/4",
+    "yearStart": 1896,
+    "yearEnd": 1914,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-371",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/5",
+    "yearStart": 1914,
+    "yearEnd": 1925,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-372",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/6",
+    "yearStart": 1925,
+    "yearEnd": 1939,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-373",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Aignan-sur-Roë",
+    "cote": "188Q6/7",
+    "yearStart": 1939,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-374",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q17",
+    "yearStart": 1801,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-375",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q18",
+    "yearStart": 1803,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-376",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q19",
+    "yearStart": 1810,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-377",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q21",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-378",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q22",
+    "yearStart": 1829,
+    "yearEnd": 1834,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-379",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q23",
+    "yearStart": 1834,
+    "yearEnd": 1839,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-380",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q24",
+    "yearStart": 1839,
+    "yearEnd": 1843,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-381",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q25",
+    "yearStart": 1843,
+    "yearEnd": 1847,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-382",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q26",
+    "yearStart": 1847,
+    "yearEnd": 1851,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-383",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q27",
+    "yearStart": 1851,
+    "yearEnd": 1854,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-384",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q28",
+    "yearStart": 1854,
+    "yearEnd": 1858,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-385",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q29",
+    "yearStart": 1858,
+    "yearEnd": 1861,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-386",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q30",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-387",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q31",
+    "yearStart": 1865,
+    "yearEnd": 1868,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-388",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q32",
+    "yearStart": 1868,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-389",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q33",
+    "yearStart": 1871,
+    "yearEnd": 1875,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-390",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Ouen-des-Toits",
+    "cote": "192Q34",
+    "yearStart": 1875,
+    "yearEnd": 1886,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-391",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Suzanne",
+    "cote": "196Q10",
+    "yearStart": 1808,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-392",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Suzanne",
+    "cote": "196Q12",
+    "yearStart": 1863,
+    "yearEnd": 1876,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-393",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Suzanne",
+    "cote": "196Q13",
+    "yearStart": 1876,
+    "yearEnd": 1892,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-394",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Suzanne",
+    "cote": "196Q14",
+    "yearStart": 1893,
+    "yearEnd": 1907,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-395",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Suzanne",
+    "cote": "196Q15",
+    "yearStart": 1907,
+    "yearEnd": 1929,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-396",
+    "digitized": true
+  },
+  {
+    "place": "Sainte-Suzanne",
+    "cote": "196Q16",
+    "yearStart": 1930,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-397",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q14",
+    "yearStart": 1791,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-398",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q15",
+    "yearStart": 1804,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-399",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q16",
+    "yearStart": 1804,
+    "yearEnd": 1810,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-400",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q17",
+    "yearStart": 1810,
+    "yearEnd": 1823,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-401",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q22",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-402",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q23",
+    "yearStart": 1835,
+    "yearEnd": 1842,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-403",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q24",
+    "yearStart": 1843,
+    "yearEnd": 1851,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-404",
+    "digitized": true
+  },
+  {
+    "place": "Soulgé-le-Bruant",
+    "cote": "202Q33",
+    "yearStart": 1852,
+    "yearEnd": 1859,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-405",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q27",
+    "yearStart": 1810,
+    "yearEnd": 1817,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-406",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q28",
+    "yearStart": 1817,
+    "yearEnd": 1824,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-407",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/1",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-408",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/2",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-409",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/3",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-410",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/4",
+    "yearStart": 1845,
+    "yearEnd": 1854,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-411",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/5",
+    "yearStart": 1854,
+    "yearEnd": 1863,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-412",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/6",
+    "yearStart": 1863,
+    "yearEnd": 1871,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-413",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/8",
+    "yearStart": 1881,
+    "yearEnd": 1893,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-414",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/9",
+    "yearStart": 1893,
+    "yearEnd": 1907,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-415",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/10",
+    "yearStart": 1907,
+    "yearEnd": 1919,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-416",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/11",
+    "yearStart": 1919,
+    "yearEnd": 1931,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-417",
+    "digitized": true
+  },
+  {
+    "place": "Villaines-la-Juhel",
+    "cote": "206Q2/12",
+    "yearStart": 1931,
+    "yearEnd": 1942,
+    "url": "https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_de-418",
+    "digitized": true
+  }
+]

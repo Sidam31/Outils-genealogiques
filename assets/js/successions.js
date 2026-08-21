@@ -925,6 +925,35 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_14.json',
         catalogUrl: 'https://archives.calvados.fr/search/results?q=tables+successions+et+absences&scope=all&mode=table',
     },
+    '53': {
+        label: 'Mayenne',
+        kind: 'facet',
+        // Bornes réelles de la série (416 registres, 27 lieux — tous les bureaux, voir
+        // scrape_successions_mayenne.py) - nouveau département pour ce projet, portail Pleade
+        // (visionneuse EAD, logiciel non identifié ailleurs dans ce projet) entièrement scopé à
+        // cette seule série ("Fonds de l'Enregistrement - Tables des successions et absences",
+        // FRAD053_2NUM099_RM) - pas de sous-séries voisines à filtrer, contrairement à la plupart
+        // des autres départements. Aucun lien direct vers l'image par registre, mais le fonds
+        // "2NUM" (numérisation) est numérisé dans son ensemble.
+        minYear: 1790,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_53.json',
+        catalogUrl: 'https://archives.lamayenne.fr/pleade/ead.html?id=FRAD053_2NUM099_RM&c=FRAD053_2NUM099_RM_e0000018',
+    },
+    '38': {
+        label: 'Isère',
+        kind: 'facet',
+        // Bornes réelles de la série (295 registres, 23 lieux sur 41 bureaux dépouillés, voir
+        // scrape_successions_isere.py) - nouveau département pour ce projet, même famille que la
+        // Moselle (un PDF officiel par bureau, pas de tableau HTML par registre). Environ la moitié
+        // des PDF (les plus anciens, non re-numérisés récemment) ont un calque de texte corrompu
+        // par un filigrane entrelacé caractère par caractère avec le contenu réel, rendant
+        // l'extraction fiable impossible pour ces bureaux - non couverts pour l'instant.
+        minYear: 1791,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_38.json',
+        catalogUrl: 'https://archives.isere.fr/archive/instruments-de-recherche-63',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

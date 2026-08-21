@@ -164,7 +164,9 @@
                 <strong>Vosges</strong> 1784-1971 ·
                 <strong>Hérault</strong> 1760-1968 ·
                 <strong>Moselle</strong> 1825-1969 (30 bureaux sur 34, pas de lien vers un scan par registre) ·
-                <strong>Calvados</strong> 1752-2005
+                <strong>Calvados</strong> 1752-2005 ·
+                <strong>Mayenne</strong> 1790-1968 ·
+                <strong>Isère</strong> 1791-1968 (23 bureaux sur 41, pas de lien vers un scan par registre)
             </p>
             <p class="hint" style="text-align:center;">En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici. Contrairement au mode Notariat, ces portails n'ont pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Chaque département a son propre portail (structure et logiciel différents, au moins six familles de logiciels différentes selon les départements couverts), entièrement dépouillé à l'avance pour cibler directement la bonne notice plutôt que de passer par une recherche en ligne peu fiable pour cette série.</p>
             <details style="max-width:700px; margin:0.5rem auto;">
@@ -175,7 +177,7 @@
                     <li><strong>Charente-Maritime</strong> — série bien consultable en ligne, mais chaque lien vers un registre dépend d'une session qui expire au bout de quelques minutes : aucun lien stable trouvé pour ce portail.</li>
                     <li><strong>Creuse</strong> — le fonds « Enregistrement » numérisé et mis en ligne ne comprend que les actes bruts (déclarations, baux...), pas la table alphabétique des successions et absences elle-même.</li>
                     <li><strong>Ille-et-Vilaine</strong> — outil de recherche ancien dont la session expire systématiquement en essayant d'atteindre cette série précise.</li>
-                    <li><strong>Orne, Pyrénées-Orientales, Seine-et-Marne</strong> — la série est cataloguée en ligne, mais chaque registre vérifié est marqué consultable uniquement en salle de lecture, pas en version numérisée accessible à distance.</li>
+                    <li><strong>Orne, Pyrénées-Orientales, Seine-et-Marne, Lot-et-Garonne</strong> — la série est cataloguée en ligne, mais chaque registre vérifié est marqué consultable uniquement en salle de lecture, pas en version numérisée accessible à distance (pour le Lot-et-Garonne, seuls les inventaires eux-mêmes sont en ligne, pas les registres qu'ils décrivent).</li>
                     <li><strong>Hautes-Alpes</strong> — le catalogue "Enregistrement" en ligne ne propose que les "successions collatérales" (une sous-série distincte), pas la table des successions et absences elle-même.</li>
                     <li><strong>Finistère, Manche</strong> — portail accessible et autorisé, mais organisé en arborescence de dossiers (comme la Haute-Garonne) avec une structure plus hétérogène nécessitant un développement dédié pas encore réalisé.</li>
                     <li><strong>Indre</strong> — le fonds numérisé ne comprend que la table pré-1825 ("successions acquittées", une sous-série distincte) et d'autres tables non liées ; pas de table "successions et absences" repérée.</li>
@@ -184,6 +186,12 @@
                     <li><strong>Landes</strong> — portail Cloudflare franchi normalement, mais la pagination de la page de résultats se bloque dès la 2ᵉ page sur ce déploiement précis (le clic part bien mais le contenu ne se met jamais à jour), y compris après plusieurs tentatives.</li>
                     <li><strong>Vendée</strong> — portail à API REST (arbre de classement + recherche plein texte), mais la recherche plein texte porte sur tout le catalogue (bibliothèque comprise, pas seulement les registres) sans paramètre de restriction au seul fonds "Contrôle des actes - Enregistrement" identifié pour l'instant ; l'arbre de classement descend plus profond que la première page ne le laisse voir, non entièrement exploré.</li>
                     <li><strong>Val-d'Oise</strong> — portail accessible et autorisé (formulaire de recherche testé), mais les registres de la série voulue apparaissent dans une liste plate mélangée à d'autres tables (successions acquittées, donations, testaments...) où une partie des entrées n'a pas de libellé de type propre (seulement une date) et hérite du type de son bloc de cote — plus complexe que l'héritage par dossier parent déjà géré pour la Haute-Garonne, pas encore résolu.</li>
+                    <li><strong>Alpes-Maritimes</strong> — arbre de classement identifié (29 bureaux, table des successions et absences ET table des contrats de mariage présentes) sur un portail Ligeo Archives, mais protégé par un anti-bot différent (F5/TSPD) qui a fini par bloquer même les requêtes les plus espacées pendant l'exploration ; à reprendre plus tard avec une session neuve.</li>
+                    <li><strong>Aude</strong> — même famille d'anti-bot (F5/TSPD) que les Alpes-Maritimes, bloquant dès la première page consultée ; pas encore pu être exploré au-delà de la page d'accueil.</li>
+                    <li><strong>Meuse</strong> — chaque bureau a bien sa propre notice décrivant la table des successions et absences qu'il détient, mais celle-ci précise explicitement n'être consultable qu'en salle de lecture (pas de version numérisée en ligne).</li>
+                    <li><strong>Morbihan</strong> — des notices individuelles de tables des successions et absences existent bien (portail Ligeo Archives derrière Anubis), mais aucun point d'entrée n'a été trouvé pour énumérer les bureaux ou remonter à la racine du fonds depuis la page de recherche du site.</li>
+                    <li><strong>Pyrénées-Atlantiques</strong> — un filtre "table des successions" existe bien dans la recherche avancée, mais ne renvoie qu'une poignée de résultats (8, tous cotés en série ancienne "2 C") : la vraie table des successions et absences post-Révolution (série 3Q) ne semble pas indexée sous ce champ.</li>
+                    <li><strong>Marne, Alpes-de-Haute-Provence</strong> — aucune trace d'une série "Enregistrement"/successions numérisée ou indexée n'a été trouvée sur le portail (recherche par mot-clé infructueuse pour la Marne ; seul l'état civil est en ligne pour les Alpes-de-Haute-Provence).</li>
                 </ul>
                 <p class="hint" style="text-align:center;">La grande majorité des autres départements non listés ci-dessus n'ont simplement pas encore été examinés.</p>
             </details>
