@@ -21,6 +21,24 @@ export class GedcomParser {
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
     // valeur DATE, indiquant que l'année n'est pas connue avec certitude (ex. "ABT 1750").
     isApproxDate(s) { return !!s && /\b(ABT|CAL|EST)\b/i.test(s); }
+    // "1 OCCU" liste parfois plusieurs métiers successifs dans une seule valeur, séparés par des
+    // virgules, chacun suivi d'une année ou d'une plage d'années entre parenthèses (ex. "Valet de
+    // meunier (1819-1820), Meunier (1838), Journalier (1848)") : on éclate cette chaîne en entrées
+    // {profession, yearStart, yearEnd} pour pouvoir retrouver, plus tard, le métier exercé à une date
+    // donnée (ex. au moment d'un mariage, voir professionsAtYear dans society.js). Un segment sans
+    // parenthèse-année reconnaissable (cas le plus courant, un seul métier non daté) devient une
+    // entrée {profession, yearStart:null, yearEnd:null}.
+    parseOccupationValue(v) {
+        return v.split(',').map(part => part.trim()).filter(Boolean).map(part => {
+            const m = part.match(/^(.*?)\s*\((\d{3,4})(?:\s*[-–à]\s*(\d{3,4}))?\)\s*$/);
+            if(m) {
+                const yearStart = parseInt(m[2], 10);
+                const yearEnd = m[3] ? parseInt(m[3], 10) : yearStart;
+                return { profession: m[1].trim(), yearStart, yearEnd };
+            }
+            return { profession: part, yearStart: null, yearEnd: null };
+        }).filter(e => e.profession);
+    }
     // Extrait jour/mois/année d'une date GEDCOM complète au format "DD MMM YYYY" (ex. "12 MAY 1900") :
     // le seul format qui permette de calculer un jour de la semaine. Une année seule, "MMM YYYY", ou
     // une date approximative/composite (ABT, BET...AND...) n'y suffit pas et renvoie null.
@@ -147,8 +165,9 @@ export class GedcomParser {
             if(t==='FAMS') i.fams.push(this.clean(v));
             if(t==='SEX') i.sex=v.trim().toUpperCase().charAt(0); // 'M' ou 'F' (ou 'U'/'X' selon la source)
             // Une personne peut avoir plusieurs "1 OCCU" (métiers successifs au fil des actes) :
-            // on les garde tous plutôt que d'écraser avec le dernier rencontré.
-            if(t==='OCCU' && v && v.trim()) i.occupations.push(v.trim());
+            // on les garde tous plutôt que d'écraser avec le dernier rencontré. Chaque valeur peut
+            // elle-même contenir plusieurs métiers datés (voir parseOccupationValue ci-dessus).
+            if(t==='OCCU' && v && v.trim()) this.parseOccupationValue(v.trim()).forEach(e => i.occupations.push(e));
             if(['BIRT','DEAT','BURI','BAPM','CHR','EMIG','IMMI'].includes(t)) {
                 const key = t==='CHR' ? 'BAPM' : t;
                 i.events[key].hasTag = true;
@@ -282,7 +301,13 @@ export class GedcomParser {
                 this._pendingEven.entry.typeLabel = v.trim();
             }
             if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
-                i.occupations.push(this._curFactValue);
+                // Certains fichiers dupliquent le même métier en "1 OCCU" ET en "1 FACT"/"2 TYPE
+                // Occupation" (ex. export depuis un autre logiciel) : on ignore le FACT si son texte
+                // correspond déjà à une profession connue par ailleurs, pour ne pas la compter deux fois.
+                const key = this._curFactValue.trim().toLowerCase();
+                if(!i.occupations.some(o => o.profession.trim().toLowerCase() === key)) {
+                    i.occupations.push({ profession: this._curFactValue, yearStart: null, yearEnd: null });
+                }
                 this._curFactValue = null;
                 if(this._pendingEven?.entry) this._pendingEven.entry.isOccupation = true;
             }

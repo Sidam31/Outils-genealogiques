@@ -40,7 +40,7 @@ export function computeProfessionsStats(list, map) {
         // à plusieurs actes/recensements, voir gedcom.js) : on déduplique par personne pour que ce
         // classement compte des PERSONNES exerçant une profession, pas des occurrences du tag OCCU
         // (cohérent avec computeMarriageSeasonality, qui déduplique déjà de la même façon).
-        const distinctOccs = new Set((p.occupations || []).map(occ => (occ || '').trim()).filter(Boolean));
+        const distinctOccs = new Set((p.occupations || []).map(occ => (occ?.profession || '').trim()).filter(Boolean));
         distinctOccs.forEach(key => {
             professions.set(key, (professions.get(key) || 0) + 1);
         });
@@ -49,8 +49,8 @@ export function computeProfessionsStats(list, map) {
             const father = map.get(p.fatherId);
             if (father?.occupations?.length) {
                 fatherSonEligible++;
-                const sonSet = new Set(p.occupations.map(o => o.trim().toLowerCase()));
-                const fatherHasMatch = father.occupations.some(o => sonSet.has(o.trim().toLowerCase()));
+                const sonSet = new Set(p.occupations.map(o => o.profession.trim().toLowerCase()));
+                const fatherHasMatch = father.occupations.some(o => sonSet.has(o.profession.trim().toLowerCase()));
                 if (fatherHasMatch) fatherSonMatches++;
             }
         }
@@ -385,6 +385,32 @@ export function computeSurnameExtinction(map, fams) {
 export const SEASONALITY_MONTH_LABELS = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Décembre'];
 const SEASONALITY_MONTH_SHORT = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc'];
 
+// Une personne peut avoir plusieurs métiers successifs, chacun avec sa propre période (voir
+// parseOccupationValue dans gedcom.js, ex. "Valet de meunier (1819-1820), Meunier (1838)") : à une
+// année de mariage donnée, on ne veut retenir que le(s) métier(s) réellement exercé(s) cette
+// année-là, pas tous les métiers de toute une vie (sinon un même mariage "compte" à la fois pour le
+// métier de jeunesse et celui de fin de vie). Si aucun métier daté ne couvre cette année précise, on
+// se rabat sur les métiers non datés de la personne (cas le plus courant : un seul "1 OCCU" sans
+// année) plutôt que de perdre la personne pour cette analyse.
+function professionsAtYear(occupations, year) {
+    const dated = occupations.filter(o => o.yearStart != null);
+    const matching = dated.filter(o => year >= o.yearStart && year <= (o.yearEnd ?? o.yearStart));
+    let selected;
+    if (matching.length > 0) selected = matching;
+    else if (dated.length > 0) selected = occupations.filter(o => o.yearStart == null);
+    else selected = occupations;
+
+    const seen = new Set();
+    const result = [];
+    selected.forEach(o => {
+        const key = (o.profession || '').trim();
+        if (!key || seen.has(key)) return;
+        seen.add(key);
+        result.push(key);
+    });
+    return result;
+}
+
 export function computeMarriageSeasonality(list, fams, opts = {}) {
     const topN = opts.topN || 8;
     const minYear = opts.minYear ?? null;
@@ -398,14 +424,15 @@ export function computeMarriageSeasonality(list, fams, opts = {}) {
 
     list.forEach(p => {
         if (!p.occupations?.length || !p.fams?.length) return;
-        const profs = Array.from(new Set(p.occupations.map(o => o.trim()).filter(Boolean)));
-        if (!profs.length) return;
 
         p.fams.forEach(fid => {
             const f = fams.get(fid);
             if (!f?.marr?.hasDate || f.marr.month == null) return;
             if (minYear != null && (f.marr.year == null || f.marr.year < minYear)) return;
             if (maxYear != null && (f.marr.year == null || f.marr.year > maxYear)) return;
+
+            const profs = professionsAtYear(p.occupations, f.marr.year);
+            if (!profs.length) return;
 
             const month = f.marr.month;
             overallByMonth[month]++;

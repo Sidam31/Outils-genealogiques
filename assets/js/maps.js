@@ -1115,9 +1115,11 @@ export function computeProfessionAgeGroups(list, minSample = 3, maxGroups = 8) {
     const byProfession = new Map();
     list.forEach(p => {
         if(p.ageDeath == null || p.ageDeath < 0 || p.ageDeath > 110) return;
-        (p.occupations || []).forEach(raw => {
-            const key = raw.trim().toLowerCase().replace(/\s+/g, ' ');
-            if(!key) return;
+        // Une même personne peut avoir plusieurs entrées pour le même métier (recensements successifs,
+        // voir gedcom.js) : on déduplique par personne pour qu'elle ne pèse qu'une fois dans la
+        // distribution d'âges de ce métier, quel que soit le nombre d'actes où il a été relevé.
+        const distinctProfs = new Set((p.occupations || []).map(occ => (occ.profession || '').trim().toLowerCase().replace(/\s+/g, ' ')).filter(Boolean));
+        distinctProfs.forEach(key => {
             if(!byProfession.has(key)) byProfession.set(key, { label: key.charAt(0).toUpperCase() + key.slice(1), ages: [] });
             byProfession.get(key).ages.push(p.ageDeath);
         });
