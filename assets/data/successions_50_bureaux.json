@@ -1,0 +1,2734 @@
+{
+  "ACQUEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "AGNEAUX": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 3.4
+  },
+  "AGON COUTAINVILLE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 5.4
+  },
+  "AGON": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 5.4
+  },
+  "AIREL": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 11.5
+  },
+  "AMFREVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "AMIGNY": {
+    "bureau": "Marigny",
+    "distanceKm": 6.5
+  },
+  "ANCTEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANCTOVILLE SUR BOSCQ": {
+    "bureau": "Bréhal",
+    "distanceKm": 5.8
+  },
+  "ANCTOVILLE": {
+    "bureau": "Bréhal",
+    "distanceKm": 5.8
+  },
+  "ANGEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANGOVILLE AU PLAIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANGOVILLE EN SAIRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANGOVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANGOVILLE SUR AY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANNEVILLE EN SAIRE": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 5.0
+  },
+  "ANNEVILLE SUR MER": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ANNOVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "APPEVILLE": {
+    "bureau": "Carentan",
+    "distanceKm": 9.1
+  },
+  "ARDEVON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ARGOUGES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "AUCEY LA PLAINE": {
+    "bureau": "Pontorson",
+    "distanceKm": 4.0
+  },
+  "AUDERVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "AUDOUVILLE LA HUBERT": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 5.2
+  },
+  "AUMEVILLE LESTRE": {
+    "bureau": "Montebourg",
+    "distanceKm": 6.5
+  },
+  "AUVERS": {
+    "bureau": "Carentan",
+    "distanceKm": 8.0
+  },
+  "AUXAIS": {
+    "bureau": "Périers",
+    "distanceKm": 8.3
+  },
+  "AZEVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 4.1
+  },
+  "BACILLY": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.5
+  },
+  "BARFLEUR": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 8.4
+  },
+  "BARNEVILLE CARTERET": {
+    "bureau": "Barneville",
+    "distanceKm": 0.0
+  },
+  "BARNEVILLE SUR MER": {
+    "bureau": "Barneville",
+    "distanceKm": 0.0
+  },
+  "BAUBIGNY": {
+    "bureau": "Barneville",
+    "distanceKm": 5.8
+  },
+  "BEAUBIGNY": {
+    "bureau": "Barneville",
+    "distanceKm": 5.8
+  },
+  "BAUDRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 3.0
+  },
+  "BAUDREVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BAUPTE": {
+    "bureau": "Carentan",
+    "distanceKm": 11.3
+  },
+  "BEAUCHAMPS": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 2.6
+  },
+  "BEAUCOUDRAY": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 6.1
+  },
+  "BEAUFICEL": {
+    "bureau": "Sourdeval",
+    "distanceKm": 4.9
+  },
+  "BEAUVOIR": {
+    "bureau": "Pontorson",
+    "distanceKm": 6.9
+  },
+  "BELLEFONTAINE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BELVAL": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 6.2
+  },
+  "BENOITVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 3.4
+  },
+  "BESLON": {
+    "bureau": "Villedieu",
+    "distanceKm": 6.9
+  },
+  "BESNEVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 6.3
+  },
+  "BEUVRIGNY": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 4.0
+  },
+  "BEUZEVILLE AU PLAIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BEUZEVILLE LA BASTILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 9.2
+  },
+  "BINIVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 6.8
+  },
+  "BION": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BIVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BIEVILLE": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 10.6
+  },
+  "BLAINVILLE SUR MER": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 9.2
+  },
+  "BLOSVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 5.0
+  },
+  "BOISROGER": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BOISYVON": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 8.1
+  },
+  "BOLLEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BOUCEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BOUREY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BOURGUENOLLES": {
+    "bureau": "Villedieu",
+    "distanceKm": 4.9
+  },
+  "BOURGVALLEES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 9.2
+  },
+  "SAINT SAMSON DE BONFOSSE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 9.2
+  },
+  "BOUTTEVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 4.5
+  },
+  "BRAFFAIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BRAINVILLE": {
+    "bureau": "Coutances",
+    "distanceKm": 5.1
+  },
+  "BRANVILLE HAGUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BRANVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BRECTOUVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BRETTEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 8.0
+  },
+  "BRETTEVILLE SUR AY": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 4.2
+  },
+  "BREUVILLE": {
+    "bureau": "Bricquebec",
+    "distanceKm": 8.4
+  },
+  "BRICQUEBEC EN COTENTIN": {
+    "bureau": "Bricquebec",
+    "distanceKm": 0.0
+  },
+  "BRICQUEBOSQ": {
+    "bureau": "Les Pieux",
+    "distanceKm": 7.1
+  },
+  "BRICQUEVILLE LA BLOUETTE": {
+    "bureau": "Coutances",
+    "distanceKm": 2.9
+  },
+  "BRICQUEVILLE SUR MER": {
+    "bureau": "Bréhal",
+    "distanceKm": 2.5
+  },
+  "BRILLEVAST": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 5.3
+  },
+  "BRIX": {
+    "bureau": "Valognes",
+    "distanceKm": 8.6
+  },
+  "BROUAINS": {
+    "bureau": "Sourdeval",
+    "distanceKm": 5.3
+  },
+  "BRUCHEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BREVANDS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "BREVILLE SUR MER": {
+    "bureau": "Bréhal",
+    "distanceKm": 3.7
+  },
+  "BREVILLE": {
+    "bureau": "Bréhal",
+    "distanceKm": 3.7
+  },
+  "BUAIS LES MONTS": {
+    "bureau": "Le Teilleul",
+    "distanceKm": 7.0
+  },
+  "BUAIS": {
+    "bureau": "Le Teilleul",
+    "distanceKm": 7.0
+  },
+  "BERIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 10.5
+  },
+  "CAMBERNON": {
+    "bureau": "Coutances",
+    "distanceKm": 5.5
+  },
+  "CAMETOURS": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 4.0
+  },
+  "CAMPROND": {
+    "bureau": "Marigny",
+    "distanceKm": 7.0
+  },
+  "CANISY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 7.3
+  },
+  "CANTELOUP": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 4.4
+  },
+  "CANVILLE LA ROCQUE": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 7.1
+  },
+  "CARANTILLY": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 3.6
+  },
+  "CARENTAN LES MARAIS": {
+    "bureau": "Carentan",
+    "distanceKm": 0.0
+  },
+  "CARNET": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CARNEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 3.7
+  },
+  "CAROLLES": {
+    "bureau": "Sartilly",
+    "distanceKm": 8.3
+  },
+  "CARQUEBUT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CARTERET": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CATTEVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 3.3
+  },
+  "CATZ": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CAVIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 9.3
+  },
+  "CERISY LA FORET": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 14.0
+  },
+  "CHALANDREY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CHAMPCEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CHAMPEAUX": {
+    "bureau": "Sartilly",
+    "distanceKm": 6.0
+  },
+  "CHAMPREPUS": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 4.7
+  },
+  "CHANTELOUP": {
+    "bureau": "Bréhal",
+    "distanceKm": 3.7
+  },
+  "CHASSEGUEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CHAULIEU": {
+    "bureau": "Sourdeval",
+    "distanceKm": 3.3
+  },
+  "SAINT MARTIN DE CHAULIEU": {
+    "bureau": "Sourdeval",
+    "distanceKm": 3.3
+  },
+  "CHAVOY": {
+    "bureau": "Avranches",
+    "distanceKm": 6.8
+  },
+  "CHEF DU PONT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CHERBOURG EN COTENTIN": {
+    "bureau": "Cherbourg",
+    "distanceKm": 0.0
+  },
+  "CHERBOURG OCTEVILLE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 0.0
+  },
+  "CHEVRY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CHEVREVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CHERENCE LE HERON": {
+    "bureau": "Villedieu",
+    "distanceKm": 3.9
+  },
+  "CHERENCE LE ROUSSEL": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CLITOURPS": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 3.5
+  },
+  "COIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "COLOMBY": {
+    "bureau": "Valognes",
+    "distanceKm": 6.7
+  },
+  "CONDE SUR VIRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 7.5
+  },
+  "CONTRIERES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CORMERAY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "COUDEVILLE SUR MER": {
+    "bureau": "Bréhal",
+    "distanceKm": 3.0
+  },
+  "COUDEVILLE": {
+    "bureau": "Bréhal",
+    "distanceKm": 3.0
+  },
+  "COULOUVRAY BOISBENATRE": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 4.8
+  },
+  "COURCY": {
+    "bureau": "Coutances",
+    "distanceKm": 3.9
+  },
+  "COURTILS": {
+    "bureau": "Avranches",
+    "distanceKm": 7.8
+  },
+  "COUVAINS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 7.6
+  },
+  "COUVILLE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 8.1
+  },
+  "CRASVILLE": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 6.5
+  },
+  "CRETTEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CROLLON": {
+    "bureau": "Pontorson",
+    "distanceKm": 6.4
+  },
+  "CROSVILLE SUR DOUVE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 5.0
+  },
+  "CREANCES": {
+    "bureau": "Lessay",
+    "distanceKm": 3.7
+  },
+  "CUREY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "CUVES": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 4.2
+  },
+  "CEAUX": {
+    "bureau": "Avranches",
+    "distanceKm": 6.1
+  },
+  "CERENCES": {
+    "bureau": "Bréhal",
+    "distanceKm": 6.6
+  },
+  "DANGY": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 3.7
+  },
+  "DENNEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "DIGOSVILLE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 7.8
+  },
+  "DIGULLEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "DOMJEAN": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 4.0
+  },
+  "DONVILLE LES BAINS": {
+    "bureau": "Bréhal",
+    "distanceKm": 6.1
+  },
+  "DOVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 5.5
+  },
+  "DRAGEY RONTHON": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.4
+  },
+  "DRAGEY": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.4
+  },
+  "DRAGEY TOMBELAINE": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.4
+  },
+  "DUCEY LES CHERIS": {
+    "bureau": "Ducey",
+    "distanceKm": 0.0
+  },
+  "FERMANVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 3.9
+  },
+  "FERRIERES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "FERVACHES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "FEUGERES": {
+    "bureau": "Marigny",
+    "distanceKm": 4.6
+  },
+  "FIERVILLE LES MINES": {
+    "bureau": "Bricquebec",
+    "distanceKm": 7.5
+  },
+  "FLAMANVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 4.6
+  },
+  "FLEURY": {
+    "bureau": "Villedieu",
+    "distanceKm": 3.3
+  },
+  "FLOTTEMANVILLE": {
+    "bureau": "Valognes",
+    "distanceKm": 4.4
+  },
+  "FLOTTEMANVILLE HAGUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "FOLLIGNY": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 3.4
+  },
+  "FONTENAY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "FONTENAY SUR MER": {
+    "bureau": "Montebourg",
+    "distanceKm": 6.1
+  },
+  "FOUCARVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "FOURNEAUX": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 1.6
+  },
+  "FRESVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 4.8
+  },
+  "GATHEMO": {
+    "bureau": "Sourdeval",
+    "distanceKm": 6.6
+  },
+  "GATTEVILLE LE PHARE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 7.8
+  },
+  "GATTEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 7.8
+  },
+  "GAVRAY SUR SIENNE": {
+    "bureau": "Gavray",
+    "distanceKm": 0.0
+  },
+  "GEFFOSSES": {
+    "bureau": "Saint-Sauveur-Lendelin",
+    "distanceKm": 10.4
+  },
+  "GENETS": {
+    "bureau": "Sartilly",
+    "distanceKm": 7.3
+  },
+  "GER": {
+    "bureau": "Barenton",
+    "distanceKm": 7.9
+  },
+  "GERVILLE LA FORET": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GIEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GLATIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GOLLEVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 6.8
+  },
+  "GONFREVILLE": {
+    "bureau": "Périers",
+    "distanceKm": 4.3
+  },
+  "GONNEVILLE LE THEIL": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 7.5
+  },
+  "GONNEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 7.5
+  },
+  "GORGES": {
+    "bureau": "Périers",
+    "distanceKm": 8.2
+  },
+  "GOUBERVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GOURBESVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GOURFALEUR": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GOUVETS": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 4.7
+  },
+  "GOUVILLE SUR MER": {
+    "bureau": "Coutances",
+    "distanceKm": 8.6
+  },
+  "GRAIGNES MESNIL ANGOT": {
+    "bureau": "Carentan",
+    "distanceKm": 7.9
+  },
+  "GRAIGNES": {
+    "bureau": "Carentan",
+    "distanceKm": 7.9
+  },
+  "GRANDPARIGNY": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 6.9
+  },
+  "PARIGNY": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 6.9
+  },
+  "GRATOT": {
+    "bureau": "Coutances",
+    "distanceKm": 3.4
+  },
+  "GRIMESNIL": {
+    "bureau": "Gavray",
+    "distanceKm": 7.6
+  },
+  "GROSVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 5.6
+  },
+  "GREVILLE HAGUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GUILBERVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "GUEHEBERT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HAINNEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HAMBYE": {
+    "bureau": "Percy",
+    "distanceKm": 6.1
+  },
+  "HAMELIN": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 7.2
+  },
+  "HARDINVAST": {
+    "bureau": "Cherbourg",
+    "distanceKm": 5.6
+  },
+  "HAUTEVILLE LA GUICHARD": {
+    "bureau": "Marigny",
+    "distanceKm": 3.1
+  },
+  "HAUTEVILLE SUR MER": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 2.2
+  },
+  "HAUTTEVILLE BOCAGE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 7.6
+  },
+  "HELLEVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 5.8
+  },
+  "HERQUEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HEUGUEVILLE SUR SIENNE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 4.8
+  },
+  "HEUGUEVILLE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 4.8
+  },
+  "HEUSSE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HIESVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 6.1
+  },
+  "HOCQUIGNY": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 2.1
+  },
+  "HOUESVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HOUTTEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HUBERVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 3.1
+  },
+  "HUDIMESNIL": {
+    "bureau": "Bréhal",
+    "distanceKm": 5.5
+  },
+  "HUISNES SUR MER": {
+    "bureau": "Pontorson",
+    "distanceKm": 5.5
+  },
+  "HUSSON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HYENVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "HEAUVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 7.0
+  },
+  "HEMEVEZ": {
+    "bureau": "Montebourg",
+    "distanceKm": 5.4
+  },
+  "HERENGUERVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ISIGNY LE BUAT": {
+    "bureau": "Ducey",
+    "distanceKm": 6.3
+  },
+  "ISIGNY": {
+    "bureau": "Ducey",
+    "distanceKm": 6.3
+  },
+  "JOBOURG": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "JOGANVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 4.2
+  },
+  "JUILLEY": {
+    "bureau": "Ducey",
+    "distanceKm": 6.6
+  },
+  "JULLOUVILLE": {
+    "bureau": "Sartilly",
+    "distanceKm": 6.5
+  },
+  "BOUILLON": {
+    "bureau": "Sartilly",
+    "distanceKm": 6.5
+  },
+  "JUVIGNY LES VALLEES": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 0.0
+  },
+  "JUVIGNY": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 0.0
+  },
+  "L ETANG BERTRAND": {
+    "bureau": "Bricquebec",
+    "distanceKm": 6.7
+  },
+  "LA BALEINE": {
+    "bureau": "Gavray",
+    "distanceKm": 4.0
+  },
+  "LA BARRE DE SEMILLY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 5.0
+  },
+  "LA BAZOGE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA BESLIERE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA BLOUTIERE": {
+    "bureau": "Villedieu",
+    "distanceKm": 5.0
+  },
+  "LA BONNEVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 5.9
+  },
+  "LA BOULOUZE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA CHAISE BAUDOUIN": {
+    "bureau": "Brécey",
+    "distanceKm": 6.5
+  },
+  "LA CHAPELLE CECELIN": {
+    "bureau": "Villedieu",
+    "distanceKm": 5.6
+  },
+  "LA CHAPELLE UREE": {
+    "bureau": "Brécey",
+    "distanceKm": 7.3
+  },
+  "LA CHAPELLE DU FEST": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE EN JUGER": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA COLOMBE": {
+    "bureau": "Percy",
+    "distanceKm": 5.2
+  },
+  "LA CROIX AVRANCHIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA FEUILLIE": {
+    "bureau": "Lessay",
+    "distanceKm": 5.9
+  },
+  "LA GLACERIE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA GODEFROY": {
+    "bureau": "Avranches",
+    "distanceKm": 4.6
+  },
+  "LA GOHANNIERE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA HAGUE": {
+    "bureau": "Beaumont-Hague",
+    "distanceKm": 0.0
+  },
+  "BEAUMONT": {
+    "bureau": "Beaumont-Hague",
+    "distanceKm": 0.0
+  },
+  "LA HAYE": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 0.0
+  },
+  "LA HAYE BELLEFOND": {
+    "bureau": "Percy",
+    "distanceKm": 7.2
+  },
+  "LA HAYE D ECTOT": {
+    "bureau": "Barneville",
+    "distanceKm": 3.5
+  },
+  "LA LANDE D AIROU": {
+    "bureau": "Villedieu",
+    "distanceKm": 3.3
+  },
+  "LA LUCERNE D OUTREMER": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 4.0
+  },
+  "LA LUZERNE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 4.0
+  },
+  "LA MANCELLIERE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA MANCELLIERE SUR VIRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA MEAUFFE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 6.5
+  },
+  "LA MEURDRAQUIERE": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 5.7
+  },
+  "LA MOUCHE": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 3.7
+  },
+  "LA PERNELLE": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 4.0
+  },
+  "LA ROCHELLE NORMANDE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA RONDE HAYE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LA TRINITE": {
+    "bureau": "Villedieu",
+    "distanceKm": 4.2
+  },
+  "LA VENDELEE": {
+    "bureau": "Coutances",
+    "distanceKm": 3.3
+  },
+  "LAMBERVILLE": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 10.3
+  },
+  "LAPENTY": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 8.2
+  },
+  "LASTELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LAULNE": {
+    "bureau": "Lessay",
+    "distanceKm": 5.9
+  },
+  "LE BUAT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE CHEFRESNE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE DEZERT": {
+    "bureau": "Carentan",
+    "distanceKm": 11.3
+  },
+  "LE FRESNE PORET": {
+    "bureau": "Sourdeval",
+    "distanceKm": 6.2
+  },
+  "LE GRAND CELLAND": {
+    "bureau": "Brécey",
+    "distanceKm": 4.3
+  },
+  "LE GRIPPON": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.5
+  },
+  "CHAMPCERVON": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.5
+  },
+  "LE GUISLAIN": {
+    "bureau": "Percy",
+    "distanceKm": 5.9
+  },
+  "LE HAM": {
+    "bureau": "Montebourg",
+    "distanceKm": 5.7
+  },
+  "LE HOMMET D ARTHENAY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE LOREUR": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 6.7
+  },
+  "LE LOREY": {
+    "bureau": "Marigny",
+    "distanceKm": 4.3
+  },
+  "LE LUOT": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 6.4
+  },
+  "LE MESNIL": {
+    "bureau": "Barneville",
+    "distanceKm": 6.0
+  },
+  "LE MESNIL ADELEE": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 4.2
+  },
+  "LE MESNIL AMAND": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL AMEY": {
+    "bureau": "Marigny",
+    "distanceKm": 4.2
+  },
+  "LE MESNIL ANGOT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL AUBERT": {
+    "bureau": "Gavray",
+    "distanceKm": 8.9
+  },
+  "LE MESNIL BONANT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL BŒUFS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL DREY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL EURY": {
+    "bureau": "Marigny",
+    "distanceKm": 4.6
+  },
+  "LE MESNIL GARNIER": {
+    "bureau": "Gavray",
+    "distanceKm": 3.3
+  },
+  "LE MESNIL GILBERT": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 3.4
+  },
+  "LE MESNIL HERMAN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL HUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL OPAC": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL OZENNE": {
+    "bureau": "Ducey",
+    "distanceKm": 6.4
+  },
+  "LE MESNIL RAINFRAY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL RAOULT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL ROGUES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL ROUXELIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 3.0
+  },
+  "LE MESNIL THEBAULT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL TOVE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL VIGOT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL VILLEMAN": {
+    "bureau": "Gavray",
+    "distanceKm": 3.6
+  },
+  "LE MESNIL VENERON": {
+    "bureau": "Carentan",
+    "distanceKm": 9.6
+  },
+  "LE MESNIL AU VAL": {
+    "bureau": "Cherbourg",
+    "distanceKm": 8.5
+  },
+  "LE MESNILBUS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE MESNILLARD": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 7.0
+  },
+  "LE MONT SAINT MICHEL": {
+    "bureau": "Pontorson",
+    "distanceKm": 8.5
+  },
+  "LE NEUFBOURG": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 5.5
+  },
+  "LE PARC": {
+    "bureau": "Brécey",
+    "distanceKm": 8.8
+  },
+  "SAINTE PIENCE": {
+    "bureau": "Brécey",
+    "distanceKm": 8.8
+  },
+  "LE PERRON": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 9.0
+  },
+  "LE PETIT CELLAND": {
+    "bureau": "Brécey",
+    "distanceKm": 4.3
+  },
+  "LE PLESSIS LASTELLE": {
+    "bureau": "Lessay",
+    "distanceKm": 9.1
+  },
+  "LE PLESSIS": {
+    "bureau": "Lessay",
+    "distanceKm": 9.1
+  },
+  "LE ROZEL": {
+    "bureau": "Les Pieux",
+    "distanceKm": 3.6
+  },
+  "LE TANU": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 3.0
+  },
+  "LE THEIL": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE VAL SAINT PERE": {
+    "bureau": "Avranches",
+    "distanceKm": 3.0
+  },
+  "LE VALDECIE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LE VAST": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 6.8
+  },
+  "LE VICEL": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 5.7
+  },
+  "LE VRETOT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LENGRONNE": {
+    "bureau": "Gavray",
+    "distanceKm": 6.4
+  },
+  "LES BIARDS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES CHAMBRES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES CHAMPS DE LOSQUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES CHERIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES CRESNAYS": {
+    "bureau": "Brécey",
+    "distanceKm": 5.0
+  },
+  "LES LOGES MARCHIS": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 5.3
+  },
+  "LES LOGES SUR BRECEY": {
+    "bureau": "Brécey",
+    "distanceKm": 3.2
+  },
+  "LES MOITIERS D ALLONNE": {
+    "bureau": "Barneville",
+    "distanceKm": 2.4
+  },
+  "LES MOITIERS EN BAUPTOIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES PAS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES PERQUES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LES VEYS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "LESTRE": {
+    "bureau": "Montebourg",
+    "distanceKm": 5.5
+  },
+  "LIESVILLE SUR DOUVE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 8.1
+  },
+  "LIESVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 8.1
+  },
+  "LIEUSAINT": {
+    "bureau": "Valognes",
+    "distanceKm": 3.4
+  },
+  "LINGEARD": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 2.8
+  },
+  "LOLIF": {
+    "bureau": "Sartilly",
+    "distanceKm": 4.1
+  },
+  "LONGUEVILLE": {
+    "bureau": "Bréhal",
+    "distanceKm": 4.2
+  },
+  "LOZON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MACEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MAGNEVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 7.9
+  },
+  "MARCEY LES GREVES": {
+    "bureau": "Avranches",
+    "distanceKm": 4.1
+  },
+  "MARCHESIEUX": {
+    "bureau": "Périers",
+    "distanceKm": 7.3
+  },
+  "MARCILLY": {
+    "bureau": "Ducey",
+    "distanceKm": 4.1
+  },
+  "MARGUERAY": {
+    "bureau": "Percy",
+    "distanceKm": 5.4
+  },
+  "MARIGNY LE LOZON": {
+    "bureau": "Marigny",
+    "distanceKm": 0.0
+  },
+  "MARTIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MARTINVAST": {
+    "bureau": "Cherbourg",
+    "distanceKm": 3.3
+  },
+  "MAUPERTUIS": {
+    "bureau": "Percy",
+    "distanceKm": 4.4
+  },
+  "MAUPERTUS SUR MER": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 6.1
+  },
+  "MAUPERTUS": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 6.1
+  },
+  "MILLIERES": {
+    "bureau": "Périers",
+    "distanceKm": 3.3
+  },
+  "MILLY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MOBECQ": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MOIDREY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTABOT": {
+    "bureau": "Percy",
+    "distanceKm": 5.0
+  },
+  "MONTAIGU LA BRISETTE": {
+    "bureau": "Valognes",
+    "distanceKm": 7.7
+  },
+  "MONTAIGU": {
+    "bureau": "Valognes",
+    "distanceKm": 7.7
+  },
+  "MONTAIGU LES BOIS": {
+    "bureau": "Gavray",
+    "distanceKm": 3.9
+  },
+  "MONTANEL": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTBRAY": {
+    "bureau": "Percy",
+    "distanceKm": 7.6
+  },
+  "MONTCHATON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTCUIT": {
+    "bureau": "Saint-Sauveur-Lendelin",
+    "distanceKm": 5.0
+  },
+  "MONTFARVILLE": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 6.9
+  },
+  "MONTGARDON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTGOTHIER": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTHUCHON": {
+    "bureau": "Coutances",
+    "distanceKm": 4.2
+  },
+  "MONTIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTJOIE SAINT MARTIN": {
+    "bureau": "Saint-James",
+    "distanceKm": 5.1
+  },
+  "MONTMARTIN EN GRAIGNES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTPINCHON": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 3.9
+  },
+  "MONTRABOT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 13.2
+  },
+  "MONTREUIL SUR LOZON": {
+    "bureau": "Marigny",
+    "distanceKm": 1.4
+  },
+  "MONTREUIL": {
+    "bureau": "Marigny",
+    "distanceKm": 1.4
+  },
+  "MONTSENELLE": {
+    "bureau": "Lessay",
+    "distanceKm": 10.9
+  },
+  "LITHAIRE": {
+    "bureau": "Lessay",
+    "distanceKm": 10.9
+  },
+  "MONTSURVENT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MONTVIRON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MOON SUR ELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 10.3
+  },
+  "MORIGNY": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 9.1
+  },
+  "MORSALINES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "MORTAIN BOCAGE": {
+    "bureau": "Mortain",
+    "distanceKm": 0.0
+  },
+  "MORVILLE": {
+    "bureau": "Valognes",
+    "distanceKm": 5.1
+  },
+  "MOULINES": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 7.1
+  },
+  "MOYON VILLAGES": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 6.6
+  },
+  "MOYON": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 6.6
+  },
+  "MUNEVILLE LE BINGARD": {
+    "bureau": "Saint-Sauveur-Lendelin",
+    "distanceKm": 4.7
+  },
+  "MUNEVILLE SUR MER": {
+    "bureau": "Bréhal",
+    "distanceKm": 5.5
+  },
+  "MEAUTIS": {
+    "bureau": "Carentan",
+    "distanceKm": 7.0
+  },
+  "NACQUEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "NAFTEL": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "NAY": {
+    "bureau": "Périers",
+    "distanceKm": 6.2
+  },
+  "NEUFMESNIL": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 5.8
+  },
+  "NEUVILLE AU PLAIN": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 2.7
+  },
+  "NEUVILLE EN BEAUMONT": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 5.3
+  },
+  "NICORPS": {
+    "bureau": "Coutances",
+    "distanceKm": 3.5
+  },
+  "NOIRPALU": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "NOTRE DAME D ELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "NOTRE DAME DE CENILLY": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 4.8
+  },
+  "NOTRE DAME DE LIVOYE": {
+    "bureau": "Brécey",
+    "distanceKm": 2.7
+  },
+  "NOTRE DAME DU TOUCHET": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "NOUAINVILLE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 3.3
+  },
+  "NEGREVILLE": {
+    "bureau": "Valognes",
+    "distanceKm": 5.5
+  },
+  "NEHOU": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 4.9
+  },
+  "NEVILLE SUR MER": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "NEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "OCTEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "OCTEVILLE L AVENEL": {
+    "bureau": "Montebourg",
+    "distanceKm": 5.6
+  },
+  "OCTEVILLE LA VENELLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 5.6
+  },
+  "OMONVILLE LA PETITE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "OMONVILLE LA ROGUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ORGLANDES": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 8.8
+  },
+  "ORVAL SUR SIENNE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 4.3
+  },
+  "ORVAL": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 4.3
+  },
+  "OUVILLE": {
+    "bureau": "Coutances",
+    "distanceKm": 6.9
+  },
+  "OZEVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 3.4
+  },
+  "PERCY EN NORMANDIE": {
+    "bureau": "Percy",
+    "distanceKm": 0.0
+  },
+  "PERRIERS EN BEAUFICEL": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 4.7
+  },
+  "PICAUVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 8.5
+  },
+  "PIERREVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 5.7
+  },
+  "PIROU": {
+    "bureau": "Lessay",
+    "distanceKm": 7.0
+  },
+  "PLACY MONTAIGU": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "PLOMB": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "POILLEY": {
+    "bureau": "Ducey",
+    "distanceKm": 4.0
+  },
+  "PONT FARCY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "PONT HEBERT": {
+    "bureau": "Marigny",
+    "distanceKm": 9.0
+  },
+  "PONTAUBAULT": {
+    "bureau": "Avranches",
+    "distanceKm": 5.7
+  },
+  "PONTS": {
+    "bureau": "Avranches",
+    "distanceKm": 4.2
+  },
+  "PORT BAIL SUR MER": {
+    "bureau": "Barneville",
+    "distanceKm": 7.6
+  },
+  "PORTBAIL": {
+    "bureau": "Barneville",
+    "distanceKm": 7.6
+  },
+  "PRECEY": {
+    "bureau": "Pontorson",
+    "distanceKm": 7.9
+  },
+  "PRECORBIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "PRETOT SAINTE SUZANNE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "PRETOT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "QUERQUEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "QUETTEHOU": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 4.4
+  },
+  "QUETTETOT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "QUETTREVILLE SUR SIENNE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 7.7
+  },
+  "QUIBOU": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 6.0
+  },
+  "QUINEVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 6.1
+  },
+  "RAIDS": {
+    "bureau": "Périers",
+    "distanceKm": 5.3
+  },
+  "RAMPAN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 5.3
+  },
+  "RANCOUDRAY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "RAUVILLE LA BIGOT": {
+    "bureau": "Bricquebec",
+    "distanceKm": 6.4
+  },
+  "RAUVILLE LA PLACE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 3.0
+  },
+  "RAVENOVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "REFFUVEILLE": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 7.1
+  },
+  "REGNEVILLE SUR MER": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 2.5
+  },
+  "REGNEVILLE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 2.5
+  },
+  "REIGNEVILLE BOCAGE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 6.0
+  },
+  "REIGNEVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 6.0
+  },
+  "REMILLY LES MARAIS": {
+    "bureau": "Marigny",
+    "distanceKm": 5.7
+  },
+  "REMILLY SUR LOZON": {
+    "bureau": "Marigny",
+    "distanceKm": 5.7
+  },
+  "ROCHEVILLE": {
+    "bureau": "Bricquebec",
+    "distanceKm": 6.5
+  },
+  "ROMAGNY FONTENAY": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 5.5
+  },
+  "ROMAGNY": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 5.5
+  },
+  "RONCEY": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 7.3
+  },
+  "RONTHON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ROUFFIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ROUXEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "RETHOVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "REVILLE": {
+    "bureau": "Saint-Vaast-la-hougue",
+    "distanceKm": 3.9
+  },
+  "SACEY": {
+    "bureau": "Pontorson",
+    "distanceKm": 7.1
+  },
+  "SAINT AMAND VILLAGES": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 5.9
+  },
+  "SAINT AMAND": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 5.9
+  },
+  "SAINT ANDRE DE BOHON": {
+    "bureau": "Carentan",
+    "distanceKm": 7.8
+  },
+  "SAINT ANDRE DE L EPINE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 5.0
+  },
+  "SAINT AUBIN DE TERREGATTE": {
+    "bureau": "Ducey",
+    "distanceKm": 6.0
+  },
+  "SAINT AUBIN DES PREAUX": {
+    "bureau": "Sartilly",
+    "distanceKm": 8.0
+  },
+  "SAINT AUBIN DU PERRON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT BARTHELEMY": {
+    "bureau": "Juvigny-le-Tertre",
+    "distanceKm": 4.9
+  },
+  "SAINT BRICE": {
+    "bureau": "Avranches",
+    "distanceKm": 4.3
+  },
+  "SAINT BRICE DE LANDELLES": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 2.9
+  },
+  "SAINT CHRISTOPHE DU FOC": {
+    "bureau": "Les Pieux",
+    "distanceKm": 7.4
+  },
+  "SAINT CLAIR SUR L ELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 8.7
+  },
+  "SAINT CLEMENT RANCOUDRAY": {
+    "bureau": "Mortain",
+    "distanceKm": 7.2
+  },
+  "SAINT CLEMENT": {
+    "bureau": "Mortain",
+    "distanceKm": 7.2
+  },
+  "SAINT CYR": {
+    "bureau": "Montebourg",
+    "distanceKm": 2.5
+  },
+  "SAINT CYR DU BAILLEUL": {
+    "bureau": "Barenton",
+    "distanceKm": 4.5
+  },
+  "SAINT COME DU MONT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT DENIS LE GAST": {
+    "bureau": "Gavray",
+    "distanceKm": 5.7
+  },
+  "SAINT DENIS LE VETU": {
+    "bureau": "Coutances",
+    "distanceKm": 8.6
+  },
+  "SAINT FLOXEL": {
+    "bureau": "Montebourg",
+    "distanceKm": 2.5
+  },
+  "SAINT FROMOND": {
+    "bureau": "Carentan",
+    "distanceKm": 11.6
+  },
+  "SAINT GEORGES MONTCOCQ": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 3.4
+  },
+  "SAINT GEORGES D ELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 8.6
+  },
+  "SAINT GEORGES DE BOHON": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT GEORGES DE LIVOYE": {
+    "bureau": "Brécey",
+    "distanceKm": 3.6
+  },
+  "SAINT GEORGES DE ROUELLEY": {
+    "bureau": "Barenton",
+    "distanceKm": 5.4
+  },
+  "SAINT GEORGES DE LA RIVIERE": {
+    "bureau": "Barneville",
+    "distanceKm": 3.7
+  },
+  "SAINT GERMAIN D ELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 12.0
+  },
+  "SAINT GERMAIN DE TOURNEBUT": {
+    "bureau": "Montebourg",
+    "distanceKm": 3.3
+  },
+  "SAINT GERMAIN DE VARREVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 4.2
+  },
+  "SAINT GERMAIN DES VAUX": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN LE GAILLARD": {
+    "bureau": "Les Pieux",
+    "distanceKm": 3.6
+  },
+  "SAINT GERMAIN SUR AY": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 6.0
+  },
+  "SAINT GERMAIN SUR SEVES": {
+    "bureau": "Périers",
+    "distanceKm": 4.0
+  },
+  "SAINT GILLES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 6.1
+  },
+  "SAINT HILAIRE PETITVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT JACQUES DE NEHOU": {
+    "bureau": "Bricquebec",
+    "distanceKm": 5.6
+  },
+  "SAINT JEAN D ELLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 9.4
+  },
+  "SAINT JEAN DES BAISANTS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 9.4
+  },
+  "SAINT JEAN DE DAYE": {
+    "bureau": "Carentan",
+    "distanceKm": 9.6
+  },
+  "SAINT JEAN DE SAVIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 10.6
+  },
+  "SAINT JEAN DE LA HAIZE": {
+    "bureau": "Avranches",
+    "distanceKm": 5.7
+  },
+  "SAINT JEAN DE LA RIVIERE": {
+    "bureau": "Barneville",
+    "distanceKm": 3.1
+  },
+  "SAINT JEAN DES CHAMPS": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 6.9
+  },
+  "SAINT JEAN DU CORAIL": {
+    "bureau": "Brécey",
+    "distanceKm": 5.2
+  },
+  "SAINT JEAN DU CORAIL DES BOIS": {
+    "bureau": "Brécey",
+    "distanceKm": 5.2
+  },
+  "SAINT JEAN LE THOMAS": {
+    "bureau": "Sartilly",
+    "distanceKm": 5.7
+  },
+  "SAINT JORES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT JOSEPH": {
+    "bureau": "Valognes",
+    "distanceKm": 4.4
+  },
+  "SAINT LAURENT DE CUVES": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 3.9
+  },
+  "SAINT LAURENT DE TERREGATTE": {
+    "bureau": "Ducey",
+    "distanceKm": 5.3
+  },
+  "SAINT LOUET SUR VIRE": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 1.2
+  },
+  "SAINT LOUP": {
+    "bureau": "Avranches",
+    "distanceKm": 3.1
+  },
+  "SAINT LEGER": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT LO D OURVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT MALO DE LA LANDE": {
+    "bureau": "Coutances",
+    "distanceKm": 7.2
+  },
+  "SAINT MARCOUF": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 6.9
+  },
+  "SAINT MARTIN D AUBIGNY": {
+    "bureau": "Périers",
+    "distanceKm": 5.2
+  },
+  "SAINT MARTIN D AUDOUVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 3.8
+  },
+  "SAINT MARTIN DE BONFOSSE": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 7.2
+  },
+  "SAINT MARTIN DE CENILLY": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 6.6
+  },
+  "SAINT MARTIN DE LANDELLES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN DE VARREVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 4.5
+  },
+  "SAINT MARTIN DES CHAMPS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN LE BOUILLANT": {
+    "bureau": "Brécey",
+    "distanceKm": 6.0
+  },
+  "SAINT MARTIN LE GREARD": {
+    "bureau": "Cherbourg",
+    "distanceKm": 8.4
+  },
+  "SAINT MARTIN LE HEBERT": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT MAUR DES BOIS": {
+    "bureau": "Villedieu",
+    "distanceKm": 6.5
+  },
+  "SAINT MAURICE EN COTENTIN": {
+    "bureau": "Barneville",
+    "distanceKm": 5.7
+  },
+  "SAINT MICHEL DE MONTJOIE": {
+    "bureau": "Saint-Pois",
+    "distanceKm": 2.8
+  },
+  "SAINT MICHEL DE LA PIERRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT MICHEL DES LOUPS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DE COUTANCES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT NICOLAS DE PIERREPONT": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 3.9
+  },
+  "PIERREPONT EN COTENTIN": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 3.9
+  },
+  "SAINT NICOLAS DES BOIS": {
+    "bureau": "Brécey",
+    "distanceKm": 4.2
+  },
+  "SAINT NICOLAS PRES GRANVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT OVIN": {
+    "bureau": "Ducey",
+    "distanceKm": 6.6
+  },
+  "SAINT OSVIN": {
+    "bureau": "Ducey",
+    "distanceKm": 6.6
+  },
+  "SAINT PAIR SUR MER": {
+    "bureau": "Sartilly",
+    "distanceKm": 9.7
+  },
+  "SAINT PATRICE DE CLAIDS": {
+    "bureau": "Périers",
+    "distanceKm": 4.4
+  },
+  "SAINT PELLERIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE LANGERS": {
+    "bureau": "Sartilly",
+    "distanceKm": 5.6
+  },
+  "SAINT PIERRE D ARTHEGLISE": {
+    "bureau": "Bricquebec",
+    "distanceKm": 5.1
+  },
+  "SAINT PIERRE DE COUTANCES": {
+    "bureau": "Coutances",
+    "distanceKm": 1.8
+  },
+  "SAINT PIERRE DE SEMILLY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 5.9
+  },
+  "SAINT PLANCHERS": {
+    "bureau": "Bréhal",
+    "distanceKm": 7.8
+  },
+  "SAINT QUENTIN SUR LE HOMME": {
+    "bureau": "Ducey",
+    "distanceKm": 4.1
+  },
+  "SAINT ROMPHAIRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT REMY DES LANDES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT SAUVEUR VILLAGES": {
+    "bureau": "Saint-Sauveur-Lendelin",
+    "distanceKm": 0.0
+  },
+  "SAINT SAUVEUR DE CHAULIEU": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT SAUVEUR DE PIERREPONT": {
+    "bureau": "La Haye-du-Puits",
+    "distanceKm": 5.4
+  },
+  "SAINT SAUVEUR LA POMMERAYE": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 5.5
+  },
+  "SAINT SENIER DE BEUVRON": {
+    "bureau": "Saint-James",
+    "distanceKm": 5.2
+  },
+  "SAINT SENIER SOUS AVRANCHES": {
+    "bureau": "Avranches",
+    "distanceKm": 2.7
+  },
+  "SAINT SYMPHORIEN DES MONTS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT SYMPHORIEN LE VALOIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT SYMPHORIEN LES BUTTES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT SEBASTIEN DE RAIDS": {
+    "bureau": "Périers",
+    "distanceKm": 2.9
+  },
+  "SAINT THOMAS DE SAINT LO": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT URSIN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINT VIGOR DES MONTS": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 5.9
+  },
+  "SAINT EBREMOND DE BONFOSSE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 4.5
+  },
+  "SAINTE CROIX HAGUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE CROIX DE SAINT LO": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE CECILE": {
+    "bureau": "Villedieu",
+    "distanceKm": 4.0
+  },
+  "SAINTE EUGIENNE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE GENEVIEVE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 6.8
+  },
+  "SAINTE MARIE DU BOIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE MARIE DU MONT": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 6.6
+  },
+  "SAINTE SUZANNE EN BAUPTOIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE SUZANNE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAINTE SUZANNE SUR VIRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 4.6
+  },
+  "SARTILLY BAIE BOCAGE": {
+    "bureau": "Sartilly",
+    "distanceKm": 0.0
+  },
+  "SAULTCHEVREUIL DU TRONCHET": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SAUSSEMESNIL": {
+    "bureau": "Valognes",
+    "distanceKm": 6.5
+  },
+  "SAUSSEY": {
+    "bureau": "Coutances",
+    "distanceKm": 5.0
+  },
+  "SAVIGNY": {
+    "bureau": "Cerisy-la-Salle",
+    "distanceKm": 4.8
+  },
+  "SAVIGNY LE VIEUX": {
+    "bureau": "Saint-Hilaire-du-Harcouët",
+    "distanceKm": 10.0
+  },
+  "SERVIGNY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SERVON": {
+    "bureau": "Pontorson",
+    "distanceKm": 5.9
+  },
+  "SIDEVILLE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 5.3
+  },
+  "SIOUVILLE HAGUE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 5.6
+  },
+  "SIOUVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 5.6
+  },
+  "SORTOSVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 3.4
+  },
+  "SORTOSVILLE EN BEAUMONT": {
+    "bureau": "Bricquebec",
+    "distanceKm": 5.3
+  },
+  "SOTTEVAST": {
+    "bureau": "Bricquebec",
+    "distanceKm": 7.7
+  },
+  "SOTTEVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 5.2
+  },
+  "SOULLES": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SOURDEVAL LES BOIS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SUBLIGNY": {
+    "bureau": "Sartilly",
+    "distanceKm": 6.3
+  },
+  "SURTAINVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 6.5
+  },
+  "SURVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "SEBEVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 3.8
+  },
+  "SENOVILLE": {
+    "bureau": "Barneville",
+    "distanceKm": 5.7
+  },
+  "TAILLEPIED": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 3.6
+  },
+  "TAMERVILLE": {
+    "bureau": "Valognes",
+    "distanceKm": 3.2
+  },
+  "TANIS": {
+    "bureau": "Pontorson",
+    "distanceKm": 3.0
+  },
+  "TERRE ET MARAIS": {
+    "bureau": "Carentan",
+    "distanceKm": 8.4
+  },
+  "SAINTENY": {
+    "bureau": "Carentan",
+    "distanceKm": 8.4
+  },
+  "TESSY BOCAGE": {
+    "bureau": "Tessy-sur-Vire",
+    "distanceKm": 0.0
+  },
+  "TEURTHEVILLE BOCAGE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 9.1
+  },
+  "TEURTHEVILLE HAGUE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 9.0
+  },
+  "THEREVAL": {
+    "bureau": "Marigny",
+    "distanceKm": 5.0
+  },
+  "HEBECREVON": {
+    "bureau": "Marigny",
+    "distanceKm": 5.0
+  },
+  "THEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 2.5
+  },
+  "TIREPIED SUR SEE": {
+    "bureau": "Avranches",
+    "distanceKm": 7.1
+  },
+  "TIREPIED": {
+    "bureau": "Avranches",
+    "distanceKm": 7.1
+  },
+  "TOCQUEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 5.1
+  },
+  "TOLLEVAST": {
+    "bureau": "Cherbourg",
+    "distanceKm": 5.7
+  },
+  "TONNEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "TORIGNY LES VILLES": {
+    "bureau": "Torigni-sur-Vire",
+    "distanceKm": 0.0
+  },
+  "TOURLAVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "TOURNEVILLE SUR MER": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 4.5
+  },
+  "LINGREVILLE": {
+    "bureau": "Montmartin-sur-Mer",
+    "distanceKm": 4.5
+  },
+  "TOURVILLE SUR SIENNE": {
+    "bureau": "Coutances",
+    "distanceKm": 5.7
+  },
+  "TOURVILLE": {
+    "bureau": "Coutances",
+    "distanceKm": 5.7
+  },
+  "TRELLY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "TRIBEHOU": {
+    "bureau": "Marigny",
+    "distanceKm": 9.6
+  },
+  "TROISGOTS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "TREAUVILLE": {
+    "bureau": "Les Pieux",
+    "distanceKm": 3.1
+  },
+  "TURQUEVILLE": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 2.5
+  },
+  "CRIQUEVILLE AU PLAIN": {
+    "bureau": "Sainte-Mère-Eglise",
+    "distanceKm": 2.5
+  },
+  "URVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 6.8
+  },
+  "URVILLE NACQUEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "URVILLE HAGUE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VAINS": {
+    "bureau": "Avranches",
+    "distanceKm": 6.0
+  },
+  "VALCANVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 6.8
+  },
+  "VARENGUEBEC": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 6.0
+  },
+  "VAROUVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 2.3
+  },
+  "VASTEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VAUDREVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 2.9
+  },
+  "VAUDRIMESNIL": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VAUVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VENGEONS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VER": {
+    "bureau": "Gavray",
+    "distanceKm": 4.5
+  },
+  "VERGONCEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VERNIX": {
+    "bureau": "Brécey",
+    "distanceKm": 3.9
+  },
+  "VESLY": {
+    "bureau": "Lessay",
+    "distanceKm": 3.9
+  },
+  "VESSEY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VEZINS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VICQ SUR MER": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 2.9
+  },
+  "COSQUEVILLE": {
+    "bureau": "Saint-Pierre-Eglise",
+    "distanceKm": 2.9
+  },
+  "VIDECOSVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 7.7
+  },
+  "VIDOUVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VIERVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VILLEBAUDON": {
+    "bureau": "Percy",
+    "distanceKm": 6.0
+  },
+  "VILLECHIEN": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VILLEDIEU LES POELES ROUFFIGNY": {
+    "bureau": "Villedieu",
+    "distanceKm": 0.0
+  },
+  "VILLEDIEU LES POELES": {
+    "bureau": "Villedieu",
+    "distanceKm": 0.0
+  },
+  "VILLIERS FOSSARD": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 5.6
+  },
+  "VILLIERS LE PRE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VILLIERS": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VINDEFONTAINE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VIRANDEVILLE": {
+    "bureau": "Cherbourg",
+    "distanceKm": 8.6
+  },
+  "VIREY": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "VRASVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "YQUELON": {
+    "bureau": "Bréhal",
+    "distanceKm": 6.2
+  },
+  "YVETOT BOCAGE": {
+    "bureau": "Valognes",
+    "distanceKm": 3.3
+  },
+  "ECAUSSEVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 4.6
+  },
+  "ECOQUENEAUVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "ECULLEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "EMONDEVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 5.5
+  },
+  "EQUEURDREVILLE HAINNEVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "EQUEURDREVILLE": {
+    "bureau": "Saint-Lô",
+    "distanceKm": 0.0
+  },
+  "EQUILLY": {
+    "bureau": "La Haye-Pesnel",
+    "distanceKm": 2.3
+  },
+  "EROUDEVILLE": {
+    "bureau": "Montebourg",
+    "distanceKm": 2.8
+  },
+  "ETIENVILLE": {
+    "bureau": "Saint-Sauveur-le-Vicomte",
+    "distanceKm": 7.9
+  }
+}

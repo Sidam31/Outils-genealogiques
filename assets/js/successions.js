@@ -871,12 +871,14 @@ export const SUCCESSION_DEPTS = {
     '88': {
         label: 'Vosges',
         kind: 'facet',
-        // Bornes réelles de la série (435 registres, 27 lieux sur 43 bureaux, voir
+        // Bornes réelles de la série (435 registres, 29 lieux sur 43 bureaux, voir
         // scrape_successions_vosges.py) - nouveau département pour ce projet, portail Ligeo
         // Archives à arbre "tv:/view:" (pas de recherche par facette) débloqué via des liens ARK
-        // fournis par l'utilisateur. 3 bureaux (Ruppes, Saulxures-lès-Bulgnéville, Vrécourt) n'ont
-        // pas de sous-série "Tables et fichiers" dans l'arbre - probablement rattachés à un autre
-        // bureau, non couverts.
+        // fournis par l'utilisateur. 2 bureaux (Ruppes, Saulxures-lès-Bulgnéville) n'ont vraiment
+        // aucune sous-série de tables dans leur arbre (vérifié en direct : leur seul enfant est
+        // "Actes civils publics", pas un problème de scraping) - probablement rattachés très tôt à
+        // un bureau voisin. Un 3e bureau à catalogue plus mince (Vrécourt, "Tables" au lieu de
+        // "Tables et fichiers") a nécessité un repli d'intitulé, ajouté après coup.
         minYear: 1784,
         maxYear: 1971,
         registersUrl: './assets/data/successions_88.json',
@@ -897,15 +899,17 @@ export const SUCCESSION_DEPTS = {
     '57': {
         label: 'Moselle',
         kind: 'facet',
-        // Bornes réelles de la série (471 registres, 30 lieux sur 34 bureaux, voir
+        // Bornes réelles de la série (620 registres, 34 lieux — tous les bureaux, voir
         // scrape_successions_moselle.py) - nouveau département pour ce projet, découvert par audit
         // systématique. Contrairement à tous les autres départements Ligeo Archives couverts, ce
         // portail ne publie AUCUN tableau HTML par registre pour cette série : seul un PDF officiel
         // par bureau (instrument de recherche complet) est disponible, parsé directement (pas de
-        // lien vers une image numérisée par registre, donc "digitized" toujours faux). 4 bureaux
-        // non couverts : Metz et Sarreguemines/Vic-sur-Seille utilisent un gabarit de PDF plus
-        // récent et structurellement différent (non parsé) ; Rombas nomme sa table "Tables des
-        // décès" plutôt que "successions et absences" (pas trouvée sous ce nom dans son PDF).
+        // lien vers une image numérisée par registre, donc "digitized" toujours faux). Deux gabarits
+        // de PDF coexistent (le second, plus ancien, utilisé par Metz/Sarreguemines/Vic-sur-Seille,
+        // numérote chaque registre par un simple "N*" local plutôt que par le préfixe complet
+        // "3Qn/m" - voir extract_records_starred) ; Rombas nomme sa table "Tables des décès" plutôt
+        // que "successions et absences" (repli HEADING_DECES_FALLBACK_RE, activé seulement quand
+        // aucune vraie section "successions" n'existe par ailleurs dans le même PDF).
         minYear: 1825,
         maxYear: 1969,
         registersUrl: './assets/data/successions_57.json',
@@ -953,6 +957,39 @@ export const SUCCESSION_DEPTS = {
         maxYear: 1968,
         registersUrl: './assets/data/successions_38.json',
         catalogUrl: 'https://archives.isere.fr/archive/instruments-de-recherche-63',
+    },
+    '29': {
+        label: 'Finistère',
+        kind: 'facet',
+        // Bornes réelles de la série (784 registres, 31 lieux — tous les bureaux, voir
+        // scripts_py/scrape_finistere.py) - portail Ligeo Archives derrière Anubis, même
+        // autorisation explicite que la série de Haute-Garonne, obtenue lors d'une exploration
+        // antérieure (voir la liste "départements vérifiés" de deces-manquants.html). Arborescence
+        // plus profonde que la Haute-Garonne (un seul fonds "3 Q" commun à tous les bureaux au lieu
+        // d'un fonds séparé par bureau), débloquée via la page "Détail du fonds" (arbre EAD
+        // classique "tv:/view:") plutôt que l'arbre JS du moteur de recherche du site (qui renvoie
+        // des noeuds vides pour ce fonds, raison non éclaircie).
+        minYear: 1750,
+        maxYear: 1945,
+        registersUrl: './assets/data/successions_29.json',
+        bureauxUrl: './assets/data/successions_29_bureaux.json',
+        catalogUrl: 'https://recherche.archives.finistere.fr/archive/fonds/FRAD029_Enregistrement/n:142',
+    },
+    '50': {
+        label: 'Manche',
+        kind: 'facet',
+        // Bornes réelles de la série (616 registres, 42 lieux, voir
+        // scripts_py/scrape_successions_manche.py) - portail Arkothèque (comme Paris/Allier), mais
+        // dépouillé via l'API JSON interne de l'arbre de classement plutôt que le tableau de
+        // résultats plat habituel (celui-ci mélange sans distinction fiable les vrais registres et
+        // les lignes de résumé par bureau/fonds). Pas de "contrats de mariage" dans ce fonds
+        // (vérifié : un seul noeud de premier niveau existe sous "Enregistrement", "Tables de
+        // successions" — aucune trace de mariage nulle part sur ce portail).
+        minYear: 1718,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_50.json',
+        bureauxUrl: './assets/data/successions_50_bureaux.json',
+        catalogUrl: 'https://www.archives-manche.fr/rechercher-1/repertoires-de-lenregistrement',
     },
 };
 

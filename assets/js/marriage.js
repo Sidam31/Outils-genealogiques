@@ -372,6 +372,18 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_74.json',
         catalogUrl: 'https://archives.hautesavoie.fr/archive/resultats/enregistrement/n:154?RECH_type_registre=Table+des+contrats+de+mariage&type=enregistrement',
     },
+    '29': {
+        label: 'Finistère',
+        // Bornes réelles de la série (47 registres, 22 lieux sur 31 bureaux — les autres n'ont pas
+        // de "Tables des contrats de mariage" cataloguée dans ce fonds, voir
+        // scripts_py/scrape_finistere.py). Même portail/même autorisation que la série successions
+        // de ce département (successions.js) - un seul scraper couvre les deux séries à la fois,
+        // contrairement à la Haute-Garonne qui a deux scripts séparés.
+        minYear: 1735,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_29.json',
+        catalogUrl: 'https://recherche.archives.finistere.fr/archive/fonds/FRAD029_Enregistrement/n:142',
+    },
 };
 
 function fetchJson(url) {

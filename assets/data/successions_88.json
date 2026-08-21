@@ -190,13 +190,6 @@
   },
   {
     "place": "Charmes",
-    "cote": "3 Q 5 100",
-    "yearStart": 1821,
-    "yearEnd": 1825,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:54870"
-  },
-  {
-    "place": "Charmes",
     "cote": "3 Q 5 101",
     "yearStart": 1825,
     "yearEnd": 1833,
@@ -208,41 +201,6 @@
     "yearStart": 1944,
     "yearEnd": 1954,
     "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:54881"
-  },
-  {
-    "place": "Charmes",
-    "cote": "2662 W 5",
-    "yearStart": 1955,
-    "yearEnd": 1961,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:54882"
-  },
-  {
-    "place": "Charmes",
-    "cote": "2662 W 6",
-    "yearStart": 1962,
-    "yearEnd": 1964,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:54884"
-  },
-  {
-    "place": "Charmes",
-    "cote": "3 Q 5 108",
-    "yearStart": 1821,
-    "yearEnd": 1825,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:54886"
-  },
-  {
-    "place": "Châtenois",
-    "cote": "1676 W 2",
-    "yearStart": 1952,
-    "yearEnd": 1961,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:72605"
-  },
-  {
-    "place": "Châtenois",
-    "cote": "3 Q 7 374",
-    "yearStart": 1814,
-    "yearEnd": 1817,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:72633"
   },
   {
     "place": "Corcieux",
@@ -400,13 +358,6 @@
   },
   {
     "place": "Darney",
-    "cote": "1621 W 1",
-    "yearStart": 1945,
-    "yearEnd": 1960,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:75599"
-  },
-  {
-    "place": "Darney",
     "cote": "2499 W 1",
     "yearStart": 1960,
     "yearEnd": 1965,
@@ -418,13 +369,6 @@
     "yearStart": 1966,
     "yearEnd": 1968,
     "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:75684"
-  },
-  {
-    "place": "Darney",
-    "cote": "3 Q 12 522",
-    "yearStart": 1823,
-    "yearEnd": 1824,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:75692"
   },
   {
     "place": "Dompaire",
@@ -1029,6 +973,20 @@
     "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:82131"
   },
   {
+    "place": "Granges-sur-Vologne",
+    "cote": "3 Q 21 51",
+    "yearStart": 1806,
+    "yearEnd": 1809,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:82909"
+  },
+  {
+    "place": "Granges-sur-Vologne",
+    "cote": "3 Q 21 54",
+    "yearStart": 1794,
+    "yearEnd": 1800,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:82913"
+  },
+  {
     "place": "Lamarche",
     "cote": "3 Q 22 478",
     "yearStart": 1791,
@@ -1134,18 +1092,53 @@
     "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83093"
   },
   {
-    "place": "Lamarche",
-    "cote": "3 Q 22 493",
-    "yearStart": 1811,
-    "yearEnd": 1815,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83094"
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 17",
+    "yearStart": 1798,
+    "yearEnd": 1800,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83673"
   },
   {
-    "place": "Lamarche",
-    "cote": "3 Q 22 495",
-    "yearStart": 1801,
-    "yearEnd": 1806,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83097"
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 18",
+    "yearStart": 1800,
+    "yearEnd": 1802,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83674"
+  },
+  {
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 19",
+    "yearStart": 1802,
+    "yearEnd": 1805,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83675"
+  },
+  {
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 20",
+    "yearStart": 1805,
+    "yearEnd": 1807,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83676"
+  },
+  {
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 21",
+    "yearStart": 1807,
+    "yearEnd": 1809,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83677"
+  },
+  {
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 22",
+    "yearStart": 1792,
+    "yearEnd": 1807,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83678"
+  },
+  {
+    "place": "Martigny-les-Bains",
+    "cote": "3 Q 24 23",
+    "yearStart": 1791,
+    "yearEnd": 1808,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:83679"
   },
   {
     "place": "Mirecourt",
@@ -2829,13 +2822,6 @@
   },
   {
     "place": "Vagney",
-    "cote": "3 Q 39 100",
-    "yearStart": 1820,
-    "yearEnd": 1824,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:127477"
-  },
-  {
-    "place": "Vagney",
     "cote": "3 Q 39 127",
     "yearStart": 1835,
     "yearEnd": 1911,
@@ -2926,11 +2912,25 @@
     "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:127684"
   },
   {
-    "place": "Vittel",
-    "cote": "3 Q 40 390",
-    "yearStart": 1822,
-    "yearEnd": 1825,
-    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:127685"
+    "place": "Vrécourt",
+    "cote": "3 Q 41 32",
+    "yearStart": 1791,
+    "yearEnd": 1801,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:128541"
+  },
+  {
+    "place": "Vrécourt",
+    "cote": "3 Q 41 33",
+    "yearStart": 1802,
+    "yearEnd": 1806,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:128543"
+  },
+  {
+    "place": "Vrécourt",
+    "cote": "3 Q 41 34",
+    "yearStart": 1806,
+    "yearEnd": 1807,
+    "url": "https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:128544"
   },
   {
     "place": "Xertigny",
