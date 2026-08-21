@@ -593,21 +593,6 @@ export class GedcomParser {
             }
             delete i._names; delete i._curNameBuf;
             if(i.famc) { const f=this.fams.get(i.famc); if(f) { if(f.husb) i.fatherId=f.husb; if(f.wife) i.motherId=f.wife; } }
-            // Un "1 ASSO" qualifié "Birth parent" (voir parseIndi) prime sur le FAMC ci-dessus : quand
-            // le FAMC pointe vers une famille nourricière/adoptive (le seul CHIL disponible dans le
-            // fichier), c'est cette association qui porte le vrai parent biologique. On détermine
-            // père/mère via le sexe du parent associé (le rôle seul ne le précise pas) ; sans SEX
-            // renseigné pour ce parent, impossible de trancher, on laisse alors le FAMC en place.
-            if(i._assoc && i._assoc.length) {
-                const isBirthParentAsso = e => /birth\s*parent/i.test(e.rela || '') || /birth\s*parent/i.test(e.role || '');
-                i._assoc.filter(isBirthParentAsso).forEach(e => {
-                    const parent = this.indis.get(e.indiId);
-                    if(!parent || !parent.sex) return;
-                    if(parent.sex === 'M') i.fatherId = parent.id;
-                    else if(parent.sex === 'F') i.motherId = parent.id;
-                });
-            }
-            delete i._assoc;
             if(i.birth.year && i.death.year) i.ageDeath = i.death.year - i.birth.year;
             let fMarrY=null, fChildY=null, tot=0;
             const childrenYears = []; // Collecter les années de naissance des enfants
@@ -628,6 +613,27 @@ export class GedcomParser {
             i.marrYear = fMarrY; // Stocker l'année de mariage sur l'individu
             if(i.birth.year && fMarrY) i.ageMarr=Math.max(0, fMarrY-i.birth.year);
             if(i.birth.year && fChildY) i.ageFirstChild=Math.max(0, fChildY-i.birth.year);
+        });
+        // Deuxième passe, une fois tous les fatherId/motherId posés ci-dessus par FAMC : un "1 ASSO"
+        // qualifié "Birth parent" (voir parseIndi) vit sur le PARENT biologique (i) et pointe vers
+        // l'ENFANT (e.indiId) — pas l'inverse — pour signaler que ce parent est le vrai parent
+        // biologique de l'enfant même quand le FAMC de cet enfant pointe vers une famille
+        // nourricière/adoptive (seul CHIL disponible dans le fichier). D'où une passe séparée après
+        // coup, qui écrit sur l'ENFANT plutôt que sur i (le propriétaire de l'ASSO) : faite dans la
+        // même boucle que la résolution FAMC ci-dessus, une famille nourricière rencontrée APRÈS la
+        // famille biologique dans le fichier écraserait l'affectation dans le mauvais sens. "Adoptive
+        // parent"/tout autre rôle ne matche pas isBirthParentAsso et reste donc sans effet ici.
+        this.indis.forEach(i => {
+            if(i._assoc && i._assoc.length) {
+                const isBirthParentAsso = e => /birth\s*parent/i.test(e.rela || '') || /birth\s*parent/i.test(e.role || '');
+                i._assoc.filter(isBirthParentAsso).forEach(e => {
+                    const child = this.indis.get(e.indiId);
+                    if(!child || !i.sex) return;
+                    if(i.sex === 'M') child.fatherId = i.id;
+                    else if(i.sex === 'F') child.motherId = i.id;
+                });
+            }
+            delete i._assoc;
         });
     }
 }
