@@ -15,7 +15,7 @@ const OTHER_EVENT_TAG_LABELS = {
 
 // --- PARSER ---
 export class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; this._curAsso = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
@@ -163,6 +163,22 @@ export class GedcomParser {
             }
             if(t==='FAMC') i.famc=this.clean(v);
             if(t==='FAMS') i.fams.push(this.clean(v));
+            // "1 ASSO @X@" avec "2 RELA/ROLE Birth parent" : certains fichiers (accueil/famille
+            // d'accueil) rattachent l'enfant par FAMC/CHIL à la famille NOURRICIÈRE (adoptive/accueil)
+            // et ne signalent le parent BIOLOGIQUE que via cette association, sans FAM dédiée. Sans ce
+            // repérage, postProcess() (plus bas) ne verrait que la famille nourricière via i.famc et
+            // afficherait les parents adoptifs à la place des parents biologiques (arbre en éventail).
+            // Poussée immédiate dans i._assoc (comme censusEvents/resiEvents ci-dessous) : RELA/ROLE
+            // (niveau 2, voir plus bas) la mutent en place. "Adoptive parent"/"Foster parent" sont
+            // capturés ici aussi mais délibérément ignorés en aval (voir postProcess) : ce ne sont pas
+            // les parents à afficher dans la généalogie ascendante.
+            if(t==='ASSO') {
+                const assoEntry = { indiId: this.clean(v), rela:null, role:null };
+                (i._assoc || (i._assoc = [])).push(assoEntry);
+                this._curAsso = assoEntry;
+            } else {
+                this._curAsso = null;
+            }
             if(t==='SEX') i.sex=v.trim().toUpperCase().charAt(0); // 'M' ou 'F' (ou 'U'/'X' selon la source)
             // Une personne peut avoir plusieurs "1 OCCU" (métiers successifs au fil des actes) :
             // on les garde tous plutôt que d'écraser avec le dernier rencontré. Chaque valeur peut
@@ -223,6 +239,11 @@ export class GedcomParser {
             // référence (given/surname utilisés pour les recherches d'archives et l'appariement
             // INSEE) ; "aka"/"nickname"/"alias" est l'alias préféré pour l'affichage (voir postProcess).
             if(t==='TYPE' && i._ctx==='NAME' && v && v.trim() && i._curNameBuf) i._curNameBuf.type = v.trim().toLowerCase();
+            // RELA et ROLE portent en pratique la même valeur ("Birth parent", "Adoptive parent"...)
+            // selon le logiciel exportateur : on garde les deux, isBirthParentAsso (postProcess) teste l'un ou l'autre.
+            if((t==='RELA' || t==='ROLE') && i._ctx==='ASSO' && this._curAsso && v && v.trim()) {
+                if(t==='RELA') this._curAsso.rela = v.trim(); else this._curAsso.role = v.trim();
+            }
             if(t==='DATE') {
                 const y=this.getYear(v);
                 const approx=this.isApproxDate(v);
@@ -572,6 +593,21 @@ export class GedcomParser {
             }
             delete i._names; delete i._curNameBuf;
             if(i.famc) { const f=this.fams.get(i.famc); if(f) { if(f.husb) i.fatherId=f.husb; if(f.wife) i.motherId=f.wife; } }
+            // Un "1 ASSO" qualifié "Birth parent" (voir parseIndi) prime sur le FAMC ci-dessus : quand
+            // le FAMC pointe vers une famille nourricière/adoptive (le seul CHIL disponible dans le
+            // fichier), c'est cette association qui porte le vrai parent biologique. On détermine
+            // père/mère via le sexe du parent associé (le rôle seul ne le précise pas) ; sans SEX
+            // renseigné pour ce parent, impossible de trancher, on laisse alors le FAMC en place.
+            if(i._assoc && i._assoc.length) {
+                const isBirthParentAsso = e => /birth\s*parent/i.test(e.rela || '') || /birth\s*parent/i.test(e.role || '');
+                i._assoc.filter(isBirthParentAsso).forEach(e => {
+                    const parent = this.indis.get(e.indiId);
+                    if(!parent || !parent.sex) return;
+                    if(parent.sex === 'M') i.fatherId = parent.id;
+                    else if(parent.sex === 'F') i.motherId = parent.id;
+                });
+            }
+            delete i._assoc;
             if(i.birth.year && i.death.year) i.ageDeath = i.death.year - i.birth.year;
             let fMarrY=null, fChildY=null, tot=0;
             const childrenYears = []; // Collecter les années de naissance des enfants
