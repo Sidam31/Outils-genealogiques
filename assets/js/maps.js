@@ -54,21 +54,22 @@ export async function ensureEuropeGeo() {
         // contours de pays voisins (on n'a pas besoin du détail utilisé pour les départements).
         const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson');
         const raw = await res.json();
-        // La résolution 110m omet plusieurs micro-États, dont l'Andorre (constaté : absente du jeu de
-        // données) — sans ce complément, elle disparaît à la fois du contexte "pays voisins" de la
-        // carte de France (NEIGHBOR_COUNTRY_LABELS) et du repli Natural Earth de la vue Europe par
-        // pays (drawEuropeMap, pour les années hors couverture CShapes). Contour dédié bundlé
-        // localement (assets/data/andorra.geojson), fusionné seulement si Natural Earth ne l'a
-        // toujours pas lui-même (test par nom, pour rester sans effet le jour où il l'ajouterait).
-        const hasAndorra = raw.features.some(f => (f.properties?.ADMIN || f.properties?.NAME) === 'Andorra');
-        if(!hasAndorra) {
-            try {
-                const andorraRes = await fetch('./assets/data/andorra.geojson');
-                const andorraGeo = await andorraRes.json();
-                const andorraFeature = andorraGeo.features[0];
-                if(andorraFeature) raw.features.push({ ...andorraFeature, properties: { ...andorraFeature.properties, ADMIN: 'Andorra', NAME: 'Andorra' } });
-            } catch(err) { /* pas de contour Andorre, le reste de la carte reste fonctionnel */ }
-        }
+        // La résolution 110m rend très mal les micro-États : l'Andorre y garde une entrée, mais
+        // réduite à une poignée de points (constaté : un blob grossier proche d'un demi-disque plutôt
+        // que son contour réel), ce qui déforme à la fois le contexte "pays voisins" de la carte de
+        // France (NEIGHBOR_COUNTRY_LABELS) et le repli Natural Earth de la vue Europe par pays
+        // (drawEuropeMap, pour les années hors couverture CShapes). Remplacée SYSTÉMATIQUEMENT (pas
+        // seulement si absente) par un contour dédié bundlé localement (assets/data/andorra.geojson) :
+        // à cette résolution, "présente" ne veut pas dire "correcte".
+        try {
+            const andorraRes = await fetch('./assets/data/andorra.geojson');
+            const andorraGeo = await andorraRes.json();
+            const andorraFeature = andorraGeo.features[0];
+            if(andorraFeature) {
+                raw.features = raw.features.filter(f => (f.properties?.ADMIN || f.properties?.NAME) !== 'Andorra');
+                raw.features.push({ ...andorraFeature, properties: { ...andorraFeature.properties, ADMIN: 'Andorra', NAME: 'Andorra' } });
+            }
+        } catch(err) { /* pas de contour Andorre dédié : on garde tel quel celui (dégradé) de Natural Earth */ }
         europeGeoCache = raw;
     }
     return europeGeoCache;
@@ -1078,6 +1079,13 @@ let cshapesEuropeCache = null;
 export async function ensureCShapesEurope() {
     if(!cshapesEuropeCache) {
         const res = await fetch('./assets/data/cshapes_europe.geojson');
+        // Pas de correctif de sens des anneaux ici (contrairement à ensureBelgiumGeo) : essayé, mais
+        // ça a empiré le rendu au lieu de le corriger (l'aperçu Europe entière et les pays de taille
+        // normale, qui s'affichaient correctement, sont devenus eux aussi des demi-disques) — donc
+        // CE fichier n'a pas le même problème que "Belgium-Geographic-Data" malgré le symptôme
+        // superficiellement similaire sur l'Andorre. Cause réelle probable : projection conique
+        // (voir drawEuropeCountryDetail) mal adaptée à un fitExtent extrême sur un territoire minuscule,
+        // pas le sens des anneaux — à corriger côté projection plutôt qu'ici.
         cshapesEuropeCache = await res.json();
     }
     return cshapesEuropeCache;
@@ -1285,7 +1293,14 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo) {
     const mapWidth = containerWidth - listWidth;
     const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
 
-    const projection = d3.geoConicConformal().fitExtent([[24, 24], [mapWidth - 24, height - 24]], { type: 'FeatureCollection', features });
+    // Mercator (comme drawBelgiumMap), pas geoConicConformal (comme drawDepartmentMap/drawBeProvinceMap
+    // pour les mêmes vues "un seul territoire") : les départements français et provinces belges ne
+    // posent pas de problème avec une conique, mais un micro-État européen (Andorre, Monaco,
+    // Saint-Marin...) peut être 100 à 1000 fois plus petit — le fitExtent extrême que ça impose fait
+    // ressortir un vrai défaut de la projection conique à cette échelle (le rendu dégénère en un
+    // "demi-disque" qui n'a rien à voir avec le contour réel, constaté sur l'Andorre). Mercator n'a
+    // ni pôle ni cercle de recadrage interne à cette latitude et reste stable à n'importe quel zoom.
+    const projection = d3.geoMercator().fitExtent([[24, 24], [mapWidth - 24, height - 24]], { type: 'FeatureCollection', features });
     const path = d3.geoPath().projection(projection);
     const territoryTooltip = document.getElementById('tooltip');
 
