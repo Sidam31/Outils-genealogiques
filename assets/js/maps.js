@@ -1065,6 +1065,51 @@ function clipToEuropeBbox(geometry) {
     return { type: 'MultiPolygon', coordinates: kept };
 }
 
+// Emprise lon/lat calculée directement en parcourant TOUS les points de TOUS les anneaux (extérieurs
+// ET trous, peu importe) d'une liste de features — volontairement sans passer par d3.geoBounds ni par
+// fitExtent : voir le commentaire dans drawEuropeCountryDetail, cette voie détournée existe
+// précisément parce que le calcul d'emprise "normal" de d3-geo se comporte mal sur certaines
+// géométries de ce fichier (constaté sur l'Andorre). Un simple min/max de coordonnées ne peut pas, lui,
+// se tromper sur "quel côté est l'intérieur" : il n'a aucune notion de sens de parcours.
+function rawLonLatBounds(features) {
+    let lonMin = Infinity, lonMax = -Infinity, latMin = Infinity, latMax = -Infinity;
+    const visitRing = ring => ring.forEach(([lon, lat]) => {
+        if(lon < lonMin) lonMin = lon;
+        if(lon > lonMax) lonMax = lon;
+        if(lat < latMin) latMin = lat;
+        if(lat > latMax) latMax = lat;
+    });
+    features.forEach(f => {
+        const g = f.geometry;
+        if(!g) return;
+        if(g.type === 'Polygon') g.coordinates.forEach(visitRing);
+        else if(g.type === 'MultiPolygon') g.coordinates.forEach(poly => poly.forEach(visitRing));
+    });
+    return { lonMin, lonMax, latMin, latMax };
+}
+
+// Construit, à partir d'une emprise rawLonLatBounds, un simple rectangle GeoJSON (anneau CCW, marge de
+// 10% + plancher absolu pour ne jamais coller aux bords même sur un territoire ponctuel) : sert
+// UNIQUEMENT à calibrer une projection via fitExtent (voir drawEuropeCountryDetail), jamais dessiné —
+// un rectangle simple, loin de tout pôle et largement plus petit qu'un hémisphère, ne peut pas
+// déclencher la même ambiguïté "intérieur/extérieur" que la géométrie réelle du territoire.
+function paddedBoundsFeature(b) {
+    const lonPad = Math.max((b.lonMax - b.lonMin) * 0.1, 0.05);
+    const latPad = Math.max((b.latMax - b.latMin) * 0.1, 0.05);
+    const lonMin = b.lonMin - lonPad, lonMax = b.lonMax + lonPad;
+    const latMin = b.latMin - latPad, latMax = b.latMax + latPad;
+    return {
+        type: 'Feature',
+        properties: {},
+        geometry: {
+            type: 'Polygon',
+            coordinates: [[
+                [lonMin, latMin], [lonMax, latMin], [lonMax, latMax], [lonMin, latMax], [lonMin, latMin]
+            ]]
+        }
+    };
+}
+
 // --- CShapes (frontières historiques) : sous-ensemble Europe du jeu de données "CShapes 2.0" (ETH
 // Zürich, icr.ethz.ch/data/cshapes), une géométrie par entité politique et par plage d'années
 // [From, To] où ses frontières sont restées stables (ex. l'Allemagne y apparaît en plusieurs morceaux
@@ -1293,14 +1338,19 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo) {
     const mapWidth = containerWidth - listWidth;
     const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
 
-    // Mercator (comme drawBelgiumMap), pas geoConicConformal (comme drawDepartmentMap/drawBeProvinceMap
-    // pour les mêmes vues "un seul territoire") : les départements français et provinces belges ne
-    // posent pas de problème avec une conique, mais un micro-État européen (Andorre, Monaco,
-    // Saint-Marin...) peut être 100 à 1000 fois plus petit — le fitExtent extrême que ça impose fait
-    // ressortir un vrai défaut de la projection conique à cette échelle (le rendu dégénère en un
-    // "demi-disque" qui n'a rien à voir avec le contour réel, constaté sur l'Andorre). Mercator n'a
-    // ni pôle ni cercle de recadrage interne à cette latitude et reste stable à n'importe quel zoom.
-    const projection = d3.geoMercator().fitExtent([[24, 24], [mapWidth - 24, height - 24]], { type: 'FeatureCollection', features });
+    // fitExtent PAS calibré directement sur "features" (contrairement à toutes les autres cartes de
+    // ce fichier) : pour au moins un micro-État (Andorre, constaté), fitExtent(extent, features)
+    // produit un scale/translate aberrant — la carte se retrouve remplie d'une forme géométrique
+    // simple (demi-disque avec une projection conique, rectangle plein bord à bord avec Mercator)
+    // sans rapport avec le contour réel, quelle que soit la projection utilisée. Signe que le bug est
+    // dans le calcul d'emprise de fitExtent sur CETTE géométrie précise (peut-être liée au sens des
+    // anneaux, une piste déjà tentée sans succès - voir ensureCShapesEurope), pas dans la projection
+    // elle-même. Contournement : calculer l'emprise nous-mêmes, directement sur les coordonnées
+    // brutes (sans passer par le pipeline de clipping de d3-geo), et ne s'en servir que pour calibrer
+    // la projection — la géométrie réelle n'est utilisée que pour LE DESSIN, une fois la projection
+    // déjà calibrée sur une emprise saine.
+    const rawBounds = rawLonLatBounds(features);
+    const projection = d3.geoMercator().fitExtent([[24, 24], [mapWidth - 24, height - 24]], paddedBoundsFeature(rawBounds));
     const path = d3.geoPath().projection(projection);
     const territoryTooltip = document.getElementById('tooltip');
 
