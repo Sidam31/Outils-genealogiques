@@ -471,7 +471,8 @@ import {
     drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury,
     computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap,
     computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap,
-    computeEuropeCountrySummaries, computeEuropeDetail, drawEuropeMap, ensureCShapesEurope, cshapesYearBounds
+    computeEuropeCountrySummaries, computeEuropeDetail, drawEuropeMap, ensureCShapesEurope, cshapesYearBounds,
+    hasEasterEggSurname
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
 import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap } from './assets/js/society.js';
@@ -1239,7 +1240,8 @@ function renderEuropeDetail() {
     renderEuropeSurnameList(europeSurnameFilterEl.value);
     drawEuropeMap('europeMapChart', code, {
         summaries: europeSummariesCache, detail, onSelectCountry: selectEuropeCountry,
-        year: parseInt(europeYearSliderEl.value, 10)
+        year: parseInt(europeYearSliderEl.value, 10),
+        easterEgg: hasEasterEggSurname(europeScopedList())
     });
 }
 
@@ -1252,7 +1254,8 @@ function redrawEuropeMapForYear() {
     updateEuropeYearLabel();
     drawEuropeMap('europeMapChart', europeSelectedCode || null, {
         summaries: europeSummariesCache, detail: europeDetailCache, onSelectCountry: selectEuropeCountry,
-        year: parseInt(europeYearSliderEl.value, 10)
+        year: parseInt(europeYearSliderEl.value, 10),
+        easterEgg: hasEasterEggSurname(europeScopedList())
     });
 }
 europeYearSliderEl.addEventListener('input', redrawEuropeMapForYear);

@@ -1088,14 +1088,16 @@ function rawLonLatBounds(features) {
     return { lonMin, lonMax, latMin, latMax };
 }
 
-// Construit, à partir d'une emprise rawLonLatBounds, un simple rectangle GeoJSON (anneau CCW, marge de
-// 10% + plancher absolu pour ne jamais coller aux bords même sur un territoire ponctuel) : sert
+// Construit, à partir d'une emprise rawLonLatBounds, un simple rectangle GeoJSON (anneau CCW) : sert
 // UNIQUEMENT à calibrer une projection via fitExtent (voir drawEuropeCountryDetail), jamais dessiné —
 // un rectangle simple, loin de tout pôle et largement plus petit qu'un hémisphère, ne peut pas
-// déclencher la même ambiguïté "intérieur/extérieur" que la géométrie réelle du territoire.
+// déclencher la même ambiguïté "intérieur/extérieur" que la géométrie réelle du territoire. Marge
+// volontairement quasi nulle (juste un plancher anti-dégénérescence, pas un pourcentage du span) :
+// fitExtent lui-même fournit déjà une marge en pixels ([[24,24],[largeur-24,hauteur-24]]) — ajouter EN
+// PLUS une marge en degrés a fait apparaître tous les pays trop petits/zoomés arrière (constaté).
 function paddedBoundsFeature(b) {
-    const lonPad = Math.max((b.lonMax - b.lonMin) * 0.1, 0.05);
-    const latPad = Math.max((b.latMax - b.latMin) * 0.1, 0.05);
+    const lonPad = Math.max((b.lonMax - b.lonMin) * 0.01, 0.01);
+    const latPad = Math.max((b.latMax - b.latMin) * 0.01, 0.01);
     const lonMin = b.lonMin - lonPad, lonMax = b.lonMax + lonPad;
     const latMin = b.latMin - latPad, latMax = b.latMax + latPad;
     return {
@@ -1191,6 +1193,23 @@ const CSHAPES_NAME_TO_LABEL = new Map([
 // Earth. Seul absent notable : Chypre (hors du périmètre du jeu de données CShapes-Europe).
 const CSHAPES_MAPPED_LABELS = new Set(CSHAPES_NAME_TO_LABEL.values());
 
+// --- ŒUF DE PÂQUES : petit pavillon arc-en-ciel sur la carte d'Europe si un patronyme "ami" figure
+// dans le périmètre actuellement affiché (comparaison insensible à la casse et aux accents) — pur
+// clin d'œil visuel, sans effet sur les données ; totalement invisible si aucun de ces patronymes
+// n'est présent dans le GEDCOM chargé.
+const EASTER_EGG_SURNAMES = new Set(['MAESTRE', 'BERKESSEL']);
+const stripDiacritics = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
+export function hasEasterEggSurname(list) {
+    return list.some(p => EASTER_EGG_SURNAMES.has(stripDiacritics((p.surname || '').toUpperCase())));
+}
+function drawEasterEggFlag(svg, width) {
+    svg.append('text')
+        .attr('x', width - 14).attr('y', 24).attr('text-anchor', 'end')
+        .style('font-size', '20px').style('cursor', 'default')
+        .text('🏳️‍🌈')
+        .append('title').text('✨');
+}
+
 // code === null -> vue d'ensemble à une ANNÉE donnée (opts.year, frontières CShapes). Sinon -> vue
 // détail zoomée sur CE pays, à la MÊME année : cherche toutes les entités CShapes rattachées à ce
 // libellé moderne (voir CSHAPES_NAME_TO_LABEL) et actives cette année-là — un pays comme l'Allemagne
@@ -1221,7 +1240,7 @@ export async function drawEuropeMap(containerId, code, opts = {}) {
 
     if(code === null) {
         const features = cshapesGeo.features.filter(f => f.properties.From <= year && f.properties.To >= year);
-        drawEuropeOverview(container, features, opts.summaries || [], year, bounds, opts.onSelectCountry);
+        drawEuropeOverview(container, features, opts.summaries || [], year, bounds, opts.onSelectCountry, opts.easterEgg);
         return;
     }
 
@@ -1246,10 +1265,10 @@ export async function drawEuropeMap(containerId, code, opts = {}) {
         features = [{ ...neFeature, geometry: clipToEuropeBbox(neFeature.geometry) }];
     }
 
-    drawEuropeCountryDetail(container, features, opts.detail, { year, bounds, usingHistorical, hasAnyHistory: CSHAPES_MAPPED_LABELS.has(code) });
+    drawEuropeCountryDetail(container, features, opts.detail, { year, bounds, usingHistorical, hasAnyHistory: CSHAPES_MAPPED_LABELS.has(code) }, opts.easterEgg);
 }
 
-function drawEuropeOverview(container, features, summaries, year, bounds, onSelectCountry) {
+function drawEuropeOverview(container, features, summaries, year, bounds, onSelectCountry, easterEgg) {
     container.selectAll('*').remove();
     const width = container.node().clientWidth || 500, height = 460;
     const svg = container.append('svg').attr('width', width).attr('height', height);
@@ -1323,6 +1342,8 @@ function drawEuropeOverview(container, features, summaries, year, bounds, onSele
         .text(year >= bounds.max
             ? `Frontières actuelles (${year}) — cliquez sur un pays pour zoomer sur ses événements.`
             : `Frontières historiques en ${year} — cliquez sur un territoire rattaché aux données pour zoomer.`);
+
+    if(easterEgg) drawEasterEggFlag(svg, width);
 }
 
 // Pendant de drawDepartmentMap, pour un pays européen : contour zoomé (fitExtent sur TOUTES les
@@ -1330,7 +1351,7 @@ function drawEuropeOverview(container, features, summaries, year, bounds, onSele
 // choisie, voir drawEuropeMap ci-dessus, s'affiche donc comme leur mosaïque complète) + événements
 // individuels géolocalisés + panneau "Liste éclair" des patronymes (réutilise drawDeptSurnamePanel,
 // générique malgré son nom).
-function drawEuropeCountryDetail(container, features, detail, yearInfo) {
+function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEgg) {
     container.selectAll('*').remove();
     const height = 440;
     const containerWidth = container.node().clientWidth || 720;
@@ -1446,6 +1467,7 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo) {
     }
 
     if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
+    if(easterEgg) drawEasterEggFlag(svg, mapWidth);
 }
 
 // --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---
