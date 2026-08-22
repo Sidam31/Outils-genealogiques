@@ -1359,19 +1359,14 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
     const mapWidth = containerWidth - listWidth;
     const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
 
-    // fitExtent PAS calibré directement sur "features" (contrairement à toutes les autres cartes de
-    // ce fichier) : pour au moins un micro-État (Andorre, constaté), fitExtent(extent, features)
-    // produit un scale/translate aberrant — la carte se retrouve remplie d'une forme géométrique
-    // simple (demi-disque avec une projection conique, rectangle plein bord à bord avec Mercator)
-    // sans rapport avec le contour réel, quelle que soit la projection utilisée. Signe que le bug est
-    // dans le calcul d'emprise de fitExtent sur CETTE géométrie précise (peut-être liée au sens des
-    // anneaux, une piste déjà tentée sans succès - voir ensureCShapesEurope), pas dans la projection
-    // elle-même. Contournement : calculer l'emprise nous-mêmes, directement sur les coordonnées
-    // brutes (sans passer par le pipeline de clipping de d3-geo), et ne s'en servir que pour calibrer
-    // la projection — la géométrie réelle n'est utilisée que pour LE DESSIN, une fois la projection
-    // déjà calibrée sur une emprise saine.
-    const rawBounds = rawLonLatBounds(features);
-    const projection = d3.geoMercator().fitExtent([[24, 24], [mapWidth - 24, height - 24]], paddedBoundsFeature(rawBounds));
+    // Mercator (comme drawBelgiumMap), pas geoConicConformal (comme drawDepartmentMap/drawBeProvinceMap
+    // pour les mêmes vues "un seul territoire") : les départements français et provinces belges ne
+    // posent pas de problème avec une conique, mais un micro-État européen (Andorre, Monaco,
+    // Saint-Marin...) peut être 100 à 1000 fois plus petit — le fitExtent extrême que ça impose fait
+    // ressortir un vrai défaut de la projection conique à cette échelle (le rendu dégénère en un
+    // "demi-disque" qui n'a rien à voir avec le contour réel, constaté sur l'Andorre). Mercator n'a
+    // ni pôle ni cercle de recadrage interne à cette latitude et reste stable à n'importe quel zoom.
+    const projection = d3.geoMercator().fitExtent([[24, 24], [mapWidth - 24, height - 24]], { type: 'FeatureCollection', features });
     const path = d3.geoPath().projection(projection);
     const territoryTooltip = document.getElementById('tooltip');
 
