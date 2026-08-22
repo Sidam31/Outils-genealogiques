@@ -169,10 +169,13 @@ export function computeResidenceMobility(list) {
         if (!p.resiEvents?.length) return;
         const places = new Set();
         p.resiEvents.forEach(r => {
-            const city = r.geo?.city;
-            if (city) {
-                places.add(city);
-                placeCounts.set(city, (placeCounts.get(city) || 0) + 1);
+            // cityChain garde tous les segments plus précis que le département (ex. lieu-dit + commune) ;
+            // "city" seul n'en retient que le dernier (la commune), perdant le lieu-dit le cas échéant.
+            const chain = r.geo?.cityChain;
+            const place = chain?.length ? chain.join(', ') : r.geo?.city;
+            if (place) {
+                places.add(place);
+                placeCounts.set(place, (placeCounts.get(place) || 0) + 1);
             }
         });
         if (places.size) perPersonCounts.push(places.size);
@@ -506,7 +509,11 @@ export function drawRankedBarChart(containerId, data, opts = {}) {
     const barHeight = 22;
     const margin = { top: 10, right: 44, bottom: 10, left: 150 };
     const height = margin.top + margin.bottom + data.length * barHeight;
-    const svg = container.append('svg').attr('width', width).attr('height', height);
+    // viewBox + width 100% (plutôt qu'un attribut width fixe) : le graphe est souvent dessiné pendant
+    // que son onglet est encore caché (clientWidth = 0, d'où le repli sur 500), ce qui produirait un
+    // SVG figé à 500px débordant de la boîte une fois l'onglet affiché dans un panneau plus étroit.
+    const svg = container.append('svg').attr('viewBox', `0 0 ${width} ${height}`)
+        .style('width', '100%').style('height', 'auto').style('display', 'block');
 
     const maxCount = d3.max(data, d => d.count) || 1;
     const x = d3.scaleLinear().domain([0, maxCount]).nice().range([margin.left, width - margin.right]);

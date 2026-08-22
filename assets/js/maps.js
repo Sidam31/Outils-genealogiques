@@ -123,10 +123,11 @@ export async function enrichMissingCoords(list) {
 const GEO_EVENT_LABELS = { BIRT: 'Naissance', DEAT: 'Décès', MARR: 'Mariage' };
 
 // Compte les lieux (pays / département) par type d'événement activé, pour un ensemble d'individus
-// donné. opts.yearMax, si fourni, restreint aux événements datés et survenus au plus tard cette
-// année-là (permet de rejouer l'évolution des lieux au fil du temps) ; sans cutoff, les événements
-// sans date connue restent inclus comme avant.
+// donné. opts.yearMin/opts.yearMax, si fournis, restreignent aux événements datés et survenus dans
+// cet intervalle (bornes incluses ; permet de rejouer l'évolution des lieux au fil du temps) ; sans
+// bornes, les événements sans date connue restent inclus comme avant.
 export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
+    const yearMin = opts && opts.yearMin != null ? opts.yearMin : null;
     const yearMax = opts && opts.yearMax != null ? opts.yearMax : null;
     const byCountry = {}, byDept = {}, byBeProvince = {};
     // Points pour la heatmap du monde : résolution département (préfecture) pour la France
@@ -160,11 +161,15 @@ export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
         }
         if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country], item);
     };
-    // Avec un cutoff temporel actif, seuls les événements datés (et antérieurs ou égaux au cutoff)
+    // Avec un filtre temporel actif, seuls les événements datés (et compris dans l'intervalle)
     // comptent — un événement sans date ne peut pas être situé dans le temps, donc il n'apparaît
     // que lorsque le filtre temporel est désactivé (comportement identique au slider par décennie
     // de la pyramide des âges, cf. drawAgePyramidForSelectedDecade).
-    const passesTime = year => yearMax == null || (year != null && year <= yearMax);
+    const passesTime = year => {
+        if(yearMin == null && yearMax == null) return true;
+        if(year == null) return false;
+        return (yearMin == null || year >= yearMin) && (yearMax == null || year <= yearMax);
+    };
     scopeIds.forEach(id => {
         const i = individuals.get(id);
         if(!i) return;
@@ -915,6 +920,402 @@ export async function drawBeProvinceMap(containerId, code, detail) {
     if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
 }
 
+// --- CARTE EUROPE (choroplèthe par pays, zoomable sur un pays) ---
+// Généralise le principe des sections "CARTE PAR DÉPARTEMENT"/"CARTE PAR PROVINCE BELGE" ci-dessus
+// à l'échelle du continent, mais avec un état par défaut différent : plutôt que de zoomer d'emblée
+// sur le territoire le plus représenté, la vue Europe s'ouvre sur une choroplèthe de TOUT le
+// continent (une couleur par pays selon son nombre d'événements, comme drawFranceMap/drawBelgiumMap) ;
+// sélectionner un pays (chip ou clic direct sur son contour) fait basculer la carte en vue "détail"
+// identique à drawDepartmentMap (contour zoomé, événements géolocalisés individuels, panneau
+// patronymes) — réutilise donc DEPT_EVENT_TYPES/drawDeptSurnamePanel sous une forme adaptée au pays.
+// Limité aux pays "actuels" de l'Europe géographique reconnus par GEO.countryMap : ni la Russie ni
+// la Turquie (transcontinentales, l'essentiel de leur territoire est hors d'Europe — les inclure
+// avec leur géométrie Natural Earth complète, non découpée à l'Oural/au Bosphore, fausserait
+// l'échelle de la vue "Europe entière").
+const EUROPE_COUNTRY_LABELS = new Map([
+    ['France', 'France'], ['Belgium', 'Belgique'], ['Switzerland', 'Suisse'], ['Germany', 'Allemagne'],
+    ['Italy', 'Italie'], ['Spain', 'Espagne'], ['United Kingdom', 'Royaume-Uni'], ['Ireland', 'Irlande'],
+    ['Andorra', 'Andorre'], ['Luxembourg', 'Luxembourg'], ['Netherlands', 'Pays-Bas'], ['Austria', 'Autriche'],
+    ['Portugal', 'Portugal'], ['Monaco', 'Monaco'], ['Liechtenstein', 'Liechtenstein'], ['Sweden', 'Suède'],
+    ['Norway', 'Norvège'], ['Denmark', 'Danemark'], ['Finland', 'Finlande'], ['Iceland', 'Islande'],
+    ['Poland', 'Pologne'], ['Czechia', 'Tchéquie'], ['Czech Republic', 'Tchéquie'], ['Slovakia', 'Slovaquie'],
+    ['Hungary', 'Hongrie'], ['Romania', 'Roumanie'], ['Bulgaria', 'Bulgarie'], ['Serbia', 'Serbie'],
+    ['Croatia', 'Croatie'], ['Slovenia', 'Slovénie'], ['Bosnia and Herzegovina', 'Bosnie'],
+    ['Montenegro', 'Monténégro'], ['Macedonia', 'Macédoine'], ['North Macedonia', 'Macédoine'],
+    ['Albania', 'Albanie'], ['Greece', 'Grèce'], ['Cyprus', 'Chypre'], ['Malta', 'Malte'],
+    ['Ukraine', 'Ukraine'], ['Belarus', 'Biélorussie'], ['Moldova', 'Moldavie'], ['Lithuania', 'Lituanie'],
+    ['Latvia', 'Lettonie'], ['Estonia', 'Estonie']
+]);
+function europeCountryLabel(f) {
+    const name = f.properties?.ADMIN || f.properties?.NAME || f.properties?.name || f.properties?.NAME_EN || '';
+    return EUROPE_COUNTRY_LABELS.get(name) || null;
+}
+// Ensemble des libellés (valeurs GEO.countryMap) couverts par la vue Europe : restreint les
+// événements considérés (voir personEuropeEvents) aux seuls pays du continent — un GEDCOM peut
+// aussi contenir des lieux hors d'Europe (USA, Canada...), déjà comptés ailleurs (carte du monde).
+const EUROPE_LABELS_SET = new Set(EUROPE_COUNTRY_LABELS.values());
+
+// Événements géolocalisables d'une personne, restreints aux pays européens reconnus : même liste
+// d'événements que personDeptEvents/personBeProvinceEvents (naissance/décès/mariage/résidences/
+// autres faits localisés), filtrée sur geo.country plutôt que geo.dept/geo.beProvince.
+function personEuropeEvents(p) {
+    const evts = [];
+    if(p.birth?.geo?.country) evts.push({ type: 'BIRT', geo: p.birth.geo, year: p.birth.year });
+    if(p.death?.geo?.country) evts.push({ type: 'DEAT', geo: p.death.geo, year: p.death.year });
+    if(p.marrGeo?.country) evts.push({ type: 'MARR', geo: p.marrGeo, year: p.marrYear });
+    (p.resiEvents || []).forEach(r => { if(r.geo?.country) evts.push({ type: 'RESI', geo: r.geo, year: r.year }); });
+    (p.otherEvents || []).forEach(oe => {
+        if(oe.geo?.country && !oe.isCens && !oe.isResi) evts.push({ type: 'OTHER', geo: oe.geo, year: oe.year, factLabel: labelForOther(oe) });
+    });
+    return evts.filter(e => EUROPE_LABELS_SET.has(e.geo.country));
+}
+
+export function computeEuropeCountrySummaries(list) {
+    const totals = new Map();
+    list.forEach(p => personEuropeEvents(p).forEach(e => {
+        totals.set(e.geo.country, (totals.get(e.geo.country) || 0) + 1);
+    }));
+    return Array.from(totals.entries())
+        .map(([label, total]) => ({ code: label, label, total }))
+        .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'fr'));
+}
+
+// code === null : agrège tous les pays européens (pseudo-territoire "Europe entière"), pour les
+// cartes-statistiques de la vue d'ensemble avant toute sélection de pays.
+export function computeEuropeDetail(list, code) {
+    const pointMap = new Map();
+    const surnameOwners = new Map(); // patronyme -> Set(id personne)
+    let totalEvents = 0, geolocated = 0;
+
+    list.forEach(p => {
+        const evts = personEuropeEvents(p).filter(e => code === null || e.geo.country === code);
+        if(!evts.length) return;
+        totalEvents += evts.length;
+
+        const surname = (p.surname || '').trim();
+        if(surname) {
+            if(!surnameOwners.has(surname)) surnameOwners.set(surname, new Set());
+            surnameOwners.get(surname).add(p.id);
+        }
+
+        evts.forEach(e => {
+            if(e.geo.lat == null || e.geo.lon == null) return;
+            geolocated++;
+            const key = `${e.type}:${e.geo.lat.toFixed(3)},${e.geo.lon.toFixed(3)}`;
+            if(!pointMap.has(key)) pointMap.set(key, { type: e.type, lat: e.geo.lat, lon: e.geo.lon, city: e.geo.city || null, count: 0, items: [] });
+            const pt = pointMap.get(key);
+            pt.count++;
+            if(pt.items.length < 30) pt.items.push({ name: p.name, year: e.year, factLabel: e.factLabel || null });
+        });
+    });
+
+    const surnames = Array.from(surnameOwners.entries())
+        .map(([surname, ids]) => ({ surname, count: ids.size }))
+        .sort((a, b) => b.count - a.count || a.surname.localeCompare(b.surname, 'fr'));
+
+    return {
+        code, label: code || 'Europe',
+        totalEvents, geolocated,
+        points: Array.from(pointMap.values()),
+        surnames
+    };
+}
+
+// Bbox grossière de l'Europe continentale (îles atlantiques proches incluses : Islande...), utilisée
+// pour retirer les territoires d'outre-mer très éloignés qu'un pays comme la France (Guyane, Amérique
+// du Sud) ou l'Espagne (Canaries, au large de l'Afrique) embarque dans le MÊME feature Natural Earth
+// que son territoire européen. Sans ce filtre, fitExtent() engloberait ces exclaves lointaines dans le
+// calcul du cadrage et réduirait le territoire européen à un minuscule point dans un coin de la carte
+// (cas vécu : la Guyane faisait apparaître la France entière comme un point microscopique).
+const EUROPE_BBOX = { lonMin: -25, lonMax: 45, latMin: 34, latMax: 72 };
+function partCentroid(ring) {
+    let sx = 0, sy = 0;
+    ring.forEach(([x, y]) => { sx += x; sy += y; });
+    return [sx / ring.length, sy / ring.length];
+}
+function inEuropeBbox([lon, lat]) {
+    return lon >= EUROPE_BBOX.lonMin && lon <= EUROPE_BBOX.lonMax && lat >= EUROPE_BBOX.latMin && lat <= EUROPE_BBOX.latMax;
+}
+// Retire, d'une géométrie Polygon/MultiPolygon, les "morceaux" (anneau extérieur + trous) dont le
+// centroïde de l'anneau extérieur tombe hors de la bbox Europe ci-dessus. Garde tout si AUCUN morceau
+// n'est dans la bbox (filet de sécurité), pour ne jamais produire une géométrie vide.
+function clipToEuropeBbox(geometry) {
+    if(!geometry) return geometry;
+    const parts = geometry.type === 'MultiPolygon' ? geometry.coordinates : geometry.type === 'Polygon' ? [geometry.coordinates] : null;
+    if(!parts) return geometry;
+    let kept = parts.filter(part => inEuropeBbox(partCentroid(part[0])));
+    if(!kept.length) kept = parts;
+    return { type: 'MultiPolygon', coordinates: kept };
+}
+
+// --- CShapes (frontières historiques) : sous-ensemble Europe du jeu de données "CShapes 2.0" (ETH
+// Zürich, icr.ethz.ch/data/cshapes), une géométrie par entité politique et par plage d'années
+// [From, To] où ses frontières sont restées stables (ex. l'Allemagne y apparaît en plusieurs morceaux
+// successifs : "Germany (Prussia)" avant 1871, "Germany" 1871-1945, "German Federal Republic"/
+// "German Democratic Republic" pendant la partition, de nouveau "Germany" après 1990). Bundlé
+// localement (assets/data/cshapes_europe.geojson, ~4,5 Mo) plutôt que rechargé depuis icr.ethz.ch à
+// chaque session : évite une dépendance à la disponibilité/CORS de ce serveur pour un fichier qui ne
+// change pas assez souvent pour justifier un chargement dynamique. Couvre 1806-2023 ; sa géométrie
+// est déjà cadrée sur l'Europe (pas d'exclaves d'outre-mer, contrairement à Natural Earth — voir
+// clipToEuropeBbox ci-dessus, dont ce fichier n'a donc pas besoin).
+let cshapesEuropeCache = null;
+export async function ensureCShapesEurope() {
+    if(!cshapesEuropeCache) {
+        const res = await fetch('./assets/data/cshapes_europe.geojson');
+        cshapesEuropeCache = await res.json();
+    }
+    return cshapesEuropeCache;
+}
+export function cshapesYearBounds(cshapesGeo) {
+    let min = Infinity, max = -Infinity;
+    cshapesGeo.features.forEach(f => {
+        min = Math.min(min, f.properties.From);
+        max = Math.max(max, f.properties.To);
+    });
+    return { min, max };
+}
+// Correspondance entité politique historique (CShapes "Name") -> libellé pays moderne (valeurs de
+// EUROPE_COUNTRY_LABELS ci-dessus), utilisée pour colorer la vue "Europe entière" à une année donnée
+// selon les MÊMES données (computeEuropeCountrySummaries) que la vue actuelle — un événement compté
+// sous "Allemagne" éclaire aussi bien le territoire prussien de 1850 que la RFA de 1970. Volontairement
+// absente pour les entités à héritiers multiples (Austro-Hongrie, Tchécoslovaquie, Yougoslavie, Empire
+// ottoman, Russie...) : mieux vaut aucune couleur qu'une couleur trompeuse répartie arbitrairement.
+const CSHAPES_NAME_TO_LABEL = new Map([
+    ['Albania', 'Albanie'], ['Andorra', 'Andorre'],
+    ['Anhalt', 'Allemagne'], ['Anhalt-Bernberg', 'Allemagne'], ['Anhalt-Dessau', 'Allemagne'],
+    ['Austria', 'Autriche'],
+    ['Baden', 'Allemagne'], ['Bavaria', 'Allemagne'],
+    ['Belarus (Byelorussia)', 'Biélorussie'], ['Belgium', 'Belgique'],
+    ['Bosnia', 'Bosnie'], ['Bosnia-Herzegovina', 'Bosnie'], ['Herzegovina', 'Bosnie'],
+    ['Bremen', 'Allemagne'], ['Bulgaria', 'Bulgarie'],
+    ['Croatia', 'Croatie'], ['Czech Republic', 'Tchéquie'],
+    ['Denmark', 'Danemark'], ['Estonia', 'Estonie'], ['Finland', 'Finlande'],
+    ['France', 'France'], ['Frankfurt', 'Allemagne'],
+    ['German Democratic Republic', 'Allemagne'], ['German Federal Republic', 'Allemagne'],
+    ['Germany', 'Allemagne'], ['Germany (Prussia)', 'Allemagne'],
+    ['Greece', 'Grèce'], ['Hanover', 'Allemagne'],
+    ['Hesse-Darmstadt (Ducal', 'Allemagne'], ['Hesse-Homburg', 'Allemagne'], ['Hesse-Kassel (Electoral)', 'Allemagne'],
+    ['Hohengeroldseck', 'Allemagne'], ['Hohenzollern-Hechingen', 'Allemagne'], ['Hohenzollern-Sigmaringen', 'Allemagne'],
+    ['Hungary', 'Hongrie'], ['Iceland', 'Islande'], ['Ireland', 'Irlande'],
+    ['Italy', 'Italie'], ['Italy/Sardinia', 'Italie'], ['Kingdom of Naples', 'Italie'],
+    ['Latvia', 'Lettonie'], ['Liechtenstein', 'Liechtenstein'],
+    ['Lippe-Detmold', 'Allemagne'], ['Lithuania', 'Lituanie'], ['Lucca', 'Italie'], ['Luxembourg', 'Luxembourg'],
+    ['Macedonia (FYROM/North Macedonia)', 'Macédoine'], ['Malta', 'Malte'], ['Massa', 'Italie'],
+    ['Mecklenburg-Schwerin', 'Allemagne'], ['Mecklenburg-Strelitz', 'Allemagne'], ['Modena', 'Italie'],
+    ['Moldova', 'Moldavie'], ['Monaco', 'Monaco'], ['Montenegro', 'Monténégro'],
+    ['Nassau', 'Allemagne'], ['Netherlands', 'Pays-Bas'], ['Norway', 'Norvège'], ['Oldenburg', 'Allemagne'],
+    ['Papal States', 'Italie'], ['Parma', 'Italie'], ['Piedmont', 'Italie'],
+    ['Poland', 'Pologne'], ['Portugal', 'Portugal'],
+    ['Reuss', 'Allemagne'], ['Romania', 'Roumanie'], ['Rumania', 'Roumanie'],
+    ['Saxe-Altenburg', 'Allemagne'], ['Saxe-Coburg-Gotha', 'Allemagne'], ['Saxe-Coburg-Saalfeld', 'Allemagne'],
+    ['Saxe-Gotha-Altenberg', 'Allemagne'], ['Saxe-Hildburgchausen', 'Allemagne'], ['Saxe-Meiningen', 'Allemagne'],
+    ['Saxe-Weimar', 'Allemagne'], ['Saxony', 'Allemagne'], ['Schaumburg Lippe', 'Allemagne'],
+    ['Serbia', 'Serbie'], ['Slovakia', 'Slovaquie'], ['Slovenia', 'Slovénie'],
+    ['Spain', 'Espagne'], ['Sweden', 'Suède'], ['Switzerland', 'Suisse'],
+    ['Ukraine', 'Ukraine'], ['United Kingdom', 'Royaume-Uni'],
+    ['Waldeck', 'Allemagne'], ['Wolfenbuttel', 'Allemagne'], ['Württemberg', 'Allemagne']
+]);
+
+// code === null -> vue d'ensemble à une ANNÉE donnée (opts.year, frontières CShapes — la vue
+// d'ensemble n'utilise plus Natural Earth, ce qui règle au passage sa propre distorsion outre-mer :
+// la géométrie CShapes est déjà cadrée sur l'Europe, voir plus haut). Cliquer un territoire rattaché
+// aux données (voir CSHAPES_NAME_TO_LABEL) appelle opts.onSelectCountry. Sinon -> vue détail zoomée
+// sur CE pays, TOUJOURS avec ses frontières actuelles (Natural Earth) quelle que soit l'année
+// choisie : les événements y sont déjà classés sous le libellé du pays tel qu'écrit dans les actes
+// (donc déjà "de leur époque"), inutile de faire varier le contour lui-même avec le curseur.
+// opts.summaries (résultat de computeEuropeCountrySummaries) alimente la coloration de la vue
+// d'ensemble ; opts.detail (résultat de computeEuropeDetail) alimente la vue détail d'un pays.
+export async function drawEuropeMap(containerId, code, opts = {}) {
+    const container = d3.select(`#${containerId}`);
+    showMapMessage(containerId, 'Chargement de la carte…');
+
+    if(code === null) {
+        let cshapesGeo;
+        try {
+            cshapesGeo = await ensureCShapesEurope();
+        } catch(err) {
+            showMapMessage(containerId, 'Impossible de charger la carte (fichier de frontières historiques introuvable).', true);
+            return;
+        }
+        if(!document.getElementById(containerId)) return;
+        const bounds = cshapesYearBounds(cshapesGeo);
+        const year = opts.year != null ? Math.min(Math.max(opts.year, bounds.min), bounds.max) : bounds.max;
+        const features = cshapesGeo.features.filter(f => f.properties.From <= year && f.properties.To >= year);
+        drawEuropeOverview(container, features, opts.summaries || [], year, bounds, opts.onSelectCountry);
+        return;
+    }
+
+    let europeGeo;
+    try {
+        europeGeo = await ensureEuropeGeo();
+    } catch(err) {
+        showMapMessage(containerId, 'Impossible de charger la carte (connexion internet requise).', true);
+        return;
+    }
+    if(!document.getElementById(containerId)) return;
+
+    const features = europeGeo.features
+        .map(f => { const label = europeCountryLabel(f); return label ? { ...f, properties: { ...f.properties, europeLabel: label } } : null; })
+        .filter(Boolean);
+    const feature = features.find(f => f.properties.europeLabel === code);
+    if(!feature) {
+        showMapMessage(containerId, `Contour introuvable pour ce pays (${code}).`, true);
+        return;
+    }
+    drawEuropeCountryDetail(container, { ...feature, geometry: clipToEuropeBbox(feature.geometry) }, opts.detail);
+}
+
+function drawEuropeOverview(container, features, summaries, year, bounds, onSelectCountry) {
+    container.selectAll('*').remove();
+    const width = container.node().clientWidth || 500, height = 460;
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+
+    // fitExtent sur les entités visibles CETTE année-là (varie peu d'une année à l'autre en pratique,
+    // le contour combiné restant compact — Islande-Ottomans, Portugal-Russie exclue).
+    const projection = d3.geoConicConformal().fitExtent([[16, 16], [width - 16, height - 16]], { type: 'FeatureCollection', features });
+    const path = d3.geoPath().projection(projection);
+    const totals = {};
+    summaries.forEach(s => { totals[s.code] = s.total; });
+    const maxCount = Math.max(1, ...Object.values(totals));
+    const colorScale = d3.scaleSequentialSqrt(d3.interpolateBlues).domain([0, maxCount]);
+    const tooltip = document.getElementById('tooltip');
+
+    svg.selectAll('path.country')
+        .data(features)
+        .join('path')
+        .attr('class', 'country')
+        .attr('d', path)
+        .attr('fill', d => {
+            const label = CSHAPES_NAME_TO_LABEL.get(d.properties.Name);
+            const c = label ? (totals[label] || 0) : 0;
+            return c > 0 ? colorScale(c) : '#f0f0f0';
+        })
+        .attr('stroke', '#555')
+        .attr('stroke-width', 0.8)
+        .style('cursor', d => CSHAPES_NAME_TO_LABEL.has(d.properties.Name) ? 'pointer' : 'default')
+        .on('mouseover', function(e, d) {
+            const label = CSHAPES_NAME_TO_LABEL.get(d.properties.Name);
+            const count = label ? (totals[label] || 0) : 0;
+            d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${escapeHtml(d.properties.Name)}</strong>` +
+                (label ? `<div class="tt-row"><span>Occurrences (${escapeHtml(label)})</span><span>${count}</span></div>`
+                       : `<div class="tt-row" style="opacity:.7;font-style:italic"><span>Non rattaché aux données</span></div>`);
+        })
+        .on('mousemove', e => {
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#555').attr('stroke-width', 0.8);
+            tooltip.style.opacity = 0;
+        })
+        .on('click', (e, d) => {
+            const label = CSHAPES_NAME_TO_LABEL.get(d.properties.Name);
+            if(label && onSelectCountry) onSelectCountry(label);
+        });
+
+    const legendWidth = 180, legendHeight = 12;
+    const legendX = width - legendWidth - 20, legendY = height - 34;
+    const gradientId = 'europeMapGradient';
+    const gradient = svg.append('defs').append('linearGradient')
+        .attr('id', gradientId).attr('x1', '0%').attr('x2', '100%').attr('y1', '0%').attr('y2', '0%');
+    const stopCount = 10;
+    for(let i = 0; i <= stopCount; i++) {
+        const t = i / stopCount;
+        gradient.append('stop').attr('offset', `${t * 100}%`).attr('stop-color', colorScale(t * maxCount));
+    }
+    const legend = svg.append('g').attr('transform', `translate(${legendX},${legendY})`);
+    legend.append('text').attr('x', 0).attr('y', -6).style('font-size', '10px').style('font-weight', 'bold').style('fill', '#333')
+        .text('Occurrences par pays');
+    legend.append('rect').attr('width', legendWidth).attr('height', legendHeight)
+        .style('fill', `url(#${gradientId})`).attr('stroke', '#999').attr('stroke-width', 0.5);
+    const legendScale = d3.scaleLinear().domain([0, maxCount]).range([0, legendWidth]);
+    legend.append('g').attr('transform', `translate(0,${legendHeight})`)
+        .call(d3.axisBottom(legendScale).tickValues(niceIntegerTicks(maxCount, 4)).tickFormat(d3.format('d')))
+        .selectAll('text').style('font-size', '9px');
+
+    svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '10px').style('fill', '#888')
+        .text(year >= bounds.max
+            ? `Frontières actuelles (${year}) — cliquez sur un pays pour zoomer sur ses événements.`
+            : `Frontières historiques en ${year} — cliquez sur un territoire rattaché aux données pour zoomer.`);
+}
+
+// Pendant de drawDepartmentMap, pour un pays européen : contour zoomé (fitExtent sur SA géométrie
+// seule, débarrassée des exclaves d'outre-mer par clipToEuropeBbox — voir drawEuropeMap ci-dessus) +
+// événements individuels géolocalisés + panneau "Liste éclair" des patronymes (réutilise
+// drawDeptSurnamePanel, générique malgré son nom).
+function drawEuropeCountryDetail(container, feature, detail) {
+    container.selectAll('*').remove();
+    const height = 440;
+    const containerWidth = container.node().clientWidth || 720;
+    const listWidth = containerWidth >= 560 ? 200 : 0;
+    const mapWidth = containerWidth - listWidth;
+    const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
+
+    const projection = d3.geoConicConformal().fitExtent([[24, 24], [mapWidth - 24, height - 24]], feature);
+    const path = d3.geoPath().projection(projection);
+
+    svg.append('path').datum(feature).attr('d', path)
+        .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
+
+    svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
+        .text(detail.label);
+
+    if(!detail.points.length) {
+        svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
+            .style('font-size', '11px').style('fill', '#888')
+            .text('Aucun événement précisément géolocalisé pour ce pays.');
+    } else {
+        const plotted = detail.points
+            .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
+            .filter(Boolean);
+
+        const maxCount = d3.max(plotted, p => p.count) || 1;
+        const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
+        const tooltip = document.getElementById('tooltip');
+
+        svg.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
+            .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
+            .attr('fill', p => DEPT_EVENT_TYPES[p.type]?.color || '#3498db')
+            .attr('fill-opacity', 0.75).attr('stroke', '#fff').attr('stroke-width', 1)
+            .style('cursor', 'pointer')
+            .on('mouseover', function(e, p) {
+                d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+                const info = DEPT_EVENT_TYPES[p.type] || { label: p.type, icon: '•' };
+                const shown = Math.min(15, p.items.length);
+                const rows = p.items.slice(0, shown).map(it => {
+                    const label = it.factLabel ? `${escapeHtml(it.name || 'Inconnu')} — ${escapeHtml(it.factLabel)}` : escapeHtml(it.name || 'Inconnu');
+                    return `<div class="tt-row"><span>${label}</span><span>${it.year != null ? it.year : ''}</span></div>`;
+                }).join('');
+                const more = p.count > shown ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${p.count - shown} autre(s)</div>` : '';
+                tooltip.style.opacity = 1;
+                tooltip.innerHTML = `<strong>${info.icon} ${info.label}${p.city ? ' — ' + escapeHtml(p.city) : ''}</strong>
+                    <div class="tt-row"><span>Occurrences</span><span>${p.count}</span></div>
+                    <div style="margin-top:6px;max-height:200px;overflow-y:auto">${rows}${more}</div>`;
+            })
+            .on('mousemove', e => {
+                tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+                tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+            })
+            .on('mouseout', function() {
+                d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+                tooltip.style.opacity = 0;
+            });
+
+        const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
+        const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
+        typesPresent.forEach((t, i) => {
+            const info = DEPT_EVENT_TYPES[t];
+            legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
+            legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
+                .text(`${info.icon} ${info.label}`);
+        });
+    }
+
+    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
+}
+
 // --- GRAPHIQUES DÉMOGRAPHIQUES (pyramide des âges, tendances par décennie) ---
 // Ces graphiques portent toujours sur l'ensemble du fichier chargé, indépendamment
 // des filtres (lieux/ascendants) qui ne s'appliquent qu'aux deux cartes ci-dessus.
@@ -1213,8 +1614,8 @@ export function drawMarriageWeekdayTrend(fams) {
 
     const allPeriods = Array.from(new Set(counts.flatMap(m => Array.from(m.keys())))).sort((a, b) => a - b);
 
-    const width = container.node().clientWidth || 600, height = 320;
-    const margin = { top: 30, right: 20, bottom: 58, left: 45 };
+    const width = container.node().clientWidth || 600, height = 330;
+    const margin = { top: 40, right: 20, bottom: 58, left: 45 };
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
     const x = d3.scalePoint().domain(allPeriods).range([margin.left, width - margin.right]).padding(0.5);
@@ -1229,7 +1630,7 @@ export function drawMarriageWeekdayTrend(fams) {
         .call(d3.axisBottom(x).tickValues(tickValues).tickFormat(d => `${d}-${d + MARRIAGE_WEEKDAY_PERIOD - 1}`))
         .selectAll('text').style('font-size', '9px').attr('transform', 'rotate(-40)').attr('text-anchor', 'end');
     svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6).tickFormat(d3.format('d')));
-    svg.append('text').attr('x', margin.left).attr('y', margin.top - 14).style('font-size', '10px').style('fill', '#7f8c8d').text('Nombre de mariages');
+    svg.append('text').attr('x', margin.left).attr('y', 10).style('font-size', '10px').style('fill', '#7f8c8d').text('Nombre de mariages');
 
     const line = d3.line().x(d => x(d[0])).y(d => y(d[1]));
     const tooltip = document.getElementById('tooltip');
@@ -1256,7 +1657,7 @@ export function drawMarriageWeekdayTrend(fams) {
             .on('mouseout', () => { tooltip.style.opacity = 0; });
     });
 
-    const legend = svg.append('g').attr('transform', `translate(${margin.left}, 4)`);
+    const legend = svg.append('g').attr('transform', `translate(${margin.left}, 20)`);
     let gx = 0;
     WEEKDAY_LABELS.forEach((label, i) => {
         legend.append('rect').attr('x', gx).attr('y', 0).attr('width', 10).attr('height', 10).attr('fill', WEEKDAY_COLORS[i]);
@@ -1282,12 +1683,17 @@ function firstGivenName(p) {
     return g ? g.trim().split(' ')[0] : null;
 }
 
-// century = null : toutes périodes confondues.
-export function computeTopNames(list, sex, century, limit = 10) {
+// centuryMin/centuryMax = null : pas de borne de ce côté (toutes périodes si les deux sont null).
+export function computeTopNames(list, sex, centuryMin, centuryMax, limit = 10) {
     const counts = new Map();
     list.forEach(p => {
         if(p.sex !== sex) return;
-        if(century != null && (p.birth?.year == null || centuryOf(p.birth.year) !== century)) return;
+        if(centuryMin != null || centuryMax != null) {
+            const c = p.birth?.year != null ? centuryOf(p.birth.year) : null;
+            if(c == null) return;
+            if(centuryMin != null && c < centuryMin) return;
+            if(centuryMax != null && c > centuryMax) return;
+        }
         const raw = firstGivenName(p);
         if(!raw) return;
         const key = raw.toLowerCase();
@@ -1327,7 +1733,7 @@ function drawHorizontalBarChart(containerId, data, opts = {}) {
         .style('font-size', '10px').style('fill', '#555').text(d => d.count);
 }
 
-export function drawTopNamesForCentury(list, century) {
-    drawHorizontalBarChart('namesMaleChart', computeTopNames(list, 'M', century), { color: '#3498db', emptyMessage: 'Pas de prénom masculin daté pour cette période.' });
-    drawHorizontalBarChart('namesFemaleChart', computeTopNames(list, 'F', century), { color: '#e91e8c', emptyMessage: 'Pas de prénom féminin daté pour cette période.' });
+export function drawTopNamesForCentury(list, centuryMin, centuryMax) {
+    drawHorizontalBarChart('namesMaleChart', computeTopNames(list, 'M', centuryMin, centuryMax), { color: '#3498db', emptyMessage: 'Pas de prénom masculin daté pour cette période.' });
+    drawHorizontalBarChart('namesFemaleChart', computeTopNames(list, 'F', centuryMin, centuryMax), { color: '#e91e8c', emptyMessage: 'Pas de prénom féminin daté pour cette période.' });
 }

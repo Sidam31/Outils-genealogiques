@@ -171,6 +171,28 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .decade-slider-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; padding: 0 10px; }
 .decade-slider-row input[type="range"] { flex: 1; }
 .decade-slider-row span { font-weight: 600; color: var(--accent); font-size: 0.85rem; min-width: 110px; text-align: right; }
+
+/* RANGE SLIDER (deux poignées : bornes début + fin) */
+.range-slider { position: relative; flex: 1; height: 22px; }
+.range-slider-track { position: absolute; top: 50%; left: 0; right: 0; height: 4px; transform: translateY(-50%); background: #ddd; border-radius: 2px; }
+.range-slider-fill { position: absolute; top: 50%; height: 4px; transform: translateY(-50%); background: var(--accent); border-radius: 2px; opacity: 0.55; }
+.range-slider input[type="range"] {
+    -webkit-appearance: none; appearance: none;
+    position: absolute; top: 50%; left: 0; width: 100%; height: 4px; transform: translateY(-50%);
+    margin: 0; background: transparent; pointer-events: none;
+}
+.range-slider input[type="range"]::-webkit-slider-runnable-track { -webkit-appearance: none; background: transparent; height: 4px; }
+.range-slider input[type="range"]::-moz-range-track { background: transparent; height: 4px; border: none; }
+.range-slider input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; pointer-events: auto; width: 14px; height: 14px; margin-top: -5px;
+    border-radius: 50%; background: var(--accent); cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+.range-slider input[type="range"]::-moz-range-thumb {
+    pointer-events: auto; width: 14px; height: 14px; border: none;
+    border-radius: 50%; background: var(--accent); cursor: pointer; box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+.range-slider input[type="range"]:disabled::-webkit-slider-thumb { background: #bbb; cursor: default; }
+.range-slider input[type="range"]:disabled::-moz-range-thumb { background: #bbb; cursor: default; }
 .tag-missing { color: #e74c3c; font-weight: bold; }
 .date-empty { color: #f39c12; font-weight: bold; }
 .hidden { display: none; }

@@ -21,6 +21,7 @@
     <button type="button" class="tab-btn" id="topModeSocieteBtn">🏛️ Société</button>
     <button type="button" class="tab-btn" id="topModeDeptBtn">🗺️ Départements</button>
     <button type="button" class="tab-btn" id="topModeBeBtn">🇧🇪 Provinces belges</button>
+    <button type="button" class="tab-btn" id="topModeEuropeBtn">🌍 Europe</button>
 </div>
 
 <div id="mapsPanel" class="tab-panel">
@@ -46,7 +47,12 @@
                 <label for="mapTimeEnabled"><input type="checkbox" id="mapTimeEnabled"> Voir l'évolution dans le temps</label>
             </div>
             <div class="decade-slider-row hidden" id="mapTimeSliderRow">
-                <input type="range" id="mapTimeSlider" min="0" max="0" value="0">
+                <div class="range-slider">
+                    <div class="range-slider-track"></div>
+                    <div class="range-slider-fill" id="mapTimeSliderFill"></div>
+                    <input type="range" id="mapTimeSliderMin" min="0" max="0" value="0">
+                    <input type="range" id="mapTimeSliderMax" min="0" max="0" value="0">
+                </div>
                 <span id="mapTimeLabel">Toutes périodes</span>
             </div>
         </div>
@@ -64,17 +70,17 @@
             </div>
             <div class="quality-chart-box">
                 <div class="chart-box-header">
-                    <h3>Carte de France (départements)</h3>
-                    <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-            </div>
-            <div class="quality-chart-box">
-                <div class="chart-box-header">
                     <h3>Carte de Belgique (provinces)</h3>
                     <button class="chart-copy-btn" data-target="belgiumMapChart" title="Copier l'image dans le presse-papier">📋</button>
                 </div>
                 <div id="belgiumMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+            </div>
+            <div class="quality-chart-box">
+                <div class="chart-box-header">
+                    <h3>Carte de France (départements)</h3>
+                    <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
             </div>
         </div>
 
@@ -87,7 +93,12 @@
                     <button class="chart-copy-btn" data-target="ageChartPyramid" title="Copier l'image dans le presse-papier">📋</button>
                 </div>
                 <div class="decade-slider-row">
-                    <input type="range" id="pyramidDecadeSlider" min="0" max="0" value="0" disabled>
+                    <div class="range-slider">
+                        <div class="range-slider-track"></div>
+                        <div class="range-slider-fill" id="pyramidDecadeSliderFill"></div>
+                        <input type="range" id="pyramidDecadeSliderMin" min="0" max="0" value="0" disabled>
+                        <input type="range" id="pyramidDecadeSliderMax" min="0" max="0" value="0" disabled>
+                    </div>
                     <span id="pyramidDecadeLabel">Toutes périodes</span>
                 </div>
                 <div id="ageChartPyramid"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
@@ -138,7 +149,12 @@
                     <h3>Prénoms les plus fréquents par siècle</h3>
                 </div>
                 <div class="decade-slider-row">
-                    <input type="range" id="namesCenturySlider" min="0" max="0" value="0" disabled>
+                    <div class="range-slider">
+                        <div class="range-slider-track"></div>
+                        <div class="range-slider-fill" id="namesCenturySliderFill"></div>
+                        <input type="range" id="namesCenturySliderMin" min="0" max="0" value="0" disabled>
+                        <input type="range" id="namesCenturySliderMax" min="0" max="0" value="0" disabled>
+                    </div>
                     <span id="namesCenturyLabel">Toutes périodes</span>
                 </div>
                 <div class="quality-charts" style="margin-top:10px;">
@@ -396,6 +412,53 @@
     </div>
 </div>
 
+<div id="europePanel" class="tab-panel hidden">
+    <div class="quality-container">
+        <p class="quality-intro">Toute l'Europe par défaut (pays actuels du continent) : sélectionnez un pays — dans la liste ou en cliquant sur la carte — pour zoomer sur ses événements géolocalisés et les patronymes qui y sont attachés.</p>
+
+        <div class="map-scope-row">
+            <label for="europeAncestorOnly"><input type="checkbox" id="europeAncestorOnly"> Uniquement les ascendants de :</label>
+            <div class="ctrl">
+                <input type="text" id="europePersonSearch" placeholder="Rechercher une personne..." disabled>
+                <ul id="europePersonResults"></ul>
+            </div>
+            <span id="europePersonSelected" class="map-person-selected"></span>
+        </div>
+
+        <div id="europeStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="europeContent" class="hidden">
+            <div class="dept-scroll-bar" id="europeScrollBar"></div>
+
+            <div class="dept-layout">
+                <div class="dept-map-col">
+                    <div class="chart-box-header">
+                        <h3 id="europeMapTitle">Europe</h3>
+                        <button class="chart-copy-btn" data-target="europeMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                    </div>
+                    <div class="decade-slider-row" id="europeYearSliderRow">
+                        <input type="range" id="europeYearSlider" min="1806" max="2023" value="2023">
+                        <span id="europeYearLabel">Frontières actuelles (2023)</span>
+                    </div>
+                    <p class="hint" id="europeYearHint" style="text-align:center;">Ne s'applique qu'à la vue "Toute l'Europe" : change les frontières historiques affichées, sans filtrer les statistiques ci-dessous (déjà classées par pays tel qu'écrit dans les actes).</p>
+                    <div class="society-stat-grid" style="margin-bottom:10px;">
+                        <div class="society-stat-card"><div class="num" id="europeTotalEvents">–</div><div class="lbl">événements dans ce périmètre</div></div>
+                        <div class="society-stat-card"><div class="num" id="europeGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
+                        <div class="society-stat-card"><div class="num" id="europeSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
+                    </div>
+                    <div id="europeMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                </div>
+
+                <div class="dept-side-col">
+                    <h3>📜 Liste éclair des patronymes</h3>
+                    <input type="text" id="europeSurnameFilter" placeholder="Filtrer un patronyme...">
+                    <div id="europeSurnameList" class="society-list"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div id="tooltip"></div>
 
 <script type="module">
@@ -407,7 +470,8 @@ import {
     getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawFirstChildTrend,
     drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury,
     computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap,
-    computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap
+    computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap,
+    computeEuropeCountrySummaries, computeEuropeDetail, drawEuropeMap, ensureCShapesEurope, cshapesYearBounds
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
 import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap } from './assets/js/society.js';
@@ -418,24 +482,29 @@ const topModeVisualisationBtn = document.getElementById('topModeVisualisationBtn
 const topModeSocieteBtn = document.getElementById('topModeSocieteBtn');
 const topModeDeptBtn = document.getElementById('topModeDeptBtn');
 const topModeBeBtn = document.getElementById('topModeBeBtn');
+const topModeEuropeBtn = document.getElementById('topModeEuropeBtn');
 const mapsPanelEl = document.getElementById('mapsPanel');
 const societePanelEl = document.getElementById('societePanel');
 const deptPanelEl = document.getElementById('deptPanel');
 const bePanelEl = document.getElementById('bePanel');
+const europePanelEl = document.getElementById('europePanel');
 function setTopMode(m) {
     topModeVisualisationBtn.classList.toggle('active', m === 'visualisation');
     topModeSocieteBtn.classList.toggle('active', m === 'societe');
     topModeDeptBtn.classList.toggle('active', m === 'departements');
     topModeBeBtn.classList.toggle('active', m === 'belgique');
+    topModeEuropeBtn.classList.toggle('active', m === 'europe');
     mapsPanelEl.classList.toggle('hidden', m !== 'visualisation');
     societePanelEl.classList.toggle('hidden', m !== 'societe');
     deptPanelEl.classList.toggle('hidden', m !== 'departements');
     bePanelEl.classList.toggle('hidden', m !== 'belgique');
+    europePanelEl.classList.toggle('hidden', m !== 'europe');
 }
 topModeVisualisationBtn.addEventListener('click', () => setTopMode('visualisation'));
 topModeSocieteBtn.addEventListener('click', () => setTopMode('societe'));
 topModeDeptBtn.addEventListener('click', () => setTopMode('departements'));
 topModeBeBtn.addEventListener('click', () => setTopMode('belgique'));
+topModeEuropeBtn.addEventListener('click', () => setTopMode('europe'));
 
 // --- Visualisation ---
 let exportCtl = null;
@@ -447,15 +516,36 @@ const mapPersonResultsEl = document.getElementById('mapPersonResults');
 const mapPersonSelectedEl = document.getElementById('mapPersonSelected');
 const mapAncestorOnlyEl = document.getElementById('mapAncestorOnly');
 const mapFilterEls = [document.getElementById('mapFilterBirt'), document.getElementById('mapFilterDeat'), document.getElementById('mapFilterMarr')];
-const pyramidSliderEl = document.getElementById('pyramidDecadeSlider');
+const pyramidSliderMinEl = document.getElementById('pyramidDecadeSliderMin');
+const pyramidSliderMaxEl = document.getElementById('pyramidDecadeSliderMax');
+const pyramidSliderFillEl = document.getElementById('pyramidDecadeSliderFill');
 const pyramidLabelEl = document.getElementById('pyramidDecadeLabel');
-const namesCenturySliderEl = document.getElementById('namesCenturySlider');
+const namesCenturySliderMinEl = document.getElementById('namesCenturySliderMin');
+const namesCenturySliderMaxEl = document.getElementById('namesCenturySliderMax');
+const namesCenturySliderFillEl = document.getElementById('namesCenturySliderFill');
 const namesCenturyLabelEl = document.getElementById('namesCenturyLabel');
 const mapTimeEnabledEl = document.getElementById('mapTimeEnabled');
 const mapTimeSliderRowEl = document.getElementById('mapTimeSliderRow');
-const mapTimeSliderEl = document.getElementById('mapTimeSlider');
+const mapTimeSliderMinEl = document.getElementById('mapTimeSliderMin');
+const mapTimeSliderMaxEl = document.getElementById('mapTimeSliderMax');
+const mapTimeSliderFillEl = document.getElementById('mapTimeSliderFill');
 const mapTimeLabelEl = document.getElementById('mapTimeLabel');
 let mapTimeBoundsCache = null;
+
+// Curseur à deux poignées (borne début + borne fin), utilisé par les trois filtres temporels
+// ci-dessous : garde min <= max en repoussant l'AUTRE poignée (plutôt que de bloquer celle qu'on
+// est en train de faire glisser), et peint la barre de remplissage entre les deux valeurs.
+function syncRangeSlider(minEl, maxEl, fillEl) {
+    let a = parseInt(minEl.value, 10), b = parseInt(maxEl.value, 10);
+    if(a > b) {
+        if(document.activeElement === minEl) { maxEl.value = a; b = a; }
+        else { minEl.value = b; a = b; }
+    }
+    const lo = parseInt(minEl.min, 10), hi = parseInt(minEl.max, 10);
+    const span = (hi - lo) || 1;
+    fillEl.style.left = `${((a - lo) / span) * 100}%`;
+    fillEl.style.width = `${Math.max(0, ((b - a) / span) * 100)}%`;
+}
 
 // Bornes (années) des événements activés dans le périmètre courant (ascendants ou tout le monde) :
 // sert à calibrer le curseur temporel qui rejoue l'apparition des lieux au fil du temps.
@@ -472,27 +562,37 @@ function computeYearBounds(scopeIds, individuals, eventFlags) {
 }
 
 function updateTimeLabel() {
-    mapTimeLabelEl.textContent = mapTimeSliderEl.disabled ? 'Aucune donnée datée' : `Jusqu'en ${mapTimeSliderEl.value}`;
+    if(mapTimeSliderMinEl.disabled) { mapTimeLabelEl.textContent = 'Aucune donnée datée'; return; }
+    const a = mapTimeSliderMinEl.value, b = mapTimeSliderMaxEl.value;
+    mapTimeLabelEl.textContent = (a === mapTimeSliderMinEl.min && b === mapTimeSliderMaxEl.max) ? 'Toutes périodes' : `${a} – ${b}`;
 }
 
-// Recalibre le curseur sur les nouvelles bornes ; ne réinitialise la position (sur le maximum,
-// donc "tout afficher") que si les bornes ont réellement changé, pour ne pas faire sauter le
-// curseur pendant qu'on le fait glisser.
+// Recalibre le curseur sur les nouvelles bornes ; ne réinitialise la position (sur l'étendue
+// complète, donc "tout afficher") que si les bornes ont réellement changé, pour ne pas faire
+// sauter le curseur pendant qu'on le fait glisser.
 function updateTimeSliderBounds(bounds) {
     if(!bounds) {
-        mapTimeSliderEl.min = 0; mapTimeSliderEl.max = 0; mapTimeSliderEl.value = 0;
-        mapTimeSliderEl.disabled = true;
+        mapTimeSliderMinEl.min = 0; mapTimeSliderMinEl.max = 0; mapTimeSliderMinEl.value = 0;
+        mapTimeSliderMaxEl.min = 0; mapTimeSliderMaxEl.max = 0; mapTimeSliderMaxEl.value = 0;
+        mapTimeSliderMinEl.disabled = true; mapTimeSliderMaxEl.disabled = true;
         mapTimeBoundsCache = null;
+        syncRangeSlider(mapTimeSliderMinEl, mapTimeSliderMaxEl, mapTimeSliderFillEl);
         updateTimeLabel();
         return;
     }
     const changed = !mapTimeBoundsCache || mapTimeBoundsCache.min !== bounds.min || mapTimeBoundsCache.max !== bounds.max;
-    mapTimeSliderEl.disabled = false;
-    mapTimeSliderEl.min = bounds.min;
-    mapTimeSliderEl.max = bounds.max;
-    if(changed) mapTimeSliderEl.value = bounds.max;
-    else if(parseInt(mapTimeSliderEl.value, 10) > bounds.max) mapTimeSliderEl.value = bounds.max;
+    mapTimeSliderMinEl.disabled = false; mapTimeSliderMaxEl.disabled = false;
+    mapTimeSliderMinEl.min = bounds.min; mapTimeSliderMinEl.max = bounds.max;
+    mapTimeSliderMaxEl.min = bounds.min; mapTimeSliderMaxEl.max = bounds.max;
+    if(changed) {
+        mapTimeSliderMinEl.value = bounds.min;
+        mapTimeSliderMaxEl.value = bounds.max;
+    } else {
+        if(parseInt(mapTimeSliderMinEl.value, 10) < bounds.min) mapTimeSliderMinEl.value = bounds.min;
+        if(parseInt(mapTimeSliderMaxEl.value, 10) > bounds.max) mapTimeSliderMaxEl.value = bounds.max;
+    }
     mapTimeBoundsCache = bounds;
+    syncRangeSlider(mapTimeSliderMinEl, mapTimeSliderMaxEl, mapTimeSliderFillEl);
     updateTimeLabel();
 }
 
@@ -508,35 +608,51 @@ function renderFilteredMaps() {
     const scopeIds = (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
     const bounds = computeYearBounds(scopeIds, map, eventFlags);
     updateTimeSliderBounds(bounds);
-    const yearMax = (mapTimeEnabledEl.checked && bounds) ? parseInt(mapTimeSliderEl.value, 10) : null;
-    const { byDept, byBeProvince, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMax });
+    const timeActive = mapTimeEnabledEl.checked && bounds;
+    const yearMin = timeActive ? parseInt(mapTimeSliderMinEl.value, 10) : null;
+    const yearMax = timeActive ? parseInt(mapTimeSliderMaxEl.value, 10) : null;
+    const { byDept, byBeProvince, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMin, yearMax });
     drawWorldMap(byWorldPoint);
     drawFranceMap(byDept, byCountry);
     drawBelgiumMap(byBeProvince);
 }
 
 function updatePyramidLabel() {
-    const idx = parseInt(pyramidSliderEl.value, 10);
-    pyramidLabelEl.textContent = (!pyramidDecadesCache || idx >= pyramidDecadesCache.length) ? 'Toutes périodes' : `Décennie ${pyramidDecadesCache[idx]}s`;
+    if(!pyramidDecadesCache || !pyramidDecadesCache.length) { pyramidLabelEl.textContent = 'Toutes périodes'; return; }
+    const idxMin = parseInt(pyramidSliderMinEl.value, 10), idxMax = parseInt(pyramidSliderMaxEl.value, 10);
+    if(idxMin === 0 && idxMax === pyramidDecadesCache.length - 1) { pyramidLabelEl.textContent = 'Toutes périodes'; return; }
+    pyramidLabelEl.textContent = idxMin === idxMax
+        ? `Décennie ${pyramidDecadesCache[idxMin]}s`
+        : `${pyramidDecadesCache[idxMin]}s – ${pyramidDecadesCache[idxMax]}s`;
 }
 
 function drawAgePyramidForSelectedDecade() {
-    const idx = parseInt(pyramidSliderEl.value, 10);
-    const selectedDecade = (pyramidDecadesCache && idx < pyramidDecadesCache.length) ? pyramidDecadesCache[idx] : null;
+    let decadeMin = null, decadeMax = null;
+    if(pyramidDecadesCache && pyramidDecadesCache.length) {
+        decadeMin = pyramidDecadesCache[parseInt(pyramidSliderMinEl.value, 10)];
+        decadeMax = pyramidDecadesCache[parseInt(pyramidSliderMaxEl.value, 10)];
+    }
     const filtered = list.filter(i => i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F') &&
-        (selectedDecade === null || decadeOf(i.death.year) === selectedDecade));
+        (decadeMin === null || (decadeOf(i.death.year) >= decadeMin && decadeOf(i.death.year) <= decadeMax)));
     drawAgePyramid(filtered);
 }
 
 function updateNamesCenturyLabel() {
-    const idx = parseInt(namesCenturySliderEl.value, 10);
-    namesCenturyLabelEl.textContent = (!namesCenturiesCache || idx >= namesCenturiesCache.length) ? 'Toutes périodes' : centuryLabel(namesCenturiesCache[idx]);
+    if(!namesCenturiesCache || !namesCenturiesCache.length) { namesCenturyLabelEl.textContent = 'Toutes périodes'; return; }
+    const idxMin = parseInt(namesCenturySliderMinEl.value, 10), idxMax = parseInt(namesCenturySliderMaxEl.value, 10);
+    if(idxMin === 0 && idxMax === namesCenturiesCache.length - 1) { namesCenturyLabelEl.textContent = 'Toutes périodes'; return; }
+    namesCenturyLabelEl.textContent = idxMin === idxMax
+        ? centuryLabel(namesCenturiesCache[idxMin])
+        : `${centuryLabel(namesCenturiesCache[idxMin])} – ${centuryLabel(namesCenturiesCache[idxMax])}`;
 }
 
 function drawTopNamesForSelectedCentury() {
-    const idx = parseInt(namesCenturySliderEl.value, 10);
-    const selectedCentury = (namesCenturiesCache && idx < namesCenturiesCache.length) ? namesCenturiesCache[idx] : null;
-    drawTopNamesForCentury(list, selectedCentury);
+    let centuryMin = null, centuryMax = null;
+    if(namesCenturiesCache && namesCenturiesCache.length) {
+        centuryMin = namesCenturiesCache[parseInt(namesCenturySliderMinEl.value, 10)];
+        centuryMax = namesCenturiesCache[parseInt(namesCenturySliderMaxEl.value, 10)];
+    }
+    drawTopNamesForCentury(list, centuryMin, centuryMax);
 }
 
 function renderDemographicCharts() {
@@ -548,23 +664,24 @@ function renderDemographicCharts() {
         showMapMessage('marriageWeekdayChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('namesMaleChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('namesFemaleChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
-        pyramidSliderEl.disabled = true;
+        pyramidSliderMinEl.disabled = true; pyramidSliderMaxEl.disabled = true;
         pyramidLabelEl.textContent = 'Toutes périodes';
-        namesCenturySliderEl.disabled = true;
+        namesCenturySliderMinEl.disabled = true; namesCenturySliderMaxEl.disabled = true;
         namesCenturyLabelEl.textContent = 'Toutes périodes';
         return;
     }
     pyramidDecadesCache = getPyramidDecades(list);
     if(pyramidDecadesCache.length) {
-        pyramidSliderEl.disabled = false;
-        pyramidSliderEl.min = 0;
-        pyramidSliderEl.max = pyramidDecadesCache.length; // dernier cran = "Toutes périodes"
-        pyramidSliderEl.value = pyramidDecadesCache.length;
+        const maxIdx = pyramidDecadesCache.length - 1;
+        pyramidSliderMinEl.disabled = false; pyramidSliderMaxEl.disabled = false;
+        pyramidSliderMinEl.min = 0; pyramidSliderMinEl.max = maxIdx; pyramidSliderMinEl.value = 0;
+        pyramidSliderMaxEl.min = 0; pyramidSliderMaxEl.max = maxIdx; pyramidSliderMaxEl.value = maxIdx;
     } else {
-        pyramidSliderEl.disabled = true;
-        pyramidSliderEl.max = 0;
-        pyramidSliderEl.value = 0;
+        pyramidSliderMinEl.disabled = true; pyramidSliderMaxEl.disabled = true;
+        pyramidSliderMinEl.max = 0; pyramidSliderMinEl.value = 0;
+        pyramidSliderMaxEl.max = 0; pyramidSliderMaxEl.value = 0;
     }
+    syncRangeSlider(pyramidSliderMinEl, pyramidSliderMaxEl, pyramidSliderFillEl);
     updatePyramidLabel();
     drawAgePyramidForSelectedDecade();
     drawAgeDeathTrend(list);
@@ -574,15 +691,16 @@ function renderDemographicCharts() {
 
     namesCenturiesCache = getNameCenturies(list);
     if(namesCenturiesCache.length) {
-        namesCenturySliderEl.disabled = false;
-        namesCenturySliderEl.min = 0;
-        namesCenturySliderEl.max = namesCenturiesCache.length; // dernier cran = "Toutes périodes"
-        namesCenturySliderEl.value = namesCenturiesCache.length;
+        const maxIdx = namesCenturiesCache.length - 1;
+        namesCenturySliderMinEl.disabled = false; namesCenturySliderMaxEl.disabled = false;
+        namesCenturySliderMinEl.min = 0; namesCenturySliderMinEl.max = maxIdx; namesCenturySliderMinEl.value = 0;
+        namesCenturySliderMaxEl.min = 0; namesCenturySliderMaxEl.max = maxIdx; namesCenturySliderMaxEl.value = maxIdx;
     } else {
-        namesCenturySliderEl.disabled = true;
-        namesCenturySliderEl.max = 0;
-        namesCenturySliderEl.value = 0;
+        namesCenturySliderMinEl.disabled = true; namesCenturySliderMaxEl.disabled = true;
+        namesCenturySliderMinEl.max = 0; namesCenturySliderMinEl.value = 0;
+        namesCenturySliderMaxEl.max = 0; namesCenturySliderMaxEl.value = 0;
     }
+    syncRangeSlider(namesCenturySliderMinEl, namesCenturySliderMaxEl, namesCenturySliderFillEl);
     updateNamesCenturyLabel();
     drawTopNamesForSelectedCentury();
 }
@@ -603,13 +721,25 @@ createPersonPicker({
     onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); }
 });
 wireClickAway(mapPersonResultsEl);
-pyramidSliderEl.addEventListener('input', () => { updatePyramidLabel(); drawAgePyramidForSelectedDecade(); });
-namesCenturySliderEl.addEventListener('input', () => { updateNamesCenturyLabel(); drawTopNamesForSelectedCentury(); });
+[pyramidSliderMinEl, pyramidSliderMaxEl].forEach(el => el.addEventListener('input', () => {
+    syncRangeSlider(pyramidSliderMinEl, pyramidSliderMaxEl, pyramidSliderFillEl);
+    updatePyramidLabel();
+    drawAgePyramidForSelectedDecade();
+}));
+[namesCenturySliderMinEl, namesCenturySliderMaxEl].forEach(el => el.addEventListener('input', () => {
+    syncRangeSlider(namesCenturySliderMinEl, namesCenturySliderMaxEl, namesCenturySliderFillEl);
+    updateNamesCenturyLabel();
+    drawTopNamesForSelectedCentury();
+}));
 mapTimeEnabledEl.addEventListener('change', () => {
     mapTimeSliderRowEl.classList.toggle('hidden', !mapTimeEnabledEl.checked);
     renderFilteredMaps();
 });
-mapTimeSliderEl.addEventListener('input', () => { updateTimeLabel(); renderFilteredMaps(); });
+[mapTimeSliderMinEl, mapTimeSliderMaxEl].forEach(el => el.addEventListener('input', () => {
+    syncRangeSlider(mapTimeSliderMinEl, mapTimeSliderMaxEl, mapTimeSliderFillEl);
+    updateTimeLabel();
+    renderFilteredMaps();
+}));
 
 // --- Société ---
 const societyStatus = document.getElementById('societyStatus');
@@ -1017,6 +1147,152 @@ const bePersonPicker = createPersonPicker({
 });
 wireClickAway(bePersonResultsEl);
 
+// --- Europe --- (pendant des blocs "Départements"/"Provinces belges" ci-dessus, à l'échelle du
+// continent : granularité pays plutôt que département/province — voir maps.js pour le détail).
+// Différence de comportement volontaire par rapport à selectDepartment/selectBeProvince : le
+// périmètre par défaut n'est PAS le pays le plus représenté mais l'Europe entière (europeSelectedCode
+// vaut '' — chaîne vide plutôt que null, pour que le chip "Toute l'Europe" ait un data-code stable
+// et distinct de tout libellé de pays réel — jusqu'à ce qu'un pays précis soit choisi).
+const europeStatusEl = document.getElementById('europeStatus');
+const europeContentEl = document.getElementById('europeContent');
+const europeScrollBarEl = document.getElementById('europeScrollBar');
+const europeMapTitleEl = document.getElementById('europeMapTitle');
+const europeSurnameFilterEl = document.getElementById('europeSurnameFilter');
+const europeAncestorOnlyEl = document.getElementById('europeAncestorOnly');
+const europePersonSearchEl = document.getElementById('europePersonSearch');
+const europePersonResultsEl = document.getElementById('europePersonResults');
+const europePersonSelectedEl = document.getElementById('europePersonSelected');
+const europeYearSliderRowEl = document.getElementById('europeYearSliderRow');
+const europeYearSliderEl = document.getElementById('europeYearSlider');
+const europeYearLabelEl = document.getElementById('europeYearLabel');
+const europeYearHintEl = document.getElementById('europeYearHint');
+
+let europeSummariesCache = [];
+let europeSelectedCode = ''; // '' = toute l'Europe (vue d'ensemble), sinon libellé de pays
+let europeSurnamesCache = [];
+let europePersonId = null;
+
+// Bornes exactes du curseur année : affinées dès que le fichier de frontières historiques (CShapes,
+// voir maps.js) est chargé, plutôt que figées en dur dans le HTML — celui-ci ne porte que des valeurs
+// par défaut plausibles (1806-2023) pour que le curseur soit utilisable avant la fin du chargement.
+// Indépendant du GEDCOM chargé : lancé une fois au démarrage du module, pas dans onData.
+ensureCShapesEurope().then(geo => {
+    const b = cshapesYearBounds(geo);
+    const wasAtMax = europeYearSliderEl.value === europeYearSliderEl.max;
+    europeYearSliderEl.min = b.min;
+    europeYearSliderEl.max = b.max;
+    if(wasAtMax) europeYearSliderEl.value = b.max;
+    updateEuropeYearLabel();
+}).catch(() => { /* le curseur reste utilisable avec ses bornes par défaut */ });
+
+function updateEuropeYearLabel() {
+    const y = parseInt(europeYearSliderEl.value, 10);
+    const atMax = y >= parseInt(europeYearSliderEl.max, 10);
+    europeYearLabelEl.textContent = atMax ? `Frontières actuelles (${y})` : `Frontières historiques : ${y}`;
+}
+
+// Le curseur année ne s'applique qu'à la vue d'ensemble (voir drawEuropeMap) : masqué dès qu'un pays
+// précis est sélectionné, où il n'aurait aucun effet (ce zoom garde toujours les frontières actuelles).
+function updateEuropeYearSliderVisibility() {
+    europeYearSliderRowEl.classList.toggle('hidden', europeSelectedCode !== '');
+    europeYearHintEl.classList.toggle('hidden', europeSelectedCode !== '');
+}
+
+function europeScopedList() {
+    if (!europeAncestorOnlyEl.checked || !europePersonId) return list;
+    const ids = new Set(getAncestorIds(map, europePersonId));
+    return list.filter(p => ids.has(p.id));
+}
+
+function renderEuropeSelector() {
+    const allChip = `
+        <button type="button" class="dept-chip${europeSelectedCode === '' ? ' active' : ''}" data-code="">
+            🌍 Toute l'Europe
+        </button>`;
+    const countryChips = europeSummariesCache.map(s => `
+        <button type="button" class="dept-chip${s.code === europeSelectedCode ? ' active' : ''}" data-code="${escapeHtml(s.code)}">
+            ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
+        </button>
+    `).join('');
+    europeScrollBarEl.innerHTML = allChip + countryChips;
+}
+
+function renderEuropeSurnameList(filterText) {
+    const f = (filterText || '').trim().toLowerCase();
+    const filtered = f ? europeSurnamesCache.filter(s => s.surname.toLowerCase().includes(f)) : europeSurnamesCache;
+    renderList('europeSurnameList', filtered.map(s => `
+        <div class="society-list-item">
+            <div class="main"><div class="title">${escapeHtml(s.surname)}</div></div>
+            <div class="badge">${s.count}</div>
+        </div>
+    `));
+}
+
+function renderEuropeDetail() {
+    const code = europeSelectedCode || null; // '' -> null pour computeEuropeDetail/drawEuropeMap (vue d'ensemble)
+    const detail = computeEuropeDetail(europeScopedList(), code);
+    europeMapTitleEl.textContent = detail.label;
+    setStat('europeTotalEvents', detail.totalEvents);
+    setStat('europeGeoEvents', detail.geolocated);
+    setStat('europeSurnameCount', detail.surnames.length);
+    europeSurnamesCache = detail.surnames;
+    renderEuropeSurnameList(europeSurnameFilterEl.value);
+    updateEuropeYearSliderVisibility();
+    drawEuropeMap('europeMapChart', code, {
+        summaries: europeSummariesCache, detail, onSelectCountry: selectEuropeCountry,
+        year: parseInt(europeYearSliderEl.value, 10)
+    });
+}
+
+// Reglage rapide de l'année (drag du curseur) : redessine seulement la carte, sans recalculer
+// computeEuropeDetail/la liste de patronymes (inchangés — le curseur ne filtre pas les statistiques,
+// voir le hint affiché à l'écran) ni le sélecteur de pays. Évite de faire ramer un gros fichier
+// GEDCOM pendant qu'on fait glisser le curseur.
+function redrawEuropeMapForYear() {
+    updateEuropeYearLabel();
+    if (europeSelectedCode !== '') return; // le curseur n'affecte que la vue d'ensemble
+    drawEuropeMap('europeMapChart', null, {
+        summaries: europeSummariesCache, onSelectCountry: selectEuropeCountry,
+        year: parseInt(europeYearSliderEl.value, 10)
+    });
+}
+europeYearSliderEl.addEventListener('input', redrawEuropeMapForYear);
+
+function selectEuropeCountry(code) {
+    europeSelectedCode = code || '';
+    renderEuropeSelector();
+    renderEuropeDetail();
+}
+
+// Contrairement à refreshDeptSummaries/refreshBeSummaries, ne bascule jamais automatiquement sur un
+// pays précis (même au premier chargement) : le périmètre par défaut reste "Toute l'Europe" tant que
+// l'utilisateur ne clique pas explicitement sur un pays (chip ou carte).
+function refreshEuropeSummaries() {
+    if (!list.length) return;
+    europeSummariesCache = computeEuropeCountrySummaries(europeScopedList());
+    europeContentEl.classList.remove('hidden');
+    europeStatusEl.textContent = `Fichier chargé (${list.length} individus)${europeAncestorOnlyEl.checked && europePersonId ? ' — ascendants uniquement' : ''}.`;
+    if (europeSelectedCode && !europeSummariesCache.some(s => s.code === europeSelectedCode)) europeSelectedCode = '';
+    renderEuropeSelector();
+    renderEuropeDetail();
+}
+
+europeScrollBarEl.addEventListener('click', e => {
+    const btn = e.target.closest('.dept-chip');
+    if (btn && btn.dataset.code !== europeSelectedCode) selectEuropeCountry(btn.dataset.code);
+});
+europeSurnameFilterEl.addEventListener('input', () => renderEuropeSurnameList(europeSurnameFilterEl.value));
+europeAncestorOnlyEl.addEventListener('change', e => {
+    europePersonSearchEl.disabled = !e.target.checked;
+    refreshEuropeSummaries();
+});
+const europePersonPicker = createPersonPicker({
+    searchEl: europePersonSearchEl, resultsEl: europePersonResultsEl, selectedEl: europePersonSelectedEl,
+    getList: () => list,
+    onSelect: p => { europePersonId = p.id; refreshEuropeSummaries(); }
+});
+wireClickAway(europePersonResultsEl);
+
 bootstrap({
     page: 'visualisation',
     onReady: controlsSlot => { exportCtl = setupExportButton(controlsSlot); },
@@ -1032,6 +1308,7 @@ bootstrap({
             renderFilteredMaps();
             if (deptSelectedCode) renderDepartmentDetail();
             if (beSelectedCode) renderBeProvinceDetail();
+            if (europeContentEl && !europeContentEl.classList.contains('hidden')) renderEuropeDetail();
         });
 
         // Filtre "ascendants de" du panneau Départements : la personne (et le périmètre qu'elle
@@ -1039,7 +1316,7 @@ bootstrap({
         // la sélection de département : sans ce reset, refreshDeptSummaries() la garderait si le
         // nouveau fichier a, par coïncidence, un département de même code — pas ce qu'on veut à
         // l'ouverture d'un nouveau fichier (seulement quand on affine juste le filtre ascendants).
-        // Même chose côté panneau Provinces belges.
+        // Même chose côté panneaux Provinces belges et Europe.
         deptPersonId = null;
         deptSelectedCode = null;
         deptAncestorOnlyEl.checked = false;
@@ -1050,6 +1327,11 @@ bootstrap({
         beAncestorOnlyEl.checked = false;
         bePersonSearchEl.disabled = true;
         bePersonPicker.reset();
+        europePersonId = null;
+        europeSelectedCode = '';
+        europeAncestorOnlyEl.checked = false;
+        europePersonSearchEl.disabled = true;
+        europePersonPicker.reset();
 
         if (!data.list.length) {
             societyStatus.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
@@ -1058,6 +1340,8 @@ bootstrap({
             deptContentEl.classList.add('hidden');
             beStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
             beContentEl.classList.add('hidden');
+            europeStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
+            europeContentEl.classList.add('hidden');
             return;
         }
         societyStatus.textContent = `Fichier chargé (${data.list.length} individus).`;
@@ -1067,9 +1351,11 @@ bootstrap({
 
         // Département/province par défaut : celui/celle qui totalise le plus d'événements
         // (computeDepartmentSummaries/computeBeProvinceSummaries trient déjà par total décroissant),
-        // pour ouvrir la vue sur la branche la plus représentée.
+        // pour ouvrir la vue sur la branche la plus représentée. La vue Europe, elle, s'ouvre
+        // toujours sur "Toute l'Europe" (voir refreshEuropeSummaries).
         refreshDeptSummaries();
         refreshBeSummaries();
+        refreshEuropeSummaries();
 
         // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
         // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même
