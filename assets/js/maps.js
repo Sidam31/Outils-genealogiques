@@ -53,7 +53,23 @@ export async function ensureEuropeGeo() {
         // Natural Earth admin-0 (résolution 110m) : fichier léger, suffisant pour de simples
         // contours de pays voisins (on n'a pas besoin du détail utilisé pour les départements).
         const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson');
-        europeGeoCache = await res.json();
+        const raw = await res.json();
+        // La résolution 110m omet plusieurs micro-États, dont l'Andorre (constaté : absente du jeu de
+        // données) — sans ce complément, elle disparaît à la fois du contexte "pays voisins" de la
+        // carte de France (NEIGHBOR_COUNTRY_LABELS) et du repli Natural Earth de la vue Europe par
+        // pays (drawEuropeMap, pour les années hors couverture CShapes). Contour dédié bundlé
+        // localement (assets/data/andorra.geojson), fusionné seulement si Natural Earth ne l'a
+        // toujours pas lui-même (test par nom, pour rester sans effet le jour où il l'ajouterait).
+        const hasAndorra = raw.features.some(f => (f.properties?.ADMIN || f.properties?.NAME) === 'Andorra');
+        if(!hasAndorra) {
+            try {
+                const andorraRes = await fetch('./assets/data/andorra.geojson');
+                const andorraGeo = await andorraRes.json();
+                const andorraFeature = andorraGeo.features[0];
+                if(andorraFeature) raw.features.push({ ...andorraFeature, properties: { ...andorraFeature.properties, ADMIN: 'Andorra', NAME: 'Andorra' } });
+            } catch(err) { /* pas de contour Andorre, le reste de la carte reste fonctionnel */ }
+        }
+        europeGeoCache = raw;
     }
     return europeGeoCache;
 }
@@ -1116,53 +1132,68 @@ const CSHAPES_NAME_TO_LABEL = new Map([
     ['Waldeck', 'Allemagne'], ['Wolfenbuttel', 'Allemagne'], ['Württemberg', 'Allemagne']
 ]);
 
-// code === null -> vue d'ensemble à une ANNÉE donnée (opts.year, frontières CShapes — la vue
-// d'ensemble n'utilise plus Natural Earth, ce qui règle au passage sa propre distorsion outre-mer :
-// la géométrie CShapes est déjà cadrée sur l'Europe, voir plus haut). Cliquer un territoire rattaché
-// aux données (voir CSHAPES_NAME_TO_LABEL) appelle opts.onSelectCountry. Sinon -> vue détail zoomée
-// sur CE pays, TOUJOURS avec ses frontières actuelles (Natural Earth) quelle que soit l'année
-// choisie : les événements y sont déjà classés sous le libellé du pays tel qu'écrit dans les actes
-// (donc déjà "de leur époque"), inutile de faire varier le contour lui-même avec le curseur.
-// opts.summaries (résultat de computeEuropeCountrySummaries) alimente la coloration de la vue
-// d'ensemble ; opts.detail (résultat de computeEuropeDetail) alimente la vue détail d'un pays.
+// Ensemble des libellés modernes couverts par AU MOINS une entité CShapes, quelle que soit l'année
+// (donc les seuls pays pour lesquels un tracé historique existe un jour) : sert à décider, dans la
+// vue détail d'un pays, s'il faut chercher un tracé CShapes ou basculer directement sur Natural
+// Earth. Seul absent notable : Chypre (hors du périmètre du jeu de données CShapes-Europe).
+const CSHAPES_MAPPED_LABELS = new Set(CSHAPES_NAME_TO_LABEL.values());
+
+// code === null -> vue d'ensemble à une ANNÉE donnée (opts.year, frontières CShapes). Sinon -> vue
+// détail zoomée sur CE pays, à la MÊME année : cherche toutes les entités CShapes rattachées à ce
+// libellé moderne (voir CSHAPES_NAME_TO_LABEL) et actives cette année-là — un pays comme l'Allemagne
+// ou l'Italie avant son unification apparaît alors comme la mosaïque des royaumes/duchés qui le
+// composaient à l'époque. Repli sur le contour actuel (Natural Earth, débarrassé de ses exclaves
+// d'outre-mer par clipToEuropeBbox) quand aucune entité CShapes ne correspond : soit parce que ce
+// pays n'existait pas encore sous cette forme à l'année choisie (ex. Belgique avant 1830), soit parce
+// qu'il est hors du jeu de données CShapes-Europe pour toute année (seul cas : Chypre).
+// Cliquer un territoire rattaché aux données (vue d'ensemble uniquement, voir CSHAPES_NAME_TO_LABEL)
+// appelle opts.onSelectCountry. opts.summaries (résultat de computeEuropeCountrySummaries) alimente
+// la coloration de la vue d'ensemble ; opts.detail (résultat de computeEuropeDetail) alimente les
+// événements géolocalisés + patronymes de la vue détail d'un pays (inchangés quelle que soit
+// l'année : ils sont déjà classés sous le libellé du pays tel qu'écrit dans les actes).
 export async function drawEuropeMap(containerId, code, opts = {}) {
     const container = d3.select(`#${containerId}`);
     showMapMessage(containerId, 'Chargement de la carte…');
 
+    let cshapesGeo;
+    try {
+        cshapesGeo = await ensureCShapesEurope();
+    } catch(err) {
+        showMapMessage(containerId, 'Impossible de charger la carte (fichier de frontières historiques introuvable).', true);
+        return;
+    }
+    if(!document.getElementById(containerId)) return;
+    const bounds = cshapesYearBounds(cshapesGeo);
+    const year = opts.year != null ? Math.min(Math.max(opts.year, bounds.min), bounds.max) : bounds.max;
+
     if(code === null) {
-        let cshapesGeo;
-        try {
-            cshapesGeo = await ensureCShapesEurope();
-        } catch(err) {
-            showMapMessage(containerId, 'Impossible de charger la carte (fichier de frontières historiques introuvable).', true);
-            return;
-        }
-        if(!document.getElementById(containerId)) return;
-        const bounds = cshapesYearBounds(cshapesGeo);
-        const year = opts.year != null ? Math.min(Math.max(opts.year, bounds.min), bounds.max) : bounds.max;
         const features = cshapesGeo.features.filter(f => f.properties.From <= year && f.properties.To >= year);
         drawEuropeOverview(container, features, opts.summaries || [], year, bounds, opts.onSelectCountry);
         return;
     }
 
-    let europeGeo;
-    try {
-        europeGeo = await ensureEuropeGeo();
-    } catch(err) {
-        showMapMessage(containerId, 'Impossible de charger la carte (connexion internet requise).', true);
-        return;
-    }
-    if(!document.getElementById(containerId)) return;
+    let features = cshapesGeo.features.filter(f =>
+        CSHAPES_NAME_TO_LABEL.get(f.properties.Name) === code && f.properties.From <= year && f.properties.To >= year);
+    const usingHistorical = features.length > 0;
 
-    const features = europeGeo.features
-        .map(f => { const label = europeCountryLabel(f); return label ? { ...f, properties: { ...f.properties, europeLabel: label } } : null; })
-        .filter(Boolean);
-    const feature = features.find(f => f.properties.europeLabel === code);
-    if(!feature) {
-        showMapMessage(containerId, `Contour introuvable pour ce pays (${code}).`, true);
-        return;
+    if(!features.length) {
+        let europeGeo;
+        try {
+            europeGeo = await ensureEuropeGeo();
+        } catch(err) {
+            showMapMessage(containerId, 'Impossible de charger la carte (connexion internet requise).', true);
+            return;
+        }
+        if(!document.getElementById(containerId)) return;
+        const neFeature = europeGeo.features.find(f => europeCountryLabel(f) === code);
+        if(!neFeature) {
+            showMapMessage(containerId, `Contour introuvable pour ce pays (${code}).`, true);
+            return;
+        }
+        features = [{ ...neFeature, geometry: clipToEuropeBbox(neFeature.geometry) }];
     }
-    drawEuropeCountryDetail(container, { ...feature, geometry: clipToEuropeBbox(feature.geometry) }, opts.detail);
+
+    drawEuropeCountryDetail(container, features, opts.detail, { year, bounds, usingHistorical, hasAnyHistory: CSHAPES_MAPPED_LABELS.has(code) });
 }
 
 function drawEuropeOverview(container, features, summaries, year, bounds, onSelectCountry) {
@@ -1241,11 +1272,12 @@ function drawEuropeOverview(container, features, summaries, year, bounds, onSele
             : `Frontières historiques en ${year} — cliquez sur un territoire rattaché aux données pour zoomer.`);
 }
 
-// Pendant de drawDepartmentMap, pour un pays européen : contour zoomé (fitExtent sur SA géométrie
-// seule, débarrassée des exclaves d'outre-mer par clipToEuropeBbox — voir drawEuropeMap ci-dessus) +
-// événements individuels géolocalisés + panneau "Liste éclair" des patronymes (réutilise
-// drawDeptSurnamePanel, générique malgré son nom).
-function drawEuropeCountryDetail(container, feature, detail) {
+// Pendant de drawDepartmentMap, pour un pays européen : contour zoomé (fitExtent sur TOUTES les
+// entités reçues à la fois — un pays fragmenté en plusieurs royaumes/duchés historiques à l'année
+// choisie, voir drawEuropeMap ci-dessus, s'affiche donc comme leur mosaïque complète) + événements
+// individuels géolocalisés + panneau "Liste éclair" des patronymes (réutilise drawDeptSurnamePanel,
+// générique malgré son nom).
+function drawEuropeCountryDetail(container, features, detail, yearInfo) {
     container.selectAll('*').remove();
     const height = 440;
     const containerWidth = container.node().clientWidth || 720;
@@ -1253,14 +1285,49 @@ function drawEuropeCountryDetail(container, feature, detail) {
     const mapWidth = containerWidth - listWidth;
     const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
 
-    const projection = d3.geoConicConformal().fitExtent([[24, 24], [mapWidth - 24, height - 24]], feature);
+    const projection = d3.geoConicConformal().fitExtent([[24, 24], [mapWidth - 24, height - 24]], { type: 'FeatureCollection', features });
     const path = d3.geoPath().projection(projection);
+    const territoryTooltip = document.getElementById('tooltip');
 
-    svg.append('path').datum(feature).attr('d', path)
-        .attr('fill', '#eef3f8').attr('stroke', '#555').attr('stroke-width', 1.2);
+    // Un <path> par entité plutôt qu'un seul chemin fusionné : quand le pays est fragmenté (ex.
+    // "Allemagne" en 1900 = Prusse + Bavière + Saxe + ...), chaque morceau garde son survol propre
+    // (nom de l'entité historique précise) au lieu d'un simple contour muet.
+    svg.selectAll('path.territory')
+        .data(features)
+        .join('path')
+        .attr('class', 'territory')
+        .attr('d', path)
+        .attr('fill', '#eef3f8')
+        .attr('stroke', '#555')
+        .attr('stroke-width', 1.2)
+        .on('mouseover', function(e, d) {
+            d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+            territoryTooltip.style.opacity = 1;
+            territoryTooltip.innerHTML = `<strong>${escapeHtml(d.properties?.Name || detail.label)}</strong>`;
+        })
+        .on('mousemove', e => {
+            territoryTooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            territoryTooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#555').attr('stroke-width', 1.2);
+            territoryTooltip.style.opacity = 0;
+        });
 
     svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
         .text(detail.label);
+
+    if(yearInfo) {
+        const caption = yearInfo.usingHistorical
+            ? (yearInfo.year >= yearInfo.bounds.max
+                ? `Frontières actuelles (${yearInfo.year})`
+                : `Frontières historiques en ${yearInfo.year}${features.length > 1 ? ` (${features.length} entités)` : ''}`)
+            : (yearInfo.hasAnyHistory
+                ? `Frontières actuelles — pas de tracé historique pour ce pays en ${yearInfo.year}`
+                : `Frontières actuelles (pays hors du jeu de données historique)`);
+        svg.append('text').attr('x', 12).attr('y', 38).style('font-size', '10px').style('fill', '#888')
+            .text(caption);
+    }
 
     if(!detail.points.length) {
         svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')

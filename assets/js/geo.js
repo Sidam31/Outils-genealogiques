@@ -204,11 +204,22 @@ GEO.countryEntriesWordNorm = Object.entries(GEO.countryMap)
 // pour départager un texte contenant deux noms reconnus à la fois (ex. "Bastogne,Luxembourg,Belgique" :
 // "Luxembourg" y est le nom d'une PROVINCE belge, pas le pays, malgré "Luxembourg" > "Belgique" en
 // longueur — préférer le plus long aurait fait gagner le mauvais pays).
+// "Plus à droite" se compare par la FIN du match (pas son début) : sinon un pays dont le nom est un
+// SUFFIXE d'un autre pays reconnu (ex. "Ireland" à la fin de "Northern Ireland") gagnerait à tort,
+// son match commençant plus tard dans le texte que celui — pourtant correct — de la phrase plus longue
+// qui l'englobe (cas vécu : "...England, United Kingdom of Great Britain and Northern Ireland" classé
+// comme "Irlande" au lieu de "Royaume-Uni", "ireland" se terminant au même endroit que "northern
+// ireland" mais commençant après). À fin égale, le match le plus long (donc le début le plus à
+// gauche) l'emporte.
 export function findCountry(normText) {
-    let best = null, bestIndex = -1;
+    let best = null, bestEnd = -1, bestStart = Infinity;
     for(const e of GEO.countryEntriesWordNorm) {
         const m = e.regex.exec(normText);
-        if(m && m.index >= bestIndex) { bestIndex = m.index; best = e.label; }
+        if(!m) continue;
+        const end = m.index + m[0].length;
+        if(end > bestEnd || (end === bestEnd && m.index <= bestStart)) {
+            bestEnd = end; bestStart = m.index; best = e.label;
+        }
     }
     return best;
 }

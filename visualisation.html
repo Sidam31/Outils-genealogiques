@@ -440,7 +440,7 @@
                         <input type="range" id="europeYearSlider" min="1806" max="2023" value="2023">
                         <span id="europeYearLabel">Frontières actuelles (2023)</span>
                     </div>
-                    <p class="hint" id="europeYearHint" style="text-align:center;">Ne s'applique qu'à la vue "Toute l'Europe" : change les frontières historiques affichées, sans filtrer les statistiques ci-dessous (déjà classées par pays tel qu'écrit dans les actes).</p>
+                    <p class="hint" id="europeYearHint" style="text-align:center;">Change les frontières historiques affichées (y compris en zoomant sur un pays), sans filtrer les statistiques ci-dessous (déjà classées par pays tel qu'écrit dans les actes).</p>
                     <div class="society-stat-grid" style="margin-bottom:10px;">
                         <div class="society-stat-card"><div class="num" id="europeTotalEvents">–</div><div class="lbl">événements dans ce périmètre</div></div>
                         <div class="society-stat-card"><div class="num" id="europeGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
@@ -1162,10 +1162,8 @@ const europeAncestorOnlyEl = document.getElementById('europeAncestorOnly');
 const europePersonSearchEl = document.getElementById('europePersonSearch');
 const europePersonResultsEl = document.getElementById('europePersonResults');
 const europePersonSelectedEl = document.getElementById('europePersonSelected');
-const europeYearSliderRowEl = document.getElementById('europeYearSliderRow');
 const europeYearSliderEl = document.getElementById('europeYearSlider');
 const europeYearLabelEl = document.getElementById('europeYearLabel');
-const europeYearHintEl = document.getElementById('europeYearHint');
 
 let europeSummariesCache = [];
 let europeSelectedCode = ''; // '' = toute l'Europe (vue d'ensemble), sinon libellé de pays
@@ -1191,12 +1189,8 @@ function updateEuropeYearLabel() {
     europeYearLabelEl.textContent = atMax ? `Frontières actuelles (${y})` : `Frontières historiques : ${y}`;
 }
 
-// Le curseur année ne s'applique qu'à la vue d'ensemble (voir drawEuropeMap) : masqué dès qu'un pays
-// précis est sélectionné, où il n'aurait aucun effet (ce zoom garde toujours les frontières actuelles).
-function updateEuropeYearSliderVisibility() {
-    europeYearSliderRowEl.classList.toggle('hidden', europeSelectedCode !== '');
-    europeYearHintEl.classList.toggle('hidden', europeSelectedCode !== '');
-}
+// Le curseur année reste actif dans les deux modes (vue d'ensemble ET zoom sur un pays précis, voir
+// drawEuropeMap) : dans les deux cas, il choisit l'année dont les frontières CShapes sont affichées.
 
 function europeScopedList() {
     if (!europeAncestorOnlyEl.checked || !europePersonId) return list;
@@ -1228,31 +1222,36 @@ function renderEuropeSurnameList(filterText) {
     `));
 }
 
+// Mis en cache par renderEuropeDetail, réutilisé par redrawEuropeMapForYear : la donnée (événements/
+// patronymes) ne dépend pas de l'année choisie, seul le tracé de fond en dépend — inutile de la
+// recalculer à chaque cran du curseur.
+let europeDetailCache = null;
+
 function renderEuropeDetail() {
     const code = europeSelectedCode || null; // '' -> null pour computeEuropeDetail/drawEuropeMap (vue d'ensemble)
     const detail = computeEuropeDetail(europeScopedList(), code);
+    europeDetailCache = detail;
     europeMapTitleEl.textContent = detail.label;
     setStat('europeTotalEvents', detail.totalEvents);
     setStat('europeGeoEvents', detail.geolocated);
     setStat('europeSurnameCount', detail.surnames.length);
     europeSurnamesCache = detail.surnames;
     renderEuropeSurnameList(europeSurnameFilterEl.value);
-    updateEuropeYearSliderVisibility();
     drawEuropeMap('europeMapChart', code, {
         summaries: europeSummariesCache, detail, onSelectCountry: selectEuropeCountry,
         year: parseInt(europeYearSliderEl.value, 10)
     });
 }
 
-// Reglage rapide de l'année (drag du curseur) : redessine seulement la carte, sans recalculer
+// Reglage rapide de l'année (drag du curseur), actif dans les deux modes (vue d'ensemble ET zoom sur
+// un pays) : redessine seulement la carte à partir d'europeDetailCache, sans recalculer
 // computeEuropeDetail/la liste de patronymes (inchangés — le curseur ne filtre pas les statistiques,
 // voir le hint affiché à l'écran) ni le sélecteur de pays. Évite de faire ramer un gros fichier
 // GEDCOM pendant qu'on fait glisser le curseur.
 function redrawEuropeMapForYear() {
     updateEuropeYearLabel();
-    if (europeSelectedCode !== '') return; // le curseur n'affecte que la vue d'ensemble
-    drawEuropeMap('europeMapChart', null, {
-        summaries: europeSummariesCache, onSelectCountry: selectEuropeCountry,
+    drawEuropeMap('europeMapChart', europeSelectedCode || null, {
+        summaries: europeSummariesCache, detail: europeDetailCache, onSelectCountry: selectEuropeCountry,
         year: parseInt(europeYearSliderEl.value, 10)
     });
 }
