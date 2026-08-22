@@ -239,6 +239,21 @@ export class GedcomParser {
             // référence (given/surname utilisés pour les recherches d'archives et l'appariement
             // INSEE) ; "aka"/"nickname"/"alias" est l'alias préféré pour l'affichage (voir postProcess).
             if(t==='TYPE' && i._ctx==='NAME' && v && v.trim() && i._curNameBuf) i._curNameBuf.type = v.trim().toLowerCase();
+            // "1 BIRT" / "2 TYPE Reconnaissance" (rencontré notamment dans des exports Heredis) :
+            // contrairement à un TYPE de naissance ordinaire, une "Reconnaissance" est l'acte de
+            // reconnaissance légale de l'enfant (souvent des années plus tard, à une date/un lieu
+            // différents), pas la naissance elle-même. Sans ce repérage, son DATE/PLAC écraserait
+            // ceux d'un "1 BIRT" réel présent ailleurs dans le fichier (i.birth/i.events.BIRT n'ont
+            // qu'une seule "case", voir lvl===1 ci-dessus) : on la redirige donc vers otherEvents,
+            // comme un "1 EVEN"/"1 FACT" générique — typeLabel ("Reconnaissance") sera rempli juste
+            // en dessous par le bloc TYPE générique (isOtherEventTag).
+            if(t==='TYPE' && i._ctx==='BIRT' && /reconnaissance/i.test(v)) {
+                if(!i.events.BIRT.hasDate && !i.events.BIRT.geo) i.events.BIRT.hasTag = false;
+                const otherEntry = { tag:'BIRT', tagLabel:null, typeLabel:null, value:null, year:null, approx:false, geo:null, isCens:false, isOccupation:false, isResi:false };
+                i.otherEvents.push(otherEntry);
+                this._pendingEven = { hasDate:false, year:null, approx:false, geo:null, isCens:false, isResi:false, entry:otherEntry };
+                i._ctx = 'EVEN';
+            }
             // RELA et ROLE portent en pratique la même valeur ("Birth parent", "Adoptive parent"...)
             // selon le logiciel exportateur : on garde les deux, isBirthParentAsso (postProcess) teste l'un ou l'autre.
             if((t==='RELA' || t==='ROLE') && i._ctx==='ASSO' && this._curAsso && v && v.trim()) {
