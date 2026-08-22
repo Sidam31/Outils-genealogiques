@@ -70,9 +70,32 @@ export function buildLifeEvents(person, map, fams) {
 
     (person.fams || []).forEach(famId => {
         const fam = fams.get(famId);
-        if (!fam || !fam.marr?.hasTag) return;
-        const spouse = spouseName(fam, person.id, map);
-        add('MARR', spouse ? `Mariage avec ${spouse}` : 'Mariage', fam.marr.year, false, fam.marr.geo, null);
+        if (!fam) return;
+        if (fam.marr?.hasTag) {
+            const spouse = spouseName(fam, person.id, map);
+            add('MARR', spouse ? `Mariage avec ${spouse}` : 'Mariage', fam.marr.year, false, fam.marr.geo, null);
+        }
+
+        // Décès du conjoint (seulement s'il précède ou coïncide avec celui de la personne affichée —
+        // un décès de conjoint postérieur n'a pas sa place sur SA frise de vie à elle).
+        const spouseId = fam.husb === person.id ? fam.wife : (fam.wife === person.id ? fam.husb : null);
+        const spouse = spouseId ? map.get(spouseId) : null;
+        if (spouse?.death?.year != null && (deathYear == null || spouse.death.year <= deathYear)) {
+            add('SPOUSE_DEAT', `Décès de ${spouse.name}`, spouse.death.year, spouse.death.approx, spouse.death.geo, null);
+        }
+
+        // Naissance des enfants (toujours affichée) et décès des enfants (seulement s'il précède ou
+        // coïncide avec celui de la personne affichée, même logique que pour le conjoint ci-dessus).
+        (fam.children || []).forEach(childId => {
+            const child = map.get(childId);
+            if (!child) return;
+            if (child.birth?.year != null) {
+                add('CHILD_BIRT', `Naissance de ${child.name}`, child.birth.year, child.birth.approx, child.birth.geo, null);
+            }
+            if (child.death?.year != null && (deathYear == null || child.death.year <= deathYear)) {
+                add('CHILD_DEAT', `Décès de ${child.name}`, child.death.year, child.death.approx, child.death.geo, null);
+            }
+        });
     });
 
     (person.censusEvents || []).forEach(entry => add('CENS', 'Recensement', entry.year, entry.approx, entry.geo, null));
