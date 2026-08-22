@@ -1197,7 +1197,7 @@ const CSHAPES_MAPPED_LABELS = new Set(CSHAPES_NAME_TO_LABEL.values());
 // dans le périmètre actuellement affiché (comparaison insensible à la casse et aux accents) — pur
 // clin d'œil visuel, sans effet sur les données ; totalement invisible si aucun de ces patronymes
 // n'est présent dans le GEDCOM chargé.
-const EASTER_EGG_SURNAMES = new Set(['MAESTRE', 'BERKESSEL']);
+const EASTER_EGG_SURNAMES = new Set(['MAESTRE', 'BERKESSEL', 'DIEU']);
 const stripDiacritics = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
 export function hasEasterEggSurname(list) {
     return list.some(p => EASTER_EGG_SURNAMES.has(stripDiacritics((p.surname || '').toUpperCase())));
