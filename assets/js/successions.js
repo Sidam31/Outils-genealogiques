@@ -1193,6 +1193,26 @@ function filterByLetter(records, surname) {
     const bySurname = records.filter(r => matchesLetterFilter(r.letterFilter, surname));
     return bySurname.length ? bySurname : records;
 }
+// Lyon (Rhône, dept 69) : contrairement aux autres villes 'facet' à bureaux multiples (ex. Lille),
+// dont les entrées partagent une commune-siège commune regroupée par bureauNamesFromPlace ("LILLE
+// (1er bureau)" -> "LILLE"), les bureaux lyonnais scrapés (voir LYON_BUREAU_RE dans
+// scrape_successions_multi.py) portent chacun un nom distinct sans préfixe commun exploitable tel
+// quel ("Lyon 1er bureau des actes civils", "Lyon Successions 1"...) - aucun n'est littéralement
+// nommé "Lyon". Une recherche sur "Lyon" seul ou "Lyon 5e arrondissement" ne matche donc aucune clé
+// exacte de registerIndex et retombait sur successions_69_bureaux.json, un repli géographique conçu
+// pour les communes SANS bureau propre - qui pour "Lyon" pointe vers la commune géocodée la plus
+// proche (L'Arbresle, Villeurbanne...), sans rapport avec les bureaux de Lyon eux-mêmes. On
+// regroupe donc ici tous les registres dont la clé commence par "lyon" et on les propose ensemble,
+// comme pour Lille - impossible de deviner depuis le seul GEDCOM lequel des bureaux lyonnais a
+// enregistré l'acte.
+const LYON_CITY_RE = /^lyon\b/;
+function lyonWideRegisters(idx) {
+    const all = [];
+    idx.registerIndex.forEach((records, key) => {
+        if (LYON_CITY_RE.test(key)) all.push(...records);
+    });
+    return all;
+}
 function resolveFacet(idx, geo, year, person) {
     const candidates = cityCandidates(geo);
     for (const candidate of candidates) {
@@ -1200,6 +1220,19 @@ function resolveFacet(idx, geo, year, person) {
         if (exact && exact.length) {
             const picked = pickRegisters(filterByLetter(exact, person.surname), year);
             return { matchType: 'exact', registers: picked.registers, yearGap: picked.yearGap, bureauInfo: null, contextLabel: parentContextLabel(geo, candidate) };
+        }
+    }
+    for (const candidate of candidates) {
+        if (LYON_CITY_RE.test(normalizePlace(candidate))) {
+            const lyonAll = lyonWideRegisters(idx);
+            if (lyonAll.length) {
+                const picked = pickRegisters(filterByLetter(lyonAll, person.surname), year);
+                const parentNote = parentContextLabel(geo, candidate);
+                return {
+                    matchType: 'bureau', registers: picked.registers, yearGap: picked.yearGap, bureauInfo: null,
+                    contextLabel: `Lyon avait plusieurs bureaux d'enregistrement distincts — toutes les pistes connues sont listées, à vérifier selon l'arrondissement du décès.${parentNote ? ' ' + parentNote : ''}`,
+                };
+            }
         }
     }
     for (const candidate of candidates) {
