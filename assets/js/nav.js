@@ -1,5 +1,5 @@
 // --- HEADER COMMUN (navigation entre les pages) ---
-// visualisation.html et deces-manquants.html regroupent chacune deux anciens outils fusionnés en
+// visualisation.html et recherhce.html regroupent chacune deux anciens outils fusionnés en
 // une seule page (bascule interne via .subnav-bar) : Visualisation+Société, et Décès manquants+
 // FranceArchives. Voir onglets internes dans ces fichiers.
 // Logo "Le Centre de généalogie" encodé en data URI (plutôt qu'un fichier assets/img/*.png) pour
@@ -11,7 +11,7 @@ const TOOLS = [
     { href: 'frise.html', icon: '🕰️', label: 'Frise de vie', page: 'frise' },
     { href: 'visualisation.html', icon: '📊', label: "Vue d'ensemble", page: 'visualisation' },
     { href: 'qualite.html', icon: '🔍', label: 'Analyse Qualité', page: 'qualite' },
-    { href: 'deces-manquants.html', icon: '🧭', label: 'Aide à la recherche', page: 'deces' },
+    { href: 'recherche.html', icon: '🧭', label: 'Aide à la recherche', page: 'deces' },
     { href: 'parentes.html', icon: '🧬', label: 'Parentés hyp.', page: 'parentes' },
     { href: 'rues-paris.html', icon: '📜', label: 'Rues de Paris', page: 'rues-paris' },
 ];

@@ -374,7 +374,7 @@
 import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv, formatFullDate } from './assets/js/utils.js';
-import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LABELS } from './assets/js/deces-manquants.js';
+import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LABELS } from './assets/js/recherche.js';
 import {
     computeMissingRecensements, buildFranceArchivesUrl,
     RECENSEMENT_DEPT_CODES_DEFAULT, RECENSEMENT_DATES_DEFAULT,
@@ -412,7 +412,7 @@ topModeMariageBtn.addEventListener('click', () => setTopMode('mariage'));
 
 // --- Décès manquants ---
 // Enveloppé dans une IIFE : ce volet reprend tel quel le script de l'ancienne page
-// deces-manquants.html (mêmes noms de variables internes), seuls les id du DOM sont préfixés
+// recherche.html (mêmes noms de variables internes), seuls les id du DOM sont préfixés
 // "dm" pour cohabiter avec le volet FranceArchives sur la même page.
 const dm = (() => {
     let list = [], map = new Map(), fams = new Map();

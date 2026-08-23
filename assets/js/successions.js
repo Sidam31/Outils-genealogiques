@@ -970,7 +970,7 @@ export const SUCCESSION_DEPTS = {
         // Bornes réelles de la série (784 registres, 31 lieux — tous les bureaux, voir
         // scripts_py/scrape_finistere.py) - portail Ligeo Archives derrière Anubis, même
         // autorisation explicite que la série de Haute-Garonne, obtenue lors d'une exploration
-        // antérieure (voir la liste "départements vérifiés" de deces-manquants.html). Arborescence
+        // antérieure (voir la liste "départements vérifiés" de recherche.html). Arborescence
         // plus profonde que la Haute-Garonne (un seul fonds "3 Q" commun à tous les bureaux au lieu
         // d'un fonds séparé par bureau), débloquée via la page "Détail du fonds" (arbre EAD
         // classique "tv:/view:") plutôt que l'arbre JS du moteur de recherche du site (qui renvoie

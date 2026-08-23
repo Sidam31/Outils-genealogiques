@@ -78,7 +78,7 @@ export function centuryOf(year) { return Math.ceil(year / 100); }
 export function periodOf(year, size) { return Math.floor(year / size) * size; }
 
 // Libellé français usuel d'un siècle ("XIXe siècle"), cohérent avec les commentaires déjà présents
-// ailleurs dans le code (ex. geo.js, deces-manquants.js) plutôt qu'un simple "19e siècle".
+// ailleurs dans le code (ex. geo.js, recherche.js) plutôt qu'un simple "19e siècle".
 const ROMAN_DIGITS = [[10,'X'],[9,'IX'],[5,'V'],[4,'IV'],[1,'I']];
 export function toRoman(n) {
     let result = '';
