@@ -20,6 +20,55 @@ export function escapeHtml(text) {
     return text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
 }
 
+// --- Colonnes "Vérifié"/"Commentaire" (recherche.html : décès manquants, recensement, successions,
+// mariage) : annotation manuelle libre, conservée dans le cache navigateur (localStorage), pas dans
+// le GEDCOM ni un export - sert à cocher/noter au fil de la vérification manuelle des pistes sans
+// perdre l'état d'une session à l'autre sur le même navigateur. storeKey isole les 4 volets entre eux
+// (une clé localStorage par volet) ; rowId (person.id ou fam.id) est stable d'un rechargement à
+// l'autre tant que le même GEDCOM est utilisé.
+export function loadVerifStore(storeKey) {
+    try {
+        return JSON.parse(localStorage.getItem(storeKey)) || {};
+    } catch (e) { return {}; }
+}
+export function getVerifEntry(storeKey, rowId) {
+    return loadVerifStore(storeKey)[rowId] || { verified: false, comment: '' };
+}
+export function saveVerifEntry(storeKey, rowId, patch) {
+    const store = loadVerifStore(storeKey);
+    const entry = Object.assign({ verified: false, comment: '' }, store[rowId], patch);
+    // Rien à garder pour une ligne jamais annotée : évite de faire grossir le cache indéfiniment
+    // au fil des rechargements avec des entrées vides.
+    if (!entry.verified && !entry.comment) {
+        delete store[rowId];
+    } else {
+        store[rowId] = entry;
+    }
+    localStorage.setItem(storeKey, JSON.stringify(store));
+}
+export function verifCells(storeKey, rowId) {
+    const entry = getVerifEntry(storeKey, rowId);
+    const idAttr = escapeHtml(String(rowId));
+    return `
+        <td style="text-align:center;"><input type="checkbox" class="verif-checkbox" data-store="${storeKey}" data-row-id="${idAttr}"${entry.verified ? ' checked' : ''}></td>
+        <td><input type="text" class="verif-comment" data-store="${storeKey}" data-row-id="${idAttr}" value="${escapeHtml(entry.comment)}" placeholder="Commentaire..." style="width:100%; min-width:120px; box-sizing:border-box; font:inherit; padding:2px 4px;"></td>
+    `;
+}
+// Délégation d'évènements (un seul écouteur par tbody, posé une fois - pas à chaque rendu, la table
+// étant entièrement reconstruite à chaque tri/filtre) : "change" suffit pour la case à cocher, mais
+// "blur" (qui ne bouillonne pas, d'où la phase de capture) pour le commentaire - sauvegarder à chaque
+// frappe (evt "input") réécrirait le cache en boucle inutilement.
+export function wireVerifCellEvents(tbody) {
+    tbody.addEventListener('change', (e) => {
+        if (!e.target.classList.contains('verif-checkbox')) return;
+        saveVerifEntry(e.target.dataset.store, e.target.dataset.rowId, { verified: e.target.checked });
+    });
+    tbody.addEventListener('blur', (e) => {
+        if (!e.target.classList || !e.target.classList.contains('verif-comment')) return;
+        saveVerifEntry(e.target.dataset.store, e.target.dataset.rowId, { comment: e.target.value });
+    }, true);
+}
+
 // Remonte la lignée directe (père/mère) depuis rootId et renvoie la liste des identifiants (racine incluse).
 export function getAncestorIds(individuals, rootId) {
     const ids = [];
