@@ -809,6 +809,12 @@ export const SUCCESSION_DEPTS = {
         // évènements input/change par JS - la seule interaction qui échoue est le clic direct sur
         // son bouton "Consulter la liste"), chaque lettre restant largement sous le plafond (max
         // observé : 4063 fiches brutes pour "L").
+        // r.url : NE PAS régénérer via scrape_successions_var_api.py - même panne que la Sarthe
+        // (voir SUCCESSION_DEPTS['72']), le deep-link "ficheFocus" ne filtre plus rien sur ce
+        // déploiement (constaté : atterrit sur les 17 402 résultats bruts non filtrés). Régénéré via
+        // scripts_py/fix_var_urls.py, qui réutilise directement le filtre "Commune" en texte libre
+        // du widget (même champ que celui exploité par scrape_successions_var_api.py) plutôt que le
+        // ficheFocus mort - relancer ce script si les IDs de champ (arko_default_...) changent.
         minYear: 1770,
         maxYear: 1975,
         registersUrl: './assets/data/successions_83.json',

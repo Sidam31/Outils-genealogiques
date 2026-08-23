@@ -261,6 +261,8 @@ export const MARRIAGE_DEPTS = {
         // successions (voir SUCCESSION_DEPTS['83'] dans successions.js) : dépouillé lettre par
         // lettre via le champ "Commune" du widget plutôt qu'une recherche globale plafonnée à
         // ~10 000 résultats bruts (portait la couverture initiale à 329 registres seulement).
+        // r.url : voir le commentaire équivalent dans successions.js (SUCCESSION_DEPTS['83']) -
+        // même correctif via scripts_py/fix_var_urls.py, même déploiement, même panne.
         minYear: 1705,
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_83.json',
