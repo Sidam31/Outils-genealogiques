@@ -1206,7 +1206,7 @@ function drawEasterEggFlag(svg, width) {
     svg.append('text')
         .attr('x', width - 14).attr('y', 24).attr('text-anchor', 'end')
         .style('font-size', '20px').style('cursor', 'default')
-        .text('🏳️‍🌈')
+        .text('🫶')
         .append('title').text('✨');
 }
 

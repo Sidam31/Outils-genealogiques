@@ -298,7 +298,8 @@ export const SUCCESSION_DEPTS = {
     '69': {
         label: 'Rhône',
         kind: 'facet',
-        // Bornes réelles de la série (475 registres scrapés, voir scrape_successions_multi.py).
+        // Bornes réelles de la série (1105 registres scrapés, voir scrape_successions_multi.py -
+        // dont les bureaux propres à Lyon, longtemps absents faute de LYON_BUREAU_RE).
         minYear: 1823,
         maxYear: 1968,
         registersUrl: './assets/data/successions_69.json',
