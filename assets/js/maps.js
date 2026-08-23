@@ -50,30 +50,28 @@ export async function ensureBelgiumGeo() {
 let europeGeoCache = null;
 export async function ensureEuropeGeo() {
     if(!europeGeoCache) {
-        // Natural Earth admin-0 (résolution 110m) : fichier léger, suffisant pour de simples
-        // contours de pays voisins (on n'a pas besoin du détail utilisé pour les départements).
-        const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson');
+        // Natural Earth admin-0, résolution 50m (~3 Mo) plutôt que 110m (~0,8 Mo) : contours des pays
+        // voisins nettement plus fins (ex. Belgique passe de 17 à 164 points, Allemagne de 58 à 562),
+        // ce qui se voit surtout sur la frontière française vue de près. Le 10m (~13 Mo, tout le monde)
+        // serait disproportionné pour un simple contexte géographique autour de la France.
+        const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson');
         const raw = await res.json();
-        // Même correctif que pour la Belgique (voir fixEsriRingWinding, juste au-dessus) : ce fichier
-        // Natural Earth encode ses anneaux extérieurs en sens horaire (convention shapefile) au lieu de
-        // l'antihoraire attendu par GeoJSON RFC 7946/d3-geo. Sans ce correctif, d3-geo interprète
-        // chaque pays comme couvrant la quasi-totalité du globe (tout SAUF le pays), ce qui se traduit
-        // par un immense aplat recouvrant toute la carte de France (constaté : fond entièrement orange).
-        raw.features = raw.features.map(f => ({ ...f, geometry: fixEsriRingWinding(f.geometry) }));
-        // La résolution 110m rend très mal les micro-États : l'Andorre y garde une entrée, mais
-        // réduite à une poignée de points (constaté : un blob grossier proche d'un demi-disque plutôt
-        // que son contour réel), ce qui déforme à la fois le contexte "pays voisins" de la carte de
-        // France (NEIGHBOR_COUNTRY_LABELS) et le repli Natural Earth de la vue Europe par pays
-        // (drawEuropeMap, pour les années hors couverture CShapes). Remplacée SYSTÉMATIQUEMENT (pas
-        // seulement si absente) par un contour dédié bundlé localement (assets/data/andorra.geojson) :
-        // à cette résolution, "présente" ne veut pas dire "correcte".
+        // Monaco est présent nativement à cette résolution (absent du 110m) : plus besoin de repli pour
+        // lui. L'Andorre, elle, y reste grossière (une vingtaine de points) : toujours remplacée par un
+        // contour dédié bundlé localement (assets/data/andorra.geojson, ~100 points), plus précis.
         try {
             const andorraRes = await fetch('./assets/data/andorra.geojson');
             const andorraGeo = await andorraRes.json();
             const andorraFeature = andorraGeo.features[0];
             if(andorraFeature) {
                 raw.features = raw.features.filter(f => (f.properties?.ADMIN || f.properties?.NAME) !== 'Andorra');
-                raw.features.push({ ...andorraFeature, properties: { ...andorraFeature.properties, ADMIN: 'Andorra', NAME: 'Andorra' } });
+                // andorra.geojson encode son anneau dans le sens inverse de celui utilisé par ce fichier
+                // Natural Earth (constaté : d3.geoPath produit sinon un tracé de secours qui part vers
+                // l'infini plutôt que de longer le petit contour réel — mêmes symptômes que
+                // fixEsriRingWinding plus haut, un blob qui recouvre toute la carte de France). Même
+                // correctif : inverser l'anneau pour l'aligner sur le sens des autres pays de ce fichier.
+                const fixedAndorra = { ...andorraFeature, geometry: fixEsriRingWinding(andorraFeature.geometry) };
+                raw.features.push({ ...fixedAndorra, properties: { ...fixedAndorra.properties, ADMIN: 'Andorra', NAME: 'Andorra' } });
             }
         } catch(err) { /* pas de contour Andorre dédié : on garde tel quel celui (dégradé) de Natural Earth */ }
         europeGeoCache = raw;

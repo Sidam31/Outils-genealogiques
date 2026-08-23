@@ -997,6 +997,19 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_50_bureaux.json',
         catalogUrl: 'https://www.archives-manche.fr/rechercher-1/repertoires-de-lenregistrement',
     },
+    '28': {
+        label: 'Eure-et-Loir',
+        kind: 'facet',
+        // Bornes réelles de la série (386 registres, 23 lieux, voir scrape_successions_arkotheque.py,
+        // DEPARTMENTS['28']) - portail Arkothèque. Marqué "champs de données vides" lors d'une
+        // première tentative (voir recherche.html) ; retesté en 2026, rendu normal - page déjà
+        // scopée à la seule série voulue, le champ "commune" donne directement le bureau.
+        minYear: 1760,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_28.json',
+        bureauxUrl: './assets/data/successions_28_bureaux.json',
+        catalogUrl: 'https://archives28.fr/archives-et-inventaires-en-ligne/histoire-des-individus-des-populations-et-genealogie/les-tables-des-successions-et-absences',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

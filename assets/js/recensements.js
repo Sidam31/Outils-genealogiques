@@ -1,4 +1,4 @@
-import { deptCode, deptName, normalizePlace } from './geo.js';
+import { deptCode, deptName } from './geo.js';
 import { estimateBirthYear } from './inference.js';
 
 // Départements dont les tables de recensement nominatif sont indexées par la base de noms
@@ -186,55 +186,53 @@ function fuzzyForenameField(text) {
 // de FranceArchives, qui ne pouvait interroger que "cette personne a-t-elle elle-même produit un
 // acte en tant que notaire" faute d'index nominatif sur les minutes.
 
-// OU-e (syntaxe FranceArchives "~", sans guillemets) plusieurs libellés de lieu candidats en un
-// seul terme de recherche, sans doublon — utilisé pour élargir es_locations à la commune parente
-// (cityAlt, voir geo.cityChain dans gedcom.js) et/ou au département quand le lieu le plus précis
-// acté (souvent un lieu-dit/hameau) n'est pas reconnu tel quel par l'index.
-function orLocations(...names) {
-    const seen = new Set();
-    const parts = [];
-    names.forEach(n => {
-        if (!n) return;
-        const key = normalizePlace(n);
-        if (seen.has(key)) return;
-        seen.add(key);
-        parts.push(n);
+// Regroupe les recensements consécutifs pointant vers la même commune (même city/cityAlt/dept) en
+// une seule piste avec une plage de dates (es_date_min/es_date_max), plutôt qu'un lien par année :
+// une personne restée dans la même commune sur plusieurs recensements n'a besoin que d'un seul
+// lien à ouvrir. `hits` est déjà trié par année croissante (voir computeMissingRecensements), donc
+// un simple regroupement des entrées consécutives identiques suffit.
+export function groupHitsByCommune(hits) {
+    const groups = [];
+    hits.forEach(h => {
+        const last = groups[groups.length - 1];
+        if (last && last.city === h.city && last.cityAlt === h.cityAlt && last.dept === h.dept) {
+            last.years.push(h.year);
+            last.sources.push(h.source);
+        } else {
+            groups.push({ city: h.city, cityAlt: h.cityAlt, dept: h.dept, years: [h.year], sources: [h.source] });
+        }
     });
-    return parts.length ? parts.join('~') : null;
+    return groups;
 }
 
-// Lien pré-rempli vers la base de noms "recensement" de FranceArchives, ciblé sur UNE année de
-// recensement précise (es_date_min = es_date_max = cette année, puisqu'on sait déjà exactement
-// quel recensement chercher) et le département (`dept`, au format "XX - Nom" tel que stocké par
-// analyzePlace) utilisé en secours quand la commune (`city`) n'est pas reconnue par l'index.
-// `cityAlt` (optionnel) est le lieu parent de `city` (ex. la commune quand `city` est un lieu-dit
-// qui en dépend) : OU-é avec lui pour élargir la recherche sans devoir deviner lequel des deux
-// libellés l'index FranceArchives reconnaît.
-export function buildFranceArchivesUrl(p, city, censusYear, dept, cityAlt) {
+// Lien pré-rempli vers la base de noms "recensement" de FranceArchives, ciblé sur une année de
+// recensement (ou une plage `censusYearMin`-`censusYearMax` quand plusieurs recensements
+// consécutifs pointent vers la même commune, voir groupHitsByCommune) et sur LA commune (un seul
+// nom, jamais plusieurs OU-és) : `cityAlt`, quand connu, est le lieu parent de `city` (ex. la
+// commune quand `city` est un lieu-dit qui en dépend, voir geo.cityChain dans gedcom.js) et donc le
+// nom de commune le plus fiable à soumettre à l'index ; à défaut on retombe sur `city`. OU-er
+// plusieurs libellés candidats dans es_locations (essayé initialement) s'est révélé contre-
+// productif : dès qu'un des libellés OU-és n'est pas reconnu par l'index, la recherche entière
+// retombe à 0 résultat au lieu d'ignorer ce seul terme — d'où un unique nom de commune ici, avec le
+// nom du département (`dept`, au format "XX - Nom" tel que stocké par analyzePlace) en secours
+// uniquement quand aucune commune n'est connue du tout.
+export function buildFranceArchivesUrl(p, city, censusYearMin, dept, cityAlt, censusYearMax) {
     const params = new URLSearchParams();
     if (p.surname) params.set('es_names', fuzzyField(p.surname));
     if (p.given) params.set('es_forenames', fuzzyForenameField(p.given));
     const serviceId = ES_SERVICE_BY_DEPT[deptCode(dept)];
-    if (serviceId) {
-        // Le service producteur cible directement le bon fonds départemental : plus besoin d'OU-er
-        // le nom du département dans es_locations en secours, il ne reste qu'à préciser la commune
-        // si elle est connue.
-        params.set('es_service', serviceId);
-        const loc = orLocations(city, cityAlt);
-        if (loc) params.set('es_locations', loc);
-    } else {
-        // Pas d'identifiant de service connu pour ce département : on retombe sur le texte, en OU-ant
-        // le nom de la commune (pas toujours reconnu par l'index : graphie ancienne, fusion de
-        // communes...) avec celui du département en secours, vérifié manuellement sur FranceArchives
-        // ("Belleville~Rhône", sans guillemets).
+    if (serviceId) params.set('es_service', serviceId);
+    const commune = cityAlt || city;
+    if (commune) {
+        params.set('es_locations', commune);
+    } else if (!serviceId) {
         const dn = deptName(dept);
-        const loc = orLocations(city, cityAlt, dn);
-        if (loc) params.set('es_locations', loc);
+        if (dn) params.set('es_locations', dn);
     }
     if (p.sex === 'M' || p.sex === 'F') params.set('es_gender', p.sex === 'M' ? 'h' : 'f');
-    if (censusYear != null) {
-        params.set('es_date_min', censusYear);
-        params.set('es_date_max', censusYear);
+    if (censusYearMin != null) {
+        params.set('es_date_min', censusYearMin);
+        params.set('es_date_max', censusYearMax != null ? censusYearMax : censusYearMin);
     }
     params.set('fulltext_facet', '');
     return `https://francearchives.gouv.fr/fr/basedenoms_recensement?${params.toString()}`;

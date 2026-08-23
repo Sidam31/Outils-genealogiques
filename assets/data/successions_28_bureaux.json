@@ -1,0 +1,1754 @@
+{
+  "ABONDANT": {
+    "bureau": "Anet",
+    "distanceKm": 6.0
+  },
+  "ALLAINES MERVILLIERS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "ALLAINES": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "ALLAINVILLE": {
+    "bureau": "Dreux",
+    "distanceKm": 5.8
+  },
+  "ALLONNES": {
+    "bureau": "Voves",
+    "distanceKm": 7.7
+  },
+  "ALLUYES": {
+    "bureau": "Bonneval",
+    "distanceKm": 5.3
+  },
+  "AMILLY": {
+    "bureau": "Chartres",
+    "distanceKm": 7.2
+  },
+  "ARCISSES": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 6.4
+  },
+  "MARGON": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 6.4
+  },
+  "ARDELLES": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 7.1
+  },
+  "ARDELU": {
+    "bureau": "Janville",
+    "distanceKm": 17.9
+  },
+  "ARGENVILLIERS": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 4.5
+  },
+  "ARMENONVILLE LES GATINEAUX": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "AUNAY SOUS AUNEAU": {
+    "bureau": "Auneau",
+    "distanceKm": 7.4
+  },
+  "AUNAY SOUS CRECY": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 8.7
+  },
+  "AUNEAU BLEURY SAINT SYMPHORIEN": {
+    "bureau": "Auneau",
+    "distanceKm": 0.0
+  },
+  "AUTHEUIL": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BAIGNEAUX": {
+    "bureau": "Janville",
+    "distanceKm": 8.4
+  },
+  "BAIGNOLET": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BAILLEAU ARMENONVILLE": {
+    "bureau": "Maintenon",
+    "distanceKm": 7.2
+  },
+  "BAILLEAU SOUS GALLARDON": {
+    "bureau": "Maintenon",
+    "distanceKm": 7.2
+  },
+  "BAILLEAU L EVEQUE": {
+    "bureau": "Chartres",
+    "distanceKm": 9.0
+  },
+  "BAILLEAU LE PIN": {
+    "bureau": "Illiers",
+    "distanceKm": 10.4
+  },
+  "BARJOUVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 5.4
+  },
+  "BARMAINVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 10.3
+  },
+  "BAUDREVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 14.2
+  },
+  "BAZOCHES EN DUNOIS": {
+    "bureau": "Orgères",
+    "distanceKm": 9.8
+  },
+  "BAZOCHES LES HAUTES": {
+    "bureau": "Janville",
+    "distanceKm": 4.5
+  },
+  "BEAUCHE": {
+    "bureau": "Brezolles",
+    "distanceKm": 6.2
+  },
+  "BEAUMONT LES AUTELS": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 8.0
+  },
+  "BEAUVILLIERS": {
+    "bureau": "Voves",
+    "distanceKm": 5.2
+  },
+  "BELHOMERT GUEHOUVILLE": {
+    "bureau": "Loupe",
+    "distanceKm": 3.7
+  },
+  "BERCHERES SAINT GERMAIN": {
+    "bureau": "Chartres",
+    "distanceKm": 10.4
+  },
+  "BERCHERES LA MAINGOT": {
+    "bureau": "Chartres",
+    "distanceKm": 10.4
+  },
+  "BERCHERES LES PIERRES": {
+    "bureau": "Chartres",
+    "distanceKm": 9.0
+  },
+  "BERCHERES SUR VESGRE": {
+    "bureau": "Anet",
+    "distanceKm": 7.9
+  },
+  "BILLANCELLES": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 5.3
+  },
+  "BLANDAINVILLE": {
+    "bureau": "Illiers",
+    "distanceKm": 6.1
+  },
+  "BLEURY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BLEURY SAINT SYMPHORIEN": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT SYMPHORIEN LE CHATEAU": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT SYMPHORIEN": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BLEVY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BOISGASSON": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BOISSY EN DROUAIS": {
+    "bureau": "Dreux",
+    "distanceKm": 8.1
+  },
+  "BOISSY LES PERCHE": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 8.9
+  },
+  "BOISVILLE LA SAINT PERE": {
+    "bureau": "Voves",
+    "distanceKm": 10.2
+  },
+  "BONCOURT": {
+    "bureau": "Anet",
+    "distanceKm": 1.7
+  },
+  "BONCE": {
+    "bureau": "Voves",
+    "distanceKm": 7.0
+  },
+  "BOUGLAINVAL": {
+    "bureau": "Maintenon",
+    "distanceKm": 6.3
+  },
+  "BOUTIGNY PROUAIS": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 12.1
+  },
+  "BOUTIGNY SUR OPTON": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 12.1
+  },
+  "BOUTIGNY": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 12.1
+  },
+  "BOUVILLE": {
+    "bureau": "Bonneval",
+    "distanceKm": 9.4
+  },
+  "BRICONVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 11.4
+  },
+  "BROUE": {
+    "bureau": "Dreux",
+    "distanceKm": 12.3
+  },
+  "BRUNELLES": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BRECHAMPS": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 4.4
+  },
+  "BULLAINVILLE": {
+    "bureau": "Bonneval",
+    "distanceKm": 9.1
+  },
+  "BULLOU": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "BEROU LA MULOTIERE": {
+    "bureau": "Brezolles",
+    "distanceKm": 5.9
+  },
+  "BETHONVILLIERS": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 5.1
+  },
+  "BEVILLE LE COMTE": {
+    "bureau": "Auneau",
+    "distanceKm": 8.2
+  },
+  "BU": {
+    "bureau": "Anet",
+    "distanceKm": 6.2
+  },
+  "CERNAY": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 7.5
+  },
+  "CHALLET": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 11.1
+  },
+  "CHAMPAGNE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "CHAMPHOL": {
+    "bureau": "Chartres",
+    "distanceKm": 2.3
+  },
+  "CHAMPROND EN GATINE": {
+    "bureau": "Loupe",
+    "distanceKm": 8.9
+  },
+  "CHAMPROND EN PERCHET": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 6.1
+  },
+  "CHAMPSERU": {
+    "bureau": "Auneau",
+    "distanceKm": 8.5
+  },
+  "CHAPELLE GUILLAUME": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 7.2
+  },
+  "CHAPELLE ROYALE": {
+    "bureau": "Brou",
+    "distanceKm": 11.1
+  },
+  "CHARBONNIERES": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 4.0
+  },
+  "CHARONVILLE": {
+    "bureau": "Illiers",
+    "distanceKm": 7.9
+  },
+  "CHARPONT": {
+    "bureau": "Dreux",
+    "distanceKm": 8.1
+  },
+  "CHARRAY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "CHARTAINVILLIERS": {
+    "bureau": "Maintenon",
+    "distanceKm": 4.9
+  },
+  "CHASSANT": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 4.1
+  },
+  "CHAUDON": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 3.3
+  },
+  "CHAUFFOURS": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 9.4
+  },
+  "CHERISY": {
+    "bureau": "Dreux",
+    "distanceKm": 5.8
+  },
+  "CHUISNES": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 4.8
+  },
+  "CHATAINCOURT": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 10.9
+  },
+  "CHATENAY": {
+    "bureau": "Janville",
+    "distanceKm": 17.3
+  },
+  "CHATILLON EN DUNOIS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "CHENE CHENU": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "CINTRAY": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 8.6
+  },
+  "CIVRY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "CLOYES LES TROIS RIVIERES": {
+    "bureau": "Cloyes-sur-le-Loir",
+    "distanceKm": 0.0
+  },
+  "CLEVILLIERS": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 11.4
+  },
+  "COLTAINVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 8.3
+  },
+  "COMBRES": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 4.6
+  },
+  "CONIE MOLITARD": {
+    "bureau": "Bonneval",
+    "distanceKm": 8.6
+  },
+  "CORANCEZ": {
+    "bureau": "Chartres",
+    "distanceKm": 9.0
+  },
+  "CORMAINVILLE": {
+    "bureau": "Orgères",
+    "distanceKm": 6.2
+  },
+  "COUDRAY AU PERCHE": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 6.1
+  },
+  "COUDRECEAU": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "COULOMBS": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 3.6
+  },
+  "COURBEHAYE": {
+    "bureau": "Orgères",
+    "distanceKm": 5.9
+  },
+  "COURTALAIN": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "CROISILLES": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 6.8
+  },
+  "CRUCEY VILLAGES": {
+    "bureau": "Brezolles",
+    "distanceKm": 3.3
+  },
+  "CRUCEY": {
+    "bureau": "Brezolles",
+    "distanceKm": 3.3
+  },
+  "CRECY COUVE": {
+    "bureau": "Dreux",
+    "distanceKm": 9.5
+  },
+  "DAMBRON": {
+    "bureau": "Janville",
+    "distanceKm": 9.6
+  },
+  "DAMMARIE": {
+    "bureau": "Voves",
+    "distanceKm": 10.7
+  },
+  "DAMPIERRE SOUS BROU": {
+    "bureau": "Brou",
+    "distanceKm": 3.4
+  },
+  "DAMPIERRE SUR AVRE": {
+    "bureau": "Brezolles",
+    "distanceKm": 9.5
+  },
+  "DAMPIERRE SUR BLEVY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "DANCY": {
+    "bureau": "Bonneval",
+    "distanceKm": 6.6
+  },
+  "DANGEAU": {
+    "bureau": "Brou",
+    "distanceKm": 8.7
+  },
+  "DANGERS": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 9.7
+  },
+  "DENONVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 12.2
+  },
+  "DIGNY": {
+    "bureau": "Senonches",
+    "distanceKm": 9.5
+  },
+  "DOMMERVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "DONNEMAIN SAINT MAMES": {
+    "bureau": "Châteaudun",
+    "distanceKm": 4.7
+  },
+  "DOUY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "DROUE SUR DROUETTE": {
+    "bureau": "Maintenon",
+    "distanceKm": 9.0
+  },
+  "ERMENONVILLE LA GRANDE": {
+    "bureau": "Illiers",
+    "distanceKm": 12.8
+  },
+  "ERMENONVILLE LA PETITE": {
+    "bureau": "Illiers",
+    "distanceKm": 9.8
+  },
+  "ESCORPAIN": {
+    "bureau": "Dreux",
+    "distanceKm": 11.0
+  },
+  "FAINS LA FOLIE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "FAVEROLLES": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 7.0
+  },
+  "FAVIERES": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 6.8
+  },
+  "FESSANVILLIERS MATTANVILLIERS": {
+    "bureau": "Brezolles",
+    "distanceKm": 2.3
+  },
+  "FEUILLEUSE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "FLACEY": {
+    "bureau": "Bonneval",
+    "distanceKm": 5.0
+  },
+  "FONTAINE SIMON": {
+    "bureau": "Loupe",
+    "distanceKm": 5.2
+  },
+  "FONTAINE LA GUYON": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 4.4
+  },
+  "FONTAINE LES RIBOUTS": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 7.2
+  },
+  "FONTENAY SUR CONIE": {
+    "bureau": "Orgères",
+    "distanceKm": 3.3
+  },
+  "FONTENAY SUR EURE": {
+    "bureau": "Chartres",
+    "distanceKm": 7.6
+  },
+  "FRANCOURVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 12.5
+  },
+  "FRAZE": {
+    "bureau": "Brou",
+    "distanceKm": 6.7
+  },
+  "FRESNAY L EVEQUE": {
+    "bureau": "Janville",
+    "distanceKm": 7.4
+  },
+  "FRESNAY LE COMTE": {
+    "bureau": "Voves",
+    "distanceKm": 9.4
+  },
+  "FRESNAY LE GILMERT": {
+    "bureau": "Chartres",
+    "distanceKm": 9.6
+  },
+  "FRIAIZE": {
+    "bureau": "Loupe",
+    "distanceKm": 8.4
+  },
+  "FRUNCE": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 6.5
+  },
+  "FRETIGNY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "GALLARDON": {
+    "bureau": "Auneau",
+    "distanceKm": 6.9
+  },
+  "GARANCIERES EN BEAUCE": {
+    "bureau": "Auneau",
+    "distanceKm": 13.0
+  },
+  "GARANCIERES EN DROUAIS": {
+    "bureau": "Dreux",
+    "distanceKm": 7.4
+  },
+  "GARNAY": {
+    "bureau": "Dreux",
+    "distanceKm": 5.8
+  },
+  "GAS": {
+    "bureau": "Maintenon",
+    "distanceKm": 6.2
+  },
+  "GASVILLE OISEME": {
+    "bureau": "Chartres",
+    "distanceKm": 4.6
+  },
+  "GASVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 4.6
+  },
+  "GELLAINVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 4.5
+  },
+  "GERMAINVILLE": {
+    "bureau": "Dreux",
+    "distanceKm": 8.5
+  },
+  "GERMIGNONVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "GILLES": {
+    "bureau": "Anet",
+    "distanceKm": 8.4
+  },
+  "GIRONVILLE ET NEUVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "GOHORY": {
+    "bureau": "Brou",
+    "distanceKm": 7.7
+  },
+  "GOMMERVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 17.8
+  },
+  "GOUILLONS": {
+    "bureau": "Janville",
+    "distanceKm": 16.0
+  },
+  "GOUSSAINVILLE": {
+    "bureau": "Anet",
+    "distanceKm": 11.2
+  },
+  "GRANDVILLE GAUDREVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "GUAINVILLE": {
+    "bureau": "Anet",
+    "distanceKm": 8.0
+  },
+  "GUILLEVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 4.3
+  },
+  "GUILLONVILLE": {
+    "bureau": "Orgères",
+    "distanceKm": 5.7
+  },
+  "GATELLES": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "HANCHES": {
+    "bureau": "Maintenon",
+    "distanceKm": 5.2
+  },
+  "HAPPONVILLIERS": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 7.6
+  },
+  "HAVELU": {
+    "bureau": "Anet",
+    "distanceKm": 9.7
+  },
+  "HOUVILLE LA BRANCHE": {
+    "bureau": "Chartres",
+    "distanceKm": 9.9
+  },
+  "HOUX": {
+    "bureau": "Maintenon",
+    "distanceKm": 3.3
+  },
+  "ILLIERS COMBRAY": {
+    "bureau": "Illiers",
+    "distanceKm": 0.0
+  },
+  "INTREVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 12.8
+  },
+  "JALLANS": {
+    "bureau": "Châteaudun",
+    "distanceKm": 5.0
+  },
+  "JANVILLE EN BEAUCE": {
+    "bureau": "Janville",
+    "distanceKm": 0.0
+  },
+  "JAUDRAIS": {
+    "bureau": "Senonches",
+    "distanceKm": 8.0
+  },
+  "JOUY": {
+    "bureau": "Chartres",
+    "distanceKm": 7.9
+  },
+  "LA BAZOCHE GOUET": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 8.6
+  },
+  "LA BOURDINIERE SAINT LOUP": {
+    "bureau": "Voves",
+    "distanceKm": 13.8
+  },
+  "BOISVILLETTE": {
+    "bureau": "Voves",
+    "distanceKm": 13.8
+  },
+  "LA CHAPELLE FORAINVILLIERS": {
+    "bureau": "Dreux",
+    "distanceKm": 10.0
+  },
+  "LA CHAPELLE FORTIN": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 6.0
+  },
+  "LA CHAPELLE D AUNAINVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 9.7
+  },
+  "LA CHAPELLE DU NOYER": {
+    "bureau": "Châteaudun",
+    "distanceKm": 3.5
+  },
+  "LA CHAUSSEE D IVRY": {
+    "bureau": "Anet",
+    "distanceKm": 5.7
+  },
+  "LA CROIX DU PERCHE": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 3.3
+  },
+  "LA FERTE VIDAME": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 0.0
+  },
+  "LA FERTE VILLENEUIL": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LA FRAMBOISIERE": {
+    "bureau": "Senonches",
+    "distanceKm": 4.3
+  },
+  "LA FRAMBOISIERE LA SAUCELLE": {
+    "bureau": "Senonches",
+    "distanceKm": 4.3
+  },
+  "LA GAUDAINE": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 4.1
+  },
+  "LA LOUPE": {
+    "bureau": "Loupe",
+    "distanceKm": 0.0
+  },
+  "LA MANCELIERE": {
+    "bureau": "Brezolles",
+    "distanceKm": 7.9
+  },
+  "LA PUISAYE": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 5.9
+  },
+  "LA SAUCELLE": {
+    "bureau": "Brezolles",
+    "distanceKm": 7.3
+  },
+  "LA VILLE AUX NONAINS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LAMBLORE": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 3.5
+  },
+  "LANDELLES": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 4.4
+  },
+  "LANGEY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LANNERAY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LAONS": {
+    "bureau": "Brezolles",
+    "distanceKm": 9.5
+  },
+  "LE BOULLAY MIVOYE": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 8.7
+  },
+  "LE BOULLAY THIERRY": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 6.3
+  },
+  "LE BOULLAY LES DEUX EGLISES": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 7.7
+  },
+  "LE COUDRAY": {
+    "bureau": "Chartres",
+    "distanceKm": 3.3
+  },
+  "LE FAVRIL": {
+    "bureau": "Loupe",
+    "distanceKm": 6.9
+  },
+  "LE GAULT SAINT DENIS": {
+    "bureau": "Voves",
+    "distanceKm": 9.4
+  },
+  "LE GUE DE LONGROI": {
+    "bureau": "Auneau",
+    "distanceKm": 4.3
+  },
+  "LE MESNIL SIMON": {
+    "bureau": "Anet",
+    "distanceKm": 7.7
+  },
+  "LE MESNIL THOMAS": {
+    "bureau": "Senonches",
+    "distanceKm": 6.8
+  },
+  "LE MEE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LE PUISET": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LE THIEULIN": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 9.7
+  },
+  "LES AUTELS VILLEVILLON": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 7.5
+  },
+  "LES CHATELETS": {
+    "bureau": "Brezolles",
+    "distanceKm": 4.9
+  },
+  "LES CHATELLIERS NOTRE DAME": {
+    "bureau": "Illiers",
+    "distanceKm": 5.0
+  },
+  "LES CORVEES LES YYS": {
+    "bureau": "Illiers",
+    "distanceKm": 8.7
+  },
+  "LES PINTHIERES": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 9.0
+  },
+  "LES RESSUINTES": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 2.5
+  },
+  "LES VILLAGES VOVEENS": {
+    "bureau": "Voves",
+    "distanceKm": 0.0
+  },
+  "LES ETILLEUX": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 8.4
+  },
+  "LEVAINVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 1.6
+  },
+  "LEVESVILLE LA CHENARD": {
+    "bureau": "Janville",
+    "distanceKm": 11.4
+  },
+  "LOGRON": {
+    "bureau": "Châteaudun",
+    "distanceKm": 8.9
+  },
+  "LOIGNY LA BATAILLE": {
+    "bureau": "Orgères",
+    "distanceKm": 2.9
+  },
+  "LORMAYE": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 1.9
+  },
+  "LOUVILLE LA CHENARD": {
+    "bureau": "Janville",
+    "distanceKm": 14.7
+  },
+  "LOUVILLIERS EN DROUAIS": {
+    "bureau": "Dreux",
+    "distanceKm": 5.7
+  },
+  "LOUVILLIERS LES PERCHE": {
+    "bureau": "Senonches",
+    "distanceKm": 7.6
+  },
+  "LUCE": {
+    "bureau": "Chartres",
+    "distanceKm": 4.2
+  },
+  "LUIGNY": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 7.3
+  },
+  "LUISANT": {
+    "bureau": "Chartres",
+    "distanceKm": 3.9
+  },
+  "LUMEAU": {
+    "bureau": "Orgères",
+    "distanceKm": 7.4
+  },
+  "LUPLANTE": {
+    "bureau": "Illiers",
+    "distanceKm": 12.7
+  },
+  "LURAY": {
+    "bureau": "Dreux",
+    "distanceKm": 4.8
+  },
+  "LUTZ EN DUNOIS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LUTZ": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "LEVES": {
+    "bureau": "Chartres",
+    "distanceKm": 4.4
+  },
+  "LETHUIN": {
+    "bureau": "Auneau",
+    "distanceKm": 15.3
+  },
+  "MAGNY": {
+    "bureau": "Illiers",
+    "distanceKm": 6.5
+  },
+  "MAILLEBOIS": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 7.6
+  },
+  "MAINTERNE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MAINVILLIERS": {
+    "bureau": "Chartres",
+    "distanceKm": 4.6
+  },
+  "MAISONS": {
+    "bureau": "Auneau",
+    "distanceKm": 12.3
+  },
+  "MANOU": {
+    "bureau": "Senonches",
+    "distanceKm": 4.6
+  },
+  "MARBOUE": {
+    "bureau": "Châteaudun",
+    "distanceKm": 6.0
+  },
+  "MARCHEZAIS": {
+    "bureau": "Anet",
+    "distanceKm": 9.9
+  },
+  "MARCHEVILLE": {
+    "bureau": "Illiers",
+    "distanceKm": 6.8
+  },
+  "MAROLLES LES BUIS": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 8.7
+  },
+  "MARVILLE MOUTIERS BRULE": {
+    "bureau": "Dreux",
+    "distanceKm": 8.4
+  },
+  "MARVILLE LES BOIS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MEAUCE": {
+    "bureau": "Loupe",
+    "distanceKm": 3.5
+  },
+  "MERVILLIERS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MESLAY LE GRENET": {
+    "bureau": "Chartres",
+    "distanceKm": 12.0
+  },
+  "MESLAY LE VIDAME": {
+    "bureau": "Voves",
+    "distanceKm": 8.7
+  },
+  "MIERMAIGNE": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 6.5
+  },
+  "MIGNIERES": {
+    "bureau": "Chartres",
+    "distanceKm": 10.9
+  },
+  "MITTAINVILLIERS VERIGNY": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 9.1
+  },
+  "MITTAINVILLIERS": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 9.1
+  },
+  "MOINVILLE LA JEULIN": {
+    "bureau": "Voves",
+    "distanceKm": 13.8
+  },
+  "MOLEANS": {
+    "bureau": "Bonneval",
+    "distanceKm": 7.3
+  },
+  "MONDONVILLE SAINT JEAN": {
+    "bureau": "Auneau",
+    "distanceKm": 16.0
+  },
+  "MONTAINVILLE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MONTBOISSIER": {
+    "bureau": "Bonneval",
+    "distanceKm": 6.0
+  },
+  "MONTHARVILLE": {
+    "bureau": "Bonneval",
+    "distanceKm": 4.3
+  },
+  "MONTIGNY LE CHARTIF": {
+    "bureau": "Illiers",
+    "distanceKm": 6.6
+  },
+  "MONTIGNY LE GANNELON": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MONTIGNY SUR AVRE": {
+    "bureau": "Brezolles",
+    "distanceKm": 5.2
+  },
+  "MONTIREAU": {
+    "bureau": "Loupe",
+    "distanceKm": 6.6
+  },
+  "MONTLANDON": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 9.2
+  },
+  "MONTLOUET": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MONTREUIL": {
+    "bureau": "Dreux",
+    "distanceKm": 3.9
+  },
+  "MORAINVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 14.3
+  },
+  "MORANCEZ": {
+    "bureau": "Chartres",
+    "distanceKm": 5.4
+  },
+  "MORIERS": {
+    "bureau": "Bonneval",
+    "distanceKm": 6.1
+  },
+  "MORVILLIERS": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 7.1
+  },
+  "MOTTEREAU": {
+    "bureau": "Brou",
+    "distanceKm": 3.5
+  },
+  "MOULHARD": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 9.1
+  },
+  "MOUTIERS": {
+    "bureau": "Voves",
+    "distanceKm": 12.2
+  },
+  "MEROUVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 12.0
+  },
+  "MEREGLISE": {
+    "bureau": "Illiers",
+    "distanceKm": 2.2
+  },
+  "MEVOISINS": {
+    "bureau": "Maintenon",
+    "distanceKm": 3.6
+  },
+  "MEZIERES AU PERCHE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "MEZIERES EN DROUAIS": {
+    "bureau": "Dreux",
+    "distanceKm": 6.6
+  },
+  "NEUVILLE SAINT DENIS": {
+    "bureau": "Janville",
+    "distanceKm": 11.4
+  },
+  "ROUVRAY SAINT DENIS": {
+    "bureau": "Janville",
+    "distanceKm": 11.4
+  },
+  "NEUVY EN BEAUCE": {
+    "bureau": "Janville",
+    "distanceKm": 8.9
+  },
+  "NEUVY EN DUNOIS": {
+    "bureau": "Voves",
+    "distanceKm": 9.1
+  },
+  "NOGENT LE PHAYE": {
+    "bureau": "Chartres",
+    "distanceKm": 5.6
+  },
+  "NOGENT SUR EURE": {
+    "bureau": "Chartres",
+    "distanceKm": 10.9
+  },
+  "NONVILLIERS GRANDHOUX": {
+    "bureau": "Illiers",
+    "distanceKm": 6.8
+  },
+  "NOTTONVILLE": {
+    "bureau": "Bonneval",
+    "distanceKm": 11.8
+  },
+  "NERON": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 4.1
+  },
+  "OINVILLE SAINT LIPHARD": {
+    "bureau": "Janville",
+    "distanceKm": 7.2
+  },
+  "OINVILLE SOUS AUNEAU": {
+    "bureau": "Auneau",
+    "distanceKm": 5.2
+  },
+  "OLLE": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 8.0
+  },
+  "ORGERES EN BEAUCE": {
+    "bureau": "Orgères",
+    "distanceKm": 0.0
+  },
+  "ORLU": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "ORMOY": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 3.7
+  },
+  "ORROUER": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 5.9
+  },
+  "OUARVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 15.5
+  },
+  "OUERRE": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 8.7
+  },
+  "OULINS": {
+    "bureau": "Anet",
+    "distanceKm": 4.1
+  },
+  "OYSONVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 18.1
+  },
+  "OZOIR LE BREUIL": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "PIERRES": {
+    "bureau": "Maintenon",
+    "distanceKm": 1.9
+  },
+  "POINVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 4.7
+  },
+  "POISVILLIERS": {
+    "bureau": "Chartres",
+    "distanceKm": 7.3
+  },
+  "PONTGOUIN": {
+    "bureau": "Loupe",
+    "distanceKm": 8.4
+  },
+  "POUPRY": {
+    "bureau": "Janville",
+    "distanceKm": 11.1
+  },
+  "PRASVILLE": {
+    "bureau": "Voves",
+    "distanceKm": 8.5
+  },
+  "PROUAIS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "PRUDEMANCHE": {
+    "bureau": "Brezolles",
+    "distanceKm": 6.4
+  },
+  "PRUNAY LE GILLON": {
+    "bureau": "Voves",
+    "distanceKm": 11.1
+  },
+  "PRE SAINT MARTIN": {
+    "bureau": "Bonneval",
+    "distanceKm": 8.1
+  },
+  "PRE SAINT EVROULT": {
+    "bureau": "Bonneval",
+    "distanceKm": 5.2
+  },
+  "PUISEUX": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 10.8
+  },
+  "PERONVILLE": {
+    "bureau": "Orgères",
+    "distanceKm": 11.9
+  },
+  "PEZY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "REVERCOURT": {
+    "bureau": "Brezolles",
+    "distanceKm": 3.7
+  },
+  "ROHAIRE": {
+    "bureau": "Ferté-Vidame",
+    "distanceKm": 8.5
+  },
+  "ROINVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 6.1
+  },
+  "ROMILLY SUR AIGRE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "ROUVRAY SAINT FLORENTIN": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "ROUVRES": {
+    "bureau": "Anet",
+    "distanceKm": 3.1
+  },
+  "RUEIL LA GADELIERE": {
+    "bureau": "Brezolles",
+    "distanceKm": 7.6
+  },
+  "RECLAINVILLE": {
+    "bureau": "Voves",
+    "distanceKm": 12.9
+  },
+  "SAINT ANGE ET TORCAY": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 6.5
+  },
+  "SAINT ARNOULT DES BOIS": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 4.3
+  },
+  "SAINT AUBIN DES BOIS": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 7.3
+  },
+  "SAINT AVIT LES GUESPIERES": {
+    "bureau": "Illiers",
+    "distanceKm": 5.2
+  },
+  "SAINT BOMER": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 5.0
+  },
+  "SAINT CHRISTOPHE": {
+    "bureau": "Bonneval",
+    "distanceKm": 5.2
+  },
+  "SAINT CHERON DES CHAMPS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT DENIS LANNERAY": {
+    "bureau": "Châteaudun",
+    "distanceKm": 5.7
+  },
+  "SAINT DENIS LES PONTS": {
+    "bureau": "Châteaudun",
+    "distanceKm": 5.7
+  },
+  "SAINT DENIS DES PUITS": {
+    "bureau": "Illiers",
+    "distanceKm": 9.6
+  },
+  "SAINT GEORGES SUR EURE": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 8.9
+  },
+  "SAINT GERMAIN LA GATINE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT GERMAIN LE GAILLARD": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 3.3
+  },
+  "SAINT HILAIRE SUR YERRE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT JEAN PIERRE FIXTE": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 3.4
+  },
+  "SAINT JEAN DE REBERVILLIERS": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 3.4
+  },
+  "SAINT LAURENT LA GATINE": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 6.9
+  },
+  "SAINT LOUP": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT LUBIN DE CRAVANT": {
+    "bureau": "Brezolles",
+    "distanceKm": 3.2
+  },
+  "SAINT LUBIN DE LA HAYE": {
+    "bureau": "Anet",
+    "distanceKm": 9.4
+  },
+  "SAINT LUBIN DES JONCHERETS": {
+    "bureau": "Brezolles",
+    "distanceKm": 11.3
+  },
+  "SAINT LUCIEN": {
+    "bureau": "Maintenon",
+    "distanceKm": 7.2
+  },
+  "SAINT LUPERCE": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 4.6
+  },
+  "SAINT LEGER DES AUBEES": {
+    "bureau": "Auneau",
+    "distanceKm": 9.3
+  },
+  "SAINT MAIXME HAUTERIVE": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 3.5
+  },
+  "SAINT MARTIN DE NIGELLES": {
+    "bureau": "Maintenon",
+    "distanceKm": 4.3
+  },
+  "SAINT MAUR SUR LE LOIR": {
+    "bureau": "Bonneval",
+    "distanceKm": 3.9
+  },
+  "SAINT MAURICE SAINT GERMAIN": {
+    "bureau": "Loupe",
+    "distanceKm": 4.3
+  },
+  "SAINT OUEN MARCHEFROY": {
+    "bureau": "Anet",
+    "distanceKm": 6.7
+  },
+  "SAINT PELLERIN": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SAINT PIAT": {
+    "bureau": "Maintenon",
+    "distanceKm": 3.9
+  },
+  "SAINT PREST": {
+    "bureau": "Chartres",
+    "distanceKm": 5.0
+  },
+  "SAINT REMY SUR AVRE": {
+    "bureau": "Dreux",
+    "distanceKm": 8.8
+  },
+  "SAINT SAUVEUR MARVILLE": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 3.5
+  },
+  "SAINT SAUVEUR LEVASVILLE": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 3.5
+  },
+  "SAINT VICTOR DE BUTHON": {
+    "bureau": "Loupe",
+    "distanceKm": 7.9
+  },
+  "SAINT ELIPH": {
+    "bureau": "Loupe",
+    "distanceKm": 2.4
+  },
+  "SAINT EMAN": {
+    "bureau": "Illiers",
+    "distanceKm": 3.0
+  },
+  "SAINTE GEMME MORONVAL": {
+    "bureau": "Dreux",
+    "distanceKm": 4.5
+  },
+  "SAINT DENIS DE MORONVAL": {
+    "bureau": "Dreux",
+    "distanceKm": 4.5
+  },
+  "SAINTIGNY": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 5.2
+  },
+  "SAINT DENIS D AUTHOU": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 5.2
+  },
+  "SAINVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 12.8
+  },
+  "SANCHEVILLE": {
+    "bureau": "Orgères",
+    "distanceKm": 9.3
+  },
+  "SANDARVILLE": {
+    "bureau": "Illiers",
+    "distanceKm": 11.0
+  },
+  "SANTEUIL": {
+    "bureau": "Auneau",
+    "distanceKm": 13.4
+  },
+  "SANTILLY": {
+    "bureau": "Janville",
+    "distanceKm": 6.0
+  },
+  "SAULNIERES": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 8.3
+  },
+  "SAUMERAY": {
+    "bureau": "Illiers",
+    "distanceKm": 9.3
+  },
+  "SAUSSAY": {
+    "bureau": "Anet",
+    "distanceKm": 2.4
+  },
+  "SENANTES": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 5.3
+  },
+  "SERAZEREUX": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 7.4
+  },
+  "SERVILLE": {
+    "bureau": "Anet",
+    "distanceKm": 9.6
+  },
+  "SOIZE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "SOREL MOUSSEL": {
+    "bureau": "Anet",
+    "distanceKm": 4.3
+  },
+  "SOUANCE AU PERCHE": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 5.9
+  },
+  "SOULAIRES": {
+    "bureau": "Maintenon",
+    "distanceKm": 7.2
+  },
+  "SOURS": {
+    "bureau": "Chartres",
+    "distanceKm": 7.9
+  },
+  "TARDAIS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "TERMINIERS": {
+    "bureau": "Orgères",
+    "distanceKm": 6.1
+  },
+  "THEUVILLE": {
+    "bureau": "Voves",
+    "distanceKm": 6.3
+  },
+  "THEUVY ACHERES": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "THIMERT GATELLES": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 4.7
+  },
+  "THIMERT": {
+    "bureau": "Châteauneuf-en-Thymerais",
+    "distanceKm": 4.7
+  },
+  "THIRON": {
+    "bureau": "Thiron-Gardais",
+    "distanceKm": 0.0
+  },
+  "THIVARS": {
+    "bureau": "Chartres",
+    "distanceKm": 8.7
+  },
+  "THIVILLE": {
+    "bureau": "Cloyes-sur-le-Loir",
+    "distanceKm": 5.5
+  },
+  "TILLAY LE PENEUX": {
+    "bureau": "Orgères",
+    "distanceKm": 5.8
+  },
+  "TOURY": {
+    "bureau": "Janville",
+    "distanceKm": 7.1
+  },
+  "TRANCRAINVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 4.4
+  },
+  "TREMBLAY LES VILLAGES": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 10.8
+  },
+  "TREMBLAY LE VICOMTE": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 10.8
+  },
+  "TRIZAY COUTRETOT SAINT SERGE": {
+    "bureau": "Nogent-le-Rotrou",
+    "distanceKm": 6.3
+  },
+  "TRIZAY LES BONNEVAL": {
+    "bureau": "Bonneval",
+    "distanceKm": 4.4
+  },
+  "TREON": {
+    "bureau": "Dreux",
+    "distanceKm": 9.0
+  },
+  "UMPEAU": {
+    "bureau": "Auneau",
+    "distanceKm": 8.0
+  },
+  "UNVERRE": {
+    "bureau": "Brou",
+    "distanceKm": 7.6
+  },
+  "VACHERESSES LES BASSES": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "VALD YERRE": {
+    "bureau": "Brou",
+    "distanceKm": 14.5
+  },
+  "COMMUNE NOUVELLE D ARROU": {
+    "bureau": "Brou",
+    "distanceKm": 14.5
+  },
+  "ARROU": {
+    "bureau": "Brou",
+    "distanceKm": 14.5
+  },
+  "VARIZE": {
+    "bureau": "Orgères",
+    "distanceKm": 13.4
+  },
+  "VAUPILLON": {
+    "bureau": "Loupe",
+    "distanceKm": 4.4
+  },
+  "VER LES CHARTRES": {
+    "bureau": "Chartres",
+    "distanceKm": 7.8
+  },
+  "VERNOUILLET": {
+    "bureau": "Dreux",
+    "distanceKm": 3.8
+  },
+  "VERT EN DROUAIS": {
+    "bureau": "Dreux",
+    "distanceKm": 4.8
+  },
+  "VICHERES": {
+    "bureau": "Authon-du-Perche",
+    "distanceKm": 8.8
+  },
+  "VIERVILLE": {
+    "bureau": "Auneau",
+    "distanceKm": 16.5
+  },
+  "VIEUVICQ": {
+    "bureau": "Illiers",
+    "distanceKm": 4.6
+  },
+  "VILLAMPUY": {
+    "bureau": "Châteaudun",
+    "distanceKm": 14.8
+  },
+  "VILLARS": {
+    "bureau": "Voves",
+    "distanceKm": 6.2
+  },
+  "VILLEAU": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "VILLEBON": {
+    "bureau": "Courville-sur-Eure",
+    "distanceKm": 8.2
+  },
+  "VILLEMAURY": {
+    "bureau": "Châteaudun",
+    "distanceKm": 9.9
+  },
+  "SAINT CLOUD EN DUNOIS": {
+    "bureau": "Châteaudun",
+    "distanceKm": 9.9
+  },
+  "SAINT CLOUD": {
+    "bureau": "Châteaudun",
+    "distanceKm": 9.9
+  },
+  "VILLEMEUX SUR EURE": {
+    "bureau": "Nogent-le-Roi",
+    "distanceKm": 6.1
+  },
+  "VILLENEUVE SAINT NICOLAS": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "VILLIERS SAINT ORIEN": {
+    "bureau": "Bonneval",
+    "distanceKm": 9.2
+  },
+  "VILLIERS LE MORHIER": {
+    "bureau": "Maintenon",
+    "distanceKm": 4.3
+  },
+  "VITRAY EN BEAUCE": {
+    "bureau": "Bonneval",
+    "distanceKm": 11.1
+  },
+  "VITRAY SOUS BREZOLLES": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "VOISE": {
+    "bureau": "Auneau",
+    "distanceKm": 11.5
+  },
+  "VERIGNY": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "YERMENONVILLE": {
+    "bureau": "Maintenon",
+    "distanceKm": 4.9
+  },
+  "YMERAY": {
+    "bureau": "Auneau",
+    "distanceKm": 4.5
+  },
+  "YMONVILLE": {
+    "bureau": "Janville",
+    "distanceKm": 9.0
+  },
+  "YEVRES": {
+    "bureau": "Brou",
+    "distanceKm": 3.7
+  },
+  "ECLUZELLES": {
+    "bureau": "Dreux",
+    "distanceKm": 6.4
+  },
+  "ECROSNES": {
+    "bureau": "Auneau",
+    "distanceKm": 6.2
+  },
+  "ECUBLE": {
+    "bureau": "Chartres",
+    "distanceKm": 0.0
+  },
+  "EOLE EN BEAUCE": {
+    "bureau": "Orgères",
+    "distanceKm": 8.2
+  },
+  "VIABON": {
+    "bureau": "Orgères",
+    "distanceKm": 8.2
+  },
+  "EPEAUTROLLES": {
+    "bureau": "Illiers",
+    "distanceKm": 9.1
+  },
+  "EPERNON": {
+    "bureau": "Maintenon",
+    "distanceKm": 7.8
+  }
+}

@@ -251,6 +251,18 @@ export function findBeProvince(normText) {
     return null;
 }
 
+// Préfixes désignant une subdivision administrative plus large qu'une commune (canton,
+// arrondissement, département, province, diocèse, paroisse, comté, région...) : jamais eux-mêmes
+// une commune, à exclure des chaînes de lieux (cityChain, voir gedcom.js) sous peine de les voir
+// utilisés à tort comme nom de commune par les outils qui s'appuient dessus (recensements,
+// notariat, successions...) — ex. un GEDCOM actant "Embrun, Arrondissement de Gap, Hautes-Alpes,
+// France" ne doit jamais faire remonter "Arrondissement de Gap" comme commune de repli.
+const NON_COMMUNE_PREFIX_RE = /^(canton|arrondissement|departement|province|diocese|paroisse|comte|region)\s+d(e)?\b/;
+export function isCommuneLikeLabel(s) {
+    if(!s) return false;
+    return !NON_COMMUNE_PREFIX_RE.test(normalizePlace(s).trim());
+}
+
 // Extrait le code INSEE ("33") d'un libellé de département tel que stocké par analyzePlace
 // ("33 - Gironde"), utilisé par les outils qui filtrent sur une liste de départements précise.
 export function deptCode(deptDisplay) {

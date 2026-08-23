@@ -1,4 +1,4 @@
-import { GEO, normalizePlace, findDept, findBeProvince, findCountry, BELGIAN_REGIONS } from './geo.js';
+import { GEO, normalizePlace, findDept, findBeProvince, findCountry, BELGIAN_REGIONS, isCommuneLikeLabel } from './geo.js';
 
 // Tags GEDCOM 5.5.1 standard (événements/attributs individuels) au-delà de ceux qui ont déjà leur
 // propre "case" dédiée (BIRT/DEAT/BURI/BAPM/CHR/EMIG/IMMI/CENS/RESI/OCCU) : sans ce dictionnaire, un
@@ -507,7 +507,7 @@ export class GedcomParser {
                 // commune dans un index externe (recensements, successions) de remonter au lieu
                 // parent quand le segment le plus précis n'y est pas reconnu (ex. hameau non répertorié
                 // alors que la commune dont il dépend l'est).
-                if(deptIdx > 0) cityChain = rawParts.slice(0, deptIdx).filter(Boolean);
+                if(deptIdx > 0) cityChain = rawParts.slice(0, deptIdx).filter(Boolean).filter(isCommuneLikeLabel);
             }
         }
 
@@ -532,12 +532,12 @@ export class GedcomParser {
                     if(!region) region = regionHit[1];
                     const deptSegNorm = normalizePlace(posParts[posParts.length - 3]);
                     dept = findDept(deptSegNorm) || GEO.deptEnglishAliases[deptSegNorm] || null;
-                    if(dept && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean);
+                    if(dept && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean).filter(isCommuneLikeLabel);
                     // Même position (juste avant la région), essayée côté provinces belges quand ce
                     // n'est pas un département français : couvre "Commune,Province,Wallonie,Belgique".
                     else if(!dept) {
                         beProvince = findBeProvince(deptSegNorm) || null;
-                        if(beProvince && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean);
+                        if(beProvince && !cityChain) cityChain = posParts.slice(0, posParts.length - 3).filter(Boolean).filter(isCommuneLikeLabel);
                     }
                 }
             }

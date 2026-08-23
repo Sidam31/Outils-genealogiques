@@ -168,7 +168,8 @@
                 <strong>Mayenne</strong> 1790-1968 ·
                 <strong>Isère</strong> 1791-1968 (39 bureaux sur 41, pas de lien vers un scan par registre) ·
                 <strong>Finistère</strong> 1750-1945 ·
-                <strong>Manche</strong> 1718-1969
+                <strong>Manche</strong> 1718-1969 ·
+                <strong>Eure-et-Loir</strong> 1760-1969
             </p>
             <p class="hint" style="text-align:center;">En dehors de ces bornes ou de ces départements, aucune piste ne remonte ici. Contrairement au mode Notariat, ces portails n'ont pas d'index nominatif sur cette série : le lien pointe vers un registre (plusieurs années, à feuilleter soi-même), pas vers un acte précis — même principe que le mode Recensement. Chaque département a son propre portail (structure et logiciel différents, au moins six familles de logiciels différentes selon les départements couverts), entièrement dépouillé à l'avance pour cibler directement la bonne notice plutôt que de passer par une recherche en ligne peu fiable pour cette série.</p>
             <details style="max-width:700px; margin:0.5rem auto;">
@@ -183,10 +184,9 @@
                     <li><strong>Hautes-Alpes</strong> — le catalogue "Enregistrement" en ligne ne propose que les "successions collatérales" (une sous-série distincte), pas la table des successions et absences elle-même.</li>
                     <li><strong>Indre</strong> — le fonds numérisé ne comprend que la table pré-1825 ("successions acquittées", une sous-série distincte) et d'autres tables non liées ; pas de table "successions et absences" repérée.</li>
                     <li><strong>Saône-et-Loire</strong> — le fonds "Contrôle des actes et enregistrement" numérisé ne semble pas comprendre de table nommée "successions et absences" (uniquement acquéreurs, baux, contrats de mariage, décès...).</li>
-                    <li><strong>Eure-et-Loir</strong> — page de résultats dédiée trouvée, mais les champs de données du site source restent vides à l'affichage (bug apparent côté portail, pas un problème d'accès).</li>
-                    <li><strong>Landes</strong> — portail Cloudflare franchi normalement, mais la pagination de la page de résultats se bloque dès la 2ᵉ page sur ce déploiement précis (le clic part bien mais le contenu ne se met jamais à jour), y compris après plusieurs tentatives.</li>
-                    <li><strong>Vendée</strong> — portail à API REST (arbre de classement + recherche plein texte), mais la recherche plein texte porte sur tout le catalogue (bibliothèque comprise, pas seulement les registres) sans paramètre de restriction au seul fonds "Contrôle des actes - Enregistrement" identifié pour l'instant ; l'arbre de classement descend plus profond que la première page ne le laisse voir, non entièrement exploré.</li>
-                    <li><strong>Val-d'Oise</strong> — portail accessible et autorisé (formulaire de recherche testé), mais les registres de la série voulue apparaissent dans une liste plate mélangée à d'autres tables (successions acquittées, donations, testaments...) où une partie des entrées n'a pas de libellé de type propre (seulement une date) et hérite du type de son bloc de cote — plus complexe que l'héritage par dossier parent déjà géré pour la Haute-Garonne, pas encore résolu.</li>
+                    <li><strong>Landes</strong> — portail Cloudflare franchi normalement, page 1 (25 résultats) atteignable et exploitable (bureau/cote/date propres, filtrable sur le seul intitulé "Table alphabétique des successions et absences"), mais la pagination reste bloquée dès la 2ᵉ page sur ce déploiement précis (le clic sur le bouton "2" part bien - vérifié aussi sans <code>force</code> et avec scroll explicite jusqu'au bouton - mais le contenu affiché ne change jamais), reconfirmé en 2026 : sans pagination fonctionnelle, seuls 16 des 376 registres seraient couverts, une part trop faible pour être présentée comme une couverture du département.</li>
+                    <li><strong>Vendée</strong> — portail à API REST (arbre de classement + recherche plein texte), mais la recherche plein texte porte sur tout le catalogue (bibliothèque comprise, pas seulement les registres) sans paramètre de restriction au seul fonds "Contrôle des actes - Enregistrement" identifié pour l'instant ; l'arbre de classement descend plus profond que la première page ne le laisse voir, non entièrement exploré. Retesté en 2026 : le site a changé de domaine (archives.vendee.fr, plus recherche-archives.vendee.fr - EGF - qui ne répond plus du tout) et publie maintenant une "Recherche avancée" React sous /advancedsearch/:new, mais son formulaire n'expose aucun champ de filtre par fonds dans le HTML statique (rendu entièrement côté client) - même blocage de fond, pas encore résolu.</li>
+                    <li><strong>Val-d'Oise</strong> — portail accessible et autorisé (formulaire de recherche testé), mais les registres de la série voulue apparaissent dans une liste plate mélangée à d'autres tables (successions acquittées, donations, testaments...) où une partie des entrées n'a pas de libellé de type propre (seulement une date) et hérite du type de son bloc de cote — plus complexe que l'héritage par dossier parent déjà géré pour la Haute-Garonne, pas encore résolu. Retesté en 2026 : le site est désormais aussi protégé par Anubis (franchissable avec un navigateur réel, comme les autres départements dans ce cas), mais l'URL de recherche à facette d'origine ("Rech_nature[0]=TABLE+DE+DECES") renvoie maintenant une erreur système, et les liens de secours retrouvés mènent à des notices d'inventaire EAD par bureau (une par bureau, décrivant tout son fonds 1806-1969 en bloc) plutôt qu'à la liste plate de registres individuels nécessaire - la vraie page de recherche à facettes n'a pas été retrouvée dans le temps imparti.</li>
                     <li><strong>Alpes-Maritimes</strong> — arbre de classement identifié (29 bureaux, table des successions et absences ET table des contrats de mariage présentes) sur un portail Ligeo Archives, mais protégé par un anti-bot différent (F5/TSPD) qui a fini par bloquer même les requêtes les plus espacées pendant l'exploration ; à reprendre plus tard avec une session neuve.</li>
                     <li><strong>Aude</strong> — même famille d'anti-bot (F5/TSPD) que les Alpes-Maritimes, bloquant dès la première page consultée ; pas encore pu être exploré au-delà de la page d'accueil.</li>
                     <li><strong>Meuse</strong> — chaque bureau a bien sa propre notice décrivant la table des successions et absences qu'il détient, mais celle-ci précise explicitement n'être consultable qu'en salle de lecture (pas de version numérisée en ligne).</li>
@@ -376,7 +376,7 @@ import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js'
 import { escapeHtml, getSosaMap, getAncestorIds, downloadCsv, formatFullDate } from './assets/js/utils.js';
 import { computeMissingDeaths, buildMatchIdUrl, buildMatchIdCsvRows, CATEGORY_LABELS } from './assets/js/recherche.js';
 import {
-    computeMissingRecensements, buildFranceArchivesUrl,
+    computeMissingRecensements, buildFranceArchivesUrl, groupHitsByCommune,
     RECENSEMENT_DEPT_CODES_DEFAULT, RECENSEMENT_DATES_DEFAULT,
     parseDeptCodesInput, parseCensusDatesInput
 } from './assets/js/recensements.js';
@@ -836,18 +836,24 @@ const fa = (() => {
             const marriageDisplay = p.marrYear != null ? `${p.marrYear}` : '-';
             const deathDisplay = p.death.year != null ? `${p.death.year}${p.death.approx ? ' (env.)' : ''}` : '-';
 
-            // Un lien par date de recensement (chaque date est un registre distinct à interroger
-            // séparément) ; tous les prénoms actés sont OU-és dans ce lien unique, puisque la
-            // personne peut être enregistrée sous n'importe lequel d'entre eux. L'âge (déduit de la
-            // naissance actée ou estimée) aide à repérer d'un coup d'œil un lien peu plausible avant
-            // même d'ouvrir le registre.
-            const hitsDisplay = r.hits.map(h => {
-                const url = buildFranceArchivesUrl(p, h.city, h.year, h.dept, h.cityAlt);
-                const age = h.year - r.birthEst.year;
-                const ageDisplay = `${age} an${age > 1 ? 's' : ''}${r.birthEst.estimated ? ' (est.)' : ''}`;
+            // Un lien par commune (les recensements consécutifs pointant vers la même commune sont
+            // regroupés en une seule plage de dates, voir groupHitsByCommune) ; tous les prénoms
+            // actés sont OU-és dans ce lien unique, puisque la personne peut être enregistrée sous
+            // n'importe lequel d'entre eux. L'âge (déduit de la naissance actée ou estimée) aide à
+            // repérer d'un coup d'œil un lien peu plausible avant même d'ouvrir le registre.
+            const hitsDisplay = groupHitsByCommune(r.hits).map(g => {
+                const yearMin = g.years[0], yearMax = g.years[g.years.length - 1];
+                const url = buildFranceArchivesUrl(p, g.city, yearMin, g.dept, g.cityAlt, yearMax);
+                const ageMin = yearMin - r.birthEst.year, ageMax = yearMax - r.birthEst.year;
+                const estSuffix = r.birthEst.estimated ? ' (est.)' : '';
+                const ageDisplay = yearMin === yearMax
+                    ? `${ageMin} an${ageMin > 1 ? 's' : ''}${estSuffix}`
+                    : `${ageMin}-${ageMax} ans${estSuffix}`;
+                const yearsLabel = yearMin === yearMax ? `${yearMin}` : `${yearMin}–${yearMax}`;
+                const sourcesLabel = Array.from(new Set(g.sources)).join('/');
                 return `<div style="margin-bottom:6px;">
-                    <div style="font-size:0.8rem; color:#555;">${h.year} (${escapeHtml(h.source)}) — ${escapeHtml(h.city || 'commune inconnue')} (${escapeHtml(h.dept)}) — ${ageDisplay}</div>
-                    <div class="city-buttons"><a class="btn-link" href="${url}" target="_blank" rel="noopener">📋 ${h.year}</a></div>
+                    <div style="font-size:0.8rem; color:#555;">${yearsLabel} (${escapeHtml(sourcesLabel)}) — ${escapeHtml(g.city || 'commune inconnue')} (${escapeHtml(g.dept)}) — ${ageDisplay}</div>
+                    <div class="city-buttons"><a class="btn-link" href="${url}" target="_blank" rel="noopener">📋 ${yearsLabel}</a></div>
                 </div>`;
             }).join('');
 
