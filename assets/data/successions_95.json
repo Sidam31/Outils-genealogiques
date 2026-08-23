@@ -1,5 +1,541 @@
 [
   {
+    "place": "Argenteuil",
+    "cote": "1816-1824 (volume n° 1)",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346008",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1917-31 décembre 1918 (volume n° 33)",
+    "yearStart": 1917,
+    "yearEnd": 1918,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346010",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1919-31 décembre 1920 (volume n° 34)",
+    "yearStart": 1919,
+    "yearEnd": 1920,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346012",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1919-30 septembre 1922 (volume n° 35)",
+    "yearStart": 1919,
+    "yearEnd": 1922,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346014",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er octobre 1922-30 septembre 1924 (volume n° 36)",
+    "yearStart": 1922,
+    "yearEnd": 1924,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346016",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er octobre 1924-30 juin 1926 (volume n° 37)",
+    "yearStart": 1924,
+    "yearEnd": 1926,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346018",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1926-31 mars 1928 (volume n° 38)",
+    "yearStart": 1926,
+    "yearEnd": 1928,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346019",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er avril 1928-31 décembre 1929 (volume n° 39)",
+    "yearStart": 1928,
+    "yearEnd": 1929,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346020",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier) 1930-30 septembre 1931 (volume n° 40)",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346022",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er octobre 1931-31 mars 1933 (volume n° 41)",
+    "yearStart": 1931,
+    "yearEnd": 1933,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346024",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er avril 1933-9 juillet 1935 (volume n° 42)",
+    "yearStart": 1933,
+    "yearEnd": 1935,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346026",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1933-31 décembre 1935 (volume n° 43)",
+    "yearStart": 1933,
+    "yearEnd": 1935,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346028",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "4 octobre 1935-4 février 1938 (volume n° 44)",
+    "yearStart": 1935,
+    "yearEnd": 1938,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346030",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1936-1er novembre 1938 (volume n° 45)",
+    "yearStart": 1936,
+    "yearEnd": 1938,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346032",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1938-31 juillet 1940 (volume n° 46)",
+    "yearStart": 1938,
+    "yearEnd": 1940,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346034",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "10 octobre 1938-31 mars 1941 (volume n° 47)",
+    "yearStart": 1938,
+    "yearEnd": 1941,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346037",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1941-31 décembre 1943 (volume n° 49)",
+    "yearStart": 1941,
+    "yearEnd": 1943,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346041",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1944-31 mars 1947 (volume n° 51)",
+    "yearStart": 1944,
+    "yearEnd": 1947,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346043",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1947-1951 (volume n° 53)",
+    "yearStart": 1947,
+    "yearEnd": 1951,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346045",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er avril 1951-9 février 1953 (volume n° 55)",
+    "yearStart": 1951,
+    "yearEnd": 1953,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346047",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "25 juillet 1953-28 septembre 1955 (volume n° 57)",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346049",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er octobre 1955-31 décembre 1957 (volume n° 61)",
+    "yearStart": 1955,
+    "yearEnd": 1957,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346051",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1958-30 juin 1960 (volume n° 63)",
+    "yearStart": 1958,
+    "yearEnd": 1960,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346052",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1960-30 septembre 1961 (volume n° 65)",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346053",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er octobre 1961-31 décembre 1962 (volume n° 67)",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346058",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1963-31 décembre 1964 (volume n° 69)",
+    "yearStart": 1963,
+    "yearEnd": 1964,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346060",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier-31 décembre 1965 (volume n° 71)",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346062",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier-31 décembre 1966 (volume n° 73)",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346064",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier-31 décembre 1967 (volume n° 75)",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346066",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1968 (volume 77)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346067",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1941-31 mars 1943 (volume n° 48)",
+    "yearStart": 1941,
+    "yearEnd": 1943,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346070",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er avril 1943-30 septembre 1945 (volume n° 50)",
+    "yearStart": 1943,
+    "yearEnd": 1945,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346072",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "Octobre 1945-1948 (volume n° 52)",
+    "yearStart": 1945,
+    "yearEnd": 1948,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346074",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1948-31 décembre 1949 (volume n° 54)",
+    "yearStart": 1948,
+    "yearEnd": 1949,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346076",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "3 décembre 1949-3 février 1951 (volume n° 56)",
+    "yearStart": 1949,
+    "yearEnd": 1951,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346078",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "28 juin 1951-7 août 1952 (volume n° 58)",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346082",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "31 mai 1953-11 décembre 1954 (volume n° 59)",
+    "yearStart": 1953,
+    "yearEnd": 1954,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346084",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier-30 juin 1955 (volume n° 60)",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346086",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "Juillet 1956-juin 1958 (volume n° 62)",
+    "yearStart": 1956,
+    "yearEnd": 1958,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346088",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1958-30 juin 1959 (volume n° 64)",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346089",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1959-30 juin 1960 (volume n° 66)",
+    "yearStart": 1959,
+    "yearEnd": 1960,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346090",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1960-30 juin 1962 (volume n° 68)",
+    "yearStart": 1960,
+    "yearEnd": 1962,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346091",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet 1962-31 décembre 1963 (volume n° 70)",
+    "yearStart": 1962,
+    "yearEnd": 1963,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346097",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier 1964-30 juin 1965 (volume n° 72)",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346099",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er juillet-31 décembre 1965 (volume n° 74)",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346101",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1er janvier-31 décembre 1966 (volume n° 76)",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346107",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1967 (volume n° 78)",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346109",
+    "digitized": true
+  },
+  {
+    "place": "Argenteuil",
+    "cote": "1968 (volume n° 79)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00021/view:346115",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1824-1832",
+    "yearStart": 1824,
+    "yearEnd": 1832,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345486",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1833-1837 (volume n° 6)",
+    "yearStart": 1833,
+    "yearEnd": 1837,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345488",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1838-1845 (volume n° 7)",
+    "yearStart": 1838,
+    "yearEnd": 1845,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345490",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1846-1853 (volume n° 8)",
+    "yearStart": 1846,
+    "yearEnd": 1853,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345491",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1854-1861 ([Volume n° 9])",
+    "yearStart": 1854,
+    "yearEnd": 1861,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345492",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1862-1868 ([Volume n° 10])",
+    "yearStart": 1862,
+    "yearEnd": 1868,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345493",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1868-1872 (volume n° 11)",
+    "yearStart": 1868,
+    "yearEnd": 1872,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345494",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1872-1878 (volume n° 12)",
+    "yearStart": 1872,
+    "yearEnd": 1878,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345495",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1878-1885 (volume n° 13)",
+    "yearStart": 1878,
+    "yearEnd": 1885,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345496",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1892-1898 (volume n° 15)",
+    "yearStart": 1892,
+    "yearEnd": 1898,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345497",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1899-1904 (volume n° 16)",
+    "yearStart": 1899,
+    "yearEnd": 1904,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345499",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1905-1911 (volume n° 17)",
+    "yearStart": 1905,
+    "yearEnd": 1911,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345501",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1912-1915 (volume n° 18)",
+    "yearStart": 1912,
+    "yearEnd": 1915,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345503",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1916-1920 (volume n° 19)",
+    "yearStart": 1916,
+    "yearEnd": 1920,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345505",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1921-1925 (volume n° 20)",
+    "yearStart": 1921,
+    "yearEnd": 1925,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345506",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1925-1929 (volume n° 21)",
+    "yearStart": 1925,
+    "yearEnd": 1929,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345507",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1930-1933 (volume n° 22)",
+    "yearStart": 1930,
+    "yearEnd": 1933,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345508",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1933-1938 (volume n° 23)",
+    "yearStart": 1933,
+    "yearEnd": 1938,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345514",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "1938-1942 [volume n° 24]",
+    "yearStart": 1938,
+    "yearEnd": 1942,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345521",
+    "digitized": true
+  },
+  {
     "place": "Ecouen",
     "cote": "1825-1834 (volume n° 3)",
     "yearStart": 1825,
@@ -157,6 +693,1214 @@
     "yearStart": 1967,
     "yearEnd": 1968,
     "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00732/view:349235",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1870-1874 [volume n° 1]",
+    "yearStart": 1870,
+    "yearEnd": 1874,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405958",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1874-1879 [volume n° 2]",
+    "yearStart": 1874,
+    "yearEnd": 1879,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405960",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1879-1882 [volume n° 3]",
+    "yearStart": 1879,
+    "yearEnd": 1882,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405963",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1883-1893 [volume n° 4]",
+    "yearStart": 1883,
+    "yearEnd": 1893,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405973",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1894-1904 [volume n° 5]",
+    "yearStart": 1894,
+    "yearEnd": 1904,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405974",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1905-1912 (volume n° 6)",
+    "yearStart": 1905,
+    "yearEnd": 1912,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405975",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1912-1916 (volume n° 7)",
+    "yearStart": 1912,
+    "yearEnd": 1916,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405976",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1917-1920 (volume n° 8)",
+    "yearStart": 1917,
+    "yearEnd": 1920,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405978",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1920-1923 (volume n° 9)",
+    "yearStart": 1920,
+    "yearEnd": 1923,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405979",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1923-1926 (volume n° 10)",
+    "yearStart": 1923,
+    "yearEnd": 1926,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405980",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1926-1929 (volume n° 11)",
+    "yearStart": 1926,
+    "yearEnd": 1929,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405981",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1931-1936 (volume n° 12)",
+    "yearStart": 1931,
+    "yearEnd": 1936,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405982",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1936-1941 (volume n° 13)",
+    "yearStart": 1936,
+    "yearEnd": 1941,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405983",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1942-1947 [volume n° 14]",
+    "yearStart": 1942,
+    "yearEnd": 1947,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:405984",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1947-1954 (volume n° 15)",
+    "yearStart": 1947,
+    "yearEnd": 1954,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406013",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1954-1959 (volume n° 16)",
+    "yearStart": 1954,
+    "yearEnd": 1959,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406014",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1959-1963 (volume n° 17)",
+    "yearStart": 1959,
+    "yearEnd": 1963,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406015",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1964-1965 (volume n° 18)",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406016",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1965-1966 (volume n° 19)",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406017",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1966-1968 (volume n° 20)",
+    "yearStart": 1966,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406018",
+    "digitized": true
+  },
+  {
+    "place": "Gonesse",
+    "cote": "1968 (volume n° 21)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00053/view:406019",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "An X-1815",
+    "yearStart": 1801,
+    "yearEnd": 1815,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256018",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "1825-1832",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256019",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "1833-Avril 1841",
+    "yearStart": 1833,
+    "yearEnd": 1841,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256022",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Mai 1841-Juin 1850",
+    "yearStart": 1841,
+    "yearEnd": 1850,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256023",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Janvier 1908-Novembre 1925",
+    "yearStart": 1908,
+    "yearEnd": 1925,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256025",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Janvier 1918-Mars 1928",
+    "yearStart": 1918,
+    "yearEnd": 1928,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256026",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Mars 1927-Février 1939",
+    "yearStart": 1927,
+    "yearEnd": 1939,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256028",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Août 1937-Janvier 1946",
+    "yearStart": 1937,
+    "yearEnd": 1946,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256029",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Avril 1947-Août 1954",
+    "yearStart": 1947,
+    "yearEnd": 1954,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256032",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Août 1954-Mai 1962",
+    "yearStart": 1954,
+    "yearEnd": 1962,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256034",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Avril 1963-Septembre 1971",
+    "yearStart": 1963,
+    "yearEnd": 1971,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256035",
+    "digitized": false
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Juillet 1966-Avril 1970",
+    "yearStart": 1966,
+    "yearEnd": 1970,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256038",
+    "digitized": false
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "1758-1798 (registre n° 1)",
+    "yearStart": 1758,
+    "yearEnd": 1798,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8477",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "1798-1815 (registre n° 2)",
+    "yearStart": 1798,
+    "yearEnd": 1815,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8478",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "1930-1939 (registre n° 16)",
+    "yearStart": 1930,
+    "yearEnd": 1939,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8479",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "1940-1949 (registre n° 17)",
+    "yearStart": 1940,
+    "yearEnd": 1949,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8480",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "1950-1959 (registre n° 18)",
+    "yearStart": 1950,
+    "yearEnd": 1959,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8481",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "1960-1968 (registre n° 19)",
+    "yearStart": 1960,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8482",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1788-1811 [volume n° [1]]",
+    "yearStart": 1788,
+    "yearEnd": 1811,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15197",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1791-1808 [volume n° [1]]",
+    "yearStart": 1791,
+    "yearEnd": 1808,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15198",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1805-1814 [volume n° 2]",
+    "yearStart": 1805,
+    "yearEnd": 1814,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15199",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1817-1824",
+    "yearStart": 1817,
+    "yearEnd": 1824,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15200",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1816-1824 [volume n° 3]",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15201",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1824-1831 (volume n° 4]",
+    "yearStart": 1824,
+    "yearEnd": 1831,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15202",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1831-1838 [volume n° 5]",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15203",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1838-1844 [volume n° 6]",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15204",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1844-1850 [volume n° 7]",
+    "yearStart": 1844,
+    "yearEnd": 1850,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15205",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1850-1858 [volume n° 8]",
+    "yearStart": 1850,
+    "yearEnd": 1858,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15206",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1859-1866 [volume n° 9]",
+    "yearStart": 1859,
+    "yearEnd": 1866,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15207",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1866-1874 [volume n° 10]",
+    "yearStart": 1866,
+    "yearEnd": 1874,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15208",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1874-1884 [volume n° 11]",
+    "yearStart": 1874,
+    "yearEnd": 1884,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15209",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1884-1893 [volume n° 12]",
+    "yearStart": 1884,
+    "yearEnd": 1893,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15210",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1900-1909 [volume n° 14]",
+    "yearStart": 1900,
+    "yearEnd": 1909,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15211",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1910-1919 [volume n° 15]",
+    "yearStart": 1910,
+    "yearEnd": 1919,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15212",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1920-1928 [volume n° 16]",
+    "yearStart": 1920,
+    "yearEnd": 1928,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15213",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1929-1938 [volume n° 17]",
+    "yearStart": 1929,
+    "yearEnd": 1938,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15214",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1939-1947 [volume n° 18]",
+    "yearStart": 1939,
+    "yearEnd": 1947,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15215",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1947-1957 [volume n° 19]",
+    "yearStart": 1947,
+    "yearEnd": 1957,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15216",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "1958-1959 [volume n° 20]",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15217",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1890-1895",
+    "yearStart": 1890,
+    "yearEnd": 1895,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64187",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1896-1900 [volume 15]",
+    "yearStart": 1896,
+    "yearEnd": 1900,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64188",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1901-1904 [volume 16]",
+    "yearStart": 1901,
+    "yearEnd": 1904,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64189",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1905-1908 [volume 17]",
+    "yearStart": 1905,
+    "yearEnd": 1908,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64190",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1909-1911 [volume 18]",
+    "yearStart": 1909,
+    "yearEnd": 1911,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64191",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1911-1914 [volume 19]",
+    "yearStart": 1911,
+    "yearEnd": 1914,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64192",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1914-1916 [volume 20]",
+    "yearStart": 1914,
+    "yearEnd": 1916,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64193",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1917-1919 [volume 21]",
+    "yearStart": 1917,
+    "yearEnd": 1919,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64194",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1918-1921 [volume 22]",
+    "yearStart": 1918,
+    "yearEnd": 1921,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64195",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1921-1923 [volume 23]",
+    "yearStart": 1921,
+    "yearEnd": 1923,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64196",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1924-1925 [volume 24]",
+    "yearStart": 1924,
+    "yearEnd": 1925,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64197",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1926-1927 [volume 25]",
+    "yearStart": 1926,
+    "yearEnd": 1927,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64198",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1928-1929 [volume 26]",
+    "yearStart": 1928,
+    "yearEnd": 1929,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64199",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1930-1931 [volume 27]",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64200",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1932-1933 [volume 28]",
+    "yearStart": 1932,
+    "yearEnd": 1933,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64201",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1934-1936 [volume 29]",
+    "yearStart": 1934,
+    "yearEnd": 1936,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64202",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1937-1939 [volume 30]",
+    "yearStart": 1937,
+    "yearEnd": 1939,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64203",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1940-1942 [volume 31]",
+    "yearStart": 1940,
+    "yearEnd": 1942,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64204",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1943-1945 [volume 32]",
+    "yearStart": 1943,
+    "yearEnd": 1945,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64205",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1946-1948 [volume 33]",
+    "yearStart": 1946,
+    "yearEnd": 1948,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64206",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1949-1950 [volume 34]",
+    "yearStart": 1949,
+    "yearEnd": 1950,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64207",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1949-1950 [volume 34 bis]",
+    "yearStart": 1949,
+    "yearEnd": 1950,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64208",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1951-1952 [volume 35]",
+    "yearStart": 1951,
+    "yearEnd": 1952,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64209",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1953 [volume 36]",
+    "yearStart": 1953,
+    "yearEnd": 1953,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64210",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1954 [volume 37]",
+    "yearStart": 1954,
+    "yearEnd": 1954,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64211",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1955 [volume 38]",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64212",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1956 [volume 39]",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64213",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1957 [volume 40]",
+    "yearStart": 1957,
+    "yearEnd": 1957,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64214",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1958 [volume 41]",
+    "yearStart": 1958,
+    "yearEnd": 1958,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64215",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1959 [volume 42]",
+    "yearStart": 1959,
+    "yearEnd": 1959,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64216",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1960 [volume 43]",
+    "yearStart": 1960,
+    "yearEnd": 1960,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64217",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1961 [volume 44]",
+    "yearStart": 1961,
+    "yearEnd": 1961,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64218",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1962 [volume 45]",
+    "yearStart": 1962,
+    "yearEnd": 1962,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64219",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1963 [volume 46]",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64220",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1964 [volume 47]",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64221",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1965 [volume 48]",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64222",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1966 [volume 49]",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64223",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1967 [volume 50]",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64224",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "1968 [volume 51]",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64225",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "an V-1808 [Volume n° 3]",
+    "yearStart": 1796,
+    "yearEnd": 1808,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347182",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1808-1812 [Volume n° 4]",
+    "yearStart": 1808,
+    "yearEnd": 1812,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347183",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1812-1822 (volume n° 5)",
+    "yearStart": 1812,
+    "yearEnd": 1822,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347184",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1822-1825 (volume n° 6)",
+    "yearStart": 1822,
+    "yearEnd": 1825,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347194",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1825-1830 (volume n° 7)",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347204",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1831-1836 (volume n° 8)",
+    "yearStart": 1831,
+    "yearEnd": 1836,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347205",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1842-1849 (volume n° 10)",
+    "yearStart": 1842,
+    "yearEnd": 1849,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347206",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1850-1857 (volume n° 11)",
+    "yearStart": 1850,
+    "yearEnd": 1857,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347207",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1858-1864 (volume n° 12)",
+    "yearStart": 1858,
+    "yearEnd": 1864,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347210",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1864-1869 (volume n° 13)",
+    "yearStart": 1864,
+    "yearEnd": 1869,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347211",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1869-1876 (volume n° 14)",
+    "yearStart": 1869,
+    "yearEnd": 1876,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347212",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1876-1885 (volume n° 15)",
+    "yearStart": 1876,
+    "yearEnd": 1885,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347213",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1884-1893 (volume n° 16)",
+    "yearStart": 1884,
+    "yearEnd": 1893,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347216",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1893-1901 (volume n° 17)",
+    "yearStart": 1893,
+    "yearEnd": 1901,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347219",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1900-1907 (volume n° 18)",
+    "yearStart": 1900,
+    "yearEnd": 1907,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347222",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1908-1914 (volume n° 19)",
+    "yearStart": 1908,
+    "yearEnd": 1914,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347223",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1915-1918 (volume n° 20)",
+    "yearStart": 1915,
+    "yearEnd": 1918,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347224",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1919-1923 (volume n° 21)",
+    "yearStart": 1919,
+    "yearEnd": 1923,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347225",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1924-1928 (volume n° 22)",
+    "yearStart": 1924,
+    "yearEnd": 1928,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347226",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1929-1932 (volume n° 23)",
+    "yearStart": 1929,
+    "yearEnd": 1932,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347227",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1933-1936 (volume n° 24)",
+    "yearStart": 1933,
+    "yearEnd": 1936,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347228",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1937-1940 (volume n° 25)",
+    "yearStart": 1937,
+    "yearEnd": 1940,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347229",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1941-1944 (volume n° 26)",
+    "yearStart": 1941,
+    "yearEnd": 1944,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347238",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1945-1948 (volume n° 27)",
+    "yearStart": 1945,
+    "yearEnd": 1948,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347245",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1949-1952 (volume n° 28)",
+    "yearStart": 1949,
+    "yearEnd": 1952,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347249",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1953-1957 (volume n° 29)",
+    "yearStart": 1953,
+    "yearEnd": 1957,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347250",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1958-1959 (volume n° 30)",
+    "yearStart": 1958,
+    "yearEnd": 1959,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347251",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1960-1961 (volume n° 31)",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347252",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1962-1963 (volume n° 32)",
+    "yearStart": 1962,
+    "yearEnd": 1963,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347255",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1964 (volume n° 33)",
+    "yearStart": 1964,
+    "yearEnd": 1964,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347258",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1965 (volume n° 34)",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347259",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1966-1967 (volume n° 35)",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347260",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "1968 (volume n° 36)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347261",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Lettres A à S (volume III bis)",
+    "yearStart": 1919,
+    "yearEnd": 1925,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6927",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Lettres T à Z (volume IV bis)",
+    "yearStart": 1919,
+    "yearEnd": 1925,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6928",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "1926-1929 (volume II bis)",
+    "yearStart": 1926,
+    "yearEnd": 1929,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6929",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "1930-1er juillet 1933 (volume I bis)",
+    "yearStart": 1930,
+    "yearEnd": 1933,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6930",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "1er juillet 1933 -31 décembre 1935 (volume n° 1)",
+    "yearStart": 1933,
+    "yearEnd": 1935,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6931",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "1936-1938 (volume n° 2)",
+    "yearStart": 1936,
+    "yearEnd": 1938,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6932",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Février 1939-avril 1942 (volume n° 3)",
+    "yearStart": 1939,
+    "yearEnd": 1942,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6933",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Mars 1942-décembre 1944 (volume n° 4)",
+    "yearStart": 1942,
+    "yearEnd": 1944,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6934",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "4 avril 1944-mars 1948 (volume n° 5)",
+    "yearStart": 1944,
+    "yearEnd": 1948,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6935",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "5 mai 1948-décembre 1951 (volume n° 6)",
+    "yearStart": 1948,
+    "yearEnd": 1951,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6936",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "6 janvier 1952-juin 1954 (volume n° 7)",
+    "yearStart": 1952,
+    "yearEnd": 1954,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6937",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "7 juillet 1954-septembre 1955 (volume n° 8)",
+    "yearStart": 1954,
+    "yearEnd": 1955,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6938",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "8 octobre 1955-mars 1958 (volume n° 9)",
+    "yearStart": 1955,
+    "yearEnd": 1958,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6939",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Avril 1958-décembre 1960 (volume n° 10)",
+    "yearStart": 1958,
+    "yearEnd": 1960,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6940",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Janvier 1961-mars 1962 (volume n° 11)",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6941",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Avril 1962-juin 1964 (volume n° 12)",
+    "yearStart": 1962,
+    "yearEnd": 1964,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6942",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Juillet 1964-septembre 1966 (volume n° 13)",
+    "yearStart": 1964,
+    "yearEnd": 1966,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6943",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "Octobre 1966-décembre 1967 (volume n° 14)",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6944",
+    "digitized": true
+  },
+  {
+    "place": "Taverny",
+    "cote": "1968 (volume n° 15)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00056/view:6945",
     "digitized": true
   }
 ]

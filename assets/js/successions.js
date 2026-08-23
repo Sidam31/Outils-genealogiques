@@ -709,6 +709,13 @@ export const SUCCESSION_DEPTS = {
         // scrape_successions_arkotheque.py, DEPARTMENTS['72']) : mélange "Table des contrats de
         // mariage"/"Table des successions acquittées" (exclue) avec "Table des successions et
         // absences" (voulue) - filtré côté client.
+        // r.url : NE PAS régénérer via scrape_successions_arkotheque.py (deep-link "ficheFocus",
+        // constaté cassé sur ce déploiement début 2026 - le site est passé à une "nouvelle
+        // interface de visualisation" qui ignore ce paramètre au chargement, atterrit toujours sur
+        // la liste complète non filtrée). Régénéré une fois via scripts_py/fix_sarthe_urls.py, qui
+        // filtre par facette Bureau+Typologie (seul mécanisme de filtrage encore fonctionnel au
+        // chargement direct d'une URL sur ce déploiement) - relancer ce script, pas le scraper
+        // d'origine, si les IDs de facette (arko_default_...) venaient à changer de nouveau.
         minYear: 1824,
         maxYear: 1971,
         registersUrl: './assets/data/successions_72.json',
@@ -1009,6 +1016,28 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_28.json',
         bureauxUrl: './assets/data/successions_28_bureaux.json',
         catalogUrl: 'https://archives28.fr/archives-et-inventaires-en-ligne/histoire-des-individus-des-populations-et-genealogie/les-tables-des-successions-et-absences',
+    },
+    '95': {
+        label: "Val-d'Oise",
+        kind: 'facet',
+        // Bornes réelles de la série (238 registres, 10 bureaux sur 11, voir
+        // scripts_py/scrape_successions_val_doise.py) - portail Ligeo Archives derrière Anubis (même
+        // logiciel que la Haute-Garonne/Lozère). Longtemps marqué non couvert (voir recherche.html) :
+        // la liste PLATE de résultats mélange plusieurs sous-séries sans étiquette de type fiable par
+        // ligne - contourné en marchant l'arbre de classement lui-même comme la Haute-Garonne, avec
+        // un repérage du bon noeud par mots-clés plutôt qu'une phrase figée (la formulation exacte
+        // varie par bureau : "Table alphabétique des successions et absences", "Successions et
+        // absences : tables alphabétiques", ou encore juste "Tables de décès"/"Tables alphabétiques"
+        // sous un dossier parent "Décès, successions et absences" qui porte seul les mots-clés).
+        // bureauxUrl vient ici de la table de concordance OFFICIELLE du département (voir
+        // build_val_doise_communes.py), pas d'un repli géographique approximatif comme la plupart des
+        // autres départements - correspondance exacte commune -> bureau, comme le Tarn. La Roche-Guyon
+        // (12e bureau) n'a pas de sous-fonds "successions et absences" repérable dans son arbre.
+        minYear: 1758,
+        maxYear: 1971,
+        registersUrl: './assets/data/successions_95.json',
+        bureauxUrl: './assets/data/successions_95_bureaux.json',
+        catalogUrl: 'https://archives.valdoise.fr/n/enregistrement/n:329',
     },
 };
 

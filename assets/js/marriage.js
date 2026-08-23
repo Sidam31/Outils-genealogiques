@@ -52,6 +52,8 @@ export const MARRIAGE_DEPTS = {
         // Bornes réelles de la série (113 registres scrapés, 30 lieux distincts, voir
         // scrape_contrats_mariage_arkotheque.py). Même portail Arkothèque que 78/43, déjà mixé
         // avec les successions sur cette même page (pas de découverte séparée nécessaire).
+        // r.url : voir le commentaire équivalent dans successions.js (SUCCESSION_DEPTS['72']) -
+        // même correctif via scripts_py/fix_sarthe_urls.py, même déploiement, même panne.
         minYear: 1776,
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_72.json',
