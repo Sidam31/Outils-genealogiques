@@ -54,6 +54,12 @@ export async function ensureEuropeGeo() {
         // contours de pays voisins (on n'a pas besoin du détail utilisé pour les départements).
         const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson');
         const raw = await res.json();
+        // Même correctif que pour la Belgique (voir fixEsriRingWinding, juste au-dessus) : ce fichier
+        // Natural Earth encode ses anneaux extérieurs en sens horaire (convention shapefile) au lieu de
+        // l'antihoraire attendu par GeoJSON RFC 7946/d3-geo. Sans ce correctif, d3-geo interprète
+        // chaque pays comme couvrant la quasi-totalité du globe (tout SAUF le pays), ce qui se traduit
+        // par un immense aplat recouvrant toute la carte de France (constaté : fond entièrement orange).
+        raw.features = raw.features.map(f => ({ ...f, geometry: fixEsriRingWinding(f.geometry) }));
         // La résolution 110m rend très mal les micro-États : l'Andorre y garde une entrée, mais
         // réduite à une poignée de points (constaté : un blob grossier proche d'un demi-disque plutôt
         // que son contour réel), ce qui déforme à la fois le contexte "pays voisins" de la carte de
