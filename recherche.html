@@ -178,7 +178,7 @@
                     <li><strong>Ariège</strong> — série numérisée en 2015 d'après les archives du département, mais pas mise en ligne sur un outil de consultation public à ce jour.</li>
                     <li><strong>Charente-Maritime</strong> — série bien consultable en ligne, mais chaque lien vers un registre dépend d'une session qui expire au bout de quelques minutes : aucun lien stable trouvé pour ce portail.</li>
                     <li><strong>Creuse</strong> — le fonds « Enregistrement » numérisé et mis en ligne ne comprend que les actes bruts (déclarations, baux...), pas la table alphabétique des successions et absences elle-même.</li>
-                    <li><strong>Ille-et-Vilaine</strong> — outil de recherche ancien dont la session expire systématiquement en essayant d'atteindre cette série précise.</li>
+                    <li><strong>Ille-et-Vilaine, Corse-du-Sud, Haute-Corse</strong> — outil de recherche ancien ("THOT Internet", même logiciel pour ces trois départements) dont la session expire systématiquement en essayant d'atteindre cette série précise : le formulaire de recherche du fonds de l'enregistrement se charge bien (bureau + case "TABLE DE SUCCESSIONS ET ABSENCES" présents), mais soumettre la recherche déclenche à chaque fois une alerte "Votre session a expiré", y compris via un navigateur réel avec les cookies de session en place.</li>
                     <li><strong>Orne, Pyrénées-Orientales, Seine-et-Marne, Lot-et-Garonne</strong> — la série est cataloguée en ligne, mais chaque registre vérifié est marqué consultable uniquement en salle de lecture, pas en version numérisée accessible à distance (pour le Lot-et-Garonne, seuls les inventaires eux-mêmes sont en ligne, pas les registres qu'ils décrivent).</li>
                     <li><strong>Hautes-Alpes</strong> — le catalogue "Enregistrement" en ligne ne propose que les "successions collatérales" (une sous-série distincte), pas la table des successions et absences elle-même.</li>
                     <li><strong>Indre</strong> — le fonds numérisé ne comprend que la table pré-1825 ("successions acquittées", une sous-série distincte) et d'autres tables non liées ; pas de table "successions et absences" repérée.</li>
@@ -274,7 +274,7 @@
             </div>
 
             <div class="checkbox-group hidden" id="faMariageOptions">
-                <label><input type="checkbox" id="faOptHideMariageNoMatch"> Masquer les pistes sans registre identifié (⚠ commune absente de cette série)</label>
+                <label><input type="checkbox" id="faOptHideMariageNoMatch"> Masquer les pistes sans registre identifié (⚠ commune absente de cette série, ou registre trouvé ne couvrant pas l'année)</label>
             </div>
 
             <div class="map-scope-row">
@@ -908,7 +908,7 @@ const fa = (() => {
     // marriage.js) n'est plus "la bonne année, à la marge près" mais une simple valeur de repli pour
     // ne jamais laisser une commune sans piste — il faut le dire clairement plutôt que de laisser
     // croire à une correspondance sûre (ex. décès de 1879 proposant un registre 1914-1930).
-    const YEAR_GAP_WARNING_THRESHOLD = 5;
+    const YEAR_GAP_WARNING_THRESHOLD = 1;
     function yearGapWarning(r) {
         if (!r.yearGap || r.yearGap <= YEAR_GAP_WARNING_THRESHOLD) return '';
         return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ Aucun registre ne couvre ${r.year} pour cette commune — le plus proche disponible est à ${r.yearGap} an${r.yearGap > 1 ? 's' : ''} d'écart.</div>`;
@@ -1098,7 +1098,7 @@ const fa = (() => {
         resultsBodyMariage.innerHTML = '';
         const hideNoMatch = document.getElementById('faOptHideMariageNoMatch').checked;
         sortedMariageResults().forEach(r => {
-            if (hideNoMatch && !r.registers.length) return;
+            if (hideNoMatch && (!r.registers.length || r.yearGap > YEAR_GAP_WARNING_THRESHOLD)) return;
             const tr = document.createElement('tr');
             const sosaDisplay = [r.sosaHusb, r.sosaWife].filter(s => s != null);
             tr.innerHTML = `
