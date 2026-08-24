@@ -843,10 +843,13 @@ const fa = (() => {
         sortKeySucc = sosaMap ? 'sosa' : 'name'; sortDirSucc = 1;
         sortKeyMar = sosaMap ? 'sosa' : 'name'; sortDirMar = 1;
         updateSortIndicators();
-        renderResults();
-        renderNotarialResults();
-        renderSuccessionResults();
-        renderMariageResults();
+        // Chaque rendu est isolé : une exception sur un jeu de résultats (ex. une forme de piste pas
+        // encore rencontrée) ne doit pas empêcher le rendu des trois autres tableaux ni la mise à jour
+        // de leur visibilité, qui dépendaient auparavant toutes de l'exécution complète et séquentielle
+        // de ce bloc.
+        [renderResults, renderNotarialResults, renderSuccessionResults, renderMariageResults].forEach(fn => {
+            try { fn(); } catch (err) { console.error(`Échec du rendu (${fn.name}) :`, err); }
+        });
         updateResultsVisibility();
     });
 
@@ -984,7 +987,10 @@ const fa = (() => {
             return `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ ${escapeHtml(reason)}</div>
                 <div class="city-buttons"><a class="btn-link" href="${r.fallbackUrl}" target="_blank" rel="noopener">📋 Parcourir la série manuellement</a></div>`;
         }
-        const warn = (r.matchType === 'bureau'
+        // r.bureauInfo reste null pour le cas Lyon (plusieurs bureaux sans nom de commune exploitable,
+        // voir resolveFacet/lyonWideRegisters dans successions.js) même quand matchType vaut 'bureau' :
+        // repli sur r.contextLabel (déjà rempli dans ce cas) plutôt que de déréférencer null.
+        const warn = (r.matchType === 'bureau' && r.bureauInfo
             ? `<div style="font-size:0.8rem; color:#a00; margin-bottom:4px;">⚠ "${escapeHtml(r.city)}" non répertoriée — bureau le plus proche : ${escapeHtml(r.bureauInfo.bureau)} (${r.bureauInfo.distanceKm} km, à vérifier)</div>`
             : (r.contextLabel ? `<div style="font-size:0.8rem; color:#555; margin-bottom:4px;">${escapeHtml(r.contextLabel)}</div>` : '')) + yearGapWarning(r);
         // Plusieurs bureaux/arrondissements différents peuvent matcher à la fois (Paris) : afficher
