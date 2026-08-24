@@ -564,19 +564,32 @@ const dm = (() => {
     });
     csvSimpleBtn.addEventListener('click', () => {
         if (!lastResults.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Motif', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Dernier signe de vie', 'Confiance'];
-        const rows = sortedResults().map(r => [
-            r.sosa != null ? r.sosa : '',
-            r.person.id,
-            r.person.surname || '',
-            r.person.given || '',
-            CATEGORY_LABELS[r.category] || r.category,
-            r.birthEst ? r.birthEst.year : '',
-            r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
-            r.person.birth?.geo?.city || '',
-            r.lastAlive != null ? r.lastAlive : '',
-            CONF_LABEL[r.confidence.level]
-        ]);
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Motif', 'Naissance', 'Naissance estimee', 'Commune naissance', 'Mariage', 'Commune mariage', 'Dernier signe de vie', 'Confiance'];
+        const rows = sortedResults().map(r => {
+            const p = r.person;
+            const birthFull = r.birthEst && !r.birthEst.estimated && p.birth?.day != null && p.birth?.month != null
+                ? `${String(p.birth.day).padStart(2, '0')}/${String(p.birth.month + 1).padStart(2, '0')}/${r.birthEst.year}`
+                : (r.birthEst ? r.birthEst.year : '');
+            const marrFull = p.marrYear
+                ? (p.marrDay != null && p.marrMonth != null
+                    ? `${String(p.marrDay).padStart(2, '0')}/${String(p.marrMonth + 1).padStart(2, '0')}/${p.marrYear}`
+                    : p.marrYear)
+                : '';
+            return [
+                r.sosa != null ? r.sosa : '',
+                p.id,
+                p.surname || '',
+                p.given || '',
+                CATEGORY_LABELS[r.category] || r.category,
+                birthFull,
+                r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                p.birth?.geo?.city || '',
+                marrFull,
+                p.marrGeo?.city || '',
+                r.lastAlive != null ? r.lastAlive : '',
+                CONF_LABEL[r.confidence.level]
+            ];
+        });
         downloadCsv('deces_manquants.csv', headers, rows);
     });
 

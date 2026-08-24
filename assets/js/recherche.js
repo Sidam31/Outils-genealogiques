@@ -157,18 +157,37 @@ export function buildMatchIdUrl(p, birthEst) {
     return `https://deces.matchid.io/search?${params.toString()}`;
 }
 
+// Date complète JJ/MM/AAAA à partir d'un jour/mois (0-indexé, comme parseFullDate)/année. Repli sur
+// la seule année (comportement précédent) quand le jour ou le mois n'est pas connu — matchID accepte
+// aussi bien une date complète qu'une année seule.
+function formatDdMmYyyy(day, month, year) {
+    if (year == null) return '';
+    if (day != null && month != null) {
+        return `${String(day).padStart(2, '0')}/${String(month + 1).padStart(2, '0')}/${year}`;
+    }
+    return String(year);
+}
+
 // Colonnes attendues par la page d'appariement de masse (deces.matchid.io/link, mapping CSV
 // documenté : NOM, PRENOM, DATE_NAISSANCE, COMMUNE_NAISSANCE, DEP_NAISSANCE, PAYS_NAISSANCE, GENRE).
+// ID (identifiant GEDCOM, ex. "I543" pour "0 @I543@ INDI") et les colonnes de mariage sont ajoutés en
+// plus de ce mapping : ignorés par matchID mais utiles pour retrouver la fiche dans le GEDCOM une
+// fois l'appariement fait.
 export function buildMatchIdCsvRows(entries) {
-    const headers = ['NOM', 'PRENOM', 'DATE_NAISSANCE', 'COMMUNE_NAISSANCE', 'DEP_NAISSANCE', 'PAYS_NAISSANCE', 'GENRE'];
+    const headers = ['ID', 'NOM', 'PRENOM', 'DATE_NAISSANCE', 'COMMUNE_NAISSANCE', 'DEP_NAISSANCE', 'PAYS_NAISSANCE', 'GENRE', 'DATE_MARIAGE', 'COMMUNE_MARIAGE'];
     const rows = entries.map(({ person: p, birthEst }) => [
+        p.id,
         p.surname || guessSurname(p.name),
         p.given || guessGiven(p.name),
-        birthEst ? birthEst.year : '',
+        // Date de naissance complète seulement si actée (non estimée) avec jour/mois connus ; sinon
+        // repli sur la seule année estimée/actée, comme avant.
+        birthEst ? (!birthEst.estimated ? formatDdMmYyyy(p.birth?.day, p.birth?.month, birthEst.year) : birthEst.year) : '',
         p.birth?.geo?.city || '',
         p.birth?.geo?.dept ? p.birth.geo.dept.split(' - ')[0] : '',
         p.birth?.geo?.country || '',
-        p.sex === 'M' ? 'M' : (p.sex === 'F' ? 'F' : '')
+        p.sex === 'M' ? 'M' : (p.sex === 'F' ? 'F' : ''),
+        p.marrYear ? formatDdMmYyyy(p.marrDay, p.marrMonth, p.marrYear) : '',
+        p.marrGeo?.city || ''
     ]);
     return { headers, rows };
 }

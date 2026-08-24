@@ -262,7 +262,15 @@ export class GedcomParser {
             if(t==='DATE') {
                 const y=this.getYear(v);
                 const approx=this.isApproxDate(v);
-                if(i._ctx==='BIRT') { i.birth.year=y; i.birth.approx=approx; }
+                if(i._ctx==='BIRT') {
+                    i.birth.year=y; i.birth.approx=approx;
+                    // Jour/mois complets (comme i.death.day/month ci-dessous) : utilisés pour l'export
+                    // CSV vers matchID, qui attend une date de naissance complète (JJ/MM/AAAA) plutôt
+                    // que la seule année quand elle est disponible.
+                    const fullBirth = approx ? null : this.parseFullDate(v);
+                    i.birth.day = fullBirth ? fullBirth.day : null;
+                    i.birth.month = fullBirth ? fullBirth.month : null;
+                }
                 if(i._ctx==='DEAT') {
                     i.death.year=y; i.death.approx=approx;
                     // Jour/mois (en plus de l'année déjà nécessaire ailleurs) : seulement dispo pour
@@ -609,12 +617,19 @@ export class GedcomParser {
             delete i._names; delete i._curNameBuf;
             if(i.famc) { const f=this.fams.get(i.famc); if(f) { if(f.husb) i.fatherId=f.husb; if(f.wife) i.motherId=f.wife; } }
             if(i.birth.year && i.death.year) i.ageDeath = i.death.year - i.birth.year;
-            let fMarrY=null, fChildY=null, tot=0;
+            let fMarrY=null, fMarrDay=null, fMarrMonth=null, fChildY=null, tot=0;
             const childrenYears = []; // Collecter les années de naissance des enfants
             i.fams.forEach(fid => {
                 const f=this.fams.get(fid); if(!f) return;
                 tot+=f.children.length;
-                if(f.marr?.year) { if(!fMarrY || f.marr.year < fMarrY) { fMarrY=f.marr.year; i.marrGeo=f.marr.geo; } }
+                if(f.marr?.year) {
+                    if(!fMarrY || f.marr.year < fMarrY) {
+                        fMarrY=f.marr.year; i.marrGeo=f.marr.geo;
+                        // Jour/mois du premier mariage (comme i.birth.day/month ci-dessus) : utilisés
+                        // pour l'export CSV vers matchID (date de mariage complète JJ/MM/AAAA).
+                        fMarrDay = f.marr.day ?? null; fMarrMonth = f.marr.month ?? null;
+                    }
+                }
                 f.children.forEach(cid => {
                     const c=this.indis.get(cid);
                     if(c?.birth.year) {
@@ -626,6 +641,8 @@ export class GedcomParser {
             i.childCount=tot;
             i.childrenYears = childrenYears.sort((a,b) => a-b); // Trier par ordre chronologique
             i.marrYear = fMarrY; // Stocker l'année de mariage sur l'individu
+            i.marrDay = fMarrDay;
+            i.marrMonth = fMarrMonth;
             if(i.birth.year && fMarrY) i.ageMarr=Math.max(0, fMarrY-i.birth.year);
             if(i.birth.year && fChildY) i.ageFirstChild=Math.max(0, fChildY-i.birth.year);
         });
