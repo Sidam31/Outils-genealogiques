@@ -1,0 +1,893 @@
+[
+  {
+    "cote": "3 Q 171",
+    "dateText": "1 vendémiaire An V – 1811",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 172",
+    "dateText": "1811 – 1819",
+    "yearStart": 1811,
+    "yearEnd": 1819,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 173",
+    "dateText": "1819 – 1843",
+    "yearStart": 1819,
+    "yearEnd": 1843,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 174",
+    "dateText": "1844 – 1865",
+    "yearStart": 1844,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 305",
+    "dateText": "1822 – 1835",
+    "yearStart": 1822,
+    "yearEnd": 1835,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 306",
+    "dateText": "1835 – 1861",
+    "yearStart": 1835,
+    "yearEnd": 1861,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 307",
+    "dateText": "1862 – 1865",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3Q698",
+    "dateText": "1 vendémiaire An II – 1807",
+    "yearStart": 1807,
+    "yearEnd": 1807,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=39",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q699",
+    "dateText": "1807 – 1813",
+    "yearStart": 1807,
+    "yearEnd": 1813,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=39",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q700",
+    "dateText": "1814 – 1821",
+    "yearStart": 1814,
+    "yearEnd": 1821,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=39",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q701",
+    "dateText": "1822 – 1836",
+    "yearStart": 1822,
+    "yearEnd": 1836,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=39",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q702",
+    "dateText": "1837 – 1855",
+    "yearStart": 1837,
+    "yearEnd": 1855,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=39",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q703",
+    "dateText": "1855 – 1865",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=39",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q1218",
+    "dateText": "1807 – 1812",
+    "yearStart": 1807,
+    "yearEnd": 1812,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=65",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1219",
+    "dateText": "1812 – 1818",
+    "yearStart": 1812,
+    "yearEnd": 1818,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=65",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1220",
+    "dateText": "1819 – 1830",
+    "yearStart": 1819,
+    "yearEnd": 1830,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=65",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1221",
+    "dateText": "1830 – 1843",
+    "yearStart": 1830,
+    "yearEnd": 1843,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=66",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1222",
+    "dateText": "1844 – 1849",
+    "yearStart": 1844,
+    "yearEnd": 1849,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=66",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1223",
+    "dateText": "1849 – 1858",
+    "yearStart": 1849,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=66",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1224",
+    "dateText": "1858 – 1865",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=66",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1514",
+    "dateText": "1763 – 1793",
+    "yearStart": 1763,
+    "yearEnd": 1793,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1515",
+    "dateText": "1793 – 1806",
+    "yearStart": 1793,
+    "yearEnd": 1806,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1516",
+    "dateText": "1807 – 1818",
+    "yearStart": 1807,
+    "yearEnd": 1818,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1517",
+    "dateText": "1818 – 1832",
+    "yearStart": 1818,
+    "yearEnd": 1832,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1518",
+    "dateText": "1832 – 1845",
+    "yearStart": 1832,
+    "yearEnd": 1845,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1519",
+    "dateText": "1845 – 1861",
+    "yearStart": 1845,
+    "yearEnd": 1861,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1520",
+    "dateText": "1861 – 1865",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1752",
+    "dateText": "An X – 1817",
+    "yearStart": 1817,
+    "yearEnd": 1817,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=93",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1753",
+    "dateText": "1817 – 1831",
+    "yearStart": 1817,
+    "yearEnd": 1831,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=93",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1754",
+    "dateText": "1831 – 1846",
+    "yearStart": 1831,
+    "yearEnd": 1846,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=93",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1755",
+    "dateText": "1846 – 1857",
+    "yearStart": 1846,
+    "yearEnd": 1857,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=93",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1756",
+    "dateText": "1857 – 1865",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=93",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3 Q 2050",
+    "dateText": "1788 -  1806",
+    "yearStart": 1788,
+    "yearEnd": 1806,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=110",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2051",
+    "dateText": "1806 -  1831",
+    "yearStart": 1806,
+    "yearEnd": 1831,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=110",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2052",
+    "dateText": "1831 -  1859",
+    "yearStart": 1831,
+    "yearEnd": 1859,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=110",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2053",
+    "dateText": "1842 -  1859",
+    "yearStart": 1842,
+    "yearEnd": 1859,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=110",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2054",
+    "dateText": "1859 -   1865",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=110",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2380",
+    "dateText": "1772 -  1807",
+    "yearStart": 1772,
+    "yearEnd": 1807,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2381",
+    "dateText": "1807 -  1814",
+    "yearStart": 1807,
+    "yearEnd": 1814,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2382",
+    "dateText": "1815 -  1825",
+    "yearStart": 1815,
+    "yearEnd": 1825,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2383",
+    "dateText": "1825 -  1837",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2384",
+    "dateText": "1837 -  1850",
+    "yearStart": 1837,
+    "yearEnd": 1850,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2385",
+    "dateText": "1850 -  1861",
+    "yearStart": 1850,
+    "yearEnd": 1861,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2386",
+    "dateText": "1831 -  1865",
+    "yearStart": 1831,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=120",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3Q2465",
+    "dateText": "1764 - 1 messidor An XII",
+    "yearStart": 1764,
+    "yearEnd": 1764,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=126",
+    "digitized": false,
+    "place": "Mazères"
+  },
+  {
+    "cote": "3Q2466",
+    "dateText": "an XII - 1810",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=126",
+    "digitized": false,
+    "place": "Mazères"
+  },
+  {
+    "cote": "3Q8474",
+    "dateText": "1791 - 30 brumaire An VII",
+    "yearStart": 1791,
+    "yearEnd": 1791,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2742",
+    "dateText": "1 messidor An VII – 1811",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2743",
+    "dateText": "1812 – 1817",
+    "yearStart": 1812,
+    "yearEnd": 1817,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2744",
+    "dateText": "1817 – 1828",
+    "yearStart": 1817,
+    "yearEnd": 1828,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2745",
+    "dateText": "1829 – 1839",
+    "yearStart": 1829,
+    "yearEnd": 1839,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2746",
+    "dateText": "1840 – 1856",
+    "yearStart": 1840,
+    "yearEnd": 1856,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2747",
+    "dateText": "1856 – 1865",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=139",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3 Q 4560",
+    "dateText": "An XII -  1811",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=151",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4549",
+    "dateText": "1811 -  1824",
+    "yearStart": 1811,
+    "yearEnd": 1824,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=151",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4550",
+    "dateText": "1825 -  1843",
+    "yearStart": 1825,
+    "yearEnd": 1843,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=151",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4551",
+    "dateText": "1843 -  1865",
+    "yearStart": 1843,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=151",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 3912",
+    "dateText": "1792 - 14 prairial An X",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=179",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3913",
+    "dateText": "14 prairial An X - 1811",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=179",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3914",
+    "dateText": "1811 - 1813",
+    "yearStart": 1811,
+    "yearEnd": 1813,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=179",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3915",
+    "dateText": "1813 - 1822",
+    "yearStart": 1813,
+    "yearEnd": 1822,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=179",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3916",
+    "dateText": "1822 - 1830",
+    "yearStart": 1822,
+    "yearEnd": 1830,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=179",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3917",
+    "dateText": "1830 - 1835",
+    "yearStart": 1830,
+    "yearEnd": 1835,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=179",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3918",
+    "dateText": "1836 - 1841",
+    "yearStart": 1836,
+    "yearEnd": 1841,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=180",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3919",
+    "dateText": "1841 - 1850",
+    "yearStart": 1841,
+    "yearEnd": 1850,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=180",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3920",
+    "dateText": "1851 - 1858",
+    "yearStart": 1851,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=180",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 3921",
+    "dateText": "1858 - 1865",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=180",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 4137",
+    "dateText": "1764 - 1813       (sn)",
+    "yearStart": 1764,
+    "yearEnd": 1813,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=192",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 4138",
+    "dateText": "1842 - 1865",
+    "yearStart": 1842,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=192",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3Q6218",
+    "dateText": "1761 - 1 prairial An VI",
+    "yearStart": 1761,
+    "yearEnd": 1761,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=203",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6219",
+    "dateText": "1 thermidor An VI – 1813",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=203",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6220",
+    "dateText": "1813 – 1817",
+    "yearStart": 1813,
+    "yearEnd": 1817,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=203",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6221",
+    "dateText": "1817 – 1823",
+    "yearStart": 1817,
+    "yearEnd": 1823,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=203",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6222",
+    "dateText": "1843 – 1854",
+    "yearStart": 1843,
+    "yearEnd": 1854,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=203",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3 Q 5455",
+    "dateText": "1813 – 1825",
+    "yearStart": 1813,
+    "yearEnd": 1825,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=231",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5456",
+    "dateText": "1826 – 1837",
+    "yearStart": 1826,
+    "yearEnd": 1837,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=231",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5457",
+    "dateText": "1838 – 1844",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=231",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5458",
+    "dateText": "1844 – 1855",
+    "yearStart": 1844,
+    "yearEnd": 1855,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=231",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5459",
+    "dateText": "1856 – 1865",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=231",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q6438",
+    "dateText": "1791 – 1811",
+    "yearStart": 1791,
+    "yearEnd": 1811,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=247",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5850",
+    "dateText": "1811 – 1825",
+    "yearStart": 1811,
+    "yearEnd": 1825,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=247",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5851",
+    "dateText": "1825 – 1842",
+    "yearStart": 1825,
+    "yearEnd": 1842,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=247",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5852",
+    "dateText": "1842 – 1858",
+    "yearStart": 1842,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=247",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5853",
+    "dateText": "1858 – 1865",
+    "yearStart": 1858,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=247",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q6801",
+    "dateText": "1777 - 12 frimaire An IV",
+    "yearStart": 1777,
+    "yearEnd": 1777,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6802",
+    "dateText": "IV ème s. - VII ème s",
+    "yearStart": null,
+    "yearEnd": null,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6803",
+    "dateText": "21 germinal An VII - 22 messidor An IX",
+    "yearStart": null,
+    "yearEnd": null,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6804",
+    "dateText": "1 nivôse An X  - 1808",
+    "yearStart": 1808,
+    "yearEnd": 1808,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6805",
+    "dateText": "1808 – 1812",
+    "yearStart": 1808,
+    "yearEnd": 1812,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6806",
+    "dateText": "1812 – 1816",
+    "yearStart": 1812,
+    "yearEnd": 1816,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6807",
+    "dateText": "1816 – 1825",
+    "yearStart": 1816,
+    "yearEnd": 1825,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6808",
+    "dateText": "1825 – 1831",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6809",
+    "dateText": "1831 – 1837",
+    "yearStart": 1831,
+    "yearEnd": 1837,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6810",
+    "dateText": "1837 – 1842",
+    "yearStart": 1837,
+    "yearEnd": 1842,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6811",
+    "dateText": "1843 – 1849",
+    "yearStart": 1843,
+    "yearEnd": 1849,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6812",
+    "dateText": "1850 – 1860",
+    "yearStart": 1850,
+    "yearEnd": 1860,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6813",
+    "dateText": "1861 – 1865",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=266",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q7037",
+    "dateText": "1842 – 1862",
+    "yearStart": 1842,
+    "yearEnd": 1862,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  },
+  {
+    "cote": "3Q7038",
+    "dateText": "1862 – 1865",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  }
+]

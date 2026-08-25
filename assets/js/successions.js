@@ -1063,6 +1063,25 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_40_bureaux.json',
         catalogUrl: 'https://archives.landes.fr/faire-une-recherche/archives-numerisees/rechercher-une-personne/tables-des-deces-successions-et-absences-copie/tables-des-deces-successions-absences-et-fiches-deces',
     },
+    '06': {
+        label: 'Alpes-Maritimes',
+        kind: 'facet',
+        // Bornes réelles de la série (240 registres, 23 bureaux sur 29, voir
+        // scrape_successions_alpes_maritimes.py) - portail Ligeo Archives (archives06.fr) protégé
+        // par un anti-bot F5/TSPD qui bloquait spécifiquement le mode headless en boucle infinie ;
+        // un vrai Chrome non-headless (réchauffé par une vraie visite de la page d'accueil) passe
+        // le challenge de façon fiable - même parade qu'à l'Aude (SUCCESSION_DEPTS['11']), même
+        // famille d'anti-bot. Piège corrigé après coup dans le scraper : chaque page de série liste
+        // AUSSI, en tête de sa liste plate de notices, la notice du bureau parent et la notice de
+        // la série elle-même (cote = la plage ENTIÈRE couverte par tous les registres qui suivent,
+        // ex. "3 Q 1 à 755" pour tout Antibes) - comptées par erreur comme un faux "registre" dont
+        // les bornes engloberaient tout le bureau avant d'être filtrées par leur intitulé
+        // (voir extract_records_from_series, _clean_unittitle).
+        minYear: 1791,
+        maxYear: 1958,
+        registersUrl: './assets/data/successions_06.json',
+        catalogUrl: 'https://archives06.fr/archive/fonds/FRAD006_3Q/view:625770',
+    },
     '11': {
         label: 'Aude',
         kind: 'facet',

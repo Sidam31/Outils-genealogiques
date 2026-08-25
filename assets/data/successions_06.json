@@ -1,22 +1,6 @@
 [
   {
     "place": "Antibes",
-    "cote": "3 Q 1 à 61, 63, 65 à 368, 370 à 386, 388 à 495, 498 à 755",
-    "yearStart": 1759,
-    "yearEnd": 1958,
-    "url": "https://archives06.fr/ark:/79346/2343641",
-    "digitized": false
-  },
-  {
-    "place": "Antibes",
-    "cote": "3 Q 36 à 37",
-    "yearStart": 1791,
-    "yearEnd": 1816,
-    "url": "https://archives06.fr/ark:/79346/2343682",
-    "digitized": false
-  },
-  {
-    "place": "Antibes",
     "cote": "3 Q 36",
     "yearStart": 1791,
     "yearEnd": 1808,
@@ -30,22 +14,6 @@
     "yearEnd": 1816,
     "url": "https://archives06.fr/ark:/79346/760909.2343684",
     "digitized": false
-  },
-  {
-    "place": "Antibes",
-    "cote": "3 Q 1 à 61, 63, 65 à 368, 370 à 386, 388 à 495, 498 à 755",
-    "yearStart": 1759,
-    "yearEnd": 1958,
-    "url": "https://archives06.fr/ark:/79346/2343641",
-    "digitized": true
-  },
-  {
-    "place": "Antibes",
-    "cote": "3 Q 43 à 59",
-    "yearStart": 1816,
-    "yearEnd": 1946,
-    "url": "https://archives06.fr/ark:/79346/2343691",
-    "digitized": true
   },
   {
     "place": "Antibes",
@@ -181,6 +149,1774 @@
     "yearStart": 1943,
     "yearEnd": 1946,
     "url": "https://archives06.fr/ark:/79346/761073.2343708",
+    "digitized": true
+  },
+  {
+    "place": "Bar-sur-Loup",
+    "cote": "3 Q 756",
+    "yearStart": 1849,
+    "yearEnd": 1874,
+    "url": "https://archives06.fr/ark:/79346/766073.2344417",
+    "digitized": true
+  },
+  {
+    "place": "Bar-sur-Loup",
+    "cote": "3 Q 757",
+    "yearStart": 1875,
+    "yearEnd": 1893,
+    "url": "https://archives06.fr/ark:/79346/766079.2344418",
+    "digitized": true
+  },
+  {
+    "place": "Bar-sur-Loup",
+    "cote": "3 Q 758",
+    "yearStart": 1893,
+    "yearEnd": 1919,
+    "url": "https://archives06.fr/ark:/79346/766086.2344419",
+    "digitized": true
+  },
+  {
+    "place": "Bar-sur-Loup",
+    "cote": "3 Q 759",
+    "yearStart": 1919,
+    "yearEnd": 1934,
+    "url": "https://archives06.fr/ark:/79346/766093.2344420",
+    "digitized": true
+  },
+  {
+    "place": "Breil-sur-Roya",
+    "cote": "3 Q 945",
+    "yearStart": 1860,
+    "yearEnd": 1889,
+    "url": "https://archives06.fr/ark:/79346/767386.2344616",
+    "digitized": true
+  },
+  {
+    "place": "Breil-sur-Roya",
+    "cote": "3 Q 946",
+    "yearStart": 1889,
+    "yearEnd": 1920,
+    "url": "https://archives06.fr/ark:/79346/767394.2344617",
+    "digitized": true
+  },
+  {
+    "place": "Breil-sur-Roya",
+    "cote": "3 Q 947",
+    "yearStart": 1920,
+    "yearEnd": 1940,
+    "url": "https://archives06.fr/ark:/79346/767401.2344618",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1115",
+    "yearStart": 1852,
+    "yearEnd": 1870,
+    "url": "https://archives06.fr/ark:/79346/768602.2344799",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1116",
+    "yearStart": 1871,
+    "yearEnd": 1888,
+    "url": "https://archives06.fr/ark:/79346/768608.2344800",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1117",
+    "yearStart": 1889,
+    "yearEnd": 1905,
+    "url": "https://archives06.fr/ark:/79346/768615.2344801",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1118",
+    "yearStart": 1905,
+    "yearEnd": 1920,
+    "url": "https://archives06.fr/ark:/79346/768621.2344802",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1119",
+    "yearStart": 1921,
+    "yearEnd": 1933,
+    "url": "https://archives06.fr/ark:/79346/768630.2344803",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1120",
+    "yearStart": 1934,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/768635.2344804",
+    "digitized": true
+  },
+  {
+    "place": "Cagnes-sur-Mer",
+    "cote": "3 Q 1121",
+    "yearStart": 1943,
+    "yearEnd": 1953,
+    "url": "https://archives06.fr/ark:/79346/768643.2344805",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1540",
+    "yearStart": 1824,
+    "yearEnd": 1840,
+    "url": "https://archives06.fr/ark:/79346/771622.2345245",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1541",
+    "yearStart": 1841,
+    "yearEnd": 1850,
+    "url": "https://archives06.fr/ark:/79346/771633.2345246",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1542",
+    "yearStart": 1851,
+    "yearEnd": 1861,
+    "url": "https://archives06.fr/ark:/79346/771640.2345247",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1543",
+    "yearStart": 1861,
+    "yearEnd": 1868,
+    "url": "https://archives06.fr/ark:/79346/771649.2345248",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1544",
+    "yearStart": 1869,
+    "yearEnd": 1874,
+    "url": "https://archives06.fr/ark:/79346/771657.2345249",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1545",
+    "yearStart": 1875,
+    "yearEnd": 1879,
+    "url": "https://archives06.fr/ark:/79346/771664.2345250",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1546",
+    "yearStart": 1880,
+    "yearEnd": 1883,
+    "url": "https://archives06.fr/ark:/79346/771670.2345251",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1547",
+    "yearStart": 1884,
+    "yearEnd": 1889,
+    "url": "https://archives06.fr/ark:/79346/771676.2345252",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1548",
+    "yearStart": 1890,
+    "yearEnd": 1894,
+    "url": "https://archives06.fr/ark:/79346/771683.2345253",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1549",
+    "yearStart": 1894,
+    "yearEnd": 1899,
+    "url": "https://archives06.fr/ark:/79346/771692.2345254",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1554",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives06.fr/ark:/79346/771702.2345255",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1555",
+    "yearStart": 1919,
+    "yearEnd": 1922,
+    "url": "https://archives06.fr/ark:/79346/771707.2345256",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1556",
+    "yearStart": 1922,
+    "yearEnd": 1924,
+    "url": "https://archives06.fr/ark:/79346/771713.2345257",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1557",
+    "yearStart": 1925,
+    "yearEnd": 1927,
+    "url": "https://archives06.fr/ark:/79346/771723.2345258",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1558",
+    "yearStart": 1928,
+    "yearEnd": 1930,
+    "url": "https://archives06.fr/ark:/79346/771730.2345259",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1559",
+    "yearStart": 1930,
+    "yearEnd": 1933,
+    "url": "https://archives06.fr/ark:/79346/771737.2345260",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1560",
+    "yearStart": 1933,
+    "yearEnd": 1936,
+    "url": "https://archives06.fr/ark:/79346/771745.2345261",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1561",
+    "yearStart": 1936,
+    "yearEnd": 1939,
+    "url": "https://archives06.fr/ark:/79346/771753.2345262",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1562",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://archives06.fr/ark:/79346/771760.2345263",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1563",
+    "yearStart": 1942,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/771768.2345264",
+    "digitized": true
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1564",
+    "yearStart": 1943,
+    "yearEnd": 1945,
+    "url": "https://archives06.fr/ark:/79346/771775.2345265",
+    "digitized": true
+  },
+  {
+    "place": "Contes",
+    "cote": "3 Q 2646",
+    "yearStart": 1861,
+    "yearEnd": 1880,
+    "url": "https://archives06.fr/ark:/79346/778988.2346350",
+    "digitized": true
+  },
+  {
+    "place": "Contes",
+    "cote": "3 Q 2647",
+    "yearStart": 1881,
+    "yearEnd": 1901,
+    "url": "https://archives06.fr/ark:/79346/778996.2346351",
+    "digitized": true
+  },
+  {
+    "place": "Contes",
+    "cote": "3 Q 2648",
+    "yearStart": 1902,
+    "yearEnd": 1927,
+    "url": "https://archives06.fr/ark:/79346/779005.2346352",
+    "digitized": true
+  },
+  {
+    "place": "Contes",
+    "cote": "3 Q 2649",
+    "yearStart": 1928,
+    "yearEnd": 1941,
+    "url": "https://archives06.fr/ark:/79346/779011.2346353",
+    "digitized": true
+  },
+  {
+    "place": "Contes",
+    "cote": "3 Q 2650",
+    "yearStart": 1942,
+    "yearEnd": 1954,
+    "url": "https://archives06.fr/ark:/79346/779018.2346354",
+    "digitized": true
+  },
+  {
+    "place": "Coursegoules",
+    "cote": "3 Q 2898",
+    "yearStart": 1860,
+    "yearEnd": 1897,
+    "url": "https://archives06.fr/ark:/79346/780773.2346619",
+    "digitized": true
+  },
+  {
+    "place": "Coursegoules",
+    "cote": "3 Q 2899",
+    "yearStart": 1897,
+    "yearEnd": 1908,
+    "url": "https://archives06.fr/ark:/79346/780781.2346620",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3227",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives06.fr/ark:/79346/783039.2346976",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3228",
+    "yearStart": 1832,
+    "yearEnd": 1838,
+    "url": "https://archives06.fr/ark:/79346/783046.2346977",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3229",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives06.fr/ark:/79346/783054.2346978",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3230",
+    "yearStart": 1845,
+    "yearEnd": 1852,
+    "url": "https://archives06.fr/ark:/79346/783060.2346979",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3231",
+    "yearStart": 1852,
+    "yearEnd": 1856,
+    "url": "https://archives06.fr/ark:/79346/783066.2346980",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3232",
+    "yearStart": 1856,
+    "yearEnd": 1862,
+    "url": "https://archives06.fr/ark:/79346/783074.2346981",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3233",
+    "yearStart": 1862,
+    "yearEnd": 1864,
+    "url": "https://archives06.fr/ark:/79346/783081.2346982",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3234",
+    "yearStart": 1865,
+    "yearEnd": 1870,
+    "url": "https://archives06.fr/ark:/79346/783088.2346983",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3235",
+    "yearStart": 1871,
+    "yearEnd": 1875,
+    "url": "https://archives06.fr/ark:/79346/783095.2346984",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3236",
+    "yearStart": 1875,
+    "yearEnd": 1883,
+    "url": "https://archives06.fr/ark:/79346/783103.2346985",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3237",
+    "yearStart": 1883,
+    "yearEnd": 1891,
+    "url": "https://archives06.fr/ark:/79346/783110.2346986",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3238",
+    "yearStart": 1892,
+    "yearEnd": 1900,
+    "url": "https://archives06.fr/ark:/79346/783116.2346987",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3239",
+    "yearStart": 1901,
+    "yearEnd": 1911,
+    "url": "https://archives06.fr/ark:/79346/783123.2346988",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3240",
+    "yearStart": 1911,
+    "yearEnd": 1917,
+    "url": "https://archives06.fr/ark:/79346/783131.2346989",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3241",
+    "yearStart": 1917,
+    "yearEnd": 1922,
+    "url": "https://archives06.fr/ark:/79346/783139.2346990",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3242",
+    "yearStart": 1922,
+    "yearEnd": 1927,
+    "url": "https://archives06.fr/ark:/79346/783145.2346991",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3243",
+    "yearStart": 1927,
+    "yearEnd": 1932,
+    "url": "https://archives06.fr/ark:/79346/783155.2346992",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3244",
+    "yearStart": 1933,
+    "yearEnd": 1938,
+    "url": "https://archives06.fr/ark:/79346/783162.2346993",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3245",
+    "yearStart": 1939,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/783170.2346994",
+    "digitized": true
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3246",
+    "yearStart": 1943,
+    "yearEnd": 1948,
+    "url": "https://archives06.fr/ark:/79346/783175.2346995",
+    "digitized": true
+  },
+  {
+    "place": "Guillaumes",
+    "cote": "3 Q 4390",
+    "yearStart": 1860,
+    "yearEnd": 1877,
+    "url": "https://archives06.fr/ark:/79346/791278.2348152",
+    "digitized": true
+  },
+  {
+    "place": "Guillaumes",
+    "cote": "3 Q 4391",
+    "yearStart": 1878,
+    "yearEnd": 1898,
+    "url": "https://archives06.fr/ark:/79346/791284.2348153",
+    "digitized": true
+  },
+  {
+    "place": "Guillaumes",
+    "cote": "3 Q 4392",
+    "yearStart": 1898,
+    "yearEnd": 1925,
+    "url": "https://archives06.fr/ark:/79346/791293.2348154",
+    "digitized": true
+  },
+  {
+    "place": "L'Escarène",
+    "cote": "3 Q 2969",
+    "yearStart": 1860,
+    "yearEnd": 1879,
+    "url": "https://archives06.fr/ark:/79346/781256.2346697",
+    "digitized": true
+  },
+  {
+    "place": "L'Escarène",
+    "cote": "3 Q 2970",
+    "yearStart": 1880,
+    "yearEnd": 1904,
+    "url": "https://archives06.fr/ark:/79346/781261.2346698",
+    "digitized": true
+  },
+  {
+    "place": "L'Escarène",
+    "cote": "3 Q 2971",
+    "yearStart": 1904,
+    "yearEnd": 1926,
+    "url": "https://archives06.fr/ark:/79346/781268.2346699",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4722",
+    "yearStart": 1860,
+    "yearEnd": 1871,
+    "url": "https://archives06.fr/ark:/79346/793567.2348501",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4723",
+    "yearStart": 1872,
+    "yearEnd": 1881,
+    "url": "https://archives06.fr/ark:/79346/793574.2348502",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4724",
+    "yearStart": 1881,
+    "yearEnd": 1893,
+    "url": "https://archives06.fr/ark:/79346/793581.2348503",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4725",
+    "yearStart": 1894,
+    "yearEnd": 1909,
+    "url": "https://archives06.fr/ark:/79346/793588.2348504",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4726",
+    "yearStart": 1909,
+    "yearEnd": 1921,
+    "url": "https://archives06.fr/ark:/79346/793595.2348505",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4727",
+    "yearStart": 1922,
+    "yearEnd": 1936,
+    "url": "https://archives06.fr/ark:/79346/793604.2348506",
+    "digitized": true
+  },
+  {
+    "place": "Levens",
+    "cote": "3 Q 4728",
+    "yearStart": 1937,
+    "yearEnd": 1947,
+    "url": "https://archives06.fr/ark:/79346/793610.2348507",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5740",
+    "yearStart": 1860,
+    "yearEnd": 1862,
+    "url": "https://archives06.fr/ark:/79346/800892.2349561",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5741",
+    "yearStart": 1862,
+    "yearEnd": 1863,
+    "url": "https://archives06.fr/ark:/79346/800901.2349562",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5742",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/800908.2349563",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5743",
+    "yearStart": 1865,
+    "yearEnd": 1866,
+    "url": "https://archives06.fr/ark:/79346/800913.2349564",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5744",
+    "yearStart": 1867,
+    "yearEnd": 1868,
+    "url": "https://archives06.fr/ark:/79346/800920.2349565",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5745",
+    "yearStart": 1868,
+    "yearEnd": 1870,
+    "url": "https://archives06.fr/ark:/79346/800927.2349566",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5746",
+    "yearStart": 1870,
+    "yearEnd": 1872,
+    "url": "https://archives06.fr/ark:/79346/800935.2349567",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5747",
+    "yearStart": 1872,
+    "yearEnd": 1873,
+    "url": "https://archives06.fr/ark:/79346/800941.2349568",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5748",
+    "yearStart": 1873,
+    "yearEnd": 1875,
+    "url": "https://archives06.fr/ark:/79346/800949.2349569",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5749",
+    "yearStart": 1875,
+    "yearEnd": 1877,
+    "url": "https://archives06.fr/ark:/79346/800957.2349570",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5750",
+    "yearStart": 1877,
+    "yearEnd": 1879,
+    "url": "https://archives06.fr/ark:/79346/800963.2349571",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5751",
+    "yearStart": 1879,
+    "yearEnd": 1881,
+    "url": "https://archives06.fr/ark:/79346/800970.2349572",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5752",
+    "yearStart": 1881,
+    "yearEnd": 1882,
+    "url": "https://archives06.fr/ark:/79346/800977.2349573",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5753",
+    "yearStart": 1882,
+    "yearEnd": 1883,
+    "url": "https://archives06.fr/ark:/79346/800984.2349574",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5754",
+    "yearStart": 1883,
+    "yearEnd": 1884,
+    "url": "https://archives06.fr/ark:/79346/800992.2349575",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5755",
+    "yearStart": 1885,
+    "yearEnd": 1886,
+    "url": "https://archives06.fr/ark:/79346/800998.2349576",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5756",
+    "yearStart": 1886,
+    "yearEnd": 1887,
+    "url": "https://archives06.fr/ark:/79346/801004.2349577",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5757",
+    "yearStart": 1888,
+    "yearEnd": 1889,
+    "url": "https://archives06.fr/ark:/79346/801013.2349578",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5758",
+    "yearStart": 1889,
+    "yearEnd": 1891,
+    "url": "https://archives06.fr/ark:/79346/801019.2349579",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5759",
+    "yearStart": 1891,
+    "yearEnd": 1892,
+    "url": "https://archives06.fr/ark:/79346/801028.2349580",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5760",
+    "yearStart": 1892,
+    "yearEnd": 1894,
+    "url": "https://archives06.fr/ark:/79346/801036.2349581",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5761",
+    "yearStart": 1894,
+    "yearEnd": 1895,
+    "url": "https://archives06.fr/ark:/79346/801043.2349582",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5762",
+    "yearStart": 1896,
+    "yearEnd": 1897,
+    "url": "https://archives06.fr/ark:/79346/801050.2349583",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5763",
+    "yearStart": 1897,
+    "yearEnd": 1899,
+    "url": "https://archives06.fr/ark:/79346/801058.2349584",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5764",
+    "yearStart": 1899,
+    "yearEnd": 1900,
+    "url": "https://archives06.fr/ark:/79346/801066.2349585",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5765",
+    "yearStart": 1900,
+    "yearEnd": 1901,
+    "url": "https://archives06.fr/ark:/79346/801072.2349586",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5766",
+    "yearStart": 1902,
+    "yearEnd": 1903,
+    "url": "https://archives06.fr/ark:/79346/801078.2349587",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5767",
+    "yearStart": 1903,
+    "yearEnd": 1904,
+    "url": "https://archives06.fr/ark:/79346/801088.2349588",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5768",
+    "yearStart": 1905,
+    "yearEnd": 1906,
+    "url": "https://archives06.fr/ark:/79346/801094.2349589",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5769",
+    "yearStart": 1906,
+    "yearEnd": 1907,
+    "url": "https://archives06.fr/ark:/79346/801100.2349590",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5770",
+    "yearStart": 1907,
+    "yearEnd": 1908,
+    "url": "https://archives06.fr/ark:/79346/801108.2349591",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5771",
+    "yearStart": 1908,
+    "yearEnd": 1909,
+    "url": "https://archives06.fr/ark:/79346/801115.2349592",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5772",
+    "yearStart": 1909,
+    "yearEnd": 1910,
+    "url": "https://archives06.fr/ark:/79346/801121.2349593",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5773",
+    "yearStart": 1910,
+    "yearEnd": 1911,
+    "url": "https://archives06.fr/ark:/79346/801126.2349594",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5774",
+    "yearStart": 1911,
+    "yearEnd": 1911,
+    "url": "https://archives06.fr/ark:/79346/801134.2349595",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5775",
+    "yearStart": 1911,
+    "yearEnd": 1912,
+    "url": "https://archives06.fr/ark:/79346/801142.2349596",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5776",
+    "yearStart": 1912,
+    "yearEnd": 1913,
+    "url": "https://archives06.fr/ark:/79346/801148.2349597",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5777",
+    "yearStart": 1913,
+    "yearEnd": 1914,
+    "url": "https://archives06.fr/ark:/79346/801156.2349598",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5778",
+    "yearStart": 1914,
+    "yearEnd": 1915,
+    "url": "https://archives06.fr/ark:/79346/801162.2349599",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5779",
+    "yearStart": 1915,
+    "yearEnd": 1916,
+    "url": "https://archives06.fr/ark:/79346/801168.2349600",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5780",
+    "yearStart": 1916,
+    "yearEnd": 1917,
+    "url": "https://archives06.fr/ark:/79346/801178.2349601",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5781",
+    "yearStart": 1917,
+    "yearEnd": 1917,
+    "url": "https://archives06.fr/ark:/79346/801187.2349602",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5782",
+    "yearStart": 1918,
+    "yearEnd": 1918,
+    "url": "https://archives06.fr/ark:/79346/801194.2349603",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5783",
+    "yearStart": 1918,
+    "yearEnd": 1919,
+    "url": "https://archives06.fr/ark:/79346/801202.2349604",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5784",
+    "yearStart": 1919,
+    "yearEnd": 1919,
+    "url": "https://archives06.fr/ark:/79346/801208.2349605",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5785",
+    "yearStart": 1920,
+    "yearEnd": 1920,
+    "url": "https://archives06.fr/ark:/79346/801212.2349606",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5786",
+    "yearStart": 1920,
+    "yearEnd": 1921,
+    "url": "https://archives06.fr/ark:/79346/801219.2349607",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5787",
+    "yearStart": 1921,
+    "yearEnd": 1922,
+    "url": "https://archives06.fr/ark:/79346/801226.2349608",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5788",
+    "yearStart": 1922,
+    "yearEnd": 1923,
+    "url": "https://archives06.fr/ark:/79346/801234.2349609",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5789",
+    "yearStart": 1923,
+    "yearEnd": 1923,
+    "url": "https://archives06.fr/ark:/79346/801242.2349610",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5790",
+    "yearStart": 1923,
+    "yearEnd": 1924,
+    "url": "https://archives06.fr/ark:/79346/801251.2349611",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5791",
+    "yearStart": 1924,
+    "yearEnd": 1925,
+    "url": "https://archives06.fr/ark:/79346/801261.2349612",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5792",
+    "yearStart": 1925,
+    "yearEnd": 1926,
+    "url": "https://archives06.fr/ark:/79346/801266.2349613",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5793",
+    "yearStart": 1926,
+    "yearEnd": 1927,
+    "url": "https://archives06.fr/ark:/79346/801273.2349614",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5794",
+    "yearStart": 1927,
+    "yearEnd": 1929,
+    "url": "https://archives06.fr/ark:/79346/801279.2349615",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5795",
+    "yearStart": 1929,
+    "yearEnd": 1930,
+    "url": "https://archives06.fr/ark:/79346/801283.2349616",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5796",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://archives06.fr/ark:/79346/801291.2349617",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5797",
+    "yearStart": 1931,
+    "yearEnd": 1932,
+    "url": "https://archives06.fr/ark:/79346/801297.2349618",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5798",
+    "yearStart": 1933,
+    "yearEnd": 1934,
+    "url": "https://archives06.fr/ark:/79346/801305.2349619",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5799",
+    "yearStart": 1934,
+    "yearEnd": 1935,
+    "url": "https://archives06.fr/ark:/79346/801312.2349620",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5800",
+    "yearStart": 1935,
+    "yearEnd": 1936,
+    "url": "https://archives06.fr/ark:/79346/801319.2349621",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5801",
+    "yearStart": 1937,
+    "yearEnd": 1938,
+    "url": "https://archives06.fr/ark:/79346/801326.2349622",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5802",
+    "yearStart": 1938,
+    "yearEnd": 1939,
+    "url": "https://archives06.fr/ark:/79346/801335.2349623",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5803",
+    "yearStart": 1939,
+    "yearEnd": 1940,
+    "url": "https://archives06.fr/ark:/79346/801346.2349624",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5804",
+    "yearStart": 1940,
+    "yearEnd": 1941,
+    "url": "https://archives06.fr/ark:/79346/801354.2349625",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5805",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://archives06.fr/ark:/79346/801361.2349626",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5806",
+    "yearStart": 1942,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/801369.2349627",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5807",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/801376.2349628",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5808",
+    "yearStart": 1925,
+    "yearEnd": 1927,
+    "url": "https://archives06.fr/ark:/79346/801385.2349630",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5809",
+    "yearStart": 1927,
+    "yearEnd": 1929,
+    "url": "https://archives06.fr/ark:/79346/801394.2349631",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5810",
+    "yearStart": 1929,
+    "yearEnd": 1930,
+    "url": "https://archives06.fr/ark:/79346/801402.2349632",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5811",
+    "yearStart": 1930,
+    "yearEnd": 1931,
+    "url": "https://archives06.fr/ark:/79346/801411.2349633",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5812",
+    "yearStart": 1932,
+    "yearEnd": 1934,
+    "url": "https://archives06.fr/ark:/79346/801417.2349634",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5813",
+    "yearStart": 1934,
+    "yearEnd": 1935,
+    "url": "https://archives06.fr/ark:/79346/801424.2349635",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5814",
+    "yearStart": 1936,
+    "yearEnd": 1937,
+    "url": "https://archives06.fr/ark:/79346/801432.2349636",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5815",
+    "yearStart": 1937,
+    "yearEnd": 1939,
+    "url": "https://archives06.fr/ark:/79346/801437.2349637",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5816",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://archives06.fr/ark:/79346/801444.2349638",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5817",
+    "yearStart": 1941,
+    "yearEnd": 1942,
+    "url": "https://archives06.fr/ark:/79346/801454.2349639",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5818",
+    "yearStart": 1942,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/801461.2349640",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5819",
+    "yearStart": 1943,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/801469.2349641",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5820",
+    "yearStart": 1944,
+    "yearEnd": 1945,
+    "url": "https://archives06.fr/ark:/79346/801475.2349643",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5821",
+    "yearStart": 1944,
+    "yearEnd": 1945,
+    "url": "https://archives06.fr/ark:/79346/801484.2349644",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5822",
+    "yearStart": 1944,
+    "yearEnd": 1946,
+    "url": "https://archives06.fr/ark:/79346/801491.2349645",
+    "digitized": true
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5823",
+    "yearStart": 1944,
+    "yearEnd": 1946,
+    "url": "https://archives06.fr/ark:/79346/801499.2349646",
+    "digitized": true
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10038",
+    "yearStart": 1860,
+    "yearEnd": 1873,
+    "url": "https://archives06.fr/ark:/79346/832819.2353916",
+    "digitized": true
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10039",
+    "yearStart": 1874,
+    "yearEnd": 1892,
+    "url": "https://archives06.fr/ark:/79346/832827.2353917",
+    "digitized": true
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10040",
+    "yearStart": 1893,
+    "yearEnd": 1922,
+    "url": "https://archives06.fr/ark:/79346/832832.2353919",
+    "digitized": true
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10041",
+    "yearStart": 1923,
+    "yearEnd": 1943,
+    "url": "https://archives06.fr/ark:/79346/832839.2353920",
+    "digitized": true
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10463",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives06.fr/ark:/79346/835646.2354369",
+    "digitized": false
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10464",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives06.fr/ark:/79346/835653.2354370",
+    "digitized": false
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10465",
+    "yearStart": 1860,
+    "yearEnd": 1878,
+    "url": "https://archives06.fr/ark:/79346/835660.2354371",
+    "digitized": true
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10466",
+    "yearStart": 1878,
+    "yearEnd": 1898,
+    "url": "https://archives06.fr/ark:/79346/835666.2354372",
+    "digitized": true
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10467",
+    "yearStart": 1898,
+    "yearEnd": 1925,
+    "url": "https://archives06.fr/ark:/79346/835673.2354373",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Auban",
+    "cote": "3 Q 10587",
+    "yearStart": 1853,
+    "yearEnd": 1873,
+    "url": "https://archives06.fr/ark:/79346/836584.2354504",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Auban",
+    "cote": "3 Q 10588",
+    "yearStart": 1873,
+    "yearEnd": 1896,
+    "url": "https://archives06.fr/ark:/79346/836590.2354505",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Auban",
+    "cote": "3 Q 10589",
+    "yearStart": 1897,
+    "yearEnd": 1925,
+    "url": "https://archives06.fr/ark:/79346/836598.2354506",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Etienne-de-Tinée",
+    "cote": "3 Q 10698",
+    "yearStart": 1821,
+    "yearEnd": 1843,
+    "url": "https://archives06.fr/ark:/79346/837488.2354630",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Etienne-de-Tinée",
+    "cote": "3 Q 10699",
+    "yearStart": 1843,
+    "yearEnd": 1856,
+    "url": "https://archives06.fr/ark:/79346/837496.2354631",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Etienne-de-Tinée",
+    "cote": "3 Q 10700",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://archives06.fr/ark:/79346/837503.2354632",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Etienne-de-Tinée",
+    "cote": "3 Q 10701",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/837511.2354634",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Etienne-de-Tinée",
+    "cote": "3 Q 10702",
+    "yearStart": 1879,
+    "yearEnd": 1904,
+    "url": "https://archives06.fr/ark:/79346/837518.2354635",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Etienne-de-Tinée",
+    "cote": "3 Q 10703",
+    "yearStart": 1905,
+    "yearEnd": 1925,
+    "url": "https://archives06.fr/ark:/79346/837526.2354636",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-Vésubie",
+    "cote": "3 Q 10912",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives06.fr/ark:/79346/839106.2354862",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-Vésubie",
+    "cote": "3 Q 10913",
+    "yearStart": 1870,
+    "yearEnd": 1880,
+    "url": "https://archives06.fr/ark:/79346/839116.2354863",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-Vésubie",
+    "cote": "3 Q 10914",
+    "yearStart": 1880,
+    "yearEnd": 1897,
+    "url": "https://archives06.fr/ark:/79346/839124.2354864",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-Vésubie",
+    "cote": "3 Q 10915",
+    "yearStart": 1897,
+    "yearEnd": 1922,
+    "url": "https://archives06.fr/ark:/79346/839130.2354865",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-Vésubie",
+    "cote": "3 Q 10916",
+    "yearStart": 1922,
+    "yearEnd": 1942,
+    "url": "https://archives06.fr/ark:/79346/839140.2354866",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Martin-Vésubie",
+    "cote": "3 Q 10917",
+    "yearStart": 1943,
+    "yearEnd": 1955,
+    "url": "https://archives06.fr/ark:/79346/839149.2354867",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Sauveur-sur-Tinée",
+    "cote": "3 Q 11253",
+    "yearStart": 1861,
+    "yearEnd": 1875,
+    "url": "https://archives06.fr/ark:/79346/841672.2355222",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Sauveur-sur-Tinée",
+    "cote": "3 Q 11254",
+    "yearStart": 1875,
+    "yearEnd": 1889,
+    "url": "https://archives06.fr/ark:/79346/841681.2355223",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Sauveur-sur-Tinée",
+    "cote": "3 Q 11255",
+    "yearStart": 1889,
+    "yearEnd": 1916,
+    "url": "https://archives06.fr/ark:/79346/841689.2355224",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Sauveur-sur-Tinée",
+    "cote": "3 Q 11256",
+    "yearStart": 1916,
+    "yearEnd": 1937,
+    "url": "https://archives06.fr/ark:/79346/841695.2355225",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Sauveur-sur-Tinée",
+    "cote": "3 Q 11257/1",
+    "yearStart": 1937,
+    "yearEnd": 1955,
+    "url": "https://archives06.fr/ark:/79346/841703.2355226",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11424",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives06.fr/ark:/79346/842936.2355404",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11425",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives06.fr/ark:/79346/842944.2355405",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11426",
+    "yearStart": 1834,
+    "yearEnd": 1843,
+    "url": "https://archives06.fr/ark:/79346/842950.2355406",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11427",
+    "yearStart": 1843,
+    "yearEnd": 1854,
+    "url": "https://archives06.fr/ark:/79346/842957.2355407",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11428",
+    "yearStart": 1856,
+    "yearEnd": 1884,
+    "url": "https://archives06.fr/ark:/79346/842964.2355408",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11429",
+    "yearStart": 1885,
+    "yearEnd": 1905,
+    "url": "https://archives06.fr/ark:/79346/842971.2355409",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11430",
+    "yearStart": 1906,
+    "yearEnd": 1908,
+    "url": "https://archives06.fr/ark:/79346/842979.2355410",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11431",
+    "yearStart": 1927,
+    "yearEnd": 1946,
+    "url": "https://archives06.fr/ark:/79346/842993.2355411",
+    "digitized": true
+  },
+  {
+    "place": "Sospel",
+    "cote": "3 Q 11670",
+    "yearStart": 1870,
+    "yearEnd": 1882,
+    "url": "https://archives06.fr/ark:/79346/844723.2355666",
+    "digitized": true
+  },
+  {
+    "place": "Sospel",
+    "cote": "3 Q 11671",
+    "yearStart": 1882,
+    "yearEnd": 1902,
+    "url": "https://archives06.fr/ark:/79346/844730.2355667",
+    "digitized": true
+  },
+  {
+    "place": "Sospel",
+    "cote": "3 Q 11672",
+    "yearStart": 1902,
+    "yearEnd": 1926,
+    "url": "https://archives06.fr/ark:/79346/844739.2355668",
+    "digitized": true
+  },
+  {
+    "place": "Sospel",
+    "cote": "3 Q 11673",
+    "yearStart": 1941,
+    "yearEnd": 1958,
+    "url": "https://archives06.fr/ark:/79346/844746.2355669",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12137",
+    "yearStart": 1824,
+    "yearEnd": 1835,
+    "url": "https://archives06.fr/ark:/79346/847998.2356169",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12138",
+    "yearStart": 1836,
+    "yearEnd": 1843,
+    "url": "https://archives06.fr/ark:/79346/848005.2356170",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12139",
+    "yearStart": 1844,
+    "yearEnd": 1851,
+    "url": "https://archives06.fr/ark:/79346/848014.2356171",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12140",
+    "yearStart": 1851,
+    "yearEnd": 1856,
+    "url": "https://archives06.fr/ark:/79346/848018.2356172",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12141",
+    "yearStart": 1857,
+    "yearEnd": 1864,
+    "url": "https://archives06.fr/ark:/79346/848024.2356173",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12142",
+    "yearStart": 1864,
+    "yearEnd": 1870,
+    "url": "https://archives06.fr/ark:/79346/848033.2356174",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12143",
+    "yearStart": 1870,
+    "yearEnd": 1878,
+    "url": "https://archives06.fr/ark:/79346/848041.2356175",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12144",
+    "yearStart": 1878,
+    "yearEnd": 1891,
+    "url": "https://archives06.fr/ark:/79346/848044.2356176",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12145",
+    "yearStart": 1891,
+    "yearEnd": 1903,
+    "url": "https://archives06.fr/ark:/79346/848052.2356177",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12146",
+    "yearStart": 1904,
+    "yearEnd": 1922,
+    "url": "https://archives06.fr/ark:/79346/848060.2356178",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12147",
+    "yearStart": 1923,
+    "yearEnd": 1937,
+    "url": "https://archives06.fr/ark:/79346/848066.2356179",
+    "digitized": true
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12148",
+    "yearStart": 1937,
+    "yearEnd": 1951,
+    "url": "https://archives06.fr/ark:/79346/848071.2356180",
+    "digitized": true
+  },
+  {
+    "place": "Villars-sur-Var",
+    "cote": "3 Q 12591",
+    "yearStart": 1860,
+    "yearEnd": 1877,
+    "url": "https://archives06.fr/ark:/79346/851275.2356644",
+    "digitized": true
+  },
+  {
+    "place": "Villars-sur-Var",
+    "cote": "3 Q 12592",
+    "yearStart": 1877,
+    "yearEnd": 1897,
+    "url": "https://archives06.fr/ark:/79346/851278.2356645",
+    "digitized": true
+  },
+  {
+    "place": "Villars-sur-Var",
+    "cote": "3 Q 12593",
+    "yearStart": 1897,
+    "yearEnd": 1927,
+    "url": "https://archives06.fr/ark:/79346/851289.2356646",
+    "digitized": true
+  },
+  {
+    "place": "Villefranche-sur-Mer",
+    "cote": "3 Q 12690",
+    "yearStart": 1892,
+    "yearEnd": 1904,
+    "url": "https://archives06.fr/ark:/79346/852034.2356752",
+    "digitized": true
+  },
+  {
+    "place": "Villefranche-sur-Mer",
+    "cote": "3 Q 12691",
+    "yearStart": 1905,
+    "yearEnd": 1916,
+    "url": "https://archives06.fr/ark:/79346/852042.2356753",
+    "digitized": true
+  },
+  {
+    "place": "Villefranche-sur-Mer",
+    "cote": "3 Q 12692",
+    "yearStart": 1916,
+    "yearEnd": 1924,
+    "url": "https://archives06.fr/ark:/79346/852050.2356754",
+    "digitized": true
+  },
+  {
+    "place": "Villefranche-sur-Mer",
+    "cote": "3 Q 12693",
+    "yearStart": 1925,
+    "yearEnd": 1931,
+    "url": "https://archives06.fr/ark:/79346/852058.2356755",
+    "digitized": true
+  },
+  {
+    "place": "Villefranche-sur-Mer",
+    "cote": "3 Q 12694",
+    "yearStart": 1931,
+    "yearEnd": 1939,
+    "url": "https://archives06.fr/ark:/79346/852062.2356756",
+    "digitized": true
+  },
+  {
+    "place": "Villefranche-sur-Mer",
+    "cote": "3 Q 12695",
+    "yearStart": 1939,
+    "yearEnd": 1946,
+    "url": "https://archives06.fr/ark:/79346/852068.2356757",
     "digitized": true
   }
 ]

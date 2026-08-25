@@ -1,0 +1,4340 @@
+[
+  {
+    "cote": "3 Q 189",
+    "dateText": "1821 – 18383",
+    "yearStart": 1821,
+    "yearEnd": 1838,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 190",
+    "dateText": "1838 – 1851",
+    "yearStart": 1838,
+    "yearEnd": 1851,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 191",
+    "dateText": "1852 – 1864",
+    "yearStart": 1852,
+    "yearEnd": 1864,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 192",
+    "dateText": "1860 – 1875",
+    "yearStart": 1860,
+    "yearEnd": 1875,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=12",
+    "digitized": false,
+    "place": "Ax-les-Thermes"
+  },
+  {
+    "cote": "3 Q 310",
+    "dateText": "1847 – 1854",
+    "yearStart": 1847,
+    "yearEnd": 1854,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 311",
+    "dateText": "1855 – 1870",
+    "yearStart": 1855,
+    "yearEnd": 1870,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 7593",
+    "dateText": "1871 – 1888",
+    "yearStart": 1871,
+    "yearEnd": 1888,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 312",
+    "dateText": "1889 – 1903",
+    "yearStart": 1889,
+    "yearEnd": 1903,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 7594",
+    "dateText": "1903 – 1933",
+    "yearStart": 1903,
+    "yearEnd": 1933,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 7595",
+    "dateText": "1934 – 1958",
+    "yearStart": 1934,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=21",
+    "digitized": false,
+    "place": "Bastide-De-Serou"
+  },
+  {
+    "cote": "3 Q 336",
+    "dateText": "1865 – 1889",
+    "yearStart": 1865,
+    "yearEnd": 1889,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=27",
+    "digitized": false,
+    "place": "Les Cabannes"
+  },
+  {
+    "cote": "3 Q 7483",
+    "dateText": "1889 – 1919",
+    "yearStart": 1889,
+    "yearEnd": 1919,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=27",
+    "digitized": false,
+    "place": "Les Cabannes"
+  },
+  {
+    "cote": "3 Q 7484",
+    "dateText": "1920 – 1934",
+    "yearStart": 1920,
+    "yearEnd": 1934,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=27",
+    "digitized": false,
+    "place": "Les Cabannes"
+  },
+  {
+    "cote": "3Q726",
+    "dateText": "1825 – 1837",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q727",
+    "dateText": "1837 – 1845",
+    "yearStart": 1837,
+    "yearEnd": 1845,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q728",
+    "dateText": "1845 – 1851",
+    "yearStart": 1845,
+    "yearEnd": 1851,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q729",
+    "dateText": "1851 – 1855",
+    "yearStart": 1851,
+    "yearEnd": 1855,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q730",
+    "dateText": "1855 – 1860",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q731",
+    "dateText": "1861 – 1864",
+    "yearStart": 1861,
+    "yearEnd": 1864,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q732",
+    "dateText": "1864 – 1871",
+    "yearStart": 1864,
+    "yearEnd": 1871,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q733",
+    "dateText": "1872 – 1877",
+    "yearStart": 1872,
+    "yearEnd": 1877,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q734",
+    "dateText": "1878 – 1886",
+    "yearStart": 1878,
+    "yearEnd": 1886,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q735",
+    "dateText": "1887 – 1898",
+    "yearStart": 1887,
+    "yearEnd": 1898,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q736",
+    "dateText": "1899 – 1914",
+    "yearStart": 1899,
+    "yearEnd": 1914,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=40",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q737",
+    "dateText": "1914 – 1927",
+    "yearStart": 1914,
+    "yearEnd": 1927,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=41",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q4920",
+    "dateText": "1928 – 1943",
+    "yearStart": 1928,
+    "yearEnd": 1943,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=41",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q4921",
+    "dateText": "1943 – 1949",
+    "yearStart": 1943,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=41",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q4922",
+    "dateText": "1950 – 1958",
+    "yearStart": 1950,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=41",
+    "digitized": false,
+    "place": "Castillon-en-Couserans"
+  },
+  {
+    "cote": "3Q1247",
+    "dateText": "1812 – 1820",
+    "yearStart": 1812,
+    "yearEnd": 1820,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1248",
+    "dateText": "1820 – 1824",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1249",
+    "dateText": "1825 – 1831",
+    "yearStart": 1825,
+    "yearEnd": 1831,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1250",
+    "dateText": "1831 – 1835",
+    "yearStart": 1831,
+    "yearEnd": 1835,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1251",
+    "dateText": "1841 – 1846",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1252",
+    "dateText": "1846 – 1849",
+    "yearStart": 1846,
+    "yearEnd": 1849,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1253",
+    "dateText": "1849 – 1853",
+    "yearStart": 1849,
+    "yearEnd": 1853,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1254",
+    "dateText": "1853 – 1856",
+    "yearStart": 1853,
+    "yearEnd": 1856,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1255",
+    "dateText": "1856 – 1860",
+    "yearStart": 1856,
+    "yearEnd": 1860,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1256",
+    "dateText": "1860 – 1865",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1257",
+    "dateText": "1865 – 1870",
+    "yearStart": 1865,
+    "yearEnd": 1870,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1258",
+    "dateText": "1870 – 1875",
+    "yearStart": 1870,
+    "yearEnd": 1875,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1259",
+    "dateText": "1875 – 1880",
+    "yearStart": 1875,
+    "yearEnd": 1880,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1260",
+    "dateText": "1880 – 1886",
+    "yearStart": 1880,
+    "yearEnd": 1886,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q8343",
+    "dateText": "1886 – 1892",
+    "yearStart": 1886,
+    "yearEnd": 1892,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q83441",
+    "dateText": "1892 – 1899",
+    "yearStart": 1892,
+    "yearEnd": 1899,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q8345",
+    "dateText": "1899 – 1907",
+    "yearStart": 1899,
+    "yearEnd": 1907,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q8346",
+    "dateText": "1908 – 1918",
+    "yearStart": 1908,
+    "yearEnd": 1918,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q8347",
+    "dateText": "1918 – 1926",
+    "yearStart": 1918,
+    "yearEnd": 1926,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q8348",
+    "dateText": "1926 – 1933",
+    "yearStart": 1926,
+    "yearEnd": 1933,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q8349",
+    "dateText": "1934 – 1942",
+    "yearStart": 1934,
+    "yearEnd": 1942,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9985",
+    "dateText": "1943 – 1950",
+    "yearStart": 1943,
+    "yearEnd": 1950,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9986",
+    "dateText": "1951 – 1958",
+    "yearStart": 1951,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9987",
+    "dateText": "1959 – 1961",
+    "yearStart": 1959,
+    "yearEnd": 1961,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9988",
+    "dateText": "1962 – 1965     (section Foix Sud-Ouest)",
+    "yearStart": 1962,
+    "yearEnd": 1965,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9989",
+    "dateText": "1962 – 1965",
+    "yearStart": 1962,
+    "yearEnd": 1965,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9990",
+    "dateText": "1966 – 1967    (section Foix Sud-Ouest)",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9991",
+    "dateText": "1966 – 1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9992",
+    "dateText": "1968     (section Foix Sud-Ouest)",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9993",
+    "dateText": "1968 – 1969",
+    "yearStart": 1968,
+    "yearEnd": 1969,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=67",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9369",
+    "dateText": "Sau - Z    1969",
+    "yearStart": 1969,
+    "yearEnd": 1969,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9370",
+    "dateText": "A – Bo    1970",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9371",
+    "dateText": "Bo – De   1970",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9372",
+    "dateText": "De – G    1970",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9373",
+    "dateText": "H - Mau   1970",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9374",
+    "dateText": "Mau - Re   1970",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9375",
+    "dateText": "R - Z    1970",
+    "yearStart": 1970,
+    "yearEnd": 1970,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9376",
+    "dateText": "A – B    1971",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9377",
+    "dateText": "C - D    1971",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9378",
+    "dateText": "E – L    1971",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9379",
+    "dateText": "M - P    1971",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9380",
+    "dateText": "Q - S    1971",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9381",
+    "dateText": "T - Z    1971",
+    "yearStart": 1971,
+    "yearEnd": 1971,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9382",
+    "dateText": "A – B    1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9383",
+    "dateText": "C – D    1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9384",
+    "dateText": "E – I    1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9385",
+    "dateText": "J – M    1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9386",
+    "dateText": "N – R    1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9387",
+    "dateText": "S – Z    1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9388",
+    "dateText": "A – B    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9389",
+    "dateText": "B – C    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9390",
+    "dateText": "D – F    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9391",
+    "dateText": "G – L    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9392",
+    "dateText": "M – P    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9393",
+    "dateText": "Q – R    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9394",
+    "dateText": "S – Z    1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9395",
+    "dateText": "A – C    1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9396",
+    "dateText": "D – L    1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9397",
+    "dateText": "M – Q    1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9398",
+    "dateText": "R – Z    1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9399",
+    "dateText": "A – B    1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9400",
+    "dateText": "C – D    1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9401",
+    "dateText": "E – N    1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9402",
+    "dateText": "O – Z    1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9403",
+    "dateText": "A – De    1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9404",
+    "dateText": "Dh – Ma   1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9405",
+    "dateText": "Me – Z    1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9406",
+    "dateText": "A – C    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9407",
+    "dateText": "D – La    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9408",
+    "dateText": "Le – R    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9409",
+    "dateText": "S – Z    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9410",
+    "dateText": "A – D    1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9411",
+    "dateText": "E – M    1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9412",
+    "dateText": "N – Z    1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9413",
+    "dateText": "A – C    1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9414",
+    "dateText": "D – G    1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9415",
+    "dateText": "I – N    1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9416",
+    "dateText": "P – Z    1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9417",
+    "dateText": "A – Da    1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9418",
+    "dateText": "De – N    1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=68",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9419",
+    "dateText": "O – Z    1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9420",
+    "dateText": "A – D    1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9421",
+    "dateText": "E – Mos   1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9422",
+    "dateText": "Mou – Z   1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9423",
+    "dateText": "A – D    1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9424",
+    "dateText": "E – N    1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9425",
+    "dateText": "O – Z    1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9426",
+    "dateText": "A – B    1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9427",
+    "dateText": "C – E    1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9428",
+    "dateText": "F – O    1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9429",
+    "dateText": "P – Z    1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9430",
+    "dateText": "A – B    1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9431",
+    "dateText": "C – F    1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9432",
+    "dateText": "G – O    1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q9433",
+    "dateText": "P – Z    1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10314",
+    "dateText": "A – D    1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10315",
+    "dateText": "E – M    1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10316",
+    "dateText": "N – Z     1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10317",
+    "dateText": "A – Can   1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10318",
+    "dateText": "Cap – Gai   1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10319",
+    "dateText": "Gal – M    1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10320",
+    "dateText": "N – R     1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10321",
+    "dateText": "S – Z     1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10322",
+    "dateText": "A – Can   1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10323",
+    "dateText": "Cap – F    1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10324",
+    "dateText": "G – Ma   1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10325",
+    "dateText": "Me – R   1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10326",
+    "dateText": "S – Z     1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10327",
+    "dateText": "A – B    1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10328",
+    "dateText": "C – D    1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10329",
+    "dateText": "E – L    1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10330",
+    "dateText": "M – P    1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10331",
+    "dateText": "R – Z    1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10332",
+    "dateText": "A – B    1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10333",
+    "dateText": "C – D    1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10334",
+    "dateText": "E – K    1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10335",
+    "dateText": "L – M    1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10336",
+    "dateText": "N – R     1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10337",
+    "dateText": "S – Z    1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10338",
+    "dateText": "A – C    1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10339",
+    "dateText": "D – G    1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10340",
+    "dateText": "H – O    1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10341",
+    "dateText": "P – R    1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q10342",
+    "dateText": "S – Z    1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=69",
+    "digitized": false,
+    "place": "Foix"
+  },
+  {
+    "cote": "3Q1529",
+    "dateText": "1825 – 1839",
+    "yearStart": 1825,
+    "yearEnd": 1839,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1530",
+    "dateText": "1839 – 1850",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1531",
+    "dateText": "1850 – 1860",
+    "yearStart": 1850,
+    "yearEnd": 1860,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1532",
+    "dateText": "1860 – 1872",
+    "yearStart": 1860,
+    "yearEnd": 1872,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1533",
+    "dateText": "1872 – 1885",
+    "yearStart": 1872,
+    "yearEnd": 1885,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=81",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1534",
+    "dateText": "1885 – 1898",
+    "yearStart": 1885,
+    "yearEnd": 1898,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=82",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1535",
+    "dateText": "1898 – 1917",
+    "yearStart": 1898,
+    "yearEnd": 1917,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=82",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1536",
+    "dateText": "1917 – 1925",
+    "yearStart": 1917,
+    "yearEnd": 1925,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=82",
+    "digitized": false,
+    "place": "Fossat"
+  },
+  {
+    "cote": "3Q1774",
+    "dateText": "1825 – 1837",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1775",
+    "dateText": "1837 – 1845",
+    "yearStart": 1837,
+    "yearEnd": 1845,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1776",
+    "dateText": "1845 – 1850",
+    "yearStart": 1845,
+    "yearEnd": 1850,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1777",
+    "dateText": "1850 – 1855",
+    "yearStart": 1850,
+    "yearEnd": 1855,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1778",
+    "dateText": "1855 – 1862",
+    "yearStart": 1855,
+    "yearEnd": 1862,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1779",
+    "dateText": "1862 – 1869",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q1780",
+    "dateText": "1870 – 1876",
+    "yearStart": 1870,
+    "yearEnd": 1876,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q8633",
+    "dateText": "1876 – 1885",
+    "yearStart": 1876,
+    "yearEnd": 1885,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q8634",
+    "dateText": "1886 – 1898",
+    "yearStart": 1886,
+    "yearEnd": 1898,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q8635",
+    "dateText": "1899 – 1913",
+    "yearStart": 1899,
+    "yearEnd": 1913,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q8636",
+    "dateText": "1914 – 1923",
+    "yearStart": 1914,
+    "yearEnd": 1923,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q8637",
+    "dateText": "1924 – 1936",
+    "yearStart": 1924,
+    "yearEnd": 1936,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10189",
+    "dateText": "1937-1948",
+    "yearStart": 1937,
+    "yearEnd": 1948,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10190",
+    "dateText": "1949-1962",
+    "yearStart": 1949,
+    "yearEnd": 1962,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=95",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10305",
+    "dateText": "P – Z   1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10306",
+    "dateText": "A – F   1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10307",
+    "dateText": "G – N   1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10308",
+    "dateText": "O – Z   1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10309",
+    "dateText": "A – De   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10310",
+    "dateText": "Di – O   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3Q10311",
+    "dateText": "P – Z   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=96",
+    "digitized": false,
+    "place": "Lavelanet"
+  },
+  {
+    "cote": "3 Q 2076",
+    "dateText": "1824 -  1839",
+    "yearStart": 1824,
+    "yearEnd": 1839,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2077",
+    "dateText": "1839 -  1848",
+    "yearStart": 1839,
+    "yearEnd": 1848,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2078",
+    "dateText": "1848 -  1858",
+    "yearStart": 1848,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2079",
+    "dateText": "1858 -  1870",
+    "yearStart": 1858,
+    "yearEnd": 1870,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2080",
+    "dateText": "1870 -  1884",
+    "yearStart": 1870,
+    "yearEnd": 1884,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2081",
+    "dateText": "1884 -  1896",
+    "yearStart": 1884,
+    "yearEnd": 1896,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2082",
+    "dateText": "1896 -  1913",
+    "yearStart": 1896,
+    "yearEnd": 1913,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2083",
+    "dateText": "1913 -  1926",
+    "yearStart": 1913,
+    "yearEnd": 1926,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2084",
+    "dateText": "1926 -  1937",
+    "yearStart": 1926,
+    "yearEnd": 1937,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 6406",
+    "dateText": "1938 -  1949",
+    "yearStart": 1938,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 6407",
+    "dateText": "1949 -  1958",
+    "yearStart": 1949,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 6408",
+    "dateText": "1958 -  1962",
+    "yearStart": 1958,
+    "yearEnd": 1962,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=111",
+    "digitized": false,
+    "place": "Mas-D'Azil"
+  },
+  {
+    "cote": "3 Q 2410",
+    "dateText": "1824 -  1836",
+    "yearStart": 1824,
+    "yearEnd": 1836,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2411",
+    "dateText": "1837 -  1847",
+    "yearStart": 1837,
+    "yearEnd": 1847,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2412",
+    "dateText": "1847 -  1853",
+    "yearStart": 1847,
+    "yearEnd": 1853,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2413",
+    "dateText": "1853 -  1860",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2414",
+    "dateText": "1860 -  1866",
+    "yearStart": 1860,
+    "yearEnd": 1866,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2415",
+    "dateText": "1866 -  1876",
+    "yearStart": 1866,
+    "yearEnd": 1876,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2416",
+    "dateText": "1876 -  1886",
+    "yearStart": 1876,
+    "yearEnd": 1886,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2417",
+    "dateText": "1886 -  1900",
+    "yearStart": 1886,
+    "yearEnd": 1900,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2418",
+    "dateText": "1900 -  1917",
+    "yearStart": 1900,
+    "yearEnd": 1917,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 2419",
+    "dateText": "1917 -  1929",
+    "yearStart": 1917,
+    "yearEnd": 1929,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 4964",
+    "dateText": "1930 -  1949",
+    "yearStart": 1930,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3 Q 4965",
+    "dateText": "1950 -  1958",
+    "yearStart": 1950,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=122",
+    "digitized": false,
+    "place": "Massat"
+  },
+  {
+    "cote": "3Q2774",
+    "dateText": "1825 – 1832",
+    "yearStart": 1825,
+    "yearEnd": 1832,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2775",
+    "dateText": "1832 – 1842",
+    "yearStart": 1832,
+    "yearEnd": 1842,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2776",
+    "dateText": "1843 – 1850",
+    "yearStart": 1843,
+    "yearEnd": 1850,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2777",
+    "dateText": "1850 – 1857",
+    "yearStart": 1850,
+    "yearEnd": 1857,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2778",
+    "dateText": "1857 – 1863",
+    "yearStart": 1857,
+    "yearEnd": 1863,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2779",
+    "dateText": "1863 – 1870",
+    "yearStart": 1863,
+    "yearEnd": 1870,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2780",
+    "dateText": "1870 – 1876",
+    "yearStart": 1870,
+    "yearEnd": 1876,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2781",
+    "dateText": "1877 – 1887",
+    "yearStart": 1877,
+    "yearEnd": 1887,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2782",
+    "dateText": "1887 – 1896",
+    "yearStart": 1887,
+    "yearEnd": 1896,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q2783",
+    "dateText": "1896 – 1907",
+    "yearStart": 1896,
+    "yearEnd": 1907,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q3504",
+    "dateText": "1908 – 1921",
+    "yearStart": 1908,
+    "yearEnd": 1921,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=140",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q3505",
+    "dateText": "1921 – 1932",
+    "yearStart": 1921,
+    "yearEnd": 1932,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=141",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q3506",
+    "dateText": "1933 – 1944",
+    "yearStart": 1933,
+    "yearEnd": 1944,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=141",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q3507",
+    "dateText": "1945 – 1958",
+    "yearStart": 1945,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=141",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3Q3508",
+    "dateText": "1959 – 1962",
+    "yearStart": 1959,
+    "yearEnd": 1962,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=141",
+    "digitized": false,
+    "place": "Mirepoix"
+  },
+  {
+    "cote": "3 Q 4561",
+    "dateText": "1823 -  1831",
+    "yearStart": 1823,
+    "yearEnd": 1831,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4562",
+    "dateText": "1831 -  1838",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4563",
+    "dateText": "1838 -  1844",
+    "yearStart": 1838,
+    "yearEnd": 1844,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4564",
+    "dateText": "1844 -  1851",
+    "yearStart": 1844,
+    "yearEnd": 1851,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4565",
+    "dateText": "1851 -  1858",
+    "yearStart": 1851,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4566",
+    "dateText": "1859 -  1866",
+    "yearStart": 1859,
+    "yearEnd": 1866,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4567",
+    "dateText": "1867 -  1876",
+    "yearStart": 1867,
+    "yearEnd": 1876,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4568",
+    "dateText": "1876 -  1884       (11",
+    "yearStart": 1876,
+    "yearEnd": 1884,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4569",
+    "dateText": "1884 -  1897       (12",
+    "yearStart": 1884,
+    "yearEnd": 1897,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4570",
+    "dateText": "1897 -  1913",
+    "yearStart": 1897,
+    "yearEnd": 1913,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 4571",
+    "dateText": "1913 -  1932",
+    "yearStart": 1913,
+    "yearEnd": 1932,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 5003",
+    "dateText": "1933 -  1949",
+    "yearStart": 1933,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 5004",
+    "dateText": "1950 -  1958",
+    "yearStart": 1950,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=152",
+    "digitized": false,
+    "place": "D'Oust"
+  },
+  {
+    "cote": "3 Q 9216",
+    "dateText": "A - B         1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9217",
+    "dateText": "C - D        1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9218",
+    "dateText": "E - K        1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9219",
+    "dateText": "L - N        1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9220",
+    "dateText": "O - R        1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9221",
+    "dateText": "S - Z         1972",
+    "yearStart": 1972,
+    "yearEnd": 1972,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9222",
+    "dateText": "A - B         1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9223",
+    "dateText": "C - Do        1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9224",
+    "dateText": "Du - J        1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9225",
+    "dateText": "K - N         1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9226",
+    "dateText": "O - R         1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9227",
+    "dateText": "S - Z         1973",
+    "yearStart": 1973,
+    "yearEnd": 1973,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9228",
+    "dateText": "A - Ca        1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9229",
+    "dateText": "Ce - Fe        1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9230",
+    "dateText": "Fi - L         1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9231",
+    "dateText": "M - Res       1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9232",
+    "dateText": "Reu - Z       1974",
+    "yearStart": 1974,
+    "yearEnd": 1974,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9233",
+    "dateText": "A - B         1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9234",
+    "dateText": "C - De        1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9235",
+    "dateText": "Dh - F        1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9236",
+    "dateText": "G - L         1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9237",
+    "dateText": "M - O        1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9238",
+    "dateText": "Q - R        1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9239",
+    "dateText": "S - Z         1975",
+    "yearStart": 1975,
+    "yearEnd": 1975,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9240",
+    "dateText": "A - B         1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9241",
+    "dateText": "C - Dej        1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9242",
+    "dateText": "Del - Fl       1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9243",
+    "dateText": "Fo - Laz       1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9244",
+    "dateText": "Le - O         1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9245",
+    "dateText": "P - R         1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9246",
+    "dateText": "S - Z         1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9247",
+    "dateText": "A - B         1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9248",
+    "dateText": "C - Dej        1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9249",
+    "dateText": "Del - F        1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9250",
+    "dateText": "G - Man       1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9252",
+    "dateText": "Pav - R        1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9253",
+    "dateText": "S - Z         1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9254",
+    "dateText": "A - B         1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9255",
+    "dateText": "C - D        1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9256",
+    "dateText": "E - J         1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9257",
+    "dateText": "L - N        1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9258",
+    "dateText": "O - R        1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9259",
+    "dateText": "S - Z         1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9260",
+    "dateText": "A - Bl        1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9261",
+    "dateText": "Bo - C        1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9262",
+    "dateText": "D - Fa         1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9263",
+    "dateText": "Fe - Lar       1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9264",
+    "dateText": "Lau - O        1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9265",
+    "dateText": "P - R         1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9266",
+    "dateText": "S - Z         1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=183",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9267",
+    "dateText": "A - Bor       1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9268",
+    "dateText": "Bou - C       1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9269",
+    "dateText": "D - E         1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9270",
+    "dateText": "F - H         1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9271",
+    "dateText": "I - Mas        1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9272",
+    "dateText": "Mat - P       1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9273",
+    "dateText": "R - Sa         1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9274",
+    "dateText": "Sc - Z         1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9275",
+    "dateText": "A - B         1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9276",
+    "dateText": "C - De        1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9277",
+    "dateText": "Di - F         1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9278",
+    "dateText": "G - L         1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9279",
+    "dateText": "M - Pl         1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9280",
+    "dateText": "Po - Se        1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9281",
+    "dateText": "Si - Z         1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9282",
+    "dateText": "A - Ca         1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9283",
+    "dateText": "Ce - F         1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9284",
+    "dateText": "G - Ma        1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9285",
+    "dateText": "Me - R        1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9286",
+    "dateText": "S - Z          1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9287",
+    "dateText": "A - B         1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9288",
+    "dateText": "C - D         1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9289",
+    "dateText": "E - K         1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9290",
+    "dateText": "L - M         1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9291",
+    "dateText": "N - R         1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9292",
+    "dateText": "S - Z          1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9293",
+    "dateText": "A - B         1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9294",
+    "dateText": "C - E         1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9295",
+    "dateText": "F - L         1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9296",
+    "dateText": "M - P         1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 9297",
+    "dateText": "R - Z         1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10343",
+    "dateText": "A - C         1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10344",
+    "dateText": "D - J         1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10345",
+    "dateText": "K - N        1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10346",
+    "dateText": "O - R         1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10347",
+    "dateText": "S - Z        1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10348",
+    "dateText": "A - B        1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10349",
+    "dateText": "C - D        1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10350",
+    "dateText": "E - K        1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10351",
+    "dateText": "L - O        1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10352",
+    "dateText": "P - R        1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10353",
+    "dateText": "S - Z        1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10354",
+    "dateText": "A - D        1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10355",
+    "dateText": "C        1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10356",
+    "dateText": "D - F        1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10357",
+    "dateText": "G - M        1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10358",
+    "dateText": "N - R        1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10359",
+    "dateText": "S - W         1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10360",
+    "dateText": "A - Cai        1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10361",
+    "dateText": "Caz - D       1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=184",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10362",
+    "dateText": "E - J        1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10363",
+    "dateText": "L - M         1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10364",
+    "dateText": "N - R        1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10365",
+    "dateText": "S - Z        1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10366",
+    "dateText": "A - B        1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10367",
+    "dateText": "C - D         1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10368",
+    "dateText": "E - K        1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10369",
+    "dateText": "L - Pay        1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10370",
+    "dateText": "Pe - R        1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10371",
+    "dateText": "S - Z        1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10372",
+    "dateText": "A - Ce        1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10373",
+    "dateText": "Ch - E        1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10374",
+    "dateText": "F - La        1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10375",
+    "dateText": "Le - P        1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 10376",
+    "dateText": "R - Z        1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=185",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 4150",
+    "dateText": "1824 - 1858",
+    "yearStart": 1824,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=193",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 4151",
+    "dateText": "1858 - 1886",
+    "yearStart": 1858,
+    "yearEnd": 1886,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=193",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3 Q 7668",
+    "dateText": "1887 - 1927",
+    "yearStart": 1887,
+    "yearEnd": 1927,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=193",
+    "digitized": false,
+    "place": "Pamiers"
+  },
+  {
+    "cote": "3Q6247",
+    "dateText": "1839 – 1850",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6248",
+    "dateText": "1851 – 1861",
+    "yearStart": 1851,
+    "yearEnd": 1861,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6249",
+    "dateText": "1861 – 1869",
+    "yearStart": 1861,
+    "yearEnd": 1869,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6250",
+    "dateText": "1870 – 1879",
+    "yearStart": 1870,
+    "yearEnd": 1879,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6251",
+    "dateText": "1879 – 1889",
+    "yearStart": 1879,
+    "yearEnd": 1889,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6252",
+    "dateText": "1889 – 1905",
+    "yearStart": 1889,
+    "yearEnd": 1905,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6253",
+    "dateText": "1905 – 1921",
+    "yearStart": 1905,
+    "yearEnd": 1921,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6254",
+    "dateText": "1921 – 1937",
+    "yearStart": 1921,
+    "yearEnd": 1937,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q6255",
+    "dateText": "1938 – 1949",
+    "yearStart": 1938,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=204",
+    "digitized": false,
+    "place": "Saverdun"
+  },
+  {
+    "cote": "3Q4222",
+    "dateText": "1870 - 1890",
+    "yearStart": 1870,
+    "yearEnd": 1890,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=209",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q4223",
+    "dateText": "1891 - 1923",
+    "yearStart": 1891,
+    "yearEnd": 1923,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=209",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q6304",
+    "dateText": "1923 - 1949",
+    "yearStart": 1923,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=209",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q6305",
+    "dateText": "1950 - 1958",
+    "yearStart": 1950,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=209",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5473",
+    "dateText": "1821 – 1832",
+    "yearStart": 1821,
+    "yearEnd": 1832,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5474",
+    "dateText": "1832 – 1838",
+    "yearStart": 1832,
+    "yearEnd": 1838,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5475",
+    "dateText": "1838 – 1843",
+    "yearStart": 1838,
+    "yearEnd": 1843,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5476",
+    "dateText": "1843 – 1847",
+    "yearStart": 1843,
+    "yearEnd": 1847,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5477",
+    "dateText": "1847 – 1851",
+    "yearStart": 1847,
+    "yearEnd": 1851,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5478",
+    "dateText": "1852 – 1854",
+    "yearStart": 1852,
+    "yearEnd": 1854,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 5479",
+    "dateText": "1854 – 1858",
+    "yearStart": 1854,
+    "yearEnd": 1858,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=232",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8948",
+    "dateText": "Si - Z    1976",
+    "yearStart": 1976,
+    "yearEnd": 1976,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8949",
+    "dateText": "A - Cas  1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8950",
+    "dateText": "Cau - D   1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8951",
+    "dateText": "E - K    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8952",
+    "dateText": "L - O    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8953",
+    "dateText": "P - R    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8954",
+    "dateText": "S - V    1977",
+    "yearStart": 1977,
+    "yearEnd": 1977,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8955",
+    "dateText": "A - Cauf   1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8956",
+    "dateText": "Caug - Faure   1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8957",
+    "dateText": "Fauro - L   1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8958",
+    "dateText": "M - Rey   1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8959",
+    "dateText": "Ri - Z    1978",
+    "yearStart": 1978,
+    "yearEnd": 1978,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8960",
+    "dateText": "A - Car   1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8961",
+    "dateText": "Cas - Dur   1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8962",
+    "dateText": "E - Laz   1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8963",
+    "dateText": "Le - Q    1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 8964",
+    "dateText": "R - Z    1979",
+    "yearStart": 1979,
+    "yearEnd": 1979,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10277",
+    "dateText": "A – Com  1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10278",
+    "dateText": "Cou – G  1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10279",
+    "dateText": "H – Pi   1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10280",
+    "dateText": "Po – V   1980",
+    "yearStart": 1980,
+    "yearEnd": 1980,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10281",
+    "dateText": "A – C   1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10282",
+    "dateText": "D – I   1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10283",
+    "dateText": "J – Pujol (Joseph) 1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10284",
+    "dateText": "Pujol (Léontine) – Z 1981",
+    "yearStart": 1981,
+    "yearEnd": 1981,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10285",
+    "dateText": "A – Ca   1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10286",
+    "dateText": "Ce – Gas  1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10287",
+    "dateText": "Gau – O  1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10288",
+    "dateText": "P – R   1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10289",
+    "dateText": "S – V   1982",
+    "yearStart": 1982,
+    "yearEnd": 1982,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10290",
+    "dateText": "A – Ch   1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10291",
+    "dateText": "Cl – Fi   1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10292",
+    "dateText": "Fl – Mi  1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10293",
+    "dateText": "Mo – Roq  1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10294",
+    "dateText": "Rou – V  1983",
+    "yearStart": 1983,
+    "yearEnd": 1983,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10295",
+    "dateText": "A – Cat  1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10296",
+    "dateText": "Cau – E  1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10297",
+    "dateText": "F – L   1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10298",
+    "dateText": "M – Ra  1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10299",
+    "dateText": "Re – X   1984",
+    "yearStart": 1984,
+    "yearEnd": 1984,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10377",
+    "dateText": "A – Ca   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10378",
+    "dateText": "Ce – Fa  1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10379",
+    "dateText": "Fe – L   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10380",
+    "dateText": "M – Ri   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10381",
+    "dateText": "Ro – Z   1985",
+    "yearStart": 1985,
+    "yearEnd": 1985,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10382",
+    "dateText": "A – Ba   1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10383",
+    "dateText": "Be – Da  1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10384",
+    "dateText": "De – Ga  1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10385",
+    "dateText": "Ge – Pi  1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10386",
+    "dateText": "Piq – V  1986",
+    "yearStart": 1986,
+    "yearEnd": 1986,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=235",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10387",
+    "dateText": "A – Cl   1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10388",
+    "dateText": "Co – Gi  1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10389",
+    "dateText": "Go – Pi  1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10390",
+    "dateText": "Pl – V   1987",
+    "yearStart": 1987,
+    "yearEnd": 1987,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10391",
+    "dateText": "A – B   1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10392",
+    "dateText": "C – D   1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10393",
+    "dateText": "E – Mu  1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10394",
+    "dateText": "Mo – R  1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10395",
+    "dateText": "S – W   1988",
+    "yearStart": 1988,
+    "yearEnd": 1988,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10396",
+    "dateText": "A – B   1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10397",
+    "dateText": "C – E    1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10398",
+    "dateText": "F – O   1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10399",
+    "dateText": "P – S   1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10400",
+    "dateText": "T – V   1989",
+    "yearStart": 1989,
+    "yearEnd": 1989,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10401",
+    "dateText": "A – C   1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10402",
+    "dateText": "Co – Ge  1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10403",
+    "dateText": "Gh – Pons  1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3 Q 10404",
+    "dateText": "Ponso – W  1990",
+    "yearStart": 1990,
+    "yearEnd": 1990,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=236",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5878",
+    "dateText": "1821 – 1835",
+    "yearStart": 1821,
+    "yearEnd": 1835,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5879",
+    "dateText": "1835 – 1843",
+    "yearStart": 1835,
+    "yearEnd": 1843,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5880",
+    "dateText": "1843 – 1849",
+    "yearStart": 1843,
+    "yearEnd": 1849,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5881",
+    "dateText": "1850 – 1854",
+    "yearStart": 1850,
+    "yearEnd": 1854,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5882",
+    "dateText": "1854 – 1861",
+    "yearStart": 1854,
+    "yearEnd": 1861,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5883",
+    "dateText": "1862 – 1869",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5884",
+    "dateText": "1870 – 1876",
+    "yearStart": 1870,
+    "yearEnd": 1876,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5885",
+    "dateText": "1877 – 1888",
+    "yearStart": 1877,
+    "yearEnd": 1888,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5886",
+    "dateText": "1888 – 1903",
+    "yearStart": 1888,
+    "yearEnd": 1903,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5887",
+    "dateText": "1903 – 1920",
+    "yearStart": 1903,
+    "yearEnd": 1920,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5888",
+    "dateText": "1920 – 1934",
+    "yearStart": 1920,
+    "yearEnd": 1934,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5889",
+    "dateText": "1934 – 1948",
+    "yearStart": 1934,
+    "yearEnd": 1948,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q5890",
+    "dateText": "1948 – 1958",
+    "yearStart": 1948,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=248",
+    "digitized": false,
+    "place": "Sainte-Croix-Volvestre"
+  },
+  {
+    "cote": "3Q6852",
+    "dateText": "1825 – 1829",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=267",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6853",
+    "dateText": "1830 – 1834",
+    "yearStart": 1830,
+    "yearEnd": 1834,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=267",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6854",
+    "dateText": "1835 – 1839",
+    "yearStart": 1835,
+    "yearEnd": 1839,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=267",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6855",
+    "dateText": "1840 – 1842",
+    "yearStart": 1840,
+    "yearEnd": 1842,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=267",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6856",
+    "dateText": "1843 – 1846",
+    "yearStart": 1843,
+    "yearEnd": 1846,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6857",
+    "dateText": "1847 – 1851",
+    "yearStart": 1847,
+    "yearEnd": 1851,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6858",
+    "dateText": "1851 – 1854",
+    "yearStart": 1851,
+    "yearEnd": 1854,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6859",
+    "dateText": "1854 – 1857",
+    "yearStart": 1854,
+    "yearEnd": 1857,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6860",
+    "dateText": "1857 – 1862",
+    "yearStart": 1857,
+    "yearEnd": 1862,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6861",
+    "dateText": "1862 – 1866",
+    "yearStart": 1862,
+    "yearEnd": 1866,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6862",
+    "dateText": "1866 – 1871",
+    "yearStart": 1866,
+    "yearEnd": 1871,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8012",
+    "dateText": "1871 – 1877",
+    "yearStart": 1871,
+    "yearEnd": 1877,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8013",
+    "dateText": "1878 – 1885",
+    "yearStart": 1878,
+    "yearEnd": 1885,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8014",
+    "dateText": "1886 – 1896",
+    "yearStart": 1886,
+    "yearEnd": 1896,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8015",
+    "dateText": "1897 – 1908",
+    "yearStart": 1897,
+    "yearEnd": 1908,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8016",
+    "dateText": "1908 – 1918",
+    "yearStart": 1908,
+    "yearEnd": 1918,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8017",
+    "dateText": "1918 – 1929",
+    "yearStart": 1918,
+    "yearEnd": 1929,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q8018",
+    "dateText": "1929 – 1937",
+    "yearStart": 1929,
+    "yearEnd": 1937,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q10208",
+    "dateText": "1937-1946",
+    "yearStart": 1937,
+    "yearEnd": 1946,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q10209",
+    "dateText": "1946-1958",
+    "yearStart": 1946,
+    "yearEnd": 1958,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=268",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6933",
+    "dateText": "1874 – 1896",
+    "yearStart": 1874,
+    "yearEnd": 1896,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=274",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6934",
+    "dateText": "1896 – 1918",
+    "yearStart": 1896,
+    "yearEnd": 1918,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=274",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6935",
+    "dateText": "1918 – 1933",
+    "yearStart": 1918,
+    "yearEnd": 1933,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=274",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q6936",
+    "dateText": "1933 – 1949",
+    "yearStart": 1933,
+    "yearEnd": 1949,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=274",
+    "digitized": false,
+    "place": "Tarascon"
+  },
+  {
+    "cote": "3Q7042",
+    "dateText": "1837 – 1849",
+    "yearStart": 1837,
+    "yearEnd": 1849,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  },
+  {
+    "cote": "3Q7043",
+    "dateText": "1849 – 1861",
+    "yearStart": 1849,
+    "yearEnd": 1861,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  },
+  {
+    "cote": "3Q7044",
+    "dateText": "1861 – 1872",
+    "yearStart": 1861,
+    "yearEnd": 1872,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  },
+  {
+    "cote": "3Q7045",
+    "dateText": "1872 – 1891",
+    "yearStart": 1872,
+    "yearEnd": 1891,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  },
+  {
+    "cote": "3Q7351",
+    "dateText": "1892 – 1913",
+    "yearStart": 1892,
+    "yearEnd": 1913,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  },
+  {
+    "cote": "3Q7352",
+    "dateText": "1913 – 1915",
+    "yearStart": 1913,
+    "yearEnd": 1915,
+    "url": "https://archives.ariege.fr/app/uploads/2025/02/FRAD009-3Q-V202501.pdf#page=280",
+    "digitized": false,
+    "place": "Vicdessos"
+  }
+]

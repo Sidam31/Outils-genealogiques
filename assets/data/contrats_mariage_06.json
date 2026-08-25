@@ -1,22 +1,6 @@
 [
   {
     "place": "Antibes",
-    "cote": "3 Q 1 à 61, 63, 65 à 368, 370 à 386, 388 à 495, 498 à 755",
-    "yearStart": 1759,
-    "yearEnd": 1958,
-    "url": "https://archives06.fr/ark:/79346/2343641",
-    "digitized": false
-  },
-  {
-    "place": "Antibes",
-    "cote": "3 Q 28 à 32",
-    "yearStart": 1769,
-    "yearEnd": 1865,
-    "url": "https://archives06.fr/ark:/79346/2343672",
-    "digitized": false
-  },
-  {
-    "place": "Antibes",
     "cote": "3 Q 28",
     "yearStart": 1769,
     "yearEnd": 1808,
@@ -53,6 +37,230 @@
     "yearStart": 1842,
     "yearEnd": 1865,
     "url": "https://archives06.fr/ark:/79346/760870.2343677",
+    "digitized": false
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1531",
+    "yearStart": 1822,
+    "yearEnd": 1843,
+    "url": "https://archives06.fr/ark:/79346/771556.2345234",
+    "digitized": false
+  },
+  {
+    "place": "Cannes",
+    "cote": "3 Q 1532",
+    "yearStart": 1844,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/771565.2345235",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3186",
+    "yearStart": 1771,
+    "yearEnd": 1792,
+    "url": "https://archives06.fr/ark:/79346/782751.2346929",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3187",
+    "yearStart": 1793,
+    "yearEnd": 1793,
+    "url": "https://archives06.fr/ark:/79346/782759.2346930",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3188",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives06.fr/ark:/79346/782767.2346931",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3189",
+    "yearStart": 1813,
+    "yearEnd": 1828,
+    "url": "https://archives06.fr/ark:/79346/782774.2346932",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3190",
+    "yearStart": 1828,
+    "yearEnd": 1839,
+    "url": "https://archives06.fr/ark:/79346/782781.2346933",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3191",
+    "yearStart": 1839,
+    "yearEnd": 1854,
+    "url": "https://archives06.fr/ark:/79346/782788.2346934",
+    "digitized": false
+  },
+  {
+    "place": "Grasse",
+    "cote": "3 Q 3192",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/782791.2346935",
+    "digitized": false
+  },
+  {
+    "place": "Guillaumes",
+    "cote": "3 Q 4375",
+    "yearStart": 1813,
+    "yearEnd": 1813,
+    "url": "https://archives06.fr/ark:/79346/791174.2348133",
+    "digitized": false
+  },
+  {
+    "place": "Guillaumes",
+    "cote": "3 Q 4376",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/791182.2348134",
+    "digitized": false
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5675",
+    "yearStart": 1808,
+    "yearEnd": 1808,
+    "url": "https://archives06.fr/ark:/79346/800407.2349482",
+    "digitized": false
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5676",
+    "yearStart": 1808,
+    "yearEnd": 1814,
+    "url": "https://archives06.fr/ark:/79346/800416.2349483",
+    "digitized": false
+  },
+  {
+    "place": "Nice",
+    "cote": "3 Q 5677",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/800426.2349484",
+    "digitized": false
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10012",
+    "yearStart": 1814,
+    "yearEnd": 1814,
+    "url": "https://archives06.fr/ark:/79346/832642.2353883",
+    "digitized": false
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10013",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/832647.2353884",
+    "digitized": false
+  },
+  {
+    "place": "Puget-Théniers",
+    "cote": "3 Q 10014",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/832654.2353885",
+    "digitized": false
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10457",
+    "yearStart": 1814,
+    "yearEnd": 1814,
+    "url": "https://archives06.fr/ark:/79346/835602.2354361",
+    "digitized": false
+  },
+  {
+    "place": "Roquestéron",
+    "cote": "3 Q 10458",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/835610.2354362",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11419",
+    "yearStart": 1823,
+    "yearEnd": 1831,
+    "url": "https://archives06.fr/ark:/79346/842900.2355398",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11420",
+    "yearStart": 1829,
+    "yearEnd": 1841,
+    "url": "https://archives06.fr/ark:/79346/842908.2355399",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Vallier-de-Thiey",
+    "cote": "3 Q 11421",
+    "yearStart": 1841,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/842913.2355400",
+    "digitized": false
+  },
+  {
+    "place": "Sospel",
+    "cote": "3 Q 11651",
+    "yearStart": 1806,
+    "yearEnd": 1814,
+    "url": "https://archives06.fr/ark:/79346/844585.2355642",
+    "digitized": false
+  },
+  {
+    "place": "Sospel",
+    "cote": "3 Q 11652",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/844593.2355643",
+    "digitized": false
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12119",
+    "yearStart": 1810,
+    "yearEnd": 1818,
+    "url": "https://archives06.fr/ark:/79346/847879.2356145",
+    "digitized": false
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12120",
+    "yearStart": 1818,
+    "yearEnd": 1835,
+    "url": "https://archives06.fr/ark:/79346/847885.2356146",
+    "digitized": false
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12121",
+    "yearStart": 1836,
+    "yearEnd": 1853,
+    "url": "https://archives06.fr/ark:/79346/847890.2356147",
+    "digitized": false
+  },
+  {
+    "place": "Vence",
+    "cote": "3 Q 12122",
+    "yearStart": 1853,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/847897.2356148",
     "digitized": false
   }
 ]

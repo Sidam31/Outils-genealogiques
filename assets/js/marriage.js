@@ -392,6 +392,18 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_29.json',
         catalogUrl: 'https://recherche.archives.finistere.fr/archive/fonds/FRAD029_Enregistrement/n:142',
     },
+    '06': {
+        label: 'Alpes-Maritimes',
+        // Bornes réelles de la série (33 registres, 10 bureaux sur 29, voir
+        // scrape_successions_alpes_maritimes.py). Même scraper/mêmes correctifs que la série
+        // successions de ce département (successions.js, SUCCESSION_DEPTS['06']) : anti-bot F5/TSPD
+        // contourné en Chrome non-headless, faux registres "bureau parent"/"série elle-même"
+        // filtrés par intitulé.
+        minYear: 1769,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_06.json',
+        catalogUrl: 'https://archives06.fr/archive/fonds/FRAD006_3Q/view:625770',
+    },
     '11': {
         label: 'Aude',
         // Bornes réelles de la série (42 registres, 14 bureaux sur 23 - les autres n'ont pas de
