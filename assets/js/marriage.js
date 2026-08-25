@@ -392,6 +392,18 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_29.json',
         catalogUrl: 'https://recherche.archives.finistere.fr/archive/fonds/FRAD029_Enregistrement/n:142',
     },
+    '11': {
+        label: 'Aude',
+        // Bornes réelles de la série (42 registres, 14 bureaux sur 23 - les autres n'ont pas de
+        // "Tables de contrats de mariage" cataloguée dans ce fonds, voir scrape_aude_3q.py). Même
+        // source PDF statique que successions.js (SUCCESSION_DEPTS['11']) - un seul scraper couvre
+        // les deux séries, pas de registre numérisé pour l'instant (r.url pointe vers la page du
+        // répertoire PDF, digitized=false).
+        minYear: 1750,
+        maxYear: 1866,
+        registersUrl: './assets/data/contrats_mariage_11.json',
+        catalogUrl: 'https://archivesdepartementales.aude.fr/sites/default/files/media/files/Sous-s%C3%A9rie_3Q.pdf',
+    },
 };
 
 function fetchJson(url) {

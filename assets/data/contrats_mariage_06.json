@@ -1,0 +1,58 @@
+[
+  {
+    "place": "Antibes",
+    "cote": "3 Q 1 à 61, 63, 65 à 368, 370 à 386, 388 à 495, 498 à 755",
+    "yearStart": 1759,
+    "yearEnd": 1958,
+    "url": "https://archives06.fr/ark:/79346/2343641",
+    "digitized": false
+  },
+  {
+    "place": "Antibes",
+    "cote": "3 Q 28 à 32",
+    "yearStart": 1769,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/2343672",
+    "digitized": false
+  },
+  {
+    "place": "Antibes",
+    "cote": "3 Q 28",
+    "yearStart": 1769,
+    "yearEnd": 1808,
+    "url": "https://archives06.fr/ark:/79346/760845.2343673",
+    "digitized": false
+  },
+  {
+    "place": "Antibes",
+    "cote": "3 Q 29",
+    "yearStart": 1808,
+    "yearEnd": 1823,
+    "url": "https://archives06.fr/ark:/79346/760850.2343674",
+    "digitized": false
+  },
+  {
+    "place": "Antibes",
+    "cote": "3 Q 30",
+    "yearStart": 1824,
+    "yearEnd": 1829,
+    "url": "https://archives06.fr/ark:/79346/760857.2343675",
+    "digitized": false
+  },
+  {
+    "place": "Antibes",
+    "cote": "3 Q 31",
+    "yearStart": 1830,
+    "yearEnd": 1842,
+    "url": "https://archives06.fr/ark:/79346/760863.2343676",
+    "digitized": false
+  },
+  {
+    "place": "Antibes",
+    "cote": "3 Q 32",
+    "yearStart": 1842,
+    "yearEnd": 1865,
+    "url": "https://archives06.fr/ark:/79346/760870.2343677",
+    "digitized": false
+  }
+]

@@ -1,0 +1,1302 @@
+{
+  "AIRE": {
+    "bureau": "Aire-sur-l'Adour",
+    "distanceKm": 0.0
+  },
+  "ANGOUME": {
+    "bureau": "Dax",
+    "distanceKm": 6.3
+  },
+  "ANGRESSE": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 4.9
+  },
+  "ARBOUCAVE": {
+    "bureau": "Geaune",
+    "distanceKm": 6.4
+  },
+  "ARENGOSSE": {
+    "bureau": "Morcenx",
+    "distanceKm": 10.7
+  },
+  "ARGELOS": {
+    "bureau": "Hagetmau",
+    "distanceKm": 8.1
+  },
+  "ARGELOUSE": {
+    "bureau": "Pissos",
+    "distanceKm": 14.7
+  },
+  "ARJUZANX": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "AROUILLE": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "ARSAGUE": {
+    "bureau": "Amou",
+    "distanceKm": 3.5
+  },
+  "ARTASSENX": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 6.6
+  },
+  "ARTHEZ D ARMAGNAC": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 5.0
+  },
+  "ARUE": {
+    "bureau": "Roquefort",
+    "distanceKm": 2.9
+  },
+  "ARX": {
+    "bureau": "Gabarret",
+    "distanceKm": 15.3
+  },
+  "AUBAGNAN": {
+    "bureau": "Hagetmau",
+    "distanceKm": 7.2
+  },
+  "AUDIGNON": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 5.2
+  },
+  "AUDON": {
+    "bureau": "Tartas",
+    "distanceKm": 4.3
+  },
+  "AUREILHAN": {
+    "bureau": "Mimizan",
+    "distanceKm": 3.4
+  },
+  "AURICE": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 5.1
+  },
+  "AZUR": {
+    "bureau": "Soustons",
+    "distanceKm": 5.9
+  },
+  "BAHUS SOUBIRAN": {
+    "bureau": "Geaune",
+    "distanceKm": 5.1
+  },
+  "BAIGTS": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 4.0
+  },
+  "BANOS": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 5.9
+  },
+  "BAS MAUCO": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 3.6
+  },
+  "BASCONS": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 4.8
+  },
+  "BASSERCLES": {
+    "bureau": "Hagetmau",
+    "distanceKm": 10.1
+  },
+  "BASTENNES": {
+    "bureau": "Amou",
+    "distanceKm": 7.3
+  },
+  "BATS": {
+    "bureau": "Geaune",
+    "distanceKm": 8.1
+  },
+  "BAUDIGNAN": {
+    "bureau": "Gabarret",
+    "distanceKm": 12.1
+  },
+  "BELHADE": {
+    "bureau": "Pissos",
+    "distanceKm": 11.5
+  },
+  "BENQUET": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 7.5
+  },
+  "BERGOUEY": {
+    "bureau": "Mugron",
+    "distanceKm": 8.2
+  },
+  "BETBEZER D ARMAGNAC": {
+    "bureau": "Gabarret",
+    "distanceKm": 12.9
+  },
+  "BETBEZER": {
+    "bureau": "Gabarret",
+    "distanceKm": 12.9
+  },
+  "BEYLONGUE": {
+    "bureau": "Tartas",
+    "distanceKm": 12.1
+  },
+  "BEYRIES": {
+    "bureau": "Amou",
+    "distanceKm": 8.7
+  },
+  "BIARROTTE": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 8.9
+  },
+  "BIAS": {
+    "bureau": "Mimizan",
+    "distanceKm": 7.2
+  },
+  "BIAUDOS": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 6.0
+  },
+  "BIGANON": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "BISCARROSSE": {
+    "bureau": "Parentis-en Born",
+    "distanceKm": 8.0
+  },
+  "BONNEGARDE": {
+    "bureau": "Amou",
+    "distanceKm": 4.0
+  },
+  "BOOS": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "BORDERES ET LAMENSANS": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 5.2
+  },
+  "BOSTENS": {
+    "bureau": "Roquefort",
+    "distanceKm": 8.1
+  },
+  "BOUGUE": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 7.9
+  },
+  "BOURDALAT": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 11.0
+  },
+  "BOURRIOT BERGONCE": {
+    "bureau": "Roquefort",
+    "distanceKm": 16.0
+  },
+  "BRASSEMPOUY": {
+    "bureau": "Amou",
+    "distanceKm": 6.2
+  },
+  "BRETAGNE DE MARSAN": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 6.1
+  },
+  "BROCAS": {
+    "bureau": "Labrit",
+    "distanceKm": 8.2
+  },
+  "BUANES": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 8.4
+  },
+  "BEGAAR": {
+    "bureau": "Tartas",
+    "distanceKm": 7.4
+  },
+  "BELIS": {
+    "bureau": "Labrit",
+    "distanceKm": 9.9
+  },
+  "BELUS": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 3.5
+  },
+  "BENESSE MAREMNE": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 6.3
+  },
+  "BENESSE LES DAX": {
+    "bureau": "Pouillon",
+    "distanceKm": 5.1
+  },
+  "CACHEN": {
+    "bureau": "Roquefort",
+    "distanceKm": 8.8
+  },
+  "CAGNOTTE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 5.7
+  },
+  "CALLEN": {
+    "bureau": "Labrit",
+    "distanceKm": 17.8
+  },
+  "CAMPAGNE": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 11.8
+  },
+  "CAMPET ET LAMOLERE": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 7.0
+  },
+  "CANDRESSE": {
+    "bureau": "Dax",
+    "distanceKm": 7.0
+  },
+  "CANENX ET REAUT": {
+    "bureau": "Roquefort",
+    "distanceKm": 11.2
+  },
+  "CAPBRETON": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 10.9
+  },
+  "CARCARES SAINTE CROIX": {
+    "bureau": "Tartas",
+    "distanceKm": 4.8
+  },
+  "CARCEN PONSON": {
+    "bureau": "Tartas",
+    "distanceKm": 6.5
+  },
+  "CASSEN": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 6.2
+  },
+  "CASTAIGNOS SOUSLENS": {
+    "bureau": "Amou",
+    "distanceKm": 8.1
+  },
+  "CASTANDET": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 5.8
+  },
+  "CASTEL SARRAZIN": {
+    "bureau": "Amou",
+    "distanceKm": 4.3
+  },
+  "CASTELNAU CHALOSSE": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 5.4
+  },
+  "CASTELNAU TURSAN": {
+    "bureau": "Geaune",
+    "distanceKm": 3.4
+  },
+  "CASTELNER": {
+    "bureau": "Hagetmau",
+    "distanceKm": 10.8
+  },
+  "CAUNA": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 7.2
+  },
+  "CAUNEILLE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 3.5
+  },
+  "CAUPENNE": {
+    "bureau": "Mugron",
+    "distanceKm": 5.9
+  },
+  "CAZALIS": {
+    "bureau": "Hagetmau",
+    "distanceKm": 7.1
+  },
+  "CAZERES SUR L ADOUR": {
+    "bureau": "Aire-sur-l'Adour",
+    "distanceKm": 9.0
+  },
+  "CLASSUN": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 8.7
+  },
+  "CLERMONT": {
+    "bureau": "Pouillon",
+    "distanceKm": 8.0
+  },
+  "CLEDES": {
+    "bureau": "Geaune",
+    "distanceKm": 2.6
+  },
+  "COMMENSACQ": {
+    "bureau": "Sabres",
+    "distanceKm": 9.7
+  },
+  "COUDURES": {
+    "bureau": "Hagetmau",
+    "distanceKm": 7.8
+  },
+  "CREON D ARMAGNAC": {
+    "bureau": "Gabarret",
+    "distanceKm": 5.6
+  },
+  "CERE": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 11.7
+  },
+  "DOAZIT": {
+    "bureau": "Hagetmau",
+    "distanceKm": 7.1
+  },
+  "DONZACQ": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 6.5
+  },
+  "DUHORT BACHEN": {
+    "bureau": "Aire-sur-l'Adour",
+    "distanceKm": 5.6
+  },
+  "DUMES": {
+    "bureau": "Hagetmau",
+    "distanceKm": 5.9
+  },
+  "ESCALANS": {
+    "bureau": "Gabarret",
+    "distanceKm": 3.8
+  },
+  "ESCOURCE": {
+    "bureau": "Mimizan",
+    "distanceKm": 16.1
+  },
+  "ESTIBEAUX": {
+    "bureau": "Pouillon",
+    "distanceKm": 7.1
+  },
+  "ESTIGARDE": {
+    "bureau": "Gabarret",
+    "distanceKm": 10.9
+  },
+  "EUGENIE LES BAINS": {
+    "bureau": "Geaune",
+    "distanceKm": 6.7
+  },
+  "EYRES MONCUBE": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 5.6
+  },
+  "FARGUES": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 7.8
+  },
+  "GAAS": {
+    "bureau": "Pouillon",
+    "distanceKm": 3.4
+  },
+  "GAILLERES": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 6.6
+  },
+  "GAMARDE LES BAINS": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 3.6
+  },
+  "GAREIN": {
+    "bureau": "Labrit",
+    "distanceKm": 11.3
+  },
+  "GARREY": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 6.5
+  },
+  "GARROSSE": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "GASTES": {
+    "bureau": "Parentis-en Born",
+    "distanceKm": 10.0
+  },
+  "GAUJACQ": {
+    "bureau": "Amou",
+    "distanceKm": 5.6
+  },
+  "GELOUX": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 14.5
+  },
+  "GIBRET": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 3.0
+  },
+  "GOOS": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 7.1
+  },
+  "GOURBERA": {
+    "bureau": "Dax",
+    "distanceKm": 11.7
+  },
+  "GOUSSE": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 9.6
+  },
+  "GOUTS": {
+    "bureau": "Tartas",
+    "distanceKm": 4.4
+  },
+  "GRENADE": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 0.0
+  },
+  "HABAS": {
+    "bureau": "Pouillon",
+    "distanceKm": 7.2
+  },
+  "HASTINGUES": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 6.2
+  },
+  "HAURIET": {
+    "bureau": "Mugron",
+    "distanceKm": 4.3
+  },
+  "HAUT MAUCO": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 6.8
+  },
+  "HERM": {
+    "bureau": "Castets",
+    "distanceKm": 8.9
+  },
+  "HERRE": {
+    "bureau": "Gabarret",
+    "distanceKm": 4.5
+  },
+  "HEUGAS": {
+    "bureau": "Dax",
+    "distanceKm": 7.0
+  },
+  "HINX": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 7.8
+  },
+  "HONTANX": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 10.3
+  },
+  "HORSARRIEU": {
+    "bureau": "Hagetmau",
+    "distanceKm": 4.7
+  },
+  "JOSSE": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 5.7
+  },
+  "LABASTIDE CHALOSSE": {
+    "bureau": "Hagetmau",
+    "distanceKm": 4.1
+  },
+  "LABASTIDE D ARMAGNAC": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 12.5
+  },
+  "LABATUT": {
+    "bureau": "Pouillon",
+    "distanceKm": 5.8
+  },
+  "LABENNE": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 8.0
+  },
+  "LABOUHEYRE": {
+    "bureau": "Pissos",
+    "distanceKm": 12.8
+  },
+  "LACAJUNTE": {
+    "bureau": "Geaune",
+    "distanceKm": 6.2
+  },
+  "LACQUY": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 5.8
+  },
+  "LACRABE": {
+    "bureau": "Hagetmau",
+    "distanceKm": 4.4
+  },
+  "LAGLORIEUSE": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 8.4
+  },
+  "LAGRANGE": {
+    "bureau": "Gabarret",
+    "distanceKm": 6.9
+  },
+  "LAHOSSE": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 4.1
+  },
+  "LALUQUE": {
+    "bureau": "Castets",
+    "distanceKm": 13.7
+  },
+  "LAMOTHE": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 8.8
+  },
+  "LARBEY": {
+    "bureau": "Mugron",
+    "distanceKm": 4.3
+  },
+  "LARRIVIERE SAINT SAVIN": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 3.9
+  },
+  "LARRIVIERE": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 3.9
+  },
+  "LATRILLE": {
+    "bureau": "Geaune",
+    "distanceKm": 6.4
+  },
+  "LAURET": {
+    "bureau": "Geaune",
+    "distanceKm": 8.3
+  },
+  "LAUREDE": {
+    "bureau": "Mugron",
+    "distanceKm": 3.8
+  },
+  "LE FRECHE": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 4.9
+  },
+  "FRECHE": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 4.9
+  },
+  "LE LEUY": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 9.5
+  },
+  "LEUY": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 9.5
+  },
+  "LE SEN": {
+    "bureau": "Labrit",
+    "distanceKm": 4.1
+  },
+  "LE VIGNAU": {
+    "bureau": "Aire-sur-l'Adour",
+    "distanceKm": 9.9
+  },
+  "LENCOUACQ": {
+    "bureau": "Roquefort",
+    "distanceKm": 13.1
+  },
+  "LESGOR": {
+    "bureau": "Tartas",
+    "distanceKm": 11.5
+  },
+  "LESPERON": {
+    "bureau": "Castets",
+    "distanceKm": 10.8
+  },
+  "LINXE": {
+    "bureau": "Castets",
+    "distanceKm": 7.8
+  },
+  "LIPOSTHEY": {
+    "bureau": "Pissos",
+    "distanceKm": 7.4
+  },
+  "LIT ET MIXE": {
+    "bureau": "Castets",
+    "distanceKm": 19.0
+  },
+  "LOSSE": {
+    "bureau": "Gabarret",
+    "distanceKm": 13.9
+  },
+  "LOUER": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 7.0
+  },
+  "LOURQUEN": {
+    "bureau": "Mugron",
+    "distanceKm": 3.8
+  },
+  "LUBBON": {
+    "bureau": "Gabarret",
+    "distanceKm": 13.6
+  },
+  "LUCBARDEZ ET BARGUES": {
+    "bureau": "Roquefort",
+    "distanceKm": 9.8
+  },
+  "LUGLON": {
+    "bureau": "Sabres",
+    "distanceKm": 8.1
+  },
+  "LUSSAGNET": {
+    "bureau": "Aire-sur-l'Adour",
+    "distanceKm": 8.9
+  },
+  "LUXEY": {
+    "bureau": "Labrit",
+    "distanceKm": 13.0
+  },
+  "LEON": {
+    "bureau": "Castets",
+    "distanceKm": 10.9
+  },
+  "LEVIGNACQ": {
+    "bureau": "Castets",
+    "distanceKm": 14.7
+  },
+  "LUE": {
+    "bureau": "Parentis-en Born",
+    "distanceKm": 15.5
+  },
+  "MAGESCQ": {
+    "bureau": "Soustons",
+    "distanceKm": 12.0
+  },
+  "MAILLAS": {
+    "bureau": "Roquefort",
+    "distanceKm": 22.8
+  },
+  "MAILLERES": {
+    "bureau": "Roquefort",
+    "distanceKm": 9.3
+  },
+  "MANO": {
+    "bureau": "Pissos",
+    "distanceKm": 17.1
+  },
+  "MANT": {
+    "bureau": "Hagetmau",
+    "distanceKm": 9.2
+  },
+  "MARPAPS": {
+    "bureau": "Amou",
+    "distanceKm": 5.5
+  },
+  "MAURIES": {
+    "bureau": "Geaune",
+    "distanceKm": 3.5
+  },
+  "MAURRIN": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 5.8
+  },
+  "MAUVEZIN D ARMAGNAC": {
+    "bureau": "Gabarret",
+    "distanceKm": 10.7
+  },
+  "MAYLIS": {
+    "bureau": "Mugron",
+    "distanceKm": 6.1
+  },
+  "MAZEROLLES": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 5.5
+  },
+  "MEILHAN": {
+    "bureau": "Tartas",
+    "distanceKm": 8.9
+  },
+  "MESSANGES": {
+    "bureau": "Soustons",
+    "distanceKm": 6.6
+  },
+  "MIMBASTE": {
+    "bureau": "Pouillon",
+    "distanceKm": 6.0
+  },
+  "MIRAMONT SENSACQ": {
+    "bureau": "Geaune",
+    "distanceKm": 5.2
+  },
+  "MISSON": {
+    "bureau": "Pouillon",
+    "distanceKm": 3.8
+  },
+  "MOLIETS ET MAA": {
+    "bureau": "Soustons",
+    "distanceKm": 12.3
+  },
+  "MOMUY": {
+    "bureau": "Hagetmau",
+    "distanceKm": 6.0
+  },
+  "MONGET": {
+    "bureau": "Hagetmau",
+    "distanceKm": 11.0
+  },
+  "MONSEGUR": {
+    "bureau": "Hagetmau",
+    "distanceKm": 5.3
+  },
+  "MONTAUT": {
+    "bureau": "Mugron",
+    "distanceKm": 7.4
+  },
+  "MONTFORT": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 0.0
+  },
+  "MONTGAILLARD": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 6.0
+  },
+  "MONTSOUE": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 5.8
+  },
+  "MONTEGUT": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 9.0
+  },
+  "MORCENX LA NOUVELLE": {
+    "bureau": "Morcenx",
+    "distanceKm": 0.0
+  },
+  "MORGANX": {
+    "bureau": "Hagetmau",
+    "distanceKm": 5.2
+  },
+  "MOUSCARDES": {
+    "bureau": "Pouillon",
+    "distanceKm": 9.1
+  },
+  "MOUSTEY": {
+    "bureau": "Pissos",
+    "distanceKm": 9.7
+  },
+  "MEES": {
+    "bureau": "Dax",
+    "distanceKm": 5.3
+  },
+  "MEZOS": {
+    "bureau": "Mimizan",
+    "distanceKm": 14.7
+  },
+  "NARROSSE": {
+    "bureau": "Dax",
+    "distanceKm": 4.9
+  },
+  "NASSIET": {
+    "bureau": "Amou",
+    "distanceKm": 5.0
+  },
+  "NERBIS": {
+    "bureau": "Mugron",
+    "distanceKm": 2.3
+  },
+  "NOUSSE": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 2.0
+  },
+  "OEYREGAVE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 4.0
+  },
+  "OEYRELUY": {
+    "bureau": "Dax",
+    "distanceKm": 3.3
+  },
+  "ONARD": {
+    "bureau": "Tartas",
+    "distanceKm": 5.9
+  },
+  "ONDRES": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 6.6
+  },
+  "ONESSE LAHARIE": {
+    "bureau": "Morcenx",
+    "distanceKm": 9.3
+  },
+  "ONESSE ET LAHARIE": {
+    "bureau": "Morcenx",
+    "distanceKm": 9.3
+  },
+  "ORIST": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 9.4
+  },
+  "ORTHEVIELLE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 2.8
+  },
+  "ORX": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 7.5
+  },
+  "OSSAGES": {
+    "bureau": "Pouillon",
+    "distanceKm": 11.2
+  },
+  "OUSSE SUZAN": {
+    "bureau": "Tartas",
+    "distanceKm": 15.0
+  },
+  "OUSSE ET SUZAN": {
+    "bureau": "Tartas",
+    "distanceKm": 15.0
+  },
+  "OZOURT": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 6.5
+  },
+  "PARLEBOSCQ": {
+    "bureau": "Gabarret",
+    "distanceKm": 6.2
+  },
+  "PAYROS CAZAUTETS": {
+    "bureau": "Geaune",
+    "distanceKm": 2.3
+  },
+  "PERQUIE": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 6.0
+  },
+  "PEY": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 9.3
+  },
+  "PEYRE": {
+    "bureau": "Hagetmau",
+    "distanceKm": 9.1
+  },
+  "PHILONDENX": {
+    "bureau": "Geaune",
+    "distanceKm": 8.5
+  },
+  "PIMBO": {
+    "bureau": "Geaune",
+    "distanceKm": 5.8
+  },
+  "POMAREZ": {
+    "bureau": "Amou",
+    "distanceKm": 8.3
+  },
+  "PONTENX LES FORGES": {
+    "bureau": "Parentis-en Born",
+    "distanceKm": 10.8
+  },
+  "PONTONX SUR L ADOUR": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 12.5
+  },
+  "PORT DE LANNE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 6.2
+  },
+  "POUDENX": {
+    "bureau": "Hagetmau",
+    "distanceKm": 7.6
+  },
+  "POUYDESSEAUX": {
+    "bureau": "Roquefort",
+    "distanceKm": 5.8
+  },
+  "POYANNE": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 5.6
+  },
+  "POYARTIN": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 2.7
+  },
+  "PRECHACQ LES BAINS": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 8.5
+  },
+  "PRECHACQ": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 8.5
+  },
+  "PUJO LE PLAN": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 6.2
+  },
+  "PUYOL CAZALET": {
+    "bureau": "Geaune",
+    "distanceKm": 4.0
+  },
+  "PECORADE": {
+    "bureau": "Geaune",
+    "distanceKm": 2.1
+  },
+  "RENUNG": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 7.1
+  },
+  "RETJONS": {
+    "bureau": "Roquefort",
+    "distanceKm": 11.7
+  },
+  "LUGAUT RETJONS": {
+    "bureau": "Roquefort",
+    "distanceKm": 11.7
+  },
+  "RICHET": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "RIMBEZ ET BAUDIETS": {
+    "bureau": "Gabarret",
+    "distanceKm": 9.1
+  },
+  "RION DES LANDES": {
+    "bureau": "Morcenx",
+    "distanceKm": 11.4
+  },
+  "RION": {
+    "bureau": "Morcenx",
+    "distanceKm": 11.4
+  },
+  "RIVIERE SAAS ET GOURBY": {
+    "bureau": "Dax",
+    "distanceKm": 9.0
+  },
+  "SAINT AGNET": {
+    "bureau": "Geaune",
+    "distanceKm": 8.6
+  },
+  "SAINT ANDRE DE SEIGNANX": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 3.2
+  },
+  "SAINT AUBIN": {
+    "bureau": "Mugron",
+    "distanceKm": 3.1
+  },
+  "SAINT AVIT": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 6.8
+  },
+  "SAINT BARTHELEMY": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 4.9
+  },
+  "SAINT CRICQ CHALOSSE": {
+    "bureau": "Hagetmau",
+    "distanceKm": 7.0
+  },
+  "SAINT CRICQ VILLENEUVE": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 3.7
+  },
+  "SAINT CRICQ DU GAVE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 8.6
+  },
+  "SAINT GEIN": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 8.5
+  },
+  "SAINT GEOURS D AURIBAT": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 5.4
+  },
+  "SAINT GEOURS DE MAREMNE": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 5.9
+  },
+  "SAINT GOR": {
+    "bureau": "Roquefort",
+    "distanceKm": 8.4
+  },
+  "SAINT JEAN DE LIER": {
+    "bureau": "Tartas",
+    "distanceKm": 8.7
+  },
+  "SAINT JEAN DE MARSACQ": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 6.4
+  },
+  "SAINT JULIEN D ARMAGNAC": {
+    "bureau": "Gabarret",
+    "distanceKm": 10.7
+  },
+  "SAINT JULIEN EN BORN": {
+    "bureau": "Mimizan",
+    "distanceKm": 12.8
+  },
+  "SAINT JUSTIN": {
+    "bureau": "Roquefort",
+    "distanceKm": 9.7
+  },
+  "SAINT LAURENT DE GOSSE": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 8.0
+  },
+  "SAINT LAURENT": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 8.0
+  },
+  "SAINT LON LES MINES": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 6.7
+  },
+  "SAINT LOUBOUER": {
+    "bureau": "Geaune",
+    "distanceKm": 6.7
+  },
+  "SAINT MARTIN D ONEY": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 12.6
+  },
+  "SAINT MARTIN DE HINX": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 9.6
+  },
+  "SAINT MAURICE SUR ADOUR": {
+    "bureau": "Grenade-sur-l'Adour",
+    "distanceKm": 3.7
+  },
+  "SAINT MICHEL ESCALUS": {
+    "bureau": "Castets",
+    "distanceKm": 7.9
+  },
+  "SAINT PANDELON": {
+    "bureau": "Dax",
+    "distanceKm": 4.3
+  },
+  "SAINT PAUL EN BORN": {
+    "bureau": "Mimizan",
+    "distanceKm": 6.2
+  },
+  "SAINT PAUL LES DAX": {
+    "bureau": "Dax",
+    "distanceKm": 5.7
+  },
+  "SAINT PERDON": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 8.5
+  },
+  "SAINT PIERRE DU MONT": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 2.8
+  },
+  "SAINT VINCENT DE PAUL": {
+    "bureau": "Dax",
+    "distanceKm": 9.5
+  },
+  "SAINT YAGUEN": {
+    "bureau": "Tartas",
+    "distanceKm": 10.1
+  },
+  "SAINT ETIENNE D ORTHE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 7.2
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Hagetmau",
+    "distanceKm": 4.1
+  },
+  "SAINTE EULALIE EN BORN": {
+    "bureau": "Mimizan",
+    "distanceKm": 8.3
+  },
+  "SAINTE FOY": {
+    "bureau": "Villeneuve-de-Marsan",
+    "distanceKm": 2.9
+  },
+  "SAINTE MARIE DE GOSSE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 9.7
+  },
+  "SAMADET": {
+    "bureau": "Hagetmau",
+    "distanceKm": 8.1
+  },
+  "SANGUINET": {
+    "bureau": "Parentis-en Born",
+    "distanceKm": 13.9
+  },
+  "SARBAZAN": {
+    "bureau": "Roquefort",
+    "distanceKm": 2.9
+  },
+  "SARRAZIET": {
+    "bureau": "Saint-Sever",
+    "distanceKm": 8.2
+  },
+  "SARRON": {
+    "bureau": "Geaune",
+    "distanceKm": 9.7
+  },
+  "SAUBION": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 2.7
+  },
+  "SAUBRIGUES": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 6.3
+  },
+  "SAUBUSSE": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 9.7
+  },
+  "SAUGNAC ET CAMBRAN": {
+    "bureau": "Dax",
+    "distanceKm": 6.8
+  },
+  "SAUGNAC ET MURET": {
+    "bureau": "Pissos",
+    "distanceKm": 10.9
+  },
+  "SAUGNACQ ET MURET": {
+    "bureau": "Pissos",
+    "distanceKm": 10.9
+  },
+  "SEIGNOSSE": {
+    "bureau": "Soustons",
+    "distanceKm": 7.4
+  },
+  "SERRES GASTON": {
+    "bureau": "Hagetmau",
+    "distanceKm": 5.9
+  },
+  "SERRESLOUS ET ARRIBANS": {
+    "bureau": "Hagetmau",
+    "distanceKm": 4.9
+  },
+  "SEYRESSE": {
+    "bureau": "Dax",
+    "distanceKm": 2.4
+  },
+  "SIEST": {
+    "bureau": "Dax",
+    "distanceKm": 8.1
+  },
+  "SINDERES": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 0.0
+  },
+  "SOLFERINO": {
+    "bureau": "Morcenx",
+    "distanceKm": 9.3
+  },
+  "SOORTS HOSSEGOR": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 8.6
+  },
+  "SORBETS": {
+    "bureau": "Geaune",
+    "distanceKm": 3.3
+  },
+  "SORDE L ABBAYE": {
+    "bureau": "Peyrehorade",
+    "distanceKm": 6.9
+  },
+  "SORE": {
+    "bureau": "Pissos",
+    "distanceKm": 15.0
+  },
+  "SORT EN CHALOSSE": {
+    "bureau": "Montfort-en-Chalosse",
+    "distanceKm": 7.5
+  },
+  "SOUPROSSE": {
+    "bureau": "Tartas",
+    "distanceKm": 5.4
+  },
+  "TALLER": {
+    "bureau": "Castets",
+    "distanceKm": 6.9
+  },
+  "TARNOS": {
+    "bureau": "Saint-Martin-de-Seignanx",
+    "distanceKm": 6.8
+  },
+  "TERCIS LES BAINS": {
+    "bureau": "Dax",
+    "distanceKm": 5.3
+  },
+  "TILH": {
+    "bureau": "Amou",
+    "distanceKm": 7.1
+  },
+  "TOSSE": {
+    "bureau": "Saint-Vincent-de-Tyrosse",
+    "distanceKm": 3.8
+  },
+  "TOULOUZETTE": {
+    "bureau": "Mugron",
+    "distanceKm": 6.0
+  },
+  "TRENSACQ": {
+    "bureau": "Sabres",
+    "distanceKm": 9.1
+  },
+  "TETHIEU": {
+    "bureau": "Dax",
+    "distanceKm": 9.7
+  },
+  "THETIEU": {
+    "bureau": "Dax",
+    "distanceKm": 9.7
+  },
+  "UCHACQ ET PARENTIS": {
+    "bureau": "Mont-de-Marsan",
+    "distanceKm": 6.9
+  },
+  "URGONS": {
+    "bureau": "Geaune",
+    "distanceKm": 5.1
+  },
+  "UZA": {
+    "bureau": "Castets",
+    "distanceKm": 17.0
+  },
+  "VERT": {
+    "bureau": "Labrit",
+    "distanceKm": 5.8
+  },
+  "VICQ D AURIBAT": {
+    "bureau": "Tartas",
+    "distanceKm": 7.2
+  },
+  "VIELLE SAINT GIRONS": {
+    "bureau": "Castets",
+    "distanceKm": 15.5
+  },
+  "VIELLE SOUBIRAN": {
+    "bureau": "Roquefort",
+    "distanceKm": 12.7
+  },
+  "VIELLE TURSAN": {
+    "bureau": "Geaune",
+    "distanceKm": 9.6
+  },
+  "VIELLE": {
+    "bureau": "Geaune",
+    "distanceKm": 9.6
+  },
+  "VIEUX BOUCAU LES BAINS": {
+    "bureau": "Soustons",
+    "distanceKm": 6.4
+  },
+  "VILLENAVE": {
+    "bureau": "Morcenx",
+    "distanceKm": 10.2
+  },
+  "YCHOUX": {
+    "bureau": "Parentis-en Born",
+    "distanceKm": 9.8
+  },
+  "YGOS SAINT SATURNIN": {
+    "bureau": "Morcenx",
+    "distanceKm": 15.4
+  },
+  "YZOSSE": {
+    "bureau": "Dax",
+    "distanceKm": 4.3
+  }
+}

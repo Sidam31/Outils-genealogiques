@@ -1045,6 +1045,47 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_95_bureaux.json',
         catalogUrl: 'https://archives.valdoise.fr/n/enregistrement/n:329',
     },
+    '40': {
+        label: 'Landes',
+        kind: 'facet',
+        // Bornes réelles de la série (291 registres, 27 bureaux, voir scrape_successions_arkotheque.py,
+        // DEPARTMENTS['40']) - portail Arkothèque. Longtemps marqué non couvert (voir recherche.html) :
+        // la pagination du site ne déclenche même pas de requête réseau au clic, et son API interne
+        // n'accepte qu'UN SEUL appel par cf_clearance Cloudflare (confirmé avec un clearance fourni
+        // par l'utilisateur - premier appel 200, tout appel suivant 403, y compris après relance de
+        // page ou 90s d'attente). Les 291 registres ont été extraits manuellement par l'utilisateur
+        // depuis son propre navigateur (où la pagination fonctionne normalement) puis passés par
+        // extract_rows() comme n'importe quel autre déploiement Arkothèque de ce module - pas
+        // re-scrapable de façon autonome par ce projet en l'état.
+        minYear: 1820,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_40.json',
+        bureauxUrl: './assets/data/successions_40_bureaux.json',
+        catalogUrl: 'https://archives.landes.fr/faire-une-recherche/archives-numerisees/rechercher-une-personne/tables-des-deces-successions-et-absences-copie/tables-des-deces-successions-absences-et-fiches-deces',
+    },
+    '11': {
+        label: 'Aude',
+        kind: 'facet',
+        // Bornes réelles de la série (221 registres, 22 bureaux sur 23, voir scrape_aude_3q.py) -
+        // PAS de portail "Ligeo Archives" navigable pour ce fonds (contrairement aux Alpes-
+        // Maritimes) : /les-notaires du site confirme explicitement que les registres 3Q sont
+        // numérisés en interne mais "pas encore en ligne". La seule source publique est le
+        // répertoire thématique PDF (326 pages, un chapitre par bureau) publié par le service -
+        // r.url pointe donc vers la page correspondante de ce PDF (fragment #page=N, ouvre le bon
+        // chapitre dans la plupart des lecteurs PDF de navigateur), pas vers un scan du registre
+        // lui-même : digitized=false partout, cas déjà prévu par digitizedBadge (badge "🗄️ non
+        // numérisé", lien vers la notice plutôt qu'un scan). Tuchan (fermé en 1809) n'a pas de
+        // "table des successions et absences" à proprement parler (absence réelle, pas un trou de
+        // dépouillement - sa seule table de ce type est nommée "successions acquittées", une
+        // sous-série distincte volontairement exclue, même logique que Indre/Hautes-Alpes plus
+        // haut). Le site archivesdepartementales.aude.fr (y compris ce PDF statique) est protégé
+        // par le même anti-bot F5/TSPD qu'archives06.fr - voir le commentaire en tête de
+        // scrape_aude_3q.py pour le contournement (Chrome non-headless).
+        minYear: 1818,
+        maxYear: 1971,
+        registersUrl: './assets/data/successions_11.json',
+        catalogUrl: 'https://archivesdepartementales.aude.fr/sites/default/files/media/files/Sous-s%C3%A9rie_3Q.pdf',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
