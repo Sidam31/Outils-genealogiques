@@ -319,6 +319,50 @@
             </div>
 
             <div class="society-section">
+                <h3>🏷️ Prénoms donnés (1er, 2e, 3e)</h3>
+                <p class="hint">Classement des prénoms les plus donnés selon leur position dans l'état civil (ex. « Jean Baptiste Marie » : 1er = Jean, 2e = Baptiste, 3e = Marie), toutes générations confondues. Couleur = profil de sexe des porteurs de ce prénom à ce rang (voir légende sur chaque graphique) — utile pour repérer les prénoms « mixtes », donnés aux deux sexes (fréquent en 2e/3e prénom, ex. « Marie » comme second prénom masculin).</p>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socGivenRank1Total">–</div><div class="lbl">1er prénom : distincts / occurrences</div></div>
+                    <div class="society-stat-card"><div class="num" id="socGivenRank2Total">–</div><div class="lbl">2e prénom : distincts / occurrences</div></div>
+                    <div class="society-stat-card"><div class="num" id="socGivenRank3Total">–</div><div class="lbl">3e prénom : distincts / occurrences</div></div>
+                </div>
+                <div class="quality-charts">
+                    <div class="quality-chart-box">
+                        <h3>1er prénom</h3>
+                        <div id="socGivenRank1Chart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                    <div class="quality-chart-box">
+                        <h3>2e prénom</h3>
+                        <div id="socGivenRank2Chart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                    <div class="quality-chart-box">
+                        <h3>3e prénom</h3>
+                        <div id="socGivenRank3Chart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="society-section">
+                <div class="chart-box-header">
+                    <h3>🗺️ Prénoms rares : répartition géographique des naissances</h3>
+                    <button class="chart-copy-btn" data-target="socRareNamesMap" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <p class="hint">Un prénom (à n'importe quel rang) est considéré ici comme « rare » s'il n'est donné qu'à <span id="socRareThreshold">9</span> personne(s) ou moins — dans le sous-groupe choisi ci-dessous. Chaque point est une commune de naissance (taille = nombre de porteurs). Parmi tous ces prénoms rares, les <span id="socRareHighlightCount">12</span> dont les communes de naissance sont les plus resserrées géographiquement (distance moyenne la plus faible entre elles) sont mis en couleur — l'indice le plus direct d'une possible tendance régionale ; tous les autres restent en gris.</p>
+                <div class="checkbox-group" role="radiogroup" aria-label="Filtrer les prénoms rares par sexe">
+                    <label><input type="radio" name="socRareSex" value="" checked> Tous</label>
+                    <label><input type="radio" name="socRareSex" value="F"> Filles uniquement</label>
+                    <label><input type="radio" name="socRareSex" value="M"> Garçons uniquement</label>
+                </div>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socRareCount">–</div><div class="lbl">prénoms rares distincts</div></div>
+                    <div class="society-stat-card"><div class="num" id="socRareGeo">–</div><div class="lbl">occurrences géolocalisées / total</div></div>
+                </div>
+                <div id="socRareNamesMap"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                <h4 style="margin:16px 0 8px; color:var(--accent);">Prénoms rares les plus donnés (parmi les rares)</h4>
+                <div id="socRareNamesList" class="society-list"></div>
+            </div>
+
+            <div class="society-section">
                 <h3>🍂 Lignées masculines potentiellement éteintes</h3>
                 <p class="hint">Noms de famille pour lesquels aucun homme recensé n'a de fils connu, alors que la lignée a eu des enfants. Basé uniquement sur les données saisies : une lignée peut se poursuivre par une branche non renseignée dans ce fichier.</p>
                 <div id="socSurnameList" class="society-list"></div>
@@ -475,7 +519,11 @@ import {
     hasEasterEggSurname
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
-import { computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap } from './assets/js/society.js';
+import {
+    computeSocietyStats, drawRankedBarChart, drawCategoryBarChart, computeMarriageSeasonality, drawSeasonalityHeatmap,
+    computeGivenNameStats, drawRareGivenNamesMap, SEX_PROFILE_COLORS, SEX_PROFILE_LABELS,
+    RARE_GIVEN_NAME_HIGHLIGHT_COLORS, GIVEN_NAME_HIGHLIGHT_COUNT
+} from './assets/js/society.js';
 import { loadCommunesPopulation } from './assets/js/communes-population.js';
 
 // --- Sous-navigation : bascule entre les trois volets fusionnés sur cette page ---
@@ -832,8 +880,70 @@ function renderCitySizeSection(citySize) {
     }));
 }
 
+// Légende sex-color, limitée aux profils réellement présents dans CE rang (ex. le 2e prénom peut
+// n'avoir que des "mixed" dans un fichier de tradition catholique, sans jamais afficher "Masculin"
+// seul) — même principe que la légende "typesPresent" de drawDepartmentMap (maps.js).
+function sexLegendFor(top) {
+    const present = new Set(top.map(d => d.sexProfile));
+    return Object.keys(SEX_PROFILE_LABELS).filter(k => present.has(k)).map(k => ({ label: SEX_PROFILE_LABELS[k], color: SEX_PROFILE_COLORS[k] }));
+}
+const sexColorFor = d => SEX_PROFILE_COLORS[d.sexProfile] || SEX_PROFILE_COLORS.unknown;
+const sexTooltipExtra = d => `<div class="tt-row"><span>${SEX_PROFILE_LABELS[d.sexProfile]}</span><span>${d.male}♂ / ${d.female}♀</span></div>`;
+
+function currentRareSexFilter() {
+    const checked = document.querySelector('input[name="socRareSex"]:checked');
+    return checked && checked.value ? checked.value : null;
+}
+document.querySelectorAll('input[name="socRareSex"]').forEach(input => input.addEventListener('change', renderGivenNames));
+
+function renderGivenNames() {
+    if (!list.length) return;
+    const stats = computeGivenNameStats(list, { sexFilter: currentRareSexFilter() });
+
+    setStat('socGivenRank1Total', `${stats.ranks[0].distinctCount} / ${stats.ranks[0].total}`);
+    setStat('socGivenRank2Total', `${stats.ranks[1].distinctCount} / ${stats.ranks[1].total}`);
+    setStat('socGivenRank3Total', `${stats.ranks[2].distinctCount} / ${stats.ranks[2].total}`);
+    drawRankedBarChart('socGivenRank1Chart', stats.ranks[0].top, {
+        emptyMessage: 'Aucun 1er prénom trouvé.', countLabel: 'Personnes',
+        colorFor: sexColorFor, tooltipExtra: sexTooltipExtra, legendItems: sexLegendFor(stats.ranks[0].top)
+    });
+    drawRankedBarChart('socGivenRank2Chart', stats.ranks[1].top, {
+        emptyMessage: 'Aucun 2e prénom trouvé (prénoms composés absents de ce fichier).', countLabel: 'Personnes',
+        colorFor: sexColorFor, tooltipExtra: sexTooltipExtra, legendItems: sexLegendFor(stats.ranks[1].top)
+    });
+    drawRankedBarChart('socGivenRank3Chart', stats.ranks[2].top, {
+        emptyMessage: 'Aucun 3e prénom trouvé.', countLabel: 'Personnes',
+        colorFor: sexColorFor, tooltipExtra: sexTooltipExtra, legendItems: sexLegendFor(stats.ranks[2].top)
+    });
+
+    document.getElementById('socRareThreshold').textContent = stats.rareMaxCount;
+    document.getElementById('socRareHighlightCount').textContent = Math.min(GIVEN_NAME_HIGHLIGHT_COUNT, stats.rareNameSummaries.length);
+    setStat('socRareCount', stats.rareNamesCount);
+    setStat('socRareGeo', `${stats.geolocatedRareOccurrences} / ${stats.totalRareOccurrences}`);
+    const highlightColor = new Map(stats.highlightedNames.map((h, i) => [h.key, RARE_GIVEN_NAME_HIGHLIGHT_COLORS[i % RARE_GIVEN_NAME_HIGHLIGHT_COLORS.length]]));
+    renderList('socRareNamesList', stats.rareNameSummaries.slice(0, 20).map((s, i) => {
+        const hl = stats.highlightedNames.find(h => h.key === s.key);
+        const dot = highlightColor.has(s.key)
+            ? `<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:${highlightColor.get(s.key)};margin-right:6px;"></span>`
+            : '';
+        const spreadInfo = hl ? ` • ≈ ${hl.spreadKm.toFixed(0)} km entre ces communes` : '';
+        return `
+        <div class="society-list-item">
+            <div class="rank">${i + 1}</div>
+            <div class="main">
+                <div class="title">${dot}${escapeHtml(s.name)}</div>
+                <div class="meta">${s.distinctCommunes} commune(s) géolocalisée(s)${s.distinctDepts ? ' dans ' + s.distinctDepts + ' département(s)' : ''}${spreadInfo}</div>
+            </div>
+            <div class="badge">${s.count} fois</div>
+        </div>
+    `;
+    }));
+    drawRareGivenNamesMap('socRareNamesMap', stats);
+}
+
 function renderSociety(stats) {
     renderMarriageSeasonality();
+    renderGivenNames();
 
     // Professions
     setStat('socProfTotal', stats.professions.total);
@@ -1311,6 +1421,11 @@ bootstrap({
             if (deptSelectedCode) renderDepartmentDetail();
             if (beSelectedCode) renderBeProvinceDetail();
             if (europeContentEl && !europeContentEl.classList.contains('hidden')) renderEuropeDetail();
+            // La carte des prénoms rares (renderGivenNames, volet Société) dépend elle aussi des
+            // coordonnées de commune résolues ci-dessus : sans ce second appel, elle resterait bloquée
+            // sur son message "pas assez de points" si le panneau Société a été affiché avant que
+            // enrichMissingCoords ait fini (rendu initial synchrone dans onData, plus bas).
+            renderGivenNames();
         });
 
         // Filtre "ascendants de" du panneau Départements : la personne (et le périmètre qu'elle

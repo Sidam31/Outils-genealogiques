@@ -1,10 +1,12 @@
 // --- ANALYSE "SOCIÉTÉ" (professions, documentation, mobilité, prénoms, lignées) ---
 // Complète les autres outils (Qualité, Visualisation) avec des angles absents ailleurs sur le site :
 // transmission des professions, complétude documentaire, remariages, mobilité résidentielle et
-// géographique, endogamie, naissances rapprochées dans une fratrie, traditions de prénoms et
-// extinction potentielle des lignées masculines. Toutes les fonctions sont pures (list/map/fams en
-// entrée, objets de résultats en sortie) : le rendu HTML/D3 reste dans visualisation.html (volet
-// "Société" de la page "Vue d'ensemble").
+// géographique, endogamie, naissances rapprochées dans une fratrie, traditions de prénoms, classement
+// des prénoms par rang (1er/2e/3e) avec repérage géographique des prénoms rares, et extinction
+// potentielle des lignées masculines. Les fonctions de calcul sont pures (list/map/fams en entrée,
+// objets de résultats en sortie) ; le rendu HTML/D3 reste dans visualisation.html (volet "Société" de
+// la page "Vue d'ensemble"), à l'exception des cartes D3 (drawRareGivenNamesMap...) qui vivent ici
+// pour rester à côté de leurs données, comme les autres graphiques D3 de ce fichier.
 //
 // Limites liées au parser (assets/js/gedcom.js), assumées plutôt que masquées :
 // - Pas de tag SOUR : "complétude documentaire" s'appuie donc sur les événements/faits renseignés,
@@ -13,12 +15,31 @@
 //   qu'un indice de naissance multiple possible, pas une confirmation jour/mois.
 // DIV (divorce) et EMIG/IMMI (migrations) sont parsés par gedcom.js (voir f.div et i.events.EMIG/IMMI).
 
-import { deptCode } from './geo.js';
+import { GEO, deptCode } from './geo.js';
 import { estimatePopulation } from './communes-population.js';
+import { ensureFranceGeo, showMapMessage, ensureEuropeGeo, neighborCountryLabel } from './maps.js';
+import { escapeHtml } from './utils.js';
 
 function firstGivenName(p) {
     const g = p?.given || (p?.name || '').split(' ')[0];
     return g ? g.trim().split(' ')[0].toLowerCase() : '';
+}
+
+// Faux "prénoms" occasionnellement présents dans le champ GIVN de certains fichiers (ex. "Né" ou
+// "Mort" collés au prénom réel pour signaler un enfant mort-né/décédé jeune, plutôt qu'un tag GEDCOM
+// dédié) : ce ne sont pas des prénoms donnés à l'état civil, donc exclus de toute l'analyse (rangs et
+// prénoms rares) pour ne pas fausser les classements ni faire remonter une fausse tendance régionale.
+const GIVEN_NAME_EXCLUDED = new Set(['mort', 'né']);
+
+// Tous les prénoms d'une personne, dans l'ordre de l'état civil (ex. "Jean Baptiste Marie" -> 3
+// prénoms) : p.given (tag GIVN, ou repli "Prénom /NOM/" du niveau NAME, voir gedcom.js) contient
+// déjà tous les prénoms séparés par des espaces, sans le patronyme. Repli sur le premier mot de
+// p.name (comme firstGivenName ci-dessus) quand given est absent — mais alors un seul prénom est
+// récupérable, pas de rang 2/3.
+function allGivenNames(p) {
+    const raw = (p?.given && p.given.trim()) || (p?.name || '').split(' ')[0] || '';
+    if (!raw) return [];
+    return raw.split(/\s+/).filter(Boolean).filter(token => !GIVEN_NAME_EXCLUDED.has(token.toLowerCase()));
 }
 
 function childrenOf(person, fams, map) {
@@ -345,6 +366,193 @@ export function computeNamingPatterns(map) {
     };
 }
 
+// --- 7bis. Prénoms donnés (1er, 2e, 3e) : classement par rang (coloré par profil de sexe des
+//    porteurs) + repérage des prénoms rares et de leur répartition géographique (commune de
+//    naissance), pour repérer d'éventuelles tendances régionales dans le choix des prénoms peu
+//    courants. Un prénom est classé "rare" sur son total d'occurrences TOUS RANGS confondus (ex. un
+//    prénom donné une fois en 1er prénom et une fois en 2e compte pour 2) : opts.rareMaxCount
+//    (défaut 9, soit "moins de 10 fois") fixe le seuil. Volontairement large plutôt que très strict :
+//    plus le vivier de prénoms rares est large, plus il y a de chances d'y trouver un regroupement
+//    géographique visible — mais avec un tel vivier ("beaucoup" de prénoms rares dans un fichier de
+//    plusieurs centaines d'individus), colorer chaque prénom rare rendrait la carte illisible. On ne
+//    met donc en couleur que les GIVEN_NAME_HIGHLIGHT_COUNT prénoms rares dont les communes de
+//    naissance sont le plus resserrées géographiquement (plus petite distance moyenne entre elles) —
+//    l'indice le plus direct d'une possible tendance régionale — tous les autres restant en gris sur
+//    la carte (voir drawRareGivenNamesMap). La carte dépend de coordonnées de commune déjà résolues
+//    (voir enrichMissingCoords, assets/js/maps.js) : tant qu'elles ne le sont pas,
+//    geolocatedRareOccurrences reste à 0 et mapReady à false.
+const GIVEN_NAME_MAX_RANK = 3;
+const GIVEN_NAME_RANK_LABELS = ['1er prénom', '2e prénom', '3e prénom'];
+const GIVEN_NAME_MIN_SAMPLE_FOR_MAP = 15;
+export const GIVEN_NAME_HIGHLIGHT_COUNT = 20;
+// Seuils de classement du "profil de sexe" d'un prénom à un rang donné : au moins 75% de porteurs
+// d'un même sexe pour le classer "M"/"F", entre les deux c'est "mixed" (prénom réellement partagé,
+// ex. beaucoup de "Marie" en 2e/3e prénom masculin dans la tradition catholique). "unknown" ne
+// signifie pas "mixte" mais "aucune personne avec ce prénom n'a de sexe renseigné dans le fichier".
+const SEX_PROFILE_MALE_RATIO = 0.75;
+const SEX_PROFILE_FEMALE_RATIO = 0.25;
+export const SEX_PROFILE_COLORS = { M: '#3498db', F: '#e91e8c', mixed: '#9b59b6', unknown: '#95a5a6' };
+export const SEX_PROFILE_LABELS = { M: 'Masculin', F: 'Féminin', mixed: 'Mixte (les deux sexes)', unknown: 'Sexe inconnu' };
+// Palette pour les GIVEN_NAME_HIGHLIGHT_COUNT prénoms rares les plus regroupés géographiquement (une
+// couleur chacun, prise dans l'ordre) : 15 teintes "Flat UI" bien distinguables entre elles, en évitant
+// volontairement le bleu/rose/violet/gris déjà utilisés ci-dessus pour le profil de sexe.
+export const RARE_GIVEN_NAME_HIGHLIGHT_COLORS = [
+    '#1abc9c', '#e67e22', '#c0392b', '#2980b9', '#f1c40f',
+    '#27ae60', '#d35400', '#8e44ad', '#e74c3c', '#2c3e50',
+    '#f39c12', '#16a085', '#34495e', '#7f8c8d', '#2ecc71'
+];
+export const RARE_GIVEN_NAME_OTHER_COLOR = '#95a5a6';
+
+function sexProfileOf(male, female) {
+    const total = male + female;
+    if (total === 0) return 'unknown';
+    const ratio = male / total;
+    if (ratio >= SEX_PROFILE_MALE_RATIO) return 'M';
+    if (ratio <= SEX_PROFILE_FEMALE_RATIO) return 'F';
+    return 'mixed';
+}
+
+// Distance orthodromique (km) entre deux points [lat,lon] — utilisée uniquement pour comparer entre
+// eux les prénoms rares (lequel a ses communes de naissance les plus resserrées), pas pour un usage
+// cartographique précis : la Terre y est approximée par une sphère (rayon moyen 6371 km), suffisant
+// à cette échelle de comparaison relative.
+function haversineKm(lat1, lon1, lat2, lon2) {
+    const R = 6371;
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = Math.sin(dLat / 2) ** 2 +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * Math.sin(dLon / 2) ** 2;
+    return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
+// Distance moyenne entre toutes les paires de communes distinctes d'un même prénom : plus elle est
+// petite, plus les naissances de ce prénom sont géographiquement concentrées. Un seul point (toutes
+// les naissances dans la même commune, ex. fratrie) donne 0 km — le regroupement le plus fort possible.
+function averagePairwiseDistanceKm(points) {
+    if (points.length < 2) return 0;
+    let sum = 0, pairs = 0;
+    for (let i = 0; i < points.length; i++) {
+        for (let j = i + 1; j < points.length; j++) {
+            sum += haversineKm(points[i].lat, points[i].lon, points[j].lat, points[j].lon);
+            pairs++;
+        }
+    }
+    return pairs ? sum / pairs : 0;
+}
+
+export function computeGivenNameStats(list, opts = {}) {
+    const rareMaxCount = opts.rareMaxCount ?? 9;
+    // Filtre optionnel appliqué UNIQUEMENT à l'analyse des prénoms rares (rareté, carte, liste) : les
+    // classements par rang (ranks, ci-dessous) restent, eux, toujours calculés sur toute la population
+    // — ils affichent déjà le sexe par couleur (voir sexProfileOf), filtrer les priverait justement de
+    // l'intérêt de voir les deux sexes se comparer. "Filles"/"Garçons" ne réduit donc pas la liste des
+    // porteurs d'un prénom déjà jugé rare sur l'ensemble : la rareté elle-même est recalculée sur le
+    // seul sous-groupe choisi (ex. un prénom donné 3 fois à des filles et 7 fois à des garçons peut être
+    // "rare" côté filles mais pas côté garçons, selon rareMaxCount).
+    const sexFilter = (opts.sexFilter === 'M' || opts.sexFilter === 'F') ? opts.sexFilter : null;
+
+    const rankCounts = Array.from({ length: GIVEN_NAME_MAX_RANK }, () => new Map());
+    const occurrences = []; // { key, label, rank, person }, une entrée par prénom par personne
+
+    list.forEach(p => {
+        const sex = (p.sex === 'M' || p.sex === 'F') ? p.sex : null;
+        allGivenNames(p).slice(0, GIVEN_NAME_MAX_RANK).forEach((raw, idx) => {
+            const key = raw.toLowerCase();
+            const label = raw.charAt(0).toUpperCase() + raw.slice(1).toLowerCase();
+
+            if (!rankCounts[idx].has(key)) rankCounts[idx].set(key, { label, count: 0, male: 0, female: 0 });
+            const rankEntry = rankCounts[idx].get(key);
+            rankEntry.count++;
+            if (sex === 'M') rankEntry.male++; else if (sex === 'F') rankEntry.female++;
+
+            occurrences.push({ key, label, rank: idx + 1, person: p });
+        });
+    });
+
+    const ranks = rankCounts.map((counts, idx) => {
+        const sorted = Array.from(counts.values())
+            .map(d => ({ ...d, sexProfile: sexProfileOf(d.male, d.female) }))
+            .sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'fr'));
+        return {
+            rank: idx + 1,
+            label: GIVEN_NAME_RANK_LABELS[idx],
+            distinctCount: sorted.length,
+            total: sorted.reduce((sum, d) => sum + d.count, 0),
+            top: sorted.slice(0, 15)
+        };
+    });
+
+    // À partir d'ici, tout se calcule sur le sous-groupe sexFilter (ou la population entière si non
+    // renseigné) : c'est sur CE périmètre qu'un prénom est jugé rare, géolocalisé, et retenu pour la carte.
+    const scopedOccurrences = sexFilter ? occurrences.filter(o => o.person.sex === sexFilter) : occurrences;
+    const globalCounts = new Map(); // prénom (minuscule) -> { label, count } tous rangs confondus, sur le périmètre
+    scopedOccurrences.forEach(o => {
+        if (!globalCounts.has(o.key)) globalCounts.set(o.key, { label: o.label, count: 0 });
+        globalCounts.get(o.key).count++;
+    });
+
+    const rareKeys = new Set(Array.from(globalCounts.entries()).filter(([, v]) => v.count <= rareMaxCount).map(([k]) => k));
+
+    // Un point par (prénom, commune géolocalisée) : regroupe les occurrences du même prénom rare nées
+    // au même endroit, plutôt qu'un point par personne (illisible dès que plusieurs porteurs partagent
+    // la même commune de naissance, ex. fratrie).
+    const pointMap = new Map();
+    let totalRareOccurrences = 0, geolocatedRareOccurrences = 0;
+    scopedOccurrences.forEach(o => {
+        if (!rareKeys.has(o.key)) return;
+        totalRareOccurrences++;
+        const geo = o.person.birth?.geo;
+        if (!geo || geo.lat == null || geo.lon == null) return;
+        geolocatedRareOccurrences++;
+        const pointKey = `${o.key}|${geo.lat.toFixed(3)}|${geo.lon.toFixed(3)}`;
+        if (!pointMap.has(pointKey)) {
+            pointMap.set(pointKey, { name: o.key, label: o.label, lat: geo.lat, lon: geo.lon, city: geo.city || null, dept: geo.dept || null, count: 0, items: [] });
+        }
+        const pt = pointMap.get(pointKey);
+        pt.count++;
+        if (pt.items.length < 20) pt.items.push({ personName: o.person.name, rank: o.rank, year: o.person.birth?.year ?? null });
+    });
+
+    const rarePoints = Array.from(pointMap.values()).sort((a, b) => b.count - a.count);
+
+    const rareNameSummaries = Array.from(rareKeys).map(key => {
+        const info = globalCounts.get(key);
+        const pts = rarePoints.filter(pt => pt.name === key);
+        const depts = new Set(pts.map(pt => pt.dept).filter(Boolean));
+        return {
+            key,
+            name: info.label,
+            count: info.count,
+            geolocatedCount: pts.reduce((sum, pt) => sum + pt.count, 0),
+            distinctCommunes: pts.length,
+            distinctDepts: depts.size
+        };
+    }).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, 'fr'));
+
+    // Prénoms rares retenus pour la carte : parmi ceux ayant au moins 2 naissances géolocalisées (sans
+    // quoi "regroupement géographique" n'a pas de sens — un seul point n'est jamais informatif), les
+    // GIVEN_NAME_HIGHLIGHT_COUNT dont la distance moyenne entre communes de naissance est la plus
+    // faible (à effectif égal, on privilégie celui qui a le plus de porteurs, échantillon plus solide).
+    const highlightedNames = rareNameSummaries
+        .filter(s => s.geolocatedCount >= 2)
+        .map(s => ({ ...s, spreadKm: averagePairwiseDistanceKm(rarePoints.filter(pt => pt.name === s.key).map(pt => ({ lat: pt.lat, lon: pt.lon }))) }))
+        .sort((a, b) => a.spreadKm - b.spreadKm || b.count - a.count)
+        .slice(0, GIVEN_NAME_HIGHLIGHT_COUNT);
+
+    return {
+        ranks,
+        rareMaxCount,
+        sexFilter,
+        rareNamesCount: rareKeys.size,
+        totalRareOccurrences,
+        geolocatedRareOccurrences,
+        rarePoints,
+        rareNameSummaries,
+        highlightedNames,
+        mapReady: geolocatedRareOccurrences >= GIVEN_NAME_MIN_SAMPLE_FOR_MAP
+    };
+}
+
 // --- 8. Extinction potentielle des lignées masculines : hommes décédés, sans fils connu, alors que
 //    la lignée a eu des enfants. Basé uniquement sur les données saisies (voir note dans visualisation.html).
 export function computeSurnameExtinction(map, fams) {
@@ -505,9 +713,17 @@ export function drawRankedBarChart(containerId, data, opts = {}) {
         return;
     }
 
+    // opts.legendItems (optionnel) : petite légende empilée verticalement en haut à gauche, pour un
+    // encodage couleur qui ne se lit pas sur l'axe (ex. couleur = sexe des porteurs d'un prénom, voir
+    // renderGivenNames dans visualisation.html) — même idiome que la légende de drawDepartmentMap
+    // (maps.js), juste positionnée en haut plutôt qu'en bas puisque les barres, elles, partent du haut.
+    const legendItems = opts.legendItems || null;
+    const legendRowHeight = 14;
+    const legendHeight = legendItems && legendItems.length ? legendItems.length * legendRowHeight + 8 : 0;
+
     const width = container.node().clientWidth || 500;
     const barHeight = 22;
-    const margin = { top: 10, right: 44, bottom: 10, left: 150 };
+    const margin = { top: 10 + legendHeight, right: 44, bottom: 10, left: 150 };
     const height = margin.top + margin.bottom + data.length * barHeight;
     // viewBox + width 100% (plutôt qu'un attribut width fixe) : le graphe est souvent dessiné pendant
     // que son onglet est encore caché (clientWidth = 0, d'où le repli sur 500), ce qui produirait un
@@ -518,19 +734,31 @@ export function drawRankedBarChart(containerId, data, opts = {}) {
     const maxCount = d3.max(data, d => d.count) || 1;
     const x = d3.scaleLinear().domain([0, maxCount]).nice().range([margin.left, width - margin.right]);
     const y = d3.scaleBand().domain(data.map(d => d.label)).range([margin.top, height - margin.bottom]).padding(0.22);
-    const color = opts.color || '#3498db';
-    const colorHover = opts.colorHover || '#2980b9';
+    // colorFor (optionnel) prime sur color/colorHover fixes : permet une couleur par barre (ex. par
+    // sexe) plutôt qu'une seule couleur pour tout le graphique. Le survol s'assombrit dynamiquement
+    // (d3.color(...).darker) plutôt que via une seconde couleur fixe par barre, sinon opts.colorFor
+    // devrait fournir deux fonctions au lieu d'une pour un simple effet de survol.
+    const staticColor = opts.color || '#3498db';
+    const colorFor = typeof opts.colorFor === 'function' ? opts.colorFor : (() => staticColor);
+
+    if (legendItems && legendItems.length) {
+        const legendG = svg.append('g').attr('transform', 'translate(6, 10)');
+        legendItems.forEach((item, i) => {
+            legendG.append('circle').attr('cx', 5).attr('cy', i * legendRowHeight).attr('r', 4).attr('fill', item.color);
+            legendG.append('text').attr('x', 14).attr('y', i * legendRowHeight + 3).style('font-size', '9.5px').style('fill', '#333').text(item.label);
+        });
+    }
 
     const tooltip = document.getElementById('tooltip');
     svg.selectAll('rect.bar').data(data).join('rect')
         .attr('class', 'bar')
         .attr('x', x(0)).attr('y', d => y(d.label)).attr('width', d => x(d.count) - x(0)).attr('height', y.bandwidth())
-        .attr('fill', color)
+        .attr('fill', d => colorFor(d))
         .on('mouseover', function(e, d) {
-            d3.select(this).attr('fill', colorHover);
+            d3.select(this).attr('fill', d3.color(colorFor(d)).darker(0.6));
             if (tooltip) {
                 tooltip.style.opacity = 1;
-                tooltip.innerHTML = `<strong>${d.label}</strong><div class="tt-row"><span>${opts.countLabel || 'Occurrences'}</span><span>${d.count}</span></div>`;
+                tooltip.innerHTML = `<strong>${d.label}</strong><div class="tt-row"><span>${opts.countLabel || 'Occurrences'}</span><span>${d.count}</span></div>${opts.tooltipExtra ? opts.tooltipExtra(d) : ''}`;
             }
         })
         .on('mousemove', e => {
@@ -538,8 +766,8 @@ export function drawRankedBarChart(containerId, data, opts = {}) {
             tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
             tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
         })
-        .on('mouseout', function() {
-            d3.select(this).attr('fill', color);
+        .on('mouseout', function(e, d) {
+            d3.select(this).attr('fill', colorFor(d));
             if (tooltip) tooltip.style.opacity = 0;
         });
 
@@ -695,4 +923,158 @@ export function drawSeasonalityHeatmap(containerId, data, opts = {}) {
         .attr('fill', `url(#${gradientId})`).attr('stroke', '#ccc').attr('stroke-width', 0.5);
     svg.append('text').attr('x', legendX + legendW + 5).attr('y', legendY + 8).style('font-size', '9px').style('fill', '#555').text(`${maxPct.toFixed(0)}%`);
     svg.append('text').attr('x', legendX + legendW + 5).attr('y', legendY + legendH).style('font-size', '9px').style('fill', '#555').text('0%');
+}
+
+// Carte de France (points = communes de naissance) pour les prénoms rares repérés par
+// computeGivenNameStats : mêmes contours et même projection que drawFranceMap (assets/js/maps.js),
+// pour rester visuellement cohérent avec les autres cartes du site — pays voisins compris (Belgique,
+// Suisse...), au cas où une naissance rare se situe juste de l'autre côté d'une frontière plutôt que de
+// s'arrêter artificiellement au contour français. Un point par (prénom, commune) — pas par personne —
+// dont la taille encode le nombre de porteurs à cet endroit. Seuls les stats.highlightedNames (les
+// GIVEN_NAME_HIGHLIGHT_COUNT prénoms rares dont les naissances sont les plus resserrées géographiquement,
+// déjà sélectionnés par computeGivenNameStats) reçoivent chacun une couleur dédiée ; tous les autres
+// prénoms rares restent en gris ("Autres") — avec potentiellement des dizaines de prénoms rares dans un
+// fichier généalogique, colorer chacun rendrait la carte illisible.
+export async function drawRareGivenNamesMap(containerId, stats) {
+    if (!stats.mapReady) {
+        showMapMessage(containerId, stats.geolocatedRareOccurrences > 0
+            ? `Pas assez de prénoms rares géolocalisés pour une carte fiable (${stats.geolocatedRareOccurrences} point${stats.geolocatedRareOccurrences > 1 ? 's' : ''} pour l'instant).`
+            : "Aucun prénom rare géolocalisé pour l'instant (résolution des coordonnées de commune en cours, ou aucune correspondance trouvée).");
+        return;
+    }
+
+    showMapMessage(containerId, 'Chargement de la carte…');
+    let geojsonRaw;
+    try {
+        geojsonRaw = await ensureFranceGeo();
+    } catch (err) {
+        showMapMessage(containerId, 'Impossible de charger la carte de France (connexion internet requise).', true);
+        return;
+    }
+    const container = d3.select(`#${containerId}`);
+    if (!document.getElementById(containerId)) return;
+
+    const frenchDeptCodes = new Set(Object.values(GEO.deptNames));
+    const features = geojsonRaw.features.filter(f => frenchDeptCodes.has(f.properties.code));
+
+    // Contours des pays voisins : purement décoratifs ici (pas de comptage par pays comme dans
+    // drawFranceMap), donc on ne bloque pas l'affichage de la France si cette requête échoue.
+    let neighborFeatures = [];
+    try {
+        const europeGeo = await ensureEuropeGeo();
+        neighborFeatures = europeGeo.features.filter(f => neighborCountryLabel(f) !== null);
+    } catch (err) { /* pas de contours voisins, la carte de France seule reste fonctionnelle */ }
+    if (!document.getElementById(containerId)) return;
+
+    container.selectAll('*').remove();
+    const containerWidth = container.node().clientWidth || 500, height = 420;
+    // La légende (potentiellement une bonne quinzaine d'entrées, voir GIVEN_NAME_HIGHLIGHT_COUNT) est
+    // dessinée dans une colonne à part à droite de la carte, plutôt qu'en superposition dessus (ce
+    // qui masquait des points/contours en dessous) — même principe que la colonne "Liste éclair" de
+    // drawDepartmentMap (maps.js). Sautée sous un seuil de largeur : pas la place de l'afficher
+    // lisiblement (les points restent alors identifiables via leur infobulle au survol).
+    const legendPanelWidth = containerWidth >= 620 ? 190 : 0;
+    const mapWidth = containerWidth - legendPanelWidth;
+    const svg = container.append('svg').attr('width', containerWidth).attr('height', height);
+
+    // Même centrage/échelle que drawFranceMap (maps.js) pour la partie carte : les deux restent
+    // superposables. Le translate ne prend en compte que mapWidth (pas containerWidth) pour recentrer
+    // la carte dans l'espace qui lui reste une fois la colonne de légende retirée.
+    const projection = d3.geoConicConformal().center([2.454071, 46.279229]).scale(height * 3.1).translate([mapWidth / 2, height / 2]);
+    const path = d3.geoPath().projection(projection);
+
+    if (neighborFeatures.length) {
+        svg.selectAll('path.neighbor-bg').data(neighborFeatures).join('path').attr('class', 'neighbor-bg').attr('d', path)
+            .attr('fill', '#f0f0f0').attr('stroke', '#bbb').attr('stroke-width', 0.6);
+    }
+    svg.selectAll('path.dept-bg').data(features).join('path').attr('class', 'dept-bg').attr('d', path)
+        .attr('fill', '#f4f6f7').attr('stroke', '#ccc').attr('stroke-width', 0.6);
+
+    const highlighted = stats.highlightedNames || [];
+    const colorByKey = new Map(highlighted.map((h, i) => [h.key, RARE_GIVEN_NAME_HIGHLIGHT_COLORS[i % RARE_GIVEN_NAME_HIGHLIGHT_COLORS.length]]));
+    const colorFor = key => colorByKey.get(key) || RARE_GIVEN_NAME_OTHER_COLOR;
+
+    const plotted = stats.rarePoints
+        .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
+        .filter(Boolean);
+    const maxCount = d3.max(plotted, p => p.count) || 1;
+    const radius = d3.scaleSqrt().domain([1, maxCount]).range([3, 12]);
+    const tooltip = document.getElementById('tooltip');
+
+    svg.selectAll('circle.rare-name').data(plotted).join('circle').attr('class', 'rare-name')
+        .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
+        .attr('fill', p => colorFor(p.name)).attr('fill-opacity', 0.8).attr('stroke', '#fff').attr('stroke-width', 1)
+        .style('cursor', 'pointer')
+        .on('mouseover', function(e, p) {
+            d3.select(this).attr('stroke', '#2c3e50').attr('stroke-width', 1.5);
+            if (!tooltip) return;
+            const shown = Math.min(10, p.items.length);
+            const rows = p.items.slice(0, shown)
+                .map(it => `<div class="tt-row"><span>${escapeHtml(it.personName || 'Inconnu')}</span><span>${it.year != null ? it.year : ''}</span></div>`)
+                .join('');
+            const more = p.count > shown ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${p.count - shown} autre(s)</div>` : '';
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${escapeHtml(p.label)}${p.city ? ' — ' + escapeHtml(p.city) : ''}</strong>
+                <div class="tt-row"><span>Occurrences ici</span><span>${p.count}</span></div>
+                <div style="margin-top:6px;max-height:200px;overflow-y:auto">${rows}${more}</div>`;
+        })
+        .on('mousemove', e => {
+            if (!tooltip) return;
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', function() {
+            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+            if (tooltip) tooltip.style.opacity = 0;
+        });
+
+    // Légende dessinée dans la colonne réservée à droite (legendPanelWidth), jamais en superposition
+    // sur la carte — voir drawRareNamesLegendPanel ci-dessous, même principe que la "Liste éclair" de
+    // drawDeptSurnamePanel (maps.js). Sautée entièrement si le conteneur est trop étroit pour cette
+    // colonne (les points restent alors identifiables via leur infobulle au survol).
+    const legendEntries = highlighted.map(h => ({
+        label: h.name, detail: `${h.spreadKm.toFixed(0)} km`,
+        title: `${h.name} — ≈ ${h.spreadKm.toFixed(0)} km entre communes`, color: colorByKey.get(h.key)
+    }));
+    if (stats.rareNameSummaries.length > highlighted.length) {
+        legendEntries.push({ label: 'Autres prénoms rares', detail: null, title: 'Autres prénoms rares (non mis en évidence)', color: RARE_GIVEN_NAME_OTHER_COLOR });
+    }
+    if (legendPanelWidth > 0) {
+        drawRareNamesLegendPanel(svg, mapWidth, legendPanelWidth, height, legendEntries);
+    }
+}
+
+// Colonne de légende dessinée EN SVG, à droite de la carte (voir drawRareGivenNamesMap) : mêmes choix
+// que drawDeptSurnamePanel (maps.js) — plafonnée au nombre de lignes qui tiennent verticalement, le
+// reste résumé en "+N autre(s)" plutôt que débordé hors du cadre — pour rester cohérent visuellement
+// avec l'autre panneau "liste à côté d'une carte" du site.
+function drawRareNamesLegendPanel(svg, x0, panelWidth, height, entries) {
+    svg.append('line').attr('x1', x0).attr('x2', x0).attr('y1', 10).attr('y2', height - 10).attr('stroke', '#ddd');
+
+    const g = svg.append('g').attr('transform', `translate(${x0 + 16}, 22)`);
+    g.append('text').attr('x', 0).attr('y', 0).style('font-size', '12px').style('font-weight', 700).style('fill', '#2c3e50')
+        .text('🏷️ Prénoms mis en couleur');
+    g.append('text').attr('x', 0).attr('y', 15).style('font-size', '9px').style('fill', '#888')
+        .text(`${entries.length} entrée${entries.length > 1 ? 's' : ''}`);
+
+    const rowHeight = 15, startY = 34, maxRows = Math.max(0, Math.floor((height - startY - 14) / rowHeight));
+    const shown = entries.slice(0, maxRows);
+    const detailX = panelWidth - 40;
+
+    shown.forEach((entry, i) => {
+        const y = startY + i * rowHeight;
+        g.append('circle').attr('cx', 5).attr('cy', y - 3).attr('r', 4.5).attr('fill', entry.color);
+        g.append('text').attr('x', 14).attr('y', y).style('font-size', '10.5px').style('fill', '#333')
+            .text(entry.label.length > 13 ? entry.label.slice(0, 12) + '…' : entry.label)
+            .append('title').text(entry.title);
+        if (entry.detail) {
+            g.append('text').attr('x', detailX).attr('y', y).attr('text-anchor', 'end')
+                .style('font-size', '9px').style('fill', '#7f8c8d').text(entry.detail);
+        }
+    });
+    if (entries.length > shown.length) {
+        g.append('text').attr('x', 0).attr('y', startY + shown.length * rowHeight + 2)
+            .style('font-size', '9.5px').style('font-style', 'italic').style('fill', '#888')
+            .text(`+${entries.length - shown.length} autre(s)`);
+    }
 }

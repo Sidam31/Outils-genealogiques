@@ -224,9 +224,10 @@ export const MARRIAGE_DEPTS = {
     '36': {
         label: 'Indre',
         // Bornes réelles de la série (67 registres scrapés, 17 lieux, voir
-        // scrape_contrats_mariage_arkotheque.py) : département ABSENT de SUCCESSION_DEPTS (son
-        // fonds numérisé n'a que la table pré-1825 "successions acquittées", pas "successions et
-        // absences") mais avec une "Table des contrats de mariage" bien présente dans ce fonds.
+        // scrape_contrats_mariage_arkotheque.py). Aussi dans SUCCESSION_DEPTS['36'] (corrigé après
+        // coup - une conclusion antérieure disant ce département absent de toute table "successions
+        // et absences" venait d'un sondage de la seule 1re page de résultats, sans ouvrir le
+        // panneau de filtre "Typologie" qui la liste bien à part, 303 résultats).
         minYear: 1790,
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_36.json',

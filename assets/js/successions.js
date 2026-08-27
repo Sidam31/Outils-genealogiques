@@ -1096,14 +1096,34 @@ export const SUCCESSION_DEPTS = {
         // numérisé", lien vers la notice plutôt qu'un scan). Tuchan (fermé en 1809) n'a pas de
         // "table des successions et absences" à proprement parler (absence réelle, pas un trou de
         // dépouillement - sa seule table de ce type est nommée "successions acquittées", une
-        // sous-série distincte volontairement exclue, même logique que Indre/Hautes-Alpes plus
-        // haut). Le site archivesdepartementales.aude.fr (y compris ce PDF statique) est protégé
-        // par le même anti-bot F5/TSPD qu'archives06.fr - voir le commentaire en tête de
-        // scrape_aude_3q.py pour le contournement (Chrome non-headless).
+        // sous-série distincte volontairement exclue, même logique que Hautes-Alpes plus haut).
+        // Le site archivesdepartementales.aude.fr (y compris ce PDF statique) est protégé par le
+        // même anti-bot F5/TSPD qu'archives06.fr - voir le commentaire en tête de scrape_aude_3q.py
+        // pour le contournement (Chrome non-headless).
         minYear: 1818,
         maxYear: 1971,
         registersUrl: './assets/data/successions_11.json',
         catalogUrl: 'https://archivesdepartementales.aude.fr/sites/default/files/media/files/Sous-s%C3%A9rie_3Q.pdf',
+    },
+    '36': {
+        label: 'Indre',
+        kind: 'facet',
+        // Bornes réelles de la série (303 registres, 22 lieux, voir
+        // scrape_successions_arkotheque.py) - corrige une conclusion antérieure erronée : ce
+        // département avait été marqué non couvert ("pas de table successions et absences
+        // repérée", voir recherche.html) après un sondage de la seule 1re page de résultats de la
+        // page "Enregistrement" générale, qui mélange ~20 intitulés dont "Table des successions
+        // acquittées" et "Table des successions collatérales payées" (des sous-séries voisines,
+        // volontairement exclues, même logique qu'Aude/Hautes-Alpes plus haut) - la vraie "Table
+        // alphabétique des successions et absences" n'apparaît que dans le panneau de filtre
+        // "Typologie" repliable (303 résultats à elle seule), pas sur les toutes premières lignes
+        // triées par date. Même portail Arkothèque qu'Yvelines/Haute-Loire/Sarthe (marriage.js) -
+        // déjà couvert pour les contrats de mariage de ce même département
+        // (MARRIAGE_DEPTS['36']), avec le même type_field 'typologie'.
+        minYear: 1821,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_36.json',
+        catalogUrl: 'https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q',
     },
 };
 
