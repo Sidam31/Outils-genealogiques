@@ -84,6 +84,22 @@
             </div>
         </div>
 
+        <div class="quality-charts">
+            <div class="quality-chart-box" style="flex-basis: 100%;">
+                <div class="chart-box-header">
+                    <h3>Ascendance par génération (Sankey, couleur = département / pays hors France)</h3>
+                    <button class="chart-copy-btn" data-target="genSankeyChart" title="Copier l'image dans le presse-papier">📋</button>
+                </div>
+                <p class="hint" style="text-align:center;">Basé sur le lieu de naissance de chaque ancêtre (« Uniquement les ascendants de » ci-dessus). Une couleur = un département français, ou un pays pour l'étranger.</p>
+                <div class="controls" id="genSankeyControls">
+                    <label for="genSankeyGenCount">Générations affichées</label>
+                    <input type="range" id="genSankeyGenCount" min="1" max="12" value="6">
+                    <span id="genSankeyGenCountLabel">6</span>
+                </div>
+                <div id="genSankeyChart"><div class="map-placeholder">Cochez « Uniquement les ascendants de » et sélectionnez une personne pour voir ce graphique.</div></div>
+            </div>
+        </div>
+
         <p class="quality-intro" style="margin-top:32px;">Démographie sur l'ensemble du fichier chargé (indépendant des filtres ci-dessus).</p>
 
         <div class="quality-charts">
@@ -516,7 +532,7 @@ import {
     computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap,
     computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap,
     computeEuropeCountrySummaries, computeEuropeDetail, drawEuropeMap, ensureCShapesEurope, cshapesYearBounds,
-    hasEasterEggSurname
+    hasEasterEggSurname, computeGenerationSankey, drawGenerationSankey
 } from './assets/js/maps.js';
 import { setupExportButton } from './assets/js/export-html.js';
 import {
@@ -564,6 +580,8 @@ const mapPersonSearchEl = document.getElementById('mapPersonSearch');
 const mapPersonResultsEl = document.getElementById('mapPersonResults');
 const mapPersonSelectedEl = document.getElementById('mapPersonSelected');
 const mapAncestorOnlyEl = document.getElementById('mapAncestorOnly');
+const genSankeyGenCountEl = document.getElementById('genSankeyGenCount');
+const genSankeyGenCountLabelEl = document.getElementById('genSankeyGenCountLabel');
 const mapFilterEls = [document.getElementById('mapFilterBirt'), document.getElementById('mapFilterDeat'), document.getElementById('mapFilterMarr')];
 const pyramidSliderMinEl = document.getElementById('pyramidDecadeSliderMin');
 const pyramidSliderMaxEl = document.getElementById('pyramidDecadeSliderMax');
@@ -666,6 +684,24 @@ function renderFilteredMaps() {
     drawBelgiumMap(byBeProvince);
 }
 
+// Indépendant de la case "Uniquement les ascendants de" (qui ne fait que restreindre les 3 cartes
+// ci-dessus) : un Sankey par génération n'a de sens que pour UNE personne racine donnée, donc il ne
+// dépend que de la sélection du champ de recherche, qu'elle soit cochée ou non.
+function renderGenerationSankey() {
+    genSankeyGenCountLabelEl.textContent = genSankeyGenCountEl.value;
+    if(!map.size || !list.length) {
+        showMapMessage('genSankeyChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        return;
+    }
+    if(!mapPersonId) {
+        showMapMessage('genSankeyChart', 'Cochez « Uniquement les ascendants de » et sélectionnez une personne pour voir ce graphique.');
+        return;
+    }
+    const maxGen = parseInt(genSankeyGenCountEl.value, 10);
+    const data = computeGenerationSankey(map, mapPersonId, maxGen);
+    drawGenerationSankey('genSankeyChart', data);
+}
+
 function updatePyramidLabel() {
     if(!pyramidDecadesCache || !pyramidDecadesCache.length) { pyramidLabelEl.textContent = 'Toutes périodes'; return; }
     const idxMin = parseInt(pyramidSliderMinEl.value, 10), idxMax = parseInt(pyramidSliderMaxEl.value, 10);
@@ -756,6 +792,7 @@ function renderDemographicCharts() {
 
 function renderMapsTab() {
     renderFilteredMaps();
+    renderGenerationSankey();
     renderDemographicCharts();
 }
 
@@ -767,9 +804,10 @@ mapAncestorOnlyEl.addEventListener('change', e => {
 createPersonPicker({
     searchEl: mapPersonSearchEl, resultsEl: mapPersonResultsEl, selectedEl: mapPersonSelectedEl,
     getList: () => list,
-    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); }
+    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); }
 });
 wireClickAway(mapPersonResultsEl);
+genSankeyGenCountEl.addEventListener('input', renderGenerationSankey);
 [pyramidSliderMinEl, pyramidSliderMaxEl].forEach(el => el.addEventListener('input', () => {
     syncRangeSlider(pyramidSliderMinEl, pyramidSliderMaxEl, pyramidSliderFillEl);
     updatePyramidLabel();

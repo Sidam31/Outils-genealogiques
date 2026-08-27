@@ -1,5 +1,5 @@
 import { GEO, normalizePlace, deptCode } from './geo.js';
-import { escapeHtml, computeStats, decadeOf, centuryOf, periodOf, WEEKDAY_LABELS } from './utils.js';
+import { escapeHtml, computeStats, decadeOf, centuryOf, periodOf, WEEKDAY_LABELS, getSosaMap } from './utils.js';
 import { labelForOther } from './timeline.js';
 
 export function showMapMessage(containerId, text, isError) {
@@ -1889,4 +1889,171 @@ function drawHorizontalBarChart(containerId, data, opts = {}) {
 export function drawTopNamesForCentury(list, centuryMin, centuryMax) {
     drawHorizontalBarChart('namesMaleChart', computeTopNames(list, 'M', centuryMin, centuryMax), { color: '#3498db', emptyMessage: 'Pas de prénom masculin daté pour cette période.' });
     drawHorizontalBarChart('namesFemaleChart', computeTopNames(list, 'F', centuryMin, centuryMax), { color: '#e91e8c', emptyMessage: 'Pas de prénom féminin daté pour cette période.' });
+}
+
+// --- ASCENDANCE PAR GÉNÉRATION (SANKEY) ---
+// Granularité volontairement à deux niveaux, cohérente avec le reste du site (cf. drawFranceMap qui
+// affiche aussi les pays voisins en gris) : département pour un lieu français (geo.dept, toujours
+// posé avec country="France" par analyzePlace), pays pour tout le reste (Belgique, autres pays...),
+// jamais de province belge/région ici — un pays hors de France suffit à situer une branche.
+const SANKEY_PALETTE = [
+    '#3498db', '#e67e22', '#2ecc71', '#9b59b6', '#e74c3c', '#1abc9c', '#f1c40f', '#34495e',
+    '#e84393', '#00b894', '#0984e3', '#fdcb6e', '#6c5ce7', '#d35400', '#16a085', '#c0392b',
+    '#2980b9', '#8e44ad', '#27ae60', '#f39c12', '#00cec9', '#ff7675', '#0abde3', '#576574'
+];
+const SANKEY_UNKNOWN_COLOR = '#95a5a6';
+const SANKEY_UNKNOWN_KEY = 'UNK';
+
+function sankeyLocOf(individuals, id) {
+    const geo = individuals.get(id)?.birth?.geo;
+    if(geo?.dept) {
+        const code = deptCode(geo.dept);
+        return { key: 'FR-' + code, label: GEO.deptLabels[code] || geo.dept };
+    }
+    if(geo?.country && geo.country !== 'Inconnu') return { key: 'C-' + geo.country, label: geo.country };
+    return { key: SANKEY_UNKNOWN_KEY, label: 'Lieu inconnu' };
+}
+
+// rootId : personne de référence (Sosa 1) — la génération n'a de sens que relativement à elle
+// (cf. getSosaMap). maxGen borne le nombre de générations affichées (0 = rootId lui-même).
+// Un nœud = (génération, département/pays) ; sa taille cumule le nombre d'ancêtres de cette
+// génération nés à cet endroit. Un lien génération g -> g+1 relie chaque ancêtre à son père/sa mère
+// (quand celui/celle-ci est connu·e et dans la limite de générations), donc peut traverser deux nœuds
+// de localisation différents : c'est précisément ce qui rend une migration visible sur le diagramme.
+export function computeGenerationSankey(individuals, rootId, maxGen) {
+    const sosa = getSosaMap(individuals, rootId);
+    if(!sosa.size) return { nodes: [], links: [], maxGenActual: 0 };
+    const idBySosa = new Map();
+    sosa.forEach((n, id) => idBySosa.set(n, id));
+    const genOf = n => Math.floor(Math.log2(n));
+
+    const nodeIndex = new Map(); // "gen|locKey" -> index
+    const nodes = []; // { gen, locKey, label, count }
+    let maxGenActual = 0;
+    function ensureNode(gen, loc) {
+        const key = gen + '|' + loc.key;
+        let idx = nodeIndex.get(key);
+        if(idx === undefined) {
+            idx = nodes.length;
+            nodeIndex.set(key, idx);
+            nodes.push({ gen, locKey: loc.key, label: loc.label, count: 0 });
+        }
+        return idx;
+    }
+
+    sosa.forEach((n, id) => {
+        const gen = genOf(n);
+        if(gen > maxGen) return;
+        maxGenActual = Math.max(maxGenActual, gen);
+        const idx = ensureNode(gen, sankeyLocOf(individuals, id));
+        nodes[idx].count++;
+    });
+
+    const linkMap = new Map(); // "srcIdx>tgtIdx" -> value
+    sosa.forEach((n, id) => {
+        const gen = genOf(n);
+        if(gen >= maxGen) return;
+        [2 * n, 2 * n + 1].forEach(parentSosa => {
+            const parentId = idBySosa.get(parentSosa);
+            if(!parentId) return;
+            const srcIdx = nodeIndex.get(gen + '|' + sankeyLocOf(individuals, id).key);
+            const tgtIdx = nodeIndex.get((gen + 1) + '|' + sankeyLocOf(individuals, parentId).key);
+            if(srcIdx == null || tgtIdx == null) return;
+            const key = srcIdx + '>' + tgtIdx;
+            linkMap.set(key, (linkMap.get(key) || 0) + 1);
+        });
+    });
+
+    const links = Array.from(linkMap.entries()).map(([key, value]) => {
+        const [source, target] = key.split('>').map(Number);
+        return { source, target, value };
+    });
+    return { nodes, links, maxGenActual };
+}
+
+// Une couleur par lieu (pas par génération) : c'est ce qui permet de suivre une même branche
+// géographique au fil des générations. Assignée par ordre décroissant d'effectif total (les lieux
+// les plus représentés reçoivent les couleurs les plus distinctes en tête de palette) ; "Lieu
+// inconnu" reste toujours gris, quel que soit son effectif, pour ne jamais être confondu avec un
+// vrai département/pays.
+function sankeyColorScale(nodes) {
+    const totals = new Map();
+    nodes.forEach(n => totals.set(n.locKey, (totals.get(n.locKey) || 0) + n.count));
+    const ordered = Array.from(totals.entries())
+        .filter(([key]) => key !== SANKEY_UNKNOWN_KEY)
+        .sort((a, b) => b[1] - a[1])
+        .map(([key]) => key);
+    const colorByKey = new Map();
+    ordered.forEach((key, i) => colorByKey.set(key, SANKEY_PALETTE[i % SANKEY_PALETTE.length]));
+    colorByKey.set(SANKEY_UNKNOWN_KEY, SANKEY_UNKNOWN_COLOR);
+    return colorByKey;
+}
+
+function hexToRgba(hex, alpha) {
+    const h = hex.replace('#', '');
+    const r = parseInt(h.substring(0, 2), 16), g = parseInt(h.substring(2, 4), 16), b = parseInt(h.substring(4, 6), 16);
+    return `rgba(${r},${g},${b},${alpha})`;
+}
+
+export function drawGenerationSankey(containerId, data) {
+    const container = document.getElementById(containerId);
+    if(!container) return;
+    if(!data || !data.nodes.length) {
+        container.innerHTML = '<div class="map-placeholder">Aucun ancêtre localisé pour cette personne.</div>';
+        return;
+    }
+    if(typeof Plotly === 'undefined') {
+        container.innerHTML = '<div class="map-placeholder" style="color:#c0392b">Bibliothèque Plotly non chargée.</div>';
+        return;
+    }
+    container.innerHTML = '';
+
+    const { nodes, links, maxGenActual } = data;
+    const colorByKey = sankeyColorScale(nodes);
+
+    // Position manuelle (une colonne par génération) : sans elle, l'agencement automatique de Plotly
+    // ne garantit pas l'alignement des générations en colonnes verticales, qui est tout l'intérêt de
+    // ce diagramme (voir la génération de chaque ancêtre au premier coup d'œil sur l'axe horizontal).
+    const genSpan = Math.max(1, maxGenActual);
+    const byGen = new Map();
+    nodes.forEach((n, i) => {
+        if(!byGen.has(n.gen)) byGen.set(n.gen, []);
+        byGen.get(n.gen).push(i);
+    });
+    const nodeX = new Array(nodes.length), nodeY = new Array(nodes.length);
+    byGen.forEach(idxs => {
+        idxs.sort((a, b) => nodes[b].count - nodes[a].count || nodes[a].label.localeCompare(nodes[b].label, 'fr'));
+        const pad = 0.03;
+        idxs.forEach((idx, i) => {
+            nodeX[idx] = Math.min(0.999, Math.max(0.001, nodes[idx].gen / genSpan));
+            nodeY[idx] = idxs.length === 1 ? 0.5 : pad + (i * (1 - 2 * pad)) / (idxs.length - 1);
+        });
+    });
+
+    const trace = {
+        type: 'sankey',
+        orientation: 'h',
+        arrangement: 'snap',
+        node: {
+            pad: 10, thickness: 14,
+            label: nodes.map(n => `${n.label} — Gén. ${n.gen}`),
+            color: nodes.map(n => colorByKey.get(n.locKey)),
+            x: nodeX, y: nodeY,
+            line: { color: 'rgba(0,0,0,0.2)', width: 0.5 },
+            hovertemplate: '%{label}<br>%{value} ancêtre(s)<extra></extra>'
+        },
+        link: {
+            source: links.map(l => l.source),
+            target: links.map(l => l.target),
+            value: links.map(l => l.value),
+            color: links.map(l => hexToRgba(colorByKey.get(nodes[l.source].locKey), 0.4)),
+            hovertemplate: '%{source.label} → %{target.label}<br>%{value} lien(s)<extra></extra>'
+        }
+    };
+
+    Plotly.newPlot(containerId, [trace], {
+        font: { size: 11 },
+        margin: { t: 10, r: 10, b: 10, l: 10 },
+        height: Math.max(360, 60 * (genSpan + 1))
+    }, { displayModeBar: false, responsive: true });
 }
