@@ -28,13 +28,7 @@
     <div class="quality-container">
         <p class="quality-intro">Répartition géographique et démographie des individus du fichier chargé.</p>
 
-        <div class="options-panel">
-            <div class="checkbox-group">
-                <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
-                <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
-                <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
-            </div>
-            <div class="hint" style="text-align:center;">S'applique aux deux cartes ci-dessous.</div>
+        <div class="options-panel" id="mapAncestorScopeBar">
             <div class="map-scope-row">
                 <label for="mapAncestorOnly"><input type="checkbox" id="mapAncestorOnly"> Uniquement les ascendants de :</label>
                 <div class="ctrl">
@@ -43,6 +37,16 @@
                 </div>
                 <span id="mapPersonSelected" class="map-person-selected"></span>
             </div>
+            <div class="hint" style="text-align:center;">S'applique à tous les graphiques de cet onglet ci-dessous (cartes, Sankey, pyramide des âges, courbes, prénoms...).</div>
+        </div>
+
+        <div class="options-panel">
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
+                <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
+                <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
+            </div>
+            <div class="hint" style="text-align:center;">S'applique aux cartes ci-dessous.</div>
             <div class="map-scope-row">
                 <label for="mapTimeEnabled"><input type="checkbox" id="mapTimeEnabled"> Voir l'évolution dans le temps</label>
             </div>
@@ -575,6 +579,7 @@ topModeEuropeBtn.addEventListener('click', () => setTopMode('europe'));
 let exportCtl = null;
 let list = [], map = new Map(), fams = new Map();
 let mapPersonId = null, pyramidDecadesCache = null, namesCenturiesCache = null;
+let currentScopedList = [];
 
 const mapPersonSearchEl = document.getElementById('mapPersonSearch');
 const mapPersonResultsEl = document.getElementById('mapPersonResults');
@@ -663,6 +668,23 @@ function updateTimeSliderBounds(bounds) {
     updateTimeLabel();
 }
 
+// Périmètre commun à TOUS les graphiques de l'onglet (cartes, Sankey, démographie) : la case
+// "Uniquement les ascendants de" ci-dessus, quand cochée et une personne sélectionnée, restreint
+// aussi bien les 3 cartes que les graphiques démographiques plus bas dans la page.
+function getMapScopeIds() {
+    return (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
+}
+function getScopedList() {
+    if(!mapAncestorOnlyEl.checked || !mapPersonId) return list;
+    const scopeSet = new Set(getAncestorIds(map, mapPersonId));
+    return list.filter(i => scopeSet.has(i.id));
+}
+function getScopedFams() {
+    if(!mapAncestorOnlyEl.checked || !mapPersonId) return fams;
+    const scopeSet = new Set(getAncestorIds(map, mapPersonId));
+    return new Map([...fams].filter(([, f]) => (f.husb && scopeSet.has(f.husb)) || (f.wife && scopeSet.has(f.wife))));
+}
+
 function renderFilteredMaps() {
     if(!map.size || !list.length) {
         showMapMessage('worldMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
@@ -672,7 +694,7 @@ function renderFilteredMaps() {
         return;
     }
     const eventFlags = { BIRT: mapFilterEls[0].checked, DEAT: mapFilterEls[1].checked, MARR: mapFilterEls[2].checked };
-    const scopeIds = (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
+    const scopeIds = getMapScopeIds();
     const bounds = computeYearBounds(scopeIds, map, eventFlags);
     updateTimeSliderBounds(bounds);
     const timeActive = mapTimeEnabledEl.checked && bounds;
@@ -717,7 +739,7 @@ function drawAgePyramidForSelectedDecade() {
         decadeMin = pyramidDecadesCache[parseInt(pyramidSliderMinEl.value, 10)];
         decadeMax = pyramidDecadesCache[parseInt(pyramidSliderMaxEl.value, 10)];
     }
-    const filtered = list.filter(i => i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F') &&
+    const filtered = currentScopedList.filter(i => i.death?.year && i.ageDeath != null && (i.sex === 'M' || i.sex === 'F') &&
         (decadeMin === null || (decadeOf(i.death.year) >= decadeMin && decadeOf(i.death.year) <= decadeMax)));
     drawAgePyramid(filtered);
 }
@@ -737,11 +759,12 @@ function drawTopNamesForSelectedCentury() {
         centuryMin = namesCenturiesCache[parseInt(namesCenturySliderMinEl.value, 10)];
         centuryMax = namesCenturiesCache[parseInt(namesCenturySliderMaxEl.value, 10)];
     }
-    drawTopNamesForCentury(list, centuryMin, centuryMax);
+    drawTopNamesForCentury(currentScopedList, centuryMin, centuryMax);
 }
 
 function renderDemographicCharts() {
     if(!list.length) {
+        currentScopedList = [];
         showMapMessage('ageChartPyramid', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('ageChartDeathTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('ageChartFirstChildTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
@@ -755,7 +778,10 @@ function renderDemographicCharts() {
         namesCenturyLabelEl.textContent = 'Toutes périodes';
         return;
     }
-    pyramidDecadesCache = getPyramidDecades(list);
+    currentScopedList = getScopedList();
+    const scopedFams = getScopedFams();
+
+    pyramidDecadesCache = getPyramidDecades(currentScopedList);
     if(pyramidDecadesCache.length) {
         const maxIdx = pyramidDecadesCache.length - 1;
         pyramidSliderMinEl.disabled = false; pyramidSliderMaxEl.disabled = false;
@@ -769,12 +795,12 @@ function renderDemographicCharts() {
     syncRangeSlider(pyramidSliderMinEl, pyramidSliderMaxEl, pyramidSliderFillEl);
     updatePyramidLabel();
     drawAgePyramidForSelectedDecade();
-    drawAgeDeathTrend(list);
-    drawFirstChildTrend(list);
-    drawProfessionAgeViolin(list);
-    drawMarriageWeekdayTrend(fams);
+    drawAgeDeathTrend(currentScopedList);
+    drawFirstChildTrend(currentScopedList);
+    drawProfessionAgeViolin(currentScopedList);
+    drawMarriageWeekdayTrend(scopedFams);
 
-    namesCenturiesCache = getNameCenturies(list);
+    namesCenturiesCache = getNameCenturies(currentScopedList);
     if(namesCenturiesCache.length) {
         const maxIdx = namesCenturiesCache.length - 1;
         namesCenturySliderMinEl.disabled = false; namesCenturySliderMaxEl.disabled = false;
@@ -800,11 +826,12 @@ mapFilterEls.forEach(el => el.addEventListener('change', renderFilteredMaps));
 mapAncestorOnlyEl.addEventListener('change', e => {
     mapPersonSearchEl.disabled = !e.target.checked;
     renderFilteredMaps();
+    renderDemographicCharts();
 });
 createPersonPicker({
     searchEl: mapPersonSearchEl, resultsEl: mapPersonResultsEl, selectedEl: mapPersonSelectedEl,
     getList: () => list,
-    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); }
+    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); renderDemographicCharts(); }
 });
 wireClickAway(mapPersonResultsEl);
 genSankeyGenCountEl.addEventListener('input', renderGenerationSankey);

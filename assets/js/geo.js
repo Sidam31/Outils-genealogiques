@@ -82,7 +82,57 @@ export const GEO = {
         "thaïlande":"Thaïlande","thailande":"Thaïlande","thailand":"Thaïlande",
         "indonésie":"Indonésie","indonesia":"Indonésie","malaisie":"Malaisie","malaysia":"Malaisie",
         "philippines":"Philippines","singapour":"Singapour","singapore":"Singapour",
-        "australie":"Australie","australia":"Australie","nouvelle-zélande":"Nouvelle-Zélande","new zealand":"Nouvelle-Zélande"
+        "australie":"Australie","australia":"Australie","nouvelle-zélande":"Nouvelle-Zélande","new zealand":"Nouvelle-Zélande",
+        // Reste de l'Afrique (liste initiale volontairement centrée sur les pays les plus fréquents
+        // dans les actes français — Maghreb, Afrique de l'Ouest coloniale... — d'où ces ajouts après
+        // remontée d'utilisateurs de pays absents, ex. Zimbabwe).
+        "zimbabwe":"Zimbabwe",
+        "botswana":"Botswana",
+        "namibie":"Namibie","namibia":"Namibie",
+        "zambie":"Zambie","zambia":"Zambie",
+        "malawi":"Malawi",
+        "tanzanie":"Tanzanie","tanzania":"Tanzanie",
+        "ouganda":"Ouganda","uganda":"Ouganda",
+        "soudan du sud":"Soudan du Sud","south sudan":"Soudan du Sud",
+        "soudan":"Soudan","sudan":"Soudan",
+        "somalie":"Somalie","somalia":"Somalie",
+        "djibouti":"Djibouti",
+        "érythrée":"Érythrée","erythree":"Érythrée","eritrea":"Érythrée",
+        "sierra leone":"Sierra Leone",
+        "liberia":"Liberia","libéria":"Liberia",
+        "guinée-bissau":"Guinée-Bissau","guinea-bissau":"Guinée-Bissau",
+        "guinée équatoriale":"Guinée équatoriale","equatorial guinea":"Guinée équatoriale",
+        "république centrafricaine":"République centrafricaine","central african republic":"République centrafricaine",
+        "république démocratique du congo":"RD Congo","rd congo":"RD Congo","democratic republic of the congo":"RD Congo","dr congo":"RD Congo","congo-kinshasa":"RD Congo",
+        "comores":"Comores","comoros":"Comores",
+        "maurice":"Maurice","mauritius":"Maurice",
+        "seychelles":"Seychelles",
+        "cap-vert":"Cap-Vert","cape verde":"Cap-Vert","cabo verde":"Cap-Vert",
+        "gambie":"Gambie","gambia":"Gambie",
+        "lesotho":"Lesotho",
+        "eswatini":"Eswatini","swaziland":"Eswatini",
+        "são tomé-et-principe":"São Tomé-et-Principe","sao tome and principe":"São Tomé-et-Principe",
+        "mauritanie":"Mauritanie","mauritania":"Mauritanie",
+        // Amériques
+        "guatemala":"Guatemala","honduras":"Honduras","nicaragua":"Nicaragua","costa rica":"Costa Rica",
+        "panama":"Panama","salvador":"Salvador","el salvador":"Salvador","belize":"Belize",
+        "jamaïque":"Jamaïque","jamaica":"Jamaïque","trinité-et-tobago":"Trinité-et-Tobago","trinidad and tobago":"Trinité-et-Tobago",
+        "bahamas":"Bahamas","barbade":"Barbade","barbados":"Barbade","guyana":"Guyana","suriname":"Suriname",
+        // Asie
+        "sri lanka":"Sri Lanka","népal":"Népal","nepal":"Népal","bhoutan":"Bhoutan","bhutan":"Bhoutan",
+        "birmanie":"Birmanie","myanmar":"Birmanie",
+        "mongolie":"Mongolie","mongolia":"Mongolie",
+        "kazakhstan":"Kazakhstan","ouzbékistan":"Ouzbékistan","uzbekistan":"Ouzbékistan",
+        "turkménistan":"Turkménistan","turkmenistan":"Turkménistan","kirghizistan":"Kirghizistan","kyrgyzstan":"Kirghizistan",
+        "tadjikistan":"Tadjikistan","tajikistan":"Tadjikistan","afghanistan":"Afghanistan",
+        "yémen":"Yémen","yemen":"Yémen","oman":"Oman","qatar":"Qatar",
+        "bahreïn":"Bahreïn","bahrain":"Bahreïn","koweït":"Koweït","kuwait":"Koweït",
+        "timor oriental":"Timor oriental","east timor":"Timor oriental","timor-leste":"Timor oriental",
+        "brunei":"Brunei","papouasie-nouvelle-guinée":"Papouasie-Nouvelle-Guinée","papua new guinea":"Papouasie-Nouvelle-Guinée",
+        "fidji":"Fidji","fiji":"Fidji",
+        // Europe
+        "kosovo":"Kosovo","saint-marin":"Saint-Marin","san marino":"Saint-Marin",
+        "vatican":"Vatican","saint-siège":"Vatican","holy see":"Vatican"
     }
 };
 for(let [k,v] of Object.entries(GEO.deptNames)) GEO.deptLabels[v] = k.charAt(0).toUpperCase() + k.slice(1);

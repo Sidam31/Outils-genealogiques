@@ -2036,11 +2036,15 @@ export function drawGenerationSankey(containerId, data) {
         arrangement: 'snap',
         node: {
             pad: 10, thickness: 14,
-            label: nodes.map(n => `${n.label} — Gén. ${n.gen}`),
+            // Le numéro de génération est retiré du label (affiché une fois par colonne via les
+            // annotations ci-dessous) : sur un arbre à beaucoup de branches, le répéter sur chaque
+            // nœud alourdissait le diagramme sans rien apporter de plus que sa position en x.
+            label: nodes.map(n => n.label),
+            customdata: nodes.map(n => n.gen),
             color: nodes.map(n => colorByKey.get(n.locKey)),
             x: nodeX, y: nodeY,
             line: { color: 'rgba(0,0,0,0.2)', width: 0.5 },
-            hovertemplate: '%{label}<br>%{value} ancêtre(s)<extra></extra>'
+            hovertemplate: '%{label} — Gén. %{customdata}<br>%{value} ancêtre(s)<extra></extra>'
         },
         link: {
             source: links.map(l => l.source),
@@ -2051,9 +2055,19 @@ export function drawGenerationSankey(containerId, data) {
         }
     };
 
+    // En-têtes de colonne ("Gén. 0", "Gén. 1"...) positionnés aux mêmes abscisses que les nœuds de
+    // chaque génération (voir genXFor, identique au calcul de nodeX ci-dessus) : remplace le suffixe
+    // "— Gén. N" auparavant répété sur chaque nœud.
+    const genXFor = gen => Math.min(0.999, Math.max(0.001, gen / genSpan));
+    const genAnnotations = Array.from({ length: genSpan + 1 }, (_, gen) => ({
+        text: `Gén. ${gen}`, x: genXFor(gen), y: 1, xref: 'paper', yref: 'paper',
+        xanchor: 'center', yanchor: 'bottom', showarrow: false, font: { size: 12, color: '#555' }
+    }));
+
     Plotly.newPlot(containerId, [trace], {
         font: { size: 11 },
-        margin: { t: 10, r: 10, b: 10, l: 10 },
+        margin: { t: 28, r: 10, b: 10, l: 10 },
+        annotations: genAnnotations,
         height: Math.max(360, 60 * (genSpan + 1))
     }, { displayModeBar: false, responsive: true });
 }

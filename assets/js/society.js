@@ -425,19 +425,27 @@ function haversineKm(lat1, lon1, lat2, lon2) {
     return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
-// Distance moyenne entre toutes les paires de communes distinctes d'un même prénom : plus elle est
-// petite, plus les naissances de ce prénom sont géographiquement concentrées. Un seul point (toutes
-// les naissances dans la même commune, ex. fratrie) donne 0 km — le regroupement le plus fort possible.
+// Distance moyenne PONDÉRÉE entre toutes les NAISSANCES (pas seulement entre communes distinctes,
+// chacune comptant pour 1 quel que soit son nombre de porteurs) d'un même prénom : chaque point pèse
+// pour son nombre de porteurs (weight). Sans cette pondération, un prénom donné 9 fois dans une seule
+// commune + 1 fois loin de là paraissait tout aussi "dispersé" qu'un prénom donné une seule fois dans
+// chacune de deux communes distantes (les deux ne comptent que 2 communes distinctes) — alors que le
+// premier cas est, dans les faits, massivement concentré à un seul endroit. Formule : moyenne sur
+// toutes les paires ORDONNÉES de porteurs (y compris les paires au sein d'une même commune, distance
+// 0), soit 2·Σ(w_i·w_j·d(i,j)) / (W·(W-1)) pour i<j, W = somme des poids. Un seul point, ou un poids
+// total < 2 (ne devrait pas arriver ici : geolocatedCount >= 2 est déjà filtré avant l'appel), donne
+// 0 km — le regroupement le plus fort possible.
 function averagePairwiseDistanceKm(points) {
-    if (points.length < 2) return 0;
-    let sum = 0, pairs = 0;
+    const totalWeight = points.reduce((sum, p) => sum + (p.weight || 1), 0);
+    if (points.length < 2 || totalWeight < 2) return 0;
+    let weightedSum = 0;
     for (let i = 0; i < points.length; i++) {
         for (let j = i + 1; j < points.length; j++) {
-            sum += haversineKm(points[i].lat, points[i].lon, points[j].lat, points[j].lon);
-            pairs++;
+            const w = (points[i].weight || 1) * (points[j].weight || 1);
+            weightedSum += w * haversineKm(points[i].lat, points[i].lon, points[j].lat, points[j].lon);
         }
     }
-    return pairs ? sum / pairs : 0;
+    return (2 * weightedSum) / (totalWeight * (totalWeight - 1));
 }
 
 export function computeGivenNameStats(list, opts = {}) {
@@ -535,7 +543,7 @@ export function computeGivenNameStats(list, opts = {}) {
     // faible (à effectif égal, on privilégie celui qui a le plus de porteurs, échantillon plus solide).
     const highlightedNames = rareNameSummaries
         .filter(s => s.geolocatedCount >= 2)
-        .map(s => ({ ...s, spreadKm: averagePairwiseDistanceKm(rarePoints.filter(pt => pt.name === s.key).map(pt => ({ lat: pt.lat, lon: pt.lon }))) }))
+        .map(s => ({ ...s, spreadKm: averagePairwiseDistanceKm(rarePoints.filter(pt => pt.name === s.key).map(pt => ({ lat: pt.lat, lon: pt.lon, weight: pt.count }))) }))
         .sort((a, b) => a.spreadKm - b.spreadKm || b.count - a.count)
         .slice(0, GIVEN_NAME_HIGHLIGHT_COUNT);
 
@@ -983,11 +991,21 @@ export async function drawRareGivenNamesMap(containerId, stats) {
     const projection = d3.geoConicConformal().center([2.454071, 46.279229]).scale(height * 3.1).translate([mapWidth / 2, height / 2]);
     const path = d3.geoPath().projection(projection);
 
+    // Viewport fixe (clip-path, jamais transformé) contenant le contenu zoomable (zoomLayer, qui lui
+    // reçoit le transform de d3.zoom) : sans ce découpage en deux groupes, le rectangle de découpe
+    // suivrait le zoom/pan au lieu de rester une fenêtre stable, et un panoramique ferait déborder la
+    // carte sur la colonne de légende ou hors du cadre.
+    const clipId = `rare-names-clip-${containerId}`;
+    svg.append('defs').append('clipPath').attr('id', clipId)
+        .append('rect').attr('x', 0).attr('y', 0).attr('width', mapWidth).attr('height', height);
+    const viewport = svg.append('g').attr('clip-path', `url(#${clipId})`);
+    const zoomLayer = viewport.append('g').attr('class', 'zoom-layer');
+
     if (neighborFeatures.length) {
-        svg.selectAll('path.neighbor-bg').data(neighborFeatures).join('path').attr('class', 'neighbor-bg').attr('d', path)
+        zoomLayer.selectAll('path.neighbor-bg').data(neighborFeatures).join('path').attr('class', 'neighbor-bg').attr('d', path)
             .attr('fill', '#f0f0f0').attr('stroke', '#bbb').attr('stroke-width', 0.6);
     }
-    svg.selectAll('path.dept-bg').data(features).join('path').attr('class', 'dept-bg').attr('d', path)
+    zoomLayer.selectAll('path.dept-bg').data(features).join('path').attr('class', 'dept-bg').attr('d', path)
         .attr('fill', '#f4f6f7').attr('stroke', '#ccc').attr('stroke-width', 0.6);
 
     const highlighted = stats.highlightedNames || [];
@@ -1001,7 +1019,7 @@ export async function drawRareGivenNamesMap(containerId, stats) {
     const radius = d3.scaleSqrt().domain([1, maxCount]).range([3, 12]);
     const tooltip = document.getElementById('tooltip');
 
-    svg.selectAll('circle.rare-name').data(plotted).join('circle').attr('class', 'rare-name')
+    zoomLayer.selectAll('circle.rare-name').data(plotted).join('circle').attr('class', 'rare-name')
         .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
         .attr('fill', p => colorFor(p.name)).attr('fill-opacity', 0.8).attr('stroke', '#fff').attr('stroke-width', 1)
         .style('cursor', 'pointer')
@@ -1027,6 +1045,37 @@ export async function drawRareGivenNamesMap(containerId, stats) {
             d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
             if (tooltip) tooltip.style.opacity = 0;
         });
+
+    // Zoom/pan (molette + glisser) limité à la zone de carte (pas la colonne légende, voir le filtre
+    // ci-dessous) : les naissances rares se comptent parfois par communes voisines, à peine séparables
+    // au niveau de zoom initial (toute la France). Deux effets combinés aident à les distinguer en
+    // zoomant : la projection écarte mécaniquement leurs centres (l'écart à l'écran croît avec k), ET
+    // la taille APPARENTE des cercles rétrécit progressivement (via /sqrt(k), pas une simple taille
+    // fixe) — sans ce second effet, garder une taille de cercle strictement constante à l'écran
+    // n'apporte rien de plus que l'écartement seul pour séparer deux points encore proches. On ne va
+    // pas jusqu'à laisser le rayon suivre le facteur d'échelle brut (radius * k, sans compensation) :
+    // un cercle de 12px à k=1 deviendrait un disque de 96px à k=8, illisible et disproportionné.
+    // screenRadius(count, k) = la taille voulue À L'ÉCRAN à ce niveau de zoom ; on assigne ensuite
+    // l'attribut SVG r = screenRadius / k pour que le transform scale(k) du groupe reproduise
+    // exactement cette taille (le groupe multiplie toute longueur, y compris r, par k).
+    const screenRadius = (count, k) => Math.max(2, radius(count) / Math.sqrt(k));
+    const zoom = d3.zoom()
+        .scaleExtent([1, 10])
+        .extent([[0, 0], [mapWidth, height]])
+        .translateExtent([[0, 0], [mapWidth, height]])
+        .filter(event => {
+            if (event.button) return false;
+            const [x] = d3.pointer(event, svg.node());
+            return x <= mapWidth;
+        })
+        .on('zoom', event => {
+            const k = event.transform.k;
+            zoomLayer.attr('transform', event.transform);
+            zoomLayer.selectAll('circle.rare-name').attr('r', p => screenRadius(p.count, k) / k).attr('stroke-width', 1 / k);
+            zoomLayer.selectAll('path.dept-bg').attr('stroke-width', 0.6 / k);
+            zoomLayer.selectAll('path.neighbor-bg').attr('stroke-width', 0.6 / k);
+        });
+    svg.style('cursor', 'grab').call(zoom);
 
     // Légende dessinée dans la colonne réservée à droite (legendPanelWidth), jamais en superposition
     // sur la carte — voir drawRareNamesLegendPanel ci-dessous, même principe que la "Liste éclair" de
