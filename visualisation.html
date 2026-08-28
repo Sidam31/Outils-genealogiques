@@ -1179,16 +1179,22 @@ function renderDeptSurnameList(filterText) {
     `));
 }
 
+// Mis en cache par renderDepartmentDetail, réutilisé par redrawDeptMapForSurnameFilter : la donnée
+// (événements/patronymes) ne dépend pas du filtre "Liste éclair", seuls les points affichés sur la
+// carte en dépendent — inutile de rappeler computeDepartmentDetail à chaque frappe au clavier.
+let deptDetailCache = null;
+
 function renderDepartmentDetail() {
     if (!deptSelectedCode) return;
     const detail = computeDepartmentDetail(deptScopedList(), deptSelectedCode);
+    deptDetailCache = detail;
     deptMapTitleEl.textContent = `${detail.label} (${deptSelectedCode})`;
     setStat('deptTotalEvents', detail.totalEvents);
     setStat('deptGeoEvents', detail.geolocated);
     setStat('deptSurnameCount', detail.surnames.length);
     deptSurnamesCache = detail.surnames;
     renderDeptSurnameList(deptSurnameFilterEl.value);
-    drawDepartmentMap('deptMapChart', deptSelectedCode, detail);
+    drawDepartmentMap('deptMapChart', deptSelectedCode, detail, { surnameFilter: deptSurnameFilterEl.value });
 }
 
 function selectDepartment(code) {
@@ -1221,7 +1227,14 @@ deptScrollBarEl.addEventListener('click', e => {
     const btn = e.target.closest('.dept-chip');
     if (btn && btn.dataset.code !== deptSelectedCode) selectDepartment(btn.dataset.code);
 });
-deptSurnameFilterEl.addEventListener('input', () => renderDeptSurnameList(deptSurnameFilterEl.value));
+function redrawDeptMapForSurnameFilter() {
+    if (!deptDetailCache) return;
+    drawDepartmentMap('deptMapChart', deptSelectedCode, deptDetailCache, { surnameFilter: deptSurnameFilterEl.value });
+}
+deptSurnameFilterEl.addEventListener('input', () => {
+    renderDeptSurnameList(deptSurnameFilterEl.value);
+    redrawDeptMapForSurnameFilter();
+});
 deptAncestorOnlyEl.addEventListener('change', e => {
     deptPersonSearchEl.disabled = !e.target.checked;
     refreshDeptSummaries();
@@ -1274,16 +1287,20 @@ function renderBeSurnameList(filterText) {
     `));
 }
 
+// Voir deptDetailCache (bloc "Départements" ci-dessus) pour la raison de ce cache.
+let beDetailCache = null;
+
 function renderBeProvinceDetail() {
     if (!beSelectedCode) return;
     const detail = computeBeProvinceDetail(beScopedList(), beSelectedCode);
+    beDetailCache = detail;
     beMapTitleEl.textContent = detail.label;
     setStat('beTotalEvents', detail.totalEvents);
     setStat('beGeoEvents', detail.geolocated);
     setStat('beSurnameCount', detail.surnames.length);
     beSurnamesCache = detail.surnames;
     renderBeSurnameList(beSurnameFilterEl.value);
-    drawBeProvinceMap('beMapChart', beSelectedCode, detail);
+    drawBeProvinceMap('beMapChart', beSelectedCode, detail, { surnameFilter: beSurnameFilterEl.value });
 }
 
 function selectBeProvince(code) {
@@ -1311,7 +1328,14 @@ beScrollBarEl.addEventListener('click', e => {
     const btn = e.target.closest('.dept-chip');
     if (btn && btn.dataset.code !== beSelectedCode) selectBeProvince(btn.dataset.code);
 });
-beSurnameFilterEl.addEventListener('input', () => renderBeSurnameList(beSurnameFilterEl.value));
+function redrawBeMapForSurnameFilter() {
+    if (!beDetailCache) return;
+    drawBeProvinceMap('beMapChart', beSelectedCode, beDetailCache, { surnameFilter: beSurnameFilterEl.value });
+}
+beSurnameFilterEl.addEventListener('input', () => {
+    renderBeSurnameList(beSurnameFilterEl.value);
+    redrawBeMapForSurnameFilter();
+});
 beAncestorOnlyEl.addEventListener('change', e => {
     bePersonSearchEl.disabled = !e.target.checked;
     refreshBeSummaries();
@@ -1416,21 +1440,24 @@ function renderEuropeDetail() {
     drawEuropeMap('europeMapChart', code, {
         summaries: europeSummariesCache, detail, onSelectCountry: selectEuropeCountry,
         year: parseInt(europeYearSliderEl.value, 10),
-        easterEgg: hasEasterEggSurname(europeScopedList())
+        easterEgg: hasEasterEggSurname(europeScopedList()),
+        surnameFilter: europeSurnameFilterEl.value
     });
 }
 
-// Reglage rapide de l'année (drag du curseur), actif dans les deux modes (vue d'ensemble ET zoom sur
-// un pays) : redessine seulement la carte à partir d'europeDetailCache, sans recalculer
-// computeEuropeDetail/la liste de patronymes (inchangés — le curseur ne filtre pas les statistiques,
-// voir le hint affiché à l'écran) ni le sélecteur de pays. Évite de faire ramer un gros fichier
-// GEDCOM pendant qu'on fait glisser le curseur.
+// Redessin léger (à partir d'europeDetailCache, sans recalculer computeEuropeDetail/la liste de
+// patronymes) déclenché par le curseur année (drag, actif dans les deux modes vue d'ensemble/zoom sur
+// un pays) ET par le filtre "Liste éclair" (#europeSurnameFilter, répercuté sur la carte comme pour
+// drawDepartmentMap/drawBeProvinceMap) : ni l'un ni l'autre ne change les statistiques ni le sélecteur
+// de pays (voir le hint affiché à l'écran), inutile de faire ramer un gros fichier GEDCOM à chaque cran
+// du curseur ou chaque frappe au clavier.
 function redrawEuropeMapForYear() {
     updateEuropeYearLabel();
     drawEuropeMap('europeMapChart', europeSelectedCode || null, {
         summaries: europeSummariesCache, detail: europeDetailCache, onSelectCountry: selectEuropeCountry,
         year: parseInt(europeYearSliderEl.value, 10),
-        easterEgg: hasEasterEggSurname(europeScopedList())
+        easterEgg: hasEasterEggSurname(europeScopedList()),
+        surnameFilter: europeSurnameFilterEl.value
     });
 }
 europeYearSliderEl.addEventListener('input', redrawEuropeMapForYear);
@@ -1458,7 +1485,10 @@ europeScrollBarEl.addEventListener('click', e => {
     const btn = e.target.closest('.dept-chip');
     if (btn && btn.dataset.code !== europeSelectedCode) selectEuropeCountry(btn.dataset.code);
 });
-europeSurnameFilterEl.addEventListener('input', () => renderEuropeSurnameList(europeSurnameFilterEl.value));
+europeSurnameFilterEl.addEventListener('input', () => {
+    renderEuropeSurnameList(europeSurnameFilterEl.value);
+    if (europeDetailCache) redrawEuropeMapForYear();
+});
 europeAncestorOnlyEl.addEventListener('change', e => {
     europePersonSearchEl.disabled = !e.target.checked;
     refreshEuropeSummaries();

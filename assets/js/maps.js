@@ -646,7 +646,31 @@ export function computeDepartmentDetail(list, code) {
     };
 }
 
-export async function drawDepartmentMap(containerId, code, detail) {
+// Légende interactive des types d'événement (BIRT/DEAT/MARR/RESI/OTHER), partagée par drawDepartmentMap/
+// drawBeProvinceMap/drawEuropeCountryDetail : un clic isole ce type (masque tous les autres cercles), un
+// second clic sur le même type restaure l'affichage complet — pattern "solo" classique de légende de
+// graphique. `circles` est la sélection D3 des cercles à filtrer (svg.selectAll('circle.evt') ou, sur une
+// carte zoomable, zoomLayer.selectAll('circle.evt')) ; `x`/`y` la position (coin haut-gauche) dans le
+// <svg> appelant, qui reste responsable du calcul de position (hauteur de légende variable selon le
+// nombre de types présents).
+function drawEventTypeLegend(svg, circles, x, y, typesPresent) {
+    const legend = svg.append('g').attr('transform', `translate(${x},${y})`);
+    let isolated = null;
+    const rows = legend.selectAll('g.legend-row').data(typesPresent).join('g').attr('class', 'legend-row')
+        .attr('transform', (t, i) => `translate(0, ${i * 16})`)
+        .style('cursor', 'pointer')
+        .on('click', (e, t) => {
+            isolated = isolated === t ? null : t;
+            const active = isolated ? new Set([isolated]) : new Set(typesPresent);
+            circles.style('display', p => active.has(p.type) ? null : 'none');
+            rows.style('opacity', tt => active.has(tt) ? 1 : 0.4);
+        });
+    rows.append('circle').attr('cx', 6).attr('cy', 6).attr('r', 5).attr('fill', t => DEPT_EVENT_TYPES[t].color);
+    rows.append('text').attr('x', 16).attr('y', 10).style('font-size', '10px').style('fill', '#333')
+        .text(t => `${DEPT_EVENT_TYPES[t].icon} ${DEPT_EVENT_TYPES[t].label}`);
+}
+
+export async function drawDepartmentMap(containerId, code, detail, opts = {}) {
     const container = d3.select(`#${containerId}`);
     // N'affiche "Chargement…" que si aucune carte n'est déjà là : ensureFranceGeo() est mis en cache
     // après le tout premier chargement, donc un simple changement de département redessine quasi
@@ -696,15 +720,25 @@ export async function drawDepartmentMap(containerId, code, detail) {
     svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
         .text(`${detail.label} (${code})`);
 
-    if(!detail.points.length) {
+    // Filtre "Liste éclair" (patronyme, voir #deptSurnameFilter dans visualisation.html) répercuté sur
+    // la carte elle-même, pas seulement sur la liste HTML à côté : un point ne reste affiché que si au
+    // moins une des personnes qui y ont contribué (pt.items[].name, plafonné à 30 par point — voir
+    // computeDepartmentDetail) correspond au filtre, même recherche "sous-chaîne insensible à la casse"
+    // que la liste (comparée sur le nom complet, pas juste le patronyme isolé : suffisant en pratique).
+    const surnameFilter = (opts.surnameFilter || '').trim().toLowerCase();
+    const filteredPoints = surnameFilter
+        ? detail.points.filter(pt => pt.items.some(it => (it.name || '').toLowerCase().includes(surnameFilter)))
+        : detail.points;
+
+    if(!filteredPoints.length) {
         svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
             .style('font-size', '11px').style('fill', '#888')
-            .text('Aucun événement précisément géolocalisé pour ce département.');
+            .text(surnameFilter ? 'Aucun événement géolocalisé ne correspond à ce filtre.' : 'Aucun événement précisément géolocalisé pour ce département.');
     } else {
         // Coordonnées écran calculées une fois (et non dans chaque accesseur x/y) : évite d'appeler la
         // projection deux fois par point, et permet d'écarter proprement un point que fitExtent aurait
         // malgré tout laissé hors cadre (arrondis de contour, rarissime mais silencieux sinon).
-        const plotted = detail.points
+        const plotted = filteredPoints
             .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
             .filter(Boolean);
 
@@ -746,18 +780,19 @@ export async function drawDepartmentMap(containerId, code, detail) {
 
         // Légende : seulement les types d'événement réellement présents sur CETTE carte (pas de bruit
         // pour un type absent), dans l'ordre fixe DEPT_EVENT_TYPES pour rester cohérent d'un
-        // département à l'autre.
+        // département à l'autre. Cliquable (voir drawEventTypeLegend) : isole un type sur la carte.
         const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
-        const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
-        typesPresent.forEach((t, i) => {
-            const info = DEPT_EVENT_TYPES[t];
-            legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
-            legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
-                .text(`${info.icon} ${info.label}`);
-        });
+        drawEventTypeLegend(svg, svg.selectAll('circle.evt'), 12, height - 12 - typesPresent.length * 16, typesPresent);
     }
 
-    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
+    // Le filtre "Liste éclair" (surnameFilter, voir plus haut) doit aussi s'appliquer à CETTE liste
+    // dessinée en SVG, pas seulement à la liste HTML #xxxSurnameList à côté (qui, elle, se filtre déjà
+    // correctement) : sans ce filtrage, la liste visible dans l'image copiée/partagée (voir le
+    // commentaire de drawDeptSurnamePanel) restait toujours complète, incohérente avec ce qui est tapé.
+    const filteredSurnames = surnameFilter
+        ? detail.surnames.filter(s => s.surname.toLowerCase().includes(surnameFilter))
+        : detail.surnames;
+    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, filteredSurnames);
 }
 
 // Colonne "Liste éclair" dessinée dans le <svg> de la carte (voir drawDepartmentMap) : plafonnée au
@@ -858,7 +893,7 @@ export function computeBeProvinceDetail(list, code) {
     };
 }
 
-export async function drawBeProvinceMap(containerId, code, detail) {
+export async function drawBeProvinceMap(containerId, code, detail, opts = {}) {
     const container = d3.select(`#${containerId}`);
     // Voir drawDepartmentMap : même garde, même raison (ensureBelgiumGeo() en cache après le premier
     // chargement, un redessin ne doit pas faire clignoter/collapser le conteneur entre-temps).
@@ -896,12 +931,19 @@ export async function drawBeProvinceMap(containerId, code, detail) {
     svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
         .text(detail.label);
 
-    if(!detail.points.length) {
+    // Voir drawDepartmentMap pour la raison : même filtre "Liste éclair" (#beSurnameFilter) répercuté
+    // sur la carte, pas seulement sur la liste HTML à côté.
+    const surnameFilter = (opts.surnameFilter || '').trim().toLowerCase();
+    const filteredPoints = surnameFilter
+        ? detail.points.filter(pt => pt.items.some(it => (it.name || '').toLowerCase().includes(surnameFilter)))
+        : detail.points;
+
+    if(!filteredPoints.length) {
         svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
             .style('font-size', '11px').style('fill', '#888')
-            .text('Aucun événement précisément géolocalisé pour cette province.');
+            .text(surnameFilter ? 'Aucun événement géolocalisé ne correspond à ce filtre.' : 'Aucun événement précisément géolocalisé pour cette province.');
     } else {
-        const plotted = detail.points
+        const plotted = filteredPoints
             .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
             .filter(Boolean);
 
@@ -938,16 +980,17 @@ export async function drawBeProvinceMap(containerId, code, detail) {
             });
 
         const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
-        const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
-        typesPresent.forEach((t, i) => {
-            const info = DEPT_EVENT_TYPES[t];
-            legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
-            legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
-                .text(`${info.icon} ${info.label}`);
-        });
+        drawEventTypeLegend(svg, svg.selectAll('circle.evt'), 12, height - 12 - typesPresent.length * 16, typesPresent);
     }
 
-    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
+    // Le filtre "Liste éclair" (surnameFilter, voir plus haut) doit aussi s'appliquer à CETTE liste
+    // dessinée en SVG, pas seulement à la liste HTML #xxxSurnameList à côté (qui, elle, se filtre déjà
+    // correctement) : sans ce filtrage, la liste visible dans l'image copiée/partagée (voir le
+    // commentaire de drawDeptSurnamePanel) restait toujours complète, incohérente avec ce qui est tapé.
+    const filteredSurnames = surnameFilter
+        ? detail.surnames.filter(s => s.surname.toLowerCase().includes(surnameFilter))
+        : detail.surnames;
+    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, filteredSurnames);
 }
 
 // --- CARTE EUROPE (choroplèthe par pays, zoomable sur un pays) ---
@@ -1286,7 +1329,26 @@ export async function drawEuropeMap(containerId, code, opts = {}) {
         features = [{ ...neFeature, geometry: clipToEuropeBbox(neFeature.geometry) }];
     }
 
-    drawEuropeCountryDetail(container, features, opts.detail, { year, bounds, usingHistorical, hasAnyHistory: CSHAPES_MAPPED_LABELS.has(code) }, opts.easterEgg);
+    // Contours internes (départements/provinces) en repère discret, seulement pour les deux pays dont
+    // ce fichier connaît déjà le découpage administratif (mêmes sources que drawFranceMap/
+    // drawBelgiumMap) : un simple repère visuel, pas une couche interactive — reprojetés à la volée
+    // avec la même projection que le territoire (fitExtent calculé dessus), donc alignés d'office.
+    // Non bloquant si la requête échoue : la carte du pays seule reste fonctionnelle sans ce détail.
+    let subdivisions = null;
+    if(code === 'France') {
+        try {
+            const franceGeo = await ensureFranceGeo();
+            subdivisions = franceGeo.features.filter(f => FRENCH_DEPT_CODES.has(f.properties.code));
+        } catch(err) { /* pas de contour de département, la carte du pays seule reste fonctionnelle */ }
+    } else if(code === 'Belgique') {
+        try {
+            const belgiumGeo = await ensureBelgiumGeo();
+            subdivisions = belgiumGeo.features;
+        } catch(err) { /* pas de contour de province, la carte du pays seule reste fonctionnelle */ }
+    }
+    if(!document.getElementById(containerId)) return;
+
+    drawEuropeCountryDetail(container, features, opts.detail, { year, bounds, usingHistorical, hasAnyHistory: CSHAPES_MAPPED_LABELS.has(code) }, opts.easterEgg, subdivisions, opts.surnameFilter);
 }
 
 function drawEuropeOverview(container, features, summaries, year, bounds, onSelectCountry, easterEgg) {
@@ -1372,7 +1434,7 @@ function drawEuropeOverview(container, features, summaries, year, bounds, onSele
 // choisie, voir drawEuropeMap ci-dessus, s'affiche donc comme leur mosaïque complète) + événements
 // individuels géolocalisés + panneau "Liste éclair" des patronymes (réutilise drawDeptSurnamePanel,
 // générique malgré son nom).
-function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEgg) {
+function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEgg, subdivisions, surnameFilterRaw) {
     container.selectAll('*').remove();
     const height = 440;
     const containerWidth = container.node().clientWidth || 720;
@@ -1427,6 +1489,58 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
             territoryTooltip.style.opacity = 0;
         });
 
+    // Découpage interne (départements/provinces, voir drawEuropeMap) en simple repère visuel discret :
+    // pas d'interactivité propre (pointer-events désactivé) pour ne pas parasiter le survol du
+    // territoire ni le glisser du zoom, reprojeté avec la MÊME projection que le contour du pays donc
+    // aligné d'office dessus.
+    if(subdivisions && subdivisions.length) {
+        zoomLayer.selectAll('path.subdivision').data(subdivisions).join('path').attr('class', 'subdivision')
+            .attr('d', path)
+            .attr('fill', 'none')
+            .attr('stroke', '#a9b7c4')
+            .attr('stroke-width', 0.6)
+            .style('pointer-events', 'none');
+    }
+
+    // Nom de la préfecture/du chef-lieu de chaque département/province, positionné à ses coordonnées
+    // connues (GEO.deptCapitals+deptCentroids / beProvinceCapitals+beProvinceCentroids) plutôt qu'au
+    // centroïde géométrique du contour (souvent décalé de la vraie ville, ex. département allongé).
+    // Caché par défaut (opacity 0) : afficher les ~100 noms de département d'un coup à l'échelle du
+    // pays entier serait illisible — seul le zoom (voir le handler 'zoom' plus bas, SUBDIVISION_LABEL_
+    // MIN_ZOOM) les révèle, avec une taille de police recalculée à chaque cran pour rester lisible
+    // (même principe que les rayons de cercle, voir screenRadius) plutôt que de grossir avec le zoom.
+    let subdivisionLabelData = [];
+    if(subdivisions && subdivisions.length) {
+        const capitals = detail.label === 'France' ? GEO.deptCapitals
+            : detail.label === 'Belgique' ? GEO.beProvinceCapitals : null;
+        const centroids = detail.label === 'France' ? GEO.deptCentroids
+            : detail.label === 'Belgique' ? GEO.beProvinceCentroids : null;
+        const codeOf = f => detail.label === 'France' ? f.properties.code : f.properties.AdPrKey;
+        if(capitals && centroids) {
+            subdivisionLabelData = subdivisions.map(f => {
+                const code = codeOf(f);
+                const name = capitals[code];
+                const centroid = centroids[code];
+                if(!name || !centroid) return null;
+                const xy = projection(centroid);
+                return xy ? { name, x: xy[0], y: xy[1] } : null;
+            }).filter(Boolean);
+        }
+    }
+    const SUBDIVISION_LABEL_MIN_ZOOM = 3;
+    const SUBDIVISION_LABEL_FONT_SIZE = 11;
+    zoomLayer.selectAll('text.subdivision-label').data(subdivisionLabelData).join('text').attr('class', 'subdivision-label')
+        .attr('x', d => d.x).attr('y', d => d.y)
+        .attr('text-anchor', 'middle')
+        .style('font-size', `${SUBDIVISION_LABEL_FONT_SIZE}px`)
+        .style('font-weight', 600)
+        .style('fill', '#5d6d7e')
+        .style('paint-order', 'stroke')
+        .style('stroke', '#fff').style('stroke-width', 3).style('stroke-linejoin', 'round')
+        .style('pointer-events', 'none')
+        .style('opacity', 0)
+        .text(d => d.name);
+
     svg.append('text').attr('x', 12).attr('y', 22).style('font-size', '15px').style('font-weight', 700).style('fill', '#2c3e50')
         .text(detail.label);
 
@@ -1442,12 +1556,19 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
             .text(caption);
     }
 
-    if(!detail.points.length) {
+    // Voir drawDepartmentMap pour la raison : même filtre "Liste éclair" (#europeSurnameFilter)
+    // répercuté sur la carte, pas seulement sur la liste HTML à côté.
+    const surnameFilter = (surnameFilterRaw || '').trim().toLowerCase();
+    const filteredPoints = surnameFilter
+        ? detail.points.filter(pt => pt.items.some(it => (it.name || '').toLowerCase().includes(surnameFilter)))
+        : detail.points;
+
+    if(!filteredPoints.length) {
         svg.append('text').attr('x', mapWidth / 2).attr('y', height / 2).attr('text-anchor', 'middle')
             .style('font-size', '11px').style('fill', '#888')
-            .text('Aucun événement précisément géolocalisé pour ce pays.');
+            .text(surnameFilter ? 'Aucun événement géolocalisé ne correspond à ce filtre.' : 'Aucun événement précisément géolocalisé pour ce pays.');
     } else {
-        const plotted = detail.points
+        const plotted = filteredPoints
             .map(p => { const xy = projection([p.lon, p.lat]); return xy ? { ...p, x: xy[0], y: xy[1] } : null; })
             .filter(Boolean);
 
@@ -1510,20 +1631,26 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
                 zoomLayer.attr('transform', event.transform);
                 zoomLayer.selectAll('circle.evt').attr('r', p => screenRadius(p.count, k) / k).attr('stroke-width', 1 / k);
                 zoomLayer.selectAll('path.territory').attr('stroke-width', 1.2 / k);
+                zoomLayer.selectAll('path.subdivision').attr('stroke-width', 0.6 / k);
+                zoomLayer.selectAll('text.subdivision-label')
+                    .style('opacity', k >= SUBDIVISION_LABEL_MIN_ZOOM ? 1 : 0)
+                    .style('font-size', `${SUBDIVISION_LABEL_FONT_SIZE / k}px`)
+                    .style('stroke-width', 3 / k);
             });
         svg.style('cursor', 'grab').call(zoom);
 
         const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
-        const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
-        typesPresent.forEach((t, i) => {
-            const info = DEPT_EVENT_TYPES[t];
-            legend.append('circle').attr('cx', 6).attr('cy', i * 16 + 6).attr('r', 5).attr('fill', info.color);
-            legend.append('text').attr('x', 16).attr('y', i * 16 + 10).style('font-size', '10px').style('fill', '#333')
-                .text(`${info.icon} ${info.label}`);
-        });
+        drawEventTypeLegend(svg, zoomLayer.selectAll('circle.evt'), 12, height - 12 - typesPresent.length * 16, typesPresent);
     }
 
-    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, detail.surnames);
+    // Le filtre "Liste éclair" (surnameFilter, voir plus haut) doit aussi s'appliquer à CETTE liste
+    // dessinée en SVG, pas seulement à la liste HTML #xxxSurnameList à côté (qui, elle, se filtre déjà
+    // correctement) : sans ce filtrage, la liste visible dans l'image copiée/partagée (voir le
+    // commentaire de drawDeptSurnamePanel) restait toujours complète, incohérente avec ce qui est tapé.
+    const filteredSurnames = surnameFilter
+        ? detail.surnames.filter(s => s.surname.toLowerCase().includes(surnameFilter))
+        : detail.surnames;
+    if(listWidth > 0) drawDeptSurnamePanel(svg, mapWidth, listWidth, height, filteredSurnames);
     if(easterEgg) drawEasterEggFlag(svg, mapWidth);
 }
 
