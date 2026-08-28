@@ -14,6 +14,7 @@ const TOOLS = [
     { href: 'recherche.html', icon: '🧭', label: 'Aide à la recherche', page: 'deces' },
     { href: 'parentes.html', icon: '🧬', label: 'Parentés hyp.', page: 'parentes' },
     { href: 'rues-paris.html', icon: '📜', label: 'Rues de Paris', page: 'rues-paris' },
+    { href: 'communes.html', icon: '🏘️', label: 'Communes de France', page: 'communes' },
 ];
 
 // Monte le <header> commun dans #appHeader et renvoie un slot #pageControls que chaque page

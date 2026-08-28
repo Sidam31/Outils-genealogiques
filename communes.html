@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VisuGedcom — Communes de France (déchiffrage)</title>
+<link rel="icon" href="favicon.ico">
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
+<style>
+  :root{
+    --ink:#333;
+    --ink-soft:#7f8c8d;
+    --paper:#ffffff;
+    --card:#ffffff;
+    --rule:#dcdfe4;
+    --seal:#2c3e50;
+    --focus:#3b82f6;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    background:#ffffff;
+    color:var(--ink);
+    font-family:'Segoe UI', sans-serif;
+    min-height:100vh;padding:clamp(1.2rem,4vw,3rem) 1.2rem 4rem;line-height:1.5;
+  }
+  .wrap{max-width:900px;margin:0 auto}
+  header{margin-bottom:2rem}
+  .eyebrow{font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-soft);margin:0 0 .5rem;font-weight:600}
+  h1{font-size:clamp(1.6rem,4vw,2.1rem);font-weight:700;line-height:1.15;margin:0 0 .5rem;color:var(--seal)}
+  .sub{color:var(--ink-soft);font-size:.95rem;margin:0;max-width:60ch}
+
+  .field{position:relative;margin:1.5rem 0 .4rem}
+  .field label{display:block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:.4rem;font-weight:600}
+  #q{width:100%;border:1px solid var(--rule);background:#fff;border-radius:7px;font-family:inherit;font-size:1.1rem;color:var(--ink);padding:.6rem .8rem}
+  #q::placeholder{color:#aab2b8}
+  #q:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px rgba(59,130,246,.15)}
+  .hint{font-size:.82rem;color:var(--ink-soft);margin:.6rem 0 0}
+
+  .filters{display:flex;flex-wrap:wrap;gap:.4rem;margin:1.3rem 0 0;align-items:center}
+  .chip{font-size:.78rem;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:.35rem .7rem;cursor:pointer;font-weight:600;transition:background .15s, box-shadow .15s, transform .1s}
+  .chip:hover{background:#f0f4fb;color:var(--ink)}
+  .chip[aria-pressed="true"]{background:var(--seal);border-color:var(--seal);color:#fff}
+  .chip:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+  #deptFilter{font-size:.78rem;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:.35rem .6rem;font-weight:600;font-family:inherit}
+  #deptFilter:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+  .tolerance{display:flex;align-items:center;gap:.4rem;font-size:.78rem;color:var(--ink-soft);font-weight:600}
+  #tolerance{accent-color:var(--seal)}
+
+  .anchor-row{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem;margin:.7rem 0 0}
+  .anchor-row label{font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);font-weight:600;white-space:nowrap}
+  #anchor{flex:1;min-width:220px;border:1px solid var(--rule);background:#fff;border-radius:7px;font-family:inherit;font-size:.9rem;color:var(--ink);padding:.4rem .7rem}
+  #anchor:focus{outline:none;border-color:var(--focus);box-shadow:0 0 0 3px rgba(59,130,246,.15)}
+  #anchorClear{font-size:.78rem;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:.35rem .6rem;cursor:pointer;font-weight:600}
+  #anchorClear:hover{background:#f0f4fb;color:var(--ink)}
+  #anchorClear[hidden]{display:none}
+  #anchorNote{font-size:.78rem;color:var(--ink-soft);margin:.4rem 0 0;min-height:0}
+  #anchorNote:empty{margin:0}
+  #anchorNote.warn{color:#e67e22}
+
+  .count{font-size:.78rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);margin:1.8rem 0 1rem;border-bottom:1px solid var(--rule);padding-bottom:.5rem;font-weight:600}
+
+  .map-toggle-row{margin:.9rem 0 0}
+  #mapToggle{font-size:.78rem;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:.35rem .7rem;cursor:pointer;font-weight:600}
+  #mapToggle:hover{background:#f0f4fb;color:var(--ink)}
+  #mapToggle[aria-pressed="true"]{background:var(--seal);border-color:var(--seal);color:#fff}
+  #mapWrap{display:none;margin:1rem 0 0;border:1px solid var(--rule);border-radius:7px;overflow:hidden}
+  #mapWrap.open{display:block}
+  #map{height:420px}
+  #mapNote{font-size:.75rem;color:var(--ink-soft);padding:.5rem .8rem;border-top:1px solid var(--rule);background:#fafbfc}
+  .maplibregl-popup-content{font-size:.85rem;padding:.6rem .8rem}
+  .maplibregl-popup-content strong{display:block;margin-bottom:.2rem;color:var(--seal)}
+  .maplibregl-popup-content a{color:var(--focus)}
+
+  ul{list-style:none;margin:0;padding:0;display:grid;gap:.7rem}
+  .card{background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--seal);border-radius:6px;padding:.7rem .95rem .75rem;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+  .card .name{font-size:1.05rem;font-weight:700;margin:0;color:var(--ink)}
+  .card .meta{font-size:.72rem;letter-spacing:.05em;text-transform:uppercase;color:var(--seal);margin:.25rem 0 0;font-weight:600}
+  .card .variants{font-size:.82rem;color:var(--ink-soft);margin:.4rem 0 0}
+  .card .pop{font-size:.82rem;color:var(--ink-soft);margin:.4rem 0 0}
+  .card .pop b{color:var(--ink);font-weight:600}
+  .card .dist{font-size:.78rem;color:#2563eb;margin:.4rem 0 0;font-weight:600}
+  .card .dist-unknown{color:var(--ink-soft);font-weight:400;font-style:italic}
+  .card .geo{font-size:.78rem;color:var(--ink-soft);margin:.4rem 0 0}
+  .card .geo a{color:var(--focus);text-decoration:none}
+  .card .geo a:hover{text-decoration:underline}
+  .card-fusion{border-left-color:#e67e22}
+  .badge-fusion{font-size:.62rem;letter-spacing:.05em;text-transform:uppercase;color:#fff;background:#e67e22;padding:.15rem .45rem;border-radius:3px;vertical-align:middle;margin-left:.4rem;font-weight:600}
+  mark{background:rgba(59,130,246,.22);color:inherit;padding:0 .05em;border-radius:2px}
+
+  .empty{text-align:center;color:var(--ink-soft);font-style:italic;padding:2.5rem 1rem;border:1px dashed var(--rule);border-radius:6px;margin-top:1rem}
+  footer{margin-top:3rem;padding-top:1.2rem;border-top:1px solid var(--rule);font-size:.8rem;color:var(--ink-soft)}
+  footer code{font-size:.78rem;background:#f0f4fb;padding:.05rem .3rem;border-radius:3px}
+  .sources{margin-top:1.4rem}
+  .sources-h{font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink);margin:0 0 .6rem;font-weight:700}
+  .sources ul{list-style:none;margin:0;padding:0;display:grid;gap:.6rem}
+  .sources li{font-size:.82rem;line-height:1.45;color:var(--ink-soft)}
+  .sources em{color:var(--ink)}
+  .sources a{color:var(--focus);text-decoration:underline;text-underline-offset:2px}
+  .sources a:hover{color:var(--seal)}
+  .s-tag{display:inline-block;font-size:.62rem;letter-spacing:.04em;text-transform:uppercase;color:#fff;background:var(--seal);padding:.15rem .5rem;border-radius:3px;margin-right:.45rem;vertical-align:baseline;font-weight:600}
+  @media (prefers-reduced-motion:no-preference){.card{transition:transform .1s ease}.card:hover{transform:translateX(2px)}}
+</style>
+<style>
+  #appHeader { padding: 8px 15px; border-bottom: 1px solid #ddd; background: #f9f9f9; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; box-shadow: 0 2px 5px rgba(0,0,0,0.05); font-family: 'Segoe UI', sans-serif; }
+  #appHeader h1 { margin: 0 auto 0 0; font-size: 1.1rem; color: #2c3e50; }
+  #appHeader .ctrl { display: flex; align-items: center; gap: 5px; }
+  #appHeader nav.tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+  #appHeader nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: center; padding: 7px 14px; border: 1px solid #dcdfe4; border-radius: 6px; background: #fff; font-weight: 600; font-size: 0.85rem; color: #555; }
+  #appHeader nav.tabs a.tab-btn.active { background: #2c3e50; color: #fff; border-color: #2c3e50; }
+  #appHeader nav.tabs a.tab-btn:hover:not(.active) { background: #f0f4fb; }
+  #appHeader .app-credit { font-size: 0.78rem; color: #999; }
+  #appHeader .app-credit a { color: #999; text-decoration: none; }
+  #appHeader .app-credit a:hover { color: #2c3e50; text-decoration: underline; }
+</style>
+</head>
+<body>
+<header id="appHeader"></header>
+<script type="module">
+import { renderHeader } from './assets/js/nav.js';
+renderHeader('communes');
+</script>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Paléographie · communes de France</p>
+    <h1>Déchiffrer une commune</h1>
+    <p class="sub">Saisissez un nom de commune tel que vous le lisez sur le document — mal orthographié, abrégé, à demi lisible, ou sous son <em>ancien</em> nom (avant une fusion/renommage). Les correspondances les plus proches parmi les ~36 500 communes françaises apparaissent en tête.</p>
+  </header>
+
+  <div class="field">
+    <label for="q">Transcription</label>
+    <input id="q" type="text" autocomplete="off" spellcheck="false"
+           placeholder="ex. St Vaast la Hougue, Marceilhe, Chateauneuf…" autofocus>
+    <p class="hint">Recherche approximative — l'orthographe et les accents n'ont pas à être exacts. Fonctionne aussi avec le code INSEE (5 chiffres) et les anciens noms de communes fusionnées/renommées.</p>
+  </div>
+
+  <div class="anchor-row">
+    <label for="anchor">Rédigé à</label>
+    <input id="anchor" type="text" autocomplete="off" spellcheck="false" list="anchorList"
+           placeholder="commune où l'acte a été écrit (optionnel) — pour prioriser les communes voisines">
+    <datalist id="anchorList"></datalist>
+    <button type="button" id="anchorClear" hidden>Retirer</button>
+  </div>
+  <p id="anchorNote"></p>
+
+  <div class="filters">
+    <label for="deptFilter" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Filtrer par département</label>
+    <select id="deptFilter" aria-label="Filtrer par département"></select>
+    <label class="tolerance" for="tolerance" title="Plus la tolérance est haute, plus la recherche accepte de lettres différentes de la transcription — utile sur une graphie très incertaine, au prix de plus de bruit.">
+      Tolérance aux erreurs
+      <select id="tolerance">
+        <option value="0.3">faible</option>
+        <option value="0.45" selected>normale</option>
+        <option value="0.6">haute</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="map-toggle-row">
+    <button type="button" id="mapToggle" aria-pressed="false">📍 Voir sur la carte</button>
+  </div>
+  <div id="mapWrap">
+    <div id="map"></div>
+    <p id="mapNote"></p>
+  </div>
+
+  <p class="count" id="count"></p>
+  <ul id="results" aria-live="polite"></ul>
+
+  <footer id="foot"></footer>
+</div>
+
+<script type="module">
+  import { GEO, normalizePlace } from './assets/js/geo.js';
+
+  const q = document.getElementById('q');
+  const count = document.getElementById('count');
+  const deptFilterEl = document.getElementById('deptFilter');
+  const toleranceEl = document.getElementById('tolerance');
+  const anchorEl = document.getElementById('anchor');
+  const anchorListEl = document.getElementById('anchorList');
+  const anchorClearBtn = document.getElementById('anchorClear');
+  const anchorNoteEl = document.getElementById('anchorNote');
+
+  // La base (~36 500 communes, Cassini/EHESS via communes_evolution) vit dans un fichier JSON séparé
+  // plutôt qu'inline : plus facile à diffs/éditer, et mise en cache HTTP indépendamment du code de
+  // la page. Format compact en tableaux (cf. DB.fields) plutôt qu'objets répétés : fichier ~3x plus
+  // léger à télécharger pour 36 500 entrées.
+  q.disabled = true;
+  count.textContent = 'Chargement de la base des communes…';
+  fetch('assets/data/communes_population.json')
+    .then(res => { if(!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
+    .then(init)
+    .catch(err => {
+      console.error('Chargement de la base des communes échoué:', err);
+      count.textContent = "Erreur : impossible de charger la base des communes.";
+    });
+
+function init(DB) {
+  const fields = DB.fields; // ["insee","name","dept","population","altNames"]
+  const communes = DB.communes.map(row => {
+    const c = {};
+    fields.forEach((f, i) => { c[f] = row[i]; });
+    c.altNames = c.altNames || [];
+    // Variante "à plat" (tirets/apostrophes -> espace) en plus du nom brut : sert de deuxième clé
+    // Fuse pour retrouver "Saint Jean sur Something" même si l'utilisateur ne tape pas les tirets —
+    // remplacement caractère pour caractère, donc les indices de correspondance restent valables
+    // pour surligner item.name tel quel (cf. card()).
+    c.flat = c.name.replace(/[-'’`]/g, ' ');
+    return c;
+  });
+  q.disabled = false;
+
+  document.getElementById('foot').innerHTML =
+    communes.length.toLocaleString('fr-FR') + ' communes (limites et noms historiques, France métropolitaine). ' +
+    'Population par recensement (Cassini/EHESS) affichée à titre indicatif pour confirmer une correspondance plausible. ' +
+    'Les communes fusionnées ou renommées sont indexées sous leur(s) ancien(s) nom(s) en plus du nom actuel — ' +
+    'utile pour un acte antérieur à la fusion.' +
+    '<div class="sources"><p class="sources-h">Sources</p><ul>' +
+    '<li><span class="s-tag">Cassini/EHESS</span> Base des communes françaises — <em>communes_evolution</em> (population historique 1793–2006, fusions et renommages). <a href="https://cassini.ehess.fr/" target="_blank" rel="noopener">cassini.ehess.fr</a></li>' +
+    '</ul></div>';
+
+  const fuse = new Fuse(communes, {
+    keys: [
+      { name:'name', weight:0.7 },
+      { name:'flat', weight:0.55 },
+      { name:'altNames', weight:0.6 },
+      { name:'insee', weight:0.3 }
+    ],
+    includeScore:true, includeMatches:true,
+    threshold:0.45, ignoreLocation:true, minMatchCharLength:2
+  });
+  toleranceEl.addEventListener('change', () => {
+    fuse.options.threshold = parseFloat(toleranceEl.value);
+    render();
+  });
+
+  const results = document.getElementById('results');
+
+  // Filtre département : cardinalité trop élevée (96) pour des chips, d'où un <select>, comme le
+  // filtre quartier de rues-paris.html.
+  const deptCounts = {};
+  communes.forEach(c => { deptCounts[c.dept] = (deptCounts[c.dept]||0)+1; });
+  const depts = Object.keys(deptCounts).sort((a,b) => deptSortKey(a) - deptSortKey(b));
+  function deptSortKey(code){ if(code==='2A') return 20.1; if(code==='2B') return 20.2; return parseFloat(code); }
+  let activeDept = null;
+  deptFilterEl.innerHTML = '<option value="">tous départements</option>' +
+    depts.map(d => `<option value="${d}">${d} — ${esc(GEO.deptLabels[d]||d)} · ${deptCounts[d]}</option>`).join('');
+  deptFilterEl.addEventListener('change', () => { activeDept = deptFilterEl.value || null; render(); });
+
+  function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+  function highlight(text, indices){
+    if(!indices||!indices.length) return esc(text);
+    let out='',last=0;
+    for(const [s,e] of indices){ out+=esc(text.slice(last,s))+'<mark>'+esc(text.slice(s,e+1))+'</mark>'; last=e+1; }
+    return out+esc(text.slice(last));
+  }
+
+  function popText(item){
+    const p = item.population || [];
+    if(!p.length) return '';
+    const [lastYear, lastPop] = p[p.length-1];
+    const [firstYear, firstPop] = p[0];
+    let txt = `<b>${lastPop.toLocaleString('fr-FR')}</b> hab. (${lastYear})`;
+    if(firstYear !== lastYear) txt += ` · ${firstPop.toLocaleString('fr-FR')} hab. en ${firstYear}`;
+    return txt;
+  }
+
+  function card(item, matches, distKm){
+    const nameMatch = matches?.find(m=>m.key==='name') || matches?.find(m=>m.key==='flat');
+    const altMatches = matches?.filter(m=>m.key==='altNames')||[];
+    const nameHtml = nameMatch ? highlight(item.name, nameMatch.indices) : esc(item.name);
+    const alts = item.altNames || [];
+    const altsHtml = alts.map((v,i)=>{
+      const m = altMatches.find(mm=>mm.refIndex===i);
+      return m ? highlight(v,m.indices) : esc(v);
+    }).join(' · ');
+    const isFusion = alts.length > 0;
+    const pop = popText(item);
+    const cls = isFusion ? ' card-fusion' : '';
+    const distHtml = distKm===undefined ? '' : (distKm==null
+      ? `<p class="dist dist-unknown">distance à ${esc(anchorItem.name)} inconnue</p>`
+      : `<p class="dist">📍 ${Math.round(distKm)} km de ${esc(anchorItem.name)}</p>`);
+    return `<li class="card${cls}" data-insee="${esc(item.insee)}" data-dept="${esc(item.dept)}">
+      <p class="name">${nameHtml}${isFusion?' <span class="badge-fusion">fusion/renommage</span>':''}</p>
+      <p class="meta">${esc(item.dept)} — ${esc(GEO.deptLabels[item.dept]||item.dept)} · INSEE ${esc(item.insee)}</p>
+      ${pop?`<p class="pop">${pop}</p>`:''}
+      ${alts.length?`<p class="variants">anciennement : ${altsHtml}</p>`:''}
+      ${distHtml}
+      <p class="geo"><a href="#" class="geo-zoom" data-insee="${esc(item.insee)}" data-dept="${esc(item.dept)}" data-name="${esc(item.name)}">Voir sur la carte ↗</a></p>
+    </li>`;
+  }
+
+  // --- Carte (MapLibre + tuiles OpenStreetMap) ---
+  // Les coordonnées ne sont pas embarquées dans communes_population.json (elles vivent, par
+  // département, dans assets/data/communes_geo/{dept}.json — cf. scripts_py/build_communes_geo.py,
+  // déjà utilisé par assets/js/maps.js pour la même base). On ne télécharge donc que les fichiers
+  // départements réellement nécessaires à ce qui est affiché, mis en cache une fois récupérés.
+  const geoCache = new Map(); // dept -> Promise<Map<nom normalisé, [lat,lon]>>
+  function ensureDeptGeo(dept){
+    if(!geoCache.has(dept)){
+      geoCache.set(dept, fetch(`./assets/data/communes_geo/${dept}.json`)
+        .then(res => { if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); })
+        .then(entries => new Map(entries.flatMap(([names,lat,lon]) => names.map(n => [normalizePlace(n), [lat,lon]]))))
+        .catch(() => new Map()));
+    }
+    return geoCache.get(dept);
+  }
+  function coordsFor(item){
+    return ensureDeptGeo(item.dept).then(m => {
+      let hit = m.get(normalizePlace(item.name));
+      if(!hit) for(const alt of (item.altNames||[])) { hit = m.get(normalizePlace(alt)); if(hit) break; }
+      return hit || null;
+    });
+  }
+  function lastPop(item){
+    const p = item.population;
+    return (p && p.length) ? p[p.length-1][1] : 0;
+  }
+  // Distance à vol d'oiseau (Haversine, km) — un acte ancien cite le plus souvent des lieux proches
+  // du bureau/de l'étude où il a été rédigé : sert à réordonner les résultats de recherche flous par
+  // proximité d'une commune de référence plutôt que par seul score textuel (cf. combinedScore ci-dessous).
+  function distanceKm([lat1,lon1],[lat2,lon2]){
+    const R=6371, toRad=d=>d*Math.PI/180;
+    const dLat=toRad(lat2-lat1), dLon=toRad(lon2-lon1);
+    const a=Math.sin(dLat/2)**2 + Math.cos(toRad(lat1))*Math.cos(toRad(lat2))*Math.sin(dLon/2)**2;
+    return R*2*Math.asin(Math.sqrt(a));
+  }
+  // Pénalise le score Fuse (plus bas = meilleur) proportionnellement à la distance : à 0 km, aucun
+  // effet ; à DISTANCE_SCALE_KM, le score double (nette dégradation du rang) ; au-delà, il continue de
+  // se dégrader mais de moins en moins vite en proportion. Un très bon match textuel (score proche de
+  // 0) reste donc en tête même loin de la référence — la distance ne fait que départager les matches
+  // de qualité textuelle proche, elle n'exclut jamais un match textuellement fort.
+  const DISTANCE_SCALE_KM = 60;
+  function combinedScore(fuseScore, distKm){
+    return distKm == null ? fuseScore : fuseScore * (1 + distKm / DISTANCE_SCALE_KM);
+  }
+
+  // --- Commune de référence ("rédigé à") ---
+  // Résolution par nom exact (normalisé) d'abord — le <datalist> propose "Nom — DD" pour lever les
+  // homonymies (ex. plusieurs "Sainte-Foy" dans des départements différents) ; si l'utilisateur ne
+  // choisit pas une suggestion et tape un nom ambigu, on retient la commune la plus peuplée plutôt que
+  // d'échouer. Repli sur la meilleure correspondance floue si aucun nom exact ne correspond (transcription
+  // approximative de la commune de référence elle-même).
+  let anchorItem = null, anchorCoords = null;
+  function anchorLabel(c){ return `${c.name} — ${c.dept}`; }
+  anchorEl.addEventListener('input', () => {
+    const term = anchorEl.value.trim();
+    if(anchorItem) { anchorItem = null; anchorCoords = null; anchorClearBtn.hidden = true; anchorNoteEl.textContent=''; anchorNoteEl.className=''; render(); }
+    if(term.length >= 2){
+      const sugg = fuse.search(term, { limit: 8 });
+      anchorListEl.innerHTML = sugg.map(h => `<option value="${esc(anchorLabel(h.item))}">`).join('');
+    } else {
+      anchorListEl.innerHTML = '';
+    }
+  });
+  function resolveAnchor(){
+    const raw = anchorEl.value.trim();
+    if(!raw){
+      anchorItem = null; anchorCoords = null;
+      anchorClearBtn.hidden = true; anchorNoteEl.textContent=''; anchorNoteEl.className='';
+      render();
+      return;
+    }
+    const m = raw.match(/^(.*)\s—\s([0-9A-Za-z]{2,3})$/);
+    let candidates = [];
+    if(m){
+      const nm = normalizePlace(m[1].trim()), dept = m[2];
+      candidates = communes.filter(c => c.dept===dept && normalizePlace(c.name)===nm);
+    }
+    if(!candidates.length){
+      const nn = normalizePlace(raw);
+      candidates = communes.filter(c => normalizePlace(c.name)===nn);
+    }
+    let fuzzy = false;
+    if(!candidates.length){
+      const hit = fuse.search(raw, { limit: 1 })[0];
+      if(hit){ candidates = [hit.item]; fuzzy = true; }
+    }
+    if(!candidates.length){
+      anchorItem = null; anchorCoords = null;
+      anchorClearBtn.hidden = true;
+      anchorNoteEl.textContent = `Commune de référence introuvable pour « ${raw} ».`;
+      anchorNoteEl.className = 'warn';
+      render();
+      return;
+    }
+    candidates.sort((a,b)=>lastPop(b)-lastPop(a));
+    anchorItem = candidates[0];
+    anchorCoords = null;
+    anchorClearBtn.hidden = false;
+    anchorEl.value = anchorLabel(anchorItem);
+    anchorNoteEl.textContent = fuzzy
+      ? `Correspondance approximative retenue : ${anchorItem.name} (${anchorItem.dept}).`
+      : (candidates.length>1
+        ? `${candidates.length} communes s'appellent « ${anchorItem.name} » — la plus peuplée a été retenue (${anchorItem.dept}).`
+        : '');
+    anchorNoteEl.className = (fuzzy || candidates.length>1) ? 'warn' : '';
+    ensureDeptGeo(anchorItem.dept).then(gm => {
+      let hit = gm.get(normalizePlace(anchorItem.name));
+      if(!hit) for(const alt of (anchorItem.altNames||[])) { hit = gm.get(normalizePlace(alt)); if(hit) break; }
+      anchorCoords = hit || null;
+      if(!anchorCoords){
+        anchorNoteEl.textContent += (anchorNoteEl.textContent?' ':'') + 'Coordonnées introuvables pour cette commune.';
+        anchorNoteEl.className = 'warn';
+      }
+      render();
+    });
+    render();
+  }
+  anchorEl.addEventListener('change', resolveAnchor);
+  anchorEl.addEventListener('keydown', e => { if(e.key==='Enter'){ e.preventDefault(); anchorEl.blur(); resolveAnchor(); } });
+  anchorClearBtn.addEventListener('click', () => {
+    anchorEl.value = ''; anchorItem = null; anchorCoords = null;
+    anchorClearBtn.hidden = true; anchorNoteEl.textContent=''; anchorNoteEl.className='';
+    render();
+  });
+
+  const mapToggleBtn = document.getElementById('mapToggle');
+  const mapWrapEl = document.getElementById('mapWrap');
+  const mapNoteEl = document.getElementById('mapNote');
+  let mapInstance = null;
+  let mapReady = false;
+
+  function openMap(){
+    if(!mapWrapEl.classList.contains('open')){
+      mapWrapEl.classList.add('open');
+      mapToggleBtn.setAttribute('aria-pressed', 'true');
+      mapToggleBtn.textContent = '📍 Masquer la carte';
+    }
+    if(!mapInstance) initMap();
+    else mapInstance.resize();
+  }
+
+  mapToggleBtn.addEventListener('click', () => {
+    if(mapWrapEl.classList.contains('open')){
+      mapWrapEl.classList.remove('open');
+      mapToggleBtn.setAttribute('aria-pressed', 'false');
+      mapToggleBtn.textContent = '📍 Voir sur la carte';
+    } else {
+      openMap();
+      updateMapMarkers(lastList);
+    }
+  });
+
+  function openMapAt(lat, lon, name){
+    openMap();
+    const fly = () => {
+      mapInstance.flyTo({ center:[lon,lat], zoom:13 });
+      new maplibregl.Popup({ closeOnClick:true, maxWidth:'260px' })
+        .setLngLat([lon,lat])
+        .setHTML(`<strong>${esc(name)}</strong>`)
+        .addTo(mapInstance);
+    };
+    if(mapReady) fly();
+    else mapInstance.once('load', fly);
+    mapWrapEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
+  }
+  results.addEventListener('click', e => {
+    const link = e.target.closest('.geo-zoom');
+    if(!link) return;
+    e.preventDefault();
+    const item = communes.find(c => c.insee === link.dataset.insee);
+    if(!item) return;
+    coordsFor(item).then(hit => {
+      if(!hit){ mapNoteEl.textContent = `Coordonnées introuvables pour ${item.name}.`; openMap(); return; }
+      openMapAt(hit[0], hit[1], item.name);
+    });
+  });
+
+  function initMap(){
+    mapInstance = new maplibregl.Map({
+      container: 'map',
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
+          }
+        },
+        layers: [{ id: 'osm', type: 'raster', source: 'osm' }]
+      },
+      center: [2.3488, 46.6],
+      zoom: 5
+    });
+    mapInstance.addControl(new maplibregl.NavigationControl(), 'top-right');
+    mapInstance.on('load', () => {
+      mapInstance.addSource('communes', { type: 'geojson', data: { type: 'FeatureCollection', features: [] } });
+      mapInstance.addLayer({
+        id: 'communes-point',
+        type: 'circle',
+        source: 'communes',
+        paint: {
+          'circle-radius': ['match', ['get','kind'], 'anchor', 8, 5],
+          'circle-color': ['match', ['get','kind'], 'anchor', '#e11d48', '#3b82f6'],
+          'circle-stroke-color': '#fff',
+          'circle-stroke-width': 1.5
+        }
+      });
+      let popup = null;
+      mapInstance.on('mouseenter', 'communes-point', e => {
+        mapInstance.getCanvas().style.cursor = 'pointer';
+        const p = e.features[0].properties;
+        const label = p.kind==='anchor' ? `${esc(p.name)} (rédigé à)` : `${esc(p.name)} · ${esc(p.dept)}`;
+        popup = new maplibregl.Popup({ closeButton:false, closeOnClick:false, maxWidth:'260px' })
+          .setLngLat(e.features[0].geometry.coordinates)
+          .setHTML(`<strong>${label}</strong>`)
+          .addTo(mapInstance);
+      });
+      mapInstance.on('mouseleave', 'communes-point', () => {
+        mapInstance.getCanvas().style.cursor = '';
+        if(popup){ popup.remove(); popup = null; }
+      });
+      mapReady = true;
+      updateMapMarkers(lastList);
+    });
+  }
+
+  // Résolution des coordonnées d'une liste affichée : regroupe par département pour ne récupérer
+  // qu'une fois par département (au lieu d'une requête par commune), puis pousse les points trouvés
+  // sur la carte. Un jeton (mapRequestToken) évite qu'une résolution async lente n'écrase l'affichage
+  // avec des résultats devenus obsolètes (l'utilisateur a retapé entre-temps).
+  let mapRequestToken = 0;
+  let lastList = [];
+  const MAP_MAX = 400; // au-delà, trop de requêtes départements simultanées pour peu d'intérêt visuel
+  function updateMapMarkers(items){
+    lastList = items;
+    if(!mapWrapEl.classList.contains('open')) return;
+    const token = ++mapRequestToken;
+    const subset = items.slice(0, MAP_MAX);
+    const anchorFeature = anchorCoords
+      ? [{ type:'Feature', geometry:{type:'Point',coordinates:[anchorCoords[1],anchorCoords[0]]}, properties:{name:anchorItem.name, dept:anchorItem.dept, kind:'anchor'} }]
+      : [];
+    if(!subset.length){
+      if(mapInstance && mapInstance.getSource('communes')) mapInstance.getSource('communes').setData({type:'FeatureCollection',features:anchorFeature});
+      mapNoteEl.textContent = anchorFeature.length ? `Commune de référence : ${anchorItem.name} (${anchorItem.dept}).` : '';
+      return;
+    }
+    mapNoteEl.textContent = 'Localisation en cours…';
+    const depts = [...new Set(subset.map(c=>c.dept))];
+    Promise.all(depts.map(d => ensureDeptGeo(d))).then(maps => {
+      if(token !== mapRequestToken) return;
+      const byDept = new Map(depts.map((d,i)=>[d,maps[i]]));
+      const features = [...anchorFeature];
+      subset.forEach(c => {
+        const m = byDept.get(c.dept);
+        let hit = m && m.get(normalizePlace(c.name));
+        if(!hit && m) for(const alt of (c.altNames||[])) { hit = m.get(normalizePlace(alt)); if(hit) break; }
+        if(hit) features.push({ type:'Feature', geometry:{type:'Point',coordinates:[hit[1],hit[0]]}, properties:{name:c.name, dept:c.dept} });
+      });
+      if(mapInstance && mapInstance.getSource('communes')) mapInstance.getSource('communes').setData({type:'FeatureCollection', features});
+      const localized = features.length - anchorFeature.length;
+      mapNoteEl.textContent = items.length > MAP_MAX
+        ? `${localized} commune(s) localisée(s) sur les ${MAP_MAX} premières affichées (${items.length} au total — affinez la recherche pour tout voir).`
+        : `${localized} commune(s) localisée(s) sur ${items.length} affichée(s).`;
+    });
+  }
+
+  function pool(){
+    return activeDept ? communes.filter(c => c.dept === activeDept) : communes;
+  }
+
+  function render(){
+    const term = q.value.trim();
+    let list;
+    if(!term){
+      list = [...pool()].sort((a,b)=>a.name.localeCompare(b.name,'fr'));
+      count.textContent = list.length.toLocaleString('fr-FR') + (activeDept?` communes · ${activeDept}`:' communes') + ' — saisissez pour filtrer';
+      results.innerHTML = list.slice(0,300).map(s=>card(s,null)).join('');
+      if(list.length>300){
+        results.innerHTML += `<li class="empty">…et ${(list.length-300).toLocaleString('fr-FR')} autres. Saisissez pour affiner la liste.</li>`;
+      }
+      updateMapMarkers(list);
+      return;
+    }
+    let hits = fuse.search(term);
+    if(activeDept) hits = hits.filter(h=>h.item.dept===activeDept);
+    // Avec une commune de référence, on garde un pool plus large avant de couper à 60 : le
+    // classement final tient compte de la distance (cf. rankAndRender), donc un match un peu moins
+    // bon textuellement mais tout proche de la référence doit rester dans la course.
+    hits = hits.slice(0, anchorCoords ? 200 : 60);
+    if(!hits.length){
+      count.textContent = 'aucune correspondance';
+      results.innerHTML = `<li class="empty">Aucune correspondance pour « ${esc(term)} ». Essayez moins de lettres, une tolérance plus haute, ou cherchez la partie la plus lisible.</li>`;
+      updateMapMarkers([]);
+      return;
+    }
+    if(!anchorCoords){
+      count.textContent = hits.length + (hits.length===1?' correspondance':' correspondances');
+      results.innerHTML = hits.map(h=>card(h.item,h.matches)).join('');
+      updateMapMarkers(hits.map(h=>h.item));
+      return;
+    }
+    rankByDistanceAndRender(hits);
+  }
+
+  // Réordonne les résultats flous par proximité de la commune de référence (cf. combinedScore) une
+  // fois les coordonnées de leurs départements récupérées. Un jeton (rankRequestToken) évite qu'une
+  // résolution lente n'écrase l'affichage si l'utilisateur a retapé entre-temps.
+  let rankRequestToken = 0;
+  function rankByDistanceAndRender(hits){
+    const token = ++rankRequestToken;
+    const depts = [...new Set(hits.map(h=>h.item.dept))];
+    Promise.all(depts.map(d => ensureDeptGeo(d))).then(maps => {
+      if(token !== rankRequestToken) return;
+      const byDept = new Map(depts.map((d,i)=>[d,maps[i]]));
+      const withDist = hits.map(h => {
+        const gm = byDept.get(h.item.dept);
+        let hit = gm && gm.get(normalizePlace(h.item.name));
+        if(!hit && gm) for(const alt of (h.item.altNames||[])) { hit = gm.get(normalizePlace(alt)); if(hit) break; }
+        const distKm = hit ? distanceKm(anchorCoords, hit) : null;
+        return { item:h.item, matches:h.matches, distKm, combined: combinedScore(h.score, distKm) };
+      });
+      withDist.sort((a,b) => a.combined - b.combined);
+      const finalHits = withDist.slice(0, 60);
+      count.textContent = finalHits.length + (finalHits.length===1?' correspondance':' correspondances')
+        + ` · triées par proximité de ${esc(anchorItem.name)}`;
+      results.innerHTML = finalHits.map(h=>card(h.item, h.matches, h.distKm)).join('');
+      updateMapMarkers(finalHits.map(h=>h.item));
+    });
+  }
+
+  q.addEventListener('input', render);
+  render();
+}
+</script>
+</body>
+</html>
