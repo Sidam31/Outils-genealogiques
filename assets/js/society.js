@@ -951,7 +951,12 @@ export async function drawRareGivenNamesMap(containerId, stats) {
         return;
     }
 
-    showMapMessage(containerId, 'Chargement de la carte…');
+    const container = d3.select(`#${containerId}`);
+    // Voir drawDepartmentMap (maps.js) pour la raison : ensureFranceGeo()/ensureEuropeGeo() sont en
+    // cache après le premier chargement, donc un redessin (ex. bascule du filtre de sexe) se résout
+    // quasi instantanément — mais collapsait quand même brièvement le conteneur sur ce message (plus
+    // court qu'une vraie carte) avant de reprendre sa hauteur, décalant la page vers le haut.
+    if (container.select('svg').empty()) showMapMessage(containerId, 'Chargement de la carte…');
     let geojsonRaw;
     try {
         geojsonRaw = await ensureFranceGeo();
@@ -959,7 +964,6 @@ export async function drawRareGivenNamesMap(containerId, stats) {
         showMapMessage(containerId, 'Impossible de charger la carte de France (connexion internet requise).', true);
         return;
     }
-    const container = d3.select(`#${containerId}`);
     if (!document.getElementById(containerId)) return;
 
     const frenchDeptCodes = new Set(Object.values(GEO.deptNames));
@@ -1018,13 +1022,18 @@ export async function drawRareGivenNamesMap(containerId, stats) {
     const maxCount = d3.max(plotted, p => p.count) || 1;
     const radius = d3.scaleSqrt().domain([1, maxCount]).range([3, 12]);
     const tooltip = document.getElementById('tooltip');
+    // Suivi du niveau de zoom courant, mis à jour par le handler 'zoom' plus bas : le survol doit lui
+    // aussi exprimer son épaisseur de trait relativement à k (comme le fait déjà le handler 'zoom' pour
+    // l'état normal), sinon un survol après un zoom laisse un contour bien trop épais/blanc au repos —
+    // 1.5px ou 1px "à k=1" s'affichent comme 1.5·k ou 1·k pixels une fois zoomé, potentiellement énorme.
+    let currentK = 1;
 
     zoomLayer.selectAll('circle.rare-name').data(plotted).join('circle').attr('class', 'rare-name')
         .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
         .attr('fill', p => colorFor(p.name)).attr('fill-opacity', 0.8).attr('stroke', '#fff').attr('stroke-width', 1)
         .style('cursor', 'pointer')
         .on('mouseover', function(e, p) {
-            d3.select(this).attr('stroke', '#2c3e50').attr('stroke-width', 1.5);
+            d3.select(this).attr('stroke', '#2c3e50').attr('stroke-width', 1.5 / currentK);
             if (!tooltip) return;
             const shown = Math.min(10, p.items.length);
             const rows = p.items.slice(0, shown)
@@ -1042,7 +1051,7 @@ export async function drawRareGivenNamesMap(containerId, stats) {
             tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
         })
         .on('mouseout', function() {
-            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+            d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1 / currentK);
             if (tooltip) tooltip.style.opacity = 0;
         });
 
@@ -1070,6 +1079,7 @@ export async function drawRareGivenNamesMap(containerId, stats) {
         })
         .on('zoom', event => {
             const k = event.transform.k;
+            currentK = k;
             zoomLayer.attr('transform', event.transform);
             zoomLayer.selectAll('circle.rare-name').attr('r', p => screenRadius(p.count, k) / k).attr('stroke-width', 1 / k);
             zoomLayer.selectAll('path.dept-bg').attr('stroke-width', 0.6 / k);

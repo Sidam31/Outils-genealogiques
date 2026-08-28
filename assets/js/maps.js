@@ -648,7 +648,14 @@ export function computeDepartmentDetail(list, code) {
 
 export async function drawDepartmentMap(containerId, code, detail) {
     const container = d3.select(`#${containerId}`);
-    showMapMessage(containerId, 'Chargement de la carte…');
+    // N'affiche "Chargement…" que si aucune carte n'est déjà là : ensureFranceGeo() est mis en cache
+    // après le tout premier chargement, donc un simple changement de département redessine quasi
+    // instantanément — remplacer la carte déjà affichée par le message le temps de cet instant ne
+    // faisait que réduire brièvement la hauteur du conteneur (le placeholder est bien plus court
+    // qu'une vraie carte), ce qui décalait toute la page vers le haut à chaque clic sur un département.
+    // En laissant l'ancienne carte visible pendant l'attente, la hauteur ne bouge plus tant qu'il n'y a
+    // pas de nouveau contenu prêt à la remplacer (le remove()+rebuild reste atomique, voir plus bas).
+    if (container.select('svg').empty()) showMapMessage(containerId, 'Chargement de la carte…');
 
     let geojsonRaw;
     try {
@@ -853,7 +860,9 @@ export function computeBeProvinceDetail(list, code) {
 
 export async function drawBeProvinceMap(containerId, code, detail) {
     const container = d3.select(`#${containerId}`);
-    showMapMessage(containerId, 'Chargement de la carte…');
+    // Voir drawDepartmentMap : même garde, même raison (ensureBelgiumGeo() en cache après le premier
+    // chargement, un redessin ne doit pas faire clignoter/collapser le conteneur entre-temps).
+    if (container.select('svg').empty()) showMapMessage(containerId, 'Chargement de la carte…');
 
     let geojsonRaw;
     try {
@@ -1229,7 +1238,15 @@ function drawEasterEggFlag(svg, width) {
 // l'année : ils sont déjà classés sous le libellé du pays tel qu'écrit dans les actes).
 export async function drawEuropeMap(containerId, code, opts = {}) {
     const container = d3.select(`#${containerId}`);
-    showMapMessage(containerId, 'Chargement de la carte…');
+    // Voir drawDepartmentMap pour la raison : ensureCShapesEurope() est en cache après le premier
+    // chargement (déclenché au démarrage du module, indépendamment du GEDCOM — voir visualisation.html),
+    // donc chaque cran du curseur année (redrawEuropeMapForYear, qui appelle cette fonction sur
+    // l'événement 'input', en continu pendant qu'on fait glisser le curseur) se résolvait quasi
+    // instantanément — mais assez pour que le conteneur collapse brièvement sur le message de
+    // chargement (plus court qu'une vraie carte) avant de reprendre sa hauteur, décalant toute la page
+    // vers le haut à répétition pendant le glissement. Sans carte déjà affichée (premier chargement),
+    // le message reste utile si le fichier CShapes met du temps à arriver.
+    if (container.select('svg').empty()) showMapMessage(containerId, 'Chargement de la carte…');
 
     let cshapesGeo;
     try {
@@ -1374,10 +1391,21 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
     const path = d3.geoPath().projection(projection);
     const territoryTooltip = document.getElementById('tooltip');
 
+    // Viewport fixe (clip-path, jamais transformé) contenant le contenu zoomable (zoomLayer, qui reçoit
+    // le transform de d3.zoom) : même principe que la carte des prénoms rares (drawRareGivenNamesMap,
+    // assets/js/society.js) — un panoramique/zoom ne doit pas faire déborder la carte sur la colonne
+    // "Liste éclair" ni hors du cadre. Le titre, la légende des types d'événements et la colonne de
+    // droite restent, eux, ajoutés directement sur svg (donc fixes, non affectés par le zoom).
+    const clipId = `europe-detail-clip-${container.node().id || 'x'}`;
+    svg.append('defs').append('clipPath').attr('id', clipId)
+        .append('rect').attr('x', 0).attr('y', 0).attr('width', mapWidth).attr('height', height);
+    const viewport = svg.append('g').attr('clip-path', `url(#${clipId})`);
+    const zoomLayer = viewport.append('g').attr('class', 'zoom-layer');
+
     // Un <path> par entité plutôt qu'un seul chemin fusionné : quand le pays est fragmenté (ex.
     // "Allemagne" en 1900 = Prusse + Bavière + Saxe + ...), chaque morceau garde son survol propre
     // (nom de l'entité historique précise) au lieu d'un simple contour muet.
-    svg.selectAll('path.territory')
+    zoomLayer.selectAll('path.territory')
         .data(features)
         .join('path')
         .attr('class', 'territory')
@@ -1426,14 +1454,19 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
         const maxCount = d3.max(plotted, p => p.count) || 1;
         const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
         const tooltip = document.getElementById('tooltip');
+        // Suivi du niveau de zoom courant, mis à jour par le handler 'zoom' plus bas : le survol doit
+        // lui aussi exprimer son épaisseur de trait relativement à k (comme le fait déjà le handler
+        // 'zoom' pour l'état normal), sinon un survol après un zoom laisse un contour bien trop épais/
+        // blanc au repos — 2px ou 1px "à k=1" s'affichent comme 2·k ou 1·k pixels une fois zoomé.
+        let currentK = 1;
 
-        svg.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
+        zoomLayer.selectAll('circle.evt').data(plotted).join('circle').attr('class', 'evt')
             .attr('cx', p => p.x).attr('cy', p => p.y).attr('r', p => radius(p.count))
             .attr('fill', p => DEPT_EVENT_TYPES[p.type]?.color || '#3498db')
             .attr('fill-opacity', 0.75).attr('stroke', '#fff').attr('stroke-width', 1)
             .style('cursor', 'pointer')
             .on('mouseover', function(e, p) {
-                d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
+                d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2 / currentK);
                 const info = DEPT_EVENT_TYPES[p.type] || { label: p.type, icon: '•' };
                 const shown = Math.min(15, p.items.length);
                 const rows = p.items.slice(0, shown).map(it => {
@@ -1451,9 +1484,34 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
                 tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
             })
             .on('mouseout', function() {
-                d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1);
+                d3.select(this).attr('stroke', '#fff').attr('stroke-width', 1 / currentK);
                 tooltip.style.opacity = 0;
             });
+
+        // Zoom/pan (molette + glisser), limité à la zone de carte (pas la colonne "Liste éclair") : un
+        // petit pays ou plusieurs événements voisins peuvent être difficiles à distinguer au niveau de
+        // zoom initial (tout le territoire). Même technique que drawRareGivenNamesMap (society.js) :
+        // la taille apparente des cercles rétrécit progressivement avec le zoom (via /sqrt(k), avec un
+        // plancher) pour aider à séparer des points proches, en plus de l'écartement mécanique de leurs
+        // centres qu'apporte déjà le zoom de la projection.
+        const screenRadius = (count, k) => Math.max(2, radius(count) / Math.sqrt(k));
+        const zoom = d3.zoom()
+            .scaleExtent([1, 10])
+            .extent([[0, 0], [mapWidth, height]])
+            .translateExtent([[0, 0], [mapWidth, height]])
+            .filter(event => {
+                if (event.button) return false;
+                const [x] = d3.pointer(event, svg.node());
+                return x <= mapWidth;
+            })
+            .on('zoom', event => {
+                const k = event.transform.k;
+                currentK = k;
+                zoomLayer.attr('transform', event.transform);
+                zoomLayer.selectAll('circle.evt').attr('r', p => screenRadius(p.count, k) / k).attr('stroke-width', 1 / k);
+                zoomLayer.selectAll('path.territory').attr('stroke-width', 1.2 / k);
+            });
+        svg.style('cursor', 'grab').call(zoom);
 
         const typesPresent = Object.keys(DEPT_EVENT_TYPES).filter(t => plotted.some(p => p.type === t));
         const legend = svg.append('g').attr('transform', `translate(12, ${height - 12 - typesPresent.length * 16})`);
