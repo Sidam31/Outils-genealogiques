@@ -32,7 +32,7 @@ export function renderHeader(activePage) {
             ${TOOLS.map(t => `<a class="tab-btn${t.page === activePage ? ' active' : ''}" href="${t.href}">${t.icon} ${t.label}</a>`).join('')}
         </nav>
         <div class="ctrl" id="pageControls"></div>
-        ${isLockedExport ? '' : '<div class="ctrl"><a class="tab-btn" href="index.html" title="Charger un autre fichier GEDCOM">📁 Changer de fichier</a></div>'}
+        ${isLockedExport ? '' : '<div class="ctrl" id="changeFileCtrl"><a class="tab-btn" href="index.html" title="Charger un autre fichier GEDCOM">📁 Changer de fichier</a></div>'}
         <div class="ctrl app-credit"><a href="https://www.lecentredegenealogie.fr/" target="_blank" rel="noopener" title="Le Centre de généalogie — site"><img src="${CDG_LOGO}" alt="" class="cdg-logo">Le Centre de généalogie</a> · <a href="https://discord.gg/KgaQ36nVkh" target="_blank" rel="noopener" title="Rejoindre le Discord du Centre de généalogie">💬 Discord</a></div>
     `;
 

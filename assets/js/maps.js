@@ -1573,7 +1573,7 @@ function drawEuropeCountryDetail(container, features, detail, yearInfo, easterEg
             .filter(Boolean);
 
         const maxCount = d3.max(plotted, p => p.count) || 1;
-        const radius = d3.scaleSqrt().domain([1, maxCount]).range([4, 16]);
+        const radius = d3.scaleSqrt().domain([1, maxCount]).range([8, 12]);
         const tooltip = document.getElementById('tooltip');
         // Suivi du niveau de zoom courant, mis à jour par le handler 'zoom' plus bas : le survol doit
         // lui aussi exprimer son épaisseur de trait relativement à k (comme le fait déjà le handler

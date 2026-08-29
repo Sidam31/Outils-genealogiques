@@ -47,7 +47,7 @@ nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: c
     }
     nav.tabs.open { display: flex; }
     nav.tabs a.tab-btn { width: 100%; box-sizing: border-box; }
-    #pageControls, .app-credit { order: 4; flex-basis: 100%; }
+    #pageControls, #changeFileCtrl, .app-credit { order: 4; flex-basis: 100%; }
 }
 
 /* TABS */
@@ -57,7 +57,7 @@ nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: c
 
 /* SOUS-NAVIGATION (bascule entre deux anciens outils fusionnés sur une même page, ex.
    Visualisation/Société) */
-.subnav-bar { display: flex; gap: 8px; justify-content: center; padding: 10px 15px; background: #fff; border-bottom: 1px solid var(--border); }
+.subnav-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 8px 15px; background: #fff; border-bottom: 1px solid var(--border); }
 
 /* MAIN CHART */
 #vizArea { flex: 1; position: relative; overflow: hidden; display: flex; flex-direction: column; }
@@ -105,8 +105,8 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .tab-panel { flex: 1; overflow-y: auto; padding: 20px 30px; background: #f4f4f9; }
 .quality-container { max-width: 950px; margin: 0 auto; }
 .quality-intro { text-align: center; color: #555; }
-.tab-panel .options-panel { background: #ecf0f1; padding: 20px; border-radius: 5px; margin-bottom: 20px; border: 1px solid #bdc3c7; }
-.tab-panel .checkbox-group { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; margin-bottom: 15px; }
+.tab-panel .options-panel { background: #ecf0f1; padding: 14px 18px; border-radius: 5px; margin-bottom: 14px; border: 1px solid #bdc3c7; }
+.tab-panel .checkbox-group { display: flex; flex-wrap: wrap; gap: 10px 20px; justify-content: center; margin-bottom: 10px; }
 .tab-panel .checkbox-group label { cursor: pointer; font-weight: 500; display: flex; align-items: center; gap: 6px; }
 .tab-panel .age-filter-container { background: #dfe6e9; padding: 10px; border-radius: 4px; text-align: center; margin-top: 10px; font-size: 0.95em; }
 .tab-panel .age-filter-container input { padding: 5px; border: 1px solid #bdc3c7; border-radius: 4px; width: 60px; text-align: center; }
@@ -140,7 +140,7 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
    qu'elle reste accessible pendant qu'on parcourt les nombreux graphiques plus bas dans la page. */
 #mapAncestorScopeBar { position: sticky; top: 0; z-index: 30; box-shadow: 0 3px 8px rgba(0,0,0,0.1); }
 #mapAncestorScopeBar .map-scope-row { margin-top: 0; padding-top: 0; border-top: none; }
-.map-scope-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; justify-content: center; margin-top: 10px; padding-top: 12px; border-top: 1px solid #bdc3c7; }
+.map-scope-row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; justify-content: center; margin-top: 8px; padding-top: 10px; border-top: 1px solid #bdc3c7; }
 .map-scope-row label { font-weight: 500; cursor: pointer; }
 .map-scope-row .ctrl { position: relative; }
 .map-scope-row input[type="text"] { min-width: 220px; }
@@ -334,4 +334,29 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 @media (max-width: 860px) {
     .dept-layout { flex-direction: column; }
     .dept-side-col { max-width: none; width: 100%; }
+}
+
+/* COMPACITÉ MOBILE — sous-navigation (.subnav-bar) + bandeaux de filtres (.options-panel,
+   .checkbox-group, .map-scope-row) : sur petit écran, ces éléments empilés avant tout graphique
+   pouvaient occuper plus d'un tiers de la hauteur visible. On resserre paddings/gaps, on passe la
+   sous-navigation en défilement horizontal sur une seule ligne (au lieu de s'enrouler sur 2-3
+   lignes), et on désactive le "position: sticky" du bandeau ascendants (utile en desktop, mais qui
+   grignote en permanence l'écran pendant qu'on scrolle sur mobile). */
+@media (max-width: 720px) {
+    .subnav-bar { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding: 8px 10px; gap: 6px; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+    .subnav-bar .tab-btn { flex-shrink: 0; padding: 6px 10px; font-size: 0.78rem; }
+
+    .tab-panel { padding: 12px 14px; }
+    .tab-panel .options-panel { padding: 12px; margin-bottom: 12px; }
+    .tab-panel .checkbox-group { gap: 8px 16px; margin-bottom: 8px; }
+    .tab-panel .hint { font-size: 0.78em; margin-top: 4px; }
+    .tab-panel .controls { margin: 12px 0; gap: 10px; }
+
+    #mapAncestorScopeBar { position: static; box-shadow: none; }
+    .map-scope-row { gap: 8px; margin-top: 8px; padding-top: 8px; }
+    .map-scope-row input[type="text"] { min-width: 0; flex: 1 1 160px; }
+    #mapAncestorScopeBar .map-scope-row { margin-top: 0; }
+
+    .decade-slider-row { gap: 8px; padding: 0; flex-wrap: wrap; margin-bottom: 8px; }
+    .decade-slider-row span { min-width: 0; }
 }
