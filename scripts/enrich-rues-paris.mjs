@@ -1,7 +1,7 @@
 // --- ENRICHISSEMENT DE LA BASE "RUES DE PARIS" (GPS + lien Wikipédia) ---
 // Script d'entretien ponctuel (pas exécuté par la page elle-même) : ajoute à chaque voie "vivante"
 // (non supprimée) de assets/data/rues-paris-lazare-1844.json des coordonnées GPS et, si trouvé, un
-// lien vers l'article Wikipédia correspondant, pour alimenter la vue carte de rues-paris.html.
+// lien vers l'article Wikipédia correspondant, pour alimenter la vue carte de rue-commune.html.
 //
 // Deux sources, dans cet ordre de préférence :
 //  1. Wikidata (SPARQL) : rapide (une seule requête), donne aussi le lien Wikipédia quand la voie a
