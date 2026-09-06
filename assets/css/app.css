@@ -58,6 +58,9 @@ nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: c
 /* SOUS-NAVIGATION (bascule entre deux anciens outils fusionnés sur une même page, ex.
    Visualisation/Société) */
 .subnav-bar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; padding: 8px 15px; background: #fff; border-bottom: 1px solid var(--border); }
+/* Chaque sous-onglet est un vrai lien (href="#cle") : lien direct copiable/ouvrable dans un nouvel
+   onglet, plutôt qu'un <button> avec onclick — cf. le hash qui pilote setTopMode() sur ces pages. */
+.subnav-bar a.tab-btn { text-decoration: none; display: inline-flex; align-items: center; }
 
 /* MAIN CHART */
 #vizArea { flex: 1; position: relative; overflow: hidden; display: flex; flex-direction: column; }
@@ -148,6 +151,17 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 #mapPersonResults li, .person-picker-results li { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 0.85rem; }
 #mapPersonResults li:hover, .person-picker-results li:hover { background: #eef; }
 .map-person-selected { font-weight: 600; color: var(--accent); font-size: 0.85rem; }
+
+/* FOLD (section repliable, <details>/<summary>) : remplace les anciennes sous-tabs pour regrouper
+   plusieurs modes d'affichage sur une même page (ex. onglet Visualisation : points GPS vs
+   proportions par région) sans empiler de navigation supplémentaire. */
+.fold-section { background: #fff; border: 1px solid var(--border); border-radius: 8px; margin-bottom: 20px; overflow: hidden; }
+.fold-section > summary { cursor: pointer; padding: 14px 18px; font-weight: 700; color: var(--accent); font-size: 1rem; list-style: none; display: flex; align-items: center; gap: 10px; background: #f8f9fb; user-select: none; }
+.fold-section > summary::-webkit-details-marker { display: none; }
+.fold-section > summary::before { content: '▶'; font-size: 0.7rem; color: #999; transition: transform 0.15s; flex-shrink: 0; }
+.fold-section[open] > summary::before { transform: rotate(90deg); }
+.fold-section > summary:hover { background: #eef2f7; }
+.fold-section .fold-body { padding: 18px; border-top: 1px solid var(--border); }
 
 /* WORLD MAP (MapLibre GL) */
 #worldMapChart { height: 340px; position: relative; }

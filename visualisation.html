@@ -16,14 +16,6 @@
 
 <header id="appHeader"></header>
 
-<div class="subnav-bar">
-    <button type="button" class="tab-btn active" id="topModeVisualisationBtn">📊 Visualisation</button>
-    <button type="button" class="tab-btn" id="topModeSocieteBtn">🏛️ Société</button>
-    <button type="button" class="tab-btn" id="topModeDeptBtn">🗺️ Départements</button>
-    <button type="button" class="tab-btn" id="topModeBeBtn">🇧🇪 Provinces belges</button>
-    <button type="button" class="tab-btn" id="topModeEuropeBtn">🌍 Europe</button>
-</div>
-
 <div id="mapsPanel" class="tab-panel">
     <div class="quality-container">
         <p class="quality-intro">Répartition géographique et démographie des individus du fichier chargé.</p>
@@ -40,171 +32,224 @@
             <div class="hint" style="text-align:center;">S'applique à tous les graphiques de cet onglet ci-dessous (cartes, Sankey, pyramide des âges, courbes, prénoms...).</div>
         </div>
 
-        <div class="options-panel">
-            <div class="checkbox-group">
-                <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
-                <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
-                <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
-            </div>
-            <div class="hint" style="text-align:center;">S'applique aux cartes ci-dessous.</div>
-            <div class="map-scope-row">
-                <label for="mapTimeEnabled"><input type="checkbox" id="mapTimeEnabled"> Voir l'évolution dans le temps</label>
-            </div>
-            <div class="decade-slider-row hidden" id="mapTimeSliderRow">
-                <div class="range-slider">
-                    <div class="range-slider-track"></div>
-                    <div class="range-slider-fill" id="mapTimeSliderFill"></div>
-                    <input type="range" id="mapTimeSliderMin" min="0" max="0" value="0">
-                    <input type="range" id="mapTimeSliderMax" min="0" max="0" value="0">
-                </div>
-                <span id="mapTimeLabel">Toutes périodes</span>
-            </div>
-        </div>
-
-        <div class="quality-charts">
-            <div class="quality-chart-box">
-                <div class="chart-box-header">
-                    <h3>Carte du monde</h3>
-                    <div class="chart-box-actions">
-                        <button class="chart-zoom-reset-btn" id="worldMapResetBtn" title="Réinitialiser le zoom">🏠</button>
-                        <button class="chart-copy-btn" data-target="worldMapChart" title="Copier l'image dans le presse-papier">📋</button>
+        <details class="fold-section" id="fold-points-gps" open>
+            <summary>📍 Répartition géographique (points GPS)</summary>
+            <div class="fold-body">
+                <div class="options-panel">
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
+                        <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
+                        <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
+                    </div>
+                    <div class="hint" style="text-align:center;">S'applique aux cartes ci-dessous.</div>
+                    <div class="map-scope-row">
+                        <label for="mapTimeEnabled"><input type="checkbox" id="mapTimeEnabled"> Voir l'évolution dans le temps</label>
+                    </div>
+                    <div class="decade-slider-row hidden" id="mapTimeSliderRow">
+                        <div class="range-slider">
+                            <div class="range-slider-track"></div>
+                            <div class="range-slider-fill" id="mapTimeSliderFill"></div>
+                            <input type="range" id="mapTimeSliderMin" min="0" max="0" value="0">
+                            <input type="range" id="mapTimeSliderMax" min="0" max="0" value="0">
+                        </div>
+                        <span id="mapTimeLabel">Toutes périodes</span>
                     </div>
                 </div>
-                <div id="worldMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-            </div>
-            <div class="quality-chart-box">
-                <div class="chart-box-header">
-                    <h3>Carte de Belgique (provinces)</h3>
-                    <button class="chart-copy-btn" data-target="belgiumMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div id="belgiumMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-            </div>
-            <div class="quality-chart-box">
-                <div class="chart-box-header">
-                    <h3>Carte de France (départements)</h3>
-                    <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-            </div>
-        </div>
 
-        <div class="quality-charts">
-            <div class="quality-chart-box" style="flex-basis: 100%;">
-                <div class="chart-box-header">
-                    <h3>Ascendance par génération (Sankey, couleur = département / pays hors France)</h3>
-                    <button class="chart-copy-btn" data-target="genSankeyChart" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <p class="hint" style="text-align:center;">Basé sur le lieu de naissance de chaque ancêtre (« Uniquement les ascendants de » ci-dessus). Une couleur = un département français, ou un pays pour l'étranger.</p>
-                <div class="controls" id="genSankeyControls">
-                    <label for="genSankeyGenCount">Générations affichées</label>
-                    <input type="range" id="genSankeyGenCount" min="1" max="12" value="6">
-                    <span id="genSankeyGenCountLabel">6</span>
-                </div>
-                <div id="genSankeyChart"><div class="map-placeholder">Cochez « Uniquement les ascendants de » et sélectionnez une personne pour voir ce graphique.</div></div>
-            </div>
-        </div>
-
-        <p class="quality-intro" style="margin-top:32px;">Démographie sur l'ensemble du fichier chargé (indépendant des filtres ci-dessus).</p>
-
-        <div class="quality-charts">
-            <div class="quality-chart-box" style="flex-basis: 100%;">
-                <div class="chart-box-header">
-                    <h3>Pyramide des âges au décès</h3>
-                    <button class="chart-copy-btn" data-target="ageChartPyramid" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div class="decade-slider-row">
-                    <div class="range-slider">
-                        <div class="range-slider-track"></div>
-                        <div class="range-slider-fill" id="pyramidDecadeSliderFill"></div>
-                        <input type="range" id="pyramidDecadeSliderMin" min="0" max="0" value="0" disabled>
-                        <input type="range" id="pyramidDecadeSliderMax" min="0" max="0" value="0" disabled>
-                    </div>
-                    <span id="pyramidDecadeLabel">Toutes périodes</span>
-                </div>
-                <div id="ageChartPyramid"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
-            </div>
-        </div>
-
-        <div class="quality-charts">
-            <div class="quality-chart-box">
-                <div class="chart-box-header">
-                    <h3>Âge médian au décès par décennie (H/F)</h3>
-                    <button class="chart-copy-btn" data-target="ageChartDeathTrend" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div id="ageChartDeathTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
-            </div>
-            <div class="quality-chart-box">
-                <div class="chart-box-header">
-                    <h3>Âge médian au 1er enfant par décennie (H/F)</h3>
-                    <button class="chart-copy-btn" data-target="ageChartFirstChildTrend" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div id="ageChartFirstChildTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
-            </div>
-        </div>
-
-        <div class="quality-charts">
-            <div class="quality-chart-box" style="flex-basis: 100%;">
-                <div class="chart-box-header">
-                    <h3>Âge au décès par profession (tag OCCU + FACT)</h3>
-                    <button class="chart-copy-btn" data-target="professionAgeViolinChart" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <div id="professionAgeViolinChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
-            </div>
-        </div>
-
-        <div class="quality-charts">
-            <div class="quality-chart-box" style="flex-basis: 100%;">
-                <div class="chart-box-header">
-                    <h3>Jour de la semaine du mariage, par période de 20 ans</h3>
-                    <button class="chart-copy-btn" data-target="marriageWeekdayChart" title="Copier l'image dans le presse-papier">📋</button>
-                </div>
-                <p class="hint" style="text-align:center;">Nécessite une date de mariage complète (jour, mois, année) — les dates approximatives ou incomplètes ne sont pas prises en compte.</p>
-                <div id="marriageWeekdayChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
-            </div>
-        </div>
-
-        <div class="quality-charts">
-            <div class="quality-chart-box" style="flex-basis: 100%;">
-                <div class="chart-box-header">
-                    <h3>Prénoms les plus fréquents par siècle</h3>
-                </div>
-                <div class="decade-slider-row">
-                    <div class="range-slider">
-                        <div class="range-slider-track"></div>
-                        <div class="range-slider-fill" id="namesCenturySliderFill"></div>
-                        <input type="range" id="namesCenturySliderMin" min="0" max="0" value="0" disabled>
-                        <input type="range" id="namesCenturySliderMax" min="0" max="0" value="0" disabled>
-                    </div>
-                    <span id="namesCenturyLabel">Toutes périodes</span>
-                </div>
-                <div class="quality-charts" style="margin-top:10px;">
+                <div class="quality-charts">
                     <div class="quality-chart-box">
                         <div class="chart-box-header">
-                            <h3>👨 Masculins</h3>
-                            <button class="chart-copy-btn" data-target="namesMaleChart" title="Copier l'image dans le presse-papier">📋</button>
+                            <h3>Carte du monde</h3>
+                            <div class="chart-box-actions">
+                                <button class="chart-zoom-reset-btn" id="worldMapResetBtn" title="Réinitialiser le zoom">🏠</button>
+                                <button class="chart-copy-btn" data-target="worldMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                            </div>
                         </div>
-                        <div id="namesMaleChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                        <div id="worldMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
                     </div>
                     <div class="quality-chart-box">
                         <div class="chart-box-header">
-                            <h3>👩 Féminins</h3>
-                            <button class="chart-copy-btn" data-target="namesFemaleChart" title="Copier l'image dans le presse-papier">📋</button>
+                            <h3>Carte de Belgique (provinces)</h3>
+                            <button class="chart-copy-btn" data-target="belgiumMapChart" title="Copier l'image dans le presse-papier">📋</button>
                         </div>
-                        <div id="namesFemaleChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                        <div id="belgiumMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                    </div>
+                    <div class="quality-chart-box">
+                        <div class="chart-box-header">
+                            <h3>Carte de France (départements)</h3>
+                            <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Ascendance par génération (Sankey, couleur = département / pays hors France)</h3>
+                            <button class="chart-copy-btn" data-target="genSankeyChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <p class="hint" style="text-align:center;">Basé sur le lieu de naissance de chaque ancêtre (« Uniquement les ascendants de » ci-dessus). Une couleur = un département français, ou un pays pour l'étranger.</p>
+                        <div class="controls" id="genSankeyControls">
+                            <label for="genSankeyGenCount">Générations affichées</label>
+                            <input type="range" id="genSankeyGenCount" min="1" max="12" value="6">
+                            <span id="genSankeyGenCountLabel">6</span>
+                        </div>
+                        <div id="genSankeyChart"><div class="map-placeholder">Cochez « Uniquement les ascendants de » et sélectionnez une personne pour voir ce graphique.</div></div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
+        </details>
 
-<div id="societePanel" class="tab-panel hidden">
-    <div class="quality-container">
-        <p class="quality-intro">Professions, complétude documentaire, mobilité et traditions familiales — un complément aux outils Qualité et Visualisation (utilisez le fichier chargé depuis l'accueil).</p>
+        <details class="fold-section" id="fold-proportions-region">
+            <summary>📊 Proportions par région (départements, provinces, pays)</summary>
+            <div class="fold-body">
+                <p class="hint" style="text-align:center; margin-top:0;">Un département, une province ou un pays à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence, autre) et les patronymes qui y sont attachés. Utilise le même filtre « Uniquement les ascendants de » ci-dessus.</p>
+                <div class="checkbox-group" role="radiogroup" aria-label="Choisir le type de région">
+                    <label><input type="radio" name="regionMode" value="fr" checked> 🗺️ Départements de France</label>
+                    <label><input type="radio" name="regionMode" value="be"> 🇧🇪 Provinces belges</label>
+                    <label><input type="radio" name="regionMode" value="eu"> 🌍 Europe</label>
+                </div>
 
-        <div id="societyStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+                <div id="regionStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
 
-        <div id="societyContent" class="hidden">
+                <div id="regionContent" class="hidden">
+                    <div class="decade-slider-row hidden" id="regionYearSliderRow">
+                        <input type="range" id="regionYearSlider" min="1806" max="2023" value="2023">
+                        <span id="regionYearLabel">Frontières actuelles (2023)</span>
+                    </div>
+                    <p class="hint hidden" id="regionYearHint" style="text-align:center;">Change les frontières historiques affichées (y compris en zoomant sur un pays), sans filtrer les statistiques ci-dessous (déjà classées par pays tel qu'écrit dans les actes).</p>
+                    <div class="dept-scroll-bar" id="regionScrollBar"></div>
+
+                    <div class="dept-layout">
+                        <div class="dept-map-col">
+                            <div class="chart-box-header">
+                                <h3 id="regionMapTitle">Région</h3>
+                                <button class="chart-copy-btn" data-target="regionMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                            </div>
+                            <div class="society-stat-grid" style="margin-bottom:10px;">
+                                <div class="society-stat-card"><div class="num" id="regionTotalEvents">–</div><div class="lbl">événements dans ce périmètre</div></div>
+                                <div class="society-stat-card"><div class="num" id="regionGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
+                                <div class="society-stat-card"><div class="num" id="regionSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
+                            </div>
+                            <div id="regionMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                        </div>
+
+                        <div class="dept-side-col">
+                            <h3>📜 Liste éclair des patronymes</h3>
+                            <input type="text" id="regionSurnameFilter" placeholder="Filtrer un patronyme...">
+                            <div id="regionSurnameList" class="society-list"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <details class="fold-section" id="fold-demographie">
+            <summary>📈 Démographie</summary>
+            <div class="fold-body">
+                <p class="quality-intro" style="margin-top:0;">Démographie sur l'ensemble du fichier chargé (indépendant des filtres ci-dessus).</p>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Pyramide des âges au décès</h3>
+                            <button class="chart-copy-btn" data-target="ageChartPyramid" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <div class="decade-slider-row">
+                            <div class="range-slider">
+                                <div class="range-slider-track"></div>
+                                <div class="range-slider-fill" id="pyramidDecadeSliderFill"></div>
+                                <input type="range" id="pyramidDecadeSliderMin" min="0" max="0" value="0" disabled>
+                                <input type="range" id="pyramidDecadeSliderMax" min="0" max="0" value="0" disabled>
+                            </div>
+                            <span id="pyramidDecadeLabel">Toutes périodes</span>
+                        </div>
+                        <div id="ageChartPyramid"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box">
+                        <div class="chart-box-header">
+                            <h3>Âge médian au décès par décennie (H/F)</h3>
+                            <button class="chart-copy-btn" data-target="ageChartDeathTrend" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <div id="ageChartDeathTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                    <div class="quality-chart-box">
+                        <div class="chart-box-header">
+                            <h3>Âge médian au 1er enfant par décennie (H/F)</h3>
+                            <button class="chart-copy-btn" data-target="ageChartFirstChildTrend" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <div id="ageChartFirstChildTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Âge au décès par profession (tag OCCU + FACT)</h3>
+                            <button class="chart-copy-btn" data-target="professionAgeViolinChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <div id="professionAgeViolinChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Jour de la semaine du mariage, par période de 20 ans</h3>
+                            <button class="chart-copy-btn" data-target="marriageWeekdayChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <p class="hint" style="text-align:center;">Nécessite une date de mariage complète (jour, mois, année) — les dates approximatives ou incomplètes ne sont pas prises en compte.</p>
+                        <div id="marriageWeekdayChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Prénoms les plus fréquents par siècle</h3>
+                        </div>
+                        <div class="decade-slider-row">
+                            <div class="range-slider">
+                                <div class="range-slider-track"></div>
+                                <div class="range-slider-fill" id="namesCenturySliderFill"></div>
+                                <input type="range" id="namesCenturySliderMin" min="0" max="0" value="0" disabled>
+                                <input type="range" id="namesCenturySliderMax" min="0" max="0" value="0" disabled>
+                            </div>
+                            <span id="namesCenturyLabel">Toutes périodes</span>
+                        </div>
+                        <div class="quality-charts" style="margin-top:10px;">
+                            <div class="quality-chart-box">
+                                <div class="chart-box-header">
+                                    <h3>👨 Masculins</h3>
+                                    <button class="chart-copy-btn" data-target="namesMaleChart" title="Copier l'image dans le presse-papier">📋</button>
+                                </div>
+                                <div id="namesMaleChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                            </div>
+                            <div class="quality-chart-box">
+                                <div class="chart-box-header">
+                                    <h3>👩 Féminins</h3>
+                                    <button class="chart-copy-btn" data-target="namesFemaleChart" title="Copier l'image dans le presse-papier">📋</button>
+                                </div>
+                                <div id="namesFemaleChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </details>
+
+        <details class="fold-section" id="fold-societe">
+            <summary>🏛️ Société</summary>
+            <div class="fold-body">
+                <p class="quality-intro" style="margin-top:0;">Professions, complétude documentaire, mobilité et traditions familiales — un complément aux outils Qualité et Visualisation (utilisez le fichier chargé depuis l'accueil).</p>
+
+                <div id="societyStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+                <div id="societyContent" class="hidden">
 
             <div class="society-section">
                 <h3>💼 Professions</h3>
@@ -388,138 +433,9 @@
                 <div id="socSurnameList" class="society-list"></div>
             </div>
 
-        </div>
-    </div>
-</div>
-
-<div id="deptPanel" class="tab-panel hidden">
-    <div class="quality-container">
-        <p class="quality-intro">Un département à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence, autre) et les patronymes qui y sont attachés.</p>
-
-        <div class="map-scope-row">
-            <label for="deptAncestorOnly"><input type="checkbox" id="deptAncestorOnly"> Uniquement les ascendants de :</label>
-            <div class="ctrl">
-                <input type="text" id="deptPersonSearch" placeholder="Rechercher une personne..." disabled>
-                <ul id="deptPersonResults"></ul>
-            </div>
-            <span id="deptPersonSelected" class="map-person-selected"></span>
-        </div>
-
-        <div id="deptStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
-
-        <div id="deptContent" class="hidden">
-            <div class="dept-scroll-bar" id="deptScrollBar"></div>
-
-            <div class="dept-layout">
-                <div class="dept-map-col">
-                    <div class="chart-box-header">
-                        <h3 id="deptMapTitle">Département</h3>
-                        <button class="chart-copy-btn" data-target="deptMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                    </div>
-                    <div class="society-stat-grid" style="margin-bottom:10px;">
-                        <div class="society-stat-card"><div class="num" id="deptTotalEvents">–</div><div class="lbl">événements dans ce département</div></div>
-                        <div class="society-stat-card"><div class="num" id="deptGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
-                        <div class="society-stat-card"><div class="num" id="deptSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
-                    </div>
-                    <div id="deptMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-                </div>
-
-                <div class="dept-side-col">
-                    <h3>📜 Liste éclair des patronymes</h3>
-                    <input type="text" id="deptSurnameFilter" placeholder="Filtrer un patronyme...">
-                    <div id="deptSurnameList" class="society-list"></div>
                 </div>
             </div>
-        </div>
-    </div>
-</div>
-
-<div id="bePanel" class="tab-panel hidden">
-    <div class="quality-container">
-        <p class="quality-intro">Une province belge à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence, autre) et les patronymes qui y sont attachés.</p>
-
-        <div class="map-scope-row">
-            <label for="beAncestorOnly"><input type="checkbox" id="beAncestorOnly"> Uniquement les ascendants de :</label>
-            <div class="ctrl">
-                <input type="text" id="bePersonSearch" placeholder="Rechercher une personne..." disabled>
-                <ul id="bePersonResults"></ul>
-            </div>
-            <span id="bePersonSelected" class="map-person-selected"></span>
-        </div>
-
-        <div id="beStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
-
-        <div id="beContent" class="hidden">
-            <div class="dept-scroll-bar" id="beScrollBar"></div>
-
-            <div class="dept-layout">
-                <div class="dept-map-col">
-                    <div class="chart-box-header">
-                        <h3 id="beMapTitle">Province</h3>
-                        <button class="chart-copy-btn" data-target="beMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                    </div>
-                    <div class="society-stat-grid" style="margin-bottom:10px;">
-                        <div class="society-stat-card"><div class="num" id="beTotalEvents">–</div><div class="lbl">événements dans cette province</div></div>
-                        <div class="society-stat-card"><div class="num" id="beGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
-                        <div class="society-stat-card"><div class="num" id="beSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
-                    </div>
-                    <div id="beMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-                </div>
-
-                <div class="dept-side-col">
-                    <h3>📜 Liste éclair des patronymes</h3>
-                    <input type="text" id="beSurnameFilter" placeholder="Filtrer un patronyme...">
-                    <div id="beSurnameList" class="society-list"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div id="europePanel" class="tab-panel hidden">
-    <div class="quality-container">
-        <p class="quality-intro">Toute l'Europe par défaut (pays actuels du continent) : sélectionnez un pays — dans la liste ou en cliquant sur la carte — pour zoomer sur ses événements géolocalisés et les patronymes qui y sont attachés.</p>
-
-        <div class="map-scope-row">
-            <label for="europeAncestorOnly"><input type="checkbox" id="europeAncestorOnly"> Uniquement les ascendants de :</label>
-            <div class="ctrl">
-                <input type="text" id="europePersonSearch" placeholder="Rechercher une personne..." disabled>
-                <ul id="europePersonResults"></ul>
-            </div>
-            <span id="europePersonSelected" class="map-person-selected"></span>
-        </div>
-
-        <div id="europeStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
-
-        <div id="europeContent" class="hidden">
-            <div class="dept-scroll-bar" id="europeScrollBar"></div>
-
-            <div class="dept-layout">
-                <div class="dept-map-col">
-                    <div class="chart-box-header">
-                        <h3 id="europeMapTitle">Europe</h3>
-                        <button class="chart-copy-btn" data-target="europeMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                    </div>
-                    <div class="decade-slider-row" id="europeYearSliderRow">
-                        <input type="range" id="europeYearSlider" min="1806" max="2023" value="2023">
-                        <span id="europeYearLabel">Frontières actuelles (2023)</span>
-                    </div>
-                    <p class="hint" id="europeYearHint" style="text-align:center;">Change les frontières historiques affichées (y compris en zoomant sur un pays), sans filtrer les statistiques ci-dessous (déjà classées par pays tel qu'écrit dans les actes).</p>
-                    <div class="society-stat-grid" style="margin-bottom:10px;">
-                        <div class="society-stat-card"><div class="num" id="europeTotalEvents">–</div><div class="lbl">événements dans ce périmètre</div></div>
-                        <div class="society-stat-card"><div class="num" id="europeGeoEvents">–</div><div class="lbl">événements géolocalisés sur la carte</div></div>
-                        <div class="society-stat-card"><div class="num" id="europeSurnameCount">–</div><div class="lbl">patronymes différents</div></div>
-                    </div>
-                    <div id="europeMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-                </div>
-
-                <div class="dept-side-col">
-                    <h3>📜 Liste éclair des patronymes</h3>
-                    <input type="text" id="europeSurnameFilter" placeholder="Filtrer un patronyme...">
-                    <div id="europeSurnameList" class="society-list"></div>
-                </div>
-            </div>
-        </div>
+        </details>
     </div>
 </div>
 
@@ -546,34 +462,25 @@ import {
 } from './assets/js/society.js';
 import { loadCommunesPopulation } from './assets/js/communes-population.js';
 
-// --- Sous-navigation : bascule entre les trois volets fusionnés sur cette page ---
-const topModeVisualisationBtn = document.getElementById('topModeVisualisationBtn');
-const topModeSocieteBtn = document.getElementById('topModeSocieteBtn');
-const topModeDeptBtn = document.getElementById('topModeDeptBtn');
-const topModeBeBtn = document.getElementById('topModeBeBtn');
-const topModeEuropeBtn = document.getElementById('topModeEuropeBtn');
-const mapsPanelEl = document.getElementById('mapsPanel');
-const societePanelEl = document.getElementById('societePanel');
-const deptPanelEl = document.getElementById('deptPanel');
-const bePanelEl = document.getElementById('bePanel');
-const europePanelEl = document.getElementById('europePanel');
-function setTopMode(m) {
-    topModeVisualisationBtn.classList.toggle('active', m === 'visualisation');
-    topModeSocieteBtn.classList.toggle('active', m === 'societe');
-    topModeDeptBtn.classList.toggle('active', m === 'departements');
-    topModeBeBtn.classList.toggle('active', m === 'belgique');
-    topModeEuropeBtn.classList.toggle('active', m === 'europe');
-    mapsPanelEl.classList.toggle('hidden', m !== 'visualisation');
-    societePanelEl.classList.toggle('hidden', m !== 'societe');
-    deptPanelEl.classList.toggle('hidden', m !== 'departements');
-    bePanelEl.classList.toggle('hidden', m !== 'belgique');
-    europePanelEl.classList.toggle('hidden', m !== 'europe');
+// --- Lien direct vers une section repliable (#fold-points-gps, #fold-proportions-region,
+// #fold-demographie, #fold-societe) : plus de sous-onglets sur cette page (Visualisation et Société
+// sont fusionnées avec les cartes en une seule page à sections repliables) — un lien avec ce hash
+// ouvre directement la section visée et l'amène à l'écran, aussi bien au chargement qu'en cours de
+// navigation (hashchange, ex. lien interne cliqué deux fois de suite).
+function openFoldFromHash() {
+    const el = document.getElementById(location.hash.slice(1));
+    if (!el || !el.matches('details.fold-section')) return;
+    el.open = true;
+    // La barre "Uniquement les ascendants de" reste collée en haut (position: sticky) au-dessus de
+    // tout le reste de l'onglet : sans cette marge, elle recouvrirait le titre de la section visée
+    // une fois le défilement terminé. Hauteur lue en direct (plutôt que figée en CSS) car elle varie
+    // selon la largeur d'écran (la barre peut s'enrouler sur deux lignes en mobile).
+    const stickyBar = document.getElementById('mapAncestorScopeBar');
+    el.style.scrollMarginTop = stickyBar ? `${stickyBar.getBoundingClientRect().height + 10}px` : '';
+    el.scrollIntoView({ block: 'start' });
 }
-topModeVisualisationBtn.addEventListener('click', () => setTopMode('visualisation'));
-topModeSocieteBtn.addEventListener('click', () => setTopMode('societe'));
-topModeDeptBtn.addEventListener('click', () => setTopMode('departements'));
-topModeBeBtn.addEventListener('click', () => setTopMode('belgique'));
-topModeEuropeBtn.addEventListener('click', () => setTopMode('europe'));
+window.addEventListener('hashchange', openFoldFromHash);
+openFoldFromHash();
 
 // --- Visualisation ---
 let exportCtl = null;
@@ -827,11 +734,12 @@ mapAncestorOnlyEl.addEventListener('change', e => {
     mapPersonSearchEl.disabled = !e.target.checked;
     renderFilteredMaps();
     renderDemographicCharts();
+    refreshRegionSummaries();
 });
 createPersonPicker({
     searchEl: mapPersonSearchEl, resultsEl: mapPersonResultsEl, selectedEl: mapPersonSelectedEl,
     getList: () => list,
-    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); renderDemographicCharts(); }
+    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); renderDemographicCharts(); refreshRegionSummaries(); }
 });
 wireClickAway(mapPersonResultsEl);
 genSankeyGenCountEl.addEventListener('input', renderGenerationSankey);
@@ -1134,287 +1042,72 @@ socDocDownloadBtn.addEventListener('click', () => {
         fullSparseList.map(r => [r.id, r.name, r.score, r.missing]));
 });
 
-// --- Départements ---
-const deptStatusEl = document.getElementById('deptStatus');
-const deptContentEl = document.getElementById('deptContent');
-const deptScrollBarEl = document.getElementById('deptScrollBar');
-const deptMapTitleEl = document.getElementById('deptMapTitle');
-const deptSurnameFilterEl = document.getElementById('deptSurnameFilter');
-const deptAncestorOnlyEl = document.getElementById('deptAncestorOnly');
-const deptPersonSearchEl = document.getElementById('deptPersonSearch');
-const deptPersonResultsEl = document.getElementById('deptPersonResults');
-const deptPersonSelectedEl = document.getElementById('deptPersonSelected');
+// --- Proportions par région (fusion Départements de France / Provinces belges / Europe) ---
+// Un seul jeu de contrôles (sélecteur de région + carte + liste éclair de patronymes), piloté par
+// REGION_CONFIGS ci-dessous ; le périmètre "ascendants de" est celui, partagé, de la case en haut de
+// l'onglet (mapAncestorOnlyEl/mapPersonId, voir getScopedList) — plus de case séparée par région.
+const regionModeRadios = document.querySelectorAll('input[name="regionMode"]');
+const regionStatusEl = document.getElementById('regionStatus');
+const regionContentEl = document.getElementById('regionContent');
+const regionScrollBarEl = document.getElementById('regionScrollBar');
+const regionMapTitleEl = document.getElementById('regionMapTitle');
+const regionSurnameFilterEl = document.getElementById('regionSurnameFilter');
+const regionYearSliderRowEl = document.getElementById('regionYearSliderRow');
+const regionYearHintEl = document.getElementById('regionYearHint');
+const regionYearSliderEl = document.getElementById('regionYearSlider');
+const regionYearLabelEl = document.getElementById('regionYearLabel');
 
-let deptSummariesCache = [];
-let deptSelectedCode = null;
-let deptSurnamesCache = [];
-let deptPersonId = null;
+const REGION_CONFIGS = {
+    fr: { computeSummaries: computeDepartmentSummaries, computeDetail: computeDepartmentDetail, draw: drawDepartmentMap, hasOverview: false, hasYear: false, emptyMsg: 'Aucun événement avec département identifié pour ce périmètre.' },
+    be: { computeSummaries: computeBeProvinceSummaries, computeDetail: computeBeProvinceDetail, draw: drawBeProvinceMap, hasOverview: false, hasYear: false, emptyMsg: 'Aucun événement avec province belge identifiée pour ce périmètre.' },
+    eu: { computeSummaries: computeEuropeCountrySummaries, computeDetail: computeEuropeDetail, draw: drawEuropeMap, hasOverview: true, hasYear: true, emptyMsg: null }
+};
+// Un cache indépendant par région : changer de mode via le sélecteur retrouve la sélection (code
+// département/province/pays) qu'on avait laissée sur ce mode, plutôt que de la perdre à chaque bascule.
+function freshRegionState() { return { selectedCode: null, summaries: [], surnames: [], detailCache: null }; }
+const regionState = { fr: freshRegionState(), be: freshRegionState(), eu: { ...freshRegionState(), selectedCode: '' } };
+let regionMode = 'fr';
 
-// Périmètre courant : tout le fichier, ou seulement les ascendants de la personne choisie (même
-// logique que le filtre "Uniquement les ascendants de" de l'onglet Cartes, voir getAncestorIds).
-function deptScopedList() {
-    if (!deptAncestorOnlyEl.checked || !deptPersonId) return list;
-    const ids = new Set(getAncestorIds(map, deptPersonId));
-    return list.filter(p => ids.has(p.id));
-}
-
-// Barre de sélection défilante : un chip par département présent dans le périmètre courant (le plus
-// chargé en événements en premier, voir computeDepartmentSummaries), celui en cours mis en évidence.
-function renderDeptSelector() {
-    deptScrollBarEl.innerHTML = deptSummariesCache.map(s => `
-        <button type="button" class="dept-chip${s.code === deptSelectedCode ? ' active' : ''}" data-code="${s.code}">
-            ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
-        </button>
-    `).join('');
-}
-
-function renderDeptSurnameList(filterText) {
-    const f = (filterText || '').trim().toLowerCase();
-    const filtered = f ? deptSurnamesCache.filter(s => s.surname.toLowerCase().includes(f)) : deptSurnamesCache;
-    renderList('deptSurnameList', filtered.map(s => `
-        <div class="society-list-item">
-            <div class="main"><div class="title">${escapeHtml(s.surname)}</div></div>
-            <div class="badge">${s.count}</div>
-        </div>
-    `));
-}
-
-// Mis en cache par renderDepartmentDetail, réutilisé par redrawDeptMapForSurnameFilter : la donnée
-// (événements/patronymes) ne dépend pas du filtre "Liste éclair", seuls les points affichés sur la
-// carte en dépendent — inutile de rappeler computeDepartmentDetail à chaque frappe au clavier.
-let deptDetailCache = null;
-
-function renderDepartmentDetail() {
-    if (!deptSelectedCode) return;
-    const detail = computeDepartmentDetail(deptScopedList(), deptSelectedCode);
-    deptDetailCache = detail;
-    deptMapTitleEl.textContent = `${detail.label} (${deptSelectedCode})`;
-    setStat('deptTotalEvents', detail.totalEvents);
-    setStat('deptGeoEvents', detail.geolocated);
-    setStat('deptSurnameCount', detail.surnames.length);
-    deptSurnamesCache = detail.surnames;
-    renderDeptSurnameList(deptSurnameFilterEl.value);
-    drawDepartmentMap('deptMapChart', deptSelectedCode, detail, { surnameFilter: deptSurnameFilterEl.value });
-}
-
-function selectDepartment(code) {
-    deptSelectedCode = code;
-    renderDeptSelector();
-    renderDepartmentDetail();
-}
-
-// Recalcule la liste des départements (et leurs totaux) pour le périmètre courant : appelé au
-// chargement du fichier ET à chaque changement du filtre ascendants (le département le plus chargé
-// peut changer selon qu'on regarde tout le fichier ou une seule branche). Garde la sélection en
-// cours si elle reste pertinente pour le nouveau périmètre, plutôt que de sauter systématiquement
-// sur le premier département — moins déstabilisant quand on affine juste le filtre.
-function refreshDeptSummaries() {
-    if (!list.length) return;
-    deptSummariesCache = computeDepartmentSummaries(deptScopedList());
-    if (!deptSummariesCache.length) {
-        deptSelectedCode = null;
-        deptContentEl.classList.add('hidden');
-        deptStatusEl.textContent = 'Aucun événement avec département identifié pour ce périmètre.';
-        return;
-    }
-    deptContentEl.classList.remove('hidden');
-    deptStatusEl.textContent = `Fichier chargé (${list.length} individus)${deptAncestorOnlyEl.checked && deptPersonId ? ' — ascendants uniquement' : ''}.`;
-    const keepSelection = deptSummariesCache.some(s => s.code === deptSelectedCode);
-    selectDepartment(keepSelection ? deptSelectedCode : deptSummariesCache[0].code);
-}
-
-deptScrollBarEl.addEventListener('click', e => {
-    const btn = e.target.closest('.dept-chip');
-    if (btn && btn.dataset.code !== deptSelectedCode) selectDepartment(btn.dataset.code);
-});
-function redrawDeptMapForSurnameFilter() {
-    if (!deptDetailCache) return;
-    drawDepartmentMap('deptMapChart', deptSelectedCode, deptDetailCache, { surnameFilter: deptSurnameFilterEl.value });
-}
-deptSurnameFilterEl.addEventListener('input', () => {
-    renderDeptSurnameList(deptSurnameFilterEl.value);
-    redrawDeptMapForSurnameFilter();
-});
-deptAncestorOnlyEl.addEventListener('change', e => {
-    deptPersonSearchEl.disabled = !e.target.checked;
-    refreshDeptSummaries();
-});
-const deptPersonPicker = createPersonPicker({
-    searchEl: deptPersonSearchEl, resultsEl: deptPersonResultsEl, selectedEl: deptPersonSelectedEl,
-    getList: () => list,
-    onSelect: p => { deptPersonId = p.id; refreshDeptSummaries(); }
-});
-wireClickAway(deptPersonResultsEl);
-
-// --- Provinces belges --- (pendant du bloc "Départements" ci-dessus, pour la Belgique)
-const beStatusEl = document.getElementById('beStatus');
-const beContentEl = document.getElementById('beContent');
-const beScrollBarEl = document.getElementById('beScrollBar');
-const beMapTitleEl = document.getElementById('beMapTitle');
-const beSurnameFilterEl = document.getElementById('beSurnameFilter');
-const beAncestorOnlyEl = document.getElementById('beAncestorOnly');
-const bePersonSearchEl = document.getElementById('bePersonSearch');
-const bePersonResultsEl = document.getElementById('bePersonResults');
-const bePersonSelectedEl = document.getElementById('bePersonSelected');
-
-let beSummariesCache = [];
-let beSelectedCode = null;
-let beSurnamesCache = [];
-let bePersonId = null;
-
-function beScopedList() {
-    if (!beAncestorOnlyEl.checked || !bePersonId) return list;
-    const ids = new Set(getAncestorIds(map, bePersonId));
-    return list.filter(p => ids.has(p.id));
-}
-
-function renderBeSelector() {
-    beScrollBarEl.innerHTML = beSummariesCache.map(s => `
-        <button type="button" class="dept-chip${s.code === beSelectedCode ? ' active' : ''}" data-code="${s.code}">
-            ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
-        </button>
-    `).join('');
-}
-
-function renderBeSurnameList(filterText) {
-    const f = (filterText || '').trim().toLowerCase();
-    const filtered = f ? beSurnamesCache.filter(s => s.surname.toLowerCase().includes(f)) : beSurnamesCache;
-    renderList('beSurnameList', filtered.map(s => `
-        <div class="society-list-item">
-            <div class="main"><div class="title">${escapeHtml(s.surname)}</div></div>
-            <div class="badge">${s.count}</div>
-        </div>
-    `));
-}
-
-// Voir deptDetailCache (bloc "Départements" ci-dessus) pour la raison de ce cache.
-let beDetailCache = null;
-
-function renderBeProvinceDetail() {
-    if (!beSelectedCode) return;
-    const detail = computeBeProvinceDetail(beScopedList(), beSelectedCode);
-    beDetailCache = detail;
-    beMapTitleEl.textContent = detail.label;
-    setStat('beTotalEvents', detail.totalEvents);
-    setStat('beGeoEvents', detail.geolocated);
-    setStat('beSurnameCount', detail.surnames.length);
-    beSurnamesCache = detail.surnames;
-    renderBeSurnameList(beSurnameFilterEl.value);
-    drawBeProvinceMap('beMapChart', beSelectedCode, detail, { surnameFilter: beSurnameFilterEl.value });
-}
-
-function selectBeProvince(code) {
-    beSelectedCode = code;
-    renderBeSelector();
-    renderBeProvinceDetail();
-}
-
-function refreshBeSummaries() {
-    if (!list.length) return;
-    beSummariesCache = computeBeProvinceSummaries(beScopedList());
-    if (!beSummariesCache.length) {
-        beSelectedCode = null;
-        beContentEl.classList.add('hidden');
-        beStatusEl.textContent = 'Aucun événement avec province belge identifiée pour ce périmètre.';
-        return;
-    }
-    beContentEl.classList.remove('hidden');
-    beStatusEl.textContent = `Fichier chargé (${list.length} individus)${beAncestorOnlyEl.checked && bePersonId ? ' — ascendants uniquement' : ''}.`;
-    const keepSelection = beSummariesCache.some(s => s.code === beSelectedCode);
-    selectBeProvince(keepSelection ? beSelectedCode : beSummariesCache[0].code);
-}
-
-beScrollBarEl.addEventListener('click', e => {
-    const btn = e.target.closest('.dept-chip');
-    if (btn && btn.dataset.code !== beSelectedCode) selectBeProvince(btn.dataset.code);
-});
-function redrawBeMapForSurnameFilter() {
-    if (!beDetailCache) return;
-    drawBeProvinceMap('beMapChart', beSelectedCode, beDetailCache, { surnameFilter: beSurnameFilterEl.value });
-}
-beSurnameFilterEl.addEventListener('input', () => {
-    renderBeSurnameList(beSurnameFilterEl.value);
-    redrawBeMapForSurnameFilter();
-});
-beAncestorOnlyEl.addEventListener('change', e => {
-    bePersonSearchEl.disabled = !e.target.checked;
-    refreshBeSummaries();
-});
-const bePersonPicker = createPersonPicker({
-    searchEl: bePersonSearchEl, resultsEl: bePersonResultsEl, selectedEl: bePersonSelectedEl,
-    getList: () => list,
-    onSelect: p => { bePersonId = p.id; refreshBeSummaries(); }
-});
-wireClickAway(bePersonResultsEl);
-
-// --- Europe --- (pendant des blocs "Départements"/"Provinces belges" ci-dessus, à l'échelle du
-// continent : granularité pays plutôt que département/province — voir maps.js pour le détail).
-// Différence de comportement volontaire par rapport à selectDepartment/selectBeProvince : le
-// périmètre par défaut n'est PAS le pays le plus représenté mais l'Europe entière (europeSelectedCode
-// vaut '' — chaîne vide plutôt que null, pour que le chip "Toute l'Europe" ait un data-code stable
-// et distinct de tout libellé de pays réel — jusqu'à ce qu'un pays précis soit choisi).
-const europeStatusEl = document.getElementById('europeStatus');
-const europeContentEl = document.getElementById('europeContent');
-const europeScrollBarEl = document.getElementById('europeScrollBar');
-const europeMapTitleEl = document.getElementById('europeMapTitle');
-const europeSurnameFilterEl = document.getElementById('europeSurnameFilter');
-const europeAncestorOnlyEl = document.getElementById('europeAncestorOnly');
-const europePersonSearchEl = document.getElementById('europePersonSearch');
-const europePersonResultsEl = document.getElementById('europePersonResults');
-const europePersonSelectedEl = document.getElementById('europePersonSelected');
-const europeYearSliderEl = document.getElementById('europeYearSlider');
-const europeYearLabelEl = document.getElementById('europeYearLabel');
-
-let europeSummariesCache = [];
-let europeSelectedCode = ''; // '' = toute l'Europe (vue d'ensemble), sinon libellé de pays
-let europeSurnamesCache = [];
-let europePersonId = null;
-
-// Bornes exactes du curseur année : affinées dès que le fichier de frontières historiques (CShapes,
-// voir maps.js) est chargé, plutôt que figées en dur dans le HTML — celui-ci ne porte que des valeurs
-// par défaut plausibles (1806-2023) pour que le curseur soit utilisable avant la fin du chargement.
-// Indépendant du GEDCOM chargé : lancé une fois au démarrage du module, pas dans onData.
+// Bornes exactes du curseur année (Europe uniquement) : affinées dès que le fichier de frontières
+// historiques (CShapes, voir maps.js) est chargé, plutôt que figées en dur dans le HTML — celui-ci ne
+// porte que des valeurs par défaut plausibles (1806-2023). Indépendant du GEDCOM chargé.
 ensureCShapesEurope().then(geo => {
     const b = cshapesYearBounds(geo);
-    const wasAtMax = europeYearSliderEl.value === europeYearSliderEl.max;
-    europeYearSliderEl.min = b.min;
-    europeYearSliderEl.max = b.max;
-    if(wasAtMax) europeYearSliderEl.value = b.max;
-    updateEuropeYearLabel();
+    const wasAtMax = regionYearSliderEl.value === regionYearSliderEl.max;
+    regionYearSliderEl.min = b.min;
+    regionYearSliderEl.max = b.max;
+    if(wasAtMax) regionYearSliderEl.value = b.max;
+    updateRegionYearLabel();
 }).catch(() => { /* le curseur reste utilisable avec ses bornes par défaut */ });
 
-function updateEuropeYearLabel() {
-    const y = parseInt(europeYearSliderEl.value, 10);
-    const atMax = y >= parseInt(europeYearSliderEl.max, 10);
-    europeYearLabelEl.textContent = atMax ? `Frontières actuelles (${y})` : `Frontières historiques : ${y}`;
+function updateRegionYearLabel() {
+    const y = parseInt(regionYearSliderEl.value, 10);
+    const atMax = y >= parseInt(regionYearSliderEl.max, 10);
+    regionYearLabelEl.textContent = atMax ? `Frontières actuelles (${y})` : `Frontières historiques : ${y}`;
 }
 
-// Le curseur année reste actif dans les deux modes (vue d'ensemble ET zoom sur un pays précis, voir
-// drawEuropeMap) : dans les deux cas, il choisit l'année dont les frontières CShapes sont affichées.
+// Périmètre partagé avec les cartes/Sankey/démographie du haut de l'onglet (voir getScopedList).
+function regionScopedList() { return getScopedList(); }
 
-function europeScopedList() {
-    if (!europeAncestorOnlyEl.checked || !europePersonId) return list;
-    const ids = new Set(getAncestorIds(map, europePersonId));
-    return list.filter(p => ids.has(p.id));
-}
-
-function renderEuropeSelector() {
-    const allChip = `
-        <button type="button" class="dept-chip${europeSelectedCode === '' ? ' active' : ''}" data-code="">
+function renderRegionSelector() {
+    const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
+    const overviewChip = cfg.hasOverview ? `
+        <button type="button" class="dept-chip${st.selectedCode === '' ? ' active' : ''}" data-code="">
             🌍 Toute l'Europe
-        </button>`;
-    const countryChips = europeSummariesCache.map(s => `
-        <button type="button" class="dept-chip${s.code === europeSelectedCode ? ' active' : ''}" data-code="${escapeHtml(s.code)}">
+        </button>` : '';
+    const chips = st.summaries.map(s => `
+        <button type="button" class="dept-chip${s.code === st.selectedCode ? ' active' : ''}" data-code="${escapeHtml(s.code)}">
             ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
         </button>
     `).join('');
-    europeScrollBarEl.innerHTML = allChip + countryChips;
+    regionScrollBarEl.innerHTML = overviewChip + chips;
 }
 
-function renderEuropeSurnameList(filterText) {
+function renderRegionSurnameList(filterText) {
+    const st = regionState[regionMode];
     const f = (filterText || '').trim().toLowerCase();
-    const filtered = f ? europeSurnamesCache.filter(s => s.surname.toLowerCase().includes(f)) : europeSurnamesCache;
-    renderList('europeSurnameList', filtered.map(s => `
+    const filtered = f ? st.surnames.filter(s => s.surname.toLowerCase().includes(f)) : st.surnames;
+    renderList('regionSurnameList', filtered.map(s => `
         <div class="society-list-item">
             <div class="main"><div class="title">${escapeHtml(s.surname)}</div></div>
             <div class="badge">${s.count}</div>
@@ -1422,83 +1115,112 @@ function renderEuropeSurnameList(filterText) {
     `));
 }
 
-// Mis en cache par renderEuropeDetail, réutilisé par redrawEuropeMapForYear : la donnée (événements/
-// patronymes) ne dépend pas de l'année choisie, seul le tracé de fond en dépend — inutile de la
-// recalculer à chaque cran du curseur.
-let europeDetailCache = null;
+function renderRegionDetail() {
+    const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
+    if(regionMode === 'eu') {
+        const code = st.selectedCode || null; // '' -> null pour computeEuropeDetail/drawEuropeMap (vue d'ensemble)
+        const detail = computeEuropeDetail(regionScopedList(), code);
+        st.detailCache = detail;
+        regionMapTitleEl.textContent = detail.label;
+        setStat('regionTotalEvents', detail.totalEvents);
+        setStat('regionGeoEvents', detail.geolocated);
+        setStat('regionSurnameCount', detail.surnames.length);
+        st.surnames = detail.surnames;
+        renderRegionSurnameList(regionSurnameFilterEl.value);
+        drawEuropeMap('regionMapChart', code, {
+            summaries: st.summaries, detail, onSelectCountry: selectRegionCode,
+            year: parseInt(regionYearSliderEl.value, 10),
+            easterEgg: hasEasterEggSurname(regionScopedList()),
+            surnameFilter: regionSurnameFilterEl.value
+        });
+        return;
+    }
+    if(!st.selectedCode) return;
+    const detail = cfg.computeDetail(regionScopedList(), st.selectedCode);
+    st.detailCache = detail;
+    regionMapTitleEl.textContent = regionMode === 'fr' ? `${detail.label} (${st.selectedCode})` : detail.label;
+    setStat('regionTotalEvents', detail.totalEvents);
+    setStat('regionGeoEvents', detail.geolocated);
+    setStat('regionSurnameCount', detail.surnames.length);
+    st.surnames = detail.surnames;
+    renderRegionSurnameList(regionSurnameFilterEl.value);
+    cfg.draw('regionMapChart', st.selectedCode, detail, { surnameFilter: regionSurnameFilterEl.value });
+}
 
-function renderEuropeDetail() {
-    const code = europeSelectedCode || null; // '' -> null pour computeEuropeDetail/drawEuropeMap (vue d'ensemble)
-    const detail = computeEuropeDetail(europeScopedList(), code);
-    europeDetailCache = detail;
-    europeMapTitleEl.textContent = detail.label;
-    setStat('europeTotalEvents', detail.totalEvents);
-    setStat('europeGeoEvents', detail.geolocated);
-    setStat('europeSurnameCount', detail.surnames.length);
-    europeSurnamesCache = detail.surnames;
-    renderEuropeSurnameList(europeSurnameFilterEl.value);
-    drawEuropeMap('europeMapChart', code, {
-        summaries: europeSummariesCache, detail, onSelectCountry: selectEuropeCountry,
-        year: parseInt(europeYearSliderEl.value, 10),
-        easterEgg: hasEasterEggSurname(europeScopedList()),
-        surnameFilter: europeSurnameFilterEl.value
+// Redessin léger (sans recalculer computeXDetail/la liste de patronymes) déclenché par le filtre
+// "Liste éclair" et, pour l'Europe, par le curseur année (drag) — voir renderDepartmentDetail/
+// drawDepartmentMap etc. dans maps.js pour la raison de ce cache.
+function redrawRegionMapForSurnameFilter() {
+    const st = regionState[regionMode];
+    if(!st.detailCache) return;
+    if(regionMode === 'eu') { redrawRegionMapForYear(); return; }
+    REGION_CONFIGS[regionMode].draw('regionMapChart', st.selectedCode, st.detailCache, { surnameFilter: regionSurnameFilterEl.value });
+}
+
+function redrawRegionMapForYear() {
+    updateRegionYearLabel();
+    const st = regionState.eu;
+    drawEuropeMap('regionMapChart', st.selectedCode || null, {
+        summaries: st.summaries, detail: st.detailCache, onSelectCountry: selectRegionCode,
+        year: parseInt(regionYearSliderEl.value, 10),
+        easterEgg: hasEasterEggSurname(regionScopedList()),
+        surnameFilter: regionSurnameFilterEl.value
     });
 }
+regionYearSliderEl.addEventListener('input', redrawRegionMapForYear);
 
-// Redessin léger (à partir d'europeDetailCache, sans recalculer computeEuropeDetail/la liste de
-// patronymes) déclenché par le curseur année (drag, actif dans les deux modes vue d'ensemble/zoom sur
-// un pays) ET par le filtre "Liste éclair" (#europeSurnameFilter, répercuté sur la carte comme pour
-// drawDepartmentMap/drawBeProvinceMap) : ni l'un ni l'autre ne change les statistiques ni le sélecteur
-// de pays (voir le hint affiché à l'écran), inutile de faire ramer un gros fichier GEDCOM à chaque cran
-// du curseur ou chaque frappe au clavier.
-function redrawEuropeMapForYear() {
-    updateEuropeYearLabel();
-    drawEuropeMap('europeMapChart', europeSelectedCode || null, {
-        summaries: europeSummariesCache, detail: europeDetailCache, onSelectCountry: selectEuropeCountry,
-        year: parseInt(europeYearSliderEl.value, 10),
-        easterEgg: hasEasterEggSurname(europeScopedList()),
-        surnameFilter: europeSurnameFilterEl.value
-    });
-}
-europeYearSliderEl.addEventListener('input', redrawEuropeMapForYear);
-
-function selectEuropeCountry(code) {
-    europeSelectedCode = code || '';
-    renderEuropeSelector();
-    renderEuropeDetail();
+function selectRegionCode(code) {
+    regionState[regionMode].selectedCode = regionMode === 'eu' ? (code || '') : code;
+    renderRegionSelector();
+    renderRegionDetail();
 }
 
-// Contrairement à refreshDeptSummaries/refreshBeSummaries, ne bascule jamais automatiquement sur un
-// pays précis (même au premier chargement) : le périmètre par défaut reste "Toute l'Europe" tant que
-// l'utilisateur ne clique pas explicitement sur un pays (chip ou carte).
-function refreshEuropeSummaries() {
+// Recalcule la liste de la région active (et ses totaux) pour le périmètre courant : appelé au
+// chargement du fichier, à chaque changement du filtre ascendants partagé, ET à chaque bascule du
+// sélecteur de région. Garde la sélection en cours si elle reste pertinente (départements/provinces),
+// ou reste sur "Toute l'Europe" par défaut (Europe, voir cfg.hasOverview) plutôt que de sauter
+// systématiquement sur la première entrée — moins déstabilisant quand on affine juste le filtre.
+function refreshRegionSummaries() {
     if (!list.length) return;
-    europeSummariesCache = computeEuropeCountrySummaries(europeScopedList());
-    europeContentEl.classList.remove('hidden');
-    europeStatusEl.textContent = `Fichier chargé (${list.length} individus)${europeAncestorOnlyEl.checked && europePersonId ? ' — ascendants uniquement' : ''}.`;
-    if (europeSelectedCode && !europeSummariesCache.some(s => s.code === europeSelectedCode)) europeSelectedCode = '';
-    renderEuropeSelector();
-    renderEuropeDetail();
+    const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
+    st.summaries = cfg.computeSummaries(regionScopedList());
+    if (!st.summaries.length && !cfg.hasOverview) {
+        st.selectedCode = null;
+        regionContentEl.classList.add('hidden');
+        regionStatusEl.textContent = cfg.emptyMsg;
+        return;
+    }
+    regionContentEl.classList.remove('hidden');
+    regionStatusEl.textContent = `Fichier chargé (${list.length} individus)${mapAncestorOnlyEl.checked && mapPersonId ? ' — ascendants uniquement' : ''}.`;
+    if (cfg.hasOverview) {
+        if (st.selectedCode && !st.summaries.some(s => s.code === st.selectedCode)) st.selectedCode = '';
+        renderRegionSelector();
+        renderRegionDetail();
+    } else {
+        const keepSelection = st.summaries.some(s => s.code === st.selectedCode);
+        selectRegionCode(keepSelection ? st.selectedCode : st.summaries[0].code);
+    }
 }
 
-europeScrollBarEl.addEventListener('click', e => {
+function switchRegionMode(mode) {
+    regionMode = mode;
+    const hasYear = REGION_CONFIGS[mode].hasYear;
+    regionYearSliderRowEl.classList.toggle('hidden', !hasYear);
+    regionYearHintEl.classList.toggle('hidden', !hasYear);
+    regionSurnameFilterEl.value = '';
+    refreshRegionSummaries();
+}
+regionModeRadios.forEach(r => r.addEventListener('change', e => { if(e.target.checked) switchRegionMode(e.target.value); }));
+
+regionScrollBarEl.addEventListener('click', e => {
     const btn = e.target.closest('.dept-chip');
-    if (btn && btn.dataset.code !== europeSelectedCode) selectEuropeCountry(btn.dataset.code);
+    if (btn && btn.dataset.code !== regionState[regionMode].selectedCode) selectRegionCode(btn.dataset.code);
 });
-europeSurnameFilterEl.addEventListener('input', () => {
-    renderEuropeSurnameList(europeSurnameFilterEl.value);
-    if (europeDetailCache) redrawEuropeMapForYear();
+regionSurnameFilterEl.addEventListener('input', () => {
+    renderRegionSurnameList(regionSurnameFilterEl.value);
+    redrawRegionMapForSurnameFilter();
 });
-europeAncestorOnlyEl.addEventListener('change', e => {
-    europePersonSearchEl.disabled = !e.target.checked;
-    refreshEuropeSummaries();
-});
-const europePersonPicker = createPersonPicker({
-    searchEl: europePersonSearchEl, resultsEl: europePersonResultsEl, selectedEl: europePersonSelectedEl,
-    getList: () => list,
-    onSelect: p => { europePersonId = p.id; refreshEuropeSummaries(); }
-});
-wireClickAway(europePersonResultsEl);
+
 
 bootstrap({
     page: 'visualisation',
@@ -1513,9 +1235,7 @@ bootstrap({
         // ses points).
         enrichMissingCoords(list).then(() => {
             renderFilteredMaps();
-            if (deptSelectedCode) renderDepartmentDetail();
-            if (beSelectedCode) renderBeProvinceDetail();
-            if (europeContentEl && !europeContentEl.classList.contains('hidden')) renderEuropeDetail();
+            if (!regionContentEl.classList.contains('hidden')) renderRegionDetail();
             // La carte des prénoms rares (renderGivenNames, volet Société) dépend elle aussi des
             // coordonnées de commune résolues ci-dessus : sans ce second appel, elle resterait bloquée
             // sur son message "pas assez de points" si le panneau Société a été affiché avant que
@@ -1523,37 +1243,24 @@ bootstrap({
             renderGivenNames();
         });
 
-        // Filtre "ascendants de" du panneau Départements : la personne (et le périmètre qu'elle
-        // définissait) appartenait au fichier précédent, donc sans intérêt pour celui-ci. Idem pour
-        // la sélection de département : sans ce reset, refreshDeptSummaries() la garderait si le
-        // nouveau fichier a, par coïncidence, un département de même code — pas ce qu'on veut à
-        // l'ouverture d'un nouveau fichier (seulement quand on affine juste le filtre ascendants).
-        // Même chose côté panneaux Provinces belges et Europe.
-        deptPersonId = null;
-        deptSelectedCode = null;
-        deptAncestorOnlyEl.checked = false;
-        deptPersonSearchEl.disabled = true;
-        deptPersonPicker.reset();
-        bePersonId = null;
-        beSelectedCode = null;
-        beAncestorOnlyEl.checked = false;
-        bePersonSearchEl.disabled = true;
-        bePersonPicker.reset();
-        europePersonId = null;
-        europeSelectedCode = '';
-        europeAncestorOnlyEl.checked = false;
-        europePersonSearchEl.disabled = true;
-        europePersonPicker.reset();
+        // Sélecteur de région : la personne/le code sélectionnés appartenaient au fichier précédent,
+        // donc sans intérêt pour celui-ci (le filtre "ascendants de" partagé est déjà remis à zéro par
+        // bootstrap/le pickers ci-dessous). Sans ce reset, refreshRegionSummaries() garderait la
+        // sélection si le nouveau fichier a, par coïncidence, un code de même valeur.
+        regionMode = 'fr';
+        document.querySelector('input[name="regionMode"][value="fr"]').checked = true;
+        regionYearSliderRowEl.classList.add('hidden');
+        regionYearHintEl.classList.add('hidden');
+        regionState.fr = freshRegionState();
+        regionState.be = freshRegionState();
+        regionState.eu = { ...freshRegionState(), selectedCode: '' };
+        regionSurnameFilterEl.value = '';
 
         if (!data.list.length) {
             societyStatus.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
             societyContent.classList.add('hidden');
-            deptStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
-            deptContentEl.classList.add('hidden');
-            beStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
-            beContentEl.classList.add('hidden');
-            europeStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
-            europeContentEl.classList.add('hidden');
+            regionStatusEl.textContent = 'Chargez un fichier GEDCOM depuis l\'accueil.';
+            regionContentEl.classList.add('hidden');
             return;
         }
         societyStatus.textContent = `Fichier chargé (${data.list.length} individus).`;
@@ -1561,13 +1268,10 @@ bootstrap({
         const stats = computeSocietyStats(data.list, data.map, data.fams);
         renderSociety(stats);
 
-        // Département/province par défaut : celui/celle qui totalise le plus d'événements
-        // (computeDepartmentSummaries/computeBeProvinceSummaries trient déjà par total décroissant),
-        // pour ouvrir la vue sur la branche la plus représentée. La vue Europe, elle, s'ouvre
-        // toujours sur "Toute l'Europe" (voir refreshEuropeSummaries).
-        refreshDeptSummaries();
-        refreshBeSummaries();
-        refreshEuropeSummaries();
+        // Région par défaut : départements de France, sur le département qui totalise le plus
+        // d'événements (computeDepartmentSummaries trie déjà par total décroissant), pour ouvrir la
+        // vue sur la branche la plus représentée.
+        refreshRegionSummaries();
 
         // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
         // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même

@@ -124,7 +124,7 @@
   @media (prefers-reduced-motion:no-preference){.card{transition:transform .1s ease}.card:hover{transform:translateX(2px)}}
 
   .subnav-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;padding:0 15px 1.4rem}
-  .subnav-bar .tab-btn{font-family:inherit;font-size:.85rem;font-weight:600;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:8px 16px;cursor:pointer}
+  .subnav-bar .tab-btn{font-family:inherit;font-size:.85rem;font-weight:600;color:var(--ink-soft);background:#fff;border:1px solid var(--rule);border-radius:6px;padding:8px 16px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center}
   .subnav-bar .tab-btn:hover{background:#f0f4fb;color:var(--ink)}
   .subnav-bar .tab-btn.active{background:var(--seal);border-color:var(--seal);color:#fff}
   .tab-panel.hidden{display:none}
@@ -150,9 +150,9 @@ renderHeader('rue-commune');
 </script>
 
 <div class="subnav-bar">
-  <button type="button" class="tab-btn active" id="topModeStreetBtn">📜 Rues de Paris</button>
-  <button type="button" class="tab-btn" id="topModeCommuneBtn">🏘️ Communes de France</button>
-  <button type="button" class="tab-btn" id="topModeToulouseBtn">🏙️ Rues de Toulouse</button>
+  <a class="tab-btn active" id="topModeStreetBtn" href="#street">📜 Rues de Paris</a>
+  <a class="tab-btn" id="topModeCommuneBtn" href="#commune">🏘️ Communes de France</a>
+  <a class="tab-btn" id="topModeToulouseBtn" href="#toulouse">🏙️ Rues de Toulouse</a>
 </div>
 
 <div id="streetPanel" class="tab-panel">
@@ -282,12 +282,17 @@ renderHeader('rue-commune');
     toulouse: document.getElementById('toulousePanel')
   };
   function setTopMode(mode){
+    if(!btns[mode]) mode = 'street';
     Object.keys(btns).forEach(k => {
       btns[k].classList.toggle('active', k === mode);
       panels[k].classList.toggle('hidden', k !== mode);
     });
   }
-  Object.keys(btns).forEach(k => btns[k].addEventListener('click', () => setTopMode(k)));
+  // Chaque sous-onglet a un lien direct (#street, #commune, #toulouse) : les boutons sont de
+  // vrais <a href="#..."> (copiables, ouvrables dans un nouvel onglet) plutôt que des boutons avec
+  // onclick, et c'est le hash de l'URL qui pilote l'affichage (ici et au chargement de la page).
+  window.addEventListener('hashchange', () => setTopMode(location.hash.slice(1)));
+  setTopMode(location.hash.slice(1));
 })();
 </script>
 

@@ -18,11 +18,11 @@
 <header id="appHeader"></header>
 
 <div class="subnav-bar">
-    <button type="button" class="tab-btn active" id="topModeDecesBtn">⚰️ Décès manquants</button>
-    <button type="button" class="tab-btn" id="topModeRecensementBtn">📋 Recensement</button>
-    <button type="button" class="tab-btn" id="topModeNotariatBtn">⚖ Notariat</button>
-    <button type="button" class="tab-btn" id="topModeSuccessionsBtn">⚰ Successions</button>
-    <button type="button" class="tab-btn" id="topModeMariageBtn">💍 Mariage</button>
+    <a class="tab-btn active" id="topModeDecesBtn" href="#deces">⚰️ Décès manquants</a>
+    <a class="tab-btn" id="topModeRecensementBtn" href="#recensement">📋 Recensement</a>
+    <a class="tab-btn" id="topModeNotariatBtn" href="#notariat">⚖ Notariat</a>
+    <a class="tab-btn" id="topModeSuccessionsBtn" href="#successions">⚰ Successions</a>
+    <a class="tab-btn" id="topModeMariageBtn" href="#mariage">💍 Mariage</a>
 </div>
 
 <div id="dmPanel" class="tab-panel">
@@ -428,7 +428,9 @@ const topModeSuccessionsBtn = document.getElementById('topModeSuccessionsBtn');
 const topModeMariageBtn = document.getElementById('topModeMariageBtn');
 const dmPanelEl = document.getElementById('dmPanel');
 const faPanelEl = document.getElementById('faPanel');
+const TOP_MODES = ['deces', 'recensement', 'notariat', 'successions', 'mariage'];
 function setTopMode(m) {
+    if (!TOP_MODES.includes(m)) m = 'deces';
     topModeDecesBtn.classList.toggle('active', m === 'deces');
     topModeRecensementBtn.classList.toggle('active', m === 'recensement');
     topModeNotariatBtn.classList.toggle('active', m === 'notariat');
@@ -438,11 +440,11 @@ function setTopMode(m) {
     faPanelEl.classList.toggle('hidden', m === 'deces');
     if (m !== 'deces') fa.setMode(m);
 }
-topModeDecesBtn.addEventListener('click', () => setTopMode('deces'));
-topModeRecensementBtn.addEventListener('click', () => setTopMode('recensement'));
-topModeNotariatBtn.addEventListener('click', () => setTopMode('notariat'));
-topModeSuccessionsBtn.addEventListener('click', () => setTopMode('successions'));
-topModeMariageBtn.addEventListener('click', () => setTopMode('mariage'));
+// Chaque sous-onglet a un lien direct (#deces, #recensement...) : les boutons sont de vrais
+// <a href="#..."> plutôt que des boutons avec onclick, et c'est le hash de l'URL qui pilote
+// l'affichage. L'appel initial setTopMode(location.hash...) est tout en bas du fichier (après la
+// définition de `fa`, dont setTopMode dépend).
+window.addEventListener('hashchange', () => setTopMode(location.hash.slice(1)));
 
 // --- Décès manquants ---
 // Enveloppé dans une IIFE : ce volet reprend tel quel le script de l'ancienne page
@@ -1288,6 +1290,8 @@ bootstrap({
         fa.applyData(data);
     }
 });
+
+setTopMode(location.hash.slice(1));
 </script>
 </body>
 </html>
