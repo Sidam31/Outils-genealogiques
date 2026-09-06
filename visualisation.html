@@ -41,7 +41,7 @@
                         <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
                         <label><input type="checkbox" id="mapFilterMarr" checked> Lieu de mariage</label>
                     </div>
-                    <div class="hint" style="text-align:center;">S'applique aux cartes ci-dessous.</div>
+                    <div class="hint" style="text-align:center;">S'applique à la carte du monde ci-dessous (les cartes de France/Belgique par département/province se trouvent dans « Proportions par région » ci-dessous, avec tous les types d'événements).</div>
                     <div class="map-scope-row">
                         <label for="mapTimeEnabled"><input type="checkbox" id="mapTimeEnabled"> Voir l'évolution dans le temps</label>
                     </div>
@@ -57,7 +57,7 @@
                 </div>
 
                 <div class="quality-charts">
-                    <div class="quality-chart-box">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
                         <div class="chart-box-header">
                             <h3>Carte du monde</h3>
                             <div class="chart-box-actions">
@@ -66,20 +66,6 @@
                             </div>
                         </div>
                         <div id="worldMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-                    </div>
-                    <div class="quality-chart-box">
-                        <div class="chart-box-header">
-                            <h3>Carte de Belgique (provinces)</h3>
-                            <button class="chart-copy-btn" data-target="belgiumMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                        </div>
-                        <div id="belgiumMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
-                    </div>
-                    <div class="quality-chart-box">
-                        <div class="chart-box-header">
-                            <h3>Carte de France (départements)</h3>
-                            <button class="chart-copy-btn" data-target="franceMapChart" title="Copier l'image dans le presse-papier">📋</button>
-                        </div>
-                        <div id="franceMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
                     </div>
                 </div>
 
@@ -104,7 +90,7 @@
         <details class="fold-section" id="fold-proportions-region">
             <summary>📊 Proportions par région (départements, provinces, pays)</summary>
             <div class="fold-body">
-                <p class="hint" style="text-align:center; margin-top:0;">Un département, une province ou un pays à la fois : ses événements géolocalisés (naissance, décès, mariage, résidence, autre) et les patronymes qui y sont attachés. Utilise le même filtre « Uniquement les ascendants de » ci-dessus.</p>
+                <p class="hint" style="text-align:center; margin-top:0;">Vue d'ensemble par région (une couleur = un nombre d'événements), ou cliquez un département/une province/un pays — sur la carte ou dans la liste — pour zoomer sur son détail : événements géolocalisés (naissance, décès, mariage, résidence, autre) et patronymes qui y sont attachés. Utilise le même filtre « Uniquement les ascendants de » ci-dessus.</p>
                 <div class="checkbox-group" role="radiogroup" aria-label="Choisir le type de région">
                     <label><input type="radio" name="regionMode" value="fr" checked> 🗺️ Départements de France</label>
                     <label><input type="radio" name="regionMode" value="be"> 🇧🇪 Provinces belges</label>
@@ -595,8 +581,6 @@ function getScopedFams() {
 function renderFilteredMaps() {
     if(!map.size || !list.length) {
         showMapMessage('worldMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
-        showMapMessage('franceMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
-        showMapMessage('belgiumMapChart', 'Chargez un fichier GEDCOM pour voir la carte.');
         updateTimeSliderBounds(null);
         return;
     }
@@ -607,10 +591,8 @@ function renderFilteredMaps() {
     const timeActive = mapTimeEnabledEl.checked && bounds;
     const yearMin = timeActive ? parseInt(mapTimeSliderMinEl.value, 10) : null;
     const yearMax = timeActive ? parseInt(mapTimeSliderMaxEl.value, 10) : null;
-    const { byDept, byBeProvince, byCountry, byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMin, yearMax });
+    const { byWorldPoint } = computeGeoCounts(scopeIds, map, eventFlags, { yearMin, yearMax });
     drawWorldMap(byWorldPoint);
-    drawFranceMap(byDept, byCountry);
-    drawBelgiumMap(byBeProvince);
 }
 
 // Indépendant de la case "Uniquement les ascendants de" (qui ne fait que restreindre les 3 cartes
@@ -1057,15 +1039,20 @@ const regionYearHintEl = document.getElementById('regionYearHint');
 const regionYearSliderEl = document.getElementById('regionYearSlider');
 const regionYearLabelEl = document.getElementById('regionYearLabel');
 
+// Les trois modes partagent désormais le même principe que l'Europe avait déjà : une vue d'ensemble
+// (choroplèthe, une couleur par département/province/pays) cliquable pour zoomer sur une entité
+// précise (événements géolocalisés individuels + patronymes) — plus de mode "toujours zoomé d'emblée
+// sur le plus représenté" pour la France/Belgique.
 const REGION_CONFIGS = {
-    fr: { computeSummaries: computeDepartmentSummaries, computeDetail: computeDepartmentDetail, draw: drawDepartmentMap, hasOverview: false, hasYear: false, emptyMsg: 'Aucun événement avec département identifié pour ce périmètre.' },
-    be: { computeSummaries: computeBeProvinceSummaries, computeDetail: computeBeProvinceDetail, draw: drawBeProvinceMap, hasOverview: false, hasYear: false, emptyMsg: 'Aucun événement avec province belge identifiée pour ce périmètre.' },
-    eu: { computeSummaries: computeEuropeCountrySummaries, computeDetail: computeEuropeDetail, draw: drawEuropeMap, hasOverview: true, hasYear: true, emptyMsg: null }
+    fr: { computeSummaries: computeDepartmentSummaries, computeDetail: computeDepartmentDetail, draw: drawDepartmentMap, hasYear: false, overviewLabel: "🗺️ Toute la France" },
+    be: { computeSummaries: computeBeProvinceSummaries, computeDetail: computeBeProvinceDetail, draw: drawBeProvinceMap, hasYear: false, overviewLabel: '🇧🇪 Toute la Belgique' },
+    eu: { computeSummaries: computeEuropeCountrySummaries, computeDetail: computeEuropeDetail, draw: drawEuropeMap, hasYear: true, overviewLabel: "🌍 Toute l'Europe" }
 };
 // Un cache indépendant par région : changer de mode via le sélecteur retrouve la sélection (code
-// département/province/pays) qu'on avait laissée sur ce mode, plutôt que de la perdre à chaque bascule.
-function freshRegionState() { return { selectedCode: null, summaries: [], surnames: [], detailCache: null }; }
-const regionState = { fr: freshRegionState(), be: freshRegionState(), eu: { ...freshRegionState(), selectedCode: '' } };
+// département/province/pays, '' pour la vue d'ensemble) qu'on avait laissée sur ce mode, plutôt que
+// de la perdre à chaque bascule.
+function freshRegionState() { return { selectedCode: '', summaries: [], surnames: [], detailCache: null }; }
+const regionState = { fr: freshRegionState(), be: freshRegionState(), eu: freshRegionState() };
 let regionMode = 'fr';
 
 // Bornes exactes du curseur année (Europe uniquement) : affinées dès que le fichier de frontières
@@ -1091,10 +1078,10 @@ function regionScopedList() { return getScopedList(); }
 
 function renderRegionSelector() {
     const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
-    const overviewChip = cfg.hasOverview ? `
+    const overviewChip = `
         <button type="button" class="dept-chip${st.selectedCode === '' ? ' active' : ''}" data-code="">
-            🌍 Toute l'Europe
-        </button>` : '';
+            ${cfg.overviewLabel}
+        </button>`;
     const chips = st.summaries.map(s => `
         <button type="button" class="dept-chip${s.code === st.selectedCode ? ' active' : ''}" data-code="${escapeHtml(s.code)}">
             ${escapeHtml(s.label)} <span class="dept-chip-count">${s.total}</span>
@@ -1115,27 +1102,38 @@ function renderRegionSurnameList(filterText) {
     `));
 }
 
-function renderRegionDetail() {
+// Vue d'ensemble (st.selectedCode === '') : choroplèthe de TOUTE la région (une couleur par
+// département/province/pays, comme l'ex-carte "Répartition" pour la France/Belgique) + statistiques
+// agrégées sur tout le périmètre (computeXDetail(..., null), voir maps.js) ; cliquer une entité sur la
+// carte ou dans la liste de puces ci-dessous (via selectRegionCode) bascule sur la vue détail.
+function renderRegionOverview() {
     const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
+    const detail = cfg.computeDetail(regionScopedList(), null);
+    st.detailCache = detail;
+    regionMapTitleEl.textContent = detail.label;
+    setStat('regionTotalEvents', detail.totalEvents);
+    setStat('regionGeoEvents', detail.geolocated);
+    setStat('regionSurnameCount', detail.surnames.length);
+    st.surnames = detail.surnames;
+    renderRegionSurnameList(regionSurnameFilterEl.value);
     if(regionMode === 'eu') {
-        const code = st.selectedCode || null; // '' -> null pour computeEuropeDetail/drawEuropeMap (vue d'ensemble)
-        const detail = computeEuropeDetail(regionScopedList(), code);
-        st.detailCache = detail;
-        regionMapTitleEl.textContent = detail.label;
-        setStat('regionTotalEvents', detail.totalEvents);
-        setStat('regionGeoEvents', detail.geolocated);
-        setStat('regionSurnameCount', detail.surnames.length);
-        st.surnames = detail.surnames;
-        renderRegionSurnameList(regionSurnameFilterEl.value);
-        drawEuropeMap('regionMapChart', code, {
+        drawEuropeMap('regionMapChart', null, {
             summaries: st.summaries, detail, onSelectCountry: selectRegionCode,
             year: parseInt(regionYearSliderEl.value, 10),
             easterEgg: hasEasterEggSurname(regionScopedList()),
             surnameFilter: regionSurnameFilterEl.value
         });
-        return;
+    } else {
+        const byCode = Object.fromEntries(st.summaries.map(s => [s.code, s.total]));
+        if(regionMode === 'fr') drawFranceMap('regionMapChart', byCode, {}, { onSelectDept: selectRegionCode });
+        else drawBelgiumMap('regionMapChart', byCode, { onSelectProvince: selectRegionCode });
     }
-    if(!st.selectedCode) return;
+}
+
+// Vue détail zoomée sur UNE entité précise (st.selectedCode non vide) : événements géolocalisés
+// individuels + patronymes, comme avant la fusion avec la vue d'ensemble ci-dessus.
+function renderRegionZoom() {
+    const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
     const detail = cfg.computeDetail(regionScopedList(), st.selectedCode);
     st.detailCache = detail;
     regionMapTitleEl.textContent = regionMode === 'fr' ? `${detail.label} (${st.selectedCode})` : detail.label;
@@ -1144,15 +1142,32 @@ function renderRegionDetail() {
     setStat('regionSurnameCount', detail.surnames.length);
     st.surnames = detail.surnames;
     renderRegionSurnameList(regionSurnameFilterEl.value);
-    cfg.draw('regionMapChart', st.selectedCode, detail, { surnameFilter: regionSurnameFilterEl.value });
+    if(regionMode === 'eu') {
+        drawEuropeMap('regionMapChart', st.selectedCode, {
+            summaries: st.summaries, detail, onSelectCountry: selectRegionCode,
+            year: parseInt(regionYearSliderEl.value, 10),
+            easterEgg: hasEasterEggSurname(regionScopedList()),
+            surnameFilter: regionSurnameFilterEl.value
+        });
+    } else {
+        cfg.draw('regionMapChart', st.selectedCode, detail, { surnameFilter: regionSurnameFilterEl.value });
+    }
+}
+
+function renderRegionDetail() {
+    const st = regionState[regionMode];
+    if(!st.selectedCode) renderRegionOverview();
+    else renderRegionZoom();
 }
 
 // Redessin léger (sans recalculer computeXDetail/la liste de patronymes) déclenché par le filtre
 // "Liste éclair" et, pour l'Europe, par le curseur année (drag) — voir renderDepartmentDetail/
-// drawDepartmentMap etc. dans maps.js pour la raison de ce cache.
+// drawDepartmentMap etc. dans maps.js pour la raison de ce cache. Sans effet en vue d'ensemble : la
+// choroplèthe ne dépend pas du filtre patronyme (seule la liste HTML, déjà mise à jour par
+// l'appelant, en dépend) — seule la vue détail (points géolocalisés individuels) doit être redessinée.
 function redrawRegionMapForSurnameFilter() {
     const st = regionState[regionMode];
-    if(!st.detailCache) return;
+    if(!st.detailCache || !st.selectedCode) return;
     if(regionMode === 'eu') { redrawRegionMapForYear(); return; }
     REGION_CONFIGS[regionMode].draw('regionMapChart', st.selectedCode, st.detailCache, { surnameFilter: regionSurnameFilterEl.value });
 }
@@ -1177,29 +1192,20 @@ function selectRegionCode(code) {
 
 // Recalcule la liste de la région active (et ses totaux) pour le périmètre courant : appelé au
 // chargement du fichier, à chaque changement du filtre ascendants partagé, ET à chaque bascule du
-// sélecteur de région. Garde la sélection en cours si elle reste pertinente (départements/provinces),
-// ou reste sur "Toute l'Europe" par défaut (Europe, voir cfg.hasOverview) plutôt que de sauter
-// systématiquement sur la première entrée — moins déstabilisant quand on affine juste le filtre.
+// sélecteur de région. Garde la sélection en cours si elle reste pertinente, ou retombe sur la vue
+// d'ensemble (comme au premier chargement) si l'entité sélectionnée n'existe plus dans ce périmètre —
+// jamais de saut automatique sur "la plus représentée", contrairement à l'ancien comportement
+// France/Belgique d'avant la fusion avec la vue d'ensemble (moins déstabilisant quand on affine juste
+// le filtre ascendants, et cohérent avec l'Europe qui s'est toujours comportée ainsi).
 function refreshRegionSummaries() {
     if (!list.length) return;
     const cfg = REGION_CONFIGS[regionMode], st = regionState[regionMode];
     st.summaries = cfg.computeSummaries(regionScopedList());
-    if (!st.summaries.length && !cfg.hasOverview) {
-        st.selectedCode = null;
-        regionContentEl.classList.add('hidden');
-        regionStatusEl.textContent = cfg.emptyMsg;
-        return;
-    }
     regionContentEl.classList.remove('hidden');
     regionStatusEl.textContent = `Fichier chargé (${list.length} individus)${mapAncestorOnlyEl.checked && mapPersonId ? ' — ascendants uniquement' : ''}.`;
-    if (cfg.hasOverview) {
-        if (st.selectedCode && !st.summaries.some(s => s.code === st.selectedCode)) st.selectedCode = '';
-        renderRegionSelector();
-        renderRegionDetail();
-    } else {
-        const keepSelection = st.summaries.some(s => s.code === st.selectedCode);
-        selectRegionCode(keepSelection ? st.selectedCode : st.summaries[0].code);
-    }
+    if (st.selectedCode && !st.summaries.some(s => s.code === st.selectedCode)) st.selectedCode = '';
+    renderRegionSelector();
+    renderRegionDetail();
 }
 
 function switchRegionMode(mode) {
@@ -1253,7 +1259,7 @@ bootstrap({
         regionYearHintEl.classList.add('hidden');
         regionState.fr = freshRegionState();
         regionState.be = freshRegionState();
-        regionState.eu = { ...freshRegionState(), selectedCode: '' };
+        regionState.eu = freshRegionState();
         regionSurnameFilterEl.value = '';
 
         if (!data.list.length) {

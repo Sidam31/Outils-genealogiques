@@ -329,19 +329,23 @@ function niceIntegerTicks(maxVal, maxTicks) {
     return Array.from(new Set(d3.scaleLinear().domain([0, maxVal]).ticks(maxTicks).map(Math.round)));
 }
 
-export async function drawFranceMap(byDept, byCountry) {
+// opts.onSelectDept, si fourni, rend chaque département cliquable (curseur pointeur, appelé avec son
+// code au clic) : sert à faire de cette choroplèthe la vue d'ensemble d'une carte "France" qui bascule
+// vers drawDepartmentMap (détail zoomé) au clic, même principe que drawEuropeMap (vue d'ensemble +
+// zoom sur un pays dans UNE seule expérience).
+export async function drawFranceMap(containerId, byDept, byCountry, opts = {}) {
     byCountry = byCountry || {};
-    const container = d3.select('#franceMapChart');
-    showMapMessage('franceMapChart', 'Chargement de la carte de France…');
+    const container = d3.select(`#${containerId}`);
+    if (container.select('svg').empty()) showMapMessage(containerId, 'Chargement de la carte de France…');
 
     let geojsonRaw;
     try {
         geojsonRaw = await ensureFranceGeo();
     } catch(err) {
-        showMapMessage('franceMapChart', 'Impossible de charger la carte de France (connexion internet requise).', true);
+        showMapMessage(containerId, 'Impossible de charger la carte de France (connexion internet requise).', true);
         return;
     }
-    if(!document.getElementById('franceMapChart')) return;
+    if(!document.getElementById(containerId)) return;
     const features = geojsonRaw.features.filter(f => FRENCH_DEPT_CODES.has(f.properties.code));
 
     // Contours des pays voisins : gris clair mais avec un compteur d'occurrences au survol (comme
@@ -351,7 +355,7 @@ export async function drawFranceMap(byDept, byCountry) {
         const europeGeo = await ensureEuropeGeo();
         neighborFeatures = europeGeo.features.filter(f => neighborCountryLabel(f) !== null);
     } catch(err) { /* pas de contours voisins, la carte de France seule reste fonctionnelle */ }
-    if(!document.getElementById('franceMapChart')) return;
+    if(!document.getElementById(containerId)) return;
 
     container.selectAll('*').remove();
     const width = container.node().clientWidth || 500, height = 420;
@@ -417,7 +421,7 @@ export async function drawFranceMap(byDept, byCountry) {
         .attr('fill', d => { const c = byDept[d.properties.code] || 0; return c > 0 ? colorScale(c) : '#f0f0f0'; })
         .attr('stroke', '#555')
         .attr('stroke-width', 0.8)
-        .style('cursor', 'default')
+        .style('cursor', opts.onSelectDept ? 'pointer' : 'default')
         .on('mouseover', function(e, d) {
             const count = byDept[d.properties.code] || 0;
             d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
@@ -431,7 +435,8 @@ export async function drawFranceMap(byDept, byCountry) {
         .on('mouseout', function() {
             d3.select(this).attr('stroke', '#555').attr('stroke-width', 0.8);
             tooltip.style.opacity = 0;
-        });
+        })
+        .on('click', (_e, d) => { if(opts.onSelectDept) opts.onSelectDept(d.properties.code); });
 
     // Légende : dégradé linéaire en valeur (0 -> maxCount), coloré via la même échelle sqrt que la
     // carte, avec un axe pour donner un ordre de grandeur des occurrences.
@@ -484,18 +489,19 @@ export async function drawFranceMap(byDept, byCountry) {
 // Bruxelles-Capitale), sur son propre geojson (ensureBelgiumGeo). Pas de pays voisins affichés ici
 // (contrairement à drawFranceMap) : la Belgique n'a pas besoin de ce contexte supplémentaire, la
 // France y figurant déjà comme voisin sur SA propre carte.
-export async function drawBelgiumMap(byBeProvince) {
-    const container = d3.select('#belgiumMapChart');
-    showMapMessage('belgiumMapChart', 'Chargement de la carte de Belgique…');
+// opts.onSelectProvince : voir drawFranceMap (même principe de vue d'ensemble cliquable).
+export async function drawBelgiumMap(containerId, byBeProvince, opts = {}) {
+    const container = d3.select(`#${containerId}`);
+    if (container.select('svg').empty()) showMapMessage(containerId, 'Chargement de la carte de Belgique…');
 
     let geojsonRaw;
     try {
         geojsonRaw = await ensureBelgiumGeo();
     } catch(err) {
-        showMapMessage('belgiumMapChart', 'Impossible de charger la carte de Belgique (connexion internet requise).', true);
+        showMapMessage(containerId, 'Impossible de charger la carte de Belgique (connexion internet requise).', true);
         return;
     }
-    if(!document.getElementById('belgiumMapChart')) return;
+    if(!document.getElementById(containerId)) return;
     const features = geojsonRaw.features;
 
     container.selectAll('*').remove();
@@ -520,7 +526,7 @@ export async function drawBelgiumMap(byBeProvince) {
         .attr('fill', d => { const c = byBeProvince[d.properties.AdPrKey] || 0; return c > 0 ? colorScale(c) : '#f0f0f0'; })
         .attr('stroke', '#555')
         .attr('stroke-width', 0.8)
-        .style('cursor', 'default')
+        .style('cursor', opts.onSelectProvince ? 'pointer' : 'default')
         .on('mouseover', function(e, d) {
             const count = byBeProvince[d.properties.AdPrKey] || 0;
             d3.select(this).attr('stroke', '#0055A4').attr('stroke-width', 2);
@@ -531,6 +537,7 @@ export async function drawBelgiumMap(byBeProvince) {
             tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
             tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
         })
+        .on('click', (_e, d) => { if(opts.onSelectProvince) opts.onSelectProvince(d.properties.AdPrKey); })
         .on('mouseout', function() {
             d3.select(this).attr('stroke', '#555').attr('stroke-width', 0.8);
             tooltip.style.opacity = 0;
@@ -603,17 +610,19 @@ export function computeDepartmentSummaries(list) {
         .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'fr'));
 }
 
-// Détail d'UN département : points géolocalisés (groupés par lieu+type d'événement, pour agréger les
-// événements superposés au même endroit plutôt que d'empiler des cercles identiques) et liste des
-// patronymes qui y sont attachés (comptés en personnes DISTINCTES, pas en occurrences d'événement :
-// une personne née ET décédée dans ce département ne doit pas compter double dans sa "liste éclair").
+// Détail d'UN département (ou, si code === null, agrégat de TOUS les départements — vue d'ensemble
+// avant toute sélection, voir computeEuropeDetail(list, null) dont ceci reprend le principe) : points
+// géolocalisés (groupés par lieu+type d'événement, pour agréger les événements superposés au même
+// endroit plutôt que d'empiler des cercles identiques) et liste des patronymes qui y sont attachés
+// (comptés en personnes DISTINCTES, pas en occurrences d'événement : une personne née ET décédée dans
+// ce département ne doit pas compter double dans sa "liste éclair").
 export function computeDepartmentDetail(list, code) {
     const pointMap = new Map();
     const surnameOwners = new Map(); // patronyme -> Set(id personne)
     let totalEvents = 0, geolocated = 0;
 
     list.forEach(p => {
-        const evts = personDeptEvents(p).filter(e => deptCode(e.geo.dept) === code);
+        const evts = personDeptEvents(p).filter(e => code === null || deptCode(e.geo.dept) === code);
         if(!evts.length) return;
         totalEvents += evts.length;
 
@@ -639,7 +648,7 @@ export function computeDepartmentDetail(list, code) {
         .sort((a, b) => b.count - a.count || a.surname.localeCompare(b.surname, 'fr'));
 
     return {
-        code, label: GEO.deptLabels[code] || code,
+        code, label: code === null ? 'France' : (GEO.deptLabels[code] || code),
         totalEvents, geolocated,
         points: Array.from(pointMap.values()),
         surnames
@@ -854,13 +863,15 @@ export function computeBeProvinceSummaries(list) {
         .sort((a, b) => b.total - a.total || a.label.localeCompare(b.label, 'fr'));
 }
 
+// code === null : agrège toutes les provinces (vue d'ensemble avant toute sélection, voir
+// computeDepartmentDetail(list, null) ci-dessus, même principe).
 export function computeBeProvinceDetail(list, code) {
     const pointMap = new Map();
     const surnameOwners = new Map(); // patronyme -> Set(id personne)
     let totalEvents = 0, geolocated = 0;
 
     list.forEach(p => {
-        const evts = personBeProvinceEvents(p).filter(e => deptCode(e.geo.beProvince) === code);
+        const evts = personBeProvinceEvents(p).filter(e => code === null || deptCode(e.geo.beProvince) === code);
         if(!evts.length) return;
         totalEvents += evts.length;
 
@@ -886,7 +897,7 @@ export function computeBeProvinceDetail(list, code) {
         .sort((a, b) => b.count - a.count || a.surname.localeCompare(b.surname, 'fr'));
 
     return {
-        code, label: GEO.beProvinceLabels[code] || code,
+        code, label: code === null ? 'Belgique' : (GEO.beProvinceLabels[code] || code),
         totalEvents, geolocated,
         points: Array.from(pointMap.values()),
         surnames
