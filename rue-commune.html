@@ -83,6 +83,17 @@
   .card .variants{font-size:.82rem;color:var(--ink-soft);margin:.4rem 0 0}
   .card .pop{font-size:.82rem;color:var(--ink-soft);margin:.4rem 0 0}
   .card .pop b{color:var(--ink);font-weight:600}
+  .pop-toggle{font:inherit;font-size:.76rem;font-weight:600;color:var(--focus);background:none;border:none;padding:0;margin-left:.5rem;cursor:pointer}
+  .pop-toggle:hover{text-decoration:underline}
+  .pop-toggle:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+  .pop-chart{margin:.5rem 0 0;padding:.5rem .6rem .4rem;background:#f7f9fc;border:1px solid var(--rule);border-radius:6px}
+  .pop-chart[hidden]{display:none}
+  .pop-chart-row{display:flex;align-items:stretch;gap:.4rem}
+  .pop-yaxis{display:flex;flex-direction:column;justify-content:space-between;flex:none;font-size:.64rem;color:var(--ink-soft);text-align:right;white-space:nowrap;padding:1px 0}
+  .pop-svg{flex:1 1 auto;min-width:0;width:100%;height:56px;display:block}
+  .pop-svg polyline{fill:none;stroke:var(--seal);stroke-width:1.6;vector-effect:non-scaling-stroke}
+  .pop-svg circle{fill:var(--focus)}
+  .pop-axis{display:flex;justify-content:space-between;gap:.5rem;font-size:.68rem;color:var(--ink-soft);margin:.3rem 0 0}
   .card .dist{font-size:.78rem;color:#2563eb;margin:.4rem 0 0;font-weight:600}
   .card .dist-unknown{color:var(--ink-soft);font-weight:400;font-style:italic}
   .card .geo{font-size:.78rem;color:var(--ink-soft);margin:.4rem 0 0}
@@ -692,26 +703,35 @@ function init(DB) {
   const anchorClearBtn = document.getElementById('communeAnchorClear');
   const anchorNoteEl = document.getElementById('communeAnchorNote');
 
-  // La base (~36 500 communes, Cassini/EHESS via communes_evolution) vit dans un fichier JSON séparé
-  // plutôt qu'inline : plus facile à diffs/éditer, et mise en cache HTTP indépendamment du code de
-  // la page. Format compact en tableaux (cf. DB.fields) plutôt qu'objets répétés : fichier ~3x plus
-  // léger à télécharger pour 36 500 entrées.
+  // La base (~36 500 communes, Cassini/EHESS via communes_evolution, + identifiant SocFace pour les
+  // communes appariées) vit dans un fichier JSON PAR DÉPARTEMENT (assets/data/communes_population/
+  // {dept}.json, cf. scripts_py/build_communes_population.py) plutôt qu'un seul fichier national :
+  // même découpage que communes_geo/, ça permet aux autres pages de ne charger que les départements
+  // dont elles ont besoin. Cette page-ci affiche une recherche floue sur toute la France, donc charge
+  // malgré tout l'index complet des départements (assets/data/communes_population/index.json) — mais
+  // en tableaux compacts par tuple plutôt qu'objets répétés, un fichier reste ~3x plus léger à
+  // télécharger pour 36 500 entrées.
   q.disabled = true;
   count.textContent = 'Chargement de la base des communes…';
-  fetch('assets/data/communes_population.json')
+  fetch('assets/data/communes_population/index.json')
     .then(res => { if(!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
-    .then(init)
+    .then(depts => Promise.all(depts.map(dept =>
+      fetch(`assets/data/communes_population/${dept}.json`)
+        .then(res => { if(!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
+        .then(rows => rows.map(row => [dept, ...row]))
+    )))
+    .then(perDept => init(perDept.flat()))
     .catch(err => {
       console.error('Chargement de la base des communes échoué:', err);
       count.textContent = "Erreur : impossible de charger la base des communes.";
     });
 
-function init(DB) {
-  const fields = DB.fields; // ["insee","name","dept","population","altNames"]
-  const communes = DB.communes.map(row => {
-    const c = {};
-    fields.forEach((f, i) => { c[f] = row[i]; });
-    c.altNames = c.altNames || [];
+// rows: [dept, insee, name, population, altNames?, socfaceId?] à plat, toutes communes confondues
+// (voir la Promise.all ci-dessus) — chaque tuple vient d'un fichier assets/data/communes_population/
+// {dept}.json (cf. build_communes_population.py pour le format exact).
+function init(rows) {
+  const communes = rows.map(([dept, insee, name, population, altNames, socfaceId]) => {
+    const c = { dept, insee, name, population, altNames: altNames || [], socface: socfaceId != null ? socfaceId : null };
     // Variante "à plat" (tirets/apostrophes -> espace) en plus du nom brut : sert de deuxième clé
     // Fuse pour retrouver "Saint Jean sur Something" même si l'utilisateur ne tape pas les tirets —
     // remplacement caractère pour caractère, donc les indices de correspondance restent valables
@@ -725,9 +745,11 @@ function init(DB) {
     communes.length.toLocaleString('fr-FR') + ' communes (limites et noms historiques, France métropolitaine). ' +
     'Population par recensement (Cassini/EHESS) affichée à titre indicatif pour confirmer une correspondance plausible. ' +
     'Les communes fusionnées ou renommées sont indexées sous leur(s) ancien(s) nom(s) en plus du nom actuel — ' +
-    'utile pour un acte antérieur à la fusion.' +
+    'utile pour un acte antérieur à la fusion. Quand disponible, un lien renvoie vers les registres ' +
+    'de recensement nominatifs numérisés de la commune sur SocFace.' +
     '<div class="sources"><p class="sources-h">Sources</p><ul>' +
     '<li><span class="s-tag">Cassini/EHESS</span> Base des communes françaises — <em>communes_evolution</em> (population historique 1793–2006, fusions et renommages). <a href="https://cassini.ehess.fr/" target="_blank" rel="noopener">cassini.ehess.fr</a></li>' +
+    '<li><span class="s-tag">SocFace</span> Registres de recensement nominatifs numérisés (1836–1936), ANR/INED/TEKLIA. <a href="https://socface.teklia.com/" target="_blank" rel="noopener">socface.teklia.com</a></li>' +
     '</ul></div>';
 
   const fuse = new Fuse(communes, {
@@ -776,6 +798,39 @@ function init(DB) {
     return txt;
   }
 
+  // Petit graphique en ligne (SVG, pas de dépendance externe) de l'évolution de la population sur
+  // tous les points connus — affiché à la demande (voir .pop-toggle), popText() ci-dessus ne montrant
+  // que le premier et le dernier point. viewBox fixe + CSS width:100%/height:56px (preserveAspectRatio
+  // "none") : le tracé s'étire proprement à la largeur de la carte sans recalcul JS au resize.
+  function popChartSvg(item){
+    const p = item.population || [];
+    const W = 280, H = 56, PADX = 6, PADY = 6;
+    const years = p.map(d=>d[0]), vals = p.map(d=>d[1]);
+    const minYear = years[0], maxYear = years[years.length-1];
+    const maxVal = Math.max(...vals, 1);
+    const xOf = yr => PADX + (W-2*PADX) * (maxYear===minYear ? 0 : (yr-minYear)/(maxYear-minYear));
+    const yOf = v => H-PADY - (H-2*PADY) * (v/maxVal);
+    const pts = p.map(([yr,v]) => `${xOf(yr).toFixed(1)},${yOf(v).toFixed(1)}`).join(' ');
+    const dots = p.map(([yr,v]) =>
+      `<circle cx="${xOf(yr).toFixed(1)}" cy="${yOf(v).toFixed(1)}" r="2.2"><title>${yr} : ${v.toLocaleString('fr-FR')} hab.</title></circle>`
+    ).join('');
+    return `<div class="pop-chart-row">
+      <div class="pop-yaxis"><span>${maxVal.toLocaleString('fr-FR')}</span><span>0</span></div>
+      <svg class="pop-svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="Évolution de la population de ${esc(item.name)} entre ${minYear} et ${maxYear}, de 0 à ${maxVal.toLocaleString('fr-FR')} habitants">
+        <polyline points="${pts}"/>${dots}
+      </svg>
+    </div>
+    <p class="pop-axis"><span>${minYear}</span><span>${maxYear}</span></p>`;
+  }
+
+  // Lien direct vers la page SocFace de la commune (registres de recensement nominatifs numérisés,
+  // 1836-1936, cf. https://socface.teklia.com) quand elle a pu être appariée par nom à l'identifiant
+  // interne SocFace (voir build_communes_population.py) — absent pour les communes fusionnées/
+  // renommées depuis Cassini ou dans un département pas encore disponible sur SocFace.
+  function socfaceUrl(item){
+    return item.socface != null ? `https://socface.teklia.com/town/${item.dept.padStart(3,'0')}/${item.socface}` : null;
+  }
+
   function card(item, matches, distKm){
     const nameMatch = matches?.find(m=>m.key==='name') || matches?.find(m=>m.key==='flat');
     const altMatches = matches?.filter(m=>m.key==='altNames')||[];
@@ -787,6 +842,8 @@ function init(DB) {
     }).join(' · ');
     const isFusion = alts.length > 0;
     const pop = popText(item);
+    const hasChart = (item.population || []).length >= 2;
+    const socface = socfaceUrl(item);
     const cls = isFusion ? ' card-fusion' : '';
     const distHtml = distKm===undefined ? '' : (distKm==null
       ? `<p class="dist dist-unknown">distance à ${esc(anchorItem.name)} inconnue</p>`
@@ -794,10 +851,11 @@ function init(DB) {
     return `<li class="card${cls}" data-insee="${esc(item.insee)}" data-dept="${esc(item.dept)}">
       <p class="name">${nameHtml}${isFusion?' <span class="badge-fusion">fusion/renommage</span>':''}</p>
       <p class="meta">${esc(item.dept)} — ${esc(GEO.deptLabels[item.dept]||item.dept)} · INSEE ${esc(item.insee)}</p>
-      ${pop?`<p class="pop">${pop}</p>`:''}
+      ${pop?`<p class="pop">${pop}${hasChart?` <button type="button" class="pop-toggle" data-insee="${esc(item.insee)}" aria-expanded="false">📈 évolution</button>`:''}</p>`:''}
+      ${hasChart?'<div class="pop-chart" hidden></div>':''}
       ${alts.length?`<p class="variants">anciennement : ${altsHtml}</p>`:''}
       ${distHtml}
-      <p class="geo"><a href="#" class="geo-zoom" data-insee="${esc(item.insee)}" data-dept="${esc(item.dept)}" data-name="${esc(item.name)}">Voir sur la carte ↗</a></p>
+      <p class="geo"><a href="#" class="geo-zoom" data-insee="${esc(item.insee)}" data-dept="${esc(item.dept)}" data-name="${esc(item.name)}">Voir sur la carte ↗</a>${socface?` · <a href="${esc(socface)}" target="_blank" rel="noopener">Source population sur SocFace ↗</a>`:''}</p>
     </li>`;
   }
 
@@ -967,6 +1025,20 @@ function init(DB) {
     mapWrapEl.scrollIntoView({ behavior:'smooth', block:'nearest' });
   }
   results.addEventListener('click', e => {
+    const popBtn = e.target.closest('.pop-toggle');
+    if(popBtn){
+      const chartEl = popBtn.closest('.card').querySelector('.pop-chart');
+      const opening = chartEl.hidden;
+      chartEl.hidden = !opening;
+      popBtn.setAttribute('aria-expanded', String(opening));
+      popBtn.textContent = opening ? '📉 masquer' : '📈 évolution';
+      if(opening && !chartEl.dataset.rendered){
+        const item = communes.find(c => c.insee === popBtn.dataset.insee);
+        if(item) chartEl.innerHTML = popChartSvg(item);
+        chartEl.dataset.rendered = '1';
+      }
+      return;
+    }
     const link = e.target.closest('.geo-zoom');
     if(!link) return;
     e.preventDefault();

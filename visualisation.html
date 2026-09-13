@@ -446,7 +446,7 @@ import {
     computeGivenNameStats, drawRareGivenNamesMap, SEX_PROFILE_COLORS, SEX_PROFILE_LABELS,
     RARE_GIVEN_NAME_HIGHLIGHT_COLORS, GIVEN_NAME_HIGHLIGHT_COUNT
 } from './assets/js/society.js';
-import { loadCommunesPopulation } from './assets/js/communes-population.js';
+import { loadCommunesPopulation, collectPersonDeptCodes } from './assets/js/communes-population.js';
 
 // --- Lien direct vers une section repliable (#fold-points-gps, #fold-proportions-region,
 // #fold-demographie, #fold-societe) : plus de sous-onglets sur cette page (Visualisation et Société
@@ -1279,10 +1279,11 @@ bootstrap({
         // vue sur la branche la plus représentée.
         refreshRegionSummaries();
 
-        // Taille des communes : fichier de ~14 Mo chargé à la demande (pas de blocage du rendu
-        // initial), le panneau Société est ré-affiché une fois la correspondance disponible — même
-        // logique que enrichMissingCoords côté cartes.
-        loadCommunesPopulation().then(communesPop => {
+        // Taille des communes : un fichier par département chargé à la demande, pour les seuls
+        // départements présents dans ce GEDCOM (pas de blocage du rendu initial), le panneau Société
+        // est ré-affiché une fois la correspondance disponible — même logique que enrichMissingCoords
+        // côté cartes.
+        loadCommunesPopulation(collectPersonDeptCodes(data.list)).then(communesPop => {
             communesPopLoaded = true;
             const statsWithCitySize = computeSocietyStats(data.list, data.map, data.fams, communesPop);
             renderSociety(statsWithCitySize);

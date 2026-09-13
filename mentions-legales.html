@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Mentions légales</title>
+    <link rel="icon" href="favicon.ico">
+    <link href="assets/css/app.css" rel="stylesheet">
+    <style>
+        body { overflow-y: auto; }
+        .legal-container { max-width: 800px; margin: 0 auto; padding: clamp(1.2rem, 4vw, 3rem) 1.2rem 4rem; line-height: 1.6; }
+        .legal-container h2 { color: var(--accent); margin-top: 2.2rem; }
+        .legal-container h2:first-of-type { margin-top: 0.5rem; }
+        .legal-container h3 { color: var(--accent); margin-top: 1.4rem; font-size: 1rem; }
+        .legal-container p, .legal-container li { color: #444; }
+        .legal-container ul { padding-left: 1.3rem; }
+        .legal-container code { background: #f0f2f5; padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+        .legal-container .updated { color: #999; font-size: 0.82rem; margin-top: -0.5rem; }
+    </style>
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<main class="legal-container">
+    <h1>Mentions légales</h1>
+    <p class="updated">Dernière mise à jour : septembre 2026.</p>
+
+    <h2>Licence</h2>
+    <p>
+        VisuGedcom est un projet personnel, développé et partagé bénévolement. Le code source de ce
+        site est distribué sous licence <strong>GNU General Public License v3.0 (GPLv3)</strong> :
+        vous êtes libre de le consulter, le modifier et le redistribuer, à condition de conserver
+        cette même licence et de créditer le projet d'origine.
+    </p>
+    <ul>
+        <li>Dépôt du code source : <a href="https://github.com/Sidam31/Outils-genealogiques" target="_blank" rel="noopener">github.com/Sidam31/Outils-genealogiques</a></li>
+        <li>Texte complet de la licence : <a href="https://github.com/Sidam31/Outils-genealogiques/blob/main/LICENSE" target="_blank" rel="noopener">LICENSE</a></li>
+    </ul>
+    <p>
+        Cette licence couvre le <strong>code</strong> du site. Les <strong>données</strong> qu'il
+        agrège ou vers lesquelles il renvoie (bases de communes, recensements, archives numérisées,
+        fonds notariaux...) restent soumises aux conditions propres de leurs producteurs respectifs
+        (voir les sources citées sur chaque page d'outil).
+    </p>
+
+    <h2>Conditions générales d'utilisation</h2>
+
+    <h3>Objet du site</h3>
+    <p>
+        VisuGedcom est un outil personnel d'aide à la recherche généalogique : il aide à visualiser
+        un fichier GEDCOM et à repérer des pistes de recherche (recensements, actes notariés,
+        successions, décès manquants...) vers des bases tierces. Il n'est édité par aucun service
+        d'archives, aucune administration ni aucun organisme officiel, et n'a aucun lien avec eux.
+    </p>
+
+    <h3>Traitement de vos données</h3>
+    <p>
+        Aucun serveur n'intervient dans le fonctionnement du site : c'est une page web statique qui
+        s'exécute entièrement dans votre navigateur. Le fichier GEDCOM que vous chargez est lu et
+        analysé localement, puis conservé dans le stockage de votre navigateur (IndexedDB) pour
+        rester disponible d'une page à l'autre — il n'est jamais transmis, ni envoyé à un serveur, ni
+        partagé. Vous pouvez le retirer à tout moment depuis la page d'accueil.
+    </p>
+
+    <h3>Fiabilité des données et correspondances</h3>
+    <p>
+        Certaines informations affichées (population d'une commune à une date donnée, correspondance
+        entre un lieu cité dans un acte ancien et une commune actuelle, identifiant vers un registre
+        de recensement...) proviennent d'appariements automatiques par nom ou par proximité
+        géographique, et peuvent donc être incomplètes, approximatives ou erronées — en particulier
+        pour des communes fusionnées, renommées, ou dont le nom a été mal transcrit à l'époque.
+        Ces informations sont fournies à titre indicatif, pour orienter une recherche : elles ne
+        remplacent pas une vérification auprès des sources primaires.
+    </p>
+
+    <h3>Liens et services externes</h3>
+    <p>
+        Le site renvoie vers des services tiers indépendants (Archives départementales, FranceArchives,
+        SocFace, FranceGenWeb, OpenStreetMap, Cassini/EHESS, entre autres). Chacun de ces services
+        reste seul responsable de son contenu, de sa disponibilité et de ses propres conditions
+        d'utilisation, sur lesquelles VisuGedcom n'a aucun contrôle.
+    </p>
+
+    <h3>Disponibilité</h3>
+    <p>
+        Le site est développé et maintenu bénévolement, sans garantie de disponibilité, de continuité
+        ni d'absence d'erreur.
+    </p>
+
+    <h3>Contact</h3>
+    <p>
+        Pour toute question, signalement d'erreur ou suggestion : <a href="https://github.com/Sidam31/Outils-genealogiques/issues" target="_blank" rel="noopener">ouvrir une issue sur le dépôt GitHub</a>.
+    </p>
+</main>
+
+<script type="module">
+import { renderHeader } from './assets/js/nav.js';
+renderHeader(null);
+</script>
+</body>
+</html>
