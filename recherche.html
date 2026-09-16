@@ -23,6 +23,7 @@
     <a class="tab-btn" id="topModeNotariatBtn" href="#notariat">⚖ Notariat</a>
     <a class="tab-btn" id="topModeSuccessionsBtn" href="#successions">⚰ Successions</a>
     <a class="tab-btn" id="topModeMariageBtn" href="#mariage">💍 Mariage</a>
+    <a class="tab-btn" id="topModeGallicaBtn" href="#gallica">🔎 Gallica</a>
 </div>
 
 <div id="dmPanel" class="tab-panel">
@@ -404,6 +405,56 @@
     </div>
 </div>
 
+<div id="gxPanel" class="tab-panel hidden">
+    <div class="quality-container" style="max-width:none;">
+        <p class="quality-intro">Pour chaque personne de l'arbre, un ou plusieurs liens de recherche plein texte vers <a href="https://gallica.bnf.fr/" target="_blank" rel="noopener">Gallica</a> (bibliothèque numérique de la BnF : presse ancienne, monographies, actes numérisés, archives notariales...) sur le nom et le prénom, avec un filtre de date et un filtre de département, chacun activable indépendamment.</p>
+        <p class="hint" style="text-align:center;">Quand plusieurs prénoms sont actés, un lien est proposé par prénom (Nom+prénom1, Nom+prénom2...) plutôt qu'une seule recherche sur tous à la fois. Pour une femme mariée, un jeu de liens supplémentaire (💍) propose la même recherche sous son ou ses noms de mariage, en plus de son nom de naissance (🔎).</p>
+        <p class="hint" style="text-align:center;">Le filtre de date s'appuie sur le champ de date de publication du document (naissance/décès connus ou estimés, élargis d'une marge réglable) : fiable et documenté.</p>
+        <p class="hint" style="text-align:center;">Gallica n'a pas d'index géographique fiable couvrant l'ensemble de ses fonds (contrairement à FranceArchives, voir les modes Recensement/Successions/Mariage) : le filtre de département ajoute simplement son nom comme terme de recherche complémentaire — une piste pour affiner, pas une garantie que le département soit le bon.</p>
+
+        <div class="options-panel">
+            <div class="checkbox-group">
+                <label><input type="checkbox" id="gxOptUseDate"> Restreindre par date (naissance/décès ± <input type="number" id="gxOptDateMargin" value="5" min="0" style="width:50px;"> ans)</label>
+                <label><input type="checkbox" id="gxOptUseDept"> Restreindre par département (naissance connu, sinon décès)</label>
+            </div>
+            <div class="map-scope-row">
+                <label for="gxOptAncestorOnly"><input type="checkbox" id="gxOptAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="gxPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="gxPersonResults" class="person-picker-results"></ul>
+                </div>
+                <span id="gxPersonSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="gxAnalyzeBtn" disabled>Analyser le fichier</button>
+            <button id="gxCsvBtn" class="secondary hidden">⬇ Export CSV</button>
+        </div>
+
+        <div id="gxStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="gxResultsWrap" class="hidden results-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Décès</th>
+                        <th>Filtres appliqués</th>
+                        <th>Action</th>
+                        <th>Vérifié</th>
+                        <th>Commentaire</th>
+                    </tr>
+                </thead>
+                <tbody id="gxResultsBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
 <script type="module">
 import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
@@ -418,6 +469,7 @@ import { computeNotarialActLeads, loadNotairesIndex, notaireDetailUrl } from './
 import { computeSuccessionLeads, loadSuccessionIndexes } from './assets/js/successions.js';
 import { computeMarriageLeads, loadMarriageIndexes } from './assets/js/marriage.js';
 import { estimateBirthYear } from './assets/js/inference.js';
+import { computeGallicaLeads } from './assets/js/gallica.js';
 
 // --- Sous-navigation : bascule entre les cinq volets fusionnés sur cette page ---
 // (Décès manquants, puis les quatre modes du volet FranceArchives, tous à plat au même niveau).
@@ -426,9 +478,11 @@ const topModeRecensementBtn = document.getElementById('topModeRecensementBtn');
 const topModeNotariatBtn = document.getElementById('topModeNotariatBtn');
 const topModeSuccessionsBtn = document.getElementById('topModeSuccessionsBtn');
 const topModeMariageBtn = document.getElementById('topModeMariageBtn');
+const topModeGallicaBtn = document.getElementById('topModeGallicaBtn');
 const dmPanelEl = document.getElementById('dmPanel');
 const faPanelEl = document.getElementById('faPanel');
-const TOP_MODES = ['deces', 'recensement', 'notariat', 'successions', 'mariage'];
+const gxPanelEl = document.getElementById('gxPanel');
+const TOP_MODES = ['deces', 'recensement', 'notariat', 'successions', 'mariage', 'gallica'];
 function setTopMode(m) {
     if (!TOP_MODES.includes(m)) m = 'deces';
     topModeDecesBtn.classList.toggle('active', m === 'deces');
@@ -436,9 +490,11 @@ function setTopMode(m) {
     topModeNotariatBtn.classList.toggle('active', m === 'notariat');
     topModeSuccessionsBtn.classList.toggle('active', m === 'successions');
     topModeMariageBtn.classList.toggle('active', m === 'mariage');
+    topModeGallicaBtn.classList.toggle('active', m === 'gallica');
     dmPanelEl.classList.toggle('hidden', m !== 'deces');
-    faPanelEl.classList.toggle('hidden', m === 'deces');
-    if (m !== 'deces') fa.setMode(m);
+    faPanelEl.classList.toggle('hidden', m === 'deces' || m === 'gallica');
+    gxPanelEl.classList.toggle('hidden', m !== 'gallica');
+    if (m !== 'deces' && m !== 'gallica') fa.setMode(m);
 }
 // Chaque sous-onglet a un lien direct (#deces, #recensement...) : les boutons sont de vrais
 // <a href="#..."> plutôt que des boutons avec onclick, et c'est le hash de l'URL qui pilote
@@ -1283,11 +1339,187 @@ const fa = (() => {
     };
 })();
 
+// --- Gallica (recherche plein texte BnF) ---
+// Même enveloppe IIFE que dm/fa ci-dessus, pour la même raison (isoler ses noms internes). Volet
+// plus simple que fa : un seul tableau de résultats, pas de sous-mode.
+const gx = (() => {
+    let list = [], map = new Map(), fams = new Map();
+    let ancestorPersonId = null;
+    let lastResults = [];
+    let sortKey = 'sosa', sortDir = 1;
+
+    const SORT_COMPARATORS = {
+        sosa: r => r.sosa ?? Infinity,
+        name: r => `${r.person.surname || ''} ${r.person.given || ''}`.toLocaleUpperCase('fr'),
+        birth: r => r.birthEst ? r.birthEst.year : Infinity
+    };
+
+    function sortedResults() {
+        const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+        return [...lastResults].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDir;
+        });
+    }
+
+    document.querySelectorAll('#gxPanel th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sort;
+            if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+            updateSortIndicators();
+            renderResults();
+        });
+    });
+    function updateSortIndicators() {
+        document.querySelectorAll('#gxPanel th.sortable').forEach(th => {
+            const active = th.dataset.sort === sortKey;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+        });
+    }
+
+    const analyzeBtn = document.getElementById('gxAnalyzeBtn');
+    const statusEl = document.getElementById('gxStatus');
+    const resultsWrap = document.getElementById('gxResultsWrap');
+    const resultsBody = document.getElementById('gxResultsBody');
+    const csvBtn = document.getElementById('gxCsvBtn');
+    const ancestorOnlyEl = document.getElementById('gxOptAncestorOnly');
+    const personSearchEl = document.getElementById('gxPersonSearch');
+    const personResultsEl = document.getElementById('gxPersonResults');
+    const personSelectedEl = document.getElementById('gxPersonSelected');
+    const useDateEl = document.getElementById('gxOptUseDate');
+    const dateMarginEl = document.getElementById('gxOptDateMargin');
+    const useDeptEl = document.getElementById('gxOptUseDept');
+
+    // Colonnes "Vérifié"/"Commentaire" (voir utils.js) : rowId = person.id.
+    const GX_VERIF_KEY = 'visugedcom_gx_verif_gallica_v1';
+    wireVerifCellEvents(resultsBody);
+
+    ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
+    createPersonPicker({
+        searchEl: personSearchEl, resultsEl: personResultsEl, selectedEl: personSelectedEl,
+        getList: () => list,
+        onSelect: p => { ancestorPersonId = p.id; }
+    });
+    wireClickAway(personResultsEl);
+
+    analyzeBtn.addEventListener('click', () => {
+        if (!list.length) return;
+        statusEl.textContent = 'Analyse en cours…';
+        const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
+        const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
+
+        lastResults = computeGallicaLeads(list, map, fams, {
+            ancestorScopeSet: scopeSet,
+            useDate: useDateEl.checked,
+            dateMargin: parseInt(dateMarginEl.value) || 0,
+            useDept: useDeptEl.checked
+        });
+        lastResults.forEach(r => { r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null; });
+
+        statusEl.textContent = `Terminé. ${lastResults.length} personne(s) trouvée(s).`;
+        if (!lastResults.length) {
+            resultsWrap.classList.add('hidden');
+            csvBtn.classList.add('hidden');
+            return;
+        }
+        resultsWrap.classList.remove('hidden');
+        csvBtn.classList.remove('hidden');
+
+        sortKey = sosaMap ? 'sosa' : 'name';
+        sortDir = 1;
+        updateSortIndicators();
+        renderResults();
+    });
+
+    function appliedFiltersCell(r) {
+        const parts = [];
+        if (useDateEl.checked) {
+            parts.push(r.dateApplied
+                ? `Date : ${r.dateRange.min}–${r.dateRange.max}`
+                : 'Date : non appliquée (naissance/décès inconnus)');
+        }
+        if (useDeptEl.checked) {
+            parts.push(r.deptApplied
+                ? `Département : ${escapeHtml(r.deptLabel)}`
+                : 'Département : non appliqué (inconnu)');
+        }
+        return parts.length ? `<ul class="reason-list">${parts.map(x => `<li>${x}</li>`).join('')}</ul>` : '<em>aucun</em>';
+    }
+
+    // Un bouton par variante (nom, prénom) — voir nameVariants dans gallica.js : un prénom composé
+    // donne un lien par prénom, et une femme en a en plus un jeu sous chaque nom de mariage connu
+    // (marqué 💍 pour le distinguer du nom de naissance, marqué 🔎).
+    function linksCell(links) {
+        return `<div class="city-buttons">${links.map(l =>
+            `<a class="btn-link" href="${l.url}" target="_blank" rel="noopener">${l.married ? '💍' : '🔎'} ${escapeHtml([l.surname, l.given].filter(Boolean).join(' '))}</a>`
+        ).join('')}</div>`;
+    }
+
+    function renderResults() {
+        resultsBody.innerHTML = '';
+        sortedResults().forEach(r => {
+            const p = r.person;
+            const tr = document.createElement('tr');
+            const birthDisplay = r.birthEst ? `${r.birthEst.year}${r.birthEst.estimated ? ' (est.)' : ''}` : '<em>inconnue</em>';
+            const deathDisplay = p.death?.year != null ? `${p.death.year}${p.death.approx ? ' (env.)' : ''}` : '-';
+            tr.innerHTML = `
+                <td>${r.sosa != null ? r.sosa : '-'}</td>
+                <td>${escapeHtml(p.surname || '')}</td>
+                <td>${escapeHtml(p.given || '')}</td>
+                <td>${birthDisplay}</td>
+                <td>${deathDisplay}</td>
+                <td>${appliedFiltersCell(r)}</td>
+                <td>${linksCell(r.links)}</td>
+                ${verifCells(GX_VERIF_KEY, p.id)}
+            `;
+            resultsBody.appendChild(tr);
+        });
+    }
+
+    csvBtn.addEventListener('click', () => {
+        if (!lastResults.length) return;
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Deces', 'Date min appliquee', 'Date max appliquee', 'Departement applique', 'Nom recherche', 'Prenom recherche', 'Nom de mariage', 'URL Gallica'];
+        const rows = [];
+        sortedResults().forEach(r => {
+            r.links.forEach(l => rows.push([
+                r.sosa != null ? r.sosa : '',
+                r.person.id,
+                r.person.surname || '',
+                r.person.given || '',
+                r.birthEst ? r.birthEst.year : '',
+                r.birthEst ? (r.birthEst.estimated ? 'oui' : 'non') : '',
+                r.person.death?.year != null ? r.person.death.year : '',
+                r.dateApplied ? r.dateRange.min : '',
+                r.dateApplied ? r.dateRange.max : '',
+                r.deptApplied ? r.deptLabel : '',
+                l.surname,
+                l.given,
+                l.married ? 'oui' : 'non',
+                l.url
+            ]));
+        });
+        downloadCsv('gallica_pistes.csv', headers, rows);
+    });
+
+    return {
+        applyData(data) {
+            list = data.list; map = data.map; fams = data.fams;
+            analyzeBtn.disabled = !list.length;
+            statusEl.textContent = list.length
+                ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+                : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+        }
+    };
+})();
+
 bootstrap({
     page: 'deces',
     onData: data => {
         dm.applyData(data);
         fa.applyData(data);
+        gx.applyData(data);
     }
 });
 

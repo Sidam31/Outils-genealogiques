@@ -29,6 +29,16 @@
         </div>
     </div>
 
+    <div class="home-summary" id="cacheBox">
+        <p style="margin:0 0 12px;">Sauvegarde des annotations (cases « Vérifié » et commentaires de l'aide à la recherche, hypothèses mises de côté...) : ces informations restent dans le cache de ce navigateur. Téléchargez-les pour les conserver ou les transférer sur un autre appareil.</p>
+        <div style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+            <button class="ghost" id="cacheExportBtn" style="background:#fff;border:1px solid #dcdfe4;color:var(--accent);padding:7px 14px;border-radius:6px;cursor:pointer;font-weight:600;">Télécharger le cache (JSON)</button>
+            <button class="ghost" id="cacheImportBtn" style="background:#fff;border:1px solid #dcdfe4;color:var(--accent);padding:7px 14px;border-radius:6px;cursor:pointer;font-weight:600;">Importer un cache (JSON)</button>
+            <input type="file" id="cacheImportInput" accept=".json,application/json" class="hidden">
+        </div>
+        <div id="cacheStatus" style="margin-top:10px; font-weight:600;"></div>
+    </div>
+
     <div class="home-tools" id="toolsGrid"></div>
 </main>
 
@@ -36,6 +46,7 @@
 import { readGedcomFile, GedcomParser } from './assets/js/gedcom.js';
 import { saveGedcom, loadGedcom, clearGedcom } from './assets/js/store.js';
 import { renderHeader } from './assets/js/nav.js';
+import { exportCacheToFile, importCacheFromFile } from './assets/js/utils.js';
 
 renderHeader('home');
 
@@ -111,6 +122,33 @@ clearBtn.addEventListener('click', async () => {
     fileInput.value = '';
     loadStatus.style.color = '#333';
     loadStatus.textContent = 'Fichier retiré.';
+});
+
+const cacheStatus = document.getElementById('cacheStatus');
+const cacheImportInput = document.getElementById('cacheImportInput');
+
+document.getElementById('cacheExportBtn').addEventListener('click', () => {
+    const n = exportCacheToFile();
+    cacheStatus.style.color = '#333';
+    cacheStatus.textContent = n ? `${n} entrée(s) téléchargée(s).` : "Aucune annotation en cache pour l'instant.";
+});
+
+document.getElementById('cacheImportBtn').addEventListener('click', () => cacheImportInput.click());
+
+cacheImportInput.addEventListener('change', async (e) => {
+    const file = e.target.files[0];
+    if (!file) return;
+    try {
+        const n = await importCacheFromFile(file);
+        cacheStatus.style.color = '#333';
+        cacheStatus.textContent = `${n} entrée(s) importée(s). Rechargez les autres pages pour voir les annotations.`;
+    } catch (err) {
+        console.error(err);
+        cacheStatus.style.color = '#c0392b';
+        cacheStatus.textContent = "Fichier JSON invalide.";
+    } finally {
+        cacheImportInput.value = '';
+    }
 });
 
 // Fichier déjà chargé (visite précédente) : afficher directement le résumé.

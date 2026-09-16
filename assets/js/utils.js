@@ -69,6 +69,43 @@ export function wireVerifCellEvents(tbody) {
     }, true);
 }
 
+// --- Export/import du cache d'annotations (vérifiés/commentaires de recherche.html, hypothèses mises
+// de côté de parentes.html...) : toutes les clés localStorage de l'app sont préfixées "visugedcom_"
+// (voir loadVerifStore ci-dessus et HYP_CACHE_KEY dans hypotheses.js), ce qui permet de tout
+// regrouper sans lister les clés une par une. Le GEDCOM lui-même n'est pas concerné : il est stocké
+// à part, en IndexedDB (voir store.js), pour rester disponible d'une page à l'autre.
+const CACHE_PREFIX = 'visugedcom_';
+
+export function exportCacheToFile() {
+    const data = {};
+    for (let i = 0; i < localStorage.length; i++) {
+        const key = localStorage.key(i);
+        if (!key || !key.startsWith(CACHE_PREFIX)) continue;
+        try { data[key] = JSON.parse(localStorage.getItem(key)); } catch (e) { /* entrée corrompue : ignorée */ }
+    }
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = `visugedcom_cache_${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    URL.revokeObjectURL(url);
+    return Object.keys(data).length;
+}
+
+export async function importCacheFromFile(file) {
+    const data = JSON.parse(await file.text());
+    let count = 0;
+    for (const [key, value] of Object.entries(data)) {
+        if (!key.startsWith(CACHE_PREFIX)) continue;
+        localStorage.setItem(key, JSON.stringify(value));
+        count++;
+    }
+    return count;
+}
+
 // Remonte la lignée directe (père/mère) depuis rootId et renvoie la liste des identifiants (racine incluse).
 export function getAncestorIds(individuals, rootId) {
     const ids = [];
