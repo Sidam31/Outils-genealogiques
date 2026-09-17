@@ -1,4 +1,6 @@
 // --- VISUALIZATION ---
+import { labelForOther } from './timeline.js';
+
 export class FanChart {
     constructor(id) {
         this.div = document.getElementById(id);
@@ -55,15 +57,18 @@ export class FanChart {
         return node;
     }
 
-    buildDesc(id) {
+    // Construit l'arbre descendant jusqu'à maxDepth générations sous la racine (depth 0 = racine,
+    // depth 1 = enfants, depth 2 = petits-enfants, ...).
+    buildDesc(id, depth, maxDepth) {
         const i = this.map.get(id);
         if(!i) return null;
         const node = { ...i, children:[], isDesc:true };
-        i.fams.forEach(fid => {
+        if(depth >= maxDepth) return node;
+        (i.fams || []).forEach(fid => {
             const f = this.fams.get(fid);
-            if(f) f.children.forEach(cid => {
-                const c = this.map.get(cid);
-                if(c) node.children.push({ ...c, children:[], isDesc:true });
+            if(f) (f.children || []).forEach(cid => {
+                const c = this.buildDesc(cid, depth + 1, maxDepth);
+                if(c) node.children.push(c);
             });
         });
         return node;
@@ -102,7 +107,8 @@ export class FanChart {
         // Dans le système D3: 0 = 12h, π/2 = 3h, π = 6h (bas), -π/2 = 9h
         // Pour les descendants, on assigne manuellement les positions
         // pour centrer symétriquement autour de π (6h)
-        const descTree = this.buildDesc(this.rootId);
+        const descMaxGen = parseInt(document.getElementById('descGenSelect')?.value || '1');
+        const descTree = this.buildDesc(this.rootId, 0, descMaxGen);
         if(descTree && descTree.children.length > 0) {
             const numChildren = descTree.children.length;
             this.numDescChildren = numChildren;
@@ -119,23 +125,25 @@ export class FanChart {
             // On veut que le CENTRE de l'ensemble soit sur π
             this.descStartOffset = Math.PI - totalSpan / 2;
 
-            // Rayons pour les descendants
+            // Rayons pour les descendants : chaque génération garde une épaisseur minimale lisible
+            // (assez pour le texte) plutôt que de se répartir sur un espace total fixe qui
+            // rétrécirait chaque anneau au fur et à mesure qu'on ajoute des générations — l'espace
+            // total s'étend donc vers l'extérieur avec le nombre de générations affichées.
             const innerR = 80;
-            const outerR = r / 1.8;
+            const baseOuterR = r / 1.8;
+            const minRingWidth = 65;
+            const ringWidth = Math.max(minRingWidth, (baseOuterR - innerR) / descMaxGen);
 
-            // Assigner manuellement les positions aux enfants
             rootDesc.y0 = 0;
             rootDesc.y1 = innerR;
             rootDesc.x0 = 0;
             rootDesc.x1 = totalSpan;
+            rootDesc.depth = 0;
 
             if(rootDesc.children) {
                 rootDesc.children.forEach((child, i) => {
-                    // Chaque enfant occupe un segment égal
-                    child.x0 = i * anglePerChild;
-                    child.x1 = (i + 1) * anglePerChild;
-                    child.y0 = innerR;
-                    child.y1 = outerR;
+                    // Chaque enfant de la racine occupe un segment égal (comme avant)
+                    this.assignDescPartition(child, i * anglePerChild, anglePerChild, 1, descMaxGen, innerR, ringWidth);
                 });
             }
 
@@ -212,6 +220,24 @@ export class FanChart {
         }
     }
 
+    // Assigne récursivement x0/x1/y0/y1/depth à un nœud descendant et à ses enfants : chaque
+    // génération occupe un anneau de largeur ringWidth, et chaque nœud répartit son propre empan
+    // angulaire à parts égales entre ses enfants (mise en page en "sunburst" classique).
+    assignDescPartition(node, startAngle, angleSpan, depth, maxDepth, innerR, ringWidth) {
+        node.x0 = startAngle;
+        node.x1 = startAngle + angleSpan;
+        node.y0 = innerR + (depth - 1) * ringWidth;
+        node.y1 = innerR + depth * ringWidth;
+        node.depth = depth;
+
+        if(node.children && node.children.length && depth < maxDepth) {
+            const childAngle = angleSpan / node.children.length;
+            node.children.forEach((child, i) => {
+                this.assignDescPartition(child, startAngle + i * childAngle, childAngle, depth + 1, maxDepth, innerR, ringWidth);
+            });
+        }
+    }
+
     drawPaths(nodes, arc, colorScale, mode, type) {
         const self = this;
         this.g.selectAll(`path.${type}`)
@@ -271,8 +297,9 @@ export class FanChart {
                     r += isFirst ? -8 : 8;
                 }
 
-                // DESCENDANTS: texte radial si plus de 4 enfants
-                if(type === 'desc' && this.numDescChildren > 4) {
+                // DESCENDANTS: texte radial si plus de 4 enfants sur le 1er anneau, ou dès la 2e génération
+                // (anneaux plus étroits une fois qu'on affiche petits-enfants/arrière-petits-enfants)
+                if(type === 'desc' && (this.numDescChildren > 4 || d.depth >= 2)) {
                     // Texte radial pour les descendants
                     // Le texte doit pointer vers l'extérieur, lisible
                     // Pour le côté gauche (6h-9h): normAng entre 90 et 180
@@ -375,7 +402,7 @@ export class FanChart {
         const radialThickness = Math.max(0, d.y1 - d.y0);
         const tangentialLen = Math.max(1, angularSpan * r);
 
-        const isRadial = (type === 'anc' && d.depth >= 5) || (type === 'desc' && this.numDescChildren > 4);
+        const isRadial = (type === 'anc' && d.depth >= 5) || (type === 'desc' && (this.numDescChildren > 4 || d.depth >= 2));
         const availW = Math.max(4, isRadial ? radialThickness : tangentialLen);
         const availH = Math.max(4, isRadial ? tangentialLen : radialThickness);
 
@@ -655,17 +682,65 @@ export class FanChart {
         t.style.opacity = 1;
         const row = (l,v,r) => v ? `<div class="tt-row"><span class="tt-lbl">${l}</span><span>${v}</span></div>${r?`<div class="tt-raw">"${r}"</div>`:''}` : '';
         const pl = (g) => g ? (g.dept||g.country||'') : '';
-        t.innerHTML = `<strong>${this.displayNameHtml(i)}</strong>
+        const yearGeo = (ev) => {
+            if(!ev) return null;
+            const y = ev.year ? `${ev.year}${ev.approx?' (env.)':''}` : '';
+            const combined = [y, pl(ev.geo)].filter(Boolean).join(' ');
+            return combined || null;
+        };
+        // Événements simples (une seule occurrence possible) : Baptême, Inhumation, Émigration, Immigration
+        const evt = (code, label) => {
+            const ev = i.events?.[code];
+            if(!ev || !ev.hasTag) return '';
+            return row(label, yearGeo(ev) || '—', ev.geo?.raw);
+        };
+
+        let html = `<strong>${this.displayNameHtml(i)}</strong>
             ${row('Naissance', (i.birth?.year||'')+' '+pl(i.birth?.geo), i.birth?.geo?.raw)}
+            ${evt('BAPM','Baptême')}
             ${row('Décès', (i.death?.year||'')+' '+pl(i.death?.geo)+(i.ageDeath?` (${i.ageDeath} ans)`:''), i.death?.geo?.raw)}
-            ${row('Enfants', i.childCount ? `${i.childCount}${i.childrenYears?.length ? ' (' + i.childrenYears.join(', ') + ')' : ''}` : null)}
-            ${row('Mariage', (i.marrYear||'')+' '+(i.marrGeo?.dept||'')+(i.ageMarr?` (${i.ageMarr} ans)`:''), i.marrGeo?.raw)}`;
+            ${evt('BURI','Inhumation')}`;
+
+        // Mariage(s) : tous les actes de mariage connus (pas seulement le premier)
+        (i.fams || []).forEach(fid => {
+            const f = this.fams?.get(fid);
+            if(!f || !f.marr?.hasTag) return;
+            const spouseId = f.husb === i.id ? f.wife : (f.wife === i.id ? f.husb : null);
+            const spouse = spouseId ? this.map.get(spouseId) : null;
+            const age = (i.birth?.year && f.marr.year) ? ` (${Math.max(0, f.marr.year - i.birth.year)} ans)` : '';
+            html += row(spouse ? `Mariage (${spouse.name})` : 'Mariage', (f.marr.year||'')+' '+pl(f.marr.geo)+age, f.marr.geo?.raw);
+        });
+
+        html += row('Enfants', i.childCount ? `${i.childCount}${i.childrenYears?.length ? ' (' + i.childrenYears.join(', ') + ')' : ''}` : null);
+
+        html += evt('EMIG','Émigration');
+        html += evt('IMMI','Immigration');
+
+        // Recensements et résidences : chaque occurrence connue
+        (i.censusEvents || []).forEach(c => { html += row('Recensement', yearGeo(c) || '—', c.geo?.raw); });
+        (i.resiEvents || []).forEach(r => { html += row('Résidence', yearGeo(r) || '—', r.geo?.raw); });
+
+        // Professions
+        if(i.occupations?.length) {
+            const profs = Array.from(new Set(i.occupations.map(o => o.profession).filter(Boolean)));
+            if(profs.length) html += row(profs.length > 1 ? 'Professions' : 'Profession', profs.join(', '));
+        }
+
+        // Autres faits (EVEN/FACT génériques, ex. diplôme, service militaire...) non déjà listés ci-dessus
+        (i.otherEvents || []).forEach(o => {
+            if(o.isCens || o.isResi || o.isOccupation) return;
+            const raw = o.geo?.raw || (o.value && o.value !== o.typeLabel ? o.value : null);
+            html += row(labelForOther(o), yearGeo(o) || '—', raw);
+        });
+
+        t.innerHTML = html;
         this.moveTooltip(e);
     }
     moveTooltip(e) {
         const t = document.getElementById('tooltip');
+        const maxTop = Math.max(0, window.innerHeight - t.offsetHeight - 10);
         t.style.left = Math.min(e.pageX+15, window.innerWidth-320) + 'px';
-        t.style.top = Math.min(e.pageY+15, window.innerHeight-250) + 'px';
+        t.style.top = Math.min(e.pageY+15, window.scrollY + maxTop) + 'px';
     }
     hideTooltip() { document.getElementById('tooltip').style.opacity = 0; }
 }

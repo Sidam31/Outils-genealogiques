@@ -85,7 +85,7 @@ nav.tabs a.tab-btn { text-decoration: none; display: inline-flex; align-items: c
 .dot { width: 10px; height: 10px; margin-right: 6px; border-radius: 2px; }
 
 /* TOOLTIP */
-#tooltip { position: absolute; pointer-events: none; opacity: 0; background: rgba(30,30,30,0.95); color: #fff; padding: 10px 14px; border-radius: 4px; font-size: 0.8rem; z-index: 200; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: opacity 0.1s; max-width: 300px; line-height: 1.4; }
+#tooltip { position: absolute; pointer-events: none; opacity: 0; background: rgba(30,30,30,0.95); color: #fff; padding: 10px 14px; border-radius: 4px; font-size: 0.8rem; z-index: 200; box-shadow: 0 4px 12px rgba(0,0,0,0.2); transition: opacity 0.1s; max-width: 320px; max-height: 70vh; overflow: hidden; line-height: 1.4; }
 #tooltip strong { color: #6bb9f0; display: block; margin-bottom: 4px; border-bottom: 1px solid #555; padding-bottom: 4px; }
 .tt-row { display: flex; justify-content: space-between; gap: 15px; margin-bottom: 2px; }
 .tt-raw { color: #bbb; font-style: italic; font-size: 0.7rem; margin-top: 2px; }
