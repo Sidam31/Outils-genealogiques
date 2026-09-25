@@ -417,6 +417,21 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_11.json',
         catalogUrl: 'https://archivesdepartementales.aude.fr/sites/default/files/media/files/Sous-s%C3%A9rie_3Q.pdf',
     },
+    '85': {
+        label: 'Vendée',
+        // Bornes réelles de la série (46 registres, 17 bureaux sur 26 - les autres n'ont pas de
+        // "Tables des contrats de mariage" cataloguée dans ce fonds, voir
+        // scripts_py/scrape_contrats_mariage_vendee.py). Débloqué incidemment en résolvant
+        // successions.js (SUCCESSION_DEPTS['85']) : même portail "InMedia Technologies", même
+        // bureaux, la table de mariage est un simple noeud voisin de "Successions" dans l'arbre EAD
+        // déjà mis en cache par ce même scraper — aucune requête réseau supplémentaire nécessaire
+        // pour les bureaux déjà couverts par le mode Successions. Aucun registre numérisé en ligne
+        // à ce jour (digitized toujours faux).
+        minYear: 1791,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_85.json',
+        catalogUrl: 'https://archives.vendee.fr/consulter/inventaires-et-catalogues-en-ligne',
+    },
 };
 
 function fetchJson(url) {

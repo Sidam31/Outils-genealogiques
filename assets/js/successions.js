@@ -1125,6 +1125,30 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_36.json',
         catalogUrl: 'https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q',
     },
+    '85': {
+        label: 'Vendée',
+        kind: 'facet',
+        // Bornes réelles de la série (436 registres, 26 bureaux, voir
+        // scripts_py/scrape_successions_vendee.py) - débloque un blocage de longue date (voir
+        // recherche.html) : portail "InMedia Technologies" (React + API JSON), longtemps arrêté sur
+        // une case à cocher de facette ("Origine : Services fiscaux") qui ne réagissait à aucun clic
+        // Playwright - et qui, une fois abordable, s'est révélée être un faux espoir (elle restreint
+        // en fait au fonds du CADASTRE, pas à l'Enregistrement). La vraie clé : la case SE laisse
+        // cocher via un focus + touche Espace (événement clavier réellement "trusted", contrairement
+        // à un clic simulé) suivi d'un clic Playwright normal sur le bon bouton "Rechercher" - mais la
+        // restriction de fonds utile en pratique est une case bien plus simple apparue après toute
+        // recherche, "Nature de documents : archives" (exclut la bibliothèque numérisée du même
+        // catalogue, l'autre moitié du blocage d'origine). Chaque bureau retrouvé n'expose qu'UNE
+        // notice couvrant toute la série "Tables des déclarations de successions ou absences" (nom
+        // moderne, post-1825, de la table) ; le détail par registre daté n'apparaît que sur la page de
+        // cette notice elle-même (arbre EAD complet du bureau, filtré ici par noeud parent). Aucun
+        // registre numérisé en ligne à ce jour (digitized toujours faux) - seul le catalogue est
+        // consultable pour l'instant.
+        minYear: 1793,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_85.json',
+        catalogUrl: 'https://archives.vendee.fr/consulter/inventaires-et-catalogues-en-ligne',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif
