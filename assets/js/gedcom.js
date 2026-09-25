@@ -87,7 +87,9 @@ export class GedcomParser {
     }
     parse(txt) {
         if(txt.charCodeAt(0)===0xFEFF) txt=txt.slice(1);
-        const lines = txt.split(/\r?\n/);
+        // \r\n (Windows), \n (Unix) ou \r seul (Mac classique — ex. exports MacFamilyTree) :
+        // un fichier n'utilisant que \r comme séparateur ne serait sinon jamais découpé en lignes.
+        const lines = txt.split(/\r\n|\r|\n/);
         let cur=null, type=null, headPlacCtx=false;
         const re = /^\s*(\d+)\s+(@[^@]+@|[A-Za-z0-9_]+)(?:\s+(.*))?$/;
         for(const line of lines) {
