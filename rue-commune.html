@@ -465,6 +465,7 @@ function init(DB) {
         ? `${item.cat} · ${item.arr}ᵉ arr. · quartiers : ${uniq.join(', ')}`
         : `${item.cat} · ${item.arr}ᵉ arr. · ${item.quartier ? item.quartier : 'quartier '+item.quart}`;
     }
+    const numHtml = numerosParQuartier(item);
     const src = (item.sources||[]).join(' · ');
     // ancien_noms : string[] (anciennes voies supprimées, pas encore datées) ou
     // {nom, annee, periode, confidence}[] (cf. scripts/enrich-ancien-noms-dates.mjs et
@@ -501,9 +502,22 @@ function init(DB) {
       ${item.supprimee&&item.note?`<p class="gone-note">${esc(item.note)}</p>`:''}
       ${anc.length?`<p class="anc"><span class="anc-label">anc.</span> ${ancHtml}</p>`:''}
       ${vars.length?`<p class="variants">${varsHtml}</p>`:''}
+      ${numHtml?`<p class="numeros" title="${esc(NUM_TITLE)}"><span class="anc-label">n°</span> ${numHtml}</p>`:''}
       ${geoParts.length?`<p class="geo">${geoParts.join(' · ')}</p>`:''}
       <p class="src">${esc(src)}</p>
     </li>`;
+  }
+
+  // Zones de numéros de bâtiment → quartier (champ repartition_numeros, déduit des adresses des
+  // décès à la Pitié 1809-1825). p = probabilité lissée que le quartier soit le bon dans la zone.
+  const NUM_TITLE = "Déduit des adresses de décès à la Pitié (1809-1825) ; p = probabilité estimée, frontières approximatives";
+  function numerosParQuartier(item){
+    const z = item.repartition_numeros && item.repartition_numeros.zones;
+    if(!z || !z.length) return '';
+    return z.map(x => {
+      const plage = x.a==null ? `${x.de} et +` : (x.de===x.a ? `${x.de}` : `${x.de}–${x.a}`);
+      return `${plage} : ${esc(x.quartier)} <span class="anc-year">(p=${x.p.toFixed(2).replace('.',',')}, ${x.n} obs.)</span>`;
+    }).join(' · ');
   }
 
   // --- Carte (MapLibre + tuiles OpenStreetMap) ---
@@ -596,7 +610,7 @@ function init(DB) {
         source: 'streets',
         paint: {
           'circle-radius': ['match', ['get','geoSource'], 'quartier', 5, 6],
-          'circle-color': ['match', ['get','geoSource'], 'wikidata','#3b82f6', 'osm','#95a5a6', 'quartier','#e67e22', '#999999'],
+          'circle-color': ['match', ['get','geoSource'], 'wikidata','#3b82f6', 'wikipedia','#3b82f6', 'osm','#95a5a6', 'quartier','#e67e22', '#999999'],
           'circle-opacity': ['match', ['get','geoSource'], 'quartier', 0.55, 1],
           'circle-stroke-color': '#fff',
           'circle-stroke-width': 1.5
@@ -611,7 +625,7 @@ function init(DB) {
           : (p.geoSource==='osm' ? `<br><em>position approximative (OpenStreetMap)</em>` : '');
         popup = new maplibregl.Popup({ closeButton:false, closeOnClick:false, maxWidth:'260px' })
           .setLngLat(e.features[0].geometry.coordinates)
-          .setHTML(`<strong>${esc(p.name)}</strong>${esc(p.meta||'')}${precisionNote}${p.wikipedia?`<br><a href="${p.wikipedia}" target="_blank" rel="noopener">Wikipédia ↗</a>`:''}`)
+          .setHTML(`<strong>${esc(p.name)}</strong>${esc(p.meta||'')}${precisionNote}${p.numeros?`<br><small>n° ${p.numeros}</small>`:''}${p.wikipedia?`<br><a href="${p.wikipedia}" target="_blank" rel="noopener">Wikipédia ↗</a>`:''}`)
           .addTo(mapInstance);
       });
       mapInstance.on('mouseleave', 'streets-point', () => {
@@ -633,7 +647,8 @@ function init(DB) {
         meta: s.arr!=null ? ` · ${s.arr}ᵉ arr.` : '',
         wikipedia: s.wikipedia || null,
         geoSource: s.geoSource || null,
-        geoQuartier: s.geoQuartier || null
+        geoQuartier: s.geoQuartier || null,
+        numeros: numerosParQuartier(s) || null
       }
     }));
     mapInstance.getSource('streets').setData({ type:'FeatureCollection', features });
