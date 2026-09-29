@@ -44,9 +44,9 @@ export function gallicaDeptLabel(p) {
 // seule requête prox — on propose donc un lien par prénom plutôt qu'une phrase à rallonge qui
 // n'aurait de sens que si tous étaient accolés tels quels dans le document recherché.
 export function personForenames(p) {
-    const given = (p.given || '').trim();
-    if (!given) return [''];
-    return Array.from(new Set(given.split(/\s+/).filter(Boolean)));
+    const givens = p.givens?.length ? p.givens : (p.given || '').trim().split(/\s+/).filter(Boolean);
+    if (!givens.length) return [''];
+    return Array.from(new Set(givens));
 }
 
 // Nom(s) "de mariage" d'une femme : le patronyme de son ou ses époux successifs (via les familles où

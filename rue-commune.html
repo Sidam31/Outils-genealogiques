@@ -230,6 +230,10 @@ renderHeader('rue-commune');
   <div class="filters">
     <label for="communeDeptFilter" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Filtrer par département</label>
     <select id="communeDeptFilter" class="filter-select" aria-label="Filtrer par département"></select>
+    <label class="tolerance" for="communeEpoch" title="Année de l'acte : les départements et communes proposés sont ceux de cette époque (Savoie/Nice avant 1860, Belfort et Alsace-Lorraine en 1871, Seine/Seine-et-Oise avant 1968, Corse avant 1976, départements renommés). Vide = aujourd'hui.">
+      Époque
+      <input id="communeEpoch" type="number" min="1793" max="2006" step="1" placeholder="année" style="width:5.5em">
+    </label>
     <label class="tolerance" for="communeTolerance" title="Plus la tolérance est haute, plus la recherche accepte de lettres différentes de la transcription — utile sur une graphie très incertaine, au prix de plus de bruit.">
       Tolérance aux erreurs
       <select id="communeTolerance">
@@ -339,6 +343,7 @@ function init(DB) {
     '<li><span class="s-tag">Lazare 1844</span> Félix &amp; Louis Lazare, <em>Dictionnaire administratif et historique des rues de Paris et de ses monuments</em> (1844) — noms, quartiers, changements de noms, voies supprimées. <a href="https://fr.wikisource.org/wiki/Dictionnaire_administratif_et_historique_des_rues_de_Paris_et_de_ses_monuments" target="_blank" rel="noopener">Wikisource</a></li>' +
     '<li><span class="s-tag">Perrot 1834</span> A.-M. Perrot, <em>Petit Atlas pittoresque des quarante-huit quartiers de la ville de Paris</em> (1834) — arrondissement et quartier. <a href="https://commons.wikimedia.org/wiki/File:Petit_atlas_pittoresque_-_56._Composite_text_-_Rue_de_Paris_-_David_Rumsey.jpg" target="_blank" rel="noopener">Wikimedia Commons / David Rumsey</a></li>' +
     '<li><span class="s-tag">Wikipédia</span> <em>Liste des anciens noms de voies de Paris</em> — noms actuels (« devenu ») et voies postérieures à 1844. <a href="https://fr.wikipedia.org/wiki/Liste_des_anciens_noms_de_voies_de_Paris" target="_blank" rel="noopener">fr.wikipedia.org</a></li>' +
+    '<li><span class="s-tag">Ville de Paris</span> <em>Dénominations des emprises des voies actuelles</em> — voie actuelle correspondante (statut, arrêté de dénomination, historique) et position. <a href="https://opendata.paris.fr/explore/dataset/denominations-emprises-voies-actuelles/information/" target="_blank" rel="noopener">Open Data Paris</a></li>' +
     '<li><span class="s-tag">Consultation</span> Apur — <em>Cassini / Grand Paris</em>, visualisation cartographique de l’évolution des voies. <a href="https://www.apur.org/dataviz/cassini-grand-paris/" target="_blank" rel="noopener">apur.org</a></li>' +
     '</ul></div>';
 
@@ -702,6 +707,7 @@ function init(DB) {
   const anchorListEl = document.getElementById('communeAnchorList');
   const anchorClearBtn = document.getElementById('communeAnchorClear');
   const anchorNoteEl = document.getElementById('communeAnchorNote');
+  const epochEl = document.getElementById('communeEpoch');
 
   // La base (~36 500 communes, Cassini/EHESS via communes_evolution, + identifiant SocFace pour les
   // communes appariées) vit dans un fichier JSON PAR DÉPARTEMENT (assets/data/communes_population/
@@ -741,6 +747,106 @@ function init(rows) {
   });
   q.disabled = false;
 
+  // --- Époque de recherche ---
+  // Les fichiers communes_population/ ne portent que le département ACTUEL de chaque commune (les
+  // données Cassini brutes avec l'historique de rattachement ne sont pas dans le dépôt). Le rattachement
+  // à une date donnée est donc reconstitué ici depuis une table des principaux changements connus —
+  // approximative (TRANSFERS et SEO_SETS : listes de communes connues, non exhaustives) :
+  //  - avant 1860 : Savoie (73, 74) et comté de Nice (06) hors de France (le Var d'alors incluait
+  //    l'arrondissement de Grasse, non distingué ici) ; avant 1947 : Tende et La Brigue en Italie ;
+  //  - avant 1871 : Territoire de Belfort (90) dans le Haut-Rhin (68), le 54 est la Meurthe ;
+  //    1871-1918 : Moselle, Bas-Rhin et Haut-Rhin annexés (Empire allemand) ;
+  //  - avant 1968 : Seine (75, 92, 93, 94) et Seine-et-Oise (78, 91, 95) ;
+  //  - avant 1976 : Corse (2A, 2B) en département unique "20" ;
+  //  - noms de départements renommés depuis (RENAMED).
+  const RENAMED = { '04':[1970,'Basses-Alpes'], '17':[1941,'Charente-Inférieure'], '22':[1990,'Côtes-du-Nord'],
+                    '44':[1957,'Loire-Inférieure'], '64':[1969,'Basses-Pyrénées'], '76':[1955,'Seine-Inférieure'] };
+  const SEO_SETS = {
+    '93': new Set(['aulnay sous bois','clichy sous bois','coubron','gagny','gournay sur marne','livry gargan',
+      'montfermeil','neuilly plaisance','neuilly sur marne','noisy le grand','le raincy',
+      'sevran','tremblay en france','tremblay les gonesse','vaujours','villepinte','le blanc mesnil']),
+    '92': new Set(['chaville','garches','marnes la coquette','meudon','rueil malmaison','saint cloud','sevres',
+      'vaucresson','ville d avray']),
+    '94': new Set(['boissy saint leger','chennevieres sur marne','villiers sur marne','limeil brevannes',
+      'mandres les roses','marolles en brie','noiseau','ormesson sur marne','perigny','le plessis trevise',
+      'la queue en brie','santeny','sucy en brie','valenton','villecresnes','villeneuve saint georges',
+      'villeneuve le roi','ablon sur seine'])
+  };
+  // Communes ayant changé de département depuis 1800 : [département actuel, ancien département, année du
+  // transfert, [noms normalisés (actuels ou anciens)]]. Source : Wikipédia, « Liste des communes de France
+  // ayant changé de département » (seules les communes présentes dans communes_population/ sont reprises ;
+  // les transferts en bloc — Tarn-et-Garonne 1808, cantons de Montbéliard 1816, arrondissement de Grasse
+  // 1860 — ne sont pas détaillés). Avant l'année : ancien département ; à partir de l'année : actuel.
+  // Le département enregistré dans les fichiers peut être l'ancien comme le nouveau (les données
+  // s'arrêtent à 2006) : on teste les deux.
+  const TRANSFERS = [
+    ['38', '05', 1800, ['ambel', 'beaufin', 'cordeac', 'monestier d ambel', 'pellafol']],
+    ['81', '31', 1803, ['teulat', 'bannieres', 'montcabrier']],
+    ['05', '04', 1810, ['barcillonnette', 'esparron', 'vitrolles']],
+    ['55', '08', 1821, ['cesse']],
+    ['61', '53', 1824, ['saint denis de villenette']],
+    ['53', '61', 1824, ['madre']],
+    ['70', '25', 1829, ['couthenans']],
+    ['61', '53', 1832, ['ceauce', 'la chapelle moche', 'saint fraimbault sur pisse', 'geneslay', 'tesse froulay']],
+    ['53', '61', 1832, ['lesbois', 'le housseau', 'rennes en grenouilles', 'sainte marie du bois']],
+    ['67', '57', 1833, ['obersteinbach']],
+    ['40', '32', 1850, ['labastide d armagnac']],
+    ['69', '38', 1852, ['bron', 'vaulx en velin', 'venissieux', 'villeurbanne']],
+    ['29', '56', 1857, ['locunole']],
+    ['69', '01', 1968, ['genay', 'montanay', 'rillieux', 'sathonay camp', 'sathonay village']],
+    ['69', '38', 1968, ['chaponnay', 'chassieu', 'communay', 'corbas', 'decines charpieu', 'feyzin', 'genas', 'jonage', 'jons', 'marennes', 'meyzieu', 'mions', 'pusignan', 'saint bonnet de mure', 'saint laurent de mure', 'saint pierre de chandieu', 'saint priest', 'saint symphorien d ozon', 'serezin du rhone', 'simandres', 'solaize', 'ternay', 'toussieu']],
+    ['62', '80', 1970, ['ytres']],
+    ['69', '38', 1971, ['colombier saugnieu']],
+    ['54', '55', 1996, ['han devant pierrepont']],
+  ];
+  const transferOf = (c, Y) => {
+    const names = [c.name, ...c.altNames].map(normalizePlace);
+    return TRANSFERS.find(([now, old, until, list]) =>
+      Y < until && (c.dept === now || c.dept === old) && names.some(n => list.includes(n)));
+  };
+  const isSeineEtOise = c => { const set = SEO_SETS[c.dept]; return !!set && [c.name, ...c.altNames].some(n => set.has(normalizePlace(n))); };
+
+  // -> { code, label } : département de la commune à l'année Y (code = clé du filtre, pas forcément un
+  // code INSEE actuel : 'SAV', 'NIC', 'ITA', 'AL', '20').
+  function eraDept(c, Y){
+    const d = c.dept, cur = GEO.deptLabels[d] || d;
+    if(Y == null) return { code:d, label:cur };
+    const tr = transferOf(c, Y);
+    if(tr) return { code:tr[1], label:RENAMED[tr[1]] && Y < RENAMED[tr[1]][0] ? RENAMED[tr[1]][1] : (GEO.deptLabels[tr[1]] || tr[1]) };
+    if(Y < 1860 && (d==='73' || d==='74')) return { code:'SAV', label:'Savoie (États sardes)' };
+    if(Y < 1860 && d==='06') return { code:'NIC', label:'Var / comté de Nice (avant 1860)' };
+    if(Y < 1947 && d==='06' && ['tende','la brigue'].includes(normalizePlace(c.name))) return { code:'ITA', label:'Italie (avant 1947)' };
+    if(Y < 1871 && d==='90') return { code:'68', label:'Haut-Rhin' };
+    if(Y >= 1871 && Y <= 1918 && (d==='57' || d==='67' || d==='68')) return { code:'AL', label:'Alsace-Lorraine annexée (Empire allemand)' };
+    if(Y < 1871 && d==='54') return { code:'54', label:'Meurthe (ou Moselle : Briey, Longwy)' };
+    if(Y < 1968){
+      if(d==='75' || d==='92' || d==='93' || d==='94'){
+        return isSeineEtOise(c) ? { code:'78', label:'Seine-et-Oise' } : { code:'75', label:'Seine' };
+      }
+      if(d==='78' || d==='91' || d==='95') return { code:'78', label:'Seine-et-Oise' };
+    }
+    if(Y < 1976 && (d==='2A' || d==='2B')) return { code:'20', label:'Corse' };
+    const ren = RENAMED[d];
+    if(ren && Y < ren[0]) return { code:d, label:ren[1] };
+    return { code:d, label:cur };
+  }
+  // Commune existante à l'année Y ? Une commune dont le premier recensement est postérieur à Y n'existait
+  // pas encore sous ce nom (création/fusion) — sauf si elle porte d'anciens noms (fusion/renommage) : elle
+  // reste alors proposée, sous ces noms d'origine. Sans effet avant 1793 (début des relevés Cassini).
+  function existsAt(c, Y){
+    if(Y == null || Y < 1793) return true;
+    const p = c.population;
+    return !p || !p.length || p[0][0] <= Y || c.altNames.length > 0;
+  }
+  let epoch = null;
+  function applyEpoch(){
+    communes.forEach(c => {
+      const e = eraDept(c, epoch);
+      c.eDept = e.code; c.eLabel = e.label; c.visible = existsAt(c, epoch);
+    });
+  }
+  applyEpoch();
+
   document.getElementById('communeFoot').innerHTML =
     communes.length.toLocaleString('fr-FR') + ' communes (limites et noms historiques, France métropolitaine). ' +
     'Population par recensement (Cassini/EHESS) affichée à titre indicatif pour confirmer une correspondance plausible. ' +
@@ -770,15 +876,28 @@ function init(rows) {
   const results = document.getElementById('communeResults');
 
   // Filtre département : cardinalité trop élevée (96) pour des chips, d'où un <select>, comme le
-  // filtre quartier de l'onglet Rues de Paris.
-  const deptCounts = {};
-  communes.forEach(c => { deptCounts[c.dept] = (deptCounts[c.dept]||0)+1; });
-  const depts = Object.keys(deptCounts).sort((a,b) => deptSortKey(a) - deptSortKey(b));
-  function deptSortKey(code){ if(code==='2A') return 20.1; if(code==='2B') return 20.2; return parseFloat(code); }
+  // filtre quartier de l'onglet Rues de Paris. Reconstruit à chaque changement d'époque : la liste
+  // reflète les départements (et effectifs) de l'année choisie.
+  function deptSortKey(code){
+    if(code==='2A') return 20.1; if(code==='2B') return 20.2;
+    const n = parseFloat(code); return isNaN(n) ? 1000 : n; // codes historiques (SAV, NIC, AL...) en fin
+  }
   let activeDept = null;
-  deptFilterEl.innerHTML = '<option value="">tous départements</option>' +
-    depts.map(d => `<option value="${d}">${d} — ${esc(GEO.deptLabels[d]||d)} · ${deptCounts[d]}</option>`).join('');
+  function buildDeptFilter(){
+    const counts = {}, labels = {};
+    communes.forEach(c => { if(c.visible){ counts[c.eDept] = (counts[c.eDept]||0)+1; labels[c.eDept] = c.eLabel; } });
+    const depts = Object.keys(counts).sort((a,b) => deptSortKey(a) - deptSortKey(b) || a.localeCompare(b));
+    if(activeDept && !counts[activeDept]) activeDept = null;
+    deptFilterEl.innerHTML = '<option value="">tous départements</option>' +
+      depts.map(d => `<option value="${d}"${d===activeDept?' selected':''}>${d} — ${esc(labels[d])} · ${counts[d]}</option>`).join('');
+  }
+  buildDeptFilter();
   deptFilterEl.addEventListener('change', () => { activeDept = deptFilterEl.value || null; render(); });
+  epochEl.addEventListener('input', () => {
+    const y = parseInt(epochEl.value, 10);
+    epoch = (y >= 1000 && y <= 2100) ? y : null;
+    applyEpoch(); buildDeptFilter(); render();
+  });
 
   function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
   function highlight(text, indices){
@@ -789,7 +908,8 @@ function init(rows) {
   }
 
   function popText(item){
-    const p = item.population || [];
+    let p = item.population || [];
+    if(epoch != null){ const upTo = p.filter(d => d[0] <= epoch); if(upTo.length) p = upTo; }
     if(!p.length) return '';
     const [lastYear, lastPop] = p[p.length-1];
     const [firstYear, firstPop] = p[0];
@@ -850,7 +970,7 @@ function init(rows) {
       : `<p class="dist">📍 ${Math.round(distKm)} km de ${esc(anchorItem.name)}</p>`);
     return `<li class="card${cls}" data-insee="${esc(item.insee)}" data-dept="${esc(item.dept)}">
       <p class="name">${nameHtml}${isFusion?' <span class="badge-fusion">fusion/renommage</span>':''}</p>
-      <p class="meta">${esc(item.dept)} — ${esc(GEO.deptLabels[item.dept]||item.dept)} · INSEE ${esc(item.insee)}</p>
+      <p class="meta">${esc(item.eDept)} — ${esc(item.eLabel)}${item.eDept!==item.dept?` <span title="département actuel">(auj. ${esc(item.dept)} — ${esc(GEO.deptLabels[item.dept]||item.dept)})</span>`:''} · INSEE ${esc(item.insee)}</p>
       ${pop?`<p class="pop">${pop}${hasChart?` <button type="button" class="pop-toggle" data-insee="${esc(item.insee)}" aria-expanded="false">📈 évolution</button>`:''}</p>`:''}
       ${hasChart?'<div class="pop-chart" hidden></div>':''}
       ${alts.length?`<p class="variants">anciennement : ${altsHtml}</p>`:''}
@@ -1142,7 +1262,7 @@ function init(rows) {
   }
 
   function pool(){
-    return activeDept ? communes.filter(c => c.dept === activeDept) : communes;
+    return communes.filter(c => c.visible && (!activeDept || c.eDept === activeDept));
   }
 
   function render(){
@@ -1159,7 +1279,7 @@ function init(rows) {
       return;
     }
     let hits = fuse.search(term);
-    if(activeDept) hits = hits.filter(h=>h.item.dept===activeDept);
+    hits = hits.filter(h => h.item.visible && (!activeDept || h.item.eDept === activeDept));
     // Avec une commune de référence, on garde un pool plus large avant de couper à 60 : le
     // classement final tient compte de la distance (cf. rankAndRender), donc un match un peu moins
     // bon textuellement mais tout proche de la référence doit rester dans la course.

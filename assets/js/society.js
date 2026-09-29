@@ -21,6 +21,7 @@ import { ensureFranceGeo, showMapMessage, ensureEuropeGeo, neighborCountryLabel 
 import { escapeHtml } from './utils.js';
 
 function firstGivenName(p) {
+    if (p?.givens?.length) return p.givens[0].toLowerCase();
     const g = p?.given || (p?.name || '').split(' ')[0];
     return g ? g.trim().split(' ')[0].toLowerCase() : '';
 }
@@ -37,9 +38,12 @@ const GIVEN_NAME_EXCLUDED = new Set(['mort', 'né']);
 // p.name (comme firstGivenName ci-dessus) quand given est absent — mais alors un seul prénom est
 // récupérable, pas de rang 2/3.
 function allGivenNames(p) {
-    const raw = (p?.given && p.given.trim()) || (p?.name || '').split(' ')[0] || '';
-    if (!raw) return [];
-    return raw.split(/\s+/).filter(Boolean).filter(token => !GIVEN_NAME_EXCLUDED.has(token.toLowerCase()));
+    let tokens = p?.givens;
+    if (!tokens?.length) {
+        const raw = (p?.given && p.given.trim()) || (p?.name || '').split(' ')[0] || '';
+        tokens = raw.split(/\s+/).filter(Boolean);
+    }
+    return tokens.filter(token => !GIVEN_NAME_EXCLUDED.has(token.toLowerCase()));
 }
 
 function childrenOf(person, fams, map) {

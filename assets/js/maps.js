@@ -2028,6 +2028,7 @@ export function getNameCenturies(list) {
 }
 
 function firstGivenName(p) {
+    if (p.givens?.length) return p.givens[0];
     const g = p.given || (p.name || '').split(' ')[0];
     return g ? g.trim().split(' ')[0] : null;
 }

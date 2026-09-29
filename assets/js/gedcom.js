@@ -601,6 +601,16 @@ export class GedcomParser {
         return { dept:deptDisp, region, country, city, cityChain, beProvince:beProvinceDisp };
     }
     postProcess() {
+        // Certains fichiers séparent les prénoms par des virgules ("Jean Pierre, Marie") : un espace
+        // y désigne alors un prénom composé. Détecté dès qu'un GIVN/prénom du fichier contient une
+        // virgule ; sinon (repli) chaque mot séparé par un espace est un prénom distinct.
+        // Résultat exposé dans i.givens (liste) ; i.given reste une chaîne sans virgule.
+        let commaSeparated = false;
+        this.indis.forEach(i => {
+            (i._names || []).concat(i._curNameBuf ? [i._curNameBuf] : []).forEach(n => {
+                if(n.given && n.given.includes(',')) commaSeparated = true;
+            });
+        });
         this.indis.forEach(i => {
             // Résolution des "1 NAME" mis en attente (voir parseIndi) : le nom légal (TYPE "birth",
             // ou à défaut sans TYPE, ou à défaut le premier rencontré) fournit given/surname — utilisés
@@ -617,6 +627,11 @@ export class GedcomParser {
                 if(primaryEntry.surname) i.surname = primaryEntry.surname;
             }
             delete i._names; delete i._curNameBuf;
+            if(i.given) {
+                const parts = commaSeparated ? i.given.split(',') : i.given.split(/\s+/);
+                i.givens = parts.map(s => s.trim().replace(/\s+/g, ' ')).filter(Boolean);
+                i.given = i.givens.join(' ');
+            } else i.givens = [];
             if(i.famc) { const f=this.fams.get(i.famc); if(f) { if(f.husb) i.fatherId=f.husb; if(f.wife) i.motherId=f.wife; } }
             if(i.birth.year && i.death.year) i.ageDeath = i.death.year - i.birth.year;
             let fMarrY=null, fMarrDay=null, fMarrMonth=null, fChildY=null, tot=0;
