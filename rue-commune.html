@@ -182,7 +182,8 @@ renderHeader('rue-commune');
   </div>
 
   <div class="filters" id="streetFilters" role="group" aria-label="Filtrer par type"></div>
-  <div class="filters" id="streetArrFilters" role="group" aria-label="Filtrer par arrondissement"></div>
+  <div class="filters" id="streetArrFilters" role="group" aria-label="Filtrer par ancien arrondissement (avant 1860)"></div>
+  <div class="filters" id="streetArrNowFilters" role="group" aria-label="Filtrer par arrondissement actuel"></div>
   <div class="filters">
     <label for="streetQuartierFilter" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);">Filtrer par quartier</label>
     <select id="streetQuartierFilter" class="filter-select" aria-label="Filtrer par quartier"></select>
@@ -406,8 +407,35 @@ function init(DB) {
     [...arrFiltersEl.children].forEach(c=>c.setAttribute('aria-pressed',
       (c.dataset.arr||'')===(activeArr==null?'':String(activeArr))?'true':'false'));
   }
-  arrFiltersEl.appendChild(makeArrChip('tous arr.', null));
-  for(let a=1;a<=12;a++){ if(arrCounts[a]) arrFiltersEl.appendChild(makeArrChip(a+'ᵉ', a)); }
+  arrFiltersEl.appendChild(makeArrChip('tous anc. arr. (1811-1859)', null));
+  for(let a=1;a<=12;a++){ if(arrCounts[a]) arrFiltersEl.appendChild(makeArrChip(a+'ᵉ anc.', a)); }
+
+  // Arrondissement ACTUEL (20 arrondissements depuis 1860) : distinct de s.arr, qui est l'ancien
+  // (12 arrondissements, Lazare/Perrot). Champ arr_actuel, calculé par scripts_py/enrich_arr_actuels.py
+  // (arr_actuel_source : voie | nom | devenu | position — cette dernière est approximative).
+  function arrsActuels(s){
+    if(s._arrNow) return s._arrNow;
+    return s._arrNow = s.arr_actuel || [];
+  }
+  const arrNowFiltersEl = document.getElementById('streetArrNowFilters');
+  let activeArrNow = null;
+  const arrNowCounts = {};
+  streets.forEach(s => arrsActuels(s).forEach(a=>{ arrNowCounts[a]=(arrNowCounts[a]||0)+1; }));
+  function syncArrNowChips(){
+    [...arrNowFiltersEl.children].forEach(c=>c.setAttribute('aria-pressed',
+      (c.dataset.arr||'')===(activeArrNow==null?'':String(activeArrNow))?'true':'false'));
+  }
+  function makeArrNowChip(label, value){
+    const b=document.createElement('button');
+    b.className='chip'; b.type='button';
+    b.dataset.arr = value==null ? '' : String(value);
+    b.setAttribute('aria-pressed', value===activeArrNow?'true':'false');
+    b.textContent=label;
+    b.onclick=()=>{ activeArrNow=(activeArrNow===value)?null:value; syncArrNowChips(); render(); };
+    return b;
+  }
+  arrNowFiltersEl.appendChild(makeArrNowChip('tous arr. actuels', null));
+  for(let a=1;a<=20;a++){ if(arrNowCounts[a]) arrNowFiltersEl.appendChild(makeArrNowChip(a+'ᵉ auj.', a)); }
 
   // Quartier filter (48 quartiers de 1811-1849, cf. GEO note en tête de fichier) : cardinalité trop
   // élevée pour des chips (contrairement au type ou à l'arrondissement), d'où un <select>. Une voie
@@ -462,9 +490,11 @@ function init(DB) {
     else {
       const uniq=[...new Set((item.quartiers||[]).map(q=>q.nom))];
       loc = uniq.length>1
-        ? `${item.cat} · ${item.arr}ᵉ arr. · quartiers : ${uniq.join(', ')}`
-        : `${item.cat} · ${item.arr}ᵉ arr. · ${item.quartier ? item.quartier : 'quartier '+item.quart}`;
+        ? `${item.cat} · ${item.arr}ᵉ anc. arr. · quartiers : ${uniq.join(', ')}`
+        : `${item.cat} · ${item.arr}ᵉ anc. arr. · ${item.quartier ? item.quartier : 'quartier '+item.quart}`;
     }
+    const now = arrsActuels(item);
+    const nowHtml = now.length ? `auj. ${now.map(a=>a+'ᵉ').join(' / ')} arr.${item.arr_actuel_source==='position'?' (d’après la position)':''}` : '';
     const numHtml = numerosParQuartier(item);
     const src = (item.sources||[]).join(' · ');
     // ancien_noms : string[] (anciennes voies supprimées, pas encore datées) ou
@@ -497,7 +527,7 @@ function init(DB) {
     if(item.wikipedia) geoParts.push(`<a href="${item.wikipedia}" target="_blank" rel="noopener">Wikipédia ↗</a>`);
     return `<li class="card${cls}">
       <p class="name">${nameHtml}${item.supprimee?' <span class="badge-gone">supprimée</span>':''}${item.hors_1844?' <span class="badge-modern">hors 1844</span>':''}</p>
-      <p class="meta">${esc(loc)}</p>
+      <p class="meta">${esc(loc)}${nowHtml?` <span title="Arrondissement actuel (20 arrondissements depuis 1860), à ne pas confondre avec l'ancien arrondissement (12) cité avant">· ${nowHtml}</span>`:''}</p>
       ${dev.length?`<p class="dev"><span class="dev-label">devenu</span> ${devHtml}</p>`:''}
       ${item.supprimee&&item.note?`<p class="gone-note">${esc(item.note)}</p>`:''}
       ${anc.length?`<p class="anc"><span class="anc-label">anc.</span> ${ancHtml}</p>`:''}
@@ -644,7 +674,7 @@ function init(DB) {
       geometry: { type:'Point', coordinates:[s.lon, s.lat] },
       properties: {
         name: s.name,
-        meta: s.arr!=null ? ` · ${s.arr}ᵉ arr.` : '',
+        meta: (s.arr!=null ? ` · ${s.arr}ᵉ anc. arr.` : '') + (arrsActuels(s).length ? ` · auj. ${arrsActuels(s).join('/')}ᵉ` : ''),
         wikipedia: s.wikipedia || null,
         geoSource: s.geoSource || null,
         geoQuartier: s.geoQuartier || null,
@@ -664,10 +694,13 @@ function init(DB) {
       : '';
   }
 
+  function matchesArrNow(s){ return activeArrNow==null || arrsActuels(s).includes(activeArrNow); }
+
   function pool(){
-    if(activeCat==='__gone__') return streets.filter(s=>s.supprimee);
-    if(activeCat==='__modern__') return streets.filter(s=>s.hors_1844);
+    if(activeCat==='__gone__') return streets.filter(s=>s.supprimee && matchesArrNow(s));
+    if(activeCat==='__modern__') return streets.filter(s=>s.hors_1844 && matchesArrNow(s));
     return streets.filter(s =>
+      matchesArrNow(s) &&
       !s.supprimee && !s.hors_1844 &&
       (!activeCat || s.cat===activeCat) &&
       (activeArr==null || (s.quartiers||[]).some(q=>q.arr===activeArr) || s.arr===activeArr) &&
@@ -680,7 +713,7 @@ function init(DB) {
     if(!term){
       list = [...pool()].sort((a,b)=>a.name.localeCompare(b.name,'fr'));
       count.textContent = list.length + (activeCat?` ${activeCat}s`:' voies')
-        + (activeArr!=null?` · ${activeArr}ᵉ arr.`:'') + (activeQuartier?` · ${activeQuartier}`:'') + ' — saisissez pour filtrer';
+        + (activeArr!=null?` · ${activeArr}ᵉ anc. arr.`:'') + (activeArrNow!=null?` · ${activeArrNow}ᵉ arr. actuel`:'') + (activeQuartier?` · ${activeQuartier}`:'') + ' — saisissez pour filtrer';
       results.innerHTML = list.slice(0,300).map(s=>card(s,null)).join('');
       if(list.length>300){
         results.innerHTML += `<li class="empty">…et ${list.length-300} autres. Saisissez pour affiner la liste.</li>`;
@@ -692,6 +725,7 @@ function init(DB) {
     if(activeCat==='__gone__') hits = hits.filter(h=>h.item.supprimee);
     else if(activeCat==='__modern__') hits = hits.filter(h=>h.item.hors_1844);
     else if(activeCat) hits = hits.filter(h=>h.item.cat===activeCat);
+    if(activeArrNow!=null) hits = hits.filter(h=>matchesArrNow(h.item));
     if(activeArr!=null) hits = hits.filter(h=>(h.item.quartiers||[]).some(q=>q.arr===activeArr) || h.item.arr===activeArr);
     hits = hits.filter(h=>matchesQuartier(h.item));
     hits = hits.slice(0,60);
