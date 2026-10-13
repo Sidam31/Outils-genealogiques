@@ -2260,10 +2260,14 @@ export function drawMarriageWeekdayTrend(fams) {
 // date complète (jour, mois, année). Pâques : algorithme grégorien (calendrier proleptique, comme
 // getWeekday). Carême = mercredi des Cendres (Pâques-46) -> samedi saint (Pâques-1) ; Avent = 4e
 // dimanche avant Noël -> 24 décembre. Les arcs de fond sont d'autant plus foncés que le jour (ou, pour
-// les naissances, le jour 9 mois plus tôt) tombe souvent en Carême/Avent selon les années du fichier.
+// les naissances, le jour 268 jours plus tôt) tombe souvent en Carême/Avent selon les années du fichier.
 const RADIAL_MONTHS = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc'];
 const RADIAL_DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-const RADIAL_COLOR_OUT = '#1f5f8b', RADIAL_COLOR_LENT = '#c0392b';
+const RADIAL_COLOR_OUT = '#1f5f8b', RADIAL_COLOR_LENT = '#c0392b', RADIAL_COLOR_UNSURE = '#9aa5a8';
+// Durée de gestation retenue (268 jours après la conception, soit ~38 semaines) et marge d'une
+// semaine : une naissance un peu précoce rend la conception jusqu'à 7 jours plus tardive que
+// (naissance - 268 j) — zone grise où l'on ne peut pas conclure.
+const GESTATION_DAYS = 268, GESTATION_GRACE_DAYS = 7;
 
 function easterDate(year) {
     const a = year % 19, b = Math.floor(year / 100), c = year % 100;
@@ -2311,15 +2315,28 @@ function drawRadialLentAdventChart(events, opts) {
     const container = d3.select(`#${opts.containerId}`);
     container.selectAll('*').remove();
 
-    const check = makeLentAdventCheck(opts.shiftMonths || 0);
-    const days = RADIAL_DAYS_IN_MONTH.map(n => Array.from({ length: n }, () => ({ out: 0, lent: 0, outEv: [], lentEv: [] })));
+    // Décalage en mois (mariages : 0) ou en jours (naissances : conception = naissance - 268 j)
+    const testers = new Map();
+    const lentAtOffsetDays = (y, m, d, off) => {
+        const t = new Date(Date.UTC(y, m, d) - off * 86400000);
+        const yy = t.getUTCFullYear();
+        if(!testers.has(yy)) testers.set(yy, lentAdventTester(yy));
+        return testers.get(yy)(t.getUTCMonth(), t.getUTCDate());
+    };
+    const monthCheck = makeLentAdventCheck(opts.shiftMonths || 0);
+    const check = opts.shiftDays ? (y, m, d) => lentAtOffsetDays(y, m, d, opts.shiftDays) : monthCheck;
+    // Naissance : incertaine si la conception la plus précoce (-268 j) et la plus tardive
+    // (-261 j, naissance un peu précoce) ne tombent pas du même côté de Carême/Avent.
+    const isUnsure = (y, m, d) => !!opts.shiftDays && lentAtOffsetDays(y, m, d, opts.shiftDays) !== lentAtOffsetDays(y, m, d, opts.shiftDays - GESTATION_GRACE_DAYS);
+    const days = RADIAL_DAYS_IN_MONTH.map(n => Array.from({ length: n }, () => ({ out: 0, lent: 0, unsure: 0, outEv: [], lentEv: [], unsureEv: [] })));
     let total = 0, minYear = Infinity, maxYear = -Infinity;
 
     events.forEach(e => {
         if(e.year == null || e.month == null || e.day == null) return;
         if(e.month < 0 || e.month > 11 || e.day < 1 || e.day > RADIAL_DAYS_IN_MONTH[e.month]) return;
         const cell = days[e.month][e.day - 1];
-        if(check(e.year, e.month, e.day)) { cell.lent++; cell.lentEv.push(e); } else { cell.out++; cell.outEv.push(e); }
+        if(isUnsure(e.year, e.month, e.day)) { cell.unsure++; cell.unsureEv.push(e); }
+        else if(check(e.year, e.month, e.day)) { cell.lent++; cell.lentEv.push(e); } else { cell.out++; cell.outEv.push(e); }
         total++;
         minYear = Math.min(minYear, e.year); maxYear = Math.max(maxYear, e.year);
     });
@@ -2335,11 +2352,18 @@ function drawRadialLentAdventChart(events, opts) {
     const cx = S / 2, cy = S / 2;
     const rIn = S * 0.25, rOut = S * 0.31;
     const dotStart = rOut + 8;
-    const maxStack = d3.max(days.flat(), c => c.out + c.lent) || 1;
+    const maxStack = d3.max(days.flat(), c => c.out + c.lent + c.unsure) || 1;
     const step = Math.min(6, (S / 2 - 6 - dotStart) / maxStack);
     const dotR = Math.max(1, Math.min(2.3, step * 0.42));
 
-    const svg = container.append('svg').attr('width', S).attr('height', S).attr('viewBox', `0 0 ${S} ${S}`);
+    const legendEntries = [
+        { color: RADIAL_COLOR_OUT, label: opts.labelOut, kind: 'dot' },
+        { color: RADIAL_COLOR_LENT, label: opts.labelLent, kind: 'dot' },
+        ...(opts.labelUnsure ? [{ color: RADIAL_COLOR_UNSURE, label: opts.labelUnsure, kind: 'dot' }] : []),
+        { color: RADIAL_COLOR_LENT, label: opts.labelShade, kind: 'rect', opacity: 0.25 }
+    ];
+    const legendLayout = layoutSvgLegend(legendEntries, S - 20);
+    const svg = container.append('svg').attr('width', S).attr('height', S + legendLayout.height).attr('viewBox', `0 0 ${S} ${S + legendLayout.height}`);
     const g = svg.append('g').attr('transform', `translate(${cx},${cy})`);
     const tooltip = document.getElementById('tooltip');
 
@@ -2358,7 +2382,8 @@ function drawRadialLentAdventChart(events, opts) {
                     tooltip.style.opacity = 1;
                     tooltip.innerHTML = `<strong>${d} ${RADIAL_MONTHS[month]}</strong>`
                         + `<div class="tt-row"><span>${opts.labelOut}</span><span>${cell.out}</span></div>`
-                        + `<div class="tt-row"><span>${opts.labelLent}</span><span>${cell.lent}</span></div>`;
+                        + `<div class="tt-row"><span>${opts.labelLent}</span><span>${cell.lent}</span></div>`
+                        + (opts.labelUnsure ? `<div class="tt-row"><span>${opts.labelUnsure}</span><span>${cell.unsure}</span></div>` : '');
                 })
                 .on('mousemove', e => {
                     tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
@@ -2385,10 +2410,11 @@ function drawRadialLentAdventChart(events, opts) {
     const dots = [];
     days.forEach((arr, month) => arr.forEach((cell, i) => {
         const a = angleOf(month, i + 1);
-        for(let k = 0; k < cell.out + cell.lent; k++) {
+        for(let k = 0; k < cell.out + cell.lent + cell.unsure; k++) {
             const r = dotStart + k * step;
-            const ev = k < cell.out ? cell.outEv[k] : cell.lentEv[k - cell.out];
-            dots.push({ x: r * Math.sin(a), y: -r * Math.cos(a), color: k < cell.out ? RADIAL_COLOR_OUT : RADIAL_COLOR_LENT, tip: ev.tip });
+            const kind = k < cell.out ? 0 : (k < cell.out + cell.lent ? 1 : 2);
+            const ev = kind === 0 ? cell.outEv[k] : (kind === 1 ? cell.lentEv[k - cell.out] : cell.unsureEv[k - cell.out - cell.lent]);
+            dots.push({ x: r * Math.sin(a), y: -r * Math.cos(a), color: [RADIAL_COLOR_OUT, RADIAL_COLOR_LENT, RADIAL_COLOR_UNSURE][kind], tip: ev.tip });
         }
     }));
     const dotSel = g.append('g').selectAll('circle').data(dots).join('circle')
@@ -2399,16 +2425,31 @@ function drawRadialLentAdventChart(events, opts) {
     g.append('text').attr('text-anchor', 'middle').attr('y', 24).style('font-size', '11px').style('fill', '#667')
         .text(total > 1 ? opts.unitPlural : opts.unitSingular);
 
-    const legend = container.append('div').style('display', 'flex').style('justify-content', 'center').style('gap', '18px')
-        .style('flex-wrap', 'wrap').style('font-size', '12px').style('margin-top', '6px');
-    const item = (swatchStyle, label) => {
-        const el = legend.append('span').style('display', 'inline-flex').style('align-items', 'center').style('gap', '6px');
-        el.append('span').attr('style', swatchStyle);
-        el.append('span').text(label);
-    };
-    item(`width:10px;height:10px;border-radius:50%;background:${RADIAL_COLOR_OUT}`, opts.labelOut);
-    item(`width:10px;height:10px;border-radius:50%;background:${RADIAL_COLOR_LENT}`, opts.labelLent);
-    item(`width:14px;height:10px;background:${RADIAL_COLOR_LENT};opacity:.25`, opts.labelShade);
+    drawSvgLegend(svg, legendLayout, 10, S + 2);
+}
+
+// Légende dessinée DANS le <svg> (et non en HTML dessous) pour figurer aussi dans l'image copiée
+// (copySvgAsPng ne sérialise que le <svg>). entries : [{ color, label, kind: 'dot'|'rect', opacity }].
+function layoutSvgLegend(entries, width, rowH = 18) {
+    let x = 0, y = 0;
+    const items = entries.map(e => {
+        const w = 18 + e.label.length * 6 + 18;
+        if(x > 0 && x + w > width) { x = 0; y += rowH; }
+        const it = { ...e, x, y };
+        x += w;
+        return it;
+    });
+    return { items, height: items.length ? y + rowH + 6 : 0 };
+}
+
+function drawSvgLegend(svg, layout, left, top) {
+    const g = svg.append('g').attr('transform', `translate(${left},${top})`);
+    layout.items.forEach(e => {
+        const it = g.append('g').attr('transform', `translate(${e.x},${e.y})`);
+        if(e.kind === 'rect') it.append('rect').attr('y', 3).attr('width', 14).attr('height', 10).attr('fill', e.color).attr('opacity', e.opacity ?? 1);
+        else it.append('circle').attr('cx', 7).attr('cy', 8).attr('r', 5).attr('fill', e.color);
+        it.append('text').attr('x', 18).attr('y', 12).style('font-size', '11px').style('fill', '#222').style('text-shadow', 'none').text(e.label);
+    });
 }
 
 function attachTooltip(sel, htmlFn) {
@@ -2443,7 +2484,7 @@ export function drawMarriageRadialChart(fams, indis) {
     });
 }
 
-// Naissances : l'événement est classé selon que la conception présumée (naissance - 9 mois) tombe en
+// Naissances : l'événement est classé selon que la conception présumée (naissance - 268 jours) tombe en
 // Carême/Avent, périodes d'abstinence recommandée.
 export function drawBirthConceptionRadialChart(list) {
     const events = [];
@@ -2454,19 +2495,22 @@ export function drawBirthConceptionRadialChart(list) {
         events.push({ year: p.birth.year, month: p.birth.month, day: p.birth.day, tip });
     });
     drawRadialLentAdventChart(events, {
-        containerId: 'birthRadialChart', shiftMonths: -9,
+        containerId: 'birthRadialChart', shiftDays: GESTATION_DAYS,
         unitSingular: 'naissance', unitPlural: 'naissances',
         labelOut: 'Conception hors Carême et Avent', labelLent: 'Conception en Carême ou Avent',
-        labelShade: 'Naissances 9 mois après le Carême/Avent (fréquence selon les années)'
+        labelUnsure: 'Incertain (naissance peut-être précoce)',
+        labelShade: 'Naissances 268 jours après le Carême/Avent (fréquence selon les années)'
     });
 }
 
 // --- DÉLAI ENTRE LE MARIAGE ET LE PREMIER ENFANT ---
 // Un point = un couple. Abscisse : délai en mois entre le mariage et la naissance du premier enfant
-// (parmi les enfants à date de naissance complète et certaine). Moins de 9 mois (ou enfant né avant le
-// mariage) = conception probablement antérieure au mariage.
+// (parmi les enfants à date de naissance complète et certaine). Moins de 261 jours (ou enfant né avant
+// le mariage) = conception probablement antérieure au mariage ; 261 à 267 jours = zone grise (naissance
+// éventuellement précoce) ; 268 jours ou plus = conception après le mariage.
 const MARR_CHILD_DAYS_PER_MONTH = 30.44;
-const MARR_CHILD_CONCEPTION_DAYS = 9 * MARR_CHILD_DAYS_PER_MONTH;
+const MARR_CHILD_CONCEPTION_DAYS = GESTATION_DAYS; // 268 j ~ 8,8 mois
+const MARR_CHILD_UNSURE_FROM_DAYS = GESTATION_DAYS - GESTATION_GRACE_DAYS; // 261 j
 const MARR_CHILD_MIN_MONTH = -12, MARR_CHILD_MAX_MONTH = 48;
 
 export function drawMarriageFirstChildChart(fams, indis) {
@@ -2495,7 +2539,7 @@ export function drawMarriageFirstChildChart(fams, indis) {
             + `<div class="tt-row"><span>Mariage</span><span>${fullDateLabel(m)}${place ? ' — ' + escapeHtml(place) : ''}</span></div>`
             + `<div class="tt-row"><span>1er enfant : ${escapeHtml(personLabel(first.c))}</span><span>${fullDateLabel(first.b)}</span></div>`
             + `<div class="tt-row"><span>Délai</span><span>${days} jour${Math.abs(days) > 1 ? 's' : ''} (${(months).toFixed(1).replace('.', ',')} mois)</span></div>`;
-        pts.push({ days, months, early: days < MARR_CHILD_CONCEPTION_DAYS, tip, bin: Math.floor(months) });
+        pts.push({ days, months, early: days < MARR_CHILD_UNSURE_FROM_DAYS, unsure: days >= MARR_CHILD_UNSURE_FROM_DAYS && days < MARR_CHILD_CONCEPTION_DAYS, tip, bin: Math.floor(months) });
     });
 
     if(!pts.length) {
@@ -2514,20 +2558,30 @@ export function drawMarriageFirstChildChart(fams, indis) {
 
     const width = container.node().clientWidth || 700, height = 360;
     const margin = { top: 20, right: 20, bottom: 50, left: 45 };
-    const svg = container.append('svg').attr('width', width).attr('height', height);
+    const earlyN = pts.filter(p => p.early).length, unsureN = pts.filter(p => p.unsure).length;
+    const earlyPct = Math.round(earlyN / pts.length * 100);
+    const legendLayout = layoutSvgLegend([
+        { color: RADIAL_COLOR_LENT, kind: 'dot', label: `Moins de ${MARR_CHILD_UNSURE_FROM_DAYS} jours : conception avant le mariage (${earlyN}, ${earlyPct} %)` },
+        { color: RADIAL_COLOR_UNSURE, kind: 'dot', label: `${MARR_CHILD_UNSURE_FROM_DAYS} à ${MARR_CHILD_CONCEPTION_DAYS - 1} jours : incertain, naissance peut-être précoce (${unsureN})` },
+        { color: RADIAL_COLOR_OUT, kind: 'dot', label: `${MARR_CHILD_CONCEPTION_DAYS} jours ou plus (${pts.length - earlyN - unsureN})` }
+    ], width - margin.left - margin.right);
+    const svg = container.append('svg').attr('width', width).attr('height', height + legendLayout.height);
     const x = d3.scaleLinear().domain([MARR_CHILD_MIN_MONTH, MARR_CHILD_MAX_MONTH]).range([margin.left, width - margin.right]);
     const binW = x(1) - x(0);
     const step = Math.min(binW * 0.9, (height - margin.top - margin.bottom - 6) / maxStack);
     const r = Math.max(1.2, Math.min(binW * 0.4, step * 0.45, 4));
     const yBase = height - margin.bottom;
 
-    // zone "conception avant le mariage" (9 mois ou moins) + ligne du mariage
-    svg.append('rect').attr('x', x(MARR_CHILD_MIN_MONTH)).attr('width', x(9) - x(MARR_CHILD_MIN_MONTH))
+    // zone "conception avant le mariage" (moins de 261 j), zone grise (261-268 j) + ligne du mariage
+    const mUnsure = MARR_CHILD_UNSURE_FROM_DAYS / MARR_CHILD_DAYS_PER_MONTH, mConc = MARR_CHILD_CONCEPTION_DAYS / MARR_CHILD_DAYS_PER_MONTH;
+    svg.append('rect').attr('x', x(MARR_CHILD_MIN_MONTH)).attr('width', x(mUnsure) - x(MARR_CHILD_MIN_MONTH))
         .attr('y', margin.top).attr('height', yBase - margin.top).attr('fill', RADIAL_COLOR_LENT).attr('fill-opacity', 0.07);
+    svg.append('rect').attr('x', x(mUnsure)).attr('width', x(mConc) - x(mUnsure))
+        .attr('y', margin.top).attr('height', yBase - margin.top).attr('fill', RADIAL_COLOR_UNSURE).attr('fill-opacity', 0.25);
     svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', margin.top).attr('y2', yBase).attr('stroke', '#999').attr('stroke-dasharray', '3,3');
-    svg.append('line').attr('x1', x(9)).attr('x2', x(9)).attr('y1', margin.top).attr('y2', yBase).attr('stroke', RADIAL_COLOR_LENT).attr('stroke-dasharray', '3,3');
+    svg.append('line').attr('x1', x(mConc)).attr('x2', x(mConc)).attr('y1', margin.top).attr('y2', yBase).attr('stroke', RADIAL_COLOR_LENT).attr('stroke-dasharray', '3,3');
     svg.append('text').attr('x', x(0) + 4).attr('y', margin.top + 10).style('font-size', '10px').style('fill', '#777').text('Mariage');
-    svg.append('text').attr('x', x(9) + 4).attr('y', margin.top + 10).style('font-size', '10px').style('fill', RADIAL_COLOR_LENT).text('9 mois');
+    svg.append('text').attr('x', x(mConc) + 4).attr('y', margin.top + 10).style('font-size', '10px').style('fill', RADIAL_COLOR_LENT).text('268 jours');
 
     svg.append('g').attr('transform', `translate(0,${yBase})`)
         .call(d3.axisBottom(x).tickValues(d3.range(MARR_CHILD_MIN_MONTH, MARR_CHILD_MAX_MONTH + 1, 6)));
@@ -2537,20 +2591,10 @@ export function drawMarriageFirstChildChart(fams, indis) {
 
     const sel = svg.append('g').selectAll('circle').data(pts).join('circle')
         .attr('cx', d => x(d.bin) + binW / 2).attr('cy', d => yBase - r - 2 - d.k * step).attr('r', r)
-        .attr('fill', d => d.early ? RADIAL_COLOR_LENT : RADIAL_COLOR_OUT);
+        .attr('fill', d => d.early ? RADIAL_COLOR_LENT : (d.unsure ? RADIAL_COLOR_UNSURE : RADIAL_COLOR_OUT));
     attachTooltip(sel, d => d.tip);
 
-    const early = pts.filter(p => p.early).length;
-    const pct = Math.round(early / pts.length * 100);
-    const legend = container.append('div').style('display', 'flex').style('justify-content', 'center').style('gap', '18px')
-        .style('flex-wrap', 'wrap').style('font-size', '12px').style('margin-top', '6px');
-    const item = (color, label) => {
-        const el = legend.append('span').style('display', 'inline-flex').style('align-items', 'center').style('gap', '6px');
-        el.append('span').attr('style', `width:10px;height:10px;border-radius:50%;background:${color}`);
-        el.append('span').text(label);
-    };
-    item(RADIAL_COLOR_LENT, `Moins de 9 mois : conception avant le mariage (${early}, ${pct} %)`);
-    item(RADIAL_COLOR_OUT, `9 mois ou plus (${pts.length - early})`);
+    drawSvgLegend(svg, legendLayout, margin.left, height + 2);
     container.append('div').style('text-align', 'center').style('font-size', '11px').style('color', '#7f8c8d').style('margin-top', '4px')
         .text(`${pts.length} couple${pts.length > 1 ? 's' : ''}${outOfRange ? ` — ${outOfRange} hors de la plage ${MARR_CHILD_MIN_MONTH} à ${MARR_CHILD_MAX_MONTH} mois non affiché${outOfRange > 1 ? 's' : ''}` : ''}`);
 }
