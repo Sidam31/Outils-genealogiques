@@ -98,6 +98,64 @@ export function buildLifeEvents(person, map, fams) {
         });
     });
 
+    // Famille élargie : décès des parents et des beaux-parents (parents du conjoint), mariages des
+    // enfants et naissances des petits-enfants. Même règle que ci-dessus : jamais après le décès de
+    // la personne affichée ; les décès de parents antérieurs de plus d'un an à sa naissance sont omis.
+    const beforeEnd = y => y != null && (deathYear == null || y <= deathYear);
+    const addParentDeath = (source, relLabel, parentId) => {
+        const par = parentId ? map.get(parentId) : null;
+        if (!par || par.death?.year == null || !beforeEnd(par.death.year)) return;
+        if (birthYear != null && par.death.year < birthYear - 1) return;
+        add(source, `Décès de ${par.name} (${relLabel})`, par.death.year, par.death.approx, par.death.geo, null);
+    };
+    addParentDeath('PARENT_DEAT', 'père', person.fatherId);
+    addParentDeath('PARENT_DEAT', 'mère', person.motherId);
+    // Oncles et tantes (frères et sœurs du père et de la mère, côté sang), même règle de dates.
+    [person.fatherId, person.motherId].forEach(parentId => {
+        const par = parentId ? map.get(parentId) : null;
+        const parFam = par?.famc ? fams.get(par.famc) : null;
+        (parFam?.children || []).forEach(uId => {
+            if (uId === parentId) return;
+            const u = map.get(uId);
+            if (!u || u.death?.year == null || !beforeEnd(u.death.year)) return;
+            if (birthYear != null && u.death.year < birthYear - 1) return;
+            const aunt = u.sex === 'F';
+            add(aunt ? 'AUNT_DEAT' : 'UNCLE_DEAT', `Décès de ${u.name} (${aunt ? 'tante' : 'oncle'})`, u.death.year, u.death.approx, u.death.geo, null);
+        });
+    });
+    const seenInLaws = new Set();
+    (person.fams || []).forEach(famId => {
+        const fam = fams.get(famId);
+        if (!fam) return;
+        const spouseId = fam.husb === person.id ? fam.wife : (fam.wife === person.id ? fam.husb : null);
+        const spouse = spouseId ? map.get(spouseId) : null;
+        if (spouse) {
+            [['père', spouse.fatherId], ['mère', spouse.motherId]].forEach(([rel, id]) => {
+                if (!id || seenInLaws.has(id)) return;
+                seenInLaws.add(id);
+                addParentDeath('INLAW_DEAT', `${rel} de ${spouse.name}`, id);
+            });
+        }
+        (fam.children || []).forEach(childId => {
+            const child = map.get(childId);
+            if (!child) return;
+            (child.fams || []).forEach(cFamId => {
+                const cFam = fams.get(cFamId);
+                if (!cFam) return;
+                if (cFam.marr?.hasTag && beforeEnd(cFam.marr.year)) {
+                    const cSpouse = spouseName(cFam, child.id, map);
+                    add('CHILD_MARR', cSpouse ? `Mariage de ${child.name} avec ${cSpouse}` : `Mariage de ${child.name}`, cFam.marr.year, false, cFam.marr.geo, null);
+                }
+                (cFam.children || []).forEach(gcId => {
+                    const gc = map.get(gcId);
+                    if (gc?.birth?.year != null && beforeEnd(gc.birth.year)) {
+                        add('GCHILD_BIRT', `Naissance de ${gc.name} (petit-enfant)`, gc.birth.year, gc.birth.approx, gc.birth.geo, null);
+                    }
+                });
+            });
+        });
+    });
+
     // Décès des frères et sœurs (même famille d'origine), seulement s'ils précèdent ou coïncident
     // avec celui de la personne affichée. Sexe inconnu : traité comme "frère/sœur" neutre (BRO/SIS
     // selon SEX, sinon rangé avec les frères).
