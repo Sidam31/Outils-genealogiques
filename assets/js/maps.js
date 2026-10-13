@@ -1960,7 +1960,22 @@ export function drawKaplanMeier(list) {
 
     const width = container.node().clientWidth || 600, height = 360;
     const margin = { top: 14, right: 20, bottom: 40, left: 48 };
-    const svg = container.append('svg').attr('width', width).attr('height', height);
+    // Légende DANS le <svg> (et non en HTML dessous) pour qu'elle figure aussi dans l'image copiée
+    // (copySvgAsPng ne sérialise que le <svg>) ; disposition en lignes calculée d'après la largeur.
+    const legendRowH = 18, legendWidth = width - margin.left - margin.right;
+    let lgX = 0, lgY = 0;
+    const legendItems = series.map(sr => {
+        const label = `${sr.name} (n=${sr.n}${sr.small ? ', peu fiable' : ''}${sr.median != null ? `, médiane ${sr.median} ans` : ''})`;
+        const w = 20 + label.length * 6.1 + 14;
+        if(lgX > 0 && lgX + w > legendWidth) { lgX = 0; lgY += legendRowH; }
+        const it = { sr, label, x: lgX, y: lgY };
+        lgX += w;
+        return it;
+    });
+    const periodText = compare ? 'Toutes dates de naissance' : `Périodes de ${periodWidth} ans${manualWidth ? '' : ' (auto)'}`;
+    const legendTop = height + 2;
+    const svgHeight = legendTop + lgY + legendRowH + 22;
+    const svg = container.append('svg').attr('width', width).attr('height', svgHeight);
     const x = d3.scaleLinear().domain([0, KM_MAX_AGE]).range([margin.left, width - margin.right]);
     const y = d3.scaleLinear().domain([0, 1]).range([height - margin.bottom, margin.top]);
 
@@ -1988,11 +2003,6 @@ export function drawKaplanMeier(list) {
             .attr('stroke-dasharray', sr.small ? '5,3' : null).attr('opacity', sr.small ? 0.7 : 1);
     });
 
-    container.append('div').style('text-align', 'center').style('font-size', '12px').style('color', '#777')
-        .text(`${compare ? 'Toutes dates de naissance' : `Périodes de ${periodWidth} ans${manualWidth ? '' : ' (auto)'}`} — ${series.length} courbe${series.length > 1 ? 's' : ''} — en pointillés : moins de ${minN} personnes, peu fiable. Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut)`);
-    // Légende HTML (sous le graphique) : cohorte, effectif, âge médian de survie
-    const legend = container.append('div').style('display', 'flex').style('flex-wrap', 'wrap').style('gap', '4px 16px')
-        .style('justify-content', 'center').style('font-size', '12px').style('margin-top', '6px');
     // Tableau des survivants tous les 10 ans : % de survie (Kaplan-Meier) et effectif encore observé
     // à cet âge (personnes dont la durée d'observation atteint cet âge), pour les courbes affichées.
     const tableBox = container.append('div').style('overflow-x', 'auto').style('margin-top', '10px');
@@ -2020,17 +2030,33 @@ export function drawKaplanMeier(list) {
             .text("Probabilité de survie à cet âge ; entre parenthèses, le nombre de survivants : personnes de la série observées au moins jusqu'à cet âge.");
     };
 
-    series.forEach(sr => {
-        const item = legend.append('span').style('cursor', 'pointer').style('user-select', 'none')
-            .attr('title', 'Cliquer pour afficher / masquer cette courbe')
-            .style('opacity', sr.visible ? 1 : 0.4).style('text-decoration', sr.visible ? null : 'line-through')
-            .html(`<span style="display:inline-block;width:12px;height:3px;background:${sr.color};vertical-align:middle;margin-right:5px"></span>`
-                + `${sr.name} <span style="color:#777">(n=${sr.n}${sr.small ? ', peu fiable' : ''}${sr.median != null ? `, médiane ${sr.median} ans` : ''})</span>`);
-        item.on('click', () => {
+    const legendG = svg.append('g').attr('transform', `translate(${margin.left},${legendTop})`);
+    const styleLegend = (g, sr) => {
+        g.style('opacity', sr.visible ? 1 : 0.4);
+        g.select('text').style('text-decoration', sr.visible ? null : 'line-through');
+    };
+    legendItems.forEach(({ sr, label, x: lx, y: ly }) => {
+        const g = legendG.append('g').attr('transform', `translate(${lx},${ly})`)
+            .style('cursor', 'pointer');
+        g.append('title').text('Cliquer pour afficher / masquer cette courbe');
+        g.append('rect').attr('x', 0).attr('y', 0).attr('width', 20 + label.length * 6.1 + 10).attr('height', legendRowH - 2).attr('fill', 'transparent');
+        g.append('line').attr('x1', 0).attr('x2', 14).attr('y1', 8).attr('y2', 8).attr('stroke', sr.color).attr('stroke-width', 3)
+            .attr('stroke-dasharray', sr.small ? '4,2' : null);
+        g.append('text').attr('x', 20).attr('y', 12).style('font-size', '11px').style('fill', '#222').style('text-shadow', 'none').text(label);
+        styleLegend(g, sr);
+        g.on('click', () => {
             sr.visible = !sr.visible;
             sr.path.style('display', sr.visible ? null : 'none');
-            item.style('opacity', sr.visible ? 1 : 0.4).style('text-decoration', sr.visible ? null : 'line-through');
+            styleLegend(g, sr);
             renderTable();
+        });
+    });
+    svg.append('text').attr('x', margin.left).attr('y', legendTop + lgY + legendRowH + 14)
+        .style('font-size', '10px').style('fill', '#777').style('text-shadow', 'none')
+        .text(`${periodText} — ${series.length} courbe${series.length > 1 ? 's' : ''} — pointillés : moins de ${minN} personnes`);
+    container.append('div').attr('class', 'hint').style('text-align', 'center')
+        .text(`Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut).`);
+    renderTable();
         });
     });
     renderTable();
