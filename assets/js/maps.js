@@ -2057,9 +2057,6 @@ export function drawKaplanMeier(list) {
     container.append('div').attr('class', 'hint').style('text-align', 'center')
         .text(`Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut).`);
     renderTable();
-        });
-    });
-    renderTable();
 
     // Repère au survol : probabilité de survie de chaque cohorte à l'âge pointé
     const cross = svg.append('line').attr('y1', margin.top).attr('y2', height - margin.bottom).attr('stroke', '#555').attr('stroke-width', 1).style('display', 'none');
