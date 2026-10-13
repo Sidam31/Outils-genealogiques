@@ -35,7 +35,7 @@
         <details class="fold-section" id="fold-points-gps" open>
             <summary>📍 Répartition géographique (points GPS)</summary>
             <div class="fold-body">
-                <div class="options-panel">
+                <div class="options-panel" id="mapGpsOptions">
                     <div class="checkbox-group">
                         <label><input type="checkbox" id="mapFilterBirt" checked> Lieu de naissance</label>
                         <label><input type="checkbox" id="mapFilterDeat" checked> Lieu de décès</label>
@@ -156,6 +156,27 @@
                 </div>
 
                 <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Courbes de survie (Kaplan-Meier) par période de naissance</h3>
+                            <button class="chart-copy-btn" data-target="kaplanMeierChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <p class="hint" style="text-align:center;">Les personnes sont regroupées par années de naissance en périodes de largeur fixe. La largeur (au moins la durée minimale) et le point de départ sont choisis automatiquement pour obtenir le plus de courbes possible ; les périodes qui comptent moins que le nombre minimal de personnes sont tout de même tracées, en pointillés. Une courbe = la proportion de survivants à chaque âge.</p>
+                        <div class="controls" id="kmControls">
+                            <span role="radiogroup" aria-label="Sexe">
+                                <label><input type="radio" name="kmSex" value="all" checked> Tous</label>
+                                <label><input type="radio" name="kmSex" value="F"> Femmes</label>
+                                <label><input type="radio" name="kmSex" value="M"> Hommes</label>
+                            </span>
+                            <label title="Calculée automatiquement pour obtenir le plus de courbes d'au moins 100 personnes ; modifiez-la pour imposer votre propre durée.">Durée des périodes (années) <input type="number" id="kmWidth" min="1" max="200" step="1" style="width:70px"></label>
+                            <button type="button" class="ghost" id="kmWidthAuto" title="Revenir au calcul automatique de la durée">Auto</button>
+                            <label title="Sans cette option, seules les personnes dont le décès est connu sont comptées (la survie est alors sous-estimée). Les personnes nées il y a plus de 110 ans sans décès connu sont ignorées (forcément décédées)."><input type="checkbox" id="kmCensored"> Inclure les décès inconnus (présumés vivants, censurés à l'année courante)</label>
+                        </div>
+                        <div id="kaplanMeierChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
                     <div class="quality-chart-box">
                         <div class="chart-box-header">
                             <h3>Âge médian au décès par décennie (H/F)</h3>
@@ -190,6 +211,39 @@
                         </div>
                         <p class="hint" style="text-align:center;">Nécessite une date de mariage complète (jour, mois, année) — les dates approximatives ou incomplètes ne sont pas prises en compte.</p>
                         <div id="marriageWeekdayChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Mariages par jour du mois, hors / pendant Carême et Avent</h3>
+                            <button class="chart-copy-btn" data-target="marriageRadialChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <p class="hint" style="text-align:center;">Un point = un mariage, rangé par jour du mois. Nécessite une date de mariage complète (jour, mois, année). Carême et Avent calculés pour l'année de chaque mariage (calendrier grégorien).</p>
+                        <div id="marriageRadialChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Naissances par jour du mois, selon une conception en Carême ou Avent</h3>
+                            <button class="chart-copy-btn" data-target="birthRadialChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <p class="hint" style="text-align:center;">Un point = une naissance, rangée par jour du mois. Rouge : la conception présumée (naissance − 9 mois) tombe en Carême ou en Avent. Nécessite une date de naissance complète et certaine.</p>
+                        <div id="birthRadialChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box" style="flex-basis: 100%;">
+                        <div class="chart-box-header">
+                            <h3>Délai entre le mariage et le premier enfant</h3>
+                            <button class="chart-copy-btn" data-target="marriageChildChart" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <p class="hint" style="text-align:center;">Un point = un couple. Rouge : premier enfant né moins de 9 mois après le mariage (conception probablement avant le mariage). Nécessite des dates complètes et certaines pour le mariage et la naissance ; le premier enfant est le plus ancien parmi ceux dont la date de naissance est complète.</p>
+                        <div id="marriageChildChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
                     </div>
                 </div>
 
@@ -433,8 +487,8 @@ import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js'
 import { getAncestorIds, decadeOf, centuryLabel, downloadCsv, escapeHtml } from './assets/js/utils.js';
 import {
     showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap, drawBelgiumMap, enrichMissingCoords,
-    getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawFirstChildTrend,
-    drawProfessionAgeViolin, drawMarriageWeekdayTrend, getNameCenturies, drawTopNamesForCentury,
+    getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawKaplanMeier, drawFirstChildTrend,
+    drawProfessionAgeViolin, drawMarriageWeekdayTrend, drawMarriageRadialChart, drawBirthConceptionRadialChart, drawMarriageFirstChildChart, getNameCenturies, drawTopNamesForCentury,
     computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap,
     computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap,
     computeEuropeCountrySummaries, computeEuropeDetail, drawEuropeMap, ensureCShapesEurope, cshapesYearBounds,
@@ -655,10 +709,14 @@ function renderDemographicCharts() {
     if(!list.length) {
         currentScopedList = [];
         showMapMessage('ageChartPyramid', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('kaplanMeierChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('ageChartDeathTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('ageChartFirstChildTrend', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('professionAgeViolinChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('marriageWeekdayChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('marriageRadialChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('birthRadialChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
+        showMapMessage('marriageChildChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('namesMaleChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         showMapMessage('namesFemaleChart', 'Chargez un fichier GEDCOM pour voir ce graphique.');
         pyramidSliderMinEl.disabled = true; pyramidSliderMaxEl.disabled = true;
@@ -685,9 +743,13 @@ function renderDemographicCharts() {
     updatePyramidLabel();
     drawAgePyramidForSelectedDecade();
     drawAgeDeathTrend(currentScopedList);
+    drawKaplanMeier(currentScopedList);
     drawFirstChildTrend(currentScopedList);
     drawProfessionAgeViolin(currentScopedList);
     drawMarriageWeekdayTrend(scopedFams);
+    drawMarriageRadialChart(scopedFams, map);
+    drawMarriageFirstChildChart(scopedFams, map);
+    drawBirthConceptionRadialChart(currentScopedList);
 
     namesCenturiesCache = getNameCenturies(currentScopedList);
     if(namesCenturiesCache.length) {
@@ -704,6 +766,18 @@ function renderDemographicCharts() {
     updateNamesCenturyLabel();
     drawTopNamesForSelectedCentury();
 }
+
+const redrawKm = () => { if(currentScopedList.length) drawKaplanMeier(currentScopedList); };
+document.querySelectorAll('input[name="kmSex"], #kmCensored').forEach(el => el.addEventListener('change', redrawKm));
+document.getElementById('kmWidth').addEventListener('change', e => {
+    // Une durée saisie fige le mode manuel ; un champ vidé ou invalide revient à l'automatique.
+    if(parseInt(e.target.value) >= 1) e.target.dataset.manual = '1'; else delete e.target.dataset.manual;
+    redrawKm();
+});
+document.getElementById('kmWidthAuto').addEventListener('click', () => {
+    delete document.getElementById('kmWidth').dataset.manual;
+    redrawKm();
+});
 
 function renderMapsTab() {
     renderFilteredMaps();
@@ -1230,7 +1304,19 @@ regionSurnameFilterEl.addEventListener('input', () => {
 
 bootstrap({
     page: 'visualisation',
-    onReady: controlsSlot => { exportCtl = setupExportButton(controlsSlot); },
+    onReady: controlsSlot => {
+        // Filtres globaux et filtres de la carte GPS : déplacés (nœuds DOM conservés, donc les
+        // écouteurs déjà posés restent valides) dans le panneau latéral "Options" de l'en-tête.
+        const gpsTitle = document.createElement('h3');
+        gpsTitle.textContent = '📍 Répartition géographique';
+        gpsTitle.className = 'side-subtitle';
+        controlsSlot.append(
+            document.getElementById('mapAncestorScopeBar'),
+            gpsTitle,
+            document.getElementById('mapGpsOptions')
+        );
+        exportCtl = setupExportButton(controlsSlot);
+    },
     onData: data => {
         list = data.list; map = data.map; fams = data.fams;
         if(exportCtl) exportCtl.setData(data.text, data.filename);

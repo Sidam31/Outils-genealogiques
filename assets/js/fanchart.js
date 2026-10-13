@@ -84,19 +84,27 @@ export class FanChart {
         const colorScale = this.getColorScale(mode, this.rootId);
         this.continuousDomain = this.getContinuousDomain(mode, this.rootId);
 
-        // 1. ANCETRES : De part et d'autre de l'axe vertical (12h)
-        // Paternel à gauche (9h-12h), Maternel à droite (12h-3h)
+        // 1. ANCETRES : le père à gauche, la mère à droite, selon la forme choisie :
+        //  - half (demi-cercle, défaut) : de 9h à 3h en passant par 12h
+        //  - circle : tour complet, père de 6h à 12h par 9h, mère de 12h à 6h par 3h
+        //  - butterfly : deux ailes (120° chacune) centrées sur 9h et 3h, laissant libres le haut et
+        //    le bas (le bas accueille alors les descendants)
+        // Les angles x0/x1 sont directement des angles d3 (0 = 12h, sens horaire).
+        const shape = this.getShape();
+        const wings = this.getAncWings(shape);
         const ancTree = this.buildAnc(this.rootId, 0, maxGen);
         const rootAnc = d3.hierarchy(ancTree);
 
-        // Assigner les valeurs manuellement pour respecter la géométrie binaire
-        // Chaque nœud occupe exactement la moitié de son parent
-        this.assignPartitionValues(rootAnc, 0, Math.PI);
+        rootAnc.x0 = wings[0][0];
+        rootAnc.x1 = wings[1][0] + wings[1][1];
+        rootAnc.y0 = 0; rootAnc.y1 = r / (maxGen + 1); rootAnc.depth = 0;
+        (rootAnc.children || []).forEach((child, i) => {
+            this.assignPartitionValues(child, wings[i][0], wings[i][1], 1);
+        });
 
-        // Décalage de -π/2 pour centrer sur 12h (axe vertical vers le haut)
         const arcAnc = d3.arc()
-            .startAngle(d => d.x0 - Math.PI/2)
-            .endAngle(d => d.x1 - Math.PI/2)
+            .startAngle(d => d.x0)
+            .endAngle(d => d.x1)
             .innerRadius(d => d.y0).outerRadius(d => d.y1);
 
         // Exclure la racine (depth 0) des arcs, elle sera dessinée comme un cercle
@@ -109,7 +117,7 @@ export class FanChart {
         // pour centrer symétriquement autour de π (6h)
         const descMaxGen = parseInt(document.getElementById('descGenSelect')?.value || '1');
         const descTree = this.buildDesc(this.rootId, 0, descMaxGen);
-        if(descTree && descTree.children.length > 0) {
+        if(shape !== 'circle' && descTree && descTree.children.length > 0) {
             const numChildren = descTree.children.length;
             this.numDescChildren = numChildren;
 
@@ -117,7 +125,8 @@ export class FanChart {
             const rootDesc = d3.hierarchy(descTree);
 
             // Angle par enfant - max 45° par enfant
-            const maxSpan = Math.PI * 0.8;
+            // (papillon : limité à l'ouverture libre en bas entre les deux ailes)
+            const maxSpan = shape === 'butterfly' ? Math.PI / 3 * 0.9 : Math.PI * 0.8;
             const anglePerChild = Math.min(Math.PI / 4, maxSpan / numChildren);
             const totalSpan = anglePerChild * numChildren;
 
@@ -193,6 +202,19 @@ export class FanChart {
         this.legend(mode, colorScale);
     }
 
+    getShape() {
+        const el = document.getElementById('shapeSelect');
+        return el ? el.value : 'half';
+    }
+
+    // Secteurs [angle de départ, ouverture] des ailes paternelle (index 0) et maternelle (index 1)
+    getAncWings(shape) {
+        const P = Math.PI;
+        if(shape === 'circle') return [[-P, P], [0, P]];
+        if(shape === 'butterfly') { const W = 2 * P / 3; return [[-P/2 - W/2, W], [P/2 - W/2, W]]; }
+        return [[-P/2, P/2], [0, P/2]];
+    }
+
     // Assigner manuellement les positions x0, x1, y0, y1 pour respecter la structure binaire
     // Même si un ancêtre est manquant, l'espace lui est réservé
     assignPartitionValues(node, startAngle, angleSpan, depth = 0, maxRadius = null) {
@@ -266,14 +288,8 @@ export class FanChart {
             .attr('class', d => `${type} gen-${d.depth}`)
             .attr('transform', d => {
                 let ang = (d.x0 + d.x1) / 2;
-                let offsetAng = 0;
-
-                if(type === 'anc') {
-                    offsetAng = -Math.PI / 2; // Décalage pour ancêtres (9h-3h)
-                    if(d.depth === 0) return `translate(0,0)`;
-                } else {
-                    offsetAng = this.descStartOffset; // Utiliser l'offset des descendants
-                }
+                // Ancêtres : x0/x1 sont déjà des angles absolus ; descendants : relatifs à descStartOffset
+                const offsetAng = type === 'anc' ? 0 : this.descStartOffset;
 
                 ang += offsetAng;
                 let r = (d.y0 + d.y1) / 2;
@@ -284,10 +300,8 @@ export class FanChart {
                 while(normAng > 180) normAng -= 360;
                 while(normAng < -180) normAng += 360;
 
-                // Côté paternel = gauche = angles entre -90° et 0° (après offset)
-                const isLeftSide = (normAng < 0 && normAng >= -90);
-                // Côté maternel = droite = angles entre 0° et 90°
-                const isRightSide = (normAng >= 0 && normAng <= 90);
+                // Moitié gauche de l'écran (paternelle) : un texte radial y serait à l'envers
+                const isLeftSide = normAng < 0;
 
                 // Décalage radial pour génération 4 (homme/femme sur des rayons légèrement différents)
                 if(type === 'anc' && d.depth === 4) {
@@ -607,9 +621,8 @@ export class FanChart {
             let p = d;
             while(p.depth > 1) p = p.parent;
             // Après rotation de -π/2 :
-            // Paternel (gauche, 9h-12h) correspond à x0 < π/2 dans l'espace partition
-            // Maternel (droite, 12h-3h) correspond à x0 >= π/2
-            return (p.x0 < Math.PI/2)
+            // Paternel = premier enfant de la racine (côté gauche), maternel = second
+            return (p.parent.children[0] === p)
                 ? d3.interpolateBlues(0.2 + d.depth/10)
                 : d3.interpolateReds(0.2 + d.depth/10);
         }

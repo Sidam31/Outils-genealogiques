@@ -98,6 +98,19 @@ export function buildLifeEvents(person, map, fams) {
         });
     });
 
+    // Décès des frères et sœurs (même famille d'origine), seulement s'ils précèdent ou coïncident
+    // avec celui de la personne affichée. Sexe inconnu : traité comme "frère/sœur" neutre (BRO/SIS
+    // selon SEX, sinon rangé avec les frères).
+    const famc = person.famc ? fams.get(person.famc) : null;
+    (famc?.children || []).forEach(sibId => {
+        if (sibId === person.id) return;
+        const sib = map.get(sibId);
+        if (!sib || sib.death?.year == null) return;
+        if (deathYear != null && sib.death.year > deathYear) return;
+        const isSister = sib.sex === 'F';
+        add(isSister ? 'SISTER_DEAT' : 'BROTHER_DEAT', `Décès de ${sib.name} (${isSister ? 'sœur' : 'frère'})`, sib.death.year, sib.death.approx, sib.death.geo, null);
+    });
+
     (person.censusEvents || []).forEach(entry => add('CENS', 'Recensement', entry.year, entry.approx, entry.geo, null));
     (person.resiEvents || []).forEach(entry => add('RESI', 'Résidence', entry.year, entry.approx, entry.geo, null));
 

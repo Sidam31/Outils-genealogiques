@@ -25,20 +25,31 @@ export function renderHeader(activePage) {
     // Un export HTML autonome (voir export-html.js) est un instantané figé d'un fichier précis :
     // "Changer de fichier" y renverrait vers un index.html sans données, ce qui n'a pas de sens ici.
     const isLockedExport = !!document.getElementById('embeddedGedcomData');
+    const creditLinks = `<a href="https://www.lecentredegenealogie.fr/" target="_blank" rel="noopener" title="Le Centre de généalogie — site"><img src="${CDG_LOGO}" alt="" class="cdg-logo">Le Centre de généalogie</a> · <a href="https://discord.gg/KgaQ36nVkh" target="_blank" rel="noopener" title="Rejoindre le Discord du Centre de généalogie">💬 Discord</a> · <a href="mentions-legales.html" title="Licence du code et conditions générales d'utilisation">Mentions légales</a>`;
+    const changeFileLink = isLockedExport ? '' : '<a class="tab-btn" href="index.html" title="Charger un autre fichier GEDCOM">📁 Changer de fichier</a>';
     header.innerHTML = `
         <h1>🔎 VisuGedcom</h1>
+        <button class="side-toggle hidden" id="sideToggle" type="button" aria-controls="sidePanel" aria-expanded="false" title="Afficher/masquer le panneau d'options">⚙️ Options</button>
         <button class="nav-burger" id="navBurger" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="mainNav">☰</button>
         <nav class="tabs" id="mainNav">
             ${TOOLS.map(t => `<a class="tab-btn${t.page === activePage ? ' active' : ''}" href="${t.href}">${t.icon} ${t.label}</a>`).join('')}
+            <div class="nav-extra">${changeFileLink}<div class="app-credit">${creditLinks}</div></div>
         </nav>
-        <div class="ctrl" id="pageControls"></div>
-        ${isLockedExport ? '' : '<div class="ctrl" id="changeFileCtrl"><a class="tab-btn" href="index.html" title="Charger un autre fichier GEDCOM">📁 Changer de fichier</a></div>'}
-        <div class="ctrl app-credit"><a href="https://www.lecentredegenealogie.fr/" target="_blank" rel="noopener" title="Le Centre de généalogie — site"><img src="${CDG_LOGO}" alt="" class="cdg-logo">Le Centre de généalogie</a> · <a href="https://discord.gg/KgaQ36nVkh" target="_blank" rel="noopener" title="Rejoindre le Discord du Centre de généalogie">💬 Discord</a> · <a href="mentions-legales.html" title="Licence du code et conditions générales d'utilisation">Mentions légales</a></div>
+        ${isLockedExport ? '' : `<div class="ctrl header-extra" id="changeFileCtrl">${changeFileLink}</div>`}
+        <div class="ctrl app-credit header-extra">${creditLinks}</div>
     `;
 
-    // Menu burger (mobile) : le nav complet démarre toujours fermé (renderHeader() est rejoué à
-    // chaque chargement de page, aucun état à restaurer) — la CSS masque de toute façon le bouton et
-    // impose la mise en page desktop au-dessus du seuil de largeur, quel que soit l'état de la classe.
+    // Panneau latéral repliable : accueille les contrôles propres à la page (#pageControls).
+    // Il n'est affiché (et son bouton visible) que si la page y a effectivement posé du contenu,
+    // voir initSidePanel() appelé par bootstrap() après onReady.
+    const side = document.createElement('aside');
+    side.id = 'sidePanel';
+    side.className = 'side-panel';
+    side.innerHTML = '<div class="side-panel-head">Options</div><div class="side-controls" id="pageControls"></div>';
+    header.insertAdjacentElement('afterend', side);
+
+    // Menu burger : s'active dès que l'en-tête ne tient plus sur une seule ligne (mesuré, pas
+    // basé sur une largeur fixe), le nav complet démarre toujours fermé.
     const burger = document.getElementById('navBurger');
     const mainNav = document.getElementById('mainNav');
     const closeNav = () => { mainNav.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); burger.textContent = '☰'; };
@@ -50,5 +61,47 @@ export function renderHeader(activePage) {
     mainNav.addEventListener('click', e => { if(e.target.closest('a')) closeNav(); });
     document.addEventListener('click', e => { if(!header.contains(e.target)) closeNav(); });
 
+    const fitHeader = () => {
+        header.classList.remove('compact');
+        closeNav();
+        const kids = Array.from(header.children).filter(el => el.offsetParent !== null);
+        // Comparaison des centres verticaux (align-items:center décale les tops d'éléments de
+        // hauteurs différentes même sur une seule ligne) : un vrai retour à la ligne décale d'une
+        // hauteur de ligne entière.
+        const mid = el => el.offsetTop + el.offsetHeight / 2;
+        const m0 = mid(kids[0]);
+        if(kids.some(el => Math.abs(mid(el) - m0) > 12) || header.scrollWidth > header.clientWidth) header.classList.add('compact');
+        document.documentElement.style.setProperty('--header-h', header.offsetHeight + 'px');
+    };
+    fitHeader();
+    window.addEventListener('resize', fitHeader);
+    if(document.fonts && document.fonts.ready) document.fonts.ready.then(fitHeader);
+
     return { controlsSlot: document.getElementById('pageControls') };
+}
+
+
+// À appeler une fois les contrôles de la page posés dans #pageControls : affiche le bouton
+// "Options" et gère l'ouverture du panneau (ouvert par défaut sur grand écran si openByDefault).
+export function initSidePanel({ openByDefault = false } = {}) {
+    const side = document.getElementById('sidePanel');
+    const toggle = document.getElementById('sideToggle');
+    const slot = document.getElementById('pageControls');
+    if(!side || !toggle || !slot) return;
+    if(!slot.children.length) { side.remove(); return; }
+    toggle.classList.remove('hidden');
+    let stored = null;
+    try { stored = localStorage.getItem('sidePanelOpen'); } catch(e) {}
+    const wide = window.innerWidth > 900;
+    const set = open => {
+        document.body.classList.toggle('side-open', open);
+        toggle.setAttribute('aria-expanded', String(open));
+        try { localStorage.setItem('sidePanelOpen', open ? '1' : '0'); } catch(e) {}
+        // Les graphiques se recalent sur leur conteneur au "resize"
+        setTimeout(() => window.dispatchEvent(new Event('resize')), 220);
+    };
+    toggle.addEventListener('click', e => { e.stopPropagation(); set(!document.body.classList.contains('side-open')); });
+    const initial = stored !== null ? stored === '1' && wide : openByDefault && wide;
+    document.body.classList.toggle('side-open', initial);
+    toggle.setAttribute('aria-expanded', String(initial));
 }

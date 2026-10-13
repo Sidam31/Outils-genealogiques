@@ -1836,6 +1836,182 @@ export function drawAgeDeathTrend(list) {
     ], { emptyText: 'Pas assez de données (naissance, décès et sexe requis).' });
 }
 
+
+// --- KAPLAN-MEIER (survie par cohorte de naissance) ---
+const KM_MAX_AGE = 110;
+const KM_MIN_N = 100; // effectif visé par courbe (sert au choix automatique de la durée des périodes)
+const KM_AUTO_MIN_YEARS = 25; // durée minimale testée en mode automatique (~ une génération)
+const KM_HIDE_BELOW = 50; // séries de moins de n personnes : masquées par défaut (réactivables via la légende)
+
+// Individus exploitables : {by: année de naissance, t: âge d'observation, event: 1 décès / 0 censuré}.
+export function buildKaplanMeierItems(list, { includeCensored = false, sex = 'all' } = {}) {
+    const items = [];
+    list.forEach(p => {
+        const by = p.birth?.year;
+        if(by == null) return;
+        if(sex !== 'all' && p.sex !== sex) return;
+        if(p.death?.year != null) {
+            const t = p.death.year - by;
+            if(t >= 0 && t <= KM_MAX_AGE) items.push({ by, t, event: 1 });
+        } else if(includeCensored) {
+            // Décès inconnu : censuré à l'année courante (= présumé vivant aujourd'hui). Au-delà de
+            // KM_MAX_AGE ans il est forcément décédé, on ne peut pas le présumer vivant : exclu.
+            const t = new Date().getFullYear() - by;
+            if(t >= 0 && t <= KM_MAX_AGE) items.push({ by, t, event: 0 });
+        }
+    });
+    return items.sort((a, b) => a.by - b.by);
+}
+
+// Découpe en périodes de naissance de largeur FIXE (identique pour toutes les courbes) : on cherche
+// la largeur (>= minYears) et le décalage de départ qui donnent le plus grand nombre de périodes
+// comptant au moins minN personnes ; les périodes plus petites restent renvoyées (le dessin les
+// signale comme peu fiables). À nombre égal de
+// courbes, on préfère la plus petite largeur (résolution la plus fine), puis le plus d'effectif
+// couvert. Renvoie { groups, width, offset } (groups triés, chacun = liste d'individus).
+export function groupByBirthRange(items, minN, minYears, maxWidth = 100) {
+    if(!items.length) return { groups: [], width: minYears, offset: 0 };
+    const perYear = new Map();
+    items.forEach(it => perYear.set(it.by, (perYear.get(it.by) || 0) + 1));
+    let best = null;
+    for(let w = minYears; w <= Math.max(minYears, maxWidth); w++) {
+        for(let off = 0; off < w; off++) {
+            const bins = new Map();
+            perYear.forEach((n, y) => { const k = Math.floor((y - off) / w); bins.set(k, (bins.get(k) || 0) + n); });
+            let count = 0, covered = 0;
+            bins.forEach(n => { if(n >= minN) { count++; covered += n; } });
+            if(!best || count > best.count || (count === best.count && covered > best.covered)) best = { w, off, count, covered };
+        }
+    }
+    const bins = new Map();
+    items.forEach(it => { const k = Math.floor((it.by - best.off) / best.w); if(!bins.has(k)) bins.set(k, []); bins.get(k).push(it); });
+    const groups = Array.from(bins.keys()).sort((a, b) => a - b).map(k => bins.get(k));
+    return { groups, width: best.w, offset: best.off };
+}
+
+// Estimateur de Kaplan-Meier : renvoie [{t, s}] (s = probabilité de survie juste après l'âge t).
+export function kaplanMeier(group) {
+    const sorted = group.slice().sort((a, b) => a.t - b.t);
+    let atRisk = sorted.length, surv = 1;
+    const pts = [{ t: 0, s: 1 }];
+    let i = 0;
+    while(i < sorted.length) {
+        const t = sorted[i].t;
+        let deaths = 0, leaving = 0;
+        while(i < sorted.length && sorted[i].t === t) { deaths += sorted[i].event; leaving++; i++; }
+        if(deaths > 0) { surv *= 1 - deaths / atRisk; pts.push({ t, s: surv }); }
+        atRisk -= leaving;
+    }
+    return pts;
+}
+
+function survivalAt(pts, age) {
+    let s = 1;
+    for(const p of pts) { if(p.t <= age) s = p.s; else break; }
+    return s;
+}
+
+export function drawKaplanMeier(list) {
+    const container = d3.select('#kaplanMeierChart');
+    container.selectAll('*').remove();
+    const minN = KM_MIN_N;
+    const includeCensored = !!document.getElementById('kmCensored')?.checked;
+    const sex = document.querySelector('input[name="kmSex"]:checked')?.value || 'all';
+    const widthEl = document.getElementById('kmWidth');
+    const manualWidth = widthEl && widthEl.dataset.manual === '1' ? Math.max(1, parseInt(widthEl.value) || 0) : 0;
+
+    const items = buildKaplanMeierItems(list, { includeCensored, sex });
+    // Durée automatique (la meilleure pour obtenir le plus de courbes d'au moins minN personnes)
+    // ou imposée par l'utilisateur ; dans les deux cas le champ reflète la durée utilisée.
+    const { groups, width: periodWidth } = manualWidth
+        ? groupByBirthRange(items, minN, manualWidth, manualWidth)
+        : groupByBirthRange(items, minN, KM_AUTO_MIN_YEARS);
+    if(widthEl && !manualWidth) widthEl.value = items.length ? periodWidth : '';
+    if(!groups.length) {
+        container.append('div').attr('class', 'map-placeholder')
+            .text('Pas assez de données : aucune personne avec naissance et décès connus pour ces options.');
+        return;
+    }
+
+    const series = groups.map((g, gi) => {
+        const pts = kaplanMeier(g);
+        const med = pts.find(p => p.s <= 0.5);
+        return {
+            name: `${g[0].by}–${g[g.length - 1].by}`,
+            small: g.length < minN,
+            visible: g.length >= KM_HIDE_BELOW,
+            n: g.length, deaths: g.reduce((a, b) => a + b.event, 0),
+            pts, median: med ? med.t : null,
+            color: d3.interpolateViridis(groups.length === 1 ? 0.4 : 0.92 * gi / (groups.length - 1))
+        };
+    });
+
+    const width = container.node().clientWidth || 600, height = 360;
+    const margin = { top: 14, right: 20, bottom: 40, left: 48 };
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+    const x = d3.scaleLinear().domain([0, KM_MAX_AGE]).range([margin.left, width - margin.right]);
+    const y = d3.scaleLinear().domain([0, 1]).range([height - margin.bottom, margin.top]);
+
+    svg.append('g').selectAll('line').data(y.ticks(5)).join('line')
+        .attr('x1', margin.left).attr('x2', width - margin.right).attr('y1', d => y(d)).attr('y2', d => y(d))
+        .attr('stroke', '#e3ecec');
+    svg.append('g').attr('transform', `translate(0,${height - margin.bottom})`).call(d3.axisBottom(x).ticks(11));
+    svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(5).tickFormat(d3.format('.0%')));
+    svg.append('text').attr('x', (margin.left + width - margin.right) / 2).attr('y', height - 6).attr('text-anchor', 'middle')
+        .style('font-size', '11px').text('Âge');
+    svg.append('text').attr('transform', 'rotate(-90)').attr('x', -(margin.top + height - margin.bottom) / 2).attr('y', 12).attr('text-anchor', 'middle')
+        .style('font-size', '11px').text('Probabilité de survie');
+    svg.append('line').attr('x1', margin.left).attr('x2', width - margin.right).attr('y1', y(0.5)).attr('y2', y(0.5))
+        .attr('stroke', '#999').attr('stroke-dasharray', '4,4');
+
+    const line = d3.line().x(p => x(p.t)).y(p => y(p.s)).curve(d3.curveStepAfter);
+    series.forEach(sr => {
+        // La courbe se prolonge jusqu'au dernier âge observé du groupe
+        const pts = sr.pts.slice();
+        const last = pts[pts.length - 1];
+        pts.push({ t: last.t, s: last.s });
+        sr.path = svg.append('path').datum(pts).attr('d', line).attr('fill', 'none')
+            .style('display', sr.visible ? null : 'none')
+            .attr('stroke', sr.color).attr('stroke-width', sr.small ? 1.5 : 2).attr('stroke-linejoin', 'round')
+            .attr('stroke-dasharray', sr.small ? '5,3' : null).attr('opacity', sr.small ? 0.7 : 1);
+    });
+
+    container.append('div').style('text-align', 'center').style('font-size', '12px').style('color', '#777')
+        .text(`Périodes de ${periodWidth} ans${manualWidth ? '' : ' (auto)'} — ${series.length} courbe${series.length > 1 ? 's' : ''} — en pointillés : moins de ${minN} personnes, peu fiable. Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut)`);
+    // Légende HTML (sous le graphique) : cohorte, effectif, âge médian de survie
+    const legend = container.append('div').style('display', 'flex').style('flex-wrap', 'wrap').style('gap', '4px 16px')
+        .style('justify-content', 'center').style('font-size', '12px').style('margin-top', '6px');
+    series.forEach(sr => {
+        const item = legend.append('span').style('cursor', 'pointer').style('user-select', 'none')
+            .attr('title', 'Cliquer pour afficher / masquer cette courbe')
+            .style('opacity', sr.visible ? 1 : 0.4).style('text-decoration', sr.visible ? null : 'line-through')
+            .html(`<span style="display:inline-block;width:12px;height:3px;background:${sr.color};vertical-align:middle;margin-right:5px"></span>`
+                + `${sr.name} <span style="color:#777">(n=${sr.n}${sr.small ? ', peu fiable' : ''}${sr.median != null ? `, médiane ${sr.median} ans` : ''})</span>`);
+        item.on('click', () => {
+            sr.visible = !sr.visible;
+            sr.path.style('display', sr.visible ? null : 'none');
+            item.style('opacity', sr.visible ? 1 : 0.4).style('text-decoration', sr.visible ? null : 'line-through');
+        });
+    });
+
+    // Repère au survol : probabilité de survie de chaque cohorte à l'âge pointé
+    const cross = svg.append('line').attr('y1', margin.top).attr('y2', height - margin.bottom).attr('stroke', '#555').attr('stroke-width', 1).style('display', 'none');
+    const tip = document.getElementById('tooltip');
+    svg.append('rect').attr('x', margin.left).attr('y', margin.top).attr('width', width - margin.left - margin.right)
+        .attr('height', height - margin.top - margin.bottom).attr('fill', 'transparent')
+        .on('mousemove', e => {
+            const age = Math.max(0, Math.min(KM_MAX_AGE, Math.round(x.invert(d3.pointer(e)[0]))));
+            cross.style('display', null).attr('x1', x(age)).attr('x2', x(age));
+            if(!tip) return;
+            tip.style.opacity = 1;
+            tip.innerHTML = `<strong>À ${age} ans</strong>` + series.filter(sr => sr.visible).map(sr =>
+                `<div class="tt-row"><span class="tt-lbl"><span style="color:${sr.color}">■</span> ${sr.name}</span><span>${(survivalAt(sr.pts, age) * 100).toFixed(1)} %</span></div>`).join('');
+            tip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tip.style.top = (e.pageY + 15) + 'px';
+        })
+        .on('mouseleave', () => { cross.style('display', 'none'); if(tip) tip.style.opacity = 0; });
+}
+
 export function drawFirstChildTrend(list) {
     const container = d3.select('#ageChartFirstChildTrend');
     const byDecadeM = new Map(), byDecadeF = new Map();
@@ -2013,6 +2189,306 @@ export function drawMarriageWeekdayTrend(fams) {
         legend.append('text').attr('x', gx + 14).attr('y', 9).style('font-size', '9px').text(label);
         gx += 14 + label.length * 5 + 12;
     });
+}
+
+// --- GRAPHIQUES RADIAUX PAR JOUR DU MOIS, HORS / PENDANT CARÊME ET AVENT ---
+// Un secteur par mois, une colonne de points par jour du mois (1 point = 1 événement). Nécessite une
+// date complète (jour, mois, année). Pâques : algorithme grégorien (calendrier proleptique, comme
+// getWeekday). Carême = mercredi des Cendres (Pâques-46) -> samedi saint (Pâques-1) ; Avent = 4e
+// dimanche avant Noël -> 24 décembre. Les arcs de fond sont d'autant plus foncés que le jour (ou, pour
+// les naissances, le jour 9 mois plus tôt) tombe souvent en Carême/Avent selon les années du fichier.
+const RADIAL_MONTHS = ['Jan', 'Fév', 'Mar', 'Avr', 'Mai', 'Juin', 'Juil', 'Août', 'Sep', 'Oct', 'Nov', 'Déc'];
+const RADIAL_DAYS_IN_MONTH = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+const RADIAL_COLOR_OUT = '#1f5f8b', RADIAL_COLOR_LENT = '#c0392b';
+
+function easterDate(year) {
+    const a = year % 19, b = Math.floor(year / 100), c = year % 100;
+    const d = Math.floor(b / 4), e = b % 4, f = Math.floor((b + 8) / 25);
+    const g = Math.floor((b - f + 1) / 3), h = (19 * a + b - d - g + 15) % 30;
+    const i = Math.floor(c / 4), k = c % 4, l = (32 + 2 * e + 2 * i - h - k) % 7;
+    const m = Math.floor((a + 11 * h + 22 * l) / 451);
+    const month = Math.floor((h + l - 7 * m + 114) / 31) - 1; // 0-based
+    const day = ((h + l - 7 * m + 114) % 31) + 1;
+    return Date.UTC(year, month, day);
+}
+
+// Renvoie une fonction (mois 0-based, jour) -> vrai si la date est en Carême ou en Avent cette année-là.
+function lentAdventTester(year) {
+    const DAY = 86400000;
+    const easter = easterDate(year);
+    const lentStart = easter - 46 * DAY, lentEnd = easter - DAY;
+    const dec24 = Date.UTC(year, 11, 24);
+    const adventStart = dec24 - new Date(dec24).getUTCDay() * DAY - 21 * DAY;
+    return (month, day) => {
+        const t = Date.UTC(year, month, day);
+        return (t >= lentStart && t <= lentEnd) || (t >= adventStart && t <= dec24);
+    };
+}
+
+// Cache des testeurs par année + test sur une date décalée de `shiftMonths` mois (ex. -9 : conception).
+function makeLentAdventCheck(shiftMonths) {
+    const testers = new Map();
+    return (year, month, day) => {
+        let y = year, m = month, d = day;
+        if(shiftMonths) {
+            const tm = month + shiftMonths;
+            y = year + Math.floor(tm / 12);
+            m = ((tm % 12) + 12) % 12;
+            d = Math.min(day, new Date(Date.UTC(y, m + 1, 0)).getUTCDate());
+        }
+        if(!testers.has(y)) testers.set(y, lentAdventTester(y));
+        return testers.get(y)(m, d);
+    };
+}
+
+// events : [{ year, month (0-based), day }]. opts : { containerId, shiftMonths, unitSingular, unitPlural,
+// labelOut, labelLent, labelShade, tooltipOut, tooltipLent }
+function drawRadialLentAdventChart(events, opts) {
+    const container = d3.select(`#${opts.containerId}`);
+    container.selectAll('*').remove();
+
+    const check = makeLentAdventCheck(opts.shiftMonths || 0);
+    const days = RADIAL_DAYS_IN_MONTH.map(n => Array.from({ length: n }, () => ({ out: 0, lent: 0, outEv: [], lentEv: [] })));
+    let total = 0, minYear = Infinity, maxYear = -Infinity;
+
+    events.forEach(e => {
+        if(e.year == null || e.month == null || e.day == null) return;
+        if(e.month < 0 || e.month > 11 || e.day < 1 || e.day > RADIAL_DAYS_IN_MONTH[e.month]) return;
+        const cell = days[e.month][e.day - 1];
+        if(check(e.year, e.month, e.day)) { cell.lent++; cell.lentEv.push(e); } else { cell.out++; cell.outEv.push(e); }
+        total++;
+        minYear = Math.min(minYear, e.year); maxYear = Math.max(maxYear, e.year);
+    });
+
+    if(!total) {
+        container.append('div').attr('class', 'map-placeholder').text('Pas assez de données (date complète — jour, mois, année — requise).');
+        return;
+    }
+
+    const yearList = d3.range(minYear, maxYear + 1);
+
+    const S = Math.min(container.node().clientWidth || 600, 640);
+    const cx = S / 2, cy = S / 2;
+    const rIn = S * 0.25, rOut = S * 0.31;
+    const dotStart = rOut + 8;
+    const maxStack = d3.max(days.flat(), c => c.out + c.lent) || 1;
+    const step = Math.min(6, (S / 2 - 6 - dotStart) / maxStack);
+    const dotR = Math.max(1, Math.min(2.3, step * 0.42));
+
+    const svg = container.append('svg').attr('width', S).attr('height', S).attr('viewBox', `0 0 ${S} ${S}`);
+    const g = svg.append('g').attr('transform', `translate(${cx},${cy})`);
+    const tooltip = document.getElementById('tooltip');
+
+    const angleOf = (month, day1) => (month + (day1 - 0.5) / RADIAL_DAYS_IN_MONTH[month]) * (Math.PI / 6); // 0 = haut, sens horaire
+    const arc = d3.arc().innerRadius(rIn).outerRadius(rOut);
+
+    const arcLayer = g.append('g');
+    RADIAL_DAYS_IN_MONTH.forEach((n, month) => {
+        for(let d = 1; d <= n; d++) {
+            const a0 = (month + (d - 1) / n) * (Math.PI / 6), a1 = (month + d / n) * (Math.PI / 6);
+            const share = yearList.filter(y => check(y, month, d)).length / yearList.length;
+            const cell = days[month][d - 1];
+            arcLayer.append('path').attr('d', arc({ startAngle: a0, endAngle: a1 }))
+                .attr('fill', RADIAL_COLOR_LENT).attr('fill-opacity', share * 0.22)
+                .on('mouseover', () => {
+                    tooltip.style.opacity = 1;
+                    tooltip.innerHTML = `<strong>${d} ${RADIAL_MONTHS[month]}</strong>`
+                        + `<div class="tt-row"><span>${opts.labelOut}</span><span>${cell.out}</span></div>`
+                        + `<div class="tt-row"><span>${opts.labelLent}</span><span>${cell.lent}</span></div>`;
+                })
+                .on('mousemove', e => {
+                    tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+                    tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+                })
+                .on('mouseout', () => { tooltip.style.opacity = 0; });
+        }
+    });
+
+    g.append('circle').attr('r', rIn).attr('fill', 'none').attr('stroke', '#b8c9c6');
+    g.append('circle').attr('r', rOut).attr('fill', 'none').attr('stroke', '#b8c9c6');
+    const rMid = (rIn + rOut) / 2;
+    for(let m = 0; m < 12; m++) {
+        const a = m * Math.PI / 6;
+        g.append('line').attr('x1', rIn * Math.sin(a)).attr('y1', -rIn * Math.cos(a))
+            .attr('x2', rOut * Math.sin(a)).attr('y2', -rOut * Math.cos(a)).attr('stroke', '#b8c9c6');
+        const am = a + Math.PI / 12;
+        g.append('text').attr('x', rMid * Math.sin(am)).attr('y', -rMid * Math.cos(am))
+            .attr('text-anchor', 'middle').attr('dy', '0.35em').style('font-size', '10px').style('fill', '#556').style('pointer-events', 'none')
+            .text(RADIAL_MONTHS[m]);
+    }
+
+    // points : bleus (hors Carême/Avent) d'abord, rouges ensuite, vers l'extérieur
+    const dots = [];
+    days.forEach((arr, month) => arr.forEach((cell, i) => {
+        const a = angleOf(month, i + 1);
+        for(let k = 0; k < cell.out + cell.lent; k++) {
+            const r = dotStart + k * step;
+            const ev = k < cell.out ? cell.outEv[k] : cell.lentEv[k - cell.out];
+            dots.push({ x: r * Math.sin(a), y: -r * Math.cos(a), color: k < cell.out ? RADIAL_COLOR_OUT : RADIAL_COLOR_LENT, tip: ev.tip });
+        }
+    }));
+    const dotSel = g.append('g').selectAll('circle').data(dots).join('circle')
+        .attr('cx', d => d.x).attr('cy', d => d.y).attr('r', dotR).attr('fill', d => d.color);
+    attachTooltip(dotSel, d => d.tip);
+
+    g.append('text').attr('text-anchor', 'middle').attr('y', 4).style('font-size', '30px').style('font-family', 'Georgia, serif').text(total);
+    g.append('text').attr('text-anchor', 'middle').attr('y', 24).style('font-size', '11px').style('fill', '#667')
+        .text(total > 1 ? opts.unitPlural : opts.unitSingular);
+
+    const legend = container.append('div').style('display', 'flex').style('justify-content', 'center').style('gap', '18px')
+        .style('flex-wrap', 'wrap').style('font-size', '12px').style('margin-top', '6px');
+    const item = (swatchStyle, label) => {
+        const el = legend.append('span').style('display', 'inline-flex').style('align-items', 'center').style('gap', '6px');
+        el.append('span').attr('style', swatchStyle);
+        el.append('span').text(label);
+    };
+    item(`width:10px;height:10px;border-radius:50%;background:${RADIAL_COLOR_OUT}`, opts.labelOut);
+    item(`width:10px;height:10px;border-radius:50%;background:${RADIAL_COLOR_LENT}`, opts.labelLent);
+    item(`width:14px;height:10px;background:${RADIAL_COLOR_LENT};opacity:.25`, opts.labelShade);
+}
+
+function attachTooltip(sel, htmlFn) {
+    const tooltip = document.getElementById('tooltip');
+    sel.on('mouseover', (e, d) => { tooltip.style.opacity = 1; tooltip.innerHTML = htmlFn(d); })
+        .on('mousemove', e => {
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', () => { tooltip.style.opacity = 0; });
+}
+
+function personLabel(p) { return p?.name && p.name !== 'Inconnu' ? p.name : '?'; }
+function placeLabel(geo) { return geo?.city || geo?.raw || ''; }
+const FR_MONTHS_FULL = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+function fullDateLabel(d) { return `${d.day} ${FR_MONTHS_FULL[d.month]} ${d.year}`; }
+
+export function drawMarriageRadialChart(fams, indis) {
+    const events = [];
+    fams.forEach(f => {
+        if(!f.marr) return;
+        const place = placeLabel(f.marr.geo);
+        const tip = `<strong>${escapeHtml(personLabel(indis.get(f.husb)))} &amp; ${escapeHtml(personLabel(indis.get(f.wife)))}</strong>`
+            + `<div class="tt-row"><span>${f.marr.year}</span><span>${escapeHtml(place)}</span></div>`;
+        events.push({ year: f.marr.year, month: f.marr.month, day: f.marr.day, tip });
+    });
+    drawRadialLentAdventChart(events, {
+        containerId: 'marriageRadialChart', shiftMonths: 0,
+        unitSingular: 'mariage', unitPlural: 'mariages',
+        labelOut: 'Hors Carême et Avent', labelLent: 'Carême ou Avent',
+        labelShade: 'Période de Carême/Avent (fréquence selon les années)'
+    });
+}
+
+// Naissances : l'événement est classé selon que la conception présumée (naissance - 9 mois) tombe en
+// Carême/Avent, périodes d'abstinence recommandée.
+export function drawBirthConceptionRadialChart(list) {
+    const events = [];
+    list.forEach(p => {
+        if(!p.birth || p.birth.approx) return;
+        const tip = `<strong>${escapeHtml(personLabel(p))}</strong>`
+            + `<div class="tt-row"><span>${p.birth.year}</span><span>${escapeHtml(placeLabel(p.birth.geo))}</span></div>`;
+        events.push({ year: p.birth.year, month: p.birth.month, day: p.birth.day, tip });
+    });
+    drawRadialLentAdventChart(events, {
+        containerId: 'birthRadialChart', shiftMonths: -9,
+        unitSingular: 'naissance', unitPlural: 'naissances',
+        labelOut: 'Conception hors Carême et Avent', labelLent: 'Conception en Carême ou Avent',
+        labelShade: 'Naissances 9 mois après le Carême/Avent (fréquence selon les années)'
+    });
+}
+
+// --- DÉLAI ENTRE LE MARIAGE ET LE PREMIER ENFANT ---
+// Un point = un couple. Abscisse : délai en mois entre le mariage et la naissance du premier enfant
+// (parmi les enfants à date de naissance complète et certaine). Moins de 9 mois (ou enfant né avant le
+// mariage) = conception probablement antérieure au mariage.
+const MARR_CHILD_DAYS_PER_MONTH = 30.44;
+const MARR_CHILD_CONCEPTION_DAYS = 9 * MARR_CHILD_DAYS_PER_MONTH;
+const MARR_CHILD_MIN_MONTH = -12, MARR_CHILD_MAX_MONTH = 48;
+
+export function drawMarriageFirstChildChart(fams, indis) {
+    const container = d3.select('#marriageChildChart');
+    container.selectAll('*').remove();
+
+    const pts = [];
+    let outOfRange = 0;
+    fams.forEach(f => {
+        const m = f.marr;
+        if(m?.year == null || m.month == null || m.day == null) return;
+        let first = null;
+        (f.children || []).forEach(cid => {
+            const c = indis.get(cid);
+            const b = c?.birth;
+            if(!b || b.approx || b.year == null || b.month == null || b.day == null) return;
+            const t = Date.UTC(b.year, b.month, b.day);
+            if(!first || t < first.t) first = { t, c, b };
+        });
+        if(!first) return;
+        const days = Math.round((first.t - Date.UTC(m.year, m.month, m.day)) / 86400000);
+        const months = days / MARR_CHILD_DAYS_PER_MONTH;
+        if(months < MARR_CHILD_MIN_MONTH || months >= MARR_CHILD_MAX_MONTH) { outOfRange++; return; }
+        const place = placeLabel(m.geo);
+        const tip = `<strong>${escapeHtml(personLabel(indis.get(f.husb)))} &amp; ${escapeHtml(personLabel(indis.get(f.wife)))}</strong>`
+            + `<div class="tt-row"><span>Mariage</span><span>${fullDateLabel(m)}${place ? ' — ' + escapeHtml(place) : ''}</span></div>`
+            + `<div class="tt-row"><span>1er enfant : ${escapeHtml(personLabel(first.c))}</span><span>${fullDateLabel(first.b)}</span></div>`
+            + `<div class="tt-row"><span>Délai</span><span>${days} jour${Math.abs(days) > 1 ? 's' : ''} (${(months).toFixed(1).replace('.', ',')} mois)</span></div>`;
+        pts.push({ days, months, early: days < MARR_CHILD_CONCEPTION_DAYS, tip, bin: Math.floor(months) });
+    });
+
+    if(!pts.length) {
+        container.append('div').attr('class', 'map-placeholder').text('Pas assez de données (dates complètes de mariage et de naissance du premier enfant requises).');
+        return;
+    }
+
+    // empilement par classe d'un mois ; plus tôt = plus proche de l'axe
+    const bins = new Map();
+    pts.sort((a, b) => a.days - b.days).forEach(p => {
+        if(!bins.has(p.bin)) bins.set(p.bin, []);
+        p.k = bins.get(p.bin).length;
+        bins.get(p.bin).push(p);
+    });
+    const maxStack = d3.max(Array.from(bins.values()), v => v.length);
+
+    const width = container.node().clientWidth || 700, height = 360;
+    const margin = { top: 20, right: 20, bottom: 50, left: 45 };
+    const svg = container.append('svg').attr('width', width).attr('height', height);
+    const x = d3.scaleLinear().domain([MARR_CHILD_MIN_MONTH, MARR_CHILD_MAX_MONTH]).range([margin.left, width - margin.right]);
+    const binW = x(1) - x(0);
+    const step = Math.min(binW * 0.9, (height - margin.top - margin.bottom - 6) / maxStack);
+    const r = Math.max(1.2, Math.min(binW * 0.4, step * 0.45, 4));
+    const yBase = height - margin.bottom;
+
+    // zone "conception avant le mariage" (9 mois ou moins) + ligne du mariage
+    svg.append('rect').attr('x', x(MARR_CHILD_MIN_MONTH)).attr('width', x(9) - x(MARR_CHILD_MIN_MONTH))
+        .attr('y', margin.top).attr('height', yBase - margin.top).attr('fill', RADIAL_COLOR_LENT).attr('fill-opacity', 0.07);
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', margin.top).attr('y2', yBase).attr('stroke', '#999').attr('stroke-dasharray', '3,3');
+    svg.append('line').attr('x1', x(9)).attr('x2', x(9)).attr('y1', margin.top).attr('y2', yBase).attr('stroke', RADIAL_COLOR_LENT).attr('stroke-dasharray', '3,3');
+    svg.append('text').attr('x', x(0) + 4).attr('y', margin.top + 10).style('font-size', '10px').style('fill', '#777').text('Mariage');
+    svg.append('text').attr('x', x(9) + 4).attr('y', margin.top + 10).style('font-size', '10px').style('fill', RADIAL_COLOR_LENT).text('9 mois');
+
+    svg.append('g').attr('transform', `translate(0,${yBase})`)
+        .call(d3.axisBottom(x).tickValues(d3.range(MARR_CHILD_MIN_MONTH, MARR_CHILD_MAX_MONTH + 1, 6)));
+    svg.append('text').attr('x', (margin.left + width - margin.right) / 2).attr('y', height - 10).attr('text-anchor', 'middle')
+        .style('font-size', '11px').style('fill', '#667').text('Mois entre le mariage et la naissance du 1er enfant');
+    svg.append('text').attr('x', 4).attr('y', 12).style('font-size', '10px').style('fill', '#7f8c8d').text('Couples');
+
+    const sel = svg.append('g').selectAll('circle').data(pts).join('circle')
+        .attr('cx', d => x(d.bin) + binW / 2).attr('cy', d => yBase - r - 2 - d.k * step).attr('r', r)
+        .attr('fill', d => d.early ? RADIAL_COLOR_LENT : RADIAL_COLOR_OUT);
+    attachTooltip(sel, d => d.tip);
+
+    const early = pts.filter(p => p.early).length;
+    const pct = Math.round(early / pts.length * 100);
+    const legend = container.append('div').style('display', 'flex').style('justify-content', 'center').style('gap', '18px')
+        .style('flex-wrap', 'wrap').style('font-size', '12px').style('margin-top', '6px');
+    const item = (color, label) => {
+        const el = legend.append('span').style('display', 'inline-flex').style('align-items', 'center').style('gap', '6px');
+        el.append('span').attr('style', `width:10px;height:10px;border-radius:50%;background:${color}`);
+        el.append('span').text(label);
+    };
+    item(RADIAL_COLOR_LENT, `Moins de 9 mois : conception avant le mariage (${early}, ${pct} %)`);
+    item(RADIAL_COLOR_OUT, `9 mois ou plus (${pts.length - early})`);
+    container.append('div').style('text-align', 'center').style('font-size', '11px').style('color', '#7f8c8d').style('margin-top', '4px')
+        .text(`${pts.length} couple${pts.length > 1 ? 's' : ''}${outOfRange ? ` — ${outOfRange} hors de la plage ${MARR_CHILD_MIN_MONTH} à ${MARR_CHILD_MAX_MONTH} mois non affiché${outOfRange > 1 ? 's' : ''}` : ''}`);
 }
 
 // --- PRÉNOMS LES PLUS FRÉQUENTS PAR SIÈCLE (H/F) ---

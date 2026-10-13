@@ -40,17 +40,26 @@ function setupControls(controlsSlot) {
             <ul id="searchResults"></ul>
         </div>
         <div class="ctrl">
+            <label for="shapeSelect">Forme</label>
+            <select id="shapeSelect" title="Forme de l'éventail">
+                <option value="half" selected>Demi-cercle</option>
+                <option value="circle">Cercle</option>
+                <option value="butterfly">Papillon</option>
+            </select>
+            <label for="depthSelect">Ascendants</label>
             <select id="depthSelect" title="Générations d'ancêtres">
                 <option value="5">5 Gén. ↑</option>
                 <option value="6">6 Gén. ↑</option>
                 <option value="7" selected>7 Gén. ↑</option>
                 <option value="8">8 Gén. ↑</option>
             </select>
+            <label for="descGenSelect">Descendants</label>
             <select id="descGenSelect" title="Générations de descendants">
                 <option value="1" selected>1 Gén. ↓</option>
                 <option value="2">2 Gén. ↓</option>
                 <option value="3">3 Gén. ↓</option>
             </select>
+            <label for="colorMode">Couleur</label>
             <select id="colorMode">
                 <option value="branch">Branches (P/M)</option>
                 <optgroup label="Données">
@@ -75,6 +84,7 @@ function setupControls(controlsSlot) {
                     <option value="m_country">Pays Mariage</option>
                 </optgroup>
             </select>
+            <label for="privacyMode">Confidentialité</label>
             <select id="privacyMode" title="Protection des personnes vivantes ou récemment décédées">
                 <option value="">Noms: visibles</option>
                 <option value="mask">Patronymes masqués (vivants/&lt;25 ans)</option>
@@ -89,11 +99,20 @@ function setupControls(controlsSlot) {
         depth: document.getElementById('depthSelect'),
         descGen: document.getElementById('descGenSelect'),
         mode: document.getElementById('colorMode'),
-        privacy: document.getElementById('privacyMode')
+        privacy: document.getElementById('privacyMode'),
+        shape: document.getElementById('shapeSelect')
     };
     chart = new FanChart('chart');
 
-    [els.depth, els.descGen, els.mode, els.privacy].forEach(el => el.addEventListener('change', () => chart.render()));
+    // Le cercle complet n'a pas de place libre pour les descendants
+    const syncShape = () => {
+        const circle = els.shape.value === 'circle';
+        els.descGen.disabled = circle;
+        els.descGen.title = circle ? "Les descendants ne sont pas affichés en mode Cercle" : "Générations de descendants";
+    };
+    els.shape.addEventListener('change', syncShape);
+    syncShape();
+    [els.shape, els.depth, els.descGen, els.mode, els.privacy].forEach(el => el.addEventListener('change', () => chart.render()));
     createPersonPicker({
         searchEl: els.search, resultsEl: els.res, selectedEl: null,
         getList: () => list,

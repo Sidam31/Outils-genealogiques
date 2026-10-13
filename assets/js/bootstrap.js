@@ -3,7 +3,7 @@
 // et transmet {list, map, fams, filename, controlsSlot} à la page. Si aucun fichier n'a encore été
 // chargé, list/map/fams sont vides — chaque page affiche alors son propre message d'invitation à
 // charger un fichier (déjà présent dans son HTML, ex. #chartMessage pour l'Arbre éventail).
-import { renderHeader } from './nav.js';
+import { renderHeader, initSidePanel } from './nav.js';
 import { loadGedcom } from './store.js';
 import { GedcomParser } from './gedcom.js';
 import { wireCopyButtons } from './utils.js';
@@ -30,6 +30,7 @@ export async function bootstrap({ page, onReady, onData }) {
     // AVANT que les données n'arrivent (le rendu initial les lit immédiatement) : onReady est donc
     // appelé de façon synchrone, avant la lecture (asynchrone) du GEDCOM stocké.
     if(onReady) onReady(controlsSlot);
+    initSidePanel({ openByDefault: page === 'arbre' || page === 'frise' || page === 'visualisation' });
 
     let list = [], map = new Map(), fams = new Map(), filename = null, text = null;
     try {

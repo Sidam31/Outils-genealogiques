@@ -4,6 +4,17 @@ import { FRENCH_HISTORICAL_TIMELINE } from './historical-timeline.js';
 import { escapeHtml } from './utils.js';
 
 export const CATEGORY_LABELS = { monarque: 'Monarque', regime: 'Régime', president: 'Président', evenement: 'Événement historique' };
+// Groupes d'événements personnels filtrables (clé -> libellé + sources de buildLifeEvents)
+export const EVENT_GROUPS = {
+    vie: { label: 'Naissance, baptême, décès, inhumation', sources: ['BIRT', 'BAPM', 'DEAT', 'BURI'] },
+    marr: { label: 'Mariages', sources: ['MARR'] },
+    enfants: { label: 'Naissances et décès des enfants', sources: ['CHILD_BIRT', 'CHILD_DEAT'] },
+    conjoint: { label: 'Décès du conjoint', sources: ['SPOUSE_DEAT'] },
+    freres: { label: 'Décès des frères', sources: ['BROTHER_DEAT'] },
+    soeurs: { label: 'Décès des sœurs', sources: ['SISTER_DEAT'] },
+    lieux: { label: 'Recensements et résidences', sources: ['CENS', 'RESI'] },
+    autres: { label: 'Autres faits', sources: ['OTHER'] },
+};
 const MARGIN = { top: 64, right: 30, bottom: 30, left: 30 };
 const PX_PER_YEAR = 22;
 const LANE_HEIGHT = 22;
@@ -82,6 +93,8 @@ export class FriseChart {
         this.div = document.getElementById(id);
         this.tooltip = document.getElementById('tooltip');
         this.showHistory = true;
+        this.hiddenEventGroups = new Set(); // clés d'EVENT_GROUPS masquées
+        this.hiddenHistory = new Set(); // catégories historiques masquées (CATEGORY_LABELS)
         this.onEmpty = onEmpty;
         this.onReady = onReady;
         this.person = null; this.map = null; this.fams = null;
@@ -92,6 +105,16 @@ export class FriseChart {
     init() {
         this.div.innerHTML = '';
         this.svg = d3.select(this.div).append('svg');
+    }
+
+    setEventGroupVisible(key, visible) {
+        if (visible) this.hiddenEventGroups.delete(key); else this.hiddenEventGroups.add(key);
+        if (this.person) this.render();
+    }
+
+    setHistoryCategoryVisible(cat, visible) {
+        if (visible) this.hiddenHistory.delete(cat); else this.hiddenHistory.add(cat);
+        if (this.person) this.render();
     }
 
     setShowHistory(show) { this.showHistory = show; if (this.person) this.render(); }
@@ -105,6 +128,12 @@ export class FriseChart {
         this.svg.selectAll('*').remove();
         const colors = resolveColors();
         const life = buildLifeEvents(this.person, this.map, this.fams);
+        const hiddenSources = new Set();
+        this.hiddenEventGroups.forEach(k => EVENT_GROUPS[k].sources.forEach(src => hiddenSources.add(src)));
+        if (hiddenSources.size) {
+            life.events = life.events.filter(e => !hiddenSources.has(e.source));
+            life.undated = life.undated.filter(u => !hiddenSources.has(u.source));
+        }
 
         if (!life.events.length) {
             this.svg.attr('width', 0).attr('height', 0);
@@ -120,7 +149,7 @@ export class FriseChart {
         const maxYear = Math.max(...years) + 1;
 
         let historical = { items: [], laneCount: 0 };
-        const historyWindow = this.showHistory ? getHistoricalWindow(FRENCH_HISTORICAL_TIMELINE, life.birthYear, life.deathYear) : [];
+        const historyWindow = this.showHistory ? getHistoricalWindow(FRENCH_HISTORICAL_TIMELINE, life.birthYear, life.deathYear).filter(h => !this.hiddenHistory.has(h.category)) : [];
 
         const containerWidth = this.div.clientWidth || 900;
         const yearSpan = Math.max(1, maxYear - minYear);
@@ -151,7 +180,7 @@ export class FriseChart {
         // soit la spécificité de la règle en face.
         this.svg.append('text')
             .attr('x', MARGIN.left).attr('y', 26)
-            .style('font-size', '24px').style('font-weight', '800').style('fill', colors.accent)
+            .style('font-family', "var(--font-serif, Georgia, serif)").style('font-size', '24px').style('font-weight', '700').style('fill', colors.axis)
             .text(life.personName || 'Inconnu');
         if (lifespan) {
             this.svg.append('text')

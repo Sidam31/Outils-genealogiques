@@ -32,7 +32,7 @@
 
 <script type="module">
 import { bootstrap } from './assets/js/bootstrap.js';
-import { FriseChart, CATEGORY_LABELS } from './assets/js/frise.js';
+import { FriseChart, CATEGORY_LABELS, EVENT_GROUPS } from './assets/js/frise.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
 import { escapeHtml } from './assets/js/utils.js';
 
@@ -84,15 +84,20 @@ function renderHistoryLegend(historyCategories) {
 function setupControls(controlsSlot) {
     controlsSlot.innerHTML = `
         <div class="ctrl" style="position:relative">
+            <label for="searchInput">Personne</label>
             <input type="text" id="searchInput" placeholder="Rechercher une personne...">
             <ul id="searchResults"></ul>
         </div>
         <span id="personSelected" class="map-person-selected"></span>
-        <div class="ctrl">
-            <label style="font-size:0.8rem; display:flex; align-items:center; gap:4px; cursor:pointer;">
-                <input type="checkbox" id="showHistoryToggle" checked> Contexte historique
-            </label>
-        </div>
+        <fieldset class="side-group">
+            <legend>Événements de la vie</legend>
+            ${Object.entries(EVENT_GROUPS).map(([k, g]) => `<label class="check-row"><input type="checkbox" data-event-group="${k}" checked> ${g.label}</label>`).join('')}
+        </fieldset>
+        <fieldset class="side-group">
+            <legend>Contexte historique</legend>
+            <label class="check-row"><input type="checkbox" id="showHistoryToggle" checked> <strong>Afficher le contexte</strong></label>
+            ${Object.entries(CATEGORY_LABELS).map(([k, l]) => `<label class="check-row"><input type="checkbox" data-history-cat="${k}" checked> ${l}s</label>`).join('')}
+        </fieldset>
     `;
     const searchEl = document.getElementById('searchInput');
     const resultsEl = document.getElementById('searchResults');
@@ -111,7 +116,14 @@ function setupControls(controlsSlot) {
         }
     });
 
-    historyToggle.addEventListener('change', () => chart.setShowHistory(historyToggle.checked));
+    historyToggle.addEventListener('change', () => {
+        chart.setShowHistory(historyToggle.checked);
+        document.querySelectorAll('[data-history-cat]').forEach(cb => { cb.disabled = !historyToggle.checked; });
+    });
+    document.querySelectorAll('[data-event-group]').forEach(cb =>
+        cb.addEventListener('change', () => chart.setEventGroupVisible(cb.dataset.eventGroup, cb.checked)));
+    document.querySelectorAll('[data-history-cat]').forEach(cb =>
+        cb.addEventListener('change', () => chart.setHistoryCategoryVisible(cb.dataset.historyCat, cb.checked)));
     createPersonPicker({
         searchEl, resultsEl, selectedEl,
         getList: () => list,
