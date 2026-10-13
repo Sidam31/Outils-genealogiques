@@ -1849,15 +1849,16 @@ export function buildKaplanMeierItems(list, { includeCensored = false, sex = 'al
     list.forEach(p => {
         const by = p.birth?.year;
         if(by == null) return;
-        if(sex !== 'all' && p.sex !== sex) return;
+        if(sex === 'compare' && p.sex !== 'M' && p.sex !== 'F') return;
+        if((sex === 'F' || sex === 'M') && p.sex !== sex) return;
         if(p.death?.year != null) {
             const t = p.death.year - by;
-            if(t >= 0 && t <= KM_MAX_AGE) items.push({ by, t, event: 1 });
+            if(t >= 0 && t <= KM_MAX_AGE) items.push({ by, t, event: 1, sex: p.sex });
         } else if(includeCensored) {
             // Décès inconnu : censuré à l'année courante (= présumé vivant aujourd'hui). Au-delà de
             // KM_MAX_AGE ans il est forcément décédé, on ne peut pas le présumer vivant : exclu.
             const t = new Date().getFullYear() - by;
-            if(t >= 0 && t <= KM_MAX_AGE) items.push({ by, t, event: 0 });
+            if(t >= 0 && t <= KM_MAX_AGE) items.push({ by, t, event: 0, sex: p.sex });
         }
     });
     return items.sort((a, b) => a.by - b.by);
@@ -1921,12 +1922,20 @@ export function drawKaplanMeier(list) {
     const manualWidth = widthEl && widthEl.dataset.manual === '1' ? Math.max(1, parseInt(widthEl.value) || 0) : 0;
 
     const items = buildKaplanMeierItems(list, { includeCensored, sex });
-    // Durée automatique (la meilleure pour obtenir le plus de courbes d'au moins minN personnes)
-    // ou imposée par l'utilisateur ; dans les deux cas le champ reflète la durée utilisée.
-    const { groups, width: periodWidth } = manualWidth
-        ? groupByBirthRange(items, minN, manualWidth, manualWidth)
-        : groupByBirthRange(items, minN, KM_AUTO_MIN_YEARS);
-    if(widthEl && !manualWidth) widthEl.value = items.length ? periodWidth : '';
+    const compare = sex === 'compare';
+    if(widthEl) widthEl.disabled = compare;
+    let groups, periodWidth = 0;
+    if(compare) {
+        // Comparaison Femmes / Hommes : deux courbes sur toutes les dates de naissance
+        groups = [items.filter(i => i.sex === 'F'), items.filter(i => i.sex === 'M')].filter(g => g.length);
+    } else {
+        // Durée automatique (la meilleure pour obtenir le plus de courbes d'au moins minN personnes)
+        // ou imposée par l'utilisateur ; dans les deux cas le champ reflète la durée utilisée.
+        ({ groups, width: periodWidth } = manualWidth
+            ? groupByBirthRange(items, minN, manualWidth, manualWidth)
+            : groupByBirthRange(items, minN, KM_AUTO_MIN_YEARS));
+        if(widthEl && !manualWidth) widthEl.value = items.length ? periodWidth : '';
+    }
     if(!groups.length) {
         container.append('div').attr('class', 'map-placeholder')
             .text('Pas assez de données : aucune personne avec naissance et décès connus pour ces options.');
@@ -1936,13 +1945,16 @@ export function drawKaplanMeier(list) {
     const series = groups.map((g, gi) => {
         const pts = kaplanMeier(g);
         const med = pts.find(p => p.s <= 0.5);
+        const range = `${Math.min(...g.map(i => i.by))}–${Math.max(...g.map(i => i.by))}`;
         return {
-            name: `${g[0].by}–${g[g.length - 1].by}`,
+            name: compare ? `${g[0].sex === 'F' ? 'Femmes' : 'Hommes'} (${range})` : range,
             small: g.length < minN,
             visible: g.length >= KM_HIDE_BELOW,
+            items: g,
             n: g.length, deaths: g.reduce((a, b) => a + b.event, 0),
             pts, median: med ? med.t : null,
-            color: d3.interpolateViridis(groups.length === 1 ? 0.4 : 0.92 * gi / (groups.length - 1))
+            color: compare ? (g[0].sex === 'F' ? '#e91e8c' : '#3498db')
+                : d3.interpolateViridis(groups.length === 1 ? 0.4 : 0.92 * gi / (groups.length - 1))
         };
     });
 
@@ -1977,10 +1989,37 @@ export function drawKaplanMeier(list) {
     });
 
     container.append('div').style('text-align', 'center').style('font-size', '12px').style('color', '#777')
-        .text(`Périodes de ${periodWidth} ans${manualWidth ? '' : ' (auto)'} — ${series.length} courbe${series.length > 1 ? 's' : ''} — en pointillés : moins de ${minN} personnes, peu fiable. Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut)`);
+        .text(`${compare ? 'Toutes dates de naissance' : `Périodes de ${periodWidth} ans${manualWidth ? '' : ' (auto)'}`} — ${series.length} courbe${series.length > 1 ? 's' : ''} — en pointillés : moins de ${minN} personnes, peu fiable. Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut)`);
     // Légende HTML (sous le graphique) : cohorte, effectif, âge médian de survie
     const legend = container.append('div').style('display', 'flex').style('flex-wrap', 'wrap').style('gap', '4px 16px')
         .style('justify-content', 'center').style('font-size', '12px').style('margin-top', '6px');
+    // Tableau des survivants tous les 10 ans : % de survie (Kaplan-Meier) et effectif encore observé
+    // à cet âge (personnes dont la durée d'observation atteint cet âge), pour les courbes affichées.
+    const tableBox = container.append('div').style('overflow-x', 'auto').style('margin-top', '10px');
+    const renderTable = () => {
+        tableBox.selectAll('*').remove();
+        const shown = series.filter(sr => sr.visible);
+        if(!shown.length) return;
+        const ages = d3.range(0, KM_MAX_AGE + 1, 10);
+        const table = tableBox.append('table').style('margin', '0 auto').style('font-size', '12px').style('width', 'auto');
+        const head = table.append('thead').append('tr');
+        head.append('th').text('Âge');
+        shown.forEach(sr => head.append('th').style('white-space', 'nowrap')
+            .html(`<span style="color:${sr.color}">■</span> ${sr.name}`));
+        const body = table.append('tbody');
+        ages.forEach(a => {
+            const tr = body.append('tr');
+            tr.append('td').text(`${a} ans`);
+            shown.forEach(sr => {
+                const atRisk = sr.items.filter(i => i.t >= a).length;
+                tr.append('td').style('text-align', 'right').style('white-space', 'nowrap')
+                    .text(atRisk ? `${(survivalAt(sr.pts, a) * 100).toFixed(0)} % (${atRisk})` : '—');
+            });
+        });
+        tableBox.append('div').attr('class', 'hint').style('text-align', 'center')
+            .text("Probabilité de survie à cet âge ; entre parenthèses, le nombre de survivants : personnes de la série observées au moins jusqu'à cet âge.");
+    };
+
     series.forEach(sr => {
         const item = legend.append('span').style('cursor', 'pointer').style('user-select', 'none')
             .attr('title', 'Cliquer pour afficher / masquer cette courbe')
@@ -1991,8 +2030,10 @@ export function drawKaplanMeier(list) {
             sr.visible = !sr.visible;
             sr.path.style('display', sr.visible ? null : 'none');
             item.style('opacity', sr.visible ? 1 : 0.4).style('text-decoration', sr.visible ? null : 'line-through');
+            renderTable();
         });
     });
+    renderTable();
 
     // Repère au survol : probabilité de survie de chaque cohorte à l'âge pointé
     const cross = svg.append('line').attr('y1', margin.top).attr('y2', height - margin.bottom).attr('stroke', '#555').attr('stroke-width', 1).style('display', 'none');
