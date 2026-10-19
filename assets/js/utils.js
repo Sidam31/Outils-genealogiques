@@ -211,7 +211,7 @@ export async function copyBlobOrDownload(blob, filename) {
 
 // Filigrane discret (lien du site) en bas à droite de l'image copiée. Adresse du site déployé déduite de
 // la page courante ; en local (file://), repli sur le dépôt GitHub.
-const WATERMARK_FALLBACK = 'github.com/Sidam31/Outils-genealogiques';
+const WATERMARK_FALLBACK = 'https://sidam31.github.io/Outils-genealogiques';
 function watermarkText() {
     if(!/^https?:$/.test(location.protocol) || /^(localhost|127\.|\[::1\])/.test(location.hostname)) return WATERMARK_FALLBACK;
     return (location.host + location.pathname.replace(/[^/]*$/, '')).replace(/\/$/, '');
