@@ -1,0 +1,838 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9945,
+          46.2132
+        ]
+      },
+      "properties": {
+        "name": "Vonnas (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "notaire non nommé (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0672,
+          46.458
+        ]
+      },
+      "properties": {
+        "name": "Saint-Trivier-de-Courtes (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "BADEL François (1619–1666)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2469,
+          46.2027
+        ]
+      },
+      "properties": {
+        "name": "Bourg-en-Bresse (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "[note libre] Années 1857 et 1858 sures. — BARBET N... (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3191,
+          46.1822
+        ]
+      },
+      "properties": {
+        "name": "Ceyzériat (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "BARBET Eugène Nicolas (1856 (sans précision)–1866 (sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2461,
+          46.3452
+        ]
+      },
+      "properties": {
+        "name": "Marboz (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 9125",
+          "3E 9254",
+          "3E 9258"
+        ],
+        "description": "CHOSSAT Benoît (1642 (sans précision)–1662 (sans précision))\n3E 9125 — CABUCHET J B (1704 (date exacte)–1705 (date exacte))\nBARBIER Jacques (1710–1738)\n3E 9254, 3E 9258 — BLONDEL Joseph (1729 (sans précision)–1738 (sans précision))",
+        "count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2634,
+          46.4274
+        ]
+      },
+      "properties": {
+        "name": "Beaupont (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "BARDET Claude (1863–1898)\nCADOZ N... (?–?)",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.9026,
+          46.3651
+        ]
+      },
+      "properties": {
+        "name": "Manziat (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "BARDET Claude (1863–1898)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1851,
+          46.3792
+        ]
+      },
+      "properties": {
+        "name": "Foissiat (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 14721",
+          "3E 14738"
+        ],
+        "description": "3E 14721, 3E 14738 — BISTAC Jacques (1738 (sans précision)–1769 (sans précision))\n[note libre] An 7 sûr. — DAGALIER N... (?–?)",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3352,
+          46.3889
+        ]
+      },
+      "properties": {
+        "name": "Coligny (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 891",
+          "3E 1030",
+          "3E 1045"
+        ],
+        "description": "[note libre] Déposé aux AD39 — TERMINAL Claude (1586–1633)\n[note libre] Déposé aux AD39 — CHARLET E. (1606–1606)\n[note libre] Déposé aux AD39 — BUYARD Claude (1635–1644)\n3E 891 — BUYAD Claude (1648 (sans précision)–1669 (sans précision))\n[note libre] Déposé aux AD39 — TERMINAL Jean (1650–1685)\n[note libre] Actes aux AD39 - Notaire à La Ville-sous-Charmoux ( canton de Coligny, Ain) — BUYAD Claude (1658–1670)\n[note libre] Déposé aux AD39 — CRESTIN Jean (1658–1658)\n[note libre] Déposé aux AD39 — TERMINAL François (1676–1679)\n[note libre] Déposé aux AD39 — TERMINAL Jean 2 (1686–1687)\nDUBOIS C A (1701 (sans précision)–1743 (sans précision))\n[note libre] Déposé aux AD39 — DUBOIS ? (1710–1711)\n3E 1030, 3E 1045 — COCHET Michel (1762 (sans précision)–an 5 (sans précision))\n[note libre] Année 1806 sûre. — CHAPUIS N... (?–?)",
+        "count": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2945,
+          46.4211
+        ]
+      },
+      "properties": {
+        "name": "Domsure (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 956",
+          "3E 964"
+        ],
+        "description": "3E 956, 3E 964 — CABUCHET Claude Marie (1720 (sans précision)–1769 (sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3472,
+          46.3466
+        ]
+      },
+      "properties": {
+        "name": "Verjon (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 599",
+          "3E 606",
+          "3E 9163",
+          "3E 9170"
+        ],
+        "description": "[note libre] Actes aux AD39 — VINCENT Claude (1544–1557)\n[note libre] Actes aux AD39 — CHAMBARD Louis (1562–1566)\n[note libre] Actes aux AD39 — DUCELLIER Jean (1579–1590)\n[note libre] Actes aux AD39 — CHAMBARD Philibert (1619–1624)\n3E 599, 3E 606 — CHAMBARD Hippolyte (1648 (sans précision)–1682 (sans précision))\n3E 9163, 3E 9170 — CHAMBARD Joseph (1686 (sans précision)–1717 (sans précision))",
+        "count": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1123,
+          46.2199
+        ]
+      },
+      "properties": {
+        "name": "Montcet (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 599",
+          "3E 606"
+        ],
+        "description": "3E 599, 3E 606 — CHAMBARD Hippolyte (1648 (sans précision)–1682 (sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2703,
+          46.386
+        ]
+      },
+      "properties": {
+        "name": "Pirajoux (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 599",
+          "3E 606"
+        ],
+        "description": "3E 599, 3E 606 — CHAMBARD Hippolyte (1648 (sans précision)–1682 (sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2793,
+          46.2755
+        ]
+      },
+      "properties": {
+        "name": "Saint-Étienne-du-Bois (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "CHAMBARD Jean Baptiste Romain Auguste (1828 (sans précision)–1864 (sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2469,
+          46.2027
+        ]
+      },
+      "properties": {
+        "name": "Passin (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "CHARVET Anthoine (1668 (avant)–1669)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1823,
+          46.2858
+        ]
+      },
+      "properties": {
+        "name": "Attignat (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 879"
+        ],
+        "description": "3E 879 — COLLET N... (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1716,
+          46.4549
+        ]
+      },
+      "properties": {
+        "name": "Saint-Nizier-le-Bouchoux (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "[note libre] Années 1683 à 1697 sûres. — CORNATON F (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1122,
+          46.3262
+        ]
+      },
+      "properties": {
+        "name": "Montrevel-en-Bresse (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "[note libre] An 7 sûr. — DAGALIER N... (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.1206,
+          46.2903
+        ]
+      },
+      "properties": {
+        "name": "Saint-Martin-le-Châtel (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "[note libre] Année 1769 sûre. — DAVID N... (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0582,
+          46.3912
+        ]
+      },
+      "properties": {
+        "name": "Saint-Jean-sur-Reyssouze (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3E 21190",
+          "3E 21193",
+          "3E 21196"
+        ],
+        "description": "[note libre] ??? — Me François BADEL à St Trivier de Courtes (1620–?)\n[note libre] ??? — M° Jacques Bon (1638–?)\n3E 21190 — M° Philibert Demaris (1651–?)\n3E 21193 — M° Philibert Demaris (1658–?)\n3E 21196 — M° Philibert Demaris (1666–?)",
+        "count": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.8257,
+          45.9477
+        ]
+      },
+      "properties": {
+        "name": "Seyssel (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [
+          "3 E 3808"
+        ],
+        "description": "3 E 3808 — M° DUMOLLARD (1661–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.771,
+          45.9398
+        ]
+      },
+      "properties": {
+        "name": "Trévoux (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "M° Maubert (1730–?)\nM° Maubert (1730–?)",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0185,
+          45.8868
+        ]
+      },
+      "properties": {
+        "name": "Montluel (01)",
+        "departement": "01 - Ain",
+        "dept_code": "01",
+        "cotes": [],
+        "description": "VANEL Denis (1743 (date exacte)–1782)\nVANEL Louis (1782 (date exacte)–1830 (date approximative))",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0912,
+          49.4412
+        ]
+      },
+      "properties": {
+        "name": "Rouen (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "BLIGNY ? (1831 (date approximative)–1831 (date approximative))\nAUBERT Marcel (1931 (sans précision)–1931 (sans précision))\nDE MEULEMEESTER Raymond (1978 (date approximative)–1978 (date approximative))\n[note libre] exerce à Rouen en janvier 1876 — LAYER Albert Amédée (?–?)",
+        "count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1085,
+          49.7948
+        ]
+      },
+      "properties": {
+        "name": "Longueville-sur-Scie (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "LEFORGEUR Jacques (1700 (date exacte)–1706 (date exacte))\nMAHIEU François (1711 (date exacte)–1740 (date exacte))\nPOCHOLLE Pierre (1740 (date exacte)–1745 (date exacte))\nPOULLET Thomas (1746 (date exacte)–1758 (date exacte))\nBOURDON Nicolas (1759 (date exacte)–1774 (date exacte))\nROLLE Paul (1892 (date exacte)–1941 (date exacte))\nREVET André (1941 (date exacte)–1942 (date exacte))\nPATRY Roger (1942 (date exacte)–1946 (date exacte))\nMAILLY Raoul (1946 (date exacte)–1950 (date exacte))\nVIGNE Jean (1950 (date exacte)–1981 (date exacte))",
+        "count": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.183,
+          49.7936
+        ]
+      },
+      "properties": {
+        "name": "Torcy-le-Grand (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "BRUMENT Fernand (1894 (date exacte)–1904 (date exacte))\nMESLIN Louis - Henri (1904–1937)\nMESLIN Robert (1937 (date exacte)–1979 (date exacte))\nMESLIN-BERENGER Monique (1972 (date exacte)–2003 (date exacte))",
+        "count": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2299,
+          49.5869
+        ]
+      },
+      "properties": {
+        "name": "Cailly (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "CALENTIER Joseph ((sans précision)–(sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4488,
+          49.742
+        ]
+      },
+      "properties": {
+        "name": "Neufchâtel-en-Bray (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [
+          "002E112"
+        ],
+        "description": "002E112 — DEBOUTTEVILLE Modeste Alexandre (07/07/1844–1865 (date exacte))\nJOUEN OU JOUIN ? (1886 (date approximative)–1886 (date approximative))\nDELESTRE ? (1910 (date approximative)–1910 (date approximative))",
+        "count": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.293,
+          49.5071
+        ]
+      },
+      "properties": {
+        "name": "Blainville-Crevon (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "DESCHAMPS ? (1892 (date approximative)–1904 (date approximative))\nLE BERTRE Robert (1920 (sans précision)–1920)",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.193,
+          49.5426
+        ]
+      },
+      "properties": {
+        "name": "Montivilliers (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] source: acte de Mariage de Hervieu Jacques Anthime et Grancher Marie Clémence le 08/02/1887 à Mannevillette. il est cité comme le notaire de Montivilliers devant lequel a été passé le contratde mariage. — DUBOSC ? (ca 1887–?)\n[note libre] source: acte de Mariage de DORIVAL Emile et DUBOURG Berthe Marie le 20 septembre 1882 au Hâvre. il est cité comme le notaire de Montivilliers devant lequel a été passé le contrat, et également comme témoin du mariage notaire âgé de 39 ans et résidant à Montivilliers. — MAILLARD Albert (?–?)",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5393,
+          49.505
+        ]
+      },
+      "properties": {
+        "name": "Lillebonne (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "FAUVEL ? (1867 (date approximative)–1867 (date approximative))\n[note libre] Dans l'acte de mariage de sa fille Marie Marguerite Pélagie le 22/11/1802 à Lillebonne sa profession Notaire. Dans l'acte de naissance de sa fille Marie Marguerite Pélagie le 20/12/1776, il est stipulé profession Huissier Sergent et Tabellion du Comité de Haute justice de Lillebonne  -  Dans l’acte de mariage (daté du 29/07/1783) entre Hauchard Auguste Nicolas et Cachard Marie Suzanne, Jacques Michel Ono Dit Biot  est témoin leur de cette célébration et sa  profession est notaire à Lillebonne. — ONO DIT BIOT Jacques Michel ((sans précision)–1803 (date exacte))",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.356,
+          49.6465
+        ]
+      },
+      "properties": {
+        "name": "Goderville (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "FERON ? (1702 (date exacte)–1732 (date exacte))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2689,
+          49.6344
+        ]
+      },
+      "properties": {
+        "name": "Criquetot-l'Esneval (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "FERON ? (1702 (date exacte)–1732 (date exacte))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1312,
+          49.4958
+        ]
+      },
+      "properties": {
+        "name": "Le Havre (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [
+          "2 E 70/4",
+          "2 E 70",
+          "2E 70"
+        ],
+        "description": "2 E 70/4 — M° Duchemyn (1571–?)\n2 E 70 — M° Dauve (1597–?)\n2 E 70 — M° Jehan Frequet (1615–?)\n2E 70 — M° Fresquet (1619–?)\n2E 70 — M° Fresquet (1619–?)\n2 E 70 — M° Jehan Fresquet (1627–?)\n2E 70 — M° Jehan Fresquet (1632–?)\n2E 70 — M° Jehan Fresquet (1632–?)\n2 E 70 — M° Jean Frequet (1641–?)\n[note libre] un contrat de mariage a été passé le 22.12.1928 — GOSSELIN Charles (1920 (avant)–1928 (après))\n[note libre] L'Etude a été créée en 1998 — HUET Jean-Pierre Joseph Marie (1998 (date exacte)–?)\n[note libre] Caricaturé par Monet vers 1855/1856, dessin conservé à l'Art Institute de Chicago. — MANCHON Léon (?–?)",
+        "count": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.483,
+          49.5755
+        ]
+      },
+      "properties": {
+        "name": "Bolbec (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] en activité en décembre 1874 (correction du nom LASNE -> LASNEL et date depuis un contrat de mariage de 1874 - Véronique SANSON) — LASNEL ? (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4303,
+          50.042
+        ]
+      },
+      "properties": {
+        "name": "Eu (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] Source : Cité sur acte de mariage généalogie personnelle — LECOMTE Laurent Bonnaventure (1827 (avant)–1827 (après))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9974,
+          49.2773
+        ]
+      },
+      "properties": {
+        "name": "Elbeuf (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] Notaire royal et premier maire élu d'elbeuf en 1790-1791 — LINGOIS Pierre françois (1765–1814)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1007,
+          49.5902
+        ]
+      },
+      "properties": {
+        "name": "Clères (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] maitre Mauger notaire à clères en 1860 — MAUGER ? (? (sans précision)–? (sans précision))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1085,
+          49.7948
+        ]
+      },
+      "properties": {
+        "name": "Longueville sur Scie (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "MORIN François Pierre Alphonse (27 juin 1881 (date exacte)–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0838,
+          49.9199
+        ]
+      },
+      "properties": {
+        "name": "Dieppe (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] Dans le Figaro, je trouve le décès de Maître Paul MUNCH. — MUNCH PAUL (?–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1312,
+          49.4958
+        ]
+      },
+      "properties": {
+        "name": "Le_havre (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [
+          "2 E 70"
+        ],
+        "description": "2 E 70 — M° Jehan Fresquet (1614–?)\n2 E 70 — M° Jehan Fresquet (1614–?)",
+        "count": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0409,
+          49.6869
+        ]
+      },
+      "properties": {
+        "name": "Tôtes (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "TATOU François (1650 (date approximative)–1678 (date exacte))",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3394,
+          49.5859
+        ]
+      },
+      "properties": {
+        "name": "Buchy (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "THOMAS Georges charles (1877 (date exacte)–?)",
+        "count": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9491,
+          49.5783
+        ]
+      },
+      "properties": {
+        "name": "Pavilly (76)",
+        "departement": "76 - Seine-Maritime",
+        "dept_code": "76",
+        "cotes": [],
+        "description": "[note libre] Notaire en 1875 — THURRIER Louis Auguste Adrien (? (sans précision)–? (sans précision))",
+        "count": 1
+      }
+    }
+  ]
+}

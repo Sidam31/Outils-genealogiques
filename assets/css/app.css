@@ -74,7 +74,7 @@ body.side-open .side-panel { display: flex; }
 .side-controls .ctrl { flex-direction: column; align-items: stretch; gap: 8px; }
 .side-controls select, .side-controls input[type="text"], .side-controls button { width: 100%; }
 .side-controls label { font-size: 0.8rem; color: var(--muted); }
-.side-controls #searchResults { width: 100%; }
+.side-controls #searchResults, .side-controls #searchResultsB { width: 100%; }
 /* Blocs de filtres déplacés tels quels dans le panneau (Vue d'ensemble) : mise en colonne */
 .side-controls #mapAncestorScopeBar { position: static; box-shadow: none; margin: 0; }
 .side-controls .options-panel { margin: 0; padding: 12px; }
@@ -122,9 +122,9 @@ body.side-open { padding-left: 300px; transition: padding-left 0.2s; }
 #chartMessage.msg-error { color: #c0392b; }
 
 /* SEARCH */
-#searchResults { position: absolute; top: 100%; left: 0; width: 220px; background: white; border: 1px solid #ccc; max-height: 300px; overflow-y: auto; list-style: none; padding: 0; margin: 0; z-index: 100; display: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
-#searchResults li { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 0.85rem; }
-#searchResults li:hover { background: #eef; }
+#searchResults, #searchResultsB { position: absolute; top: 100%; left: 0; width: 220px; background: white; border: 1px solid #ccc; max-height: 300px; overflow-y: auto; list-style: none; padding: 0; margin: 0; z-index: 100; display: none; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+#searchResults li, #searchResultsB li { padding: 8px; cursor: pointer; border-bottom: 1px solid #eee; font-size: 0.85rem; }
+#searchResults li:hover, #searchResultsB li:hover { background: #eef; }
 
 /* LEGEND */
 #legend { position: absolute; bottom: 15px; right: 15px; background: rgba(255,255,255,0.95); padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: var(--radius); max-height: 40vh; overflow-y: auto; font-size: 0.75rem; box-shadow: 0 2px 8px rgba(35,63,82,0.12); pointer-events: none; z-index: 5; }
@@ -419,3 +419,12 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
     .decade-slider-row { gap: 8px; padding: 0; flex-wrap: wrap; margin-bottom: 8px; }
     .decade-slider-row span { min-width: 0; }
 }
+
+/* ONGLET "RÉSEAU DE RELATIONS" (force-graph 2D / 3d-force-graph) */
+#chart.reseau-chart { cursor: default; }
+#chart.reseau-chart:active { cursor: default; }
+.reseau-legend-title { font-family: var(--font-serif); font-weight: 700; margin: 4px 0 4px; color: var(--ink); }
+.reseau-path { margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid var(--border); max-width: 320px; }
+.reseau-path ol { margin: 0; padding-left: 18px; }
+.reseau-path li { margin-bottom: 2px; }
+.side-controls input[type="range"] { width: 100%; accent-color: var(--accent); }

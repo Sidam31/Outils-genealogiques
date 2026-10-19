@@ -40,6 +40,18 @@
         <div id="cacheStatus" style="margin-top:10px; font-weight:600;"></div>
     </div>
 
+    <div class="home-summary" id="rootBox">
+        <p style="margin:0 0 8px; font-weight:600;">Quelle personne s'affiche au départ ?</p>
+        <p style="margin:0 0 8px;">À l'ouverture de l'Arbre éventail, de la Frise de vie ou du Réseau, la personne affichée est choisie automatiquement, dans cet ordre :</p>
+        <ol style="margin:0 0 8px; padding-left:22px;">
+            <li>la personne dont l'identifiant GEDCOM est <strong>I1</strong> (en général la première personne saisie, souvent vous-même) ;</li>
+            <li>à défaut, l'identifiant <strong>I0000</strong> ;</li>
+            <li>sinon, la première personne de la liste qui a au moins un parent connu (Arbre), ou une date de naissance ou de décès (Frise, Réseau) ;</li>
+            <li>en dernier recours, la première personne du fichier.</li>
+        </ol>
+        <p style="margin:0;">Dans le Réseau, si la personne retenue n'a aucun lien, c'est la personne la plus reliée qui est choisie à la place. Vous pouvez ensuite changer de personne à tout moment avec le champ de recherche de chaque page.</p>
+    </div>
+
     <div class="home-tools" id="toolsGrid"></div>
 </main>
 
@@ -55,6 +67,7 @@ renderHeader('home');
 const TOOLS = [
     { href: 'arbre.html', icon: '🌳', title: 'Arbre éventail', desc: "Visualisation en éventail des ascendants et descendants d'une personne." },
     { href: 'frise.html', icon: '🕰️', title: 'Frise de vie', desc: "Frise chronologique des événements d'une personne, avec repères historiques (chefs d'État, régimes)." },
+    { href: 'reseau.html', icon: '🕸️', title: 'Réseau de relations', desc: "Graphe 2D/3D des personnes et de leurs liens (famille, parrains, témoins, voisinage) : groupes, chemin de parenté entre deux personnes." },
     { href: 'visualisation.html', icon: '📊', title: "Vue d'ensemble", desc: "Cartes, démographie, professions, complétude documentaire, mobilité géographique et traditions familiales." },
     { href: 'qualite.html', icon: '🔍', title: 'Analyse Qualité', desc: "Détecte les événements manquants ou sans date dans votre généalogie." },
     { href: 'recherche.html', icon: '🧭', title: 'Aide à la recherche', desc: "Décès manquants (matchID/INSEE) et pistes FranceArchives (recensements, notariat, successions)." },

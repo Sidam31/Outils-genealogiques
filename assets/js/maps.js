@@ -2,6 +2,29 @@ import { GEO, normalizePlace, deptCode } from './geo.js';
 import { escapeHtml, computeStats, decadeOf, centuryOf, periodOf, WEEKDAY_LABELS, getSosaMap } from './utils.js';
 import { labelForOther } from './timeline.js';
 
+// Plotly (~3,5 Mo) n'est utilisé que par deux graphiques situés dans des sections repliées : il est
+// chargé à la première demande plutôt qu'à l'ouverture de la page.
+let plotlyPromise = null;
+function ensurePlotly() {
+    if(typeof Plotly !== 'undefined') return Promise.resolve();
+    if(!plotlyPromise) {
+        plotlyPromise = new Promise((resolve, reject) => {
+            const script = document.createElement('script');
+            script.src = 'https://cdn.plot.ly/plotly-2.35.2.min.js';
+            script.onload = resolve;
+            script.onerror = () => { plotlyPromise = null; reject(new Error('Plotly non chargé')); };
+            document.head.appendChild(script);
+        });
+    }
+    return plotlyPromise;
+}
+function drawWhenPlotlyReady(container, redraw) {
+    container.innerHTML = '<div class="map-placeholder">Chargement du graphique…</div>';
+    ensurePlotly().then(redraw).catch(() => {
+        container.innerHTML = '<div class="map-placeholder" style="color:#c0392b">Bibliothèque Plotly non chargée.</div>';
+    });
+}
+
 export function showMapMessage(containerId, text, isError) {
     d3.select(`#${containerId}`).html(`<div class="map-placeholder"${isError ? ' style="color:#c0392b"' : ''}>${text}</div>`);
 }
@@ -10,7 +33,7 @@ export function showMapMessage(containerId, text, isError) {
 let franceGeoCache = null;
 export async function ensureFranceGeo() {
     if(!franceGeoCache) {
-        const res = await fetch('https://raw.githubusercontent.com/Sidam31/ICA-APHP/refs/heads/main/Data/data_carte.geojson');
+        const res = await fetch('./assets/data/france_departements.geojson');
         franceGeoCache = await res.json();
     }
     return franceGeoCache;
@@ -38,7 +61,7 @@ function fixEsriRingWinding(geometry) {
 let belgiumGeoCache = null;
 export async function ensureBelgiumGeo() {
     if(!belgiumGeoCache) {
-        const res = await fetch('https://raw.githubusercontent.com/mathiasleroy/Belgium-Geographic-Data/master/dist/polygons/geojson/Belgium.provinces.WGS84.geojson');
+        const res = await fetch('./assets/data/belgique_provinces.geojson');
         const raw = await res.json();
         belgiumGeoCache = { ...raw, features: raw.features.map(f => ({ ...f, geometry: fixEsriRingWinding(f.geometry) })) };
     }
@@ -50,11 +73,13 @@ export async function ensureBelgiumGeo() {
 let europeGeoCache = null;
 export async function ensureEuropeGeo() {
     if(!europeGeoCache) {
-        // Natural Earth admin-0, résolution 50m (~3 Mo) plutôt que 110m (~0,8 Mo) : contours des pays
+        // Natural Earth admin-0, résolution 50m, copie locale réduite à l'Europe, aux seules propriétés
+        // de nom utilisées et à 3 décimales (assets/data/europe_countries.geojson, ~0,4 Mo au lieu de
+        // ~3 Mo depuis GitHub). Résolution 50m plutôt que 110m (~0,8 Mo) : contours des pays
         // voisins nettement plus fins (ex. Belgique passe de 17 à 164 points, Allemagne de 58 à 562),
         // ce qui se voit surtout sur la frontière française vue de près. Le 10m (~13 Mo, tout le monde)
         // serait disproportionné pour un simple contexte géographique autour de la France.
-        const res = await fetch('https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson');
+        const res = await fetch('./assets/data/europe_countries.geojson');
         const raw = await res.json();
         // Monaco est présent nativement à cette résolution (absent du 110m) : plus besoin de repli pour
         // lui. L'Andorre, elle, y reste grossière (une vingtaine de points) : toujours remplacée par un
@@ -1773,6 +1798,11 @@ export function drawMeanStdChart(container, series, opts) {
         .attr('dy', '0.15em');
     svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6));
 
+    // Grille très légère (derrière les courbes) : horizontales sur les graduations d'âge, verticales sur les décennies étiquetées
+    const grid = svg.insert('g', ':first-child').attr('stroke', '#000').attr('stroke-opacity', 0.07).attr('stroke-width', 1);
+    y.ticks(6).forEach(v => grid.append('line').attr('x1', margin.left).attr('x2', width - margin.right).attr('y1', y(v)).attr('y2', y(v)));
+    tickValues.forEach(d => grid.append('line').attr('x1', x(d)).attr('x2', x(d)).attr('y1', margin.top).attr('y2', height - margin.bottom));
+
     const area = d3.area().x(p => x(p.decade)).y0(p => y(p.p25)).y1(p => y(p.p75));
     const medianLine = d3.line().x(p => x(p.decade)).y(p => y(p.median));
     const meanLine = d3.line().x(p => x(p.decade)).y(p => y(p.mean));
@@ -1912,6 +1942,21 @@ function survivalAt(pts, age) {
     return s;
 }
 
+// Décennies de naissance disponibles pour le curseur de période de la comparaison H/F.
+export function getBirthDecades(list) {
+    const years = list.filter(p => p.birth?.year != null && (p.sex === 'M' || p.sex === 'F')).map(p => p.birth.year);
+    if(!years.length) return [];
+    const decades = [];
+    for(let d = decadeOf(d3.min(years)); d <= decadeOf(d3.max(years)); d += 10) decades.push(d);
+    return decades;
+}
+
+// Part des décès survenus avant `age` ans, par sexe (indicateur de mortalité infantile ET de sous-enregistrement).
+function earlyDeathShare(items, age) {
+    const dead = items.filter(i => i.event === 1);
+    return dead.length ? dead.filter(i => i.t < age).length / dead.length : null;
+}
+
 export function drawKaplanMeier(list) {
     const container = d3.select('#kaplanMeierChart');
     container.selectAll('*').remove();
@@ -1920,9 +1965,31 @@ export function drawKaplanMeier(list) {
     const sex = document.querySelector('input[name="kmSex"]:checked')?.value || 'all';
     const widthEl = document.getElementById('kmWidth');
     const manualWidth = widthEl && widthEl.dataset.manual === '1' ? Math.max(1, parseInt(widthEl.value) || 0) : 0;
-
-    const items = buildKaplanMeierItems(list, { includeCensored, sex });
     const compare = sex === 'compare';
+
+    // Comparaison H/F : période de naissance choisie au curseur double (bornes en décennies)
+    const periodRow = document.getElementById('kmPeriodRow');
+    if(periodRow) periodRow.style.display = compare ? '' : 'none';
+    const interp = document.getElementById('kmInterpretation');
+    if(interp) interp.style.display = compare ? '' : 'none';
+    const fromAge = compare && document.getElementById('kmFrom5')?.checked ? 5 : 0;
+    const decades = compare ? getBirthDecades(list) : [];
+    let decMin = null, decMax = null;
+    if(decades.length) {
+        const sMin = document.getElementById('kmPeriodMin'), sMax = document.getElementById('kmPeriodMax');
+        decMin = decades[Math.min(decades.length - 1, parseInt(sMin?.value) || 0)];
+        decMax = decades[Math.min(decades.length - 1, parseInt(sMax?.value ?? decades.length - 1))];
+        const lbl = document.getElementById('kmPeriodLabel');
+        if(lbl) lbl.textContent = (sMin && sMax && +sMin.value === 0 && +sMax.value === decades.length - 1)
+            ? 'Toutes périodes' : `Nés entre ${decMin} et ${decMax + 9}`;
+    }
+
+    let items = buildKaplanMeierItems(list, { includeCensored, sex });
+    if(compare) {
+        if(decMin != null) items = items.filter(i => i.by >= decMin && i.by <= decMax + 9);
+        // Survie conditionnelle : on écarte les morts avant 5 ans (souvent mal enregistrées) ; les survivants repartent de 100 %
+        if(fromAge) items = items.filter(i => i.t >= fromAge);
+    }
     if(widthEl) widthEl.disabled = compare;
     let groups, periodWidth = 0;
     if(compare) {
@@ -1976,7 +2043,7 @@ export function drawKaplanMeier(list) {
     const legendTop = height + 2;
     const svgHeight = legendTop + lgY + legendRowH + 22;
     const svg = container.append('svg').attr('width', width).attr('height', svgHeight);
-    const x = d3.scaleLinear().domain([0, KM_MAX_AGE]).range([margin.left, width - margin.right]);
+    const x = d3.scaleLinear().domain([fromAge, KM_MAX_AGE]).range([margin.left, width - margin.right]);
     const y = d3.scaleLinear().domain([0, 1]).range([height - margin.bottom, margin.top]);
 
     svg.append('g').selectAll('line').data(y.ticks(5)).join('line')
@@ -2010,7 +2077,7 @@ export function drawKaplanMeier(list) {
         tableBox.selectAll('*').remove();
         const shown = series.filter(sr => sr.visible);
         if(!shown.length) return;
-        const ages = d3.range(0, KM_MAX_AGE + 1, 10);
+        const ages = d3.range(fromAge, KM_MAX_AGE + 1, 10);
         const table = tableBox.append('table').style('margin', '0 auto').style('font-size', '12px').style('width', 'auto');
         const head = table.append('thead').append('tr');
         head.append('th').text('Âge');
@@ -2058,13 +2125,31 @@ export function drawKaplanMeier(list) {
         .text(`Cliquez la légende pour afficher/masquer une courbe (moins de ${KM_HIDE_BELOW} personnes : masquée par défaut).`);
     renderTable();
 
+    // Indicateurs chiffrés pour interpréter l'écart H/F (calculés sur la période choisie, hors filtre "dès 5 ans")
+    if(compare) {
+        const all = buildKaplanMeierItems(list, { includeCensored, sex })
+            .filter(i => decMin == null || (i.by >= decMin && i.by <= decMax + 9));
+        const pct = v => v == null ? '—' : (v * 100).toFixed(1).replace('.', ',') + ' %';
+        const row = (label, fn) => `<tr><td>${label}</td><td style="text-align:right">${pct(fn(all.filter(i => i.sex === 'F')))}</td><td style="text-align:right">${pct(fn(all.filter(i => i.sex === 'M')))}</td></tr>`;
+        const fmtMed = sr => sr && sr.median != null ? `${sr.median} ans` : '—';
+        const srF = series.find(s => s.items[0].sex === 'F'), srM = series.find(s => s.items[0].sex === 'M');
+        container.append('div').style('overflow-x', 'auto').style('margin-top', '10px').html(
+            `<table style="margin:0 auto;font-size:12px;width:auto"><thead><tr><th>Indicateur (décès connus de la période)</th><th style="color:#e91e8c">Femmes</th><th style="color:#3498db">Hommes</th></tr></thead><tbody>`
+            + `<tr><td>Effectif (n)</td><td style="text-align:right">${srF ? srF.n : 0}</td><td style="text-align:right">${srM ? srM.n : 0}</td></tr>`
+            + `<tr><td>Âge médian de survie</td><td style="text-align:right">${fmtMed(srF)}</td><td style="text-align:right">${fmtMed(srM)}</td></tr>`
+            + row('Décès avant 1 an', g => earlyDeathShare(g, 1))
+            + row('Décès avant 5 ans', g => earlyDeathShare(g, 5))
+            + row('Décès entre 15 et 45 ans', g => { const d = g.filter(i => i.event === 1); return d.length ? d.filter(i => i.t >= 15 && i.t < 45).length / d.length : null; })
+            + `</tbody></table>`);
+    }
+
     // Repère au survol : probabilité de survie de chaque cohorte à l'âge pointé
     const cross = svg.append('line').attr('y1', margin.top).attr('y2', height - margin.bottom).attr('stroke', '#555').attr('stroke-width', 1).style('display', 'none');
     const tip = document.getElementById('tooltip');
     svg.append('rect').attr('x', margin.left).attr('y', margin.top).attr('width', width - margin.left - margin.right)
         .attr('height', height - margin.top - margin.bottom).attr('fill', 'transparent')
         .on('mousemove', e => {
-            const age = Math.max(0, Math.min(KM_MAX_AGE, Math.round(x.invert(d3.pointer(e)[0]))));
+            const age = Math.max(fromAge, Math.min(KM_MAX_AGE, Math.round(x.invert(d3.pointer(e)[0]))));
             cross.style('display', null).attr('x1', x(age)).attr('x2', x(age));
             if(!tip) return;
             tip.style.opacity = 1;
@@ -2093,6 +2178,30 @@ export function drawFirstChildTrend(list) {
         { name: 'Hommes', color: '#3498db', points: pointsM },
         { name: 'Femmes', color: '#e91e8c', points: pointsF }
     ], { emptyText: 'Pas assez de données (sexe et âge au 1er enfant requis).' });
+}
+
+// Âge au mariage (année du mariage - année de naissance de l'époux / de l'épouse), par décennie de mariage.
+// Les âges implausibles (< 12 ou > 90 ans) sont ignorés ; remariages inclus (chaque union compte une fois).
+export function drawMarriageAgeTrend(fams, indis) {
+    const container = d3.select('#ageChartMarriageTrend');
+    const byDecadeM = new Map(), byDecadeF = new Map();
+    const add = (target, dec, age) => { if(!target.has(dec)) target.set(dec, []); target.get(dec).push(age); };
+    fams.forEach(f => {
+        const my = f.marr?.year;
+        if(my == null) return;
+        const dec = decadeOf(my);
+        [[f.husb, byDecadeM], [f.wife, byDecadeF]].forEach(([id, target]) => {
+            const by = indis.get(id)?.birth?.year;
+            if(by == null) return;
+            const age = my - by;
+            if(age >= 12 && age <= 90) add(target, dec, age);
+        });
+    });
+    const toPoints = m => Array.from(m.keys()).sort((a, b) => a - b).map(dec => ({ decade: dec, ...computeStats(m.get(dec)) }));
+    drawMeanStdChart(container, [
+        { name: 'Hommes', color: '#3498db', points: toPoints(byDecadeM) },
+        { name: 'Femmes', color: '#e91e8c', points: toPoints(byDecadeF) }
+    ], { emptyText: 'Pas assez de données (dates de mariage et de naissance des époux requises).' });
 }
 
 // --- ÂGE AU DÉCÈS PAR PROFESSION (violon) ---
@@ -2135,10 +2244,7 @@ export function drawProfessionAgeViolin(list) {
         container.innerHTML = '<div class="map-placeholder">Pas assez de données (profession + âge au décès, au moins 3 personnes par métier) pour ce graphique.</div>';
         return;
     }
-    if(typeof Plotly === 'undefined') {
-        container.innerHTML = '<div class="map-placeholder" style="color:#c0392b">Bibliothèque Plotly non chargée.</div>';
-        return;
-    }
+    if(typeof Plotly === 'undefined') { drawWhenPlotlyReady(container, () => drawProfessionAgeViolin(list)); return; }
 
     // Plotly.newPlot ne vide pas le conteneur avant de dessiner : sans ce reset, le placeholder
     // statique ("Chargez un fichier GEDCOM...") de la page reste affiché sous le graphique.
@@ -2220,6 +2326,11 @@ export function drawMarriageWeekdayTrend(fams) {
         .selectAll('text').style('font-size', '9px').attr('transform', 'rotate(-40)').attr('text-anchor', 'end');
     svg.append('g').attr('transform', `translate(${margin.left},0)`).call(d3.axisLeft(y).ticks(6).tickFormat(d3.format('d')));
     svg.append('text').attr('x', margin.left).attr('y', 10).style('font-size', '10px').style('fill', '#7f8c8d').text('Nombre de mariages');
+
+    // Grille très légère (derrière les courbes), comme les graphiques d'âge médian
+    const grid = svg.insert('g', ':first-child').attr('stroke', '#000').attr('stroke-opacity', 0.07).attr('stroke-width', 1);
+    y.ticks(6).forEach(v => grid.append('line').attr('x1', margin.left).attr('x2', width - margin.right).attr('y1', y(v)).attr('y2', y(v)));
+    tickValues.forEach(d => grid.append('line').attr('x1', x(d)).attr('x2', x(d)).attr('y1', margin.top).attr('y2', height - margin.bottom));
 
     const line = d3.line().x(d => x(d[0])).y(d => y(d[1]));
     const tooltip = document.getElementById('tooltip');
@@ -2331,8 +2442,14 @@ function drawRadialLentAdventChart(events, opts) {
     const days = RADIAL_DAYS_IN_MONTH.map(n => Array.from({ length: n }, () => ({ out: 0, lent: 0, unsure: 0, outEv: [], lentEv: [], unsureEv: [] })));
     let total = 0, minYear = Infinity, maxYear = -Infinity;
 
+    // Plage d'années optionnelle (champs début / fin au-dessus du graphique ; vide = pas de borne)
+    const yearFrom = parseInt(document.getElementById(`${opts.containerId}From`)?.value);
+    const yearTo = parseInt(document.getElementById(`${opts.containerId}To`)?.value);
+
     events.forEach(e => {
         if(e.year == null || e.month == null || e.day == null) return;
+        if(!isNaN(yearFrom) && e.year < yearFrom) return;
+        if(!isNaN(yearTo) && e.year > yearTo) return;
         if(e.month < 0 || e.month > 11 || e.day < 1 || e.day > RADIAL_DAYS_IN_MONTH[e.month]) return;
         const cell = days[e.month][e.day - 1];
         if(isUnsure(e.year, e.month, e.day)) { cell.unsure++; cell.unsureEv.push(e); }
@@ -2618,6 +2735,8 @@ function firstGivenName(p) {
 }
 
 // centuryMin/centuryMax = null : pas de borne de ce côté (toutes périodes si les deux sont null).
+// Un prénom est compté à chaque rang où il apparaît : 1er, 2e, 3e (ou plus loin, regroupé avec le 3e).
+// Le classement se fait sur le total, toutes positions confondues.
 export function computeTopNames(list, sex, centuryMin, centuryMax, limit = 10) {
     const counts = new Map();
     list.forEach(p => {
@@ -2628,16 +2747,23 @@ export function computeTopNames(list, sex, centuryMin, centuryMax, limit = 10) {
             if(centuryMin != null && c < centuryMin) return;
             if(centuryMax != null && c > centuryMax) return;
         }
-        const raw = firstGivenName(p);
-        if(!raw) return;
-        const key = raw.toLowerCase();
-        if(!counts.has(key)) counts.set(key, { label: raw.charAt(0).toUpperCase() + raw.slice(1).toLowerCase(), count: 0 });
-        counts.get(key).count++;
+        const names = p.givens?.length ? p.givens : [firstGivenName(p)].filter(Boolean);
+        names.forEach((raw, pos) => {
+            const key = raw.toLowerCase();
+            if(!counts.has(key)) counts.set(key, { label: raw.charAt(0).toUpperCase() + raw.slice(1).toLowerCase(), count: 0, byPos: [0, 0, 0] });
+            const e = counts.get(key);
+            e.count++;
+            e.byPos[Math.min(pos, 2)]++;
+        });
     });
     return Array.from(counts.values()).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label)).slice(0, limit);
 }
 
-function drawHorizontalBarChart(containerId, data, opts = {}) {
+const NAME_POS_LABELS = ['1er prénom', '2e prénom', '3e prénom et suivants'];
+
+// Barres horizontales empilées : un segment par rang du prénom, en dégradé de la couleur de base
+// (foncé = 1er prénom, clair = 3e).
+function drawStackedNameChart(containerId, data, opts = {}) {
     const container = d3.select(`#${containerId}`);
     container.selectAll('*').remove();
     if(!data.length) {
@@ -2646,30 +2772,60 @@ function drawHorizontalBarChart(containerId, data, opts = {}) {
     }
 
     const width = container.node().clientWidth || 380;
-    const barHeight = 22;
-    const margin = { top: 8, right: 36, bottom: 8, left: 90 };
+    const barHeight = 22, legendH = 22;
+    const margin = { top: 8 + legendH, right: 36, bottom: 8, left: 90 };
     const height = margin.top + margin.bottom + data.length * barHeight;
     const svg = container.append('svg').attr('width', width).attr('height', height);
 
+    const base = d3.color(opts.color || '#3498db');
+    const shades = [base.darker(0.6), base, base.brighter(1.4)].map(c => c.formatHex());
     const maxCount = d3.max(data, d => d.count) || 1;
     const x = d3.scaleLinear().domain([0, maxCount]).nice().range([margin.left, width - margin.right]);
     const y = d3.scaleBand().domain(data.map(d => d.label)).range([margin.top, height - margin.bottom]).padding(0.22);
-    const color = opts.color || '#3498db';
+    const tooltip = document.getElementById('tooltip');
 
-    svg.selectAll('rect.bar').data(data).join('rect').attr('class', 'bar')
-        .attr('x', x(0)).attr('y', d => y(d.label)).attr('width', d => x(d.count) - x(0)).attr('height', y.bandwidth())
-        .attr('fill', color);
+    const segs = [];
+    data.forEach(d => {
+        let acc = 0;
+        d.byPos.forEach((n, i) => { if(n) segs.push({ d, i, n, x0: acc }); acc += n; });
+    });
+    svg.selectAll('rect.seg').data(segs).join('rect').attr('class', 'seg')
+        .attr('x', s => x(s.x0)).attr('y', s => y(s.d.label))
+        .attr('width', s => Math.max(0, x(s.x0 + s.n) - x(s.x0))).attr('height', y.bandwidth())
+        .attr('fill', s => shades[s.i])
+        .on('mouseover', (e, s) => {
+            if(!tooltip) return;
+            tooltip.style.opacity = 1;
+            tooltip.innerHTML = `<strong>${escapeHtml(s.d.label)}</strong>`
+                + s.d.byPos.map((n, i) => `<div class="tt-row"><span>${NAME_POS_LABELS[i]}</span><span>${n}</span></div>`).join('')
+                + `<div class="tt-row"><span>Total</span><span>${s.d.count}</span></div>`;
+        })
+        .on('mousemove', e => {
+            if(!tooltip) return;
+            tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
+            tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
+        })
+        .on('mouseout', () => { if(tooltip) tooltip.style.opacity = 0; });
     svg.selectAll('text.bar-label').data(data).join('text').attr('class', 'bar-label')
         .attr('x', margin.left - 8).attr('y', d => y(d.label) + y.bandwidth() / 2).attr('dy', '0.35em')
         .attr('text-anchor', 'end').style('font-size', '11px').text(d => d.label);
     svg.selectAll('text.bar-count').data(data).join('text').attr('class', 'bar-count')
         .attr('x', d => x(d.count) + 5).attr('y', d => y(d.label) + y.bandwidth() / 2).attr('dy', '0.35em')
         .style('font-size', '10px').style('fill', '#555').text(d => d.count);
+
+    // Légende dans le <svg> (reprise dans l'image copiée)
+    const lg = svg.append('g').attr('transform', 'translate(4,4)');
+    let gx = 0;
+    NAME_POS_LABELS.forEach((label, i) => {
+        lg.append('rect').attr('x', gx).attr('width', 10).attr('height', 10).attr('fill', shades[i]);
+        lg.append('text').attr('x', gx + 14).attr('y', 9).style('font-size', '10px').style('fill', '#222').style('text-shadow', 'none').text(label);
+        gx += 14 + label.length * 5.2 + 12;
+    });
 }
 
 export function drawTopNamesForCentury(list, centuryMin, centuryMax) {
-    drawHorizontalBarChart('namesMaleChart', computeTopNames(list, 'M', centuryMin, centuryMax), { color: '#3498db', emptyMessage: 'Pas de prénom masculin daté pour cette période.' });
-    drawHorizontalBarChart('namesFemaleChart', computeTopNames(list, 'F', centuryMin, centuryMax), { color: '#e91e8c', emptyMessage: 'Pas de prénom féminin daté pour cette période.' });
+    drawStackedNameChart('namesMaleChart', computeTopNames(list, 'M', centuryMin, centuryMax), { color: '#3498db', emptyMessage: 'Pas de prénom masculin daté pour cette période.' });
+    drawStackedNameChart('namesFemaleChart', computeTopNames(list, 'F', centuryMin, centuryMax), { color: '#e91e8c', emptyMessage: 'Pas de prénom féminin daté pour cette période.' });
 }
 
 // --- ASCENDANCE PAR GÉNÉRATION (SANKEY) ---
@@ -2783,10 +2939,7 @@ export function drawGenerationSankey(containerId, data) {
         container.innerHTML = '<div class="map-placeholder">Aucun ancêtre localisé pour cette personne.</div>';
         return;
     }
-    if(typeof Plotly === 'undefined') {
-        container.innerHTML = '<div class="map-placeholder" style="color:#c0392b">Bibliothèque Plotly non chargée.</div>';
-        return;
-    }
+    if(typeof Plotly === 'undefined') { drawWhenPlotlyReady(container, () => drawGenerationSankey(containerId, data)); return; }
     container.innerHTML = '';
 
     const { nodes, links, maxGenActual } = data;

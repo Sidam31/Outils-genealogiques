@@ -15,7 +15,7 @@ const OTHER_EVENT_TAG_LABELS = {
 
 // --- PARSER ---
 export class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; this._curAsso = null; }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._placeCache = new Map(); this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; this._curAsso = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
@@ -453,7 +453,12 @@ export class GedcomParser {
     finalizeAllGeo() {
         const finalize = geo => {
             if(!geo) return;
-            const r = this.analyzePlace(geo.raw, geo.form || this.globalPlacForm);
+            // Un même libellé de lieu revient des milliers de fois dans un GEDCOM, alors que
+            // analyzePlace teste plusieurs centaines d'expressions régulières : résultat mémorisé.
+            const form = geo.form || this.globalPlacForm;
+            const cacheKey = geo.raw + ' ' + (form || '');
+            let r = this._placeCache.get(cacheKey);
+            if(!r) { r = this.analyzePlace(geo.raw, form); this._placeCache.set(cacheKey, r); }
             geo.dept = r.dept; geo.region = r.region; geo.country = r.country; geo.city = r.city;
             geo.cityChain = r.cityChain; geo.beProvince = r.beProvince;
         };
@@ -601,16 +606,11 @@ export class GedcomParser {
         return { dept:deptDisp, region, country, city, cityChain, beProvince:beProvinceDisp };
     }
     postProcess() {
-        // Certains fichiers séparent les prénoms par des virgules ("Jean Pierre, Marie") : un espace
-        // y désigne alors un prénom composé. Détecté dès qu'un GIVN/prénom du fichier contient une
-        // virgule ; sinon (repli) chaque mot séparé par un espace est un prénom distinct.
+        // Prénoms : pour CHAQUE personne, séparés par des virgules ("Jean Pierre, Marie" : un espace y
+        // désigne un prénom composé) si le champ en contient, sinon un prénom par mot. Auparavant la
+        // décision valait pour tout le fichier : dès qu'une seule personne avait une virgule, les autres
+        // (sans virgule) n'avaient plus qu'un seul prénom, d'où des 2e/3e prénoms non détectés.
         // Résultat exposé dans i.givens (liste) ; i.given reste une chaîne sans virgule.
-        let commaSeparated = false;
-        this.indis.forEach(i => {
-            (i._names || []).concat(i._curNameBuf ? [i._curNameBuf] : []).forEach(n => {
-                if(n.given && n.given.includes(',')) commaSeparated = true;
-            });
-        });
         this.indis.forEach(i => {
             // Résolution des "1 NAME" mis en attente (voir parseIndi) : le nom légal (TYPE "birth",
             // ou à défaut sans TYPE, ou à défaut le premier rencontré) fournit given/surname — utilisés
@@ -628,7 +628,9 @@ export class GedcomParser {
             }
             delete i._names; delete i._curNameBuf;
             if(i.given) {
-                const parts = commaSeparated ? i.given.split(',') : i.given.split(/\s+/);
+                // Par personne : virgules présentes -> séparateur = virgule (un espace = prénom composé),
+                // sinon chaque mot est un prénom distinct.
+                const parts = i.given.includes(',') ? i.given.split(',') : i.given.split(/\s+/);
                 i.givens = parts.map(s => s.trim().replace(/\s+/g, ' ')).filter(Boolean);
                 i.given = i.givens.join(' ');
             } else i.givens = [];
@@ -682,6 +684,9 @@ export class GedcomParser {
                     else if(i.sex === 'F') child.motherId = i.id;
                 });
             }
+            // Toutes les associations (parrain, témoin, voisin...) restent exposées pour le Réseau de
+            // relations (reseau.js), qui en fait des liens "association" entre personnes.
+            i.associations = (i._assoc || []).filter(e => e.indiId && this.indis.has(e.indiId));
             delete i._assoc;
         });
     }

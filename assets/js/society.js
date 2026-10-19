@@ -370,6 +370,95 @@ export function computeNamingPatterns(map) {
     };
 }
 
+// --- 7ter. Transmission des prénoms par les parrains/marraines et les oncles/tantes ---
+// Un enfant est "nommé d'après" un proche quand son 1er prénom est identique au sien (peu importe le
+// sexe : Camille, Claude...) ou quand il en est la variante de l'autre sexe (tante Christine ->
+// Christian, parrain Jean -> Jeanne) : "changement de sexe".
+const noAccent = s => (s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+// Formes irrégulières : racine commune de la variante masculine et féminine.
+const NAME_ROOT_ALIASES = {
+    christine: 'christian', christiane: 'christian', charlotte: 'charles', caroline: 'charles',
+    nicole: 'nicolas', laurence: 'laurent', victoire: 'victor', georgette: 'georges', georgine: 'georges',
+    jacqueline: 'jacques', lucie: 'lucien', lucienne: 'lucien', etiennette: 'etienne', guillemette: 'guillaume',
+    philippine: 'philippe', josephine: 'joseph', antoinette: 'antoine', henriette: 'henri', pierrette: 'pierre',
+    michele: 'michel', michelle: 'michel', danielle: 'daniel', gabrielle: 'gabriel', emmanuelle: 'emmanuel',
+    francoise: 'francois', juliette: 'julien', julie: 'julien', clementine: 'clement', eugenie: 'eugene',
+    leonie: 'leon', augustine: 'auguste', alexandrine: 'alexandre', bernardine: 'bernard', ernestine: 'ernest',
+    baptistine: 'baptiste', valentine: 'valentin', severine: 'severin', denise: 'denis', pauline: 'paul', paule: 'paul',
+    louise: 'louis', adrienne: 'adrien', fernande: 'fernand', armande: 'armand', andree: 'andre', renee: 'rene',
+    noelle: 'noel', marcelle: 'marcel', justine: 'justin', albertine: 'albert', alberte: 'albert', vincente: 'vincent',
+    jeanne: 'jean', jeannette: 'jean'
+};
+// Racine d'un prénom : table des formes irrégulières, sinon retrait de la terminaison féminine usuelle
+// (-ette, -ine, -elle, -enne, -e) puis des doubles consonnes finales (Jeann- -> Jean-).
+function nameRoot(raw) {
+    const n = noAccent(raw);
+    if (NAME_ROOT_ALIASES[n]) return NAME_ROOT_ALIASES[n];
+    return n.replace(/(ette|ine|elle|enne|e)$/, '').replace(/([^aeiou])\1$/, '$1');
+}
+
+// relativesOf(p) -> personnes dont p peut avoir reçu le prénom. Renvoie les taux et quelques exemples.
+function computeRelativeNameTransmission(map, relativesOf) {
+    let eligible = 0, same = 0, switched = 0;
+    const examples = [];
+    map.forEach(p => {
+        const cName = noAccent(firstGivenName(p));
+        if (!cName) return;
+        const rels = relativesOf(p).filter(r => r && noAccent(firstGivenName(r)));
+        if (!rels.length) return;
+        eligible++;
+        if (rels.some(r => noAccent(firstGivenName(r)) === cName)) { same++; return; }
+        if (!p.sex) return;
+        const swRel = rels.find(r => r.sex && r.sex !== p.sex && nameRoot(firstGivenName(r)) === nameRoot(cName));
+        if (swRel) {
+            switched++;
+            if (examples.length < 8) examples.push(`${firstGivenName(swRel)} → ${cName}`);
+        }
+    });
+    const rate = n => eligible > 0 ? ((n / eligible) * 100).toFixed(1) : null;
+    return { eligible, same, switched, total: same + switched, rateSame: rate(same), rateSwitched: rate(switched), rateTotal: rate(same + switched), examples };
+}
+
+const GODPARENT_RE = /parrain|marraine|godfather|godmother|godparent|sponsor/i;
+
+export function computeGodparentNaming(map) {
+    // Convention GEDCOM : l'association est posée sur l'enfant et pointe le parrain ; certains fichiers
+    // l'inversent, d'où le départage par l'âge (le plus jeune des deux est le filleul).
+    const godparentsOf = new Map();
+    const add = (childId, god) => {
+        if (!godparentsOf.has(childId)) godparentsOf.set(childId, new Set());
+        godparentsOf.get(childId).add(god);
+    };
+    map.forEach(x => (x.associations || []).forEach(e => {
+        if (!GODPARENT_RE.test(e.rela || '') && !GODPARENT_RE.test(e.role || '')) return;
+        const y = map.get(e.indiId);
+        if (!y) return;
+        const bx = x.birth?.year, by = y.birth?.year;
+        if (bx != null && by != null && bx < by) add(y.id, x); // x plus âgé : x est le parrain
+        else add(x.id, y);
+    }));
+    return computeRelativeNameTransmission(map, p => Array.from(godparentsOf.get(p.id) || []));
+}
+
+export function computeUncleAuntNaming(map) {
+    const byFather = new Map(), byMother = new Map();
+    map.forEach(p => {
+        if (p.fatherId) { if (!byFather.has(p.fatherId)) byFather.set(p.fatherId, []); byFather.get(p.fatherId).push(p); }
+        if (p.motherId) { if (!byMother.has(p.motherId)) byMother.set(p.motherId, []); byMother.get(p.motherId).push(p); }
+    });
+    const siblingsOf = parent => {
+        const set = new Set();
+        if (parent.fatherId) (byFather.get(parent.fatherId) || []).forEach(s => set.add(s));
+        if (parent.motherId) (byMother.get(parent.motherId) || []).forEach(s => set.add(s));
+        set.delete(parent);
+        return Array.from(set);
+    };
+    return computeRelativeNameTransmission(map, p => {
+        const parents = [p.fatherId, p.motherId].map(id => id && map.get(id)).filter(Boolean);
+        return parents.flatMap(siblingsOf);
+    });
+}
+
 // --- 7bis. Prénoms donnés (1er, 2e, 3e) : classement par rang (coloré par profil de sexe des
 //    porteurs) + repérage des prénoms rares et de leur répartition géographique (commune de
 //    naissance), pour repérer d'éventuelles tendances régionales dans le choix des prénoms peu
@@ -710,6 +799,8 @@ export function computeSocietyStats(list, map, fams, communesPopIndex) {
         geographicMobility: computeGeographicMobility(map, fams, communesPopIndex),
         sameYearSiblings: computeSameYearSiblings(map, fams),
         namingPatterns: computeNamingPatterns(map),
+        godparentNaming: computeGodparentNaming(map),
+        uncleAuntNaming: computeUncleAuntNaming(map),
         surnameExtinction: computeSurnameExtinction(map, fams)
     };
 }

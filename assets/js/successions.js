@@ -1204,7 +1204,7 @@ function firstSurnameLetter(surname) {
 const indexPromises = new Map();
 
 function fetchJson(url) {
-    return fetch(url, { cache: 'no-store' }).then(res => {
+    return fetch(url).then(res => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
     });
@@ -1283,9 +1283,11 @@ function loadDeptIndex(deptCodeKey) {
 // Démarre le chargement de tous les départements couverts dès l'import du module (voir
 // loadNotairesIndex dans notaires.js pour le même principe) : un échec partiel n'empêche pas les
 // autres départements de fonctionner.
-export function loadSuccessionIndexes() {
+// deptCodes (optionnel) : ne charge que ces départements (parmi ceux couverts) ; sans argument, tous.
+export function loadSuccessionIndexes(deptCodes) {
+    const wanted = deptCodes ? Object.keys(SUCCESSION_DEPTS).filter(dc => deptCodes.has(dc)) : Object.keys(SUCCESSION_DEPTS);
     return Promise.all(
-        Object.keys(SUCCESSION_DEPTS).map(dc => {
+        wanted.map(dc => {
             if (!indexPromises.has(dc)) indexPromises.set(dc, loadDeptIndex(dc));
             return indexPromises.get(dc).then(idx => [dc, idx]);
         })

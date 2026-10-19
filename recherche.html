@@ -470,6 +470,7 @@ import {
 import { computeNotarialActLeads, loadNotairesIndex, notaireDetailUrl } from './assets/js/notaires.js';
 import { computeSuccessionLeads, loadSuccessionIndexes } from './assets/js/successions.js';
 import { computeMarriageLeads, loadMarriageIndexes } from './assets/js/marriage.js';
+import { deptCode } from './assets/js/geo.js';
 import { estimateBirthYear } from './assets/js/inference.js';
 import { computeGallicaLeads } from './assets/js/gallica.js';
 
@@ -695,12 +696,9 @@ const dm = (() => {
 // noms de variables internes) ; reprend tel quel le script de l'ancienne page recensements.html,
 // avec les id du DOM préfixés "fa".
 const fa = (() => {
-    // Lancé dès le chargement de la page (avant même qu'un GEDCOM soit importé) : le fichier pèse
-    // quelques Mo, autant paralléliser sa récupération avec le temps que prend la personne à choisir
-    // et charger son fichier plutôt que d'attendre le clic "Analyser".
-    loadNotairesIndex();
-    loadSuccessionIndexes();
-    loadMarriageIndexes();
+    // Les bases d'archives (notaires, successions, contrats de mariage) sont chargées au clic sur
+    // "Analyser", et seulement pour les départements présents dans le GEDCOM (voir collectDeptCodes).
+    // Le navigateur les garde ensuite en cache HTTP.
 
     let list = [], map = new Map(), fams = new Map();
     let ancestorPersonId = null;
@@ -895,9 +893,22 @@ const fa = (() => {
         csvBtn.classList.toggle('hidden', !hasCurrent);
     }
 
+    function collectDeptCodes(individuals, families) {
+        const codes = new Set();
+        const add = geo => { if (geo && geo.dept) codes.add(deptCode(geo.dept)); };
+        individuals.forEach(p => { add(p.death && p.death.geo); add(p.marrGeo); });
+        families.forEach(f => add(f.marr && f.marr.geo));
+        return codes;
+    }
+
     analyzeBtn.addEventListener('click', async () => {
         if (!list.length) return;
+        analyzeBtn.disabled = true;
+        try {
         statusEl.textContent = 'Analyse en cours…';
+        // Laisse le navigateur afficher le message avant le calcul synchrone qui suit.
+        await new Promise(requestAnimationFrame);
+        const deptCodesNeeded = collectDeptCodes(list, fams);
         const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
         const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
         const deptCodes = parseDeptCodesInput(deptCodesInput.value);
@@ -912,7 +923,7 @@ const fa = (() => {
         // plus haut) est normalement déjà prête ici ; l'attente ne se voit que si le fichier est encore
         // en cours de récupération (connexion lente, premier chargement de la page juste avant le clic).
         statusEl.textContent = 'Analyse en cours… (chargement de la base Notaires si besoin)';
-        const notairesIndex = await loadNotairesIndex();
+        const notairesIndex = await loadNotairesIndex(deptCodesNeeded);
         notarialResults = computeNotarialActLeads(list, notairesIndex, { ancestorScopeSet: scopeSet, tolerance });
         notarialResults.forEach(r => {
             r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
@@ -920,7 +931,7 @@ const fa = (() => {
         });
 
         statusEl.textContent = 'Analyse en cours… (chargement des registres de successions si besoin)';
-        const successionIndexes = await loadSuccessionIndexes();
+        const successionIndexes = await loadSuccessionIndexes(deptCodesNeeded);
         successionResults = computeSuccessionLeads(list, successionIndexes, { ancestorScopeSet: scopeSet });
         successionResults.forEach(r => {
             r.sosa = sosaMap ? (sosaMap.get(r.person.id) ?? null) : null;
@@ -928,7 +939,7 @@ const fa = (() => {
         });
 
         statusEl.textContent = 'Analyse en cours… (chargement des registres de contrats de mariage si besoin)';
-        const marriageIndexes = await loadMarriageIndexes();
+        const marriageIndexes = await loadMarriageIndexes(deptCodesNeeded);
         mariageResults = computeMarriageLeads(fams, map, marriageIndexes, { ancestorScopeSet: scopeSet });
         mariageResults.forEach(r => {
             r.sosaHusb = (sosaMap && r.husb) ? (sosaMap.get(r.husb.id) ?? null) : null;
@@ -950,6 +961,9 @@ const fa = (() => {
             try { fn(); } catch (err) { console.error(`Échec du rendu (${fn.name}) :`, err); }
         });
         updateResultsVisibility();
+        } finally {
+            analyzeBtn.disabled = false;
+        }
     });
 
     function renderResults() {

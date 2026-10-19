@@ -30,7 +30,7 @@ export async function bootstrap({ page, onReady, onData }) {
     // AVANT que les données n'arrivent (le rendu initial les lit immédiatement) : onReady est donc
     // appelé de façon synchrone, avant la lecture (asynchrone) du GEDCOM stocké.
     if(onReady) onReady(controlsSlot);
-    initSidePanel({ openByDefault: page === 'arbre' || page === 'frise' || page === 'visualisation' });
+    initSidePanel({ openByDefault: page === 'arbre' || page === 'frise' || page === 'reseau' || page === 'visualisation' });
 
     let list = [], map = new Map(), fams = new Map(), filename = null, text = null;
     try {

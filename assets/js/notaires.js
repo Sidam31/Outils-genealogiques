@@ -12,11 +12,12 @@
 // côté client, sans dépendre d'un outil de recherche tiers.
 import { normalizePlace, deptCode } from './geo.js';
 
-// Snapshot JSON régénéré par scripts_py/scrape_notaires_francegenweb.py + enrich_notaires_dates.py
-// (voir ce dossier), servi comme n'importe quel autre asset statique du site.
-const NOTAIRES_URL = './assets/data/notaires_francegenweb.json';
+// Snapshots JSON régénérés par scripts_py/scrape_notaires_francegenweb.py + enrich_notaires_dates.py,
+// puis découpés par département (scripts_py/split_notaires_by_dept.py) : seuls les départements
+// réellement présents dans le GEDCOM sont téléchargés.
+const NOTAIRES_DIR = './assets/data/notaires/';
 
-let indexPromise = null;
+const deptRecordPromises = new Map(); // code département -> Promise<records[]>
 
 // Le champ "commune" de FranceGenWeb est un texte libre se terminant par le code département
 // ("Verjon (Ain) 01", "Beaupont / Manziat 01", "Coligny (La Ville-sous-Charmoux) 01") : plusieurs
@@ -55,21 +56,21 @@ function buildIndex(records) {
     return index;
 }
 
-// Démarre le chargement dès l'import du module (le fichier pèse quelques Mo : autant lancer la
-// requête pendant que la personne charge son GEDCOM plutôt qu'attendre le clic "Analyser").
-// Un échec (site indisponible...) n'est pas fatal : computeNotarialActLeads reçoit alors un index
-// vide et ne renvoie simplement aucune piste, plutôt que de bloquer toute l'analyse.
-export function loadNotairesIndex() {
-    if (!indexPromise) {
-        indexPromise = fetch(NOTAIRES_URL, { cache: 'no-store' })
+function loadDeptRecords(dept) {
+    if (!deptRecordPromises.has(dept)) {
+        deptRecordPromises.set(dept, fetch(`${NOTAIRES_DIR}${dept}.json`)
             .then(res => { if (!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
-            .then(records => buildIndex(records))
-            .catch(err => {
-                console.error('Chargement de la base Notaires FranceGenWeb échoué:', err);
-                return new Map();
-            });
+            // Département sans fichier (aucun notaire répertorié) ou échec réseau : pas de piste
+            // pour ce département, sans bloquer les autres.
+            .catch(() => []));
     }
-    return indexPromise;
+    return deptRecordPromises.get(dept);
+}
+
+// Charge l'index des notaires pour les départements demandés (Set/tableau de codes "01", "2A"...).
+export function loadNotairesIndex(deptCodes) {
+    return Promise.all([...(deptCodes || [])].map(loadDeptRecords))
+        .then(perDept => buildIndex(perDept.flat()));
 }
 
 // Durée de carrière maximale plausible pour un notaire, utilisée pour borner le côté inconnu

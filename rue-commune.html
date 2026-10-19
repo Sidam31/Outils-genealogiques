@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>VisuGedcom — Rue &amp; Commune (déchiffrage)</title>
 <link rel="icon" href="favicon.ico">
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
-<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+<script defer src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet">
 <style>
   :root{
@@ -297,8 +297,18 @@ renderHeader('rue-commune');
     commune: document.getElementById('communePanel'),
     toulouse: document.getElementById('toulousePanel')
   };
+  // Chaque base de données n'est téléchargée qu'à la première ouverture de son sous-onglet :
+  // window.tabShown(mode) renvoie une promesse résolue à ce moment-là (déjà résolue si l'onglet
+  // est actuellement affiché), utilisée par les trois scripts ci-dessous avant leur fetch.
+  const shown = {}, resolvers = {};
+  Object.keys(btns).forEach(k => { shown[k] = new Promise(r => { resolvers[k] = r; }); });
+  window.tabShown = mode => shown[mode];
+  // Recherche floue (Fuse) sur des dizaines de milliers d'entrées : on attend une courte pause dans
+  // la frappe plutôt que de recalculer à chaque touche.
+  window.debounce = (fn, ms) => { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn(...args), ms); }; };
   function setTopMode(mode){
     if(!btns[mode]) mode = 'street';
+    resolvers[mode]();
     Object.keys(btns).forEach(k => {
       btns[k].classList.toggle('active', k === mode);
       panels[k].classList.toggle('hidden', k !== mode);
@@ -321,7 +331,7 @@ renderHeader('rue-commune');
   // du code de la page (un déploiement qui ne touche que l'un des deux n'invalide pas l'autre).
   q.disabled = true;
   count.textContent = 'Chargement de la base des rues…';
-  fetch('assets/data/rues-paris-lazare-1844.json')
+  window.tabShown('street').then(() => fetch('assets/data/rues-paris-lazare-1844.json'))
     .then(res => { if(!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
     .then(init)
     .catch(err => {
@@ -740,7 +750,7 @@ function init(DB) {
     updateMapMarkers(hits.map(h=>h.item));
   }
 
-  q.addEventListener('input', render);
+  q.addEventListener('input', window.debounce(render, 150));
   render();
 }
 </script>
@@ -768,7 +778,7 @@ function init(DB) {
   // télécharger pour 36 500 entrées.
   q.disabled = true;
   count.textContent = 'Chargement de la base des communes…';
-  fetch('assets/data/communes_population/index.json')
+  window.tabShown('commune').then(() => fetch('assets/data/communes_population/index.json'))
     .then(res => { if(!res.ok) throw new Error(`HTTP ${res.status}`); return res.json(); })
     .then(depts => Promise.all(depts.map(dept =>
       fetch(`assets/data/communes_population/${dept}.json`)
@@ -1374,7 +1384,7 @@ function init(rows) {
     });
   }
 
-  q.addEventListener('input', render);
+  q.addEventListener('input', window.debounce(render, 150));
   render();
 }
 </script>
@@ -1394,6 +1404,7 @@ function init(rows) {
   // où elle apparaît) vit dans un fichier JSON séparé, généré depuis le classeur Excel des AD31 par
   // scripts_py/build_toulouse_rues.py — même logique que les autres bases de ce tab (fichier séparé,
   // plus facile à régénérer et à mettre en cache indépendamment du code de la page).
+  await window.tabShown('toulouse');
   q.disabled = true;
   count.textContent = 'Chargement de l’index des rues…';
   try {
@@ -1524,7 +1535,7 @@ function init(rows) {
       results.innerHTML = hits.map(h=>card(h.item,h.matches)).join('');
     }
 
-    q.addEventListener('input', render);
+    q.addEventListener('input', window.debounce(render, 150));
     render();
   }
 })();

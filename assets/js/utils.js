@@ -108,18 +108,25 @@ export async function importCacheFromFile(file) {
 
 // Remonte la lignée directe (père/mère) depuis rootId et renvoie la liste des identifiants (racine incluse).
 export function getAncestorIds(individuals, rootId) {
+    // Parcours en largeur : chaque ancêtre est atteint par son chemin le PLUS COURT. Avec un
+    // parcours en profondeur, un ancêtre commun (implexe) vu d'abord par une branche très profonde
+    // était marqué "déjà vu" et ses propres ascendants étaient coupés par la limite de profondeur
+    // alors qu'une branche plus courte les aurait atteints.
     const ids = [];
-    const seen = new Set();
-    function scan(id, depth) {
-        if(!id || depth > 15 || seen.has(id)) return;
-        seen.add(id);
-        ids.push(id);
-        const i = individuals.get(id);
-        if(!i) return;
-        scan(i.fatherId, depth + 1);
-        scan(i.motherId, depth + 1);
+    const seen = new Set([rootId]);
+    let level = rootId ? [rootId] : [];
+    for(let depth = 0; level.length && depth <= 15; depth++) {
+        const next = [];
+        level.forEach(id => {
+            ids.push(id);
+            const i = individuals.get(id);
+            if(!i) return;
+            [i.fatherId, i.motherId].forEach(parentId => {
+                if(parentId && !seen.has(parentId)) { seen.add(parentId); next.push(parentId); }
+            });
+        });
+        level = next;
     }
-    scan(rootId, 0);
     return ids;
 }
 
@@ -202,6 +209,24 @@ export async function copyBlobOrDownload(blob, filename) {
     return 'downloaded';
 }
 
+// Filigrane discret (lien du site) en bas à droite de l'image copiée. Adresse du site déployé déduite de
+// la page courante ; en local (file://), repli sur le dépôt GitHub.
+const WATERMARK_FALLBACK = 'github.com/Sidam31/Outils-genealogiques';
+function watermarkText() {
+    if(!/^https?:$/.test(location.protocol) || /^(localhost|127\.|\[::1\])/.test(location.hostname)) return WATERMARK_FALLBACK;
+    return (location.host + location.pathname.replace(/[^/]*$/, '')).replace(/\/$/, '');
+}
+function drawWatermark(ctx, width, height) {
+    const fontPx = Math.max(11, Math.round(width / 70));
+    ctx.save();
+    ctx.font = `${fontPx}px sans-serif`;
+    ctx.textAlign = 'right';
+    ctx.textBaseline = 'bottom';
+    ctx.fillStyle = 'rgba(90,100,110,0.55)';
+    ctx.fillText(watermarkText(), width - fontPx * 0.6, height - fontPx * 0.4);
+    ctx.restore();
+}
+
 // Sérialise un <svg> (graphiques D3) en PNG.
 export async function copySvgAsPng(svgEl, filename) {
     const width = svgEl.clientWidth || parseInt(svgEl.getAttribute('width')) || 500;
@@ -229,6 +254,7 @@ export async function copySvgAsPng(svgEl, filename) {
     ctx.fillStyle = '#ffffff';
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+    drawWatermark(ctx, canvas.width, canvas.height);
 
     const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
     return copyBlobOrDownload(blob, filename);
@@ -237,7 +263,13 @@ export async function copySvgAsPng(svgEl, filename) {
 // Capture un <canvas> existant (ex: la carte MapLibre) en PNG.
 // Nécessite que le canvas ait été créé avec preserveDrawingBuffer:true (cas de la carte du monde).
 export async function copyCanvasAsPng(canvasEl, filename) {
-    const blob = await new Promise(resolve => canvasEl.toBlob(resolve, 'image/png'));
+    // Copie sur un canvas intermédiaire pour ajouter le filigrane sans modifier la carte affichée
+    const out = document.createElement('canvas');
+    out.width = canvasEl.width; out.height = canvasEl.height;
+    const ctx = out.getContext('2d');
+    ctx.drawImage(canvasEl, 0, 0);
+    drawWatermark(ctx, out.width, out.height);
+    const blob = await new Promise(resolve => out.toBlob(resolve, 'image/png'));
     return copyBlobOrDownload(blob, filename);
 }
 

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisuGedcom — Réseau de relations</title>
+    <link rel="icon" href="favicon.ico">
+    <script src="https://unpkg.com/force-graph@1.43.5/dist/force-graph.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph@1.73.4/dist/3d-force-graph.min.js"></script>
+    <script src="https://unpkg.com/graphology@0.25.4/dist/graphology.umd.min.js"></script>
+    <script src="https://unpkg.com/graphology-library@0.8.0/dist/graphology-library.min.js"></script>
+    <link href="assets/css/app.css" rel="stylesheet">
+</head>
+<body>
+
+<header id="appHeader"></header>
+
+<div id="vizArea">
+    <div class="chart-box-actions" style="position:absolute; right:15px; top:12px; z-index:5;">
+        <button class="chart-copy-btn" data-target="chart" title="Copier l'image dans le presse-papier">📋</button>
+    </div>
+    <div id="chart" class="reseau-chart"></div>
+    <div id="legend" style="display:none">
+        <div id="legendPath"></div>
+        <div id="legendTypes"></div>
+        <div id="legendColors"></div>
+    </div>
+    <div id="chartMessage" class="msg-info">
+        <h2>Chargez un fichier GEDCOM</h2>
+        <p>Retournez à l'<a href="index.html">accueil</a> pour charger un fichier.</p>
+    </div>
+</div>
+
+<script type="module">
+import { bootstrap } from './assets/js/bootstrap.js';
+import { ReseauChart, LINK_TYPES, buildRelationGraph, buildAdjacency, computeDegrees, computeCommunities, egoSubgraph, shortestPath, describeStep } from './assets/js/reseau.js';
+import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
+import { escapeHtml } from './assets/js/utils.js';
+
+// Au-delà, l'affichage de tout l'arbre devient lent (surtout en 3D) : on demande confirmation.
+const LARGE_GRAPH = 3000;
+
+let map = new Map(), list = [];
+let graph = null, adj = null, chart = null;
+let centerId = null, pathTargetId = null;
+const activeTypes = new Set(Object.entries(LINK_TYPES).filter(([, t]) => t.defaultOn).map(([k]) => k));
+const state = { hops: 3, all: false, communityCount: 0 };
+
+const chartMessage = document.getElementById('chartMessage');
+const legend = document.getElementById('legend');
+const legendPath = document.getElementById('legendPath');
+const legendTypes = document.getElementById('legendTypes');
+const legendColors = document.getElementById('legendColors');
+const $ = id => document.getElementById(id);
+const personLabel = p => p ? `${p.name}${p.birth?.year ? ' (' + p.birth.year + ')' : ''}` : '?';
+
+function showMessage(cls, html) {
+    chartMessage.className = cls;
+    chartMessage.innerHTML = html;
+    chartMessage.classList.remove('hidden');
+    legend.style.display = 'none';
+}
+
+function setupControls(controlsSlot) {
+    controlsSlot.innerHTML = `
+        <div class="ctrl" style="position:relative">
+            <label for="searchInput">Personne centrale</label>
+            <input type="text" id="searchInput" placeholder="Rechercher une personne...">
+            <ul id="searchResults"></ul>
+        </div>
+        <span id="personSelected" class="map-person-selected"></span>
+        <fieldset class="side-group">
+            <legend>Étendue</legend>
+            <label class="check-row" for="hopsRange">Profondeur : <strong id="hopsValue">3</strong> lien(s) autour de la personne</label>
+            <input type="range" id="hopsRange" min="1" max="8" value="3">
+            <label class="check-row"><input type="checkbox" id="allToggle"> Tout l'arbre</label>
+            <button type="button" id="fitBtn" class="tab-btn">🎯 Recadrer</button>
+        </fieldset>
+        <fieldset class="side-group">
+            <legend>Vue</legend>
+            <label class="check-row"><input type="radio" name="viewMode" value="2d" checked> 2D (lisible)</label>
+            <label class="check-row" title="Clic gauche : pivoter · molette : zoomer · clic droit : déplacer"><input type="radio" name="viewMode" value="3d"> 3D (exploration)</label>
+        </fieldset>
+        <fieldset class="side-group">
+            <legend>Types de liens</legend>
+            ${Object.entries(LINK_TYPES).map(([k, t]) => `<label class="check-row"><input type="checkbox" data-link-type="${k}"${t.defaultOn ? ' checked' : ''}><span class="dot" style="background:${t.color}; margin-top:3px"></span>${t.label}</label>`).join('')}
+        </fieldset>
+        <fieldset class="side-group">
+            <legend>Couleur des personnes</legend>
+            <label class="check-row"><input type="radio" name="colorBy" value="community" checked> Groupes détectés (communautés)</label>
+            <label class="check-row"><input type="radio" name="colorBy" value="sex"> Sexe</label>
+        </fieldset>
+        <fieldset class="side-group">
+            <legend>Chemin de parenté</legend>
+            <div class="ctrl" style="position:relative">
+                <label for="searchInputB">De la personne centrale vers :</label>
+                <input type="text" id="searchInputB" placeholder="Rechercher une personne...">
+                <ul id="searchResultsB"></ul>
+            </div>
+            <span id="personSelectedB" class="map-person-selected"></span>
+            <button type="button" id="clearPathBtn" class="tab-btn hidden">Effacer le chemin</button>
+        </fieldset>
+        <p id="graphStatus" class="hint"></p>
+    `;
+
+    chart = new ReseauChart('chart', { onNodeClick: id => setCenter(id) });
+
+    createPersonPicker({
+        searchEl: $('searchInput'), resultsEl: $('searchResults'), selectedEl: $('personSelected'),
+        getList: () => list, onSelect: p => setCenter(p.id)
+    });
+    const pickerB = createPersonPicker({
+        searchEl: $('searchInputB'), resultsEl: $('searchResultsB'), selectedEl: $('personSelectedB'),
+        getList: () => list, onSelect: p => { pathTargetId = p.id; render(); }
+    });
+    wireClickAway($('searchResults'), $('searchResultsB'));
+
+    $('clearPathBtn').addEventListener('click', () => { pathTargetId = null; pickerB.reset(); render(); });
+    $('hopsRange').addEventListener('input', e => {
+        state.hops = +e.target.value;
+        $('hopsValue').textContent = state.hops;
+        render();
+    });
+    $('allToggle').addEventListener('change', e => {
+        const size = graph ? graph.nodes.filter(n => n.degree > 0).length : 0;
+        if(e.target.checked && size > LARGE_GRAPH && !confirm(`L'arbre complet compte ${size} personnes reliées : l'affichage peut être lent. Continuer ?`)) {
+            e.target.checked = false;
+            return;
+        }
+        state.all = e.target.checked;
+        $('hopsRange').disabled = state.all;
+        render();
+    });
+    $('fitBtn').addEventListener('click', () => chart.zoomToFit());
+    document.querySelectorAll('input[name="viewMode"]').forEach(r => r.addEventListener('change', () => chart.setMode(r.value)));
+    document.querySelectorAll('input[name="colorBy"]').forEach(r => r.addEventListener('change', () => { chart.setColorBy(r.value); renderLegend(); }));
+    document.querySelectorAll('[data-link-type]').forEach(cb => cb.addEventListener('change', () => {
+        if(cb.checked) activeTypes.add(cb.dataset.linkType); else activeTypes.delete(cb.dataset.linkType);
+        analyse();
+        render();
+    }));
+}
+
+// Degrés et communautés dépendent des types de liens actifs.
+function analyse() {
+    computeDegrees(graph, adj, activeTypes);
+    state.communityCount = computeCommunities(graph, activeTypes);
+}
+
+function setCenter(id) {
+    if(!map.has(id)) return;
+    centerId = id;
+    $('personSelected').textContent = `→ ${map.get(id).name}`;
+    render();
+}
+
+function render() {
+    if(!graph || !centerId) return;
+    let ids = state.all
+        ? graph.nodes.filter(n => n.degree > 0 || n.id === centerId).map(n => n.id)
+        : [...egoSubgraph(adj, centerId, state.hops, activeTypes).keys()];
+
+    // Le chemin est cherché dans l'arbre entier : ses personnes sont ajoutées à l'affichage.
+    let path = null;
+    if(pathTargetId) {
+        path = shortestPath(adj, centerId, pathTargetId, activeTypes);
+        if(path) ids = [...new Set([...ids, ...path.map(s => s.id)])];
+    }
+    chart.setPath(path ? path.map(s => s.id) : [], path ? path.filter(s => s.link).map(s => s.link) : []);
+    const stats = chart.show(graph, ids, activeTypes, centerId);
+
+    chartMessage.classList.add('hidden');
+    legend.style.display = 'block';
+    $('clearPathBtn').classList.toggle('hidden', !pathTargetId);
+    $('graphStatus').textContent = `${stats.nodes} personne(s) et ${stats.links} lien(s) affichés.`;
+    renderPath(path);
+    renderLegend();
+}
+
+function renderPath(path) {
+    if(!pathTargetId) { legendPath.innerHTML = ''; return; }
+    if(!path) {
+        legendPath.innerHTML = `<div class="reseau-path"><strong>Aucun lien trouvé</strong> entre ${escapeHtml(personLabel(map.get(centerId)))} et ${escapeHtml(personLabel(map.get(pathTargetId)))} avec les types de liens cochés.</div>`;
+        return;
+    }
+    const rows = path.map((s, k) => {
+        const p = map.get(s.id);
+        if(!s.link) return `<li><strong>${escapeHtml(personLabel(p))}</strong></li>`;
+        return `<li>→ <em>${escapeHtml(describeStep(s.link, path[k - 1].id, p))}</em> : <strong>${escapeHtml(personLabel(p))}</strong></li>`;
+    });
+    legendPath.innerHTML = `<div class="reseau-path"><div class="reseau-legend-title">Chemin (${path.length - 1} lien${path.length > 2 ? 's' : ''})</div><ol>${rows.join('')}</ol></div>`;
+}
+
+function renderLegend() {
+    legendTypes.innerHTML = `<div class="reseau-legend-title">Liens</div>` + Object.entries(LINK_TYPES)
+        .filter(([k]) => activeTypes.has(k))
+        .map(([, t]) => `<div class="leg-item"><span class="dot" style="background:${t.color}"></span>${escapeHtml(t.label)}</div>`).join('');
+    const colorBy = document.querySelector('input[name="colorBy"]:checked')?.value;
+    const c = chart.legendColors();
+    legendColors.innerHTML = colorBy === 'sex'
+        ? `<div class="reseau-legend-title">Personnes</div><div class="leg-item"><span class="dot" style="background:${c.sex.M}"></span>Homme</div><div class="leg-item"><span class="dot" style="background:${c.sex.F}"></span>Femme</div><div class="leg-item"><span class="dot" style="background:${c.sexOther}"></span>Inconnu</div>`
+        : `<div class="reseau-legend-title">Personnes</div><div class="leg-item">Couleur = groupe très relié (${state.communityCount} détecté${state.communityCount > 1 ? 's' : ''})</div><div class="leg-item">Taille = nombre de liens</div>`;
+}
+
+bootstrap({
+    page: 'reseau',
+    onReady: setupControls,
+    onData: data => {
+        list = data.list; map = data.map;
+        if(!list.length) {
+            showMessage('msg-info', '<h2>Chargez un fichier GEDCOM</h2><p>Retournez à l\'<a href="index.html">accueil</a> pour charger un fichier.</p>');
+            return;
+        }
+        if(!window.ForceGraph || !window.ForceGraph3D) {
+            showMessage('msg-error', '<h2>Bibliothèques indisponibles</h2><p>Le réseau nécessite une connexion internet pour charger ses bibliothèques de rendu.</p>');
+            return;
+        }
+        graph = buildRelationGraph(list, map, data.fams);
+        adj = buildAdjacency(graph);
+        analyse();
+        // Même personne de départ que la Frise, sauf si elle n'a aucun lien : on prend alors la plus reliée.
+        let first = map.get('I1') || map.get('I0000') || list.find(i => i.birth?.year || i.death?.year) || list[0];
+        const node = graph.nodes.find(n => n.id === first?.id);
+        if(!node || node.degree === 0) first = map.get(graph.nodes.reduce((a, b) => b.degree > a.degree ? b : a).id);
+        setCenter(first.id);
+    }
+});
+</script>
+</body>
+</html>

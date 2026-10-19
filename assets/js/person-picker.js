@@ -2,13 +2,23 @@
 // Factorise le trio input+liste+label répété (recherche Arbre, filtre Cartes, filtre Qualité,
 // individu de référence Parentés hypothétiques, filtres Décès manquants / Recensements) : chaque
 // appelant fournit ses éléments DOM et la fonction appelée à la sélection.
+// Comparaison insensible à la casse ET aux accents ("helene" trouve "Hélène") ; la forme normalisée
+// de chaque nom est calculée une seule fois par personne, pas à chaque frappe.
+const foldAccents = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+const foldedNames = new WeakMap();
+function foldedName(p) {
+    let f = foldedNames.get(p);
+    if(f === undefined) { f = foldAccents(p.name || ''); foldedNames.set(p, f); }
+    return f;
+}
+
 export function createPersonPicker({ searchEl, resultsEl, selectedEl, getList, onSelect, formatLabel }) {
     searchEl.addEventListener('input', e => {
-        const v = e.target.value.toLowerCase();
+        const v = foldAccents(e.target.value);
         resultsEl.innerHTML = '';
         if(v.length < 2) { resultsEl.style.display = 'none'; return; }
         const list = getList();
-        const matches = list.filter(p => p.name.toLowerCase().includes(v)).slice(0, 10);
+        const matches = list.filter(p => foldedName(p).includes(v)).slice(0, 10);
         if(matches.length) {
             resultsEl.style.display = 'block';
             matches.forEach(p => {

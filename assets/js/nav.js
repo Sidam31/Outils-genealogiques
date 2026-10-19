@@ -10,6 +10,7 @@ const CDG_LOGO = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABz
 const TOOLS = [
     { href: 'arbre.html', icon: '🌳', label: 'Arbre éventail', page: 'arbre' },
     { href: 'frise.html', icon: '🕰️', label: 'Frise de vie', page: 'frise' },
+    { href: 'reseau.html', icon: '🕸️', label: 'Réseau', page: 'reseau' },
     { href: 'visualisation.html', icon: '📊', label: "Vue d'ensemble", page: 'visualisation' },
     { href: 'qualite.html', icon: '🔍', label: 'Analyse Qualité', page: 'qualite' },
     { href: 'recherche.html', icon: '🧭', label: 'Aide à la recherche', page: 'deces' },

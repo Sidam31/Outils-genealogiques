@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VisuGedcom — Vue d'ensemble</title>
     <link rel="icon" href="favicon.ico">
-    <script src="https://d3js.org/d3.v7.min.js"></script>
-    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
-    <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+    <script defer src="https://d3js.org/d3.v7.min.js"></script>
+    <script defer src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
     <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
     <link href="assets/css/app.css" rel="stylesheet">
     <style>body { overflow-y: auto; }</style>
@@ -173,7 +172,31 @@
                             <button type="button" class="ghost" id="kmWidthAuto" title="Revenir au calcul automatique de la durée">Auto</button>
                             <label title="Sans cette option, seules les personnes dont le décès est connu sont comptées (la survie est alors sous-estimée). Les personnes nées il y a plus de 110 ans sans décès connu sont ignorées (forcément décédées)."><input type="checkbox" id="kmCensored"> Inclure les décès inconnus (présumés vivants, censurés à l'année courante)</label>
                         </div>
+                        <div class="decade-slider-row" id="kmPeriodRow" style="display:none;">
+                            <span>Période de naissance :</span>
+                            <div class="range-slider">
+                                <div class="range-slider-track"></div>
+                                <div class="range-slider-fill" id="kmPeriodFill"></div>
+                                <input type="range" id="kmPeriodMin" min="0" max="0" value="0" disabled>
+                                <input type="range" id="kmPeriodMax" min="0" max="0" value="0" disabled>
+                            </div>
+                            <span id="kmPeriodLabel">Toutes périodes</span>
+                            <label title="Écarte les décès avant 5 ans (souvent sous-enregistrés) : les courbes repartent de 100 % à 5 ans."><input type="checkbox" id="kmFrom5"> Survie dès 5 ans</label>
+                        </div>
                         <div id="kaplanMeierChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                        <details id="kmInterpretation" style="display:none; margin-top:10px; font-size:13px;" open>
+                            <summary><strong>Comment interpréter l'écart Femmes / Hommes ?</strong></summary>
+                            <ul>
+                                <li><strong>Mortalité infantile</strong> : avant 1850, 15 à 30 % des enfants mouraient avant 1 an, un peu plus de garçons que de filles (surmortalité masculine biologique). Une chute brutale de la courbe à l'âge 0 est réelle, pas une anomalie.</li>
+                                <li><strong>Manque de données infantiles</strong> : les enfants morts en bas âge sont souvent absents des arbres (non transmis, non recherchés, ou sexe inconnu donc exclus ici). Si la chute à 0 est faible ou différente entre H et F, c'est probablement un défaut d'enregistrement ; cochez « Survie dès 5 ans » pour comparer sans ce biais. Les filles mortes jeunes sont en général moins bien documentées que les garçons.</li>
+                                <li><strong>Maternité (F, 20–45 ans)</strong> : les décès de couches et leurs suites (fièvre puerpérale) creusent la courbe féminine entre 20 et 45 ans, surtout avant le XIXᵉ siècle ; les femmes ayant survécu à cette période vivent ensuite plus longtemps que les hommes.</li>
+                                <li><strong>Maladies épidémiques</strong> : variole, choléra (1832, 1849, 1854), typhoïde, diphtérie, grippe de 1918 produisent des marches dans certaines cohortes, souvent chez les enfants et jeunes adultes ; la tuberculose touche surtout les 15–40 ans (deux sexes, parfois plus de femmes jeunes).</li>
+                                <li><strong>Guerres</strong> : Révolution et Empire (1792-1815), 1870, surtout 1914-1918 et 1939-1945 : surmortalité masculine à 18–45 ans pour les cohortes concernées (nés ≈ 1870-1900 pour 14-18). Dans la comparaison, c'est ce qui fait baisser la courbe des hommes en milieu de vie.</li>
+                                <li><strong>Travail et mode de vie</strong> : mines, métiers à risque, alcoolisme et tabagisme (hommes) pèsent sur la survie masculine à 40–70 ans, surtout aux XIXᵉ–XXᵉ siècles.</li>
+                                <li><strong>Migration et décès inconnus</strong> : un décès hors de la zone ou non retrouvé reste « inconnu » ; sans l'option « décès inconnus », la survie est sous-estimée, et l'effet diffère selon le sexe (les hommes migrent plus, les femmes changent de nom par mariage et sont plus difficiles à suivre).</li>
+                                <li><strong>Prudence</strong> : l'arbre est un échantillon familial (ascendants directs, pas de population représentative) ; en dessous de ~100 personnes par sexe, les écarts sont à prendre avec précaution.</li>
+                            </ul>
+                        </details>
                     </div>
                 </div>
 
@@ -191,6 +214,16 @@
                             <button class="chart-copy-btn" data-target="ageChartFirstChildTrend" title="Copier l'image dans le presse-papier">📋</button>
                         </div>
                         <div id="ageChartFirstChildTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
+                    </div>
+                </div>
+
+                <div class="quality-charts">
+                    <div class="quality-chart-box">
+                        <div class="chart-box-header">
+                            <h3>Âge médian au mariage par décennie (H/F)</h3>
+                            <button class="chart-copy-btn" data-target="ageChartMarriageTrend" title="Copier l'image dans le presse-papier">📋</button>
+                        </div>
+                        <div id="ageChartMarriageTrend"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
                     </div>
                 </div>
 
@@ -222,6 +255,11 @@
                             <button class="chart-copy-btn" data-target="marriageRadialChart" title="Copier l'image dans le presse-papier">📋</button>
                         </div>
                         <p class="hint" style="text-align:center;">Un point = un mariage, rangé par jour du mois. Nécessite une date de mariage complète (jour, mois, année). Carême et Avent calculés pour l'année de chaque mariage (calendrier grégorien).</p>
+                        <div class="controls">
+                            <label>Années de <input type="number" id="marriageRadialChartFrom" step="1" style="width:80px" placeholder="début"></label>
+                            <label>à <input type="number" id="marriageRadialChartTo" step="1" style="width:80px" placeholder="fin"></label>
+                            <span class="hint">(vide = pas de limite ; ex. fin 1900 pour ignorer les données contemporaines)</span>
+                        </div>
                         <div id="marriageRadialChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
                     </div>
                 </div>
@@ -233,6 +271,11 @@
                             <button class="chart-copy-btn" data-target="birthRadialChart" title="Copier l'image dans le presse-papier">📋</button>
                         </div>
                         <p class="hint" style="text-align:center;">Un point = une naissance, rangée par jour du mois. Rouge : la conception présumée (naissance − 268 jours) tombe en Carême ou en Avent. Gris : cas incertain, la conception pouvant être jusqu'à une semaine plus tardive si la naissance était précoce. Nécessite une date de naissance complète et certaine.</p>
+                        <div class="controls">
+                            <label>Années de <input type="number" id="birthRadialChartFrom" step="1" style="width:80px" placeholder="début"></label>
+                            <label>à <input type="number" id="birthRadialChartTo" step="1" style="width:80px" placeholder="fin"></label>
+                            <span class="hint">(vide = pas de limite ; ex. fin 1900 pour ignorer les données contemporaines)</span>
+                        </div>
                         <div id="birthRadialChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir ce graphique.</div></div>
                     </div>
                 </div>
@@ -425,6 +468,28 @@
             </div>
 
             <div class="society-section">
+                <h3>🎁 Prénoms des parrains et marraines</h3>
+                <p class="hint">Part des enfants dont le 1er prénom reprend celui d'un parrain ou d'une marraine connu (association GEDCOM « parrain / marraine »). Le changement de sexe compte : marraine Christine → filleul Christian, parrain Jean → filleule Jeanne.</p>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socGodTotal">–</div><div class="lbl" id="socGodTotalLabel">prénom repris, tous cas confondus</div></div>
+                    <div class="society-stat-card"><div class="num" id="socGodSame">–</div><div class="lbl" id="socGodSameLabel">même prénom</div></div>
+                    <div class="society-stat-card"><div class="num" id="socGodSwitch">–</div><div class="lbl" id="socGodSwitchLabel">variante de l'autre sexe</div></div>
+                </div>
+                <p class="hint" id="socGodExamples"></p>
+            </div>
+
+            <div class="society-section">
+                <h3>👨‍👩‍👧 Prénoms des oncles et tantes</h3>
+                <p class="hint">Part des personnes dont le 1er prénom reprend celui d'un oncle ou d'une tante (frère ou sœur du père ou de la mère). Le changement de sexe compte : tante Christine → neveu Christian.</p>
+                <div class="society-stat-grid">
+                    <div class="society-stat-card"><div class="num" id="socUncleTotal">–</div><div class="lbl" id="socUncleTotalLabel">prénom repris, tous cas confondus</div></div>
+                    <div class="society-stat-card"><div class="num" id="socUncleSame">–</div><div class="lbl" id="socUncleSameLabel">même prénom</div></div>
+                    <div class="society-stat-card"><div class="num" id="socUncleSwitch">–</div><div class="lbl" id="socUncleSwitchLabel">variante de l'autre sexe</div></div>
+                </div>
+                <p class="hint" id="socUncleExamples"></p>
+            </div>
+
+            <div class="society-section">
                 <h3>🏷️ Prénoms donnés (1er, 2e, 3e)</h3>
                 <p class="hint">Classement des prénoms les plus donnés selon leur position dans l'état civil (ex. « Jean Baptiste Marie » : 1er = Jean, 2e = Baptiste, 3e = Marie), toutes générations confondues. Couleur = profil de sexe des porteurs de ce prénom à ce rang (voir légende sur chaque graphique) — utile pour repérer les prénoms « mixtes », donnés aux deux sexes (fréquent en 2e/3e prénom, ex. « Marie » comme second prénom masculin).</p>
                 <div class="society-stat-grid">
@@ -488,7 +553,7 @@ import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js'
 import { getAncestorIds, decadeOf, centuryLabel, downloadCsv, escapeHtml } from './assets/js/utils.js';
 import {
     showMapMessage, computeGeoCounts, drawWorldMap, drawFranceMap, drawBelgiumMap, enrichMissingCoords,
-    getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawKaplanMeier, drawFirstChildTrend,
+    getPyramidDecades, drawAgePyramid, drawAgeDeathTrend, drawKaplanMeier, drawFirstChildTrend, drawMarriageAgeTrend, getBirthDecades,
     drawProfessionAgeViolin, drawMarriageWeekdayTrend, drawMarriageRadialChart, drawBirthConceptionRadialChart, drawMarriageFirstChildChart, getNameCenturies, drawTopNamesForCentury,
     computeDepartmentSummaries, computeDepartmentDetail, drawDepartmentMap,
     computeBeProvinceSummaries, computeBeProvinceDetail, drawBeProvinceMap,
@@ -524,6 +589,45 @@ window.addEventListener('hashchange', openFoldFromHash);
 openFoldFromHash();
 
 // --- Visualisation ---
+// Au plus un appel par image : un curseur déclenche des dizaines d'événements 'input' par seconde,
+// inutile de redessiner plus vite que l'écran ne rafraîchit.
+function rafThrottle(fn) {
+    let frame = 0;
+    return (...args) => {
+        if(frame) return;
+        frame = requestAnimationFrame(() => { frame = 0; fn(...args); });
+    };
+}
+
+// --- Rendu différé des sections repliées ---
+// Les graphiques d'une section fermée ne sont dessinés qu'à sa première ouverture (puis redessinés
+// à chaque ouverture si les données ou filtres ont changé entre-temps), au lieu de tout calculer au
+// chargement : évite le travail inutile et les tracés dans un conteneur de taille nulle.
+const lazyQueues = new Map(); // <details> -> Map(wrapper -> [fn, args])
+function lazyInSection(detailsId, fn) {
+    const el = document.getElementById(detailsId);
+    const wrapper = (...args) => {
+        let queue = lazyQueues.get(el);
+        if(!queue) { queue = new Map(); lazyQueues.set(el, queue); }
+        queue.delete(wrapper);
+        if(el.open) { fn(...args); return; }
+        queue.set(wrapper, [fn, args]);
+    };
+    return wrapper;
+}
+document.querySelectorAll('details.fold-section').forEach(el => el.addEventListener('toggle', () => {
+    const queue = lazyQueues.get(el);
+    if(!el.open || !queue) return;
+    while(queue.size) {
+        const [wrapper, [fn, args]] = queue.entries().next().value;
+        queue.delete(wrapper);
+        fn(...args);
+    }
+}));
+const renderDemographicCharts = lazyInSection('fold-demographie', renderDemographicChartsNow);
+const renderGivenNames = lazyInSection('fold-societe', renderGivenNamesNow);
+const renderSociety = lazyInSection('fold-societe', renderSocietyNow);
+
 let exportCtl = null;
 let list = [], map = new Map(), fams = new Map();
 let mapPersonId = null, pyramidDecadesCache = null, namesCenturiesCache = null;
@@ -539,6 +643,9 @@ const mapFilterEls = [document.getElementById('mapFilterBirt'), document.getElem
 const pyramidSliderMinEl = document.getElementById('pyramidDecadeSliderMin');
 const pyramidSliderMaxEl = document.getElementById('pyramidDecadeSliderMax');
 const pyramidSliderFillEl = document.getElementById('pyramidDecadeSliderFill');
+const kmSliderMinEl = document.getElementById('kmPeriodMin');
+const kmSliderMaxEl = document.getElementById('kmPeriodMax');
+const kmSliderFillEl = document.getElementById('kmPeriodFill');
 const pyramidLabelEl = document.getElementById('pyramidDecadeLabel');
 const namesCenturySliderMinEl = document.getElementById('namesCenturySliderMin');
 const namesCenturySliderMaxEl = document.getElementById('namesCenturySliderMax');
@@ -619,17 +726,27 @@ function updateTimeSliderBounds(bounds) {
 // Périmètre commun à TOUS les graphiques de l'onglet (cartes, Sankey, démographie) : la case
 // "Uniquement les ascendants de" ci-dessus, quand cochée et une personne sélectionnée, restreint
 // aussi bien les 3 cartes que les graphiques démographiques plus bas dans la page.
+// Ascendants de la personne choisie : calculés une seule fois par (personne, fichier) puis réutilisés
+// par les trois fonctions de périmètre ci-dessous, appelées à chaque changement de filtre.
+let ancestorScopeCache = null;
+function getAncestorScope() {
+    if(!ancestorScopeCache || ancestorScopeCache.personId !== mapPersonId || ancestorScopeCache.map !== map) {
+        const ids = getAncestorIds(map, mapPersonId);
+        ancestorScopeCache = { personId: mapPersonId, map, ids, set: new Set(ids) };
+    }
+    return ancestorScopeCache;
+}
 function getMapScopeIds() {
-    return (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorIds(map, mapPersonId) : list.map(i => i.id);
+    return (mapAncestorOnlyEl.checked && mapPersonId) ? getAncestorScope().ids : list.map(i => i.id);
 }
 function getScopedList() {
     if(!mapAncestorOnlyEl.checked || !mapPersonId) return list;
-    const scopeSet = new Set(getAncestorIds(map, mapPersonId));
+    const scopeSet = getAncestorScope().set;
     return list.filter(i => scopeSet.has(i.id));
 }
 function getScopedFams() {
     if(!mapAncestorOnlyEl.checked || !mapPersonId) return fams;
-    const scopeSet = new Set(getAncestorIds(map, mapPersonId));
+    const scopeSet = getAncestorScope().set;
     return new Map([...fams].filter(([, f]) => (f.husb && scopeSet.has(f.husb)) || (f.wife && scopeSet.has(f.wife))));
 }
 
@@ -706,7 +823,7 @@ function drawTopNamesForSelectedCentury() {
     drawTopNamesForCentury(currentScopedList, centuryMin, centuryMax);
 }
 
-function renderDemographicCharts() {
+function renderDemographicChartsNow() {
     if(!list.length) {
         currentScopedList = [];
         showMapMessage('ageChartPyramid', 'Chargez un fichier GEDCOM pour voir ce graphique.');
@@ -744,8 +861,14 @@ function renderDemographicCharts() {
     updatePyramidLabel();
     drawAgePyramidForSelectedDecade();
     drawAgeDeathTrend(currentScopedList);
+    const kmDecades = getBirthDecades(currentScopedList);
+    kmSliderMinEl.disabled = kmSliderMaxEl.disabled = !kmDecades.length;
+    kmSliderMinEl.max = kmSliderMaxEl.max = Math.max(0, kmDecades.length - 1);
+    kmSliderMinEl.value = 0; kmSliderMaxEl.value = Math.max(0, kmDecades.length - 1);
+    syncRangeSlider(kmSliderMinEl, kmSliderMaxEl, kmSliderFillEl);
     drawKaplanMeier(currentScopedList);
     drawFirstChildTrend(currentScopedList);
+    drawMarriageAgeTrend(scopedFams, map);
     drawProfessionAgeViolin(currentScopedList);
     drawMarriageWeekdayTrend(scopedFams);
     drawMarriageRadialChart(scopedFams, map);
@@ -768,8 +891,19 @@ function renderDemographicCharts() {
     drawTopNamesForSelectedCentury();
 }
 
-const redrawKm = () => { if(currentScopedList.length) drawKaplanMeier(currentScopedList); };
-document.querySelectorAll('input[name="kmSex"], #kmCensored').forEach(el => el.addEventListener('change', redrawKm));
+['marriageRadialChartFrom', 'marriageRadialChartTo'].forEach(id => document.getElementById(id).addEventListener('change', () => {
+    if(currentScopedList.length) drawMarriageRadialChart(getScopedFams(), map);
+}));
+['birthRadialChartFrom', 'birthRadialChartTo'].forEach(id => document.getElementById(id).addEventListener('change', () => {
+    if(currentScopedList.length) drawBirthConceptionRadialChart(currentScopedList);
+}));
+
+const redrawKm =() => { if(currentScopedList.length) drawKaplanMeier(currentScopedList); };
+document.querySelectorAll('input[name="kmSex"], #kmCensored, #kmFrom5').forEach(el => el.addEventListener('change', redrawKm));
+[kmSliderMinEl, kmSliderMaxEl].forEach(el => el.addEventListener('input', rafThrottle(() => {
+    syncRangeSlider(kmSliderMinEl, kmSliderMaxEl, kmSliderFillEl);
+    redrawKm();
+})));
 document.getElementById('kmWidth').addEventListener('change', e => {
     // Une durée saisie fige le mode manuel ; un champ vidé ou invalide revient à l'automatique.
     if(parseInt(e.target.value) >= 1) e.target.dataset.manual = '1'; else delete e.target.dataset.manual;
@@ -799,26 +933,26 @@ createPersonPicker({
     onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); renderDemographicCharts(); refreshRegionSummaries(); }
 });
 wireClickAway(mapPersonResultsEl);
-genSankeyGenCountEl.addEventListener('input', renderGenerationSankey);
-[pyramidSliderMinEl, pyramidSliderMaxEl].forEach(el => el.addEventListener('input', () => {
+genSankeyGenCountEl.addEventListener('input', rafThrottle(renderGenerationSankey));
+[pyramidSliderMinEl, pyramidSliderMaxEl].forEach(el => el.addEventListener('input', rafThrottle(() => {
     syncRangeSlider(pyramidSliderMinEl, pyramidSliderMaxEl, pyramidSliderFillEl);
     updatePyramidLabel();
     drawAgePyramidForSelectedDecade();
-}));
-[namesCenturySliderMinEl, namesCenturySliderMaxEl].forEach(el => el.addEventListener('input', () => {
+})));
+[namesCenturySliderMinEl, namesCenturySliderMaxEl].forEach(el => el.addEventListener('input', rafThrottle(() => {
     syncRangeSlider(namesCenturySliderMinEl, namesCenturySliderMaxEl, namesCenturySliderFillEl);
     updateNamesCenturyLabel();
     drawTopNamesForSelectedCentury();
-}));
+})));
 mapTimeEnabledEl.addEventListener('change', () => {
     mapTimeSliderRowEl.classList.toggle('hidden', !mapTimeEnabledEl.checked);
     renderFilteredMaps();
 });
-[mapTimeSliderMinEl, mapTimeSliderMaxEl].forEach(el => el.addEventListener('input', () => {
+[mapTimeSliderMinEl, mapTimeSliderMaxEl].forEach(el => el.addEventListener('input', rafThrottle(() => {
     syncRangeSlider(mapTimeSliderMinEl, mapTimeSliderMaxEl, mapTimeSliderFillEl);
     updateTimeLabel();
     renderFilteredMaps();
-}));
+})));
 
 // --- Société ---
 const societyStatus = document.getElementById('societyStatus');
@@ -926,7 +1060,7 @@ function currentRareSexFilter() {
 }
 document.querySelectorAll('input[name="socRareSex"]').forEach(input => input.addEventListener('change', renderGivenNames));
 
-function renderGivenNames() {
+function renderGivenNamesNow() {
     if (!list.length) return;
     const stats = computeGivenNameStats(list, { sexFilter: currentRareSexFilter() });
 
@@ -971,7 +1105,7 @@ function renderGivenNames() {
     drawRareGivenNamesMap('socRareNamesMap', stats);
 }
 
-function renderSociety(stats) {
+function renderSocietyNow(stats) {
     renderMarriageSeasonality();
     renderGivenNames();
 
@@ -1078,6 +1212,20 @@ function renderSociety(stats) {
     document.getElementById('socNameAnyLabel').textContent = np.anySameGenderGrandparent.eligible > 0
         ? `nommés d'après un grand-parent de même sexe (${np.anySameGenderGrandparent.matches}/${np.anySameGenderGrandparent.eligible})`
         : 'nommés d\'après un grand-parent de même sexe (données insuffisantes)';
+
+    // Transmission par parrains/marraines et oncles/tantes (avec variante de l'autre sexe)
+    const renderKin = (pre, d, who) => {
+        const pct = v => v != null ? `${v}%` : '–';
+        setStat(`${pre}Total`, pct(d.rateTotal));
+        setStat(`${pre}Same`, pct(d.rateSame));
+        setStat(`${pre}Switch`, pct(d.rateSwitched));
+        document.getElementById(`${pre}TotalLabel`).textContent = `prénom repris d'${who}, tous cas confondus (${d.total}/${d.eligible})${d.eligible === 0 ? ' — données insuffisantes' : ''}`;
+        document.getElementById(`${pre}SameLabel`).textContent = `même prénom (${d.same}/${d.eligible})`;
+        document.getElementById(`${pre}SwitchLabel`).textContent = `variante de l'autre sexe (${d.switched}/${d.eligible})`;
+        document.getElementById(`${pre}Examples`).textContent = d.examples.length ? `Exemples de changement de sexe : ${d.examples.join(', ')}` : '';
+    };
+    renderKin('socGod', stats.godparentNaming, 'un parrain ou une marraine');
+    renderKin('socUncle', stats.uncleAuntNaming, 'un oncle ou une tante');
 
     // Extinction des lignées
     renderList('socSurnameList', stats.surnameExtinction.atRiskSurnames.map((s, i) => `
@@ -1257,7 +1405,7 @@ function redrawRegionMapForYear() {
         surnameFilter: regionSurnameFilterEl.value
     });
 }
-regionYearSliderEl.addEventListener('input', redrawRegionMapForYear);
+regionYearSliderEl.addEventListener('input', rafThrottle(redrawRegionMapForYear));
 
 function selectRegionCode(code) {
     regionState[regionMode].selectedCode = regionMode === 'eu' ? (code || '') : code;
