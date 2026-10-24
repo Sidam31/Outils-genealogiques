@@ -50,7 +50,7 @@
 
     <a class="tab-btn" id="topModeSuccessionsBtn" href="#successions">⚰ Successions</a>
     <a class="tab-btn" id="topModeMariageBtn" href="#mariage">💍 Mariage</a>
-    <a class="tab-btn" id="topModeGallicaBtn" href="#agregateur">🔎 Agrégateur</a>
+    <a class="tab-btn" id="topModeGallicaBtn" href="#meta-recherche">🔎 Méta-recherche</a>
 </div>
 
 <div id="dmPanel" class="tab-panel">
@@ -521,20 +521,20 @@ const dmPanelEl = document.getElementById('dmPanel');
 const faPanelEl = document.getElementById('faPanel');
 const gxPanelEl = document.getElementById('gxPanel');
 // 'notariat' retiré tant que le volet n'est pas fonctionnel (onglet masqué, #notariat renvoie à 'deces').
-const TOP_MODES = ['deces', 'recensement', 'successions', 'mariage', 'agregateur'];
+const TOP_MODES = ['deces', 'recensement', 'successions', 'mariage', 'meta-recherche'];
 function setTopMode(m) {
-    if (m === 'gallica') m = 'agregateur'; // ancien nom de l'onglet : les liens existants restent valides
+    if (m === 'gallica' || m === 'agregateur') m = 'meta-recherche'; // anciens noms de l'onglet : les liens existants restent valides
     if (!TOP_MODES.includes(m)) m = 'deces';
     topModeDecesBtn.classList.toggle('active', m === 'deces');
     topModeRecensementBtn.classList.toggle('active', m === 'recensement');
     topModeNotariatBtn.classList.toggle('active', m === 'notariat');
     topModeSuccessionsBtn.classList.toggle('active', m === 'successions');
     topModeMariageBtn.classList.toggle('active', m === 'mariage');
-    topModeGallicaBtn.classList.toggle('active', m === 'agregateur');
+    topModeGallicaBtn.classList.toggle('active', m === 'meta-recherche');
     dmPanelEl.classList.toggle('hidden', m !== 'deces');
-    faPanelEl.classList.toggle('hidden', m === 'deces' || m === 'agregateur');
-    gxPanelEl.classList.toggle('hidden', m !== 'agregateur');
-    if (m !== 'deces' && m !== 'agregateur') fa.setMode(m);
+    faPanelEl.classList.toggle('hidden', m === 'deces' || m === 'meta-recherche');
+    gxPanelEl.classList.toggle('hidden', m !== 'meta-recherche');
+    if (m !== 'deces' && m !== 'meta-recherche') fa.setMode(m);
 }
 // Chaque sous-onglet a un lien direct (#deces, #recensement...) : les boutons sont de vrais
 // <a href="#..."> plutôt que des boutons avec onclick, et c'est le hash de l'URL qui pilote
@@ -1405,7 +1405,7 @@ const fa = (() => {
     };
 })();
 
-// --- Agrégateur (Gallica, Geneanet, Filae, FamilySearch) ---
+// --- Méta-recherche (Gallica, Geneanet, Filae, FamilySearch) ---
 // Même enveloppe IIFE que dm/fa ci-dessus, pour la même raison (isoler ses noms internes). Volet
 // plus simple que fa : un seul tableau de résultats, pas de sous-mode.
 const gx = (() => {
@@ -1589,7 +1589,7 @@ const gx = (() => {
                 urls.familysearch
             ]); });
         });
-        downloadCsv('agregateur_pistes.csv', headers, rows);
+        downloadCsv('meta-recherche_pistes.csv', headers, rows);
     });
 
     return {

@@ -115,7 +115,7 @@ export function marriageSearchLinks(husb, wife, year, city) {
 }
 
 // Recherche générale (tous fonds confondus) pour un couple nom/prénom, avec ou sans période : utilisée
-// par l'onglet Agrégateur. Geneanet : moteur /fonds/individus (même paramètres que le catalogue, sans
+// par l'onglet Méta-recherche. Geneanet : moteur /fonds/individus (même paramètres que le catalogue, sans
 // collection) ; Filae : pas de source (spi) ; FamilySearch : période "tout événement" (q.anyDate).
 export function generalSearchUrls(surname, given, from, to) {
     const hasPeriod = from != null && to != null;
