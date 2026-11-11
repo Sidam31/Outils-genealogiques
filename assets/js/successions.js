@@ -1281,6 +1281,22 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_77_bureaux.json',
         catalogUrl: 'https://archives.seine-et-marne.fr/fr/tables-de-successions-et-absences',
     },
+    '47': {
+        label: 'Lot-et-Garonne',
+        kind: 'facet',
+        // Bornes réelles de la série (277 registres, 34 bureaux, voir
+        // scrape_successions_lot_et_garonne.py) : portail Prismia (SPA React), registres lus via son
+        // API publique (un document par registre du fonds 3Q), chacun avec un lien profond vers la
+        // visionneuse IIIF, sans subdivision par patronyme. Le portail annonce 1860-1968 mais
+        // beaucoup de registres débordent (le plus ancien démarre en 1844, le plus récent finit en
+        // 1970). Un seul registre catalogué sans images (Francescas, 3 Q 13/181).
+        minYear: 1844,
+        maxYear: 1970,
+        registersUrl: './assets/data/successions_47.json',
+        bureauxUrl: './assets/data/successions_47_bureaux.json',
+        // La recherche du portail ne fait que choisir un bureau : repli sur la page des tables.
+        catalogUrl: 'https://lotetgaronne.archives.prismia.fr/Recherche/TSA',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

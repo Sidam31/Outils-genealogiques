@@ -1,0 +1,698 @@
+[
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 624",
+    "yearStart": 1822,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta735fc7d928c54519/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 625",
+    "yearStart": 1825,
+    "yearEnd": 1845,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtafadea0f78b1e4e4c/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 626",
+    "yearStart": 1846,
+    "yearEnd": 1858,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta57f96718981349fa/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 627",
+    "yearStart": 1858,
+    "yearEnd": 1872,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaa222fe820660ffab/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 628",
+    "yearStart": 1872,
+    "yearEnd": 1886,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8f338433ea0a401d/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 5490",
+    "yearStart": 1887,
+    "yearEnd": 1903,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta725da628002aa78b/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Aspres-sur-Buëch",
+    "cote": "3 Q 5491",
+    "yearStart": 1904,
+    "yearEnd": 1917,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta1706d5d870abe489/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1106",
+    "yearStart": 1824,
+    "yearEnd": 1833,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaa045de36ddc12ddf/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1107",
+    "yearStart": 1834,
+    "yearEnd": 1844,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta891e87bec12f3968/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1108",
+    "yearStart": 1845,
+    "yearEnd": 1854,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta553723b00d6251b1/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1109",
+    "yearStart": 1854,
+    "yearEnd": 1862,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtad601b9a04605341d/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1110",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta0afa053f1d5f366b/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1111",
+    "yearStart": 1869,
+    "yearEnd": 1878,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta7d0523fc072284d4/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1112",
+    "yearStart": 1878,
+    "yearEnd": 1888,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta623a3365471db4cc/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 1113",
+    "yearStart": 1888,
+    "yearEnd": 1894,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtad5d960181ad7501c/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 5180",
+    "yearStart": 1894,
+    "yearEnd": 1904,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta18c16ed63b58ab69/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 5181",
+    "yearStart": 1905,
+    "yearEnd": 1912,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae14f2e1edf3081e8/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 5182",
+    "yearStart": 1912,
+    "yearEnd": 1917,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtadc65a008cf4da759/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 5183",
+    "yearStart": 1918,
+    "yearEnd": 1925,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta5ae3587af44188f8/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Briançon",
+    "cote": "3 Q 5184",
+    "yearStart": 1926,
+    "yearEnd": 1933,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta2638f18edbd072df/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 1754",
+    "yearStart": 1802,
+    "yearEnd": 1819,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtac54fbfdc74d282b4/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 1755",
+    "yearStart": 1810,
+    "yearEnd": 1818,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta9fb399ef5bdb1eca/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 1739",
+    "yearStart": 1819,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta22bbb10551ed9fa0/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 6579",
+    "yearStart": 1894,
+    "yearEnd": 1904,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtadf21c4760571a6fb/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 6580",
+    "yearStart": 1904,
+    "yearEnd": 1919,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta94bf24deb227dfda/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 6581",
+    "yearStart": 1919,
+    "yearEnd": 1932,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtab8b569d7a5d3fca9/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Embrun",
+    "cote": "3 Q 6582",
+    "yearStart": 1933,
+    "yearEnd": 1948,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae75b8c6e7d3047c5/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Guillestre",
+    "cote": "3 Q 2988",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta16e543e928a1019a/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Guillestre",
+    "cote": "3 Q 2989",
+    "yearStart": 1811,
+    "yearEnd": 1817,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae4d3c28ee0f9b372/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Guillestre",
+    "cote": "3 Q 2990",
+    "yearStart": 1817,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta048fe5ea822ec099/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Guillestre",
+    "cote": "3 Q 6430",
+    "yearStart": 1905,
+    "yearEnd": 1915,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaf8cc39d0b326a97d/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Guillestre",
+    "cote": "3 Q 6431",
+    "yearStart": 1915,
+    "yearEnd": 1933,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta1cfc5f2c3906ef70/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Guillestre",
+    "cote": "3 Q 6432",
+    "yearStart": 1933,
+    "yearEnd": 1948,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtac0e41c2af6dfe9b1/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 436",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta10b824f9a3e25cf8/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 437",
+    "yearStart": 1824,
+    "yearEnd": 1843,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae07294cdb0a3cf6c/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 438",
+    "yearStart": 1843,
+    "yearEnd": 1857,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta313c1ac060e49dee/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 439",
+    "yearStart": 1858,
+    "yearEnd": 1868,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta87e4055fac7f3633/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 440",
+    "yearStart": 1868,
+    "yearEnd": 1875,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta69c941fcf2ca5e2f/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 441",
+    "yearStart": 1875,
+    "yearEnd": 1890,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta7747fd35f2e540a8/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 5256",
+    "yearStart": 1891,
+    "yearEnd": 1907,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaed2b437c7b638910/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "L'Argentière-la-Bessée",
+    "cote": "3 Q 5257",
+    "yearStart": 1908,
+    "yearEnd": 1927,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta866f71d638181889/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Laragne-Ventavon",
+    "cote": "3 Q 3269",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta873b148666ce78bd/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Laragne-Ventavon",
+    "cote": "3 Q 5835",
+    "yearStart": 1883,
+    "yearEnd": 1907,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta12ec9ef46d05808a/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Laragne-Ventavon",
+    "cote": "3 Q 5836",
+    "yearStart": 1907,
+    "yearEnd": 1928,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta4b454a55b7b7d70e/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Laragne-Ventavon",
+    "cote": "3 Q 5837",
+    "yearStart": 1928,
+    "yearEnd": 1945,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtabd1a46e6178a279e/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Orpierre",
+    "cote": "3 Q 3514",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta99a5cf76131d0049/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Orpierre",
+    "cote": "3 Q 3515",
+    "yearStart": 1825,
+    "yearEnd": 1857,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta262bec21fa5d6ecf/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Orpierre",
+    "cote": "3 Q 3516",
+    "yearStart": 1858,
+    "yearEnd": 1887,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8b378b4340d374c0/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Orpierre",
+    "cote": "3 Q 5631",
+    "yearStart": 1887,
+    "yearEnd": 1918,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaa730cea92155483a/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 3827",
+    "yearStart": 1811,
+    "yearEnd": 1818,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtada2918ef145b8ed2/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 3828",
+    "yearStart": 1818,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta12c0f13ee3ef34bd/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 3829",
+    "yearStart": 1825,
+    "yearEnd": 1839,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtade7fd6c74f0d9993/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 3830",
+    "yearStart": 1840,
+    "yearEnd": 1857,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaf0384096f55089ca/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 3831",
+    "yearStart": 1857,
+    "yearEnd": 1873,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta3a936e177aa19204/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 3832",
+    "yearStart": 1874,
+    "yearEnd": 1885,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtacbf8cd31eb592004/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 5658",
+    "yearStart": 1885,
+    "yearEnd": 1910,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta38fb4dd7d013e2c8/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Ribiers",
+    "cote": "3 Q 5659",
+    "yearStart": 1911,
+    "yearEnd": 1915,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8bf3ecd83e63362a/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Bonnet-en-Champsaur",
+    "cote": "3 Q 6233",
+    "yearStart": 1891,
+    "yearEnd": 1904,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta2bf6736a6c2ba41f/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Bonnet-en-Champsaur",
+    "cote": "3 Q 6234",
+    "yearStart": 1905,
+    "yearEnd": 1919,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtad6b7c6e821a6db7f/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Bonnet-en-Champsaur",
+    "cote": "3 Q 6235",
+    "yearStart": 1919,
+    "yearEnd": 1933,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta4adf5c5548cb1873/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Bonnet-en-Champsaur",
+    "cote": "3 Q 6236",
+    "yearStart": 1933,
+    "yearEnd": 1946,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta44573f33e44fc7bd/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Firmin",
+    "cote": "3 Q 4303",
+    "yearStart": 1841,
+    "yearEnd": 1857,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae12da22e63bf75f2/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Firmin",
+    "cote": "3 Q 4304",
+    "yearStart": 1857,
+    "yearEnd": 1870,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta29cebed9596ec0ba/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Firmin",
+    "cote": "3 Q 4305",
+    "yearStart": 1871,
+    "yearEnd": 1893,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtafc4668d9c1e1bc4a/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Firmin",
+    "cote": "3 Q 6091",
+    "yearStart": 1893,
+    "yearEnd": 1916,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta2da720e11f0c9241/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Firmin",
+    "cote": "3 Q 6092",
+    "yearStart": 1916,
+    "yearEnd": 1934,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8e7391531b9c302e/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4597",
+    "yearStart": 1807,
+    "yearEnd": 1819,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8bf756a62e0ca4c8/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4598",
+    "yearStart": 1820,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8464ddd89151302f/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4599",
+    "yearStart": 1825,
+    "yearEnd": 1839,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta83410b83fb94dd31/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4600",
+    "yearStart": 1840,
+    "yearEnd": 1855,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta61f1552e34a73a42/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4601",
+    "yearStart": 1854,
+    "yearEnd": 1861,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta9c2358291dfa08c6/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4602",
+    "yearStart": 1862,
+    "yearEnd": 1869,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta1b8198a8fcf4eb09/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4603",
+    "yearStart": 1869,
+    "yearEnd": 1877,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtab29e490be5fa4fa3/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4604",
+    "yearStart": 1877,
+    "yearEnd": 1885,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta74c43378ad1311e2/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4605",
+    "yearStart": 1885,
+    "yearEnd": 1892,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaff1e2e211fa382ee/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 4606",
+    "yearStart": 1893,
+    "yearEnd": 1908,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta083517a7eae16bfa/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 5553",
+    "yearStart": 1908,
+    "yearEnd": 1929,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae63949894a33df1c/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Serres",
+    "cote": "3 Q 5554",
+    "yearStart": 1929,
+    "yearEnd": 1947,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtae8404158cba1c710/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Tallard",
+    "cote": "3 Q 4698",
+    "yearStart": 1843,
+    "yearEnd": 1859,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta8bf0f4b942875fe2/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Tallard",
+    "cote": "3 Q 4699",
+    "yearStart": 1860,
+    "yearEnd": 1877,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtadecb5c4eb07c0c6d/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Tallard",
+    "cote": "3 Q 4700",
+    "yearStart": 1878,
+    "yearEnd": 1893,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta56521601c7fceca3/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Tallard",
+    "cote": "3 Q 6140",
+    "yearStart": 1894,
+    "yearEnd": 1920,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta4e76a4e725dc83ca/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Tallard",
+    "cote": "3 Q 6141",
+    "yearStart": 1920,
+    "yearEnd": 1935,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta2e7499003ac92aa3/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Veynes",
+    "cote": "3 Q 4859",
+    "yearStart": 1810,
+    "yearEnd": 1824,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtad63b45199f756d6c/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Veynes",
+    "cote": "3 Q 6237",
+    "yearStart": 1896,
+    "yearEnd": 1916,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaccf627d81b75ac84/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Veynes",
+    "cote": "3 Q 6238",
+    "yearStart": 1916,
+    "yearEnd": 1931,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vta35d70c82d59ad27a/daogrp/0",
+    "digitized": true
+  },
+  {
+    "place": "Veynes",
+    "cote": "3 Q 6239",
+    "yearStart": 1931,
+    "yearEnd": 1947,
+    "url": "https://archives.hautes-alpes.fr/ark:/23599/vtaafa86da4966dbe3a/daogrp/0",
+    "digitized": true
+  }
+]
