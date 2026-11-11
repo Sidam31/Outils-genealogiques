@@ -412,6 +412,8 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 #profMapList .prof-item { cursor: pointer; }
 #profMapList .prof-item:hover { background: #f4f6f8; }
 #profMapList .prof-item.selected { background: #e3f1ee; border-color: var(--accent); }
+/* Pastille de la couleur utilisée sur la carte, affichée devant les groupes sélectionnés */
+#profMapList .prof-swatch { flex: 0 0 auto; width: 12px; height: 12px; border-radius: 50%; border: 1px solid #fff; box-shadow: 0 0 0 1px #bbb; }
 #professionMapChart { position: relative; }
 @media (max-width: 860px) {
     .dept-layout { flex-direction: column; }

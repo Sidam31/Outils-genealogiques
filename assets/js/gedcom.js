@@ -31,7 +31,7 @@ const OTHER_EVENT_TAG_LABELS = {
 
 // --- PARSER ---
 export class GedcomParser {
-    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._placeCache = new Map(); this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curCensusEntry = null; this._curResiEntry = null; this._curAsso = null; }
+    constructor() { this.indis = new Map(); this.fams = new Map(); this.globalPlacForm = null; this._placeCache = new Map(); this._curPlaceStub = null; this._curFactValue = null; this._pendingEven = null; this._curOccuEntries = null; this._curCensusEntry = null; this._curResiEntry = null; this._curAsso = null; }
     clean(s) { return s ? s.replace(/@/g,'').trim() : null; }
     getYear(s) { const m = s?.match(/\d{4}/); return m ? parseInt(m[0]) : null; }
     // GEDCOM DATE_APPROXIMATED : préfixe ABT (about), CAL (calculated) ou EST (estimated) sur la
@@ -164,6 +164,7 @@ export class GedcomParser {
     parseIndi(i, lvl, t, v) {
         if(lvl===1) {
             this._curPlaceStub = null;
+            this._curOccuEntries = null; // les DATE/PLAC de niveau 2 ne concernent que le "1 OCCU" en cours
             i._ctx=t;
             // "/Surname/" est parfois collé au prénom sans espace dans le fichier source
             // (ex. "Jean/Dupont/") : on force un espace autour du nom entre slashes plutôt que de
@@ -201,7 +202,14 @@ export class GedcomParser {
             // Une personne peut avoir plusieurs "1 OCCU" (métiers successifs au fil des actes) :
             // on les garde tous plutôt que d'écraser avec le dernier rencontré. Chaque valeur peut
             // elle-même contenir plusieurs métiers datés (voir parseOccupationValue ci-dessus).
-            if(t==='OCCU' && v && v.trim()) this.parseOccupationValue(v.trim()).forEach(e => i.occupations.push(e));
+            // Chaque entrée porte aussi year/geo (DATE/PLAC de niveau 2, remplis plus bas par mutation
+            // via _curOccuEntries) et src : year est distinct de yearStart/yearEnd, qui ne viennent que
+            // des parenthèses de la valeur (professionsAtYear, society.js, en dépend).
+            if(t==='OCCU' && v && v.trim()) {
+                const entries = this.parseOccupationValue(v.trim()).map(e => ({ ...e, year: null, geo: null, src: 'OCCU' }));
+                entries.forEach(e => i.occupations.push(e));
+                this._curOccuEntries = entries;
+            }
             if(['BIRT','DEAT','BURI','BAPM','CHR','EMIG','IMMI'].includes(t)) {
                 const key = t==='CHR' ? 'BAPM' : t;
                 i.events[key].hasTag = true;
@@ -307,7 +315,10 @@ export class GedcomParser {
                     if(i._ctx==='CENS' && this._curCensusEntry) { this._curCensusEntry.year = y; this._curCensusEntry.approx = approx; }
                     if(i._ctx==='RESI' && this._curResiEntry) { this._curResiEntry.year = y; this._curResiEntry.approx = approx; }
                 }
+                if(i._ctx==='OCCU' && this._curOccuEntries && v && v.trim().length) this._curOccuEntries.forEach(e => { e.year = y; });
                 if(this.isOtherEventTag(i._ctx) && this._pendingEven && v && v.trim().length) {
+                    // FACT déjà confirmé comme métier par son TYPE : la DATE qui suit va aussi dans l'entrée métier.
+                    if(this._pendingEven.occEntry) this._pendingEven.occEntry.year = y;
                     this._pendingEven.hasDate = true; this._pendingEven.year = y; this._pendingEven.approx = approx;
                     if(this._pendingEven.entry) { this._pendingEven.entry.year = y; this._pendingEven.entry.approx = approx; }
                     // Ordre GEDCOM habituel : TYPE précède DATE/PLAC (pas l'inverse). Si le TYPE a
@@ -340,7 +351,9 @@ export class GedcomParser {
                     if(i._ctx==='CENS' && this._curCensusEntry) this._curCensusEntry.geo = stub;
                     if(i._ctx==='RESI' && this._curResiEntry) this._curResiEntry.geo = stub;
                 }
+                if(i._ctx==='OCCU' && this._curOccuEntries) this._curOccuEntries.forEach(e => { e.geo = stub; });
                 if(this.isOtherEventTag(i._ctx) && this._pendingEven) {
+                    if(this._pendingEven.occEntry) this._pendingEven.occEntry.geo = stub;
                     this._pendingEven.geo = stub;
                     if(this._pendingEven.entry) this._pendingEven.entry.geo = stub;
                     if(this._pendingEven.isCens) {
@@ -363,14 +376,16 @@ export class GedcomParser {
                 this._pendingEven.entry.typeLabel = v.trim();
             }
             if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
-                // Certains fichiers dupliquent le même métier en "1 OCCU" ET en "1 FACT"/"2 TYPE
-                // Occupation" (ex. export depuis un autre logiciel) : on ignore le FACT si son texte
-                // correspond déjà à une profession connue par ailleurs, pour ne pas la compter deux fois.
-                const key = this._curFactValue.trim().toLowerCase();
-                if(!i.occupations.some(o => o.profession.trim().toLowerCase() === key)) {
-                    i.occupations.push({ profession: this._curFactValue, yearStart: null, yearEnd: null });
-                }
+                // Entrée créée MAINTENANT avec ce que _pendingEven connaît déjà (PLAC/DATE parfois
+                // placés avant TYPE) ; occEntry sert de référence pour que les DATE/PLAC arrivant
+                // APRÈS ce TYPE la complètent. Les doublons OCCU/FACT (même métier exporté deux fois
+                // par certains logiciels) sont fusionnés dans postProcess (dedupOccupations), une fois
+                // toutes les infos de lieu/date connues, plutôt que d'écarter ici le FACT et son lieu.
+                const occEntry = { profession: this._curFactValue, yearStart: null, yearEnd: null,
+                    year: this._pendingEven?.hasDate ? this._pendingEven.year : null, geo: this._pendingEven?.geo || null, src: 'FACT' };
+                i.occupations.push(occEntry);
                 this._curFactValue = null;
+                if(this._pendingEven) this._pendingEven.occEntry = occEntry;
                 if(this._pendingEven?.entry) this._pendingEven.entry.isOccupation = true;
             }
             // "1 EVEN"/"1 FACT" confirmé comme recensement par son TYPE : on rattache au recensement
@@ -486,6 +501,7 @@ export class GedcomParser {
             i.censusEvents.forEach(entry => finalize(entry.geo));
             i.resiEvents.forEach(entry => finalize(entry.geo));
             i.otherEvents.forEach(entry => finalize(entry.geo));
+            i.occupations.forEach(entry => finalize(entry.geo));
         });
         this.fams.forEach(f => { finalize(f.marr.geo); finalize(f.div.geo); });
     }
@@ -621,7 +637,32 @@ export class GedcomParser {
         if(!country && !dept && !beProvince && !region) country = "Inconnu";
         return { dept:deptDisp, region, country, city, cityChain, beProvince:beProvinceDisp };
     }
+    // Fusionne les métiers en double d'une personne (typiquement "1 OCCU" ET "1 FACT/TYPE Occupation"
+    // exportant la même information, dans n'importe quel ordre). Deux entrées sont des doublons si
+    // leur profession normalisée (espaces réduits, insensible à la casse) est identique ET que leurs
+    // infos sont compatibles : même année (ou l'une inconnue), même lieu normalisé (ou l'un inconnu),
+    // mêmes bornes yearStart/yearEnd (ou l'une inconnue). Le résultat garde l'union des infos (valeurs
+    // non nulles prioritaires), la graphie et la position de la première entrée. Deux entrées de
+    // même métier mais de lieux ou dates réellement différents restent séparées.
+    dedupOccupations(occupations) {
+        const key = o => (o.profession || '').trim().replace(/\s+/g, ' ').toLowerCase();
+        const place = o => o.geo?.raw ? normalizePlace(o.geo.raw) : null;
+        const same = (a, b) => a == null || b == null || a === b;
+        const kept = [];
+        occupations.forEach(o => {
+            const k = key(o), p = place(o);
+            const twin = kept.find(t => key(t) === k && same(t.year, o.year) && same(place(t), p)
+                && same(t.yearStart, o.yearStart) && same(t.yearEnd, o.yearEnd));
+            if(!twin) { kept.push(o); return; }
+            if(twin.year == null) twin.year = o.year;
+            if(!twin.geo) twin.geo = o.geo;
+            if(twin.yearStart == null) twin.yearStart = o.yearStart;
+            if(twin.yearEnd == null) twin.yearEnd = o.yearEnd;
+        });
+        return kept;
+    }
     postProcess() {
+        this.indis.forEach(i => { if(i.occupations.length > 1) i.occupations = this.dedupOccupations(i.occupations); });
         // Prénoms : pour CHAQUE personne, séparés par des virgules ("Jean Pierre, Marie" : un espace y
         // désigne un prénom composé) si le champ en contient, sinon un prénom par mot. Auparavant la
         // décision valait pour tout le fichier : dès qu'une seule personne avait une virgule, les autres

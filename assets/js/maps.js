@@ -166,6 +166,7 @@ export async function enrichMissingCoords(list) {
     list.forEach(i => {
         collect(i.birth?.geo); collect(i.death?.geo); collect(i.marrGeo);
         (i.resiEvents || []).forEach(r => collect(r.geo));
+        (i.occupations || []).forEach(o => collect(o.geo));
     });
     if(!pending.length) return;
 

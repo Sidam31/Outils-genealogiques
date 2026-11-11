@@ -112,13 +112,51 @@
         <details class="fold-section" id="fold-professions-carte">
             <summary>⚒️ Carte des professions</summary>
             <div class="fold-body">
-                <p class="hint" style="text-align:center; margin-top:0;">Où ont vécu les porteurs de chaque métier : un rond par lieu et par profession, d'autant plus grand que le nombre de personnes distinctes est élevé. Cliquez une ou plusieurs professions dans la liste pour les isoler. Utilise le filtre « Uniquement les ascendants de » ci-dessus.</p>
+                <p class="hint" style="text-align:center; margin-top:0;">Où ont vécu les porteurs de chaque métier : un rond par lieu et par profession, d'autant plus grand que le nombre de personnes distinctes est élevé. Cliquez une ou plusieurs professions dans la liste pour les isoler. Le lieu d'exercice (lieu renseigné sur l'événement profession lui-même) est utilisé en priorité quand il existe ; à défaut, les lieux de naissance, mariage et décès cochés ci-dessous. Utilise le filtre « Uniquement les ascendants de » ci-dessus.</p>
                 <div class="options-panel">
                     <div class="checkbox-group">
+                        <label><input type="checkbox" id="profMapOccu" checked> 💼 Lieu d'exercice (OCCU/FACT) en priorité</label>
                         <label><input type="checkbox" id="profMapBirt" checked> 👶 Naissance</label>
                         <label><input type="checkbox" id="profMapMarr" checked> 💍 Mariage</label>
                         <label><input type="checkbox" id="profMapDeat" checked> ⚰️ Décès</label>
                     </div>
+                    <div class="checkbox-group" role="radiogroup" aria-label="Regroupement des professions">
+                        <label><input type="radio" name="profMapMode" value="exact"> Libellé exact</label>
+                        <label><input type="radio" name="profMapMode" value="lemma" checked> Masculin/féminin regroupés</label>
+                        <label><input type="radio" name="profMapMode" value="category"> Catégorie</label>
+                    </div>
+                    <div class="checkbox-group" id="profMapCatTools">
+                        <button type="button" id="profMapCatImport">📂 Importer mes catégories (JSON)</button>
+                        <button type="button" id="profMapCatExport">💾 Exporter les catégories (modèle)</button>
+                        <button type="button" id="profMapCatReset" disabled>↺ Catégories par défaut</button>
+                        <input type="file" id="profMapCatFile" accept=".json,application/json" hidden>
+                    </div>
+                    <div class="hint" id="profMapCatStatus" style="text-align:center;">Catégories par défaut</div>
+                    <div class="hint hidden" id="profMapCatErrors" style="color:#c0392b; text-align:left;"></div>
+                    <details class="hint" id="profMapCatHelp">
+                        <summary>ℹ️ Format du fichier</summary>
+                        <p>Astuce : exportez le modèle, modifiez-le, puis réimportez-le. Les catégories importées sont mémorisées dans ce navigateur.</p>
+<pre style="white-space:pre-wrap; font-size:0.75rem; background:#f4f6f8; padding:8px; border-radius:6px;">{
+  "format": "visugedcom-categories-professions",
+  "version": 1,
+  "mode": "remplacer",
+  "categories": [
+    { "nom": "Agriculture", "couleur": "#4e9a06",
+      "motifs": ["laboureur", "cultivateur", "vigneron", "re:^menager\\b"] },
+    { "nom": "Artisanat", "motifs": ["forgeron", "tisserand", "tailleur"] }
+  ],
+  "professions": { "Ménager": "Agriculture", "Garçon meunier": "Artisanat" },
+  "autre": "Autres / non classé"
+}</pre>
+                        <ul>
+                            <li><code>format</code> et <code>version</code> (1) sont obligatoires. <code>mode</code> : « remplacer » (défaut, seules vos règles) ou « completer » (vos règles d'abord, puis celles par défaut).</li>
+                            <li>Les catégories sont testées dans l'ordre : la première qui correspond l'emporte. <code>nom</code> est unique ; <code>couleur</code> (#rgb ou #rrggbb) est facultative.</li>
+                            <li>Un motif simple ignore accents, casse et féminin, et s'applique au début d'un mot : « laboureur » reconnaît Laboureuse, « laboureur à bras », laboureurs.</li>
+                            <li><code>re:</code> devant un motif : expression régulière, testée sur le libellé sans accents, en minuscules, au masculin.</li>
+                            <li><code>professions</code> (libellé → catégorie) est prioritaire sur les motifs ; la catégorie doit exister dans <code>categories</code>.</li>
+                            <li><code>autre</code> : catégorie de repli. Les clés commençant par <code>_</code> sont ignorées (notes libres ; l'export y liste les professions non classées).</li>
+                        </ul>
+                    </details>
                 </div>
                 <div class="dept-layout">
                     <div class="dept-side-col">
@@ -685,8 +723,9 @@ const renderSociety = lazyInSection('fold-societe', renderSocietyNow);
 // Carte des professions : le périmètre est lu à l'exécution (donc à l'ouverture de la section si
 // elle était fermée), et le SVG n'est dimensionné qu'une fois le conteneur visible.
 const professionMap = createProfessionMap({
-    mapId: 'professionMapChart', listId: 'profMapList', filterId: 'profMapFilter', resetBtnId: 'profMapResetBtn',
-    flagIds: { BIRT: 'profMapBirt', MARR: 'profMapMarr', DEAT: 'profMapDeat' }
+    mapId: 'professionMapChart', listId: 'profMapList', filterId: 'profMapFilter', resetBtnId: 'profMapResetBtn', modeName: 'profMapMode',
+    categoryUi: { importBtnId: 'profMapCatImport', exportBtnId: 'profMapCatExport', resetBtnId: 'profMapCatReset', fileId: 'profMapCatFile', statusId: 'profMapCatStatus', errorsId: 'profMapCatErrors' },
+    flagIds: { OCCU: 'profMapOccu', BIRT: 'profMapBirt', MARR: 'profMapMarr', DEAT: 'profMapDeat' }
 });
 const renderProfessionMap = lazyInSection('fold-professions-carte', () => professionMap.update(getMapScopeIds(), map));
 let profMapResizeTimer = 0;

@@ -17,11 +17,15 @@
 import { GEO } from './geo.js';
 import { escapeHtml } from './utils.js';
 import { showMapMessage, ensureFranceGeo, ensureEuropeGeo, neighborCountryLabel, resolveGeoPoint } from './maps.js';
+import {
+    foldProfession, professionLemma, professionCategory, categoryColor, hasCustomCategoryRules, getActiveCategoryRules,
+    importCategoryRulesFromText, loadStoredCategoryRules, resetCategoryRules, exportCategoryRulesJson, CATEGORY_FILE_MAX_BYTES
+} from './profession-categories.js';
 
-// --- CARTE DES PROFESSIONS : où ont vécu (né, marié, mort) les porteurs de chaque métier ---
+// --- CARTE DES PROFESSIONS : où ont vécu (né, marié, mort, ou exercé) les porteurs de chaque métier ---
 
 const FRENCH_DEPT_CODES = new Set(Object.values(GEO.deptNames));
-const EVENT_ICONS = { BIRT: '👶', MARR: '💍', DEAT: '⚰️' };
+const EVENT_ICONS = { BIRT: '👶', MARR: '💍', DEAT: '⚰️', OCCU: '💼' };
 const EVENT_YEAR_OF = {
     BIRT: p => ({ geo: p.birth?.geo, year: p.birth?.year }),
     MARR: p => ({ geo: p.marrGeo, year: p.marrYear }),
@@ -31,64 +35,108 @@ const POPUP_MAX_ITEMS = 25;
 const LIST_MAX_ITEMS = 300;
 const MAP_HEIGHT = 420;
 const OTHER_COLOR = '#9a9a9a';
+const MAX_SELECTION_COLORS = 10; // jusqu'à 10 groupes sélectionnés : une couleur Tableau10 chacun
 
 // Même normalisation que computeProfessionAgeGroups (maps.js) et society.js : espaces réduits,
 // insensible à la casse, pour regrouper "Laboureur" / "laboureur " / "LABOUREUR".
 function profKey(label) { return (label || '').trim().replace(/\s+/g, ' ').toLowerCase(); }
 function cleanLabel(label) { return (label || '').trim().replace(/\s+/g, ' '); }
-// Comparaison de recherche insensible aux accents.
-function foldText(s) { return s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+
+// Clé de regroupement selon le mode : 'exact' (libellé), 'lemma' (masculin/féminin regroupés),
+// 'category' (grande famille de métiers).
+function groupKeyOf(label, mode) {
+    if(mode === 'category') return professionCategory(label);
+    if(mode === 'lemma') return professionLemma(label) || profKey(label);
+    return profKey(label);
+}
 
 // Calcule, pour un périmètre d'individus :
-//  - professions : liste (triée par nombre de personnes décroissant) { key, label, count } ;
-//    le décompte porte sur les PERSONNES distinctes du périmètre, indépendamment des cases
-//    d'événements et de la géolocalisation ;
+//  - professions : groupes (triés par nombre de personnes décroissant) { key, label, count, search,
+//    members } ; le décompte porte sur les PERSONNES distinctes du périmètre, indépendamment des
+//    cases d'événements et de la géolocalisation ; members = principaux libellés du groupe ;
 //  - personCount : nombre de personnes distinctes ayant au moins une profession ;
-//  - points : un par couple (lieu, profession) { prof, locKey, label, coords, count, items }, où
+//  - points : un par couple (lieu, groupe) { prof, locKey, label, coords, count, items }, où
 //    count = personnes DISTINCTES (une personne née et décédée au même endroit ne compte qu'une
 //    fois ; née en A et décédée en B compte à la fois en A et en B).
-export function computeProfessionLocations(scopeIds, individuals, eventFlags) {
-    const stats = new Map(); // key -> { spellings: Map(label -> n), count }
-    const cells = new Map(); // locKey|prof -> { prof, locKey, label, coords, persons: Map(id -> item) }
+// opts.mode : mode de regroupement ; eventFlags.OCCU : le lieu d'exercice (OCCU/FACT) prime sur
+// naissance/mariage/décès pour les personnes qui en ont un pour ce groupe.
+export function computeProfessionLocations(scopeIds, individuals, eventFlags, opts = {}) {
+    const mode = opts.mode || 'exact';
+    const stats = new Map(); // key -> { spellings: Map(profKey -> { label, n }), count }
+    const cells = new Map(); // locKey|groupe -> { prof, locKey, label, coords, persons: Map(id -> item) }
     let personCount = 0; // personnes distinctes ayant au moins une profession (entrée « Toutes »)
     scopeIds.forEach(id => {
         const p = individuals.get(id);
         if(!p) return;
-        // Une personne peut répéter un même métier (recensements successifs) : dédoublonnage par clé.
-        const profs = new Map();
+        // Une personne peut répéter un même métier (recensements successifs) : dédoublonnage par groupe,
+        // en gardant la PREMIÈRE graphie rencontrée comme libellé de la personne.
+        const groups = new Map(); // clé de groupe -> { label, entries: [{ label, o }] }
         (p.occupations || []).forEach(o => {
             const label = cleanLabel(o?.profession);
-            if(label && !profs.has(profKey(label))) profs.set(profKey(label), label);
+            if(!label) return;
+            const gk = groupKeyOf(label, mode);
+            let g = groups.get(gk);
+            if(!g) { g = { label, entries: [] }; groups.set(gk, g); }
+            g.entries.push({ label, o });
         });
-        if(!profs.size) return;
+        if(!groups.size) return;
         personCount++;
-        profs.forEach((label, key) => {
-            let s = stats.get(key);
-            if(!s) { s = { spellings: new Map(), count: 0 }; stats.set(key, s); }
+        groups.forEach((g, gk) => {
+            let s = stats.get(gk);
+            if(!s) { s = { spellings: new Map(), count: 0 }; stats.set(gk, s); }
             s.count++;
-            s.spellings.set(label, (s.spellings.get(label) || 0) + 1);
+            // Chaque libellé distinct de la personne dans ce groupe compte une fois (alimente le
+            // libellé affiché et la liste des membres d'une catégorie).
+            new Set(g.entries.map(e => profKey(e.label))).forEach(pk => {
+                const lab = g.entries.find(e => profKey(e.label) === pk).label;
+                const cur = s.spellings.get(pk);
+                if(cur) cur.n++; else s.spellings.set(pk, { label: lab, n: 1 });
+            });
         });
-        Object.keys(EVENT_YEAR_OF).forEach(type => {
-            if(!eventFlags[type]) return;
-            const { geo, year } = EVENT_YEAR_OF[type](p);
-            const pt = resolveGeoPoint(geo);
-            if(!pt) return;
-            profs.forEach((_label, key) => {
-                const cellKey = pt.key + '|' + key;
-                let cell = cells.get(cellKey);
-                if(!cell) { cell = { prof: key, locKey: pt.key, label: pt.label, coords: pt.coords, persons: new Map() }; cells.set(cellKey, cell); }
-                let item = cell.persons.get(id);
-                if(!item) { item = { name: p.name, ev: [] }; cell.persons.set(id, item); }
-                item.ev.push({ type, year: year || null });
+        const addItem = (gk, g, pt, type, year) => {
+            const cellKey = pt.key + '|' + gk;
+            let cell = cells.get(cellKey);
+            if(!cell) { cell = { prof: gk, locKey: pt.key, label: pt.label, coords: pt.coords, persons: new Map() }; cells.set(cellKey, cell); }
+            let item = cell.persons.get(id);
+            if(!item) { item = { name: p.name, prof: g.label, ev: [] }; cell.persons.set(id, item); }
+            if(!item.ev.some(e => e.type === type && e.year === (year || null))) item.ev.push({ type, year: year || null });
+        };
+        groups.forEach((g, gk) => {
+            // Lieu d'exercice prioritaire : si au moins une entrée de ce groupe a un lieu exploitable,
+            // la personne est placée là (et seulement là), pas à sa naissance/son mariage/son décès.
+            if(eventFlags.OCCU) {
+                let placed = false;
+                g.entries.forEach(({ o }) => {
+                    const pt = resolveGeoPoint(o.geo);
+                    if(!pt) return;
+                    placed = true;
+                    addItem(gk, g, pt, 'OCCU', o.year ?? o.yearStart);
+                });
+                if(placed) return;
+            }
+            Object.keys(EVENT_YEAR_OF).forEach(type => {
+                if(!eventFlags[type]) return;
+                const { geo, year } = EVENT_YEAR_OF[type](p);
+                const pt = resolveGeoPoint(geo);
+                if(pt) addItem(gk, g, pt, type, year);
             });
         });
     });
-    const professions = Array.from(stats, ([key, s]) => ({
-        key,
-        // Graphie d'origine la plus fréquente (à égalité, la première rencontrée).
-        label: Array.from(s.spellings).sort((a, b) => b[1] - a[1])[0][0],
-        count: s.count
-    })).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'fr'));
+    const professions = Array.from(stats, ([key, s]) => {
+        const spell = Array.from(s.spellings.values()).sort((a, b) => b.n - a.n);
+        let label = spell[0].label;
+        if(mode === 'category') label = key;
+        else if(mode === 'lemma') {
+            // Les deux genres présents : "Laboureur / Laboureuse" (graphie la plus fréquente d'abord).
+            const other = spell.find(x => foldProfession(x.label) !== foldProfession(spell[0].label));
+            if(other) label = `${spell[0].label} / ${other.label}`;
+        }
+        return {
+            key, label, count: s.count,
+            search: spell.map(x => foldProfession(x.label)).join('|') + '|' + foldProfession(label),
+            members: mode === 'category' ? spell.slice(0, 3).map(x => x.label) : []
+        };
+    }).sort((a, b) => b.count - a.count || a.label.localeCompare(b.label, 'fr'));
     const points = Array.from(cells.values()).map(c => ({
         prof: c.prof, locKey: c.locKey, label: c.label, coords: c.coords,
         count: c.persons.size, items: Array.from(c.persons.values())
@@ -96,20 +144,22 @@ export function computeProfessionLocations(scopeIds, individuals, eventFlags) {
     return { professions, points, personCount };
 }
 
-function popupHtml(pt, profLabel) {
+function popupHtml(pt, groupLabel, showProf) {
     const rows = pt.items.slice(0, POPUP_MAX_ITEMS).map(it => {
         const icons = it.ev.map(e => EVENT_ICONS[e.type] || '•').join('');
         const years = it.ev.map(e => e.year).filter(Boolean).join(' / ');
-        return `<div class="tt-row"><span>${icons} ${escapeHtml(it.name || 'Inconnu')}</span><span>${escapeHtml(years)}</span></div>`;
+        // En mode regroupé, le métier réel de la personne est rappelé (le groupe est plus large).
+        const prof = showProf ? ` <em style="opacity:.7">(${escapeHtml(it.prof)})</em>` : '';
+        return `<div class="tt-row"><span>${icons} ${escapeHtml(it.name || 'Inconnu')}${prof}</span><span>${escapeHtml(years)}</span></div>`;
     }).join('');
     const more = pt.items.length > POPUP_MAX_ITEMS
         ? `<div class="tt-row" style="opacity:.7;font-style:italic">…et ${pt.items.length - POPUP_MAX_ITEMS} autre(s)</div>` : '';
-    return `<strong>${escapeHtml(pt.label || 'Lieu inconnu')}</strong><br>${escapeHtml(profLabel)} : ${pt.count} personne(s)` +
+    return `<strong>${escapeHtml(pt.label || 'Lieu inconnu')}</strong><br>${escapeHtml(groupLabel)} : ${pt.count} personne(s)` +
         `<div style="margin-top:6px;max-height:220px;overflow-y:auto">${rows}${more}</div>`;
 }
 
-// Crée le contrôleur de la section (liste de professions + filtre + cases d'événements + carte).
-// opts : { mapId, listId, filterId, resetBtnId, flagIds: { BIRT, MARR, DEAT } }
+// Crée le contrôleur de la section (liste de groupes + filtre + cases d'événements + carte).
+// opts : { mapId, listId, filterId, resetBtnId, modeName, flagIds: { BIRT, MARR, DEAT, OCCU } }
 // Le contrôleur expose update(scopeIds, individuals) (à rappeler quand le périmètre/les données
 // changent) et resize() (largeur de page modifiée).
 export function createProfessionMap(opts) {
@@ -117,13 +167,35 @@ export function createProfessionMap(opts) {
     const listEl = document.getElementById(opts.listId);
     const filterEl = document.getElementById(opts.filterId);
     const flagEls = Object.fromEntries(Object.entries(opts.flagIds).map(([t, id]) => [t, document.getElementById(id)]));
-    const selected = new Set(); // clés de professions ; vide = toutes
-    let args = null, data = null, filterText = '';
+    const modeEls = Array.from(document.querySelectorAll(`input[name="${opts.modeName}"]`));
+    const selected = new Set(); // clés de groupes ; vide = toutes
+    let args = null, data = null, filterText = '', mode = 'lemma';
     let profLabels = new Map(), profColors = new Map();
     let base = null; // { svg, zoom, zoomG, dotsG, legendG, noteG, projection, width, height }
     let token = 0;
 
     const getFlags = () => Object.fromEntries(Object.entries(flagEls).map(([t, el]) => [t, !!el?.checked]));
+    const readMode = () => { const r = modeEls.find(el => el.checked); return r ? r.value : 'lemma'; };
+
+    // Couleurs : avec 1 à 10 groupes sélectionnés, chacun reçoit sa propre couleur Tableau10 (par
+    // effectif décroissant, pour rester stable) même s'il est hors du top 10 global ; sinon ("Toutes"
+    // ou plus de 10 sélectionnés), couleur selon le rang global (top 10 coloré, le reste en gris).
+    function computeColors() {
+        profColors = new Map();
+        if(!data) return;
+        const useSel = selected.size > 0 && selected.size <= MAX_SELECTION_COLORS;
+        const pool = useSel ? data.professions.filter(p => selected.has(p.key)) : data.professions;
+        // Une couleur choisie par l'utilisateur pour une catégorie (fichier JSON) l'emporte ; les autres
+        // groupes se partagent la palette dans l'ordre (sans « consommer » une couleur pour les personnalisés).
+        let paletteIdx = 0;
+        pool.forEach((p, i) => {
+            const custom = mode === 'category' ? categoryColor(p.key) : null;
+            const color = custom || (paletteIdx < MAX_SELECTION_COLORS ? d3.schemeTableau10[paletteIdx++] : OTHER_COLOR);
+            profColors.set(p.key, { rank: i, color });
+        });
+        // Hors pool (cas > 10 sélectionnés : rang global) : gris par défaut via le repli de lecture.
+    }
+    const colorOf = key => profColors.get(key)?.color || OTHER_COLOR;
 
     // --- liste ---
     function renderList() {
@@ -131,30 +203,31 @@ export function createProfessionMap(opts) {
             listEl.innerHTML = '<div class="map-placeholder">Aucune profession renseignée.</div>';
             return;
         }
-        const q = foldText(filterText.trim());
-        const matches = data.professions.filter(p => !q || foldText(p.label).includes(q));
+        const q = foldProfession(filterText);
+        const matches = data.professions.filter(p => !q || p.search.includes(q));
         // Personnes distinctes (et non somme des métiers : une personne à deux métiers compterait double).
         const total = data.personCount;
-        const item = (key, label, count) =>
-            `<div class="society-list-item prof-item${(key === '' ? selected.size === 0 : selected.has(key)) ? ' selected' : ''}" data-key="${escapeHtml(key)}" role="button" tabindex="0">` +
-            `<div class="main"><div class="title">${escapeHtml(label)}</div></div><span class="badge">${count}</span></div>`;
+        const item = (key, label, count, meta) => {
+            const isSel = key === '' ? selected.size === 0 : selected.has(key);
+            const swatch = (key !== '' && isSel) ? `<span class="prof-swatch" style="background:${colorOf(key)}"></span>` : '';
+            return `<div class="society-list-item prof-item${isSel ? ' selected' : ''}" data-key="${escapeHtml(key)}" role="button" tabindex="0"${meta ? ` title="${escapeHtml(meta)}"` : ''}>` +
+                `${swatch}<div class="main"><div class="title">${escapeHtml(label)}</div>${meta ? `<div class="meta">${escapeHtml(meta)}</div>` : ''}</div><span class="badge">${count}</span></div>`;
+        };
         listEl.innerHTML = item('', 'Toutes', total) +
-            matches.slice(0, LIST_MAX_ITEMS).map(p => item(p.key, p.label, p.count)).join('') +
+            matches.slice(0, LIST_MAX_ITEMS).map(p => item(p.key, p.label, p.count, p.members.join(', '))).join('') +
             (matches.length > LIST_MAX_ITEMS ? `<div class="hint" style="text-align:center">…et ${matches.length - LIST_MAX_ITEMS} autre(s) : affinez la recherche.</div>` : '') +
             (!matches.length ? '<div class="hint" style="text-align:center">Aucune profession ne correspond.</div>' : '');
-    }
-    function syncListSelection() {
-        listEl.querySelectorAll('.prof-item').forEach(el => {
-            const k = el.dataset.key;
-            el.classList.toggle('selected', k === '' ? selected.size === 0 : selected.has(k));
-        });
     }
     function onListActivate(el) {
         const key = el.dataset.key;
         if(key === '') selected.clear();
         else if(selected.has(key)) selected.delete(key); // multi-sélection : un clic bascule
         else selected.add(key);
-        syncListSelection();
+        // Les couleurs dépendent de la sélection : la liste (pastilles) est redessinée avec la carte.
+        computeColors();
+        const scroll = listEl.scrollTop;
+        renderList();
+        listEl.scrollTop = scroll;
         updateDots(true);
     }
 
@@ -219,20 +292,21 @@ export function createProfessionMap(opts) {
         legendG.selectAll('*').remove();
         const keys = Array.from(new Set(displayed.map(p => p.prof)));
         if(keys.length < 2) return;
-        const ranked = keys.sort((a, b) => (profColors.get(a)?.rank ?? 99) - (profColors.get(b)?.rank ?? 99));
-        const shown = ranked.filter(k => profColors.get(k).rank < 10);
+        const rankOf = k => profColors.get(k)?.rank ?? 99;
+        const ranked = keys.sort((a, b) => rankOf(a) - rankOf(b));
+        const shown = ranked.filter(k => colorOf(k) !== OTHER_COLOR);
         const hasOther = ranked.length > shown.length;
-        const rows = shown.map(k => ({ color: profColors.get(k).color, text: profLabels.get(k) }));
-        if(hasOther) rows.push({ color: OTHER_COLOR, text: 'Autres professions' });
+        const rows = shown.map(k => ({ color: colorOf(k), text: profLabels.get(k) || k }));
+        if(hasOther) rows.push({ color: OTHER_COLOR, text: mode === 'category' ? 'Autres catégories' : 'Autres professions' });
         const rowH = 15;
         legendG.attr('transform', 'translate(8,8)');
-        legendG.append('rect').attr('width', 170).attr('height', rows.length * rowH + 8).attr('rx', 4)
+        legendG.append('rect').attr('width', 180).attr('height', rows.length * rowH + 8).attr('rx', 4)
             .attr('fill', '#fff').attr('fill-opacity', 0.85).attr('stroke', '#ccc').attr('stroke-width', 0.5);
         rows.forEach((r, i) => {
             const g = legendG.append('g').attr('transform', `translate(10,${i * rowH + 12})`);
             g.append('circle').attr('r', 5).attr('fill', r.color).attr('stroke', '#fff').attr('stroke-width', 0.8);
             g.append('text').attr('x', 10).attr('y', 3).attr('font-size', 10).attr('fill', '#333')
-                .text(r.text.length > 24 ? r.text.slice(0, 23) + '…' : r.text);
+                .text(r.text.length > 26 ? r.text.slice(0, 25) + '…' : r.text);
         });
     }
 
@@ -266,14 +340,14 @@ export function createProfessionMap(opts) {
         const tooltip = document.getElementById('tooltip');
         const show = (e, d) => {
             tooltip.style.opacity = 1;
-            tooltip.innerHTML = popupHtml(d, profLabels.get(d.prof) || d.prof);
+            tooltip.innerHTML = popupHtml(d, profLabels.get(d.prof) || d.prof, mode !== 'exact');
             tooltip.style.left = Math.min(e.pageX + 15, window.innerWidth - 320) + 'px';
             tooltip.style.top = Math.min(e.pageY + 15, window.innerHeight - 250) + 'px';
         };
         const k = d3.zoomTransform(svg.node()).k;
         dotsG.selectAll('circle').data(visible, d => d.locKey + '|' + d.prof).join('circle')
             .attr('cx', d => d.x).attr('cy', d => d.y).attr('r', d => d.r0 / k)
-            .attr('fill', d => profColors.get(d.prof)?.color || OTHER_COLOR).attr('fill-opacity', 0.7)
+            .attr('fill', d => colorOf(d.prof)).attr('fill-opacity', 0.7)
             .attr('stroke', '#fff').attr('stroke-width', 1).attr('vector-effect', 'non-scaling-stroke')
             .style('cursor', 'pointer')
             .on('mouseover', show).on('click', show)
@@ -307,14 +381,13 @@ export function createProfessionMap(opts) {
     }
 
     function recompute() {
-        data = args ? computeProfessionLocations(args.scopeIds, args.individuals, getFlags()) : null;
+        mode = readMode();
+        data = args ? computeProfessionLocations(args.scopeIds, args.individuals, getFlags(), { mode }) : null;
         if(data) {
             profLabels = new Map(data.professions.map(p => [p.key, p.label]));
-            // Couleur par rang global (top 10 : palette catégorielle ; au-delà : gris neutre), stable
-            // quels que soient la sélection et le filtre de la liste.
-            profColors = new Map(data.professions.map((p, i) => [p.key, { rank: i, color: i < 10 ? d3.schemeTableau10[i] : OTHER_COLOR }]));
             Array.from(selected).forEach(k => { if(!profLabels.has(k)) selected.delete(k); });
         }
+        computeColors();
     }
 
     // --- câblage ---
@@ -330,8 +403,85 @@ export function createProfessionMap(opts) {
         if(base) updateDots(false); // le cadrage reste en place : on ne fait que changer les ronds
         else draw(true);
     }));
+    // Changer de regroupement change la nature des clés : la sélection n'a plus de sens, on la vide.
+    modeEls.forEach(el => el.addEventListener('change', () => {
+        selected.clear();
+        recompute();
+        renderList();
+        draw(true);
+    }));
     const resetBtn = document.getElementById(opts.resetBtnId);
     if(resetBtn) resetBtn.addEventListener('click', () => { if(base) base.svg.transition().duration(400).call(base.zoom.transform, d3.zoomIdentity); });
+
+    // --- catégories personnalisées (fichier JSON) ---
+    const cat = opts.categoryUi;
+    if(cat) {
+        const el = id => document.getElementById(id);
+        const statusEl = el(cat.statusId), errorsEl = el(cat.errorsId), fileEl = el(cat.fileId), resetCatBtn = el(cat.resetBtnId);
+        // Messages toujours posés en textContent : le contenu du fichier n'est jamais interprété comme HTML.
+        const showErrors = (title, errors) => {
+            errorsEl.replaceChildren();
+            if(!errors.length) { errorsEl.classList.add('hidden'); return; }
+            const strong = document.createElement('strong');
+            strong.textContent = title;
+            const ul = document.createElement('ul');
+            errors.forEach(msg => { const li = document.createElement('li'); li.textContent = msg; ul.appendChild(li); });
+            errorsEl.append(strong, ul);
+            errorsEl.classList.remove('hidden');
+        };
+        const refreshStatus = () => {
+            const custom = hasCustomCategoryRules();
+            const meta = getActiveCategoryRules().meta;
+            statusEl.textContent = custom
+                ? `Catégories personnalisées : ${meta.name}, ${meta.count} catégorie(s), mode ${meta.mode}`
+                : 'Catégories par défaut';
+            resetCatBtn.disabled = !custom;
+        };
+        // Les règles ont changé : les clés de groupe (catégories) sont obsolètes, on repart d'une sélection vide.
+        const applyRulesChange = () => {
+            selected.clear();
+            recompute();
+            renderList();
+            draw(true);
+            refreshStatus();
+        };
+        const stored = loadStoredCategoryRules();
+        if(stored.status === 'invalid') showErrors('Les catégories enregistrées ne sont plus valides et ont été ignorées :', stored.errors);
+        refreshStatus();
+
+        el(cat.importBtnId).addEventListener('click', () => fileEl.click());
+        fileEl.addEventListener('change', async () => {
+            const file = fileEl.files[0];
+            fileEl.value = ''; // permet de réimporter le même fichier après correction
+            if(!file) return;
+            if(file.size > CATEGORY_FILE_MAX_BYTES) { showErrors(`Import refusé (${file.name}) :`, ['Fichier trop volumineux (1 Mo maximum).']); return; }
+            const res = importCategoryRulesFromText(await file.text(), file.name);
+            if(!res.ok) { showErrors(`Import refusé (${file.name}), les règles précédentes restent actives :`, res.errors); return; }
+            showErrors('', []);
+            // Pour voir l'effet tout de suite, on bascule sur le regroupement par catégorie.
+            const radio = modeEls.find(r => r.value === 'category');
+            if(radio) radio.checked = true;
+            applyRulesChange();
+        });
+        resetCatBtn.addEventListener('click', () => { resetCategoryRules(); showErrors('', []); applyRulesChange(); });
+        el(cat.exportBtnId).addEventListener('click', () => {
+            // Professions du fichier retombant dans la catégorie de repli (déjà triées par effectif décroissant).
+            let unclassified = [];
+            if(args) {
+                const all = computeProfessionLocations(Array.from(args.individuals.keys()), args.individuals, {}, { mode: 'exact' });
+                unclassified = all.professions.filter(p => professionCategory(p.label) === getActiveCategoryRules().other).map(p => ({ label: p.label, count: p.count }));
+            }
+            const blob = new Blob([JSON.stringify(exportCategoryRulesJson(unclassified), null, 2)], { type: 'application/json;charset=utf-8;' });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = 'visugedcom_categories_professions.json';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        });
+    }
 
     return {
         update(scopeIds, individuals) {
