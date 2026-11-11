@@ -116,17 +116,24 @@ export function marriageSearchLinks(husb, wife, year, city) {
 
 // Recherche générale (tous fonds confondus) pour un couple nom/prénom, avec ou sans période : utilisée
 // par l'onglet Méta-recherche. Geneanet : moteur /fonds/individus (même paramètres que le catalogue, sans
-// collection) ; Filae : pas de source (spi) ; FamilySearch : période "tout événement" (q.anyDate).
+// collection) ; Filae : pas de source (spi) ; FamilySearch : période "tout événement" (q.anyDate) ;
+// FranceArchives : "Base de noms" (/fr/basedenoms, toutes bases nominatives indexées : recensements,
+// registres matricules, notaires...), mêmes paramètres es_* que basedenoms_recensement (voir
+// buildFranceArchivesUrl dans recensements.js), sans troncature ni lieu.
 export function generalSearchUrls(surname, given, from, to) {
     const hasPeriod = from != null && to != null;
     const geneanet = { zone: 'france', nom: surname, prenom: given, prenom_operateur: 'or', go: 1, size: 20 };
     if (hasPeriod) Object.assign(geneanet, { type_periode: 'between', from, to });
     const familySearch = { 'q.surname': surname, 'q.givenName': given };
     if (hasPeriod) { familySearch['q.anyDate.from'] = from; familySearch['q.anyDate.to'] = to; }
+    const franceArchives = { es_names: surname, es_forenames: given };
+    if (hasPeriod) Object.assign(franceArchives, { es_date_min: from, es_date_max: to });
+    franceArchives.fulltext_facet = '';
     return {
         geneanet: `https://www.geneanet.org/fonds/individus/?${qs(geneanet)}`,
         filae: filaeUrl({ surname, given, from: hasPeriod ? from : '', to: hasPeriod ? to : '', spi: '' }),
         familysearch: `https://www.familysearch.org/search/record/results?${qs(familySearch)}`,
+        francearchives: `https://francearchives.gouv.fr/fr/basedenoms?${qs(franceArchives)}`,
     };
 }
 

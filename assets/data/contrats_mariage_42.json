@@ -1,0 +1,306 @@
+[
+  {
+    "place": "Boën",
+    "cote": "2C148",
+    "yearStart": 1753,
+    "yearEnd": 1776,
+    "url": "https://archives.loire.fr/ark:/51302/vta83172266c0e516e8/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Boën",
+    "cote": "2C149",
+    "yearStart": 1762,
+    "yearEnd": 1786,
+    "url": "https://archives.loire.fr/ark:/51302/vtac4bbc5fb834923d0/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "2C292",
+    "yearStart": 1753,
+    "yearEnd": 1771,
+    "url": "https://archives.loire.fr/ark:/51302/vta30e36e51b64e75ce/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Bourg-Argental",
+    "cote": "2C293",
+    "yearStart": 1771,
+    "yearEnd": 1792,
+    "url": "https://archives.loire.fr/ark:/51302/vtaeefd2fbdcb3b933d/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Cervières",
+    "cote": "2C2420",
+    "yearStart": 1753,
+    "yearEnd": 1792,
+    "url": "https://archives.loire.fr/ark:/51302/vta686d034bd35f8054/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Cervières",
+    "cote": "2C374",
+    "yearStart": 1764,
+    "yearEnd": 1814,
+    "url": "https://archives.loire.fr/ark:/51302/vtab1ee29954c4ab471/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Charlieu",
+    "cote": "2C523",
+    "yearStart": 1754,
+    "yearEnd": 1760,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:34169",
+    "digitized": false
+  },
+  {
+    "place": "Charlieu",
+    "cote": "2C524",
+    "yearStart": 1760,
+    "yearEnd": 1767,
+    "url": "https://archives.loire.fr/ark:/51302/vtabad14aee0bf1be4b/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Charlieu",
+    "cote": "2C525",
+    "yearStart": 1767,
+    "yearEnd": 1775,
+    "url": "https://archives.loire.fr/ark:/51302/vta664b9d08c255109d/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Charlieu",
+    "cote": "2C526",
+    "yearStart": 1775,
+    "yearEnd": 1799,
+    "url": "https://archives.loire.fr/ark:/51302/vta4c66a14fb3b12b3c/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Feurs",
+    "cote": "2C659",
+    "yearStart": 1749,
+    "yearEnd": 1770,
+    "url": "https://archives.loire.fr/ark:/51302/vtaaaa6731a3ef468ff/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Feurs",
+    "cote": "2C660",
+    "yearStart": 1771,
+    "yearEnd": 1786,
+    "url": "https://archives.loire.fr/ark:/51302/vta7e838c490ba40333/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Feurs",
+    "cote": "2C661",
+    "yearStart": 1784,
+    "yearEnd": 1797,
+    "url": "https://archives.loire.fr/ark:/51302/vta64b963946d912975/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Montbrison",
+    "cote": "2C2456",
+    "yearStart": 1758,
+    "yearEnd": 1781,
+    "url": "https://archives.loire.fr/ark:/51302/vta6ff6bdb8025f360a/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Montbrison",
+    "cote": "2C2457",
+    "yearStart": 1770,
+    "yearEnd": 1789,
+    "url": "https://archives.loire.fr/ark:/51302/vta2760d29ee970f46d/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Néronde",
+    "cote": "2C968",
+    "yearStart": 1757,
+    "yearEnd": 1785,
+    "url": "https://archives.loire.fr/ark:/51302/vtadef4bc4ed0bba65d/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Néronde",
+    "cote": "2C969",
+    "yearStart": 1785,
+    "yearEnd": 1792,
+    "url": "https://archives.loire.fr/ark:/51302/vta2504b2f68a8dbad2/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "2C1140",
+    "yearStart": 1750,
+    "yearEnd": 1784,
+    "url": "https://archives.loire.fr/ark:/51302/vta0d017d88233f8182/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Rive-de-Gier",
+    "cote": "2C1141",
+    "yearStart": 1785,
+    "yearEnd": 1799,
+    "url": "https://archives.loire.fr/ark:/51302/vta6024fef2d14d4d83/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Roanne",
+    "cote": "2C1263",
+    "yearStart": 1784,
+    "yearEnd": 1788,
+    "url": "https://archives.loire.fr/ark:/51302/vta183900bccc2734fb/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Roanne",
+    "cote": "2C1264",
+    "yearStart": 1788,
+    "yearEnd": 1790,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa4025afa94d40bd1/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Roanne",
+    "cote": "2C1265",
+    "yearStart": 1790,
+    "yearEnd": 1794,
+    "url": "https://archives.loire.fr/ark:/51302/vta5fbc2370b6167c07/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Bonnet-le-Château",
+    "cote": "2C2436",
+    "yearStart": 1788,
+    "yearEnd": 1799,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:35222",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "2C1536",
+    "yearStart": 1770,
+    "yearEnd": 1792,
+    "url": "https://archives.loire.fr/ark:/51302/vta10eb5fc7e5cdf224/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Chamond",
+    "cote": "2C1537",
+    "yearStart": 1792,
+    "yearEnd": 1805,
+    "url": "https://archives.loire.fr/ark:/51302/vta7fdd1fb3bd80e3b7/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Étienne",
+    "cote": "2C1731",
+    "yearStart": 1771,
+    "yearEnd": 1779,
+    "url": "https://archives.loire.fr/ark:/51302/vtaa816d6ece649ad73/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Étienne",
+    "cote": "2C1732",
+    "yearStart": 1780,
+    "yearEnd": 1788,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:35619",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Étienne",
+    "cote": "2C1733",
+    "yearStart": 1788,
+    "yearEnd": 1791,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:35620",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "2C1859",
+    "yearStart": 1756,
+    "yearEnd": 1763,
+    "url": "https://archives.loire.fr/ark:/51302/vtaaed25b1ea50c2a54/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "2C1860",
+    "yearStart": 1763,
+    "yearEnd": 1781,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:35765",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Galmier",
+    "cote": "2C1861",
+    "yearStart": 1781,
+    "yearEnd": 1795,
+    "url": "https://archives.loire.fr/ark:/51302/vta3be5c1b51ea1ff71/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Haon-le-Châtel",
+    "cote": "2C2087",
+    "yearStart": 1741,
+    "yearEnd": 1789,
+    "url": "https://archives.loire.fr/ark:/51302/vtad89a9634966587b2/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "2C2167",
+    "yearStart": 1743,
+    "yearEnd": 1793,
+    "url": "https://archives.loire.fr/ark:/51302/vtac6ce35b7fcb7390c/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Just-en-Chevalet",
+    "cote": "2C2168",
+    "yearStart": 1784,
+    "yearEnd": 1798,
+    "url": "https://archives.loire.fr/ark:/51302/vta652bbc47417524a8/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Rambert-sur-Loire",
+    "cote": "2C2242",
+    "yearStart": 1773,
+    "yearEnd": 1799,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:36245",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "2C2336",
+    "yearStart": 1750,
+    "yearEnd": 1797,
+    "url": "https://archives.loire.fr/archive/fonds/FRAD042_923/view:36362",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "2C2337",
+    "yearStart": 1765,
+    "yearEnd": 1797,
+    "url": "https://archives.loire.fr/ark:/51302/vta485a16d1407e410f/daogrp/0/layout:table",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Symphorien-de-Lay",
+    "cote": "2C2338",
+    "yearStart": 1784,
+    "yearEnd": 1809,
+    "url": "https://archives.loire.fr/ark:/51302/vtae3abbf488c5fbec4/daogrp/0/layout:table",
+    "digitized": true
+  }
+]

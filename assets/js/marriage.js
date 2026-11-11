@@ -510,6 +510,32 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_95.json',
         catalogUrl: 'https://archives.valdoise.fr/n/enregistrement/n:329',
     },
+    '42': {
+        label: 'Loire',
+        // Bornes réelles de la série (38 registres, 17 bureaux, 31 numérisés, voir
+        // scrape_contrats_mariage_loire.py) : module « Contrôle des actes » (n:232, Ligeo +
+        // Anubis), filtre registres = Tables, typologie = mariage — tables d'Ancien Régime (2C)
+        // seulement, la série s'arrête vers 1814 ; le module 3Q (n:130) ne contient que des TSA.
+        // Années républicaines converties (an N -> 1791+N / 1792+N). 7 notices catalogue sans
+        // visionneuse (digitized faux).
+        minYear: 1741,
+        maxYear: 1814,
+        registersUrl: './assets/data/contrats_mariage_42.json',
+        catalogUrl: 'https://archives.loire.fr/archive/recherche/controle/n:232',
+    },
+    '35': {
+        label: 'Ille-et-Vilaine',
+        // Saisie manuelle (4 tables seulement, vérifié 2026-11-11) : fiches « TABLE DES CONTRATS DE
+        // MARIAGES » du module « Ensemble des fonds » du portail THOT (recherche plein texte
+        // « table des contrats »), numérisées parce que les originaux sont trop abîmés pour être
+        // communiqués. Saint-Malo 3 Q 34/921-922 ne sont pas numérisés. Comme pour
+        // SUCCESSION_DEPTS['35'], la visionneuse THOT est liée à la session : le lien ouvre le
+        // portail, à charge de rechercher la cote.
+        minYear: 1814,
+        maxYear: 1885,
+        registersUrl: './assets/data/contrats_mariage_35.json',
+        catalogUrl: 'https://archives-en-ligne.ille-et-vilaine.fr/thot_internet/',
+    },
 };
 
 function fetchJson(url) {
