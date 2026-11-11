@@ -536,6 +536,30 @@ export const MARRIAGE_DEPTS = {
         registersUrl: './assets/data/contrats_mariage_35.json',
         catalogUrl: 'https://archives-en-ligne.ille-et-vilaine.fr/thot_internet/',
     },
+    '80': {
+        label: 'Somme',
+        // Bornes réelles de la série (22 registres, 7 bureaux, tous numérisés, voir
+        // scrape_contrats_mariage_somme.py) : recherche plein texte « table contrats mariage »
+        // filtrée sur les titres « Table(s) … contrats de mariage » — tables du Contrôle des actes
+        // (2C) seulement, la série s'arrête vers 1810. Les 4 volumes d'Abbeville portent tous
+        // 1740-1785 dans leur titre (pas de découpage chronologique connu).
+        minYear: 1740,
+        maxYear: 1810,
+        registersUrl: './assets/data/contrats_mariage_80.json',
+        catalogUrl: 'https://archives.somme.fr/search/results?q=table+contrats+mariage&facet_media=image&mode=list&resultsPerPage=80',
+    },
+    '76': {
+        label: 'Seine-Maritime',
+        // Bornes réelles de la série (143 registres, 33 bureaux, 137 numérisés, voir
+        // scrape_contrats_mariage_seine_maritime.py) : facette « Table des mariages » du portail
+        // Enregistrement (Ligeo + Anubis) — ce sont bien des tables de CONTRATS de mariage
+        // (couverture manuscrite « Table des Contrats de Mariage » vérifiée sur 3 Q 4/373), en
+        // 2 C (Ancien Régime) puis 3 Q jusqu'en 1865. Rouen sans distinction 1er/2e bureau.
+        minYear: 1700,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_76.json',
+        catalogUrl: 'https://www.archivesdepartementales76.net/archive/resultats/enregistrement/n:302?RECH_genreform_Libel=Table+des+mariages%7C&RECH_genreform_Md5=9c1dd4e361a1d5e9ea6d56912132cc28%7C',
+    },
 };
 
 function fetchJson(url) {
