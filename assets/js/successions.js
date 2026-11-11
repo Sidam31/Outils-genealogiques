@@ -1165,6 +1165,122 @@ export const SUCCESSION_DEPTS = {
         registersUrl: './assets/data/successions_85.json',
         catalogUrl: 'https://archives.vendee.fr/consulter/inventaires-et-catalogues-en-ligne',
     },
+    '17': {
+        label: 'Charente-Maritime',
+        kind: 'facet',
+        // Bornes réelles de la série (570 registres, 41 bureaux, voir
+        // scripts_py/scrape_successions_charente_maritime.py) - débloque un blocage de longue date
+        // (voir recherche.html) : le portail "Archinoë console" (archinoe.com, instrument 19)
+        // n'est PAS inaccessible, il exige juste une session PHP pour tout. Le formulaire de recherche
+        // (ir_seriel.php?id=19&p=tsa_formulaire) en crée une tout seul à chaque ouverture ; la
+        // recherche est un POST AJAX (ir_seriel_action.php, au moins un critère exigé -> bornes
+        // d'années larges) paginé par 50. En revanche le visualiseur (ir_seriel_visu.php) n'accepte
+        // que la session + SID du formulaire ouvert juste avant, sinon "Dépôt non identifié" : AUCUN
+        // lien profond stable vers un registre n'existe (confirmé : ni ark, ni cote, ni id d'image
+        // ne suffisent hors session), d'où une url par registre = le formulaire lui-même, où
+        // l'on retape la cote ou le bureau (cotes 3 Q ..., quelques 3843 W ...). Mélange quelques
+        // intitulés voisins du même formulaire : "Successions et absences" (486), "Successions
+        // acquittées" (46), "Table des décès" (15), "Successions et dispositions éventuelles
+        // acquittées" (13), etc. Tous marqués numérisés (le formulaire ne liste que du numérisé).
+        minYear: 1791,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_17.json',
+        catalogUrl: 'https://archinoe.com/console/ir_seriel.php?id=19&p=tsa_formulaire',
+    },
+    '23': {
+        label: 'Creuse',
+        kind: 'facet',
+        // Bornes réelles de la série (435 registres dont 432 numérisés, 25 bureaux, voir
+        // scripts_py/scrape_creuse_3q.py) : 384 notices de typologie "table des successions" + 58
+        // "table des décès et succession" du catalogue 3Q (15 840 notices au total, tous types de
+        // l'Enregistrement mélangés), filtrées par la facette "Typologie" du portail Arkothèque -
+        // la typologie voisine "table des décès" (212 notices) est volontairement exclue, comme les
+        // "déclaration de succession" (registres, pas des tables). Les 7 notices cotées "2 C"
+        // (contrôle des actes d'Ancien Régime, 1719-1799) sont écartées : pas des TSA. Contrairement
+        // aux autres déploiements Arkothèque du projet, la pagination est pilotée par l'URL
+        // (--from/--resultSize) mais le rendu reste côté client : Playwright indispensable. Chaque
+        // URL ouvre la fiche du registre (?detail=<id>) ; 3 registres catalogués n'ont pas d'images.
+        // L'ancienne page "consult_fonds?ref_fonds=6" (2020) est en 404 depuis la refonte du site.
+        minYear: 1790,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_23.json',
+        bureauxUrl: './assets/data/successions_23_bureaux.json',
+        catalogUrl: 'https://archives.creuse.fr/rechercher/archives-numerisees/tables-du-controle-des-actes-et-de-lenregistrement-1',
+    },
+    '26': {
+        label: 'Drôme',
+        kind: 'facet',
+        // Bornes réelles de la série (344 registres, 28 bureaux, 327 numérisés, voir
+        // scripts_py/scrape_drome_3q.py) : portail archives.ladrome.fr (ark:/24626). Chaque bureau 3 Q
+        // a un noeud "Tables des successions et absences (utilisées entre 1824 et 1968)" dont les
+        // registres n'ont aucun titre propre (juste une plage de dates) - impossibles à distinguer
+        // des autres tables 3 Q hors du "Contexte" des résultats de recherche (le parent y figure),
+        // d'où un filtre côté client sur une recherche plein texte floue (2 682 résultats pour 344
+        // vrais registres). minYear 1819 : quelques registres débutent avant la loi de 1825.
+        // Les liens pointent vers la notice ark du registre (visionneuse), pas vers un acte.
+        minYear: 1819,
+        maxYear: 1968,
+        registersUrl: './assets/data/successions_26.json',
+        catalogUrl: 'https://archives.ladrome.fr/search/results?q=tables+des+successions+et+absences',
+    },
+    '35': {
+        label: 'Ille-et-Vilaine',
+        kind: 'facet',
+        // Bornes réelles de la série (796 registres, 39 bureaux, 793 numérisés, voir
+        // scripts_py/scrape_successions_ille_et_vilaine.py) - débloque le "Votre session a expiré"
+        // du THOT Internet (ASP classique à cadres) : la session n'est initialisée que par la séquence
+        // EXACTE du navigateur (/, FrmAccueilGauche.asp, FrmAccueilDroite.asp SANS paramètre, puis
+        // FrmAccueilDroite.asp?checkCookie=..., puis les cadres Sommaire, FrmSommaireDroiteFrame.asp?
+        // mod=989&rechercheID=0, FrmSommaireBasDOC.asp?rechercheID=0). Sauter la 2e requête sur
+        // FrmAccueilDroite laisse les variables de session vides (erreur VBScript "Type incompatible:
+        // session(...)" puis "session expirée"). Le bon module est MOD=15 "Tables alphabétiques des
+        // successions" (type "TABLES DE SUCCESSIONS ET ABSENCES", sans filtre bureau = tout le
+        // département). Pas de lien profond stable (fiche et visualiseur sont des popups liés à
+        // la session), d'où url = point d'entrée THOT. La valeur "ILLE-ET-VILAINE" comme lieu = tables
+        // de dépôt départemental (cotes 2451 W). Quelques périodes en calendrier républicain
+        // converties (an N = 1791+N).
+        minYear: 1789,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_35.json',
+        catalogUrl: 'https://archives-en-ligne.ille-et-vilaine.fr/thot_internet/',
+    },
+    '71': {
+        label: 'Saône-et-Loire',
+        kind: 'facet',
+        // Bornes réelles de la série (937 registres, 48 lieux/bureaux, 935 numérisés, voir
+        // scripts_py/scrape_successions_arkotheque.py DEPARTMENTS['71']) - le verdict "introuvable en
+        // ligne" était faux : la page "Contrôle des actes et enregistrement" (même widget Arkothèque
+        // que les contrats de mariage) liste bien 938 notices "Table des successions et absences"
+        // dans sa facette Typologie. Les "tables alphabétiques des successions collatérales"
+        // d'Ancien Régime (autre sous-série) sont exclues exprès. Pas de cote exposée sur ce
+        // déploiement ; la 1re tranche (1790-1793) précède la loi de 1825, le gros de la série va
+        // de 1825 à 1968 (une seule notice déborde sur 1969).
+        minYear: 1790,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_71.json',
+        catalogUrl: 'https://www.archives71.fr/consulter/en-ligne/familles-et-individus/controle-des-actes-et-enregistrement',
+    },
+    '77': {
+        label: 'Seine-et-Marne',
+        kind: 'facet',
+        // Bornes réelles de la série (404 registres dont 380 numérisés, 28 bureaux, voir
+        // scripts_py/scrape_gaia_mdr.py) : portail "GAIA 9" (/mdr/index.php/rechercheTheme, thème 22
+        // "Enregistrement, successions et répertoire général"), parcours à état de session
+        // bureau -> type de document -> POST, 20 résultats par page (/paginer/<offset>). Seuls les 28
+        // bureaux (sur 55 listés) qui ont un type "Tables de successions et absences" sont retenus ;
+        // les autres n'ont que des registres d'insinuation, répertoires généraux ou fiches décès
+        // (types exclus). Les cotes "NNNC..." (contrôle des actes d'Ancien Régime classées dans le
+        // même type) sont écartées. Le site annonce la numérisation 1814-1968 avec lacunes (tables
+        // non conservées ou en mauvais état) : 26 registres sont catalogués sans images. Deux bureaux
+        // (Châtelet-en-Brie, Claye) ont un nom ≠ commune dans communes_geo (alias Le Châtelet-en-Brie,
+        // Claye-Souilly dans build_successions_bureaux_fallback.py). Le visualiseur (docnumViewer) est
+        // accessible sans session : chaque URL ouvre directement le registre.
+        minYear: 1799,
+        maxYear: 1969,
+        registersUrl: './assets/data/successions_77.json',
+        bureauxUrl: './assets/data/successions_77_bureaux.json',
+        catalogUrl: 'https://archives.seine-et-marne.fr/fr/tables-de-successions-et-absences',
+    },
 };
 
 // "LILLE (1er bureau)" -> "LILLE" : le nom de la ville-siège du bureau, sans le qualificatif

@@ -212,15 +212,13 @@ export const MARRIAGE_DEPTS = {
     },
     '71': {
         label: 'Saône-et-Loire',
-        // Bornes réelles de la série (70 registres scrapés, 34 lieux, voir
-        // scrape_contrats_mariage_arkotheque.py) : département ABSENT de SUCCESSION_DEPTS (son
-        // fonds "Contrôle des actes et enregistrement" n'a pas de table "successions et absences"
-        // du tout, voir la liste "non couverts" ci-dessus) mais possède bien une "Table
-        // alphabétique des contrats de mariage" — repéré en resondant ce même fonds pour ce mode.
-        // Pas de cote officielle exposée sur ce déploiement (même limitation que le Maine-et-Loire
-        // pour les successions, voir DEPARTMENTS['49'] dans scrape_successions_arkotheque.py).
+        // Bornes réelles de la série (298 registres, 45 lieux, voir
+        // scrape_contrats_mariage_arkotheque.py) : "Table alphabétique des contrats de mariage"
+        // (Ancien Régime, 70) + "Table des contrats de mariage" (typologie moderne, 228, jusqu'en
+        // 1866), cette dernière exclue à tort jusqu'ici par un motif trop strict. Même fonds que
+        // SUCCESSION_DEPTS['71']. Pas de cote officielle exposée sur ce déploiement.
         minYear: 1729,
-        maxYear: 1812,
+        maxYear: 1866,
         registersUrl: './assets/data/contrats_mariage_71.json',
         catalogUrl: 'https://www.archives71.fr/consulter/en-ligne/familles-et-individus/controle-des-actes-et-enregistrement',
     },
@@ -447,6 +445,45 @@ export const MARRIAGE_DEPTS = {
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_85.json',
         catalogUrl: 'https://archives.vendee.fr/consulter/inventaires-et-catalogues-en-ligne',
+    },
+    '03': {
+        label: 'Allier',
+        // Bornes réelles de la série (138 registres scrapés, 28 bureaux, tous numérisés - bouton
+        // visionneuse présent sur chacun, voir scrape_contrats_mariage_b.py). Contrairement à la
+        // page TSA (mono-série), la page "3q-enregistrement" liste tout le fonds 3 Q (15 916
+        // notices) : on coche la facette Typologie "TABLES DE CONTRATS DE MARIAGE" et on extrait
+        // le bureau de la description. Des tables remontent au Contrôle des actes (ex. Bourbon-
+        // l'Archambault dès 1767) ; la série s'arrête en 1865.
+        minYear: 1767,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_03.json',
+        catalogUrl: 'https://archives.allier.fr/3q-enregistrement',
+    },
+    '23': {
+        label: 'Creuse',
+        // Bornes réelles de la série (152 registres dont 139 numérisés, 25 bureaux, voir
+        // scripts_py/scrape_creuse_3q.py) : typologie "table des contrats de mariage" du même
+        // catalogue 3Q que successions.js (SUCCESSION_DEPTS['23']). Contrairement aux TSA, les
+        // cotes "2 C" (contrôle des actes d'Ancien Régime) sont conservées : ce sont bien des
+        // tables de contrats de mariage antérieures à 1791 (dès 1740). 13 registres catalogués
+        // sans images (digitized faux).
+        minYear: 1740,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_23.json',
+        catalogUrl: 'https://archives.creuse.fr/rechercher/archives-numerisees/tables-du-controle-des-actes-et-de-lenregistrement-1',
+    },
+    '26': {
+        label: 'Drôme',
+        // Bornes réelles de la série (137 registres, 28 bureaux, 94 numérisés, voir
+        // scripts_py/scrape_drome_3q.py) : même portail et même filtre par "Contexte" que pour
+        // SUCCESSION_DEPTS['26'] ("Tables des contrats de mariage (utilisées entre le XVIIIe siècle
+        // et 1865)"). La recherche plein texte floue est plafonnée à ~10 000 résultats (125 pages de
+        // 80) sur 12 780 annoncés (les hypothèques 4 Q noient la requête) : quelques registres
+        // peuvent manquer. 43 notices catalogue sans image (digitized faux).
+        minYear: 1791,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_26.json',
+        catalogUrl: 'https://archives.ladrome.fr/search/results?q=tables+des+contrats+de+mariage',
     },
 };
 

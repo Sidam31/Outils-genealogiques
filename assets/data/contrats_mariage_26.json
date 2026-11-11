@@ -1,0 +1,1098 @@
+[
+  {
+    "place": "Bourdeaux",
+    "cote": "3 Q 6",
+    "yearStart": 1820,
+    "yearEnd": 1849,
+    "url": "https://archives.ladrome.fr/ark:/24626/xwbg17dc0h93",
+    "digitized": false
+  },
+  {
+    "place": "Bourdeaux",
+    "cote": "3 Q 7",
+    "yearStart": 1849,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/60hxsvwdfg85",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-de-Péage",
+    "cote": "3 Q 8643",
+    "yearStart": 1836,
+    "yearEnd": 1845,
+    "url": "https://archives.ladrome.fr/ark:/24626/7dvsxz8rg9qh",
+    "digitized": true
+  },
+  {
+    "place": "Bourg-de-Péage",
+    "cote": "3 Q 8644",
+    "yearStart": 1845,
+    "yearEnd": 1851,
+    "url": "https://archives.ladrome.fr/ark:/24626/zt2cdk8xm9hf",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-de-Péage",
+    "cote": "3 Q 8645",
+    "yearStart": 1851,
+    "yearEnd": 1857,
+    "url": "https://archives.ladrome.fr/ark:/24626/gdlst9wcjf20",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-de-Péage",
+    "cote": "3 Q 8646",
+    "yearStart": 1857,
+    "yearEnd": 1864,
+    "url": "https://archives.ladrome.fr/ark:/24626/2kf4j86znth9",
+    "digitized": false
+  },
+  {
+    "place": "Bourg-de-Péage",
+    "cote": "3 Q 8647",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/58chkjgq2mb6",
+    "digitized": false
+  },
+  {
+    "place": "Buis-les-Baronnies",
+    "cote": "3 Q 4960",
+    "yearStart": 1802,
+    "yearEnd": 1809,
+    "url": "https://archives.ladrome.fr/ark:/24626/jfrnqdbmw82z",
+    "digitized": true
+  },
+  {
+    "place": "Buis-les-Baronnies",
+    "cote": "3 Q 4961",
+    "yearStart": 1810,
+    "yearEnd": 1823,
+    "url": "https://archives.ladrome.fr/ark:/24626/vl5m0962tk4n",
+    "digitized": true
+  },
+  {
+    "place": "Buis-les-Baronnies",
+    "cote": "3 Q 4962",
+    "yearStart": 1823,
+    "yearEnd": 1835,
+    "url": "https://archives.ladrome.fr/ark:/24626/qb14krlhsdvt",
+    "digitized": true
+  },
+  {
+    "place": "Buis-les-Baronnies",
+    "cote": "3 Q 4963",
+    "yearStart": 1836,
+    "yearEnd": 1852,
+    "url": "https://archives.ladrome.fr/ark:/24626/lq89pgh62nt0",
+    "digitized": false
+  },
+  {
+    "place": "Buis-les-Baronnies",
+    "cote": "3 Q 4964",
+    "yearStart": 1853,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/h6lc14029zfm",
+    "digitized": false
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 111",
+    "yearStart": 1798,
+    "yearEnd": 1811,
+    "url": "https://archives.ladrome.fr/ark:/24626/jsp2g5t04rfq",
+    "digitized": true
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 112",
+    "yearStart": 1811,
+    "yearEnd": 1823,
+    "url": "https://archives.ladrome.fr/ark:/24626/glr61k0ps2xz",
+    "digitized": true
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 113",
+    "yearStart": 1824,
+    "yearEnd": 1833,
+    "url": "https://archives.ladrome.fr/ark:/24626/pqwrc9kj856z",
+    "digitized": true
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 114",
+    "yearStart": 1833,
+    "yearEnd": 1842,
+    "url": "https://archives.ladrome.fr/ark:/24626/skfd1jx830vm",
+    "digitized": true
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 115",
+    "yearStart": 1842,
+    "yearEnd": 1847,
+    "url": "https://archives.ladrome.fr/ark:/24626/pmg4670qjrks",
+    "digitized": true
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 116",
+    "yearStart": 1847,
+    "yearEnd": 1859,
+    "url": "https://archives.ladrome.fr/ark:/24626/l4z6frwdq827",
+    "digitized": true
+  },
+  {
+    "place": "Chabeuil",
+    "cote": "3 Q 117",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/q9db4k08517r",
+    "digitized": true
+  },
+  {
+    "place": "Châtillon-en-Diois",
+    "cote": "3 Q 7060",
+    "yearStart": 1813,
+    "yearEnd": 1824,
+    "url": "https://archives.ladrome.fr/ark:/24626/v5z70scbpn8h",
+    "digitized": true
+  },
+  {
+    "place": "Châtillon-en-Diois",
+    "cote": "3 Q 7061",
+    "yearStart": 1825,
+    "yearEnd": 1836,
+    "url": "https://archives.ladrome.fr/ark:/24626/hgscv38tlwrz",
+    "digitized": true
+  },
+  {
+    "place": "Châtillon-en-Diois",
+    "cote": "3 Q 7062",
+    "yearStart": 1836,
+    "yearEnd": 1852,
+    "url": "https://archives.ladrome.fr/ark:/24626/mxpv98n2rz5q",
+    "digitized": true
+  },
+  {
+    "place": "Châtillon-en-Diois",
+    "cote": "3 Q 7063",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/4cjs8mx73z6d",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6438",
+    "yearStart": 1808,
+    "yearEnd": 1817,
+    "url": "https://archives.ladrome.fr/ark:/24626/5ql47sdt1xvw",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6439",
+    "yearStart": 1817,
+    "yearEnd": 1826,
+    "url": "https://archives.ladrome.fr/ark:/24626/pg8rsvjc6zk9",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6440",
+    "yearStart": 1827,
+    "yearEnd": 1834,
+    "url": "https://archives.ladrome.fr/ark:/24626/5jxm8vr6scpk",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6441",
+    "yearStart": 1834,
+    "yearEnd": 1840,
+    "url": "https://archives.ladrome.fr/ark:/24626/dz1xjn34r2pk",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6442",
+    "yearStart": 1840,
+    "yearEnd": 1847,
+    "url": "https://archives.ladrome.fr/ark:/24626/dkgrsc91mlqn",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6443",
+    "yearStart": 1846,
+    "yearEnd": 1854,
+    "url": "https://archives.ladrome.fr/ark:/24626/2l56kq9wbz1c",
+    "digitized": true
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6444",
+    "yearStart": 1854,
+    "yearEnd": 1861,
+    "url": "https://archives.ladrome.fr/ark:/24626/zj7q8wk0lnvr",
+    "digitized": false
+  },
+  {
+    "place": "Crest",
+    "cote": "3 Q 6445",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/s0639v25fxmr",
+    "digitized": false
+  },
+  {
+    "place": "Die",
+    "cote": "3 Q 7943",
+    "yearStart": 1792,
+    "yearEnd": 1808,
+    "url": "https://archives.ladrome.fr/ark:/24626/lws1nb0kzmc3",
+    "digitized": true
+  },
+  {
+    "place": "Die",
+    "cote": "3 Q 7944",
+    "yearStart": 1808,
+    "yearEnd": 1817,
+    "url": "https://archives.ladrome.fr/ark:/24626/sjnpfh16d75z",
+    "digitized": true
+  },
+  {
+    "place": "Die",
+    "cote": "3 Q 7945",
+    "yearStart": 1817,
+    "yearEnd": 1829,
+    "url": "https://archives.ladrome.fr/ark:/24626/j7l1dgsr6wcn",
+    "digitized": true
+  },
+  {
+    "place": "Die",
+    "cote": "3 Q 7946",
+    "yearStart": 1829,
+    "yearEnd": 1844,
+    "url": "https://archives.ladrome.fr/ark:/24626/kh028dvr9n5t",
+    "digitized": true
+  },
+  {
+    "place": "Die",
+    "cote": "3 Q 7947",
+    "yearStart": 1844,
+    "yearEnd": 1861,
+    "url": "https://archives.ladrome.fr/ark:/24626/4035rmk2nlxq",
+    "digitized": true
+  },
+  {
+    "place": "Die",
+    "cote": "3 Q 7948",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/d14g8k3qncjl",
+    "digitized": true
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 406",
+    "yearStart": 1801,
+    "yearEnd": 1810,
+    "url": "https://archives.ladrome.fr/ark:/24626/x438jtv2pk7f",
+    "digitized": true
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 407",
+    "yearStart": 1811,
+    "yearEnd": 1822,
+    "url": "https://archives.ladrome.fr/ark:/24626/snkt8g34w7bv",
+    "digitized": true
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 408",
+    "yearStart": 1823,
+    "yearEnd": 1824,
+    "url": "https://archives.ladrome.fr/ark:/24626/d5c2814sgfwz",
+    "digitized": true
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 409",
+    "yearStart": 1824,
+    "yearEnd": 1837,
+    "url": "https://archives.ladrome.fr/ark:/24626/f70dklps1wnq",
+    "digitized": true
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 410",
+    "yearStart": 1837,
+    "yearEnd": 1849,
+    "url": "https://archives.ladrome.fr/ark:/24626/h4n2t30bc7fw",
+    "digitized": true
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 411",
+    "yearStart": 1849,
+    "yearEnd": 1862,
+    "url": "https://archives.ladrome.fr/ark:/24626/73nfbm5ptvwj",
+    "digitized": false
+  },
+  {
+    "place": "Dieulefit",
+    "cote": "3 Q 412",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/q8fjd67slgv9",
+    "digitized": false
+  },
+  {
+    "place": "Grand-Serre",
+    "cote": "3 Q 4679",
+    "yearStart": 1791,
+    "yearEnd": 1802,
+    "url": "https://archives.ladrome.fr/ark:/24626/5m3xcws96tqp",
+    "digitized": true
+  },
+  {
+    "place": "Grand-Serre",
+    "cote": "3 Q 4680",
+    "yearStart": 1801,
+    "yearEnd": 1812,
+    "url": "https://archives.ladrome.fr/ark:/24626/dr15cmw6pz73",
+    "digitized": true
+  },
+  {
+    "place": "Grand-Serre",
+    "cote": "3 Q 4681",
+    "yearStart": 1812,
+    "yearEnd": 1831,
+    "url": "https://archives.ladrome.fr/ark:/24626/b7tpm08f56v4",
+    "digitized": true
+  },
+  {
+    "place": "Grand-Serre",
+    "cote": "3 Q 4682",
+    "yearStart": 1831,
+    "yearEnd": 1843,
+    "url": "https://archives.ladrome.fr/ark:/24626/3jv8drm0znfc",
+    "digitized": true
+  },
+  {
+    "place": "Grignan",
+    "cote": "3 Q 618",
+    "yearStart": 1803,
+    "yearEnd": 1818,
+    "url": "https://archives.ladrome.fr/ark:/24626/njl3s2kmfzb8",
+    "digitized": true
+  },
+  {
+    "place": "Grignan",
+    "cote": "3 Q 619",
+    "yearStart": 1818,
+    "yearEnd": 1837,
+    "url": "https://archives.ladrome.fr/ark:/24626/3shr1xbfmqlk",
+    "digitized": true
+  },
+  {
+    "place": "Grignan",
+    "cote": "3 Q 620",
+    "yearStart": 1838,
+    "yearEnd": 1851,
+    "url": "https://archives.ladrome.fr/ark:/24626/h0xw14csz965",
+    "digitized": true
+  },
+  {
+    "place": "Grignan",
+    "cote": "3 Q 621",
+    "yearStart": 1851,
+    "yearEnd": 1862,
+    "url": "https://archives.ladrome.fr/ark:/24626/x67glbrn25qd",
+    "digitized": false
+  },
+  {
+    "place": "Grignan",
+    "cote": "3 Q 622",
+    "yearStart": 1862,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/f41kzmtj2dhn",
+    "digitized": false
+  },
+  {
+    "place": "La Chapelle-en-Vercors",
+    "cote": "3 Q 9159",
+    "yearStart": 1828,
+    "yearEnd": 1858,
+    "url": "https://archives.ladrome.fr/ark:/24626/s9g18r0d6hmt",
+    "digitized": false
+  },
+  {
+    "place": "La Chapelle-en-Vercors",
+    "cote": "3 Q 9160",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/0mzltcngd56s",
+    "digitized": false
+  },
+  {
+    "place": "La Motte-Chalancon",
+    "cote": "3 Q 7480",
+    "yearStart": 1798,
+    "yearEnd": 1819,
+    "url": "https://archives.ladrome.fr/ark:/24626/jmr2zsgwpqf8",
+    "digitized": true
+  },
+  {
+    "place": "La Motte-Chalancon",
+    "cote": "3 Q 7481",
+    "yearStart": 1814,
+    "yearEnd": 1831,
+    "url": "https://archives.ladrome.fr/ark:/24626/drw6qj43tz91",
+    "digitized": false
+  },
+  {
+    "place": "La Motte-Chalancon",
+    "cote": "3 Q 7482",
+    "yearStart": 1831,
+    "yearEnd": 1848,
+    "url": "https://archives.ladrome.fr/ark:/24626/539hkrfl1xjc",
+    "digitized": false
+  },
+  {
+    "place": "La Motte-Chalancon",
+    "cote": "3 Q 7483",
+    "yearStart": 1849,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/xrltk6s98b0p",
+    "digitized": false
+  },
+  {
+    "place": "Loriol-sur-Drôme",
+    "cote": "3 Q 786",
+    "yearStart": 1811,
+    "yearEnd": 1829,
+    "url": "https://archives.ladrome.fr/ark:/24626/fqcs0j217pzr",
+    "digitized": true
+  },
+  {
+    "place": "Loriol-sur-Drôme",
+    "cote": "3 Q 787",
+    "yearStart": 1829,
+    "yearEnd": 1843,
+    "url": "https://archives.ladrome.fr/ark:/24626/lf9s02vnq4tp",
+    "digitized": true
+  },
+  {
+    "place": "Loriol-sur-Drôme",
+    "cote": "3 Q 3786",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/42wftgdj639m",
+    "digitized": false
+  },
+  {
+    "place": "Luc-en-Diois",
+    "cote": "3 Q 7293",
+    "yearStart": 1841,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/zqxvk61sp9hl",
+    "digitized": true
+  },
+  {
+    "place": "Marsanne",
+    "cote": "3 Q 857",
+    "yearStart": 1823,
+    "yearEnd": 1838,
+    "url": "https://archives.ladrome.fr/ark:/24626/85rj0wsfngpt",
+    "digitized": true
+  },
+  {
+    "place": "Marsanne",
+    "cote": "3 Q 858",
+    "yearStart": 1839,
+    "yearEnd": 1853,
+    "url": "https://archives.ladrome.fr/ark:/24626/kmv597qlnzx0",
+    "digitized": false
+  },
+  {
+    "place": "Marsanne",
+    "cote": "3 Q 859",
+    "yearStart": 1853,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/1bpzx0nrc83s",
+    "digitized": false
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1002",
+    "yearStart": 1792,
+    "yearEnd": 1792,
+    "url": "https://archives.ladrome.fr/ark:/24626/w129dxk54bzl",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1005",
+    "yearStart": 1808,
+    "yearEnd": 1808,
+    "url": "https://archives.ladrome.fr/ark:/24626/nl9t82mhjk45",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1006",
+    "yearStart": 1808,
+    "yearEnd": 1809,
+    "url": "https://archives.ladrome.fr/ark:/24626/k6rjc40tmf2x",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1007",
+    "yearStart": 1809,
+    "yearEnd": 1810,
+    "url": "https://archives.ladrome.fr/ark:/24626/3402b6k7jrd8",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1008",
+    "yearStart": 1810,
+    "yearEnd": 1813,
+    "url": "https://archives.ladrome.fr/ark:/24626/cwq8hpx6dl9z",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1009",
+    "yearStart": 1813,
+    "yearEnd": 1817,
+    "url": "https://archives.ladrome.fr/ark:/24626/qxct2zvj493m",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1010",
+    "yearStart": 1818,
+    "yearEnd": 1821,
+    "url": "https://archives.ladrome.fr/ark:/24626/t3jcknv5dqlf",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1011",
+    "yearStart": 1821,
+    "yearEnd": 1827,
+    "url": "https://archives.ladrome.fr/ark:/24626/jnm5qblxr72d",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1012",
+    "yearStart": 1827,
+    "yearEnd": 1837,
+    "url": "https://archives.ladrome.fr/ark:/24626/2zwf1xc3d6q7",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1013",
+    "yearStart": 1837,
+    "yearEnd": 1847,
+    "url": "https://archives.ladrome.fr/ark:/24626/cxn9f4r6dpz0",
+    "digitized": true
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1055",
+    "yearStart": 1847,
+    "yearEnd": 1857,
+    "url": "https://archives.ladrome.fr/ark:/24626/dgt1bw9jprcl",
+    "digitized": false
+  },
+  {
+    "place": "Montélimar",
+    "cote": "3 Q 1014",
+    "yearStart": 1857,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/smq6b19wz2kh",
+    "digitized": false
+  },
+  {
+    "place": "Nyons",
+    "cote": "3 Q 5774",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.ladrome.fr/ark:/24626/nj0b4k5m1fqh",
+    "digitized": true
+  },
+  {
+    "place": "Nyons",
+    "cote": "3 Q 5775",
+    "yearStart": 1811,
+    "yearEnd": 1819,
+    "url": "https://archives.ladrome.fr/ark:/24626/d6h42gq8m9pl",
+    "digitized": true
+  },
+  {
+    "place": "Nyons",
+    "cote": "3 Q 5776",
+    "yearStart": 1819,
+    "yearEnd": 1833,
+    "url": "https://archives.ladrome.fr/ark:/24626/fz1xwg47blcr",
+    "digitized": true
+  },
+  {
+    "place": "Nyons",
+    "cote": "3 Q 5777",
+    "yearStart": 1834,
+    "yearEnd": 1847,
+    "url": "https://archives.ladrome.fr/ark:/24626/9x8qk0wfl7hn",
+    "digitized": true
+  },
+  {
+    "place": "Nyons",
+    "cote": "3 Q 5778",
+    "yearStart": 1847,
+    "yearEnd": 1860,
+    "url": "https://archives.ladrome.fr/ark:/24626/8bwrmg47spjx",
+    "digitized": true
+  },
+  {
+    "place": "Nyons",
+    "cote": "3 Q 5779",
+    "yearStart": 1861,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/vwjr8bmcs06q",
+    "digitized": false
+  },
+  {
+    "place": "Pierrelatte",
+    "cote": "3 Q 1432",
+    "yearStart": 1835,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/xlf6p50gqw17",
+    "digitized": false
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9932",
+    "yearStart": 1812,
+    "yearEnd": 1812,
+    "url": "https://archives.ladrome.fr/ark:/24626/5h16vn7dk9lz",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9933",
+    "yearStart": 1812,
+    "yearEnd": 1820,
+    "url": "https://archives.ladrome.fr/ark:/24626/x3crjmzqw9v5",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9934",
+    "yearStart": 1820,
+    "yearEnd": 1826,
+    "url": "https://archives.ladrome.fr/ark:/24626/jw0k89qt6l1v",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9935",
+    "yearStart": 1826,
+    "yearEnd": 1830,
+    "url": "https://archives.ladrome.fr/ark:/24626/h7fpwczvbn0j",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9936",
+    "yearStart": 1830,
+    "yearEnd": 1834,
+    "url": "https://archives.ladrome.fr/ark:/24626/h91grjf0sbtq",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9937",
+    "yearStart": 1835,
+    "yearEnd": 1839,
+    "url": "https://archives.ladrome.fr/ark:/24626/b56fkl9j2cwg",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9938",
+    "yearStart": 1839,
+    "yearEnd": 1843,
+    "url": "https://archives.ladrome.fr/ark:/24626/tsp1j9r64zf8",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9939",
+    "yearStart": 1843,
+    "yearEnd": 1848,
+    "url": "https://archives.ladrome.fr/ark:/24626/wlcb09mq1254",
+    "digitized": true
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9940",
+    "yearStart": 1848,
+    "yearEnd": 1853,
+    "url": "https://archives.ladrome.fr/ark:/24626/v8w7gsd31kht",
+    "digitized": false
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9941",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives.ladrome.fr/ark:/24626/ghnklfx471dz",
+    "digitized": false
+  },
+  {
+    "place": "Romans-sur-Isère",
+    "cote": "3 Q 9942",
+    "yearStart": 1860,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/4zd2vlpx3mh6",
+    "digitized": false
+  },
+  {
+    "place": "Rémuzat",
+    "cote": "3 Q 5387",
+    "yearStart": 1822,
+    "yearEnd": 1847,
+    "url": "https://archives.ladrome.fr/ark:/24626/7hd4nqgx6zjb",
+    "digitized": true
+  },
+  {
+    "place": "Rémuzat",
+    "cote": "3 Q 5388",
+    "yearStart": 1847,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/wg25x18d9ksh",
+    "digitized": false
+  },
+  {
+    "place": "Saillans",
+    "cote": "3 Q 7740",
+    "yearStart": 1816,
+    "yearEnd": 1816,
+    "url": "https://archives.ladrome.fr/ark:/24626/6c3r1hb0z92q",
+    "digitized": false
+  },
+  {
+    "place": "Saillans",
+    "cote": "3 Q 7741",
+    "yearStart": 1817,
+    "yearEnd": 1850,
+    "url": "https://archives.ladrome.fr/ark:/24626/x94f8kb2twj0",
+    "digitized": false
+  },
+  {
+    "place": "Saillans",
+    "cote": "3 Q 7742",
+    "yearStart": 1851,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/68hljs52zvn4",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Donat-sur-l'Herbasse",
+    "cote": "3 Q 9301",
+    "yearStart": 1823,
+    "yearEnd": 1836,
+    "url": "https://archives.ladrome.fr/ark:/24626/zfbvlghr5sn9",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Donat-sur-l'Herbasse",
+    "cote": "3 Q 9302",
+    "yearStart": 1837,
+    "yearEnd": 1852,
+    "url": "https://archives.ladrome.fr/ark:/24626/8fh9d6j3l2xb",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Jean-en-Royans",
+    "cote": "3 Q 9586",
+    "yearStart": 1791,
+    "yearEnd": 1813,
+    "url": "https://archives.ladrome.fr/ark:/24626/1n8hcfdqx5zw",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Jean-en-Royans",
+    "cote": "3 Q 9587",
+    "yearStart": 1813,
+    "yearEnd": 1831,
+    "url": "https://archives.ladrome.fr/ark:/24626/g3prdmczl94b",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Jean-en-Royans",
+    "cote": "3 Q 9588",
+    "yearStart": 1832,
+    "yearEnd": 1852,
+    "url": "https://archives.ladrome.fr/ark:/24626/xcbw1l64pknf",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Jean-en-Royans",
+    "cote": "3 Q 9589",
+    "yearStart": 1852,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/t47pr92jf1q5",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Paul-Trois-Châteaux",
+    "cote": "3 Q 1510",
+    "yearStart": 1810,
+    "yearEnd": 1810,
+    "url": "https://archives.ladrome.fr/ark:/24626/4xwdkbztp9gc",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Paul-Trois-Châteaux",
+    "cote": "3 Q 1511",
+    "yearStart": 1813,
+    "yearEnd": 1824,
+    "url": "https://archives.ladrome.fr/ark:/24626/ljxw9pdf2cm6",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Paul-Trois-Châteaux",
+    "cote": "3 Q 1512",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives.ladrome.fr/ark:/24626/wx9q16ptk2vg",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Paul-Trois-Châteaux",
+    "cote": "3 Q 1513",
+    "yearStart": 1838,
+    "yearEnd": 1848,
+    "url": "https://archives.ladrome.fr/ark:/24626/97ngq6pc8k5d",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Paul-Trois-Châteaux",
+    "cote": "3 Q 1514",
+    "yearStart": 1848,
+    "yearEnd": 1855,
+    "url": "https://archives.ladrome.fr/ark:/24626/p3bxw46l87mn",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Paul-Trois-Châteaux",
+    "cote": "3 Q 1515",
+    "yearStart": 1855,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/cnt5z83bvpgx",
+    "digitized": false
+  },
+  {
+    "place": "Saint-Vallier",
+    "cote": "3 Q 4321",
+    "yearStart": 1792,
+    "yearEnd": 1811,
+    "url": "https://archives.ladrome.fr/ark:/24626/gh234t506cvd",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier",
+    "cote": "3 Q 4322",
+    "yearStart": 1811,
+    "yearEnd": 1817,
+    "url": "https://archives.ladrome.fr/ark:/24626/57nf1gx0thbv",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier",
+    "cote": "3 Q 4323",
+    "yearStart": 1817,
+    "yearEnd": 1827,
+    "url": "https://archives.ladrome.fr/ark:/24626/7ct4w635gzhq",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier",
+    "cote": "3 Q 4324",
+    "yearStart": 1827,
+    "yearEnd": 1837,
+    "url": "https://archives.ladrome.fr/ark:/24626/t57rflk6h1bj",
+    "digitized": true
+  },
+  {
+    "place": "Saint-Vallier",
+    "cote": "3 Q 4325",
+    "yearStart": 1837,
+    "yearEnd": 1847,
+    "url": "https://archives.ladrome.fr/ark:/24626/m15n42zf63rv",
+    "digitized": true
+  },
+  {
+    "place": "Séderon",
+    "cote": "3 Q 4171",
+    "yearStart": 1818,
+    "yearEnd": 1818,
+    "url": "https://archives.ladrome.fr/ark:/24626/p3b85t90fs12",
+    "digitized": true
+  },
+  {
+    "place": "Séderon",
+    "cote": "3 Q 4172",
+    "yearStart": 1818,
+    "yearEnd": 1835,
+    "url": "https://archives.ladrome.fr/ark:/24626/r6czfmvn9tjw",
+    "digitized": true
+  },
+  {
+    "place": "Séderon",
+    "cote": "3 Q 5547",
+    "yearStart": 1836,
+    "yearEnd": 1854,
+    "url": "https://archives.ladrome.fr/ark:/24626/kr97jf26v5d4",
+    "digitized": false
+  },
+  {
+    "place": "Séderon",
+    "cote": "3 Q 5548",
+    "yearStart": 1854,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/j20bz59qn8m1",
+    "digitized": false
+  },
+  {
+    "place": "Tain-l'Hermitage",
+    "cote": "3 Q 1784",
+    "yearStart": 1806,
+    "yearEnd": 1823,
+    "url": "https://archives.ladrome.fr/ark:/24626/mjw41xfglt07",
+    "digitized": true
+  },
+  {
+    "place": "Tain-l'Hermitage",
+    "cote": "3 Q 1785",
+    "yearStart": 1823,
+    "yearEnd": 1837,
+    "url": "https://archives.ladrome.fr/ark:/24626/2v3md8qgkw06",
+    "digitized": true
+  },
+  {
+    "place": "Tain-l'Hermitage",
+    "cote": "3 Q 1786",
+    "yearStart": 1837,
+    "yearEnd": 1849,
+    "url": "https://archives.ladrome.fr/ark:/24626/qjzftdhbcmkw",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1943",
+    "yearStart": 1791,
+    "yearEnd": 1791,
+    "url": "https://archives.ladrome.fr/ark:/24626/n0v86rm2bfw3",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1945",
+    "yearStart": 1811,
+    "yearEnd": 1811,
+    "url": "https://archives.ladrome.fr/ark:/24626/g13tzdp24cxb",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1946",
+    "yearStart": 1811,
+    "yearEnd": 1819,
+    "url": "https://archives.ladrome.fr/ark:/24626/ht0cpjl35w6x",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1947",
+    "yearStart": 1819,
+    "yearEnd": 1826,
+    "url": "https://archives.ladrome.fr/ark:/24626/9glz0h35k4r2",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1948",
+    "yearStart": 1826,
+    "yearEnd": 1831,
+    "url": "https://archives.ladrome.fr/ark:/24626/tl64m3kbzcx8",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1949",
+    "yearStart": 1831,
+    "yearEnd": 1838,
+    "url": "https://archives.ladrome.fr/ark:/24626/qf3pd8r2z6j9",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1950",
+    "yearStart": 1838,
+    "yearEnd": 1842,
+    "url": "https://archives.ladrome.fr/ark:/24626/wmkvsd0xg3l5",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1951",
+    "yearStart": 1842,
+    "yearEnd": 1848,
+    "url": "https://archives.ladrome.fr/ark:/24626/rtqzg8sd96kh",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1952",
+    "yearStart": 1849,
+    "yearEnd": 1853,
+    "url": "https://archives.ladrome.fr/ark:/24626/z2p0jfltxhq5",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1953",
+    "yearStart": 1854,
+    "yearEnd": 1859,
+    "url": "https://archives.ladrome.fr/ark:/24626/146m2dlrs7cq",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1954",
+    "yearStart": 1859,
+    "yearEnd": 1863,
+    "url": "https://archives.ladrome.fr/ark:/24626/28r9k57td3qz",
+    "digitized": true
+  },
+  {
+    "place": "Valence",
+    "cote": "3 Q 1955",
+    "yearStart": 1864,
+    "yearEnd": 1865,
+    "url": "https://archives.ladrome.fr/ark:/24626/mk16lcx895gr",
+    "digitized": true
+  }
+]

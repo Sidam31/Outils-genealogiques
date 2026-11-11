@@ -1,0 +1,3638 @@
+[
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q25",
+    "detail": "12/1825-11/1837",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265084/1345:768485:16834:265084/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q26",
+    "detail": "05/1838-07/1847",
+    "yearStart": 1838,
+    "yearEnd": 1847,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265085/1345:768485:16834:265085/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q27",
+    "detail": "07/1847-06/1856",
+    "yearStart": 1847,
+    "yearEnd": 1856,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265086/1345:768485:16834:265086/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q28",
+    "detail": "06/1856-03/1867",
+    "yearStart": 1856,
+    "yearEnd": 1867,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265087/1345:768485:16834:265087/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q29",
+    "detail": "02/1867-08/1874",
+    "yearStart": 1867,
+    "yearEnd": 1874,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265088/1345:768485:16834:265088/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q30",
+    "detail": "06/1874-06/1887",
+    "yearStart": 1874,
+    "yearEnd": 1887,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265089/1345:768485:16834:265089/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q31",
+    "detail": "07/1887-04/1892",
+    "yearStart": 1887,
+    "yearEnd": 1892,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265090/1345:768485:16834:265090/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q32",
+    "detail": "1902-1913",
+    "yearStart": 1902,
+    "yearEnd": 1913,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265091/1345:768485:16834:265091/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q75",
+    "detail": "06/10/1913-24/05/1923",
+    "yearStart": 1913,
+    "yearEnd": 1923,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761273/1345:768485:16834:761273/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q76",
+    "detail": "12/06/1923-20/09/1935",
+    "yearStart": 1923,
+    "yearEnd": 1935,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761274/1345:768485:16834:761274/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q77",
+    "detail": "01/10/1936-24/07/1944",
+    "yearStart": 1936,
+    "yearEnd": 1944,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761275/1345:768485:16834:761275/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q78",
+    "detail": "27/07/1945-16/09/1955",
+    "yearStart": 1945,
+    "yearEnd": 1955,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761276/1345:768485:16834:761276/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Bray-sur-Seine",
+    "cote": "27Q79",
+    "detail": "10/09/1956-01/11/1960",
+    "yearStart": 1956,
+    "yearEnd": 1960,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761277/1345:768485:16834:761277/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q5",
+    "detail": "01/1814-07/1818",
+    "yearStart": 1814,
+    "yearEnd": 1818,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265428/1345:768486:16859:265428/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q6",
+    "detail": "1824-1838",
+    "yearStart": 1824,
+    "yearEnd": 1838,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265429/1345:768486:16859:265429/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q7",
+    "detail": "1838-1849",
+    "yearStart": 1838,
+    "yearEnd": 1849,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265430/1345:768486:16859:265430/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q8",
+    "detail": "1850-1859",
+    "yearStart": 1850,
+    "yearEnd": 1859,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265431/1345:768486:16859:265431/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q9",
+    "detail": "1859-1870",
+    "yearStart": 1859,
+    "yearEnd": 1870,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265432/1345:768486:16859:265432/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q10",
+    "detail": "1870-1874",
+    "yearStart": 1870,
+    "yearEnd": 1874,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265433/1345:768486:16859:265433/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q11",
+    "detail": "1874-1884",
+    "yearStart": 1874,
+    "yearEnd": 1884,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265434/1345:768486:16859:265434/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "37Q12",
+    "detail": "1884-1897",
+    "yearStart": 1884,
+    "yearEnd": 1897,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265435/1345:768486:16859:265435/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "CAA2886",
+    "detail": "01/1897-06/1912",
+    "yearStart": 1897,
+    "yearEnd": 1912,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214670/1345:768486:16859:214670/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "CAA2887",
+    "detail": "07/1912-05/1927",
+    "yearStart": 1912,
+    "yearEnd": 1927,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214671/1345:768486:16859:214671/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "CAA2888",
+    "detail": "06/1927-07/1938",
+    "yearStart": 1927,
+    "yearEnd": 1938,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214672/1345:768486:16859:214672/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Brie-Comte-Robert",
+    "cote": "CAA2889",
+    "detail": "08/1938-12/1946",
+    "yearStart": 1938,
+    "yearEnd": 1946,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398561/1345:768486:16859:398561/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "57Q9",
+    "detail": "1842-1852",
+    "yearStart": 1842,
+    "yearEnd": 1852,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266175/1345:768489:16959:266175/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "57Q10",
+    "detail": "1854-1863",
+    "yearStart": 1854,
+    "yearEnd": 1863,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266176/1345:768489:16959:266176/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "57Q11",
+    "detail": "1863-1874",
+    "yearStart": 1863,
+    "yearEnd": 1874,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266177/1345:768489:16959:266177/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "57Q12",
+    "detail": "1874-1885",
+    "yearStart": 1874,
+    "yearEnd": 1885,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266178/1345:768489:16959:266178/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "57Q13",
+    "detail": "1885-1895",
+    "yearStart": 1885,
+    "yearEnd": 1895,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266179/1345:768489:16959:266179/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "57Q14",
+    "detail": "1895-1906",
+    "yearStart": 1895,
+    "yearEnd": 1906,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266180/1345:768489:16959:266180/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W364",
+    "detail": "1906-1914",
+    "yearStart": 1906,
+    "yearEnd": 1914,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409387/1345:768489:16959:409387/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W365",
+    "detail": "1914-1921",
+    "yearStart": 1914,
+    "yearEnd": 1921,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409388/1345:768489:16959:409388/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W366",
+    "detail": "1922-1930",
+    "yearStart": 1922,
+    "yearEnd": 1930,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409389/1345:768489:16959:409389/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W367",
+    "detail": "1930-1937",
+    "yearStart": 1930,
+    "yearEnd": 1937,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409390/1345:768489:16959:409390/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W368",
+    "detail": "1937-1947",
+    "yearStart": 1937,
+    "yearEnd": 1947,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409391/1345:768489:16959:409391/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W369",
+    "detail": "1947-1959",
+    "yearStart": 1947,
+    "yearEnd": 1959,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409392/1345:768489:16959:409392/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Château-Landon",
+    "cote": "2708W370",
+    "detail": "1959-31/03/1966",
+    "yearStart": 1959,
+    "yearEnd": 1966,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409393/1345:768489:16959:409393/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q4/2",
+    "detail": "An XII-1812",
+    "yearStart": 1803,
+    "yearEnd": 1812,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q5",
+    "detail": "1816-1824",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q4/1",
+    "detail": "1834-1846",
+    "yearStart": 1834,
+    "yearEnd": 1846,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398466/1345:768490:768135:398466/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q9",
+    "detail": "1847-1856",
+    "yearStart": 1847,
+    "yearEnd": 1856,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266490/1345:768490:768135:266490/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q10",
+    "detail": "1857-1864",
+    "yearStart": 1857,
+    "yearEnd": 1864,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266491/1345:768490:768135:266491/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q11",
+    "detail": "1864-1873",
+    "yearStart": 1864,
+    "yearEnd": 1873,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266492/1345:768490:768135:266492/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "67Q12",
+    "detail": "1873-1889",
+    "yearStart": 1873,
+    "yearEnd": 1889,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/266493/1345:768490:768135:266493/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "CAA2882",
+    "detail": "1889-1904",
+    "yearStart": 1889,
+    "yearEnd": 1904,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214667/1345:768490:768135:214667/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "CAA2883",
+    "detail": "1905-08/1921",
+    "yearStart": 1905,
+    "yearEnd": 1921,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214668/1345:768490:768135:214668/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "CAA2884",
+    "detail": "08/1921-02/1938",
+    "yearStart": 1921,
+    "yearEnd": 1938,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214669/1345:768490:768135:214669/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Châtelet-en-Brie",
+    "cote": "CAA2885",
+    "detail": "01/1938-07/1954",
+    "yearStart": 1938,
+    "yearEnd": 1954,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398560/1345:768490:768135:398560/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1251",
+    "detail": "1818",
+    "yearStart": 1818,
+    "yearEnd": 1818,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593929/1345:768492:23376:593929/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1238",
+    "detail": "1824-1828",
+    "yearStart": 1824,
+    "yearEnd": 1828,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593916/1345:768492:23376:593916/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1236",
+    "detail": "1831-1840",
+    "yearStart": 1831,
+    "yearEnd": 1840,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593914/1345:768492:23376:593914/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1237",
+    "detail": "1831-1842",
+    "yearStart": 1831,
+    "yearEnd": 1842,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593915/1345:768492:23376:593915/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1250",
+    "detail": "1842-1852",
+    "yearStart": 1842,
+    "yearEnd": 1852,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593928/1345:768492:23376:593928/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1242",
+    "detail": "1860-1869",
+    "yearStart": 1860,
+    "yearEnd": 1869,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593920/1345:768492:23376:593920/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1235",
+    "detail": "1869-1880",
+    "yearStart": 1869,
+    "yearEnd": 1880,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593913/1345:768492:23376:593913/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1241",
+    "detail": "1880-1892",
+    "yearStart": 1880,
+    "yearEnd": 1892,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593919/1345:768492:23376:593919/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1240",
+    "detail": "1893-1906",
+    "yearStart": 1893,
+    "yearEnd": 1906,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593918/1345:768492:23376:593918/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1239",
+    "detail": "1907-1922",
+    "yearStart": 1907,
+    "yearEnd": 1922,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593917/1345:768492:23376:593917/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1246",
+    "detail": "1923-1931",
+    "yearStart": 1923,
+    "yearEnd": 1931,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593924/1345:768492:23376:593924/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1245",
+    "detail": "1931-1937",
+    "yearStart": 1931,
+    "yearEnd": 1937,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593923/1345:768492:23376:593923/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1244",
+    "detail": "1938-1944",
+    "yearStart": 1938,
+    "yearEnd": 1944,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593922/1345:768492:23376:593922/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1252",
+    "detail": "1945-1950",
+    "yearStart": 1945,
+    "yearEnd": 1950,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593930/1345:768492:23376:593930/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1243",
+    "detail": "1951-1957",
+    "yearStart": 1951,
+    "yearEnd": 1957,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593921/1345:768492:23376:593921/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1249",
+    "detail": "1958-1963",
+    "yearStart": 1958,
+    "yearEnd": 1963,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593927/1345:768492:23376:593927/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1248",
+    "detail": "1964-1967",
+    "yearStart": 1964,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593926/1345:768492:23376:593926/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Claye",
+    "cote": "QP1247",
+    "detail": "1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593925/1345:768492:23376:593925/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q9",
+    "detail": "01/1825-04/1833",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q10",
+    "detail": "09/1833-05/1837",
+    "yearStart": 1833,
+    "yearEnd": 1837,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q11",
+    "detail": "10/1833-02/1841",
+    "yearStart": 1833,
+    "yearEnd": 1841,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q12",
+    "detail": "03/1841-02/1848",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q13",
+    "detail": "06/1848-04/1855",
+    "yearStart": 1848,
+    "yearEnd": 1855,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q14",
+    "detail": "05/1855-05/1863",
+    "yearStart": 1855,
+    "yearEnd": 1863,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q15",
+    "detail": "01/1863-10/1865",
+    "yearStart": 1863,
+    "yearEnd": 1865,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q16",
+    "detail": "10/1865-07/1872",
+    "yearStart": 1865,
+    "yearEnd": 1872,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q17",
+    "detail": "07/1872-10/1872",
+    "yearStart": 1872,
+    "yearEnd": 1872,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q19",
+    "detail": "01/1876-06/1887",
+    "yearStart": 1876,
+    "yearEnd": 1887,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q20",
+    "detail": "05/1887-02/1891",
+    "yearStart": 1887,
+    "yearEnd": 1891,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "87Q21",
+    "detail": "02/1891-06/1900",
+    "yearStart": 1891,
+    "yearEnd": 1900,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q1",
+    "detail": "1900-1907",
+    "yearStart": 1900,
+    "yearEnd": 1907,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308542/1345:768494:19358:308542/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q2",
+    "detail": "1908-1915",
+    "yearStart": 1908,
+    "yearEnd": 1915,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308543/1345:768494:19358:308543/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q3",
+    "detail": "1916-1921",
+    "yearStart": 1916,
+    "yearEnd": 1921,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308544/1345:768494:19358:308544/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q4",
+    "detail": "1922-1929",
+    "yearStart": 1922,
+    "yearEnd": 1929,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308545/1345:768494:19358:308545/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q16",
+    "detail": "1930-1938",
+    "yearStart": 1930,
+    "yearEnd": 1938,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746656/1345:768494:19358:746656/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q17",
+    "detail": "1938-1943",
+    "yearStart": 1938,
+    "yearEnd": 1943,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746657/1345:768494:19358:746657/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q18",
+    "detail": "1944-1951",
+    "yearStart": 1944,
+    "yearEnd": 1951,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746658/1345:768494:19358:746658/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q19",
+    "detail": "1952-03/1954",
+    "yearStart": 1952,
+    "yearEnd": 1954,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746659/1345:768494:19358:746659/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q20",
+    "detail": "1954-1957",
+    "yearStart": 1954,
+    "yearEnd": 1957,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746660/1345:768494:19358:746660/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q21",
+    "detail": "1957-1962",
+    "yearStart": 1957,
+    "yearEnd": 1962,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746661/1345:768494:19358:746661/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q23",
+    "detail": "1966-1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746663/1345:768494:19358:746663/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q24",
+    "detail": "03/1967-1968",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746664/1345:768494:19358:746664/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Coulommiers",
+    "cote": "317Q25",
+    "detail": "1968-1969",
+    "yearStart": 1968,
+    "yearEnd": 1969,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746665/1345:768494:19358:746665/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1227",
+    "detail": "1885-1899",
+    "yearStart": 1885,
+    "yearEnd": 1899,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593905/1345:768495:23375:593905/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1228",
+    "detail": "1899-1913",
+    "yearStart": 1899,
+    "yearEnd": 1913,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593906/1345:768495:23375:593906/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1229",
+    "detail": "1913-1923",
+    "yearStart": 1913,
+    "yearEnd": 1923,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593907/1345:768495:23375:593907/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1230",
+    "detail": "1923-1934",
+    "yearStart": 1923,
+    "yearEnd": 1934,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593908/1345:768495:23375:593908/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1231",
+    "detail": "1935-1944",
+    "yearStart": 1935,
+    "yearEnd": 1944,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593909/1345:768495:23375:593909/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1232",
+    "detail": "1945-1955",
+    "yearStart": 1945,
+    "yearEnd": 1955,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593910/1345:768495:23375:593910/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1233",
+    "detail": "1956-1961",
+    "yearStart": 1956,
+    "yearEnd": 1961,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593911/1345:768495:23375:593911/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Crécy-en-Brie",
+    "cote": "QP1234",
+    "detail": "1962-1968",
+    "yearStart": 1962,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593912/1345:768495:23375:593912/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Dammartin-en-Goële",
+    "cote": "QP1226",
+    "detail": "1940-1954",
+    "yearStart": 1940,
+    "yearEnd": 1954,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/601024/1345:768507:23388:601024/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Dammartin-en-Goële",
+    "cote": "QP1273",
+    "detail": "1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/600839/1345:768507:23388:600839/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q3",
+    "detail": "1825-1838",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287910/1345:768508:19372:287910/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q8",
+    "detail": "1838-1851",
+    "yearStart": 1838,
+    "yearEnd": 1851,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287914/1345:768508:19372:287914/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q9",
+    "detail": "1851-1861",
+    "yearStart": 1851,
+    "yearEnd": 1861,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287915/1345:768508:19372:287915/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q10",
+    "detail": "1861-1872",
+    "yearStart": 1861,
+    "yearEnd": 1872,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287916/1345:768508:19372:287916/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q11",
+    "detail": "1861-1872",
+    "yearStart": 1861,
+    "yearEnd": 1872,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287917/1345:768508:19372:287917/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q12",
+    "detail": "1873-1888",
+    "yearStart": 1873,
+    "yearEnd": 1888,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287918/1345:768508:19372:287918/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q13",
+    "detail": "1889-1905",
+    "yearStart": 1889,
+    "yearEnd": 1905,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287919/1345:768508:19372:287919/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q14",
+    "detail": "1906-1919",
+    "yearStart": 1906,
+    "yearEnd": 1919,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287920/1345:768508:19372:287920/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q15",
+    "detail": "1919-1930",
+    "yearStart": 1919,
+    "yearEnd": 1930,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/287921/1345:768508:19372:287921/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q18",
+    "detail": "1930-1945",
+    "yearStart": 1930,
+    "yearEnd": 1945,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/631012/1345:768508:19372:631012/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Donnemarie-en-Montois",
+    "cote": "117Q19",
+    "detail": "1946-1952",
+    "yearStart": 1946,
+    "yearEnd": 1952,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/631014/1345:768508:19372:631014/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q9",
+    "detail": "01/1825-05/1830",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288926/1345:768499:17664:288926/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q10",
+    "detail": "07/1830-10/1835",
+    "yearStart": 1830,
+    "yearEnd": 1835,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288927/1345:768499:17664:288927/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q11",
+    "detail": "09/1835-09/1840",
+    "yearStart": 1835,
+    "yearEnd": 1840,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288928/1345:768499:17664:288928/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q12",
+    "detail": "05/12/1840-30/04/1842",
+    "yearStart": 1840,
+    "yearEnd": 1842,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288929/1345:768499:17664:288929/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q13",
+    "detail": "1842-03/1850",
+    "yearStart": 1842,
+    "yearEnd": 1850,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288930/1345:768499:17664:288930/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q14",
+    "detail": "04/1851-05/1859",
+    "yearStart": 1851,
+    "yearEnd": 1859,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288931/1345:768499:17664:288931/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q15",
+    "detail": "05/1859-09/1869",
+    "yearStart": 1859,
+    "yearEnd": 1869,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288932/1345:768499:17664:288932/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q16",
+    "detail": "06/1869-06/1877",
+    "yearStart": 1869,
+    "yearEnd": 1877,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288933/1345:768499:17664:288933/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q17",
+    "detail": "15/10/1877-10/03/1886",
+    "yearStart": 1877,
+    "yearEnd": 1886,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288934/1345:768499:17664:288934/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q18",
+    "detail": "04/10/1885-11/12/1894",
+    "yearStart": 1885,
+    "yearEnd": 1894,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288935/1345:768499:17664:288935/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q29",
+    "detail": "01/01/1895-01/03/1904",
+    "yearStart": 1895,
+    "yearEnd": 1904,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787414/1345:768499:17664:787414/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q30",
+    "detail": "01/03/1904-01/09/1912",
+    "yearStart": 1904,
+    "yearEnd": 1912,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787415/1345:768499:17664:787415/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q31",
+    "detail": "01/09/1912-01/06/1917",
+    "yearStart": 1912,
+    "yearEnd": 1917,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787416/1345:768499:17664:787416/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q32",
+    "detail": "01/06/1917-01/09/1921",
+    "yearStart": 1917,
+    "yearEnd": 1921,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787417/1345:768499:17664:787417/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q33",
+    "detail": "01/09/1921-01/01/1927",
+    "yearStart": 1921,
+    "yearEnd": 1927,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787418/1345:768499:17664:787418/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q34",
+    "detail": "01/01/1927-01/06/1932",
+    "yearStart": 1927,
+    "yearEnd": 1932,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787419/1345:768499:17664:787419/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q35",
+    "detail": "01/06/1932-01/03/1937",
+    "yearStart": 1932,
+    "yearEnd": 1937,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787420/1345:768499:17664:787420/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q36",
+    "detail": "01/03/1937-01/06/1942",
+    "yearStart": 1937,
+    "yearEnd": 1942,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787421/1345:768499:17664:787421/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q37",
+    "detail": "01/06/1942-01/09/1946",
+    "yearStart": 1942,
+    "yearEnd": 1946,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787422/1345:768499:17664:787422/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q38",
+    "detail": "01/09/1946-31/12/1952",
+    "yearStart": 1946,
+    "yearEnd": 1952,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787423/1345:768499:17664:787423/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q39",
+    "detail": "01/01/1953-31/12/1955",
+    "yearStart": 1953,
+    "yearEnd": 1955,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787424/1345:768499:17664:787424/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q40",
+    "detail": "01/01/1955-01/11/1958",
+    "yearStart": 1955,
+    "yearEnd": 1958,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787425/1345:768499:17664:787425/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q41",
+    "detail": "01/11/1958-31/07/1963",
+    "yearStart": 1958,
+    "yearEnd": 1963,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787426/1345:768499:17664:787426/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q42",
+    "detail": "31/12/1962-31/12/1965",
+    "yearStart": 1962,
+    "yearEnd": 1965,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787427/1345:768499:17664:787427/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q43",
+    "detail": "31/12/1965-01/01/1967",
+    "yearStart": 1965,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787428/1345:768499:17664:787428/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Fontainebleau",
+    "cote": "143Q44",
+    "detail": "10/01/1967-31/12/1968",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/787429/1345:768499:17664:787429/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Chapelle-la-Reine",
+    "cote": "47Q10",
+    "detail": "12/1844-09/1852",
+    "yearStart": 1844,
+    "yearEnd": 1852,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265720/1345:768488:16887:265720/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Chapelle-la-Reine",
+    "cote": "47Q11",
+    "detail": "01/1853-01/1865",
+    "yearStart": 1853,
+    "yearEnd": 1865,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265721/1345:768488:16887:265721/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Chapelle-la-Reine",
+    "cote": "47Q12",
+    "detail": "01/1865-07/1878",
+    "yearStart": 1865,
+    "yearEnd": 1878,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265722/1345:768488:16887:265722/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Chapelle-la-Reine",
+    "cote": "47Q13",
+    "detail": "06/1878-12/1898",
+    "yearStart": 1878,
+    "yearEnd": 1898,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/265723/1345:768488:16887:265723/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Chapelle-la-Reine",
+    "cote": "2707W156",
+    "detail": "1923-1934",
+    "yearStart": 1923,
+    "yearEnd": 1934,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409081/1345:768488:16887:409081/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q12",
+    "detail": "02/1825-01/1837",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288309/1345:768497:19405:288309/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q13",
+    "detail": "11/05/1838-06/1845",
+    "yearStart": 1838,
+    "yearEnd": 1845,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288310/1345:768497:19405:288310/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q14",
+    "detail": "06/1845-01/1853",
+    "yearStart": 1845,
+    "yearEnd": 1853,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288311/1345:768497:19405:288311/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q15",
+    "detail": "07/1853-02/1860",
+    "yearStart": 1853,
+    "yearEnd": 1860,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288312/1345:768497:19405:288312/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q16",
+    "detail": "02/1860-02/1870",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288313/1345:768497:19405:288313/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q17",
+    "detail": "02/1870-06/1878",
+    "yearStart": 1870,
+    "yearEnd": 1878,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288314/1345:768497:19405:288314/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q18",
+    "detail": "02/1878-06/1889",
+    "yearStart": 1878,
+    "yearEnd": 1889,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288315/1345:768497:19405:288315/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "127Q19",
+    "detail": "06/1889-06/1899",
+    "yearStart": 1889,
+    "yearEnd": 1899,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288316/1345:768497:19405:288316/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "323Q1",
+    "detail": "01/01/1899-1909",
+    "yearStart": 1899,
+    "yearEnd": 1909,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308692/1345:768497:19405:308692/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "323Q2",
+    "detail": "1910-1920",
+    "yearStart": 1910,
+    "yearEnd": 1920,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308693/1345:768497:19405:308693/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "323Q3",
+    "detail": "1921-1930",
+    "yearStart": 1921,
+    "yearEnd": 1930,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308694/1345:768497:19405:308694/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "323Q15",
+    "detail": "1931-1940",
+    "yearStart": 1931,
+    "yearEnd": 1940,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746818/1345:768497:19405:746818/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "323Q16",
+    "detail": "1941-1957",
+    "yearStart": 1941,
+    "yearEnd": 1957,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746819/1345:768497:19405:746819/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-Gaucher",
+    "cote": "323Q17",
+    "detail": "1957-1961",
+    "yearStart": 1957,
+    "yearEnd": 1961,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746820/1345:768497:19405:746820/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q4",
+    "detail": "1825-1834",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288592/1345:768498:19453:288592/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q5",
+    "detail": "1835-1841",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288593/1345:768498:19453:288593/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q6",
+    "detail": "1841-1846",
+    "yearStart": 1841,
+    "yearEnd": 1846,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288594/1345:768498:19453:288594/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q7",
+    "detail": "1847-1851",
+    "yearStart": 1847,
+    "yearEnd": 1851,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288595/1345:768498:19453:288595/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q8",
+    "detail": "1851-1855",
+    "yearStart": 1851,
+    "yearEnd": 1855,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288596/1345:768498:19453:288596/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q9",
+    "detail": "1855-1861",
+    "yearStart": 1855,
+    "yearEnd": 1861,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288597/1345:768498:19453:288597/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q10",
+    "detail": "1862-1868",
+    "yearStart": 1862,
+    "yearEnd": 1868,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288598/1345:768498:19453:288598/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q11",
+    "detail": "1869-1874",
+    "yearStart": 1869,
+    "yearEnd": 1874,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288599/1345:768498:19453:288599/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "137Q12",
+    "detail": "1875-1882",
+    "yearStart": 1875,
+    "yearEnd": 1882,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/288600/1345:768498:19453:288600/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1209",
+    "detail": "1891",
+    "yearStart": 1891,
+    "yearEnd": 1891,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593888/1345:768498:19453:593888/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1210",
+    "detail": "1892-1900",
+    "yearStart": 1892,
+    "yearEnd": 1900,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593889/1345:768498:19453:593889/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1211",
+    "detail": "1901-1909",
+    "yearStart": 1901,
+    "yearEnd": 1909,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593890/1345:768498:19453:593890/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1212",
+    "detail": "1910-1917",
+    "yearStart": 1910,
+    "yearEnd": 1917,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593891/1345:768498:19453:593891/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1213",
+    "detail": "1918-1926",
+    "yearStart": 1918,
+    "yearEnd": 1926,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593892/1345:768498:19453:593892/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1214",
+    "detail": "1926-1933",
+    "yearStart": 1926,
+    "yearEnd": 1933,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593893/1345:768498:19453:593893/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1215",
+    "detail": "1934-1941",
+    "yearStart": 1934,
+    "yearEnd": 1941,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593894/1345:768498:19453:593894/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1216",
+    "detail": "1942-1951",
+    "yearStart": 1942,
+    "yearEnd": 1951,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593895/1345:768498:19453:593895/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1217",
+    "detail": "1951-1961",
+    "yearStart": 1951,
+    "yearEnd": 1961,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593896/1345:768498:19453:593896/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "La Ferté-sous-Jouarre",
+    "cote": "QP1218",
+    "detail": "1962-1968",
+    "yearStart": 1962,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593897/1345:768498:19453:593897/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "166Q1",
+    "detail": "1865-1871",
+    "yearStart": 1865,
+    "yearEnd": 1871,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/289417/1345:768505:24960:289417/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "166Q2",
+    "detail": "1871-1877",
+    "yearStart": 1871,
+    "yearEnd": 1877,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/289418/1345:768505:24960:289418/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "166Q3",
+    "detail": "1877-1885",
+    "yearStart": 1877,
+    "yearEnd": 1885,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/289419/1345:768505:24960:289419/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "166Q4",
+    "detail": "1885-1892",
+    "yearStart": 1885,
+    "yearEnd": 1892,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/289420/1345:768505:24960:289420/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "166Q5",
+    "detail": "1892-1904",
+    "yearStart": 1892,
+    "yearEnd": 1904,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/289421/1345:768505:24960:289421/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2382",
+    "detail": "07/1925-03/1929",
+    "yearStart": 1925,
+    "yearEnd": 1929,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/636661/1345:768505:24960:636661/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2383",
+    "detail": "04/1929-08/1932",
+    "yearStart": 1929,
+    "yearEnd": 1932,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/636662/1345:768505:24960:636662/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2384",
+    "detail": "08/1932-12/1935",
+    "yearStart": 1932,
+    "yearEnd": 1935,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/636663/1345:768505:24960:636663/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2385",
+    "detail": "12/1935-03/1939",
+    "yearStart": 1935,
+    "yearEnd": 1939,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/636664/1345:768505:24960:636664/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "2895W1",
+    "detail": "04/1939-12/1941",
+    "yearStart": 1939,
+    "yearEnd": 1941,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/435564/1345:768505:24960:435564/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "2895W2",
+    "detail": "01/1942-12/1944",
+    "yearStart": 1942,
+    "yearEnd": 1944,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/435565/1345:768505:24960:435565/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2293",
+    "detail": "01/1960-12/1961",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604079/1345:768505:24960:604079/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2294",
+    "detail": "01/1962-12/1963",
+    "yearStart": 1962,
+    "yearEnd": 1963,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604080/1345:768505:24960:604080/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2295",
+    "detail": "09/1963-04/1965",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604081/1345:768505:24960:604081/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2296",
+    "detail": "04/1965-12/1965",
+    "yearStart": 1965,
+    "yearEnd": 1965,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604082/1345:768505:24960:604082/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2297",
+    "detail": "1966",
+    "yearStart": 1966,
+    "yearEnd": 1966,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604083/1345:768505:24960:604083/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2298",
+    "detail": "1967",
+    "yearStart": 1967,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604084/1345:768505:24960:604084/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lagny",
+    "cote": "QP2299",
+    "detail": "1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/604085/1345:768505:24960:604085/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1219",
+    "detail": "1837-1845",
+    "yearStart": 1837,
+    "yearEnd": 1845,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593898/1345:768506:23371:593898/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1220",
+    "detail": "1846-1854",
+    "yearStart": 1846,
+    "yearEnd": 1854,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593899/1345:768506:23371:593899/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1221",
+    "detail": "1855-1862",
+    "yearStart": 1855,
+    "yearEnd": 1862,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593900/1345:768506:23371:593900/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1222",
+    "detail": "1872-1889",
+    "yearStart": 1872,
+    "yearEnd": 1889,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593901/1345:768506:23371:593901/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1223",
+    "detail": "1906-1920",
+    "yearStart": 1906,
+    "yearEnd": 1920,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593901/1345:768506:23371:593901/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1224",
+    "detail": "1921-1931",
+    "yearStart": 1921,
+    "yearEnd": 1931,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593903/1345:768506:23371:593903/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1225",
+    "detail": "1932-1942",
+    "yearStart": 1932,
+    "yearEnd": 1942,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593904/1345:768506:23371:593904/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1264",
+    "detail": "1944-1948",
+    "yearStart": 1944,
+    "yearEnd": 1948,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593942/1345:768506:23371:593942/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lizy-sur-Ourcq",
+    "cote": "QP1273",
+    "detail": "1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/600839/1345:768506:23371:600839/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lorrez-le-Bocage",
+    "cote": "QP2419",
+    "detail": "1909-1925",
+    "yearStart": 1909,
+    "yearEnd": 1925,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652713/1345:768512:28682:652713/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lorrez-le-Bocage",
+    "cote": "QP2420",
+    "detail": "1926-1939",
+    "yearStart": 1926,
+    "yearEnd": 1939,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652714/1345:768512:28682:652714/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Lorrez-le-Bocage",
+    "cote": "QP2415",
+    "detail": "1940-1954",
+    "yearStart": 1940,
+    "yearEnd": 1954,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652709/1345:768512:28682:652709/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1254",
+    "detail": "1867-1873",
+    "yearStart": 1867,
+    "yearEnd": 1873,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593932/1345:768513:23377:593932/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1255",
+    "detail": "1892-1897",
+    "yearStart": 1892,
+    "yearEnd": 1897,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593933/1345:768513:23377:593933/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1256",
+    "detail": "1898-1904",
+    "yearStart": 1898,
+    "yearEnd": 1904,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593934/1345:768513:23377:593934/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1257",
+    "detail": "1905-1911",
+    "yearStart": 1905,
+    "yearEnd": 1911,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593935/1345:768513:23377:593935/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1258",
+    "detail": "01/1918-06/1923",
+    "yearStart": 1918,
+    "yearEnd": 1923,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593936/1345:768513:23377:593936/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1259",
+    "detail": "06/1923-03/1929",
+    "yearStart": 1923,
+    "yearEnd": 1929,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593937/1345:768513:23377:593937/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1260",
+    "detail": "1929-1934",
+    "yearStart": 1929,
+    "yearEnd": 1934,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593938/1345:768513:23377:593938/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1261",
+    "detail": "1934-1939",
+    "yearStart": 1934,
+    "yearEnd": 1939,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593939/1345:768513:23377:593939/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1262",
+    "detail": "10/1939-12/1943",
+    "yearStart": 1939,
+    "yearEnd": 1943,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593940/1345:768513:23377:593940/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1263",
+    "detail": "1948-1952",
+    "yearStart": 1948,
+    "yearEnd": 1952,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593941/1345:768513:23377:593941/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1265",
+    "detail": "1952-1953",
+    "yearStart": 1952,
+    "yearEnd": 1953,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593943/1345:768513:23377:593943/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1266",
+    "detail": "1954-1955",
+    "yearStart": 1954,
+    "yearEnd": 1955,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593944/1345:768513:23377:593944/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1267",
+    "detail": "01/1955-06/1957",
+    "yearStart": 1955,
+    "yearEnd": 1957,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593945/1345:768513:23377:593945/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1268",
+    "detail": "07/1957-12/1960",
+    "yearStart": 1957,
+    "yearEnd": 1960,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593946/1345:768513:23377:593946/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1269",
+    "detail": "01/1961-12/1962",
+    "yearStart": 1961,
+    "yearEnd": 1962,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593947/1345:768513:23377:593947/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1270",
+    "detail": "1963",
+    "yearStart": 1963,
+    "yearEnd": 1963,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593948/1345:768513:23377:593948/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1271",
+    "detail": "01/1964-12/1965",
+    "yearStart": 1964,
+    "yearEnd": 1965,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593949/1345:768513:23377:593949/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Meaux",
+    "cote": "QP1272",
+    "detail": "1966-1967",
+    "yearStart": 1966,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/593950/1345:768513:23377:593950/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q5",
+    "detail": "1823-01/03/1825",
+    "yearStart": 1823,
+    "yearEnd": 1825,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268235/1345:768514:17751:268235/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q6",
+    "detail": "01/03/1825-1829",
+    "yearStart": 1825,
+    "yearEnd": 1829,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268236/1345:768514:17751:268236/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q7",
+    "detail": "1829-1835",
+    "yearStart": 1829,
+    "yearEnd": 1835,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268237/1345:768514:17751:268237/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q8",
+    "detail": "1835-1841",
+    "yearStart": 1835,
+    "yearEnd": 1841,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268238/1345:768514:17751:268238/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q9",
+    "detail": "1842-1848",
+    "yearStart": 1842,
+    "yearEnd": 1848,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268239/1345:768514:17751:268239/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q10",
+    "detail": "1849-1854",
+    "yearStart": 1849,
+    "yearEnd": 1854,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268240/1345:768514:17751:268240/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q11",
+    "detail": "1855-1858",
+    "yearStart": 1855,
+    "yearEnd": 1858,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268241/1345:768514:17751:268241/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q12",
+    "detail": "1859-1863",
+    "yearStart": 1859,
+    "yearEnd": 1863,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268242/1345:768514:17751:268242/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q27",
+    "detail": "1864-1867",
+    "yearStart": 1864,
+    "yearEnd": 1867,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268257/1345:768514:17751:268257/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q28",
+    "detail": "1868-1871",
+    "yearStart": 1868,
+    "yearEnd": 1871,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268258/1345:768514:17751:268258/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q29",
+    "detail": "1872-1877",
+    "yearStart": 1872,
+    "yearEnd": 1877,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268259/1345:768514:17751:268259/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q30",
+    "detail": "1878-1884",
+    "yearStart": 1878,
+    "yearEnd": 1884,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268260/1345:768514:17751:268260/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q31",
+    "detail": "1884-1889",
+    "yearStart": 1884,
+    "yearEnd": 1889,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268261/1345:768514:17751:268261/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "207Q32",
+    "detail": "1890-1895",
+    "yearStart": 1890,
+    "yearEnd": 1895,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268262/1345:768514:17751:268262/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q1",
+    "detail": "01/1896-12/1901",
+    "yearStart": 1896,
+    "yearEnd": 1901,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372746/1345:768514:17751:372746/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q2",
+    "detail": "01/1902-08/1908",
+    "yearStart": 1902,
+    "yearEnd": 1908,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372747/1345:768514:17751:372747/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q3",
+    "detail": "09/1908-12/1912",
+    "yearStart": 1908,
+    "yearEnd": 1912,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372748/1345:768514:17751:372748/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q4",
+    "detail": "01/1913-12/1915",
+    "yearStart": 1913,
+    "yearEnd": 1915,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372749/1345:768514:17751:372749/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q5",
+    "detail": "01/1916-12/1918",
+    "yearStart": 1916,
+    "yearEnd": 1918,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372750/1345:768514:17751:372750/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q6",
+    "detail": "01/1919-12/1922",
+    "yearStart": 1919,
+    "yearEnd": 1922,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372751/1345:768514:17751:372751/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q7",
+    "detail": "01/1923-12/1925",
+    "yearStart": 1923,
+    "yearEnd": 1925,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372752/1345:768514:17751:372752/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q8",
+    "detail": "01/1926-12/1928",
+    "yearStart": 1926,
+    "yearEnd": 1928,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372753/1345:768514:17751:372753/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q9",
+    "detail": "01/1929-12/1931",
+    "yearStart": 1929,
+    "yearEnd": 1931,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372754/1345:768514:17751:372754/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q10",
+    "detail": "01/1932-12/1934",
+    "yearStart": 1932,
+    "yearEnd": 1934,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372755/1345:768514:17751:372755/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q11",
+    "detail": "01/1935-12/1937",
+    "yearStart": 1935,
+    "yearEnd": 1937,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372756/1345:768514:17751:372756/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "371Q12",
+    "detail": "01/1938-12/1940",
+    "yearStart": 1938,
+    "yearEnd": 1940,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/372757/1345:768514:17751:372757/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2872",
+    "detail": "01/1941-12/1943",
+    "yearStart": 1941,
+    "yearEnd": 1943,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398536/1345:768514:17751:398536/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2873",
+    "detail": "01/1944-12/1946",
+    "yearStart": 1944,
+    "yearEnd": 1946,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398537/1345:768514:17751:398537/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2875",
+    "detail": "01/1947-12/1948",
+    "yearStart": 1947,
+    "yearEnd": 1948,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398539/1345:768514:17751:398539/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2876",
+    "detail": "1949",
+    "yearStart": 1949,
+    "yearEnd": 1949,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398540/1345:768514:17751:398540/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2877",
+    "detail": "01/1950-12/1951",
+    "yearStart": 1950,
+    "yearEnd": 1951,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398541/1345:768514:17751:398541/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2878",
+    "detail": "1952",
+    "yearStart": 1952,
+    "yearEnd": 1952,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398542/1345:768514:17751:398542/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2879",
+    "detail": "01/1953-12/1954",
+    "yearStart": 1953,
+    "yearEnd": 1954,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398543/1345:768514:17751:398543/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2880",
+    "detail": "1955",
+    "yearStart": 1955,
+    "yearEnd": 1955,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398544/1345:768514:17751:398544/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Melun",
+    "cote": "CAA2881",
+    "detail": "1956",
+    "yearStart": 1956,
+    "yearEnd": 1956,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398545/1345:768514:17751:398545/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q5",
+    "detail": "1820-1825",
+    "yearStart": 1820,
+    "yearEnd": 1825,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268472/1345:768518:17775:268472/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q6",
+    "detail": "1824-1834",
+    "yearStart": 1824,
+    "yearEnd": 1834,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268472/1345:768518:17775:268472/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q8",
+    "detail": "07/1841-1848",
+    "yearStart": 1841,
+    "yearEnd": 1848,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268475/1345:768518:17775:268475/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q9",
+    "detail": "03/1848-1856",
+    "yearStart": 1848,
+    "yearEnd": 1856,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268476/1345:768518:17775:268476/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q10",
+    "detail": "1856-1864",
+    "yearStart": 1856,
+    "yearEnd": 1864,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268477/1345:768518:17775:268477/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q11",
+    "detail": "1865-1873",
+    "yearStart": 1865,
+    "yearEnd": 1873,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268478/1345:768518:17775:268478/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q12",
+    "detail": "1873-1881",
+    "yearStart": 1873,
+    "yearEnd": 1881,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268479/1345:768518:17775:268479/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q13",
+    "detail": "1881-1892",
+    "yearStart": 1881,
+    "yearEnd": 1892,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268480/1345:768518:17775:268480/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q14",
+    "detail": "1893-1903",
+    "yearStart": 1893,
+    "yearEnd": 1903,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268481/1345:768518:17775:268481/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "217Q15",
+    "detail": "1904-1915",
+    "yearStart": 1904,
+    "yearEnd": 1915,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268482/1345:768518:17775:268482/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2416",
+    "detail": "1915-1919",
+    "yearStart": 1915,
+    "yearEnd": 1919,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652710/1345:768518:17775:652710/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2417",
+    "detail": "1924-1929",
+    "yearStart": 1924,
+    "yearEnd": 1929,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652711/1345:768518:17775:652711/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2401",
+    "detail": "1930-1936",
+    "yearStart": 1930,
+    "yearEnd": 1936,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652695/1345:768518:17775:652695/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2402",
+    "detail": "1936-1942",
+    "yearStart": 1936,
+    "yearEnd": 1942,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652696/1345:768518:17775:652696/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2400",
+    "detail": "1942-1949",
+    "yearStart": 1942,
+    "yearEnd": 1949,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652694/1345:768518:17775:652694/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2403",
+    "detail": "1950-1956",
+    "yearStart": 1950,
+    "yearEnd": 1956,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652697/1345:768518:17775:652697/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2404",
+    "detail": "1957-1960",
+    "yearStart": 1957,
+    "yearEnd": 1960,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652698/1345:768518:17775:652698/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2405",
+    "detail": "1961-1964",
+    "yearStart": 1961,
+    "yearEnd": 1964,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652699/1345:768518:17775:652699/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2406",
+    "detail": "1965-1966",
+    "yearStart": 1965,
+    "yearEnd": 1966,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652700/1345:768518:17775:652700/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2407",
+    "detail": "1967-1968",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652701/1345:768518:17775:652701/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Montereau-Fault-Yonne",
+    "cote": "QP2408",
+    "detail": "10/1968-12/1968",
+    "yearStart": 1968,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652702/1345:768518:17775:652702/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "227Q10",
+    "detail": "08/1824-1834",
+    "yearStart": 1824,
+    "yearEnd": 1834,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291077/1345:768519:19523:291077/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "227Q11",
+    "detail": "1834-1845",
+    "yearStart": 1834,
+    "yearEnd": 1845,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291078/1345:768519:19523:291078/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "227Q12",
+    "detail": "1845-1856",
+    "yearStart": 1845,
+    "yearEnd": 1856,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291079/1345:768519:19523:291079/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "227Q13",
+    "detail": "1856-1869",
+    "yearStart": 1856,
+    "yearEnd": 1869,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291080/1345:768519:19523:291080/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "227Q14",
+    "detail": "1869-1882",
+    "yearStart": 1869,
+    "yearEnd": 1882,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291081/1345:768519:19523:291081/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "227Q15",
+    "detail": "1882-1892",
+    "yearStart": 1882,
+    "yearEnd": 1892,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291082/1345:768519:19523:291082/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2391",
+    "detail": "1892-1905",
+    "yearStart": 1892,
+    "yearEnd": 1905,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652685/1345:768519:19523:652685/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2392",
+    "detail": "1906-1912",
+    "yearStart": 1906,
+    "yearEnd": 1912,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652686/1345:768519:19523:652686/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2393",
+    "detail": "1913-1922",
+    "yearStart": 1913,
+    "yearEnd": 1922,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652687/1345:768519:19523:652687/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2394",
+    "detail": "1923-1927",
+    "yearStart": 1923,
+    "yearEnd": 1927,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652688/1345:768519:19523:652688/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2395",
+    "detail": "1928-1934",
+    "yearStart": 1928,
+    "yearEnd": 1934,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652689/1345:768519:19523:652689/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2396",
+    "detail": "1935-1941",
+    "yearStart": 1935,
+    "yearEnd": 1941,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652690/1345:768519:19523:652690/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2397",
+    "detail": "1942-1948",
+    "yearStart": 1942,
+    "yearEnd": 1948,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652691/1345:768519:19523:652691/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2398",
+    "detail": "1949-1956",
+    "yearStart": 1949,
+    "yearEnd": 1956,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652692/1345:768519:19523:652692/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2399",
+    "detail": "1957-1962",
+    "yearStart": 1957,
+    "yearEnd": 1962,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652693/1345:768519:19523:652693/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Moret-sur-Loing",
+    "cote": "QP2418",
+    "detail": "1962-1967",
+    "yearStart": 1962,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/652712/1345:768519:19523:652712/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q1",
+    "detail": "1816-1824",
+    "yearStart": 1816,
+    "yearEnd": 1824,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q2",
+    "detail": "1825-1834",
+    "yearStart": 1825,
+    "yearEnd": 1834,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291381/1345:768520:19539:291381/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q3",
+    "detail": "1834-1848",
+    "yearStart": 1834,
+    "yearEnd": 1848,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291382/1345:768520:19539:291382/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q8",
+    "detail": "10/1848-01/1859",
+    "yearStart": 1848,
+    "yearEnd": 1859,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291387/1345:768520:19539:291387/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q9",
+    "detail": "01/1859-12/1869",
+    "yearStart": 1859,
+    "yearEnd": 1869,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291388/1345:768520:19539:291388/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q10",
+    "detail": "01/1870-12/1882",
+    "yearStart": 1870,
+    "yearEnd": 1882,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291389/1345:768520:19539:291389/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "237Q11",
+    "detail": "01/1883-09/1896",
+    "yearStart": 1883,
+    "yearEnd": 1896,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291390/1345:768520:19539:291390/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "CAA2856",
+    "detail": "1898-1913",
+    "yearStart": 1898,
+    "yearEnd": 1913,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214652/1345:768520:19539:214652/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "CAA2857",
+    "detail": "1914-1926",
+    "yearStart": 1914,
+    "yearEnd": 1926,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214653/1345:768520:19539:214653/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "CAA2858",
+    "detail": "1927-1938",
+    "yearStart": 1927,
+    "yearEnd": 1938,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214654/1345:768520:19539:214654/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Mormant",
+    "cote": "CAA2859",
+    "detail": "01/1939-02/1948",
+    "yearStart": 1939,
+    "yearEnd": 1948,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398559/1345:768520:19539:398559/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q9/1",
+    "detail": "1825-1837",
+    "yearStart": 1825,
+    "yearEnd": 1837,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/401049/1345:768522:19557:401049/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q9/2",
+    "detail": "1837-1845",
+    "yearStart": 1837,
+    "yearEnd": 1845,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/401050/1345:768522:19557:401050/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q10",
+    "detail": "1845-1856",
+    "yearStart": 1845,
+    "yearEnd": 1856,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291716/1345:768522:19557:291716/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q11",
+    "detail": "06/1857-11/1866",
+    "yearStart": 1857,
+    "yearEnd": 1866,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291717/1345:768522:19557:291717/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q12",
+    "detail": "08/1867-06/1879",
+    "yearStart": 1867,
+    "yearEnd": 1879,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291718/1345:768522:19557:291718/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q13",
+    "detail": "04/1879-06/1892",
+    "yearStart": 1879,
+    "yearEnd": 1892,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291719/1345:768522:19557:291719/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q14",
+    "detail": "07/1892-04/1905",
+    "yearStart": 1892,
+    "yearEnd": 1905,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/291720/1345:768522:19557:291720/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q23",
+    "detail": "05/1905-06/1918",
+    "yearStart": 1905,
+    "yearEnd": 1918,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/864755/1345:768522:19557:864755/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q24",
+    "detail": "06/1918-04/1930",
+    "yearStart": 1918,
+    "yearEnd": 1930,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/864756/1345:768522:19557:864756/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q17",
+    "detail": "05/1930-05/1942",
+    "yearStart": 1930,
+    "yearEnd": 1942,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/759341/1345:768522:19557:759341/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q18",
+    "detail": "07/1942-08/1951",
+    "yearStart": 1942,
+    "yearEnd": 1951,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/759342/1345:768522:19557:759342/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q19",
+    "detail": "08/1951-04/1960",
+    "yearStart": 1951,
+    "yearEnd": 1960,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/759343/1345:768522:19557:759343/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q21",
+    "detail": "1952-1960",
+    "yearStart": 1952,
+    "yearEnd": 1960,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/759343/1345:768522:19557:759343/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q20",
+    "detail": "1961-1966",
+    "yearStart": 1961,
+    "yearEnd": 1966,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/759344/1345:768522:19557:759344/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nangis",
+    "cote": "247Q22",
+    "detail": "1961-1966",
+    "yearStart": 1961,
+    "yearEnd": 1966,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/759344/1345:768522:19557:759344/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "257Q6/1",
+    "detail": "01/1825-12/1838",
+    "yearStart": 1825,
+    "yearEnd": 1838,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/401620/1345:768523:19586:401620/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "257Q6/2",
+    "detail": "02/1839-10/1850",
+    "yearStart": 1839,
+    "yearEnd": 1850,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/401621/1345:768523:19586:401621/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "257Q6/3",
+    "detail": "09/1850-10/1861",
+    "yearStart": 1850,
+    "yearEnd": 1861,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/401622/1345:768523:19586:401622/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "257Q12",
+    "detail": "07/1860-05/1870",
+    "yearStart": 1860,
+    "yearEnd": 1870,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/292092/1345:768523:19586:292092/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "257Q13",
+    "detail": "07/1870-08/1880",
+    "yearStart": 1870,
+    "yearEnd": 1880,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/292093/1345:768523:19586:292093/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "257Q14",
+    "detail": "02/1880-07/1890",
+    "yearStart": 1880,
+    "yearEnd": 1890,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/292094/1345:768523:19586:292094/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "2709W395",
+    "detail": "1891-1901",
+    "yearStart": 1891,
+    "yearEnd": 1901,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409692/1345:768523:19586:409692/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "2709W396",
+    "detail": "1902-1915",
+    "yearStart": 1902,
+    "yearEnd": 1915,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409693/1345:768523:19586:409693/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "2709W397",
+    "detail": "1916-1924",
+    "yearStart": 1916,
+    "yearEnd": 1924,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409694/1345:768523:19586:409694/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "2709W398",
+    "detail": "1925-1932",
+    "yearStart": 1925,
+    "yearEnd": 1932,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409695/1345:768523:19586:409695/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Nemours",
+    "cote": "2709W399",
+    "detail": "1933-1939",
+    "yearStart": 1933,
+    "yearEnd": 1939,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/409696/1345:768523:19586:409696/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q10",
+    "detail": "02/1825-12/1830",
+    "yearStart": 1825,
+    "yearEnd": 1830,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268643/1345:768524:19738:268643/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q11",
+    "detail": "03/1830-06/1834",
+    "yearStart": 1830,
+    "yearEnd": 1834,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268644/1345:768524:19738:268644/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q12",
+    "detail": "02/1834-06/1842",
+    "yearStart": 1834,
+    "yearEnd": 1842,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268645/1345:768524:19738:268645/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q13",
+    "detail": "07/1838-01/1846",
+    "yearStart": 1838,
+    "yearEnd": 1846,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268646/1345:768524:19738:268646/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q14",
+    "detail": "07/1845-07/1851",
+    "yearStart": 1845,
+    "yearEnd": 1851,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268647/1345:768524:19738:268647/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q15",
+    "detail": "04/1850-10/1854",
+    "yearStart": 1850,
+    "yearEnd": 1854,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268648/1345:768524:19738:268648/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q16",
+    "detail": "01/1855-03/1860",
+    "yearStart": 1855,
+    "yearEnd": 1860,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268649/1345:768524:19738:268649/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q17",
+    "detail": "08/1859-06/1866",
+    "yearStart": 1859,
+    "yearEnd": 1866,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268650/1345:768524:19738:268650/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q19",
+    "detail": "04/1873-11/1882",
+    "yearStart": 1873,
+    "yearEnd": 1882,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268651/1345:768524:19738:268651/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q20",
+    "detail": "01/1881-08/1888",
+    "yearStart": 1881,
+    "yearEnd": 1888,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268652/1345:768524:19738:268652/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q21",
+    "detail": "02/1889-03/1898",
+    "yearStart": 1889,
+    "yearEnd": 1898,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268653/1345:768524:19738:268653/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q78",
+    "detail": "1898-1907",
+    "yearStart": 1898,
+    "yearEnd": 1907,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761228/1345:768524:19738:761228/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q79",
+    "detail": "1907-1917",
+    "yearStart": 1907,
+    "yearEnd": 1917,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761229/1345:768524:19738:761229/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q80",
+    "detail": "1917-1926",
+    "yearStart": 1917,
+    "yearEnd": 1926,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761230/1345:768524:19738:761230/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q81",
+    "detail": "1926-1932",
+    "yearStart": 1926,
+    "yearEnd": 1932,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761231/1345:768524:19738:761231/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q82",
+    "detail": "1933-1938",
+    "yearStart": 1933,
+    "yearEnd": 1938,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761232/1345:768524:19738:761232/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q83",
+    "detail": "1939-1944",
+    "yearStart": 1939,
+    "yearEnd": 1944,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761233/1345:768524:19738:761233/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q84",
+    "detail": "1944-1951",
+    "yearStart": 1944,
+    "yearEnd": 1951,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761234/1345:768524:19738:761234/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q85",
+    "detail": "1952-1958",
+    "yearStart": 1952,
+    "yearEnd": 1958,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761235/1345:768524:19738:761235/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q86",
+    "detail": "1958-1960",
+    "yearStart": 1958,
+    "yearEnd": 1960,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761236/1345:768524:19738:761236/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q87",
+    "detail": "1960-1961",
+    "yearStart": 1960,
+    "yearEnd": 1961,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761237/1345:768524:19738:761237/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q88",
+    "detail": "1962-1965",
+    "yearStart": 1962,
+    "yearEnd": 1965,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761238/1345:768524:19738:761238/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q89",
+    "detail": "1965-1967",
+    "yearStart": 1965,
+    "yearEnd": 1967,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761239/1345:768524:19738:761239/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q90",
+    "detail": "1967-1968",
+    "yearStart": 1967,
+    "yearEnd": 1968,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761240/1345:768524:19738:761240/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Provins",
+    "cote": "266Q91",
+    "detail": "1968-1969",
+    "yearStart": 1968,
+    "yearEnd": 1969,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/761241/1345:768524:19738:761241/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "277Q19",
+    "detail": "02/1889-05/1901",
+    "yearStart": 1889,
+    "yearEnd": 1901,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/268960/1345:768525:19642:268960/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "329Q1",
+    "detail": "1901-11/07/1909",
+    "yearStart": 1901,
+    "yearEnd": 1909,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308829/1345:768525:19642:308829/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "329Q2",
+    "detail": "1910-1920",
+    "yearStart": 1910,
+    "yearEnd": 1920,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308830/1345:768525:19642:308830/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "329Q3",
+    "detail": "1920-1932",
+    "yearStart": 1920,
+    "yearEnd": 1932,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308831/1345:768525:19642:308831/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "329Q18",
+    "detail": "03/1932-12/1944",
+    "yearStart": 1932,
+    "yearEnd": 1944,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746716/1345:768525:19642:746716/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "329Q19",
+    "detail": "01/1945-01/1956",
+    "yearStart": 1945,
+    "yearEnd": 1956,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746717/1345:768525:19642:746717/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rebais",
+    "cote": "329Q20",
+    "detail": "02/1963-12/1965",
+    "yearStart": 1963,
+    "yearEnd": 1965,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746718/1345:768525:19642:746718/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q5",
+    "detail": "01/01/1825-01/06/1833",
+    "yearStart": 1825,
+    "yearEnd": 1833,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293290/1345:768526:19664:293290/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q6",
+    "detail": "01/06/1833-15/06/1835",
+    "yearStart": 1833,
+    "yearEnd": 1835,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293291/1345:768526:19664:293291/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q7",
+    "detail": "01/10/1840-01/06/1843",
+    "yearStart": 1840,
+    "yearEnd": 1843,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293292/1345:768526:19664:293292/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q21",
+    "detail": "04/1849-05/1856",
+    "yearStart": 1849,
+    "yearEnd": 1856,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293306/1345:768526:19664:293306/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q22",
+    "detail": "04/1856-10/1863",
+    "yearStart": 1856,
+    "yearEnd": 1863,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293307/1345:768526:19664:293307/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q23",
+    "detail": "10/1863-05/1870",
+    "yearStart": 1863,
+    "yearEnd": 1870,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293308/1345:768526:19664:293308/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q24",
+    "detail": "07/1870-09/1881",
+    "yearStart": 1870,
+    "yearEnd": 1881,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293309/1345:768526:19664:293309/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q25",
+    "detail": "05/1881-09/1891",
+    "yearStart": 1881,
+    "yearEnd": 1891,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293310/1345:768526:19664:293310/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "287Q26",
+    "detail": "10/1891-12/1902",
+    "yearStart": 1891,
+    "yearEnd": 1902,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293311/1345:768526:19664:293311/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "334Q1",
+    "detail": "01/01/1903-1915",
+    "yearStart": 1903,
+    "yearEnd": 1915,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308947/1345:768526:19664:308947/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "334Q2",
+    "detail": "1916-06/1925",
+    "yearStart": 1916,
+    "yearEnd": 1925,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/308948/1345:768526:19664:308948/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "334Q17",
+    "detail": "01/1925-01/1935",
+    "yearStart": 1925,
+    "yearEnd": 1935,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746767/1345:768526:19664:746767/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "334Q18",
+    "detail": "01/1935-08/1945",
+    "yearStart": 1935,
+    "yearEnd": 1945,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746768/1345:768526:19664:746768/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "334Q19",
+    "detail": "09/1945-02/1959",
+    "yearStart": 1945,
+    "yearEnd": 1959,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746769/1345:768526:19664:746769/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Rozay-en-Brie",
+    "cote": "334Q20",
+    "detail": "03/1959-12/1964",
+    "yearStart": 1959,
+    "yearEnd": 1964,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/746770/1345:768526:19664:746770/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "297Q6",
+    "detail": "1803-31/12/1811",
+    "yearStart": 1803,
+    "yearEnd": 1811,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "297Q7",
+    "detail": "01/01/1812-31/12/1824",
+    "yearStart": 1812,
+    "yearEnd": 1824,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "297Q4",
+    "detail": "01/04/1825-01/01/1835",
+    "yearStart": 1825,
+    "yearEnd": 1835,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293597/1345:768530:19710:293597/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "297Q5",
+    "detail": "01/01/1835-30/06/1849",
+    "yearStart": 1835,
+    "yearEnd": 1849,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293598/1345:768530:19710:293598/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "297Q12",
+    "detail": "1849-1861",
+    "yearStart": 1849,
+    "yearEnd": 1861,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/293604/1345:768530:19710:293604/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2848",
+    "detail": "1861-1870",
+    "yearStart": 1861,
+    "yearEnd": 1870,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214645/1345:768530:19710:214645/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2849",
+    "detail": "1871-1882",
+    "yearStart": 1871,
+    "yearEnd": 1882,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214646/1345:768530:19710:214646/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2850",
+    "detail": "1883-1893",
+    "yearStart": 1883,
+    "yearEnd": 1893,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214647/1345:768530:19710:214647/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2851",
+    "detail": "1894-1909",
+    "yearStart": 1894,
+    "yearEnd": 1909,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214648/1345:768530:19710:214648/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2852",
+    "detail": "1909-1923",
+    "yearStart": 1909,
+    "yearEnd": 1923,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214649/1345:768530:19710:214649/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2853",
+    "detail": "1924-1933",
+    "yearStart": 1924,
+    "yearEnd": 1933,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214650/1345:768530:19710:214650/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2854",
+    "detail": "1933-1942",
+    "yearStart": 1933,
+    "yearEnd": 1942,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/214651/1345:768530:19710:214651/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Tournan-en-Brie",
+    "cote": "CAA2855",
+    "detail": "04/1941-10/1950",
+    "yearStart": 1941,
+    "yearEnd": 1950,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/398558/1345:768530:19710:398558/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q1",
+    "detail": "01 vendémiaire An VIII-30 ventôse An XI",
+    "yearStart": 1799,
+    "yearEnd": 1802,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q3",
+    "detail": "03/1833-05/1847",
+    "yearStart": 1833,
+    "yearEnd": 1847,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q4",
+    "detail": "06/1847-09/1860",
+    "yearStart": 1847,
+    "yearEnd": 1860,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q5",
+    "detail": "09/1857-03/1860",
+    "yearStart": 1857,
+    "yearEnd": 1860,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q6",
+    "detail": "10/1866-06/1880",
+    "yearStart": 1866,
+    "yearEnd": 1880,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q7",
+    "detail": "02/1877-06/1891",
+    "yearStart": 1877,
+    "yearEnd": 1891,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "306Q8",
+    "detail": "06/1891-05/1908",
+    "yearStart": 1891,
+    "yearEnd": 1908,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/rechercheTheme",
+    "digitized": false
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "415Q7",
+    "detail": "1908-1918",
+    "yearStart": 1908,
+    "yearEnd": 1918,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/767947/1345:768532:19719:767947/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "415Q8",
+    "detail": "1918-1930",
+    "yearStart": 1918,
+    "yearEnd": 1930,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/767948/1345:768532:19719:767948/1080/1920",
+    "digitized": true
+  },
+  {
+    "place": "Villiers-Saint-Georges",
+    "cote": "415Q9",
+    "detail": "1930-1934",
+    "yearStart": 1930,
+    "yearEnd": 1934,
+    "url": "https://archives-en-ligne.seine-et-marne.fr/mdr/index.php/docnumViewer/calculHierarchieDocNum/758582/1345:768532:19719:758582/1080/1920",
+    "digitized": true
+  }
+]

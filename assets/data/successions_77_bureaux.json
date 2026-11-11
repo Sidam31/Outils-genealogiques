@@ -1,0 +1,2194 @@
+{
+  "ACHERES LA FORET": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 3.8
+  },
+  "AMILLIS": {
+    "bureau": "Coulommiers",
+    "distanceKm": 9.3
+  },
+  "AMPONVILLE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 4.0
+  },
+  "ANDREZEL": {
+    "bureau": "Mormant",
+    "distanceKm": 5.7
+  },
+  "ANNET SUR MARNE": {
+    "bureau": "Claye",
+    "distanceKm": 2.8
+  },
+  "ARBONNE LA FORET": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 9.5
+  },
+  "ARBONNE": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 9.5
+  },
+  "ARGENTIERES": {
+    "bureau": "Mormant",
+    "distanceKm": 6.3
+  },
+  "ARMENTIERES EN BRIE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 6.4
+  },
+  "ARVILLE": {
+    "bureau": "Château-Landon",
+    "distanceKm": 11.0
+  },
+  "AUBEPIERRE OZOUER LE REPOS": {
+    "bureau": "Mormant",
+    "distanceKm": 2.9
+  },
+  "AUBEPIERRE": {
+    "bureau": "Mormant",
+    "distanceKm": 2.9
+  },
+  "AUFFERVILLE": {
+    "bureau": "Château-Landon",
+    "distanceKm": 9.3
+  },
+  "AUGERS EN BRIE": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 4.3
+  },
+  "AULNOY": {
+    "bureau": "Coulommiers",
+    "distanceKm": 4.4
+  },
+  "AVON": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 4.0
+  },
+  "BABY": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 7.9
+  },
+  "BAGNEAUX SUR LOING": {
+    "bureau": "Nemours",
+    "distanceKm": 4.8
+  },
+  "BAILLY CARROIS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "BAILLY ROMAINVILLIERS": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 7.9
+  },
+  "BALLOY": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 7.5
+  },
+  "BANNOST VILLEGAGNON": {
+    "bureau": "Provins",
+    "distanceKm": 14.2
+  },
+  "BANNOST": {
+    "bureau": "Provins",
+    "distanceKm": 14.2
+  },
+  "BARBEY": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 6.9
+  },
+  "BARBIZON": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 6.3
+  },
+  "BARCY": {
+    "bureau": "Meaux",
+    "distanceKm": 6.8
+  },
+  "BASSEVELLE": {
+    "bureau": "Rebais",
+    "distanceKm": 8.1
+  },
+  "BAZOCHES LES BRAY": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 4.6
+  },
+  "BEAUCHERY SAINT MARTIN": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 6.0
+  },
+  "BEAUCHERY": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 6.0
+  },
+  "BEAUMONT DU GATINAIS": {
+    "bureau": "Château-Landon",
+    "distanceKm": 15.4
+  },
+  "BEAUTHEIL": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "BEAUTHEIL SAINTS": {
+    "bureau": "Coulommiers",
+    "distanceKm": 5.5
+  },
+  "SAINTS": {
+    "bureau": "Coulommiers",
+    "distanceKm": 5.5
+  },
+  "BEAUVOIR": {
+    "bureau": "Mormant",
+    "distanceKm": 5.3
+  },
+  "BELLOT": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 5.9
+  },
+  "BERNAY VILBERT": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 2.1
+  },
+  "BERNAY EN BRIE": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 2.1
+  },
+  "BETON BAZOCHES": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 10.4
+  },
+  "BEZALLES": {
+    "bureau": "Provins",
+    "distanceKm": 12.1
+  },
+  "BLANDY": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 6.7
+  },
+  "BLENNES": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 8.9
+  },
+  "BOIS LE ROI": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 5.9
+  },
+  "BOISDON": {
+    "bureau": "Provins",
+    "distanceKm": 13.2
+  },
+  "BOISSETTES": {
+    "bureau": "Melun",
+    "distanceKm": 3.5
+  },
+  "BOISSISE LA BERTRAND": {
+    "bureau": "Melun",
+    "distanceKm": 5.0
+  },
+  "BOISSISE LE ROI": {
+    "bureau": "Melun",
+    "distanceKm": 7.1
+  },
+  "BOISSY AUX CAILLES": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 5.9
+  },
+  "BOISSY LE CHATEL": {
+    "bureau": "Coulommiers",
+    "distanceKm": 3.8
+  },
+  "BOITRON": {
+    "bureau": "Rebais",
+    "distanceKm": 4.9
+  },
+  "BOMBON": {
+    "bureau": "Mormant",
+    "distanceKm": 3.1
+  },
+  "BOUGLIGNY": {
+    "bureau": "Château-Landon",
+    "distanceKm": 5.9
+  },
+  "BOULANCOURT": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 10.7
+  },
+  "BOULEURS": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 2.8
+  },
+  "BOURRON MARLOTTE": {
+    "bureau": "Nemours",
+    "distanceKm": 8.3
+  },
+  "BOUTIGNY": {
+    "bureau": "Meaux",
+    "distanceKm": 5.2
+  },
+  "BRANSLES": {
+    "bureau": "Château-Landon",
+    "distanceKm": 10.0
+  },
+  "BROU SUR CHANTEREINE": {
+    "bureau": "Lagny",
+    "distanceKm": 5.1
+  },
+  "BREAU": {
+    "bureau": "Mormant",
+    "distanceKm": 4.3
+  },
+  "BURCY": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 9.5
+  },
+  "BUSSIERES": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 7.8
+  },
+  "BUSSY SAINT GEORGES": {
+    "bureau": "Lagny",
+    "distanceKm": 5.0
+  },
+  "BUSSY SAINT MARTIN": {
+    "bureau": "Lagny",
+    "distanceKm": 3.4
+  },
+  "BUTHIERS": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 8.5
+  },
+  "CANNES ECLUSE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 3.7
+  },
+  "CARNETIN": {
+    "bureau": "Lagny",
+    "distanceKm": 3.6
+  },
+  "CERNEUX": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 8.0
+  },
+  "CESSON": {
+    "bureau": "Melun",
+    "distanceKm": 5.7
+  },
+  "CESSOY EN MONTOIS": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 3.4
+  },
+  "CHAILLY EN BIERE": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 7.5
+  },
+  "CHAILLY EN BRIE": {
+    "bureau": "Coulommiers",
+    "distanceKm": 4.0
+  },
+  "CHAINTREAUX": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 8.1
+  },
+  "CHALAUTRE LA GRANDE": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 11.8
+  },
+  "CHALAUTRE LA PETITE": {
+    "bureau": "Provins",
+    "distanceKm": 4.1
+  },
+  "CHALAUTRE LA REPOSTE": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "CHALIFERT": {
+    "bureau": "Lagny",
+    "distanceKm": 5.7
+  },
+  "CHALMAISON": {
+    "bureau": "Provins",
+    "distanceKm": 8.3
+  },
+  "CHAMBRY": {
+    "bureau": "Meaux",
+    "distanceKm": 4.8
+  },
+  "CHAMIGNY": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 3.4
+  },
+  "CHAMPAGNE SUR SEINE": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 5.9
+  },
+  "CHAMPCENEST": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 9.7
+  },
+  "CHAMPDEUIL": {
+    "bureau": "Melun",
+    "distanceKm": 10.5
+  },
+  "CHAMPEAUX": {
+    "bureau": "Mormant",
+    "distanceKm": 4.5
+  },
+  "CHAMPS SUR MARNE": {
+    "bureau": "Lagny",
+    "distanceKm": 8.5
+  },
+  "CHAMPS": {
+    "bureau": "Lagny",
+    "distanceKm": 8.5
+  },
+  "CHANGIS SUR MARNE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 7.7
+  },
+  "CHANTELOUP EN BRIE": {
+    "bureau": "Lagny",
+    "distanceKm": 3.0
+  },
+  "CHANTELOUP": {
+    "bureau": "Lagny",
+    "distanceKm": 3.0
+  },
+  "CHARMENTRAY": {
+    "bureau": "Claye",
+    "distanceKm": 7.2
+  },
+  "CHARNY": {
+    "bureau": "Claye",
+    "distanceKm": 6.5
+  },
+  "CHARTRETTES": {
+    "bureau": "Melun",
+    "distanceKm": 6.5
+  },
+  "CHARTRONGES": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 5.2
+  },
+  "CHAUCONIN": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "CHAUCONIN NEUFMONTIERS": {
+    "bureau": "Meaux",
+    "distanceKm": 5.4
+  },
+  "NEUFMONTIERS LES MEAUX": {
+    "bureau": "Meaux",
+    "distanceKm": 5.4
+  },
+  "CHAUFFRY": {
+    "bureau": "Rebais",
+    "distanceKm": 5.3
+  },
+  "CHAUMES EN BRIE": {
+    "bureau": "Mormant",
+    "distanceKm": 7.8
+  },
+  "CHELLES": {
+    "bureau": "Lagny",
+    "distanceKm": 8.1
+  },
+  "CHENOISE CUCHARMOY": {
+    "bureau": "Provins",
+    "distanceKm": 9.3
+  },
+  "CHENOISE": {
+    "bureau": "Provins",
+    "distanceKm": 9.3
+  },
+  "CHENOU": {
+    "bureau": "Château-Landon",
+    "distanceKm": 3.8
+  },
+  "CHESSY": {
+    "bureau": "Lagny",
+    "distanceKm": 4.8
+  },
+  "CHEVRAINVILLIERS": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 7.9
+  },
+  "CHEVRU": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 10.0
+  },
+  "CHEVRY COSSIGNY": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 5.7
+  },
+  "CHEVRY EN SEREINE": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 5.3
+  },
+  "CHOISY EN BRIE": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 7.7
+  },
+  "CHATEAUBLEAU": {
+    "bureau": "Nangis",
+    "distanceKm": 7.9
+  },
+  "CHATENAY SUR SEINE": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 7.1
+  },
+  "CHATENOY": {
+    "bureau": "Nemours",
+    "distanceKm": 7.7
+  },
+  "CHATILLON LA BORDE": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 4.5
+  },
+  "CHATRES": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 4.8
+  },
+  "CITRY": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 8.1
+  },
+  "CLAYE SOUILLY": {
+    "bureau": "Claye",
+    "distanceKm": 0.0
+  },
+  "CLOS FONTAINE": {
+    "bureau": "Nangis",
+    "distanceKm": 5.1
+  },
+  "COCHEREL": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 6.7
+  },
+  "COLLEGIEN": {
+    "bureau": "Lagny",
+    "distanceKm": 5.6
+  },
+  "COMBS LA VILLE": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 4.3
+  },
+  "COMPANS": {
+    "bureau": "Claye",
+    "distanceKm": 5.9
+  },
+  "CONCHES SUR GONDOIRE": {
+    "bureau": "Lagny",
+    "distanceKm": 1.9
+  },
+  "CONCHES": {
+    "bureau": "Lagny",
+    "distanceKm": 1.9
+  },
+  "CONDE SAINTE LIBIAIRE": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 7.8
+  },
+  "CONGIS SUR THEROUANNE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 4.0
+  },
+  "CONGIS": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 4.0
+  },
+  "COUBERT": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 7.1
+  },
+  "COUILLY PONT AUX DAMES": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.2
+  },
+  "COULOMBS EN VALOIS": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 9.0
+  },
+  "COULOMBS": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 9.0
+  },
+  "COULOMMES": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 3.6
+  },
+  "COUPVRAY": {
+    "bureau": "Lagny",
+    "distanceKm": 6.7
+  },
+  "COURCELLES EN BASSEE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 6.9
+  },
+  "COURCELLES": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 6.9
+  },
+  "COURCHAMP": {
+    "bureau": "Provins",
+    "distanceKm": 8.9
+  },
+  "COURPALAY": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 4.1
+  },
+  "COURQUETAINE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 7.2
+  },
+  "COURTACON": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 9.6
+  },
+  "COURTOMER": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 5.4
+  },
+  "COURTRY": {
+    "bureau": "Claye",
+    "distanceKm": 6.2
+  },
+  "COUTENCON": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 9.2
+  },
+  "COUTEVROULT": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.9
+  },
+  "CRISENOY": {
+    "bureau": "Melun",
+    "distanceKm": 9.4
+  },
+  "CROISSY BEAUBOURG": {
+    "bureau": "Lagny",
+    "distanceKm": 7.0
+  },
+  "CROUY SUR OURCQ": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 7.3
+  },
+  "CREVECŒUR EN BRIE": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 9.1
+  },
+  "CRECY LA CHAPELLE": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 0.0
+  },
+  "CREGY LES MEAUX": {
+    "bureau": "Meaux",
+    "distanceKm": 3.0
+  },
+  "CUCHARMOY": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "CUISY": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 8.2
+  },
+  "CELY": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 12.3
+  },
+  "DAGNY": {
+    "bureau": "Coulommiers",
+    "distanceKm": 11.7
+  },
+  "DAMMARIE LES LYS": {
+    "bureau": "Melun",
+    "distanceKm": 4.0
+  },
+  "DAMMARTIN SUR TIGEAUX": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.8
+  },
+  "DAMPMART": {
+    "bureau": "Lagny",
+    "distanceKm": 3.9
+  },
+  "DARVAULT": {
+    "bureau": "Nemours",
+    "distanceKm": 1.4
+  },
+  "DHUISY": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 9.2
+  },
+  "DIANT": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 9.9
+  },
+  "DONNEMARIE DONTILLY": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 0.0
+  },
+  "DONTILLY": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "DORMELLES": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 6.9
+  },
+  "DOUE": {
+    "bureau": "Rebais",
+    "distanceKm": 4.9
+  },
+  "DOUY LA RAMEE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 10.4
+  },
+  "ESBLY": {
+    "bureau": "Lagny",
+    "distanceKm": 8.5
+  },
+  "ESMANS": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 5.3
+  },
+  "EVERLY": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 5.1
+  },
+  "FAREMOUTIERS": {
+    "bureau": "Coulommiers",
+    "distanceKm": 7.3
+  },
+  "FAVIERES": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 4.6
+  },
+  "FAY LES NEMOURS": {
+    "bureau": "Nemours",
+    "distanceKm": 5.7
+  },
+  "FERRIERES EN BRIE": {
+    "bureau": "Lagny",
+    "distanceKm": 6.0
+  },
+  "FERRIERES": {
+    "bureau": "Lagny",
+    "distanceKm": 6.0
+  },
+  "FLAGY": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 7.6
+  },
+  "FLEURY EN BIERE": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 10.8
+  },
+  "FONTAINE FOURCHES": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 11.0
+  },
+  "FONTAINE LE PORT": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 3.6
+  },
+  "FONTAINE SOUS MONTAIGUILLON": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "FONTAINS": {
+    "bureau": "Nangis",
+    "distanceKm": 4.1
+  },
+  "FONTENAILLES": {
+    "bureau": "Nangis",
+    "distanceKm": 6.8
+  },
+  "FONTENAY TRESIGNY": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 7.3
+  },
+  "FORFRY": {
+    "bureau": "Meaux",
+    "distanceKm": 11.4
+  },
+  "FORGES": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 3.9
+  },
+  "FOUJU": {
+    "bureau": "Mormant",
+    "distanceKm": 8.5
+  },
+  "FRESNES SUR MARNE": {
+    "bureau": "Claye",
+    "distanceKm": 4.2
+  },
+  "FROMONT": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 8.0
+  },
+  "FRETOY": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 12.2
+  },
+  "FUBLAINES": {
+    "bureau": "Meaux",
+    "distanceKm": 3.6
+  },
+  "FERICY": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 4.1
+  },
+  "FEROLLES ATTILLY": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 5.3
+  },
+  "GARENTREVILLE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 8.9
+  },
+  "GASTINS": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 7.5
+  },
+  "GERMIGNY L EVEQUE": {
+    "bureau": "Meaux",
+    "distanceKm": 5.3
+  },
+  "GERMIGNY SOUS COULOMBS": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 11.0
+  },
+  "GESVRES LE CHAPITRE": {
+    "bureau": "Meaux",
+    "distanceKm": 9.6
+  },
+  "GIREMOUTIERS": {
+    "bureau": "Coulommiers",
+    "distanceKm": 6.8
+  },
+  "GIRONVILLE": {
+    "bureau": "Château-Landon",
+    "distanceKm": 12.0
+  },
+  "GOUAIX": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 7.7
+  },
+  "GOUVERNES": {
+    "bureau": "Lagny",
+    "distanceKm": 1.7
+  },
+  "GRANDPUITS BAILLY CARROIS": {
+    "bureau": "Nangis",
+    "distanceKm": 3.3
+  },
+  "GRANDPUITS": {
+    "bureau": "Nangis",
+    "distanceKm": 3.3
+  },
+  "GRAVON": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 9.6
+  },
+  "GRESSY": {
+    "bureau": "Claye",
+    "distanceKm": 3.0
+  },
+  "GRETZ ARMAINVILLIERS": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 3.9
+  },
+  "GRETZ": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 3.9
+  },
+  "GREZ SUR LOING": {
+    "bureau": "Nemours",
+    "distanceKm": 5.6
+  },
+  "GRISY SUISNES": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 5.1
+  },
+  "GRISY SUR SEINE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 6.1
+  },
+  "GREGY SUR YERRE": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "GUERCHEVILLE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 5.8
+  },
+  "GUERMANTES": {
+    "bureau": "Lagny",
+    "distanceKm": 2.3
+  },
+  "GUIGNES": {
+    "bureau": "Mormant",
+    "distanceKm": 7.1
+  },
+  "GURCY LE CHATEL": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 2.9
+  },
+  "GUERARD": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.5
+  },
+  "HAUTEFEUILLE": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 9.4
+  },
+  "HERME": {
+    "bureau": "Provins",
+    "distanceKm": 9.5
+  },
+  "HONDEVILLIERS": {
+    "bureau": "Rebais",
+    "distanceKm": 7.8
+  },
+  "HERICY": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 6.5
+  },
+  "ICHY": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 11.9
+  },
+  "ISLES LES MELDEUSES": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 4.1
+  },
+  "ISLES LES VILLENOY": {
+    "bureau": "Meaux",
+    "distanceKm": 7.1
+  },
+  "IVERNY": {
+    "bureau": "Meaux",
+    "distanceKm": 9.3
+  },
+  "JABLINES": {
+    "bureau": "Lagny",
+    "distanceKm": 6.4
+  },
+  "JAIGNES": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 5.0
+  },
+  "JAULNES": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 2.0
+  },
+  "JOSSIGNY": {
+    "bureau": "Lagny",
+    "distanceKm": 6.4
+  },
+  "JOUARRE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 5.8
+  },
+  "JOUY LE CHATEL": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 13.1
+  },
+  "JOUY SUR MORIN": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 2.3
+  },
+  "JUILLY": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 3.8
+  },
+  "JUTIGNY": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 7.8
+  },
+  "LA BROSSE MONTCEAUX": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 7.6
+  },
+  "LA CELLE SUR MORIN": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 7.3
+  },
+  "LA CELLE SUR SEINE": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "LA CHAPELLE GAUTHIER": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 5.3
+  },
+  "LA CHAPELLE IGER": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 4.1
+  },
+  "LA CHAPELLE MOUTILS": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 6.0
+  },
+  "LA CHAPELLE VERONGE": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 6.0
+  },
+  "LA CHAPELLE RABLAIS": {
+    "bureau": "Nangis",
+    "distanceKm": 6.5
+  },
+  "LA CHAPELLE SAINT SULPICE": {
+    "bureau": "Provins",
+    "distanceKm": 7.9
+  },
+  "LA CHAPELLE SUR CRECY": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "LA CROIX EN BRIE": {
+    "bureau": "Nangis",
+    "distanceKm": 6.2
+  },
+  "LA GENEVRAYE": {
+    "bureau": "Nemours",
+    "distanceKm": 6.4
+  },
+  "LA GRANDE PAROISSE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 5.2
+  },
+  "LA HAUTE MAISON": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 6.5
+  },
+  "LA HOUSSAYE EN BRIE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 7.0
+  },
+  "LA MADELEINE SUR LOING": {
+    "bureau": "Château-Landon",
+    "distanceKm": 6.1
+  },
+  "LA ROCHETTE": {
+    "bureau": "Melun",
+    "distanceKm": 3.9
+  },
+  "LA TOMBE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 9.8
+  },
+  "LA TRETOIRE": {
+    "bureau": "Rebais",
+    "distanceKm": 2.4
+  },
+  "LAGNY SUR MARNE": {
+    "bureau": "Lagny",
+    "distanceKm": 0.0
+  },
+  "LARCHANT": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 3.9
+  },
+  "LAVAL EN BRIE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 7.3
+  },
+  "LE CHATELET EN BRIE": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 0.0
+  },
+  "LE MESNIL AMELOT": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 6.9
+  },
+  "LE MEE SUR SEINE": {
+    "bureau": "Melun",
+    "distanceKm": 1.9
+  },
+  "LE PIN": {
+    "bureau": "Claye",
+    "distanceKm": 4.8
+  },
+  "LE PLESSIS FEU AUSSOUX": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 6.7
+  },
+  "LE PLESSIS PLACY": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 3.2
+  },
+  "LE PLESSIS AUX BOIS": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 8.4
+  },
+  "LE PLESSIS L EVEQUE": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 9.7
+  },
+  "LE VAUDOUE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 5.2
+  },
+  "LES CHAPELLES BOURBON": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 4.3
+  },
+  "LES MARETS": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 7.1
+  },
+  "LES ORMES SUR VOULZIE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 5.3
+  },
+  "LES ECRENNES": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 5.3
+  },
+  "LESCHEROLLES": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 4.6
+  },
+  "LESCHES": {
+    "bureau": "Lagny",
+    "distanceKm": 8.2
+  },
+  "LEUDON EN BRIE": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 7.7
+  },
+  "LIEUSAINT": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 8.4
+  },
+  "LIMOGES FOURCHES": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 8.2
+  },
+  "LISSY": {
+    "bureau": "Melun",
+    "distanceKm": 9.2
+  },
+  "LIVERDY EN BRIE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 5.0
+  },
+  "LIVRY SUR SEINE": {
+    "bureau": "Melun",
+    "distanceKm": 5.0
+  },
+  "LIZINES": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 6.2
+  },
+  "LOGNES": {
+    "bureau": "Lagny",
+    "distanceKm": 6.6
+  },
+  "LONGPERRIER": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 1.5
+  },
+  "LONGUEVILLE": {
+    "bureau": "Provins",
+    "distanceKm": 6.2
+  },
+  "LORREZ LE BOCAGE PREAUX": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 0.0
+  },
+  "LOUAN VILLEGRUIS FONTAINE": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 8.2
+  },
+  "LOUAN": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 8.2
+  },
+  "LUISETAINES": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 5.3
+  },
+  "LUMIGNY NESLES ORMEAUX": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 4.7
+  },
+  "LUMIGNY": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 4.7
+  },
+  "LUZANCY": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 3.9
+  },
+  "LECHELLE": {
+    "bureau": "Provins",
+    "distanceKm": 7.7
+  },
+  "LESIGNY": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 6.4
+  },
+  "MACHAULT": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 6.5
+  },
+  "MAGNY LE HONGRE": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 7.9
+  },
+  "MAINCY": {
+    "bureau": "Melun",
+    "distanceKm": 3.8
+  },
+  "MAISON ROUGE": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 8.5
+  },
+  "MAISONCELLES EN BRIE": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.2
+  },
+  "MAISONCELLES EN GATINAIS": {
+    "bureau": "Château-Landon",
+    "distanceKm": 6.8
+  },
+  "MARCHEMORET": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 5.3
+  },
+  "MARCILLY": {
+    "bureau": "Meaux",
+    "distanceKm": 9.0
+  },
+  "MAREUIL LES MEAUX": {
+    "bureau": "Meaux",
+    "distanceKm": 4.1
+  },
+  "MARLES EN BRIE": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 7.4
+  },
+  "MAROLLES EN BRIE": {
+    "bureau": "Coulommiers",
+    "distanceKm": 6.7
+  },
+  "MAROLLES SUR SEINE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 5.0
+  },
+  "MARY SUR MARNE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 2.4
+  },
+  "MAUPERTHUIS": {
+    "bureau": "Coulommiers",
+    "distanceKm": 5.8
+  },
+  "MAUREGARD": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 8.4
+  },
+  "MAY EN MULTIEN": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 3.9
+  },
+  "MEIGNEUX": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 4.2
+  },
+  "MEILLERAY": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 8.2
+  },
+  "MELZ SUR SEINE": {
+    "bureau": "Provins",
+    "distanceKm": 10.6
+  },
+  "MESSY": {
+    "bureau": "Claye",
+    "distanceKm": 3.3
+  },
+  "MISY SUR YONNE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 10.2
+  },
+  "MITRY MORY": {
+    "bureau": "Claye",
+    "distanceKm": 6.6
+  },
+  "MOISENAY": {
+    "bureau": "Melun",
+    "distanceKm": 6.6
+  },
+  "MOISSY CRAMAYEL": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 7.4
+  },
+  "MONCOURT FROMONVILLE": {
+    "bureau": "Nemours",
+    "distanceKm": 3.9
+  },
+  "MONTCOURT FROMONVILLE": {
+    "bureau": "Nemours",
+    "distanceKm": 3.9
+  },
+  "MONDREVILLE": {
+    "bureau": "Château-Landon",
+    "distanceKm": 7.2
+  },
+  "MONS EN MONTOIS": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 1.7
+  },
+  "MONTARLOT": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "MONTCEAUX LES MEAUX": {
+    "bureau": "Meaux",
+    "distanceKm": 6.6
+  },
+  "MONTCEAUX": {
+    "bureau": "Meaux",
+    "distanceKm": 6.6
+  },
+  "MONTCEAUX LES PROVINS": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 5.6
+  },
+  "MONTDAUPHIN": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 11.0
+  },
+  "MONTENILS": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 13.4
+  },
+  "MONTEREAU FAUT YONNE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 0.0
+  },
+  "MONTEREAU SUR LE JARD": {
+    "bureau": "Melun",
+    "distanceKm": 6.2
+  },
+  "MONTGE EN GOELE": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 5.5
+  },
+  "MONTGE": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 5.5
+  },
+  "MONTHYON": {
+    "bureau": "Meaux",
+    "distanceKm": 7.7
+  },
+  "MONTIGNY LENCOUP": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 5.7
+  },
+  "MONTIGNY LE GUESDIER": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 3.6
+  },
+  "MONTIGNY SUR LOING": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 5.2
+  },
+  "MONTMACHOUX": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 7.9
+  },
+  "MONTOLIVET": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 10.1
+  },
+  "MONTRY": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 8.1
+  },
+  "MONTEVRAIN": {
+    "bureau": "Lagny",
+    "distanceKm": 3.4
+  },
+  "MORET LOING ET ORVANNE": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 0.0
+  },
+  "ORVANNE": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 0.0
+  },
+  "MORTCERF": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 8.9
+  },
+  "MORTERY": {
+    "bureau": "Provins",
+    "distanceKm": 4.1
+  },
+  "MOUROUX": {
+    "bureau": "Coulommiers",
+    "distanceKm": 3.6
+  },
+  "MOUSSEAUX LES BRAY": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 2.5
+  },
+  "MOUSSY LE NEUF": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 5.9
+  },
+  "MOUSSY LE VIEUX": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 4.1
+  },
+  "MOUTILS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "MOUY SUR SEINE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 1.9
+  },
+  "MERY SUR MARNE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 5.5
+  },
+  "NANDY": {
+    "bureau": "Melun",
+    "distanceKm": 9.1
+  },
+  "NANTEAU SUR ESSONNE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 10.6
+  },
+  "NANTEAU SUR LUNAIN": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 6.3
+  },
+  "NANTEUIL LES MEAUX": {
+    "bureau": "Meaux",
+    "distanceKm": 2.8
+  },
+  "NANTEUIL SUR MARNE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 6.8
+  },
+  "NANTOUILLET": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 6.0
+  },
+  "NESLES": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "NEUFMOUTIERS EN BRIE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 5.2
+  },
+  "NOISIEL": {
+    "bureau": "Lagny",
+    "distanceKm": 6.9
+  },
+  "NOISY RUDIGNON": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 6.1
+  },
+  "NOISY SUR ECOLE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 7.9
+  },
+  "NONVILLE": {
+    "bureau": "Nemours",
+    "distanceKm": 5.0
+  },
+  "NOYEN SUR SEINE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 8.3
+  },
+  "OBSONVILLE": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 11.1
+  },
+  "OCQUERRE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 2.9
+  },
+  "OISSERY": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 10.4
+  },
+  "ORLY SUR MORIN": {
+    "bureau": "Rebais",
+    "distanceKm": 4.8
+  },
+  "ORMEAUX": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "ORMESSON": {
+    "bureau": "Nemours",
+    "distanceKm": 5.6
+  },
+  "OTHIS": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 4.2
+  },
+  "OZOIR LA FERRIERE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 7.8
+  },
+  "OZOUER LE REPOS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "OZOUER LE VOULGIS": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 8.4
+  },
+  "OZOUER COURQUETAINE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 8.4
+  },
+  "PALEY": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 2.7
+  },
+  "PAMFOU": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 5.9
+  },
+  "PAROY": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 5.9
+  },
+  "PASSY SUR SEINE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 7.5
+  },
+  "PENCHARD": {
+    "bureau": "Meaux",
+    "distanceKm": 5.0
+  },
+  "PERTHES": {
+    "bureau": "Melun",
+    "distanceKm": 10.6
+  },
+  "PIERRE LEVEE": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 9.0
+  },
+  "PIERRELEZ": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "POIGNY": {
+    "bureau": "Provins",
+    "distanceKm": 2.1
+  },
+  "POINCY": {
+    "bureau": "Meaux",
+    "distanceKm": 2.4
+  },
+  "POLIGNY": {
+    "bureau": "Nemours",
+    "distanceKm": 4.2
+  },
+  "POMMEUSE": {
+    "bureau": "Coulommiers",
+    "distanceKm": 6.2
+  },
+  "POMPONNE": {
+    "bureau": "Lagny",
+    "distanceKm": 2.6
+  },
+  "PONTAULT COMBAULT": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 10.9
+  },
+  "PONTCARRE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 8.0
+  },
+  "PRESLES EN BRIE": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 4.3
+  },
+  "PRINGY": {
+    "bureau": "Melun",
+    "distanceKm": 8.2
+  },
+  "PREAUX": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "PRECY SUR MARNE": {
+    "bureau": "Claye",
+    "distanceKm": 6.5
+  },
+  "PUISIEUX": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 8.1
+  },
+  "PECY": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 8.5
+  },
+  "PEZARCHES": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 7.4
+  },
+  "QUIERS": {
+    "bureau": "Mormant",
+    "distanceKm": 6.5
+  },
+  "QUINCY VOISINS": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.7
+  },
+  "RAMPILLON": {
+    "bureau": "Nangis",
+    "distanceKm": 5.3
+  },
+  "RECLOSES": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 6.2
+  },
+  "REMAUVILLE": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 5.3
+  },
+  "REUIL EN BRIE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 1.9
+  },
+  "ROISSY EN BRIE": {
+    "bureau": "Lagny",
+    "distanceKm": 9.4
+  },
+  "ROISSY": {
+    "bureau": "Lagny",
+    "distanceKm": 9.4
+  },
+  "ROUILLY": {
+    "bureau": "Provins",
+    "distanceKm": 3.2
+  },
+  "ROUVRES": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 3.4
+  },
+  "RUBELLES": {
+    "bureau": "Melun",
+    "distanceKm": 3.2
+  },
+  "RUMONT": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 7.2
+  },
+  "RUPEREUX": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 5.9
+  },
+  "REAU": {
+    "bureau": "Melun",
+    "distanceKm": 7.6
+  },
+  "SABLONNIERES": {
+    "bureau": "Rebais",
+    "distanceKm": 4.9
+  },
+  "SAINT ANGE LE VIEL": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "SAINT AUGUSTIN": {
+    "bureau": "Coulommiers",
+    "distanceKm": 5.0
+  },
+  "SAINT BARTHELEMY": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 5.0
+  },
+  "SAINT BRICE": {
+    "bureau": "Provins",
+    "distanceKm": 4.0
+  },
+  "SAINT CYR SUR MORIN": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 5.5
+  },
+  "SAINT DENIS LES REBAIS": {
+    "bureau": "Rebais",
+    "distanceKm": 2.9
+  },
+  "SAINT FARGEAU PONTHIERRY": {
+    "bureau": "Melun",
+    "distanceKm": 9.3
+  },
+  "SAINT FARGEAU": {
+    "bureau": "Melun",
+    "distanceKm": 9.3
+  },
+  "SAINT FIACRE": {
+    "bureau": "Meaux",
+    "distanceKm": 5.2
+  },
+  "SAINT GERMAIN LAVAL": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 3.7
+  },
+  "SAINT GERMAIN LAXIS": {
+    "bureau": "Melun",
+    "distanceKm": 6.4
+  },
+  "SAINT GERMAIN SOUS DOUE": {
+    "bureau": "Coulommiers",
+    "distanceKm": 5.9
+  },
+  "SAINT GERMAIN SUR MORIN": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 6.2
+  },
+  "SAINT GERMAIN SUR ECOLE": {
+    "bureau": "Melun",
+    "distanceKm": 13.0
+  },
+  "SAINT HILLIERS": {
+    "bureau": "Provins",
+    "distanceKm": 7.9
+  },
+  "SAINT JEAN LES DEUX JUMEAUX": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 8.0
+  },
+  "SAINT JUST EN BRIE": {
+    "bureau": "Nangis",
+    "distanceKm": 10.5
+  },
+  "SAINT JUST": {
+    "bureau": "Nangis",
+    "distanceKm": 10.5
+  },
+  "SAINT LOUP DE NAUD": {
+    "bureau": "Provins",
+    "distanceKm": 5.8
+  },
+  "SAINT LEGER": {
+    "bureau": "Rebais",
+    "distanceKm": 3.3
+  },
+  "SAINT MAMMES": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 3.5
+  },
+  "SAINT MARD": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 1.9
+  },
+  "SAINT MARS VIEUX MAISONS": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 6.0
+  },
+  "SAINT MARS EN BRIE": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 6.0
+  },
+  "SAINT MARTIN CHENNETRON": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "SAINT MARTIN DES CHAMPS": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 2.4
+  },
+  "SAINT MARTIN DU BOSCHET": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 8.8
+  },
+  "SAINT MARTIN EN BIERE": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 8.1
+  },
+  "SAINT MESMES": {
+    "bureau": "Claye",
+    "distanceKm": 5.5
+  },
+  "SAINT MERY": {
+    "bureau": "Mormant",
+    "distanceKm": 4.6
+  },
+  "SAINT OUEN EN BRIE": {
+    "bureau": "Mormant",
+    "distanceKm": 4.5
+  },
+  "SAINT OUEN": {
+    "bureau": "Mormant",
+    "distanceKm": 4.5
+  },
+  "SAINT OUEN SUR MORIN": {
+    "bureau": "Rebais",
+    "distanceKm": 5.8
+  },
+  "SAINT PATHUS": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 8.2
+  },
+  "SAINT PIERRE LES NEMOURS": {
+    "bureau": "Nemours",
+    "distanceKm": 3.8
+  },
+  "SAINT REMY DE LA VANNE": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 4.7
+  },
+  "SAINT REMY LA VANNE": {
+    "bureau": "La Ferté-Gaucher",
+    "distanceKm": 4.7
+  },
+  "SAINT SAUVEUR LES BRAY": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 4.0
+  },
+  "SAINT SAUVEUR SUR ECOLE": {
+    "bureau": "Melun",
+    "distanceKm": 9.9
+  },
+  "SAINT SIMEON": {
+    "bureau": "Rebais",
+    "distanceKm": 6.0
+  },
+  "SAINT SOUPPLETS": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 9.0
+  },
+  "SAINT THIBAULT DES VIGNES": {
+    "bureau": "Lagny",
+    "distanceKm": 2.1
+  },
+  "SAINTE AULDE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 6.1
+  },
+  "SAINTE COLOMBE": {
+    "bureau": "Provins",
+    "distanceKm": 3.4
+  },
+  "SALINS": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 6.6
+  },
+  "SAMMERON": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 4.7
+  },
+  "SAMOIS SUR SEINE": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 6.2
+  },
+  "SAMOREAU": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 6.9
+  },
+  "SANCY": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 3.3
+  },
+  "SANCY LES PROVINS": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 6.5
+  },
+  "SAVIGNY LE TEMPLE": {
+    "bureau": "Melun",
+    "distanceKm": 7.5
+  },
+  "SAVINS": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 6.9
+  },
+  "SAACY SUR MARNE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 5.7
+  },
+  "SEINE PORT": {
+    "bureau": "Melun",
+    "distanceKm": 7.3
+  },
+  "SEPT SORTS": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 2.7
+  },
+  "SERRIS": {
+    "bureau": "Lagny",
+    "distanceKm": 6.7
+  },
+  "SERVON": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 3.2
+  },
+  "SIGNY SIGNETS": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 7.1
+  },
+  "SIGY": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 3.6
+  },
+  "SIVRY COURTRY": {
+    "bureau": "Châtelet-en-Brie",
+    "distanceKm": 4.4
+  },
+  "SOGNOLLES EN MONTOIS": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 5.0
+  },
+  "SOIGNOLLES EN BRIE": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 8.7
+  },
+  "SOISY BOUY": {
+    "bureau": "Provins",
+    "distanceKm": 6.1
+  },
+  "SOLERS": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 9.0
+  },
+  "SOUPPES SUR LOING": {
+    "bureau": "Château-Landon",
+    "distanceKm": 5.3
+  },
+  "SOURDUN": {
+    "bureau": "Provins",
+    "distanceKm": 6.7
+  },
+  "TANCROU": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 5.6
+  },
+  "THIEUX": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 4.8
+  },
+  "THOMERY": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 6.5
+  },
+  "THORIGNY SUR MARNE": {
+    "bureau": "Lagny",
+    "distanceKm": 2.4
+  },
+  "THOURY FEROTTES": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 7.4
+  },
+  "THENISY": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 4.4
+  },
+  "TIGEAUX": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 4.4
+  },
+  "TORCY": {
+    "bureau": "Lagny",
+    "distanceKm": 4.6
+  },
+  "TOUQUIN": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 7.5
+  },
+  "TOUSSON": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 8.9
+  },
+  "TREUZY LEVELAY": {
+    "bureau": "Nemours",
+    "distanceKm": 5.5
+  },
+  "TRILBARDOU": {
+    "bureau": "Meaux",
+    "distanceKm": 7.3
+  },
+  "TRILPORT": {
+    "bureau": "Meaux",
+    "distanceKm": 4.6
+  },
+  "TROCY EN MULTIEN": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 4.2
+  },
+  "TROCY": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 4.2
+  },
+  "URY": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 3.9
+  },
+  "USSY SUR MARNE": {
+    "bureau": "La Ferté-sous-Jouarre",
+    "distanceKm": 4.9
+  },
+  "VAIRES SUR MARNE": {
+    "bureau": "Lagny",
+    "distanceKm": 5.2
+  },
+  "VALENCE EN BRIE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 8.6
+  },
+  "VANVILLE": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 7.9
+  },
+  "VARENNES SUR SEINE": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 3.1
+  },
+  "VARREDDES": {
+    "bureau": "Meaux",
+    "distanceKm": 5.7
+  },
+  "VAUCOURTOIS": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 5.1
+  },
+  "VAUDOY EN BRIE": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 9.1
+  },
+  "VAUX LE PENIL": {
+    "bureau": "Melun",
+    "distanceKm": 3.8
+  },
+  "VAUX SOUS COULOMBS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "VAUX SUR LUNAIN": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 5.6
+  },
+  "VENDREST": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 6.7
+  },
+  "VENEUX LES SABLONS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "VERDELOT": {
+    "bureau": "Rebais",
+    "distanceKm": 10.2
+  },
+  "VERNEUIL L ETANG": {
+    "bureau": "Mormant",
+    "distanceKm": 5.7
+  },
+  "VERNOU LA CELLE SUR SEINE": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 6.1
+  },
+  "VERNOU SUR SEINE": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 6.1
+  },
+  "VERT SAINT DENIS": {
+    "bureau": "Melun",
+    "distanceKm": 3.3
+  },
+  "VIEUX CHAMPAGNE": {
+    "bureau": "Nangis",
+    "distanceKm": 10.5
+  },
+  "VIEUX MAISONS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "VIGNELY": {
+    "bureau": "Meaux",
+    "distanceKm": 6.9
+  },
+  "VILBERT": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "VILLE SAINT JACQUES": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 5.8
+  },
+  "VILLEBEON": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 5.0
+  },
+  "VILLECERF": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 3.4
+  },
+  "VILLEGAGNON": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "VILLEGRUIS": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "VILLEMAREUIL": {
+    "bureau": "Meaux",
+    "distanceKm": 7.3
+  },
+  "VILLEMARECHAL": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 3.6
+  },
+  "VILLEMER": {
+    "bureau": "Moret-sur-Loing",
+    "distanceKm": 5.9
+  },
+  "VILLENAUXE LA PETITE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 5.1
+  },
+  "VILLENEUVE SAINT DENIS": {
+    "bureau": "Tournan-en-Brie",
+    "distanceKm": 8.0
+  },
+  "VILLENEUVE LE COMTE": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 8.2
+  },
+  "VILLENEUVE LES BORDES": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 7.0
+  },
+  "VILLENEUVE SOUS DAMMARTIN": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 4.0
+  },
+  "VILLENEUVE SUR BELLOT": {
+    "bureau": "Rebais",
+    "distanceKm": 7.7
+  },
+  "VILLENOY": {
+    "bureau": "Meaux",
+    "distanceKm": 4.2
+  },
+  "VILLEPARISIS": {
+    "bureau": "Claye",
+    "distanceKm": 4.5
+  },
+  "VILLEROY": {
+    "bureau": "Claye",
+    "distanceKm": 8.4
+  },
+  "VILLEVAUDE": {
+    "bureau": "Claye",
+    "distanceKm": 3.2
+  },
+  "VILLIERS EN BIERE": {
+    "bureau": "Melun",
+    "distanceKm": 6.3
+  },
+  "VILLIERS SOUS GREZ": {
+    "bureau": "La Chapelle-la-Reine",
+    "distanceKm": 5.2
+  },
+  "VILLIERS SUR MORIN": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 4.2
+  },
+  "VILLIERS SUR SEINE": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 11.1
+  },
+  "VILLUIS": {
+    "bureau": "Bray-sur-Seine",
+    "distanceKm": 8.4
+  },
+  "VIMPELLES": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 5.5
+  },
+  "VINANTES": {
+    "bureau": "Dammartin-en-Goële",
+    "distanceKm": 6.9
+  },
+  "VINCY MANŒUVRE": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 6.5
+  },
+  "VOINSLES": {
+    "bureau": "Rozay-en-Brie",
+    "distanceKm": 4.1
+  },
+  "VOISENON": {
+    "bureau": "Melun",
+    "distanceKm": 3.1
+  },
+  "VOULANGIS": {
+    "bureau": "Crécy-en-Brie",
+    "distanceKm": 3.3
+  },
+  "VOULTON": {
+    "bureau": "Villiers-Saint-Georges",
+    "distanceKm": 6.6
+  },
+  "VOULX": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 7.5
+  },
+  "VULAINES LES PROVINS": {
+    "bureau": "Provins",
+    "distanceKm": 4.7
+  },
+  "VULAINES SUR SEINE": {
+    "bureau": "Fontainebleau",
+    "distanceKm": 7.0
+  },
+  "YEBLES": {
+    "bureau": "Mormant",
+    "distanceKm": 9.1
+  },
+  "ECHOUBOULAINS": {
+    "bureau": "Montereau-Fault-Yonne",
+    "distanceKm": 9.1
+  },
+  "ECUELLES": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "EGLIGNY": {
+    "bureau": "Donnemarie-en-Montois",
+    "distanceKm": 5.0
+  },
+  "EGREVILLE": {
+    "bureau": "Lorrez-le-Bocage",
+    "distanceKm": 6.3
+  },
+  "EMERAINVILLE": {
+    "bureau": "Lagny",
+    "distanceKm": 9.2
+  },
+  "EPISY": {
+    "bureau": "Melun",
+    "distanceKm": 0.0
+  },
+  "ETREPILLY": {
+    "bureau": "Lizy-sur-Ourcq",
+    "distanceKm": 6.8
+  },
+  "EVRY GREGY SUR YERRE": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 4.6
+  },
+  "EVRY LES CHATEAUX": {
+    "bureau": "Brie-Comte-Robert",
+    "distanceKm": 4.6
+  }
+}

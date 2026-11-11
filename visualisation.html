@@ -109,6 +109,37 @@
             </div>
         </details>
 
+        <details class="fold-section" id="fold-professions-carte">
+            <summary>⚒️ Carte des professions</summary>
+            <div class="fold-body">
+                <p class="hint" style="text-align:center; margin-top:0;">Où ont vécu les porteurs de chaque métier : un rond par lieu et par profession, d'autant plus grand que le nombre de personnes distinctes est élevé. Cliquez une ou plusieurs professions dans la liste pour les isoler. Utilise le filtre « Uniquement les ascendants de » ci-dessus.</p>
+                <div class="options-panel">
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" id="profMapBirt" checked> 👶 Naissance</label>
+                        <label><input type="checkbox" id="profMapMarr" checked> 💍 Mariage</label>
+                        <label><input type="checkbox" id="profMapDeat" checked> ⚰️ Décès</label>
+                    </div>
+                </div>
+                <div class="dept-layout">
+                    <div class="dept-side-col">
+                        <h3>Professions</h3>
+                        <input type="text" id="profMapFilter" placeholder="Rechercher une profession...">
+                        <div id="profMapList" class="society-list"><div class="map-placeholder">Chargez un fichier GEDCOM.</div></div>
+                    </div>
+                    <div class="dept-map-col">
+                        <div class="chart-box-header">
+                            <h3>Lieux par profession</h3>
+                            <div class="chart-box-actions">
+                                <button class="chart-zoom-reset-btn" id="profMapResetBtn" title="Réinitialiser le zoom">🏠</button>
+                                <button class="chart-copy-btn" data-target="professionMapChart" title="Copier l'image dans le presse-papier">📋</button>
+                            </div>
+                        </div>
+                        <div id="professionMapChart"><div class="map-placeholder">Chargez un fichier GEDCOM pour voir la carte.</div></div>
+                    </div>
+                </div>
+            </div>
+        </details>
+
         <details class="fold-section" id="fold-proportions-region">
             <summary>📊 Proportions par région (départements, provinces, pays)</summary>
             <div class="fold-body">
@@ -590,6 +621,7 @@ import {
     RARE_GIVEN_NAME_HIGHLIGHT_COLORS, GIVEN_NAME_HIGHLIGHT_COUNT
 } from './assets/js/society.js';
 import { loadCommunesPopulation, collectPersonDeptCodes } from './assets/js/communes-population.js';
+import { createProfessionMap } from './assets/js/profession-map.js';
 
 // --- Lien direct vers une section repliable (#fold-points-gps, #fold-proportions-region,
 // #fold-demographie, #fold-societe) : plus de sous-onglets sur cette page (Visualisation et Société
@@ -650,6 +682,18 @@ document.querySelectorAll('details.fold-section').forEach(el => el.addEventListe
 const renderDemographicCharts = lazyInSection('fold-demographie', renderDemographicChartsNow);
 const renderGivenNames = lazyInSection('fold-societe', renderGivenNamesNow);
 const renderSociety = lazyInSection('fold-societe', renderSocietyNow);
+// Carte des professions : le périmètre est lu à l'exécution (donc à l'ouverture de la section si
+// elle était fermée), et le SVG n'est dimensionné qu'une fois le conteneur visible.
+const professionMap = createProfessionMap({
+    mapId: 'professionMapChart', listId: 'profMapList', filterId: 'profMapFilter', resetBtnId: 'profMapResetBtn',
+    flagIds: { BIRT: 'profMapBirt', MARR: 'profMapMarr', DEAT: 'profMapDeat' }
+});
+const renderProfessionMap = lazyInSection('fold-professions-carte', () => professionMap.update(getMapScopeIds(), map));
+let profMapResizeTimer = 0;
+window.addEventListener('resize', () => {
+    clearTimeout(profMapResizeTimer);
+    profMapResizeTimer = setTimeout(() => { if(document.getElementById('fold-professions-carte').open) professionMap.resize(); }, 200);
+});
 
 let exportCtl = null;
 let list = [], map = new Map(), fams = new Map();
@@ -941,11 +985,13 @@ function renderMapsTab() {
     renderFilteredMaps();
     renderGenerationSankey();
     renderDemographicCharts();
+    renderProfessionMap();
 }
 
 mapFilterEls.forEach(el => el.addEventListener('change', renderFilteredMaps));
 mapAncestorOnlyEl.addEventListener('change', e => {
     mapPersonSearchEl.disabled = !e.target.checked;
+    renderProfessionMap();
     renderFilteredMaps();
     renderDemographicCharts();
     refreshRegionSummaries();
@@ -953,7 +999,7 @@ mapAncestorOnlyEl.addEventListener('change', e => {
 createPersonPicker({
     searchEl: mapPersonSearchEl, resultsEl: mapPersonResultsEl, selectedEl: mapPersonSelectedEl,
     getList: () => list,
-    onSelect: p => { mapPersonId = p.id; renderFilteredMaps(); renderGenerationSankey(); renderDemographicCharts(); refreshRegionSummaries(); }
+    onSelect: p => { mapPersonId = p.id; renderProfessionMap(); renderFilteredMaps(); renderGenerationSankey(); renderDemographicCharts(); refreshRegionSummaries(); }
 });
 wireClickAway(mapPersonResultsEl);
 genSankeyGenCountEl.addEventListener('input', rafThrottle(renderGenerationSankey));
@@ -1499,6 +1545,9 @@ bootstrap({
         // ses points).
         enrichMissingCoords(list).then(() => {
             renderFilteredMaps();
+            // Les coordonnées de commune viennent d'être résolues : la carte des professions
+            // (rendue une première fois avec le repli département/pays) doit être recalculée.
+            renderProfessionMap();
             if (!regionContentEl.classList.contains('hidden')) renderRegionDetail();
             // La carte des prénoms rares (renderGivenNames, volet Société) dépend elle aussi des
             // coordonnées de commune résolues ci-dessus : sans ce second appel, elle resterait bloquée

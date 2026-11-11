@@ -1,0 +1,1026 @@
+{
+  "AJAIN": {
+    "bureau": "Jarnages",
+    "distanceKm": 6.7
+  },
+  "ALLEYRAT": {
+    "bureau": "Aubusson",
+    "distanceKm": 4.5
+  },
+  "ANZEME": {
+    "bureau": "Bonnat",
+    "distanceKm": 8.3
+  },
+  "ARFEUILLE CHATAIN": {
+    "bureau": "Auzances",
+    "distanceKm": 6.3
+  },
+  "ARRENES": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 7.5
+  },
+  "ARS": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 4.3
+  },
+  "AUGE": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 8.1
+  },
+  "AUGERES": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 8.6
+  },
+  "AULON": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 5.9
+  },
+  "AURIAT": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 12.2
+  },
+  "AZAT CHATENET": {
+    "bureau": "Guéret",
+    "distanceKm": 10.9
+  },
+  "AZERABLES": {
+    "bureau": "la Souterraine",
+    "distanceKm": 14.2
+  },
+  "BANIZE": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 6.6
+  },
+  "BASVILLE": {
+    "bureau": "Crocq",
+    "distanceKm": 3.9
+  },
+  "BAZELAT": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 11.2
+  },
+  "BEISSAT": {
+    "bureau": "la Courtine",
+    "distanceKm": 4.9
+  },
+  "BLAUDEIX": {
+    "bureau": "Jarnages",
+    "distanceKm": 4.7
+  },
+  "BLESSAC": {
+    "bureau": "Aubusson",
+    "distanceKm": 5.4
+  },
+  "BORD SAINT GEORGES": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 11.6
+  },
+  "BOSMOREAU LES MINES": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 6.3
+  },
+  "BOSROGER": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 4.0
+  },
+  "BOUSSAC BOURG": {
+    "bureau": "Boussac",
+    "distanceKm": 2.3
+  },
+  "BROUSSE": {
+    "bureau": "Auzances",
+    "distanceKm": 7.2
+  },
+  "BUDELIERE": {
+    "bureau": "Evaux-les-Bains",
+    "distanceKm": 4.9
+  },
+  "BUSSIERE DUNOISE": {
+    "bureau": "Saint-Vaury",
+    "distanceKm": 6.8
+  },
+  "BUSSIERE NOUVELLE": {
+    "bureau": "Auzances",
+    "distanceKm": 6.5
+  },
+  "BUSSIERE SAINT GEORGES": {
+    "bureau": "Boussac",
+    "distanceKm": 7.5
+  },
+  "BETETE": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 8.0
+  },
+  "CEYROUX": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 7.7
+  },
+  "CHAMBERAUD": {
+    "bureau": "Ahun",
+    "distanceKm": 4.9
+  },
+  "CHAMBON SAINTE CROIX": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 10.0
+  },
+  "CHAMBONCHARD": {
+    "bureau": "Evaux-les-Bains",
+    "distanceKm": 3.8
+  },
+  "CHAMBORAND": {
+    "bureau": "Le Grand-Bourg",
+    "distanceKm": 5.9
+  },
+  "CHAMPAGNAT": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 4.2
+  },
+  "CHAMPSANGLARD": {
+    "bureau": "Bonnat",
+    "distanceKm": 4.8
+  },
+  "CHARD": {
+    "bureau": "Auzances",
+    "distanceKm": 8.5
+  },
+  "CHARRON": {
+    "bureau": "Auzances",
+    "distanceKm": 5.1
+  },
+  "CHAVANAT": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 6.9
+  },
+  "CHATELARD": {
+    "bureau": "Auzances",
+    "distanceKm": 7.5
+  },
+  "CHATELUS LE MARCHEIX": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 11.6
+  },
+  "CHENIERS": {
+    "bureau": "Bonnat",
+    "distanceKm": 7.6
+  },
+  "CLAIRAVAUX": {
+    "bureau": "la Courtine",
+    "distanceKm": 7.3
+  },
+  "CLUGNAT": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 7.5
+  },
+  "COLONDANNES": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 3.7
+  },
+  "CRESSAT": {
+    "bureau": "Jarnages",
+    "distanceKm": 5.3
+  },
+  "CROZANT": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 9.7
+  },
+  "CROZE": {
+    "bureau": "Felletin",
+    "distanceKm": 7.5
+  },
+  "DOMEYROT": {
+    "bureau": "Jarnages",
+    "distanceKm": 8.4
+  },
+  "DONTREIX": {
+    "bureau": "Auzances",
+    "distanceKm": 6.6
+  },
+  "DUN LE PALLETEAU": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 0.0
+  },
+  "FAUX MAZURAS": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 3.1
+  },
+  "FAUX LA MONTAGNE": {
+    "bureau": "Gentioux",
+    "distanceKm": 7.5
+  },
+  "FLAYAT": {
+    "bureau": "Crocq",
+    "distanceKm": 8.4
+  },
+  "FLEURAT": {
+    "bureau": "Saint-Vaury",
+    "distanceKm": 6.2
+  },
+  "FONTANIERES": {
+    "bureau": "Evaux-les-Bains",
+    "distanceKm": 8.1
+  },
+  "FRANSECHES": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 4.7
+  },
+  "FRESSELINES": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 9.0
+  },
+  "FURSAC": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 9.4
+  },
+  "SAINT ETIENNE DE FURSAC": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 9.4
+  },
+  "FENIERS": {
+    "bureau": "Gentioux",
+    "distanceKm": 9.1
+  },
+  "GARTEMPE": {
+    "bureau": "Saint-Vaury",
+    "distanceKm": 5.1
+  },
+  "GENOUILLAC": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 6.1
+  },
+  "GENTIOUX PIGEROLLES": {
+    "bureau": "Gentioux",
+    "distanceKm": 0.0
+  },
+  "GIOUX": {
+    "bureau": "Gentioux",
+    "distanceKm": 7.1
+  },
+  "GLENIC": {
+    "bureau": "Guéret",
+    "distanceKm": 9.2
+  },
+  "GOUZON": {
+    "bureau": "Chénérailles",
+    "distanceKm": 9.5
+  },
+  "GOUZOUGNAT": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "ISSOUDUN LETRIEIX": {
+    "bureau": "Chénérailles",
+    "distanceKm": 4.5
+  },
+  "JALESCHES": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 4.4
+  },
+  "JANAILLAT": {
+    "bureau": "Pontarion",
+    "distanceKm": 7.5
+  },
+  "JOUILLAT": {
+    "bureau": "Bonnat",
+    "distanceKm": 6.2
+  },
+  "LA BRIONNE": {
+    "bureau": "Saint-Vaury",
+    "distanceKm": 5.0
+  },
+  "LA CELLE DUNOISE": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 8.7
+  },
+  "LA CELLE SOUS GOUZON": {
+    "bureau": "Jarnages",
+    "distanceKm": 10.5
+  },
+  "LA CELLETTE": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 11.7
+  },
+  "LA CHAPELLE BALOUE": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 8.9
+  },
+  "LA CHAPELLE SAINT MARTIAL": {
+    "bureau": "Pontarion",
+    "distanceKm": 7.0
+  },
+  "LA CHAPELLE TAILLEFERT": {
+    "bureau": "Guéret",
+    "distanceKm": 5.7
+  },
+  "LA CHAUSSADE": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 3.3
+  },
+  "LA COURTINE LE TRUCQ": {
+    "bureau": "la Courtine",
+    "distanceKm": 0.0
+  },
+  "LA FORET DU TEMPLE": {
+    "bureau": "Bonnat",
+    "distanceKm": 11.5
+  },
+  "LA MAZIERE AUX BONS HOMMES": {
+    "bureau": "Crocq",
+    "distanceKm": 7.8
+  },
+  "LA NOUAILLE": {
+    "bureau": "Gentioux",
+    "distanceKm": 6.9
+  },
+  "LA POUGE": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 7.4
+  },
+  "LA ROCHETTE": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "LA SAUNIERE": {
+    "bureau": "Guéret",
+    "distanceKm": 6.3
+  },
+  "LA SERRE BUSSIERE VIEILLE": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 8.7
+  },
+  "LA VILLEDIEU": {
+    "bureau": "Royère-de-Vassivière",
+    "distanceKm": 10.4
+  },
+  "LA VILLENEUVE": {
+    "bureau": "Crocq",
+    "distanceKm": 6.2
+  },
+  "LA VILLETELLE": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 7.1
+  },
+  "LADAPEYRE": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 6.0
+  },
+  "LAFAT": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 5.7
+  },
+  "LAVAUFRANCHE": {
+    "bureau": "Boussac",
+    "distanceKm": 6.3
+  },
+  "LAVAVEIX LES MINES": {
+    "bureau": "Ahun",
+    "distanceKm": 5.7
+  },
+  "LE BOURG D HEM": {
+    "bureau": "Bonnat",
+    "distanceKm": 6.1
+  },
+  "LE CHAUCHET": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 11.2
+  },
+  "LE COMPAS": {
+    "bureau": "Auzances",
+    "distanceKm": 4.7
+  },
+  "LE DONZEIL": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 5.9
+  },
+  "LE MAS D ARTIGE": {
+    "bureau": "la Courtine",
+    "distanceKm": 5.0
+  },
+  "LE MONTEIL AU VICOMTE": {
+    "bureau": "Royère-de-Vassivière",
+    "distanceKm": 9.5
+  },
+  "LE TRUCQ": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "LES FORGES": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "LES MARS": {
+    "bureau": "Auzances",
+    "distanceKm": 3.8
+  },
+  "LEYRAT": {
+    "bureau": "Boussac",
+    "distanceKm": 6.0
+  },
+  "LINARD MALVAL": {
+    "bureau": "Bonnat",
+    "distanceKm": 5.5
+  },
+  "LINARD": {
+    "bureau": "Bonnat",
+    "distanceKm": 5.5
+  },
+  "LIOUX LES MONGES": {
+    "bureau": "Auzances",
+    "distanceKm": 10.5
+  },
+  "LIZIERES": {
+    "bureau": "Le Grand-Bourg",
+    "distanceKm": 7.7
+  },
+  "LOURDOUEIX SAINT PIERRE": {
+    "bureau": "Bonnat",
+    "distanceKm": 10.3
+  },
+  "LUPERSAT": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 4.6
+  },
+  "LUSSAT": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 6.5
+  },
+  "LEPAUD": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 4.6
+  },
+  "LEPINAS": {
+    "bureau": "Ahun",
+    "distanceKm": 7.6
+  },
+  "MAGNAT L ETRANGE": {
+    "bureau": "la Courtine",
+    "distanceKm": 7.2
+  },
+  "MAINSAT": {
+    "bureau": "Auzances",
+    "distanceKm": 9.8
+  },
+  "MAISON FEYNE": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 4.6
+  },
+  "MAISONNISSES": {
+    "bureau": "Pontarion",
+    "distanceKm": 8.5
+  },
+  "MALLERET": {
+    "bureau": "la Courtine",
+    "distanceKm": 7.4
+  },
+  "MALLERET BOUSSAC": {
+    "bureau": "Boussac",
+    "distanceKm": 5.5
+  },
+  "MALVAL": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "MANSAT LA COURRIERE": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 4.2
+  },
+  "MANSAT": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 4.2
+  },
+  "MARSAC": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 4.5
+  },
+  "MASBARAUD MERIGNAT": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "MAUTES": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 9.1
+  },
+  "MAZEIRAT": {
+    "bureau": "Ahun",
+    "distanceKm": 5.9
+  },
+  "MONTAIGUT LE BLANC": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 7.4
+  },
+  "MONTBOUCHER": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 5.3
+  },
+  "MORTEROLLES": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "MORTROUX": {
+    "bureau": "Bonnat",
+    "distanceKm": 8.0
+  },
+  "MOURIOUX VIEILLEVILLE": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 5.0
+  },
+  "MOURIOUX": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 5.0
+  },
+  "MOUTIER MALCARD": {
+    "bureau": "Bonnat",
+    "distanceKm": 7.6
+  },
+  "MOUTIER ROZEILLE": {
+    "bureau": "Felletin",
+    "distanceKm": 2.8
+  },
+  "MOUTIER D AHUN": {
+    "bureau": "Ahun",
+    "distanceKm": 3.0
+  },
+  "MEASNES": {
+    "bureau": "Bonnat",
+    "distanceKm": 14.7
+  },
+  "MERINCHAL": {
+    "bureau": "Crocq",
+    "distanceKm": 12.0
+  },
+  "NAILLAT": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 5.2
+  },
+  "NOTH": {
+    "bureau": "la Souterraine",
+    "distanceKm": 8.2
+  },
+  "NOUHANT": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 11.2
+  },
+  "NOUZERINES": {
+    "bureau": "Boussac",
+    "distanceKm": 9.6
+  },
+  "NOUZEROLLES": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 10.6
+  },
+  "NOUZIERS": {
+    "bureau": "Bonnat",
+    "distanceKm": 11.7
+  },
+  "NEOUX": {
+    "bureau": "Felletin",
+    "distanceKm": 6.1
+  },
+  "PARSAC": {
+    "bureau": "Jarnages",
+    "distanceKm": 5.2
+  },
+  "PARSAC RIMONDEIX": {
+    "bureau": "Jarnages",
+    "distanceKm": 5.2
+  },
+  "PEYRABOUT": {
+    "bureau": "Guéret",
+    "distanceKm": 7.3
+  },
+  "PEYRAT LA NONIERE": {
+    "bureau": "Chénérailles",
+    "distanceKm": 7.2
+  },
+  "PIERREFITTE": {
+    "bureau": "Chénérailles",
+    "distanceKm": 6.4
+  },
+  "PIGEROLLES": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "PIONNAT": {
+    "bureau": "Jarnages",
+    "distanceKm": 5.3
+  },
+  "PONTCHARRAUD": {
+    "bureau": "Crocq",
+    "distanceKm": 7.0
+  },
+  "POUSSANGES": {
+    "bureau": "Felletin",
+    "distanceKm": 9.2
+  },
+  "PUY MALSIGNAT": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 7.9
+  },
+  "RETERRE": {
+    "bureau": "Evaux-les-Bains",
+    "distanceKm": 8.4
+  },
+  "RIMONDEIX": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "ROCHES": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 3.6
+  },
+  "ROUGNAT": {
+    "bureau": "Auzances",
+    "distanceKm": 3.2
+  },
+  "ROYERE": {
+    "bureau": "Royère-de-Vassivière",
+    "distanceKm": 0.0
+  },
+  "SAGNAT": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 3.1
+  },
+  "SAINT AGNANT DE VERSILLAT": {
+    "bureau": "la Souterraine",
+    "distanceKm": 6.4
+  },
+  "SAINT AGNANT PRES CROCQ": {
+    "bureau": "Crocq",
+    "distanceKm": 5.6
+  },
+  "SAINT ALPINIEN": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 4.2
+  },
+  "SAINT AMAND": {
+    "bureau": "Aubusson",
+    "distanceKm": 4.1
+  },
+  "SAINT AMAND JARTOUDEIX": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 6.4
+  },
+  "SAINT AVIT DE TARDES": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 7.2
+  },
+  "SAINT AVIT LE PAUVRE": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 1.3
+  },
+  "SAINT BARD": {
+    "bureau": "Crocq",
+    "distanceKm": 7.5
+  },
+  "SAINT CHABRAIS": {
+    "bureau": "Chénérailles",
+    "distanceKm": 3.5
+  },
+  "SAINT CHRISTOPHE": {
+    "bureau": "Guéret",
+    "distanceKm": 6.6
+  },
+  "SAINT DIZIER MASBARAUD": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 6.9
+  },
+  "SAINT DIZIER LEYRENNE": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 6.9
+  },
+  "SAINT DIZIER LA TOUR": {
+    "bureau": "Chénérailles",
+    "distanceKm": 3.8
+  },
+  "SAINT DIZIER LES DOMAINES": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 3.2
+  },
+  "SAINT DOMET": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 7.8
+  },
+  "SAINT FIEL": {
+    "bureau": "Guéret",
+    "distanceKm": 6.1
+  },
+  "SAINT FRION": {
+    "bureau": "Felletin",
+    "distanceKm": 4.5
+  },
+  "SAINT GEORGES NIGREMONT": {
+    "bureau": "Crocq",
+    "distanceKm": 7.3
+  },
+  "SAINT GEORGES LA POUGE": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 5.4
+  },
+  "SAINT GERMAIN BEAUPRE": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 8.0
+  },
+  "SAINT GOUSSAUD": {
+    "bureau": "Bénévent-l'Abbaye",
+    "distanceKm": 11.3
+  },
+  "SAINT HILAIRE LA PLAINE": {
+    "bureau": "Ahun",
+    "distanceKm": 3.7
+  },
+  "SAINT HILAIRE LE CHATEAU": {
+    "bureau": "Pontarion",
+    "distanceKm": 4.1
+  },
+  "SAINT JULIEN LA GENETE": {
+    "bureau": "Evaux-les-Bains",
+    "distanceKm": 4.3
+  },
+  "SAINT JULIEN LE CHATEL": {
+    "bureau": "Chénérailles",
+    "distanceKm": 7.6
+  },
+  "SAINT JUNIEN LA BREGERE": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 6.8
+  },
+  "SAINT LAURENT": {
+    "bureau": "Guéret",
+    "distanceKm": 7.1
+  },
+  "SAINT LOUP": {
+    "bureau": "Chénérailles",
+    "distanceKm": 9.3
+  },
+  "SAINT LEGER BRIDEREIX": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 7.0
+  },
+  "SAINT LEGER LE GUERETOIS": {
+    "bureau": "Guéret",
+    "distanceKm": 4.4
+  },
+  "SAINT MAIXANT": {
+    "bureau": "Aubusson",
+    "distanceKm": 6.0
+  },
+  "SAINT MARC A FRONGIER": {
+    "bureau": "Aubusson",
+    "distanceKm": 5.8
+  },
+  "SAINT MARC A LOUBAUD": {
+    "bureau": "Gentioux",
+    "distanceKm": 6.6
+  },
+  "SAINT MARIEN": {
+    "bureau": "Boussac",
+    "distanceKm": 7.1
+  },
+  "SAINT MARTIAL LE MONT": {
+    "bureau": "Ahun",
+    "distanceKm": 6.9
+  },
+  "SAINT MARTIAL LE VIEUX": {
+    "bureau": "la Courtine",
+    "distanceKm": 6.9
+  },
+  "SAINT MARTIN CHATEAU": {
+    "bureau": "Royère-de-Vassivière",
+    "distanceKm": 7.3
+  },
+  "SAINT MARTIN SAINTE CATHERINE": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 14.7
+  },
+  "SAINT MAURICE LA SOUTERRAINE": {
+    "bureau": "la Souterraine",
+    "distanceKm": 4.5
+  },
+  "SAINT MAURICE PRES CROCQ": {
+    "bureau": "Crocq",
+    "distanceKm": 4.2
+  },
+  "SAINT MERD LA BREUILLE": {
+    "bureau": "Crocq",
+    "distanceKm": 14.2
+  },
+  "SAINT MICHEL DE VEISSE": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 4.9
+  },
+  "SAINT MOREIL": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 10.1
+  },
+  "SAINT MEDARD LA ROCHETTE": {
+    "bureau": "Aubusson",
+    "distanceKm": 8.2
+  },
+  "SAINT MEDARD": {
+    "bureau": "Aubusson",
+    "distanceKm": 8.2
+  },
+  "SAINT ORADOUX DE CHIROUZE": {
+    "bureau": "la Courtine",
+    "distanceKm": 6.4
+  },
+  "SAINT ORADOUX PRES CROCQ": {
+    "bureau": "Crocq",
+    "distanceKm": 4.1
+  },
+  "SAINT PARDOUX MORTEROLLES": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 7.6
+  },
+  "SAINT PARDOUX LAVAUD": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 7.6
+  },
+  "SAINT PARDOUX D ARNET": {
+    "bureau": "Crocq",
+    "distanceKm": 4.3
+  },
+  "SAINT PARDOUX LE NEUF": {
+    "bureau": "Aubusson",
+    "distanceKm": 4.9
+  },
+  "SAINT PARDOUX LES CARDS": {
+    "bureau": "Chénérailles",
+    "distanceKm": 4.6
+  },
+  "SAINT PIERRE BELLEVUE": {
+    "bureau": "Royère-de-Vassivière",
+    "distanceKm": 8.9
+  },
+  "SAINT PIERRE CHERIGNAT": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 10.3
+  },
+  "SAINT PIERRE DE FURSAC": {
+    "bureau": "Guéret",
+    "distanceKm": 0.0
+  },
+  "SAINT PIERRE LE BOST": {
+    "bureau": "Boussac",
+    "distanceKm": 6.0
+  },
+  "SAINT PRIEST": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 11.5
+  },
+  "SAINT PRIEST PALUS": {
+    "bureau": "Bourganeuf",
+    "distanceKm": 8.3
+  },
+  "SAINT PRIEST LA FEUILLE": {
+    "bureau": "la Souterraine",
+    "distanceKm": 5.9
+  },
+  "SAINT PRIEST LA PLAINE": {
+    "bureau": "Le Grand-Bourg",
+    "distanceKm": 4.8
+  },
+  "SAINT QUENTIN LA CHABANNE": {
+    "bureau": "Felletin",
+    "distanceKm": 2.9
+  },
+  "SAINT SILVAIN BAS LE ROC": {
+    "bureau": "Boussac",
+    "distanceKm": 1.9
+  },
+  "SAINT SILVAIN BELLEGARDE": {
+    "bureau": "Bellegarde-en-Marche",
+    "distanceKm": 1.9
+  },
+  "SAINT SILVAIN MONTAIGUT": {
+    "bureau": "Saint-Vaury",
+    "distanceKm": 6.2
+  },
+  "SAINT SILVAIN SOUS TOULX": {
+    "bureau": "Boussac",
+    "distanceKm": 10.2
+  },
+  "SAINT SULPICE LE DUNOIS": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 4.9
+  },
+  "SAINT SULPICE LE GUERETOIS": {
+    "bureau": "Guéret",
+    "distanceKm": 5.3
+  },
+  "SAINT SEBASTIEN": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 14.1
+  },
+  "SAINT VICTOR EN MARCHE": {
+    "bureau": "Guéret",
+    "distanceKm": 6.7
+  },
+  "SAINT VICTOR": {
+    "bureau": "Guéret",
+    "distanceKm": 6.7
+  },
+  "SAINT YRIEIX LA MONTAGNE": {
+    "bureau": "Royère-de-Vassivière",
+    "distanceKm": 9.2
+  },
+  "SAINT YRIEIX LES BOIS": {
+    "bureau": "Ahun",
+    "distanceKm": 5.1
+  },
+  "SAINT ELOI": {
+    "bureau": "Guéret",
+    "distanceKm": 9.5
+  },
+  "SAINTE FEYRE": {
+    "bureau": "Guéret",
+    "distanceKm": 3.0
+  },
+  "SAINTE FEYRE LA MONTAGNE": {
+    "bureau": "Felletin",
+    "distanceKm": 3.4
+  },
+  "SANNAT": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 7.6
+  },
+  "SARDENT": {
+    "bureau": "Pontarion",
+    "distanceKm": 6.0
+  },
+  "SAVENNES": {
+    "bureau": "Guéret",
+    "distanceKm": 5.5
+  },
+  "SERMUR": {
+    "bureau": "Auzances",
+    "distanceKm": 9.3
+  },
+  "SOUBREBOST": {
+    "bureau": "Pontarion",
+    "distanceKm": 4.3
+  },
+  "SOUMANS": {
+    "bureau": "Boussac",
+    "distanceKm": 9.8
+  },
+  "SOUS PARSAT": {
+    "bureau": "Ahun",
+    "distanceKm": 5.0
+  },
+  "TARDES": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 7.0
+  },
+  "TERCILLAT": {
+    "bureau": "Châtelus-Malvaleix",
+    "distanceKm": 11.9
+  },
+  "THAURON": {
+    "bureau": "Pontarion",
+    "distanceKm": 3.3
+  },
+  "TOULX SAINTE CROIX": {
+    "bureau": "Boussac",
+    "distanceKm": 6.7
+  },
+  "TROIS FONDS": {
+    "bureau": "Boussac",
+    "distanceKm": 12.1
+  },
+  "VALLIERE": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 9.2
+  },
+  "VALLIERES": {
+    "bureau": "Saint-Sulpice-les-Champs",
+    "distanceKm": 9.2
+  },
+  "VAREILLES": {
+    "bureau": "la Souterraine",
+    "distanceKm": 8.0
+  },
+  "VERNEIGES": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 9.8
+  },
+  "VIDAILLAT": {
+    "bureau": "Pontarion",
+    "distanceKm": 6.2
+  },
+  "VIERSAT": {
+    "bureau": "Chambon-sur-Voueize",
+    "distanceKm": 8.2
+  },
+  "VIGEVILLE": {
+    "bureau": "Jarnages",
+    "distanceKm": 3.4
+  },
+  "VILLARD": {
+    "bureau": "Dun-le-Palestel",
+    "distanceKm": 4.3
+  },
+  "EVAUX": {
+    "bureau": "Evaux-les-Bains",
+    "distanceKm": 0.0
+  }
+}

@@ -408,6 +408,11 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .dept-side-col h3 { color: var(--accent); margin-bottom: 8px; }
 .dept-side-col input[type="text"] { width: 100%; box-sizing: border-box; margin-bottom: 10px; }
 .dept-side-col .society-list { max-height: 480px; overflow-y: auto; padding-right: 4px; }
+/* Carte des professions : élément de liste cliquable, surligné quand sélectionné */
+#profMapList .prof-item { cursor: pointer; }
+#profMapList .prof-item:hover { background: #f4f6f8; }
+#profMapList .prof-item.selected { background: #e3f1ee; border-color: var(--accent); }
+#professionMapChart { position: relative; }
 @media (max-width: 860px) {
     .dept-layout { flex-direction: column; }
     .dept-side-col { max-width: none; width: 100%; }

@@ -184,6 +184,30 @@ export async function enrichMissingCoords(list) {
 
 const GEO_EVENT_LABELS = { BIRT: 'Naissance', DEAT: 'Décès', MARR: 'Mariage' };
 
+// Résout un lieu analysé (geo) en point cartographique { key, label, coords: [lon, lat] }, ou null
+// si aucune coordonnée n'est exploitable. Priorité aux coordonnées GPS exactes du GEDCOM
+// (LATI/LONG), sinon préfecture du département/province, sinon centroïde du pays. Partagé par la
+// carte du monde (computeGeoCounts) et la carte des professions pour que les deux regroupent
+// les lieux exactement de la même façon.
+export function resolveGeoPoint(geo) {
+    if(!geo) return null;
+    if(geo.lat != null && geo.lon != null) {
+        return { key: 'gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), label: geo.dept || geo.beProvince || geo.raw || geo.country, coords: [geo.lon, geo.lat] };
+    }
+    if(geo.dept) {
+        const code = geo.dept.split(' - ')[0];
+        if(GEO.deptCentroids[code]) return { key: 'dept:' + code, label: geo.dept, coords: GEO.deptCentroids[code] };
+    }
+    if(geo.beProvince) {
+        const code = geo.beProvince.split(' - ')[0];
+        if(GEO.beProvinceCentroids[code]) return { key: 'beprov:' + code, label: geo.beProvince, coords: GEO.beProvinceCentroids[code] };
+    }
+    if(geo.country && geo.country !== 'Inconnu' && GEO.countryCentroids[geo.country]) {
+        return { key: 'country:' + geo.country, label: geo.country, coords: GEO.countryCentroids[geo.country] };
+    }
+    return null;
+}
+
 // Compte les lieux (pays / département) par type d'événement activé, pour un ensemble d'individus
 // donné. opts.yearMin/opts.yearMax, si fournis, restreignent aux événements datés et survenus dans
 // cet intervalle (bornes incluses ; permet de rejouer l'évolution des lieux au fil du temps) ; sans
@@ -207,21 +231,8 @@ export function computeGeoCounts(scopeIds, individuals, eventFlags, opts) {
         if(geo.country && geo.country !== 'Inconnu') byCountry[geo.country] = (byCountry[geo.country] || 0) + 1;
         if(geo.dept) byDept[geo.dept.split(' - ')[0]] = (byDept[geo.dept.split(' - ')[0]] || 0) + 1;
         if(geo.beProvince) byBeProvince[geo.beProvince.split(' - ')[0]] = (byBeProvince[geo.beProvince.split(' - ')[0]] || 0) + 1;
-        // Priorité aux coordonnées GPS exactes du GEDCOM (LATI/LONG), sinon préfecture du
-        // département/province, sinon centroïde du pays.
-        if(geo.lat != null && geo.lon != null) {
-            addPoint('gps:' + geo.lat.toFixed(3) + ',' + geo.lon.toFixed(3), geo.dept || geo.beProvince || geo.raw || geo.country, [geo.lon, geo.lat], item);
-            return;
-        }
-        if(geo.dept) {
-            const code = geo.dept.split(' - ')[0];
-            if(GEO.deptCentroids[code]) { addPoint('dept:' + code, geo.dept, GEO.deptCentroids[code], item); return; }
-        }
-        if(geo.beProvince) {
-            const code = geo.beProvince.split(' - ')[0];
-            if(GEO.beProvinceCentroids[code]) { addPoint('beprov:' + code, geo.beProvince, GEO.beProvinceCentroids[code], item); return; }
-        }
-        if(geo.country && geo.country !== 'Inconnu') addPoint('country:' + geo.country, geo.country, GEO.countryCentroids[geo.country], item);
+        const pt = resolveGeoPoint(geo);
+        if(pt) addPoint(pt.key, pt.label, pt.coords, item);
     };
     // Avec un filtre temporel actif, seuls les événements datés (et compris dans l'intervalle)
     // comptent — un événement sans date ne peut pas être situé dans le temps, donc il n'apparaît
