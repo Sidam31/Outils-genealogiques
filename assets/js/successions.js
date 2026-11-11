@@ -1157,9 +1157,12 @@ export const SUCCESSION_DEPTS = {
         // catalogue, l'autre moitié du blocage d'origine). Chaque bureau retrouvé n'expose qu'UNE
         // notice couvrant toute la série "Tables des déclarations de successions ou absences" (nom
         // moderne, post-1825, de la table) ; le détail par registre daté n'apparaît que sur la page de
-        // cette notice elle-même (arbre EAD complet du bureau, filtré ici par noeud parent). Aucun
-        // registre numérisé en ligne à ce jour (digitized toujours faux) - seul le catalogue est
-        // consultable pour l'instant.
+        // cette notice elle-même (arbre EAD complet du bureau, filtré ici par noeud parent). Les
+        // images ne sont PAS signalées par hasPDF/hasThumbnail (toujours faux) : le lien vers la
+        // visionneuse (etatcivil-archives.vendee.fr/c/visionneuse/visu_serie.php) n'apparaît que dans
+        // la réponse aspect=Meta de la notice (champ iframeUrl), capturée via Playwright - corrigé le
+        // 2026-11-11 : 384 registres sur 436 numérisés, url = la visionneuse ; les 52 restants
+        // (surtout des cotes W) pointent vers la notice.
         minYear: 1793,
         maxYear: 1968,
         registersUrl: './assets/data/successions_85.json',
@@ -1296,6 +1299,23 @@ export const SUCCESSION_DEPTS = {
         bureauxUrl: './assets/data/successions_47_bureaux.json',
         // La recherche du portail ne fait que choisir un bureau : repli sur la page des tables.
         catalogUrl: 'https://lotetgaronne.archives.prismia.fr/Recherche/TSA',
+    },
+    '05': {
+        label: 'Hautes-Alpes',
+        kind: 'facet',
+        // Bornes réelles de la série (87 registres, 13 bureaux, voir
+        // scrape_successions_hautes_alpes.py) : formulaire Enregistrement, case « Décès et
+        // succession », dont seules les notices « Table des successions et absences » (3 Q) sont
+        // retenues (les tables d'Ancien Régime 2 C du même type sont écartées). Un registre par
+        // bureau et par période, lien direct vers la visionneuse. Bureau = premier élément du
+        // « Contexte » de la notice (3 Q 6237 décrit Saint-Bonnet mais est classé à Veynes : on suit
+        // le classement).
+        minYear: 1802,
+        maxYear: 1948,
+        registersUrl: './assets/data/successions_05.json',
+        bureauxUrl: './assets/data/successions_05_bureaux.json',
+        // Portail Ligeo Archives derrière Anubis : repli sur le formulaire Enregistrement.
+        catalogUrl: 'https://archives.hautes-alpes.fr/archive/recherche/enregistrement/n:214',
     },
 };
 
