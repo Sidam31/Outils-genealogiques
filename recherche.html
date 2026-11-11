@@ -37,6 +37,10 @@
         .tab-panel { width: 100%; max-width: 1100px; min-width: 0; margin: 0 auto; box-sizing: border-box; }
         .results-scroll { max-width: 100%; overflow-x: auto; }
         .dept-ko { color: #c0392b; }
+        .decl-badge { font-size: 0.75rem; white-space: nowrap; text-decoration: none; border-radius: 3px; padding: 0 3px; cursor: help; }
+        .decl-ok { background: #e3f2e6; color: #1e6b33; }
+        .decl-part { background: #fdf3dc; color: #8a5a00; }
+        .decl-few { background: #eee; color: #666; }
     </style>
 </head>
 <body>
@@ -134,8 +138,9 @@
         <div id="faIntroSuccessions" class="hidden">
             <p class="quality-intro">Pour chaque personne décédée à une commune connue, dans un département couvert ci-dessous et pendant la période où sa série est numérisée, un lien direct vers le(s) registre(s) du portail des Archives départementales concerné, dans la série des tables des successions et absences (cote 3Q).</p>
             <details style="max-width:700px; margin:0.5rem auto;">
-                <summary class="hint" style="text-align:center; cursor:pointer;">Départements (83 couverts, 13 non couverts) — cliquer pour la liste</summary>
+                <summary class="hint" style="text-align:center; cursor:pointer;">Départements (85 couverts, 12 non couverts) — cliquer pour la liste</summary>
                 <p class="hint" style="text-align:center;">En <span class="dept-ko">rouge</span> : non couvert — « à faire » (piste repérée, bloquée techniquement) ou « introuvable en ligne » (série non disponible numériquement). Cliquez un nom en lien pour ouvrir le portail des Archives départementales concerné.</p>
+                <p class="hint" style="text-align:center;"><span class="decl-badge decl-ok">📜</span> : les registres de <strong>déclarations de succession</strong> (mutations par décès : l'acte lui-même, auquel renvoie la table) sont aussi numérisés en ligne, en tout ou partie — survolez le badge pour le détail, cliquez pour ouvrir la liste. Ailleurs, ils ne se consultent qu'en salle de lecture.</p>
                 <ul class="hint" style="max-width:680px; margin:0.5rem auto 0; text-align:left; columns:2; column-gap:2rem;">
                     <li><strong><a href="https://www.archives.ain.fr/archive/recherche/3q/n:92" target="_blank" rel="noopener">Ain</a></strong> 1834-1969</li>
                     <li><strong><a href="https://archives.aisne.fr/archive/recherche/successionsabsences/n:322" target="_blank" rel="noopener">Aisne</a></strong> 1793-1970</li>
@@ -159,32 +164,32 @@
                     <li class="dept-ko"><strong>Corse-du-Sud</strong> — à faire (tables numérisées pour 10 bureaux sur archives.isula.corsica, mais visionneuse THOT liée à la session : aucun lien direct possible ; vérifié 2026-11-11)</li>
                     <li><strong><a href="https://archives.cotedor.fr/console/ir_ead_visu.php?eadid=FRAD021_000001842&amp;ir=23254" target="_blank" rel="noopener">Côte-d&#x27;Or</a></strong> 1809-1969</li>
                     <li><strong><a href="https://recherche.archives.cotesdarmor.fr/archives/classification-scheme" target="_blank" rel="noopener">Côtes-d&#x27;Armor</a></strong> 1814-1968</li>
-                    <li><strong><a href="https://archives.creuse.fr/rechercher/archives-numerisees/tables-du-controle-des-actes-et-de-lenregistrement-1" target="_blank" rel="noopener">Creuse</a></strong> 1790-1968 (25 bureaux)</li>
-                    <li><strong><a href="https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101" target="_blank" rel="noopener">Deux-Sèvres</a></strong> 1710-1969</li>
+                    <li><strong><a href="https://archives.creuse.fr/rechercher/archives-numerisees/tables-du-controle-des-actes-et-de-lenregistrement-1" target="_blank" rel="noopener">Creuse</a></strong> 1790-1968 (25 bureaux) <a class="decl-badge decl-few" href="https://archives.creuse.fr/rechercher/archives-numerisees/tables-du-controle-des-actes-et-de-lenregistrement-1" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• Volumes isolés seulement (ex. Bonnat, 3 Q 6 243, 1861-1862)&#10;• ~3 000 déclarations cataloguées sans images&#10;(vérifié le 2026-11-11)">📜 quelques déclarations</a></li>
+                    <li><strong><a href="https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101" target="_blank" rel="noopener">Deux-Sèvres</a></strong> 1710-1969 <a class="decl-badge decl-ok" href="https://archives-deux-sevres-vienne.fr/archive/resultats/enregistrement/n:101?type=enregistrement&amp;RECH_dep_Libel=Deux-S%C3%A8vres%7C&amp;RECH_dep_Md5=1bcc29d5a8e7ee46d9485324417f8e53%7C&amp;RECH_type_Libel=d%C3%A9claration+de+succession%7C&amp;RECH_type_Md5=d2df2ccd25d9b86c0b9f099e86173df7%7C" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• Tous les bureaux, 1790-1920 (selon les Archives)&#10;• 2 362 registres, type « déclaration de succession »&#10;(vérifié le 2026-11-11)">📜 déclarations en ligne</a></li>
                     <li class="dept-ko"><strong>Dordogne</strong> — introuvable en ligne (tables décrites sur le site, aucun registre 3 Q numérisé)</li>
                     <li><strong><a href="https://portail-archives.doubs.fr/search/results" target="_blank" rel="noopener">Doubs</a></strong> 1776-1969</li>
-                    <li><strong><a href="https://archives.ladrome.fr/search/results?q=tables+des+successions+et+absences" target="_blank" rel="noopener">Drôme</a></strong> 1819-1968 (344 registres, 28 bureaux, 327 numérisés)</li>
+                    <li><strong><a href="https://archives.ladrome.fr/search/results?q=tables+des+successions+et+absences" target="_blank" rel="noopener">Drôme</a></strong> 1819-1968 (344 registres, 28 bureaux, 327 numérisés) <a class="decl-badge decl-part" href="https://archives.ladrome.fr/search/results?q=%22Registres+des+d%C3%A9clarations+de+mutation+par+d%C3%A9c%C3%A8s%22&amp;resultsPerPage=80&amp;mode=list&amp;facet_media=image&amp;page=1" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• 508 registres numérisés sur ~3 940 catalogués, 28 bureaux&#10;• Surtout 1790-1849, puis épars jusqu&#x27;aux années 1960&#10;(vérifié le 2026-11-11)">📜 déclarations (partiel)</a></li>
                     <li><strong><a href="https://archives.essonne.fr/page/successions-1" target="_blank" rel="noopener">Essonne</a></strong> 1780-1977</li>
-                    <li><strong><a href="https://archives.eure.fr/search/results" target="_blank" rel="noopener">Eure</a></strong> 1787-1963</li>
+                    <li><strong><a href="https://archives.eure.fr/search/results" target="_blank" rel="noopener">Eure</a></strong> 1787-1963 <a class="decl-badge decl-part" href="https://archives.eure.fr/search/results?formUuid=57bc0059-0ae5-407e-a513-87c35dfe5907&amp;mode=list&amp;facet_media=image" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• ~1 870 registres « Déclarations de mutation par décès » signalés avec images, 30 bureaux, 1790-1941&#10;• Non vérifié visuellement : portail injoignable le 2026-11-11&#10;(vérifié le 2026-11-11)">📜 déclarations (probable)</a></li>
                     <li><strong><a href="https://archives28.fr/archives-et-inventaires-en-ligne/histoire-des-individus-des-populations-et-genealogie/les-tables-des-successions-et-absences" target="_blank" rel="noopener">Eure-et-Loir</a></strong> 1760-1969</li>
                     <li><strong><a href="https://recherche.archives.finistere.fr/archive/fonds/FRAD029_Enregistrement/n:142" target="_blank" rel="noopener">Finistère</a></strong> 1750-1945</li>
-                    <li><strong><a href="https://earchives.gard.fr/document/FRAD030_ENREGISTREMENT" target="_blank" rel="noopener">Gard</a></strong> 1821-1969</li>
+                    <li><strong><a href="https://earchives.gard.fr/document/FRAD030_ENREGISTREMENT" target="_blank" rel="noopener">Gard</a></strong> 1821-1969 <a class="decl-badge decl-few" href="https://earchives.gard.fr/document/FRAD030_ENREGISTREMENT" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• 3 volumes seulement : Nîmes, 1147 W 42-44 (1900-1901)&#10;• ~4 200 volumes catalogués sans images&#10;(vérifié le 2026-11-11)">📜 quelques déclarations</a></li>
                     <li><strong><a href="https://www.archives32.fr/archives_numerisees/portail/successions_absences/recherche/" target="_blank" rel="noopener">Gers</a></strong> 1820-1968</li>
-                    <li><strong><a href="https://archives.gironde.fr/archive/recherche/enregistrement2" target="_blank" rel="noopener">Gironde</a></strong> 1815-1949</li>
+                    <li><strong><a href="https://archives.gironde.fr/archive/recherche/enregistrement2" target="_blank" rel="noopener">Gironde</a></strong> 1815-1949 <a class="decl-badge decl-part" href="https://archives.gironde.fr/archive/resultats/enregistrement2/tableau/limit:50/page:1?RECH_registre_Libel=D%C3%A9clarations+des+mutations+par+d%C3%A9c%C3%A8s%7C&amp;RECH_registre_Md5=8125c8f0184ee7df06b2a2d2c664dc31%7C&amp;arcfacfull=RECH_numbur" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• ~25-30 % des 5 499 registres catalogués ont des images, 1790-1949&#10;• Surtout : Libourne, Carbon-Blanc, Branne, Blaye, Langon, Bourg, Coutras, Cadillac, Lussac, Guîtres, Pujols, Castillon&#10;(vérifié le 2026-11-11)">📜 déclarations (partiel)</a></li>
                     <li><strong><a href="https://archives68.alsace.eu/search/results" target="_blank" rel="noopener">Haut-Rhin</a></strong> 1832-1969</li>
                     <li class="dept-ko"><strong>Haute-Corse</strong> — à faire (portail désormais derrière un défi Cloudflare, non contourné)</li>
                     <li><strong><a href="https://archives.haute-garonne.fr/n/enregistrement/n:352" target="_blank" rel="noopener">Haute-Garonne</a></strong> 1787-1968</li>
                     <li><strong><a href="https://www.archives43.fr/archives-en-ligne/familles-et-individus-en-haute-loire/tables-du-controle-des-actes-et-de-lenregistrement" target="_blank" rel="noopener">Haute-Loire</a></strong> 1821-1968</li>
                     <li><strong><a href="https://archives.haute-marne.fr/archives/classification-scheme" target="_blank" rel="noopener">Haute-Marne</a></strong> 1791-1966</li>
                     <li><strong><a href="https://archives.haute-saone.fr/archive/recherche/enregistrement/n:121" target="_blank" rel="noopener">Haute-Saône</a></strong> 1786-1969</li>
-                    <li><strong><a href="https://archives.hautesavoie.fr/archive/recherche/enregistrement/n:154" target="_blank" rel="noopener">Haute-Savoie</a></strong> 1793-1968</li>
-                    <li><strong><a href="https://archives.haute-vienne.fr/rechercher/archives-en-ligne/declarations-et-tables-des-successions-1790-1968" target="_blank" rel="noopener">Haute-Vienne</a></strong> 1790-1968</li>
+                    <li><strong><a href="https://archives.hautesavoie.fr/archive/recherche/enregistrement/n:154" target="_blank" rel="noopener">Haute-Savoie</a></strong> 1793-1968 <a class="decl-badge decl-part" href="https://archives.hautesavoie.fr/archive/recherche/enregistrement/n:130" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• 1795-1815 et 1860-1969, toutes les images ne sont pas encore en ligne (selon les Archives)&#10;• Type de registre « Déclarations de succession ou mutations par décès extérieures »&#10;(vérifié le 2026-11-11)">📜 déclarations (partiel)</a></li>
+                    <li><strong><a href="https://archives.haute-vienne.fr/rechercher/archives-en-ligne/declarations-et-tables-des-successions-1790-1968" target="_blank" rel="noopener">Haute-Vienne</a></strong> 1790-1968 <a class="decl-badge decl-ok" href="https://archives.haute-vienne.fr/rechercher/archives-en-ligne/declarations-et-tables-des-successions-1790-1968" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• Tous les bureaux, jusqu&#x27;en 1921-1923 (au-delà : salle de lecture)&#10;• ~1 430 registres « Déclarations de successions », sur la même page que les tables&#10;(vérifié le 2026-11-11)">📜 déclarations en ligne</a></li>
                     <li><strong><a href="https://archives.hautes-alpes.fr/archive/recherche/enregistrement/n:214" target="_blank" rel="noopener">Hautes-Alpes</a></strong> 1802-1948 (13 bureaux)</li>
                     <li><strong><a href="https://archivesenligne65.fr/archives/acces-thematique/naitre-vivre-et-mourir/les-registres-de-lenregistrement-1" target="_blank" rel="noopener">Hautes-Pyrénées</a></strong> 1815-1970</li>
-                    <li><strong><a href="https://archives.hauts-de-seine.fr/archive/recherche/enregistrements/n:96" target="_blank" rel="noopener">Hauts-de-Seine</a></strong> 1807-1969</li>
+                    <li><strong><a href="https://archives.hauts-de-seine.fr/archive/recherche/enregistrements/n:96" target="_blank" rel="noopener">Hauts-de-Seine</a></strong> 1807-1969 <a class="decl-badge decl-part" href="https://archives.hauts-de-seine.fr/archive/recherche/enregistrements/n:96" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• Une partie des bureaux (~10) : Asnières, Boulogne (1905-1969), Clichy, Colombes, Courbevoie (1830-1969), Montrouge, Nanterre, Neuilly (1820-1969), Rueil, Vanves (1903-1969)&#10;• Type « Déclarations de successions » du portail Enregistrement&#10;(vérifié le 2026-11-11)">📜 déclarations (partiel)</a></li>
                     <li><strong><a href="https://archives-pierresvives.herault.fr/archive/resultats/enregistrement/n:22" target="_blank" rel="noopener">Hérault</a></strong> 1760-1968</li>
                     <li><strong><a href="https://archives-en-ligne.ille-et-vilaine.fr/thot_internet/" target="_blank" rel="noopener">Ille-et-Vilaine</a></strong> 1789-1969 (pas de lien direct par registre : Recherche, puis Tables alphabétiques des successions)</li>
-                    <li><strong><a href="https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q" target="_blank" rel="noopener">Indre</a></strong> 1821-1969 (22 lieux)</li>
+                    <li><strong><a href="https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q" target="_blank" rel="noopener">Indre</a></strong> 1821-1969 (22 lieux) <a class="decl-badge decl-ok" href="https://www.archives36.fr/fonds-numerises/enregistrement-sous-serie-3-q" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• Déclarations des mutations par décès : 1791-1969, 24 bureaux, ~1 400 registres (quasi complet)&#10;• Déclarations de successions 1959 : Aigurande, Argenton, Le Blanc&#10;• Filtrer le fonds 3 Q numérisé sur la typologie « Déclarations des mutations par décès »&#10;(vérifié le 2026-11-11)">📜 déclarations en ligne</a></li>
                     <li><strong><a href="https://archives.touraine.fr/search/results" target="_blank" rel="noopener">Indre-et-Loire</a></strong> 1824-1968</li>
                     <li><strong><a href="https://archives.isere.fr/archive/instruments-de-recherche-63" target="_blank" rel="noopener">Isère</a></strong> 1791-1968 (39 bureaux sur 41, pas de lien vers un scan par registre)</li>
                     <li><strong><a href="https://archives39.fr/search/results?target=controlledAccessPhysicalCharacteristic&amp;keyword=table%20des%20successions" target="_blank" rel="noopener">Jura</a></strong> 1736-1810 (couverture minime, 4 registres)</li>
@@ -229,7 +234,7 @@
                     <li><strong><a href="https://archives.var.fr/recherche/rechercher-dans-les-archives-numerisees-et-les-inventaires/controle-des-actes-et-enregistrement" target="_blank" rel="noopener">Var</a></strong> 1770-1975</li>
                     <li><strong><a href="https://earchives.vaucluse.fr/archives/search?filter_field=cSubject&amp;filter_value=enregistrement" target="_blank" rel="noopener">Vaucluse</a></strong> 1741-1968</li>
                     <li><strong><a href="https://archives.vendee.fr/consulter/inventaires-et-catalogues-en-ligne" target="_blank" rel="noopener">Vendée</a></strong> 1793-1968 (26 bureaux, pas de lien vers un scan par registre — aucun registre numérisé en ligne pour cette série à ce jour)</li>
-                    <li><strong><a href="https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101" target="_blank" rel="noopener">Vienne</a></strong> 1719-1968</li>
+                    <li><strong><a href="https://archives-deux-sevres-vienne.fr/archive/recherche/enregistrement/n:101" target="_blank" rel="noopener">Vienne</a></strong> 1719-1968 <a class="decl-badge decl-part" href="https://archives-deux-sevres-vienne.fr/archive/resultats/enregistrement/n:101?type=enregistrement&amp;RECH_images=1&amp;RECH_dep_Libel=Vienne%7C&amp;RECH_dep_Md5=6ddd0ee433dbf36f2b1eaf62565dccf0%7C&amp;RECH_type_Libel=d%C3%A9claration+de+succession%7C&amp;RECH_type_Md5=d2df2ccd25d9b86c0b9f099e86173df7%7C" target="_blank" rel="noopener" title="Registres de déclarations de succession numérisés :&#10;• 10 registres seulement (Lencloître, à partir de 1806)&#10;• Numérisation en cours&#10;(vérifié le 2026-11-11)">📜 déclarations (partiel)</a></li>
                     <li><strong><a href="https://recherche-archives.vosges.fr/archive/fonds/FRAD088_3QW/view:23103" target="_blank" rel="noopener">Vosges</a></strong> 1784-1971 (41 bureaux sur 43)</li>
                     <li><strong><a href="https://archives.yonne.fr/archive/recherche/enregistrement/n:406" target="_blank" rel="noopener">Yonne</a></strong> 1809-1968</li>
                     <li><strong><a href="https://archives.yvelines.fr/rechercher/archives-en-ligne/enregistrementbrtables-referencant-les-actesbret-declarations-de-successions/tables-de-lenregistrement" target="_blank" rel="noopener">Yvelines</a></strong> 1824-1969</li>
@@ -242,11 +247,11 @@
         <div id="faIntroMariage" class="hidden">
             <p class="quality-intro">Pour chaque personne mariée dans une commune connue, dans un département couvert ci-dessous et pendant la période où sa série est numérisée, un lien direct vers le(s) registre(s) du portail des Archives départementales concerné, dans la série des tables des contrats de mariage (même fonds "Enregistrement" que le mode Successions).</p>
             <details style="max-width:700px; margin:0.5rem auto;">
-                <summary class="hint" style="text-align:center; cursor:pointer;">Départements (38 couverts, 56 non couverts) — cliquer pour la liste</summary>
+                <summary class="hint" style="text-align:center; cursor:pointer;">Départements (40 couverts, 54 non couverts) — cliquer pour la liste</summary>
                 <p class="hint" style="text-align:center;">En <span class="dept-ko">rouge</span> : non couvert — « à faire » (piste repérée, bloquée techniquement) ou « introuvable en ligne » (série non disponible numériquement). Cliquez un nom en lien pour ouvrir le portail des Archives départementales concerné.</p>
                 <ul class="hint" style="max-width:680px; margin:0.5rem auto 0; text-align:left; columns:2; column-gap:2rem;">
                     <li class="dept-ko"><strong>Ain</strong> — introuvable en ligne</li>
-                    <li class="dept-ko"><strong>Aisne</strong> — série présente mais non listée ici (facette « table des contrats de mariage » : 63 registres, tables du Contrôle des actes numérisées en totalité selon le portail ; énumération non faite car robots.txt interdit les pages de résultats)</li>
+                    <li><strong><a href="https://archives.aisne.fr/archive/resultats/successionsabsences/lineaire/n:322?RECH_table_Libel=table+des+contrats+de+mariage%7C&amp;RECH_table_Md5=16b9dbcdb3978520e2c8278c2fb331ba%7C&amp;type=successionsabsences" target="_blank" rel="noopener">Aisne</a></strong> 1729-1809 (Contrôle des actes, 25 bureaux)</li>
                     <li><strong><a href="https://archives.allier.fr/3q-enregistrement" target="_blank" rel="noopener">Allier</a></strong> 1767-1865 (138 registres, 28 bureaux, numérisés)</li>
                     <li class="dept-ko"><strong>Alpes-de-Haute-Provence</strong> — introuvable en ligne (aucune série Enregistrement en ligne ; vérifié 2026-10-27)</li>
                     <li><strong><a href="https://archives06.fr/archive/fonds/FRAD006_3Q/view:625770" target="_blank" rel="noopener">Alpes-Maritimes</a></strong> 1769-1865 (partielle, 10 bureaux sur 29)</li>
@@ -296,13 +301,13 @@
                     <li><strong><a href="https://archives.touraine.fr/search/results?target=controlledAccessPhysicalCharacteristic&amp;keyword=table%20des%20contrats%20de%20mariage" target="_blank" rel="noopener">Indre-et-Loire</a></strong> 1750-1865</li>
                     <li class="dept-ko"><strong>Isère</strong> — introuvable en ligne (la page « instruments de recherche » de l'enregistrement 3 Q ne propose que des inventaires PDF par bureau, sans tables de contrats de mariage numérisées ; PDF non ouverts, à confirmer)</li>
                     <li><strong><a href="https://archives39.fr/search/results?target=controlledAccessPhysicalCharacteristic&amp;keyword=table%20des%20contrats%20de%20mariage" target="_blank" rel="noopener">Jura</a></strong> 1706-1812</li>
-                    <li class="dept-ko"><strong>Landes</strong> — non sondé (portail derrière un défi Cloudflare)</li>
+                    <li class="dept-ko"><strong>Landes</strong> — introuvable en ligne (tables des contrats de mariage inventoriées en 3 Q, mais seules les tables des décès/successions sont numérisées ; portail en partie derrière Cloudflare ; vérifié 2026-11-11)</li>
                     <li class="dept-ko"><strong>Loir-et-Cher</strong> — introuvable en ligne</li>
                     <li class="dept-ko"><strong>Loire</strong> — introuvable en ligne</li>
                     <li class="dept-ko"><strong>Loire-Atlantique</strong> — introuvable en ligne</li>
                     <li class="dept-ko"><strong>Loiret</strong> — introuvable en ligne</li>
                     <li class="dept-ko"><strong>Lot</strong> — introuvable en ligne (relevés bénévoles sur <a href="https://www.arhfa.org/enregistrement.php" target="_blank" rel="noopener">ARHFa</a>)</li>
-                    <li class="dept-ko"><strong>Lot-et-Garonne</strong> — introuvable en ligne (aucune table de contrats de mariage dans la liste du portail Prismia ; robots.txt interdit l'exploration ; 2026-10-27)</li>
+                    <li class="dept-ko"><strong>Lot-et-Garonne</strong> — introuvable en ligne (~212 tables des contrats de mariage cataloguées en 3 Q sur le portail Prismia, aucune avec images ; vérifié 2026-11-11)</li>
                     <li><strong><a href="https://archives.lozere.fr/archive/recherche/enregistrement/n:305" target="_blank" rel="noopener">Lozère</a></strong> 1779-1866</li>
                     <li class="dept-ko"><strong>Maine-et-Loire</strong> — introuvable en ligne</li>
                     <li class="dept-ko"><strong>Manche</strong> — introuvable en ligne</li>
@@ -330,7 +335,7 @@
                     <li class="dept-ko"><strong>Tarn</strong> — introuvable en ligne</li>
                     <li><strong><a href="https://recherche.archives82.fr/document/FRAD082_IR_00383" target="_blank" rel="noopener">Tarn-et-Garonne</a></strong> 1755-1866</li>
                     <li><strong><a href="https://archives.territoiredebelfort.fr/search/results?target=controlledAccessPhysicalCharacteristic&amp;keyword=Table+des+contrats+de+mariage&amp;mode=list&amp;sort=referencecode_asc" target="_blank" rel="noopener">Territoire de Belfort</a></strong> 1791-1869</li>
-                    <li class="dept-ko"><strong>Val-d'Oise</strong> — non sondé (portail derrière un mur anti-bot Anubis)</li>
+                    <li><strong><a href="https://archives.valdoise.fr/n/enregistrement/n:329" target="_blank" rel="noopener">Val-d'Oise</a></strong> 1769-1865 (8 bureaux sur 11)</li>
                     <li class="dept-ko"><strong>Val-de-Marne</strong> — introuvable en ligne</li>
                     <li><strong><a href="https://archives.var.fr/recherche/rechercher-dans-les-archives-numerisees-et-les-inventaires/controle-des-actes-et-enregistrement" target="_blank" rel="noopener">Var</a></strong> 1705-1865</li>
                     <li><strong><a href="https://earchives.vaucluse.fr/archives/search?filter_field=cCorpname&amp;filter_value=Bureau+de+l%27enregistrement+d%27Avignon" target="_blank" rel="noopener">Vaucluse</a></strong> 1772-1865</li>
@@ -469,10 +474,10 @@
 
 <div id="gxPanel" class="tab-panel hidden">
     <div class="quality-container" style="max-width:none;">
-        <p class="quality-intro">Pour chaque personne de l'arbre, un ou plusieurs liens de recherche sur le nom et le prénom vers plusieurs sites à la fois : <a href="https://gallica.bnf.fr/" target="_blank" rel="noopener">Gallica</a> (plein texte BnF : presse ancienne, monographies, actes numérisés...), <a href="https://www.geneanet.org/fonds/individus/" target="_blank" rel="noopener">Geneanet</a>, <a href="https://www.filae.com/" target="_blank" rel="noopener">Filae</a> et <a href="https://www.familysearch.org/search/" target="_blank" rel="noopener">FamilySearch</a>. Choisissez les sites à interroger, avec un filtre de date et (pour Gallica) un filtre de département, chacun activable indépendamment.</p>
+        <p class="quality-intro">Pour chaque personne de l'arbre, un ou plusieurs liens de recherche sur le nom et le prénom vers plusieurs sites à la fois : <a href="https://gallica.bnf.fr/" target="_blank" rel="noopener">Gallica</a> (plein texte BnF : presse ancienne, monographies, actes numérisés...), <a href="https://www.geneanet.org/fonds/individus/" target="_blank" rel="noopener">Geneanet</a>, <a href="https://www.filae.com/" target="_blank" rel="noopener">Filae</a>, <a href="https://www.familysearch.org/search/" target="_blank" rel="noopener">FamilySearch</a> et <a href="https://francearchives.gouv.fr/fr/basedenoms" target="_blank" rel="noopener">FranceArchives</a> (base de noms : recensements, registres matricules, répertoires de notaires... indexés par les services d'archives). Choisissez les sites à interroger, avec un filtre de date et (pour Gallica) un filtre de département, chacun activable indépendamment.</p>
         <p class="hint" style="text-align:center;">Quand plusieurs prénoms sont actés, un lien est proposé par prénom (Nom+prénom1, Nom+prénom2...) plutôt qu'une seule recherche sur tous à la fois. Pour une femme mariée, un jeu de liens supplémentaire (💍) propose la même recherche sous son ou ses noms de mariage, en plus de son nom de naissance (🔎).</p>
         <p class="hint" style="text-align:center;">Le filtre de date s'appuie sur le champ de date de publication du document (naissance/décès connus ou estimés, élargis d'une marge réglable) : fiable et documenté.</p>
-        <p class="hint" style="text-align:center;">Gallica n'a pas d'index géographique fiable couvrant l'ensemble de ses fonds (contrairement à FranceArchives, voir les modes Recensement/Successions/Mariage) : le filtre de département ajoute simplement son nom comme terme de recherche complémentaire — une piste pour affiner, pas une garantie que le département soit le bon. Il ne s'applique qu'à Gallica ; Geneanet, Filae et FamilySearch ne reçoivent que le nom, le prénom et la période. Geneanet, Filae et FamilySearch demandent souvent un compte (gratuit ou payant) pour afficher les résultats.</p>
+        <p class="hint" style="text-align:center;">Gallica n'a pas d'index géographique fiable couvrant l'ensemble de ses fonds (contrairement à FranceArchives, voir les modes Recensement/Successions/Mariage) : le filtre de département ajoute simplement son nom comme terme de recherche complémentaire — une piste pour affiner, pas une garantie que le département soit le bon. Il ne s'applique qu'à Gallica ; Geneanet, Filae, FamilySearch et FranceArchives ne reçoivent que le nom, le prénom et la période. Geneanet, Filae et FamilySearch demandent souvent un compte (gratuit ou payant) pour afficher les résultats.</p>
 
         <div class="options-panel">
             <div class="checkbox-group">
@@ -481,6 +486,7 @@
                 <label><input type="checkbox" class="gxSite" value="geneanet" checked> Geneanet</label>
                 <label><input type="checkbox" class="gxSite" value="filae" checked> Filae</label>
                 <label><input type="checkbox" class="gxSite" value="familysearch" checked> FamilySearch</label>
+                <label><input type="checkbox" class="gxSite" value="francearchives" checked> FranceArchives</label>
             </div>
             <div class="checkbox-group">
                 <label><input type="checkbox" id="gxOptUseDate"> Restreindre par date (naissance/décès ± <input type="number" id="gxOptDateMargin" value="5" min="0" style="width:50px;"> ans)</label>
@@ -1438,7 +1444,7 @@ const fa = (() => {
     };
 })();
 
-// --- Méta-recherche (Gallica, Geneanet, Filae, FamilySearch) ---
+// --- Méta-recherche (Gallica, Geneanet, Filae, FamilySearch, FranceArchives) ---
 // Même enveloppe IIFE que dm/fa ci-dessus, pour la même raison (isoler ses noms internes). Volet
 // plus simple que fa : un seul tableau de résultats, pas de sous-mode.
 const gx = (() => {
@@ -1550,9 +1556,14 @@ const gx = (() => {
     // Un bouton par variante (nom, prénom) — voir nameVariants dans gallica.js : un prénom composé
     // donne un lien par prénom, et une femme en a en plus un jeu sous chaque nom de mariage connu
     // (marqué 💍 pour le distinguer du nom de naissance, marqué 🔎).
-    // Un jeu de boutons par variante, un bouton par site coché (Gallica, Geneanet, Filae, FamilySearch).
-    const SITE_LABELS = { gallica: 'Gallica', geneanet: 'Geneanet', filae: 'Filae', familysearch: 'FamilySearch' };
+    // Un jeu de boutons par variante, un bouton par site coché (Gallica, Geneanet, Filae, FamilySearch,
+    // FranceArchives). FranceArchives n'a pas d'icône locale (favicon derrière un contrôle JS) : emoji.
+    const SITE_LABELS = { gallica: 'Gallica', geneanet: 'Geneanet', filae: 'Filae', familysearch: 'FamilySearch', francearchives: 'FranceArchives' };
     const SITE_ICONS = { gallica: 'gallica.png', geneanet: 'geneanet.ico', filae: 'filae.png', familysearch: 'fs.png' };
+    const SITE_EMOJIS = { francearchives: '🏛' };
+    const siteIcon = s => SITE_ICONS[s]
+        ? `<img src="assets/img/${SITE_ICONS[s]}" alt="" width="14" height="14" style="vertical-align:-2px; margin-right:3px;">`
+        : `<span style="margin-right:3px;">${SITE_EMOJIS[s] || ''}</span>`;
     const siteEls = [...document.querySelectorAll('#gxPanel .gxSite')];
     const enabledSites = () => siteEls.filter(el => el.checked).map(el => el.value);
     siteEls.forEach(el => el.addEventListener('change', renderResults));
@@ -1571,7 +1582,7 @@ const gx = (() => {
             const urls = siteUrls(r, l);
             const name = escapeHtml([l.surname, l.given].filter(Boolean).join(' '));
             return `<div class="city-buttons"><span>${l.married ? '💍' : '🔎'} ${name}</span>${sites.map(s =>
-                `<a class="btn-link" href="${urls[s]}" target="_blank" rel="noopener"><img src="assets/img/${SITE_ICONS[s]}" alt="" width="14" height="14" style="vertical-align:-2px; margin-right:3px;">${SITE_LABELS[s]}</a>`
+                `<a class="btn-link" href="${urls[s]}" target="_blank" rel="noopener">${siteIcon(s)}${SITE_LABELS[s]}</a>`
             ).join('')}</div>`;
         }).join('');
     }
@@ -1599,7 +1610,7 @@ const gx = (() => {
 
     csvBtn.addEventListener('click', () => {
         if (!lastResults.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Deces', 'Date min appliquee', 'Date max appliquee', 'Departement applique', 'Nom recherche', 'Prenom recherche', 'Nom de mariage', 'URL Gallica', 'URL Geneanet', 'URL Filae', 'URL FamilySearch'];
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Deces', 'Date min appliquee', 'Date max appliquee', 'Departement applique', 'Nom recherche', 'Prenom recherche', 'Nom de mariage', 'URL Gallica', 'URL Geneanet', 'URL Filae', 'URL FamilySearch', 'URL FranceArchives'];
         const rows = [];
         sortedResults().forEach(r => {
             r.links.forEach(l => { const urls = siteUrls(r, l); rows.push([
@@ -1619,7 +1630,8 @@ const gx = (() => {
                 urls.gallica,
                 urls.geneanet,
                 urls.filae,
-                urls.familysearch
+                urls.familysearch,
+                urls.francearchives
             ]); });
         });
         downloadCsv('meta-recherche_pistes.csv', headers, rows);

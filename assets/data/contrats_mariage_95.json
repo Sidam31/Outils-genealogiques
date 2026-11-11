@@ -1,0 +1,146 @@
+[
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "Table des contrats de mariage, 1782-1820",
+    "yearStart": 1782,
+    "yearEnd": 1820,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345585",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "Table des contrats de mariage, 1820-1839",
+    "yearStart": 1820,
+    "yearEnd": 1839,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345586",
+    "digitized": true
+  },
+  {
+    "place": "Beaumont-sur-Oise",
+    "cote": "Table des contrats de mariage, 1865",
+    "yearStart": 1865,
+    "yearEnd": 1865,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00052/view:345588",
+    "digitized": true
+  },
+  {
+    "place": "Ecouen",
+    "cote": "3 Q 3 82",
+    "yearStart": 1806,
+    "yearEnd": 1825,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00732/view:349253",
+    "digitized": true
+  },
+  {
+    "place": "La Roche-Guyon",
+    "cote": "3 Q 10 38",
+    "yearStart": 1781,
+    "yearEnd": 1809,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00400/view:3488",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Table des contrats de mariage, 1769-an V [volume n° 1]",
+    "yearStart": 1769,
+    "yearEnd": 1796,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256070",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Table des contrats de mariage, An VI-1831 (volume n° 2)",
+    "yearStart": 1797,
+    "yearEnd": 1831,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256072",
+    "digitized": true
+  },
+  {
+    "place": "Luzarches",
+    "cote": "Table des contrats de mariage, 1832-1865 [volume n° 3]",
+    "yearStart": 1832,
+    "yearEnd": 1865,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00568/view:256075",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "Table des contrats de mariage, 23 janvier 1779-21 mars 1814 (registre n° 1)",
+    "yearStart": 1779,
+    "yearEnd": 1814,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8488",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "Table des contrats de mariage, 1813-1824 (registre n° 2)",
+    "yearStart": 1813,
+    "yearEnd": 1824,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8489",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "Table des contrats de mariage, 1824-1839 (registre n° 3)",
+    "yearStart": 1824,
+    "yearEnd": 1839,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8490",
+    "digitized": true
+  },
+  {
+    "place": "Magny-en-Vexin",
+    "cote": "Table des contrats de mariage, 1839-1865 (registre n° 4)",
+    "yearStart": 1839,
+    "yearEnd": 1865,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00126/view:8491",
+    "digitized": true
+  },
+  {
+    "place": "Marines",
+    "cote": "Table des contrats de mariage, 1821-1847",
+    "yearStart": 1821,
+    "yearEnd": 1847,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15226",
+    "digitized": false
+  },
+  {
+    "place": "Marines",
+    "cote": "Table des contrats de mariage, 1856-1865",
+    "yearStart": 1856,
+    "yearEnd": 1865,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00374/view:15227",
+    "digitized": false
+  },
+  {
+    "place": "Montmorency",
+    "cote": "Table des contrats de mariage, 1784-an XIII [volume 1]",
+    "yearStart": 1784,
+    "yearEnd": 1804,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64238",
+    "digitized": true
+  },
+  {
+    "place": "Montmorency",
+    "cote": "Table des contrats de mariage, An XIV-1818 [volume 2]",
+    "yearStart": 1805,
+    "yearEnd": 1818,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00123/view:64239",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "Table des contrats de mariage, 1791-1824",
+    "yearStart": 1791,
+    "yearEnd": 1824,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347294",
+    "digitized": true
+  },
+  {
+    "place": "Pontoise",
+    "cote": "Table des contrats de mariage, 1859-1865",
+    "yearStart": 1859,
+    "yearEnd": 1865,
+    "url": "https://archives.valdoise.fr/archive/fonds/FRAD095_00124/view:347297",
+    "digitized": true
+  }
+]

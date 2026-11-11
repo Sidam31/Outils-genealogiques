@@ -1,1 +1,506 @@
-[]
+[
+  {
+    "place": "Le Nouvion-en-Thiérache",
+    "cote": "C 3353",
+    "yearStart": 1729,
+    "yearEnd": 1760,
+    "url": "https://archives.aisne.fr/ark:/63271/325962.2593218/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-Saint-Front",
+    "cote": "C 3294",
+    "yearStart": 1729,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/955116.2593154/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Craonne",
+    "cote": "C 2279",
+    "yearStart": 1732,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/324775.2591986/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Ribemont",
+    "cote": "C 3627",
+    "yearStart": 1732,
+    "yearEnd": 1772,
+    "url": "https://archives.aisne.fr/ark:/63271/326242.2593507/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Braine",
+    "cote": "C 1534",
+    "yearStart": 1736,
+    "yearEnd": 1746,
+    "url": "https://archives.aisne.fr/ark:/63271/324014.2591179/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2638",
+    "yearStart": 1736,
+    "yearEnd": 1775,
+    "url": "https://archives.aisne.fr/ark:/63271/325144.2592365/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2637",
+    "yearStart": 1736,
+    "yearEnd": 1775,
+    "url": "https://archives.aisne.fr/ark:/63271/1369952.2592364/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vic-sur-Aisne",
+    "cote": "C 4387",
+    "yearStart": 1737,
+    "yearEnd": 1737,
+    "url": "https://archives.aisne.fr/ark:/63271/327024.2594320/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Laon",
+    "cote": "C 2890",
+    "yearStart": 1738,
+    "yearEnd": 1785,
+    "url": "https://archives.aisne.fr/ark:/63271/1081634.2592716/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Le Catelêt",
+    "cote": "C 1591",
+    "yearStart": 1739,
+    "yearEnd": 1775,
+    "url": "https://archives.aisne.fr/ark:/63271/324072.2591244/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Rozoy-sur-Serre",
+    "cote": "C 3780",
+    "yearStart": 1739,
+    "yearEnd": 1781,
+    "url": "https://archives.aisne.fr/ark:/63271/955207.2593674/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Montcornet",
+    "cote": "C 3156",
+    "yearStart": 1740,
+    "yearEnd": 1785,
+    "url": "https://archives.aisne.fr/ark:/63271/1156922.2593003/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vervins",
+    "cote": "C 4324",
+    "yearStart": 1742,
+    "yearEnd": 1747,
+    "url": "https://archives.aisne.fr/ark:/63271/1156981.2594247/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vailly-sur-Aisne",
+    "cote": "C 4172",
+    "yearStart": 1745,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/955328.2594095/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Bohain-en-Vermandois",
+    "cote": "C 1440",
+    "yearStart": 1746,
+    "yearEnd": 1785,
+    "url": "https://archives.aisne.fr/ark:/63271/323917.2591077/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Fère-en-Tardenois",
+    "cote": "C 2470",
+    "yearStart": 1747,
+    "yearEnd": 1790,
+    "url": "https://archives.aisne.fr/ark:/63271/324969.2592186/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Chauny",
+    "cote": "C 1987",
+    "yearStart": 1748,
+    "yearEnd": 1773,
+    "url": "https://archives.aisne.fr/ark:/63271/324477.2591660/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "La Fère",
+    "cote": "C 2674",
+    "yearStart": 1750,
+    "yearEnd": 1783,
+    "url": "https://archives.aisne.fr/ark:/63271/325262.2592487/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Château-Thierry",
+    "cote": "C 1845",
+    "yearStart": 1750,
+    "yearEnd": 1786,
+    "url": "https://archives.aisne.fr/ark:/63271/324332.2591511/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Soissons",
+    "cote": "C 4058",
+    "yearStart": 1750,
+    "yearEnd": 1750,
+    "url": "https://archives.aisne.fr/ark:/63271/326688.2593976/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Soissons",
+    "cote": "C 4059",
+    "yearStart": 1750,
+    "yearEnd": 1750,
+    "url": "https://archives.aisne.fr/ark:/63271/326689.2593977/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Soissons",
+    "cote": "C 4060",
+    "yearStart": 1750,
+    "yearEnd": 1750,
+    "url": "https://archives.aisne.fr/ark:/63271/955321.2593978/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Plomion",
+    "cote": "C 4479",
+    "yearStart": 1750,
+    "yearEnd": 1779,
+    "url": "https://archives.aisne.fr/ark:/63271/327118.2594420/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Soissons",
+    "cote": "C 4061",
+    "yearStart": 1750,
+    "yearEnd": 1809,
+    "url": "https://archives.aisne.fr/ark:/63271/955322.2593979/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Villers-Cotterêts",
+    "cote": "C 4471",
+    "yearStart": 1753,
+    "yearEnd": 1753,
+    "url": "https://archives.aisne.fr/ark:/63271/327110.2594409/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Neufchâtel-sur-Aisne",
+    "cote": "C 3212",
+    "yearStart": 1754,
+    "yearEnd": 1786,
+    "url": "https://archives.aisne.fr/ark:/63271/955109.2621284/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-Saint-Front",
+    "cote": "C 3295",
+    "yearStart": 1755,
+    "yearEnd": 1773,
+    "url": "https://archives.aisne.fr/ark:/63271/1156932.2593155/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Liesse-Notre-Dame",
+    "cote": "C 2976",
+    "yearStart": 1755,
+    "yearEnd": 1792,
+    "url": "https://archives.aisne.fr/ark:/63271/1156905.2592807/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Craonne",
+    "cote": "C 2280",
+    "yearStart": 1756,
+    "yearEnd": 1756,
+    "url": "https://archives.aisne.fr/ark:/63271/324776.2591987/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Braine",
+    "cote": "C 1535",
+    "yearStart": 1759,
+    "yearEnd": 1759,
+    "url": "https://archives.aisne.fr/ark:/63271/324015.2591180/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Le Nouvion-en-Thiérache",
+    "cote": "C 3354",
+    "yearStart": 1760,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/325963.2593219/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Chauny",
+    "cote": "C 1989",
+    "yearStart": 1761,
+    "yearEnd": 1776,
+    "url": "https://archives.aisne.fr/ark:/63271/324479.2591662/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Ribemont",
+    "cote": "C 3629",
+    "yearStart": 1763,
+    "yearEnd": 1780,
+    "url": "https://archives.aisne.fr/ark:/63271/326244.2593509/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Laon",
+    "cote": "C 2891",
+    "yearStart": 1765,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/955080.2592717/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Ribemont",
+    "cote": "C 3630",
+    "yearStart": 1765,
+    "yearEnd": 1786,
+    "url": "https://archives.aisne.fr/ark:/63271/326245.2593510/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Plomion",
+    "cote": "C 4480",
+    "yearStart": 1769,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/327119.2594421/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Ribemont",
+    "cote": "C 3631",
+    "yearStart": 1772,
+    "yearEnd": 1784,
+    "url": "https://archives.aisne.fr/ark:/63271/1156943.2593511/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Neuilly-Saint-Front",
+    "cote": "C 3296",
+    "yearStart": 1773,
+    "yearEnd": 1788,
+    "url": "https://archives.aisne.fr/ark:/63271/325903.2593156/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Chauny",
+    "cote": "C 1988",
+    "yearStart": 1773,
+    "yearEnd": 1779,
+    "url": "https://archives.aisne.fr/ark:/63271/324478.2591661/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vervins",
+    "cote": "C 4325",
+    "yearStart": 1775,
+    "yearEnd": 1778,
+    "url": "https://archives.aisne.fr/ark:/63271/326961.2594248/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Le Catelêt",
+    "cote": "C 1592",
+    "yearStart": 1775,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/324073.2591245/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2639",
+    "yearStart": 1775,
+    "yearEnd": 1786,
+    "url": "https://archives.aisne.fr/ark:/63271/325146.2592366/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2640",
+    "yearStart": 1775,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/325147.2592367/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2641",
+    "yearStart": 1775,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/325148.2592368/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2642",
+    "yearStart": 1775,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/325149.2592369/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Montcornet",
+    "cote": "C 3157",
+    "yearStart": 1776,
+    "yearEnd": 1776,
+    "url": "https://archives.aisne.fr/ark:/63271/955121.2593004/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Chauny",
+    "cote": "C 1990",
+    "yearStart": 1776,
+    "yearEnd": 1782,
+    "url": "https://archives.aisne.fr/ark:/63271/324480.2591663/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Guise",
+    "cote": "C 2643",
+    "yearStart": 1778,
+    "yearEnd": 1781,
+    "url": "https://archives.aisne.fr/ark:/63271/325150.2592370/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Marle",
+    "cote": "C 3080",
+    "yearStart": 1779,
+    "yearEnd": 1786,
+    "url": "https://archives.aisne.fr/ark:/63271/325678.2592915/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Rozoy-sur-Serre",
+    "cote": "C 3781",
+    "yearStart": 1781,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/326401.2593675/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vervins",
+    "cote": "C 4326",
+    "yearStart": 1781,
+    "yearEnd": 1783,
+    "url": "https://archives.aisne.fr/ark:/63271/326962.2594249/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Le Nouvion-en-Thiérache",
+    "cote": "C 3355",
+    "yearStart": 1782,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/325964.2593220/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Chauny",
+    "cote": "C 1991",
+    "yearStart": 1783,
+    "yearEnd": 1791,
+    "url": "https://archives.aisne.fr/ark:/63271/324481.2591664/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "La Fère",
+    "cote": "C 2675",
+    "yearStart": 1783,
+    "yearEnd": 1783,
+    "url": "https://archives.aisne.fr/ark:/63271/325263.2592488/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vervins",
+    "cote": "C 4327",
+    "yearStart": 1784,
+    "yearEnd": 1785,
+    "url": "https://archives.aisne.fr/ark:/63271/326963.2594250/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Ribemont",
+    "cote": "C 3632",
+    "yearStart": 1784,
+    "yearEnd": 1790,
+    "url": "https://archives.aisne.fr/ark:/63271/326247.2593512/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Fère-en-Tardenois",
+    "cote": "C 2471",
+    "yearStart": 1784,
+    "yearEnd": 1784,
+    "url": "https://archives.aisne.fr/ark:/63271/324970.2592187/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vic-sur-Aisne",
+    "cote": "C 4388",
+    "yearStart": 1784,
+    "yearEnd": 1784,
+    "url": "https://archives.aisne.fr/ark:/63271/327025.2594321/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Vervins",
+    "cote": "C 4328",
+    "yearStart": 1785,
+    "yearEnd": 1792,
+    "url": "https://archives.aisne.fr/ark:/63271/326964.2594251/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Marle",
+    "cote": "C 3081",
+    "yearStart": 1786,
+    "yearEnd": 1790,
+    "url": "https://archives.aisne.fr/ark:/63271/955098.2592916/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Sissonne",
+    "cote": "C 3837",
+    "yearStart": 1787,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/326461.2593736/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Laon",
+    "cote": "C 2892",
+    "yearStart": 1787,
+    "yearEnd": 1787,
+    "url": "https://archives.aisne.fr/ark:/63271/325486.2592718/daogrp/0/layout:linear",
+    "digitized": true
+  },
+  {
+    "place": "Château-Thierry",
+    "cote": "C 1846",
+    "yearStart": 1788,
+    "yearEnd": 1788,
+    "url": "https://archives.aisne.fr/ark:/63271/324333.2591512/daogrp/0/layout:linear",
+    "digitized": true
+  }
+]

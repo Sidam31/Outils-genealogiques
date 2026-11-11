@@ -225,11 +225,11 @@ export const MARRIAGE_DEPTS = {
     '05': {
         label: 'Hautes-Alpes',
         // Bornes réelles de la série (79 registres scrapés, 24 lieux, voir
-        // scrape_contrats_mariage_hautes_alpes.py) : département ABSENT de SUCCESSION_DEPTS (son
-        // fonds Enregistrement en ligne n'a que les "successions collatérales", pas la table
-        // "successions et absences") mais avec une case "Mariage" (portail Ligeo Archives) donnant
-        // de vrais résultats catalogués. Particularité : le tableau de résultats ne publie pas la
-        // commune, seule la fiche individuelle de chaque notice l'expose (voir le scraper).
+        // scrape_contrats_mariage_hautes_alpes.py) : case "Mariage" du fonds Enregistrement
+        // (portail Ligeo Archives) donnant de vrais résultats catalogués ; la table "successions et
+        // absences" du même fonds est couverte dans SUCCESSION_DEPTS['05']. Particularité : le
+        // tableau de résultats ne publie pas la commune, seule la fiche individuelle de chaque
+        // notice l'expose (voir le scraper).
         minYear: 1750,
         maxYear: 1958,
         registersUrl: './assets/data/contrats_mariage_05.json',
@@ -439,8 +439,9 @@ export const MARRIAGE_DEPTS = {
         // successions.js (SUCCESSION_DEPTS['85']) : même portail "InMedia Technologies", même
         // bureaux, la table de mariage est un simple noeud voisin de "Successions" dans l'arbre EAD
         // déjà mis en cache par ce même scraper — aucune requête réseau supplémentaire nécessaire
-        // pour les bureaux déjà couverts par le mode Successions. Aucun registre numérisé en ligne
-        // à ce jour (digitized toujours faux).
+        // pour les bureaux déjà couverts par le mode Successions. 44 registres sur 46 numérisés
+        // (lien visionneuse visu_serie.php lu dans la réponse aspect=Meta de chaque notice, voir
+        // fetch_viewer_url dans scrape_successions_vendee.py) ; 2 notices sans visionneuse.
         minYear: 1791,
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_85.json',
@@ -484,6 +485,30 @@ export const MARRIAGE_DEPTS = {
         maxYear: 1865,
         registersUrl: './assets/data/contrats_mariage_26.json',
         catalogUrl: 'https://archives.ladrome.fr/search/results?q=tables+des+contrats+de+mariage',
+    },
+    '02': {
+        label: 'Aisne',
+        // Bornes réelles de la série (63 registres, 25 bureaux, tous numérisés, voir
+        // scrape_contrats_mariage_ligeo_anubis.py) : facette « table des contrats de mariage » du
+        // même formulaire que SUCCESSION_DEPTS['02'] (Ligeo + Anubis, mode cardlist). Ce sont des
+        // tables du Contrôle des actes (cotes série C) : la série s'arrête en 1809.
+        minYear: 1729,
+        maxYear: 1809,
+        registersUrl: './assets/data/contrats_mariage_02.json',
+        catalogUrl: 'https://archives.aisne.fr/archive/resultats/successionsabsences/lineaire/n:322?RECH_table_Libel=table+des+contrats+de+mariage%7C&RECH_table_Md5=16b9dbcdb3978520e2c8278c2fb331ba%7C&type=successionsabsences',
+    },
+    '95': {
+        label: "Val-d'Oise",
+        // Bornes réelles de la série (18 registres, 8 bureaux sur 11, 16 numérisés, voir
+        // scrape_contrats_mariage_val_doise.py) : noeud « Contrats de mariage : tables
+        // alphabétiques » sous « Instruments de recherche » de chaque bureau, dans l'arbre déjà
+        // parcouru pour les successions. Argenteuil, Gonesse et Taverny n'en ont pas ; Marines
+        // (2 registres) est catalogué sans images. Le libellé de l'arbre ne donne souvent que les
+        // dates, d'où des « cotes » de la forme « Table des contrats de mariage, 1782-1820 ».
+        minYear: 1769,
+        maxYear: 1865,
+        registersUrl: './assets/data/contrats_mariage_95.json',
+        catalogUrl: 'https://archives.valdoise.fr/n/enregistrement/n:329',
     },
 };
 
