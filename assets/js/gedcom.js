@@ -40,19 +40,44 @@ export class GedcomParser {
     // "1 OCCU" liste parfois plusieurs métiers successifs dans une seule valeur, séparés par des
     // virgules, chacun suivi d'une année ou d'une plage d'années entre parenthèses (ex. "Valet de
     // meunier (1819-1820), Meunier (1838), Journalier (1848)") : on éclate cette chaîne en entrées
-    // {profession, yearStart, yearEnd} pour pouvoir retrouver, plus tard, le métier exercé à une date
-    // donnée (ex. au moment d'un mariage, voir professionsAtYear dans society.js). Un segment sans
-    // parenthèse-année reconnaissable (cas le plus courant, un seul métier non daté) devient une
-    // entrée {profession, yearStart:null, yearEnd:null}.
+    // {profession, yearStart, yearEnd, detail} pour pouvoir retrouver, plus tard, le métier exercé à
+    // une date donnée (ex. au moment d'un mariage, voir professionsAtYear dans society.js).
+    // Règle : tout ce qui est entre parenthèses est EXCLU de la désignation du métier. La coupe sur
+    // les virgules ne se fait qu'à profondeur de parenthèses 0 (sinon "(1927, 1931)" serait coupé en
+    // deux) ; une parenthèse jamais fermée court jusqu'à la fin de la valeur. Les nombres de 3-4
+    // chiffres trouvés dans les parenthèses donnent yearStart (min) et yearEnd (max) ; le texte
+    // parenthésé qui n'est pas qu'une date (ex. "de culture physique") est conservé dans `detail`
+    // (séparé par "; ", null sinon), sans être affiché pour l'instant.
     parseOccupationValue(v) {
-        return v.split(',').map(part => part.trim()).filter(Boolean).map(part => {
-            const m = part.match(/^(.*?)\s*\((\d{3,4})(?:\s*[-–à]\s*(\d{3,4}))?\)\s*$/);
-            if(m) {
-                const yearStart = parseInt(m[2], 10);
-                const yearEnd = m[3] ? parseInt(m[3], 10) : yearStart;
-                return { profession: m[1].trim(), yearStart, yearEnd };
+        const segments = [];
+        let depth = 0, cur = '';
+        for(const ch of v) {
+            if(ch === '(') depth++;
+            else if(ch === ')') depth = Math.max(0, depth - 1);
+            if(ch === ',' && depth === 0) { segments.push(cur); cur = ''; } else cur += ch;
+        }
+        segments.push(cur);
+        // Un groupe qui ne contient que des années et un mot de datation ("avant 1843", "1927, 1931")
+        // n'est pas un détail descriptif.
+        const isDateOnly = g => /^[\s,;\-–.]*(?:(?:avant|apr[eè]s|vers|environ|env|ca|[àa]|et|depuis|jusqu'?[àa])[\s,;\-–.]*)?$/i.test(g.replace(/\b\d{3,4}\b/g, ''));
+        return segments.map(seg => {
+            let plain = '', group = '', depthIn = 0;
+            const groups = [];
+            for(const ch of seg) {
+                if(ch === '(') { if(depthIn++ === 0) continue; }
+                else if(ch === ')' && depthIn > 0) { if(--depthIn === 0) { groups.push(group); group = ''; continue; } }
+                if(depthIn > 0) group += ch; else plain += ch;
             }
-            return { profession: part, yearStart: null, yearEnd: null };
+            if(depthIn > 0) groups.push(group); // parenthèse non fermée : court jusqu'à la fin du segment
+            const profession = plain.replace(/\s+/g, ' ').replace(/^[\s\-–,;:.]+|[\s\-–,;:.]+$/g, '');
+            const years = groups.flatMap(g => (g.match(/\b\d{3,4}\b/g) || []).map(Number));
+            const details = groups.map(g => g.replace(/\s+/g, ' ').trim()).filter(g => g && !isDateOnly(g));
+            return {
+                profession,
+                yearStart: years.length ? Math.min(...years) : null,
+                yearEnd: years.length ? Math.max(...years) : null,
+                detail: details.length ? details.join('; ') : null
+            };
         }).filter(e => e.profession);
     }
     // Extrait jour/mois/année d'une date GEDCOM complète au format "DD MMM YYYY" (ex. "12 MAY 1900") :
@@ -318,7 +343,7 @@ export class GedcomParser {
                 if(i._ctx==='OCCU' && this._curOccuEntries && v && v.trim().length) this._curOccuEntries.forEach(e => { e.year = y; });
                 if(this.isOtherEventTag(i._ctx) && this._pendingEven && v && v.trim().length) {
                     // FACT déjà confirmé comme métier par son TYPE : la DATE qui suit va aussi dans l'entrée métier.
-                    if(this._pendingEven.occEntry) this._pendingEven.occEntry.year = y;
+                    if(this._pendingEven.occEntries) this._pendingEven.occEntries.forEach(e => { e.year = y; });
                     this._pendingEven.hasDate = true; this._pendingEven.year = y; this._pendingEven.approx = approx;
                     if(this._pendingEven.entry) { this._pendingEven.entry.year = y; this._pendingEven.entry.approx = approx; }
                     // Ordre GEDCOM habituel : TYPE précède DATE/PLAC (pas l'inverse). Si le TYPE a
@@ -353,7 +378,7 @@ export class GedcomParser {
                 }
                 if(i._ctx==='OCCU' && this._curOccuEntries) this._curOccuEntries.forEach(e => { e.geo = stub; });
                 if(this.isOtherEventTag(i._ctx) && this._pendingEven) {
-                    if(this._pendingEven.occEntry) this._pendingEven.occEntry.geo = stub;
+                    if(this._pendingEven.occEntries) this._pendingEven.occEntries.forEach(e => { e.geo = stub; });
                     this._pendingEven.geo = stub;
                     if(this._pendingEven.entry) this._pendingEven.entry.geo = stub;
                     if(this._pendingEven.isCens) {
@@ -377,15 +402,17 @@ export class GedcomParser {
             }
             if(t==='TYPE' && i._ctx==='FACT' && this._curFactValue && /occupation/i.test(v)) {
                 // Entrée créée MAINTENANT avec ce que _pendingEven connaît déjà (PLAC/DATE parfois
-                // placés avant TYPE) ; occEntry sert de référence pour que les DATE/PLAC arrivant
+                // placés avant TYPE) ; occEntries sert de référence pour que les DATE/PLAC arrivant
                 // APRÈS ce TYPE la complètent. Les doublons OCCU/FACT (même métier exporté deux fois
                 // par certains logiciels) sont fusionnés dans postProcess (dedupOccupations), une fois
                 // toutes les infos de lieu/date connues, plutôt que d'écarter ici le FACT et son lieu.
-                const occEntry = { profession: this._curFactValue, yearStart: null, yearEnd: null,
-                    year: this._pendingEven?.hasDate ? this._pendingEven.year : null, geo: this._pendingEven?.geo || null, src: 'FACT' };
-                i.occupations.push(occEntry);
+                // La valeur du FACT suit la même règle que OCCU (parenthèses exclues du métier, années
+                // et détail conservés à part) : "Tisserand (en coton) (1816)" donne le métier "Tisserand".
+                const occEntries = this.parseOccupationValue(this._curFactValue).map(e => ({ ...e,
+                    year: this._pendingEven?.hasDate ? this._pendingEven.year : null, geo: this._pendingEven?.geo || null, src: 'FACT' }));
+                occEntries.forEach(e => i.occupations.push(e));
                 this._curFactValue = null;
-                if(this._pendingEven) this._pendingEven.occEntry = occEntry;
+                if(this._pendingEven) this._pendingEven.occEntries = occEntries;
                 if(this._pendingEven?.entry) this._pendingEven.entry.isOccupation = true;
             }
             // "1 EVEN"/"1 FACT" confirmé comme recensement par son TYPE : on rattache au recensement
@@ -658,6 +685,7 @@ export class GedcomParser {
             if(!twin.geo) twin.geo = o.geo;
             if(twin.yearStart == null) twin.yearStart = o.yearStart;
             if(twin.yearEnd == null) twin.yearEnd = o.yearEnd;
+            if(twin.detail == null) twin.detail = o.detail ?? null;
         });
         return kept;
     }

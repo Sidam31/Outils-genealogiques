@@ -37,6 +37,80 @@ const MAP_HEIGHT = 420;
 const OTHER_COLOR = '#9a9a9a';
 const MAX_SELECTION_COLORS = 10; // jusqu'à 10 groupes sélectionnés : une couleur Tableau10 chacun
 
+// --- VILLES DE REPÈRE (préfectures, puis communes importantes) selon le zoom ---
+// Seuils (à ajuster ici) :
+export const LABEL_PREF_MIN_K = 2;        // préfectures visibles à partir de ce zoom (aucune en vue d'ensemble, k = 1)
+// Communes secondaires seulement si peu de préfectures sont dans la fenêtre. À l'échelle de cette carte
+// (~23 px/degré à k = 1), un département n'occupe tout l'écran qu'à k ~ 25-30 (1 préfecture en vue) ; à k = 12
+// il y en a déjà ~9 mais l'écran reste clairsemé, d'où un seuil de 10 plutôt que 3.
+export const LABEL_TOWN_MAX_PREFS = 10;
+export const LABEL_MAX_PER_VIEW = 30;     // plafond d'étiquettes affichées simultanément
+// Plancher de population des communes secondaires, décroissant avec le zoom : [zoom minimal, population].
+// Avec le tri par population décroissante et le plafond, cela évite d'afficher de petits bourgs à zoom faible.
+export const LABEL_TOWN_POP_FLOORS = [[2, 30000], [4, 12000], [8, 5000], [14, 3000]];
+// Taille à l'écran (constante quel que soit le zoom) : préfectures un peu plus grandes que les communes.
+// Volontairement discrètes (petites, grises, semi-transparentes) : ce sont des repères, les données
+// (ronds de professions) doivent rester au premier plan visuel.
+// (Plus petites que le texte de la légende, 10 px, pour rester des repères secondaires.)
+const LABEL_FONT_PX = { 0: 10, 1: 8.5 };
+const LABEL_STYLE = { 0: { fill: '#555', opacity: 0.85, weight: 600 }, 1: { fill: '#777', opacity: 0.7, weight: 400 } };
+const LABEL_MARKER_PX = 1.5;
+const LABEL_CHAR_WIDTH = 0.56;            // largeur moyenne d'un caractère / taille de police (estimation)
+
+// Choix PUR des étiquettes visibles pour une transformation de zoom donnée.
+//  - candidates : [{ name, xy: [x, y] (coordonnées de base, avant zoom), prio: 0 = préfecture | 1 = commune, pop }],
+//    déjà triées : préfectures d'abord, puis communes par population décroissante ;
+//  - transform : { k, x, y } (d3.zoomTransform) ; width/height : taille du cadre (fenêtre visible).
+// Retour : [{ name, xy, prio }] dans l'ordre de priorité, sans chevauchement des boîtes estimées en
+// espace écran (marqueur à gauche, texte à droite), limité à LABEL_MAX_PER_VIEW.
+export function chooseMapLabels({ candidates, transform, width, height }) {
+    const { k } = transform;
+    if(k < LABEL_PREF_MIN_K) return [];
+    const toScreen = c => [c.xy[0] * k + transform.x, c.xy[1] * k + transform.y];
+    const inView = s => s[0] >= 0 && s[0] <= width && s[1] >= 0 && s[1] <= height;
+    const prefsInView = candidates.filter(c => c.prio === 0 && inView(toScreen(c))).length;
+    const withTowns = prefsInView <= LABEL_TOWN_MAX_PREFS;
+    let popFloor = Infinity;
+    LABEL_TOWN_POP_FLOORS.forEach(([minK, pop]) => { if(k >= minK) popFloor = pop; });
+    const placed = [], chosen = [];
+    for(const c of candidates) {
+        if(chosen.length >= LABEL_MAX_PER_VIEW) break;
+        if(c.prio !== 0 && (!withTowns || c.pop < popFloor)) continue;
+        const s = toScreen(c);
+        if(!inView(s)) continue;
+        // Boîte estimée (marqueur + texte à droite + marge du halo), sans mesurer le texte réel.
+        const fs = LABEL_FONT_PX[c.prio];
+        const w = c.name.length * fs * LABEL_CHAR_WIDTH;
+        const box = [s[0] - LABEL_MARKER_PX - 1, s[1] - fs / 2 - 1, s[0] + LABEL_MARKER_PX + 4 + w + 2, s[1] + fs / 2 + 1];
+        if(placed.some(b => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;
+        placed.push(box);
+        chosen.push({ name: c.name, xy: c.xy, prio: c.prio, box });
+    }
+    return chosen;
+}
+
+// Style d'un texte SVG posé en style inline : la règle globale "text { font-size: 7px; font-weight: 600;
+// fill: #222; text-shadow… }" d'app.css (prévue pour l'arbre éventail) l'emporterait sur des attributs
+// SVG. Le style inline s'applique aussi à la copie en image (📋), qui ne reprend pas le CSS de la page :
+// rendu identique à l'écran et dans l'image copiée.
+function textStyle(sel, sizePx, fill, weight = 400) {
+    return sel.style('font-family', 'sans-serif').style('font-size', `${sizePx}px`).style('font-weight', weight)
+        .style('fill', fill).style('text-shadow', 'none');
+}
+
+// Liste nationale des communes importantes (assets/data/villes_principales.json, voir
+// scripts_py/build_villes_principales.py) : [nom, lon, lat, pop, dept], triée par population décroissante.
+// Chargée une seule fois, à la première utilisation ; en cas d'échec on se contente des préfectures.
+let villesPromise = null;
+function ensureVilles() {
+    if(!villesPromise) {
+        villesPromise = fetch('./assets/data/villes_principales.json')
+            .then(res => { if(!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
+            .catch(() => []);
+    }
+    return villesPromise;
+}
+
 // Même normalisation que computeProfessionAgeGroups (maps.js) et society.js : espaces réduits,
 // insensible à la casse, pour regrouper "Laboureur" / "laboureur " / "LABOUREUR".
 function profKey(label) { return (label || '').trim().replace(/\s+/g, ' ').toLowerCase(); }
@@ -258,6 +332,9 @@ export function createProfessionMap(opts) {
             .attr('fill', '#ececec').attr('stroke', '#aaa').attr('stroke-width', 0.6).attr('vector-effect', 'non-scaling-stroke');
         zoomG.selectAll('path.dept').data(depts).join('path').attr('class', 'dept').attr('d', path)
             .attr('fill', '#f7f7f7').attr('stroke', '#999').attr('stroke-width', 0.6).attr('vector-effect', 'non-scaling-stroke');
+        // Villes de repère : sous les ronds de professions (ceux-ci sont semi-transparents et restent donc
+        // lisibles par-dessus, et surtout toujours survolables/cliquables) ; pointer-events: none par sécurité.
+        const labelsG = zoomG.append('g').attr('pointer-events', 'none');
         const dotsG = zoomG.append('g');
         // Éléments fixes (non zoomés) : légende, notes.
         const legendG = svg.append('g');
@@ -268,10 +345,63 @@ export function createProfessionMap(opts) {
                 zoomG.attr('transform', e.transform);
                 // Rayons divisés par k : les ronds gardent la même taille à l'écran quand on zoome.
                 dotsG.selectAll('circle').attr('r', d => d.r0 / e.transform.k);
+                scheduleLabels();
             });
         svg.call(zoom);
-        base = { svg, zoom, zoomG, dotsG, legendG, noteG, projection, width, height };
+        base = { svg, zoom, zoomG, dotsG, labelsG, legendG, noteG, projection, width, height, labelCandidates: [] };
+        // Préfectures (coordonnées/noms de geo.js) projetées une fois pour toutes ; seules celles du cadre servent
+        // (les DOM-TOM tombent hors de la carte). Les communes importantes s'ajoutent quand le fichier est chargé.
+        const inFrame = xy => xy && xy[0] >= -50 && xy[0] <= width + 50 && xy[1] >= -50 && xy[1] <= height + 50;
+        const prefs = [];
+        FRENCH_DEPT_CODES.forEach(code => {
+            const c = GEO.deptCentroids[code], name = GEO.deptCapitals[code];
+            const xy = c && name ? projection(c) : null;
+            if(inFrame(xy)) prefs.push({ name, xy, prio: 0, pop: Infinity });
+        });
+        base.labelCandidates = prefs;
+        const thisBase = base;
+        ensureVilles().then(villes => {
+            if(base !== thisBase) return;
+            const towns = [];
+            villes.forEach(([name, lon, lat, pop]) => { const xy = projection([lon, lat]); if(inFrame(xy)) towns.push({ name, xy, prio: 1, pop }); });
+            thisBase.labelCandidates = prefs.concat(towns); // villes déjà triées par population décroissante
+            scheduleLabels();
+        });
         return base;
+    }
+
+    // Dessine les étiquettes de repère pour le zoom courant. Tailles divisées par k : texte, marqueur et
+    // halo gardent la même taille à l'écran. Limité à une image d'animation (rAF) pendant le zoom.
+    let labelFrame = 0;
+    function scheduleLabels() {
+        if(labelFrame) return;
+        labelFrame = requestAnimationFrame(() => { labelFrame = 0; renderLabels(); });
+    }
+    function renderLabels() {
+        if(!base) return;
+        const { svg, labelsG, width, height, labelCandidates } = base;
+        const on = !opts.labelsToggleId || document.getElementById(opts.labelsToggleId)?.checked;
+        const transform = d3.zoomTransform(svg.node());
+        const chosen = on ? chooseMapLabels({ candidates: labelCandidates, transform, width, height }) : [];
+        const k = transform.k;
+        const g = labelsG.selectAll('g.repere').data(chosen, d => d.name + '|' + d.xy[0]).join(enter => {
+            const e = enter.append('g').attr('class', 'repere');
+            e.append('circle').attr('stroke', '#fff');
+            e.append('text').attr('stroke', '#fff').attr('stroke-opacity', 0.8).attr('paint-order', 'stroke')
+                .attr('stroke-linejoin', 'round').attr('font-family', 'sans-serif').attr('dy', '0.35em');
+            return e;
+        });
+        g.attr('transform', d => `translate(${d.xy[0]},${d.xy[1]})`).attr('opacity', d => LABEL_STYLE[d.prio].opacity);
+        g.select('circle').attr('r', LABEL_MARKER_PX / k).attr('stroke-width', 0.8 / k).attr('fill', d => LABEL_STYLE[d.prio].fill);
+        // Styles en style inline (voir textStyle) : sinon la règle "text" d'app.css figerait la taille à
+        // 7 px agrandis par le zoom, quel que soit le calcul ci-dessus.
+        g.select('text').attr('x', (LABEL_MARKER_PX + 2) / k)
+            .style('font-family', 'sans-serif')
+            .style('font-size', d => `${LABEL_FONT_PX[d.prio] / k}px`)
+            .style('font-weight', d => LABEL_STYLE[d.prio].weight)
+            .style('fill', d => LABEL_STYLE[d.prio].fill)
+            .style('text-shadow', 'none')
+            .attr('stroke-width', 2 / k).text(d => d.name);
     }
 
     function fitTo(points) {
@@ -305,7 +435,7 @@ export function createProfessionMap(opts) {
         rows.forEach((r, i) => {
             const g = legendG.append('g').attr('transform', `translate(10,${i * rowH + 12})`);
             g.append('circle').attr('r', 5).attr('fill', r.color).attr('stroke', '#fff').attr('stroke-width', 0.8);
-            g.append('text').attr('x', 10).attr('y', 3).attr('font-size', 10).attr('fill', '#333')
+            textStyle(g.append('text').attr('x', 10).attr('y', 3), 10, '#333')
                 .text(r.text.length > 26 ? r.text.slice(0, 25) + '…' : r.text);
         });
     }
@@ -313,9 +443,9 @@ export function createProfessionMap(opts) {
     function drawNotes(message, dropped) {
         const { noteG, width, height } = base;
         noteG.selectAll('*').remove();
-        if(message) noteG.append('text').attr('x', width / 2).attr('y', height / 2).attr('text-anchor', 'middle')
-            .attr('font-size', 13).attr('fill', '#777').text(message);
-        if(dropped > 0) noteG.append('text').attr('x', 8).attr('y', height - 8).attr('font-size', 10).attr('fill', '#777')
+        if(message) textStyle(noteG.append('text').attr('x', width / 2).attr('y', height / 2).attr('text-anchor', 'middle'), 13, '#777')
+            .text(message);
+        if(dropped > 0) textStyle(noteG.append('text').attr('x', 8).attr('y', height - 8), 10, '#777')
             .text(`${dropped} lieu(x) hors de la carte non affiché(s)`);
     }
 
@@ -359,6 +489,7 @@ export function createProfessionMap(opts) {
             .order();
         // .order() ci-dessus conserve le tri taille décroissante dans le DOM (join peut réutiliser des nœuds).
         drawLegend(visible);
+        scheduleLabels();
         drawNotes(visible.length ? '' : (selected.size ? 'Aucun lieu géolocalisé pour cette profession' : 'Aucun lieu géolocalisé'), droppedLocs.size);
         if(refit) fitTo(visible);
     }
@@ -410,7 +541,7 @@ export function createProfessionMap(opts) {
         renderList();
         draw(true);
     }));
-    const resetBtn = document.getElementById(opts.resetBtnId);
+    if(opts.labelsToggleId) document.getElementById(opts.labelsToggleId)?.addEventListener('change', renderLabels);    const resetBtn = document.getElementById(opts.resetBtnId);
     if(resetBtn) resetBtn.addEventListener('click', () => { if(base) base.svg.transition().duration(400).call(base.zoom.transform, d3.zoomIdentity); });
 
     // --- catégories personnalisées (fichier JSON) ---

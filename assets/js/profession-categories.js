@@ -37,17 +37,18 @@ const LEMMA_EXPLICIT = {
     maitresse: 'maitre', hotesse: 'hote', paysanne: 'paysan', patronne: 'patron',
     bucheronne: 'bucheron', forgeronne: 'forgeron', baronne: 'baron'
 };
-// Radicaux masculins en -and/-ant dont le féminin ajoute un "e" : liste fermée car la règle générale
-// serait dangereuse ("lavande", "commande", "viande", "bande", "plante", "tante"... ne sont pas des féminins).
-const LEMMA_MASC_AND_ANT = new Set([
-    'marchand', 'tisserand', 'normand', 'allemand', 'servant', 'mendiant', 'etudiant', 'commercant', 'debitant',
-    'assistant', 'surveillant', 'habitant', 'aspirant', 'postulant', 'militant', 'dirigeant', 'remplacant', 'participant'
-]);
+// Radicaux masculins en -and dont le féminin ajoute un "e" : liste FERMÉE car la règle générale
+// serait dangereuse ("lavande", "commande", "viande", "bande"... ne sont pas des féminins).
+const LEMMA_MASC_AND = new Set(['marchand', 'tisserand', 'normand', 'allemand', 'flamand', 'friand', 'gourmand', 'truand']);
+// Mots en -ante (>= 7 lettres, règle générale -ante -> -ant : négociante, commerçante, servante,
+// gouvernante, débitante, accompagnante...) qui ne sont PAS des féminins de métier : ne pas toucher.
+const LEMMA_ANTE_NEVER = new Set(['soixante', 'quarante', 'cinquante', 'diamante', 'infante', 'levante', 'bacchante']);
 
 function lemmaPart(w) {
     if(LEMMA_NEVER_TOUCH.has(w)) return w;
     if(LEMMA_EXPLICIT[w]) return LEMMA_EXPLICIT[w];
-    if(w.endsWith('e') && LEMMA_MASC_AND_ANT.has(w.slice(0, -1))) return w.slice(0, -1);
+    if(w.endsWith('e') && LEMMA_MASC_AND.has(w.slice(0, -1))) return w.slice(0, -1);
+    if(w.length >= 7 && w.endsWith('ante') && !LEMMA_ANTE_NEVER.has(w)) return w.slice(0, -1); // négociante -> négociant
     // Les longueurs minimales évitent de casser des mots courts (mère, père, frère, reine...).
     if(w.length >= 7 && w.endsWith('ieuse')) return w.slice(0, -5) + 'ieux'; // religieuse -> religieux
     if(w.length >= 7 && w.endsWith('trice')) return w.slice(0, -5) + 'teur'; // cultivatrice -> cultivateur
@@ -79,26 +80,37 @@ export function professionLemma(label) {
 //    Domesticité (motif plus spécifique, placé avant), et "mère de famille/au foyer" en Sans profession.
 //  - pêcheur/marin sont rangés avec les transports (famille "Transport & marine").
 //  - mendiant/indigent sont rangés avec "Sans profession" (absence d'activité déclarée).
+//  - les gardes (champêtre, forestier, chasse, pêche, particulier) sont des agents de police rurale :
+//    rangés dans "Armée & police", pas dans Administration.
+//  - "Arts, spectacles & sports" regroupe artistes, gens du cirque et sportifs (écuyère de cirque,
+//    musicien, boxeur…) ; placé avant Bâtiment pour que "artiste peintre" y aille aussi, et avant
+//    Propriétaires pour que "écuyer de cirque" ne soit pas pris pour le titre nobiliaire "écuyer".
+//  - "ouvrier/ouvrière de magasin" (magasin d'usine ou entrepôt) va en Industrie avec "magasinier".
 export const PROFESSION_CATEGORY_RULES = [
     { category: 'Clergé & religieux', patterns: [
         '\\bcure\\b', '\\bpretre', '\\bvicaire', '\\breligieu', '\\bchanoine', '\\babbe\\b', '\\bmoine', '\\bpasteur',
         '\\bdiacre', '\\beveque', '\\bs(oe|e)ur\\b', '\\bchantre\\b', '\\bbedeau', '\\bsacristain', '\\bcardinal', '\\brabbin'
     ] },
     { category: 'Journaliers & manœuvres', patterns: [
-        '\\bjournalier', '\\bmanoeuvre', '\\bbrassier', '\\bhomme de peine', '\\bgagne[ -]denier', '\\btravailleur'
+        '\\bjournalier', '\\bmanoeuvre', '\\bmanouvrier', '\\bportefaix', '\\bdebardeur', '\\bdocker', '\\bbrassier', '\\bhomme de peine', '\\bgagne[ -]denier', 'travailleur (de la terre|agricole|journalier)'
     ] },
     { category: 'Agriculture & élevage', patterns: [
-        'ouvrier agricole', 'domestique (de ferme|agricole|de culture)', 'valet de (ferme|charrue|labour)',
+        'ouvrier agricole', 'domestique (de ferme|agricole|de culture)', 'valet de (ferme|charrue|labour)', 'garcon de (ferme|charrue|labour|culture)',
         '\\blaboureur', '\\bcultivateur', '\\bagriculteur', '\\bfermier', '\\bmetayer', '\\bcolon\\b', '\\bvigneron',
         '\\bviticulteur', '\\bberger', '\\bbouvier', '\\bvacher', '\\bporcher', '\\bpatre\\b', '\\bpastre\\b', '\\bjardinier',
         '\\bmaraicher', '\\bhorticulteur', '\\bmenager\\b', '\\beleveur', '\\bpaysan', '\\bagricole', '\\bbordier', '\\bclosier',
         '\\bmoissonneur', '\\bfaucheur', '\\bherbager', '\\bpepinieriste', '\\bsylviculteur', '\\bcultivat'
     ] },
+    { category: 'Arts, spectacles & sports', patterns: [
+        '\\bartiste', '\\bmusicien', '\\bcomedien', '\\bacteur', '\\bchanteur', '\\bdanseur', '\\bacrobate', '\\bsaltimbanque',
+        '\\bcirque', '\\bclown', '\\bjongleur', '\\bsculpteur', '\\bstatuaire', '\\bphotographe', '\\bboxeur', '\\bsportif',
+        '\\bcycliste', '\\bjockey', '\\blutteur', '\\bfootballeur', '\\bathlete', '\\bmenestrel', '\\bviolon', '\\borganiste'
+    ] },
     { category: 'Commerce & hôtellerie', patterns: [
         '\\bmarchand', '\\bnegociant', '\\bcommercant', '\\bepicier', '\\baubergiste', '\\bcabaretier', '\\bcafetier',
         '\\bhotelier', '\\bcolporteur', '\\bdebitant', '\\bboutiquier', '\\bcourtier', '\\blibraire', '\\bmercier',
         '\\btraiteur', '\\brestaurateur', '\\blogeur', '\\bbrocanteur', '\\bregrattier', '\\bbanquier', '\\bforain',
-        '\\brevendeur', '\\bdroguiste', '\\baubergiste', '\\bcabaret', '\\bfruitier', '\\bmarchande?\\b'
+        '\\brevendeur', '\\bdroguiste', '\\baubergiste', '\\bcabaret', '\\bfruitier', '\\bbarman', '\\bbarmaid', '\\bserveu', '\\bsommelier', '\\blimonadier', '\\bcommissionnaire', '\\bpompiste', '\\bvendeu', '\\bmarchande?\\b'
     ] },
     { category: 'Alimentation', patterns: [
         '\\bboulanger', '\\bmeunier', '\\bboucher', '\\bcharcutier', '\\bpatissier', '\\bminotier', '\\bbrasseur',
@@ -107,51 +119,52 @@ export const PROFESSION_CATEGORY_RULES = [
     { category: 'Bâtiment', patterns: [
         'tailleur de pierre', '\\bmacon', '\\bcharpentier', '\\bmenuisier', '\\bcouvreur', '\\bplatrier', '\\bcarrier\\b',
         '\\btuilier', '\\bbriquetier', '\\bvitrier', '(?<!artiste )\\bpeintre', '\\bpaveur', '\\bterrassier', '\\bchaufournier',
-        '\\bplombier', '\\bcarreleur', '\\bentrepreneur'
+        '\\bplombier', 'conducteur de travaux', '\\bcantonnier', '\\bmarbrier', '\\bcarreleur', '\\bentrepreneur'
     ] },
     { category: 'Métal & forge', patterns: [
         '\\bforgeron', '\\bmarechal(?![ -]des logis)', '\\bserrurier', '\\btaillandier', '\\bchaudronnier', '\\bcloutier',
         '\\bfondeur', '\\bferblantier', '\\bcoutelier', '\\bforgeur', '\\barmurier', '\\bclouetier', '\\bmaitre de forges',
-        '\\bdinandier', '\\bforge\\b'
+        '\\bdinandier', '\\bforge\\b', '\\bajusteur', '\\bsoudeur', '\\bfraiseur', '\\briveur'
     ] },
     { category: 'Bois, cuir & autres artisans', patterns: [
         '\\bsabotier', '\\btonnelier', '\\bcharron', '\\bcordonnier', '\\bbourrelier', '\\btanneur', '\\bebeniste', '\\btourneur',
         '\\bvannier', '\\bboisselier', '\\bbucheron', '\\bscieur', '\\bpotier', '\\bcordier', '\\bbottier', '\\bsavetier',
         '\\bgantier', '\\bmegissier', '\\bhorloger', '\\borfevre', '\\bbijoutier', '\\bimprimeur', '\\brelieur', '\\bsellier',
-        '\\bcorroyeur', '\\bsaboti', '\\bartisan', '\\bfaiseur', '\\bboisselier', '\\bmarqueteur'
+        '\\bcorroyeur', '\\bsaboti', '\\bartisan', '\\bboisselier', '\\bmarqueteur', '\\bbouchonnier', '\\btypographe', '\\blithographe'
     ] },
     { category: 'Textile & habillement', patterns: [
         '\\btisserand', '\\btisseur', '\\bfileur', '\\bcardeur', '\\btailleur', '\\bcouturier', '\\bdrapier', '\\bchapelier',
         '\\btricoteur', '\\bdentelier', '\\bbrodeur', '\\bbonnetier', '\\bpassementier', '\\bteinturier', '\\blaineur',
         '\\blinger', '\\bsoie\\b', '\\bfilature', '\\btissage', '\\bcoton\\b', '\\btoilier', '\\bcouseur', '\\bpeigneur',
-        '\\bfoulon', '\\bmodiste', '\\bchemisier', '\\bfabricant de (draps|bas|toiles)'
+        '\\bfoulon', 'faiseur de (bas|bonnets|dentelles|toiles|draps)', '\\bmodiste', '\\bchemisier', '\\bbobineur', '\\btrameur', '\\braccommodeur', '\\bmulquinier', '\\bcanneteur', '\\bourdisseur', '\\bretordeur', '\\bfabricant de (draps|bas|toiles)'
     ] },
     { category: 'Transport & marine', patterns: [
         '\\bvoiturier', '\\bcharretier', '\\broulier', '\\bcocher', '\\bmarinier', '\\bbatelier', '\\bcheminot', '\\bpostillon',
         'chemins? de fer', '\\bmarin\\b', '\\bmatelot', '\\bpecheur', '\\bflotteur', '\\bbouvier de bac', '\\bpasseur', '\\bmessager',
-        '\\bconducteur', '\\bmecanicien de (locomotive|train)', '\\bgarde[ -]barriere', '\\bcapitaine de (navire|bateau)'
+        '\\bchauffeur(?! (de|d.) (four|chaudiere|machine|locomotive))', '\\bconducteur', '\\bmecanicien de (locomotive|train)', '\\bgarde[ -]barriere', '\\bcapitaine de (navire|bateau)'
     ] },
     { category: 'Industrie & mines', patterns: [
         '\\bmineur', '\\bhouilleur', '\\bverrier', '\\bpapetier', '\\bmouleur', '\\busine', '\\bmanufactur', '\\bfabricant',
-        '\\bcontremaitre', '\\bmecanicien', '\\bouvrier', '\\bindustriel', '\\bfondeur', '\\bchimiste', '\\bmetallurgiste', '\\bchauffeur'
+        '\\bcontremaitre', '\\bmecanicien', '\\bouvrier', '\\bindustriel', '\\bfondeur', '\\bchimiste', '\\bmetallurgiste', '\\bchauffeur (de|d.) (four|chaudiere|machine)', '\\bmonteur', '\\btechnicien', '\\boperateur', '\\bmanutentionnaire', '\\bmagasinier', '\\bgazier', '\\bverrerie', '\\belectricien'
     ] },
     { category: 'Domesticité & services', patterns: [
-        '\\bdomestique', '\\bservant', '\\bserviteur', '\\bvalet', '\\bcuisini', '\\bgouvernant', '\\bnourrice', '\\bbonne\\b',
+        '\\bdomestique', '\\bservant', '\\bserviteur', '\\bvalet', '\\bcuisini', '\\bgouvernant', '\\bnourrice', '^bonne\\b',
         'femme de (chambre|menage)', '\\bconcierge', '\\bportier', '\\bblanchisseu', '\\blavandi', '\\brepasseu', '\\bcoiffeu',
-        '\\bperruquier', '\\bbarbier', '\\bgens de maison', '\\bfille de (service|salle)', '\\bgarcon\\b', '\\bfemme de service'
+        '\\bperruquier', '\\bbarbier', '\\bgens de maison', '\\bfille de (service|salle)', '^garcon\\b', '\\bfemme de service'
     ] },
     { category: 'Administration, justice & professions libérales', patterns: [
-        'officier de sante', 'officier d.etat civil', 'garde[ -](champetre|forestier|particulier|chasse)', 'garde[ -]malade',
+        'officier de sante', 'officier d.etat civil', 'garde[ -]malade',
         '\\bnotaire', '\\bavocat', '\\bhuissier', '\\bgreffier', '\\bmedecin', '\\bchirurgien', '\\bpharmacien', '\\bapothicaire',
         '\\binstituteur', '\\bprofesseur', '\\bmaitre d.ecole', '\\bmaire\\b', '\\badjoint', '\\bemploye', '\\bfonctionnaire',
         '\\bpercepteur', '\\bdouanier', '\\breceveur', '\\bfacteur', '\\bsage[ -]femme', '\\bjuge\\b', '\\bmagistrat', '\\bclerc\\b',
-        '\\bsecretaire', '\\bcomptable', '\\bingenieur', '\\barchitecte', '\\bdentiste', '\\bveterinaire', '\\bartiste', '\\bmusicien',
+        '\\bsecretaire', '\\bcomptable', '\\bingenieur', '\\barchitecte', '\\bdentiste', '\\bveterinaire',
         '\\becrivain', '\\bjournaliste', '\\binfirmier', '\\baccoucheu', '\\bdirecteur', '\\binspecteur', '\\bcommis\\b',
-        '\\bagent\\b', '\\bgeometre', '\\barpenteur', '\\bprocureur', '\\bconseiller', '\\bsyndic', '\\bgarde des (sceaux|forets)'
+        '^agent\\b(?! de (police|surete|securite))', '\\bgeometre', '\\barpenteur', '\\bprocureur', '\\bconseiller', '\\bsyndic', 'garde des sceaux',
+        '\\benseignant', '\\baesh\\b', '\\baccompagnant', '\\beducateur'
     ] },
     { category: 'Armée & police', patterns: [
         '\\bsoldat', '\\bmilitaire', '\\bgendarme', '\\bofficier', '\\bcapitaine', '\\blieutenant', '\\bsergent', '\\bcaporal',
-        '\\bgarde\\b', 'marechal des logis', '\\bveteran', '\\bzouave', '\\bpolicier', '\\bcommissaire', '\\bsapeur', '\\bpompier',
+        '^garde\\b', 'garde[ -](champetre|forestier|particulier|chasse|peche|messier|des forets|des bois)', 'garde (francaise|nationale|du corps|suisse|republicain|mobile|imperiale)', 'agent de (police|surete|securite)', 'marechal des logis', '\\bveteran', 'chasseur d.afrique', 'chasseur (a|de) (pied|cheval)', '\\bzouave', '\\bpolicier', '\\bcommissaire', '\\bsapeur', '\\bpompier',
         '\\bcanonnier', '\\bcavalier', '\\bhussard', '\\bfusilier', '\\bartilleur', '\\btambour', '\\bdragon\\b', '\\bgrenadier'
     ] },
     { category: 'Propriétaires & rentiers', patterns: [
@@ -159,8 +172,8 @@ export const PROFESSION_CATEGORY_RULES = [
         '\\bnoble\\b', '\\becuyer', '\\bgentilhomme', '\\bpensionne', '\\bpensionnaire'
     ] },
     { category: 'Sans profession & foyer', patterns: [
-        'sans (profession|etat|emploi)', '\\bmere de famille', 'au foyer', '\\bne neant\\b', '^neant$', '\\bmendiant', '\\bindigent',
-        '\\bvagabond', '\\binvalide', '\\binfirme', '\\brien\\b', '\\binconnu', '\\bnon renseigne', '\\bsans\\b'
+        '\\bsans (profession|etat|emploi|travail|metier)', '\\bmere de famille', 'au foyer', '\\bne neant\\b', '^neant$', '\\bmendiant', '\\bindigent',
+        '\\bvagabond', '\\binvalide', '\\binfirme', '^rien$', '^inconnu', '^non renseigne'
     ] }
 ];
 

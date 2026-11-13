@@ -115,7 +115,7 @@
                 <p class="hint" style="text-align:center; margin-top:0;">Où ont vécu les porteurs de chaque métier : un rond par lieu et par profession, d'autant plus grand que le nombre de personnes distinctes est élevé. Cliquez une ou plusieurs professions dans la liste pour les isoler. Le lieu d'exercice (lieu renseigné sur l'événement profession lui-même) est utilisé en priorité quand il existe ; à défaut, les lieux de naissance, mariage et décès cochés ci-dessous. Utilise le filtre « Uniquement les ascendants de » ci-dessus.</p>
                 <div class="options-panel">
                     <div class="checkbox-group">
-                        <label><input type="checkbox" id="profMapOccu" checked> 💼 Lieu d'exercice (OCCU/FACT) en priorité</label>
+                        <label><input type="checkbox" id="profMapLabels" checked> 🏙️ Villes de repère</label>                        <label><input type="checkbox" id="profMapOccu" checked> 💼 Lieu d'exercice (OCCU/FACT) en priorité</label>
                         <label><input type="checkbox" id="profMapBirt" checked> 👶 Naissance</label>
                         <label><input type="checkbox" id="profMapMarr" checked> 💍 Mariage</label>
                         <label><input type="checkbox" id="profMapDeat" checked> ⚰️ Décès</label>
@@ -723,7 +723,7 @@ const renderSociety = lazyInSection('fold-societe', renderSocietyNow);
 // Carte des professions : le périmètre est lu à l'exécution (donc à l'ouverture de la section si
 // elle était fermée), et le SVG n'est dimensionné qu'une fois le conteneur visible.
 const professionMap = createProfessionMap({
-    mapId: 'professionMapChart', listId: 'profMapList', filterId: 'profMapFilter', resetBtnId: 'profMapResetBtn', modeName: 'profMapMode',
+    mapId: 'professionMapChart', listId: 'profMapList', filterId: 'profMapFilter', resetBtnId: 'profMapResetBtn', modeName: 'profMapMode', labelsToggleId: 'profMapLabels',
     categoryUi: { importBtnId: 'profMapCatImport', exportBtnId: 'profMapCatExport', resetBtnId: 'profMapCatReset', fileId: 'profMapCatFile', statusId: 'profMapCatStatus', errorsId: 'profMapCatErrors' },
     flagIds: { OCCU: 'profMapOccu', BIRT: 'profMapBirt', MARR: 'profMapMarr', DEAT: 'profMapDeat' }
 });
