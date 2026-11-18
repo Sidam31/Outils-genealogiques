@@ -569,6 +569,8 @@
                         <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
                         <th>Prénom</th>
                         <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Lieu de naissance</th>
+                        <th>Parents</th>
                         <th>Classe cherchée</th>
                         <th>Département</th>
                         <th>Registres matricules</th>
@@ -1864,15 +1866,28 @@ const mx = (() => {
         return head + (rows ? `<ul class="reason-list">${rows}</ul>` : '');
     }
 
+    // Lieu de naissance et parents : l'index ne donnant ni l'un ni l'autre, c'est ce qu'il faut
+    // comparer à la fiche du registre (qui les mentionne) pour valider ou écarter un résultat.
+    function personName(id) {
+        const q = id ? map.get(id) : null;
+        return q ? [q.given, q.surname].filter(Boolean).join(' ') : '';
+    }
+    const fatherName = p => personName(p.fatherId);
+    const motherName = p => personName(p.motherId);
+    const birthCity = p => p.birth?.geo?.city || '';
+
     function rowHtml(c) {
         const p = c.person;
         const birthDisplay = `${c.birthEst.year}${c.birthEst.estimated ? ' (est.)' : ''}`;
         const range = c.classRange.min === c.classRange.max ? `${c.classRange.min}` : `${c.classRange.min}–${c.classRange.max}`;
+        const parents = [fatherName(p), motherName(p)].filter(Boolean).map(escapeHtml).join('<br>');
         return `
             <td>${c.sosa != null ? c.sosa : '-'}</td>
             <td>${escapeHtml(p.surname || '')}</td>
             <td>${escapeHtml(p.given || '')}</td>
             <td>${birthDisplay}</td>
+            <td>${birthCity(p) ? escapeHtml(birthCity(p)) : '<em>inconnu</em>'}</td>
+            <td>${parents || '<em>inconnus</em>'}</td>
             <td>${range}</td>
             <td>${c.dept ? `${escapeHtml(c.dept)} <span class="hint">(${c.deptSource})</span>` : '<em>inconnu</em>'}</td>
             <td>${matriculesCell(c)}</td>
@@ -1898,14 +1913,15 @@ const mx = (() => {
     // Export : uniquement les fiches déjà obtenues (une ligne par fiche), sans appel supplémentaire.
     csvBtn.addEventListener('click', () => {
         if (!candidates.length) return;
-        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Classe min', 'Classe max', 'Departement', 'Recherche', 'Fiches trouvees', 'Fiche nom', 'Fiche prenoms', 'Fiche classe', 'Fiche bureau', 'Fiche statut', 'URL registre'];
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Lieu de naissance', 'Pere', 'Mere', 'Classe min', 'Classe max', 'Departement', 'Recherche', 'Fiches trouvees', 'Fiche nom', 'Fiche prenoms', 'Fiche classe', 'Fiche bureau', 'Fiche statut', 'URL registre'];
         const rows = [];
         sortedCandidates().forEach(c => {
             const st = searchState.get(c.person.id);
             const done = st?.status === 'done';
             const base = [
                 c.sosa != null ? c.sosa : '', c.person.id, c.person.surname || '', c.person.given || '',
-                c.birthEst.year, c.birthEst.estimated ? 'oui' : 'non', c.classRange.min, c.classRange.max, c.dept || '',
+                c.birthEst.year, c.birthEst.estimated ? 'oui' : 'non',
+                birthCity(c.person), fatherName(c.person), motherName(c.person), c.classRange.min, c.classRange.max, c.dept || '',
                 done ? 'faite' : (st?.status === 'error' ? 'erreur' : 'non faite'),
                 done ? st.result.total : ''
             ];
