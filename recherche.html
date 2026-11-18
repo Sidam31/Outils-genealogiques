@@ -54,6 +54,7 @@
 
     <a class="tab-btn" id="topModeSuccessionsBtn" href="#successions">⚰ Successions</a>
     <a class="tab-btn" id="topModeMariageBtn" href="#mariage">💍 Mariage</a>
+    <a class="tab-btn" id="topModeMatriculesBtn" href="#matricules">🎖 Matricules</a>
     <a class="tab-btn" id="topModeGallicaBtn" href="#meta-recherche">🔎 Méta-recherche</a>
 </div>
 
@@ -530,6 +531,57 @@
     </div>
 </div>
 
+<div id="mxPanel" class="tab-panel hidden">
+    <div class="quality-container" style="max-width:none;">
+        <p class="quality-intro">Pour chaque homme de l'arbre né à temps pour les classes 1878 à 1925, une recherche dans l'index des registres matricules militaires de <a href="https://neogenea.fr" target="_blank" rel="noopener">Neogenea</a> (~12 millions de soldats, 83 départements, transcription automatique en partie vérifiée), avec un lien direct vers la fiche dans la visionneuse des Archives départementales.</p>
+        <p class="hint" style="text-align:center;">La classe est, à quelques exceptions près (inscription tardive, sursis, engagé volontaire), l'année des 20 ans : la recherche porte sur la classe attendue ± la tolérance choisie (2 ans de plus quand la naissance est estimée), le nom (préfixe, accents ignorés), le premier prénom et, si l'option est cochée, les bureaux de recrutement du département de naissance (à défaut mariage, puis décès). L'index ne donne ni date ni lieu de naissance : vérifiez chaque fiche sur le registre. Aucun résultat ne prouve pas l'absence du registre (couverture partielle, erreurs de lecture) — essayez les variantes orthographiques ou sans filtre de département.</p>
+        <p class="hint" style="text-align:center;">Les recherches ne partent qu'à la demande (bouton par ligne, ou « Tout rechercher ») : l'API est limitée en nombre d'appels. Données : Neogenea, d'après les registres matricules des Archives départementales — usage non commercial.</p>
+
+        <div class="options-panel">
+            <div class="checkbox-group">
+                <label>Tolérance sur la classe : ± <input type="number" id="mxOptTolerance" value="1" min="0" max="5" style="width:50px;"> an(s)</label>
+                <label><input type="checkbox" id="mxOptUseDept" checked> Restreindre aux bureaux du département de naissance</label>
+                <label><input type="checkbox" id="mxOptVariants"> Inclure les variantes orthographiques du nom</label>
+            </div>
+            <div class="map-scope-row">
+                <label for="mxOptAncestorOnly"><input type="checkbox" id="mxOptAncestorOnly"> Uniquement les ascendants de :</label>
+                <div class="ctrl">
+                    <input type="text" id="mxPersonSearch" placeholder="Rechercher une personne..." disabled>
+                    <ul id="mxPersonResults" class="person-picker-results"></ul>
+                </div>
+                <span id="mxPersonSelected" class="map-person-selected"></span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="mxAnalyzeBtn" disabled>Analyser le fichier</button>
+            <button id="mxSearchAllBtn" class="secondary hidden">🔎 Tout rechercher</button>
+            <button id="mxCsvBtn" class="secondary hidden">⬇ Export CSV</button>
+        </div>
+
+        <div id="mxStatus">Chargez un fichier GEDCOM depuis l'accueil.</div>
+
+        <div id="mxResultsWrap" class="hidden results-scroll">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort="sosa">Sosa <span class="sort-arrow"></span></th>
+                        <th class="sortable" data-sort="name">Nom <span class="sort-arrow"></span></th>
+                        <th>Prénom</th>
+                        <th class="sortable" data-sort="birth">Naissance <span class="sort-arrow"></span></th>
+                        <th>Classe cherchée</th>
+                        <th>Département</th>
+                        <th>Registres matricules</th>
+                        <th>Vérifié</th>
+                        <th>Commentaire</th>
+                    </tr>
+                </thead>
+                <tbody id="mxResultsBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
 <script type="module">
 import { bootstrap } from './assets/js/bootstrap.js';
 import { createPersonPicker, wireClickAway } from './assets/js/person-picker.js';
@@ -547,6 +599,7 @@ import { successionSearchLinks, marriageSearchLinks, recensementSearchLinks, gen
 import { deptCode } from './assets/js/geo.js';
 import { estimateBirthYear } from './assets/js/inference.js';
 import { computeGallicaLeads } from './assets/js/gallica.js';
+import { computeMatriculeCandidates, searchMatricules } from './assets/js/matricules.js';
 
 // --- Sous-navigation : bascule entre les cinq volets fusionnés sur cette page ---
 // (Décès manquants, puis les quatre modes du volet FranceArchives, tous à plat au même niveau).
@@ -556,11 +609,14 @@ const topModeNotariatBtn = document.getElementById('topModeNotariatBtn');
 const topModeSuccessionsBtn = document.getElementById('topModeSuccessionsBtn');
 const topModeMariageBtn = document.getElementById('topModeMariageBtn');
 const topModeGallicaBtn = document.getElementById('topModeGallicaBtn');
+const topModeMatriculesBtn = document.getElementById('topModeMatriculesBtn');
 const dmPanelEl = document.getElementById('dmPanel');
 const faPanelEl = document.getElementById('faPanel');
 const gxPanelEl = document.getElementById('gxPanel');
+const mxPanelEl = document.getElementById('mxPanel');
 // 'notariat' retiré tant que le volet n'est pas fonctionnel (onglet masqué, #notariat renvoie à 'deces').
-const TOP_MODES = ['deces', 'recensement', 'successions', 'mariage', 'meta-recherche'];
+const TOP_MODES = ['deces', 'recensement', 'successions', 'mariage', 'matricules', 'meta-recherche'];
+const OWN_PANEL_MODES = ['deces', 'matricules', 'meta-recherche']; // volets hors du panneau FranceArchives (fa)
 function setTopMode(m) {
     if (m === 'gallica' || m === 'agregateur') m = 'meta-recherche'; // anciens noms de l'onglet : les liens existants restent valides
     if (!TOP_MODES.includes(m)) m = 'deces';
@@ -570,10 +626,12 @@ function setTopMode(m) {
     topModeSuccessionsBtn.classList.toggle('active', m === 'successions');
     topModeMariageBtn.classList.toggle('active', m === 'mariage');
     topModeGallicaBtn.classList.toggle('active', m === 'meta-recherche');
+    topModeMatriculesBtn.classList.toggle('active', m === 'matricules');
     dmPanelEl.classList.toggle('hidden', m !== 'deces');
-    faPanelEl.classList.toggle('hidden', m === 'deces' || m === 'meta-recherche');
+    faPanelEl.classList.toggle('hidden', OWN_PANEL_MODES.includes(m));
     gxPanelEl.classList.toggle('hidden', m !== 'meta-recherche');
-    if (m !== 'deces' && m !== 'meta-recherche') fa.setMode(m);
+    mxPanelEl.classList.toggle('hidden', m !== 'matricules');
+    if (!OWN_PANEL_MODES.includes(m)) fa.setMode(m);
 }
 // Chaque sous-onglet a un lien direct (#deces, #recensement...) : les boutons sont de vrais
 // <a href="#..."> plutôt que des boutons avec onclick, et c'est le hash de l'URL qui pilote
@@ -1234,7 +1292,7 @@ const fa = (() => {
             return (icon ? `<img src="assets/img/${icon}" alt="" width="14" height="14" style="vertical-align:-2px; margin-right:3px;">` : '') + escapeHtml(l.site);
         };
         return `<div style="font-size:0.8rem; margin-top:4px;">Chercher sur : ${links.map(l =>
-            `<a href="${l.url}" target="_blank" rel="noopener">${label(l)}</a>`).join(' · ')}</div>`;
+            `<a href="${l.url}" target="_blank" rel="noopener noreferrer">${label(l)}</a>`).join(' · ')}</div>`;
     }
 
     function renderSuccessionResults() {
@@ -1575,6 +1633,8 @@ const gx = (() => {
         return { gallica: l.url, ...generalSearchUrls(l.surname, l.given, ...period) };
     }
 
+    // noreferrer : un clic depuis l'appli envoie sinon un Referer d'une autre origine, que le
+    // Cloudflare de Gallica traite en robot (la même URL collée dans la barre d'adresse passe).
     function linksCell(r) {
         const sites = enabledSites();
         if (!sites.length) return '<em>aucun site sélectionné</em>';
@@ -1582,7 +1642,7 @@ const gx = (() => {
             const urls = siteUrls(r, l);
             const name = escapeHtml([l.surname, l.given].filter(Boolean).join(' '));
             return `<div class="city-buttons"><span>${l.married ? '💍' : '🔎'} ${name}</span>${sites.map(s =>
-                `<a class="btn-link" href="${urls[s]}" target="_blank" rel="noopener">${siteIcon(s)}${SITE_LABELS[s]}</a>`
+                `<a class="btn-link" href="${urls[s]}" target="_blank" rel="noopener noreferrer">${siteIcon(s)}${SITE_LABELS[s]}</a>`
             ).join('')}</div>`;
         }).join('');
     }
@@ -1648,12 +1708,232 @@ const gx = (() => {
     };
 })();
 
+// --- Registres matricules (API Neogenea, voir matricules.js) ---
+// Même enveloppe IIFE que gx. Deux temps : "Analyser" liste les candidats sans appel réseau, puis les
+// recherches partent à la demande (bouton par ligne ou "Tout rechercher") pour ménager le quota.
+const mx = (() => {
+    let list = [], map = new Map(), fams = new Map();
+    let ancestorPersonId = null;
+    let candidates = [];
+    const searchState = new Map(); // person.id -> { status: 'loading'|'done'|'error', result, error }
+    let sortKey = 'sosa', sortDir = 1;
+    let searchAllRunning = false;
+
+    const SORT_COMPARATORS = {
+        sosa: c => c.sosa ?? Infinity,
+        name: c => `${c.person.surname || ''} ${c.person.given || ''}`.toLocaleUpperCase('fr'),
+        birth: c => c.birthEst.year
+    };
+    function sortedCandidates() {
+        const getKey = SORT_COMPARATORS[sortKey] || SORT_COMPARATORS.sosa;
+        return [...candidates].sort((a, b) => {
+            const ka = getKey(a), kb = getKey(b);
+            const cmp = typeof ka === 'string' ? ka.localeCompare(kb) : (ka - kb);
+            return cmp * sortDir;
+        });
+    }
+    document.querySelectorAll('#mxPanel th.sortable').forEach(th => {
+        th.addEventListener('click', () => {
+            const key = th.dataset.sort;
+            if (sortKey === key) { sortDir *= -1; } else { sortKey = key; sortDir = 1; }
+            updateSortIndicators();
+            renderResults();
+        });
+    });
+    function updateSortIndicators() {
+        document.querySelectorAll('#mxPanel th.sortable').forEach(th => {
+            const active = th.dataset.sort === sortKey;
+            th.classList.toggle('sort-active', active);
+            th.querySelector('.sort-arrow').textContent = active ? (sortDir === 1 ? '▲' : '▼') : '';
+        });
+    }
+
+    const analyzeBtn = document.getElementById('mxAnalyzeBtn');
+    const searchAllBtn = document.getElementById('mxSearchAllBtn');
+    const csvBtn = document.getElementById('mxCsvBtn');
+    const statusEl = document.getElementById('mxStatus');
+    const resultsWrap = document.getElementById('mxResultsWrap');
+    const resultsBody = document.getElementById('mxResultsBody');
+    const toleranceEl = document.getElementById('mxOptTolerance');
+    const useDeptEl = document.getElementById('mxOptUseDept');
+    const variantsEl = document.getElementById('mxOptVariants');
+    const ancestorOnlyEl = document.getElementById('mxOptAncestorOnly');
+    const personSearchEl = document.getElementById('mxPersonSearch');
+    const personResultsEl = document.getElementById('mxPersonResults');
+
+    const MX_VERIF_KEY = 'visugedcom_mx_verif_v1';
+    wireVerifCellEvents(resultsBody);
+
+    ancestorOnlyEl.addEventListener('change', e => { personSearchEl.disabled = !e.target.checked; });
+    createPersonPicker({
+        searchEl: personSearchEl, resultsEl: personResultsEl,
+        selectedEl: document.getElementById('mxPersonSelected'),
+        getList: () => list,
+        onSelect: p => { ancestorPersonId = p.id; }
+    });
+    wireClickAway(personResultsEl);
+
+    // Changer une option de recherche rend les résultats déjà obtenus obsolètes.
+    [useDeptEl, variantsEl].forEach(el => el.addEventListener('change', () => { searchState.clear(); renderResults(); }));
+
+    analyzeBtn.addEventListener('click', () => {
+        if (!list.length) return;
+        const scopeSet = (ancestorOnlyEl.checked && ancestorPersonId) ? new Set(getAncestorIds(map, ancestorPersonId)) : null;
+        const sosaMap = scopeSet ? getSosaMap(map, ancestorPersonId) : null;
+        candidates = computeMatriculeCandidates(list, map, fams, estimateBirthYear, {
+            ancestorScopeSet: scopeSet,
+            tolerance: Math.max(0, parseInt(toleranceEl.value) || 0)
+        });
+        candidates.forEach(c => { c.sosa = sosaMap ? (sosaMap.get(c.person.id) ?? null) : null; });
+        searchState.clear();
+        statusEl.textContent = `${candidates.length} homme(s) concerné(s) par les classes 1878-1925. Lancez une recherche par ligne, ou « Tout rechercher » (${candidates.length} appel(s) à l'API).`;
+        const any = candidates.length > 0;
+        resultsWrap.classList.toggle('hidden', !any);
+        searchAllBtn.classList.toggle('hidden', !any);
+        csvBtn.classList.toggle('hidden', !any);
+        sortKey = sosaMap ? 'sosa' : 'name';
+        sortDir = 1;
+        updateSortIndicators();
+        renderResults();
+    });
+
+    async function runSearch(c) {
+        const id = c.person.id;
+        if (searchState.get(id)?.status === 'loading') return;
+        searchState.set(id, { status: 'loading' });
+        renderRow(c);
+        try {
+            const result = await searchMatricules(c, { useDept: useDeptEl.checked, variants: variantsEl.checked });
+            searchState.set(id, { status: 'done', result });
+        } catch (err) {
+            searchState.set(id, { status: 'error', error: err.message });
+        }
+        renderRow(c);
+    }
+
+    // Garde-fou quota : au-delà de 200 appels, confirmation explicite ; arrêt au premier refus de quota.
+    searchAllBtn.addEventListener('click', async () => {
+        if (searchAllRunning) return;
+        const todo = sortedCandidates().filter(c => searchState.get(c.person.id)?.status !== 'done');
+        if (!todo.length) return;
+        if (todo.length > 200 && !confirm(`${todo.length} recherches vont être lancées sur l'API Neogenea (quota mensuel partagé). Continuer ?`)) return;
+        searchAllRunning = true;
+        searchAllBtn.disabled = true;
+        let n = 0, stopped = null;
+        for (const c of todo) {
+            statusEl.textContent = `Recherche ${++n}/${todo.length}…`;
+            await runSearch(c);
+            const st = searchState.get(c.person.id);
+            if (st?.status === 'error' && /quota/.test(st.error)) { stopped = st.error; break; }
+        }
+        statusEl.textContent = stopped ? `Interrompu : ${stopped}.` : `Terminé : ${todo.length} recherche(s).`;
+        searchAllRunning = false;
+        searchAllBtn.disabled = false;
+    });
+
+    resultsBody.addEventListener('click', e => {
+        const btn = e.target.closest('.mx-search-btn');
+        if (!btn) return;
+        const c = candidates.find(x => x.person.id === btn.dataset.id);
+        if (c) runSearch(c);
+    });
+
+    const STATUS_BADGES = {
+        verified: '<span class="decl-badge decl-ok" title="Vérifié (index humain ou correction)">vérifié</span>',
+        auto: '<span class="decl-badge decl-part" title="Lecture automatique, confiance ≥ 95 %">auto</span>',
+        uncertain: '<span class="decl-badge decl-few" title="Lecture automatique incertaine">incertain</span>'
+    };
+
+    function matriculesCell(c) {
+        const st = searchState.get(c.person.id);
+        const btn = `<button class="secondary mx-search-btn" data-id="${escapeHtml(c.person.id)}" style="padding:2px 8px;">${st ? '↻' : '🔎 Chercher'}</button>`;
+        if (!st) return btn;
+        if (st.status === 'loading') return '<em>Recherche…</em>';
+        if (st.status === 'error') return `<span class="dept-ko">Erreur : ${escapeHtml(st.error)}</span> ${btn}`;
+        const r = st.result;
+        const notes = [];
+        if (useDeptEl.checked && c.dept && !r.deptCovered) notes.push(`département ${escapeHtml(c.dept)} non couvert : recherche sans filtre de département`);
+        if (r.variantLabels.length) notes.push(`variantes : ${r.variantLabels.map(escapeHtml).join(', ')}`);
+        const count = r.total
+            ? `${r.total}${r.capped ? '+' : ''} fiche(s)${r.total > r.rows.length ? ` — ${r.rows.length} premières affichées, affinez si besoin` : ''}`
+            : '<em>aucune fiche</em>';
+        const head = `<div style="font-size:0.8rem;">${count}${notes.length ? ` (${notes.join(' ; ')})` : ''} ${btn}</div>`;
+        const rows = r.rows.map(x =>
+            `<li><a href="${escapeHtml(x.viewer_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(x.last_name)} ${escapeHtml(x.first_name || '?')}</a> — classe ${escapeHtml(x.class_year || '?')}, ${escapeHtml(x.bureauLabel)} ${STATUS_BADGES[x.status] || ''}</li>`
+        ).join('');
+        return head + (rows ? `<ul class="reason-list">${rows}</ul>` : '');
+    }
+
+    function rowHtml(c) {
+        const p = c.person;
+        const birthDisplay = `${c.birthEst.year}${c.birthEst.estimated ? ' (est.)' : ''}`;
+        const range = c.classRange.min === c.classRange.max ? `${c.classRange.min}` : `${c.classRange.min}–${c.classRange.max}`;
+        return `
+            <td>${c.sosa != null ? c.sosa : '-'}</td>
+            <td>${escapeHtml(p.surname || '')}</td>
+            <td>${escapeHtml(p.given || '')}</td>
+            <td>${birthDisplay}</td>
+            <td>${range}</td>
+            <td>${c.dept ? `${escapeHtml(c.dept)} <span class="hint">(${c.deptSource})</span>` : '<em>inconnu</em>'}</td>
+            <td>${matriculesCell(c)}</td>
+            ${verifCells(MX_VERIF_KEY, p.id)}
+        `;
+    }
+
+    function renderRow(c) {
+        const tr = resultsBody.querySelector(`tr[data-id="${CSS.escape(c.person.id)}"]`);
+        if (tr) tr.innerHTML = rowHtml(c);
+    }
+
+    function renderResults() {
+        resultsBody.innerHTML = '';
+        sortedCandidates().forEach(c => {
+            const tr = document.createElement('tr');
+            tr.dataset.id = c.person.id;
+            tr.innerHTML = rowHtml(c);
+            resultsBody.appendChild(tr);
+        });
+    }
+
+    // Export : uniquement les fiches déjà obtenues (une ligne par fiche), sans appel supplémentaire.
+    csvBtn.addEventListener('click', () => {
+        if (!candidates.length) return;
+        const headers = ['Sosa', 'ID', 'Nom', 'Prenom', 'Naissance', 'Naissance estimee', 'Classe min', 'Classe max', 'Departement', 'Recherche', 'Fiches trouvees', 'Fiche nom', 'Fiche prenoms', 'Fiche classe', 'Fiche bureau', 'Fiche statut', 'URL registre'];
+        const rows = [];
+        sortedCandidates().forEach(c => {
+            const st = searchState.get(c.person.id);
+            const done = st?.status === 'done';
+            const base = [
+                c.sosa != null ? c.sosa : '', c.person.id, c.person.surname || '', c.person.given || '',
+                c.birthEst.year, c.birthEst.estimated ? 'oui' : 'non', c.classRange.min, c.classRange.max, c.dept || '',
+                done ? 'faite' : (st?.status === 'error' ? 'erreur' : 'non faite'),
+                done ? st.result.total : ''
+            ];
+            const found = done ? st.result.rows : [];
+            if (!found.length) rows.push([...base, '', '', '', '', '', '']);
+            found.forEach(x => rows.push([...base, x.last_name, x.first_name, x.class_year, x.bureauLabel, x.status, x.viewer_url]));
+        });
+        downloadCsv('matricules_pistes.csv', headers, rows);
+    });
+
+    return {
+        applyData(data) {
+            list = data.list; map = data.map; fams = data.fams;
+            analyzeBtn.disabled = !list.length;
+            statusEl.textContent = list.length
+                ? `Fichier chargé (${list.length} individus). Cliquez sur "Analyser le fichier".`
+                : 'Chargez un fichier GEDCOM depuis l\'accueil.';
+        }
+    };
+})();
+
 bootstrap({
     page: 'deces',
     onData: data => {
         dm.applyData(data);
         fa.applyData(data);
         gx.applyData(data);
+        mx.applyData(data);
     }
 });
 
