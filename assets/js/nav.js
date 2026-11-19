@@ -31,6 +31,7 @@ const TOOLS = [
     { href: 'qualite.html', icon: '🔍', label: 'Analyse Qualité', page: 'qualite' },
     { href: 'recherche.html', icon: '🧭', label: 'Aide à la recherche', page: 'deces' },
     { href: 'parentes.html', icon: '🧬', label: 'Parentés hyp.', page: 'parentes' },
+    { href: 'adn.html', icon: '🧪', label: 'Match ADN', page: 'adn' },
     { href: 'rue-commune.html', icon: '📍', label: 'Rue & Commune', page: 'rue-commune' },
 ];
 

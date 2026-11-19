@@ -453,3 +453,73 @@ text.gen-6, text.gen-7, text.gen-8 { font-size: 6px; }
 .reseau-path ol { margin: 0; padding-left: 18px; }
 .reseau-path li { margin-bottom: 2px; }
 .side-controls input[type="range"] { width: 100%; accent-color: var(--accent); }
+
+/* MATCH ADN (adn.html) */
+#adnPanel { flex: 1; overflow: hidden; display: flex; flex-direction: row; }
+#adnSidebar { width: 340px; min-width: 340px; overflow-y: auto; background: var(--paper); border-right: 1px solid var(--border); padding: 16px; display: flex; flex-direction: column; gap: 16px; box-sizing: border-box; }
+#adnSidebar h3, #adnMain h3 { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.05em; color: #7f8c8d; margin: 0 0 8px; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
+#adnSidebar section { display: flex; flex-direction: column; gap: 6px; }
+#adnSidebar label { font-size: 0.8rem; color: #555; margin-top: 4px; display: block; }
+#adnSidebar input[type="range"] { width: 100%; accent-color: var(--accent); padding: 0; }
+#adnSidebar input[type="number"], #adnSidebar input[type="text"], #adnSidebar select { width: 100%; }
+#adnSidebar button { cursor: pointer; margin-top: 6px; }
+#adnPanel .hint { font-size: 0.78rem; color: #7f8c8d; font-style: italic; }
+.adn-row { display: flex; gap: 8px; }
+.adn-row > * { flex: 1; min-width: 0; }
+.adn-sub > summary { cursor: pointer; font-size: 0.8rem; color: #555; font-weight: 600; padding: 2px 0; }
+.adn-sub { display: flex; flex-direction: column; gap: 4px; }
+.adn-credits a { color: inherit; }
+#adnMain { flex: 1; overflow-y: auto; padding: 16px 20px; box-sizing: border-box; }
+.adn-empty { color: var(--muted); padding: 40px; text-align: center; font-style: italic; }
+.adn-summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 10px; }
+.adn-stat { background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; }
+.adn-stat.key { border-color: var(--peach-ink); background: var(--peach); }
+.adn-stat-label { font-size: 0.75rem; color: var(--muted); }
+.adn-stat-value { font-family: var(--font-serif); font-size: 1.4rem; font-weight: 700; color: var(--ink); font-variant-numeric: tabular-nums; }
+.adn-stat-value small { font-family: system-ui, sans-serif; font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+.adn-stat-sub { font-size: 0.75rem; color: var(--muted); }
+.adn-warning { background: #fff7e6; border: 1px solid #e8c37a; color: #7a5410; border-radius: 6px; padding: 6px 10px; font-size: 0.8rem; margin-bottom: 6px; }
+.adn-fans { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px; }
+.adn-fan-wrap { margin: 0; background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 8px; }
+.adn-fan-wrap figcaption { font-size: 0.9rem; color: var(--ink); display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.adn-cond { font-size: 0.78rem; color: var(--peach-ink); background: var(--peach); border-radius: 10px; padding: 1px 8px; }
+.adn-fan-wrap svg { width: 100%; height: auto; display: block; }
+.adn-ring { cursor: pointer; outline: none; }
+.adn-cell { stroke: #fff; stroke-width: 0.6; }
+.adn-ring-outline { fill: none; stroke: transparent; stroke-width: 2.5; }
+.adn-ring:hover .adn-ring-outline, .adn-ring:focus-visible .adn-ring-outline { stroke: var(--teal); }
+.adn-ring-selected { fill: none; stroke: var(--peach-ink); stroke-width: 3; pointer-events: none; }
+.adn-ring-label.beyond { fill: #aab4b8; }
+.adn-ring-label { fill: var(--ink); font-weight: 600; text-shadow: none; pointer-events: none; paint-order: stroke; stroke: rgba(255,255,255,0.7); stroke-width: 2.5px; }
+.adn-ring-label.dark { fill: #fff; stroke: rgba(23,69,100,0.6); }
+.adn-ceiling { fill: none; stroke: var(--peach-ink); stroke-width: 2.5; stroke-dasharray: 7 4; pointer-events: none; }
+.adn-ceiling-label { fill: var(--peach-ink); font-size: 14px; text-shadow: none; font-weight: 700; }
+.adn-center { fill: var(--accent); }
+.adn-center-label { fill: #fff; font-size: 14px; text-shadow: none; font-weight: 700; }
+#adnMain .hint.adn-help { margin: 6px 0 14px; text-align: center; }
+.adn-bottom { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 16px; align-items: start; }
+.adn-card { background: #fff; border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; overflow-x: auto; }
+.adn-matrix { border-collapse: collapse; font-size: 0.72rem; font-variant-numeric: tabular-nums; }
+.adn-matrix th { font-weight: 600; color: var(--muted); padding: 2px 4px; white-space: nowrap; }
+.adn-matrix th.sel { color: var(--peach-ink); }
+.adn-matrix th.corner { font-weight: 400; font-style: italic; }
+.adn-matrix td { width: 30px; height: 24px; text-align: center; border: 1px solid #fff; cursor: pointer; color: var(--ink); }
+.adn-matrix td.dark { color: #fff; }
+.adn-matrix td.off { background: #fafafa; cursor: default; }
+.adn-matrix td.sel { outline: 2px solid var(--peach-ink); outline-offset: -2px; }
+.adn-list { width: 100%; border-collapse: collapse; font-size: 0.8rem; }
+.adn-list th { text-align: left; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--border); padding: 4px; }
+.adn-list td { border-bottom: 1px solid #eef2f2; padding: 4px; vertical-align: top; }
+.adn-list .muted, .adn-card .muted { color: var(--muted); font-size: 0.72rem; }
+.adn-bar { height: 6px; background: #eef2f2; border-radius: 3px; width: 80px; margin-bottom: 2px; }
+.adn-bar span { display: block; height: 100%; background: var(--accent); border-radius: 3px; }
+.adn-out { color: var(--peach-ink); font-size: 0.7rem; font-weight: 600; }
+.adn-ind { margin: 0; font-size: 0.8rem; }
+.adn-ind dt { font-weight: 600; color: var(--ink); margin-top: 6px; }
+.adn-ind dt.warn { color: var(--peach-ink); }
+.adn-ind dd { margin: 0; color: var(--muted); }
+@media (max-width: 900px) {
+    #adnPanel { flex-direction: column; overflow-y: auto; }
+    #adnSidebar { width: auto; min-width: 0; border-right: none; border-bottom: 1px solid var(--border); overflow: visible; }
+    #adnMain { overflow: visible; padding: 12px 16px; }
+}
